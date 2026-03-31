@@ -1,0 +1,1212 @@
+---
+title: Survey Generator User Guide
+doc_type: UG
+doc_label: User Guide
+doc_layer: anchor
+doc_subject: Survey Generator
+app_code: QAP
+app_name: Survey Generator
+section: INF
+app_status: active
+pkg_ns: QAP
+patch_ver: 2.0
+patch_id: QAP*2.0
+group_key: "QAP:QAP:2.0"
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: - [| Date | Revision | Description | Author |](#date-revision-description-author) - [# # # # # # Introduction](#introduction) - [# # Orientation Section](#orientation-section) - [# # Package Management](#package-management) - [# # Package Operation](#package-operation) - [# # Survey Generator Manage
+audience: 
+keywords: 
+  - survey
+  - question
+  - author
+  - number
+  - answer
+  - questions
+  - demographic
+  - entered
+  - wish
+  - edit
+page_count: 0
+word_count: 8795
+section_count: 4
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: False
+is_stub: False
+pub_date: APRIL 2024
+revision_count: 0
+revision_newest: 
+revision_oldest: 
+docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.docx"
+pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.pdf"
+app_url: "https://www.va.gov/vdl/application.asp?appid=27"
+---
+
+![](survey-generator-user-guide/001.png)
+
+SURVEY GENERATOR
+
+USER GUIDE
+
+APRIL 2024
+
+# | Date       | Revision | Description                                                                              | Author             |
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Table of Contents
+
+- [| Date       | Revision | Description                                                                              | Author             |](#date-revision-description-author)
+- [# # # # # # Introduction](#introduction)
+- [# # Orientation Section](#orientation-section)
+- [# # Package Management](#package-management)
+- [# # Package Operation](#package-operation)
+- [# # Survey Generator Manager Menu Overview](#survey-generator-manager-menu-overview)
+  - [Survey Manager Menu Sub-option Overview](#survey-manager-menu-sub-option-overview)
+    - [Create a New Survey](#create-a-new-survey)
+  - [Edit Basic Survey Data](#edit-basic-survey-data)
+  - [Add or Edit Demographic Survey Fields](#add-or-edit-demographic-survey-fields)
+|------------|----------|------------------------------------------------------------------------------------------|--------------------|
+| April 2024 | 1        | QAP\*2\*8 - Placing all Survey Generator options out of order preparing for decommission | VistA Front Office |
+Table used for formatting, only.Revision History, including date of changes, version number, description of change, and author of change.
+
+# # # # # # # Introduction
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> **NOTE:** ALL OPTIONS UNDER THIS MENU HAVE BEEN PLACED OUT OF ORDERWITH PATCH QAP\*2\*8
+
+The Survey Generator is a software package which allows creation and maintenance of computerized survey forms. It also provides for entry of any respondents answers via computer terminal or a hard copy filled out and then entered by any designated person. In addition, it provides useful statistical information by survey alone or by demographic data items.
+
+This package is designed with both the survey author and the respondent in mind. It is simple to use and straightforward in operation and does not require any exceptional skills on the user's part.
+
+Functional descriptionCreating a survey:
+
+The survey author designs a survey, complete with layout and questions for it. The survey is then entered via any terminal using the supplied menu items ' then printed in a draft form and reviewed for accuracy. If the survey is as the author desires, it then can be released to users who may participate via any terminal. The survey also may be printed in a final hard copy form for distribution to persons who do not have ready computer access.
+
+In addition, there are other menu options which allows the survey author to manipulate, maintain, copy or report on surveys.
+
+Editing and Maintenance of a survey:
+
+The author of the survey may use the supplied menu options or sub-options to create, edit, or maintain any part of a survey. There are, however, certain constraints to maintenance. Several maintenance items may only be used provided the survey has not yet been responded to. This includes things like adding or deleting questions and demographic items. other maintenance items like copying, printing, complete survey deletions and counting the number of current participants may be done at any time. Persons who hold the QAP MANAGER key or who are designated by the creator as authorized editors, may act on behalf of the creator for any maintenance items.
+
+Survey Participation:
+
+A person who wishes to respond to a survey may use the option 'Participate in a Survey' to enter his/her answers via any computer terminal. Users who do not have access to a computer terminal may fill out a hard copy of the survey and return it to the proper person for manual input. Users who have only partially completed a survey may suspend the survey and resume at a later date.
+
+It should be noted that survey creation and participation is entirely voluntary on the part of the authors and participants.
+
+Other items:
+
+There are no electronic signatures or other similar items for this package. This package requires no periodic purging or regular maintenance from the IRM Service.
+
+# # # Orientation Section
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+How to use this manual
+
+Each menu begins with an overview of the options contained in it, followed by the actual option documentation. The options are listed in the order they appear on the menu. Most option documentation will contain the following:
+
+> Introduction The introduction gives a description of the option or sub-option and what it is used for. It will contain any special instructions related to the option.
+
+> Prompts Prompts contained in the option or sub-option will normally be listed and any special information needed in answering each prompt will be provided.
+
+> Example The example displays what you may see on the screen when using the option. A sample of any outputs, messages, etc., generated by the option are usually included.
+
+The symbols RETURN and RET may be used to indicate the pressing of the Enter/Return key on the terminal keyboard. The \< - \> symbol often is used when referring to the up-arrow (caret).
+
+Online Help
+
+Entering a single question mark (?) at most prompts will display any online Help available. Help messages provide lists of acceptable responses or format requirements and also may give instruction on how to respond. At certain points in the programming, a question mark will provide a list from which the participant can select. Any time the user should have to resolve a list of selections, the system will usually accept the number of the response, unless otherwise indicated. Several places provide extended Help by entering two question marks (??).
+
+A help message may not be available for every prompt. If you enter question marks at a prompt that does not have help, the prompt will simply repeat itself.
+
+# # # Package Management
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This package does not impose any legal requirements on the user and will not negatively impact any user at any site. Use of this package for creation of surveys as well as survey participation is completely voluntary on the parts of all parties.
+
+# # # Package Operation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Survey Generator Package consists only of two main menus and two sub-menus. Each will be described separately.
+
+Survey Generator Manager Menu
+
+> 1 Create/Edit a Survey
+
+> 2 Copy a Survey
+
+> 3 Print a Survey
+
+> 4 Release/Disable a Survey for Participation
+
+> 5 Count Survey Participants
+
+> 6 Delete a Survey, Questions and Responses
+
+> 7 Clear a Survey of Responses
+
+> 8 Generate Survey Statistics
+
+> 9 Print Statistics by a Demographic Data Item
+
+> 10 Print all Survey Responses Individually
+
+> 11 Export a Survey
+
+> 12 Import a Survey
+
+> 13 Populate the Demographic Reference File
+
+> 14 Fix a Survey Response
+
+Survey participant Menu
+
+> 1 Participate in a Survey
+
+> 2 Edit an Incomplete Survey Response
+
+> 3 Print Statistics by a Demographic Data Item
+
+> 4 Generate Survey Statistics
+
+> 5 User Hardcopy Print of Survey
+
+# # # Survey Generator Manager Menu Overview
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Create/Edit a Survey: This option will bring up a submenu which gives a list of addition/editing options from which to choose:
+
+Select one of the following:
+
+C Create a New Survey
+
+B Edit Basic Survey data
+
+D Add or Edit Demographic Survey Fields
+
+E Edit All Questions Sequentially
+
+I Add/Edit Individual Questions
+
+P Print a Survey
+
+Q Quit (also uparrow, or \<RETURN\>)
+
+Selection:
+
+You can enter a ? at the "Selection" prompt to get a short description of each sub-option.
+
+## Survey Manager Menu Sub-option Overview
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Create a New Survey
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Introduction:
+
+This option allows only the creation of a new survey and it cannot be used to edit an existing survey. It allows the survey author to enter all information required.
+
+Prompts:
+
+NAME: the name you wish to give the survey.
+
+TITLE: the title of the survey, as you wish the user to see it.
+
+IAST DATE FOR USAGE: - the last date users may participate in this survey. It will not be accessible to users after this date.
+
+PASSWORD: - if this field is filled in, the participants must know
+
+the password in order to participate. This is useful in segregating surveys among certain groups, i.e., all employees in one service.
+
+MULTI-ENTRY PASSWORD: - if this field is filled in, it will allow participants who know this password to participate in the survey more than once. It can be used for things like ward surveys or patient surveys where one person may need to make many responses.
+
+INSTRUCTIONS FOR USE: - anything that will aid the participant in filling out the survey should be included here, including how to fill it out and what to do when finished. The instructions should be well thought out and meaningful and easy to understand by the participant. Any editing or addition of data will be done by your usual DHCP word processor (FileMan Line Editor or Full Screen editor).
+
+Example:Note: This is a full-screen editing example. The screen format is altered slightly to fit the page.
+
+Edit? NO// Y \<RET\> (Screen clears)
+
+(Press PF1 then H for help)
+
+==\[WRAP\]==\[INSERT INSTRUCTIONS FOR USE\>====These are the instructions for the First Survey.
+
+This survey should be filled out as completely as possible. There is no time limit. If you wish to skip a questions, simply press RETURN.
+
+Demographic information is mandatory.
+
+In the event of the VA FileMan Line Editor, the user's screen will not clear but rather editing will begin below the previous text displayed on the screen.
+
+ARE ALL DEMOGRAPHICS REQUIRED?: - If the author wishes to force the user to enter all demographic information this field should be answered Y for YES. If demographics are entered sporadically, the reports generated by them may be meaningless. Note: this field, when set to NO, may be overridden for each individual demographic item by setting the field IS THIS A REQUIRED ANSWER to YES for each item.
+
+STATISTICS VIEW STATUS: - This field allows setting control over who can view statistical reports. If you leave it blank or enter a ‘c’ for creator/editor, only the survey creator or an authorized editor may view the reports. If you enter In' for no restrictions, anyone can run the reports from the supplied menu options.
+
+DESCRIPTION: - A description of what the survey is for and what its
+
+purpose is. This is a memo field f or later reference by the author. It is also displayed during the participation process on the user screen and also on all printouts except the statistics.
+
+Edit? NO// \<\< Note: Editing of this field is accomplished the same as the
+
+INSTRUCTIONS FOR USE field above \>\>
+
+Select AUTHORIZED EDITORS: - Any person or persons that the author wishes to have full maintenance access to this survey should be entered here. It should be noted that these persons will have exactly the same privileges as the author, including reporting, addition/deletion of questions and demographics, as well as survey deletion and clearing. The author should exercise care when entering names in this field.
+
+> **NOTE:** If either the instructions or the description is omitted, the user will receive notification on the screen that one or more of them is missing. This is merely informational and will not inhibit the continued entry of the survey information. However, the survey will not be allowed to be released until both are entered.
+
+Do you wish to edit any of this basic information? NO// - enter Y to go back and edit the information or N to continue and add demographic data items. It should be noted that if the author enters an uparrow at any time that she/he will have to either delete the survey or input the rest of the required information manually, using other options supplied. Entry of an A will inform the user that he/she is attempting to interrupt survey information entry and the user will be asked the intent.
+
+If the author continues, she/he will be asked for demographic data items.
+
+Select DEMOGRAPHIC DATA ITEM: - Enter the text of the demographic data item, from 3 to 40 characters. It should be typed in exactly as the author wishes it to appear on all survey output, including screens and reports. It should not include a colon (:) or any other punctuation at the end of it since the programming supplies proper punctuation automatically. For the following example the item "Administrative/Clinical" will be used.
+
+Example: (assuming that the item was entered in the "select" request above)
+
+DEMOGRAPHIC DATA ITEM: Administrative/Clinical Replace - the author is allowed to edit the item as it was entered initially.
+
+TYPE: - enter the type of the data item, date (D or d), pointer to a file (P or p), set of codes (S or s), or free text (F or f). It should be noted that the pointer and set of codes will require further input to define the selection. It is recommended, although not necessary, that any codes be entered in lower case and the meanings in upper case. Assuming an Is' was entered in TYPE above the author is then asked:
+
+Select CODE: a (author enters an a) CODE MEANING: ADMINISTRATIVE
+
+Select CODE: c (author enters a c) CODE MEANING: CLINICAL
+
+Select CODE: \<RETURN\> (enter RETURN to quit entering codes)
+
+If the TYPE entered is p or P for pointer, the author will then be asked to choose a file to point to. This may be any file which is contained in the DEMOGRAPHIC REFERENCE file. In the event the file they wish to use is not in the reference file, the author should contact their local IRM Service to have the file entered, if practical to do so. There are some files which may not be practical to give access to.
+
+Example:
+
+> TYPE: p POINTER
+
+> FILE: 200 NEW PERSON :-: --- Computer verifies code and file name
+
+If the TYPE is d or D for date, no further definition is necessary and the participants will be able to enter any type of date, within the VA File Manager parameters for date entry.
+
+If the TYPE is f or F for free text, there also is no need for further definition and the participants will be able to enter any text up to 40 characters in length.
+
+IS THIS A REQUIRED ANSWER? - if you wish to force any particular demographic entry to be required you may set this field to Y for yes. It overrides the ARE ALL DEMOGRAPHICS MANDATORY field when it is set to NO on the basic survey information.
+
+The author should continue to enter demographics until all are entered.
+
+When demographics are completed, the author is then presented with a new page, beginning the addition of questions to this new survey. It should be noted that question entry requires that a numerical increment be designated, that is, a number by which to space each new question that is entered. Once the increment is entered, the system (under this option only and in this sequence of steps) will automatically number the questions. For example if the designated increment is 5, the first question will be 5, the second 10, the third 15 and so on. Note: If any increment other than 1 is used, it should be considered only a temporary number and the question numbers should be resequenced with an increment of one before release. Resequencing will be explained later in this guide.
+
+Do you want help on question entry? - enter Y for a short explanation of the entry of survey questions or accept the default answer of NO to continue. It is not recommended to enter an uparrow here to exit since it will leave the survey without questions and they will have to be entered individually later.
+
+If Y is entered, the following explanation of questions entry is given:
+
+"This area allows you to enter individual questions to this newly created survey.
+
+You will be asked to give a question number for each question. The system will use these numbers in all displays of question data.
+
+A default starting question number will be, supplied and will always be your increment, but you may override it if you wish. From then on, the number displayed will be the first number entered plus your designated increment.
+
+Press RETURN 11
+
+The author may now enter the questions for the survey.
+
+\*\* Question entry notes: Survey authors should note that survey question headers and actual questions are limited as follows:
+
+Question headers: 20 lines of actual text. This is due to the "press return" message which will also be displayed after it.
+
+Questions text: any answers + any prompts + question text must be less than 24 lines.
+
+Survey authors are urged to "take" the survey first and before allowing any other persons to participate in it. This will assure that the survey is presented to the participants as she/he wishes it to be presented. \*\*\*
+
+What increment value do you wish your questions use? 1 enter the desired question increment (i is the default). Any number is acceptable to enter (except decimal numbers) and such selection left up to the author. It is not necessary to leave a lot of space for question insertion since the questions may be resequenced at any time. If any number except 1 is used as an increment, the survey questions MUST be resequenced with an increment of 1 before release to users for participation.
+
+The screen will then clear and the question number will be displayed. The author may then press RETURN to accept the number or may type in any other number. If the default number is replaced (overridden) the increment will be added to it for the next question number. In the event of going back and adding a number which, when the increment added to it results in an existing number, the author may enter a new number, since pressing RETURN will present the author with a screen for editing an existing question number.
+
+For this example, an increment of 10 is used.
+
+\>\> Question number: l // - the user may press RETURN to accept the number or enter another number. If another number is entered, it will then be the basis of the numbering schema. For example if 12 is added, a question 12 will be created and the next question number presented will be 22 (assuming the increment is 10).
+
+It should be noted here that the author at any time may enter a ? at the 11 \>\> Question number: 11 prompt to get a current list of the questions already entered. Only the first 55 characters of each question will be displayed due to space and formatting limitations.
+
+It should also be noted that the author may enter ?? to get notification that he/she may enter:
+
+> R to resequence all questions with a new increment or
+
+> C to copy an existing question and make changes to form it into a completely new question while saving many keystrokes.
+
+The question header will be entered next if there is any. Depending on the type of editor the user uses (full screen or line editor) the screen may or may not clear. The question should be written exactly as it should appear to the participants. Assuming the user has the full screen editor the screen would clear and she/he will be prompted:
+
+QUESTION HEADER: \<\<Note: this screen example has been
+
+No existing text modified slightly to fit the Edit? NO// Y (user enters Y) page. \>\>
+
+(screen clears)
+
+(Press PF1 then H for help)
+
+==\[WRAP\]==(INSERT\]================\<QUESTION HEADER\>=========
+
+This is the header for question one. It may be as long or as short as you like. It is recommended that you use discretion in the length of it.
+
+> It should be noted that the header information entered will be printed or displayed exactly as entered, with no formatting attempted.
+
+The user will then see:
+
+QUESTION TEXT:
+
+No existing text
+
+Edit? NO// Y (user enters Y)
+
+The user should then proceed to enter the text f or the question using the example above as a guide. It should also be noted that the text will be displayed or printed exactly as it is entered.
+
+The user is then asked for additional information about the question just entered:
+
+QUESTION ANSWER FORMAT: - Enter the format for the answer, multiple choice, word processing, true/false or Yes/No. only multiple choice answers require additional input to define the answers available. Note that multiple choice also includes the Likert Scale.
+
+If the above answer was "multiple choice" the user will see:
+
+MULTIPLE CHOICE TYPE: - Enter the type of answer selection this question will have. You may choose from: alphabetic, Likert scale or numeric. In answering this field, the user designates how the question answers will be displayed. If n for numeric, all answers, whether on the screen or on hard copy, will be allowed to be selected by number only. If a for alphabetic, they may only be selected by letter from la' or 'Al to the last letter given. For multiple choice (not including the Likert Scale)
+
+Select ANSWER: This is answer 1
+
+Select ANSWER: This is answer 2
+
+Select ANSWER: RETURN (user enters RETURN to quit entry of answers)
+
+> **NOTE:** The answers provided should not include a designator like a, b, c, or 1, 2, 3, as shown in this example:
+
+> Correct answer: This is an answer
+
+> Incorrect answers: 1. This is an answer
+
+> A. This is also an answer
+
+To stop entering answers, the user should simply press RETURN.
+
+If the user designates the answer to be a Likert scale she/he will also have to designate a numeric GRADIENT range from 2 to 7, from which the participant may select. Likert Scale answers accept only numeric entry. In addition, the author will be asked for a left and right Likert label:
+
+NUMBER OF GRADIENTS: - enter a number from 2 to 7.
+
+LIKERT NUMERIC DISPLAY TYPE: - enter "all for ascending (1 2 3 4 etc.) or I'd" for descending (4 3 2 1 etc.)
+
+LEFT LIKERT LABEL: - enter what you want the left side of the Likert Scale to say. For backward compatibility, any existing blank answers will default to "Poor”.
+
+RIGHT LIKERT LABEL: - enter what you want the right side of the Likert Scale to say. For backward compatibility, any existing blank answers will default to "Excellent".
+
+Existing questions which have blank Likert labels may be changed, provided no one has participated in the survey.
+
+Example of a Likert Scale:
+
+(ascending)
+
+> Poor 1 2 3 4 5 6 7 Excellent
+
+(descending)
+
+> Excellent 5 4 3 2 1 Poor
+
+When any one question entry is complete, the program then recycles, ready for another. The user sees:
+
+\>\> Question number: 20//
+
+When the user is finished entering questions, an uparrow may be entered to stop. The user will then see:
+
+> Are you finished entering questions for this survey?
+
+The user may answer Y for yes or N for no. If N is entered, the screen will return to the next question number available. If Y is entered, the original submenu is displayed.
+
+## Edit Basic Survey Data
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Introduction:
+
+This sub-option is used to change the basic data of an existing survey. New surveys may not be added with this sub-option. Basic data may be changed at any time, even after a survey has responses to it.
+
+The prompts are the same as in the survey creation section and the user needs only to enter any changes or replacements necessary. It should be noted that demographic data may not be changed in this option but rather in a separate one.
+
+Prompts:
+
+NAME: the name you wish to give the survey.
+
+TITLE: the title of the survey, as you wish the user to see it.
+
+LAST DATE FOR USAGE: - the last date users may participate in this survey. It will not be accessible to users after this date.
+
+PASSWORD: - if this field is filled in, the participants must know
+
+the password in order to participate. This is useful in segregating surveys among certain groups, i.e., all employees in one service.
+
+MULTI-ENTRY PASSWORD: - anyone who knows the password entered in this field will be able to participate in the survey multiple times. This is particularly useful for things like ward or patient surveys where participants will want to make more than one response.
+
+STATUS - You may change the status if you wish by entering ‘r’ for READY FOR USE, ‘d’ for UNDER MAINTENANCE/DEVELOPMENT or ‘e’ for ACTIVE LIFE EXPIRED. Any change of a survey to READY FOR USE will cause it to be checked for completion before release.
+
+INSTRUCTIONS FOR USE: - anything that will aid the participant in filling out the survey should be included here, including how to fill it out and what to do when finished. The instructions should be well thought out and meaningful and easy to understand by the participants. As when the original instructions were created, the addition or editing of information will be using your usual DHCP word processor.
+
+Example:Note: This is a full-screen editing example. It has been formatted to fit the page.
+
+Edit? NO// Y (user enters a Y) (Screen clears)
+
+(Press PFI then H for help)
+
+==\[ WRAP \]==\[ INSERT INSTRUCTIONS FOR USE \>= These are the instructions for the First Survey.
+
+This survey should be filled out as completely as possible. There is no time limit. If you wish to skip a questions, simply press RETURN.
+
+Demographic information is mandatory.
+
+In the event of the VA FileMan Line Editor, the user's screen will not clear but rather editing will begin below the previous text displayed on the screen.
+
+ARE ALL DEMOGRAPHICS REQUIRED?: - if the author wishes to force the user to enter all the requested demographic information this field should be answered Y for YES. If demographics are entered sporadically, the reports generated by them may be meaningless.
+
+STATISTICS VIEW STATUS - enter ‘c’ for creator/editor to restrict any reporting of statistics to only the survey creator/author or an authorized editor. Enter In' to have no restrictions.
+
+DESCRIPTION: - A description of what the survey is for and what its
+
+purpose is. This is a memo field f or later reference by the author. It is also displayed on printouts.
+
+Edit? NO// \<\< Note: Editing of this field is accomplished the same as the INSTRUCTIONS FOR USE field above \>\>
+
+Select AUTHORIZED EDITORS: - any person or persons that the author wishes to have access to this survey should be entered here. it should be noted that these persons will have exactly the same privileges as the author, including reporting, addition/deletion of questions and demographics, as well as survey deletion and clearing. The author should exercise care when entering names in this field.
+
+## Add or Edit Demographic Survey Fields
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Introduction:
+
+This sub-option allows the user to add new demographic data items or edit any existing ones. It should be noted that if a survey has responses to it that no additions or editing of any demographic data items will be allowed. This obviously is because once a survey is in progress, such changes or additions would alter existing survey data and skew statistical reporting.
+
+Entry of demographic data items is optional. You may wish to include them in order to identify the survey participant or group, or to be able sort statistical reports on specific demographic items. Note that while including demographic data items in your survey, you may make them mandatory entry fields for your survey participants.
+
+First you must enter the text for your demographic data item as it should be displayed on the survey. Then you will be asked what TYPE of demographic it is. They may be pointers to existing DHCP files, sets of codes, free text, or dates.
+
+Prompts:
+
+Select DEMOGRAPHIC DATA ITEM: - Enter the text of the demographic data item, from 3 to 40 characters. It should be typed in exactly as the author wishes it to appear on all survey output, including screens and reports. It should not include a colon (:) or any other punctuation at the end of it since all programming supplies punctuation automatically. For the following example the item "Administrative/Clinical" will be used.
+
+Example: (assuming that the item was entered in the "select" request above)
+
+DEMOGRAPHIC DATA ITEM: Administrative/Clinical Replace - the author is allowed to edit the item as it was previously entered.
+
+TYPE: - enter the type of the data item, date (D or d), pointer to a file (P or p), set of codes (S or s), or free text (F or f). It should be noted that the pointer and set of codes will require further input to define the selection. It is recommended that any codes be entered in lower case and the meanings in upper case. Note: only ‘p’ and ‘s’ codes require further definition. Date and free text (‘d’' and ‘f’) require none but the code.
+
+Assuming an Is' was entered in TYPE above the author is then asked:
+
+Select CODE: a (author enters an a)
+
+CODE MEANING: ADMINISTRATIVE
+
+Select CODE: c
+
+CODE MEANING: CLINICAL
+
+Select CODE: \<RETURN\> (author enters RETURN to quit entering codes)
+
+If the TYPE entered is P f or pointer, the author will then be asked to choose a file to point to. This may be any file which is contained in the Demographic reference file. In the event the file they wish to use is not in the reference file, the author should contact their local IRM Service to have the file entered, if practical to do so. There are some files which may not be practical to give access to.
+
+Example:
+
+> TYPE: p POINTER
+
+> FILE: 200 NEW PERSON 1-: --- Computer verifies code and
+
+> file name
+
+If the TYPE is d or D for date, no further definition is necessary and the participants will be able to enter any type of date, within the VA File Manager parameters for date entry.
+
+If the TYPE is f or F for free text there also is no need for further definition and the participants will be able to enter any text up to 40 characters in length.
+
+IS THIS A REQUIRED ANSWER? - if you wish to force any particular demographic entry to be required you may set this field to Y for yes. It overrides the ARE ALL DEMOGRAPHICS MANDATORY field when it is set to NO on the basic survey information.
+
+The author should continue to enter demographics until all are entered.
+
+Edit All Questions Sequentially
+
+Introduction:
+
+This sub-option allows the user to edit all survey questions in the order they will be presented to the participant. It is particularly useful for reviewing all the questions before releasing the survey for use. Each question is presented starting with the question number the author gave it, any header text, the question text and then all other pertinent data.
+
+Prompts:
+
+Survey NAME: - enter the name of the survey whose questions you wish to edit.
+
+The first question number is displayed:
+
+> \>\> Question number: 1
+
+QUESTION HEADER: - any existing header text will be displayed via your usual DHCP word processing editor. You may make any changes you wish.
+
+Example: Note: The display has been altered slightly to fit
+
+> the page.
+
+> Edit NII Y (user enters a Y)
+
+> (screen clears)
+
+> (Press PF1 then H for help)
+
+> ==\[ WRAP \]==\[ INSERT ======= QUESTION HEADER\>==========
+
+> This is the header text for question one. It may be as long or as short as you like.
+
+\<\< End of example\>\>
+
+> The user should then make any changes to the text of the question header. Depending on what type, format, etc., the question is, the other associated question data will be asked in order.
+
+> The author may then edit the question text. Depending on the type of editor the user uses as his/her DHCP word processor (full screen
+
+or line editor) , the screen may or may not clear. Assuming the user has the full screen editor the screen would clear and she/he will be prompted:
+
+QUESTION TEXT:
+
+Edit? NO// Y (user enters Y)
+
+(screen clears)
+
+(Press PF1 then H for help)
+
+==\[ WRAP \]==\[ INSERT\] ========\<QUESTION TEXT \>=====
+
+This is the text for question one. It may be as long or as short as you like. It is recommended that you use discretion in the length of it.
+
+The user should then make any changes to the text of the question. Depending on what type, format, etc., the question is, the other associated question data will be asked in order.
+
+QUESTION NUMBER: - This should be the final question number assigned when the question was initially set up. If you wish to change it, enter a new number and its order of display will be changed within the survey. However, before the system allows the change, you will be asked to verify your intentions:
+
+> You are about to change the number of this question. Is that what you want to do? NO//
+
+If you answer Y for yes, the number and the order in which the question is displayed will be changed. If you enter N for no, no change will be made.
+
+ANSWER FORMAT: - Enter the format for the answer, m - multiple choice, w - word processing, t - true/false or y - Yes/No. Only multiple choice answers require additional input to define the answers available. Note that multiple choice also includes Likert Scale answers.
+
+MULTIPLE CHOICE TYPE: - Enter the type of answer selection this question will have. You may choose from: alphabetic, Likert scale or numeric. In answering this field, the user designates how the question answers will be displayed. If n for numeric, all answers, whether on the screen or on hard copy, will be allowed to be selected by number only. If a for alphabetic, they may only be selected by letter from la' or 'Al to the last letter given. For multiple choice (not including the Likert Scale)
+
+Select ANSWER: This is answer 1
+
+Select ANSWER: This is answer 2
+
+Select ANSWER: RETURN (user enters RETURN to quit entry of
+
+> answers)
+
+> **NOTE:** The answers provided should not include a designator like a, b, c, or 1, 2, 3, as shown in this example:
+
+> Correct answer: This is an answer
+
+> Incorrect answer: 1. This is an answer
+
+> A. This is also an answer
+
+To stop entering answers, the user should simply press RETURN.
+
+If the user designates the answer to be a Likert scale she/he will also have to designate a numeric GRADIENT range from 2 to 7, from which the participant may select. Likert Scale answers accept only numeric entry. In addition, the author will be asked for a left and right Likert label:
+
+NUMBER OF GRADIENTS: - enter a number from 2 to 7.
+
+LIKERT NUMERIC DISPLAY TYPE: - enter a for ascending (1 2 3 4 etc.) or d for descending (4 3 2 1 etc.)
+
+LEFT LIKERT LABEL: - enter what you want the left side of the Likert Scale to say. For backward compatibility, any existing blank answers will default to “Poor”.
+
+RIGHT LIKERT LABEL: - enter what you want the right side of the Likert Scale to say. For backward compatibility, any existing blank answers will default to "Excellent".
+
+Existing questions which have blank Likert labels may be changed, provided no one has participated in the survey.
+
+Example of a Likert Scale:
+
+(ascending)
+
+> Poor 1 2 3 4 5 6 7 Excellent
+
+(descending)
+
+Excellent 7 6 5 4 3 2 1 Poor
+
+When any one question entry is complete, the program then recycles and goes to the next sequential question umber. The user sees:
+
+> \>\> Question number: 20
+
+When the user is finished entering, reviewing or editing questions,
+
+Add/Edit Individual Questions
+
+Introduction:
+
+This sub-option allows the user to edit individual survey questions in no specific order. It is particularly useful for reviewing or correcting single questions before releasing the survey for use. Each question is presented starting with its display order, text and then all other pertinent data.
+
+It should be noted that this option is the only place other than the initial question entry that an author may resequence the questions into the proper order and increment.
+
+Prompts/examples:
+
+Prompts:
+
+Survey NAME: - enter the name of the survey whose questions you wish to edit.
+
+\>\> Question number: - enter the question number you wish to edit. You may also enter R to resequence the question numbers, C to copy a question or a ? to display the question numbers in their order of appearance. It should be noted that when displaying the question numbers that the number on the left is the question number assigned by the author. In addition, the question text displayed is only the first 55 characters of the question first line. only this much of the question is displayed due to formatting limitations.
+
+Depending on the type of editor the user uses (full screen or line editor) the screen may or may not clear. Assuming the user has the full screen editor the screen would clear and she/he will be prompted:
+
+QUESTION HEADER: \<\<Note: this screen example has
+
+been modified slightly to
+
+No existing text fit the page \>\>
+
+Edit? NO// Y (user enters Y)
+
+(screen clears)
+
+(Press PF1 then H for help)
+
+==\[ WRAP \]==\[ INSERT )=================\<QUESTION HEADER\>=========
+
+This is the header for question one. It may be as long or as short as you like. It is recommended that you use discretion in the length of it.
+
+\<\< End of example\>\>
+
+It should be noted that the header information entered will be printed or displayed exactly as entered, with no formatting attempted.
+
+QUESTION TEXT:
+
+Edit? NO// Y (user enters a Y)
+
+(screen clears)
+
+(Press PF1 then H for help)
+
+==\[ WRAP \]==\[ INSERT\]========\<QUESTION TEXT \>=====
+
+This is the text for question one. It may be as long or as short as you like. It is recommended that you use discretion in the length of it.
+
+The user should then make any changes to the text of the question. Depending on what type, format, etc., the question is, the other associated question data will be asked in order.
+
+ANSWER FORMAT: - Enter the format for the answer, multiple choice, word processing, set of codes or Yes/No. Only multiple choice answers require additional input to define the answers available.
+
+For multiple choice:
+
+Select ANSWER: This is answer 1
+
+Select ANSWER: This is answer 2
+
+Select ANSWER: RETURN (user enters RETURN to quit entry of
+
+> answers)
+
+ANSWER TYPE: - Enter the type of answer selection this question will have. You may choose from: alphabetic, Likert scale or numeric. In answering this field, the user designates how the question answers will be displayed. If n for numeric, all answers, whether on the screen or on hard copy, will be allowed to be selected by number only. If alphabetic, they may only be selected by letter from la' or 'Al to the last letter given.
+
+> **NOTE:** The answers provided should not include a designator like a, b, c, or 1, 2, 3, as shown in this example:
+
+Correct answer: This is an answer
+
+> Incorrect answer: 1. This is an answer
+
+> A. This is also an answer
+
+To stop entering answers, the user should simply press RETURN.
+
+If the user designates the answer to be a Likert scale she/he may designate a numeric GRADIENT range from 2 to 7, from which the participant may select. Likert Scale answers accept only numeric entry.
+
+NUMBER OF GRADIENT enter a number from 2 to 7.
+
+LEFT LIKERT LABEL: enter what you wish the left side of the Likert Scale to display. The default (blank answer, for backward compatibility) is "Poor".
+
+RIGHT LIKERT LABEL: - enter what you wish the right side of the Likert Scale to display. The default (blank answer, for backward compatibility) is "Excellent".
+
+> Example of a Likert Scale:
+
+Poor 1 2 3 4 5 6 7 Excellent
+
+When any one question entry is complete, the program then recycles, ready for another. The user sees:
+
+\>\> Question number: 20//
+
+When the user is finished entering questions, an up arrow may be entered to stop.
+
+Print a Survey
+
+Introduction:
+
+Printing a survey has two purposes: 1) to allow the author to print a DRAFT copy of the survey, which contains information to allow easy editing of the survey for making corrections and 2) to allow a finished hard copy to be printed, which then may be copied and distributed to persons who do not have ready computer access or who would rather fill out a hard copy.
+
+Prompts:
+
+Select a survey: - select the name of the survey you wish to print.
+
+Select one of the following:
+
+> D Print a draft copy
+
+> F Print a Final Copy
+
+> Q Quit (also uparrow or \<RETURN\>)
+
+Selection: - make a selection of which type of survey printout you wish. You may also enter Q, "A", or \<RETURN\> to go back to the primary submenu.
+
+A printout example is found on the next page. It has been altered slightly in width to fit the page.
+
+Draft Copy Printing Example
+
+12/05/94 THIS IS THE FIRST SURVEY Page: 1
+
+\* DRAFT COPY V A Medical Center CITY, STATE DRAFT COPY \*
+
+-----------------------------------------------------------------
+
+Description: This is the description area for the survey.
+
+Instructions:
+
+This is the instruction area for the survey.
+
+\- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Demographic information:
+
+Service: \<answer\> Administrative/clinical: \<answer\>
+
+1.  This is the text for question one. It may be as long or as short as you like.
+
+> It is recommended that you use discretion in the length of it.
+
+1\. This is answer 1 3. This is answer 3 2. This is answer 2 4. This is answer 4
+
+Final Copy Printing Example
+
+12/05/94 THIS IS THE FIRST SURVEY Page: 1
+
+V A Medical Center CITY, STATE
+
+-----------------------------------------------------------------
+
+Description: This is the description area for the survey.
+
+Instructions:
+
+These is the instruction area for the survey.
+
+\- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Demographic information:
+
+Service: \<answer\> Administrative/Clinical: \<answer\>
+
+1\. This is the text for question one. It may be as long or as short as you like. It is recommended that you use discretion in the length of it.
+
+1\. This is answer 1 3. This is answer 3 2. This is answer 2 4. This is answer 4
+
+Copy a Survey
+
+Introduction:
+
+There will be times when a survey author wishes to create a new survey, which may be very similar to an existing one with perhaps just a few changes to it. It might not be practical to remove the responses to this existing survey and reuse it because valuable data would be lost as well as the original survey itself. While the original and its statistical data could be retained as a hard copy, it may be desirable to reuse the original survey at a later date.
+
+Copying a survey will create an exact duplicate of the original survey but with a different name which is designated by the person copying it. All items, title, demographics, editors, etc., will be the same. once created the user should use the "Edit Basic Survey Data" sub-option to make the copy unique.
+
+Prompts:
+
+Select survey to copy: - enter the name of the survey of which you wish to make a copy.
+
+Enter NEW survey name: - enter the name you wish to give the copy. All survey names will be translated into uppercase if entered in lowercase.
+
+The user will then see this dialogue:
+
+Survey to copy: \<the original name\>
+
+New name: \<the new name entered by the user\>
+
+Is everything Ok? NO// - enter Y for Yes or N for No. If No is entered, the user can select another survey to copy.
+
+Copying \<the original name\>.....
+
+Copying the questions.....
+
+Finished.
+
+Press RETURN to continue
+
+At this point, the user should then use the "Edit Basic Survey Information" sub-option to change the basic information on the copy so it will be unique.
+
+Release/Disable a Survey for Participation
+
+Introduction:
+
+Releasing or disabling a survey simply makes a survey available or unavailable to the user population. While the most common use of this option will be to release a survey for participation, it may also be used to change a survey status to UNDER MAINTENANCE/DEVELOPMENT or ACTIVE LIFE EXPIRED. This extra ability is simply a convenience for the user.
+
+Prompts:
+
+Select a survey: - enter the name of the survey whose status you wish to change.
+
+The user will then see:
+
+Current status is \<survey status\> - this will be the current status of the survey. Valid statuses are: UNDER MAINTENANCE/DEVELOPMENT which indicates the author is either still developing the survey or making changes to it, READY FOR USE, which is self-explanatory and ACTIVE LIFE EXPIRED, which indicates that the LAST DATE FOR USAGE has passed.
+
+It should be noted that after the last date for usage has passed this date has to be changed to a future date before the survey may be released.
+
+STATUS: - enter the new status for the survey. You may use ? to get a list of appropriate statuses. See the above explanation of the statuses available.
+
+If the selected survey is released for participation then the following checks will be made:
+
+> \*missing last date for usage
+
+> \*missing demographic data (demographics not required)
+
+missing demographic data (demographics required)
+
+> missing title
+
+> missing description
+
+> missing instructions
+
+> no survey questions
+
+> bad answer type for questions
+
+> no question number
+
+> multiple choice question with no answer choices
+
+> Question number with no question text
+
+> If critical information is missing, the survey cannot be released until the information is entered. All items with a \* above are not critical and the survey may be released, even if they are missing.
+
+Count Survey Participants
+
+Introduction:
+
+This option is used by either the author of a survey or one of his/her authorized editors to observe the progress of a survey. It has no other purpose and is an inquiry screen only.
+
+Prompts:
+
+Survey: - enter the name of the survey whose figures you wish to examine.
+
+Once the survey name has been entered, the user will see:
+
+> Currently, there are nn completed responses.
+
+nn suspended responses. nn responses in progress. (where nn= a numeric value)
+
+Delete a Survey, Questions and Responses
+
+Introduction:
+
+This option is used to delete an entire survey, including its associated questions and all responses. It may be used only by the survey author, any authorized editors, or any holder of the QAP MANAGER key. Extreme care should be exercised when using this option because ALL information will be immediately and permanently erased if the deletion is verified. <u>Information cannot be retrieved once</u> <u>a survey is deleted</u>.
+
+Prompts:
+
+This program will COMPLETELY delete a survey, its questions and responses - this is a warning of what the program will do. the user should take heed.
+
+Select SURVEY NAME: - enter the name of the survey you wish to delete. Be sure it is the correct name.
+
+Is this the correct survey? - verify that this is the correct survey. Enter Y to verify as correct or N to select another survey.
+
+If the person attempting to delete the survey is not the owner (developer) the person will receive this message:
+
+> This survey belongs to LASTNAME,FIRSTNAME.
+
+> Be sure you want to delete THIS survey !!
+
+Are you absolutely sure? - Enter Y to verify you are absolutely sure or N to select another survey.
+
+If the user verifies that he/she has entered the correct survey this dialogue will be seen:
+
+> Deleting the survey. . .
+
+> Deleting the questions
+
+> Deleting the responses . . .
+
+At this point, the entire survey, its associated questions and responses will no longer exist.
+
+Clear a Survey of Responses
+
+Introduction:
+
+This option will allow the removal of all responses that have been made to a particular survey. It should be noted that once this option has been used for a survey, the response data will have been erased and no further statistical reporting may be done. All statistical reporting should be completed before exercising this option.
+
+Prompts:
+
+This program will COMPLETELY clear a survey of its associated responses. - the program is notifying you of what will occur.
+
+Select SURVEY NAME: - enter the name of the survey you wish to clear.
+
+Is this the correct survey? YES// - enter Y if it is the survey you wish to clear, N to select another survey.
+
+Are you sure you want to remove all responses to this survey? NO// enter Y if you are sure you want to proceed, N if you wish to select another survey.
+
+If it is verified to proceed, you will see:
+
+Deleting the responses. . .
+
+Responses deleted: nnn (nnn=the count of the deleted responses)
+
+Generate Survey Statistics
+
+Introduction:
+
+This option will print out statistical information (without demographics) for any survey. It will give the count of each answer selected by the participants and also what percentage the count was of the total answers given. The total participant count will be displayed in the heading of the first page only. It will not give any other type of information about a survey. It should be noted that the user may exclude bypassed questions from the statistics generated.
+
+Any word processing answers are displayed in their entirety and no statistical information is provided about them.
+
+Prompts:
+
+Select a survey: - enter the name of the survey for which you wish statistics.
+
+There are three questions that should be answered to tailor the report as you wish it:
+
+Do you want to include bypassed questions in the statistics calculations? No//
+
+Do you want to include 'Not Applicable' responses in the statistics calculations? No//
+
+Do you want to print word processing responses? No//
+
+For each question above the default answer is *NO.* The person who is running the report should enter Y to include each in the statistics or N to exclude them.
+
+Output device: HOME// - enter an output device for the report.
+
+An example of this report is on the following page. For this example the report has been slightly altered to fit the page and only part of an entire report is shown.
+
+Statistics Report Example
+
+12/05/94 SURVEY OF IRM SUPPORT SATISFACTION Page: 1
+
+> V A Medical Center CITY, STATE
+
+> *S* T A T I S T I C *S*
+
+> Including INA' answers
+
+Total responses: 75 Including bypassed answers --------------------------------------------------------------
+
+1 . In the course of your work, do you interact with the DHCP computer system?
+
+> I or 1.3% did not respond 2 or 2.7% responded No 1 or 1.3% responded Not applicable 71 or 94.7% responded Yes
+
+2\. In the course of your work, do you interact with personal computers?
+
+> 46 or 61.3% responded No 1 or 1.3% responded Not applicable 28 or 37.4% responded Yes
+
+Print Statistics by a Demographic Data Item
+
+Introduction:
+
+This option is used to give statistical information by any selected demographic data item. only one item at a time may be reported and it should be noted by the user that this report may be lengthy if a large number of demographic data items are offered to the participants. Each demographic item is counted separately and has separate percentages.
+
+It should also be noted that you may choose to exclude bypassed questions if desired.
+
+Prompts:
+
+Select a survey: - enter the name of the survey you wish to report.
+
+Assuming that the demographics are the following choices, the user will then be asked to select a demographic data item to sort by:
+
+> 1\. ADMINISTRATIVE/CLINICAL
+
+2\. SERVICE
+
+Choose a sorting demographic: (1/2): - the user may select by number or name of the item.
+
+There are three questions that should be answered to tailor the report as you wish it:
+
+Do you want to include bypassed questions in the statistics calculations? No//
+
+Do you want to include 'Not Applicable' responses in the statistics calculations? No//
+
+Do you want to print word processing responses No//
+
+For each question above the default answer is NO. The person who is running the report should enter Y to include each in the statistics or N to exclude them.
+
+A report example follows on the next page. The output format has been altered slightly to have it fit on the page and only part of an entire report is shown. Reports which have demographics which can vary greatly or have many unique values will be lengthy.
+
+Demographic Statistics Report Example
+
+12/05/94 SURVEY OF IRM SUPPORT SATISFACTION Page: 1
+
+V A Medical Center CITY, STATE
+
+Demographic Statistics
+
+Sorting on: SERVICE
+
+> Including INA' answers
+
+Total responses: 75 Including bypassed answers
+
+-----------------------------------------------------------------
+
+1 . In the course of your work, do you interact with the DHCP computer system?
+
+> 3 or 4.0% of 'ACQUISITION & MATERIAL MG' responded Yes
+
+> 1 or 1.3% of 'AMBULATORY CARE' responded Yes
+
+> 1 or 1.3% of 'ASSOCIATE DIRECTOR' responded Yes
+
+> 1 or 1.3% of ICHEPI responded Yes
+
+> 1 or 1.3% of 'CHIEF OF STAFF' responded Yes
+
+> · or 2.7% of 'DENTAL' responded Yes
+
+> or 5.3% of 'DIETETICS' did not respond
+
+> 1 or 5.3% of 'DIETETICS' responded Not applicable
+
+> 1 or 5.3% of 'DIETETICS' responded Yes
+
+(partial report)
+
+Print All Survey Responses Individually
+
+> Introduction:
+
+> This option will print all responses on a survey individually, as if you had a hard copy from each user. It is useful to review .all answers on the surveys and get a perspective of how each user responded. As in other output, there is no indication of response ownership.
+
+> This option is principally informational and is for the managers of the survey and designated editors. It does not provide any statistical figures or totals.
+
+> Prompts:
+
+> Select a survey: - enter the name of the survey for which you wish to print all responses.
+
+> There are nn responses to this survey. - this is informational to the user so that it may be judged whether it is practical to print the number of responses on file.
+
+> Output device: - enter the desired output device. Each complete response will be printed separately.
+
+Export a Survey
+
+Introduction:
+
+There may be many times an author has created a survey that would be useful at other sites. This survey may be for something that is of great importance and it may be desirable to send the survey to other sites to save time and work. This option makes it very easy to do that.
+
+In addition, this option may be used as an archival tool since it will store all the information about a particular survey in a mail message.
+
+Prompts:
+
+Enter the survey to export: - enter the name (not the title) of the survey you wish to send to another site or sites.
+
+Is this the correct survey? - enter Y if it is the correct one or N to make another selection.
+
+At this point, the system will display "Loading survey . . . 11 and it will load the entire survey and questions into a standard MailMan message.
+
+Send mail to: 'current user - the system is asking for the people to whom you wish to send this survey. 'Current user' is name of the person who is sending the survey, the same as a regular MailMan message in which he/she is the default recipient. The user should press RETURN to accept this default response.
+
+And send to: - the user may now enter the recipients at other sites who wish to receive this survey. The entry format is the same as sending a regular mail message to another VA. Example: SMITH,HARRY@SALEM.VA.GOV .
+
+After the recipients are entered the system will display a line of information about the creation of the mail message. It may be disregarded since it is only informational.
+
+Sent as message \#nn - this is your reference message number. You should keep this message number handy until the message has been received by the other parties.
+
+Import a Survey
+
+Introduction:
+
+This option will install a survey that has been sent to a site from a remote site. It has no other function.
+
+Prompts:
+
+Do you need instructions for this option? NO// - Enter Y if you want to see the instructions or N if not.
+
+Enter message number/subject: - Enter the message number or the subject of the imported message. While the subject may be entered, it is far easier to simply input the number. The number of the message appears in the heading of the message.
+
+Is this the correct message? NO// - Enter Y if it is the correct message or N to select another message.
+
+\>\> NAME OF SURVEY \<\<
+
+You already have a survey by this name on file.
+
+Do you want to continue anyway? No//
+
+If the name of the imported survey happens to be a duplicate name, the system will tell you. You answer Y and proceed (not recommended) or answer N and abort the program completely.
+
+If you choose Y for Yes the system will ask:
+
+Do you want to rename the survey? - Answer Y to give the imported survey a new name or N to allow a duplicate name to be created.
+
+New survey name: - You have answered Y to the above question. you should enter what you want the new survey to be called. Note that this is NOT the title of the survey.
+
+The new name will be '\<NEW NAME OF SURVEY\>,
+
+Ok?
+
+\- Enter Y if the name is ok or N to enter another one.
+
+The program will then install the new survey:
+
+Installing basic survey data
+
+Installing the survey questions
+
+Cleaning up non-exportable fields
+
+Re-indexing the survey and questions
+
+Checking the DEMOGRAPHICS for invalid pointers . . .
+
+Finished.
+
+This imported survey should now be made ready for use.
+
+You have been made the creator/author of it and you should review the entire survey before releasing it.
+
+Press RETURN
+
+The above is a description of what it does during the installation. The survey is installed, then the questions and then various cleanup items are performed.
+
+Populate the Demographic Reference File
+
+Introduction:
+
+This option will only be used by the site's local IRM Service and requires programmer access. It allows the entry of files into the DEMOGRAPHIC REFERENCE file for later use on a survey as a demographic data item. If a file name does not exist in this file, it cannot be used for demographics on a survey. The file comes
+
+preloaded with these ten files:
+
+> Patient
+
+> Title
+
+> State
+
+> Race
+
+> Marital Status occupation
+
+> Ward Location Hospital location Service/Section
+
+> New Person
+
+It is the responsibility of the local IRK Service to be sure that any files which are entered for demographic reference do not contain sensitive data. It is important to note that although a pointer exists to the file, that no actual data, other than the Ignamell (.01) is accessible.
+
+Prompts:
+
+Select DEMOGRAPHIC REFERENCE FILE NAME: - enter the name of the file you wish to add. It can be any DHCP file which would be practical to add and there are currently no screens to inhibit the addition of any DHCP file.
+
+If the file number/name already exists in the DEMOGRAPHIC REFERENCE file, you will see the name displayed with a You may enter an @ to remove it or RETURN to continue.
+
+There are no other prompts for this option.
+
+Fix a Survey Response
+
+Introduction:
+
+From time to time survey responses may not be completed due to the status being shown as "in progress". This status may result when jobs terminate abnormally or are discontinued (killed off) during the response. This option will calculate where the respondent was when the response was interrupted, and set the status to "suspended" so the respondent may resume.
+
+Prompts:
+
+Select SURVEY: - enter the name of the survey which has a response that needs to be fixed.
+
+Select RESPONDENT: - enter the name of the person for whom the response needs to be fixed.
+
+The user will see:
+
+Survey: SURVEY NAME
+
+Respondent: RESPONDENT NAME
+
+Is everything correct? No// - If the information previously entered is correct enter Y. If not correct enter N to select another survey and respondent.
+
+No response found for this participant - the person's name which you have entered has not responded to this survey.
+
+There is no response on file for this participant which needs to be fixed. - the person has responded to this survey but there is nothing wrong with his/her response.
+
+Response fixed. - the system has fixed the problems and the respondent may now resume the survey.

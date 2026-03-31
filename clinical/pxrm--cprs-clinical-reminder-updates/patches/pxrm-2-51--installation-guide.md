@@ -1,0 +1,434 @@
+---
+title: PXRM*2*51 Teratogenic Medication Reminder Update Install Guide
+doc_type: IG
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Teratogenic Medication Reminder Update Install Guide
+app_code: PXRM
+app_name: "CPRS: Clinical Reminders"
+section: CLI
+app_status: active
+pkg_ns: PXRM
+patch_ver: 2
+patch_id: PXRM*2*51
+group_key: "PXRM:PXRM:2"
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: - [# Introduction](#introduction) - [Pre-Installation](#pre-installation) - [Required Software for PXRM\2\51](#required-software-for-pxrm251) - [## Related Documentation](#related-documentation) - [Web Sites](#web-sites) - [Installation](#installation) - [Retrieve the host file from one of the follo
+audience: 
+keywords: 
+  - contents
+  - table
+  - install
+  - installation
+  - order
+  - pxrm
+  - check
+  - distribution
+  - reminder
+  - teratogenic
+page_count: 0
+word_count: 1032
+section_count: 13
+table_count: 7
+figure_count: 0
+appendix_count: 1
+has_toc: False
+is_stub: False
+pub_date: May 2015
+revision_count: 0
+revision_newest: 
+revision_oldest: 
+docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Clinical_Reminders/pxrm_2_0_51_ig.docx"
+pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Clinical_Reminders/pxrm_2_0_51_ig.pdf"
+app_url: "https://www.va.gov/vdl/application.asp?appid=60"
+---
+
+![](pxrm-2-51-teratogenic-medication-reminder-update-install-guide/001.png)
+
+Teratogenic Medication Reminder Order Check Update
+
+PXRM\*2.0\*51
+
+INSTALLATION and SETUP GUIDE
+
+May 2015
+
+Product Development
+
+Contents
+
+# # Introduction
+
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Table of Contents
+
+- [# Introduction](#introduction)
+- [Pre-Installation](#pre-installation)
+  - [Required Software for PXRM\2\51](#required-software-for-pxrm251)
+  - [## Related Documentation](#related-documentation)
+    - [Web Sites](#web-sites)
+- [Installation](#installation)
+  - [Retrieve the host file from one of the following locations (with the ASCII file type):](#retrieve-the-host-file-from-one-of-the-following-locations-with-the-ascii-file-type)
+  - [Install the patch first in a training or test account.](#install-the-patch-first-in-a-training-or-test-account)
+  - [Load the distribution.](#load-the-distribution)
+  - [## Backup a Transport Global](#backup-a-transport-global)
+  - [Compare Transport Global to Current System](#compare-transport-global-to-current-system)
+  - [Install the build.](#install-the-build)
+  - [## Install File Print](#install-file-print)
+  - [## Build File Print](#build-file-print)
+  - [Post-installation routines](#post-installation-routines)
+- [Post-Install Set-up Instructions](#post-install-set-up-instructions)
+  - [Activate the Reminder Order Check Rules](#activate-the-reminder-order-check-rules)
+- [Appendix A: Installation Example](#appendix-a-installation-example)
+- [Acronyms](#acronyms)
+The Teratogenic Medications Order Check Interim Solution was originally released as VistA patch PXRM\*2\*22 in July 2012. The interim solution is intended to have regular updates for clinical content, primarily to add newly approved medications with FDA Pregnancy Categories that warrant an order check. This patch, PXRM\*2\*51 represents the second such update. Included in this update are new medications, order check text changes consistent with the Notification of Teratogenic Medications project, and updates to the taxonomies that define a women’s medical inability to conceive a pregnancy including the introduction of SNOMED codes to those taxonomies.
+
+# Pre-Installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Required Software for PXRM\*2\*51
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+|                          |               |             |               |
+|--------------------------|---------------|-------------|---------------|
+| Package/Patch        | Namespace | Version | Comments  |
+| Clinical Reminders       | PXRM          | 2.0         | Fully patched |
+| Health Summary           | GMTS          | 2.7         | Fully patched |
+| Kernel                   | XU            | 8.0         | Fully patched |
+| NATIONAL DRUG FILE       | PSN           | 4.0         | Fully patched |
+| Pharmacy Data Management | PSS           | 1.0         | Fully patched |
+| Outpatient Pharmacy      | PSO           | 7.0         | Fully patched |
+| VA FileMan               | DI            | 22          | Fully patched |
+
+## ## Related Documentation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+|                              |                             |
+|------------------------------|-----------------------------|
+| Documentation            | Documentation File name |
+| Installation and Setup Guide | PXRM_2_0_51_IG.PDF          |
+
+### Web Sites
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+|                                       |                                                           |                                                                                            |
+|---------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Site                              | URL                                                   | Description                                                                            |
+| National Clinical Reminders site      | <http://vista.med.va.gov/reminders>                       | Contains manuals, PowerPoint presentations, and other information about Clinical Reminders |
+| National Clinical Reminders Committee | <http://vaww.portal.va.gov/sites/ncrcpublic/default.aspx> | This committee directs the development of new and revised national reminders               |
+| VistA Document Library                | <http://www.va.gov/vdl/>                                  | Contains manuals for Clinical Reminders and                                                |
+
+# Installation 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+*This patch can be installed with users on the system, but it should be done during non-peak hours.Estimated Installation Time: 5-10 minutesThe installation needs to be done by a person with DUZ(0) set to "@."*
+
+## Retrieve the host file from one of the following locations (with the ASCII file type): 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Albany <span class="mark">REDACTED</span> <span class="mark">REDACTED</span>
+
+> Hines <span class="mark">REDACTED</span> <span class="mark">REDACTED</span>
+
+> Salt Lake City <span class="mark">REDACTED</span> <span class="mark">REDACTED</span>
+
+## Install the patch first in a training or test account. 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Installing in a non-production environment will give you time to get familiar with new functionality and complete the setup for reminders and dialogs prior to installing the software in production.
+
+## Load the distribution. 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+In programmer mode type, D ^XUP, select the Kernel Installation & Distribution System menu (XPD MAIN), then the Installation option, and then the option LOAD a Distribution. Enter your directory name.KID at the Host File prompt.
+
+Example
+
+> Select Installation Option: LOAD a Distribution
+
+> Enter a Host File: PXRM_2_0_51.KID
+
+> KIDS Distribution saved on
+
+From the Installation menu, you may elect to use the following options:
+
+## ## Backup a Transport Global 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> This option will create a backup message of any routines exported with the patch. It will NOT back up any other changes such as DDs or templates.
+
+## Compare Transport Global to Current System
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> This option will allow you to view all changes that will be made when the patch is installed. It compares all components of the patch (routines, DDs, templates, etc.).
+
+## Install the build.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> From the Installation menu on the Kernel Installation and Distribution System (KIDS) menu, run the option Install Package(s). Select the build PXRM\*2.0\*51 and proceed with the install. If you have problems with the installation, log a Remedy ticket and/or call the National Help Desk to report the problem.
+
+> Select Installation & Distribution System Option: Installation
+
+> Select Installation Option: INSTALL PACKAGE(S)
+
+> Select INSTALL NAME: PXRM\*2.0\*51
+
+Answer "NO" to the following prompt:
+
+> Want KIDS to INHIBIT LOGONs during install? NO// NO
+
+> Installation Example
+
+> See [Appendix A](\l).
+
+## ## Install File Print 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Use the KIDS Install File Print option to print out the results of the installation process. You can select the multi-package build or any of the individual builds included in the multi-package build.
+
+> Select Utilities Option: Install File Print
+
+> Select INSTALL NAME: PXRM\*2.0\*51
+
+## ## Build File Print 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Use the KIDS Build File Print option to print out the build components.
+
+> Select Utilities Option: Build File Print
+
+> Select BUILD NAME: PXRM\*2.0\*51
+
+> DEVICE: HOME//
+
+## Post-installation routines
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> After successful installation, the following init routines may be deleted:
+
+> PXRMP51E
+
+> PXRMP51I
+
+# Post-Install Set-up Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Activate the Reminder Order Check Rules
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> The installation of patch PXRM\*2\*51 will revert the STATUS of the Reminder Order Check Rules “VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT D) RULE” and “VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT X) RULE” to TEST. If your site is using these order checks, the rules will need to be re-activated to PROD status. Shown below are the steps to make this change, which should be done for both rules. The option represented here is Add/Edit Reminder Order Check Rule \[PXRM ORDER CHECK RULE EDIT\].
+
+Select <u>Reminder Order Check Menu</u> Option: RE Add/Edit Reminder Order Check Rule
+
+Select Reminder Order Check Rule by:  (N/R/T/Q): N// N  ORDER CHECK RULE NAME
+
+Select Reminder Order Check Rule: ?
+
+    Answer with REMINDER ORDER CHECK RULES RULE NAME
+
+   Choose from:
+
+     1   VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT D) RULE 
+
+     2   VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT X) RULE 
+
+CHOOSE 1-2: 1  VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT D) RULE
+
+<u>RULE NAME</u>: VA-TERATOGENIC MEDICATIONS ORDER CHECK (CAT D) RULE            
+
+<u>DISPLAY NAME</u>: Known or Potential Teratogen (FDA Cat. D or Cat. C w/other data)
+
+<u>STATUS</u>: PROD ^ *change to PROD to activate Production Mode instead of Testing Mode*
+
+<u>CLASS</u>: NATIONAL
+
+SPONSOR:
+
+REVIEW DATE:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+I=INACTIVE, P=PRODUCTION, T=TESTING
+
+Enter a command or '^' followed by a caption to jump to a specific field.
+
+# Appendix A: Installation Example 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+SUPISC1A2:ARC\>D ^XUP
+
+Setting up programmer environment
+
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: XPD MAIN     Kernel Installation & Distribution System
+
+Select Kernel Installation & Distribution System \<TEST ACCOUNT\> Option: Installation
+
+Select Installation \<TEST ACCOUNT\> Option: Load a Distribution
+
+Enter a Host File: USER\$:\[KRUSEJ\]PXRM_2_0_51.KID;1
+
+KIDS Distribution saved on Mar 02, 2015@10:15:19
+
+Comment: VA-TERATOGENIC MEDICATIONS ORDER CHECKS (UPDATE \#2)
+
+This Distribution contains Transport Globals for the following Package(s):
+
+   PXRM\*2.0\*51
+
+Distribution OK!
+
+Want to Continue with Load? YES// 
+
+Loading Distribution...
+
+   PXRM\*2.0\*51
+
+Use INSTALL NAME: PXRM\*2.0\*51 to install this Distribution.
+
+Select Installation \<TEST ACCOUNT\> Option: Install Package(s)
+
+Select INSTALL NAME:    PXRM\*2.0\*51    5/7/15@11:58:49
+
+     =\> VA-TERATOGENIC MEDICATIONS ORDER CHECKS (UPDATE \#2)  ;Created on Mar 0
+
+This Distribution was loaded on May 07, 2015@11:58:49 with header of
+
+   VA-TERATOGENIC MEDICATIONS ORDER CHECKS (UPDATE \#2)  ;Created on Mar 02, 2015
+
+@10:15:19
+
+   It consisted of the following Install(s):
+
+    PXRM\*2.0\*51
+
+Checking Install for Package PXRM\*2.0\*51
+
+Install Questions for PXRM\*2.0\*51
+
+Incoming Files:
+
+   811.8     REMINDER EXCHANGE  (including data)
+
+> **NOTE:** You already have the 'REMINDER EXCHANGE' File.
+
+I will OVERWRITE your data with mine.
+
+Want KIDS to INHIBIT LOGONs during the install? NO//
+
+Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//
+
+Enter the Device you want to print the Install messages.
+
+You can queue the install by enter a 'Q' at the device prompt.
+
+Enter a '^' to abort the install.
+
+DEVICE: HOME//   SSH VIRTUAL TERMINAL
+
+                                  PXRM\*2.0\*51                                  
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+ENABLE options.
+
+ENABLE protocols.
+
+There are 1 Reminder Exchange entries to be installed.
+
+1\. Installing Reminder Exchange entry VA-TERATOGENIC MEDICATIONS ORDER CHECKS
+
+   (UPDATE \#2 PXRM\*2\*51)                                                      
+
+ 
+
+ Updating Routine file...
+
+ Updating KIDS files...
+
+ PXRM\*2.0\*51 Installed.
+
+               May 07, 2015@12:02:12
+
+ Not a production UCI
+
+ NO Install Message sent
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+          R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,T
+
+  100%    .             25             50             75               .
+
+Complete  F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,G
+
+Install Completed
+
+# Acronyms
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The OI&T Master Glossary is available at <http://vaww.oed.wss.va.gov/process/Library/master_glossary/masterglossary.htm>
+| Term     | Definition                                                      |
+|----------|-----------------------------------------------------------------|
+| ASU      | Authorization/Subscription Utility                              |
+| Clin4    | National Customer Support team that supports Clinical Reminders |
+| CPRS     | Computerized Patient Record System                              |
+| DBA      | Database Administration                                         |
+| DG       | Registration and Enrollment Package namespace                   |
+| ESM      | Enterprise Systems Management (ESM)                             |
+| GMTS     | Health Summary namespace (also HSUM)                            |
+| GUI      | Graphic User Interface                                          |
+| IAB      | Initial Assessment & Briefing                                   |
+| ICD-10   | International Classification of Diseases, 10th Edition          |
+| ICR      | Internal Control Number                                         |
+| IOC      | Initial Operating Capabilities                                  |
+| LSSD     | Last Service Separation Date                                    |
+| MH       | Mental Health                                                   |
+| MHTC     | Mental Health Treatment Coordinator                             |
+| OHI      | Office of Health Information                                    |
+| OI       | Office of Information                                           |
+| OIF/OEF  | Operation Iraqi Freedom/Operation Enduring Freedom              |
+| OIT/OI&T | Office of Information Technology                                |
+| OMHS     | Office of Mental Health Services                                |
+| ORR      | Operational Readiness Review                                    |
+| PCS      | Patient Care Services                                           |
+| PD       | Product Development                                             |
+| PIMS     | Patient Information Management System                           |
+| PMAS     | Program Management Accountability System                        |
+| PTM      | Patch Tracker Message                                           |
+| PXRM     | Clinical Reminder Package namespace                             |
+| RSD      | Requirements Specification Document                             |
+| SD       | Scheduling Package Namespace                                    |
+| SQA      | Software Quality Assurance                                      |
+| USR      | ASU package namespace                                           |
+| VA       | Department of Veteran Affairs                                   |
+| VHA      | Veterans Health Administration                                  |
+| VISN     | Veterans Integrated Service Network                             |
+| VistA    | Veterans Health Information System and Technology Architecture  |

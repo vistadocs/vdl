@@ -1,0 +1,16 @@
+# Image directories — binary content excluded to keep the GitHub repo small.
+# All markdown documents are tracked; images are available in the local
+# ~/data/vista-docs/publish/ tree but not pushed to the remote.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.svg
+*.webp
+
+# Markdown files exceeding GitHub's 50 MB limit
+clinical/cprs--computerized-patient-record-system/technical-manual--gui-version.md
+clinical/cprs--computerized-patient-record-system/technical-manual--list-manager-version.md

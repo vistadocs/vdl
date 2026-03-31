@@ -1,0 +1,502 @@
+---
+title: CPT Version 6 User Manual
+doc_type: UM
+doc_label: User Manual
+doc_layer: anchor
+doc_subject: 
+app_code: CPT
+app_name: Current Procedural Terminology
+section: FIN
+app_status: active
+pkg_ns: CPT
+patch_ver: 6
+patch_id: CPT*6
+group_key: "CPT:CPT:6"
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: Current Procedural Terminology (CPT) V. 6.0 User ManualMay 1997IntroductionPackage ManagementPackage Operation
+audience: 
+keywords: 
+  - facility
+  - exam
+  - codes
+  - code
+  - inactive
+  - musculoskeletal
+  - integumentary
+  - graft
+  - bone
+  - microvascular
+page_count: 0
+word_count: 1625
+section_count: 0
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: False
+is_stub: False
+pub_date: 
+revision_count: 0
+revision_newest: 
+revision_oldest: 
+docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.docx"
+pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.pdf"
+app_url: "https://www.va.gov/vdl/application.asp?appid=33"
+---
+
+Current Procedural Terminology (CPT) V. 6.0 User ManualMay 1997IntroductionPackage ManagementPackage Operation
+
+> On-line Help
+
+> Option Documentation
+
+> CPT Modifiers by Code Range
+
+> New CPT Codes
+
+> Recently Inactivated CPT Codes
+
+> Revised CPT Codes
+
+Glossary
+
+Introduction
+
+Current Procedural Terminology (CPT) codes are used for reporting medical services and procedures performed by physicians. Their purpose is to provide a uniform language that will accurately describe medical, surgical, and diagnostic services, thereby providing an effective means for reliable nationwide communication among physicians, patients, and third parties. This system of terminology is the most widely accepted nomenclature for the reporting of physician procedures and services under government and private health insurance programs.
+
+CPT V. 6.0 provides the software to update the CPT files. The software includes all CPT codes to code outpatient services for reimbursement and workload purposes (as determined by the American Medical Association) and the Common Procedure Coding System from the Health Care Financing Administration (HCPCS). These codes may also be utilized to report inpatient services in certain instances.
+
+In addition to the National CPT and HCPCS codes, the VA also uses the following VA specific HCPCS format codes. These codes are not included in the HCPCS or CPT manuals.
+
+W-CODES (VA NATIONAL CODES)
+
+CPT CODE DESCRIPTION
+
+W0100 GENERAL MEDICAL EXAM, VA FACILITY
+
+W0105 PSYCHIATRY EXAM, PER HOUR, VA FACILITY
+
+W0110 NEUROLOGICAL EXAM, VA FACILITY
+
+W0115 ENT EXAM, VA FACILITY
+
+W0120 OPTHOMOLOGY EXAM, VA FACILITY
+
+W0125 AUDIOLOGY EXAM, VA FACILITY
+
+W0130 ORTHOPEDIC EXAM, VA FACILITY
+
+W0135 CARDIOLOGY EXAM, VA FACILITY
+
+W0140 DERMATOLOGY EXAM, VA FACILITY
+
+W0145 NEUROSURGICAL EXAM, VA FACILITY
+
+W0150 GU EXAM, VA FACILITY
+
+W0155 GI EXAM, VA FACILITY
+
+W0160 PULMONARY EXAM, VA FACILITY
+
+W0200 POW EXAM, VA FACILITY, PER HOUR
+
+W0210 AGENT ORANGE EXAM, VA FACILITY
+
+W0220 SOCIAL/INDUSTRIAL SURVEY, PER HOUR
+
+W0230 PTSD EXAM, VA FACILITY, PER HOUR
+
+W5000 GENERAL MEDICAL EXAM, NON-VA FACILITY
+
+W5010 PSYCHIATRIC EXAM, NON-VA FACILITY
+
+W5015 NEUROLOGICAL EXAM, NON-VA FACILITY
+
+W5020 ENT EXAM, NON-VA FACILITY
+
+W5025 OPTHOMOLOGY EXAM, NON-VA FACILITY
+
+CPT CODE DESCRIPTION
+
+W5030 AUDIOLOGY EXAM, NON-VA FACILITY
+
+W5035 ORTHOPEDIC EXAM, NON-VA FACILITY
+
+W5040 CARDIOLOGY EXAM, NON-VA FACILITY
+
+W5045 DERMATOLOGY EXAM, NON-VA FACILITY
+
+W5050 NEUROSURGICAL EXAM, NON-VA FACILITY
+
+W5055 GU EXAM, NON-VA FACILITY
+
+W5060 GI EXAM, NON-VA FACILITY
+
+W5065 PULMONARY EXAM, NON-VA FACILITY
+
+W5220 SOCIAL/INDUSTRIAL SURVEY, PER HOUR, NON-VA FACILITY
+
+W5230 PTSD EXAM, NON-VA FACILITY
+
+Related manuals to the CPT User Manual include the CPT Technical Manual, the CPT Installation Guide, and the CPT Release Notes.
+
+Package Management
+
+The CPT codes are an American Medical Association (AMA) copyrighted product. Their use is governed by the terms of the agreement between the Department of Veterans Affairs and the AMA.
+
+Printing of any CPT information that will be released external to the VA (excluding areas of billing/fee basis processing, administrative management, clinical management including research, and patient coding/summarizing) must include the following notice: "CPT five-digit codes and/or descriptions only are copyright 1988 AMA (or such other date or publication of the work as defined in the Berne Implementation Act of 1988, formerly the Copyright Revision Act of 1976)."
+
+Package Operation
+
+On-line Help
+
+When the format of a response is specific, there usually is a Help message provided for that prompt. Help messages provide lists of acceptable responses or format requirements which provide instruction on how to respond.
+
+A Help message can be requested by typing one or two question marks. For some prompts, the system will list the possible answers from which you may choose. Any time choices appear with numbers, the system will usually accept the number or the name.
+
+Option Documentation
+
+The second portion of the Package Operation Section contains a brief overview of each option followed by an example of the output generated. Each report requires a margin width of 132 columns. The only prompts in each option are device prompts.
+
+CPT Modifiers by Code Range\[ICPT MODIFIERS BY RANGE\]
+
+This option will sort and list all modifiers by range of CPT codes to which they apply. An abbreviated example of this output, which requires a 132 column margin width, is provided below.
+
+CPT MODIFIERS BY RANGE LIST APR 7,1997 11:25 PAGE 1
+
+BEGIN END
+
+CPT CPT INACTIVE
+
+RANGE RANGE MODIFIER NAME NUMBER FLAG
+
+---------------------------------------------------------------------------------------------------------------
+
+10040 69979 20 MICROSURGERY 1
+
+22 UNUSUAL PROCEDURAL SERVICES 3
+
+26 PROFESSIONAL COMPONENT 7
+
+32 MANDATED SERVICES 8
+
+47 ANESTHESIA BY SURGEON 9
+
+50 BILATERAL PROCEDURE 10
+
+51 MULTIPLE PROCEDURES 11
+
+52 REDUCED SERVICES 12
+
+53 DISCONTINUED PROCEDURE 307
+
+54 SURGICAL CARE ONLY 13
+
+55 POSTOPERATIVE MANAGEMENT ONLY 14
+
+56 PREOPERATIVE MANAGEMENT ONLY 15
+
+57 DECISION FOR SURGERY 16
+
+58 STAGED OR RELATED PROC BY SAME PHYS DURING POSTOP PERIOD 17
+
+59 DISTINCT PROCEDURAL SERVICE 308
+
+62 TWO SURGEONS 18
+
+66 SURGICAL TEAM 19
+
+76 REPEAT PROCEDURE BY SAME PHYSICIAN 20
+
+77 REPEAT PROCEDURE BY ANOTHER PHYSICIAN 21
+
+78 RETURN TO OP ROOM FOR RELATED PROC DURING POSTOP PERIOD 22
+
+79 UNRELATED PROC OR SERVICE BY SAME PHYS DURING POSTOP PERIOD 23
+
+80 ASSISTANT SURGEON 24
+
+81 MINIMUM ASSISTANT SURGEON 25
+
+82 ASSISTANT SURGEON (WHEN QUAL RES SURGEON NOT AVAIL) 26
+
+90 REFERENCE (OUTSIDE) LABORATORY 27
+
+99 MULTIPLE MODIFIERS 28
+
+70010 76999 TC TECHNICAL COMPONENT 35
+
+79999 22 UNUSUAL PROCEDURAL SERVICES 3
+
+26 PROFESSIONAL COMPONENT 7
+
+32 MANDATED SERVICES 8
+
+51 MULTIPLE PROCEDURES 11
+
+52 REDUCED SERVICES 12
+
+53 DISCONTINUED PROCEDURE 307
+
+58 STAGED OR RELATED PROC BY SAME PHYS DURING POSTOP PERIOD 17
+
+59 DISTINCT PROCEDURAL SERVICE 308
+
+62 TWO SURGEONS 18
+
+66 SURGICAL TEAM 19
+
+New CPT Codes\[ICPT NEW CPT CODES\]
+
+This option will produce a listing of all the new CPT codes that have been added with the most recent CPT update. An abbreviated example of this output, which requires a 132 column margin width, is provided below.
+
+NEW CPT Codes effective Jun 02, 1997 APR 7,1997 09:36 PAGE 1
+
+CPT CODE CPT CATEGORY INACTIVE FLAG
+
+---------------------------------------------------------------------------------------------------------------
+
+11010 INTEGUMENTARY SYSTEM
+
+DEBRIDE SKIN, FX DEBRIDEMENT INCLUDING REMOVAL OF FOREIGN MATERIAL ASSOCIATED WITH
+
+OPEN FRACTURE(S) AND/OR DISLOCATION(S); SKIN AND SUBCUTANEOUS TISSUES
+
+11011 INTEGUMENTARY SYSTEM
+
+DEBRIDE SKIN/MUSCLE, FX DEBRIDEMENT INCLUDING REMOVAL OF FOREIGN MATERIAL ASSOCIATED WITH
+
+OPEN FRACTURE(S) AND/OR DISLOCATION(S); SKIN, SUBCUTANEOUS TISSUE,
+
+MUSCLE FASCIA, AND MUSCLE
+
+11012 INTEGUMENTARY SYSTEM
+
+DEBRIDE SKIN/MUSCLE/BONE, FX DEBRIDEMENT INCLUDING REMOVAL OF FOREIGN MATERIAL ASSOCIATED WITH
+
+OPEN FRACTURE(S) AND/OR DISLOCATION(S); SKIN, SUBCUTANEOUS TISSUE,
+
+MUSCLE FASCIA, MUSCLE, AND BONE
+
+11720 INTEGUMENTARY SYSTEM
+
+DEBRIDE NAIL, 1-5 DEBRIDEMENT OF NAIL(S) BY ANY METHOD(S); ONE TO FIVE
+
+11721 INTEGUMENTARY SYSTEM
+
+DEBRIDE NAIL, 6 OR MORE DEBRIDEMENT OF NAIL(S) BY ANY METHOD(S); SIX OR MORE
+
+15756 INTEGUMENTARY SYSTEM
+
+FREE MUSCLE FLAP, MICROVASC FREE MUSCLE FLAP WITH OR WITHOUT SKIN GRAFT WITH MICROVASCULAR
+
+ANASTOMOSIS
+
+15757 INTEGUMENTARY SYSTEM
+
+FREE SKIN FLAP, MICROVASC FREE SKIN FLAP WITH MICROVASCULAR ANASTOMOSIS
+
+15758 INTEGUMENTARY SYSTEM
+
+FREE FASCIAL FLAP, MICROVASC FREE FASCIAL FLAP WITH MICROVASCULAR ANASTOMOSIS
+
+20150 MUSCULOSKELETAL SYSTEM
+
+EXCISE EPIPHYSEAL BAR EXCISION OF EPIPHYSEAL BAR, WITH OR WITHOUT AUTOGENOUS SOFT TISSUE
+
+GRAFT OBTAINED THROUGH SAME FASCIAL INCISION
+
+20956 MUSCULOSKELETAL SYSTEM
+
+ILIAC BONE GRAFT, MICROVASC BONE GRAFT WITH MICROVASCULAR ANASTOMOSIS; ILIAC CREST
+
+20957 MUSCULOSKELETAL SYSTEM
+
+MT BONE GRAFT, MICROVASC BONE GRAFT WITH MICROVASCULAR ANASTOMOSIS; METATARSAL
+
+24149 MUSCULOSKELETAL SYSTEM
+
+RADICAL RESECTION OF ELBOW RADICAL RESECTION OF CAPSULE, SOFT TISSUE, AND HETEROTOPIC BONE,
+
+ELBOW, WITH CONTRACTURE RELEASE (SEPARATE PROCEDURE)
+
+Recently Inactivated CPT Codes\[ICPT CPT CODES INACTIVE\]
+
+This option will produce a listing of all CPT codes that have been inactivated with the most recent CPT update. An abbreviated example of this output, which requires a 132 column margin width, is provided below.
+
+Recently INACTIVATED CPT Codes effective Jun 02, 1997 APR 7,1997 11:19 PAGE 1
+
+CPT CODE CPT CATEGORY INACTIVE FLAG
+
+---------------------------------------------------------------------------------------------------------------
+
+11700 INTEGUMENTARY SYSTEM INACTIVE CODE
+
+SCRAPING OF 1-5 NAILS DEBRIDEMENT OF NAILS, MANUAL;
+
+FIVE OR LESS
+
+11701 INTEGUMENTARY SYSTEM INACTIVE CODE
+
+SCRAPING OF ADDITIONAL NAILS DEBRIDEMENT OF NAILS, MANUAL;
+
+EACH ADDITIONAL, FIVE OR LESS
+
+11710 INTEGUMENTARY SYSTEM INACTIVE CODE
+
+SCRAPING OF 1-5 NAILS DEBRIDEMENT OF NAILS, ELECTRIC GRINDER;
+
+FIVE OR LESS
+
+11711 INTEGUMENTARY SYSTEM INACTIVE CODE
+
+SCRAPING OF ADDITIONAL NAILS DEBRIDEMENT OF NAILS, ELECTRIC GRINDER;
+
+EACH ADDITIONAL, FIVE OR LESS
+
+15755 INTEGUMENTARY SYSTEM INACTIVE CODE
+
+MICROVASCULAR FLAP GRAFT FREE FLAP (MICROVASCULAR TRANSFER)
+
+20960 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+MICROVASCULAR RIB GRAFT BONE GRAFT WITH MICROVASCULAR ANASTOMOSIS;
+
+RIB
+
+20971 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+BONE-SKIN GRAFT, RIB FREE OSTEOCUTANEOUS FLAP WITH MICROVASCULAR ANASTOMOSIS;
+
+RIB
+
+25330 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+REVISE WRIST JOINT ARTHROPLASTY, WRIST;
+
+25331 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+REVISE WRIST JOINT ARTHROPLASTY, WRIST;
+
+WITH IMPLANT
+
+26552 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+CONSTRUCT THUMB REPLACEMENT RECONSTRUCTION THUMB WITH TOE
+
+26557 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+CONSTRUCT FINGER REPLACEMENT TOE TO FINGER TRANSFER;
+
+FIRST STAGE
+
+26558 MUSCULOSKELETAL SYSTEM INACTIVE CODE
+
+ADDED FINGER SURGERY TOE TO FINGER TRANSFER;
+
+EACH DELAY
+
+Revised CPT Codes\[ICPT REVISED CPT CODES\]
+
+This option will produce a listing of all the CPT codes that have been revised with the most recent CPT update. An abbreviated example of this output, which requires a 132 column margin width, is provided below.
+
+Recently REVISED CPT Codes effective Jun 02, 1997 APR 16,1997 10:33 PAGE 1
+
+CPT CODE CPT CATEGORY INACTIVE FLAG
+
+---------------------------------------------------------------------------------------------------------------
+
+00540 INTRATHORACIC
+
+ANESTH, CHEST SURGERY ANESTHESIA FOR THORACOTOMY PROCEDURES INVOLVING LUNGS, PLEURA,
+
+DIAPHRAGM, AND MEDIASTINUM (INCLUDING SURGICAL THORACOSCOPY); NOT
+
+OTHERWISE SPECIFIED
+
+00542 INTRATHORACIC
+
+ANESTH, RELEASE OF LUNG ANESTHESIA FOR THORACOTOMY PROCEDURES INVOLVING LUNGS, PLEURA,
+
+DIAPHRAGM, AND MEDIASTINUM (INCLUDING SURGICAL THORACOSCOPY);
+
+DECORTICATION
+
+00544 INTRATHORACIC
+
+ANESTH, CHEST LINING REMOVAL ANESTHESIA FOR THORACOTOMY PROCEDURES INVOLVING LUNGS, PLEURA,
+
+DIAPHRAGM, AND MEDIASTINUM (INCLUDING SURGICAL THORACOSCOPY);
+
+PLEURECTOMY
+
+00546 INTRATHORACIC
+
+ANESTH, LUNG,CHEST WALL SURG ANESTHESIA FOR THORACOTOMY PROCEDURES INVOLVING LUNGS, PLEURA,
+
+DIAPHRAGM, AND MEDIASTINUM (INCLUDING SURGICAL THORACOSCOPY);
+
+PULMONARY RESECTION WITH THORACOPLASTY
+
+00548 INTRATHORACIC
+
+ANESTH, TRACHEA,BRONCHI SURG ANESTHESIA FOR THORACOTOMY PROCEDURES INVOLVING LUNGS, PLEURA,
+
+DIAPHRAGM, AND MEDIASTINUM (INCLUDING SURGICAL THORACOSCOPY);
+
+INTRATHORACIC REPAIR OF TRAUMA TO TRACHEA AND BRONCHI
+
+01916 RADIOLOGICAL PROCEDURES
+
+ANESTH, HEAD ARTERIOGRAM ANESTHESIA FOR ARTERIOGRAMS, NEEDLE; CAROTID OR VERTEBRAL
+
+20962 MUSCULOSKELETAL SYSTEM
+
+OTHER BONE GRAFT, MICROVASC BONE GRAFT WITH MICROVASCULAR ANASTOMOSIS; OTHER THAN FIBULA, ILIAC
+
+CREST, OR METATARSAL
+
+20969 MUSCULOSKELETAL SYSTEM
+
+BONE/SKIN GRAFT, MICROVASC FREE OSTEOCUTANEOUS FLAP WITH MICROVASCULAR ANASTOMOSIS; OTHER THAN
+
+ILIAC CREST, METATARSAL, OR GREAT TOE
+
+22845 MUSCULOSKELETAL SYSTEM
+
+INSERT SPINE FIXATION DEVICE ANTERIOR INSTRUMENTATION; 2 TO 3 VERTEBRAL SEGMENTS
+
+23040 MUSCULOSKELETAL SYSTEM
+
+EXPLORATORY SHOULDER SURGERY ARTHROTOMY, GLENOHUMERAL JOINT, FOR INFECTION, WITH EXPLORATION,
+
+DRAINAGE, OR REMOVAL OF FOREIGN BODY
+
+23044 MUSCULOSKELETAL SYSTEM
+
+EXPLORATORY SHOULDER SURGERY ARTHROTOMY, ACROMIOCLAVICULAR, STERNOCLAVICULAR JOINT, FOR INFECTION,
+
+WITH EXPLORATION, DRAINAGE, OR REMOVAL OF FOREIGN BODY
+
+Glossary
+
+AMA American Medical Association
+
+CPT Current Procedural Terminology
+
+CPT Category Category name associated with a specified CPT code.
+
+HCFA Health Care Financing Administration
+
+HCPCS Health Care Financing Administration’s Common Procedure
+
+Coding System
+
+Modifier Optional identifier that may alter or enhance the description of a
+
+CPT or HCPCS code.
+
+VISTA Veterans Health Information Systems and Technology
+
+Architecture
