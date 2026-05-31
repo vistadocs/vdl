@@ -3,7 +3,7 @@ title: Hybrid DICOM Image Gateway (HDIG) Installation Guide Revision 3.2
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: MAG
 patch_ver: 3.2
 patch_id: MAG*3.2
-group_key: "MAG:MAG:3.2"
-file_numbers: []
-security_keys: []
+group_key: MAG:MAG:3.2
+description: HybridDICOM Image Gateway Installation Guide VistAJuly 2019Property of the US
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.3'
+- '4'
+- '2006.575'
+- '2006.5752'
+- '2006.9192'
+security_keys:
+- MAG VIX ADMIN
+- XUPROGMODE
 menu_options: 2
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - dicom
-  - hdig
-  - class
-  - table
-  - service
-  - contents
-  - strong
-  - vista
-  - device
 page_count: 0
 word_count: 14415
 section_count: 18
 table_count: 2
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_HDIG_Installation_Guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_HDIG_Installation_Guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_HDIG_Installation_Guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_HDIG_Installation_Guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](hybrid-dicom-image-gateway-hdig-installation-guide-revision-3-2/001.png)

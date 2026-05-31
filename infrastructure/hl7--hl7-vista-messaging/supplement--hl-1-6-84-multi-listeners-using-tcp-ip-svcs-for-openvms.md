@@ -3,46 +3,39 @@ title: HL7 HL*1.6*84 Multi-Listeners Using TCP/IP Svcs for OpenVMS
 doc_type: SUP
 doc_label: Supplement
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: V*ist*A Health Level Seven (HL7) Multi-listeners using TCP/IP Services for OpenVMSPatch
+audience: ''
+keywords: []
+file_numbers:
+- '9.4'
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - service
-  - table
-  - port
-  - hlseven
-  - cache
-  - contents
-  - openvms
-  - tcpip
-  - command
-  - number
 page_count: 0
 word_count: 9457
 section_count: 29
 table_count: 12
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p84sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p84sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p84sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p84sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-hl-1-6-84-multi-listeners-using-tcp-ip-svcs-for-openvms/001.png)

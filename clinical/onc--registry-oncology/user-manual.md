@@ -5,45 +5,43 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: (Updated ONC*2.2*22)
 app_code: ONC
-app_name: "Registry: Oncology"
+app_name: 'Registry: Oncology'
 section: CLI
 app_status: active
 pkg_ns: ONC
 patch_ver: 2.2
 patch_id: ONC*2.2
-group_key: "ONC:ONC:2.2"
-file_numbers: 
-  - 165
+group_key: ONC:ONC:2.2
+description: JUNE 2014(Revised September 2025)Office of Information and Technology (OI&T)Enterprise Program Management Office Revision
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.2'
+- '3'
+- '21'
+- '160'
+- '165'
+- '165.5'
+- '200'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - patient
-  - table
-  - contents
-  - date
-  - follow
-  - site
-  - primary
-  - abstract
-  - strong
-  - print
 page_count: 0
 word_count: 18307
 section_count: 80
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: JUNE 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=81"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=81
+audit_applied: '2026-05-31'
 ---
 
 ONCOLOGY (ONC)USER MANUAL

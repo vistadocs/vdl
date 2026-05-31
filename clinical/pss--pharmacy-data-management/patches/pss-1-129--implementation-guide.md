@@ -5,44 +5,55 @@ doc_label: Implementation Guide
 doc_layer: patch
 doc_subject: Pharmacy Reengineering (PRE) V.0.5 Pre-Release
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*129
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: '- PHARMACY REENGINEERING (PRE) Version 0.5Pre-Release - Introduction - Purpose - Project Description - Scope - Menu Changes - [Pharmacy Data Management menu...'
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '11'
+- '18'
+- '31'
+- '50'
+- '50.0904'
+- '50.606'
+- '50.68'
+- '51'
+- '51.1'
+- '51.2'
+- '51.23'
+- '51.24'
+- '52.6'
+- '52.7'
+- '200'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - dose
-  - unit
-  - package
-  - local
-  - numeric
-  - possible
-  - drug
-  - dosages
-  - medication
-  - strength
 page_count: 0
 word_count: 24858
 section_count: 31
 table_count: 8
 figure_count: 0
 appendix_count: 6
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p129_p147_r0210_img.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p129_p147_r0210_img.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p129_p147_r0210_img.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p129_p147_r0210_img.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](pss-1-129-147-implementation-guide-pharmacy-reengineering-pre-v-0-5-pre-release/001.png)

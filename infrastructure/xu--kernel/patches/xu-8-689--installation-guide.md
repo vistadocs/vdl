@@ -11,47 +11,32 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*689
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8
+description: '| Date | Revision | Description | Author | |-----------|----------|-----------------|----------| | June 2023 | 1.0 | Initial version | Redacted'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '8991.8'
+security_keys:
+- PSDMGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - install
-  - patch
-  - backout
-  - build
-  - rollback
-  - procedure
-  - routine
 page_count: 0
-word_count: 3864
+word_count: 3850
 section_count: 30
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_p689_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_p689_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_p689_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_p689_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Pharmacy Operational Updates Project (POU) XU\*8.0\*689
-
-  Deployment, Installation, Backout, and Rollback Guide (DIBRG)
----
-
 ![](xu-8-689-deployment-installation-backout-and-rollback-guide-dibrg/001.png)
 
 June 2023

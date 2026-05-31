@@ -11,44 +11,31 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*629
-group_key: "CPRS:OR:3.0"
-file_numbers: []
+group_key: CPRS:OR:3.0
+description: These release notes cover the changes to CPRS delivered in the CPRS v33R release.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '8989.51'
 security_keys: []
 menu_options: 0
-description: These release notes cover the changes to CPRS delivered in the CPRS v33R release.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - cprs
-  - release
-  - table
-  - contents
-  - notes
-  - patient
-  - record
-  - software
-  - issue
-  - existing
 page_count: 0
-word_count: 860
+word_count: 845
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc205632711" class="anchor"></span>Computerized Patient Record System (CPRS) v33R (OR\*3.0\*629)
----
-
 # Release Notes
 
 

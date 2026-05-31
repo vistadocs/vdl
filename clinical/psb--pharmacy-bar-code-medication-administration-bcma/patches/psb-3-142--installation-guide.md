@@ -5,52 +5,38 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: Pharmacy Operational Updates
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*142
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '| Date | Version | Description | Author | |-------------|-------------|-----------------|----------------| | August 2023 | 1.0 | Initial Version | Dennis Bricker'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XUPROG
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - back
-  - installation
-  - rollback
-  - deployment
-  - procedure
-  - vista
-  - site
 page_count: 0
-word_count: 2544
+word_count: 2530
 section_count: 31
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_0_142_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_0_142_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_0_142_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_0_142_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Operational Updates (POU)  
-  BCMA2PCE Sunset
----
-
 PSB\*3.0\*142
 
 Deployment, Installation, Back-Out, and Rollback Guide

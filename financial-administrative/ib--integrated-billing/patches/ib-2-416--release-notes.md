@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*416
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2
+description: Department of Veterans AffairsVeterans Health
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2.312'
+- '19'
+- '365'
+security_keys:
+- PROVIDER
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - insurance
-  - table
-  - contents
-  - patch
-  - process
-  - buffer
-  - installation
-  - patient
-  - install
-  - eligibility
 page_count: 0
 word_count: 2237
 section_count: 16
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p416_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p416_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p416_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p416_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 Integrated Billing

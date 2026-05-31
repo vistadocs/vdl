@@ -3,46 +3,39 @@ title: PSJ*5*113 Technical Manual / Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*113
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '- Version 5.0 - Revision History - Descriptions - Callable Routines - Routine Mapping - Do Not Map > December 1997 > (Revised June 2010) > Department of Veterans Affairs > VistA Health...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '53.1'
+- '55'
 security_keys: []
 menu_options: 0
-description: - [Version 5.0](#version-50) - [Revision History](#revision-history) - [Descriptions](#descriptions) - [Callable Routines](#callable-routines) - [Routine Mapping](#routine-mapping) - [Do Not Map](#do-not-map) > December 1997 > (Revised June 2010) > Department of Veterans Affairs > VistA Health Syste
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - style
-  - width
-  - mark
-  - even
-  - strong
-  - psgoe
-  - contents
 page_count: 0
 word_count: 1363
 section_count: 4
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p113_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p113_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p113_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p113_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-113-technical-manual-security-guide-change-pages/001.png)

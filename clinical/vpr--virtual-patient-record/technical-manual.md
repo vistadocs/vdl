@@ -8,51 +8,45 @@ app_code: VPR
 app_name: Virtual Patient Record
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 560
-security_keys: []
+pkg_ns: VPR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''Added Sections 2.2.1, "VPR," and 2.2.2, "HealthShare." Updated Table 3: Added the VPRSDAOB routine. Updated Table 6: Added ICR entries: 7437, 4513, and 5042. Update Table 9: Added the MDC OBSERVATION UPDATE event'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.5'
+- '2'
+- '4.0'
+- '100'
+- '101'
+- '200'
+- '560'
+- '560.1'
+- '8925'
+security_keys:
+- PF1
+- PROVIDER
+- VPR HS ENABLE
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - table
-  - contents
-  - even
-  - patient
-  - span
-  - record
-  - manual
-  - software
 page_count: 0
-word_count: 9207
+word_count: 9194
 section_count: 23
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=197"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=197
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Virtual Patient Record (VPR) 1.0
-
-  Technical Manual
----
-
 ![](virtual-patient-record-vpr-technical-manual/001.png)
 
 January 2024

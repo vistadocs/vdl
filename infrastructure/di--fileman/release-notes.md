@@ -3,7 +3,7 @@ title: FM 22.2 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
+group_key: DI:DI:22.2
+description: Template Revision History showing date template was created or revised, version number, description, and author.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '3.5'
 security_keys: []
 menu_options: 0
-description: "<table> <caption>Template Revision History showing date template was created or revised, version number, description, and author.</caption> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 10%\\" /> <col style=\\"width: 45%\\" /> <col style=\\"width: 25%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <"
-audience: 
-keywords: 
-  - table
-  - contents
-  - fileman
-  - fields
-  - changes
-  - screenman
-  - word
-  - processing
-  - dictionary
-  - maximum
 page_count: 0
-word_count: 3504
+word_count: 3499
 section_count: 25
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2
-
-  Release Notes
----
-
 ![](fm-22-2-release-notes/001.png)
 
 August 2016

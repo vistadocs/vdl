@@ -3,7 +3,7 @@ title: Accounts Receivable Version 4.5 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
+group_key: PRCA:PRCA:4.5
+description: '> Department of Veterans Affairs Decentralized Hospital Computer'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '340'
+- '344.1'
+- '347'
+- '412'
+- '430'
+- '430.4'
+- '433'
 security_keys: []
 menu_options: 8
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - prcai
-  - class
-  - installation
-  - even
-  - table
-  - style
-  - width
-  - contents
-  - instructions
 page_count: 0
 word_count: 4984
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/45instal.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/45instal.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/45instal.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/45instal.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 > Department of Veterans Affairs Decentralized Hospital Computer Program

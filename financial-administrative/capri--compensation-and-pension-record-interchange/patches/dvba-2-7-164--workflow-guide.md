@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*164
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '| | | | | |-----------|-----------------------------------------|----------|------------------| | Date | Description (Patch \# if applicable) | Author | Technical Writer | | 1/21/2011 | Document created | REDACTED | N/A | | 4/1/2011 | Revisions and corrections for patch 163 | REDACTED | N/A'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - enabled
-  - class
-  - diagnosis
-  - kidney
-  - veteran
-  - strong
-  - mandatory
-  - other
-  - else
-  - please
 page_count: 0
 word_count: 12594
 section_count: 15
 table_count: 72
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 2
 revision_newest: 4/1/2011
 revision_oldest: 1/21/2011
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_kidneyconditions_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_kidneyconditions_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_kidneyconditions_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_kidneyconditions_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-164-workflow-kidney-conditions-nephrology/001.png)

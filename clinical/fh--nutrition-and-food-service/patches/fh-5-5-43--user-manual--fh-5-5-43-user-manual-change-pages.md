@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5*43
-group_key: "FH:FH:5.5"
+group_key: FH:FH:5.5
+description: '| Date | Description of Change(s) | VA Project Manager | Technical Writer |...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- FHMGR
+- NFS
 menu_options: 0
-description: - [# Document Purpose](#document-purpose) - [Scope of Patch FH\5.5\43](#scope-of-patch-fh5543) - [Updates to Nutrition and Food Service](#updates-to-nutrition-and-food-service) - [Enhancements](#enhancements) - [Package Management](#package-management) - [Package Operation (Page 9)](#package-operati
-audience: 
-keywords: 
-  - tray
-  - table
-  - contents
-  - tickets
-  - print
-  - supplemental
-  - options
-  - test
-  - manual
-  - feeding
 page_count: 0
 word_count: 1607
 section_count: 4
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 Nutrition and Food Service User Manual

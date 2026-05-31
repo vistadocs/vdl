@@ -3,7 +3,7 @@ title: VSM Version 4 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: KMPV
 app_name: VistA System Monitor (VSM)
 section: INF
@@ -11,48 +11,37 @@ app_status: active
 pkg_ns: KMPV
 patch_ver: 4
 patch_id: KMPV*4
-group_key: "KMPV:KMPV:4"
-file_numbers: 
-  - 8969
-security_keys: []
+group_key: KMPV:KMPV:4
+description: 'Changed Field #1.05 in File #8969 from TASKMAN SCHEDULE FREQUENCY to HTTP REQUEST MAX LENGTH. Changed Field #1.06 in File #8969 from TASKMAN SCHEDULE START to MONITOR START'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1.01'
+- '1.04'
+- '19'
+- '8969'
+security_keys:
+- KMPVOPS
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - monitor
-  - vista
-  - table
-  - strong
-  - span
-  - class
-  - contents
-  - metrics
-  - manual
-  - version
 page_count: 0
-word_count: 6275
+word_count: 6262
 section_count: 14
 table_count: 9
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=218"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=218
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc186420068" class="anchor"></span>VistA System Monitor (VSM) 4.0
-
-  User Manual
----
-
 ![](vsm-version-4-user-manual/001.png)
 
 January 2024

@@ -3,46 +3,57 @@ title: MOCHA Version Combined Build Enhancement 3.0 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 3.0
 patch_id: PSO*3.0
-group_key: "PSO:PSO:3.0"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:3.0
+description: PSJ\*5\*447, PSO\*7\*737, and OR\*3\*626 (MOCHA 3.0 PGX Combined Build
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '6'
+- '18.02'
+- '18.12'
+- '46'
+- '47'
+- '50'
+- '50.416'
+- '50.68'
+- '51.26'
+- '51.263'
+- '51.28'
+- '51.29'
+- '59.7'
+- '100.05'
+- '100.3'
+- '100.8'
+- '103'
+security_keys:
+- PSJI MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - check
-  - table
-  - pharmacogenomic
-  - contents
-  - drug
-  - interaction
-  - checks
-  - phenotype
-  - pharmacy
 page_count: 0
 word_count: 2976
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_psj_5_rn_r737.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_psj_5_rn_r737.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_psj_5_rn_r737.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_psj_5_rn_r737.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-combined-build-enhancement-3-0-release-notes/001.png)

@@ -3,7 +3,7 @@ title: Emergency Department Integration Software Glossary
 doc_type: SUP
 doc_label: Supplement
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EDIS
 app_name: Emergency Department Integration Software
 section: CLI
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: EDIS
 patch_ver: 2.2
 patch_id: EDIS*2.2
-group_key: "EDIS:EDIS:2.2"
+group_key: EDIS:EDIS:2.2
+description: Removed patch specific references from the Title page and Footers Added CPU, CSV, DIBR, ESD, H&P, HWS, ICU, LPN, NHAMCS, OSD, OIV, PRF, RGB, RN, SAML, SNOW, SSN, TAG, VeHU, XE, and XRef to the acronym table Updated Title page, Revision History, Table of Contents, and
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - class
-  - table
-  - contents
-  - even
-  - health
-  - java
-  - software
-  - patient
-  - veterans
-  - vista
 page_count: 0
 word_count: 7792
 section_count: 84
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_glossary_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_glossary_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=179"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_glossary_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_glossary_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=179
+audit_applied: '2026-05-31'
 ---
 
 Emergency Department Integration Software (EDIS)

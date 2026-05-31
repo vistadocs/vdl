@@ -11,31 +11,29 @@ app_status: active
 pkg_ns: PAIT
 patch_ver: 1
 patch_id: PAIT*1
-group_key: "PAIT:PAIT:1"
+group_key: PAIT:PAIT:1
+description: ''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pait
-  - version
-  - flowchart
 page_count: 0
 word_count: 5
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: True
-pub_date: 
+has_toc: false
+is_stub: true
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_information_flowchart.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_information_flowchart.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=169"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_information_flowchart.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_information_flowchart.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=169
+audit_applied: '2026-05-31'
 ---
 
 ![](pait-version-1-information-flowchart/001.png)

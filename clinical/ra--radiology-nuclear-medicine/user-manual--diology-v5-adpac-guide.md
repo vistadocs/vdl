@@ -1,7 +1,7 @@
 ---
 title: Radiology Version 5 ADPAC Guide
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: ADPAC Guide
 app_code: RA
@@ -11,45 +11,64 @@ app_status: active
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: 
-  - 40
-  - 44
-  - 71
-  - 78
-  - 79
-  - 81
-  - 771
-security_keys: []
+group_key: RA:RA:5
+description: RADIOLOGY/NUCLEAR MEDICINEADPAC GUIDE(Package Implementation and
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '4'
+- '34'
+- '40.5'
+- '40.7'
+- '44'
+- '71'
+- '71.2'
+- '71.4'
+- '71.5'
+- '72'
+- '74.1'
+- '78.2'
+- '78.3'
+- '78.4'
+- '79.1'
+- '79.2'
+- '81'
+- '200'
+- '771'
+security_keys:
+- ART
+- III-3
+- III-5
+- MAG SYSTEM
+- MAGD QR REPORT
+- PROVIDER
+- QR AUTO RETRIEVE
+- QR MANUAL RETRIEVE
+- RA ALLOC
+- RA MGR
+- RA RPTMGR
+- RA SWITCHLOC
+- RA UNVERIFY
+- RA VERIFY
+- VII-9
+- XVI-4
 menu_options: 16
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - procedure
-  - imaging
-  - status
-  - exam
-  - report
-  - table
-  - contents
-  - location
 page_count: 0
 word_count: 69262
 section_count: 119
 table_count: 48
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0ag.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0ag.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0ag.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0ag.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](radiology-version-5-adpac-guide/001.png)

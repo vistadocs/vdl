@@ -3,7 +3,7 @@ title: Nursing Version 4 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: NUR
 app_name: Nursing
 section: CLI
@@ -11,40 +11,105 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4
-group_key: "NUR:NUR:4"
-file_numbers: 
-  - 42
-  - 211
-security_keys: []
+group_key: NUR:NUR:4
+description: '> Nursing is a component of the Department of Veterans Affairs VISTA program. It is comprised of multiple modules (i.e., Administration, Clinical, Education, Performance Improvement, and Research). The current software release has been approved by the Nursing Focus Group with the assistance of the A'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '6'
+- '6.1'
+- '6.4'
+- '6.5'
+- '6.6'
+- '7'
+- '9'
+- '11.2'
+- '12'
+- '13'
+- '14'
+- '22.5'
+- '23'
+- '42'
+- '44'
+- '120.5'
+- '120.52'
+- '120.53'
+- '120.57'
+- '124.2'
+- '124.3'
+- '126'
+- '126.5'
+- '126.56'
+- '126.58'
+- '126.6'
+- '126.7'
+- '126.72'
+- '126.74'
+- '126.76'
+- '126.8'
+- '126.9'
+- '126.95'
+- '151'
+- '153'
+- '154'
+- '200'
+- '210'
+- '211.1'
+- '211.3'
+- '211.4'
+- '211.5'
+- '211.6'
+- '211.7'
+- '211.8'
+- '211.9'
+- '212.1'
+- '212.2'
+- '212.3'
+- '212.6'
+- '212.7'
+- '213.2'
+- '213.3'
+- '213.4'
+- '213.5'
+- '213.9'
+- '214'
+- '214.6'
+- '214.7'
+- '216.8'
+- '217'
+- '217.1'
+- '217.2'
+- '217.3'
+- '450'
+- '452'
+- '452.1'
+- '615.2'
+- '748'
+security_keys:
+- PRSE CORD
+- PRSE SUP
+- PRSE TRAIN
 menu_options: 1
-description: > Nursing is a component of the Department of Veterans Affairs VISTA program. It is comprised of multiple modules (i.e., Administration, Clinical, Education, Performance Improvement, and Research). The current software release has been approved by the Nursing Focus Group with the assistance of the A
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - class
-  - contents
-  - width
-  - style
-  - colspan
-  - nursnurse
-  - even
-  - nursing
 page_count: 0
 word_count: 107458
 section_count: 813
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
 
 > ![](nursing-version-4-user-manual/001.png)

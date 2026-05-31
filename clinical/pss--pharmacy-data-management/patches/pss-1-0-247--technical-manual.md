@@ -3,47 +3,89 @@ title: Pharmacy Data Management Technical Manual / Security Guide (PSS_1_0_P247)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: Pharmacy Data Management  / Security Guide (PSS_1_0_P247)
+doc_subject: Pharmacy Data Management / Security Guide (PSS_1_0_P247)
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: archive
 pkg_ns: PSS
 patch_ver: 1.0
 patch_id: PSS*1.0*247
-group_key: "PSS:PSS:1.0"
-file_numbers: 
-  - 50
-security_keys: []
+group_key: PSS:PSS:1.0
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '6'
+- '10'
+- '15'
+- '17'
+- '18'
+- '48'
+- '50'
+- '50.02'
+- '50.0903'
+- '50.1'
+- '50.4'
+- '50.606'
+- '50.6061'
+- '50.6069'
+- '50.68'
+- '50.7'
+- '50.711'
+- '51'
+- '51.1'
+- '51.2'
+- '51.23'
+- '51.24'
+- '51.25'
+- '51.7'
+- '52.6'
+- '52.7'
+- '53.1'
+- '53.47'
+- '55'
+- '59'
+- '59.7'
+- '100'
+- '101'
+- '101.43'
+- '102'
+- '105'
+- '105.2'
+- '109'
+- '400'
+- '2005'
+- '2006'
+- '2007'
+- '8989.51'
+security_keys:
+- CUSTOM TABLES REQUESTOR
+- PSA ORDERS
+- PSDMGR
+- PSJI MGR
+- PSORPH
+- PSS ORDER CHECKS
+- PSS PADE INIT
 menu_options: 7
-description: 
-audience: 
-keywords: 
-  - class
-  - strong
-  - drug
-  - pharmacy
-  - table
-  - contents
-  - orderable
-  - even
-  - management
-  - medication
 page_count: 0
 word_count: 12813
 section_count: 36
 table_count: 14
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/PSS_1_0_p247_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/PSS_1_0_p247_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=392"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/PSS_1_0_p247_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/PSS_1_0_p247_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=392
+audit_applied: '2026-05-31'
 ---
 
 ![](pharmacy-data-management-technical-manual-security-guide-pss-1-0-p247/001.png)

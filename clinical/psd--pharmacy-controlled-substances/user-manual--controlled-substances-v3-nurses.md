@@ -3,46 +3,43 @@ title: Controlled Substances Version 3 Nurse's User Manual (Updated PSD*3*82)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Nurse's  (Updated PSD*3*82)
+doc_subject: Nurse's (Updated PSD*3*82)
 app_code: PSD
-app_name: "Pharmacy: Controlled Substances"
+app_name: 'Pharmacy: Controlled Substances'
 section: CLI
 app_status: active
 pkg_ns: PSD
 patch_ver: 3
 patch_id: PSD*3
-group_key: "PSD:PSD:3"
+group_key: PSD:PSD:3
+description: The Controlled Substances (CS) Nurses' User Manual is designed to provide you with information on the CS software package. This product is one segment of the Veterans Health Information Systems and Technology Architecture (V*IST*A) installed at VA medical centers. The Controlled Substances module...
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
 menu_options: 2
-description: ![](controlled-substances-version-3-nurse-s-user-manual-updated-psd-3-82/001.png)
-audience: 
-keywords: 
-  - naou
-  - drug
-  - table
-  - contents
-  - green
-  - report
-  - controlled
-  - patient
-  - sheet
-  - ward
 page_count: 0
 word_count: 7642
 section_count: 25
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_nurse_um_r0818.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_nurse_um_r0818.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=86"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_nurse_um_r0818.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_nurse_um_r0818.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
 ---
 
 ![](controlled-substances-version-3-nurse-s-user-manual-updated-psd-3-82/001.png)

@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: FB
 patch_ver: 1
 patch_id: FB*1
-group_key: "FB:FB:1"
-file_numbers: []
+group_key: FB:FB:1
+description: Enhance the Veteran Experience and Access to Healthcare (EVEAH) InitiativeAccess Received Closer to Home Automated Eligibility
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '161'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - arch
-  - reminder
-  - dialog
-  - table
-  - contents
-  - installation
-  - install
-  - pilot
-  - prompt
-  - project
+menu_options: 1
 page_count: 0
 word_count: 3566
 section_count: 17
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/arch_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/arch_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/arch_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/arch_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 ![](arch-version-1-installation-guide-pilot-program/001.png)

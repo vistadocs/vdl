@@ -3,7 +3,7 @@ title: PAID Version 4 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRS
 app_name: Personnel and Accounting Integrated Data (PAID)
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4
-group_key: "PRS:PRS:4"
-file_numbers: []
+group_key: PRS:PRS:4
+description: The following enhancements were made to this version of Time and Attendance, Personnel and Accounting Integrated Data (PAID). There were no new enhancements to the Education Tracking portion.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '200'
+- '450'
+- '458'
+- '458.5'
 security_keys: []
 menu_options: 0
-description: The following enhancements were made to this version of Time and Attendance, Personnel and Accounting Integrated Data (PAID). There were no new enhancements to the Education Tracking portion.
-audience: 
-keywords: 
-  - leave
-  - employee
-  - date
-  - report
-  - period
-  - requests
-  - payroll
-  - employees
-  - shows
-  - selected
 page_count: 0
 word_count: 1705
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

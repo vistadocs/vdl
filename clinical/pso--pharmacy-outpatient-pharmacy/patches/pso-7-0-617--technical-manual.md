@@ -3,59 +3,110 @@ title: Inbound ePrescribing Technical Manual (PSO*7*617)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (PSO*7*617)
+doc_subject: Inbound ePrescribing (PSO*7*617)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
-file_numbers: 
-  - 52
-  - 59
-security_keys: []
+group_key: PSO:PSO:7.0
+description: PSO ERX AUDIT LOG MENU,PSO ERX AUDIT LOG SHOW/HIDE ERX VALUE,PSO ERX AUDIT LOG SORT BY DATE/TIME,PSO ERX AUDIT LOG SORT BY EDITED BY,PSO ERX AUDIT LOG SORT BY FIELD NAME,PSO ERX HIDDEN ACTIONS,PSO ERX JUMP TO ERX,PSO ERX UN-ACCEPT,PSO ERX VIEW AUDIT
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '3'
+- '3.2'
+- '3.5'
+- '4'
+- '5'
+- '6.5'
+- '7'
+- '8'
+- '9'
+- '10.2'
+- '11'
+- '17'
+- '27'
+- '31'
+- '32'
+- '43'
+- '48'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.606'
+- '50.68'
+- '50.9'
+- '52'
+- '52.09'
+- '52.1'
+- '52.2'
+- '52.3'
+- '52.4'
+- '52.41'
+- '52.45'
+- '52.46'
+- '52.47'
+- '52.48'
+- '52.49'
+- '52.5'
+- '52.53'
+- '52.8'
+- '52.87'
+- '55'
+- '58.4'
+- '58.41'
+- '58.42'
+- '59'
+- '59.7'
+- '59.747'
+- '60'
+- '61'
+- '82'
+- '100'
+- '101'
+- '102.1'
+- '105.1'
+- '107.2'
+- '109'
+- '114'
+- '116'
+- '123'
+- '124'
+- '200'
+- '771'
+- '870'
+- '1008'
+- '3001'
+security_keys:
+- PROVIDER
+- PSDRPH
+- PSO TECH ADV
+- PSORPH
 menu_options: 6
-description: 
-audience: 
-keywords: 
-  - class
-  - colspan
-  - strong
-  - even
-  - pharmacy
-  - table
-  - code
-  - number
-  - contents
-  - patient
 page_count: 0
-word_count: 46101
+word_count: 46092
 section_count: 74
 table_count: 45
 figure_count: 0
 appendix_count: 7
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 3
 revision_newest: 2/13/2007
 revision_oldest: 12/1/2006
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Outpatient Pharmacy (PSO)
-
-  Version 7.0
-
-  Technical Manual / Security Guide
----
-
 ![](inbound-eprescribing-technical-manual-pso-7-617/001.png)
 
 December 1997  

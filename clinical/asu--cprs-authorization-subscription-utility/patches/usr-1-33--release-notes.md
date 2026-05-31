@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Show User Class Name in ASU Options
 app_code: ASU
-app_name: "CPRS: Authorization Subscription Utility"
+app_name: 'CPRS: Authorization Subscription Utility'
 section: CLI
 app_status: active
 pkg_ns: USR
 patch_ver: 1
 patch_id: USR*1*33
-group_key: "ASU:USR:1"
-file_numbers: []
+group_key: ASU:USR:1
+description: Patch USR\1\33 supports the Reminders Polytrauma Marker patch PXRM\2\17. Patches USR\1\33 and PXRM\2\17 are sent out together in a single distribution, with PXRM\2\17 requiring USR\1\33.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '8930'
 security_keys: []
 menu_options: 0
-description: Patch USR\1\33 supports the Reminders Polytrauma Marker patch PXRM\2\17. Patches USR\1\33 and PXRM\2\17 are sent out together in a single distribution, with PXRM\2\17 requiring USR\1\33.
-audience: 
-keywords: 
-  - class
-  - table
-  - contents
-  - patch
-  - strong
-  - names
-  - description
-  - blockquote
-  - style
-  - width
 page_count: 0
 word_count: 659
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/usr_1_33rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/usr_1_33rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=58"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/usr_1_33rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/usr_1_33rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=58
+audit_applied: '2026-05-31'
 ---
 
 ![](usr-1-33-show-user-class-name-in-asu-options/001.png)

@@ -11,38 +11,39 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*425
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 4
+group_key: PRF:DG:5.3
 description: The Patient Record Flags (DG\5.3\425) patch introduces changes and enhancements to the Registration V. 5.3 package in support of the Patient Record Flags initiative.
-audience: 
-keywords: 
-  - record
-  - flag
-  - patient
-  - table
-  - assignment
-  - contents
-  - dgpf
-  - flags
-  - category
-  - class
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '26.11'
+- '26.12'
+- '26.13'
+- '26.14'
+- '26.15'
+- '26.17'
+- '26.18'
+- '391.91'
+security_keys:
+- DGPF PRF ACCESS
+- DGPF PRF CONFIG
+menu_options: 4
 page_count: 0
 word_count: 5808
 section_count: 36
 table_count: 78
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2003
 revision_count: 4
 revision_newest: 7/09/03
 revision_oldest: 5/12/03
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfrn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfrn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-425-patient-record-flags-phase-i-release-notes/001.png)

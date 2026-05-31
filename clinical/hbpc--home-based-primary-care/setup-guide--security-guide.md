@@ -3,55 +3,39 @@ title: HBPC Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: HBPC
+patch_ver: null
+patch_id: null
+group_key: null
 description: Version 1.0November 1993Revised August 2021Department of Veterans AffairsOffice of Information Technology
-audience: 
-keywords: 
-  - blockquote
-  - hbhc
-  - class
-  - strong
-  - table
-  - style
-  - width
-  - contents
-  - even
-  - mail
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers: []
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
-word_count: 1195
+word_count: 1188
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  HOME BASED PRIMARY CARE
-
-  SECURITY GUIDE
----
-
 ![](hbpc-security-guide/001.png)
 
 SENSITIVE INFORMATION

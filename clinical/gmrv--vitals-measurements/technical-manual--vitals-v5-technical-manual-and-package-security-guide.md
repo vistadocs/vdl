@@ -11,38 +11,49 @@ app_status: active
 pkg_ns: GMRV
 patch_ver: 5
 patch_id: GMRV*5
-group_key: "GMRV:GMRV:5"
-file_numbers: []
+group_key: GMRV:GMRV:5
+description: VITALS / MEASUREMENTSTECHNICAL MANUAL ANDPACKAGE SECURITY GUIDEVersion 5.0October
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3.5'
+- '4'
+- '4.2'
+- '42'
+- '44'
+- '100.21'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.53'
+- '120.57'
+- '200'
+- '211.4'
+- '405'
+- '405.1'
+- '405.4'
+- '8989.5'
+- '8989.51'
+- '8989.518'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vitals
-  - piece
-  - result
-  - parameter
-  - description
-  - number
-  - vital
-  - global
-  - gmvmgr
-  - return
 page_count: 0
 word_count: 18322
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=107"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
 ---
 
 ![](vitals-version-5-technical-manual-and-package-security-guide/001.png)

@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*601
-group_key: "IVMB:IVMB:2"
-file_numbers: []
+group_key: IVMB:IVMB:2
+description: '- Revision History - Introduction - Overview - Related Manuals - Implementation and Maintenance - Implementation - Maintenance - User Groups -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '5'
+- '742085'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - error
-  - processing
-  - tool
-  - blockquote
-  - aycbep
-  - software
-  - routines
-  - security
 page_count: 0
 word_count: 2827
 section_count: 22
 table_count: 20
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p601_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p601_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p601_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p601_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 ![](ivmb-2-601-error-processing-phase-2-technical-manual/001.png)

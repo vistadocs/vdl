@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*99
-group_key: "RMPR:RMPR:3"
-file_numbers: []
+group_key: RMPR:RMPR:3
+description: ProstheticsRemove IFCAP Item DescriptionFrom 2319Release NotesPatch
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '660'
 security_keys: []
 menu_options: 0
-description: <span id="_Toc88446104" class="anchor"></span>Remove IFCAP Item Description from 2319 Release Notes
-audience: 
-keywords: 
-  - strong
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - blockquote
-  - description
-  - class
-  - ifcap
 page_count: 0
 word_count: 3138
 section_count: 0
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_99rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_99rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_99rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_99rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ![](rmpr-3-99-remove-ifcap-item-description-from-2319-release-notes/001.png)

@@ -11,38 +11,34 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.1.2
 patch_id: EDIS*2.1.2
-group_key: "EDIS:EDIS:2.1.2"
-file_numbers: []
-security_keys: []
+group_key: EDIS:EDIS:2.1.2
+description: Department of Veterans AffairsEmergency Department Integration Software (EDIS)Server and Client Installation
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
+- '210'
+security_keys:
+- ORELSE
+- PROVIDER
+- PSJ RNURSE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - edis
-  - prompt
-  - press
-  - installation
-  - class
-  - server
-  - emergency
-  - span
 page_count: 0
 word_count: 3321
 section_count: 20
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsEmergency Department Integration Software (EDIS)Server and Client Installation Guide

@@ -3,7 +3,7 @@ title: TMP VistA Patch 863 DIBRG
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: TMP
 app_name: Telehealth Management Platform
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 53.863
 patch_id: TMP*53.863*863
-group_key: "TMP:TMP:53.863"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: TMP:TMP:53.863
 description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\863 patch
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - patch
-  - rollback
-  - procedure
-  - install
-  - routine
-  - build
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '16'
+- '44'
+- '409.85'
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 1759
 section_count: 25
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2024
 revision_count: 2
 revision_newest: 2/27/2024
 revision_oldest: 1/25/2024
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/SD_53_863_DIBRG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/SD_53_863_DIBRG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/SD_53_863_DIBRG.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/SD_53_863_DIBRG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Scheduling Package EnhancementPatch SD\*5.3\*863

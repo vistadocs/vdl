@@ -3,46 +3,51 @@ title: Adverse Reaction Tracking Installation Manual
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: GMRA
-app_name: "CPRS: Adverse Reaction Tracking (ART)"
+app_name: 'CPRS: Adverse Reaction Tracking (ART)'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: GMRA
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Adverse Reaction Tracking (ART) requires an estimated minimum of 0.7 megabytes of disk space to install.'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.5'
+- '2'
+- '3'
+- '7.3'
+- '9.4'
+- '10.1'
+- '26'
+- '120.8'
+- '120.82'
+- '120.83'
+- '120.84'
+- '120.85'
+- '120.86'
+- '120.87'
 security_keys: []
 menu_options: 0
-description: > Adverse Reaction Tracking (ART) requires an estimated minimum of 0.7 megabytes of disk space to install.
-audience: 
-keywords: 
-  - blockquote
-  - gmrai
-  - table
-  - class
-  - installation
-  - contents
-  - style
-  - width
-  - site
-  - gmra
 page_count: 0
 word_count: 2028
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_allr4_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_allr4_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=57"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_allr4_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_allr4_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=57
+audit_applied: '2026-05-31'
 ---
 
 > General Installation Information

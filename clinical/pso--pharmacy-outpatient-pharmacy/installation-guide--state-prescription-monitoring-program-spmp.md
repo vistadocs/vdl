@@ -1,12 +1,54 @@
 ---
-consolidated_title: "state prescription monitoring program (spmp) installation guide"
-app_code: PSO
+title: PSO*7*451 State Prescription Monitoring Program (SPMP) Installation Guide
 doc_type: IG
-master_source: "PSO*7*451 State Prescription Monitoring Program (SPMP) Installation Guide"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: State Prescription Monitoring Program (SPMP)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7*451
+group_key: PSO:PSO:7
+file_numbers:
+- '17'
+- '18'
+- '19'
+- '58.4'
+- '58.4001'
+- '58.41'
+- '58.42'
+security_keys:
+- PSO SPMP ADMIN
+- SSH
+menu_options: 0
+description: State Prescription Monitoring Program (SPMP) EnhancementPatch
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 5864
+section_count: 27
+table_count: 18
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: August 2016
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p451_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p451_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7*451 State Prescription Monitoring Program (SPMP) Installation Guide
 master_pub_date: August 2016
 consolidated_from: 2 versions
 prior_versions:
-  - "PSO*7*408 State Prescription Monitoring Program (SPMP) Installation Guide"
+- PSO*7*408 State Prescription Monitoring Program (SPMP) Installation Guide
+consolidated_title: state prescription monitoring program (spmp) installation guide
 ---
 
 State Prescription Monitoring Program (SPMP) EnhancementPatch PSO\*7\*451
@@ -244,7 +286,7 @@ If your site has never transmitted data to the SPMP or if it did in the past but
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If you haven’t yet registered with your SPMP you need to do so prior to transmitting data to them. In summary, you have to gather the Pharmacy information such as Pharmacy Name, Address, Phone \#, DEA \#, and NPI \#, and then fill out a form which is usually available online at their website where you can also find a detailed Implementation Guide. You must specify that you will be reporting data via Secure File Transfer Protocol (sFTP) using Secure SHell (SSH) Encryption keys. Some states refer to such type of registration as “sFTP Uploaders”.
+If you haven't yet registered with your SPMP you need to do so prior to transmitting data to them. In summary, you have to gather the Pharmacy information such as Pharmacy Name, Address, Phone \#, DEA \#, and NPI \#, and then fill out a form which is usually available online at their website where you can also find a detailed Implementation Guide. You must specify that you will be reporting data via Secure File Transfer Protocol (sFTP) using Secure SHell (SSH) Encryption keys. Some states refer to such type of registration as "sFTP Uploaders".
 
 Once you successfully register with the SPMP they will provide you with the following information: ASAP Version (e.g., 4.2), your assigned Username, the SPMP Server IP Address and in some cases the Port Number. They may also specify a specific Directory at their server where they want the data to be uploaded to. You will need this information when configuring the transmission in VistA.
 
@@ -291,7 +333,7 @@ Directory USER\$:\[000000\]
 
 SPMP.DIR;1 \[CACHEMGR\] (RWED,RWED,RWED,RWED)
 
-| ![](pso-7-451-state-prescription-monitoring-program-spmp-installation-guide/008.png) | Action: Once the directory has been created, please pass this directory name (e.g., “USER\$:\[SPMP\]”) to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the SPMP Site parameters “Outlined Below”. |
+| ![](pso-7-451-state-prescription-monitoring-program-spmp-installation-guide/008.png) | Action: Once the directory has been created, please pass this directory name (e.g., "USER\$:\[SPMP\]") to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the SPMP Site parameters "Outlined Below". |
 |---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### SPMP State Parameter Configuration (Action Required)
@@ -310,7 +352,7 @@ ASAP VERSION
 This is the American Society for Automation in Pharmacy (ASAP) version required for the SPMP data transmission which was obtained during Step 4.4.1. It should be one of the following versions: 1995, 3.0, 4.0, 4.1 or 4.2.
 
 INCLUDE NON-VETERAN PATIENTS  
-This field indicates whether controlled substances prescriptions dispensed to non-veteran patients should be included in the export file transmitted to a state. Due to VHA Regulations in place at the time of the release of this patch this field should be set to “NO”.
+This field indicates whether controlled substances prescriptions dispensed to non-veteran patients should be included in the export file transmitted to a state. Due to VHA Regulations in place at the time of the release of this patch this field should be set to "NO".
 
 REPORTING FREQUENCY IN DAYS  
 This is the frequency at which a state requires pharmacies to report data. The value must be entered in days and cannot be greater than 30. Example: 1 (daily), 7 (weekly), 3 (every 3 days), etc. This field should be set to 1 (one).
@@ -328,13 +370,13 @@ This is the name of the local Unix/Linux local directory where the SPMP export f
 Answer YES.
 
 FILE NAME PREFIX  
-This is the prefix that will be appended to the name of the export file transmitted to the state. If the state has no specific requirement, the recommendation is that you use ‘SPMP\_\<Site \#\>\_’ format (e.g.,’SPMP_500\_’).
+This is the prefix that will be appended to the name of the export file transmitted to the state. If the state has no specific requirement, the recommendation is that you use 'SPMP\_\<Site \#\>\_' format (e.g.,'SPMP_500\_').
 
 FILE EXTENSION  
-The SPMP Implementation Guide for each specific state usually specifies which extension you should choose. If you’re unable to determine this information choose .DAT which is the most commonly used.
+The SPMP Implementation Guide for each specific state usually specifies which extension you should choose. If you're unable to determine this information choose .DAT which is the most commonly used.
 
 RENAME FILE AFTER UPLOAD  
-This parameter controls whether the data export file should be created and uploaded with a .DAT (or .TXT) directly or if the file should be created and uploaded with a .UP extension and once the upload completes the file would be renamed to .DAT (or .TXT). This new parameter is being exported with a default value of YES. If you are not sure how to answer this parameter, leave it set to “YES”.
+This parameter controls whether the data export file should be created and uploaded with a .DAT (or .TXT) directly or if the file should be created and uploaded with a .UP extension and once the upload completes the file would be renamed to .DAT (or .TXT). This new parameter is being exported with a default value of YES. If you are not sure how to answer this parameter, leave it set to "YES".
 
 STATE SFTP SERVER IP ADDRESS  
 This is the state sFTP IP address of the SPMP server to which the export file will be transmitted. This information should have been provided to you when you registered with the SPMP (Step 4.4.1).
@@ -350,7 +392,7 @@ This is the name of the remote state directory of the SPMP server to which the e
 
 SFTP TRANSMISSION MODE
 
-> This field indicates whether the sFTP transmissions will happen automatically by a scheduled background job using SSH encryption keys or if it will be performed manually by a user. Please, choose “A” for Automatic Transmissions.
+> This field indicates whether the sFTP transmissions will happen automatically by a scheduled background job using SSH encryption keys or if it will be performed manually by a user. Please, choose "A" for Automatic Transmissions.
 
 Example: View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\]
 
@@ -399,7 +441,7 @@ Once the SPMP State parameters have been entered the next step is to create a pa
 | ![](pso-7-451-state-prescription-monitoring-program-spmp-installation-guide/010.png) | The Manage Secure SHell (SSH) Keys \[PSO SPMP SSH KEY MANAGEMENT\] option requires the PSO SPMP ADMIN Security Key for creating or deleting SSH Key pairs (see step 4.2). |
 |---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-#### Verify that you don’t have an SSH Key pair in place for the state you are trying to set up transmissions. You can use the Action ‘V’ (View Public SSH Key) for this purpose, as seen in the example below:
+#### Verify that you don't have an SSH Key pair in place for the state you are trying to set up transmissions. You can use the Action 'V' (View Public SSH Key) for this purpose, as seen in the example below:
 
 > Select STATE: NEBRASKA//
 
@@ -421,7 +463,7 @@ Once the SPMP State parameters have been entered the next step is to create a pa
 
 The message \[No SSH Key Pair found for NEBRASKA\] displayed above indicates that there are no SSH keys for the state of Nebraska meaning that it is okay to proceed with the creation of a new SSH Key Pair.
 
-#### If you are not sure how to create and share the Public SSH Key invoke the Action ‘H’ for detailed information to help you successfully create and share the key with the state.
+#### If you are not sure how to create and share the Public SSH Key invoke the Action 'H' for detailed information to help you successfully create and share the key with the state.
 
 > Action: V// Help with SSH Keys
 
@@ -471,7 +513,7 @@ The message \[No SSH Key Pair found for NEBRASKA\] displayed above indicates tha
 
 > sure it contains only one line of text (no wrapping).
 
-#### Once you have read the Help text above proceed to creating the SSH Key Pair by selecting the Action ‘N’ (Create New SSH Key Pair)
+#### Once you have read the Help text above proceed to creating the SSH Key Pair by selecting the Action 'N' (Create New SSH Key Pair)
 
 > Action: V// n Create New SSH Key Pair
 
@@ -509,7 +551,7 @@ The message \[No SSH Key Pair found for NEBRASKA\] displayed above indicates tha
 
 > Creating New SSH Keys, please wait...Done.
 
-#### Once you have created the new SSH Key Pair use the Action ‘V’ (View Public SSH Key) one more time to retrieve the content of the Public SSH Key so that you can share with the state.
+#### Once you have created the new SSH Key Pair use the Action 'V' (View Public SSH Key) one more time to retrieve the content of the Public SSH Key so that you can share with the state.
 
 > Action: V// View Public SSH Key
 
@@ -617,7 +659,7 @@ REQUIREMENT: N// <span class="mark">REQUIRED</span>
 
 Save Custom Segment? YES// YES Saving...OK
 
-Example 2: Customizing the PAT17 Data Element (Patient’s Phone Number), which was requested by Massachusetts to be reported as “9999999999” when no phone number can be found for the patient. The current standard/default value for this field will be Pharmacy phone number if no valid phone number can be found for the patient.
+Example 2: Customizing the PAT17 Data Element (Patient's Phone Number), which was requested by Massachusetts to be reported as "9999999999" when no phone number can be found for the patient. The current standard/default value for this field will be Pharmacy phone number if no valid phone number can be found for the patient.
 
 \+ Enter ?? for more actions\|\* Custom Segment/Element
 
@@ -780,11 +822,11 @@ The authority would come from the IPT and the project manager Scott Soldan.
 <u>Restore Pre-Patch Routines</u> (MailMan)
 
 1.  Go to the Backup of Patch PSO\*7\*451 message in Mailman.
-2.  At the <u>Enter message action</u> prompt, enter “X” to “Xtract PackMan”
-3.  At the <u>Select PackMan Function</u> prompt, enter the number 6 to “Install/Check Message”
+2.  At the <u>Enter message action</u> prompt, enter "X" to "Xtract PackMan"
+3.  At the <u>Select PackMan Function</u> prompt, enter the number 6 to "Install/Check Message"
 4.  At the end of this process the pre-patch routines are restored.
 
-> **NOTE:** See header “Install the Patch Backup” for detail
+> **NOTE:** See header "Install the Patch Backup" for detail
 
 <u>Install the Patch Backup</u>BACKUP PATCH Basket, 144 messages (1-144), 117 new
 
@@ -1066,7 +1108,7 @@ Documentation can also be retrieved from the VA Software Documentation Library (
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Each VistA facility as well as regional data center is responsible for its own Disaster Recovery (DR) and Continuity of Operations (COOP). Please refer to the VistA Disaster Recovery and Continuity of Operations Plans at the specific facility. Most of these documents are considered confidential, as they contain information that could disrupt any of these facilities’ DR or COOP and cause catastrophic data loss. Therefore, the following links are to be considered as examples and not definitive plans for every facility:
+Each VistA facility as well as regional data center is responsible for its own Disaster Recovery (DR) and Continuity of Operations (COOP). Please refer to the VistA Disaster Recovery and Continuity of Operations Plans at the specific facility. Most of these documents are considered confidential, as they contain information that could disrupt any of these facilities' DR or COOP and cause catastrophic data loss. Therefore, the following links are to be considered as examples and not definitive plans for every facility:
 
 - <span class="mark">REDACTED</span>
 - <span class="mark">REDACTED</span>
@@ -1082,7 +1124,7 @@ State/Vendor Specific (unique) requirements.
 
 <u>California (ASAP 4.1)</u>PHA11 – Contact Name
 
-Customize this data element to transmit the Pharmacy DEA# concatenated with the letter “B” (e.g, “AV123456B”). See Example 2 under Section 4.4.6 above.
+Customize this data element to transmit the Pharmacy DEA# concatenated with the letter "B" (e.g, "AV123456B"). See Example 2 under Section 4.4.6 above.
 
 <u>M SET EXPRESSION: \$\$PAT17^PSOASAP()//\$\$PHA03^PSOASAP()\_"B"</u>
 
@@ -1106,11 +1148,11 @@ Save Changes? YES// Y
 
 Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 Pharmacy DEA# List
 
-Atlantic Associates Inc., the vendor for the California PMP, requires that you send a list of DEA \#’s for all pharmacies from your site that are dispensing controlled substance prescription in California so that they can configure them before you start transmitting data to the California PMP.
+Atlantic Associates Inc., the vendor for the California PMP, requires that you send a list of DEA \#'s for all pharmacies from your site that are dispensing controlled substance prescription in California so that they can configure them before you start transmitting data to the California PMP.
 
 <u>Illinois (ASAP 4.1)</u>Segment Terminator
 
@@ -1132,11 +1174,11 @@ Save Changes? YES// Y
 
 Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 Pharmacy DEA# List
 
-Atlantic Associates Inc., the vendor for the Illinois PMP, requires that you send a list of DEA \#’s for all pharmacies from your site that are dispensing controlled substance prescription in Illinois so that they can configure them before you start transmitting data to the Illinois PMP.
+Atlantic Associates Inc., the vendor for the Illinois PMP, requires that you send a list of DEA \#'s for all pharmacies from your site that are dispensing controlled substance prescription in Illinois so that they can configure them before you start transmitting data to the Illinois PMP.
 
 <u>Massachusetts (ASAP 4.2)</u>AIR - Additional Information Reporting (Segment)
 
@@ -1144,45 +1186,45 @@ The REQUIREMENT field for the AIR segment should be changed from NOT USED to REQ
 
 AIR05 - ID of Person Dropping Off or Picking Up Rx
 
-Customize this data element to always send “VADELIVERY” (No space between “VA” and “DELIVERY”)
+Customize this data element to always send "VADELIVERY" (No space between "VA" and "DELIVERY")
 
 M SET EXPRESSION: \$\$AIR05^PSOASAP()//"VADELIVERY "PAT02 – ID Qualifier
 
-Customize this data element to send “99” (Other) instead of “07” (Social Security Number).
+Customize this data element to send "99" (Other) instead of "07" (Social Security Number).
 
 M SET EXPRESSION: \$\$PAT02^PSOASAP()//"99 "PAT03 – ID of Patient
 
-Customize this data element to send the patient’s Integration Control Number (ICN) instead of the Social Security Number (SSN).
+Customize this data element to send the patient's Integration Control Number (ICN) instead of the Social Security Number (SSN).
 
 M SET EXPRESSION: \$\$PAT03^PSOASAP()//+\$\$GETICN^MPIF001(PATIEN)
 
 PAT08 – First Name
 
-Customize this data element to the patient’s last name if the patient’s first name is blank. The patient’s last name will be reported twice, in the PAT07 and PAT08 fields.
+Customize this data element to the patient's last name if the patient's first name is blank. The patient's last name will be reported twice, in the PAT07 and PAT08 fields.
 
 M SET EXPRESSION: \$\$PAT08^PSOASAP()// \$S(\$\$PAT08^PSOASAP()="":\$\$PAT07^PSOASAP(),1:\$\$PAT08^PSOASAP())PAT17 – Phone number
 
-Customize this data element to send “9999999999” in case a valid phone number cannot be found for the patient. See Example 2 under Section 4.4.6 above.
+Customize this data element to send "9999999999" in case a valid phone number cannot be found for the patient. See Example 2 under Section 4.4.6 above.
 
 M SET EXPRESSION: \$\$PAT17^PSOASAP()// \$S(\$\$PAT17^PSOASAP()=\$\$PHA10^PSOASAP():"9999999999",1:\$\$PAT17^PSOASAP())Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 <u>Montana (ASAP 4.1)</u>IS01 Unique Information Source ID
 
 Customize this data element to send the Registration \# that Montana SPMP assigned to the VA Pharmacy during the registration Process (e.g., 53871184 was the number assigned to the Ft. Harrison VAMC):
 
-M SET EXPRESSION: \$\$IS01^PSOASAP()// \$S(\$\$GET1^DIQ(5,STATEIEN,1)=”MT”:"53871184",1:\$\$IS01^PSOASAP*(*))<u>Michigan (ASAP 4.2)</u>PAT02 – ID Qualifier
+M SET EXPRESSION: \$\$IS01^PSOASAP()// \$S(\$\$GET1^DIQ(5,STATEIEN,1)="MT":"53871184",1:\$\$IS01^PSOASAP*(*))<u>Michigan (ASAP 4.2)</u>PAT02 – ID Qualifier
 
-Customize this data element to send “99” (Other) instead of “07” (Social Security Number).
+Customize this data element to send "99" (Other) instead of "07" (Social Security Number).
 
 M SET EXPRESSION: \$\$PAT02^PSOASAP()//"99 "PAT03 – Patient ID
 
-Customize this data element to always send “000000000” instead of the Social Security Number (SSN) because the SSN is not the board-required form of ID for the state of Michigan.
+Customize this data element to always send "000000000" instead of the Social Security Number (SSN) because the SSN is not the board-required form of ID for the state of Michigan.
 
 M SET EXPRESSION: \$\$PAT03^PSOASAP()// \$S(\$\$GET1^DIQ(5,STATEIEN,1)="MI":"000000000",1:\$\$PAT03^PSOASAP())Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 <u>New York (ASAP 4.2)</u>DSP17 - Date Sold
 
@@ -1192,7 +1234,7 @@ REQUIREMENT: N// REQUIRED
 
 <u>West Virginia (ASAP 4.2)</u>Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 <u>Wyoming (ASAP 4.1)</u>Segment Terminator
 
@@ -1214,11 +1256,11 @@ Save Changes? YES// Y
 
 Rename File After Upload Parameter
 
-Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to “NO”.
+Use the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option and set parameter RENAME AFTER UPLOAD to "NO".
 
 Pharmacy DEA# List
 
-Atlantic Associates Inc., the vendor for the Wyoming PMP, requires that you send a list of DEA \#’s for all pharmacies from your site that are dispensing controlled substance prescription in Wyoming so that they can configure them before you start transmitting data to the Wyoming PMP.
+Atlantic Associates Inc., the vendor for the Wyoming PMP, requires that you send a list of DEA \#'s for all pharmacies from your site that are dispensing controlled substance prescription in Wyoming so that they can configure them before you start transmitting data to the Wyoming PMP.
 
 ---
 
@@ -1254,7 +1296,7 @@ UN Unmark Rx Fill as Administered In Clinic
 
 View/Edit SPMP State Parameters
 
-The state’s parameters are displayed as follows:
+The state's parameters are displayed as follows:
 
 Select STATE: NEW YORK//
 
@@ -1378,7 +1420,7 @@ Subj: NEW YORK Prescription Monitoring Program Transmission Failed  \[#194821\]
 
 01/17/13@15:22  10 lines
 
-From: SPMP SCHEDULED TRANSMISSION  In ‘IN’ basket.   Page 1
+From: SPMP SCHEDULED TRANSMISSION  In 'IN' basket.   Page 1
 
 There was a problem with the transmission of information about Controlled
 

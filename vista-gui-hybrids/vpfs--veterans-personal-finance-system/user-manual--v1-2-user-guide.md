@@ -3,7 +3,7 @@ title: VPFS Version 1.2 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: VPFS
 app_name: Veterans Personal Finance System
 section: GUI
@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: VPFS
 patch_ver: 1.2
 patch_id: VPFS*1.2
-group_key: "VPFS:VPFS:1.2"
+group_key: VPFS:VPFS:1.2
+description: '> The purpose of this manual is to provide a step-by-step guide to using the VPFS application to manage patient funds.'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > The purpose of this manual is to provide a step-by-step guide to using the VPFS application to manage patient funds.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - strong
-  - patient
-  - class
-  - vpfs
-  - version
-  - guide
-  - style
 page_count: 0
-word_count: 12236
+word_count: 12228
 section_count: 112
 table_count: 0
 figure_count: 0
 appendix_count: 6
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=170"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=170
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Veterans Personal Finance System (VPFS)
-
-  User Guide
----
-
 > Version 1.2.0
 
 ![](vpfs-version-1-2-user-guide/001.png)

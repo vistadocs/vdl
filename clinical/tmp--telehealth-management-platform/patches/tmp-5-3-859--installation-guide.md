@@ -3,7 +3,7 @@ title: TMP VistA Patch 859 DIBRG
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: TMP
 app_name: Telehealth Management Platform
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 5.3
 patch_id: TMP*5.3*859
-group_key: "TMP:TMP:5.3"
-file_numbers: []
+group_key: TMP:TMP:5.3
+description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\859 patch
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '40.6'
+- '43'
+- '409.85'
 security_keys: []
 menu_options: 0
-description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\859 patch
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - patch
-  - install
-  - rollback
-  - procedure
-  - routine
-  - stop
 page_count: 0
 word_count: 2366
 section_count: 25
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2023
 revision_count: 1
 revision_newest: 9/27/2023
 revision_oldest: 9/27/2023
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_859_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_859_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_859_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_859_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Scheduling Package EnhancementPatch SD\*5.3\*859

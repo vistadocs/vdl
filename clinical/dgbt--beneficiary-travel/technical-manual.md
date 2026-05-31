@@ -11,38 +11,51 @@ app_status: active
 pkg_ns: DGBT
 patch_ver: 1
 patch_id: DGBT*1
-group_key: "DGBT:DGBT:1"
-file_numbers: []
-security_keys: []
-menu_options: 4
+group_key: DGBT:DGBT:1
 description: The Indianapolis VAMC developed the Class 3 web-based Beneficiary Travel (BT) Dashboard to assist users in making faster, more accurate decisions on mileage reimbursement for travel claims. The VHA Chief Business Office requested the BT Dashboard package be implemented as part of the Cost Efficiency
-audience: 
-keywords: 
-  - travel
-  - table
-  - contents
-  - beneficiary
-  - class
-  - dashboard
-  - package
-  - dgbt
-  - claims
-  - patient
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '4'
+- '30.01'
+- '30.02'
+- '30.03'
+- '30.04'
+- '30.05'
+- '391.91'
+- '392.3'
+- '392.31'
+- '392.42'
+- '392.6'
+- '392.7'
+- '392.8'
+- '392.9'
+- '408.31'
+- '440'
+- '720'
+- '721'
+- '722'
+security_keys:
+- EDIT DENIAL LTRS
+menu_options: 4
 page_count: 0
 word_count: 6095
 section_count: 27
 table_count: 1
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=123"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=123
+audit_applied: '2026-05-31'
 ---
 
 ![](beneficiary-travel-version-1-technical-manual-updated-with-dgbt-1-41/001.png)

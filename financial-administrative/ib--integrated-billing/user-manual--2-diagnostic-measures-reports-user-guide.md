@@ -11,47 +11,34 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2.0
 patch_id: IB*2.0
-group_key: "IB:IB:2.0"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2.0
+description: May 2023 1.0 The original Diagnostic Measures Reports manual (version from 08/06/2018) has been rehosted and updated. This manual also contains updates related to the latest
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '6.25'
+- '350.9'
+- '399'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - report
-  - date
-  - number
-  - summary
-  - bill
-  - reports
-  - patients
-  - unbilled
-  - table
-  - contents
 page_count: 0
-word_count: 12139
+word_count: 12127
 section_count: 7
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_dmr_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_dmr_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_dmr_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_dmr_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Diagnostic Measures Reports
-
-  User Guide
----
-
 ![](ib-2-diagnostic-measures-reports-user-guide/001.png)
 
 May 2023

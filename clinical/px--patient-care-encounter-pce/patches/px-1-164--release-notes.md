@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1*164
-group_key: "PX:PX:1"
-file_numbers: []
+group_key: PX:PX:1
+description: '| | | | | |----------|--------------|--------------------------------------------------------------------------------------------------------------------------|------------------------------------| | Date | Revision | Description | Author | | 10/20/05 | 0.1 | Added two modifications patch includes,...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '150.9'
+- '375'
+- '900001'
 security_keys: []
 menu_options: 0
-description: - [# # Introduction](#introduction) - [Patient Financial Services System](#patient-financial-services-system) - [Software Interfaces](#software-interfaces) - [Overview of New Functionality](#overview-of-new-functionality) - [Package Name Enhancements](#package-name-enhancements) - [Options and Actio
-audience: 
-keywords: 
-  - table
-  - contents
-  - pfss
-  - account
-  - procedure
-  - charge
-  - files
-  - visit
-  - patient
-  - package
 page_count: 0
 word_count: 1263
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2006
 revision_count: 2
 revision_newest: 01/06/06
 revision_oldest: 10/20/05
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p164_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p164_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p164_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p164_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 ![](px-1-164-visit-tracking-release-notes/001.png)

@@ -3,7 +3,7 @@ title: Clinical Monitoring System Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: QAM
 app_name: Clinical Monitoring System
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: QAM
 patch_ver: 1
 patch_id: QAM*1
-group_key: "QAM:QAM:1"
-file_numbers: []
+group_key: QAM:QAM:1
+description: Clinical Monitoring System V. 1.0Installation GuideSeptember
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.5'
+- '200'
 security_keys: []
 menu_options: 0
-description: - [# Installing the System](#installing-the-system) - [# IRM Setup](#irm-setup) - [# Resource Requirements](#resource-requirements) - [# Installation Example](#installation-example) - [# Implementation Check List](#implementation-check-list) - [Monitoring System Manager Menu](#monitoring-system-mana
-audience: 
-keywords: 
-  - filed
-  - group
-  - loading
-  - loaded
-  - edit
-  - deleting
-  - auto
-  - monitoring
-  - site
-  - table
 page_count: 0
 word_count: 2698
 section_count: 3
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 2/23/09
 revision_oldest: 2/23/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cminst.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cminst.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=32"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cminst.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cminst.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=32
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-monitoring-system-version-1-installation-guide/001.png)

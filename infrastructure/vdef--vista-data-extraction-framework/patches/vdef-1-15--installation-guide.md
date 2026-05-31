@@ -11,47 +11,31 @@ app_status: active
 pkg_ns: VDEF
 patch_ver: 1
 patch_id: VDEF*1*15
-group_key: "VDEF:VDEF:1"
-file_numbers: []
+group_key: VDEF:VDEF:1
+description: 06/06/2019 0.6 Updates to order of steps in deployment of phase 1 based on deployment prep meeting
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - chdr
-  - contents
-  - deployment
-  - operations
-  - team
-  - back
-  - production
-  - messages
-  - installation
 page_count: 0
-word_count: 5301
+word_count: 5274
 section_count: 30
 table_count: 4
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_p15_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_p15_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=144"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_p15_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_p15_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=144
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>InterSystems Health Connect (HC) / Health Data Repository (HDR) – Clinical Health Data Repository (CHDR)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](vdef-1-15-hdr-chdr-deployment-installation-back-out-and-rollback/001.png)
 
 June 2019

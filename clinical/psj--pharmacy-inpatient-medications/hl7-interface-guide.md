@@ -5,44 +5,46 @@ doc_label: Interface Specification
 doc_layer: anchor
 doc_subject: Interface Document
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 2
 patch_id: PSJ*2
-group_key: "PSJ:PSJ:2"
-file_numbers: []
+group_key: PSJ:PSJ:2
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '11'
+- '22'
+- '50'
+- '50.68'
+- '50.7'
+- '51.2'
+- '51.24'
+- '99.99'
+- '100'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - colspan
-  - base
-  - drug
-  - dose
-  - profile
-  - order
-  - phenytoin
-  - prospective
-  - drugdrug
-  - message
 page_count: 0
 word_count: 8092
 section_count: 4
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/pss_1_vista_to_mocha_id.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/pss_1_vista_to_mocha_id.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/pss_1_vista_to_mocha_id.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/pss_1_vista_to_mocha_id.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-to-mocha-version-2-interface-document/001.png)

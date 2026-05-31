@@ -5,55 +5,38 @@ doc_label: Training Guide
 doc_layer: plain
 doc_subject: One Consult - Order to Consult - Admin Key
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: GMRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: Trainers and end users during onboarding
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- OREMAS
+- RBP TO CC
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - consult
-  - admin
-  - span
-  - order
-  - guide
-  - training
-  - class
-  - anchor
-  - figure
-  - cprs
 page_count: 0
-word_count: 1293
+word_count: 1275
 section_count: 4
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2018
 revision_count: 1
 revision_newest: 12/07/2018
 revision_oldest: 12/07/2018
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/oc_adminkey_tg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/oc_adminkey_tg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/oc_adminkey_tg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/oc_adminkey_tg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>One Consult - Order to Consult – Admin Key
-
-  Software Version 1.0.03
-
-  Training Guide
----
-
 ![](one-consult-order-to-consult-admin-key-training-guide/001.png)
 
 December 2018

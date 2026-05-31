@@ -8,41 +8,110 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: > The VistA Imaging System is based on the use of VA FileMan as an object-oriented database management system to store single or sequential images, and other multimedia object types.
-audience: 
-keywords: 
-  - class
-  - imaging
-  - table
-  - even
-  - vista
-  - strong
-  - blockquote
-  - image
-  - contents
-  - dicom
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> The VistA Imaging System is based on the use of VA FileMan as an object-oriented database management system to store single or sequential images, and other multimedia object types.'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '4'
+- '4.2'
+- '5'
+- '6'
+- '7'
+- '9.4'
+- '16'
+- '17'
+- '70'
+- '200'
+- '771'
+- '772'
+- '870'
+- '2005'
+- '2005.002'
+- '2005.021'
+- '2005.1'
+- '2005.2'
+- '2005.4'
+- '2005.41'
+- '2005.6'
+- '2005.61'
+- '2005.62'
+- '2005.63'
+- '2005.64'
+- '2005.65'
+- '2005.66'
+- '2005.8'
+- '2005.86'
+- '2005.87'
+- '2005.88'
+- '2006.03'
+- '2006.031'
+- '2006.1'
+- '2006.575'
+- '2006.599'
+- '2006.631'
+- '2006.68'
+- '2006.69'
+- '2006.8'
+- '2006.81'
+- '2006.83'
+- '2006.911'
+- '2006.912'
+- '2006.913'
+- '2006.914'
+- '2006.915'
+- '2006.916'
+- '2006.917'
+- '2006.918'
+- '2006.9191'
+- '2006.9192'
+- '2006.9193'
+- '2006.921'
+- '2006.922'
+- '2006.923'
+- '2006.924'
+- '2006.925'
+- '2006.926'
+- '2006.927'
+- '2006.928'
+- '2006.93'
+- '2006.931'
+- '2006.941'
+- '2006.9412'
+- '2006.9413'
+- '2006.9414'
+- '2006.9421'
+- '2006.9422'
+- '2006.95'
+- '8989.3'
+- '8994'
+security_keys:
+- MAG DELETE
+- MAG EDIT
+- MAG SYSTEM
+- MAGJ DEMAND ROUTE
+- PROVIDER
+menu_options: 6
 page_count: 0
 word_count: 48084
 section_count: 49
 table_count: 37
 figure_count: 5
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGTECHMAN_F.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGTECHMAN_F.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGTECHMAN_F.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGTECHMAN_F.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-technical-manual/001.png)

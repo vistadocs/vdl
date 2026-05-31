@@ -3,55 +3,44 @@ title: VSM Installation, Back-out, and Rollback Guide (DIBRG)
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: KMPV
 app_name: VistA System Monitor (VSM)
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: KMPV
+patch_ver: null
+patch_id: null
+group_key: null
+description: 07/22/2020 1.0 Initial VistA System Monitor (VSM) 3.0 Deployment, Installation, Back-Out, and Rollback Guide
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3.075'
+- '8969'
+- '8969.02'
+- '8969.03'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - vista
-  - installation
-  - back
-  - software
-  - monitor
-  - rollback
-  - patch
-  - deployment
 page_count: 0
-word_count: 5621
+word_count: 5602
 section_count: 30
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=218"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=218
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc186420068" class="anchor"></span>VistA System Monitor (VSM) 3.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
----
-
 ![](vsm-installation-back-out-and-rollback-guide-dibrg/001.png)
 
 July 2020

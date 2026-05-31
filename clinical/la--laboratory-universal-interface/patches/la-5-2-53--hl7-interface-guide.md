@@ -1,48 +1,41 @@
 ---
-title: "LA*5.2*53/LR*5.2*254 Laboratory: Universal Interface HP CareVue Interface Specifications Document"
+title: '''LA*5.2*53/LR*5.2*254 Laboratory: Universal Interface HP CareVue Interface Specifications Document'''
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*53
-group_key: "LA:LA:5.2"
-file_numbers: []
+group_key: LA:LA:5.2
+description: LABORATORY HEWLET PACKARD (HP)CAREVUE INTERFACEPatch LR\*5.2\*254 and Patch LA\*5.2\*53INTERFACE
+audience: ''
+keywords: []
+file_numbers:
+- '44'
+- '62.487'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - vista
-  - interface
-  - table
-  - style
-  - width
-  - even
-  - results
-  - engine
 page_count: 0
 word_count: 4152
 section_count: 3
 table_count: 1
 figure_count: 2
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/la7dis.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/la7dis.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/la7dis.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/la7dis.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-53-lr-5-2-254-laboratory-universal-interface-hp-carevue-interface-specifi/001.png)

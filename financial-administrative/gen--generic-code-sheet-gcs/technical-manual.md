@@ -3,7 +3,7 @@ title: GCS Version 2 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GEN
 app_name: Generic Code Sheet (GCS)
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: GEN
 patch_ver: 2
 patch_id: GEN*2
-group_key: "GEN:GEN:2"
-file_numbers: []
-security_keys: []
+group_key: GEN:GEN:2
+description: This technical manual is designed to provide the IRM Chief/Site Manager and staff with information necessary to maintain and troubleshoot problems with Version 2.0 of the Generic Code Sheet package. It has also been written to aid the programming community in designing and developing new code...
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3'
+- '2100'
+- '2100.1'
+- '2101.1'
+- '2101.2'
+- '2101.7'
+security_keys:
+- GECS SETUP
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - table
-  - contents
-  - sheet
-  - generic
-  - sheets
-  - package
-  - routine
-  - routines
-  - entry
 page_count: 0
 word_count: 2801
 section_count: 23
 table_count: 194
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1995
 revision_count: 2
 revision_newest: 12/22/04
 revision_oldest: 12/22/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2tech.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2tech.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=7"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2tech.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2tech.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=7
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

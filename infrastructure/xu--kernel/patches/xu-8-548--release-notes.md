@@ -3,7 +3,7 @@ title: XU*8*548 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*548
-group_key: "XU:XU:8"
-file_numbers: []
+group_key: XU:XU:8
+description: '| Date | Version | Description | Author | |------------|---------|---------------------------|----------| | 08/23/2010 | 1.0 | Initial | REDACTED | | 01/13/2011 | 2.0 | Patch Description changes | REDACTED'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4'
+- '200'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - extract
-  - installation
-  - table
-  - contents
-  - crosswalk
-  - patch
-  - vista
-  - changes
-  - transport
-  - global
 page_count: 0
 word_count: 1400
 section_count: 3
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2011
 revision_count: 2
 revision_newest: 01/13/2011
 revision_oldest: 08/23/2010
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_80_p548_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_80_p548_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_80_p548_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_80_p548_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 HIPAA 5010 – Enhancement 12

@@ -1,24 +1,73 @@
 ---
-consolidated_title: "vista imaging exchange (vix) administrator's guide"
-app_code: MAG
+title: VistA Imaging Exchange (VIX) Administrator's Guide
 doc_type: AG
-master_source: "VistA Imaging Exchange (VIX) Administrator's Guide"
+doc_label: Administrator's Guide
+doc_layer: plain
+doc_subject: VistA Imaging Exchange (VIX)
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: active
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers:
+- '1'
+- '2'
+- '4'
+- '38.1'
+- '43'
+- '70'
+- '71.2'
+- '75.1'
+- '99'
+- '100'
+- '200'
+- '1201'
+- '2005'
+- '2005.2'
+- '2006.67'
+- '2006.94'
+- '2006.941'
+- '2006.942'
+- '2006.9421'
+- '2006.9422'
+- '2006.95'
+security_keys:
+- DG RECORD ACCESS
+- MAG SYSTEM
+- MAG VIX ADMIN
+- VIEW DOD IMAGES
+menu_options: 2
+description: VistA Imaging eXchange (VIX) Administrator's Guide November 2024Property of the US Government
+audience: ''
+keywords: []
+page_count: 0
+word_count: 27215
+section_count: 47
+table_count: 11
+figure_count: 1
+appendix_count: 4
+has_toc: false
+is_stub: false
+pub_date: November 2024
+revision_count: 36
+revision_newest: 11/04/2024
+revision_oldest: 04/22/2010
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_20_0_ag.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_20_0_ag.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
+master_source: VistA Imaging Exchange (VIX) Administrator's Guide
 master_pub_date: November 2024
 consolidated_from: 5 versions
 prior_versions:
-  - "MAG*3*269 VistA Imaging Exchange (VIX) Administrator's Guide"
-  - "MAG*3*303 VistA Imaging Exchange (VIX) Administrator's Guide"
-  - "MAG*3*329 VistA Imaging Exchange (VIX) Administrator's Guide"
-  - "MAG*3*348 VistA Imaging Exchange (VIX) Administrator's Guide"
----
-
----
-title: |
-  VistA Imaging eXchange (VIX) VIX Enhancements
-
-  MAG\*3.0\*<span id="PatchNumber" class="anchor"></span>358
-
-  VIX Administrator’s Guide
+- MAG*3*269 VistA Imaging Exchange (VIX) Administrator's Guide
+- MAG*3*303 VistA Imaging Exchange (VIX) Administrator's Guide
+- MAG*3*329 VistA Imaging Exchange (VIX) Administrator's Guide
+- MAG*3*348 VistA Imaging Exchange (VIX) Administrator's Guide
+consolidated_title: vista imaging exchange (vix) administrator's guide
 ---
 
 ![](vista-imaging-exchange-vix-administrator-s-guide/001.png)
@@ -206,7 +255,7 @@ Revision HistoryNOTE: The revision history cycle begins once changes or enhancem
 - [Appendix D: McAfee/Trellix Exclusions](#appendix-d-mcafeetrellix-exclusions)
 - [Definitions, Acronyms, and Abbreviations](#definitions-acronyms-and-abbreviations)
 This document explains how to maintain and administer the VistA Imaging eXchange (VIX) service.
-The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently, the VIX’s primary purpose is to support image sharing between VA (Department of Veterans Affairs) medical facilities and between VA and the Department of Defense (DoD) medical facilities. It is anticipated that the VIX’s role will expand to support data sharing and exchange within a facility and between facilities.
+The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently, the VIX's primary purpose is to support image sharing between VA (Department of Veterans Affairs) medical facilities and between VA and the Department of Defense (DoD) medical facilities. It is anticipated that the VIX's role will expand to support data sharing and exchange within a facility and between facilities.
 The VIX hosts a zero-footprint viewer providing services to consuming application, chiefly eHMP and Joint Legacy Viewer / Joint Longitudinal Viewer (JLV). With these changes, the VIX is a critical component as it provides access not only to remote but local images as well. Maintenance of this component is critical to the clinical operation at the site level. The operation of a site VIX also affects access to the portion of the patient record stored at the site.
 This document assumes that the VIX is installed and configured. For information about VIX system requirements, installation, and configuration, see the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105)*.*
 
@@ -228,7 +277,7 @@ The VIX is a component of VistA Imaging and is regulated as a medical device by 
 
 - Federal law restricts this device to use by or on the order of either a licensed practitioner or persons lawfully engaged in the manufacture or distribution of the product.
 - The FDA classifies VistA Imaging and the VIX (as a component of VistA Imaging) as a medical device. Unauthorized modifications to VistA Imaging, including the VIX, such as installing unapproved software, will adulterate the medical device. The use of an adulterated medical device violates US federal law (21CFR820).
-- Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator’s knowledge, sites must exclude the VIX server from such a system.
+- Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator's knowledge, sites must exclude the VIX server from such a system.
 
 ## Document Conventions
 
@@ -330,10 +379,10 @@ The VIX implements image sharing between the Department of Veterans Affairs (VA)
 The VIX delivers these capabilities in such a way that:
 
 - Clinicians can locate and review images from all VA and participating DoD facilities without manually logging into the remote site.
-- Wide Area Network (WAN) traffic is minimized whenever possible using the VIX’s compression and caching strategies.
+- Wide Area Network (WAN) traffic is minimized whenever possible using the VIX's compression and caching strategies.
 - The VIX handles the burden of connection management and data retrieval rather than client applications such as Clinical Display and VistARad.
 
-At sites where a VIX is implemented, the VIX’s involvement in data retrieval begins when a clinician selects a patient who has been seen at the local hospital as well as at one or more remote hospitals. The clinician’s client software (Clinical Display or VistARad) pulls information about locally stored images from the local VistA system, while information about remote images is pulled from remote sites via VIX. The clinician uses this information to decide what images to display. Local images are retrieved directly from the local hospital, while remote images are retrieved via the VIX. From the clinician’s perspective, accessing an image works the same way, regardless if the image is from local storage, a remote VA site, or from the DoD.
+At sites where a VIX is implemented, the VIX's involvement in data retrieval begins when a clinician selects a patient who has been seen at the local hospital as well as at one or more remote hospitals. The clinician's client software (Clinical Display or VistARad) pulls information about locally stored images from the local VistA system, while information about remote images is pulled from remote sites via VIX. The clinician uses this information to decide what images to display. Local images are retrieved directly from the local hospital, while remote images are retrieved via the VIX. From the clinician's perspective, accessing an image works the same way, regardless if the image is from local storage, a remote VA site, or from the DoD.
 
 The following sections outline how a VIX fits in when accessing remote images.
 
@@ -361,7 +410,7 @@ Commercial picture archiving and communication system (PACS) (Figure 2) equipmen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a local VIX is used to retrieve DoD images for shared VA/DoD patients, the local VIX sends clinicians’ requests to the Centralized VistA Image Exchange (CVIX). The CVIX, in turn, handles the communication with the various sources of DoD images (Figure 3).
+When a local VIX is used to retrieve DoD images for shared VA/DoD patients, the local VIX sends clinicians' requests to the Centralized VistA Image Exchange (CVIX). The CVIX, in turn, handles the communication with the various sources of DoD images (Figure 3).
 
 <span id="_Ref49254276" class="anchor"></span>Figure 3: DoD-to-VA Image Sharing
 
@@ -453,7 +502,7 @@ Performance considerations aside, these distinctions free clinicians from having
 
 #### Optional Direct Connection to a DoD Integrator
 
-If a participating DoD facility shares a direct network connection with a VA site that has a VIX, the DoD facility’s integrator and the VA’s VIX can be configured to communicate directly for DICOM image transfers. This allows the images to be accessed at LAN speeds rather than WAN speeds.
+If a participating DoD facility shares a direct network connection with a VA site that has a VIX, the DoD facility's integrator and the VA's VIX can be configured to communicate directly for DICOM image transfers. This allows the images to be accessed at LAN speeds rather than WAN speeds.
 
 > **NOTE:** This capability is used for DICOM images only.
 
@@ -463,9 +512,9 @@ For more information about this option, contact the VistA Imaging development gr
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Importer III is a distributed application for allowing users to import outside studies from CD, DVD, or network sources and process and reconcile studies that have entered the DICOM correct workflow. It is composed of a client application that uses the VIX as an application server, and a server component running on the site’s HDIGs that picks up reconciled studies and work items for asynchronous processing.
+The Importer III is a distributed application for allowing users to import outside studies from CD, DVD, or network sources and process and reconcile studies that have entered the DICOM correct workflow. It is composed of a client application that uses the VIX as an application server, and a server component running on the site's HDIGs that picks up reconciled studies and work items for asynchronous processing.
 
-In its role as the Importer III’s application server, the VIX provides the following broad categories of functionality:
+In its role as the Importer III's application server, the VIX provides the following broad categories of functionality:
 
 - User services including login, user key retrieval, and related functions.
 - Patient services including search, patient sensitivity logging, and related functions.
@@ -493,7 +542,7 @@ MAG\*3.0\*177 introduced new VIX services to support a zero-footprint web-based 
 
 The zero-footprint image viewer is not a standalone application. It is a service for external applications to integrate with their apps for viewing images stored in VistA Imaging or images in other enterprises accessible through VistA Imaging (i.e. DoD).
 
-The viewing of images to the zero-footprint viewer redirects to the server from the user’s local VIX. This arrangement (Figure 5) keeps image traffic local to the facility as much as possible (for better performance). All image access using the zero-footprint image viewer, whether local or remote, goes through the VIX and utilizes these services.
+The viewing of images to the zero-footprint viewer redirects to the server from the user's local VIX. This arrangement (Figure 5) keeps image traffic local to the facility as much as possible (for better performance). All image access using the zero-footprint image viewer, whether local or remote, goes through the VIX and utilizes these services.
 
 <span id="_Ref49429330" class="anchor"></span>Figure : Image Viewer Data and Control Flow Using eHMP (Example Application)
 
@@ -568,7 +617,7 @@ The zero-footprint image viewer uses pre-processed images and metadata stored in
 
 ![](vista-imaging-exchange-vix-administrator-s-guide/008.png)
 
-1.  If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+1.  If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 2.  Once PowerShell launches, type the command:
 
     cd "C:\Program Files\VistA\Imaging\Scripts"
@@ -688,10 +737,10 @@ The operational priority of the VIX depends on the nature of the server where th
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When the VIX is installed on a standalone server, the VIX’s operational priority depends on the role of clinicians using the VIX for remote image access. If the standalone VIX server is shut down:
+When the VIX is installed on a standalone server, the VIX's operational priority depends on the role of clinicians using the VIX for remote image access. If the standalone VIX server is shut down:
 
 - Clinicians using Clinical Display can still retrieve remote VA images (at a reduced performance) using Remote Image Views; however, this may be temporarily inaccessible. Clinical Display attempts to revert to pre-VIX remove image views and Clinical Display may need to be restarted. In this scenario, the operational priority of a VIX on a standalone server is low.
-- Radiologists performing remote reading using the VistARad VIX-assisted operations cannot view local and remote images together unless the images are routed to VistARad using the DICOM Gateway’s routing function. Because of the variations involved, each site must make its operational priority assessment in this case.
+- Radiologists performing remote reading using the VistARad VIX-assisted operations cannot view local and remote images together unless the images are routed to VistARad using the DICOM Gateway's routing function. Because of the variations involved, each site must make its operational priority assessment in this case.
 - DICOM Importer client users cannot login and import images.
 - Clinicians viewing images or artifacts (local or remote) in JLV cannot access them during the duration of the VIX shutdown.
 - iMedConsent users Signed Informed Consent ability to store new consent forms will be unavailable.
@@ -755,7 +804,7 @@ The VIX automatically downloads and caches connection information from the site 
 
 If your local connection information for VistA or the VIX changes, you must do the following:
 
-1.  Contact the <span class="mark">REDACTED</span> mail group to update your site’s information in the VistA Site Service.
+1.  Contact the <span class="mark">REDACTED</span> mail group to update your site's information in the VistA Site Service.
 2.  After step 1 is complete, re-run the VIX installation wizard to update your VIX configuration information. For details, see the [<u>VIX Installation Guide*.*</u>](https://www.va.gov/vdl/application.asp?appid=105)
 
 ## Using the VIX Transaction Log
@@ -957,7 +1006,7 @@ Fields that only appear when the transaction log is exported are listed in the n
 </tr>
 <tr class="even">
 <td>Realm Site Number</td>
-<td>The STATION NUMBER (field (#99)) of the INSTITUTION file (#4) of the site that the requester’s credentials are authenticated against.</td>
+<td>The STATION NUMBER (field (#99)) of the INSTITUTION file (#4) of the site that the requester's credentials are authenticated against.</td>
 </tr>
 <tr class="odd">
 <td>URN</td>
@@ -995,11 +1044,11 @@ Fields that only appear when the transaction log is exported are listed in the n
 </tr>
 <tr class="odd">
 <td>VIX Site Number</td>
-<td>The site number of the local VIX (as defined in the local VIX’s VixConfig.xml file). The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
+<td>The site number of the local VIX (as defined in the local VIX's VixConfig.xml file). The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
 </tr>
 <tr class="even">
 <td>Requesting VIX Site Number</td>
-<td>The site number of the requesting VIX (as defined in the remote VIX’s VixConfig.xml file), Only populated for Federation (VIX-to- VIX) requests. The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
+<td>The site number of the requesting VIX (as defined in the remote VIX's VixConfig.xml file), Only populated for Federation (VIX-to- VIX) requests. The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
 </tr>
 </tbody>
 </table>
@@ -1038,9 +1087,9 @@ When the transaction log is exported as a tab- or comma-separated file, the expo
 
 The VIX Log Collector service automatically backs up VIX transaction logs and stores the backup copies on a centralized data center server. This allows the information in VIX transaction logs to be retained after the logs are purged locally (the local retention period is 30 days). The Log Collector service is hosted on the same data center servers where the CVIX resides.
 
-Once a day, the log collector service copies each VIX’s local transaction logs to a data server storage area for permanent storage. The time that the backup is performed is configured centrally and is set to be during low-usage hours.
+Once a day, the log collector service copies each VIX's local transaction logs to a data server storage area for permanent storage. The time that the backup is performed is configured centrally and is set to be during low-usage hours.
 
-When the Log Collector performs its daily backup, it collects only one full day’s worth of VIX transaction log entries to limit network impact. For example: on Monday, the Log Collector service collects all VIX log entries from the previous Saturday.
+When the Log Collector performs its daily backup, it collects only one full day's worth of VIX transaction log entries to limit network impact. For example: on Monday, the Log Collector service collects all VIX log entries from the previous Saturday.
 
 If the Log Collector cannot reach a VIX on a given day, it queues its backup attempt and attempts to copy any backlogged items during the next backup period. Multiple failed attempts to back up a specific transaction log generates an email warning to data center administrators (email address entered during the VIX installation), who then would contact the local VIX administrator if local corrective action were needed.
 
@@ -1093,7 +1142,7 @@ The VIX service is designed to be running at all times except during daily autom
 
 In general, the only time the VIX service needs to be shut down independently from the hosting server is when the VIX software is being updated. For details, including user impact, refer to the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105).
 
-Table 8 summarizes how the VIX service responds if there is a restart of the server on which the VIX is installed or an interruption of the VIX’s connection to the local VistA System.
+Table 8 summarizes how the VIX service responds if there is a restart of the server on which the VIX is installed or an interruption of the VIX's connection to the local VistA System.
 
 <table>
 <caption><p><span id="_Ref49425086" class="anchor"></span>Table 9: Remote Metadata Retrieval for Different Remote Site Types</p></caption>
@@ -1221,18 +1270,18 @@ This chapter describes the VIX operations that are specific to image sharing. Sp
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a VIX is used to retrieve remote images, the image retrieval is always preceded by retrieving applicable metadata. (In the context of the VIX, metadata is anything that describes an image or image-like object. Metadata includes patient names, IDs of various types, procedure names, index field values, number of images in an exam, radiology reports, and so on.) Also, in some cases, such as retrieving an exam report, metadata retrieval is the only action needed to fulfill a clinician’s data request.
+When a VIX is used to retrieve remote images, the image retrieval is always preceded by retrieving applicable metadata. (In the context of the VIX, metadata is anything that describes an image or image-like object. Metadata includes patient names, IDs of various types, procedure names, index field values, number of images in an exam, radiology reports, and so on.) Also, in some cases, such as retrieving an exam report, metadata retrieval is the only action needed to fulfill a clinician's data request.
 
 Many Clinical Display or VistARad operations silently trigger requests to the VIX to retrieve metadata from remote sites. In general, the VIX handles metadata retrievals as follows:
 
-1.  The application (Clinical Display or VistARad) issues a request for metadata based on a clinician’s activities.
+1.  The application (Clinical Display or VistARad) issues a request for metadata based on a clinician's activities.
 2.  The local VIX determines whether caching is allowed for the specific request. For details about which requests are cached, see the tables in the next two sections.
 3.  If caching is not allowed, the VIX skips all cache checks, retrieves the metadata directly from the remote site, and proceeds to step 5.
 4.  If caching is allowed, the VIX first attempts to retrieve the desired metadata from its local cache. If the metadata cannot be found locally, it is retrieved from the remote site (Table 9).
 
 | Remote site type | How remote metadata is retrieved                                                                             |
 |------------------|--------------------------------------------------------------------------------------------------------------|
-| VA site with VIX | The remote VIX retrieves the metadata, either from the remote VIX’s cache or the remote site’s VistA system. |
+| VA site with VIX | The remote VIX retrieves the metadata, either from the remote VIX's cache or the remote site's VistA system. |
 | VA site; no VIX  | The local VIX retrieves the metadata directly from the remote VistA Imaging system.                          |
 | DoD (via CVIX)   | The CVIX retrieves the metadata either from its own cache or from the applicable DoD system.                 |
 
@@ -1448,7 +1497,7 @@ The following steps summarize this process.
     - The desired image quality (see [*Image Quality and VIX Compression*](#image-quality-and-vix-compression))
     - A list of acceptable image formats (see [*Image Types vs. Image Formats*](#_bookmark49))
 3.  The local VIX first checks its local cache for the image. If the VIX finds the image in its cache and if the image of the desired quality and is in any of the acceptable formats, the local VIX stops the search and proceeds to step 6.
-4.  If the image is not stored on the local VIX’s cache, the VIX queries the remote site for the image (Table 13).
+4.  If the image is not stored on the local VIX's cache, the VIX queries the remote site for the image (Table 13).
 
 <table>
 <caption><p><span id="_Ref49427192" class="anchor"></span>Table 14: VIX Compression Logic for Request Type</p></caption>
@@ -1465,7 +1514,7 @@ The following steps summarize this process.
 <tbody>
 <tr class="odd">
 <td>VA site with VIX</td>
-<td><p>The remote VIX retrieves the image, either from the remote VIX’s cache or from the remote site’s VistA system.</p>
+<td><p>The remote VIX retrieves the image, either from the remote VIX's cache or from the remote site's VistA system.</p>
 <p>The remote VIX may convert or compress the image (based on the quality specified in the request) to increase the speed of WAN transfers.</p></td>
 </tr>
 <tr class="even">
@@ -1491,7 +1540,7 @@ The following steps summarize this process.
 
 The combination of the requested image quality and whether there is a remote VIX involved can affect how a VIX fills a request for a remote image.
 
-Table 14 summarizes these processing differences. For simplicity’s sake, this table presumes that the request originates locally, that the requester is a VA clinician, and that an image of the requested quality is *not* already in either the local or remote VIX cache (in which case some or all of the processing would be skipped).
+Table 14 summarizes these processing differences. For simplicity's sake, this table presumes that the request originates locally, that the requester is a VA clinician, and that an image of the requested quality is *not* already in either the local or remote VIX cache (in which case some or all of the processing would be skipped).
 
 <table>
 <caption><p><span id="_Ref49427321" class="anchor"></span>Table 15: Image Formats VIX can Return Based on Image Type</p></caption>
@@ -1512,14 +1561,14 @@ Table 14 summarizes these processing differences. For simplicity’s sake, this 
 <td>DIAGNOSTIC</td>
 <td>Clinical Display Radiology Viewer and VistARad, Image Viewer</td>
 <td><p>If a remote VIX is present, the remote VIX locates the highest-resolution image available and automatically converts the image into a lossless compressed format before sending the image across the WAN to the local VIX. For radiology images, lossless DICOM encapsulated JPEG 2000 is the most frequently used format with a compression ratio of about 2.5:1.</p>
-<p>If there is no remote VIX, the local VIX locates the highest- resolution image available at the remote site and pulls the image across the WAN in the image’s native (uncompressed) format.</p></td>
+<p>If there is no remote VIX, the local VIX locates the highest- resolution image available at the remote site and pulls the image across the WAN in the image's native (uncompressed) format.</p></td>
 </tr>
 <tr class="even">
 <td><p>DIAGNOSTIC</p>
 <p>UNCOMPRESSED</p></td>
 <td>Clinical Display Full Resolution Viewer, Image Viewer</td>
 <td><p>If a remote VIX is present, it automatically packages the images as a ZIP file before transferring them across the WAN.</p>
-<p>If there is no remote VIX, the local VIX locates the highest- resolution image available at the remote site and pulls the image across the WAN in the image’s native (uncompressed) format.</p></td>
+<p>If there is no remote VIX, the local VIX locates the highest- resolution image available at the remote site and pulls the image across the WAN in the image's native (uncompressed) format.</p></td>
 </tr>
 <tr class="odd">
 <td>REFERENCE</td>
@@ -1620,7 +1669,7 @@ The cache is located in the /VixCache folder on a local drive (when the VIX is i
 
 > **NOTE:** Never manually change the contents of the Vix Cache folder and subfolders using Windows Explorer while the VIX is running.
 
-> **NOTE:** If you need to change the location of the VIX cache, you must re-run the VIX installation wizard to update your VIX’s configuration information. For details, see the [VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)
+> **NOTE:** If you need to change the location of the VIX cache, you must re-run the VIX installation wizard to update your VIX's configuration information. For details, see the [VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)
 
 ## Image Sharing-related Logging
 
@@ -1638,7 +1687,7 @@ The IMAGE ACCESS LOG file (#2006.95) uses specific values in the ACCESS TYPE fie
 
 If the ACCESS TYPE field (#1) in an IMAGE ACCESS LOG file (#2006.95) entry contains one of the values in Table 17, the VIX accessed the image on behalf of a remote requester.
 
-NOTE that only the values unique to the VIX are described. For information about other entries in the IMAGE ACCESS LOG file (#2006.95), refer to the file’s data dictionary (Table 17).
+NOTE that only the values unique to the VIX are described. For information about other entries in the IMAGE ACCESS LOG file (#2006.95), refer to the file's data dictionary (Table 17).
 
 <table>
 <caption><p><span id="_Ref50709541" class="anchor"></span>Table 18: Additional Data Fields for Access Type</p></caption>
@@ -1820,7 +1869,7 @@ Table 20 may help diagnose potential VIX-related image sharing problems.
 </tr>
 <tr class="even">
 <td>Retrieval times increase significantly relative to previous retrievals</td>
-<td><p>If the problem is specific to one remote site, there may be an issue with the remote site’s VIX. Image retrievals continue at reduced performance until the remote VIX is up and running.</p>
+<td><p>If the problem is specific to one remote site, there may be an issue with the remote site's VIX. Image retrievals continue at reduced performance until the remote VIX is up and running.</p>
 <p>If the problem is specific to Clinical Display, check to see if Clinical Display is using pre-VIX remote image views. If this is the case, restart Clinical Display to verify that it uses the VIX for subsequent image retrievals.</p>
 <p>If the problem is specific to VistARad, refer to VistARad documentation for details.</p>
 <p>In rare cases, the local VIX cache may become full. (If the VIX cache is full, the VIX continues to retrieve images but bypasses its cache. If the VIX cache is full, contact customer support.</p>
@@ -1840,7 +1889,7 @@ Table 20 may help diagnose potential VIX-related image sharing problems.
 </tr>
 <tr class="odd">
 <td>ID mismatch icon or Questionable Integrity warning for remote images</td>
-<td>If the metadata of a remote image does not correlate with local identifiers, the VIX still retrieves the image and stores it in the VIX cache, but Clinical Display or VistARad might block the display of an image. If possible, contact the remote site’s Imaging Coordinator, or contact customer support.</td>
+<td>If the metadata of a remote image does not correlate with local identifiers, the VIX still retrieves the image and stores it in the VIX cache, but Clinical Display or VistARad might block the display of an image. If possible, contact the remote site's Imaging Coordinator, or contact customer support.</td>
 </tr>
 <tr class="even">
 <td>DoD remote site button in Clinical Display shows "Try Again" label</td>
@@ -2065,7 +2114,7 @@ Table 21 explains the information that the VIX provides for ROI processing.
 <tr class="even">
 <td>Configure ROI Options and Update Service Account Credentials</td>
 <td>N/A</td>
-<td>To change any of the VIX ROI configuration settings, click on the Configure ROI Options and Update Service Account Credentials link. Accessing this configuration page requires VistA credentials for a user with the MAG VIX ADMIN security key. This page also allows resetting the access and verify codes for the service account of the site’s VIX on its local VistA.</td>
+<td>To change any of the VIX ROI configuration settings, click on the Configure ROI Options and Update Service Account Credentials link. Accessing this configuration page requires VistA credentials for a user with the MAG VIX ADMIN security key. This page also allows resetting the access and verify codes for the service account of the site's VIX on its local VistA.</td>
 </tr>
 <tr class="odd">
 <td>Invalid Credentials Email Notification</td>
@@ -2097,7 +2146,7 @@ Table 21 explains the information that the VIX provides for ROI processing.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Users with the MAG VIX ADMIN security key can change the ROI configuration parameters of the VIX and re-set the access and verify codes of the service account of the site’s VIX on its local VistA with the ROI periodic processing credentials and DICOM (Q/R) credentials.
+Users with the MAG VIX ADMIN security key can change the ROI configuration parameters of the VIX and re-set the access and verify codes of the service account of the site's VIX on its local VistA with the ROI periodic processing credentials and DICOM (Q/R) credentials.
 
 To change the ROI processing parameters of the VIX:
 
@@ -2256,7 +2305,7 @@ The following VIX-related folders are on the system drive (usually C:\\. Note th
 
 #### VIX Folders on the System Drive or a Shared Drive
 
-When the VIX is installed on a standalone server, the following folders can be on either the system drive or on a shared drive at the site’s discretion.
+When the VIX is installed on a standalone server, the following folders can be on either the system drive or on a shared drive at the site's discretion.
 
 \VixCache
 
@@ -2735,7 +2784,7 @@ When a VA clinician retrieves metadata or images from a remote VA site via a VIX
 
 When a DoD clinician retrieves metadata or images from a VA site, the credentialing is handled by the Station 200 VistA system co-located with the CVIX. If a local service account was established for the initial VIX implementation (MAG\*3.0\*83), that account is no longer needed after updating to the most recent VIX.
 
-A DoD clinician’s requests for local images are logged at the site where the images reside. See [*Image Sharing-related Logging*](#image-sharing-related-logging) for details.
+A DoD clinician's requests for local images are logged at the site where the images reside. See [*Image Sharing-related Logging*](#image-sharing-related-logging) for details.
 
 ## Other VIX Components
 
@@ -2775,7 +2824,7 @@ Other versions of .NET have no impact on the VIX installer or update processes a
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The VIX’s servlet container and the VIX itself require Apache Tomcat. The VIX Installation automatically installs Tomcat.
+The VIX's servlet container and the VIX itself require Apache Tomcat. The VIX Installation automatically installs Tomcat.
 
 Do not install later versions of Tomcat. The VIX installation software bundles the correct version for the VIX.
 
@@ -2783,7 +2832,7 @@ Do not install later versions of Tomcat. The VIX installation software bundles t
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The VIX’s servlet container and the VIX itself require the Oracle Java Runtime Environment (JRE). The JRE is installed automatically as a part of the VIX installation process.
+The VIX's servlet container and the VIX itself require the Oracle Java Runtime Environment (JRE). The JRE is installed automatically as a part of the VIX installation process.
 
 Do not install later versions of the JRE. The correct JRE for the VIX is bundled with the VIX installation software.
 
@@ -2813,7 +2862,7 @@ The VIX requires the install of LibreOffice 24.2.5, a third-party open-source of
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Configuring the MUSE functionality is performed as part of the VIX Installation, see the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). This section provides details in the event the MUSE functionality needs to be further enabled or configured. Configuration of the MUSE interface will require the value of the MUSE host, the value of the MUSE username, the password for the MUSE, the MUSE port, and the MUSE protocol for the site’s online MUSE server. If the MUSE username and password are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
+Configuring the MUSE functionality is performed as part of the VIX Installation, see the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). This section provides details in the event the MUSE functionality needs to be further enabled or configured. Configuration of the MUSE interface will require the value of the MUSE host, the value of the MUSE username, the password for the MUSE, the MUSE port, and the MUSE protocol for the site's online MUSE server. If the MUSE username and password are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
 
 Has the MUSE functionality already been configured to be enabled?
 
@@ -2864,7 +2913,7 @@ The MuseDataSource-1.0.Config file allows for modification of additional configu
 
     Specify the date format to support the expiration time of the session.
 
-    NOTE: The default setting of yyyy-MM-dd&apos;T&apos;HHmmss.nZ corresponds to yyyy-MM-dd'T'HHmmss.nZ where the &apos; renders as ‘ in XML.
+    NOTE: The default setting of yyyy-MM-dd&apos;T&apos;HHmmss.nZ corresponds to yyyy-MM-dd'T'HHmmss.nZ where the &apos; renders as ' in XML.
 3.  \<enableSessionCache\> true\</enableSessionCache\>
 
     Insert the value true or false, to turn on or off, respectively, MUSE session caching.
@@ -2894,11 +2943,11 @@ One of the methods identified to obtain the values of museSiteNumber, host, port
 
 ![](vista-imaging-exchange-vix-administrator-s-guide/022.png)
 
-Under the “Storage Type” on the right side (Figure 16), the MUSE site number for the \<museSiteNumber\> entry is listed under “Site \#” under “MUSE”. The Fully Qualified Domain Name of the Server for the \<host\> entry is listed under “Network Share” between \\ and \\ The port number (with \\ before and after) for the \<port\> entry is appended to the Fully Qualified Domain Name. The MUSE Site Username for the \<username\> entry displays under “User Name” under “Network Credentials Security”.
+Under the "Storage Type" on the right side (Figure 16), the MUSE site number for the \<museSiteNumber\> entry is listed under "Site \#" under "MUSE". The Fully Qualified Domain Name of the Server for the \<host\> entry is listed under "Network Share" between \\ and \\ The port number (with \\ before and after) for the \<port\> entry is appended to the Fully Qualified Domain Name. The MUSE Site Username for the \<username\> entry displays under "User Name" under "Network Credentials Security".
 
 Once inside the file, MuseDataSource-1.0.Config, if a manual edit is required, note the entries for the \<museSiteNumber\>, \<host\>, \<username\>,and \<port\> and update them with the information for the MUSE server that is Operational. The parameter line for \<password\> with the MUSE site password must be manually added and can be obtained from the existing site VistA Imaging documentation (if not available, obtain the MUSE site password from the local BioMed team or MUSE administrator). After updating the MUSE config file, MuseDataSource-1.0.Config, as described above, save the file and restart the Apache Tomcat service, VIX Viewer service, and VIX Render service. One way to restart the VIX services this can be performed is by executing the restart script (Restart_VIX_Services.ps1) as described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105).
 
-> NOTE: If using MUSE™ NX, under the “Storage Type” on the right side the Network Location Properties tab in the BP Queue Processor, “NX” is selected under the “Vers \#”.
+> NOTE: If using MUSE™ NX, under the "Storage Type" on the right side the Network Location Properties tab in the BP Queue Processor, "NX" is selected under the "Vers \#".
 
 # Configure DICOM Service Class Provider (SCP) Functionality
 
@@ -2914,7 +2963,7 @@ Henceforth, this section refers to the Commercial PACS, NilRead™, and query re
 
 > **NOTE:** For additional installations and/or subsequent patch releases, no additional changes to the *Application Entity (AE) Titles Configuration* are necessary unless the settings configured have changed and an update is needed.
 
-> **NOTE:** To update access and verify codes for the account with VistA credentials, plain text versions can be entered directly into the configuration file and are encrypted after restarting the Apache Tomcat service. One way this restart can be performed is by executing the restart script (Restart_VIX_Services.ps1) as described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). The access and verify codes can also be updated as described in section 5.3 Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX in this VIX Administration Guide or with a reconfigure installation described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105) and in the section “Using the VIX Installation Wizard to Reconfigure the VIX,” to perform a reconfigure installation.
+> **NOTE:** To update access and verify codes for the account with VistA credentials, plain text versions can be entered directly into the configuration file and are encrypted after restarting the Apache Tomcat service. One way this restart can be performed is by executing the restart script (Restart_VIX_Services.ps1) as described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). The access and verify codes can also be updated as described in section 5.3 Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX in this VIX Administration Guide or with a reconfigure installation described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105) and in the section "Using the VIX Installation Wizard to Reconfigure the VIX," to perform a reconfigure installation.
 
 ## Application Entity (AE) Titles Configuration
 
@@ -2948,7 +2997,7 @@ Ensure that each of these lines is uncommented (i.e. remove the \# at the front 
 
 An example of the ae_title_mappings file updated for one DICOM SCP client is shown in Figure 18.
 
-> **NOTE:** The example in Figure 18 for configuration of one DICOM SCP client is not how an actual VIX site’s ae_title_mappings file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 18 for configuration of one DICOM SCP client is not how an actual VIX site's ae_title_mappings file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref95984349" class="anchor"></span>Figure 18: AE Titles Configuration File (Example)
 
@@ -2976,7 +3025,7 @@ Many different DICOM SCU vendors exist and each of these systems has their own d
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section provides details on the ScpConfiguration.Config file located in C:\VixConfig. To update access and verify codes for the account with VistA credentials, plain text versions can be entered directly into the configuration file and are encrypted after restarting the Apache Tomcat service. One way this restart can be performed is by executing the restart script (Restart_VIX_Services.ps1) as described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). The access and verify codes can also be updated as described in section 5.3 Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX in this VIX Administration Guide or with a reconfigure installation described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105) and in the section “Using the VIX Installation Wizard to Reconfigure the VIX,” to perform a reconfigure installation.
+This section provides details on the ScpConfiguration.Config file located in C:\VixConfig. To update access and verify codes for the account with VistA credentials, plain text versions can be entered directly into the configuration file and are encrypted after restarting the Apache Tomcat service. One way this restart can be performed is by executing the restart script (Restart_VIX_Services.ps1) as described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105). The access and verify codes can also be updated as described in section 5.3 Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX in this VIX Administration Guide or with a reconfigure installation described in the [VIX Installation Guide](https://www.va.gov/vdl/application.asp?appid=105) and in the section "Using the VIX Installation Wizard to Reconfigure the VIX," to perform a reconfigure installation.
 
 > **NOTE:** Tomcat hosts the DICOM SCP, and the DICOM SCP uses the Laurel Bridge library. Refer to the *Laurel Bridge AE Titles Configuration on VIX* to configure the ae_title_mappings file which contains the AE Title and port to trust for DICOM SCP.
 
@@ -2995,7 +3044,7 @@ Update the following entries for the DICOM SCP functionality (refer to Figure 20
 
 An example of the ScpConfiguration.Config file updated for one DICOM SCP client is shown in Figure 21.
 
-> **NOTE:** The example in Figure 21 for configuration of the aeTitle and callingAeIp is not how an actual VIX site’s ScpConfiguration.Config file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 21 for configuration of the aeTitle and callingAeIp is not how an actual VIX site's ScpConfiguration.Config file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref95985459" class="anchor"></span>Figure 21: ScpConfiguration Configuration File (Example)
 
@@ -3035,7 +3084,7 @@ Update the following entries for desired DICOM SCP functionality desired beyond 
 1.  For each dataSource (DoD or VA), set different modality lists, if necessary, by inserting DoD or VA inside the opening and closing dataSource tags (\<dataSource\> \</dataSource\> - line 33), by default the value is ALL.
 2.  The modalities will be filtered at study and series levels. If needed, set at the image level. To do so, set true at the image level when needed by inserting true inside the opening and closing addImageLevelFilter tags, otherwise set false (\<addImageLevelFilter\> \</addImageLevelFilter\> - line 34).
 3.  List all the modalities to be blocked for that dataSource separately using string tags inside the opening and closing modalities section (\<modalities\> \</modalities\> - lines 35 and 37). Examples of modalities to potentially include inside the string tags include SR and PR.
-37. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site’s data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList\> - lines 40 and 45). Examples of site codes to include inside the string tags include the following:
+37. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site's data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList\> - lines 40 and 45). Examples of site codes to include inside the string tags include the following:
 1.  Set a string to 100 to exclude Claims system information.
 2.  Set a string tag to 200CLMS to exclude 200 VHA Claims study information.
 3.  Set a string tag to 200CORP to exclude the Claims site.
@@ -3076,7 +3125,7 @@ Open the DicomScpConfig file to perform edits. Run Notepad, Notepad++, or WordPa
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Id Conversion Configuration calls VA’s Master Veteran Index (MVI) to do the ID Conversion from ICN to Electronic Data Interchange Personal Identifier (EDIPI) or from EDIPI to ICN. On a VIX, DICOM SCP needs this functionality.
+The Id Conversion Configuration calls VA's Master Veteran Index (MVI) to do the ID Conversion from ICN to Electronic Data Interchange Personal Identifier (EDIPI) or from EDIPI to ICN. On a VIX, DICOM SCP needs this functionality.
 
 The VIX install populates the IdConversionConfiguration.config file in C:\VixConfig with the host, username, and password for the destination of ID conversion lookup.
 
@@ -3246,7 +3295,7 @@ There are numerous PowerShell scripts the system administrator can use to help m
 
 ![](vista-imaging-exchange-vix-administrator-s-guide/034.png)
 
-46. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+46. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 
 ## PowerShell Configuration 
 
@@ -3327,7 +3376,7 @@ If encountering file system access errors, to resolve this, run the tomcat permi
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes how to purge the VIX Render database (C:\Program Files\VistA\Imaging\VIX.Render.Service\Db\SQLiteDb.db). The CacheCurator.ps1 script stops the Viewer and Render services, restores the VIX Render SQLite database to a version with empty tables, completely removes the VIX Render cache contents, and starts the Viewer and Render services. This script can be run if during installation a message “Please manually purge ViewRender database” displays.
+This section describes how to purge the VIX Render database (C:\Program Files\VistA\Imaging\VIX.Render.Service\Db\SQLiteDb.db). The CacheCurator.ps1 script stops the Viewer and Render services, restores the VIX Render SQLite database to a version with empty tables, completely removes the VIX Render cache contents, and starts the Viewer and Render services. This script can be run if during installation a message "Please manually purge ViewRender database" displays.
 
 To use the purge render database script, perform the following:
 
@@ -3364,7 +3413,7 @@ To use the JMX script, perform the following:
     .\set_jmx_permissions.ps1
 
     And press \[ENTER\] to execute the script.
-55. When prompted with “Please choose option (1 to set Read for apachetomcat only, 2 to set Full Control for administrators, or Q to Quit)” do one of the following:
+55. When prompted with "Please choose option (1 to set Read for apachetomcat only, 2 to set Full Control for administrators, or Q to Quit)" do one of the following:
     1.  To set read control for apachetomcat only for the jmxremote.password file, when prompted, enter 1 and press \[ENTER\].
 
         NOTE: Option 1 is the state that enables authentication for JMX.
@@ -3412,7 +3461,7 @@ The directories which are excluded in On-Access Scan Properties are:
 - ?:\ImagingArchivedLogs\\
 - ?:\VixTxDb\\
 
-The “Also exclude subfolders” is also checked, so subfolders are excluded as well.
+The "Also exclude subfolders" is also checked, so subfolders are excluded as well.
 
 > **NOTE:** The wildcard \* is interchangeable with wildcard ? for the folder exclusions.
 
@@ -3493,7 +3542,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 MAG\*3.0\*177 introduced new VIX services to support a zero-footprint web-based image viewer. This VIX Image Viewer is also known as the VIX Viewer and the Enhanced Image Viewer. The zero-footprint image viewer is not a standalone application. It is a service for external applications to integrate with their apps for viewing images stored in VistA Imaging or images in other enterprises accessible through VistA Imaging (i.e. DoD).
 
-The viewing of images to the zero-footprint viewer redirects to the server from the user’s local VIX. This arrangement (Figure 5) keeps image traffic local to the facility as much as possible (for better performance). All image access using the zero-footprint image viewer, whether local or remote, goes through the VIX and utilizes these services.
+The viewing of images to the zero-footprint viewer redirects to the server from the user's local VIX. This arrangement (Figure 5) keeps image traffic local to the facility as much as possible (for better performance). All image access using the zero-footprint image viewer, whether local or remote, goes through the VIX and utilizes these services.
 
 <span id="_Ref49429330" class="anchor"></span>Figure 5: Image Viewer Data and Control flow Using eHMP as an Example Application
 
@@ -3568,7 +3617,7 @@ The zero-footprint image viewer uses pre-processed images and metadata stored in
 
 ![](mag-3-348-vista-imaging-exchange-vix-administrator-s-guide/008.png)
 
-1.  If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+1.  If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 2.  Once PowerShell launches, type the command:
 
     cd "C:\Program Files\VistA\Imaging\Scripts"
@@ -3690,7 +3739,7 @@ Historically, it has been the case that anything that is not from the VA is from
 
 #### Technical Specifics
 
-The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure. A group can contain other groups, which in turn can contain still more groups. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc.). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region’s lifespan, then the entire group is deleted from the cache. If you think of the images in a study, then this makes more sense. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, the whole patient is deleted from the cache.
+The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure. A group can contain other groups, which in turn can contain still more groups. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc.). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region's lifespan, then the entire group is deleted from the cache. If you think of the images in a study, then this makes more sense. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, the whole patient is deleted from the cache.
 
 Click the "va-image-region" region link, and a list of cache groups displays (Figure 11).
 
@@ -4080,7 +4129,7 @@ The VIX uses numerous RPCs. Most of these RPCs are part of the MAG package and a
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The VIX’s servlet container and the VIX itself require the Sun Java Runtime Environment (JRE). The Sun JRE is installed automatically as a part of the VIX installation process.
+The VIX's servlet container and the VIX itself require the Sun Java Runtime Environment (JRE). The Sun JRE is installed automatically as a part of the VIX installation process.
 
 Do not install later versions of the Sun JRE. The correct JRE for the VIX is bundled with the VIX installation software.
 
@@ -4116,7 +4165,7 @@ Ensure that each of these lines is uncommented (i.e. remove the \# at the front 
 
 An example of the ae_title_mappings file updated for one DICOM SCP client is shown in Figure 21.
 
-> **NOTE:** The example in Figure 21 for configuration of one DICOM SCP client is not how an actual VIX site’s ae_title_mappings file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 21 for configuration of one DICOM SCP client is not how an actual VIX site's ae_title_mappings file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref95984349" class="anchor"></span>Figure 21: Example AE Titles Configuration File
 
@@ -4228,7 +4277,7 @@ Historically, it has been the case that anything that is not from the VA is from
 
 #### Technical Specifics
 
-The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure. A group can contain other groups, which in turn can contain still more groups. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc.). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region’s lifespan, then the entire group is deleted from the cache. If you think of the images in a study, then this makes more sense. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, the whole patient is deleted from the cache.
+The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure. A group can contain other groups, which in turn can contain still more groups. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc.). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region's lifespan, then the entire group is deleted from the cache. If you think of the images in a study, then this makes more sense. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, the whole patient is deleted from the cache.
 
 Click the "va-image-region" region link, and a list of cache groups displays (Figure 11).
 
@@ -4334,7 +4383,7 @@ To use the SQL Server component uninstall script, perform the following:
 
 ![](mag-3-329-vista-imaging-exchange-vix-administrator-s-guide/041.png)
 
-45. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+45. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 46. Once PowerShell launches, type the command:
 
     cd "C:\Program Files\VistA\Imaging\Scripts"
@@ -4345,17 +4394,17 @@ To use the SQL Server component uninstall script, perform the following:
     .\sql_removal_helper.ps1
 
     And press \[ENTER\] to execute the script.
-48. When prompted with “Confirm you want to proceed with removal of SQL Server components (Y), otherwise (Q) to Quit or (A) for Advanced mode” enter Y and press \[ENTER\].
-49. When prompted with “Confirm removal of: *SQL Server Component HERE* (Y/N)” enter Y and press \[ENTER\].
+48. When prompted with "Confirm you want to proceed with removal of SQL Server components (Y), otherwise (Q) to Quit or (A) for Advanced mode" enter Y and press \[ENTER\].
+49. When prompted with "Confirm removal of: *SQL Server Component HERE* (Y/N)" enter Y and press \[ENTER\].
 50. Go into Control Panel/Programs/Programs and Features, and determine if additional SQL server components are installed.
-51. If this clean-up is sufficient close PowerShell. Otherwise, the script can be run again and other options can be selected from the Advanced mode. For each of these options’ additional confirmation prompts require enter Y and then press \[ENTER\]. To run the advanced mode, type the command:
+51. If this clean-up is sufficient close PowerShell. Otherwise, the script can be run again and other options can be selected from the Advanced mode. For each of these options' additional confirmation prompts require enter Y and then press \[ENTER\]. To run the advanced mode, type the command:
 
     .\sql_removal_helper.ps1
 
     And press \[ENTER\] to execute the script.
-52. When prompted with “Confirm you want to proceed with removal of SQL Server components (Y), otherwise (Q) to Quit or (A) for Advanced mode” enter A and press \[ENTER\].
-53. When prompted with “Please choose SQL server clean-up option (1 to 6)” enter one of the options with a number from 1 to 6 and press \[ENTER\].
-54. When prompted with “Confirm you want to run….” enter Y and press \[ENTER\]. If additional confirmation prompts appear also enter Y and press \[ENTER\].
+52. When prompted with "Confirm you want to proceed with removal of SQL Server components (Y), otherwise (Q) to Quit or (A) for Advanced mode" enter A and press \[ENTER\].
+53. When prompted with "Please choose SQL server clean-up option (1 to 6)" enter one of the options with a number from 1 to 6 and press \[ENTER\].
+54. When prompted with "Confirm you want to run…." enter Y and press \[ENTER\]. If additional confirmation prompts appear also enter Y and press \[ENTER\].
 55. Go into Control Panel/Programs/Programs and Features, and determine if additional SQL server components are installed.
 56. If this clean-up is sufficient close PowerShell. If all options and repeated attempts of the same option have been tried in the script and SQL server components remain, it is suggested to manually remove these in the Control Panel/Programs/Programs and Features.
 

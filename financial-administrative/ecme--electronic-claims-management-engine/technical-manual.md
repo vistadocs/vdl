@@ -8,41 +8,44 @@ app_code: ECME
 app_name: Electronic Claims Management Engine
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: BPS
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Electronic Claims Management Engine (ECME) - Technical Manual / Security Guide - Introduction - Description of ECME Technical Manual -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '19'
+- '52'
+- '59'
+- '355.3'
+- '901.04'
+- '902.15'
+- '902.24'
+- '900231'
+security_keys:
+- BPS MANAGER
+- PROVIDER
+- SOP
 menu_options: 30
-description: 
-audience: 
-keywords: 
-  - class
-  - ecme
-  - table
-  - pharmacy
-  - blockquote
-  - contents
-  - claims
-  - even
-  - ncpdp
-  - claim
 page_count: 0
 word_count: 15961
 section_count: 26
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=141"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=141
+audit_applied: '2026-05-31'
 ---
 
 # Electronic Claims Management Engine (ECME)

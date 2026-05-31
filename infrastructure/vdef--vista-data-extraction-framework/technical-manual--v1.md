@@ -3,7 +3,7 @@ title: VDEF Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: VDEF
 app_name: VistA Data Extraction Framework
 section: INF
@@ -11,39 +11,37 @@ app_status: active
 pkg_ns: VDEF
 patch_ver: 1
 patch_id: VDEF*1
-group_key: "VDEF:VDEF:1"
-file_numbers: 
-  - 101
+group_key: VDEF:VDEF:1
+description: '| | | | | |----------------|----------|--------------------------------------------------------------------------------------------------------------|----------| | Date | Revision | Description | Author | | December 2004 | 1.0 | Created document | REDACTED | | January, 2006 | 1.1 | VDEF\*1.0\*3 -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '101'
+- '200'
+- '577'
+- '577.4'
+- '579.1'
+- '579.3'
+- '579.32'
+- '579.6'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vdef
-  - request
-  - table
-  - contents
-  - queue
-  - entry
-  - processor
-  - event
-  - package
-  - monitor
+menu_options: 1
 page_count: 0
 word_count: 5475
 section_count: 18
 table_count: 22
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2004
 revision_count: 3
 revision_newest: 8/5/09
 revision_oldest: 6/9/09
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_technical_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_technical_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=144"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_technical_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_technical_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=144
+audit_applied: '2026-05-31'
 ---
 
 VistA Data Extraction Framework 1.0

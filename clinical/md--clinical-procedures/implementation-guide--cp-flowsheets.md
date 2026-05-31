@@ -8,41 +8,40 @@ app_code: MD
 app_name: Clinical Procedures
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MD
+patch_ver: null
+patch_id: null
+group_key: null
+description: Implementation GuideMD\*1.0\*77May 2021Department of Veterans AffairsOffice of Information &Technology (OIT)Product
+audience: ''
+keywords: []
+file_numbers:
+- '44'
+- '45.7'
+- '702.01'
+- '702.09'
+- '703.1'
+- '8925'
+security_keys:
+- ESC
+- MD READ-ONLY
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - strong
-  - view
-  - flowsheet
-  - flowsheets
-  - class
-  - contents
-  - table
-  - implementation
-  - console
-  - guide
 page_count: 0
 word_count: 21260
 section_count: 27
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p77_impg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p77_impg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p77_impg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p77_impg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 ![](cp-flowsheets-implementation-guide/001.png)

@@ -3,46 +3,37 @@ title: Inbound ePrescribing User Manual (Unit 5 Part 2) PSO*7*617 and PSO*7*670
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (Unit 5 Part 2) PSO*7*617 and PSO*7*670
+doc_subject: Inbound ePrescribing (Unit 5 Part 2) PSO*7*617 and PSO*7*670
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
+group_key: PSO:PSO:7.0
+description: '- RxChange Response Message Details View - Fillable RxChange Responses - Non-fillable RxChange Responses - RxChange Response Process - [Fillable RxChange...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [RxChange Response Message Details View](#rxchange-response-message-details-view) - [Fillable RxChange Responses](#fillable-rxchange-responses) - [Non-fillable RxChange Responses](#non-fillable-rxchange-responses) - [RxChange Response Process](#rxchange-response-process) - [Fillable RxChange Respo
-audience: 
-keywords: 
-  - rxchange
-  - response
-  - span
-  - inbound
-  - class
-  - figure
-  - request
-  - unit
-  - message
-  - eprescribing
 page_count: 0
 word_count: 4577
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__52.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__52.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__52.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__52.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

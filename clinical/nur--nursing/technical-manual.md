@@ -11,38 +11,92 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4
-group_key: "NUR:NUR:4"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: > This is not a first version. Nursing is a component of the Department of Veterans Affairs VISTA. It is comprised of multiple modules (i.e., Administration, Clinical, Education, Performance Improvement, and Research). Program content for present and future software releases has been provided and pr
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - nursing
-  - width
-  - style
-  - table
-  - nurs
-  - colspan
-  - even
-  - status
+group_key: NUR:NUR:4
+description: '> This is not a first version. Nursing is a component of the Department of Veterans Affairs VISTA. It is comprised of multiple modules (i.e., Administration, Clinical, Education, Performance Improvement, and Research). Program content for present and future software releases has been provided and pr'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '3'
+- '6.1'
+- '6.4'
+- '6.5'
+- '6.6'
+- '9'
+- '11.2'
+- '42'
+- '44'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.53'
+- '124.2'
+- '125.57'
+- '126'
+- '126.56'
+- '126.58'
+- '126.6'
+- '126.7'
+- '126.72'
+- '126.74'
+- '126.76'
+- '126.8'
+- '126.9'
+- '126.95'
+- '142'
+- '151'
+- '153'
+- '154'
+- '200'
+- '210'
+- '211.1'
+- '211.3'
+- '211.4'
+- '211.5'
+- '211.6'
+- '211.8'
+- '211.9'
+- '212.2'
+- '212.6'
+- '212.7'
+- '213.1'
+- '213.2'
+- '213.3'
+- '213.4'
+- '213.5'
+- '213.9'
+- '214'
+- '214.6'
+- '214.7'
+- '214.8'
+- '216.8'
+- '217'
+- '452.6'
+- '727.805'
+- '748.2'
+- '748.25'
+security_keys:
+- PRSE SUP
+- PRSE TRAIN
+menu_options: 1
 page_count: 0
 word_count: 14487
 section_count: 16
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
 
 > ![](nursing-version-4-technical-manual-and-package-security-guide/001.png)

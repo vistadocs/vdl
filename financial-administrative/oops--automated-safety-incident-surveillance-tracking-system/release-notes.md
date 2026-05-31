@@ -3,7 +3,7 @@ title: ASISTS GUI Version 2 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,59 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2
-group_key: "OOPS:OOPS:2"
-file_numbers: []
+group_key: OOPS:OOPS:2
+description: The main purpose of this release is to enhance the ASISTS roll and scroll VistA package by implementing a Graphical User Interface (GUI) order to increase usability of ASISTS thereby promoting the collection and reporting of accidents and injuries. The scope of the enhancements affects the screens a
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '1.01'
+- '3.4'
+- '4'
+- '13'
+- '58'
+- '85'
+- '88'
+- '89'
+- '90'
+- '173.1'
+- '181'
+- '183'
+- '184'
+- '185'
+- '200'
+- '210'
+- '211'
+- '212'
+- '213'
+- '258'
+- '259'
+- '260'
+- '261'
+- '262'
+- '263'
+- '269.1'
+- '450'
+- '2260'
+- '2261.1'
 security_keys: []
 menu_options: 0
-description: The main purpose of this release is to enhance the ASISTS roll and scroll VistA package by implementing a Graphical User Interface (GUI) order to increase usability of ASISTS thereby promoting the collection and reporting of accidents and injuries. The scope of the enhancements affects the screens a
-audience: 
-keywords: 
-  - table
-  - contents
-  - asists
-  - report
-  - version
-  - employee
-  - both
-  - available
-  - single
-  - safety
 page_count: 0
 word_count: 5429
 section_count: 18
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 1
 revision_newest: 3/6/02
 revision_oldest: 3/6/02
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ### ![](asists-gui-version-2-release-notes/001.png)

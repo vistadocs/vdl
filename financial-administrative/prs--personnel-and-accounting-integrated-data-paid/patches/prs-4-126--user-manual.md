@@ -3,7 +3,7 @@ title: PRS*4*126/NUR*4*43 PAID Version 4.0 User Manual Change Pages - Nursing
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PRS
 app_name: Personnel and Accounting Integrated Data (PAID)
 section: FIN
@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4*126
-group_key: "PRS:PRS:4"
+group_key: PRS:PRS:4
+description: '- Document Purpose - Scope of Patch NUR\4\43 - Updates to Nursing User Manual Version 4.0 - Enhancements This document presents the new functionality provided by the Patch NUR\*4\*43 and...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: ![](prs-4-126-nur-4-43-paid-version-4-0-user-manual-change-pages-nursing/001.png)
-audience: 
-keywords: 
-  - nursing
-  - table
-  - contents
-  - manual
-  - version
-  - patch
-  - document
-  - enhancements
-  - vanod
-  - location
 page_count: 0
-word_count: 414
+word_count: 407
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/nurs_4_p43_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/nurs_4_p43_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/nurs_4_p43_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/nurs_4_p43_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
-
----
-title: VistA Financials PAID Enhancements for VANOD
----
-
 ####### Updates to the Nursing User Manual Version 4.0For Patch NUR\*4\*43Change Pages
 
 VISTA Health  

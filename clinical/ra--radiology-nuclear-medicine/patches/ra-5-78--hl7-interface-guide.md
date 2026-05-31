@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*78
-group_key: "RA:RA:5"
-file_numbers: []
+group_key: RA:RA:5
+description: RA\5.0\78 allows the VistA Radiology/Nuclear Medicine application to accept an inbound query from ScImage and return radiology results back to ScImage. This historical information serves as a reference for the teleradiologists working for the NTP project.
+audience: ''
+keywords: []
+file_numbers:
+- '400.08'
 security_keys: []
 menu_options: 0
-description: RA\5.0\78 allows the VistA Radiology/Nuclear Medicine application to accept an inbound query from ScImage and return radiology results back to ScImage. This historical information serves as a reference for the teleradiologists working for the NTP project.
-audience: 
-keywords: 
-  - patch
-  - table
-  - contents
-  - group
-  - mail
-  - radiology
-  - scimage
-  - port
-  - query
-  - notes
 page_count: 0
 word_count: 985
 section_count: 1
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p78.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p78.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p78.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p78.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-78-hl7-interface-spec-for-voice-recognition-release-notes/001.png)

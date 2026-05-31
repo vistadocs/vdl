@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
+group_key: ADT:ADT:5.3
+description: The VIC Card replaces the old embossed card as a means of identifying veteran patients entitled to care and services at Veterans Affairs (VA) healthcare facilities. It includes such current technology features as the patient's picture, a bar code, and a magnetic stripe upon which is encoded patient
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- DGQE VIC DOWNLOAD
 menu_options: 0
-description: The VIC Card replaces the old embossed card as a means of identifying veteran patients entitled to care and services at Veterans Affairs (VA) healthcare facilities. It includes such current technology features as the patient’s picture, a bar code, and a magnetic stripe upon which is encoded patient
-audience: 
-keywords: 
-  - message
-  - error
-  - download
-  - segment
-  - datacard
-  - communications
-  - subsystem
-  - application
-  - card
-  - please
 page_count: 0
 word_count: 2269
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_vic.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_vic.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_vic.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_vic.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 PIMS V. 5.3 ADT Module User ManualVeteran ID Card Menu

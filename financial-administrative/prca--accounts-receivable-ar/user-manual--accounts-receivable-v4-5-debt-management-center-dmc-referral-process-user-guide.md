@@ -11,49 +11,48 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: Added the 'Veteran Third Party Charge Report' to the DMC Referral
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1.01'
+- '1.02'
+- '1.03'
+- '1.05'
+- '1.06'
+- '1.07'
+- '2'
+- '3.09'
+- '60'
+- '71'
+- '73'
+- '74'
+- '75'
+- '304'
+- '340'
+- '342'
+- '430'
+security_keys:
+- PF11
 menu_options: 4
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - date
-  - report
-  - class
-  - debt
-  - blockquote
-  - table
-  - span
-  - veteran
-  - debtor
-  - amount
 page_count: 0
-word_count: 29240
+word_count: 29226
 section_count: 33
 table_count: 4
 figure_count: 5
 appendix_count: 7
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_dmc_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_dmc_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_dmc_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_dmc_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk12435644" class="anchor"></span>Accounts Receivable 4.5
-
-  Debt Management Center
-
-  User Guide
----
-
 ![](accounts-receivable-version-4-5-debt-management-center-dmc-referral-process-user/001.png)
 
 June 2025

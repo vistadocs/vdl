@@ -11,39 +11,33 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*57
-group_key: "RA:RA:5"
-file_numbers: 
-  - 79
+group_key: RA:RA:5
+description: '- Introduction - Patient Financial Services System - Patch Overview - Software Interfaces - Radiology RA\5\57 Enhancements - New Fields - [RAD/NUC MED...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '75.1'
+- '79.2'
+- '90'
+- '375'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pfss
-  - table
-  - contents
-  - account
-  - radiology
-  - reference
-  - patch
-  - routines
-  - class
-  - door
 page_count: 0
 word_count: 1274
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p57.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p57.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p57.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p57.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-57-pfss-release-notes/001.png)

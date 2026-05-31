@@ -1,48 +1,74 @@
 ---
-title: "LA*5.2*66 Laboratory: Universal Interface HL V1.6 Upgrade Installation and User Guide"
+title: '''LA*5.2*66 Laboratory: Universal Interface HL V1.6 Upgrade Installation and User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: patch
-doc_subject: "Laboratory: Universal Interface HL V1.6 Upgrade Installation and"
+doc_subject: '''Laboratory: Universal Interface HL V1.6 Upgrade Installation and'''
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*66
-group_key: "LA:LA:5.2"
-file_numbers: []
+group_key: LA:LA:5.2
+description: LABORATORYUNIVERSAL INTERFACE (UI)HEALTH LEVEL (HL) V1.6UPGRADEINSTALLATION AND USER GUIDEPATCH LA\*5.2\*66Version 5.2August 2008Department of Veterans AffairsVistA Health Systems Design &
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '17'
+- '18'
+- '20'
+- '30'
+- '60'
+- '61'
+- '62.3'
+- '62.4'
+- '62.48'
+- '63'
+- '64.061'
+- '93'
+- '94'
+- '95'
+- '98'
+- '101'
+- '107'
+- '770'
+- '771'
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - interface
-  - vista
-  - laboratory
-  - software
-  - patch
-  - installation
-  - universal
-  - auto
 page_count: 0
 word_count: 5969
 section_count: 43
 table_count: 42
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_52_la66_install_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_52_la66_install_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_52_la66_install_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_52_la66_install_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-66-laboratory-universal-interface-hl-v1-6-upgrade-installation-and-user-g/001.png)

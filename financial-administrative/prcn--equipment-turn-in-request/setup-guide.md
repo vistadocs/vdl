@@ -11,34 +11,29 @@ app_status: active
 pkg_ns: PRCN
 patch_ver: 1
 patch_id: PRCN*1
-group_key: "PRCN:PRCN:1"
+group_key: PRCN:PRCN:1
+description: '> Information Resource Management Field Office Washington, DC'
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > [Information Resource Management Field Office Washington, DC](#Package_Security)
-audience: 
-keywords: 
-  - package
-  - security
-  - equipment
-  - turn
-  - request
-  - guide
 page_count: 0
 word_count: 9
 section_count: 0
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: True
+has_toc: false
+is_stub: true
 pub_date: June 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=113"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=113
+audit_applied: '2026-05-31'
 ---
 
 > [Department of Veterans Affairs Decentralized Hospital Computer Program](\l)

@@ -3,46 +3,39 @@ title: Home Oxygen Module User Manual (Updated RMPR*3*168)
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: Home Oxygen Module  (Updated RMPR*3*168)
+doc_subject: Home Oxygen Module (Updated RMPR*3*168)
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: RMPR
+patch_ver: null
+patch_id: null
+group_key: null
+description: Version 3.0September 1999(Revised August 2014)Department of Veterans AffairsOffice of Information and TechnologyProduct DevelopmentRevision
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '81'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - billing
-  - oxygen
-  - home
-  - table
-  - contents
-  - site
-  - concentrator
-  - date
-  - prescription
 page_count: 0
 word_count: 9058
 section_count: 22
 table_count: 18
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3_o2um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3_o2um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3_o2um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3_o2um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 PROSTHETICSADMINISTRATIVE HOME OXYGEN MODULEUser Manual

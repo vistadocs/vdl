@@ -3,59 +3,42 @@ title: GMRA*4*55 Deployment, Installation, Back-out, and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: GMRA
-app_name: "CPRS: Adverse Reaction Tracking (ART)"
+app_name: 'CPRS: Adverse Reaction Tracking (ART)'
 section: CLI
 app_status: active
 pkg_ns: GMRA
 patch_ver: 4
 patch_id: GMRA*4*55
-group_key: "GMRA:GMRA:4"
-file_numbers: []
+group_key: GMRA:GMRA:4
+description: '''Table 1: Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3'
+- '6'
+- '120.82'
+- '120.83'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - installation
-  - gmra
-  - back
-  - allergies
-  - deployment
-  - procedure
-  - rollback
 page_count: 0
-word_count: 3295
+word_count: 3268
 section_count: 30
 table_count: 4
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra455_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra455_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=57"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra455_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra455_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=57
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Collaborative Terminology Tooling & Data Management (CTT & DM)
-
-  Native Domain Standardization (NDS)
-
-  Allergies (GMRA\*4\*55)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](gmra-4-55-deployment-installation-back-out-and-rollback-guide/001.png)
 
 April 2017

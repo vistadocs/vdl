@@ -3,46 +3,62 @@ title: TIU Clinical Coordinator and User Manual (TIU*1.0*364)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
 pkg_ns: TIU
 patch_ver: 1.0
 patch_id: TIU*1.0
-group_key: "TIU:TIU:1.0"
-file_numbers: []
-security_keys: []
+group_key: TIU:TIU:1.0
+description: '''- Text Integration Utilities (TIU) Clinical Coordinator and User Manual - Chapter 1: Introduction to TIU - Purpose of Text Integration Utilities -...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '02'
+- '3'
+- '4'
+- '4.9'
+- '6'
+- '23'
+- '50'
+- '101'
+- '121'
+- '121.2'
+- '130'
+- '197'
+- '225'
+- '232'
+- '8925'
+- '8925.1'
+- '8925.7'
+- '8925.71'
+- '8925.99'
+- '8927'
+- '8927.9'
+security_keys:
+- CLINICIAN
+- DIUSER
+- PROVIDER
+- TIUDCT
 menu_options: 1
-description: "- [Text Integration Utilities (TIU) Clinical Coordinator and User Manual](#text-integration-utilities-tiu-clinical-coordinator-and-user-manual) - [Chapter 1: Introduction to TIU](#chapter-1-introduction-to-tiu) - [Purpose of Text Integration Utilities](#purpose-of-text-integration-utilities) - [Bene"
-audience: 
-keywords: 
-  - document
-  - notes
-  - patient
-  - progress
-  - documents
-  - date
-  - print
-  - tiupatient
-  - class
-  - title
 page_count: 0
 word_count: 54522
 section_count: 23
 table_count: 26
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 # Text Integration Utilities (TIU) Clinical Coordinator and User Manual

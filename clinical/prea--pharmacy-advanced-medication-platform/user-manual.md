@@ -5,53 +5,43 @@ doc_label: User Guide
 doc_layer: anchor
 doc_subject: AMPL
 app_code: PREA
-app_name: "Pharmacy: Advanced Medication Platform"
+app_name: 'Pharmacy: Advanced Medication Platform'
 section: CLI
 app_status: archive
 pkg_ns: PREA
 patch_ver: 1.9
 patch_id: PREA*1.9
-group_key: "PREA:PREA:1.9"
-file_numbers: []
+group_key: PREA:PREA:1.9
+description: 11/2024 0.5 1.3.1 Updated content for the new hover text for a Patient's Social Security
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '3.2'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.67'
+- '59'
+- '120.82'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - figure
-  - span
-  - ampl
-  - patient
-  - guide
-  - class
-  - orders
-  - anchor
-  - table
-  - below
 page_count: 0
-word_count: 18707
+word_count: 18690
 section_count: 41
 table_count: 3
 figure_count: 218
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_9_AMPL_GUI_UG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_9_AMPL_GUI_UG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=398"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_9_AMPL_GUI_UG.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_9_AMPL_GUI_UG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=398
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Advanced Medication Platform (AMPL)  
-  Graphical User Interface (GUI)  
-  User Guide
----
-
 ![](ampl-user-guide/001.png)
 
 November 2024

@@ -3,49 +3,84 @@ title: ROR*1.5*42 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: ROR
-app_name: "Registry: Clinical Case (CCR)"
+app_name: 'Registry: Clinical Case (CCR)'
 section: CLI
 app_status: active
 pkg_ns: ROR
 patch_ver: 1.5
 patch_id: ROR*1.5*42
-group_key: "ROR:ROR:1.5"
-file_numbers: 
-  - 60
-  - 63
-security_keys: 
-  - ROR VA IRM
+group_key: ROR:ROR:1.5
+description: The Clinical Case Registries (CCR) software application collects data on the population of Veterans with certain clinical conditions, including two national registries for Hepatitis C and Human Immunodeficiency Virus (HIV) infections, and 51 generic, local registries.
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.07'
+- '2'
+- '3'
+- '4'
+- '6'
+- '7'
+- '11'
+- '12.08'
+- '13'
+- '15'
+- '19'
+- '45'
+- '52'
+- '52.2'
+- '55'
+- '60'
+- '63'
+- '63.04'
+- '63.05'
+- '79'
+- '80'
+- '120.5'
+- '798'
+- '798.1'
+- '798.2'
+- '798.5'
+- '798.9'
+- '799.1'
+- '799.2'
+- '799.31'
+- '799.33'
+- '799.34'
+- '799.4'
+- '799.51'
+- '799.6'
+- '8989.5'
+- '8994'
+- '900001'
+security_keys:
+- ADMIN
+- HEPC ADMIN
+- HEPC USER
+- IRM
+- ROR VA IRM
+- USER
+- VA GENERIC ADMIN
+- VA GENERIC USER
 menu_options: 12
-description: The Clinical Case Registries (CCR) software application collects data on the population of Veterans with certain clinical conditions, including two national registries for [Hepatitis C](#Glos_HEPC) and [Human Immunodeficiency Virus](#Glos_HIV) (HIV) infections, and 51 generic, local registries.
-audience: 
-keywords: 
-  - class
-  - table
-  - report
-  - registry
-  - span
-  - contents
-  - href
-  - blockquote
-  - colspan
-  - patients
 page_count: 0
 word_count: 85418
 section_count: 129
 table_count: 158
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Clinical_Case_Registries/ror1_5_42um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Clinical_Case_Registries/ror1_5_42um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=126"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Clinical_Case_Registries/ror1_5_42um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Clinical_Case_Registries/ror1_5_42um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=126
+audit_applied: '2026-05-31'
 ---
 
 Clinical Case Registries (CCR)

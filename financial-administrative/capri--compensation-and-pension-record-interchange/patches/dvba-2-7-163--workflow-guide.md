@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*163
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '| | | | | |------------|--------------------------------------|----------|------------------| | Date | Description (Patch \# if applicable) | Author | Technical Writer | | 11/11/2010 | Document created for Patch 161. | REDACTED | N/A | | 1/25/2011 | Minor corrections | REDACTED | N/A | | 4/1/2011 |...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - strong
-  - lymphatic
-  - enabled
-  - treatment
-  - span
-  - diagnosis
-  - veteran
-  - mandatory
-  - table
 page_count: 0
 word_count: 10204
 section_count: 16
 table_count: 62
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 3
 revision_newest: 4/1/2011
 revision_oldest: 11/11/2010
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_hemicandlymphatic_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_hemicandlymphatic_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_hemicandlymphatic_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_hemicandlymphatic_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-163-workflow-hematologic-and-lymphatic-conditions-including-leukemia/001.png)

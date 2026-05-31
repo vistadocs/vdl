@@ -3,7 +3,7 @@ title: OR*3*218 DEA e-Prescribing Setup Installation and Configuration Guide CPR
 doc_type: CFG
 doc_label: Configuration Guide
 doc_layer: patch
-doc_subject: DEA e-Prescribing Setup Installation and  CPRS GUI
+doc_subject: DEA e-Prescribing Setup Installation and CPRS GUI
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,40 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*218
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: CPRS:OR:3
 description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
-audience: 
-keywords: 
-  - cprs
-  - install
-  - table
-  - contents
-  - installation
-  - server
-  - setup
-  - windows
-  - verify
-  - controlled
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '7'
+- '9.2'
+- '9.201'
+- '53.1'
+- '53.4'
+- '100.7'
+- '200'
+- '8989.3'
+security_keys:
+- ORES
+- PROVIDER
+- PSDRPH
+menu_options: 1
 page_count: 0
 word_count: 6306
 section_count: 15
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_218_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_218_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_218_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_218_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 DEA e-Prescribing Setup Installation and Configuration Guide (for Patches OR\*3.0\*218, PSD\*3.0\*76, and XU\*8.0\*580)

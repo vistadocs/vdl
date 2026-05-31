@@ -3,46 +3,48 @@ title: VistA Imaging System CVIX Administrator's Guide and Product Operations Ma
 doc_type: AG
 doc_label: Administrator's Guide
 doc_layer: plain
-doc_subject: VistA Imaging System CVIX  and Product Operations Manual
+doc_subject: VistA Imaging System CVIX and Product Operations Manual
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This document explains how to maintain and administer the Central VistA Imaging Exchange (CVIX) service.'
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '38.1'
+- '43'
+- '99'
+- '200'
+- '1201'
+- '2005'
+- '2005.2'
+- '2006.95'
+security_keys:
+- DG RECORD ACCESS
 menu_options: 3
-description: > This document explains how to maintain and administer the Central VistA Imaging Exchange (CVIX) service.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - cvix
-  - strong
-  - class
-  - table
-  - contents
-  - image
-  - vista
-  - site
-  - blockquote
-  - even
 page_count: 0
 word_count: 10068
 section_count: 38
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_cvix_admin_prod_ops_guide_f.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_cvix_admin_prod_ops_guide_f.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_cvix_admin_prod_ops_guide_f.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_cvix_admin_prod_ops_guide_f.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-cvix-administrator-s-guide-and-product-operations-manual/001.png)

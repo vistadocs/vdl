@@ -3,7 +3,7 @@ title: DVB*4*49 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: HINQ
 app_name: Hospital Inquiry
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: DVB
 patch_ver: 4
 patch_id: DVB*4*49
-group_key: "HINQ:DVB:4"
-file_numbers: []
-security_keys: []
+group_key: HINQ:DVB:4
+description: '- Introduction - Overview - Purpose - Acronyms and Definitions - Acronyms - Definitions - User Release Notes - [New Features, Functions, and...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '8.1'
+- '8.3'
+- '22'
+security_keys:
+- HINQ
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - hinq
-  - access
-  - date
-  - vista
-  - effective
-  - service
-  - displayed
-  - required
 page_count: 0
 word_count: 2225
 section_count: 23
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=41"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=41
+audit_applied: '2026-05-31'
 ---
 
 ![](dvb-4-49-release-notes/001.png)

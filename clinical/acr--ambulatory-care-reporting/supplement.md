@@ -8,41 +8,35 @@ app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
+description: NPCD VISTA Error Description Correction Description Correction Logic Validation
+audience: ''
+keywords: []
+file_numbers:
+- '10.2'
+- '22'
+- '200'
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 4%\\" /> <col style=\\"width: 5%\\" /> <col style=\\"width: 25%\\" /> <col style=\\"width: 16%\\" /> <col style=\\"width: 15%\\" /> <col style=\\"width: 16%\\" /> <col style=\\"width: 15%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td colspan=\\"2\\">Error</td> <td></td> <td></td> <td></td> "
-audience: 
-keywords: 
-  - class
-  - patient
-  - colspan
-  - through
-  - invalid
-  - protocol
-  - style
-  - width
-  - edit
-  - load
 page_count: 0
 word_count: 4679
 section_count: 0
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_um_appx.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_um_appx.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_um_appx.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_um_appx.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 <table>

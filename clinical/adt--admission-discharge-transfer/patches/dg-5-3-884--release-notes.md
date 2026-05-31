@@ -11,51 +11,35 @@ app_status: archive
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*884
-group_key: "ADT:DG:5.3"
-file_numbers: []
+group_key: ADT:DG:5.3
+description: '| Date | Version | Description | Author | |----------------|---------|-------------------------------------------------------------------------------------|-------------------------------------------| | September 2015 | 1.0 | Baseline document, created for ICD-10 PTF Modifications project patch...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '40'
+- '45'
+- '45.64'
+- '50'
+- '60'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - codes
-  - associated
-  - diagnosis
-  - record
-  - census
-  - span
-  - manual
-  - patch
 page_count: 0
-word_count: 2874
+word_count: 2863
 section_count: 26
 table_count: 15
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_884_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_884_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_884_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_884_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ICD-10 PTF Modifications
-
-  Admission, Discharge, Transfer (ADT)
-
-  DG\*5.3\*884
-
-  Release Notes
----
-
 ![](dg-5-3-884-icd-10-ptf-modifications-release-notes/001.png)
 
 September 2015

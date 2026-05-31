@@ -1,21 +1,46 @@
 ---
-consolidated_title: "pecs troubleshooting guide"
-app_code: PECS
+title: PECS Version 6.2 Troubleshooting Guide (PREC*6.2*3)
 doc_type: SUP
-master_source: "PECS Version 6.2 Troubleshooting Guide (PREC*6.2*3)"
+doc_label: Supplement
+doc_layer: anchor
+doc_subject: Troubleshooting Guide (PREC*6.2*3)
+app_code: PECS
+app_name: 'Pharmacy: Pharmacy Enterprise Customization System'
+section: GUI
+app_status: active
+pkg_ns: PECS
+patch_ver: 6.2
+patch_id: PECS*6.2
+group_key: PECS:PECS:6.2
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: When updates occur, the Title Page lists the new revised date and this page describes the changes. Bookmarks link the described content changes to its place within manual. There are no bookmarks for format updates. Page numbers change with each update; therefore, they are not included as a...
+audience: ''
+keywords: []
+page_count: 0
+word_count: 14868
+section_count: 30
+table_count: 22
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: April 2022
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_6_2_troubleguide_r.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_6_2_troubleguide_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=204
+audit_applied: '2026-05-31'
+master_source: PECS Version 6.2 Troubleshooting Guide (PREC*6.2*3)
 master_pub_date: April 2022
-consolidated_from: 2 versions
+consolidated_from: 3 versions
 prior_versions:
-  - "PREC*7*1 PECS Troubleshooting Guide"
----
-
----
-title: |
-  Pharmacy Enterprise Customization System (PECS)
-
-  Troubleshooting Guide
-
-  ![](pecs-version-6-2-troubleshooting-guide-prec-6-2-3/001.png)
+- PECS Troubleshooting Guide (PREC*6.2*1)
+- PREC*7*1 PECS Troubleshooting Guide
+consolidated_title: pecs troubleshooting guide
 ---
 
 April 2022
@@ -119,7 +144,7 @@ Refer to the SOFTWARE library version of this document to view <span class="mark
 <p>Revised introductory text on Page 13</p>
 <p>Removed extra space on Page 29</p>
 <p>Removed extra space on Page 43</p>
-<p>Corrected inconsistency in use of the phrase ‘Where X…’ throughout document</p>
+<p>Corrected inconsistency in use of the phrase 'Where X…' throughout document</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
 <tr class="even">
@@ -289,13 +314,13 @@ The Service Level of the system and the availability of the system are described
 
 The logical view describes the architecturally significant parts of the design model. The object-oriented decomposition of the PECS application can be logically divided into three primary tiers: Presentation Tier, Business Logic Tier, and Data Persistence Tier. Each tier has its own design and implementation framework and defined points of interaction with the other respective tiers.
 
-The PECS application is a web-based application accessible only from within the VA network via a client workstation with a VA approved Internet browser. The PECS application’s architecture is designed and implemented according to VA architecture requirements using Java Platform Enterprise Edition (JEE) framework.
+The PECS application is a web-based application accessible only from within the VA network via a client workstation with a VA approved Internet browser. The PECS application's architecture is designed and implemented according to VA architecture requirements using Java Platform Enterprise Edition (JEE) framework.
 
 ### Presentation Tier Overview
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The presentation tier represents the GUI screens that allow the user to interact with the application and the logic initiated by user interaction to execute screen functionality. The presentation tier uses a well-known Model-View-Controller (MVC) design pattern implemented by the Spring MVC framework using JEE Java Server Pages (JSP) as the “View” portion of MVC. The MVC framework is used to manage the display screens and to dispatch and delegate requests initiated by the user to a business rule processing the business logic tier. The design of the MVC framework as it is used in the PECS application leverages an object hierarchy with commonly shared base classes.
+The presentation tier represents the GUI screens that allow the user to interact with the application and the logic initiated by user interaction to execute screen functionality. The presentation tier uses a well-known Model-View-Controller (MVC) design pattern implemented by the Spring MVC framework using JEE Java Server Pages (JSP) as the "View" portion of MVC. The MVC framework is used to manage the display screens and to dispatch and delegate requests initiated by the user to a business rule processing the business logic tier. The design of the MVC framework as it is used in the PECS application leverages an object hierarchy with commonly shared base classes.
 
 ### Business Logic Tier Overview
 
@@ -349,7 +374,7 @@ The logical system components for the National and Local environments are illust
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-PECS is a national deployment at the Austin Information Technology Center (AITC). There is no disaster recovery site at AITC. The PECS application’s components are deployed on two servers: an application server (WebLogic) and a database server (Oracle). These server’s characteristics are described in more detail below.
+PECS is a national deployment at the Austin Information Technology Center (AITC). There is no disaster recovery site at AITC. The PECS application's components are deployed on two servers: an application server (WebLogic) and a database server (Oracle). These server's characteristics are described in more detail below.
 
 | Parameter                 | Value                                                              |
 |---------------------------|--------------------------------------------------------------------|
@@ -394,7 +419,7 @@ PECS is deployed at the national level as a single application server node conne
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The PECS application conforms to the VA’s requirements determining the use of third-party tools. Please refer to the PECS Product Architecture Document for reference. See the non-redacted version of this document on the SOFTWARE library for the PECS TSPR site: <span class="mark">REDACTED</span>
+The PECS application conforms to the VA's requirements determining the use of third-party tools. Please refer to the PECS Product Architecture Document for reference. See the non-redacted version of this document on the SOFTWARE library for the PECS TSPR site: <span class="mark">REDACTED</span>
 
 The three-tiered architecture consists of an Internet browser-based graphical user interface accessing a Spring MVC-based web application/presentation tier, a Java Enterprise Edition (JEE)-based business logic service processing layer, and a Hibernate-based data access tier. These conform to the design recommended by the Health Systems Design & Development (HSD&D) Core Specifications for Re-hosting Initiatives and generally acceptable JEE implementation recommendations.
 
@@ -537,7 +562,7 @@ If the server is up and the database is down, the script on the database server,
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The application admin takes the application offline and advises the team. The DBA takes the database offline and advises the team. The server admin will run “ps –ef” to identify any hung WebLogic or Oracle processes prior to shutdown/reboot of the servers.
+The application admin takes the application offline and advises the team. The DBA takes the database offline and advises the team. The server admin will run "ps –ef" to identify any hung WebLogic or Oracle processes prior to shutdown/reboot of the servers.
 
 If the server and database are up but need to come down for maintenance for either one, then the script on the database server, vapredbs1, in the directory, /u01/oracle/admin/PREP/scripts, is a shutdown\_ script which can be run by the Oracle Unix user to shut down any database on the server. It is called from that directory as ./shutdown_db.ksh \<database_name\>, i.e., ./shutdown_db.ksh PREP.
 
@@ -777,7 +802,7 @@ Once the server, vapredbs1, /etc, /var, /u01, and Oracle software are restored f
 
 #### Backup Testing
 
-At the Program Manager’s discretion random files can be selected and restored to an alternate location. Currently, there is no restore testing. The DBA team has requested an extra server to be used for this purpose and will implement testing procedures when this server is purchased by AITC.
+At the Program Manager's discretion random files can be selected and restored to an alternate location. Currently, there is no restore testing. The DBA team has requested an extra server to be used for this purpose and will implement testing procedures when this server is purchased by AITC.
 
 #### Storage and Rotation
 
@@ -828,7 +853,7 @@ The user must login with the PIV or Windows credentials at the SSOi login page. 
 
 Within the PECS application, if the user session times out, then the user will be redirected to the SSOi central login page. After successful login, the confidentiality statement will be shown to the user. The user will be redirected to the application home page once the confidentiality statement is accepted. The confidentiality statement must be accepted at least once per user session.
 
-A user’s role will determine the screens and operations that will be accessible. The tables below details presents a security the matrix.
+A user's role will determine the screens and operations that will be accessible. The tables below details presents a security the matrix.
 
 | Screen Page                  | Requester | Approver | Release Manager | Administrator |
 |------------------------------|-----------|----------|-----------------|---------------|
@@ -867,7 +892,7 @@ A user’s role will determine the screens and operations that will be accessibl
 | Query Result      | Panel  | X         | X        | X               | X             |
 | Load              | Button | X         | X        |                 |               |
 
-<span id="_Toc100128362" class="anchor"></span>Table 10: Advanced Query/Customization/Other User’s Queries
+<span id="_Toc100128362" class="anchor"></span>Table 10: Advanced Query/Customization/Other User's Queries
 
 | Name              | Type   | Requester | Approver | Release Manager | Administrator |
 |-------------------|--------|-----------|----------|-----------------|---------------|
@@ -968,7 +993,7 @@ System monitoring is done through the following:
 
 1.  WebLogic console has the entire WebLogic environment configuration.
     - The team can monitor the admin server, node manager, managed servers running states, and control managed servers start and stop activity.
-    - Manager server’s health and performance, application deployment state, database connection pools, and Java Message Service (JMS) can also be monitored from here.
+    - Manager server's health and performance, application deployment state, database connection pools, and Java Message Service (JMS) can also be monitored from here.
 2.  Introscope: Monitoring tool. One agent per machine is deployed. It can provide in-detail monitoring of all the WebLogic components from that environment and monitoring alerts and notifications can be generated using this tool.
 
 ### Performance/Capacity Monitoring 
@@ -1017,7 +1042,7 @@ The system validates form field values per business rule and data integrity cons
 
 The system receives the value after form validation and applies the appropriate business rules (if any) to the value. Examples of a business rule validation may include bounds checking, or any interdependencies that may exist between two data values. Please see Alternative Flows for data validation errors.
 
-Like most systems, PECS may generate a small set of errors that may be considered “routine”. These errors are routine in the sense that they have minimal impact on the user and do not compromise the operational state of the system. Most of the errors are transient in nature and only require the user to retry an operation. The following sub-section describes these errors, their causes, and what response, if any, an operator needs to take.
+Like most systems, PECS may generate a small set of errors that may be considered "routine". These errors are routine in the sense that they have minimal impact on the user and do not compromise the operational state of the system. Most of the errors are transient in nature and only require the user to retry an operation. The following sub-section describes these errors, their causes, and what response, if any, an operator needs to take.
 
 While the occasional occurrence of these errors may be routine, getting reoccurring errors over a short period of time is an indication of a more serious problem. In that case the error needs to be treated as an exceptional condition.
 
@@ -1032,7 +1057,7 @@ The DATUP subsystem does not provide or enforce a security model. However, the s
 1.  Access to FTP denied – The configured FTP Protocol over SSH (SFTP) account username and/or password is incorrect. To resolve this, the FDB-DIF Update DATUP configuration file should be modified to include the correct access information.
 16. Access to Email denied – The configured email account username and/or password is incorrect. To resolve this, the FDB-DIF Update DATUP configuration file should be modified to include the correct access information.
 17. Access to FDB-DIF denied – The configured JDBC driver URL, driver name, username, and/or password is incorrect. To resolve this, the FDB-DIF Update configuration file should be modified to include the correct access information.
-18. Access to “temporary” directory denied – The WebLogic process does not have sufficient permission to write to the operating system defined temporary directory (e.g., “/tmp”). To resolve this, the WebLogic process should be granted write access to the temporary directory.
+18. Access to "temporary" directory denied – The WebLogic process does not have sufficient permission to write to the operating system defined temporary directory (e.g., "/tmp"). To resolve this, the WebLogic process should be granted write access to the temporary directory.
 
 ### Time-outs
 
@@ -1092,7 +1117,7 @@ This section lists the error, informational, and warning messages that can appea
 
 | All Concepts Error Message                                                                                                                                                               | Cause                                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Current Action Reason field is required                                                                                                                                                  | User didn’t fill out the ‘Current Action Reason’ field.                                                                               |
+| Current Action Reason field is required                                                                                                                                                  | User didn't fill out the 'Current Action Reason' field.                                                                               |
 | Action 'Submit as Reviewed' cannot be performed on modified records. Please click the 'Modify' button after changing fields. Field '\<name of field\>' cannot be changed for this action | Approver modifies an FDB field on a custom record in the Modified or Deleted action status and clicks the 'Submit as Reviewed' button |
 | Action 'Submit for Delete' cannot be performed on modified records. Please click the 'Modify' button after changing fields. Field '\<name of field\>' cannot be changed for this action  | Approver modifies an FDB field on a custom record in the Approved or Deleted action status and clicks the 'Submit for Delete' button  |
 
@@ -1109,10 +1134,10 @@ This section lists the error, informational, and warning messages that can appea
 | This custom record has been successfully modified and will be reviewed at the national level.                    | Approver modified several non-FDB fields on a custom record in the Approved action status and clicked the 'Modify' button.                                                                                                |
 | This custom record has been successfully submitted for delete.                                                   | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status whose associated drug pairs had been deleted.                                                                            |
 | This custom record has been successfully deleted.                                                                | Approver clicked the 'Delete' button on a customization in the Delete_Reviewed action status.                                                                                                                             |
-| This request for deletion has been rejected. The record has returned to previous action status (‘Approved’).     | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status and then, the user clicked the 'Reject' button.                                                                          |
-| This reviewed record has been rejected. The record has returned to previous action status (‘Deleted’).           | Approver clicked the 'Submit as Reviewed' button on a custom record in the Deleted action status and then, the user clicked the 'Reject' button.                                                                          |
-| This request for modification has been rejected. The record has returned to previous action status (‘Approved’). | Approver modified an FDB field on a custom record in the Approved action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                           |
-| This request for modification has been rejected. The record has returned to previous action status (‘Deleted’).  | Approver modified an FDB field on a custom record in the Deleted action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                            |
+| This request for deletion has been rejected. The record has returned to previous action status ('Approved').     | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status and then, the user clicked the 'Reject' button.                                                                          |
+| This reviewed record has been rejected. The record has returned to previous action status ('Deleted').           | Approver clicked the 'Submit as Reviewed' button on a custom record in the Deleted action status and then, the user clicked the 'Reject' button.                                                                          |
+| This request for modification has been rejected. The record has returned to previous action status ('Approved'). | Approver modified an FDB field on a custom record in the Approved action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                           |
+| This request for modification has been rejected. The record has returned to previous action status ('Deleted').  | Approver modified an FDB field on a custom record in the Deleted action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                            |
 | To update the record, click the edit button below.                                                               | User has entered the detail page for one of the concepts. (When a user first enters a detail page, it will be in read-only mode. The only way a user will be able to update the detail page is to click the Edit button.) |
 
 <span id="_Toc100128368" class="anchor"></span>Table 16: Dose Range Error Messages
@@ -1137,7 +1162,7 @@ This section lists the error, informational, and warning messages that can appea
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Unable to perform field validation due to: “+ex.getMessage());”</p>
+<td><p>Unable to perform field validation due to: "+ex.getMessage());"</p>
 <p>Please report this error to the support team.</p></td>
 <td><p>User chooses a VA customized table, and the system is unable to retrieve the field names to display.</p>
 <p>Note –Based on how the code is currently written, this error should never occur.</p></td>
@@ -1145,7 +1170,7 @@ This section lists the error, informational, and warning messages that can appea
 <tr class="even">
 <td><p>The customized Dose Range Check record could not be found.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User queries for a dose range record and the system can’t correctly parse the record to display.</td>
+<td>User queries for a dose range record and the system can't correctly parse the record to display.</td>
 </tr>
 <tr class="odd">
 <td><p>FDB customized object was not found in the database.</p>
@@ -1333,8 +1358,8 @@ This section lists the error, informational, and warning messages that can appea
 <td>User attempts to save a record, and the system is unable to execute the process.</td>
 </tr>
 <tr class="odd">
-<td>‘X’ UNITS field cannot be blank when ‘X’ field has numeric value.</td>
-<td>User modifies a record that has a blank ‘units’ field for a corresponding field containing a numeric value. For example, the 'Dose Low' field contains a number with no corresponding dose low units.</td>
+<td>'X' UNITS field cannot be blank when 'X' field has numeric value.</td>
+<td>User modifies a record that has a blank 'units' field for a corresponding field containing a numeric value. For example, the 'Dose Low' field contains a number with no corresponding dose low units.</td>
 </tr>
 <tr class="even">
 <td>Concept Type/Concept ID Number combination does not exist in FDB (Note: This is a popup error message.)</td>
@@ -1364,7 +1389,7 @@ This section lists the error, informational, and warning messages that can appea
 <td><p>'x' field cannot be blank when 'y' field has numeric value</p>
 <p>Where x = the NTE unit field (MAXSINGLENTEDOSEUNIT or MAXSINGLENTEDOSE FORMUNIT)</p>
 <p>y = the NTE dose field (MAXSINGLENTEDOSE or MAXSINGLENTEDOSEFORM)</p></td>
-<td>User enters a value for the 'Max Single NTE Dose' or 'Max Single NTE Dose Form' field but leaves the corresponding ‘units’ field blank (Max Single NTE Dose Unit or Max Single NTE Dose Form)</td>
+<td>User enters a value for the 'Max Single NTE Dose' or 'Max Single NTE Dose Form' field but leaves the corresponding 'units' field blank (Max Single NTE Dose Unit or Max Single NTE Dose Form)</td>
 </tr>
 </tbody>
 </table>
@@ -1408,17 +1433,17 @@ This section lists the error, informational, and warning messages that can appea
 </tr>
 <tr class="odd">
 <td>Record could not be retrieved due to missing ID number. Please report this error to the support team.</td>
-<td>User selects a DDI VA record from the query results to modify, but the record id is null or empty (“”).</td>
+<td>User selects a DDI VA record from the query results to modify, but the record id is null or empty ("").</td>
 </tr>
 <tr class="even">
 <td><p>The specified FDB record was not found.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects an FDB record to customize but it cannot be found in the database for the given FDB interaction id. This error displays in the FDB table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects an FDB record to customize but it cannot be found in the database for the given FDB interaction id. This error displays in the FDB table results area and the detailed page doesn't get loaded.</td>
 </tr>
 <tr class="odd">
 <td><p>The specified FDB interaction ID has errors.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects an FDB record to customize; however, multiple FDB records are in the database for the given interaction id. This error displays in the FDB table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects an FDB record to customize; however, multiple FDB records are in the database for the given interaction id. This error displays in the FDB table results area and the detailed page doesn't get loaded.</td>
 </tr>
 <tr class="even">
 <td><p>The specified Interaction ID has errors.</p>
@@ -1428,7 +1453,7 @@ This section lists the error, informational, and warning messages that can appea
 <tr class="odd">
 <td><p>The specified VA Custom interaction ID has errors.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects a DDI VA record to modify; however, the customized VA record cannot be found in the database for the given interaction id. This error displays in the VA table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects a DDI VA record to modify; however, the customized VA record cannot be found in the database for the given interaction id. This error displays in the VA table results area and the detailed page doesn't get loaded.</td>
 </tr>
 </tbody>
 </table>
@@ -1560,7 +1585,7 @@ Where X is the drug name</td>
 <td>When using the 'Drug Pair' button on the drug-drug interaction customization detail page, user chooses to select a drug pair by selecting from routed generic drug lists</td>
 </tr>
 <tr class="odd">
-<td>Either no drug pairs exist for this custom interaction or there are no drug pairs for the current Action Status filter. Please update the Action Status filter or create new custom drug pair(s) for this interaction by clicking on 'Select Drug Pairs' to add to the above VA Custom Interaction’.</td>
+<td>Either no drug pairs exist for this custom interaction or there are no drug pairs for the current Action Status filter. Please update the Action Status filter or create new custom drug pair(s) for this interaction by clicking on 'Select Drug Pairs' to add to the above VA Custom Interaction'.</td>
 <td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the DDI Detail page, the user chooses to view and/or edit associated drug pairs when either the DDI has no associated drug pairs or there are no drug pairs for the 'Action Status' filter that was selected.</td>
 </tr>
 <tr class="even">
@@ -1675,7 +1700,7 @@ Where x is each pair of routed generic drugs whose reverse already exists.</td>
 <td>User clicked the 'Drug Pair Lookup' button, selected a drug pair from the FDB table, and got a message that the drug pair ID has errors.</td>
 </tr>
 <tr class="even">
-<td>The Drug-Drug interaction &lt;Drug A/Drug B&gt;’ has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair. Do you want to customize the Drug-Drug interaction?</td>
+<td>The Drug-Drug interaction &lt;Drug A/Drug B&gt;' has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair. Do you want to customize the Drug-Drug interaction?</td>
 <td>User does a drug pair query, selects a FDB drug pair associated with an FDB Drug interaction that has never been customized and sees a Drug-Drug Interaction Message instead of the Drug Pairs detail page</td>
 </tr>
 <tr class="odd">
@@ -1740,8 +1765,8 @@ Where 'x' is the Interaction ID and Description and 'y' is the severity level.</
 |----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Custom String field is required                                                                                            | User does not input any data into the 'Custom String' field                                                                                                                                                                        |
 | The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record to customize; however, an FDB record cannot be found in the database for the given Duplicate Therapy Customization ID (DTCID). An error message will appear before the detail page is loaded.         |
-| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT VA record from the query results to modify. However, the VA record ID is null or empty (“”) for some reason.                                                                                                     |
-| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record from the query to customize. However, the DTCID is null or empty (“”) for some reason.                                                                                                                |
+| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT VA record from the query results to modify. However, the VA record ID is null or empty ("") for some reason.                                                                                                     |
+| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record from the query to customize. However, the DTCID is null or empty ("") for some reason.                                                                                                                |
 | The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | The user selects a VA customized record from the list and for some reason; the DTCID is invalid, inactive, or deleted.                                                                                                             |
 | Field must be numeric and cannot contain more than 10 characters.                                                          | DTCID is null or has a length greater than ten.                                                                                                                                                                                    |
 | The specified VA custom record could not be found. Please report this error to the support team.                           | The user selects a record from the VA customization list; however, the detailed information for the customized record is missing from the database. This error appears after the user selects the customized record from the list. |
@@ -1901,7 +1926,7 @@ Where 'x' is the Interaction ID and Description and 'y' is the severity level.</
 </tr>
 <tr class="even">
 <td><p>Your query saved successfully with name: 'x'</p>
-<p>where x is the name, I assigned the query or “Unnamed Query” if I did not assign the query a name. No change</p></td>
+<p>where x is the name, I assigned the query or "Unnamed Query" if I did not assign the query a name. No change</p></td>
 <td>Approver saves a query</td>
 </tr>
 <tr class="odd">
@@ -1990,7 +2015,7 @@ PRE Team will work with AITC resources to resolve the Infrastructure errors. AIT
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Oracle monitoring tools monitor several aspects of the PECS databases. The monitory tools alert DBAs via email and create service desk tickets for conditions such as “disk full errors or tablespace full”, archive log directory full, database down, connectivity to database down, etc.
+Oracle monitoring tools monitor several aspects of the PECS databases. The monitory tools alert DBAs via email and create service desk tickets for conditions such as "disk full errors or tablespace full", archive log directory full, database down, connectivity to database down, etc.
 
 In addition, as with all Oracle databases, errors within the database are recorded in the Oracle alert log for the database and trace files that are created, which will allow DBAs to review any errors. Any such errors are emailed to the DBAs daily.
 
@@ -2039,7 +2064,7 @@ User roles-based authorization is managed within the application using Database 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If the user has issues with the SSOi session, then one of the following options can be used to reset the user’s SSOi session.
+If the user has issues with the SSOi session, then one of the following options can be used to reset the user's SSOi session.
 
 - The user can go to the IAM SSOi Landing page using the link and select the Logout button.
 
@@ -2081,7 +2106,7 @@ The Team Leader or designee will provide hourly recovery status updates to the A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section’s instructions are identical to those found in Section 3.1, Administrative Procedures.
+This section's instructions are identical to those found in Section 3.1, Administrative Procedures.
 
 Software is recovered from images stored on the SAN. The same recovery procedures listed in ACP 4.1 should be followed for a return to original site restoration. An alternate site would need comparable equipment installed and would need to be able to boot from SAN for successful execution of this plan.
 

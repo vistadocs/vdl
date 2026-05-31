@@ -3,47 +3,83 @@ title: LA*5.2*80/LR*5.2*427 LDSI/LEDI IV AP MICRO Configuration Guide
 doc_type: CFG
 doc_label: Configuration Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*80
-group_key: "LEDI:LA:5.2"
-file_numbers: 
-  - 64
-security_keys: []
+group_key: LEDI:LA:5.2
+description: August 2009 For Patches LA*5.2*74 and LR*5.2*350 created Implementation Guide, Technical Manual, and Security Guide
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '4.5'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '60'
+- '61'
+- '61.2'
+- '62'
+- '62.06'
+- '62.4'
+- '62.47'
+- '62.48'
+- '62.49'
+- '62.9'
+- '62.91'
+- '62.92'
+- '62.93'
+- '63'
+- '63.05'
+- '63.53'
+- '64'
+- '64.061'
+- '68'
+- '68.2'
+- '69'
+- '69.6'
+- '74.061'
+- '95'
+- '99'
+- '101'
+- '771'
+- '870'
+- '9999'
+security_keys:
+- DIUSER
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - span
-  - class
-  - mark
-  - host
-  - shipping
-  - facility
-  - test
-  - laboratory
-  - edit
-  - collection
 page_count: 0
 word_count: 25544
 section_count: 13
 table_count: 0
 figure_count: 42
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ledi_iv_ap_micro_configuration_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ledi_iv_ap_micro_configuration_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ledi_iv_ap_micro_configuration_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ledi_iv_ap_micro_configuration_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 Laboratory Electronic Data Interchange  

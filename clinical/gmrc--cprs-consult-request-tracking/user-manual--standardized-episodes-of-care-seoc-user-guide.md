@@ -5,57 +5,36 @@ doc_label: User Guide
 doc_layer: plain
 doc_subject: Standardized Episodes of Care (SEOC)
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: GMRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - seoc
-  - table
-  - contents
-  - span
-  - care
-  - class
-  - export
-  - standardized
-  - guide
-  - updated
 page_count: 0
-word_count: 5594
+word_count: 5574
 section_count: 14
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/seoc_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/seoc_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/seoc_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/seoc_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Care Coordination (CC)
-
-  Standardized Episodes of Care (SEOC)
-
-  Software Version 1.21
-
-  Database User Guide
----
-
 ![](standardized-episodes-of-care-seoc-user-guide/001.png)
 
 December 2023

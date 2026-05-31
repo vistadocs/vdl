@@ -3,7 +3,7 @@ title: OOPS*2*15 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2*15
-group_key: "OOPS:OOPS:2"
-file_numbers: []
+group_key: OOPS:OOPS:2
+description: The main purpose of this release is to implement changes regarding privacy act requirements, modify the Accident report, update the Request for Compensation Form (CA-7), and minor bug fixes.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '200'
+- '450'
+- '2260'
+- '2262.315'
 security_keys: []
 menu_options: 4
-description: The main purpose of this release is to implement changes regarding privacy act requirements, modify the Accident report, update the Request for Compensation Form (CA-7), and minor bug fixes.
-audience: 
-keywords: 
-  - report
-  - table
-  - contents
-  - incident
-  - form
-  - accident
-  - print
-  - create
-  - status
-  - added
 page_count: 0
 word_count: 2210
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_15_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_15_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_15_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_15_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ![](oops-2-15-release-notes/001.png)

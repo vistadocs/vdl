@@ -3,46 +3,47 @@ title: FM Key and Index Tutorial
 doc_type: TRG
 doc_label: Training Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: DI
+patch_ver: null
+patch_id: null
+group_key: null
+description: The following table displays the revision history for this document. Revisions to the documentation are based on continuous dialog with Infrastructure and Security Services (ISS) Technical Writers and evolving industry standards and styles.
+audience: Trainers and end users during onboarding
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '3.1'
+- '3.2'
+- '3.3'
+- '3.4'
+- '4.1'
+- '10'
+- '14'
+- '662'
 security_keys: []
 menu_options: 9
-description: The following table displays the revision history for this document. Revisions to the documentation are based on continuous dialog with Infrastructure and Security Services (ISS) Technical Writers and evolving industry standards and styles.
-audience: 
-keywords: 
-  - lesson
-  - cross
-  - index
-  - reference
-  - span
-  - class
-  - fileman
-  - question
-  - answer
-  - back
 page_count: 0
 word_count: 26768
 section_count: 7
 table_count: 107
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_tutorial.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_tutorial.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_tutorial.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_tutorial.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
 
 ![](fm-key-and-index-tutorial/001.png)

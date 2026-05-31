@@ -5,44 +5,40 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: KDC
 app_code: XU
-app_name: Kernel Delphi Components (KDC)
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*207
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: XU:XU:8
 description: The purpose of this guide is to provide instructions for installing the Veterans Health Information Systems and Technology Architecture (VISTA) Kernel Delphi Components (KDC) Version 1.0 (Kernel Patch XU\8\207). This version of the Kernel Delphi Components provides programmers with the capability to
-audience: 
-keywords: 
-  - table
-  - delphi
-  - kernel
-  - installation
-  - contents
-  - components
-  - strong
-  - blockquote
-  - class
-  - style
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
+- '9.4'
+- '8992'
+- '8992.1'
+security_keys:
+- XUPROGMODE
+menu_options: 0
 page_count: 0
 word_count: 3597
 section_count: 2
 table_count: 40
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=127"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=127
+audit_applied: '2026-05-31'
 ---
 
 ![](xu-8-207-kdc-installation-guide/001.png)

@@ -3,46 +3,59 @@ title: Outpatient Pharmacy Version 7 Technician User Manual (updated PSO*7*630)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Technician  (updated PSO*7*630)
+doc_subject: Technician (updated PSO*7*630)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
-menu_options: 2
+group_key: PSO:PSO:7
 description: In CPRS, Order Checks occur by evaluating a requested order against existing patient data. Most order checks are processed via the CPRS Expert System. A few are processed within the Pharmacy, Allergy Tracking System, and Order Entry packages. Order Checks are a real-time process that occurs during t
-audience: 
-keywords: 
-  - order
-  - drug
-  - patient
-  - prescription
-  - pharmacy
-  - date
-  - class
-  - take
-  - checks
-  - table
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '45.1'
+- '45.2'
+- '45.3'
+- '50.6'
+- '51'
+- '51.1'
+- '52'
+- '55'
+- '100.05'
+- '101'
+- '120.8'
+- '120.82'
+- '391.91'
+security_keys:
+- GMRA-ALLERGY VERIFY
+- PROVIDER
+- PSDMGR
+- PSDRPH
+- PSO ADDRESS UPDATE
+- PSO COPAY
+- PSO TECH ADV
+- PSOLOCKCLOZ
+- PSORPH
+menu_options: 2
 page_count: 0
 word_count: 46723
 section_count: 26
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tech_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tech_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tech_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tech_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 Outpatient Pharmacy (PSO)Technician’s User Manual

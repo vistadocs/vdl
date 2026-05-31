@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: PRPF
 patch_ver: 3
 patch_id: PRPF*3*15
-group_key: "PRPF:PRPF:3"
-file_numbers: []
-security_keys: []
+group_key: PRPF:PRPF:3
+description: 1. Objective 2 2. Overview of Steps in the M Environment 3 3. Performing Diagnostics and Data Cleanup in the M Environment 3 1. Patient Funds Diagnostic Summary Report 4 2. Patient Funds Diagnostic Detail Report 4 3. [Correct
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '200'
+- '470'
+- '470.1'
+- '470.2'
+- '470.3'
+security_keys:
+- PROVIDER
+- PRPF SUPERVISOR
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 10%\\" /> <col style=\\"width: 13%\\" /> <col style=\\"width: 33%\\" /> <col style=\\"width: 20%\\" /> <col style=\\"width: 21%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><blockquote> <p><strong>Version</strong></p> </blockquote></th> <th><blockquote> <p><strong>Section Ch"
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - blank
-  - style
-  - width
-  - even
-  - table
-  - cannot
-  - patient
 page_count: 0
 word_count: 9422
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/prpf_datamigrationpatchuserguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/prpf_datamigrationpatchuserguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=46"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/prpf_datamigrationpatchuserguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/prpf_datamigrationpatchuserguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=46
+audit_applied: '2026-05-31'
 ---
 
 > Veterans Personal Finance System (VPFS)

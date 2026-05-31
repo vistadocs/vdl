@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*377
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: CPRS:OR:3
 description: The Computerized Patient Record System (CPRS) is a Veterans Health Information Systems and Technology Architecture (VistA) suite of application packages. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order lab tests, medications,
-audience: 
-keywords: 
-  - table
-  - cprs
-  - installation
-  - contents
-  - install
-  - patch
-  - class
-  - patches
-  - back
-  - host
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
+- '8925'
+security_keys:
+- PROVIDER
+menu_options: 1
 page_count: 0
-word_count: 8069
+word_count: 8056
 section_count: 26
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_377_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_377_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_377_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_377_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System Version 31b
----
-
 Deployment, Installation, Back Out and Rollback Guide
 
 CPRS Version 31b Patches

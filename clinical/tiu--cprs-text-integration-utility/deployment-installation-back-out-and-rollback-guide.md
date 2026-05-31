@@ -1,19 +1,45 @@
 ---
-consolidated_title: "deployment, installation, back-out, rollback guide"
-app_code: TIU
+title: TIU*1*374 Deployment, Installation, Back-Out, Rollback Guide
 doc_type: DIBR
-master_source: "TIU*1*374 Deployment, Installation, Back-Out, Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Deployment, Installation, Back-Out, Rollback Guide
+app_code: TIU
+app_name: 'CPRS: Text Integration Utility'
+section: CLI
+app_status: active
+pkg_ns: TIU
+patch_ver: 1
+patch_id: TIU*1*374
+group_key: TIU:TIU:1
+file_numbers: []
+security_keys: []
+menu_options: 1
+description: '- Introduction - Purpose - Dependencies - Constraints - Roles and Responsibilities - Deployment - Timeline - Site Readiness Assessment - [Deployment...'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 4880
+section_count: 44
+table_count: 3
+figure_count: 1
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: December 2025
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_374_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_374_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
+master_source: TIU*1*374 Deployment, Installation, Back-Out, Rollback Guide
 master_pub_date: December 2025
 consolidated_from: 2 versions
 prior_versions:
-  - "TIU*1*297 Deployment, Installation, Back-Out, Rollback Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Mobile Electronic Documentation (TIU\*1.0\*374)
-
-  Deployment, Installation, Back-out, and Rollback Guide
+- TIU*1*297 Deployment, Installation, Back-Out, Rollback Guide
+consolidated_title: deployment, installation, back-out, rollback guide
 ---
 
 ![](tiu-1-374-deployment-installation-back-out-rollback-guide/001.png)
@@ -197,13 +223,13 @@ No one single entity oversees decision making for deployment, installation, back
 
 The deployment is planned as a standard VistA National Patch Module patch rollout. Once approval has been given to nationally release, the patch TIU\*1.0\*374 will be released from the National Patch Module. At this point, it will be available for installation and deployment at all sites.
 
-Scheduling of test/mirror installs, testing and deployment to production will be at the site’s discretion. It is anticipated there will be a 45-day compliance period.
+Scheduling of test/mirror installs, testing and deployment to production will be at the site's discretion. It is anticipated there will be a 45-day compliance period.
 
 ## Timeline 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site’s discretion, within the constraints of the compliance period for the release.
+There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site's discretion, within the constraints of the compliance period for the release.
 
 ## Site Readiness Assessment 
 
@@ -376,7 +402,7 @@ Installation of Mobile Electronic Documentation v2.3.374.4 requires the followin
 - Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package TIU\*1.0\*374.
 6.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//', respond NO.
-7.  When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, respond NO.
+7.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', respond NO.
 
 ### Mobile Electronic Documentation v2.3.374.4 GUI Installation
 
@@ -390,7 +416,7 @@ If your site is currently using the TIU MED software:
 
 - Make sure that your Home Based Health Care providers have imported all pending notes.
 - Make note of the current TIU templates Update Path by opening MED and selecting a patient.
-  - Select the ‘Tools’ menu, click Settings and simply make note of the Template Update Path name \>\>\>
+  - Select the 'Tools' menu, click Settings and simply make note of the Template Update Path name \>\>\>
 
     ![](tiu-1-374-deployment-installation-back-out-rollback-guide/002.png)
 
@@ -402,11 +428,11 @@ Obtain and extract the TIU_1_374.ZIP file to C:\Program File(x86)\Mobile Electro
 
 > **NOTE:** You will need admin rights in order to perform this action
 
-If this is a fresh install, create a Shortcut on the desktop to the MED.EXE and name it “Launch MED”.
+If this is a fresh install, create a Shortcut on the desktop to the MED.EXE and name it "Launch MED".
 
 #### Configure and launch MED
 
-1.  On the desktop, Right Click the “Launch MED” icon and choose properties.
+1.  On the desktop, Right Click the "Launch MED" icon and choose properties.
 2.  Enter the appropriate s=servername and p=rpcbrokerport in the Target field as displayed in the example below.
 
     ![](tiu-1-374-deployment-installation-back-out-rollback-guide/003.png)
@@ -427,7 +453,7 @@ If this is a fresh install, create a Shortcut on the desktop to the MED.EXE and 
 6.  Select a patient to retrieve from the list.
 7.  Click Retrieve.
 8.  Once the patient is retrieved, click Close. The MED Patient Select window is displayed.
-9.  Select the patient’s name again and click OK.
+9.  Select the patient's name again and click OK.
 10. Select the Tools menu and then select the Settings option, as shown below:
 
 > TIU MED—Settings menu option
@@ -435,7 +461,7 @@ If this is a fresh install, create a Shortcut on the desktop to the MED.EXE and 
 ![](tiu-1-374-deployment-installation-back-out-rollback-guide/004.png)
 
 11. In the Users & Settings dialogue, if not already selected, click on the Data & Files tab.
-12. Next to "Template Update Path:" enter the network pathname where the TIU Templates are contained AND make sure ‘Retrieve Health Summaries’ is checked.
+12. Next to "Template Update Path:" enter the network pathname where the TIU Templates are contained AND make sure 'Retrieve Health Summaries' is checked.
 
 > ![](tiu-1-374-deployment-installation-back-out-rollback-guide/005.png)
 
@@ -467,10 +493,10 @@ CPRS must be properly registered in the Windows registry for COM objects to prop
 
 #### CPRS
 
-1.  CPRS will register itself in the registry automatically in Windows if CPRS is launched once as ‘Run as Administrator’.
+1.  CPRS will register itself in the registry automatically in Windows if CPRS is launched once as 'Run as Administrator'.
 2.  Sign on to the laptop as an administrator.
-3.  Right Click the CPRS Icon and select ‘Run as Administrator.’
-4.  Sign in is not required, launching CPRS once as ‘run as administrator’ properly registers CPRS in the Windows registry.
+3.  Right Click the CPRS Icon and select 'Run as Administrator.'
+4.  Sign in is not required, launching CPRS once as 'run as administrator' properly registers CPRS in the Windows registry.
 
 #### Mobile Electronic Documentation 
 
@@ -572,8 +598,8 @@ Figure 1: HPS Clinical Sustainment Contacts
 8.  If the decision is made to proceed with back-out and rollback, the HPS Sustainment Clinical team be available to assist sites that have misplaced their backup PackMan message, as well as give you the instructions on downloading the executable.
 9.  \[VistA\] (if needed)
     1.  Open the Backup MailMan Message
-    2.  At the “Enter message action (in IN basket): Ignore//” prompt Enter “X” for \[Xtract PackMan\]
-    3.  At the “Select PackMan function:” prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
+    2.  At the "Enter message action (in IN basket): Ignore//" prompt Enter "X" for \[Xtract PackMan\]
+    3.  At the "Select PackMan function:" prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
     4.  \[GUI\] (if needed) Coordinate with the appropriate IT support, local and regional, to schedule the time to install TIU\*1.0\*315 and to push out / install the previous GUI executable.
 10. Once TIU\*1.0\*315 and Mobile Electronic Documentation 2.3.315.1 have been installed, verify operations before making available to all staff.
 

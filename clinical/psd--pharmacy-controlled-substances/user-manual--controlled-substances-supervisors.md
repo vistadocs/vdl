@@ -1,19 +1,68 @@
 ---
-consolidated_title: "controlled substances supervisor's user manual"
-app_code: PSD
+title: Controlled Substances Version 3 Supervisor's User Manual (Updated PSD*3*89)
 doc_type: UM
-master_source: "Controlled Substances Version 3 Supervisor's User Manual (Updated PSD*3*89)"
+doc_label: User Manual
+doc_layer: anchor
+doc_subject: Supervisor's (Updated PSD*3*89)
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: active
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3
+group_key: PSD:PSD:3
+file_numbers:
+- '50'
+- '58.16'
+- '58.17'
+- '58.8'
+- '58.81'
+- '58.86'
+- '58.87'
+- '59.4'
+security_keys:
+- PSD PARAM
+- PSD TECH
+- PSD TECH ADV
+- PSD TRAN
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
+menu_options: 3
+description: '>'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 6985
+section_count: 55
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_um_supv.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_um_supv.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
+master_source: Controlled Substances Version 3 Supervisor's User Manual (Updated PSD*3*89)
 master_pub_date: March 1997
 consolidated_from: 2 versions
 prior_versions:
-  - "Controlled Substances Version 3 Supervisor's User Manual (Updated PSD*3*84)"
+- Controlled Substances Version 3 Supervisor's User Manual (Updated PSD*3*84)
+consolidated_title: controlled substances supervisor's user manual
 ---
 
 > ![](controlled-substances-version-3-supervisor-s-user-manual-updated-psd-3-89/001.png)
 
 <span id="OLE_LINK1" class="anchor"></span>CONTROLLED SUBSTANCES (CS)
 
-####### SUPERVISOR’S USER MANUAL
+####### SUPERVISOR'S USER MANUAL
 
 March 1997
 
@@ -81,7 +130,7 @@ Product Development
   - [AMIS Report \[PSD AMIS\]](#amis-report-psd-amis)
   - [Cost Reports \[PSD COST REPORTS\]](#cost-reports-psd-cost-reports)
   - [Listing of Green Sheet Log \[PSD GS LISTING\]](#listing-of-green-sheet-log-psd-gs-listing)
-  - [Under Inspector’s Review - Green Sheets \[PSD PRT GS INSP HOLD\]](#under-inspectors-review-green-sheets-psd-prt-gs-insp-hold)
+  - [Under Inspector's Review - Green Sheets \[PSD PRT GS INSP HOLD\]](#under-inspectors-review-green-sheets-psd-prt-gs-insp-hold)
   - [Balance Adjustment Report \[PSD BALANCE ADJUSTMENT REVIEW\]](#balance-adjustment-report-psd-balance-adjustment-review)
   - [Balance Adjustments \[PSD BALANCE ADJUSTMENTS\]](#balance-adjustments-psd-balance-adjustments)
   - [Destructions Menu ... \[PSD DESTROY MENU\]](#destructions-menu-psd-destroy-menu)
@@ -103,8 +152,8 @@ Product Development
 - [Production Reports \[PSD PRODUCTION REPORTS\]](#production-reports-psd-production-reports)
   - [Pending CS Orders by Dispensing Site \[PSD PEND VAULT ORDERS\]](#pending-cs-orders-by-dispensing-site-psd-pend-vault-orders-1)
   - [Orders Filled Not Delivered \[PSD NOT DELIVERED\]](#orders-filled-not-delivered-psd-not-delivered-1)
-  - [Inspector’s Log for Controlled Substances \[PSD PRINT INSPECTOR LOG\]](#inspectors-log-for-controlled-substances-psd-print-inspector-log)
-  - [Inspector’s Log by Rec’d Date \[PSD INSP LOG BY RECD DATE\]](#inspectors-log-by-recd-date-psd-insp-log-by-recd-date)
+  - [Inspector's Log for Controlled Substances \[PSD PRINT INSPECTOR LOG\]](#inspectors-log-for-controlled-substances-psd-print-inspector-log)
+  - [Inspector's Log by Rec'd Date \[PSD INSP LOG BY RECD DATE\]](#inspectors-log-by-recd-date-psd-insp-log-by-recd-date)
   - [Stock Drug Print (Stock Level and Location) \[PSD STOCK PRINT\]](#stock-drug-print-stock-level-and-location-psd-stock-print-1)
   - [Green Sheet Ready for Pickup Log \[PSD PRINT GS PICKUP\]](#green-sheet-ready-for-pickup-log-psd-print-gs-pickup)
   - [GS Picked Up Awaiting Pharmacy Review \[PSD PRT GS PICKED UP\]](#gs-picked-up-awaiting-pharmacy-review-psd-prt-gs-picked-up)
@@ -157,7 +206,7 @@ The table below lists changes made since the initial release of this manual. Use
 <td><a href="#PSD_3_84_BalanceDiscrepancyCheck"><u>15</u></a>, <a href="#PSD_3_84_DailyActivityLog"><u>37</u></a></td>
 <td>PSD*3*84</td>
 <td><p>Added "BALANCE DISCREPANCY CHECK" to the "WORKSHEET FOR CREATING/EDITING THE NARCOTIC AREA OF USE."</p>
-<p>Updated the “Daily Activity Log (in lieu of VA FORM 10-2320)” report description and added a screenshot example.</p>
+<p>Updated the "Daily Activity Log (in lieu of VA FORM 10-2320)" report description and added a screenshot example.</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
 <tr class="odd">
@@ -181,7 +230,7 @@ The table below lists changes made since the initial release of this manual. Use
 <td>05/2013</td>
 <td>i, ii, 44, 47-48</td>
 <td>PSD*3*76</td>
-<td><p>Updated Glossary with description of patch’s new security key PSDRPH</p>
+<td><p>Updated Glossary with description of patch's new security key PSDRPH</p>
 <p>Updated Index</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
@@ -196,7 +245,7 @@ The table below lists changes made since the initial release of this manual. Use
 <td>05/2010</td>
 <td>43-44, 47</td>
 <td>PSD*3*69</td>
-<td><p>Added description of patch’s new security key PSD TECH ADV, and PSD TECH key.</p>
+<td><p>Added description of patch's new security key PSD TECH ADV, and PSD TECH key.</p>
 <p>Added PSD TECH ADV and PSD TECH key to index</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
@@ -211,7 +260,7 @@ The table below lists changes made since the initial release of this manual. Use
 <td>03/97</td>
 <td></td>
 <td></td>
-<td>Original Released Supervisor’s User Manual.</td>
+<td>Original Released Supervisor's User Manual.</td>
 </tr>
 </tbody>
 </table>
@@ -239,7 +288,7 @@ Within this documentation, several notations need to be outlined.
 
 - Screen prompts will be denoted with quotation marks around them.
 
-> Example: “Select INPATIENT SITE NAME” indicates a screen prompt.
+> Example: "Select INPATIENT SITE NAME" indicates a screen prompt.
 
 - Responses in bold face indicate what the user is to type in.
 
@@ -270,7 +319,7 @@ Example: ![](controlled-substances-version-3-supervisor-s-user-manual-updated-ps
 
 > In the documentation, when your Electronic Signature Code is to be entered, it is represented as XXXXXX.
 
-> If you have not previously been issued an Electronic Signature code you can assign yourself one at any menu option by entering TBOX and then choosing Edit Electronic Signature Code. You can also enter “EDIT E and follow the prompts as shown on the next page.
+> If you have not previously been issued an Electronic Signature code you can assign yourself one at any menu option by entering TBOX and then choosing Edit Electronic Signature Code. You can also enter "EDIT E and follow the prompts as shown on the next page.
 
 > Electronic Signature Codes
 
@@ -461,7 +510,7 @@ Example: ![](controlled-substances-version-3-supervisor-s-user-manual-updated-ps
 <tr class="even">
 <td>13</td>
 <td>Initialize balances in vault by using the 2320 or use inventory sheet. You may want to enter high on hand quantities while you bring up NAOUs a few at a time and then follow with balance adjustments for the vault when all NAOUs are active.</td>
-<td>Supervisor’s (CS) Menu:</td>
+<td>Supervisor's (CS) Menu:</td>
 <td>Initialize Balance at Setup</td>
 <td>24</td>
 </tr>
@@ -562,7 +611,7 @@ The *Supervisor (CS) Menu* option is locked with the PSDMGR key and assigned to 
 
 > S2 Shelf 2
 
-> When implementing the Controlled Substances package, consider how to establish uniformity and consistency within all Narcotic Areas of Use, when possible. Determine a consistent way to code the locations and organize the Areas (e.g., always number or letter from left to right, top to bottom, or some other consistent fashion). This will help new employees locate drugs easier and check another employees’ NAOUs during times of leave.
+> When implementing the Controlled Substances package, consider how to establish uniformity and consistency within all Narcotic Areas of Use, when possible. Determine a consistent way to code the locations and organize the Areas (e.g., always number or letter from left to right, top to bottom, or some other consistent fashion). This will help new employees locate drugs easier and check another employees' NAOUs during times of leave.
 
 > The following diagram illustrates how the drug address codes and expansions might be applied to a prototype NAOU. When drug address codes have been entered, a printout of the data can be made by using the List CS Drug Location Codes option.
 
@@ -589,11 +638,11 @@ DRUG ADDRESS CODE/EXPANSION
 
 > To set up File 58.8, DRUG ACCOUNTABILITY STATS file, data must be entered into the following fields using the *Create/Edit the Narcotic Area of Use* option:
 
-> “Select NAOU:”
+> "Select NAOU:"
 
 > Enter the name of the Narcotic Area of Use. This can represent a pharmacy narcotic vault, a pharmacy working stock area, a ward, a combination of wards, or, as in the case of cardiac cath lab, no ward.
 
-> “LOCATION TYPE:”
+> "LOCATION TYPE:"
 
 > There are three types of Narcotic Areas of Use: 1) MASTER VAULT, 2) SATELLITE VAULT, and 3) NARCOTIC LOCATIONS. At this prompt you will answer M for Master vault, S for Satellite vault, or N for Narcotic location. Once an NAOU has been stocked with drugs, the location type cannot be changed, you can however transfer the information from a satellite vault to a master vault.
 
@@ -608,7 +657,7 @@ WORKSHEET FOR CREATING/EDITING</u><u>THE NARCOTIC AREA OF USE</u>
 
 <u>† ASK MFG/LOT#/EXP. DATE?:</u>
 
-<u>† AUTO GENERATE DISPENSING \#’S?:</u>
+<u>† AUTO GENERATE DISPENSING \#'S?:</u>
 
 <u>\* LOW DISPENSING \#:</u>
 
@@ -646,7 +695,7 @@ WORKSHEET FOR CREATING/EDITING</u><u>THE NARCOTIC AREA OF USE</u>
 
 <u>† ASK MFG/LOT#/EXP. DATE?:</u>
 
-<u>† AUTO GENERATE DISPENSING \#’S?:</u>
+<u>† AUTO GENERATE DISPENSING \#'S?:</u>
 
 <u>\* LOW DISPENSING \#:</u>
 
@@ -680,7 +729,7 @@ WORKSHEET FOR CREATING/EDITING</u><u>THE NARCOTIC AREA OF USE</u>
 
 † = Will only appear if you are creating a Master or Satellite vault.
 
-\* = Will only appear if you answered yes to AUTO GENERATE DISPENSING \#’S?
+\* = Will only appear if you answered yes to AUTO GENERATE DISPENSING \#'S?
 
 • = Will only appear if you are entering for a Narcotic location.
 
@@ -692,7 +741,7 @@ WORKSHEET FOR CREATING/EDITING</u><u>THE NARCOTIC AREA OF USE</u>
 
 > Using this option, you may enter or edit the list of drugs to be stocked in the Narcotic Area of Use; however, duplicate entries in this list will not be allowed. This is the most time-consuming part of setting up the package. For your pharmacy vaults, you should begin by entering all drugs that will be dispensed from that Narcotic Area of Use. For the narcotic locations, you may wish to begin by entering all drugs that Nursing is accustomed to stocking for the NAOU. A worksheet for creating Stock CS Drugs is located on the following page.
 
-> The “Expiration Date:” prompt will accept prior years.
+> The "Expiration Date:" prompt will accept prior years.
 
 <u>  
 PHARMACY NAOU STOCK FILE WORKSHEET</u>
@@ -815,7 +864,7 @@ Make copies of this worksheet to help determine inventory to be stocked in each 
 
 > Inactive NAOUs will be excluded from Stock Drug Listings and other reports that are done on all NAOUs. An inactive NAOU will however be included on reports covering a period of time when the NAOU was still active.
 
-> Order entry requests will not be permitted for inactive NAOUs, however, editing drug data such as manufacturer, lot number, expiration date for all NAOUs, and narcotic packaging information for vaults will be allowed. Under these circumstances, the NAOU name will be displayed with an “\*\*INACTIVE\*\*” flag.
+> Order entry requests will not be permitted for inactive NAOUs, however, editing drug data such as manufacturer, lot number, expiration date for all NAOUs, and narcotic packaging information for vaults will be allowed. Under these circumstances, the NAOU name will be displayed with an "\*\*INACTIVE\*\*" flag.
 
 > NAOUs are inactivated by entering a date that can be past, present, or future and are reactivated by deleting the inactivation date.
 
@@ -835,7 +884,7 @@ Make copies of this worksheet to help determine inventory to be stocked in each 
 
 > This option is locked with the PSD TRAN key, and only the pharmacy supervisor(s) who maintain the narcotic vaults should be assigned this key.
 
-> The ability to “copy” stock entries is useful in at least three cases. First, for stations setting up CS (Build Files) initially, you could establish a Generic NAOU with standard drugs which will be stocked by all NAOUs. Using this transfer option, the drugs could then be copied into all areas. You would have to edit each drug in each NAOU to enter the stock level, type, ward (for drug), and location.
+> The ability to "copy" stock entries is useful in at least three cases. First, for stations setting up CS (Build Files) initially, you could establish a Generic NAOU with standard drugs which will be stocked by all NAOUs. Using this transfer option, the drugs could then be copied into all areas. You would have to edit each drug in each NAOU to enter the stock level, type, ward (for drug), and location.
 
 > A second application might be for the creation of crash carts or after-hours dispensing machines with identical stock drugs, stock levels, and location codes. After an NAOU has been created, the transfer option could be used to clone all others.
 
@@ -845,13 +894,13 @@ Make copies of this worksheet to help determine inventory to be stocked in each 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option will “copy” the active stock entries from a selected Narcotic Area of Use into one or more selected NAOUs. As many as 10 NAOUs may be chosen for transfer at one time. You may transfer either drug name only, drug name/stock level/and location code, or drug name/stock level, location code, and inventory types. The copy process will not copy inactive drugs or duplicate entries. Thus, if an NAOU already contains Acetaminophen w/codeine 30MG TAB, and that item is in the Master NAOU, the drug will not be duplicated. The actual transfer takes place in a background job which is automatically queued. When the transfer is complete, you will be notified by a MailMan message.
+> This option will "copy" the active stock entries from a selected Narcotic Area of Use into one or more selected NAOUs. As many as 10 NAOUs may be chosen for transfer at one time. You may transfer either drug name only, drug name/stock level/and location code, or drug name/stock level, location code, and inventory types. The copy process will not copy inactive drugs or duplicate entries. Thus, if an NAOU already contains Acetaminophen w/codeine 30MG TAB, and that item is in the Master NAOU, the drug will not be duplicated. The actual transfer takes place in a background job which is automatically queued. When the transfer is complete, you will be notified by a MailMan message.
 
 ### AOU to NAOU Transfer Entries \[PSD TRANSFER AOU\] 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option will “copy” the active stock entries from a selected AR/WS Area of Use into one or more selected Controlled Substances Narcotic Areas of Use. As many as 10 NAOUs may be chosen for transfer at one time. You may transfer either the drug name only, the drug name/stock level/location code, or drug name/stock level/location code/and inventory types. The copy process will not copy inactive drugs or duplicate entries. Thus, if an NAOU already contains Acetaminophen w/codeine 30MG TAB, and that item is in the Master NAOU, the drug will not be duplicated. The actual transfer takes place in a background job which is queued automatically. When the transfer is complete, you will be notified by a MailMan message.
+> This option will "copy" the active stock entries from a selected AR/WS Area of Use into one or more selected Controlled Substances Narcotic Areas of Use. As many as 10 NAOUs may be chosen for transfer at one time. You may transfer either the drug name only, the drug name/stock level/location code, or drug name/stock level/location code/and inventory types. The copy process will not copy inactive drugs or duplicate entries. Thus, if an NAOU already contains Acetaminophen w/codeine 30MG TAB, and that item is in the Master NAOU, the drug will not be duplicated. The actual transfer takes place in a background job which is queued automatically. When the transfer is complete, you will be notified by a MailMan message.
 
 ## Sort NAOUs in Inventory Group \[PSD NAOU INV GROUP SORT\]
 
@@ -939,7 +988,7 @@ Make copies of this worksheet to help determine inventory to be stocked in each 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option will be used at package initialization only. It provides pharmacy a method of entering on-hand balances for Controlled Substances drugs stocked within their dispensing vaults. The drugs will be listed alphabetically, displaying narcotic breakdown and package size for each. This option should be used only when the Controlled Substances package is ready to be “turned on” for production use.
+> This option will be used at package initialization only. It provides pharmacy a method of entering on-hand balances for Controlled Substances drugs stocked within their dispensing vaults. The drugs will be listed alphabetically, displaying narcotic breakdown and package size for each. This option should be used only when the Controlled Substances package is ready to be "turned on" for production use.
 
 # # Management Reports ... \[PSD MGR REPORTS\] 
 
@@ -977,11 +1026,11 @@ This option contains all reports or lists associated with drug accountability fo
 
 > ![](controlled-substances-version-3-supervisor-s-user-manual-updated-psd-3-89/010.png) Note: The Balance Adjustments option updates the monthly adjustments, the transaction history, and the DESTRUCTION file. These drugs are actively stocked in the vault inventory.
 
-> 3\. If you don’t know if the drug is stocked in vault, you will need to go to the *Supervisor (CS) Menu*, then the *Destructions Menu* and select the *Hold a CS Drug (No Inventory Update)* option. After answering the prompts the system will assign a destruction holding number for the drug name entered.
+> 3\. If you don't know if the drug is stocked in vault, you will need to go to the *Supervisor (CS) Menu*, then the *Destructions Menu* and select the *Hold a CS Drug (No Inventory Update)* option. After answering the prompts the system will assign a destruction holding number for the drug name entered.
 
 > ![](controlled-substances-version-3-supervisor-s-user-manual-updated-psd-3-89/011.png) Note: The *Hold a CS Drug (No Inventory Update)* option does not update your inventory balances, it only creates an entry in the DESTRUCTIONS file. DRUG file (#50) is searched for the drug name entered.
 
-> 4\. If the Drug is Non-VA issue (not in DRUG file), you will need to go to the *Supervisor (CS) Menu*, then the *Destructions Menu* and select the *Non-VA Drug Placed On Hold For Destruction* option. At the “DRUG ITEM” prompt you can enter information in a free text form. After answering the prompts the system will assign a destruction holding number.
+> 4\. If the Drug is Non-VA issue (not in DRUG file), you will need to go to the *Supervisor (CS) Menu*, then the *Destructions Menu* and select the *Non-VA Drug Placed On Hold For Destruction* option. At the "DRUG ITEM" prompt you can enter information in a free text form. After answering the prompts the system will assign a destruction holding number.
 
 > ![](controlled-substances-version-3-supervisor-s-user-manual-updated-psd-3-89/012.png) Note: The *Non-VA Drug Placed on Hold for Destruction* does not update your inventory balances because the drug is not in the DRUG file.
 
@@ -1051,7 +1100,7 @@ This option contains all reports or lists associated with drug accountability fo
 
 > This option numerically lists all Green Sheets for a given date range or for a given Green Sheet number range. The logs list Green Sheet number, date dispensed, and current status.
 
-## Under Inspector’s Review - Green Sheets \[PSD PRT GS INSP HOLD\]
+## Under Inspector's Review - Green Sheets \[PSD PRT GS INSP HOLD\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1069,7 +1118,7 @@ This option contains all reports or lists associated with drug accountability fo
 
 > This option is used to review or enter adjustments needed to correct the on-hand balance of a drug. Controlled Substances drugs not dispensed with a VA FORM 10-2638 returned to stock or returned to manufacturer and held for destruction are deducted from the vault on-hand amount using this option.
 
-> The numbers that appear in parenthesis at the “Enter adjustment quantity” prompt will start with a negative number (this is your current on-hand amount) and is the number that you cannot exceed if you choose to subtract an amount. The next number 999999, this is the highest amount that you can add to the current on-hand amount. These two numbers are separated by a hyphen.
+> The numbers that appear in parenthesis at the "Enter adjustment quantity" prompt will start with a negative number (this is your current on-hand amount) and is the number that you cannot exceed if you choose to subtract an amount. The next number 999999, this is the highest amount that you can add to the current on-hand amount. These two numbers are separated by a hyphen.
 
 > You will also be asked to give your Signature Code when using this option.
 
@@ -1239,13 +1288,13 @@ This option contains all reports or lists associated with drug accountability fo
 
 > This option generates a list of all Controlled Substances orders filled from the pharmacy dispensing site (vault) but not yet delivered to the NAOUs. A summary total sorted by drug is also generated.
 
-## Inspector’s Log for Controlled Substances \[PSD PRINT INSPECTOR LOG\]
+## Inspector's Log for Controlled Substances \[PSD PRINT INSPECTOR LOG\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > This report lists all active Green Sheets by Narcotic Area of Use. The data includes Green Sheet number, drug name, date dispensed, quantity dispensed expiration date (if available), blanks for quantity on hand, and a signature blank for verification.
 
-## Inspector’s Log by Rec’d Date \[PSD INSP LOG BY RECD DATE\]
+## Inspector's Log by Rec'd Date \[PSD INSP LOG BY RECD DATE\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1261,7 +1310,7 @@ This option contains all reports or lists associated with drug accountability fo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This report lists all Green Sheets ready on the wards to be picked up by pharmacy. This report requires a signature of the pharmacy employee picking up the Green Sheet and a signature of the nurse releasing the Green Sheet. This document will be retained on the ward for nursing’s records.
+> This report lists all Green Sheets ready on the wards to be picked up by pharmacy. This report requires a signature of the pharmacy employee picking up the Green Sheet and a signature of the nurse releasing the Green Sheet. This document will be retained on the ward for nursing's records.
 
 ## GS Picked Up Awaiting Pharmacy Review \[PSD PRT GS PICKED UP\]
 
@@ -1273,7 +1322,7 @@ This option contains all reports or lists associated with drug accountability fo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This report lists by dispensing site and date range the drug name, pharmacy dispensing number (Green Sheet \#), quantity dispensed, date dispensed, and dispensing pharmacist. Also there’s a summary by drug of total number dispensed. The summary may be generated without the individual dispensing data.
+> This report lists by dispensing site and date range the drug name, pharmacy dispensing number (Green Sheet \#), quantity dispensed, date dispensed, and dispensing pharmacist. Also there's a summary by drug of total number dispensed. The summary may be generated without the individual dispensing data.
 
 ## Daily Activity Log (in lieu of VA FORM 10-2320) \[PSD DAILY LOG\]
 
@@ -1339,7 +1388,7 @@ This option contains all reports or lists associated with drug accountability fo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Green Sheet history provides pharmacy with a detailed account of every transaction affecting this VA FORM 10-2638. This history may be displayed to the user’s screen or directed to a printer.
+> The Green Sheet history provides pharmacy with a detailed account of every transaction affecting this VA FORM 10-2638. This history may be displayed to the user's screen or directed to a printer.
 
 ## Expiration Date Report \[PSD EXP REPORT\]
 
@@ -1351,13 +1400,13 @@ This option contains all reports or lists associated with drug accountability fo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option prints an Inspector’s Sheet which is used to inventory on-hand amounts within a pharmacy dispensing site (vault). This form lists current on-hand amounts and provides a blank space for the inspector to list actual on-hand counts. A signature line is included on each page. This sheet may be generated for one drug, some drugs, or ALL drugs. The drugs are listed alphabetically.
+> This option prints an Inspector's Sheet which is used to inventory on-hand amounts within a pharmacy dispensing site (vault). This form lists current on-hand amounts and provides a blank space for the inspector to list actual on-hand counts. A signature line is included on each page. This sheet may be generated for one drug, some drugs, or ALL drugs. The drugs are listed alphabetically.
 
 ## List On-Hand Amounts \[PSD ON-HAND\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option lists current on-hand amounts for drugs stocked in a pharmacy-dispensing site (vault). The drugs may be selected by one, some, or ALL. The drugs are listed alphabetically to the user’s screen or a selected printer.
+> This option lists current on-hand amounts for drugs stocked in a pharmacy-dispensing site (vault). The drugs may be selected by one, some, or ALL. The drugs are listed alphabetically to the user's screen or a selected printer.
 
 ## Rx (Prescription) Outpatient Dispensing Report \[PSD RX DISPENSING REPORT\]
 
@@ -1410,7 +1459,7 @@ The following are valid:
 > TURN IN FOR DESTRUCTION—CS drug turned in to be destroyed.
 > RETURNED TO STOCK—CS Drug returned to stock. The dispensing site inventory balance will be updated.
 > MATH ERROR—CS drug discrepancy found.
-> GREEN SHEET NOT SIGNED BY NURSE—GS missing nurse’s signature.
+> GREEN SHEET NOT SIGNED BY NURSE—GS missing nurse's signature.
 > OTHER—REFERRED TO PHARMACY SUPERVISOR—CS drug discrepancy referred to supervisor for resolution.
 Daily Activity Log The Daily Activity Log lists data, within a selected date range, associated with the VA FORM 2320 for a dispensing site.
 Dispensing Number Control number assigned by pharmacy when dispensing a Controlled Substances drug. This number is used to track the Green Sheet and drug. Also referred to as the Disp \#, Green Sheet \#, GS \#, or transaction \# throughout the CS package.
@@ -1427,7 +1476,7 @@ Green Sheet The CONTROLLED SUBSTANCE ADMINISTRATION
 RECORD (VA Form 10-2638) is referred to as a Green Sheet or GS throughout the CS package. Pharmacy dispensing number, drug name, expiration date, quantity dispensed, lot number, ordered by, dispensed by, and ward (NAOU) are printed on the form.
 Green Sheet number Control number assigned by pharmacy when dispensing a Controlled Substances drug. This number is used to track the Green Sheet and drug. It is also referred to as the GS \#, dispensing \#, or disp \#, or transaction \# throughout the CS package.
 Inpatient Site Inpatient Site must be defined for each NAOU. The Controlled Substances software utilizes this data to distinguish multi-divisional sites.
-Inspector’s Log This report lists all active Green Sheets by NAOU. It includes the following information: Green Sheet \#, drug name, date dispensed, quantity dispensed, expiration date (if available), blanks for quantity on hand, and a signature blank for verification.
+Inspector's Log This report lists all active Green Sheets by NAOU. It includes the following information: Green Sheet \#, drug name, date dispensed, quantity dispensed, expiration date (if available), blanks for quantity on hand, and a signature blank for verification.
 Interactive Reader The Interactive Reader Language (IRL) is a language Language (IRL) used to write programs on barcode readers that allow the
 readers to interact with the user.
 Intranet A companywide computer network available via modem that connects users.
@@ -1459,9 +1508,9 @@ PSD PARAM This key should be allocated only to the Inpatient Pharmacy Package Co
 PSD TECH Allocate this key to control substance technicians. This key controls access to the *List On-Hand Amounts* \[PSD ON-HAND TECH\], *Transfer Drugs between Dispensing Sites Report* \[PSD PRINT VAULT TRANSFERS TECH\], and the *Daily Activity Log (in lieu of VA FORM 10-2320)* \[PSD DAILY LOG TECH\] options on the Technician (CS Pharmacy) Menu \[PSD PHARM TECH\].
 PSD TECH ADV Allocate this key to specific control substance technicians who perform advance functions. This key controls access to the *Receipts Into Pharmacy* \[PSD RECEIPTS MENU\], *Dispensing Menu* \[PSD DISPENSING MENU\], *Destructions Menu* \[PSD DESTROY MENU\], *Manufacturer, Lot \#, and Exp. Date - Enter/Edit* \[PSD MFG/LOT/EXP\], *Outpatient Rx's* \[PSD OUTPATIENT\], *Complete Green Sheet* \[PSD COMPLETE GS\], *Destroyed Drugs Report* \[PSD DEST DRUGS REPORT\], *DEA Form 41 Destroyed Drugs Report* \[PSD DESTROY DEA41\], *Destructions Holding Report* \[PSD DESTRUCTION HOLDING\], *Add Existing Green Sheets at Setup* \[PSD EXISTING GS\], *Green Sheet Transfer*
 > *  
-> Between NAOUs Report* \[PSD GS TRANSFER (NAOU) REPORT\], *NAOUUsage Report* \[PSD NAOU USAGE\], *Transfer Drugs between Dispensing Sites* \[PSD TRANSFER VAULT DRUGS\] options on the *Technician (CS Pharmacy) Menu* \[PSD PHARM TECH\]. The CS technician may perform all functions of the *Outpatient Rx’s* \[PSD OUTPATIENT\] option except releasing prescriptions.
+> Between NAOUs Report* \[PSD GS TRANSFER (NAOU) REPORT\], *NAOUUsage Report* \[PSD NAOU USAGE\], *Transfer Drugs between Dispensing Sites* \[PSD TRANSFER VAULT DRUGS\] options on the *Technician (CS Pharmacy) Menu* \[PSD PHARM TECH\]. The CS technician may perform all functions of the *Outpatient Rx's* \[PSD OUTPATIENT\] option except releasing prescriptions.
 PSD TRAN This key should be allocated to the Inpatient Pharmacy Coordinator(s). This key controls the access to the *NAOU to NAOU Transfer Stock Entries* \[PSD TRANSFER NAOU\] option. Users can copy stock entries from one NAOU into another NAOU or from an AR/WS AOU into an NAOU.
-PSDMGR This key should be allocated to the Inpatient Pharmacy Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the Supervisor’s Menu options \[PSD MGR\].
+PSDMGR This key should be allocated to the Inpatient Pharmacy Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the Supervisor's Menu options \[PSD MGR\].
 PSDRPH This key authorizes pharmacists to verify and dispense controlled substance prescription(s). The PSDRPH security key should be given to registered pharmacists working on controlled substances to honor Drug Enforcement Administration (DEA) regulations and should not be given to non-pharmacists except in cases where the package coordinator (ADPAC) is not a registered pharmacist.
 PSJ PHARM TECH This key should be allocated to pharmacy technicians handling narcotic orders.
 PSJ RNURSE This key should be allocated to nurses who request narcotic orders, receive, and administer controlled substances on the wards.
@@ -1536,8 +1585,8 @@ Inactivate NAOU Stock Drug, 20
 Initial Set Up, 9
 Initialize Balance at Setup, 24
 Inpatient Site, 11
-Inspector’s Log by Rec’d Date, 35
-Inspector’s Log for Controlled Substances, 35
+Inspector's Log by Rec'd Date, 35
+Inspector's Log for Controlled Substances, 35
 Inspectors Label Print, 33
 Inventory Group List (80 column), 23
 Inventory Sheet Print, 38

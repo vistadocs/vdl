@@ -3,46 +3,51 @@ title: Ambulatory Care Reporting Menu
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
+description: The Ambulatory Care Reporting Project (ACRP) enhances the process of collecting and storing encounter-based clinical, diagnostic, and administrative outpatient and inpatient data for daily transmission to the Austin Information Technology Center (AITC), (formerly the Austin Automation Center (AAC)).
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '409.5'
+- '409.68'
+- '409.73'
+- '409.74'
+- '409.75'
+- '409.76'
+- '409.77'
+- '870'
+- '900001'
+security_keys:
+- AD HOC TEMPLATE
+- SCENI ENCOUNTER EDIT
+- SCENI IEMM EDIT
+- SD SUPERVISOR
 menu_options: 0
-description: "<table style=\\"width:100%;\\"> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 37%\\" /> <col style=\\"width: 26%\\" /> <col style=\\"width: 22%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><strong>Date</strong></td> <td><strong>Description (Patch # if applic.)</strong></td> <td><strong>Project Manage"
-audience: 
-keywords: 
-  - report
-  - encounter
-  - date
-  - encounters
-  - patient
-  - selected
-  - clinic
-  - range
-  - acrp
-  - reports
 page_count: 0
 word_count: 11520
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_puse.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_puse.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_puse.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_puse.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 PIMS V. 5.3 Scheduling Module User ManualAmbulatory Care Reporting Menu

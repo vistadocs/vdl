@@ -1,14 +1,50 @@
 ---
-consolidated_title: "mental health suicide prevention deployment, installation, back-out, and rollback guide"
-app_code: YS
+title: YS*5.01*136 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide
 doc_type: DIBR
-master_source: "YS*5.01*136 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Mental Health Suicide Prevention
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*136
+group_key: YS:YS:5.01
+file_numbers:
+- '10'
+- '18'
+- '601.71'
+security_keys: []
+menu_options: 0
+description: This document describes how to deploy and install the patch YS\5.01\136 of the Mental Health package, as well as how to back-out the product and rollback to a previous version or data set.
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2799
+section_count: 28
+table_count: 4
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: November 2018
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_501_136_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_501_136_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*136 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide
 master_pub_date: November 2018
 consolidated_from: 4 versions
 prior_versions:
-  - "YS*5.01*137 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*139 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*147 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide"
+- YS*5.01*137 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*139 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*147 Mental Health Suicide Prevention Deployment, Installation, Back-Out, and Rollback Guide
+consolidated_title: mental health suicide prevention deployment, installation, back-out, and rollback guide
 ---
 
 # Department of Veterans Affairs Mental Health – Suicide Prevention
@@ -193,7 +229,7 @@ The following describes the roles and responsibilities associated with the testi
 
 The deployment is planned as a simultaneous (National Release) rollout. Once approval has been given to nationally release, YS\*5.01\*136 will be available for installation and deployment at all sites.
 
-Scheduling of test installs, testing and production deployment will be at the site’s discretion. It is anticipated there will be a 30-day compliance period.
+Scheduling of test installs, testing and production deployment will be at the site's discretion. It is anticipated there will be a 30-day compliance period.
 
 ## Timeline
 
@@ -278,9 +314,9 @@ This patch installs new instruments that will consume about 2MB of disk space in
 
 This patch can be loaded with users in the system but it is recommended that it be installed when user activity is low. Installation time will be less than 5 minutes.
 
-It is recommended that you use the “Backup a Transport Global” option that is referenced in the installation instructions. This will be useful should it be decided to back out the installation.
+It is recommended that you use the "Backup a Transport Global" option that is referenced in the installation instructions. This will be useful should it be decided to back out the installation.
 
-To ensure the integrity of the transport global, use the “Verify Checksums in Transport Global” to compare the checksums with the list that follows:
+To ensure the integrity of the transport global, use the "Verify Checksums in Transport Global" to compare the checksums with the list that follows:
 
 > The checksums below are new checksums, and can be checked with CHECK1^XTSUMBLD.
 
@@ -442,7 +478,7 @@ The VistA system manager determines if a back-out of YS\*5.01\*136 should be con
 
 If you wish to restore newly installed instruments to their previous state, you must do that <u>before</u> any other back-out steps. See the instructions for restoring the previous instrument state in the Rollback Procedure section to do this.
 
-To back-out routines, you must have already selected the “Backup a Transport Global” option during the installation process. To restore the previous routines:
+To back-out routines, you must have already selected the "Backup a Transport Global" option during the installation process. To restore the previous routines:
 
 1.  Choose the PackMan message containing the backup you created during installation.
 2.  Invoke the INSTALL/CHECK MESSAGE PackMan option.
@@ -500,14 +536,14 @@ These steps assume that there is a compelling reason to rollback specific instru
 For instruments that have been inactivated by YS\*5.01\*136 that need to be made active again:
 
 - Using FileMan, edit the OPERATIONAL field (#10) and the LAST EDIT DATE field (#18) in the MH TESTS AND SURVEYS file (601.71). Select the instrument that requires re-activation.
-- Change the value of the OPERATIONAL field from “Dropped” back to “Yes”
-- Change the value of the LAST EDIT DATE field to ‘NOW’.
+- Change the value of the OPERATIONAL field from "Dropped" back to "Yes"
+- Change the value of the LAST EDIT DATE field to 'NOW'.
 
 Should it be required to move instruments back to being scored in YS_MHA_AUX DLL, contact the Mental Health development team for a routine that can find the appropriate records and make the replacement.
 
-Optionally, if you want to see how many records will be restored, choose “Trial Install” then select the number of the backup you wish to restore.
+Optionally, if you want to see how many records will be restored, choose "Trial Install" then select the number of the backup you wish to restore.
 
-When you are ready to restore an instrument, choose “Install Exchange Entry” then select the number of the backup you want to restore.
+When you are ready to restore an instrument, choose "Install Exchange Entry" then select the number of the backup you want to restore.
 
 ## Rollback Verification Procedure
 
@@ -859,7 +895,7 @@ _These sections appeared in earlier versions of this document but are not presen
 </tr>
 <tr class="odd">
 <td><strong>Baseline ID</strong></td>
-<td>“SPP 139 IOC Entry”</td>
+<td>"SPP 139 IOC Entry"</td>
 </tr>
 </tbody>
 </table>
@@ -1117,9 +1153,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> “Stop/Re-Start Progress Notes for an Instrument” on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
+> "Stop/Re-Start Progress Notes for an Instrument" on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
 
-> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either “Start” or “Stop” the Progress Note field for the Instrument.
+> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either "Start" or "Stop" the Progress Note field for the Instrument.
 
 > If a progress note is Yes and should appear, but it is NOT appearing, then you should use the START PROGRESS NOTES instructions below.
 
@@ -1174,8 +1210,8 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  The user needs to access FileMan and choose option ‘ENTER OR EDIT FILE ENTRIES’.
-2.  In ‘Input to what File’ enter MH TESTS AND SURVEYS
+1.  The user needs to access FileMan and choose option 'ENTER OR EDIT FILE ENTRIES'.
+2.  In 'Input to what File' enter MH TESTS AND SURVEYS
 3.  For EDIT WHICH FIELD: – GENERATE PNOTE
 4.  For THEN EDIT FIELD: TIU TITLE
 5.  For THEN EDIT FIELD: CONSULT NOTE TITLE
@@ -1183,15 +1219,15 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Press return and at the prompt: Select MH TESTS AND SURVEYS NAME: enter name of instrument
 
-> For field ‘GENERATE PNOTE:’ enter “YES” or “NO”, depending on the instructions provided for each instrument in this Install Guide. For FIELD ‘TIU TITLE:’ enter the TIU Title as defined by your site
+> For field 'GENERATE PNOTE:' enter "YES" or "NO", depending on the instructions provided for each instrument in this Install Guide. For FIELD 'TIU TITLE:' enter the TIU Title as defined by your site
 
-> For FIELD ‘CONSULT NOTE TITLE:’ enter the title of the CONSULT NOTE as defined by your site
+> For FIELD 'CONSULT NOTE TITLE:' enter the title of the CONSULT NOTE as defined by your site
 
 > For LAST EDIT DATE: enter current date
 
 > Exit FileMan and your notes should now save to CPRS Notes.
 
-> Example for Instrument: ‘CES’
+> Example for Instrument: 'CES'
 
 > Select OPTION: ?
 
@@ -1227,9 +1263,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> “Stop/Re-Start Progress Notes for an Instrument” on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
+> "Stop/Re-Start Progress Notes for an Instrument" on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
 
-> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either “Start” or “Stop” the Progress Note field for the Instrument.
+> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either "Start" or "Stop" the Progress Note field for the Instrument.
 
 > If a progress note is Yes and should appear, but it is NOT appearing, then you should use the START PROGRESS NOTES instructions below.
 
@@ -1284,8 +1320,8 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  The user needs to access FileMan and choose option ‘ENTER OR EDIT FILE ENTRIES’.
-2.  In ‘Input to what File’ enter MH TESTS AND SURVEYS
+1.  The user needs to access FileMan and choose option 'ENTER OR EDIT FILE ENTRIES'.
+2.  In 'Input to what File' enter MH TESTS AND SURVEYS
 3.  For EDIT WHICH FIELD: – GENERATE PNOTE
 4.  For THEN EDIT FIELD: TIU TITLE
 5.  For THEN EDIT FIELD: CONSULT NOTE TITLE
@@ -1293,15 +1329,15 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Press return and at the prompt: Select MH TESTS AND SURVEYS NAME: enter name of instrument
 
-> For field ‘GENERATE PNOTE:’ enter “YES” or “NO”, depending on the instructions provided for each instrument in this Install Guide. For FIELD ‘TIU TITLE:’ enter the TIU Title as defined by your site
+> For field 'GENERATE PNOTE:' enter "YES" or "NO", depending on the instructions provided for each instrument in this Install Guide. For FIELD 'TIU TITLE:' enter the TIU Title as defined by your site
 
-> For FIELD ‘CONSULT NOTE TITLE:’ enter the title of the CONSULT NOTE as defined by your site
+> For FIELD 'CONSULT NOTE TITLE:' enter the title of the CONSULT NOTE as defined by your site
 
 > For LAST EDIT DATE: enter current date
 
 > Exit FileMan and your notes should now save to CPRS Notes.
 
-> Example for Instrument: ‘CES’
+> Example for Instrument: 'CES'
 
 > Select OPTION: ?
 

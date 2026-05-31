@@ -1,21 +1,48 @@
 ---
-consolidated_title: "pce standardization release notes"
-app_code: PX
+title: PX*1*211 PCE Standardization Release Notes
 doc_type: RN
-master_source: "PX*1*211 PCE Standardization Release Notes"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: PCE Standardization
+app_code: PX
+app_name: Patient Care Encounter (PCE)
+section: CLI
+app_status: active
+pkg_ns: PX
+patch_ver: 1
+patch_id: PX*1*211
+group_key: PX:PX:1
+file_numbers:
+- '811.6'
+- '900001'
+- '999999'
+security_keys: []
+menu_options: 1
+description: '| Date | Version | Description | Author | |----------|---------|-----------------|--------| | May 2021 | 1.0 | Initial Release |'
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 5464
+section_count: 4
+table_count: 3
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: May 2021
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_0_211_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_0_211_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
+master_source: PX*1*211 PCE Standardization Release Notes
 master_pub_date: May 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "PX*1*234 PCE Standardization Release Notes"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>PCE Standardization 1.0
-
-  Release Notes
-
-  ![](px-1-211-pce-standardization-release-notes/001.png)
+- PX*1*234 PCE Standardization Release Notes
+consolidated_title: pce standardization release notes
 ---
 
 May 2021
@@ -120,7 +147,7 @@ Sponsor is a pointer to the REMINDER SPONSOR file (#811.6). It provides a way to
 
 Change Log is a multiple that records the user who made changes and when they were made. The user can also add additional information in a word-processing field.
 
-Print Name is used to store a mixed case “user friendly” name for the content. It will be used instead of the Name field in Clinical Reminders maintenance output and Health Summary output. Education Topics already had a Print Name field, but its maximum length was 30 characters. The length was increased to 64 to be consistent with Exams and Health Factors. When PX\*1.0\*211 is installed, for all data elements that do not already have a Print Name, the post-installation process will generate a Print Name using the .01 field of the data element. These generated Print Names provide a starting place and may not always be optimal, in which case, sites can edit the name if they have a class of Local.
+Print Name is used to store a mixed case "user friendly" name for the content. It will be used instead of the Name field in Clinical Reminders maintenance output and Health Summary output. Education Topics already had a Print Name field, but its maximum length was 30 characters. The length was increased to 64 to be consistent with Exams and Health Factors. When PX\*1.0\*211 is installed, for all data elements that do not already have a Print Name, the post-installation process will generate a Print Name using the .01 field of the data element. These generated Print Names provide a starting place and may not always be optimal, in which case, sites can edit the name if they have a class of Local.
 
 Description is a word-processing field; it is used to describe the use and purpose of the data element.
 
@@ -132,9 +159,9 @@ To store a measurement Magnitude and UCUM Code, fields were added to the Educati
 
 The V Standard Codes file was added. To start with, SNOMED CT codes added to an encounter are stored here. Also, all codes that are added to an encounter as a result of code mapping are stored in this file. This includes CPT and ICD codes.
 
-New management systems were created for Education Topics, Exams, and Health Factors. These are integrated systems that use List Manager to list all the data elements and the actions for managing them. When adding or editing a data element, FileMan’s ScreenMan functionality is used.
+New management systems were created for Education Topics, Exams, and Health Factors. These are integrated systems that use List Manager to list all the data elements and the actions for managing them. When adding or editing a data element, FileMan's ScreenMan functionality is used.
 
-To make it easier to differentiate between Category and Factor health factors, the .01 field of a category health factor must end with “\[C\]”. If the user does not add the “\[C\],” it will be appended automatically. When a category is created, only an abbreviated list of health factor fields needs to be populated. Therefore, there is a ScreenMan form for categories and another one for factors. In the past, it was possible to convert a category to a factor, but this created problems if there were any factors in the category. Now it is no longer possible to convert a category to a factor.
+To make it easier to differentiate between Category and Factor health factors, the .01 field of a category health factor must end with "\[C\]". If the user does not add the "\[C\]," it will be appended automatically. When a category is created, only an abbreviated list of health factor fields needs to be populated. Therefore, there is a ScreenMan form for categories and another one for factors. In the past, it was possible to convert a category to a factor, but this created problems if there were any factors in the category. Now it is no longer possible to convert a category to a factor.
 
 #### PCE List Manager Encounter Edit and Display
 
@@ -142,7 +169,7 @@ Many changes were made to this functionality; the largest one was the addition o
 
 The ability to add/edit Event Date/Time and measurement was added.
 
-The input method for Event Date and Time has been standardized. If the user types “??” at the prompt, descriptive help will be displayed. The help text is the data dictionary description of the Event Date and Time field from the V-file the user is putting data into, for example V Health Factors or V POV. Accordingly, the Descriptions and in some cases Technical Descriptions were updated.
+The input method for Event Date and Time has been standardized. If the user types "??" at the prompt, descriptive help will be displayed. The help text is the data dictionary description of the Event Date and Time field from the V-file the user is putting data into, for example V Health Factors or V POV. Accordingly, the Descriptions and in some cases Technical Descriptions were updated.
 
 Table 1: Descriptions and Technical Descriptions that got updated
 
@@ -216,7 +243,7 @@ V Standard Codes was added to the list of files in the Clinical Reminders Index 
 
 #### V-File APIs
 
-Event Date and Time and Measurement were added to the data returned by the V-file APIs. This means Event Date and Time and Measurement will be additional Condition Subscript (CSUB) data in Clinical Reminders. CSUB data can be used in Clinical Reminders Condition statements and a few other places. They are defined and described in the Clinical Reminders Manager’s Manual.
+Event Date and Time and Measurement were added to the data returned by the V-file APIs. This means Event Date and Time and Measurement will be additional Condition Subscript (CSUB) data in Clinical Reminders. CSUB data can be used in Clinical Reminders Condition statements and a few other places. They are defined and described in the Clinical Reminders Manager's Manual.
 
 ### Clinical Reminders PXRM\*2.0\*42
 
@@ -257,7 +284,7 @@ The time of the error was 11/13/2017@09:42:03
 
 See the error trap for complete details.
 
-GHEIGHT tries to find the height measurement made closest to the patient’s most recent weight measurement. The situation that generated the above error was that the patient had a height measured before the weight measurement but none after. This has been corrected.
+GHEIGHT tries to find the height measurement made closest to the patient's most recent weight measurement. The situation that generated the above error was that the patient had a height measured before the weight measurement but none after. This has been corrected.
 
 #### Reminder Definitions
 
@@ -310,13 +337,13 @@ The length of Print Name was increased from 35 to 64 characters.
 
 #### Reminder Evaluation
 
-The ability to use V Standard Codes in reminder evaluation and patient list building was added. Now, whenever Patient Data Source includes encounter data, V Standard Codes will be included in taxonomy evaluation. The Help text was updated to include V Standard Codes. A rebuild of the taxonomy “APDS” index was added to the post-installation routine.
+The ability to use V Standard Codes in reminder evaluation and patient list building was added. Now, whenever Patient Data Source includes encounter data, V Standard Codes will be included in taxonomy evaluation. The Help text was updated to include V Standard Codes. A rebuild of the taxonomy "APDS" index was added to the post-installation routine.
 
 The Clinical Maintenance output for Exams and Health Factors was changed to use the new Print Name field, if it is populated, otherwise the .01 will be used. Print Name was an existing field for Education Topics, so Print Name was already being used in this manner for Education Topics.
 
-If there is no resolution logic, reminder frequency is not required so it will not create an error, but the following warning was added to the Clinical Maintenance output: “There is no reminder frequency!”
+If there is no resolution logic, reminder frequency is not required so it will not create an error, but the following warning was added to the Clinical Maintenance output: "There is no reminder frequency!"
 
-If there is resolution logic and no frequency, then the reminder cannot be evaluated, this generates a status of ERROR. Text was added to the Clinical Maintenance output with the error message: “There is resolution logic but no reminder frequency!”
+If there is resolution logic and no frequency, then the reminder cannot be evaluated, this generates a status of ERROR. Text was added to the Clinical Maintenance output with the error message: "There is resolution logic but no reminder frequency!"
 
 Display of measurement data was added to the Clinical Maintenance output for Education Topics, Exams, Health Factors, and V Standard Codes.
 
@@ -324,15 +351,15 @@ Display of measurement data was added to the Clinical Maintenance output for Edu
 
 When PX\*1.0\*211 is installed, it adds the Class field to Education Topics, Exams, and Health Factors and it is a required field. Any Reminder Exchange (.prd) files created in an account that does not have PX\*1.0\*211 will not have these fields and consequently will not install in accounts with PX\*1.0\*211 installed. Reminder Exchange has been modified to eliminate this problem. If a Reminder Exchange entry that does not contain the Class field is being installed as part of KIDS install, Reminder Exchange will set it automatically to National. If the entry is being manually installed, the Class fields will be set to local. In the future, the Exchange prd file will contain information about the account where the prd file was created, and this will also be used to determine how to set the Class field if it is missing.
 
-Another issue that Reminder Exchange must handle is the requirement that Health Factor Category names end in “\[C\].” Reminder Exchange tries to determine if an incoming category is new or if it is an existing category but is missing the “\[C\].” If it is new, it will install it and append the “\[C\]” to the name. If it already exists, any new incoming health factors in the category will have their category switched to the one with the appended “\[C\].”
+Another issue that Reminder Exchange must handle is the requirement that Health Factor Category names end in "\[C\]." Reminder Exchange tries to determine if an incoming category is new or if it is an existing category but is missing the "\[C\]." If it is new, it will install it and append the "\[C\]" to the name. If it already exists, any new incoming health factors in the category will have their category switched to the one with the appended "\[C\]."
 
 When multiple Reminder Dialogs are included in a single exchange file entry, for each dialog, the Exchange dialog install software was restarting the install from the beginning of the dialog list. Because of this, dialog installation was slow and the display of the dialog was incorrect. This has been fixed. Now only items associated with the dialog selected for installation will be included in the display and installation list; dialogs will install much faster.
 
 A Repack action was added to Reminder Exchange. This new action can be used to select an existing Reminder Exchange file entry and automatically repack it. If the Exchange file entry was originally packed in a different account, the repack may fail because one or more of the components may not exist in the account where the repack is being done.
 
-During an install, if a component was already installed in the account and found to be identical to what is in the Exchange entry, Reminder Exchange was writing out the message: “FILE NAME entry named NAME already exists and the packed component is identical, skipping."
+During an install, if a component was already installed in the account and found to be identical to what is in the Exchange entry, Reminder Exchange was writing out the message: "FILE NAME entry named NAME already exists and the packed component is identical, skipping."
 
-For some Exchange installs, there could be many of these messages and displaying them slowed down the install. Now, these messages will no longer be written out, instead a single period ‘.’ will be written to let the user know Reminder Exchange is processing the entry.
+For some Exchange installs, there could be many of these messages and displaying them slowed down the install. Now, these messages will no longer be written out, instead a single period '.' will be written to let the user know Reminder Exchange is processing the entry.
 
 As part of the packing process, the Reminder Integrity Checker will now be run on every definition that is to be included in the Reminder Exchange file entry. If a definition has fatal errors, the packing process will abort.
 
@@ -342,7 +369,7 @@ The way dialogs are stored in an Exchange File entry was restructured so that th
 
 #### Reminder Manager Menu
 
-Test site feedback reported: “the manager menu is one line too long – this needs to be shortened.”
+Test site feedback reported: "the manager menu is one line too long – this needs to be shortened."
 
 \<TEST ACCOUNT\> Reminder Computed Finding Management ...
 
@@ -444,7 +471,7 @@ Print locations with no patients? YES// ^
 
 RECORDING THAT AN ERROR OCCURRED ---
 
-This was occurring because the variable PXRMLCSC was not defined as a result of the “^” input. The code was changed to properly handle the “^” input.
+This was occurring because the variable PXRMLCSC was not defined as a result of the "^" input. The code was changed to properly handle the "^" input.
 
 #### Reminder QUERI Extracts
 
@@ -475,7 +502,7 @@ Self-identified gender has been added to the Patient file, and consequently it h
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-One of the changes in PX\*1.0\*211 was to add a Print Name for Education Topics, Exams, and Health Factors. The purpose of the Print Name is to provide a more “user friendly” display. In contrast with the Name (.01) field, which is all upper case, the Print Name is mixed case. The Health Summary components for Education Topics, Exams, and Health Factors were changed to use the Print Name instead of the Name. If, for some reason, the Print Name is not defined, the Name field will be used.
+One of the changes in PX\*1.0\*211 was to add a Print Name for Education Topics, Exams, and Health Factors. The purpose of the Print Name is to provide a more "user friendly" display. In contrast with the Name (.01) field, which is all upper case, the Print Name is mixed case. The Health Summary components for Education Topics, Exams, and Health Factors were changed to use the Print Name instead of the Name. If, for some reason, the Print Name is not defined, the Name field will be used.
 
 Originally, the output formats for Education Topics, Exams, and Health Factors were not consistent as these examples show:
 
@@ -647,7 +674,7 @@ Note that Data Source is now included. The original routines had code to display
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-One of the changes in PX\*1\*211 is to change the length of the Provider Narrative “B” index from 30 characters to the full length of the .01 which is 245 characters. This necessitated a change in the API PROVNARR^PXAPI which was written back when the maximum length of the “B” index could only be 30 characters. The Problem List API PROVNARR^GMPLX was also written for a 30-character index and would not function correctly with the new full-length index. PROVNARR^GMPLX provides the same functionality as PROVNARR^PXAPI, so instead of having two copies of essentially the same code, ICR \#6953 was created to allow Problem List to use PROVNARR^PXAPI.
+One of the changes in PX\*1\*211 is to change the length of the Provider Narrative "B" index from 30 characters to the full length of the .01 which is 245 characters. This necessitated a change in the API PROVNARR^PXAPI which was written back when the maximum length of the "B" index could only be 30 characters. The Problem List API PROVNARR^GMPLX was also written for a 30-character index and would not function correctly with the new full-length index. PROVNARR^GMPLX provides the same functionality as PROVNARR^PXAPI, so instead of having two copies of essentially the same code, ICR \#6953 was created to allow Problem List to use PROVNARR^PXAPI.
 
 While making the above changes to GMPLX, we noticed that it was making calls to various entry points in ICDXCODE routine which has been deprecated and replaced by ICDEX. These calls were replaced with the corresponding calls in ICDEX.
 
@@ -707,7 +734,7 @@ Table 2: Documentation
 <p>pxrm_index_tm.pdf</p></td>
 </tr>
 <tr class="even">
-<td>Clinical Reminders Manager’s Manual</td>
+<td>Clinical Reminders Manager's Manual</td>
 <td><p>pxrm_mm.docx</p>
 <p>pxrm_mm.pdf</p></td>
 </tr>
@@ -778,7 +805,7 @@ Subj: HEALTH FACTORS WITH INCOMPLETE MEASUREMENT DEFINITION (#109720)
 
 12/15/22@16:46 18 lines
 
-From: PCE Support In ‘IN’ basket. Page 1 \*New\*
+From: PCE Support In 'IN' basket. Page 1 \*New\*
 
 --------------------------------------------------------------------------------------
 
@@ -832,7 +859,7 @@ Subj: V HEALTH FACTORS MEASUREMENT REPAIR (#295925)
 
 01/04/23@11:43 26 lines
 
-From: PCE Support In ‘IN’ basket. Page 1 \*New\*
+From: PCE Support In 'IN' basket. Page 1 \*New\*
 
 --------------------------------------------------------------------------------------
 
@@ -890,7 +917,7 @@ MAGNITUDE: 80 \<Enter\>
 
 UCUM CODE: millimeter of mercury//\<Enter\>
 
-The editor displays the allowed range and units for the measurement. In the above example, a human can interpret “EIGHTY” in the COMMENTS field to be the number 80 and recognize that it is in the inclusive range 5 to 300, so the MAGNITUDE can be set to 80.
+The editor displays the allowed range and units for the measurement. In the above example, a human can interpret "EIGHTY" in the COMMENTS field to be the number 80 and recognize that it is in the inclusive range 5 to 300, so the MAGNITUDE can be set to 80.
 
 As you work through the list, there will be COMMENTS where it is straight forward to determine a magnitude and others where a magnitude cannot be determined. When a magnitude cannot be determined, the UCUM CODE should be deleted.
 
@@ -909,7 +936,7 @@ MINIMUM VALUE: 5
 MAXIMUM VALUE: 300  
 MAXIMUM DECIMALS: 0  
 UCUM DESCRIPTION: millimeter of mercury  
-COMMENTS: Can’t recall
+COMMENTS: Can't recall
 
 MAGNITUDE:\<Enter\>
 

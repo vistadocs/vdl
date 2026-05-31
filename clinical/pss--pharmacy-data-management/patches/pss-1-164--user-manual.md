@@ -5,44 +5,49 @@ doc_label: User Manual
 doc_layer: patch
 doc_subject: Change Pages
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*164
-group_key: "PSS:PSS:1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:1
+description: '> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3.5'
+- '50'
+- '50.0906'
+- '50.6'
+- '50.68'
+- '50.7'
+- '51.24'
+- '51.7'
+- '52.6'
+- '52.7'
+- '59.7'
+- '59.74'
+- '200'
+security_keys:
+- PSJU MGR
 menu_options: 6
-description: > Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - strong
-  - drug
-  - mark
-  - class
-  - check
-  - added
-  - peps
 page_count: 0
 word_count: 3741
 section_count: 16
 table_count: 1
 figure_count: 0
 appendix_count: 7
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](pss-1-164-169-user-manual-change-pages/001.png)

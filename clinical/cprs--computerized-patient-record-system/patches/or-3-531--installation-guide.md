@@ -11,48 +11,30 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*531
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: The guide provides specific instructions for installation, back-out, and rollback of the CPRS COVID v2.0 build.
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The guide provides specific instructions for installation, back-out, and rollback of the CPRS COVID v2.0 build.
-audience: 
-keywords: 
-  - table
-  - contents
-  - cprs
-  - covid
-  - installation
-  - back
-  - rollback
-  - test
-  - reminder
-  - mark
 page_count: 0
-word_count: 2715
+word_count: 2701
 section_count: 21
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_531_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_531_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_531_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_531_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  COVID v2.0
----
-
 Deployment, Installation, Back Out and Rollback Guide (DIBORG)
 
 ![](or-3-531-cprs-covid-version-2-deployment-installation-back-out-and-rollback-guid/001.png)

@@ -11,38 +11,31 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*190
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3
 description: If your site does not have an entry for the ORWDX WRITE ORDERS LIST parameter and your site uses the Package level settings for the ORWOR WRITE ORDERS LIST and ORWOR CATEGORY SEQUENCE parameters, no manual updates are required after patch installation. As part of the installation, patch OR\3.0\190 (
-audience: 
-keywords: 
-  - parameter
-  - order
-  - entry
-  - orders
-  - press
-  - sequence
-  - write
-  - prompt
-  - values
-  - results
+audience: System administrators performing installation
+keywords: []
+file_numbers: []
+security_keys:
+- CLINICIAN
+- ORMGR
+menu_options: 0
 page_count: 0
 word_count: 2151
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190_set_up_notes_for_non-va_meds.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190_set_up_notes_for_non-va_meds.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190_set_up_notes_for_non-va_meds.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190_set_up_notes_for_non-va_meds.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 Set Up Notes for Non-VA Meds

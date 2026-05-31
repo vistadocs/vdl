@@ -1,18 +1,56 @@
 ---
-consolidated_title: "pharmacist's user manual change pages"
-app_code: PSD
+title: PSD*3*69 Pharmacist's User Manual Change Pages
 doc_type: UM
-master_source: "PSD*3*69 Pharmacist's User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Pharmacist's Change Pages
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: archive
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3*69
+group_key: PSD:PSD:3
+file_numbers: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDMGR
+- PSJ PHARM TECH
+- PSJ RPHARM
+menu_options: 0
+description: '> The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 400
+section_count: 1
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances_Archive/psd_3_p69_cspharm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances_Archive/psd_3_p69_cspharm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=396
+audit_applied: '2026-05-31'
+master_source: PSD*3*69 Pharmacist's User Manual Change Pages
 master_pub_date: March 1997
 consolidated_from: 3 versions
 prior_versions:
-  - "PSD*3*71 Pharmacist's User Manual Change Pages"
-  - "PSD*3*76 Pharmacist's User Manual Change Pages"
+- PSD*3*71 Pharmacist's User Manual Change Pages
+- PSD*3*76 Pharmacist's User Manual Change Pages
+consolidated_title: pharmacist's user manual change pages
 ---
 
 > ![](psd-3-69-pharmacist-s-user-manual-change-pages/001.png)
 
-CONTROLLED SUBSTANCES PHARMACIST’S USER MANUAL
+CONTROLLED SUBSTANCES PHARMACIST'S USER MANUAL
 
 > Version 3.0
 
@@ -61,7 +99,7 @@ CONTROLLED SUBSTANCES PHARMACIST’S USER MANUAL
 <p>PSD*3*69</p>
 </blockquote></td>
 <td><blockquote>
-<p>Added description of patch’s new security key PSD TECH ADV, and PSD TECH key.</p>
+<p>Added description of patch's new security key PSD TECH ADV, and PSD TECH key.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -82,7 +120,7 @@ CONTROLLED SUBSTANCES PHARMACIST’S USER MANUAL
 <td></td>
 <td></td>
 <td><blockquote>
-<p>Original Released Pharmacist’s Guide.</p>
+<p>Original Released Pharmacist's Guide.</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -135,7 +173,7 @@ CONTROLLED SUBSTANCES PHARMACIST’S USER MANUAL
 > PSD TECH ADV Allocate this key to specific control substance
 > technicians who perform advance functions. This key controls access to the *Receipts Into Pharmacy* \[PSD RECEIPTS MENU\], *Dispensing Menu* \[PSD DISPENSING MENU\], *Destructions Menu* \[PSD DESTROY MENU\], *Manufacturer, Lot \#, and Exp. Date - Enter/Edit* \[PSD MFG/LOT/EXP\], and *Outpatient Rx's* \[PSD OUTPATIENT\] on the Technician (CS Pharmacy) Menu \[PSD PHARM TECH\].
 > PSD TRAN This key should be allocated to the Inpatient Pharmacy Coordinator(s). This key controls the access to the Transfer NAOU Stock Entries option. Users can copy stock entries from one NAOU into another NAOU or from an AR/WS AOU into an NAOU.
-> PSDMGR This key should be allocated to the Inpatient Pharmacy Supervisor and Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the *Supervisor’s Menu* options \[PSD MGR\].
+> PSDMGR This key should be allocated to the Inpatient Pharmacy Supervisor and Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the *Supervisor's Menu* options \[PSD MGR\].
 > PSJ PHARM TECH This key should be allocated to pharmacy
 > technicians handling narcotic orders.
 > PSJ RNURSE This key should be allocated to nurses who request narcotic orders, receive, and administer
@@ -255,7 +293,7 @@ Index
 
 > OTHER - REFERRED TO PHARMACY SUPERVISOR, 15
 
-> Outpatient RX’s, 17
+> Outpatient RX's, 17
 
 # P
 

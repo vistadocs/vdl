@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: NUPA
 patch_ver: 1
 patch_id: NUPA*1
-group_key: "NUPA:NUPA:1"
+group_key: NUPA:NUPA:1
+description: '- Revision History - # Introduction - Using Admission – RN Assessment - Opening Admission – RN Assessment - No Previously Saved Information - [Previously...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "--- title: <span id=\\"_top\\" class=\\"anchor\\"></span>Patient Assessment Documentation Package (PADP) ---"
-audience: 
-keywords: 
-  - assessment
-  - admission
-  - padp
-  - manual
-  - version
-  - patient
-  - window
-  - table
-  - contents
-  - skin
 page_count: 0
-word_count: 12530
+word_count: 12518
 section_count: 25
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_aum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_aum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=193"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_aum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_aum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=193
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_top" class="anchor"></span>Patient Assessment Documentation Package (PADP)
----
-
 C3-C1 Conversion Project
 
 Admission – RN Assessment User Manual  

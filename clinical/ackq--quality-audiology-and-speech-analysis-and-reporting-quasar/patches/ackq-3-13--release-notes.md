@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3*13
-group_key: "ACKQ:ACKQ:3"
-file_numbers: []
-security_keys: []
+group_key: ACKQ:ACKQ:3
+description: '- Introduction - Overview - Related Documentation - Audiogram Display through CPRS - Interface/Audiometer Anomalies - All Models - [GSI...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '509850.9'
+security_keys:
+- F10
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - audiogram
-  - module
-  - audiometer
-  - table
-  - contents
-  - ackq
-  - quasar
-  - test
-  - patch
-  - software
 page_count: 0
 word_count: 2237
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
 
 ![](ackq-3-13-quasar-audiogram-module-release-notes/001.png)

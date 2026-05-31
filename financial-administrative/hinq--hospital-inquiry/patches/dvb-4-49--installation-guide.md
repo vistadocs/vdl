@@ -3,7 +3,7 @@ title: DVB*4*49 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: HINQ
 app_name: Hospital Inquiry
 section: FIN
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: DVB
 patch_ver: 4
 patch_id: DVB*4*49
-group_key: "HINQ:DVB:4"
-file_numbers: []
+group_key: HINQ:DVB:4
+description: INSTALLATION INSTRUCTIONS=========================If installed during the normal workday, it is recommended thefollowing menu options are disabled to prevent possibleconflicts while running the KIDS Install. Other VISTA userswill not be affected.DGBT BENE TRAVEL SCREEN Claim Enter/EditDG LOAD PATIEN
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '395.2'
 security_keys: []
 menu_options: 0
-description: INSTALLATION INSTRUCTIONS=========================If installed during the normal workday, it is recommended thefollowing menu options are disabled to prevent possibleconflicts while running the KIDS Install. Other VISTA userswill not be affected.DGBT BENE TRAVEL SCREEN Claim Enter/EditDG LOAD PATIEN
-audience: 
-keywords: 
-  - dvbhce
-  - install
-  - hinq
-  - installation
-  - options
-  - wish
-  - mark
-  - hsusp
-  - transport
-  - kids
 page_count: 0
 word_count: 1037
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=41"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_p49_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=41
+audit_applied: '2026-05-31'
 ---
 
 ![](dvb-4-49-installation-guide/001.png)

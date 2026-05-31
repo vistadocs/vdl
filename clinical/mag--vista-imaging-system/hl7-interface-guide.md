@@ -3,46 +3,45 @@ title: Profiles for HL7 Messages from VistA to Commercial PACS
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This document contains profiles for all messages using the Health Level Seven (HL7) Standard that are sent from the VistA medical center system to commercial Picture Archiving and Communication Systems (PACS). The purpose of this messaging is to support DICOM Modality Worklist functionality on PAC'
+audience: ''
+keywords: []
+file_numbers:
+- '4'
+- '42'
+- '44'
+- '49'
+- '71'
+- '73.1'
+- '79.1'
+- '81'
 security_keys: []
 menu_options: 3
-description: <span id="_bookmark0" class="anchor"></span>Profiles for HL7 Messages from VistA to Commercial PACS
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - style
-  - width
-  - even
-  - table
-  - colgroup
-  - thead
-  - tbody
 page_count: 0
 word_count: 97902
 section_count: 32
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vista_pacs_hl7_profile_1_2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vista_pacs_hl7_profile_1_2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vista_pacs_hl7_profile_1_2.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vista_pacs_hl7_profile_1_2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](profiles-for-hl7-messages-from-vista-to-commercial-pacs/001.png)

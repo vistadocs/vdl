@@ -3,46 +3,38 @@ title: MOCHA Version 1 Combined Builds Installation Guide (REVISED VERSION)
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: Combined Builds  (REVISED VERSION)
+doc_subject: Combined Builds (REVISED VERSION)
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 1
 patch_id: PSJ*1
-group_key: "PSJ:PSJ:1"
-file_numbers: []
+group_key: PSJ:PSJ:1
+description: Medication Order Check Healthcare Application (MOCHA) v1.0Combined BuildInstallation
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - installation
-  - install
-  - table
-  - contents
-  - build
-  - patch
-  - pharmacy
-  - message
-  - transport
-  - distribution
 page_count: 0
 word_count: 3727
 section_count: 17
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/mocha_cb_pss_1_ig_r0811.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/mocha_cb_pss_1_ig_r0811.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/mocha_cb_pss_1_ig_r0811.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/mocha_cb_pss_1_ig_r0811.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](mocha-version-1-combined-builds-installation-guide-revised-version/001.png)

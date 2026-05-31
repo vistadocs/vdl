@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: Menu Manager User Guide"
+title: '''Kernel 8.0 Systems Management: Menu Manager User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: Menu Manager"
+doc_subject: '''Systems Management: Menu Manager'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,80 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '03'
+- '3'
+- '3.01'
+- '3.5'
+- '3.6'
+- '3.7'
+- '3.8'
+- '3.91'
+- '4'
+- '6'
+- '9.2'
+- '11'
+- '15'
+- '17'
+- '19'
+- '19.081'
+- '19.1'
+- '19.2'
+- '19.8'
+- '20'
+- '25'
+- '26'
+- '35'
+- '51'
+- '52'
+- '200'
+- '200.06'
+- '200.11'
+- '201'
+- '203'
+- '209'
+- '220'
+- '221'
+- '222'
+- '223'
+- '224'
+- '225'
+- '227'
+- '318'
+security_keys:
+- DIUSER
+- KEEP AT TERMINATE
+- PROVIDER
+- PSDRPH
+- XQSMDFM
+- XUMGR
+- XUPROG
+- XUPROGMODE
+- XUSPY
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - options
-  - span
-  - table
-  - class
-  - contents
-  - help
-  - security
-  - keys
-  - management
-  - server
 page_count: 0
-word_count: 23586
+word_count: 23578
 section_count: 21
 table_count: 6
 figure_count: 1
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_menu_manager_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_menu_manager_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_menu_manager_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_menu_manager_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Menu Manager User Guide
----
-
 ![](kernel-8-0-systems-management-menu-manager-user-guide/001.png)
 
 August 2025

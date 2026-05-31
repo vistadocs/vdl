@@ -3,47 +3,86 @@ title: HL7 Interface Specification (Updated RA*5*203)
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: plain
-doc_subject: HL7  (Updated RA*5*203)
+doc_subject: HL7 (Updated RA*5*203)
 app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 200
-security_keys: []
+pkg_ns: RA
+patch_ver: null
+patch_id: null
+group_key: null
+description: 2.4 Report Verified or Released/Not Verified 10
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '3'
+- '4'
+- '6'
+- '7'
+- 09
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '19'
+- '23'
+- '25'
+- '29'
+- '42'
+- '44'
+- '49'
+- '70'
+- '70.02'
+- '70.03'
+- '71'
+- '72'
+- '73.1'
+- '74'
+- '75.1'
+- '75.1125'
+- '79'
+- '79.1'
+- '79.2'
+- '81'
+- '99'
+- '101'
+- '120.8'
+- '200'
+- '217'
+- '405'
+- '771'
+- '771.5'
+- '772'
+- '773'
+- '991.01'
+- '2006.15'
+- '3431'
+- '8989.3'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 7
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 11%\\" /> <col style=\\"width: 60%\\" /> <col style=\\"width: 9%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>Version</th> <th>Change</th> <th>Page</th> </tr> </thead> <tbody> <tr class=\\"odd\\"> <td>June 2024</td> <td>3.6</td> <"
-audience: 
-keywords: 
-  - segment
-  - table
-  - class
-  - contents
-  - message
-  - fields
-  - number
-  - vista
-  - order
-  - patient
 page_count: 0
 word_count: 23197
 section_count: 31
 table_count: 110
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-interface-specification-updated-ra-5-203/001.png)

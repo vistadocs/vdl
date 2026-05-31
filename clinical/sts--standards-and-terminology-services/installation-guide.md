@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: STS
 patch_ver: 2
 patch_id: STS*2
-group_key: "STS:STS:2"
+group_key: STS:STS:2
+description: '> Office of Information and Technology (OI&T) Office of Enterprise Development'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - table
-  - even
-  - contents
-  - terminology
-  - concept
-  - blockquote
-  - vets
-  - domain
 page_count: 0
 word_count: 6042
 section_count: 15
 table_count: 2
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services_Archive/sts_vets_10_setup_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services_Archive/sts_vets_10_setup_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=402"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services_Archive/sts_vets_10_setup_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services_Archive/sts_vets_10_setup_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=402
+audit_applied: '2026-05-31'
 ---
 
 > Standards & Terminology Services (STS)

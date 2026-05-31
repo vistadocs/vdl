@@ -3,7 +3,7 @@ title: VistA Build Analyzer Utility User Guide (Kernel Patch XU*8.0*782)
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,49 +11,88 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '| Date | Revision | Description | Author | |------------|----------|-----------------------------------------------------|--------------------------------------------------------------| | 05/31/2023 | 1.0 | Initial release of VistA Build Analyzer User Guide. | VistA Infrastructure Shared Services...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.1'
+- '1.2'
+- '1.3'
+- '1.4'
+- '1.5'
+- '1.6'
+- '1.61'
+- '1.62'
+- '1.7'
+- '2'
+- '2.1'
+- '2.2'
+- '2.3'
+- '2.4'
+- '2.5'
+- '2.6'
+- '3'
+- '3.5'
+- '3.6'
+- '3.8'
+- '4'
+- '6'
+- '8'
+- '9.2'
+- '9.4'
+- '9.6'
+- '9.8'
+- '10.1'
+- '10.2'
+- '10.3'
+- '12'
+- '14'
+- '15'
+- '19'
+- '19.1'
+- '20'
+- '23'
+- '25'
+- '101'
+- '130'
+- '137.45'
+- '200'
+- '409.61'
+- '771'
+- '779.2'
+- '870'
+- '919'
+- '8989.51'
+- '8989.52'
+- '8991.8'
+- '8991.9'
+- '8993'
+- '8994'
+- '9001'
+- '11341'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - build
-  - included
-  - description
-  - class
-  - number
-  - analyzer
-  - routine
-  - mark
-  - help
 page_count: 0
-word_count: 26425
+word_count: 26415
 section_count: 15
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2023
 revision_count: 1
 revision_newest: 05/31/2023
 revision_oldest: 05/31/2023
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/vista_build_analyzer_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/vista_build_analyzer_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/vista_build_analyzer_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/vista_build_analyzer_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VistA Build Analyzer Utility
-
-  Kernel Patch XU\*8.0\*782
-
-  User Guide
----
-
 ![](vista-build-analyzer-utility-user-guide-kernel-patch-xu-8-0-782/001.png)
 
 May 2023

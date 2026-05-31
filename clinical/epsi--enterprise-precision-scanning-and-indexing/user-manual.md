@@ -8,52 +8,35 @@ app_code: EPSI
 app_name: Enterprise Precision Scanning and Indexing
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: EPSI
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''02/24/2026 5.3 Updates made to align with system improvements in EPSI v1.49: Added figures and instructions to reflect newly added ability for users to update their default time zone (User Preferences).'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- SHIFT
+- TAB
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - epsi
-  - span
-  - class
-  - indexing
-  - table
-  - anchor
-  - guide
-  - enterprise
-  - figure
-  - precision
 page_count: 0
-word_count: 20234
+word_count: 20217
 section_count: 23
 table_count: 5
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=431"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=431
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk123219928" class="anchor"></span>Enterprise Precision Scanning and Indexing (EPSI)
-
-  Software Version 1.49
-
-  User Guide
----
-
 ![](enterprise-precision-scanning-and-indexing-epsi-user-guide/001.png)
 
 February 2026

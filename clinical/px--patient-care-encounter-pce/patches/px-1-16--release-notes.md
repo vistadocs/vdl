@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1*16
-group_key: "PX:PX:1"
-file_numbers: []
+group_key: PX:PX:1
+description: '- [Changes made were similar to the VA-\ prefixed'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1.8'
+- '80'
+- '80.1'
+- '81'
+- '811.2'
+- '811.9'
+- '900010.16'
+- '999999'
 security_keys: []
 menu_options: 0
-description: - [Changes made were similar to the VA-\ prefixed equivalent](#changes-made-were-similar-to-the-va-prefixed-equivalent) ![](px-1-16-clinical-reminders-release-notes/001.png) Patient Care Encounter (PCE)Clinical Reminders Patch PX\1.0\16 Release Notes July 1997 Technical Services Computerized Patient
-audience: 
-keywords: 
-  - reminder
-  - health
-  - logic
-  - apply
-  - patch
-  - taxonomy
-  - factor
-  - finding
-  - reminders
-  - changes
 page_count: 0
 word_count: 2113
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxrnp16.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxrnp16.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxrnp16.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxrnp16.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

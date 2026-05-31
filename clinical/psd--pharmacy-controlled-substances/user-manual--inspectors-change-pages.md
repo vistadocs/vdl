@@ -1,20 +1,59 @@
 ---
-consolidated_title: "inspectors user manual change pages"
-app_code: PSD
+title: PSD*3*76 Inspectors User Manual Change Pages
 doc_type: UM
-master_source: "PSD*3*76 Inspectors User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Inspectors Change Pages
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: active
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3*76
+group_key: PSD:PSD:3
+file_numbers: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
+menu_options: 0
+description: '> The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 493
+section_count: 3
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p76_insp_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p76_insp_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
+master_source: PSD*3*76 Inspectors User Manual Change Pages
 master_pub_date: March 1997
 consolidated_from: 3 versions
 prior_versions:
-  - "PSD*3*69 Inspectors User Manual Change Pages"
-  - "PSD*3*71 Inspectors User Manual Change Pages"
+- PSD*3*69 Inspectors User Manual Change Pages
+- PSD*3*71 Inspectors User Manual Change Pages
+consolidated_title: inspectors user manual change pages
 ---
 
 > ![](psd-3-76-inspectors-user-manual-change-pages/001.png)
 
 CONTROLLED SUBSTANCES (CS)
 
-> INSPECTOR’S USER MANUAL
+> INSPECTOR'S USER MANUAL
 
 ## Version 3.0
 
@@ -63,7 +102,7 @@ CONTROLLED SUBSTANCES (CS)
 <td><blockquote>
 <p>PSD*3*76</p>
 </blockquote></td>
-<td><p>Updated Glossary with description of patch’s new security key PSDRPH</p>
+<td><p>Updated Glossary with description of patch's new security key PSDRPH</p>
 <p>Updated Index</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
@@ -86,7 +125,7 @@ CONTROLLED SUBSTANCES (CS)
 <td><blockquote>
 <p>PSD*3*69</p>
 </blockquote></td>
-<td><p>Added description of patch’s new security key PSD TECH ADV, and PSD TECH key.</p>
+<td><p>Added description of patch's new security key PSD TECH ADV, and PSD TECH key.</p>
 <p>Added PSD TECH ADV and PSD TECH key to index</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
@@ -105,7 +144,7 @@ CONTROLLED SUBSTANCES (CS)
 <td>03/97</td>
 <td></td>
 <td></td>
-<td>Original Released Inspector’s Manual.</td>
+<td>Original Released Inspector's Manual.</td>
 </tr>
 </tbody>
 </table>
@@ -139,7 +178,7 @@ CONTROLLED SUBSTANCES (CS)
 
 > Example: *Controlled Substance Balances Report* indicates a menu option.
 
-- Screen prompts will be denoted with quotation marks around them. Example: “Select INPATIENT SITE NAME” indicates a screen prompt.
+- Screen prompts will be denoted with quotation marks around them. Example: "Select INPATIENT SITE NAME" indicates a screen prompt.
 - Responses in bold face indicate what the user is to type in. Example: Okay to Continue? No// YES.
 - Text centered between arrows represents a keyboard key that needs to be pressed in order for the system to capture a user response or move the cursor to another field. \<Enter\> indicates that the Enter key (or Return key on some keyboards) must be pressed. \<Tab\> indicates that the Tab key must be pressed.
 
@@ -185,7 +224,7 @@ CONTROLLED SUBSTANCES (CS)
 
 > who perform advance functions. This key controls access to the *Receipts Into Pharmacy* \[PSD RECEIPTS MENU\], *Dispensing Menu* \[PSD DISPENSING MENU\], *Destructions Menu* \[PSD DESTROY MENU\], *Manufacturer, Lot \#, and Exp. Date - Enter/Edit* \[PSD MFG/LOT/EXP\], *Outpatient Rx's* \[PSD OUTPATIENT\], *Complete Green Sheet* \[PSD COMPLETE GS\], *Destroyed Drugs Report* \[PSD DEST DRUGS REPORT\], *DEA Form 41 Destroyed Drugs Report* \[PSD DESTROY DEA41\], *Destructions Holding Report* \[PSD DESTRUCTION HOLDING\], *Add Existing Green Sheets at Setup* \[PSD EXISTING GS\], *Green Sheet Transfer Between NAOUs Report* \[PSD GS TRANSFER (NAOU) REPORT\],
 
-> *Transfer Drugs between Dispensing Sites* \[PSD TRANSFER VAULT DRUGS\] options on the *Technician (CS Pharmacy) Menu* \[PSD PHARM TECH\]. The CS technician may perform all functions of the *Outpatient Rx’s* \[PSD OUTPATIENT\] option except releasing prescriptions.
+> *Transfer Drugs between Dispensing Sites* \[PSD TRANSFER VAULT DRUGS\] options on the *Technician (CS Pharmacy) Menu* \[PSD PHARM TECH\]. The CS technician may perform all functions of the *Outpatient Rx's* \[PSD OUTPATIENT\] option except releasing prescriptions.
 
 > PSD TRAN This key should be allocated to the Inpatient Pharmacy Coordinator(s). This key controls the access to the *NAOU to NAOU Transfer Stock Entries* \[PSD TRANSFER NAOU\] option. Users can copy stock entries from one NAOU into another NAOU or from an AR/WS AOU into an NAOU.
 
@@ -239,8 +278,8 @@ CONTROLLED SUBSTANCES (CS)
 > H
 > Hidden Actions 2
 > I
-> Inspector’s Log by Rec’d Date 3
-> Inspector’s Log for Controlled Substances 3
+> Inspector's Log by Rec'd Date 3
+> Inspector's Log for Controlled Substances 3
 > IRL 4, 9
 > L
 > Load Software and Insp. Inventory into TRAKKER 4
@@ -269,7 +308,7 @@ CONTROLLED SUBSTANCES (CS)
 > T
 > TRAKKER 4, 8, 9, 24
 > U
-> Under Inspector’s Review—Green Sheets 10
+> Under Inspector's Review—Green Sheets 10
 > UNDER REVIEW BY INSPECTOR 10
 > V
 > VA FORM 10-2321 1

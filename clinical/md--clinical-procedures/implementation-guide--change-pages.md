@@ -1,15 +1,63 @@
 ---
-consolidated_title: "implementation guide change pages"
-app_code: MD
+title: MD*1*21 Implementation Guide change pages
 doc_type: IG-IMP
-master_source: "MD*1*21 Implementation Guide change pages"
+doc_label: Implementation Guide
+doc_layer: patch
+doc_subject: change pages
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*21
+group_key: MD:MD:1
+file_numbers:
+- '2'
+- '4'
+- '45.7'
+- '101'
+- '123.3'
+- '123.5'
+- '200'
+- '702.01'
+- '703.1'
+- '771'
+- '870'
+security_keys:
+- MD GUI MANAGER
+- MD MANAGER
+- ORMGR
+- PROVIDER
+menu_options: 3
+description: '> This implementation manual describes how to implement the Clinical Procedures (CP) application. It also contains setup instructions for Consults/Request Tracking, Text Integration Utility (TIU), Computerized Patient Record System (CPRS) and commercial off the shelf (COTS) interfaced devices. All s'
+audience: ''
+keywords: []
+page_count: 0
+word_count: 12207
+section_count: 29
+table_count: 0
+figure_count: 0
+appendix_count: 5
+has_toc: false
+is_stub: false
+pub_date: June 2010
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p21_impg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p21_impg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*21 Implementation Guide change pages
 master_pub_date: June 2010
 consolidated_from: 5 versions
 prior_versions:
-  - "MD*1*11 Implementation Guide change pages"
-  - "MD*1*14 Implementation Guide change pages"
-  - "MD*1*20 Implementation Guide change pages"
-  - "MD*1*6 Implementation Guide change pages"
+- MD*1*11 Implementation Guide change pages
+- MD*1*14 Implementation Guide change pages
+- MD*1*20 Implementation Guide change pages
+- MD*1*6 Implementation Guide change pages
+consolidated_title: implementation guide change pages
 ---
 
 > June 2010
@@ -108,7 +156,7 @@ prior_versions:
     - [Clinical Procedures On-Line](#clinical-procedures-on-line)
     - [CP/BGP Transfer Directory](#cpbgp-transfer-directory)
     - [CRC Values](#crc-values)
-    - [Calculating a File’s CRC Value](#calculating-a-files-crc-value)
+    - [Calculating a File's CRC Value](#calculating-a-files-crc-value)
     - [Days to keep instrument data](#days-to-keep-instrument-data)
     - [Imaging File Types](#imaging-file-types)
     - [Offline Message](#offline-message)
@@ -237,7 +285,7 @@ prior_versions:
 <tr class="odd">
 <td><blockquote>
 <p>4Patch MD*1.0*6 released. Updated MD namespace</p>
-<p>Clinical Procedures file list and CP Class Upload Header output display, added TIU prompts for adding new TIU Note Titles, added instrument warning for automated instruments, added Processing Application field, changed wording for Count/Non-count clinics, added new Exported Kernel XPAR parameters and screen capture, revised “Setting Up HL7 Parameters chapter for clarity, updated list of Instrument Processing Routines, added Appendix D – Exported Values For Hemodialysis Options.</p>
+<p>Clinical Procedures file list and CP Class Upload Header output display, added TIU prompts for adding new TIU Note Titles, added instrument warning for automated instruments, added Processing Application field, changed wording for Count/Non-count clinics, added new Exported Kernel XPAR parameters and screen capture, revised "Setting Up HL7 Parameters chapter for clarity, updated list of Instrument Processing Routines, added Appendix D – Exported Values For Hemodialysis Options.</p>
 </blockquote></td>
 <td><blockquote>
 <p>May 2008</p>
@@ -295,9 +343,9 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> A clinical procedure is a clinical test where the result is usually obtained from an automated instrument such as pulmonary function devices, EKGs, ECHOs, EMGs, EEGs, endoscopy and bronchoscopy instruments, dialysis machines, or other similar COTS devices. CP is a conduit for passing final patient results, using Health Level 7 (HL7) messaging, between vendor clinical information systems (CIS) and Veterans Health Information Systems and Technology Architecture (VistA). The patient’s test result or report is displayed through the Computerized Patient Record System (CPRS). The report data is stored on the Imaging Redundant Array of Inexpensive Disks (RAID) and in some instances, discrete data is stored in the Medicine database.
+> A clinical procedure is a clinical test where the result is usually obtained from an automated instrument such as pulmonary function devices, EKGs, ECHOs, EMGs, EEGs, endoscopy and bronchoscopy instruments, dialysis machines, or other similar COTS devices. CP is a conduit for passing final patient results, using Health Level 7 (HL7) messaging, between vendor clinical information systems (CIS) and Veterans Health Information Systems and Technology Architecture (VistA). The patient's test result or report is displayed through the Computerized Patient Record System (CPRS). The report data is stored on the Imaging Redundant Array of Inexpensive Disks (RAID) and in some instances, discrete data is stored in the Medicine database.
 
-> CP provides features that can be used across clinical departments such as general medicine, cardiology, pulmonary, women’s health, neurology, and rehabilitation medicine. CP uses the procedure order function that is included with the Consults/Procedures package. For example, a clinician places an order for a procedure, such as an EKG, in the Consults/Procedures application.
+> CP provides features that can be used across clinical departments such as general medicine, cardiology, pulmonary, women's health, neurology, and rehabilitation medicine. CP uses the procedure order function that is included with the Consults/Procedures package. For example, a clinician places an order for a procedure, such as an EKG, in the Consults/Procedures application.
 
 > If the procedure is performed on a bi-directional instrument, the patient demographics are automatically transmitted to the instrument. When the procedure is complete, the result is then transmitted back to VistA. The result is stored in VistA Imaging and associated with a TIU document. The result and the TIU document are then associated with the original Consults order.
 
@@ -334,7 +382,7 @@ prior_versions:
 <tr class="header">
 <th></th>
 <th><blockquote>
-<p>Procedure request status = “Partial Results”</p>
+<p>Procedure request status = "Partial Results"</p>
 </blockquote></th>
 <th></th>
 </tr>
@@ -376,7 +424,7 @@ prior_versions:
 <tr class="header">
 <th></th>
 <th><blockquote>
-<p>Procedure request status = “Partial Results”</p>
+<p>Procedure request status = "Partial Results"</p>
 </blockquote></th>
 <th></th>
 </tr>
@@ -456,7 +504,7 @@ prior_versions:
 
 > Point to Clinical Procedures Project, then click Documentation. When the Documentation page displays, click Clinical Procedures Documents, then click The CP Implementation Process (Webpage). This list includes a high-level step-by-step guide to the installation and the implementation process.
 
-> 1 MD\*1.0\*6 May 2008 Changed document name from “Site Installation Checklist” to “The CP Implementation Process (Webpage).” Revised directions to access the document.
+> 1 MD\*1.0\*6 May 2008 Changed document name from "Site Installation Checklist" to "The CP Implementation Process (Webpage)." Revised directions to access the document.
 
 ## General CP Package Information
 
@@ -637,13 +685,13 @@ DISUSER: TERMINATION DATE:
 
 > COMMAND: Press \<PF1\>H for help Insert
 
-- When you are finished, enter “SAVE” at the COMMAND field to save the data and enter “EXIT” to exit the editor.
+- When you are finished, enter "SAVE" at the COMMAND field to save the data and enter "EXIT" to exit the editor.
 
 > COMMAND: SAVE Press \<PF1\>H for help Insert
 
 > COMMAND: EXIT Press \<PF1\>H for help Insert
 
-- Once the option(s) are added, the person can enter “??” at the primary menu option to get a listing of the secondary menu option and can see the new added option(s).
+- Once the option(s) are added, the person can enter "??" at the primary menu option to get a listing of the secondary menu option and can see the new added option(s).
 
 > Select Core Applications Option: ??
 
@@ -1013,7 +1061,7 @@ DISUSER: TERMINATION DATE:
 
 > 1EVERY Local Title must be mapped to a VHA Enterprise Standard Title.
 
-> *(See example in the following section: “Example of New TIU Prompts”)*
+> *(See example in the following section: "Example of New TIU Prompts")*
 
 > STATUS: (A/I/T): INACTIVE// A ACTIVE SEQUENCE: \<RET\>
 
@@ -1077,7 +1125,7 @@ DISUSER: TERMINATION DATE:
 
 > Several new TIU prompts display as *each word* of the new TIU note title is run through a series of checks against the national list.
 
-> In the following example, the name of the new TIU note title is “CP HEMOTEST.”
+> In the following example, the name of the new TIU note title is "CP HEMOTEST."
 
 > EVERY Local Title must be mapped to a VHA Enterprise Standard Title.
 
@@ -1143,7 +1191,7 @@ DISUSER: TERMINATION DATE:
 
 > Done.
 
-> In the example above, “DIALYSIS NOTE” was selected as the VHA Enterprise Standard Title. You may use DIALYSIS NOTE as your title, but you are not required to do so. If another title from the VHA Enterprise Standard Title list is more appropriate for your site, you may select it from the list.
+> In the example above, "DIALYSIS NOTE" was selected as the VHA Enterprise Standard Title. You may use DIALYSIS NOTE as your title, but you are not required to do so. If another title from the VHA Enterprise Standard Title list is more appropriate for your site, you may select it from the list.
 
 > 1For the high volume procedure(s), there are two steps that you need to do: 1) you must create a title solely for high volume procedure and 2) you must edit the Technical fields of the note.
 
@@ -1324,7 +1372,7 @@ DISUSER: TERMINATION DATE:
 </tbody>
 </table>
 
-> Note: You must set parameters marked with an asterisk ‘\*’. If a response is not entered for a particular parameter, the default value is ‘No’.
+> Note: You must set parameters marked with an asterisk '\*'. If a response is not entered for a particular parameter, the default value is 'No'.
 
 > 5\. If you selected a different treating specialty folder, a confirmation message is displayed. Click OK to confirm that the procedure is in the correct treating specialty folder.
 
@@ -1471,7 +1519,7 @@ DISUSER: TERMINATION DATE:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Select if you want to bypass CRC (Cyclical Redundancy Check) during startup. When a CP application starts up, it can check with the server to be sure that the checksum of the application that is running is the same as the checksum of the application that was distributed. If the checksum values do not match, a message displays stating that the values do not match. Even if values don’t match, you can continue using CP.
+> Select if you want to bypass CRC (Cyclical Redundancy Check) during startup. When a CP application starts up, it can check with the server to be sure that the checksum of the application that is running is the same as the checksum of the application that was distributed. If the checksum values do not match, a message displays stating that the values do not match. Even if values don't match, you can continue using CP.
 
 > The checksum value is associated with the version number of the software. You might want to bypass this check when your site is running CP in test mode. If you are running different versions of the application, then the checksum values will not match.
 
@@ -1503,7 +1551,7 @@ DISUSER: TERMINATION DATE:
 
 > A site can check that a specific build of the application is running on the client. This level of checking is not mandatory and you can use the Bypass CRC Checking parameter if the site does not want this level of security.
 
-> If a site is running more than one version of the application or is testing a new patch, this field can contain multiple entries, (Figure 6-11). Each entry contains the name of the application with extension (no directory path) followed by a colon ‘:’ and the executable version number ‘#.#.#.#’. Each of these entries contains the CRC value for that particular version of the executable. You can also obtain CRC values for a version of an executable from the About menu or by selecting CP Manager \> Tools \> Calculate a File’s CRC Value.
+> If a site is running more than one version of the application or is testing a new patch, this field can contain multiple entries, (Figure 6-11). Each entry contains the name of the application with extension (no directory path) followed by a colon ':' and the executable version number '#.#.#.#'. Each of these entries contains the CRC value for that particular version of the executable. You can also obtain CRC values for a version of an executable from the About menu or by selecting CP Manager \> Tools \> Calculate a File's CRC Value.
 
 > Note: The MDPOST routine in the KIDS build sets this field during installation. The data in the parameter is predefined. Do not modify this parameter unless the site is performing local modifications to the client software
 
@@ -1511,13 +1559,13 @@ DISUSER: TERMINATION DATE:
 
 > 1Figure 6-11
 
-### Calculating a File’s CRC Value
+### Calculating a File's CRC Value
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> You can calculate a file’s CRC (Cyclical Redundancy Check) value to determine if the file is the exact same file as the one that was distributed. CRC values are recalculated every time an application is compiled.
+> You can calculate a file's CRC (Cyclical Redundancy Check) value to determine if the file is the exact same file as the one that was distributed. CRC values are recalculated every time an application is compiled.
 
-#### Select Tools \> Calculate a file’s CRC Value.
+#### Select Tools \> Calculate a file's CRC Value.
 
 1.  Select the file.
 2.  You can copy the CRC value and paste it into a text file for reference purposes.
@@ -1528,7 +1576,7 @@ DISUSER: TERMINATION DATE:
 
 > Enter the number of days (0-365) to save data from auto-instruments, after the data has been associated with a Clinical Procedures study. If the data has not been associated with a study, the data is not purged from the temporary storage area. Enter 0 or leave the field empty if you want the data to be retained forever.
 
-> Note: CP Gateway purges data daily. This purge only deletes the raw data that comes from the instrument. CP Gateway keeps data for a specified number of days based on the entry in “Days to keep Instrument Data”. Data older than this is purged. The data in Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the CP Results file (#703.1) are purged.
+> Note: CP Gateway purges data daily. This purge only deletes the raw data that comes from the instrument. CP Gateway keeps data for a specified number of days based on the entry in "Days to keep Instrument Data". Data older than this is purged. The data in Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the CP Results file (#703.1) are purged.
 
 ### Imaging File Types
 
@@ -1603,13 +1651,13 @@ DISUSER: TERMINATION DATE:
 - MD CLINICS WITH MULT PROC
 - MD USE APPT WITH PROCEDURE
 
-> A new option called MD AUTO CHECK-IN SETUP was added to setup and implement procedures that will use auto study check-in. Once a procedure is set up to use the auto study check-in functionality in the MD CHECK-IN SETUP option, the software will check-in any existing order requests with the status of “PENDING”, “ACTIVE”, and “SCHEDULED” in the Consult Request Tracking package.
+> A new option called MD AUTO CHECK-IN SETUP was added to setup and implement procedures that will use auto study check-in. Once a procedure is set up to use the auto study check-in functionality in the MD CHECK-IN SETUP option, the software will check-in any existing order requests with the status of "PENDING", "ACTIVE", and "SCHEDULED" in the Consult Request Tracking package.
 
 > Note: If your site uses appointments, schedule them before you enter the procedures for auto check-in. If you do not, the patients associated with those appointments will need to be manually checked in.
 
 > This option collects the following information:
 
-- Use Appointment with procedure? (Yes/No) (Required) – The default is “NO”, if the site does not schedule procedures before the order is entered. Enter “YES” if the procedure appointment is scheduled before the order is entered and the ordering provider selects the appointment for the procedure during ordering in CPRS.
+- Use Appointment with procedure? (Yes/No) (Required) – The default is "NO", if the site does not schedule procedures before the order is entered. Enter "YES" if the procedure appointment is scheduled before the order is entered and the ordering provider selects the appointment for the procedure during ordering in CPRS.
 - Procedure (Required)– Enter the CP Definition that will be using the auto study check-in functionality.
 - Schedule Appointment? (Required) - Enter 0 for None, 1 for Outpatient, 2 for Inpatient, or 3 for Both. This indicates that the site schedules appointments for inpatient, outpatients, both, or none.
 - Clinic (Optional) – Enter the hospital location(s) that will be used for scheduling the procedure.
@@ -1710,7 +1758,7 @@ DISUSER: TERMINATION DATE:
 
 > There are three XPAR Parameters exported with patch MD\*1.0\*21. They are the MD GET HIGH VOLUME, MD NOT ADMN CLOSE MUSE NOTE, and MD USE NOTE.
 
-> The MD HIGH VOLUME PROCEDURE SETUP option is used for the high volume procedure enhancement. It lets users enter procedures that are high volume such as the electrocardiogram. The users can also indicate whether the text impression should be obtained from the Health Level 7 message from the device and add it to the note or add it to the Significant Findings of the procedure. This option excludes the selection of Hemodialysis procedures because they are handled through the CP Hemodialysis application and procedures that have “Cumulative Result” as the PROCESSED RESULT. The table below shows different ways to setup a high volume procedure:
+> The MD HIGH VOLUME PROCEDURE SETUP option is used for the high volume procedure enhancement. It lets users enter procedures that are high volume such as the electrocardiogram. The users can also indicate whether the text impression should be obtained from the Health Level 7 message from the device and add it to the note or add it to the Significant Findings of the procedure. This option excludes the selection of Hemodialysis procedures because they are handled through the CP Hemodialysis application and procedures that have "Cumulative Result" as the PROCESSED RESULT. The table below shows different ways to setup a high volume procedure:
 
 <table>
 <colgroup>
@@ -1795,11 +1843,11 @@ DISUSER: TERMINATION DATE:
 
 > An example of how the option is used to setup a Colonoscopy with significant findings is shown below.
 
-> If “NO” is entered for the prompt, “Do Not Auto Close Note?”, the proxy user will be used to auto close the note. If “YES”, Significant findings will be used. The only time the user will see the prompt “Use Interpreter to Close the Note?”, is when the procedure uses the Muse device such as the EKGs.
+> If "NO" is entered for the prompt, "Do Not Auto Close Note?", the proxy user will be used to auto close the note. If "YES", Significant findings will be used. The only time the user will see the prompt "Use Interpreter to Close the Note?", is when the procedure uses the Muse device such as the EKGs.
 
-> At the Procedure prompt, you can enter a “?”. At initial data entry, there will be no display but the CP Definition search is available. Once you have setup procedures, you will see a list of the procedures entered displayed when you enter a question mark. You will see the procedure name, text or no text, and Auto (auto closure with proxy), SF (Significant Findings), or Muse Interpreter) displayed; otherwise, you can search for a CP Definition.
+> At the Procedure prompt, you can enter a "?". At initial data entry, there will be no display but the CP Definition search is available. Once you have setup procedures, you will see a list of the procedures entered displayed when you enter a question mark. You will see the procedure name, text or no text, and Auto (auto closure with proxy), SF (Significant Findings), or Muse Interpreter) displayed; otherwise, you can search for a CP Definition.
 
-> You can remove an existing procedure that was setup as a high volume procedure. When you select a procedure that was already entered, the option will prompt you with a question, “ Delete current procedure setup? NO//” that has a default answer of “NO”. If “YES” is entered, the procedure will be deleted from the high volume procedure list.
+> You can remove an existing procedure that was setup as a high volume procedure. When you select a procedure that was already entered, the option will prompt you with a question, " Delete current procedure setup? NO//" that has a default answer of "NO". If "YES" is entered, the procedure will be deleted from the high volume procedure list.
 
 # 1Application Proxy User
 
@@ -1881,7 +1929,7 @@ DISUSER: TERMINATION DATE:
 
 > The two options needs to be scheduled to run daily.
 
-> Schedule the option MD SCHEDULED STUDIES to start the next day after patch installation at 4am. This task will process the studies that are associated with the appointments that are dated for that day. If the procedure request is associated with a future appointment, the study that is auto checked-in will have a status of “New”. The MD SCHEDULED STUDIES task will process the study and change the status to “Pending Instrument Data”.
+> Schedule the option MD SCHEDULED STUDIES to start the next day after patch installation at 4am. This task will process the studies that are associated with the appointments that are dated for that day. If the procedure request is associated with a future appointment, the study that is auto checked-in will have a status of "New". The MD SCHEDULED STUDIES task will process the study and change the status to "Pending Instrument Data".
 
 > Sample Screen capture of the scheduled option:
 
@@ -1913,7 +1961,7 @@ Scheduled Options
 
 > NOTE: It is recommended that all three tasks have the SPECIAL QUEUEING field be set as Startup Persistent so if the task is stopped unexpectedly, it will be re-started
 
-> 1Patch MD\*1\*21 exported a new option, MD PROCESS RESULTS, that needs to be scheduled with the frequency of every hour daily. This task will update the procedure status to “Complete”. This task will work in conjunction with the administrative closure of the high volume procedure note.
+> 1Patch MD\*1\*21 exported a new option, MD PROCESS RESULTS, that needs to be scheduled with the frequency of every hour daily. This task will update the procedure status to "Complete". This task will work in conjunction with the administrative closure of the high volume procedure note.
 
 > 1 Patch MD\*1.0\*21 June 2010 Added new scheduled option MD PROCESS RESULTS.
 
@@ -1940,7 +1988,7 @@ Scheduled Options
 
 #### Create a New Consult Service/Define an Interpreter:
 
-> You use the Consult Management menu to create a new consult service, to define an interpreter, and add that new consult service under the All Services specialty/subspecialty. A new consult service has to be added to the “All Services” specialty/subspecialty before the CP procedures will appear on the Consults tab in CPRS.
+> You use the Consult Management menu to create a new consult service, to define an interpreter, and add that new consult service under the All Services specialty/subspecialty. A new consult service has to be added to the "All Services" specialty/subspecialty before the CP procedures will appear on the Consults tab in CPRS.
 
 > RPT Consult Tracking Reports ... SS Set up Consult Services
 
@@ -2050,7 +2098,7 @@ Scheduled Options
 
 #### Editing Users of an Existing Consult Service:
 
-> You can also use the Service User Management option to edit a Consult Service’s Update Users fields.
+> You can also use the Service User Management option to edit a Consult Service's Update Users fields.
 
 > RPT Consult Tracking Reports ... SS Set up Consult Services
 
@@ -2084,11 +2132,11 @@ Scheduled Options
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Consult procedures in the GMRC file (#123.3) must be linked to clinical procedures. Be sure to use the “CP” prefix when you create new consult procedures to differentiate them from other consult procedures.
+> Consult procedures in the GMRC file (#123.3) must be linked to clinical procedures. Be sure to use the "CP" prefix when you create new consult procedures to differentiate them from other consult procedures.
 
 > The following example shows how to create the consult procedure CP EKG 12 LEAD STAT and link it to the clinical procedure definition EKG, ROUTINE (12 LEADS).
 
-> 1Note: Add the text “Visit Date: \|VISIT DATE\|“ to the first line of the DEAFULT REASON FOR REQUEST field. This will allow CP to pick up the appointment date/time from CPRS for the order request and use it for the auto CP study check-in. If you do not use appointments at all, you can skip the adding of the text. If your site schedules appointments, but the ordering provider does not select the appointment during ordering, you can still add the text. If there is already text in the DEFAULT REASON FOR REQUEST field, add the visit date text to the very first line.
+> 1Note: Add the text "Visit Date: \|VISIT DATE\|" to the first line of the DEAFULT REASON FOR REQUEST field. This will allow CP to pick up the appointment date/time from CPRS for the order request and use it for the auto CP study check-in. If you do not use appointments at all, you can skip the adding of the text. If your site schedules appointments, but the ordering provider does not select the appointment during ordering, you can still add the text. If there is already text in the DEFAULT REASON FOR REQUEST field, add the visit date text to the very first line.
 
 > Select Consult Management Option: PR Setup procedures Select Procedure:CP EKG 12 LEAD STAT
 
@@ -2114,7 +2162,7 @@ Scheduled Options
 
 > 1\>Visit Date: \|VISIT DATE\|
 
-> 2\>Patient’s heart is beating abnormally. Needs analysis.
+> 2\>Patient's heart is beating abnormally. Needs analysis.
 
 > Edit? NO// \<RET\>
 
@@ -2152,7 +2200,7 @@ Scheduled Options
 
 > RESTRICT DEFAULT REASON EDIT: Set to UNRESTRICTED, NO EDITING, or ASK
 
-> ON EDIT ONLY. If ASK ON EDIT ONLY is used, the user can only edit the default reason if the order is edited before releasing to the service. If a default reason for request exists, the option set in this field affects the ordering person’s ability to edit the default reason.
+> ON EDIT ONLY. If ASK ON EDIT ONLY is used, the user can only edit the default reason if the order is edited before releasing to the service. If a default reason for request exists, the option set in this field affects the ordering person's ability to edit the default reason.
 
 # Setting Up CPRS for Clinical Procedures
 
@@ -2167,7 +2215,7 @@ Scheduled Options
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> You must enable the CONSULT/PROC INTERPRETATION notification if you want to receive the “Ready for interpretation” alert in CPRS. You can enable the alert for one user, several users, or for the entire service. Use the Notification Mgmt Menu \[ORB NOT COORD MENU\].
+> You must enable the CONSULT/PROC INTERPRETATION notification if you want to receive the "Ready for interpretation" alert in CPRS. You can enable the alert for one user, several users, or for the entire service. Use the Notification Mgmt Menu \[ORB NOT COORD MENU\].
 
 1.  Enable/Disable Notifications
 2.  Erase Notifications
@@ -2595,7 +2643,7 @@ Scheduled Options
 
 > When data is needed and the user is the primary encounter provider, continued checks are made during the note-signing process to determine if there is still missing data. The user is continually prompted to enter the data, regardless of the ORWPCE FORCE PCE ENTRY setting.
 
-> If data is not needed or if the user is not the primary encounter provider, “Yes” and “No” prompts are displayed and the user determines what to enter.
+> If data is not needed or if the user is not the primary encounter provider, "Yes" and "No" prompts are displayed and the user determines what to enter.
 
 > Add CP User to the CPRS Tools Menu (ORWT TOOLS MENU)
 
@@ -2609,9 +2657,9 @@ Scheduled Options
 
 #### Notes:
 
-- You must surround a path that contains space characters, such as C:\Program Files\\.. with quotation marks. You can also include switches in the path. Here’s an example:
+- You must surround a path that contains space characters, such as C:\Program Files\\.. with quotation marks. You can also include switches in the path. Here's an example:
 
-> CP User=”C:\Program Files\Clinical Procedures\CP User.exe” /cprs
+> CP User="C:\Program Files\Clinical Procedures\CP User.exe" /cprs
 
 > /dfn=%DFN /s=%SRV /p=%PORT
 
@@ -2631,7 +2679,7 @@ Scheduled Options
 
 > Figure 10-1
 
-> When you select “CP User” from the CPRS Tools menu, CP User is displayed and the actual server, port, and global reference are substituted for the command line switches.
+> When you select "CP User" from the CPRS Tools menu, CP User is displayed and the actual server, port, and global reference are substituted for the command line switches.
 
 <table>
 <colgroup>
@@ -2752,7 +2800,7 @@ Scheduled Options
 
 > ![](md-1-21-implementation-guide-change-pages/034.png)
 
-> Find the Health Summary component that you have created and select it. Enter the Occurrence Limit and Time Limit that you want. The Occurrence Limits field is the number of reports that you want displayed and the Time Limit is the date range to find the report such as 1Y (1 year). Once you click the “OK” button, you should generate only EKG reports found for that occurrence and time limit.
+> Find the Health Summary component that you have created and select it. Enter the Occurrence Limit and Time Limit that you want. The Occurrence Limits field is the number of reports that you want displayed and the Time Limit is the date range to find the report such as 1Y (1 year). Once you click the "OK" button, you should generate only EKG reports found for that occurrence and time limit.
 
 12. Clinical Procedures V. 1.0 April 2004
 
@@ -2820,7 +2868,7 @@ Yes
 
 > Figure 11-1
 
-> Click Show Log to view the application log. A session log is kept for the currently running session but is not saved to the workstation’s hard drive for patient security reasons.
+> Click Show Log to view the application log. A session log is kept for the currently running session but is not saved to the workstation's hard drive for patient security reasons.
 
 > 1 Patch MD\*1.0\*14 March 2008 Added information about launching the CP Gateway.
 
@@ -2903,7 +2951,7 @@ Yes
 
 > You need to set up IP addresses and ports for the medical devices at your facility.
 
-> An IP address consists of a string of four numbers each ranging in value from 0 to 255. Here is an example of an IP address: 10.23.55.201. When a new device is installed, be careful when you assign IP addresses to the medical devices. It’s recommended that you set aside a block of IP addresses specifically for the medical devices. The range of numbers chosen is up to the facility, but make sure that there is a large enough range to allow for some growth. For example, IP addresses 10.23.55.201 through 10.23.55.225 could be blocked and used. In this way, the IRM staff can track down any possible problems that may be related to the medical device by looking at the IP address.
+> An IP address consists of a string of four numbers each ranging in value from 0 to 255. Here is an example of an IP address: 10.23.55.201. When a new device is installed, be careful when you assign IP addresses to the medical devices. It's recommended that you set aside a block of IP addresses specifically for the medical devices. The range of numbers chosen is up to the facility, but make sure that there is a large enough range to allow for some growth. For example, IP addresses 10.23.55.201 through 10.23.55.225 could be blocked and used. In this way, the IRM staff can track down any possible problems that may be related to the medical device by looking at the IP address.
 
 > A port is the location on a medical device where you send and receive data. Some ports have predefined functions. For example, Port 80 is set up for the Web Server. Some vendors have predefined ports that they may want you to use. For example, Sensormedics recommends using Port 20000 for the VMAX. Others may only allow a limited range. Consult the device manual to determine which ports you can use.
 
@@ -2936,13 +2984,13 @@ Yes
 <tr class="header">
 <th><blockquote>
 <p><strong>Creating a Logical Link</strong></p>
-<p>A logical link is an inbound or an outbound instrument data port from and to the medical device. It’s a listener waiting for data to come across. The first logical link (MCAR INST) is already created by default. To create a new HL7 single listener logical link for your device, you need to create a new logical link or edit an existing one. Each bi-directional device that receives information from VistA and CP needs its own outbound link set up. All non-persistent devices can share the same inbound logical link, but persistent devices each need their own inbound logical links.</p>
+<p>A logical link is an inbound or an outbound instrument data port from and to the medical device. It's a listener waiting for data to come across. The first logical link (MCAR INST) is already created by default. To create a new HL7 single listener logical link for your device, you need to create a new logical link or edit an existing one. Each bi-directional device that receives information from VistA and CP needs its own outbound link set up. All non-persistent devices can share the same inbound logical link, but persistent devices each need their own inbound logical links.</p>
 </blockquote>
 <ol type="1">
 <li><p>Decide which port to use. The facility, along with IRM, determines which port to use. This is the port used by the device to send data to the VistA listener. You can, for example, use port 1026 for Hemodialysis results and port 1027 for Sensormedics results. Do not use port 5000 for this type of setup. (See below for more information on port 5000.)</p></li>
 <li><p>From the Systems Manager Menu, choose HL Main Menu (<strong>HL</strong>) &gt; Interface Developer Options (<strong>IN</strong>) &gt; Link Edit (<strong>EL</strong>).</p></li>
 <li><p>At the Select HL Logical Link Note prompt, enter the <strong>name of the new logical link</strong> for your device. Name your new inbound logical link something like MCAR2 INST. The next one (if you use more than one high-volume device) can be called MCAR3 INST, etc. For an outbound logical link, the following naming convention is suggested: MCAR xxx, where xxx is the first three characters of the device or vendor name. (For example, an outbound link for an Olympus device could be named MCAR OLY.)</p></li>
-<li><p>Type <strong>yes</strong> when asked if you are adding ‘MCAR2 INST’ as a new HL LOGICAL LINK. The HL7 LOGICAL LINK screen displays.</p></li>
+<li><p>Type <strong>yes</strong> when asked if you are adding 'MCAR2 INST' as a new HL LOGICAL LINK. The HL7 LOGICAL LINK screen displays.</p></li>
 </ol></th>
 </tr>
 </thead>
@@ -3121,14 +3169,14 @@ Yes
 > To create a protocol client from for your new logical link using a copy, follow these steps:
 
 1.  Look at the protocol in 101 or use developer tools. Copy MCAR DEVICE CLIENT to make a new device client. Name it something like MCAR2 DEVICE CLIENT.
-2.  Change the entry in the Logical Link field to match the new logical link. For example, if you just created a logical link named MCAR2 INST, change what’s in the Logical Link field from MCAR INST to MCAR2 INST. All other fields should match what was originally in MCAR DEVICE CLIENT.
+2.  Change the entry in the Logical Link field to match the new logical link. For example, if you just created a logical link named MCAR2 INST, change what's in the Logical Link field from MCAR INST to MCAR2 INST. All other fields should match what was originally in MCAR DEVICE CLIENT.
 3.  Proceed to the next section to make the new device protocol a subscriber to the device server.
 
 > To create a new protocol client for your new logical link, do the following:
 
 1.  From the Systems Manager Menu, choose HL Main Menu (HL) \> Interface Developer Options (IN) \> Protocol Edit (EP).
 2.  At the Select PROTOCOL NAME prompt, enter the name of the new device client for your device. Name your new device client something like MCAR2 Device Client or MCAR2 MUSE (depending on the device name).
-3.  Type yes (or simply type y) when asked if you are adding ‘MCAR2 Device Client’ as a new PROTOCOL.
+3.  Type yes (or simply type y) when asked if you are adding 'MCAR2 Device Client' as a new PROTOCOL.
 4.  Enter Instrument Device Client in the PROTOCOL ITEM TEXT field.
 5.  Enter an appropriate identifier in the PROTOCOL IDENTIFIER field. The HL7 INTERFACE SETUP screen displays.
 6.  \[Tab\] down to the TYPE field and enter subscriber, then press \[Enter\] to display PAGE 2 OF 2.
@@ -3176,7 +3224,7 @@ Yes
 
 5.  Select B for Background. (B is the default, so just press \[Enter\].
 6.  If you have more logical links to activate, repeat steps 4-5.
-7.  If you haven’t done this already, use the CP Manager application to configure the device you are using. Refer to <u>Editing an Automated Instrument</u>, p. 6-3.
+7.  If you haven't done this already, use the CP Manager application to configure the device you are using. Refer to <u>Editing an Automated Instrument</u>, p. 6-3.
 8.  Proceed to the next section to make the new device protocol a subscriber to the device server.
 
 ### Adding a Device Client as a Server Subscriber
@@ -3219,11 +3267,11 @@ Yes
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Port 5000 is a Multi-Port Listener. The only reason to use the multiport listener is if your inbound port doesn’t work correctly because Cache is not handling ports correctly.
+> Port 5000 is a Multi-Port Listener. The only reason to use the multiport listener is if your inbound port doesn't work correctly because Cache is not handling ports correctly.
 
 > If Cache is handling ports correctly, then you should let Cache handle them. Use the individually shared ports for your devices rather than using the Multi-Port Listener.
 
-> If you’re at a facility that has listener problems under Cache, then use port 5000. Port 5000 is handled by VMS, not Cache.
+> If you're at a facility that has listener problems under Cache, then use port 5000. Port 5000 is handled by VMS, not Cache.
 
 > Most sites allocate 25 ports to port 5000, but more can be allocated, if necessary.
 
@@ -3231,9 +3279,9 @@ Yes
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> A single port is easier to monitor and debug. It’s easy to determine if the problem is caused by the link or something else.
+> A single port is easier to monitor and debug. It's easy to determine if the problem is caused by the link or something else.
 
-> If you set up another Multi-Port Listener, you have to set it up in VMS. You’ll have to do that through UCX, which is a lot of work and beyond the scope of this document,
+> If you set up another Multi-Port Listener, you have to set it up in VMS. You'll have to do that through UCX, which is a lot of work and beyond the scope of this document,
 
 ### Setting Up Port 5000
 
@@ -3244,7 +3292,7 @@ Yes
 
 > 1 Patch MD\*1.0\*9 November 2007 Using Port 5000 with CACHE.
 
-3.  You don’t need to set up an additional MCAR INST (logical link) because you’re using an existing logical link which is VAxxx, where xxx is an abbreviation for the hospital (e.g., VAHIN for Hines).
+3.  You don't need to set up an additional MCAR INST (logical link) because you're using an existing logical link which is VAxxx, where xxx is an abbreviation for the hospital (e.g., VAHIN for Hines).
 4.  Make it an MCAR DEVICE server subscriber.
 
 ## File Settings
@@ -3295,15 +3343,15 @@ Yes
 
 > Note: When you need to create additional HL7 links for new devices, name the link in the following format:
 
-- If you need to create more than one inbound link (MCAR INST), name the new links “MCAR”, followed by a number (1,2,3), a space, and then “INST”.
+- If you need to create more than one inbound link (MCAR INST), name the new links "MCAR", followed by a number (1,2,3), a space, and then "INST".
 
 > Example: MCAR2 INST
 
-- Name outbound links “MCAR”, followed by a number (1,2,3), a space, and then a name for the device.
+- Name outbound links "MCAR", followed by a number (1,2,3), a space, and then a name for the device.
 
 > Example: MCAR2 SMC
 
-> See “Configuration Instructions Information” for information on setting the TCP/IP address and port and the Startup Mode.
+> See "Configuration Instructions Information" for information on setting the TCP/IP address and port and the Startup Mode.
 
 #### Protocol (#101) file:
 
@@ -3423,7 +3471,7 @@ Yes
 
 > Figure 13-5
 
-8.  Make sure the check boxes are selected in the “Allow” column for “Full Control”, “Change” and “Read” (Figure 13-5).
+8.  Make sure the check boxes are selected in the "Allow" column for "Full Control", "Change" and "Read" (Figure 13-5).
 9.  Click Apply and then click OK. A hand displays under the file, which means that the file is now accessible to the VistA Imaging user.
 10. To test that the shared folder is set up correctly, have the VistA Imaging coordinator logon as VHAISHIU on a different PC. Check that the shared folder is viewable.
 
@@ -3441,10 +3489,10 @@ Yes
 
 1.  Highlight the CP application icon on your desktop. (When CP in installed, shortcuts for the applications are created on the desktop.)
 2.  Right-click, and then click Properties.
-3.  Enter the command line switch “/nonsharedbroker” in the Target field.
+3.  Enter the command line switch "/nonsharedbroker" in the Target field.
 4.  Press OK.
 
-> You can also add the “/nonsharedbroker” switch to the applications in Start \> Programs \>
+> You can also add the "/nonsharedbroker" switch to the applications in Start \> Programs \>
 
 #### Clinical Procedures.
 
@@ -3481,7 +3529,7 @@ Yes
 
 > CLINICAL PROCEDURE: EKG, ROUTINE (12 LEADS)// \<RET\>
 
-> If you entered “?” in the Clinical Procedure field and you do not find a procedure that you want, use CP Manager to define and activate the CP procedures.
+> If you entered "?" in the Clinical Procedure field and you do not find a procedure that you want, use CP Manager to define and activate the CP procedures.
 
 2.  Open CP Manager.
 3.  Enter the name of the CP Procedure in the Procedure Name field. See <u>Setting Up Clinical Procedures</u>, p. 6-1.
@@ -3490,7 +3538,7 @@ Yes
     1.  Open CP Manager.
     2.  Expand the Procedures folder, and then select the procedure.
     3.  In the Allowable Instruments list, select the check box for the specific instrument.
-5.  After a study is checked-in, you can’t find the study entry in CP User.
+5.  After a study is checked-in, you can't find the study entry in CP User.
     1.  Open CP Manager.
 
 > d\) Expand the Procedures folder, and then select the procedure.
@@ -3590,12 +3638,12 @@ Yes
 2.  Click Clinical Procedures.
 3.  Click System Parameters.
 4.  Check the path of the Imaging Network Share. (The Imaging Network Share must be a shared directory that can be accessed by the Imaging Background Processor and CP Gateway.)
-12. If a study remains in “Submitted” status, check the Imaging Background Processor log for errors and make sure that the “Import” checkbox is checked for the Import BP parameter.
+12. If a study remains in "Submitted" status, check the Imaging Background Processor log for errors and make sure that the "Import" checkbox is checked for the Import BP parameter.
 
 > From the Background Processor, choose Edit \> BP Workstation Parameters. (You may need to find someone who is responsible for the Imaging Background Processor application.)
 
 13. If the Interpreter does not receive an alert that the procedure is ready for interpretation, check if the CONSULT/PROC INTERPRETATION notification is enabled and if the user has the Interpreter role.
-    1.  You must enable the CONSULT/PROC INTERPRETATION notification if you want to receive the “Ready for interpretation” alert in CPRS. You can enable the alert for one user, several users, or for the entire service. Use the Notification Management Menu.
+    1.  You must enable the CONSULT/PROC INTERPRETATION notification if you want to receive the "Ready for interpretation" alert in CPRS. You can enable the alert for one user, several users, or for the entire service. Use the Notification Management Menu.
     2.  To assign the interpreter role, use the Consult Management menu. If user wants to receive alerts, do not enter them into the Update Users W/O Notifications field. This field is for users who want the role of interpreter but do not want to receive alerts. Refer to <u>Setting Up Consult Services</u>, p. 9-1.
 
 > Select Consult Management Option: SU Service User Management Select Service/Specialty: GASTROENTEROLOGY
@@ -3637,7 +3685,7 @@ Yes
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > Access Code A unique sequence of characters known by and assigned only to the user, the system manager and/or designated alternate(s). The access code (in conjunction with the verify code) is used by the computer to identify authorized users.
-> Action A functional process that a clinician uses in a computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.
+> Action A functional process that a clinician uses in a computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.
 > ADP Coordinator/ADPAC/Application Coordinator Automated Data Processing Application Coordinator. The person responsible for implementing a set of computer programs (application package) developed to support a specific functional area such as clinical procedures, PIMS, etc.
 > Application A system of computer programs and files that have been specifically developed to meet the requirements of a user or group of users.
 > Archive The process of moving data to some other storage medium, usually a magnetic tape, and deleting the information from active storage in order to free-up disk space on the system.
@@ -3657,10 +3705,10 @@ Yes
 > Background Processing Simultaneous running of a "job" on a computer while working on another job. Examples would be printing of a document while working on another, or the software might do automatic saves while you are working on something else.
 > Backup Procedures The provisions made for the recovery of data files and program libraries and for restart or replacement of ADP equipment after the occurrence of a system failure.
 > Boilerplate Text A pre-defined TIU template that can be filled in for titles to speed up the entry process. TIU exports several titles with boilerplate text, which can be modified to meet specific needs; sites can also create their own.
-> Browse Lookup the file folder for a file that you would like to select and attach to the study. Such as clicking the “...” button to start a lookup.
+> Browse Lookup the file folder for a file that you would like to select and attach to the study. Such as clicking the "..." button to start a lookup.
 > Bulletin A canned message that is automatically sent by mail to a user when something happens to the database.
 > Business Rule Part of ASU, Business Rules authorize specific users or groups of users to perform specified actions on documents in particular statuses (e.g., an unsigned CP note may be edited by a provider who is also the expected signer of the note).
-> Class Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
+> Class Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
 > Consult Referral of a patient by the primary care physician to another hospital service/ specialty, to obtain a medical opinion based on patient evaluation and completion of any procedures, modalities, or treatments the consulting specialist deems necessary to render a medical opinion.
 > Contingency Plan A plan that assigns responsibility and defines procedures for use of the backup/restart/recovery and emergency preparedness procedures selected for the computer system based on risk analysis for that system.
 > CP Clinical Procedures.
@@ -3676,7 +3724,7 @@ Yes
 > File Server A machine where shared software is stored.
 > Gateway The software that performs background processing for Clinical Procedures.
 > GUI Graphical User Interface – a Windows interface that uses pull-down menus, icons, pointer devices, and other metaphor-type elements that make a computer program, easier to use and that allows multi-processing (more than one window or process available at once).
-> Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the findings or results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are ‘clinical update users’ for a given consult service.
+> Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the findings or results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are 'clinical update users' for a given consult service.
 > IRMS Information Resource Management Service.
 > Kernel A set of software utilities. These utilities provide data processing support for the application packages developed within the VA. They are also tools used in configuring the local computer site to meet the particular needs of the hospital. The components of this operating system include: MenuMan, TaskMan, Device Handler, Log-on/Security, and other specialized routines.
 > M Formerly known as MUMPS or the Massachusetts (General Hospital) Utility Multi- Programming System. This is the programming language used to write all VistA applications.
@@ -5411,7 +5459,7 @@ CP Gateway, 1-8
 > system parameter reports printing, 2-4
 > system parameters
 > allow non-instrument attachments, 6-22 bypass CRC checking, 6-23
-> calculating a file’s CRC value, 6-26 Clinical Procedures home page, 6-23 Clinical Procedures on-line, 6-23 CP/BGP Transfer Directory, 6-23 CRC values, 6-25
+> calculating a file's CRC value, 6-26 Clinical Procedures home page, 6-23 Clinical Procedures on-line, 6-23 CP/BGP Transfer Directory, 6-23 CRC values, 6-25
 > days to keep instrument data, 6-26 imaging file types, 6-26
 > offline message, 6-28
 > setting up, 6-21
@@ -5524,7 +5572,7 @@ Fig. 4-1
 
 > The CLINICAL PROCEDURES CLASS is installed with patch TIU\*1.0\*109 and is automatically set to Active.
 
-#### It is strongly recommended that you create Clinical Procedures Titles and Document Classes with the “CP” prefix. This will avoid confusion with previously created Titles and Document Classes. Only documents under the CP class have the CP functionality.
+#### It is strongly recommended that you create Clinical Procedures Titles and Document Classes with the "CP" prefix. This will avoid confusion with previously created Titles and Document Classes. Only documents under the CP class have the CP functionality.
 
 > To construct a new document definition sub-tree for Clinical Procedures, do the following:
 
@@ -5888,7 +5936,7 @@ BASICS
 
 > [1](#_bookmark12)EVERY Local Title must be mapped to a VHA Enterprise Standard Title.
 
-> *(See example in the following section: “[Example of New TIU Prompts](#_bookmark14)”)*
+> *(See example in the following section: "[Example of New TIU Prompts](#_bookmark14)")*
 
 > STATUS: (A/I/T): INACTIVE// A ACTIVE SEQUENCE: \<RET\>
 
@@ -5922,7 +5970,7 @@ BASICS
 
 > Several new TIU prompts display as *each word* of the new TIU note title is run through a series of checks against the national list.
 
-> In the following example, the name of the new TIU note title is “CP HEMOTEST.”
+> In the following example, the name of the new TIU note title is "CP HEMOTEST."
 
 > EVERY Local Title must be mapped to a VHA Enterprise Standard Title.
 
@@ -5988,7 +6036,7 @@ BASICS
 
 > <span id="_bookmark16" class="anchor"></span>Done.
 
-> In the example above, “DIALYSIS NOTE” was selected as the VHA Enterprise Standard Title. You may use DIALYSIS NOTE as your title, but you are not required to do so. If another title from the VHA Enterprise Standard Title list is more appropriate for your site, you may select it from the list.
+> In the example above, "DIALYSIS NOTE" was selected as the VHA Enterprise Standard Title. You may use DIALYSIS NOTE as your title, but you are not required to do so. If another title from the VHA Enterprise Standard Title list is more appropriate for your site, you may select it from the list.
 
 ## Step 1 - Populate the CP Definition (#702.01) file
 
@@ -6083,7 +6131,7 @@ BASICS
 
 > If you are adding a new instrument that is already supported by CP, do one of the following:
 
-- If the device is bi-directional, you can enter a name of your own choice (3-30 characters), such as Muse EKG (Tampa). The name does not have to be the vendor’s name.
+- If the device is bi-directional, you can enter a name of your own choice (3-30 characters), such as Muse EKG (Tampa). The name does not have to be the vendor's name.
 - If the device is uni-directional, you need to enter a CP defined name. In this case, you can contact TSO or NVS for the correct instrument name.
 
 > If you are adding a new instrument (bi-directional or uni-directional) that is not supported by CP, then you must enter a NOIS/Remedy help ticket. Keep in mind that adding unsupported instruments is a complex task and may cause some image quality problems.
@@ -6092,7 +6140,7 @@ BASICS
 
 > Notification Mailgroup: Enter the name of a local VistA mailgroup that contains a list of people, who will be notified if a problem arises with this automated instrument.
 
-> CP also exports a mailgroup called “MD DEVICE ERRORS” that can be used to populate this field. Enter MD and the field fills in with “MD DEVICE ERRORS’. The coordinator of this group is assigned during package installation. Must be filled in for an active instrument to work properly.
+> CP also exports a mailgroup called "MD DEVICE ERRORS" that can be used to populate this field. Enter MD and the field fills in with "MD DEVICE ERRORS'. The coordinator of this group is assigned during package installation. Must be filled in for an active instrument to work properly.
 
 > Description: Enter a description of the automated instrument (1-50 characters). Optional.
 
@@ -6104,7 +6152,7 @@ BASICS
 
 > Delete when Submitted: Select this option if the medical center does not want to store a duplicate report outside of Imaging, or if the vendor wants to delete files because of storage issues. The vendor determines whether or not the report files can be deleted.
 
-> This information is found in the vendor’s setup instructions. Optional.
+> This information is found in the vendor's setup instructions. Optional.
 
 > Default Ext.: Enter a default file extension that is exported by the vendor, such as .html,
 
@@ -6188,7 +6236,7 @@ BASICS
 
 1.  Select File \> New \> Instrument. The New Instrument screen is displayed.
 2.  Enter a name that can be used to identify the automated instrument. If you are adding a new instrument that is already supported by CP, do one of the following:
-    - If the device is bi-directional, you can enter a name of your own choice (3-30 characters), such as Muse EKG (Tampa). The name does not have to be the vendor’s name.
+    - If the device is bi-directional, you can enter a name of your own choice (3-30 characters), such as Muse EKG (Tampa). The name does not have to be the vendor's name.
     - If the device is uni-directional, enter a CP defined name. In this case, you can contact TSO or NVS for the correct instrument name.
 
 > If you are adding a new instrument (bi-directional or uni-directional) that is not supported by CP, then you must you must enter a NOIS/Remedy help ticket. Keep in mind that adding unsupported instruments is a complex task and may cause some image quality problems.
@@ -6218,7 +6266,7 @@ BASICS
 <span id="_bookmark28" class="anchor"></span>Figure 6-6
 
 - Ready Status - Pass or Fail. If the Ready Status is Fail, a list of missing fields for that automated instrument is displayed.
-- If an Imaging share directory has not been configured, the following message is displayed “No Imaging Share indicated in the System Parameters.”
+- If an Imaging share directory has not been configured, the following message is displayed "No Imaging Share indicated in the System Parameters."
 - If the M Routine (processing routine) is not in the MD or MC namespace, a warning is displayed indicating that the M Routine is not in the package namespace.
 3.  Click Print or Close.
 
@@ -6333,11 +6381,11 @@ BASICS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Port 5000 is a Multi-Port Listener. The only reason to use the multiport listener is if your inbound port doesn’t work correctly because Cache is not handling ports correctly.
+> Port 5000 is a Multi-Port Listener. The only reason to use the multiport listener is if your inbound port doesn't work correctly because Cache is not handling ports correctly.
 
 > If Cache is handling ports correctly, then you should let Cache handle them. Use the individually shared ports for your devices rather than using the Multi-Port Listener.
 
-> If you’re at a facility that has listener problems under Cache, then use port 5000. Port 5000 is handled by VMS, not Cache.
+> If you're at a facility that has listener problems under Cache, then use port 5000. Port 5000 is handled by VMS, not Cache.
 
 > Most sites allocate 25 ports to port 5000, but more can be allocated, if necessary.
 
@@ -6345,9 +6393,9 @@ BASICS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> A single port is easier to monitor and debug. It’s easy to determine if the problem is caused by the link or something else.
+> A single port is easier to monitor and debug. It's easy to determine if the problem is caused by the link or something else.
 
-> If you set up another Multi-Port Listener, you have to set it up in VMS. You’ll have to do that through UCX, which is a lot of work and beyond the scope of this document,
+> If you set up another Multi-Port Listener, you have to set it up in VMS. You'll have to do that through UCX, which is a lot of work and beyond the scope of this document,
 
 ### Setting Up Port 5000
 
@@ -6355,7 +6403,7 @@ BASICS
 
 1.  Edit MCAR DEVICE CLIENT so the logical link points to VAxxx (where xxx is an abbreviation for the hospital).
 2.  Make sure all CP Medical devices send to port 5000.
-3.  You don’t need to set up an additional MCAR INST (logical link) because you’re using an existing logical link which is VAxxx, where xxx is an abbreviation for the hospital (e.g., VAHIN for Hines).
+3.  You don't need to set up an additional MCAR INST (logical link) because you're using an existing logical link which is VAxxx, where xxx is an abbreviation for the hospital (e.g., VAHIN for Hines).
 4.  Make it an MCAR DEVICE server subscriber.
 
 ### From: MD*1*20 Implementation Guide change pages
@@ -6406,7 +6454,7 @@ BASICS
 </tr>
 <tr class="odd">
 <td><p>4Patch MD*1.0*6 released. Updated MD namespace</p>
-<p>Clinical Procedures file list and CP Class Upload Header output display, added TIU prompts for adding new TIU Note Titles, added instrument warning for automated instruments, added Processing Application field, changed wording for Count/Non-count clinics, added new Exported Kernel XPAR parameters and screen capture, revised “Setting Up HL7 Parameters chapter for clarity, updated list of Instrument Processing Routines, added Appendix D – Exported Values For Hemodialysis Options.</p></td>
+<p>Clinical Procedures file list and CP Class Upload Header output display, added TIU prompts for adding new TIU Note Titles, added instrument warning for automated instruments, added Processing Application field, changed wording for Count/Non-count clinics, added new Exported Kernel XPAR parameters and screen capture, revised "Setting Up HL7 Parameters chapter for clarity, updated list of Instrument Processing Routines, added Appendix D – Exported Values For Hemodialysis Options.</p></td>
 <td>May 2008</td>
 <td><mark>REDACTED</mark></td>
 </tr>
@@ -6540,7 +6588,7 @@ CP/BGP Transfer Directory 6-22
 
 CRC Values 6-23
 
-Calculating a File’s CRC Value 6-24
+Calculating a File's CRC Value 6-24
 
 Days to keep instrument data 6-24
 
@@ -6698,7 +6746,7 @@ Summary Report Template 19-8
 
 > Point to Clinical Procedures Project, then click Documentation. When the Documentation page displays, click Clinical Procedures Documents, then click The CP Implementation Process (Webpage). This list includes a high-level step-by-step guide to the installation and the implementation process.
 
-> 1 MD\*1.0\*6 May 2008 Changed document name from “Site Installation Checklist” to “The CP Implementation Process (Webpage).” Revised directions to access the document.
+> 1 MD\*1.0\*6 May 2008 Changed document name from "Site Installation Checklist" to "The CP Implementation Process (Webpage)." Revised directions to access the document.
 
 ### General CP Package Information
 
@@ -6885,13 +6933,13 @@ DISUSER: TERMINATION DATE:
 
 > COMMAND: Press \<PF1\>H for help Insert
 
-- When you are finished, enter “SAVE” at the COMMAND field to save the data and enter “EXIT” to exit the editor.
+- When you are finished, enter "SAVE" at the COMMAND field to save the data and enter "EXIT" to exit the editor.
 
 > COMMAND: SAVE Press \<PF1\>H for help Insert
 
 > COMMAND: EXIT Press \<PF1\>H for help Insert
 
-- Once the option(s) are added, the person can enter “??” at the primary menu option to get a listing of the secondary menu option and can see the new added option(s).
+- Once the option(s) are added, the person can enter "??" at the primary menu option to get a listing of the secondary menu option and can see the new added option(s).
 
 > Select Core Applications Option: ??
 
@@ -6958,7 +7006,7 @@ DISUSER: TERMINATION DATE:
 
 > Providers at a site must use the VistA Imaging Display client to view CP results and reports. Be sure that VistA Imaging V.3.0 or greater and Patch 7 of Imaging V.3.0 (MAG\*3.0\*7) are installed.
 
-> You can remove an existing procedure that was setup as a high volume procedure. When you select a procedure that was already entered, the option will prompt you with a question, “ Delete current procedure setup? NO//” that has a default answer of “NO”. If “YES” is entered, the procedure will be deleted from the high volume procedure list.
+> You can remove an existing procedure that was setup as a high volume procedure. When you select a procedure that was already entered, the option will prompt you with a question, " Delete current procedure setup? NO//" that has a default answer of "NO". If "YES" is entered, the procedure will be deleted from the high volume procedure list.
 
 > 1 Patch MD\*1.0\*20 November 2010 Exported Kernel XPAR Parameter and screen sample added.
 
@@ -7114,7 +7162,7 @@ CP Gateway, 1-8
 > Summary Report Template, 19-8 system parameter reports
 > printing, 2-4 system parameters
 > allow non-instrument attachments, 6-21 bypass CRC checking, 6-22
-> calculating a file’s CRC value, 6-24 Clinical Procedures home page, 6-22 Clinical Procedures on-line, 6-22 CP/BGP Transfer Directory, 6-22 CRC values, 6-23
+> calculating a file's CRC value, 6-24 Clinical Procedures home page, 6-22 Clinical Procedures on-line, 6-22 CP/BGP Transfer Directory, 6-22 CRC values, 6-23
 > days to keep instrument data, 6-24 imaging file types, 6-24
 > offline message, 6-26
 > setting up, 6-20

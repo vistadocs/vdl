@@ -1,594 +1,799 @@
 ---
-title: CMOP Version 2 Release Notes
+title: PSX*2*74 Release Notes
 doc_type: RN
 doc_label: Release Notes
-doc_layer: anchor
-doc_subject: 
+doc_layer: patch
+doc_subject: null
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
-patch_id: PSX*2
-group_key: "PSX:PSX:2"
+patch_id: PSX*2*74
+group_key: PSX:PSX:2
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "- [# RELEASE NOTES for CMOP V2.0](#release-notes-for-cmop-v20) - [Medical Center Release Notes:](#medical-center-release-notes) - [Intranet](#intranet) - [Mail—Additional Flexibility Added to Outpatient Pharmacy System Parameters](#mailadditional-flexibility-added-to-outpatient-pharmacy-system-param"
-audience: 
-keywords: 
-  - cmop
-  - mail
-  - table
-  - contents
-  - release
-  - transmission
-  - status
-  - modified
-  - reports
-  - local
+description: Electronic Data Interchange (EDI) New Standards and Operating Rules –VHA Provider-side Technical Compliance
+audience: System administrators, end users reviewing changes
+keywords: []
 page_count: 0
-word_count: 1654
-section_count: 13
+word_count: 2040
+section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: April 1997
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p74_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p74_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
+master_source: PSX*2*74 Release Notes
+master_pub_date: 'null'
+consolidated_from: 3 versions
+prior_versions:
+- PSX*2*77 Release Notes
+- PSX*2*79 Release Notes
+consolidated_title: release notes
 ---
 
-![](cmop-version-2-release-notes/001.png)
+> ![](psx-2-74-release-notes/001.png)
 
-CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP)RELEASE NOTES
+Electronic Data Interchange (EDI) New Standards and Operating Rules –VHA Provider-side Technical Compliance RequirementsTAC-12-03366
 
-April 1997
+ePharmacy
 
-V*IST*A Software Development
+####### Consolidated Mail Outpatient Pharmacy (CMOP)
 
-Clinical Ancillary Product Line
+####### RELEASE NOTES/
 
-BLANK FOR 2-SIDED COPYING
+####### INSTALLATION GUIDEPSX\*2\*74November 2013
 
-# # RELEASE NOTES for CMOP V2.0
+*Version 1.0*
+
+Office of Enterprise Development
+
+Contents
+
+*(This page included for two-sided copying.)*
+
+# Introduction
 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Table of Contents
 
-- [# RELEASE NOTES for CMOP V2.0](#release-notes-for-cmop-v20)
-  - [Medical Center Release Notes:](#medical-center-release-notes)
-  - [Intranet](#intranet)
-  - [Mail—Additional Flexibility Added to Outpatient Pharmacy System Parameters](#mailadditional-flexibility-added-to-outpatient-pharmacy-system-parameters)
-  - [New MailMan Messages](#new-mailman-messages)
-  - [Modified Options](#modified-options)
-  - [Modified Menus](#modified-menus)
-  - [Reports Option \[PSX REPORTS MENU\]](#reports-option-psx-reports-menu)
-  - [Modified Reports](#modified-reports)
-  - [New Reports](#new-reports)
-  - [New Menus and Options](#new-menus-and-options)
-  - [<u> Menus</u>](#u-menusu)
-  - [<u>Options</u>](#uoptionsu)
-> These release notes provide a brief description of the changes in version 2.0 of the Consolidated Mail Outpatient Pharmacy software package. In addition to the release notes, it is highly recommended that you also read the User, Installation, and Technical guides provided with version 2.0. These manuals have been rewritten to include essential information related to the enhancements and modifications described here.
-> This version (2.0) of the Consolidated Mail Outpatient Pharmacy software package can only be run with a standard MUMPS operating system. It also requires the following VA software applications.
+- [Introduction](#introduction)
+  - [Documentation Distribution](#documentation-distribution)
+- [Patch Description and Installation Instructions](#patch-description-and-installation-instructions)
+  - [Patch Description](#patch-description)
+  - [Pre/Post Installation Overview](#prepost-installation-overview)
+  - [Installation Instructions](#installation-instructions)
+- [Enhancements](#enhancements)
+  - [Fundamental Specifications for CMOP](#fundamental-specifications-for-cmop)
+    - [Background Claims Processing](#background-claims-processing)
+    - [¾ Days' Supply Calculation](#¾-days-supply-calculation)
+This patch has enhancements that extend the capabilities of the Veterans
+Health Information Systems and Technology Architecture (VistA) electronic
+pharmacy (ePharmacy) billing system. Below is a list of all the
+applications involved in this project along with their patch number:
+APPLICATION/VERSION PATCH
+---------------------------------------------------------------
+OUTPATIENT PHARMACY (OP) V. 7.0 PSO\*7\*421
+INTEGRATED BILLING (IB) V. 2.0 IB\*2\*494
+ELECTRONIC CLAIMS MANAGEMENT ENGINE (ECME) V. 1.0 BPS\*1\*15
+CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP) V. 2.0 PSX\*2\*74
+ACCOUNTS RECEIVABLE (PRCA) V. 4.5 PRCA\*4.5\*295
+The patches (PSO\*7\*421, IB\*2\*494, BPS\*1\*15, PSX\*2\*74 and PRCA\*4.5\*295)
+are being released in the Kernel Installation and Distribution System
+(KIDS) multi-build distribution BPS PSO IB PSX PRCA BUNDLE 8.0.
+The purpose of this software package is to ensure National Council for
+Prescription Drug Programs (NCPDP) D.0 - D.9 transactions are functional
+in the Electronic Data Interchange (EDI) New Standards and Operating Rules
+environment and includes annual External Code List (ECL) updates into
+NCPDP fields.
+The package also provides the ability to alert the pharmacist at the time of
+prescription processing regarding the days' supply benefit.
 
-## Medical Center Release Notes:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> <u>Remote Medical Center</u> <u>Minimum Version Required</u>
-
-> Kernel 8.0
-
-> MailMan 7.1
-
-> VA FileMan 21.0
-
-> National Drug File (NDF) 3.16
-
-> Outpatient Pharmacy (OP) 6.0 *(must have patch number PSO\*6\*155, Seq. \#154)*
-
-> The above software is not included in this package and MUST BE INSTALLED (including all released patches) PRIOR to the install of the CMOP V. 2.0 software to ensure complete functionality.
-
-To ensure the integrity of all prescription data, the Consolidated Mail Outpatient Pharmacy software should ALWAYS function at Veterans Administration Medical Centers (VAMCs) with the Outpatient Pharmacy VERIFICATION turned ON.
-
-## Intranet
+## Documentation Distribution
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Documentation for this product can now be found on the intranet. You will find it at the following address:
+Updated documentation describing the new functionality introduced by this
+
+patch is available.
+
+The preferred method is to FTP the files from <span class="mark">REDACTED</span>.
+
+This transmits the files from the first available FTP server. Sites may
+
+also elect to retrieve software directly from a specific server as follows:
+
+<span class="mark">REDACTED</span>
+
+The documentation will be in the form of Adobe Acrobat files.
+
+Documentation can also be found on the VA Software Documentation Library at:
+
+http://www.va.gov/vdl/
+
+Title File Name FTP Mode
+
+-----------------------------------------------------------------------
+
+CMOP Patch Release Notes/ PSX_2_P74_RN.PDF Binary
+
+Installation Guide
+
+CMOP User Manual PSX_2_UM_R1113.PDF Binary
+
+CMOP User Manual change pages PSX_2_P74_UM_CP.PDF Binary
+
+*(This page included for two-sided copying.)*
+
+# Patch Description and Installation Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Patch Description
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+VistA Patch Display Page: 1
+
+=============================================================================
+
+Run Date: SEP 26, 2013 Designation: PSX\*2\*74 TEST v8
+
+Package : CMOP Priority : MANDATORY
+
+Version : 2 Status : UNDER DEVELOPMENT
+
+=============================================================================
+
+Associated patches: (v)PSX\*2\*73 \<\<= must be installed BEFORE \`PSX\*2\*74'
+
+Subject: EPHARMACY OPERATING RULES
+
+Category: ROUTINE
+
+Description:
+
+===========
+
+This patch has enhancements that extend the capabilities of the Veterans
+
+Health Information Systems and Technology Architecture (VistA) electronic
+
+pharmacy (ePharmacy) billing system. Below is a list of all the
+
+applications involved in this project along with their patch number:
+
+APPLICATION/VERSION PATCH
+
+---------------------------------------------------------------
+
+OUTPATIENT PHARMACY (OP) V. 7.0 PSO\*7\*421
+
+INTEGRATED BILLING (IB) V. 2.0 IB\*2\*494
+
+ELECTRONIC CLAIMS MANAGEMENT ENGINE (ECME) V. 1.0 BPS\*1\*15
+
+CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP) V. 2.0 PSX\*2\*74
+
+ACCOUNTS RECEIVABLE (PRCA) V. 4.5 PRCA\*4.5\*295
+
+The patches (PSO\*7\*421, IB\*2\*494, BPS\*1\*15, PSX\*2\*74 and PRCA\*4.5\*295)
+
+are being released in the Kernel Installation and Distribution System
+
+(KIDS) multi-build distribution BPS PSO IB PSX PRCA BUNDLE 8.0.
+
+The purpose of this software package is to ensure National Council for
+
+Prescription Drug Programs (NCPDP) D.0 - D.9 transactions are functional
+
+in the Electronic Data Interchange (EDI) New Standards and Operating Rules
+
+environment and includes annual External Code List (ECL) updates into
+
+NCPDP fields.
+
+The package also provides the ability to alert the pharmacist at the time of
+
+prescription processing regarding the days' supply benefit.
+
+This specific patch contains the following functionality:
+
+---------------------------------------------------------
+
+1\. If claim rejection is received during CMOP transmission of a prescription, Processing stops by sending the prescription to the "Reject Resolution Required" section of the Third Party Payer Rejects – Worklist. If the prescription fits the following criteria: original fill, Veteran eligibility, not released, the reject is on the Reject Resolution Required list for the current division, and the total gross amount of the prescription is at or above the specified threshold. The prescription will remain on the suspense queue for CMOP.
+
+Patch Components
+
+================
+
+The following is a list of field modifications included in this patch:
+
+File Name (#) New/Modified/
+
+Sub-File Name (#) Field Name (#) Deleted
+
+------------------- ------------------- -------------
+
+N/A
+
+Forms Associated:
+
+Form Name File \# New/Modified/Deleted
+
+--------- ------ --------------------
+
+N/A
+
+Mail Groups Associated:
+
+Mail Group Name New/Modified/Deleted
+
+--------------- --------------------
+
+N/A
+
+Options Associated:
+
+Option Name Type New/Modified/Deleted
+
+----------- ---- --------------------
+
+N/A
+
+Protocols Associated:
+
+Protocol Name New/Modified/Deleted
+
+------------- --------------------
+
+N/A
+
+Security Keys Associated:
+
+Security Key Name
+
+-----------------
+
+N/A
+
+Templates Associated:
+
+Template Name Type File Name (Number) New/Modified/Deleted
+
+------------- ---- ------------------ --------------------
+
+N/A
+
+Additional Information: N/A
+
+New Service Requests (NSRs):
+
+-------------------------------------------------------------
+
+20110503 - Electronic Data Interchange (EDI) New Standards and Operating
+
+Rules (Veterans Health Administration) VHA Provider-Side TCRs.
+
+Patient Safety Issues (PSIs)
+
+-----------------------------
+
+N/A
+
+Remedy Ticket(s) & Overview:
+
+-------------------------------------
+
+N/A
+
+Test Sites:
+
+----------
+
+Birmingham VAMC, AL
+
+Mountain Home VAMC, TN
+
+Richmond VAMC, VA
+
+Little Rock VAMC, AR
+
+Jackson VAMC, MS
+
+Documentation Retrieval Instructions:
+
+------------------------------------
+
+Updated documentation describing the new functionality introduced by this
+
+patch is available.
+
+The preferred method is to FTP the files from <span class="mark">REDACTED</span>.
+
+This transmits the files from the first available FTP server. Sites may
+
+also elect to retrieve software directly from a specific server as follows:
+
+<span class="mark">REDACTED</span>
+
+The documentation will be in the form of Adobe Acrobat files.
+
+Documentation can also be found on the VA Software Documentation Library at:
+
+http://www4.va.gov/vdl/
+
+Title File Name FTP Mode
+
+-----------------------------------------------------------------------
+
+CMOP Patch Release Notes/ PSX_2_P74_RN.PDF Binary
+
+Installation Guide
+
+CMOP User Manual PSX_2_UM_R1113.PDF Binary
+
+CMOP User Manual change pages PSX_2_P74_UM_CP.PDF Binary
+
+## Pre/Post Installation Overview
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+N/A
+
+## Installation Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch should take less than a minute to install.
+
+DO NOT QUEUE the installation of this patch.
+
+To avoid disruptions, these patches should be installed during non-peak
+
+hours when there is minimal activity on the system. Avoid times when ECME
+
+claims are being transmitted. Of particular concern are the options below.
+
+1\. BPS NIGHTLY BACKGROUND JOB \[BPS NIGHTLY BACKGROUND JOB\]
+
+Do not install the patch when ECME claims are being generated
+
+by the BPS Nightly Background Job option. Wait for this job to
+
+finish or complete the installation before this job starts.
+
+2\. Scheduled CS Transmission \[PSXR SCHEDULED CS TRANS\] and
+
+Scheduled Non-CS Transmission \[PSXR SCHEDULED NON-CS TRANS\]
+
+Do not install the patch when prescriptions are being
+
+transmitted to CMOP. Wait for the CMOP transmissions to finish
+
+or complete the installation before the transmissions start. Both
+
+the CS (Controlled Substances) and the non-CS CMOP transmission
+
+options should be checked. Check with Pharmacy Service or your
+
+Pharmacy ADPAC to find out when CMOP transmissions occur.
+
+Pre-Installation Instructions
+
+-----------------------------
+
+1\. OBTAIN PATCHES
+
+--------------
+
+Obtain the host file BPS_1_15_PSO_IB_PSX_PRCA.KID, which contains the
+
+following patches:
+
+BPS\*1.0\*15
+
+PSO\*7.0\*421
+
+IB\*2.0\*494
+
+PSX\*2.0\*74
+
+PRCA\*4.5\*295
+
+Sites can retrieve VistA software from the following FTP addresses.
+
+The preferred method is to FTP the files from: <span class="mark">REDACTED</span>
+
+This will transmit the files from the first available FTP server.
+
+Sites may also elect to retrieve software directly from a specific
+
+server as follows:
+
+<span class="mark">REDACTED</span>
+
+The BPS_1_15_PSO_IB_PSX_PRCA.KID host file is located in the
+
+anonymous.software directory. Use ASCII Mode when downloading the
+
+file.
+
+2\. START UP KIDS
+
+-------------
+
+Start up the Kernel Installation and Distribution System Menu option
+
+\[XPD MAIN\]:
+
+Edits and Distribution ...
+
+Utilities ...
+
+Installation ...
+
+Select Kernel Installation & Distribution System Option: INStallation
+
+---
+
+Load a Distribution
+
+Print Transport Global
+
+Compare Transport Global to Current System
+
+Verify Checksums in Transport Global
+
+Install Package(s)
+
+Restart Install of Package(s)
+
+Unload a Distribution
+
+Backup a Transport Global
+
+Select Installation Option:
+
+3\. LOAD TRANSPORT GLOBAL FOR MULTI-BUILD
+
+-------------------------------------
+
+From the Installation menu, select the Load a Distribution option.
+
+When prompted for "Enter a Host File:", enter the full directory path
+
+where you saved the host file BPS_1_15_PSO_IB_PSX_PRCA.KID (e.g.,
+
+SYS\$SYSDEVICE:\[ANONYMOUS\]BPS_1_15_PSO_IB_PSX_PRCA.KID).
+
+When prompted for "OK to continue with Load? NO//", enter "YES."
+
+The following will display:
+
+Loading Distribution...
+
+BPS PSO IB PSX BUNDLE 8.0
+
+BPS\*1.0\*15
+
+PSO\*7.0\*421
+
+IB\*2.0\*494
+
+PSX\*2.0\*74
+
+PRCA\*4.5\*295
+
+Use INSTALL NAME: BPS PSO IB PSX PRCA BUNDLE 8.0 to install this
+
+Distribution.
+
+4\. RUN OPTIONAL INSTALLATION OPTIONS FOR MULTI-BUILD
+
+-------------------------------------------------
+
+From the Installation menu, you may select to use the following
+
+options (when prompted for the INSTALL NAME, enter
+
+BPS PSO IB PSX PRCA BUNDLE 8.0):
+
+a\. Backup a Transport Global - This option will create a backup
+
+message of any routines exported with this patch. It will not
+
+backup any other changes such as data dictionaries or templates.
+
+b\. Compare Transport Global to Current System - This option will
+
+allow you to view all changes that will be made when this patch
+
+is installed. It compares all components of this patch
+
+(routines, data dictionaries, templates, etc.).
+
+c\. Verify Checksums in Transport Global - This option will allow
+
+you to ensure the integrity of the routines that are in the
+
+transport global.
+
+5\. INSTALL MULTI-BUILD
+
+-------------------
+
+This is the step to start the installation of this KIDS patch. This
+
+will need to be run for the BPS PSO IB PSX PRCA BUNDLE 8.0.
+
+a\. Choose the Install Package(s) option to start the patch
+
+install.
+
+b\. When prompted for the "Select INSTALL NAME:", enter BPS PSO IB
+
+PSX PRCA BUNDLE 8.0.
+
+c\. When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of
+
+Install? YES//", enter YES unless your system does this in a nightly
+
+TaskMan process.
+
+d\. When prompted "Want KIDS to INHIBIT LOGONs during the install?
+
+YES//", enter NO.
+
+e\. When prompted " Want to DISABLE Scheduled Options, Menu Options,
+
+and Protocols? NO//", enter NO.
+
+f\. When prompted "Device: HOME//", respond with the correct device
+
+but do not queue this install.
+
+Post-Installation Instructions
+
+------------------------------
+
+N/A
+
+Routine Information:
+
+====================
+
+The second line of each of these routines now looks like:
+
+;;2.0;CMOP;\*\*\[Patch List\]\*\*;11 Apr 97;Build 11
+
+The checksums below are new checksums, and
+
+can be checked with CHECK1^XTSUMBLD.
+
+Routine Name: PSXRPPL1
+
+Before: B51826224 After: B53745747 \*\*3,48,62,66,65,69,73,74\*\*
+
+Routine Name: PSXRPPL2
+
+Before: B55199697 After: B51636489 \*\*65,69,73,74\*\*
+
+Routine list of preceding patches: 73
+
+# Enhancements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Fundamental Specifications for CMOP
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Background Claims Processing
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Add Reject Resolution Required Processing to the CMOP feature
+
+If claim rejection is received during CMOP transmission of a prescription, Processing stops by
+
+sending the prescription to the "Reject Resolution Required" section of the Third Party Payer
+
+Rejects - Worklist. If the prescription fits the following criteria: original fill, Veteran eligibility,
+
+not released, the reject is on the Reject Resolution Required list for the current division, and the
+
+total gross amount of the prescription is at or above the specified threshold. The prescription will remain on the suspense queue for CMOP.
+
+#### Add Reject Resolution Required Processing to the Local Suspense feature
+
+If claim rejection is received during local suspense processing for a prescription, Processing stops by sending the prescription to the "Reject Resolution Required" section of the Third Party Payer Rejects – Worklist if the prescription fit the following criteria: original fills, Veteran eligibility, not released, the reject was on the Reject Resolution Required reject list for the current division, and the total gross amount of the prescription was at or above the specified threshold.
+
+The prescription remained on the suspense queue for local suspense.
+
+#### Remove "Allow All Rejects" Processing
+
+All prescription processing that used background claims processing no longer referenced the "Allow All Rejects" flag from the ePharmacy Site Parameters Screen to send a reject to the Third Party Payer Rejects – Worklist.
+
+This requirement pertains to decommissioned functionality.
+
+### ¾ Days' Supply Calculation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Round Up the Calculated Days
+
+The VistA ePharmacy calculated suspense days by using the date of service from the most recent successfully transmitted claim and rounding any partial day to the next full day. (For example, 3.1 days became 4 days.)
+
+---
+
+## Appendix: Unique Sections from Prior Versions
+
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
+
+### From: PSX*2*79 Release Notes
+
+## Documentation and Distribution
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Updated documentation describing the new functionality introduced by this
+
+patch is available.
+
+The preferred method is to retrieve files from <span class="mark">REDACTED</span>.
+
+This transmits the files from the first available server. Sites may also
+
+elect to retrieve files directly from a specific server.
+
+Sites may retrieve the documentation directly using Secure File Transfer
+
+Protocol (SFTP) from the ANONYMOUS.SOFTWARE directory at the following OI Field Offices:
+
+<span class="mark">REDACTED</span>
+
+Documentation can also be found on the VA Software Documentation Library at:
+
+http://www.va.gov/vdl
+
+Title File Name Transfer Mode
+
+---------------------------------------------------------------------------
+
+Release Notes/Installation Guide PSX_2_P79_RN.PDF Binary
+
+User Manual PSX_2_UM.PDF Binary
+
+*(This page included for two-sided copying.)*
+
+## Overview of Backout and Rollback Procedures
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
+
+## Backout Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+During the VistA Installation Procedure of the KIDS build, the installer can back up the modified routines using the 'Backup a Transport Global' action. The installer can restore the routines using the MailMan message that were saved prior to installing the patch. The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data. This backout may need to include a database cleanup process.
+
+Please contact the EPMO for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch. If the installed patch that needs to be backed out includes a pre or post install routine please contact the EPMO before attempting the backout.
+
+From the Kernel Installation and Distribution System Menu, select
+
+the Installation Menu.  From this menu, you may elect to use the
+
+following option. When prompted for the INSTALL enter the patch \#.
+
+    a. Backup a Transport Global - This option will create a backup
+
+       message of any routines exported with this patch. It will not
+
+       backup any other changes such as DD's or templates.
+
+## Rollback Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The rollback procedure for VistA patches is complicated and may require a follow-up patch to fully roll back to the pre-patch state. This is due to the possibility of Data Dictionary updates, Data updates, cross references, and transmissions from VistA to offsite data stores.
+
+Please contact the product development team for assistance if needed.
+
+*(This page included for two-sided copying.)*
+
+## System Feature: Billing Determination
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+IB Billing Determination uses the ePharmacy Billable fields to assess billable status and the Sensitive Diagnosis Drug field to assess sensitive diagnosis instead of using the DEA, Special HDLG field.
+
+### From: PSX*2*77 Release Notes
+
+## Documentation Retrieval
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Updated documentation describing the new functionality introduced by this patch is available.
+
+> The preferred method is to FTP the files from ftp:// <span class="mark">REDACTED</span>
+
+> /. This transmits the files from the first available FTP server. Sites may also elect to retrieve software directly from a specific server as follows:
 
 > <span class="mark">REDACTED</span>
 
-> This address will take you to the Clinical Products page where you will find a listing of all the clinical software manuals. Click on the Consolidated Mail Outpatient Pharmacy (CMOP) link and it will take you to the CMOP Homepage. You can also get there by going straight to the following address:
+> Documentation can also be found on the VA Software Documentation Library at: <http://www4.va.gov/vdl/>
 
-> <span class="mark">REDACTED</span>
+> Title File Name FTP Mode
 
-> Remember to bookmark this site for future reference.
+> Release Notes/Installation Guide PSX_2_P77_RN.PDF Binary User Manual PSX_2_UM_R0116.PDF Binary
 
-  
-NEW FUNCTIONALITY for Medical Centers<u>Purge of CMOP Rx Queue \[PSXR PURGE\]</u>
+> Technical Manual PSX_2_TM_R0116.PDF Binary
 
-> The purge of data contained in the CMOP RX QUEUE File (#550.1) has been modified. Instead of purging the data on acknowledgement of the transmission from the CMOP host facility, the data will be retained until the vendor automated dispensing equipment at the host has received the data. This has been done in preparation of the Disaster Recovery procedures which will be released in and enhancement patch to follow this release of CMOP V. 2.0.
+#### (This page included for two-sided copying.)
 
-<u>*ResubmitCMOP Rx* \[PSXR RESUBMIT\]</u>
-
-> The *ResubmitCMOPRx* option is used to send an Rx back to the CMOP after it has been returned from the CMOP with a status of NOT DISPENSED. Users are required to hold the PSXRESUB security key to access this option.
-
-> You may not resubmit if
-
-1.  The NOT DISPENSED reason is Duplicate Fill.
-2.  The fill does not have a CMOP status of NOT DISPENSED.
-3.  The fill has already been resubmitted.
-4.  The NOT DISPENSED fill is not the last fill in the Rx.
-
-Select OPTION NAME: <u>CMOP Site</u> Manager Menu
-
-Select CMOP Site Manager Menu Option: <u>RES</u>ubmit CMOP Rx
-
-CMOP Prescription Resubmission Utility
-
-Enter the Rx \# to resubmit: <u>15666</u>
-
-You have chosen Rx \# 15666 to be resubmitted to the CMOP.
-
-Do you want to continue? : (Y/N): NO// <u>Y</u>ES
-
-RX# 15666 SUSPENDED FOR CMOP TRANSMISSION 02-18-97.
-
-Enter the Rx \# to resubmit:
-
-Select CMOP Site Manager Menu Option: <u>\<RET\></u><u>  
-*Setup Auto-transmission* \[PSXR AUTO TRANSMIT\]</u>
-
-> This option has been modified to include a system parameter, NUMBER OF DAYS TO TRANSMIT. This parameter indicates the number of days to transmit thru for an automatic data transmission. If this field is null or contains a zero the auto transmissions will select data through today as the default. If the field contains a number, n, from 1 to 10, transmission data will be selected for T+n days. The maximum NUMBER OF DAYS TO TRANSMIT is ten(10). Please note the CMOP system parameter, NUMBER OF DAYS TO TRANSMIT is different from the Outpatient site parameter, DAYS TO PULL FROM SUSPENSE. For example if the NUMBER OF DAYS TO TRANSMIT is two(2) and the DAYS TO PULL FROM SUSPENSE is seven(7) the transmission data will be selected for T+2 days. Once selected, for every patient in this date range, the software will then look ahead in RX SUSPENSE file \#52.5 for any Rx’s for these patients for the next seven days (T+7days). If the patients have Rx’s for this date range they will be added to the data transmission.
-
-Example:
-
-Select Transmission Menu Option: <u>S</u>etup Auto-transmission
-
-Enter the date to start automatic processing: NOW// <u>\<RET\></u> (FEB 26, 1997@12:35)
-
-Number of days to transmit thru: (0-10): 0// <u>10</u>
-
-Enter rescheduling frequency (hours) for transmission: (1-96): <u>96</u>
-
-Begin Automatic Transmissions : FEB 26, 1997@12:35
-
-Rescheduling Frequency : 96 hours
-
-Number of days to transmit through : 10
-
-Is this correct? NO// <u>Y</u> YES
-
-Select Transmission Menu Option: <u>\<RET\></u><u>*Reprint an Outpatient Label* \[PSO RXRPT\]</u>
-
-> For version 2.0 all CMOP functionality has been removed from this Outpatient Pharmacy option. The standard Outpatient Pharmacy reprint functionality now applies. CMOP no longer exports modified OP options.
-
-<u>Screen Profile Indicator for CMOP</u>
-
-> OUTPATIENT PHARMACY PATCH PSO\*6\*155 added the following new CMOP functionality to the Rx screen profile:
-
-1)  If the drug the Rx is written for is marked for transmission to CMOP, a \> sign will be appended to the Status code as in A\> where the Rx has a status of active and the drug is marked for CMOP.
-2)  If the latest fill for the Rx has been transmitted to the CMOP, a new status code of T will be appended to the local status as in CT where the Rx is canceled but has been transmitted to the CMOP. This could happen if the Rx was canceled after the transmission. The new code reflects the transmission status, while the existing code C indicates it was canceled locally.
-
-## Mail—Additional Flexibility Added to Outpatient Pharmacy System Parameters
+## Routine Information
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Outpatient Pharmacy patch PSO\*6\*158 must be installed to complete the functionality of this option.
+> The second line of each of these routines now looks like:
 
-> This functionality allows the user-designated patient’s Rx’s from
+> ;;2.0;CMOP;\*\*\[Patch List\]\*\*;11 Apr 97;Build 3
 
-1.  being filled by the CMOP and
-2.  being mailed at all. In order to accomplish this goal, the following changes have been made.
-1)  The MAIL field which is able to be edited in the *Update Patient Record* option, located on the *Outpatient Pharmacy Manager’s* menu, has been modified as follows:
+> The checksums below are new checksums, and can be checked with CHECK1^XTSUMBLD.
 
-EXISTING CODES "0" = Regular Mail
+> Routine Name: PSXBPSMS
 
-"1" = Certified Mail (formerly Registered)
+> Before: B11444984 After: B21102458 \*\*48,77\*\* Routine Name: PSXMSGS
 
-NEW CODES "2" = DO NOT MAIL
+> Before: B24952454 After: B29772543 \*\*1,2,4,24,23,27,30,41,77\*\*
 
-"3" = Local - Regular Mail
+> Routine list of preceding patches: 41, 48
 
-"4" = Local - Certified Mail
-
-> B\) A new field, MAIL CODE EXPIRATION DATE, has been added to this option. The MAIL CODE EXPIRATION DATE will be used to place limits on the Codes 2,3,4 only. If the expiration date is not present, the Mail code will remain in place until edited. If the expiration date is present and has expired, a default value of Regular Mail (0) will be used by the software, but the actual Mail field value in the file will not be changed. The expiration date will remain in the file until edited by a user. This is not a required field.
-
-> C\) Mail codes \> 1 will prevent the associated patient’s Rx’s from being sent to the CMOP for dispensing.
-
-> D\) If a Mail Code of 2 (DO NOT MAIL) is present, the Outpatient Rx label format is modified by replacing the CRITICAL MEDICAL SHIPMENT advisory with DO NOT MAIL. Also, the patient’s address on the return mail label is replaced with the last 6 digits of the patient’s SSN.
-
-> E\) A Mail code of 4 (Local Certified) will cause Certified to be printed on the local labels.
-
-Select Outpatient Pharmacy Manager Option: <u>UPDATE</u> Patient Record
-
-Select Patient: <u>CMOPPATIENT,ONE</u> 02-09-37 000123456
-
-CMOPPATIENT,ONE ID#: 000-12-3456
-
-201 EVERY WHERE DRIVE DOB: FEB 9,1937
-
-BONNY HIGHLANDS PKWY
-
-SLIP 44
-
-WELLINGTON PHONE:
-
-ALABAMA 35555 ELIG:
-
-WEIGHT(Kg): HEIGHT(cm):
-
-DISABILITIES:
-
-ALLERGIES:
-
-ADVERSE REACTIONS:
-
-SOCIAL SECURITY NUMBER: 000123456// <u>^</u>
-
-\>\>PHARMACY PATIENT DATA\<\<
-
-CAP: SAFETY// <u>\<RET\></u>
-
-MAIL: DO NOT MAIL// <u>??</u>
-
-This field is used to:
-
-A\) Determine whether this patient's Rx's are to be sent to the CMOP, or
-
-retained for local distribution. If 2-4 are selected, none of this
-
-patient's Rx's will be transmitted to the CMOP.
-
-B\) Select what the mail priority is. The CMOP choices are limited to (0)
-
-REGULAR and (1) CERTIFIED. Local mail may be designated (3) LOCAL -
-
-REGULAR or (4) LOCAL - CERTIFIED. The 'DO NOT MAIL' code (2) may be used
-
-to ensure that the patient's Rx's are not mailed.
-
-Choose from:
-
-0 REGULAR MAIL
-
-1 CERTIFIED MAIL
-
-2 DO NOT MAIL
-
-3 LOCAL - REGULAR MAIL
-
-4 LOCAL - CERTIFIED MAIL
-
-MAIL: DO NOT MAIL// <u>\<RET\></u>
-
-DIALYSIS PATIENT: <u>\<RET\></u>
-
-MAIL STATUS EXPIRATION DATE: <u>??</u>
-
-Examples of Valid Dates:
-
-JAN 20 1957 or 20 JAN 57 or 1/20/57 or 012057
-
-T (for TODAY), T+1 (for TOMORROW), T+2, T+7, etc.
-
-T-1 (for YESTERDAY), T-3W (for 3 WEEKS AGO), etc.
-
-If the year is omitted, the computer uses the CURRENT YEAR.
-
-This field places a time limit on the 'Do Not Mail', 'Local - Regular
-
-Mail' and 'Local - Certified Mail' conditions in the 'MAIL' field.
-
-If a date is placed in this field and the software detects that the date
-
-the Rx is processed is greater than the date in the field (past the
-
-expired date) a default value of 'Regular Mail' will be assumed for the
-
-'MAIL' field.
-
-> **NOTE:** The actual value of the 'MAIL' field will not be changed by the
-
-software, but can only be modified by a user editing the 'MAIL' field.
-
-MAIL STATUS EXPIRATION DATE: <u>T</u> (FEB 24, 1997)
-
-NARRATIVE: <u>\<RET\></u>
-
-PATIENT STATUS: SC// <u>^</u>  
-CMOP Host Facility<u>CMOP Host Environment</u>
-
-> This version (2.0) of Consolidated Mail Outpatient Pharmacy requires, at least, the following VA software applications. This software is not included in CMOP and must be installed (including all released patches) prior to the installation of the CMOP V. 2 software to ensure complete functionality.
-
-> <u>Host Facility</u> <u>Minimum Version Required</u>
-
-> Kernel 8.0
-
-> MailMan 7.1
-
-> VA FileMan 21.0
-
-> National Drug File (NDF) 3.16
-
-> Cost Functionality for CMOP Host Facilities has not been removed from this
-
-> version as originally intended in the Functional Specifications Document.
-
-> This functionality continues to be used by some facilities and will remain
-
-> indefinitely.
-
-## New MailMan Messages
+## Technical Modifications
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  The CMOP Recovery Message is sent whenever a failed CMOP transmission is detected. This message is simply a notification message that the last transmission did not complete. CMOP recovery procedures were initiated to reset the data so that it will be transmitted in the next transmission for that division.
-
-Subj: CMOP Recovery Message BIRMINGHAM, AL. \[#3288\] 21 Feb 97 10:29 CST
-
-11 Lines
-
-From: \<POSTMASTER@BAB.ISC-BIRM.VA.GOV\> in 'IN' basket. Page 1
-
-------------------------------------------------------------------------------
-
-The last CMOP transmission did not complete properly. The data for this
-
-transmission will be sent to the CMOP during the next transmission for
-
-that division.
-
-If you have scheduled auto transmissions for CMOP, please check to see
-
-that they are still scheduled for the correct time.
-
-This message is just a notification that problems were detected with the last
-
-transmission and that the data was sent to the CMOP facility for processing.
-
-If you are getting this message frequently, please contact your IRM staff.
-
-Otherwise there is not anything that you need to do.
-
-> 2\) The CMOP Remote Error Condition Notice message is generated by the release data acknowledgement filer process whenever release data cannot be filed in the remote medical center’s PRESCRIPTION file.
-
-Subj: CMOP Remote Error Condition Notice \[#38939\] 11 Dec 96 14:11 5 Lines
-
-From: POSTMASTER (Sender: CMOPPHARMACIST,FOUR) in 'IN' basket. Page 1
-
-------------------------------------------------------------------------------
-
-The following prescriptions could not be filed at BIRMINGHAM, AL. due to listed error conditions.
-
-TRANS \# RX \# FILL \# REMOTE ERROR
-
-521-741 15648 0 RELEASE DATE ALREADY EXISTS
-
-## Modified Options
+### CMOP Not Transmitted Rx List Bulletin
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following is a list of options modified for version 2.0. Both functionality and output from these options have been extensively modified. Please refer to the Consolidated Mail Outpatient Pharmacy User Manual for further explanation.
+#### The 'ePharmacy - CMOP Not Transmitted Rx List' Mailman bulletin was modified to ensure the body text accurately reflects the reason the CMOP prescriptions cannot be transmitted. Each prescription listed in the body text indicates the number of times an Rx was not transmitted to CMOP and the date of the first unsuccessful transmission to CMOP. In addition, the subject was modified to include the site name.
 
-<u>*Transmission Review* \[PSX TRANSMISSION\] Locked:</u> PSXCMOPMGR
-
-> This option is used to display the status of current transmissions. The user can print a summary of all statuses or a summary for each status. The following is an explanation of the statuses:
-
-> S = Summary
-
-> Q = Queued
-
-> P = Processed
-
-> C = Closed
-
-> H = Hold
-
-> L = Labels Printed
-
-<u>*Display System Status* \[PSX SYSTEM STATUS\]</u>
-
-This option displays a screen of information for use by the CMOP Site Manager to review the status of CMOP processes. Information includes statuses on the CMOP interface, nightly background jobs, etc. This data should be reviewed regularly to ensure all processes are running as scheduled.
-
-Release Data Acknowledgments \> 24 hours OUTSTANDING is a notification that release data has been returned to a remote medical center and not acknowledged within 24 hours. Use the *Resend Release Data* option to resend the data to the medical center.
-
-Rejected Orders OUTSTANDING is a notification that patient order(s) have been rejected by the vendor system. The *Rejected Messages Report* option should be used to print a report of these orders.
-
-example follows on next page
-
-Select CMOP System Management Menu Option: <u>D</u>isplay System Status
-
-CMOP SYSTEM STATUS
-
-Interface : STOPPED
-
-Transmissions Queued : Nothing in the Queue
-
-Last Order Processed : 521-3-12..........BIRMINGHAM (C).........Feb 26@10:16
-
-Last Query Completed : \#3................7 Rx's.................Feb 26@10:16
-
-\*\*\*\*\*Release Data Acknowledgments \> 24 hours OUTSTANDING\*\*\*\*\*
-
-\*\*\*\*\*Rejected Orders OUTSTANDING\*\*\*\*\*
-
-Background Process Last Ran Scheduled For
-
-Release Data Filed in Master Database....Feb 26@12:17...........Feb 26@12:32
-
-Database Purge.......................................Not Scheduled
-
-Release File Purge.......................Feb 25@23:00...........Feb 26@23:00
-
-Release Acknowledgement File Purge.......Feb 25@23:30...........Feb 26@23:30
-
-## Modified Menus
+### CMOP Not Dispensed Rx List Bulletin
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following menus are modified for version 2.0. Both functionality and output from these menus have been extensively modified. Please refer to the CMOP User Manual for further explanation.
+#### The 'CMOP Not Dispensed Rx List' mailman bulletin was modified to include the standard symbols denoting additional information used by Outpatient pharmacy. Prescription numbers with a corresponding ePharmacy claim shall be marked with 'e'. Prescription numbers with a first party copay shall be marked with '\$'.
 
-*Interface Menu* \[PSX INTERFACE MENU\]
-
-> This menu contains options which control the operations of the CMOP interface. When the user enters the *Interface Menu* the one of the following current statuses of the interface communication link is displayed.
-
-> *Monitor CMOP Interface*
-
-> *Start CMOP Interface*
-
-> *Stop CMOP Interface*
-
-> A All Transmissions Queued. Sends all transmissions in the queue to the vendor. The interface will NOT stop after all transmissions have been sent to the vendor system.
-
-> S Single Transmission. Only sends the transmission selected to the vendor. The interface will stop when the transmission download has completed.
-
-> P Prioritize Queue. Allows the user to establish a priority for sending transmissions to the vendor. The interface will NOT stop after all transmissions have been sent to the vendor.
-
-> Q Query Request. Allows the user to initiate a query request. Once the query request is complete the interface stops.
-
-## *Reports* Option \[PSX REPORTS MENU\]
+## Issue Resolutions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Menu text for the *ReportsMenu* option has been changed to *Reports* \[PSX REPORTS MENU\].
-
-## Modified Reports
+### New Service Requests (NSRs)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following is a list of reports which have been modified for version 2.0. Please review these changes in detail in the CMOP User Manual.
+#### This patch addresses the following New Service Request (NSR):
 
-> *Facility Activity Report* \[PSX ACTIVITY\]
+#### - NCPDP Continuous Maintenance Standards (Phase 2, Iteration 2
 
-> *Transmission Report Summary* \[PSX SUMMARY\]
-
-## New Reports
+### Remedy Tickets
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following is a list of new reports added to version 2.0. Please review the individual options, examples, and descriptions provided in detail in the CMOP User Manual.
-
-> *Duplicate Release Data Report* \[PSX DUPLICATE RELEASE\]
-
-> *Report of Release Data Returned* \[PSX RELEASE REPORT\]
-
-> These reports are now included on the *Reports* sub-menu of the
-
-> *CMOP System Management Menu*. Additionally, all other label/report
-
-> printing options are now included on the *Reports* menu. The new
-
-> menu structure for Reports is :
-
-> *Transmission Report Summary*
-
-> *Rejected Messages Report*
-
-> *Unreleased Rx's Report*
-
-> *Duplicate Release Data Report*
-
-> *Facility Activity Report*
-
-> *Turnaround Time Report*
-
-> *Report of Release Data Returned*
-
-> *Print Rejected Orders*
-
-> *Print Transmission Labels*
-
-> *Label Restart Utility*
-
-> *Reprint Transmission Labels*
-
-## New Menus and Options
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> The *CMOP System Management Menu* has been redesigned to group similar tasks together and simplify menu navigation for personnel. A number of system parameters have been added to allow the CMOP Host facility to customize package operations to provide more efficient management of the prescription data workload processed each day. New menus, *Operations Management* and *Archive CMOP Data*, and new options, *Resend Release Data to VAMCs*, and *System Parameter Enter/Edit* have been added in version 2.0.
-
-## <u> Menus</u>
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-*Operations Management* \[PSX OPERATIONS MANAGEMENT\]
-
-> This option manages the day to day operations of the background procedures
-
-> necessary for transmission data management.
-
-> *Start/Stop Background Filer*
-
-> *Nightly Purge of CMOP Database*
-
-> *Nightly Purge of Release Data \
-
-> *Purge of Release Messages\*\
-
-> *Resend Release Data to VAMCs*
-
-> *System Parameter Enter/Edit*\*Note: *Nightly Purge of Release Data* \[PSX PURGE RELEASE\]
-
-> The menu text for this option has changed from Start/Stop Nightly Purge of Release Data to read Nightly Purge of Release Data.
-
-\*\*Note: *Purge of Release Messages* \[PSX PURGE RELEASE MESSAGES\]
-
-> The menu text for this option has changed from Start/Stop Nightly Purge of Release Messages to read Purge of Release Messages.
-
-*Resend Release Data to VAMCs* \[PSX RELEASE DATA RECOVERY\]
-
-> This option provides a report of all release data mail messages that are greater than 24 hours old. Users can select mail messages to resend to the medical center for filing.
-
-## <u>Options</u>
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-*System Parameter Enter/Edit* \[PSX SITE PARAMETERS\]
-
-> This option will display the current CMOP system parameter settings which can be edited by the user.
-
-Select Operations Management Option: <u>SY</u>stem Parameter Enter/Edit
-
-Query Request Interval: 45 min// <u>?</u>
-
-This is the minimum time interval between query requests.
-
-Enter the number in hour(s) and/or fractions of an hour interval.
-
-Example: 1.25 = 12 hr 25 min, .30 = 30 min, 1 = 1 hr
-
-Query Request Interval: 45 min// <u>\<RET\></u> ( 45 min)
-
-Query Limit Request: 10000 Rx's// <u>?</u>
-
-This is the maximum number of Rx's that will be accepted during a query request.
-
-Query Limit Request: 10000 Rx's// <u>\<RET\></u>
-
-Days to Retain Release Summary: 10 days// <u>?</u>
-
-This is the number of days of Release Acknowledgements that will be retained in the file system. Maximum number of days is 10, minimum number of days is 0.
-
-Days to Retain Release Summary: 10 days// <u>\<RET\></u>
-
-Select Operations Management Option: <u>\<RET\></u>*Archive CMOP Data* \[PSX ARCHIVE\]
-
-> The Archive CMOP Data menu has been added, a sub-menu consists of the original archive options as listed below:
-
-> *Archive Monthly CMOP Data*
-
-> *Purge Archived CMOP Data*
-
-> *Retrieve Archived CMOP Data*
+#### There are no Remedy Tickets associated with this patch.

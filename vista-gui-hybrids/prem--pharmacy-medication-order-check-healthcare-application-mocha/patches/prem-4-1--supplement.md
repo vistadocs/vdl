@@ -5,55 +5,36 @@ doc_label: Production Operations Manual
 doc_layer: patch
 doc_subject: MOCHA Server 4 Productions Operations Manual
 app_code: PREM
-app_name: "Pharmacy: Medication Order Check Healthcare Application (MOCHA)"
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
 section: GUI
 app_status: active
 pkg_ns: PREM
 patch_ver: 4
 patch_id: PREM*4*1
-group_key: "PREM:PREM:4"
+group_key: PREM:PREM:4
+description: '''06/28/2024 2.0 Updated version numbers, Point of Contacts Added List of Tables and List of Figures Updated Figures: Figure 2 and Figure 3 Table 3: POC Updated Sections: 2.1.1 System Start-up 2.4 System Monitoring, Reporting, & Tools 2.4.2 Availability Monitoring 2.4.3 Performance/Capacity...'''
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - server
-  - mocha
-  - contents
-  - database
-  - class
-  - application
-  - operations
-  - maintenance
-  - errors
 page_count: 0
-word_count: 5356
+word_count: 5335
 section_count: 13
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_POM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_POM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=201"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_POM.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_POM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Re-Engineering (PRE)
-
-  Medication Order Check Healthcare Application (MOCHA) Server 4.0
-
-  Production Operations Manual
----
-
 ![](prem-4-1-mocha-server-4-productions-operations-manual/001.png)
 
 June 2024

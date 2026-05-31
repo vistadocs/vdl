@@ -5,44 +5,57 @@ doc_label: User Manual
 doc_layer: plain
 doc_subject: Adverse Reaction Tracking
 app_code: GMRA
-app_name: "CPRS: Adverse Reaction Tracking (ART)"
+app_name: 'CPRS: Adverse Reaction Tracking (ART)'
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: <span id="Title_Page" class="anchor"></span>ADVERSE REACTION TRACKINGUSER MANUAL
-audience: 
-keywords: 
-  - patient
-  - allergy
-  - reaction
-  - date
-  - allergies
-  - report
-  - drug
-  - adverse
-  - reactions
-  - edit
+pkg_ns: GMRA
+patch_ver: null
+patch_id: null
+group_key: null
+description: Revision Date Page or Chapter Description Project Manager
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '3.1'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.67'
+- '50.68'
+- '100'
+- '100.05'
+- '120.8'
+- '120.82'
+- '120.83'
+- '120.84'
+- '120.86'
+security_keys:
+- CLINICIAN
+- GMRA ALLERGY VERIFY
+- GMRA SUPERVISOR
+- GMRA-ALLERGY VERIFY
+- GMRA-VERIFY ALLERGY
+- PROVIDER
+menu_options: 1
 page_count: 0
 word_count: 42659
 section_count: 11
 table_count: 40
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)_Archive/gmra_4_p69_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)_Archive/gmra_4_p69_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=339"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)_Archive/gmra_4_p69_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)_Archive/gmra_4_p69_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=339
+audit_applied: '2026-05-31'
 ---
 
 ![](adverse-reaction-tracking-user-manual/001.png)

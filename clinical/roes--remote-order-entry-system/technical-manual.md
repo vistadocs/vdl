@@ -3,7 +3,7 @@ title: ROES Version 3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ROES
 app_name: Remote Order Entry System
 section: CLI
@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: ROES
 patch_ver: 3
 patch_id: ROES*3
-group_key: "ROES:ROES:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ROES:ROES:3
 description: The Remote Order Entry System (ROES 3.0) gives authorized end users at VHA facilities the ability to order products and services from the VA Denver Acquisition & Logistics Center (DALC). This manual provides information regarding the technical components of the ROES 3.0 software. The information in
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - roes
-  - table
-  - contents
-  - patient
-  - application
-  - order
-  - strong
-  - dalc
-  - entry
-  - manual
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.01'
+- '1.02'
+- '2'
+- '2.01'
+- '2.02'
+- '2.03'
+- '2.04'
+- '19'
+- '791814'
+security_keys: []
+menu_options: 1
 page_count: 0
 word_count: 4898
 section_count: 32
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=99"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=99
+audit_applied: '2026-05-31'
 ---
 
 ![](roes-version-3-technical-manual/001.png)

@@ -5,44 +5,41 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: FY07 Qtr 04
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*264
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '- Introduction - Outpatient Pharmacy V. 7.0 - Internet Refill Automation and Reporting - Using the Automate Internet Refill Option - [Using the Internet Refill...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '52.43'
+- '55'
+- '59'
+security_keys:
+- PROVIDER
+- YSCL AUTHORIZED
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - report
-  - internet
-  - table
-  - contents
-  - refill
-  - refills
-  - cmop
-  - date
-  - updates
 page_count: 0
 word_count: 2486
 section_count: 7
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p264_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p264_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p264_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p264_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-264-fy07-qtr-04-release-notes/001.png)

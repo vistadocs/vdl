@@ -3,7 +3,7 @@ title: STS Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: STS
 app_name: Standards & Terminology Services
 section: CLI
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: STS
 patch_ver: 1
 patch_id: STS*1
-group_key: "STS:STS:1"
+group_key: STS:STS:1
+description: Standards & Terminology Services (STS) is responsible for organizing, formalizing, and maintaining the terminology of the Veterans Health Administration (VHA). Currently, terminology is used in the Department of Veterans Affairs (VA) Electronic Medical Record (EMR) system known as Veterans Health In
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Standards & Terminology Services (STS) is responsible for organizing, formalizing, and maintaining the terminology of the Veterans Health Administration (VHA). Currently, terminology is used in the Department of Veterans Affairs (VA) Electronic Medical Record (EMR) system known as Veterans Health In
-audience: 
-keywords: 
-  - vista
-  - table
-  - class
-  - strong
-  - blockquote
-  - contents
-  - vhat
-  - concept
-  - style
-  - width
 page_count: 0
 word_count: 7308
 section_count: 8
 table_count: 28
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_technical_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_technical_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=191"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_technical_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_technical_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=191
+audit_applied: '2026-05-31'
 ---
 
 # Standards & Terminology Service

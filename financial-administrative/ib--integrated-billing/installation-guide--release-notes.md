@@ -1,16 +1,63 @@
 ---
-consolidated_title: "release notes/installation guide"
-app_code: IB
+title: IB*2*506 Release Notes/Installation Guide
 doc_type: IG
-master_source: "IB*2*506 Release Notes/Installation Guide"
-master_pub_date: revision_count: 0
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Release Notes/
+app_code: IB
+app_name: Integrated Billing
+section: FIN
+app_status: active
+pkg_ns: IB
+patch_ver: 2
+patch_id: IB*2*506
+group_key: IB:IB:2
+file_numbers:
+- '1.05'
+- '2'
+- '2.312'
+- '8.01'
+- '8.02'
+- '51.26'
+- '350.9'
+- '355.33'
+- '365'
+- '365.1'
+- '365.15'
+security_keys:
+- COMPANY EDIT
+- EDI INSURANCE EDIT
+- GROUP PLAN EDIT
+menu_options: 6
+description: Electronic Data Interchange (EDI)New Standards and Operating Rules VHA Provider-side Technical Compliance
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 6855
+section_count: 10
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p506_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p506_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
+master_source: IB*2*506 Release Notes/Installation Guide
+master_pub_date: 'null'
 consolidated_from: 6 versions
 prior_versions:
-  - "IB*2*447 Release Notes/Installation Guide"
-  - "IB*2*497 Release Notes/Installation Guide"
-  - "IB*2*517 Release Notes/Installation Guide"
-  - "IB*2*547 Release Notes/Installation Guide"
-  - "IB*2*549 Release Notes/Installation Guide"
+- IB*2*447 Release Notes/Installation Guide
+- IB*2*497 Release Notes/Installation Guide
+- IB*2*517 Release Notes/Installation Guide
+- IB*2*547 Release Notes/Installation Guide
+- IB*2*549 Release Notes/Installation Guide
+consolidated_title: release notes/installation guide
 ---
 
 ![](ib-2-506-release-notes-installation-guide/001.png)
@@ -42,28 +89,28 @@ IB\*2\*506May 2014Table of Contents
   - [Installation Instructions](#installation-instructions)
 - [Enhancements](#enhancements)
   - [Enhancements to the Insurance Buffer](#enhancements-to-the-insurance-buffer)
-    - [Insurance Buffer – Create New ‘Complete Buffer’ (CB) Screen](#insurance-buffer-create-new-complete-buffer-cb-screen)
-    - [Insurance Buffer – Default View to be the ‘Complete Buffer’ (CB) Screen](#insurance-buffer-default-view-to-be-the-complete-buffer-cb-screen)
-    - [Insurance Buffer – ‘Complete Buffer’ Screen Contents](#insurance-buffer-complete-buffer-screen-contents)
-    - [Insurance Buffer – ‘Complete Buffer’ Screen Actions](#insurance-buffer-complete-buffer-screen-actions)
-    - [Insurance Buffer – Ability to Jump to the ‘Complete Buffer’ Screen](#insurance-buffer-ability-to-jump-to-the-complete-buffer-screen)
-    - [Insurance Buffer – ‘Positive Buffer’ Screen Fix Filter](#insurance-buffer-positive-buffer-screen-fix-filter)
-    - [Insurance Buffer – ‘Medicare Buffer’ Screen Fix Filter](#insurance-buffer-medicare-buffer-screen-fix-filter)
-    - [Insurance Buffer – ‘Negative Buffer’ Screen Fix Filter](#insurance-buffer-negative-buffer-screen-fix-filter)
-    - [Insurance Buffer – Remove ‘Future Appointments’ Screen](#insurance-buffer-remove-future-appointments-screen)
-    - [Insurance Buffer – Create New ‘Failure Buffer’ (FB) Screen](#insurance-buffer-create-new-failure-buffer-fb-screen)
-    - [Insurance Buffer – ‘Failure Buffer’ Screen Contents](#insurance-buffer-failure-buffer-screen-contents)
-    - [Insurance Buffer – ‘Failure Buffer’ Screen Actions](#insurance-buffer-failure-buffer-screen-actions)
-    - [Insurance Buffer – Remove ‘Verify Entry’ Action from the Buffer Views](#insurance-buffer-remove-verify-entry-action-from-the-buffer-views)
-    - [Insurance Buffer – Filter Insurance Buffer Records Based on User’s Security Keys (Revised)](#insurance-buffer-filter-insurance-buffer-records-based-on-users-security-keys-revised)
-    - [Insurance Buffer – Ability to Jump to the ‘Failure Buffer’ Screen](#insurance-buffer-ability-to-jump-to-the-failure-buffer-screen)
+    - [Insurance Buffer – Create New 'Complete Buffer' (CB) Screen](#insurance-buffer-create-new-complete-buffer-cb-screen)
+    - [Insurance Buffer – Default View to be the 'Complete Buffer' (CB) Screen](#insurance-buffer-default-view-to-be-the-complete-buffer-cb-screen)
+    - [Insurance Buffer – 'Complete Buffer' Screen Contents](#insurance-buffer-complete-buffer-screen-contents)
+    - [Insurance Buffer – 'Complete Buffer' Screen Actions](#insurance-buffer-complete-buffer-screen-actions)
+    - [Insurance Buffer – Ability to Jump to the 'Complete Buffer' Screen](#insurance-buffer-ability-to-jump-to-the-complete-buffer-screen)
+    - [Insurance Buffer – 'Positive Buffer' Screen Fix Filter](#insurance-buffer-positive-buffer-screen-fix-filter)
+    - [Insurance Buffer – 'Medicare Buffer' Screen Fix Filter](#insurance-buffer-medicare-buffer-screen-fix-filter)
+    - [Insurance Buffer – 'Negative Buffer' Screen Fix Filter](#insurance-buffer-negative-buffer-screen-fix-filter)
+    - [Insurance Buffer – Remove 'Future Appointments' Screen](#insurance-buffer-remove-future-appointments-screen)
+    - [Insurance Buffer – Create New 'Failure Buffer' (FB) Screen](#insurance-buffer-create-new-failure-buffer-fb-screen)
+    - [Insurance Buffer – 'Failure Buffer' Screen Contents](#insurance-buffer-failure-buffer-screen-contents)
+    - [Insurance Buffer – 'Failure Buffer' Screen Actions](#insurance-buffer-failure-buffer-screen-actions)
+    - [Insurance Buffer – Remove 'Verify Entry' Action from the Buffer Views](#insurance-buffer-remove-verify-entry-action-from-the-buffer-views)
+    - [Insurance Buffer – Filter Insurance Buffer Records Based on User's Security Keys (Revised)](#insurance-buffer-filter-insurance-buffer-records-based-on-users-security-keys-revised)
+    - [Insurance Buffer – Ability to Jump to the 'Failure Buffer' Screen](#insurance-buffer-ability-to-jump-to-the-failure-buffer-screen)
     - [Insurance Buffer – Remove Ability to Create New Insurance Company](#insurance-buffer-remove-ability-to-create-new-insurance-company)
     - [Insurance Buffer – Remove Ability to Create New Group/Plan](#insurance-buffer-remove-ability-to-create-new-groupplan)
     - [Insurance Buffer – Rename the Insurance Buffer File](#insurance-buffer-rename-the-insurance-buffer-file)
     - [Insurance Buffer – Create Insurance Buffer Entry for Appointments with Nationally Inactive Payers](#insurance-buffer-create-insurance-buffer-entry-for-appointments-with-nationally-inactive-payers)
-    - [Insurance Buffer – Add “Escalate” Action to the Buffer Views](#insurance-buffer-add-escalate-action-to-the-buffer-views)
-    - [Insurance Buffer – Restrict use of the “Escalate” Action](#insurance-buffer-restrict-use-of-the-escalate-action)
-    - [Insurance Buffer – Implement the “Escalate” Action](#insurance-buffer-implement-the-escalate-action)
+    - [Insurance Buffer – Add "Escalate" Action to the Buffer Views](#insurance-buffer-add-escalate-action-to-the-buffer-views)
+    - [Insurance Buffer – Restrict use of the "Escalate" Action](#insurance-buffer-restrict-use-of-the-escalate-action)
+    - [Insurance Buffer – Implement the "Escalate" Action](#insurance-buffer-implement-the-escalate-action)
   - [System Feature: eIV – HL7 Transactions](#system-feature-eiv-hl7-transactions)
     - [eIV HL7 Transactions - Daily Registration Message to FSC](#eiv-hl7-transactions-daily-registration-message-to-fsc)
     - [eIV HL7 Transactions – Receive Retry Flag from FSC](#eiv-hl7-transactions-receive-retry-flag-from-fsc)
@@ -75,34 +122,34 @@ IB\*2\*506May 2014Table of Contents
     - [eIV HL7 Transactions – Treat all AAA Action Codes as Though the Payer/FSC Responded](#eiv-hl7-transactions-treat-all-aaa-action-codes-as-though-the-payerfsc-responded)
     - [eIV HL7 Transactions – Honor the Retry Flag when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-retry-flag-when-resending-an-eiv-inquiry)
     - [eIV HL7 Transactions – Honor the Timeout Days when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-timeout-days-when-resending-an-eiv-inquiry)
-    - [eIV HL7 Transactions – Honor the ‘NUMBER RETRIES’ when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-number-retries-when-resending-an-eiv-inquiry)
-    - [eIV HL7 Transactions – Honor the Payer’s Nationally Active Flag when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-payers-nationally-active-flag-when-resending-an-eiv-inquiry)
+    - [eIV HL7 Transactions – Honor the 'NUMBER RETRIES' when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-number-retries-when-resending-an-eiv-inquiry)
+    - [eIV HL7 Transactions – Honor the Payer's Nationally Active Flag when Resending an eIV Inquiry](#eiv-hl7-transactions-honor-the-payers-nationally-active-flag-when-resending-an-eiv-inquiry)
     - [eIV HL7 Transactions – Do Not Send MailMan Message When Retries are Exhausted](#eiv-hl7-transactions-do-not-send-mailman-message-when-retries-are-exhausted)
   - [System Feature: eIV Site Parameters](#system-feature-eiv-site-parameters)
     - [eIV Site Parameters – Retry Flag Not Editable](#eiv-site-parameters-retry-flag-not-editable)
     - [eIV Site Parameters - Freshness Days Not Editable](#eiv-site-parameters-freshness-days-not-editable)
     - [eIV Site Parameters – Timeout Days Not Editable](#eiv-site-parameters-timeout-days-not-editable)
-    - [eIV Site Parameters – Set the Value of ‘NUMBER RETRIES’ Field](#eiv-site-parameters-set-the-value-of-number-retries-field)
+    - [eIV Site Parameters – Set the Value of 'NUMBER RETRIES' Field](#eiv-site-parameters-set-the-value-of-number-retries-field)
     - [eIV Site Parameters – Set the Initial Value of the Retry Flag](#eiv-site-parameters-set-the-initial-value-of-the-retry-flag)
     - [eIV Site Parameters – Set the Initial Value of the Freshness Days](#eiv-site-parameters-set-the-initial-value-of-the-freshness-days)
     - [eIV Site Parameters – Set the Initial Value of the Timeout Days](#eiv-site-parameters-set-the-initial-value-of-the-timeout-days)
-    - [eIV Site Parameters - Set the Value of the ‘HL7 Response Processing’ Field](#eiv-site-parameters-set-the-value-of-the-hl7-response-processing-field)
-    - [eIV Site Parameters – ‘HL7 Response Processing’ Field Not Editable](#eiv-site-parameters-hl7-response-processing-field-not-editable)
+    - [eIV Site Parameters - Set the Value of the 'HL7 Response Processing' Field](#eiv-site-parameters-set-the-value-of-the-hl7-response-processing-field)
+    - [eIV Site Parameters – 'HL7 Response Processing' Field Not Editable](#eiv-site-parameters-hl7-response-processing-field-not-editable)
     - [eIV Site Parameters – Restrict eIV Number of Possible Retries](#eiv-site-parameters-restrict-eiv-number-of-possible-retries)
   - [System Feature: Security Keys](#system-feature-security-keys)
     - [Security Key – Create New Key to Add/Edit an Insurance Company](#security-key-create-new-key-to-addedit-an-insurance-company)
-    - [Security Key – Lock the “Insurance Company Entry/Edit” Option](#security-key-lock-the-insurance-company-entryedit-option)
+    - [Security Key – Lock the "Insurance Company Entry/Edit" Option](#security-key-lock-the-insurance-company-entryedit-option)
     - [Security Key – User Requires Key to Add/Edit Insurance Company in the Insurance Buffer](#security-key-user-requires-key-to-addedit-insurance-company-in-the-insurance-buffer)
     - [Security Key – Create New Key to Add/Edit a Group/Plan](#security-key-create-new-key-to-addedit-a-groupplan)
     - [Security Key – User Requires Key to Add/Edit Group/Plan in the Buffer](#security-key-user-requires-key-to-addedit-groupplan-in-the-buffer)
-    - [Security Key – Lock the Ability to Create a Group/Plan within ‘Patient Insurance Info View/Edit’ Option](#security-key-lock-the-ability-to-create-a-groupplan-within-patient-insurance-info-viewedit-option)
+    - [Security Key – Lock the Ability to Create a Group/Plan within 'Patient Insurance Info View/Edit' Option](#security-key-lock-the-ability-to-create-a-groupplan-within-patient-insurance-info-viewedit-option)
   - [System Feature: Eligibility Benefits](#system-feature-eligibility-benefits)
-    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘Process Insurance Buffer’ option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-process-insurance-buffer-option)
-    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘TPJI’ Option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-tpji-option)
-    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘Patient Insurance Info View/Edit’ Option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-patient-insurance-info-viewedit-option)
+    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'Process Insurance Buffer' option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-process-insurance-buffer-option)
+    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'TPJI' Option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-tpji-option)
+    - [Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'Patient Insurance Info View/Edit' Option](#eligibility-benefits-update-the-eligibility-benefit-information-accessed-via-the-patient-insurance-info-viewedit-option)
     - [Eligibility Benefits – Include the Eligibility Benefit Information on the eIV Response Report](#eligibility-benefits-include-the-eligibility-benefit-information-on-the-eiv-response-report)
-    - [Eligibility Benefits – Store the Service Date on the Patient’s Policy Record](#eligibility-benefits-store-the-service-date-on-the-patients-policy-record)
-    - [Eligibility Benefits – Store the Service Type on the Patient’s Policy Record](#eligibility-benefits-store-the-service-type-on-the-patients-policy-record)
+    - [Eligibility Benefits – Store the Service Date on the Patient's Policy Record](#eligibility-benefits-store-the-service-date-on-the-patients-policy-record)
+    - [Eligibility Benefits – Store the Service Type on the Patient's Policy Record](#eligibility-benefits-store-the-service-type-on-the-patients-policy-record)
     - [Eligibility Benefits – Display the Service Date of the Response](#eligibility-benefits-display-the-service-date-of-the-response)
     - [Eligibility Benefits – Display the Service Type of the Response](#eligibility-benefits-display-the-service-type-of-the-response)
     - [Eligibility Benefits – Eligibility Benefit (1st Priority Sort Order): Insurance Status](#eligibility-benefits-eligibility-benefit-1st-priority-sort-order-insurance-status)
@@ -982,105 +1029,105 @@ The following features in VistA, Integrated Billing are affected by this effort:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Insurance Buffer – Create New ‘Complete Buffer’ (CB) Screen
+### Insurance Buffer – Create New 'Complete Buffer' (CB) Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Provides a new view, the ‘Complete Buffer’ (CB) view, within the Insurance Buffer.
+Provides a new view, the 'Complete Buffer' (CB) view, within the Insurance Buffer.
 
-### Insurance Buffer – Default View to be the ‘Complete Buffer’ (CB) Screen
+### Insurance Buffer – Default View to be the 'Complete Buffer' (CB) Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Process Insurance Buffer \[IBCN INSURANCE BUFFER PROCESS\] option defaults to the ‘Complete Buffer’ (CB) view.
+The Process Insurance Buffer \[IBCN INSURANCE BUFFER PROCESS\] option defaults to the 'Complete Buffer' (CB) view.
 
-### Insurance Buffer – ‘Complete Buffer’ Screen Contents
+### Insurance Buffer – 'Complete Buffer' Screen Contents
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Contains all of the records found on the other Insurance Buffer views.
 
-### Insurance Buffer – ‘Complete Buffer’ Screen Actions
+### Insurance Buffer – 'Complete Buffer' Screen Actions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Provides the user with the same actions as found on the Positive Buffer view.
 
-### Insurance Buffer – Ability to Jump to the ‘Complete Buffer’ Screen
+### Insurance Buffer – Ability to Jump to the 'Complete Buffer' Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Provides the capability to jump to the ‘Complete Buffer’ (CB) screen.
+Provides the capability to jump to the 'Complete Buffer' (CB) screen.
 
-### Insurance Buffer – ‘Positive Buffer’ Screen Fix Filter
+### Insurance Buffer – 'Positive Buffer' Screen Fix Filter
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Contains only non-Medicare records that meet any of the following criteria:
 
-- Non-Medicare records that have an eIV symbol of “+”
-- Non-Medicare records that have an “\*” that previously had an eIV symbol of “+”
-- Non-Medicare records that have an “\*” with no current or past eIV symbol
-- Non-Medicare records that have a “\$” symbol
+- Non-Medicare records that have an eIV symbol of "+"
+- Non-Medicare records that have an "\*" that previously had an eIV symbol of "+"
+- Non-Medicare records that have an "\*" with no current or past eIV symbol
+- Non-Medicare records that have a "\$" symbol
 
-### Insurance Buffer – ‘Medicare Buffer’ Screen Fix Filter
+### Insurance Buffer – 'Medicare Buffer' Screen Fix Filter
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Contains only Medicare records regardless of the eIV symbol.
 
-### Insurance Buffer – ‘Negative Buffer’ Screen Fix Filter
+### Insurance Buffer – 'Negative Buffer' Screen Fix Filter
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Contains only non-Medicare records that meet any of the following criteria:
 
-- Non-Medicare records that have an eIV symbol of “-“
-- Non-Medicare records that have an “\*” that had an eIV symbol of “-“
+- Non-Medicare records that have an eIV symbol of "-"
+- Non-Medicare records that have an "\*" that had an eIV symbol of "-"
 
-### Insurance Buffer – Remove ‘Future Appointments’ Screen
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The ‘Future Appointment’ view has been removed from the Insurance Buffer.
-
-### Insurance Buffer – Create New ‘Failure Buffer’ (FB) Screen
+### Insurance Buffer – Remove 'Future Appointments' Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The ‘Failure Buffer’ (FB) view is available from within the Insurance Buffer.
+The 'Future Appointment' view has been removed from the Insurance Buffer.
 
-### Insurance Buffer – ‘Failure Buffer’ Screen Contents
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-Contains non-Medicare records having an eIV symbol of “!” only.
-
-### Insurance Buffer – ‘Failure Buffer’ Screen Actions
+### Insurance Buffer – Create New 'Failure Buffer' (FB) Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Allows the user to perform the same actions as the ‘Positive Buffer’ view.
+The 'Failure Buffer' (FB) view is available from within the Insurance Buffer.
 
-### Insurance Buffer – Remove ‘Verify Entry’ Action from the Buffer Views
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The user can no longer select the action ‘Verify Entry’ from within the Insurance Buffer.
-
-### Insurance Buffer – Filter Insurance Buffer Records Based on User’s Security Keys (Revised)
+### Insurance Buffer – 'Failure Buffer' Screen Contents
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-All Insurance Buffer views show users (who do NOT have either the new insurance edit key or the new group/plan edit key) only those NON-MEDICARE buffer records that have an eIV symbol of “+” and the patient identified on the buffer record has at least one active policy on their insurance records. (The insurance company name has no part in this comparison.)
+Contains non-Medicare records having an eIV symbol of "!" only.
+
+### Insurance Buffer – 'Failure Buffer' Screen Actions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Allows the user to perform the same actions as the 'Positive Buffer' view.
+
+### Insurance Buffer – Remove 'Verify Entry' Action from the Buffer Views
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The user can no longer select the action 'Verify Entry' from within the Insurance Buffer.
+
+### Insurance Buffer – Filter Insurance Buffer Records Based on User's Security Keys (Revised)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+All Insurance Buffer views show users (who do NOT have either the new insurance edit key or the new group/plan edit key) only those NON-MEDICARE buffer records that have an eIV symbol of "+" and the patient identified on the buffer record has at least one active policy on their insurance records. (The insurance company name has no part in this comparison.)
 
 - In other words: the user would see the same things on the complete buffer view and the positive view, while all other views will be empty of records.
 
-### Insurance Buffer – Ability to Jump to the ‘Failure Buffer’ Screen
+### Insurance Buffer – Ability to Jump to the 'Failure Buffer' Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-All of the views within the Insurance Buffer contain the ability to jump to the ‘Failure Buffer’ (FB) screen.
+All of the views within the Insurance Buffer contain the ability to jump to the 'Failure Buffer' (FB) screen.
 
 ### Insurance Buffer – Remove Ability to Create New Insurance Company
 
@@ -1098,7 +1145,7 @@ The user no longer has the ability to create a new group/plan from within the In
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The VistA ‘Insurance Buffer’ (#355.33) file is now named the ‘Insurance Verification Processor’ (#355.33).
+The VistA 'Insurance Buffer' (#355.33) file is now named the 'Insurance Verification Processor' (#355.33).
 
 ### Insurance Buffer – Create Insurance Buffer Entry for Appointments with Nationally Inactive Payers
 
@@ -1106,23 +1153,23 @@ The VistA ‘Insurance Buffer’ (#355.33) file is now named the ‘Insurance Ve
 
 The system creates an Insurance Buffer record with a blank eIV symbol for instances in which the eIV appointment extract would have created an eIV inquiry except for the fact that the payer is nationally inactive.
 
-### Insurance Buffer – Add “Escalate” Action to the Buffer Views
+### Insurance Buffer – Add "Escalate" Action to the Buffer Views
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Displays the new action, “Escalate”.
+Displays the new action, "Escalate".
 
-### Insurance Buffer – Restrict use of the “Escalate” Action
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-“Escalate” can only be used by users who do NOT have either the new insurance edit key or the new group/plan edit key.
-
-### Insurance Buffer – Implement the “Escalate” Action
+### Insurance Buffer – Restrict use of the "Escalate" Action
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-“Escalate” replaces the “+” symbol with a “\$” for the selected insurance buffer entry to indicate that the policy on the insurance buffer record cannot be processed by that user.
+"Escalate" can only be used by users who do NOT have either the new insurance edit key or the new group/plan edit key.
+
+### Insurance Buffer – Implement the "Escalate" Action
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+"Escalate" replaces the "+" symbol with a "\$" for the selected insurance buffer entry to indicate that the policy on the insurance buffer record cannot be processed by that user.
 
 ## System Feature: eIV – HL7 Transactions
 
@@ -1192,13 +1239,13 @@ The eIV system only resends an X12 270 message (eIV inquiry) if the Retry flag i
 
 The eIV system only resends an X12 270 message (eIV inquiry) if it has been at least the number of Timeout Days since the last time the eIV inquiry was sent to FSC and all other criteria is met.
 
-### eIV HL7 Transactions – Honor the ‘NUMBER RETRIES’ when Resending an eIV Inquiry
+### eIV HL7 Transactions – Honor the 'NUMBER RETRIES' when Resending an eIV Inquiry
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV system only resends an X12 270 message (eIV inquiry) if the number of times an eIV inquiry was resent to FSC is less than the ‘NUMBER RETRIES’ allowed and all other criteria is met.
+The eIV system only resends an X12 270 message (eIV inquiry) if the number of times an eIV inquiry was resent to FSC is less than the 'NUMBER RETRIES' allowed and all other criteria is met.
 
-### eIV HL7 Transactions – Honor the Payer’s Nationally Active Flag when Resending an eIV Inquiry
+### eIV HL7 Transactions – Honor the Payer's Nationally Active Flag when Resending an eIV Inquiry
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1232,47 +1279,47 @@ Displays the Freshness Days as viewable only.
 
 The eIV Site Parameters do not display the Timeout Days.
 
-### eIV Site Parameters – Set the Value of ‘NUMBER RETRIES’ Field
+### eIV Site Parameters – Set the Value of 'NUMBER RETRIES' Field
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameter, ‘NUMBER RETRIES’, is initially defined as having a value of “1.”
+The eIV Site Parameter, 'NUMBER RETRIES', is initially defined as having a value of "1."
 
 ### eIV Site Parameters – Set the Initial Value of the Retry Flag
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameter, ‘Retry Flag’, is initially defined as having a value of “No.”
+The eIV Site Parameter, 'Retry Flag', is initially defined as having a value of "No."
 
 ### eIV Site Parameters – Set the Initial Value of the Freshness Days
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameter, ‘Freshness Days’, is initially defined as having a value of “180”.
+The eIV Site Parameter, 'Freshness Days', is initially defined as having a value of "180".
 
 ### eIV Site Parameters – Set the Initial Value of the Timeout Days
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameter, ‘Timeout Days’, is initially defined as having a value of “5.”
+The eIV Site Parameter, 'Timeout Days', is initially defined as having a value of "5."
 
-### eIV Site Parameters - Set the Value of the ‘HL7 Response Processing’ Field
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The eIV Site Parameter, ‘HL7 Response Processing’ field is initially defined as having a value of ‘immediate’.
-
-### eIV Site Parameters – ‘HL7 Response Processing’ Field Not Editable
+### eIV Site Parameters - Set the Value of the 'HL7 Response Processing' Field
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameters does not display the ‘HL7 Response Processing’ field.
+The eIV Site Parameter, 'HL7 Response Processing' field is initially defined as having a value of 'immediate'.
+
+### eIV Site Parameters – 'HL7 Response Processing' Field Not Editable
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The eIV Site Parameters does not display the 'HL7 Response Processing' field.
 
 ### eIV Site Parameters – Restrict eIV Number of Possible Retries
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The eIV Site Parameter, ‘NUMBER RETRIES’ field is defined as having a value of ‘1’.
+The eIV Site Parameter, 'NUMBER RETRIES' field is defined as having a value of '1'.
 
 ## System Feature: Security Keys
 
@@ -1282,13 +1329,13 @@ The eIV Site Parameter, ‘NUMBER RETRIES’ field is defined as having a value 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Includes a new IB security key to control edits/additions to records in VistA’s Insurance Company file.
+Includes a new IB security key to control edits/additions to records in VistA's Insurance Company file.
 
-### Security Key – Lock the “Insurance Company Entry/Edit” Option
+### Security Key – Lock the "Insurance Company Entry/Edit" Option
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Restricts the ability to add/edit an insurance company through the “Insurance Company Entry/Edit” \[IBCN INSURANCE CO EDIT\] option to only users with the new IB INSURANCE COMPANY EDIT security key.
+Restricts the ability to add/edit an insurance company through the "Insurance Company Entry/Edit" \[IBCN INSURANCE CO EDIT\] option to only users with the new IB INSURANCE COMPANY EDIT security key.
 
 ### Security Key – User Requires Key to Add/Edit Insurance Company in the Insurance Buffer
 
@@ -1300,7 +1347,7 @@ Restricts the ability of users to add/edit an insurance company through the Insu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Includes a new IB security key to control edits/additions to records in VistA’s Group Insurance Plan file.
+Includes a new IB security key to control edits/additions to records in VistA's Group Insurance Plan file.
 
 ### Security Key – User Requires Key to Add/Edit Group/Plan in the Buffer
 
@@ -1308,33 +1355,33 @@ Includes a new IB security key to control edits/additions to records in VistA’
 
 Restricts the ability of users to add/edit a Group/Plan through the Insurance Buffer to only those users with the new IB GROUP PLAN EDIT security key.
 
-### Security Key – Lock the Ability to Create a Group/Plan within ‘Patient Insurance Info View/Edit’ Option
+### Security Key – Lock the Ability to Create a Group/Plan within 'Patient Insurance Info View/Edit' Option
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Restricts the ability of users to add/edit a Group/Plan through the ‘Patient Insurance Info View/Edit’ option to only those users with the new IB GROUP PLAN EDIT security key.
+Restricts the ability of users to add/edit a Group/Plan through the 'Patient Insurance Info View/Edit' option to only those users with the new IB GROUP PLAN EDIT security key.
 
 ## System Feature: Eligibility Benefits
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘Process Insurance Buffer’ option
+### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'Process Insurance Buffer' option
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Displays the newly formatted eligibility benefit information when accessed by the ‘Process Insurance Buffer’ option.
+Displays the newly formatted eligibility benefit information when accessed by the 'Process Insurance Buffer' option.
 
-### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘TPJI’ Option
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-Displays the newly formatted eligibility benefit information when accessed by the ‘TPJI’ option.
-
-### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the ‘Patient Insurance Info View/Edit’ Option
+### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'TPJI' Option
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Displays the newly formatted eligibility benefit information when accessed by the ‘Patient Insurance Info View/Edit’ option.
+Displays the newly formatted eligibility benefit information when accessed by the 'TPJI' option.
+
+### Eligibility Benefits – Update the Eligibility Benefit Information Accessed via the 'Patient Insurance Info View/Edit' Option
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Displays the newly formatted eligibility benefit information when accessed by the 'Patient Insurance Info View/Edit' option.
 
 ### Eligibility Benefits – Include the Eligibility Benefit Information on the eIV Response Report
 
@@ -1342,17 +1389,17 @@ Displays the newly formatted eligibility benefit information when accessed by th
 
 Displays the eligibility benefit information that is associated with the X12 271 response on the eIV Response Report.
 
-### Eligibility Benefits – Store the Service Date on the Patient’s Policy Record
+### Eligibility Benefits – Store the Service Date on the Patient's Policy Record
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Stores on the patient’s record the Service Date associated with the eligibility benefits when eligibility benefits are saved from the Insurance Buffer to the patient’s policy.
+Stores on the patient's record the Service Date associated with the eligibility benefits when eligibility benefits are saved from the Insurance Buffer to the patient's policy.
 
-### Eligibility Benefits – Store the Service Type on the Patient’s Policy Record
+### Eligibility Benefits – Store the Service Type on the Patient's Policy Record
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Stores on the patient’s record the Service Type that was inquired about when eligibility benefits are saved from the Insurance Buffer to the patient’s policy.
+Stores on the patient's record the Service Type that was inquired about when eligibility benefits are saved from the Insurance Buffer to the patient's policy.
 
 ### Eligibility Benefits – Display the Service Date of the Response
 
@@ -1386,7 +1433,7 @@ Displays the insurance type of the policy, when available, that is found in the 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Indicates possible other insurance as the fourth data element of the Eligibility Benefit section, only if the payer’s response contains potential additional insurance.
+Indicates possible other insurance as the fourth data element of the Eligibility Benefit section, only if the payer's response contains potential additional insurance.
 
 ---
 
@@ -1400,13 +1447,13 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The rollback plan for VistA applications is complex and not able to be a “one size fits all” solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. If not, the site should contact the product support team directly for specific solutions to their unique problems.
+The rollback plan for VistA applications is complex and not able to be a "one size fits all" solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. If not, the site should contact the product support team directly for specific solutions to their unique problems.
 
 ## Backout Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA installation procedure of the KIDS build, the installer can back up the modified routines using the ‘Backup a Transport Global’ action. The installer can restore the routines using the MailMan message that was saved prior to the installation of the patch. The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. This backout process may need to include a database cleanup process.
+During the VistA installation procedure of the KIDS build, the installer can back up the modified routines using the 'Backup a Transport Global' action. The installer can restore the routines using the MailMan message that was saved prior to the installation of the patch. The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. This backout process may need to include a database cleanup process.
 
 Please contact the product support team for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch. If the installed patch that needs to be backed out includes a pre or post install routine, please contact the product support team before attempting the backout.
 
@@ -1480,7 +1527,7 @@ This project made modifications to several screens in Integrated Billing:
   - Insurance Buffer will display all Medicare entries to all users.
 - Patient Insurance screen (Patient Insurance Info View Entry/Edit option):
   - Patient Insurance screen will display additional eIV Response data.
-  - "Policy Not Billable" prompt will be modified to “Stop Policy From Billing” to make it more clear to the user.
+  - "Policy Not Billable" prompt will be modified to "Stop Policy From Billing" to make it more clear to the user.
 - Insurance Company screen (Insurance Company Entry/Edit option):
   - The Expand Benefits action (EB) will display additional eIV Response data.
 - Enhance VistA Insurance Capture Buffer (ICB):
@@ -1878,7 +1925,7 @@ IB Technical Manual ib_2_p497_tm.pdf Binary
 
 - Update Subscriber Information
 
-> Includes a new option required to be scheduled to update the subscriber fields in the Insurance Type file, with the values stored in the Patient file, upon installation of the software at a site when the patient’s relationship to the insured is self (18) and the field is blank and the insurance policy is Active.
+> Includes a new option required to be scheduled to update the subscriber fields in the Insurance Type file, with the values stored in the Patient file, upon installation of the software at a site when the patient's relationship to the insured is self (18) and the field is blank and the insurance policy is Active.
 
 ## MCCR System Definition Menu \[IB SYSTEM DEFINITION MENU\] 
 
@@ -1886,7 +1933,7 @@ IB Technical Manual ib_2_p497_tm.pdf Binary
 
 - Add New Option for Subscriber Information
 
-> Includes a new option to provide the ability for users holding the IB SUPERVISOR KEY to update subscriber fields in the Insurance Type sub-file for all patients, with the values stored in the Patient file, when the patient’s relationship to the insured is self (18) and the field is blank and the insurance policy is Active.
+> Includes a new option to provide the ability for users holding the IB SUPERVISOR KEY to update subscriber fields in the Insurance Type sub-file for all patients, with the values stored in the Patient file, when the patient's relationship to the insured is self (18) and the field is blank and the insurance policy is Active.
 
 - Store Default Service Type Codes
 

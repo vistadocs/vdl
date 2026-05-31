@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*178
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '- Introduction - Purpose - Audience - This Release - New Features and Functions Added - New Option - New Routine - [Enhancements and Modifications to Existing...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - inventory
-  - table
-  - contents
-  - rmpr
-  - prosthetics
-  - stock
-  - release
-  - patch
-  - generic
-  - dynamed
 page_count: 0
 word_count: 1300
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_178_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_178_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_178_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_178_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 Prosthetics

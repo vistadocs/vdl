@@ -5,44 +5,69 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: (Updated PSN*4*218)
 app_code: PSN
-app_name: "Pharmacy: National Drug File (NDF)"
+app_name: 'Pharmacy: National Drug File (NDF)'
 section: CLI
 app_status: archive
 pkg_ns: PSN
 patch_ver: 4
 patch_id: PSN*4
-group_key: "PSN:PSN:4"
-file_numbers: []
-security_keys: []
+group_key: PSN:PSN:4
+description: '- Revision History - # Introduction - Related Manuals - Icons - Pharmacy Pre-Installation Preparation - Entering National Drug Codes - Menu -...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '7'
+- '16'
+- '19'
+- '31'
+- '43'
+- '50'
+- '50.1'
+- '50.416'
+- '50.58'
+- '50.6'
+- '50.605'
+- '50.607'
+- '50.612'
+- '50.67'
+- '50.68'
+- '50.681'
+- '55.95'
+- '56'
+- '57.23'
+- '100'
+- '101'
+- '102'
+- '103'
+- '104'
+- '105'
+- '108'
+- '109'
+- '110'
+security_keys:
+- PSN PPS COORD
+- PSNMGR
+- SSH
 menu_options: 8
-description: - [Revision History](#revision-history) - [# Introduction](#introduction) - [Related Manuals](#related-manuals) - [Icons](#icons) - [Pharmacy Pre-Installation Preparation](#pharmacy-pre-installation-preparation) - [Entering National Drug Codes](#entering-national-drug-codes) - [Menu](#menu) - [Natio
-audience: 
-keywords: 
-  - drug
-  - national
-  - product
-  - report
-  - local
-  - class
-  - drugs
-  - table
-  - contents
-  - generic
 page_count: 0
 word_count: 23847
 section_count: 8
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_um_r0218.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_um_r0218.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=389"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_um_r0218.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_um_r0218.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=389
+audit_applied: '2026-05-31'
 ---
 
 > ![](national-drug-file-version-4-user-manual-updated-psn-4-218/001.png)

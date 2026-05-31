@@ -3,7 +3,7 @@ title: ASISTS GUI Version 2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2
-group_key: "OOPS:OOPS:2"
+group_key: OOPS:OOPS:2
+description: Automated Safety Incident Surveillance Tracking System (ASISTS) V. 2.0Graphical User Interface (GUI)User ManualJune
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- ESC
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - asists
-  - incident
-  - report
-  - manual
-  - employee
-  - version
-  - sign
-  - osha
 page_count: 0
 word_count: 12074
 section_count: 53
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2018
 revision_count: 3
 revision_newest: 12/13/2018
 revision_oldest: 09/02/08
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ![](asists-gui-version-2-user-manual/001.png)

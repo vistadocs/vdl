@@ -3,46 +3,37 @@ title: FMDC Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: FMDC
 app_name: FileMan Delphi Components
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: FMDC
+patch_ver: null
+patch_id: null
+group_key: null
+description: Relationship with VA FileMan
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - delphi
-  - fmdc
-  - components
-  - fileman
-  - help
-  - unit
-  - contents
-  - table
-  - compiled
-  - installed
 page_count: 0
 word_count: 2360
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=6"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=6
+audit_applied: '2026-05-31'
 ---
 
 ![](fmdc-installation-guide/001.png)

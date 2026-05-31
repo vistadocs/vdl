@@ -3,7 +3,7 @@ title: Veteran's Crisis Line Version 1 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: YS
 app_name: Mental Health
 section: CLI
@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: YS
 patch_ver: 1
 patch_id: YS*1
-group_key: "YS:YS:1"
+group_key: YS:YS:1
+description: The purpose of this user manual is to describe how to use the Department of Veterans Affairs (VA) National Veterans Crisis Line (VCL) Application. The Application replaces the manual call log (paper log documents) and allows for a seamless transition from VA Suicide Prevention Hotline to Suicide Pre
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The purpose of this user manual is to describe how to use the Department of Veterans Affairs (VA) National Veterans Crisis Line (VCL) Application. The Application replaces the manual call log (paper log documents) and allows for a seamless transition from VA Suicide Prevention Hotline to Suicide Pre
-audience: 
-keywords: 
-  - veteran
-  - span
-  - call
-  - calls
-  - class
-  - line
-  - table
-  - crisis
-  - contents
-  - anchor
 page_count: 0
-word_count: 13270
+word_count: 13259
 section_count: 39
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2014
 revision_count: 5
 revision_newest: 12/19/2014
 revision_oldest: 6/14/2013
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc387753538" class="anchor"></span>Department of Veterans Affairs
----
-
 Veterans Crisis Line (VCL)
 
 ![](veteran-s-crisis-line-version-1-user-guide/001.png)

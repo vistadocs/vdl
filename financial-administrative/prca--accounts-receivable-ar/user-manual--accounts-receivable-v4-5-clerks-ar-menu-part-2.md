@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: '- Clerk''s AR Menu Part 2 - Management Reports - 3rd Party Accounts Report Print - Admin/Interest Rates Print - DC/DOJ Debt Collection Report - [Co-Pay...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '349.2'
+security_keys:
+- MED DEBTOR EDIT
+- PRCAY PAYMENT SUP
 menu_options: 1
-description: - [Clerk’s AR Menu Part 2](#clerks-ar-menu-part-2) - [Management Reports](#management-reports) - [3rd Party Accounts Report Print](#3rd-party-accounts-report-print) - [Admin/Interest Rates Print](#admininterest-rates-print) - [DC/DOJ Debt Collection Report](#dcdoj-debt-collection-report) - [Co-Pay W
-audience: 
-keywords: 
-  - report
-  - table
-  - contents
-  - bill
-  - date
-  - patient
-  - active
-  - account
-  - bills
-  - statement
 page_count: 0
 word_count: 9493
 section_count: 13
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_clerk2_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_clerk2_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_clerk2_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_clerk2_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](accounts-receivable-version-4-5-user-manual-clerk-s-ar-menu-part-2/001.png)

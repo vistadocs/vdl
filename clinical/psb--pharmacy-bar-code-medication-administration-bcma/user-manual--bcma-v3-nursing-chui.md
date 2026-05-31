@@ -5,44 +5,37 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: Nursing CHUI
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: '- Revision History - introduction - What is BCMA? - Features of BCMA - About This Manual - Special Notations—Documentation Conventions - [Package...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '50'
+security_keys:
+- PF1
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - medication
-  - report
-  - administration
-  - patient
-  - date
-  - ward
-  - prompt
-  - time
-  - press
-  - span
 page_count: 0
 word_count: 9190
 section_count: 23
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_nurse_chui_r1216.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_nurse_chui_r1216.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_nurse_chui_r1216.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_nurse_chui_r1216.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](bcma-version-3-nursing-chui-user-manual/001.png)

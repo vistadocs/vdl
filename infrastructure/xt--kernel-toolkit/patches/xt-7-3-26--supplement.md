@@ -11,38 +11,47 @@ app_status: active
 pkg_ns: XT
 patch_ver: 7.3
 patch_id: XT*7.3*26
-group_key: "XT:XT:7.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: XT:XT:7.3
 description: This supplemental documentation is intended for use in conjunction with the Parameter Tools patch (XT\7.3\26). This documentation explains the functions available with the use of the Parameter Tools and describes the APIs that are part of the patch. It combines information from the patch description
-audience: 
-keywords: 
-  - parameter
-  - strong
-  - class
-  - xpar
-  - table
-  - parameters
-  - entity
-  - even
-  - contents
-  - description
+audience: ''
+keywords: []
+file_numbers:
+- '3.5'
+- '4'
+- '4.2'
+- '9.4'
+- '44'
+- '49'
+- '100.21'
+- '200'
+- '404.51'
+- '405.4'
+- '8930'
+- '8989.3'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+- '8989.52'
+security_keys:
+- PF1
+- XUPROGMODE
+menu_options: 0
 page_count: 0
 word_count: 10101
 section_count: 14
 table_count: 19
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3p26sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3p26sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3p26sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3p26sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
 
 ![](xt-7-3-26-parameter-tools-supplement-to-patch-description/001.png)

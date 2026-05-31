@@ -3,7 +3,7 @@ title: AMIE Version 2.7 Medical Admin Service User Manual (UM)
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Medical Admin Service  (UM)
+doc_subject: Medical Admin Service (UM)
 app_code: DVBA
 app_name: Automated Medical Information Exchange (AMIE)
 section: FIN
@@ -11,50 +11,43 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*240
-group_key: "DVBA:DVBA:2.7"
-file_numbers: []
-security_keys: []
+group_key: DVBA:DVBA:2.7
+description: 07/2022 2.0 Manual reformatted to VA standards. New sections under C&P Reports Menu – 4.13.10.11 ClinDocs Metrics Report and 4.13.10.12 Clinical Doc Metrics Data Purge Updated Section 6 Option Index – to include new C&P Reports Menu options. Booz Allen
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3.5'
+- '4'
+- '44'
+- '200'
+- '396.1'
+- '396.3'
+- '396.6'
+security_keys:
+- CAPRI METRICS PURGE
+- DAY CERT
+- DAY CERT CLERK
+- DVBA C SUPERVISOR
+- DVBA SUPERVISOR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - request
-  - date
-  - requests
-  - report
-  - table
-  - contents
-  - medical
-  - appointment
-  - number
-  - exams
 page_count: 0
-word_count: 12521
+word_count: 12507
 section_count: 20
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/amie_2_7_240_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/amie_2_7_240_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=31"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/amie_2_7_240_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/amie_2_7_240_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=31
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-
-  Automated Medical Information Exchange (AMIE)
-
-  Software Version 2.7
-
-  Medical Administration Service (MAS) User Manual
----
-
 ![](amie-version-2-7-medical-admin-service-user-manual-um/001.png)
 
 July 2022

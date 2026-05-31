@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*241
-group_key: "YS:YS:5.01"
+group_key: YS:YS:5.01
+description: '| Date | Version | Description | Author | |------------|-------------|-----------------|---------------------| | 09/21/2023 | 1.0 | Initial Version | Booz Allen Hamilton'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - rollback
-  - procedure
-  - patch
-  - deployment
-  - site
-  - verification
 page_count: 0
-word_count: 1449
+word_count: 1436
 section_count: 27
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2023
 revision_count: 1
 revision_newest: 09/21/2023
 revision_oldest: 09/21/2023
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_241_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_241_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_241_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_241_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Mental Health YS\*5.01\*241
-
-  *(Emergency Patch)*
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](ys-5-01-241-emergency-patch-mental-health-deployment-installation-back-out-and-r/001.png)
 
 October 2023

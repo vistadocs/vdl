@@ -3,46 +3,46 @@ title: VistA Imaging Error Message Guide
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Department of Veterans Affairs Office of Enterprise Development Health Provider Systems'
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '2005'
+- '2006.1'
+- '2006.5839'
+- '8925'
+- '8925.91'
+security_keys:
+- MAG VIX ADMIN
 menu_options: 1
-description: > Department of Veterans Affairs Office of Enterprise Development Health Provider Systems
-audience: 
-keywords: 
-  - table
-  - contents
-  - class
-  - blockquote
-  - error
-  - dicom
-  - image
-  - even
-  - cannot
-  - gateway
 page_count: 0
 word_count: 19957
 section_count: 261
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_imgerrormsg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_imgerrormsg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_imgerrormsg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_imgerrormsg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-error-message-guide/001.png)

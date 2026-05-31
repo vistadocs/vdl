@@ -3,7 +3,7 @@ title: PAID Version 4 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRS
 app_name: Personnel and Accounting Integrated Data (PAID)
 section: FIN
@@ -11,43 +11,71 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4
-group_key: "PRS:PRS:4"
-file_numbers: []
-security_keys: 
-  - PRSA SIGN
-  - PRSD PAID CODES
-  - PRSE CORD
-  - PRSE SUP
-  - PRSE TRAIN
-menu_options: 0
+group_key: PRS:PRS:4
 description: This manual is designed as a reference guide primarily for all programmers and Information Resources Management (IRM) technical personnel who will be supporting the Decentralized Hospital Computer Program's (DHCP) Personnel and Accounting Integrated Data (PAID) package. This manual provides programm
-audience: 
-keywords: 
-  - class
-  - employee
-  - prsa
-  - time
-  - even
-  - prse
-  - routine
-  - tour
-  - leave
-  - paid
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '9'
+- '10'
+- '11'
+- '12'
+- '49'
+- '200'
+- '450'
+- '450.0632'
+- '450.0633'
+- '452'
+- '452.033'
+- '452.1'
+- '452.2'
+- '452.25'
+- '452.3'
+- '452.31'
+- '452.42'
+- '452.5'
+- '452.6'
+- '452.8'
+- '452.877'
+- '452.9'
+- '454'
+- '454.1'
+- '454.94'
+- '455.5'
+- '457.1'
+- '457.13'
+- '457.2'
+- '457.3'
+- '457.4'
+- '457.5'
+- '458'
+- '458.01'
+- '458.02'
+- '458.1'
+- '458.2'
+- '458.3'
+- '458.5'
+- '459'
+- '459.01'
+security_keys:
+- ENTER
+menu_options: 17
 page_count: 0
 word_count: 18162
 section_count: 1
 table_count: 100
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1995
 revision_count: 3
 revision_newest: 3/8/2018
 revision_oldest: 12/29/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

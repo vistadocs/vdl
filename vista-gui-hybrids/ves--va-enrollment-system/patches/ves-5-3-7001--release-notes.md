@@ -1,5 +1,5 @@
 ---
-title: VES Version 5.3 Release Notes  07001 (Emergency Release)
+title: VES Version 5.3 Release Notes 07001 (Emergency Release)
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
@@ -7,53 +7,34 @@ doc_subject: 07001 (Emergency Release)
 app_code: VES
 app_name: VA Enrollment System
 section: GUI
-app_status: archive
+app_status: active
 pkg_ns: VES
 patch_ver: 5.3
 patch_id: VES*5.3*7001
-group_key: "VES:VES:5.3"
+group_key: VES:VES:5.3
+description: '''[Table 1: Defects and Fixes in ES 5.3.0.07001'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - release
-  - contents
-  - health
-  - fixes
-  - veterans
-  - enrollment
-  - defects
-  - benefits
-  - care
 page_count: 0
-word_count: 895
+word_count: 879
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System_Archive/es_5_3_0_07001_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System_Archive/es_5_3_0_07001_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=293"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System_Archive/es_5_3_0_07001_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System_Archive/es_5_3_0_07001_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=183
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Enrollment System (ES)
-
-  Emergency Release for ES 5.3.0.07001
-
-  Release Notes
----
-
 ![](ves-version-5-3-release-notes-07001-emergency-release/001.png)
 
 August 2018

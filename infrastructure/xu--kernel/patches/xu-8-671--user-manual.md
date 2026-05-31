@@ -11,49 +11,35 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*671
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8
+description: Correct Section 508 issues on existing content unrelated to Kernel Patch XU*8*671. Verify all organization references, and adherence to current documentation standards, styles, and
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '200'
+- '8932.1'
+security_keys:
+- PF1
+- PROVIDER
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - active
-  - providers
-  - even
-  - physicians
-  - allopathic
-  - osteopathic
-  - service
-  - person
-  - span
 page_count: 0
-word_count: 41564
+word_count: 41551
 section_count: 19
 table_count: 4
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0p671sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0p671sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0p671sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0p671sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0
-
-  Assigning Person Class to Providers User Guide
-
-  Patch Supplement: XU\*8.0\*27, 377, 531, and 671
----
-
 ![](xu-8-671-assigning-person-class-to-providers-user-guide/001.png)
 
 December 2017

@@ -3,7 +3,7 @@ title: IFCAP Version 5.1 Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRC
 app_name: IFCAP
 section: FIN
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - ifcap
-  - table
-  - contents
-  - security
-  - access
-  - code
-  - redacted
-  - description
-  - management
-  - transaction
+group_key: PRC:PRC:5.1
+description: April 2014 Patch PRC*5.1*187. Change references to the IFCAP V.5.1 Technical Manual, to remove references to specific chapters. See sections 3.2, 3.3, and 3.4. REDACTED REDACTED, Developer; REDACTED, Technical
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '446.7'
+security_keys:
+- PRCSCPO
+menu_options: 1
 page_count: 0
 word_count: 7336
 section_count: 29
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1security_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1security_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1security_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1security_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ![](ifcap-version-5-1-security-guide/001.png)

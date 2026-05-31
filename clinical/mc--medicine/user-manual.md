@@ -3,7 +3,7 @@ title: Medicine Version 2.3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MC
 app_name: Medicine
 section: CLI
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: MC
 patch_ver: 2.3
 patch_id: MC*2.3
-group_key: "MC:MC:2.3"
-file_numbers: []
-security_keys: []
+group_key: MC:MC:2.3
+description: July 2014 MC*2.3*43 MC*2.3*44 Word document created from PDF. Updated Table of Contents Updated for ICD-10 Patch MC*2.3*43 and Patch MC*2.3*44 as
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3'
+- '3.2'
+- '697.2'
+security_keys:
+- PF1
+- PROVIDER
 menu_options: 9
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - class
-  - edit
-  - style
-  - width
-  - brief
-  - procedures
-  - consult
 page_count: 0
 word_count: 5539
 section_count: 24
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/mc_2_3um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/mc_2_3um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=77"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Medicine/mc_2_3um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Medicine/mc_2_3um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=77
+audit_applied: '2026-05-31'
 ---
 
 > MEDICINE

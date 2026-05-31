@@ -3,46 +3,37 @@ title: TBI Version 4.2 Description Document
 doc_type: DESC
 doc_label: Description Document
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: '| Date | Document Version | Description | VDD Author / Team Role | VA Group or Contract Company | |------------|------------------|----------------------------------------------------------------------------------|------------------------------------|------------------------------| | 05/15/2018 |...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: ![](tbi-version-4-2-description-document/001.png)![](tbi-version-4-2-description-document/002.png)
-audience: 
-keywords: 
-  - table
-  - build
-  - contents
-  - configuration
-  - class
-  - strong
-  - style
-  - width
-  - management
-  - release
 page_count: 0
 word_count: 1611
 section_count: 3
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2018
 revision_count: 20
 revision_newest: 05/15/2018
 revision_oldest: 5/14/2013
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbivdd.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbivdd.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbivdd.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbivdd.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
 
 Version Description Document

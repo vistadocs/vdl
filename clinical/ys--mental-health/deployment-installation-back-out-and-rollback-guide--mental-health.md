@@ -1,41 +1,69 @@
 ---
-consolidated_title: "mental health deployment, installation, back-out, and rollback guide"
-app_code: YS
+title: YS*5.01*149 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
 doc_type: DIBR
-master_source: "YS*5.01*149 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Mental Health
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*149
+group_key: YS:YS:5.01
+file_numbers:
+- '603.05'
+- '870'
+security_keys: []
+menu_options: 1
+description: '| Date | Revision | Description | Author | |-----------|----------|-----------------------------|----------------------| | 12/1/20 | 1.2 | Changed for updates | Liberty IT Solutions | | 11/10/20 | 1.1 | Patch 149 update and review | Liberty IT Solutions | | 6/25/2020 | 1.0 | Initial Version | B3...'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 3887
+section_count: 31
+table_count: 4
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: December 2020
+revision_count: 3
+revision_newest: 12/1/20
+revision_oldest: 6/25/2020
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_149_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_149_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*149 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
 master_pub_date: December 2020
 consolidated_from: 24 versions
 prior_versions:
-  - "YS*5.01*121 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*123 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*129 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*142 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*148 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*174 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*175 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*177  Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*181 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*183 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*199 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*208 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*221 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*223 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*224 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*233 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*234 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*235 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*236 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*239 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*249 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*250 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*255 Mental Health Deployment, Installation, Back-Out, and Rollback Guide"
----
-
----
-title: |
-  Clozapine Modernization (ClozMod) YS\*5.01\*149
-
-  Deployment, Installation, Back-out, and Rollback Guide (DIBR)
+- YS*5.01*121 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*123 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*129 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*142 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*148 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*174 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*175 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*177 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*181 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*183 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*199 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*208 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*221 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*223 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*224 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*233 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*234 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*235 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*236 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*239 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*249 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*250 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*255 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
+consolidated_title: mental health deployment, installation, back-out, and rollback guide
 ---
 
 ![](ys-5-01-149-mental-health-deployment-installation-back-out-and-rollback-guide/001.png)
@@ -112,7 +140,7 @@ Table of Contents
   - [Authority for Rollback](#authority-for-rollback)
   - [Rollback Procedure](#rollback-procedure-1)
   - [Rollback Verification Procedure](#rollback-verification-procedure)
-This document describes how to deploy and install ClozMod’s project’s VistA Patch YS\*5.01\*149, as well as how to back-out the product and rollback to a previous version or data set. This patch will enhance the Clozapine nightly transmission by replacing the MailMan messages with HL7 messages.
+This document describes how to deploy and install ClozMod's project's VistA Patch YS\*5.01\*149, as well as how to back-out the product and rollback to a previous version or data set. This patch will enhance the Clozapine nightly transmission by replacing the MailMan messages with HL7 messages.
 
 ## Purpose
 
@@ -158,7 +186,7 @@ Deployment, Installation, Backout and Rollback Roles and ResponsibilitiesThis ta
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The deployment is planned as a national general availability release. The scheduling of test/mirror installs, testing, and the deployment to production will be at the sites’ discretion. It is anticipated that there will be a 14-day compliance period.
+The deployment is planned as a national general availability release. The scheduling of test/mirror installs, testing, and the deployment to production will be at the sites' discretion. It is anticipated that there will be a 14-day compliance period.
 
 A national release is planned for December 2020 after testing has been successfully completed at two initial operating capability (IOC) test sites: Greater Los Angeles and West Haven.
 
@@ -303,7 +331,7 @@ This guide is written with the assumption that the reader is experienced and/or 
 
 The KIDS build will be installed by local or regional OIT staff. Routines will be backed up to a PackMan message before installing the build. YS\*5.01\*149 contains one pre-existing routine: YSCLTST5. The rest of the routines are new and will not be backed up.
 
-Prior to installing YS\*5.01\*149, CHECK1^XTSUMBLD will be run to capture the ‘pre’ patch checksums.
+Prior to installing YS\*5.01\*149, CHECK1^XTSUMBLD will be run to capture the 'pre' patch checksums.
 
 ### Installation Instructions
 
@@ -325,7 +353,7 @@ For install, perform the following steps in order:
 - Accept the default when prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//'
 - Accept the default when prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//'
 - Accept the default when prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//'
-- If prompted ‘Delay Install (Minutes): (0 - 60): 0// enter 0 (zero).’
+- If prompted 'Delay Install (Minutes): (0 - 60): 0// enter 0 (zero).'
 
 ## Sample Install Log
 
@@ -482,7 +510,7 @@ The VistA back-out procedure can be executed by deleting the routines and other 
 
 The VistA back-out procedure can be executed by restoring existing routines to their pre-patch state and deleting new routines and other elements from the VistA environment. Deleting all VistA options exported within the patch will remove all pointers to the option including scheduled tasks. New routines and elements can be removed without affecting any existing VistA functionality since the new routines and other components are not referenced by existing software.
 
-The VistA KIDS installation procedure allows the installer to back up the modified routines using the ‘Backup a Transport Global’ action. The back-out procedure for new routines, globals, data dictionaries, and other VistA components requires manual removal or the issuance of a follow-up patch to ensure all components are properly removed and/or restored. All software components, routines and other items, must be restored to their previous state at the same time and in conjunction with the restoration of the data.
+The VistA KIDS installation procedure allows the installer to back up the modified routines using the 'Backup a Transport Global' action. The back-out procedure for new routines, globals, data dictionaries, and other VistA components requires manual removal or the issuance of a follow-up patch to ensure all components are properly removed and/or restored. All software components, routines and other items, must be restored to their previous state at the same time and in conjunction with the restoration of the data.
 
 Patch YS\*5.01\*149 contains the following build components:
 
@@ -503,10 +531,10 @@ To restore modified routines from backup, perform the following steps in order:
 - Accept default message reader.
 - Select mail basket containing backup of patch routines.
 - Select message containing backup of patch routines.
-- Enter “^” to exit at the ‘Type \<Enter\> to continue or ‘^’ to exit’.
-- Enter ‘6’ for the Install/Check Message action at the ‘Enter message action’ prompt.
-- Enter “YES” at the ‘Do you really want to do this?’ prompt.
-- Optionally save the routines to be overwritten by entering “YES” at the ‘Shall I preserve the routines on disk in a separate back-up message?’ prompt.
+- Enter "^" to exit at the 'Type \<Enter\> to continue or '^' to exit'.
+- Enter '6' for the Install/Check Message action at the 'Enter message action' prompt.
+- Enter "YES" at the 'Do you really want to do this?' prompt.
+- Optionally save the routines to be overwritten by entering "YES" at the 'Shall I preserve the routines on disk in a separate back-up message?' prompt.
 
 #### Remove New Routines
 
@@ -552,10 +580,10 @@ To delete new VistA options, perform the following steps in order:
 
 Use the Fileman ENTER OR EDIT FILE ENTRIES option to delete the options exported with the patch.
 
-- Enter the option name at the ‘NAME:’ prompt.
-- Enter ‘@’ at the prompt for ‘Replace’.
-- Enter ‘Y’ at the prompt ‘SURE YOU WANT TO DELETE THE ENTIRE ‘\<OPTION NAME\>’ OPTION?
-- Enter ‘N’ at the prompt ‘DO YOU WANT THOSE POINTERS UPDATED (WHICH COULD TAKE QUITE A WHILE)?’.
+- Enter the option name at the 'NAME:' prompt.
+- Enter '@' at the prompt for 'Replace'.
+- Enter 'Y' at the prompt 'SURE YOU WANT TO DELETE THE ENTIRE '\<OPTION NAME\>' OPTION?
+- Enter 'N' at the prompt 'DO YOU WANT THOSE POINTERS UPDATED (WHICH COULD TAKE QUITE A WHILE)?'.
 
 Perform all four of the steps above for each of the following options:
 
@@ -739,17 +767,17 @@ Select FIELD: 20.01 HL7 TRANSMISSION START
 
 LABEL: HL7 TRANSMISSION START Replace @
 
-SURE YOU WANT TO DELETE THE ENTIRE 'TRANSMISSION START’ FIELD? Y (Yes)
+SURE YOU WANT TO DELETE THE ENTIRE 'TRANSMISSION START' FIELD? Y (Yes)
 
-OK TO DELETE ‘HL7 TRANSMISSION START’ FIELDS IN THE EXISTING ENTRIES? Yes// Y (Yes)
+OK TO DELETE 'HL7 TRANSMISSION START' FIELDS IN THE EXISTING ENTRIES? Yes// Y (Yes)
 
 Select FIELD: 20.02 HL7 TRANSMISSION END
 
 LABEL: HL7 TRANSMISSION END Replace @
 
-SURE YOU WANT TO DELETE THE ENTIRE 'TRANSMISSION END’ FIELD? Y (Yes)
+SURE YOU WANT TO DELETE THE ENTIRE 'TRANSMISSION END' FIELD? Y (Yes)
 
-OK TO DELETE ‘HL7 TRANSMISSION END’ FIELDS IN THE EXISTING ENTRIES? Yes// Y (Yes)
+OK TO DELETE 'HL7 TRANSMISSION END' FIELDS IN THE EXISTING ENTRIES? Yes// Y (Yes)
 
 #### Delete Data Dictionaries via Command Line FM API
 
@@ -759,9 +787,9 @@ Example:
 
 Select OPTION: MODIFY FILE ATTRIBUTES
 
-VISTA\>S DIU=”603.05”
+VISTA\>S DIU="603.05"
 
-VISTA\>S DIU(0)=”DE”
+VISTA\>S DIU(0)="DE"
 
 VISTA\>D EN^DIU2
 
@@ -1082,7 +1110,7 @@ The VistA backout procedure can be executed by restoring the routine to its pre-
 
 The VistA backout procedure can be executed by restoring existing routines to their pre-patch state by installing the backup created prior to installation.
 
-The VistA KIDS installation procedure allows the installer to back up the modified routines using the ‘Backup a Transport Global’ action. The back-out procedure for modified routines is to install the routine backup created prior to installation.
+The VistA KIDS installation procedure allows the installer to back up the modified routines using the 'Backup a Transport Global' action. The back-out procedure for modified routines is to install the routine backup created prior to installation.
 
 Patch YS\*5.01\*175 contains the following build components:
 
@@ -1098,10 +1126,10 @@ To restore modified routines from backup, perform the following steps in order:
 - Accept default message reader.
 - Select mail basket containing backup of patch YS\*5.01\*175.
 - Select message containing backup of patch YS\*5.01\*175 routines.
-- Enter “^” to exit at the ‘Type \<Enter\> to continue or ‘^’ to exit’.
-- Enter ‘6’ for the Install/Check Message action at the ‘Enter message action’ prompt.
-- Enter “YES” at the ‘Do you really want to do this?’ prompt.
-- Optionally save the routines to be overwritten by entering “YES” at the ‘Shall I preserve the routines on disk in a separate back-up message?’ prompt.
+- Enter "^" to exit at the 'Type \<Enter\> to continue or '^' to exit'.
+- Enter '6' for the Install/Check Message action at the 'Enter message action' prompt.
+- Enter "YES" at the 'Do you really want to do this?' prompt.
+- Optionally save the routines to be overwritten by entering "YES" at the 'Shall I preserve the routines on disk in a separate back-up message?' prompt.
 
 ## Backout Verification Procedure
 
@@ -1202,7 +1230,7 @@ Tools menu:
 > This patch should be loaded during non-peak hours to minimize disruption to users. Installation will take less than 5 minutes. Users may remain on the system.
 
 1.  From the Kernel Installation and Distribution System Menu, select the Installation menu.
-2.  Next, select ‘Load a Distribution’. When prompted “Enter a Host File: “, enter
+2.  Next, select 'Load a Distribution'. When prompted "Enter a Host File: ", enter
 
 > \<directory\>YS_501_129.KID (where \<directory\> represents the location where you stored the KIDS file).
 
@@ -1212,9 +1240,9 @@ Tools menu:
     2.  Compare Transport Global to Current System
     3.  Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package: YS_501_129.KID
-6.  When prompted “Want KIDS to Rebuild Menu Trees Upon Completion of Install?” respond NO.
+6.  When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of Install?" respond NO.
 7.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//' respond NO.
-8.  When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, respond NO.
+8.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', respond NO.
 9.  If prompted 'Delay Install (Minutes): (0 - 60): 0//' respond 0.
 
 ### YS\*5.01\*129 GUI Installation
@@ -1233,7 +1261,7 @@ Tools menu:
 
 #### Citrix installation:
 
-> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation’s screen on their local workstation.
+> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation's screen on their local workstation.
 
 > For the local site users, this method is on a similar level to the Network (shared) installation above. The users' workstations require only an appropriate shortcut (and the necessary Citrix Access Group (CAG) infrastructure).
 
@@ -1265,27 +1293,27 @@ Tools menu:
 
 #### SCCM Install
 
-> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the “Mental Health Assistant – R03” program be deployed.
+> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the "Mental Health Assistant – R03" program be deployed.
 
 ### Setting MHA on the CPRS Tools Menu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This procedure configures VistA so that “Mental Health Assistant” appears as a choice on a user’s Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user’s particular access permissions in VistA.
+> This procedure configures VistA so that "Mental Health Assistant" appears as a choice on a user's Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user's particular access permissions in VistA.
 
 > The basic steps for setting up VistA MHA3 on the Tools menu are no different from doing it for other applications. The main difference lies in how the Name=Command entry is formatted. The following text capture is taken from the CPRS Setup documentation, to serve as an example of how to perform this step for MHA3:
 
 > Example: Setting up VistA MHA3 on the CPRS Tools menu, GUI Parameters \[ORW PARAM GUI\]
 
-> From the previous example, adjust according to your own system’s settings, such as directory path, New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the “Name=Command:” field. This field should be entered in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
+> From the previous example, adjust according to your own system's settings, such as directory path, New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the "Name=Command:" field. This field should be entered in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
 
 > The path shown represents a typical path used during a default installation. If your path is different, adjust accordingly. ALL five parameters must be included as shown above, in the precise order in which they are found in the example. Here is what the Name=Command line should look like:
 
-> Mental Health Assistant=”C:\Program Files (x86)\Vista\YS\MHA3\YS_MHA.exe” s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
+> Mental Health Assistant="C:\Program Files (x86)\Vista\YS\MHA3\YS_MHA.exe" s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
 
 > Sequence number 2 is shown in the example, but, if you have other entries in the Tools Menu, then the next free sequence number will do just fine. (Sometimes when cutting and pasting, unseen control characters can be included in the text and will cause the command line to malfunction.)
 
-> After this step is completed, a new choice will appear in the user’s CPRS Tools Menu labeled “Mental Health Assistant”. Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
+> After this step is completed, a new choice will appear in the user's CPRS Tools Menu labeled "Mental Health Assistant". Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
 
 > Refer to the Computerized Patient Record System (CPRS) Setup Guide for more information about this procedure.
 
@@ -1345,7 +1373,7 @@ Tools menu:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This procedure configures or updates VistA so that “MHA Web” appears as a choice on a user’s Tools menu on the CPRS desktop software. MHA Web must be started from the CPRS Tools Menu and should launch in a new browser window rather than appear as an additional tab on an existing browser session if one exists. Note that it must be decided ahead of time if Microsoft Edge or Google Chrome will be used for MHA Web at the site.
+This procedure configures or updates VistA so that "MHA Web" appears as a choice on a user's Tools menu on the CPRS desktop software. MHA Web must be started from the CPRS Tools Menu and should launch in a new browser window rather than appear as an additional tab on an existing browser session if one exists. Note that it must be decided ahead of time if Microsoft Edge or Google Chrome will be used for MHA Web at the site.
 
 Go to the GUI TOOL Menu,  Select 4 for System. At the Select Sequence prompt, enter a question mark to see if MHA Web has already been set up in the Tools Menu. If it has, then select that sequence number. If it has not, then select a new sequence number to assign for MHA Web.
 
@@ -1353,17 +1381,17 @@ Go to the GUI TOOL Menu,  Select 4 for System. At the Select Sequence prompt,
 
 The Name=Command is  
 
-MHA Web=cmd c/ start msedge.exe -new-window “https://\<server\>/app/home?station=\<station number\>&poi=%DFN” 
+MHA Web=cmd c/ start msedge.exe -new-window "https://\<server\>/app/home?station=\<station number\>&poi=%DFN" 
 
-You need to substitute the \<server\> with the MHA Web server name “mha.med.va.gov” and the \<station number\> with your VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
+You need to substitute the \<server\> with the MHA Web server name "mha.med.va.gov" and the \<station number\> with your VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
 
 - Google Chrome
 
 The Name=Command is  
 
-MHA Web=cmd c/ start chrome.exe -new-window “https://\<server\>/app/home?station=\<station number\>&poi=%DFN” 
+MHA Web=cmd c/ start chrome.exe -new-window "https://\<server\>/app/home?station=\<station number\>&poi=%DFN" 
 
-You need to substitute the \<server\> with the MHA Web server name “mha.med.va.gov” and the \<station number\> with your VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
+You need to substitute the \<server\> with the MHA Web server name "mha.med.va.gov" and the \<station number\> with your VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
 
 Example: The example below shows the set up of MHA Web on the CPRS Tools menu from the GUI TOOLS MENU \[ORW TOOL MENU ITEMS\] option:  
 
@@ -1405,7 +1433,7 @@ Are you adding 5 as a new Sequence? Yes// \<enter\>  YES 
 
 Sequence: 5// \<enter\>   5 
 
-Name=Command:MHA Web=cmd /c start msedge.exe -new-window “https://mha.med.va.gov/app/home?station=999&poi=%DFN”
+Name=Command:MHA Web=cmd /c start msedge.exe -new-window "https://mha.med.va.gov/app/home?station=999&poi=%DFN"
 
 Select Sequence: \<enter\> 
 
@@ -1476,7 +1504,7 @@ Select Sequence: \<enter\> 
 > This patch should be loaded during non-peak hours to minimize disruption to users. Installation will take less than 5 minutes. Users may remain on the system.
 
 1.  From the Kernel Installation and Distribution System Menu, select the Installation menu.
-2.  Next, select ‘Load a Distribution’. When prompted “Enter a Host File: “, enter
+2.  Next, select 'Load a Distribution'. When prompted "Enter a Host File: ", enter
 
 > \<directory\>YS_501_123.KID (where \<directory\> represents the location where you stored the KIDS file).
 
@@ -1486,9 +1514,9 @@ Select Sequence: \<enter\> 
     2.  Compare Transport Global to Current System
     3.  Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package: YS_501_123.KID
-6.  When prompted “Want KIDS to Rebuild Menu Trees Upon Completion of Install?” respond NO.
+6.  When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of Install?" respond NO.
 7.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//' respond NO.
-8.  When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, respond NO.
+8.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', respond NO.
 9.  If prompted 'Delay Install (Minutes): (0 - 60): 0//' respond 0.
 
 ### YS\*5.01\*123 GUI Installation
@@ -1509,21 +1537,21 @@ Select Sequence: \<enter\> 
 
 > When MHA files are not located in C:\Program Files (x86)\Vista\YS\MHA and C:\Program Files (x86)\Vista\YS\Common folders, parameters must be set up to ensure MHA works correctly since it is launched from the CPRS toolbar (see Section 4.5.3 below).
 
-- Use the parameter, ”ORWT TOOLS MENU”, to enter the network location of
+- Use the parameter, "ORWT TOOLS MENU", to enter the network location of
 
 > YS_MHA.exe.
 
-- Use the parameter, ”YS MHA_AUX DLL LOCATION”, to set the location of
+- Use the parameter, "YS MHA_AUX DLL LOCATION", to set the location of
 
 > YS_MHA_AUX.dll.
 
-> See the section 4.6.3, “Setting MHA on the CPRS Tools Menu”, and section 4.6.4, “Setting an Alternate DLL Location”, to see examples of editing these parameters.
+> See the section 4.6.3, "Setting MHA on the CPRS Tools Menu", and section 4.6.4, "Setting an Alternate DLL Location", to see examples of editing these parameters.
 
 > *If you are also running CPRS from a network drive* the file, YS_MHA_A_XE8.dll, must be copied to the CPRS directory when YS\*5.01\*123 is installed. This will replace the previous version of YS_MHA_A_XE8.dll that was used by CPRS.
 
 #### Citrix installation:
 
-> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation’s screen on their local workstation.
+> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation's screen on their local workstation.
 
 > For the local site users, this method is on a similar level to the Network (shared) installation above. The users' workstations require only an appropriate shortcut (and the necessary Citrix Access Group (CAG) infrastructure).
 
@@ -1555,13 +1583,13 @@ Select Sequence: \<enter\> 
 
 #### SCCM install:
 
-> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the “Mental Health Assistant ” program be deployed.
+> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the "Mental Health Assistant " program be deployed.
 
 ### Monitor Background Re-Scoring (optional)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> ![](ys-5-01-123-mental-health-deployment-installation-back-out-and-rollback-guide/002.png)After the installation of YS\*5.01\*123, a job will be tasked that will re-score previously administered instruments to ensure that all results have been properly calculated. This job will run nightly for about 4 hours until all previous administrations have been re-scored. At test sites, this took about 1-4 nights. If you want to monitor the progress of the re-scoring, use the option, “YS123 RESCORING MONITOR”. Immediately after installation, you will see that the re- scoring task has been scheduled:
+> ![](ys-5-01-123-mental-health-deployment-installation-back-out-and-rollback-guide/002.png)After the installation of YS\*5.01\*123, a job will be tasked that will re-score previously administered instruments to ensure that all results have been properly calculated. This job will run nightly for about 4 hours until all previous administrations have been re-scored. At test sites, this took about 1-4 nights. If you want to monitor the progress of the re-scoring, use the option, "YS123 RESCORING MONITOR". Immediately after installation, you will see that the re- scoring task has been scheduled:
 
 > The options available are:
 
@@ -1571,7 +1599,7 @@ Select Sequence: \<enter\> 
 
 > ![](ys-5-01-123-mental-health-deployment-installation-back-out-and-rollback-guide/003.png)After rescoring is complete, the monitor will show something like this:
 
-> It is likely that the number of Errors Encountered will be greater than 0. *This should not be cause for concern.* Over the years, it is likely that some of the instrument administrations could have some anomalies. The errors are just there for information. You don’t necessarily need to do anything to resolve them.
+> It is likely that the number of Errors Encountered will be greater than 0. *This should not be cause for concern.* Over the years, it is likely that some of the instrument administrations could have some anomalies. The errors are just there for information. You don't necessarily need to do anything to resolve them.
 
 ### From: YS*5.01*183 Mental Health Deployment, Installation, Back-Out, and Rollback Guide
 

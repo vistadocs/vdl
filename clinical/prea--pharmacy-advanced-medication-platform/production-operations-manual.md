@@ -1,22 +1,45 @@
 ---
-consolidated_title: "ampl production operations manual"
-app_code: PREA
+title: AMPL Production Operations Manual
 doc_type: POM
-master_source: "AMPL Production Operations Manual"
+doc_label: Production Operations Manual
+doc_layer: anchor
+doc_subject: AMPL
+app_code: PREA
+app_name: 'Pharmacy: Advanced Medication Platform'
+section: CLI
+app_status: active
+pkg_ns: PREA
+patch_ver: 1.14
+patch_id: PREA*1.14
+group_key: PREA:PREA:1.14
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: 01/2026 1.14 Section 2.1.1 Updated the names of the services that are active. Section 2.2 Updated the external sources Section 2.2.1 Updated security groups Section 2.2.3 Updated user notifications points of contact table. Section 2.4 Updated routine updates, extracts, and purges Section 2.6...
+audience: Production operations, release engineers
+keywords: []
+page_count: 0
+word_count: 4812
+section_count: 12
+table_count: 7
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2026
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA/PREA_1_14_AMPL_GUI_POM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA/PREA_1_14_AMPL_GUI_POM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=237
+audit_applied: '2026-05-31'
+master_source: AMPL Production Operations Manual
 master_pub_date: January 2026
 consolidated_from: 2 versions
 prior_versions:
-  - "AMPL Production Operations Manual (POM)"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Advanced Medication Platform (AMPL)  
-  Graphical User Interface (GUI)
-
-  Production Operations Manual (POM)
+- AMPL Production Operations Manual (POM)
+consolidated_title: ampl production operations manual
 ---
 
 ![](ampl-production-operations-manual/001.png)
@@ -459,7 +482,7 @@ Each AD group permits access to individual AMPL GUI environments and are defined
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Access to AMPL GUI is granted by membership in an AD group. After initial implementation, a site may request access or removal of an individual by submitting a SNOW ticket by contacting the Enterprise Service Desk or by using the YourIT portal. The SNOW ticket must be assigned to the “SPM.Health.PCS.Sub_1. AMPL Engineering” group.
+Access to AMPL GUI is granted by membership in an AD group. After initial implementation, a site may request access or removal of an individual by submitting a SNOW ticket by contacting the Enterprise Service Desk or by using the YourIT portal. The SNOW ticket must be assigned to the "SPM.Health.PCS.Sub_1. AMPL Engineering" group.
 
 User Notifications
 
@@ -666,9 +689,9 @@ Users will use VA SSOi and PIV authentication.
 A&A error messages include:
 
 - Smart Card Required: The user has not inserted their PIV card into the card reader.
-- ActivClient: The user’s PIV PIN was entered incorrectly.
+- ActivClient: The user's PIV PIN was entered incorrectly.
 
-A detailed overview of the login process from the user’s perspective is provided in the *AMPL GUI User Guide*. All project documentation is available on the AMPL GUI Product Repository on GitHub.
+A detailed overview of the login process from the user's perspective is provided in the *AMPL GUI User Guide*. All project documentation is available on the AMPL GUI Product Repository on GitHub.
 
 #### Logical and Physical Descriptions
 

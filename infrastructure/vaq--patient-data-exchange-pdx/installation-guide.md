@@ -11,44 +11,42 @@ app_status: active
 pkg_ns: VAQ
 patch_ver: 1.5
 patch_id: VAQ*1.5
-group_key: "VAQ:VAQ:1.5"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: VAQ:VAQ:1.5
 description: PDX V. 1.5 uses the newest version of the List Manager which was released with V. 5.3 of PIMS. PIMS V. 5.3 was mandated for October 1, 1993.
-audience: 
-keywords: 
-  - added
-  - filed
-  - table
-  - edit
-  - patient
-  - group
-  - contents
-  - protocol
-  - transactions
-  - release
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.5'
+- '3.6'
+- '394.61'
+- '394.62'
+- '394.71'
+- '394.73'
+- '394.81'
+- '394.82'
+- '394.83'
+- '394.84'
+- '394.87'
+security_keys:
+- XUPROGMODE
+menu_options: 0
 page_count: 0
-word_count: 6460
+word_count: 6451
 section_count: 9
 table_count: 39
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=22"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=22
+audit_applied: '2026-05-31'
 ---
-
----
-title: Patient Data Exchange (PDX) Release Notes & Installation Guide
----
-
 ![](pdx-v-1-5-release-notes-installation-guide/001.png)
 
 Office of Information and Technology (OI&T)

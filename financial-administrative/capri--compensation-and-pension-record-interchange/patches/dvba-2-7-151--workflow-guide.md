@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*151
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '> Department of Veterans Affairs Office of Enterprise Development Management & Financial'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - bookmark
-  - span
-  - label
-  - class
-  - anchor
-  - radio
-  - buttons
-  - free
-  - veteran
-  - does
 page_count: 0
 word_count: 2283
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p151_a_and_a_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p151_a_and_a_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p151_a_and_a_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p151_a_and_a_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 > ![](dvba-2-7-151-workflow-aid-and-attendance/001.png)

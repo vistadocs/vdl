@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1*40
-group_key: "EAS:EAS:1"
+group_key: EAS:EAS:1
+description: '- Introduction - Preinstallation Considerations - Installation Instructions - [Sample'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - copayment
-  - veteran
-  - installation
-  - copayments
-  - test
-  - modifies
-  - care
-  - patch
-  - table
-  - contents
 page_count: 0
 word_count: 1535
 section_count: 1
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-1-40-long-term-care-copayment-phase-4-installation-guide/001.png)

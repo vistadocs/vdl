@@ -8,41 +8,36 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Clinical Capture User Manual VistA Imaging MAG\*3.0\*189 November'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '44'
+- '2006.95'
+security_keys:
+- MAG SYSTEM
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - capture
-  - table
-  - clinical
-  - imaging
-  - contents
-  - image
-  - vista
-  - manual
-  - window
-  - class
 page_count: 0
 word_count: 15734
 section_count: 117
 table_count: 8
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_capture_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_capture_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_capture_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_capture_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-clinical-capture-user-manual/001.png)

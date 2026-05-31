@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1*40
-group_key: "EAS:EAS:1"
-file_numbers: []
+group_key: EAS:EAS:1
+description: '- What''s New in Phase 4 - New Option(s) - # Phase 4 Software Enhancements - NOIS Calls - Add, Edit, and View a LTC Copayment Test - [Determine LTC Copayment...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2.07'
+- '408.31'
 security_keys: []
 menu_options: 0
-description: - [What’s New in Phase 4](#whats-new-in-phase-4) - [New Option(s)](#new-options) - [# Phase 4 Software Enhancements](#phase-4-software-enhancements) - [NOIS Calls](#nois-calls) - [Add, Edit, and View a LTC Copayment Test](#add-edit-and-view-a-ltc-copayment-test) - [Determine LTC Copayment Obligation
-audience: 
-keywords: 
-  - table
-  - contents
-  - copayment
-  - strong
-  - phase
-  - template
-  - copayments
-  - test
-  - edit
-  - modified
 page_count: 0
 word_count: 1044
 section_count: 8
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p40_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-1-40-long-term-care-copayment-phase-4-release-notes/001.png)

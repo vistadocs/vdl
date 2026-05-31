@@ -3,7 +3,7 @@ title: Network Health Exchange Version 5 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AFJX
 app_name: Network Health Exchange (NHE)
 section: INF
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: AFJX
 patch_ver: 5
 patch_id: AFJX*5
-group_key: "AFJX:AFJX:5"
-file_numbers: []
+group_key: AFJX:AFJX:5
+description: '- Simple User Interface - Retrieval and Printing of Patient Data - Quick Response - Data Returned in VistA Health Summary Format - [User Notification with...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '537025'
 security_keys: []
 menu_options: 0
-description: - [Simple User Interface](#simple-user-interface) - [Retrieval and Printing of Patient Data](#retrieval-and-printing-of-patient-data) - [Quick Response](#quick-response) - [Data Returned in VistA Health Summary Format](#data-returned-in-vista-health-summary-format) - [User Notification with Alerts](
-audience: 
-keywords: 
-  - patient
-  - health
-  - exchange
-  - network
-  - table
-  - contents
-  - vista
-  - returned
-  - summary
-  - clinical
 page_count: 0
 word_count: 856
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=79"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=79
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

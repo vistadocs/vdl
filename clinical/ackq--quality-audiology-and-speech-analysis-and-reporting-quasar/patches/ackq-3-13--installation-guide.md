@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3*13
-group_key: "ACKQ:ACKQ:3"
-file_numbers: []
+group_key: ACKQ:ACKQ:3
+description: QUASAR Audiogram Module Installation and Implementation
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '19'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - installation
-  - table
-  - contents
-  - class
-  - audiogram
-  - install
-  - ackq
-  - vista
-  - strong
-  - quasar
 page_count: 0
 word_count: 3496
 section_count: 11
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
 
 ![](ackq-3-13-quasar-audiogram-module-install-implement-guide/001.png)

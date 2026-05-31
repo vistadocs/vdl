@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*309
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
-audience: 
-keywords: 
-  - vbecs
-  - span
-  - cprs
-  - class
-  - order
-  - blood
-  - report
-  - strong
-  - orders
-  - anchor
 page_count: 0
 word_count: 987
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_309rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_309rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_309rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_309rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-309-release-notes-vbecs-interface-follow-up-fixes/001.png)

@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*864
-group_key: "PRF:DG:5.3"
-file_numbers: []
+group_key: PRF:DG:5.3
+description: '> Patches DG\5.3\864, GMTS\2.7\103, and TIU\1.0\275 address the Under Secretary of Health(USH) legal solution to provide a new national Category I patient record flag that will inform all Veteran Health Administration (VHA) caregivers of special guidelines that must be followed when documenting note'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '26.15'
+- '142'
+- '142.1'
+- '811.9'
+- '8925.1'
+- '8926.1'
 security_keys: []
 menu_options: 0
-description: > Patches DG\5.3\864, GMTS\2.7\103, and TIU\1.0\275 address the Under Secretary of Health(USH) legal solution to provide a new national Category I patient record flag that will inform all Veteran Health Administration (VHA) caregivers of special guidelines that must be followed when documenting note
-audience: 
-keywords: 
-  - flag
-  - blockquote
-  - table
-  - assignment
-  - patient
-  - urgent
-  - address
-  - female
-  - class
-  - legal
 page_count: 0
 word_count: 1755
 section_count: 3
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 > ![](dg-5-3-864-ush-prf-legal-solution-release-notes/001.png)

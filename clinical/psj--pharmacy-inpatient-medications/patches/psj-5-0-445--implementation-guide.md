@@ -3,55 +3,40 @@ title: Methadone Ordering and Dispensing Implementation Guide (PSJ*5.0*445)
 doc_type: IG-IMP
 doc_label: Implementation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5.0
 patch_id: PSJ*5.0*445
-group_key: "PSJ:PSJ:5.0"
-file_numbers: []
+group_key: PSJ:PSJ:5.0
+description: '| Date | Description | Author | |---------|-----------------|-----------------------| | 03/2025 | Initial Release | CPRS Development Team'
+audience: ''
+keywords: []
+file_numbers:
+- '10'
+- '53.46'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - prompt
-  - take
-  - home
-  - clinic
-  - table
-  - contents
-  - reports
-  - opioid
-  - desired
-  - treatment
 page_count: 0
-word_count: 1556
+word_count: 1543
 section_count: 6
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/PSJ_5_P445_IMPL.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/PSJ_5_P445_IMPL.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/PSJ_5_P445_IMPL.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/PSJ_5_P445_IMPL.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Methadone Ordering and Dispensing
-
-  Implementation Guide
----
-
 ![](methadone-ordering-and-dispensing-implementation-guide-psj-5-0-445/001.png)
 
 March 2025

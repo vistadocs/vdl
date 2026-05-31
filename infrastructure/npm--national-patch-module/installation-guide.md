@@ -8,41 +8,36 @@ app_code: NPM
 app_name: National Patch Module
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: NPM
+patch_ver: null
+patch_id: null
+group_key: null
 description: Patch ModuleRelease Notes&Installation GuideDecentralized Hospital Computer ProgramREDACTED Information Systems CenterTroy, New YorkDecember 1992PATCH MODULE RELEASE NOTES & INSTALLATION GUIDETABLEO FCONTENTS===================================================================
-audience: 
-keywords: 
-  - patch
-  - package
-  - test
-  - message
-  - domain
-  - patches
-  - completed
-  - personnel
-  - date
-  - unverified
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '9.4'
+- '11007'
+security_keys:
+- A1AE MGR
+- A1AE PHVER
+menu_options: 0
 page_count: 0
 word_count: 2234
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmrnig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmrnig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=20"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmrnig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmrnig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=20
+audit_applied: '2026-05-31'
 ---
 
 Patch ModuleRelease Notes&Installation GuideDecentralized Hospital Computer ProgramREDACTED Information Systems CenterTroy, New YorkDecember 1992PATCH MODULE RELEASE NOTES & INSTALLATION GUIDETABLEO FCONTENTS===================================================================

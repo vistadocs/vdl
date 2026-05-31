@@ -3,7 +3,7 @@ title: Shift Handoff Tool Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CRHD
 app_name: Shift Handoff Tool
 section: CLI
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: CRHD
 patch_ver: 1
 patch_id: CRHD*1
-group_key: "CRHD:CRHD:1"
+group_key: CRHD:CRHD:1
+description: There has been a great deal of variability in Physician to Physician communication. This is recorded in the medical literature.
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- CHG HANDOFF MGR
+- HOT TEAM MGR
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 19%\\" /> <col style=\\"width: 43%\\" /> <col style=\\"width: 37%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>Description of Change</th> <th>Technical Writer, Project Manager</th> </tr> </thead> <tbody> <tr class=\\"odd\\"> <td>June 2008</td> <td>Initial R"
-audience: 
-keywords: 
-  - table
-  - contents
-  - handoff
-  - shift
-  - tool
-  - patient
-  - team
-  - version
-  - manual
-  - patients
 page_count: 0
 word_count: 5290
 section_count: 14
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=175"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=175
+audit_applied: '2026-05-31'
 ---
 
 Shift Handoff Tool Version 1.0User Manual

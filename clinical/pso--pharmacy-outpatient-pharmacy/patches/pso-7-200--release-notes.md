@@ -3,46 +3,48 @@ title: PSO*7*200/PSS*1*122 FY07 QTR 2 Release Notes - FY07 Q2
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*200
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '''- Introduction - Outpatient Pharmacy V. 7.0 - OPAI Enhancements - Example: - When the permanent address is active: - [When the temporary address is...'''
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '16.2'
+- '38.3'
+- '39.3'
+- '47'
+- '50'
+- '52'
+- '54'
+- '55'
+- '59.7'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - address
-  - scriptalk
-  - pharmacy
-  - label
-  - device
-  - printer
-  - enhancements
-  - print
 page_count: 0
 word_count: 1250
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p200_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p200_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p200_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p200_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-200-pss-1-122-fy07-qtr-2-release-notes-fy07-q2/001.png)

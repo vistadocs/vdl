@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1*124
-group_key: "PX:PX:1"
+group_key: PX:PX:1
+description: '*(This page intentionally left blank for two-sided copying.)*Table of'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - table
-  - contents
-  - diagnosis
-  - encounter
-  - class
-  - mark
-  - provider
-  - diagnoses
-  - missing
 page_count: 0
 word_count: 1020
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p124_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p124_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p124_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_p124_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 ![](px-1-124-clinical-indicators-cidc-release-notes/001.png)

@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ADT:ADT:5.3
 description: This menu contains the security options for assigning, displaying, and purging information related to sensitive patient records. Only holders of the DG SECURITY OFFICER key have access to this menu. The following is a list of the options contained in the Security Officer menu and a brief description
-audience: 
-keywords: 
-  - security
-  - sensitive
-  - patient
-  - record
-  - access
-  - report
-  - records
-  - officer
-  - accessed
-  - purge
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers: []
+security_keys:
+- DG SECURITY OFFICER
+menu_options: 0
 page_count: 0
 word_count: 1055
 section_count: 0
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 3
 revision_newest: 2/1/22
 revision_oldest: 8/5/05
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_so.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_so.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_so.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_so.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 PIMS V. 5.3 ADT Module User ManualSecurity OfficerMenu

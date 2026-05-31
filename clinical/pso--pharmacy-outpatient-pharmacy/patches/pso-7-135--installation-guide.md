@@ -5,44 +5,37 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: ScripTalk Talking Prescription Labels
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*135
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: The purpose of this Installation Guide is to provide an explanation of the installation process for the ScripTalk talking prescription labels software. The intended audience for this document is the Information Resources Management Service (IRMS) staff and Pharmacy staff responsible for installing
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.2'
+- '3.5'
 security_keys: []
 menu_options: 0
-description: The purpose of this Installation Guide is to provide an explanation of the installation process for the ScripTalk talking prescription labels software. The intended audience for this document is the Information Resources Management Service (IRMS) staff and Pharmacy staff responsible for installing
-audience: 
-keywords: 
-  - scriptalk
-  - device
-  - install
-  - label
-  - pssjxr
-  - installation
-  - printer
-  - contents
-  - print
-  - table
 page_count: 0
 word_count: 2599
 section_count: 1
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p135_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p135_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p135_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p135_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-135-scriptalk-talking-prescription-labels-installation-guide/001.png)

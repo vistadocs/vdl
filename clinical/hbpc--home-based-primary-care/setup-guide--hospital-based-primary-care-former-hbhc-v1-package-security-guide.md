@@ -11,44 +11,31 @@ app_status: active
 pkg_ns: HBPC
 patch_ver: 1
 patch_id: HBPC*1
-group_key: "HBPC:HBPC:1"
+group_key: HBPC:HBPC:1
+description: '> Department of Veterans Affairs Office of Enterprise'
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: ![](hospital-based-primary-care-former-hbhc-version-1-package-security-guide/001.png)
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - hbhc
-  - table
-  - style
-  - width
-  - strong
-  - contents
-  - even
-  - mail
 page_count: 0
-word_count: 1141
+word_count: 1133
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
-
----
-title: HOME BASED PRIMARY CARE PACKAGE SECURITY GUIDE
----
-
 ![](hospital-based-primary-care-former-hbhc-version-1-package-security-guide/001.png)
 
 > SENSITIVE INFORMATION

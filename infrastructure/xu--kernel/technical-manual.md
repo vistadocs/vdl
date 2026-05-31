@@ -11,51 +11,182 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: 
-  - 4
-  - 200
-  - 8933
-  - 8991
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '3'
+- '3.077'
+- '3.081'
+- '3.1'
+- '3.2'
+- '3.22'
+- '3.5'
+- '3.51'
+- '3.54'
+- '4'
+- '4.1'
+- '4.3'
+- '5'
+- '5.12'
+- '5.13'
+- '6'
+- '7'
+- '9'
+- '9.2'
+- '9.4'
+- '9.6'
+- '9.7'
+- '9.8'
+- '9.81'
+- '10.6'
+- '11'
+- '13'
+- '14.5'
+- '14.6'
+- '14.7'
+- '14.72'
+- '15'
+- '15.1'
+- '15.2'
+- '19'
+- '19.1'
+- '19.2'
+- '19.3'
+- '19.4'
+- '19.5'
+- '20'
+- '20.11'
+- '20.2'
+- '20.3'
+- '21'
+- '29'
+- '30'
+- '31.1'
+- '31.2'
+- '31.3'
+- '32'
+- '41'
+- '41.98'
+- '41.99'
+- '42'
+- '49'
+- '51.1'
+- '51.2'
+- '51.3'
+- '51.6'
+- '51.9'
+- '51.91'
+- '52'
+- '52.1'
+- '53.5'
+- '80'
+- '80.1'
+- '81'
+- '99'
+- '101'
+- '200'
+- '200.04'
+- '200.1'
+- '200.2'
+- '200.3'
+- '201'
+- '202'
+- '203'
+- '204'
+- '205'
+- '205.1'
+- '205.2'
+- '205.3'
+- '205.4'
+- '205.5'
+- '206'
+- '207'
+- '209'
+- '209.2'
+- '210'
+- '211'
+- '212.1'
+- '212.5'
+- '214'
+- '216'
+- '217'
+- '221'
+- '300'
+- '405.1'
+- '501.1'
+- '501.2'
+- '875'
+- '2009'
+- '8932.1'
+- '8933.1'
+- '8984.1'
+- '8984.2'
+- '8984.3'
+- '8984.4'
+- '8986.095'
+- '8986.3'
+- '8986.5'
+- '8986.51'
+- '8986.6'
+- '8989.2'
+- '8989.3'
+- '8989.5'
+- '8989.51'
+- '8991.5'
+- '8991.6'
+- '8991.7'
+- '8991.9'
+- '8992'
+- '8992.1'
+- '8992.2'
+- '8992.3'
+- '8994'
+- '8994.5'
+- '90002'
+- '442121'
+- '442121.04'
+security_keys:
+- DG SECURITY OFFICER
+- DIUSER
+- ORES
+- PF1
+- PROVIDER
+- PSDMGR
+- XUARCHIVE
+- XUAUDITING
+- XUDEV
+- XUFILEGRAM
+- XUMGR
+- XUORES
+- XUPROG
+- XUPROGMODE
+- XUSCREENMAN
+- XUSIG
+- XUSPF200
+- XUSPY
 menu_options: 65
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - even
-  - colspan
-  - kernel
-  - routine
-  - span
-  - options
-  - table
-  - edit
 page_count: 0
-word_count: 124918
+word_count: 124911
 section_count: 44
 table_count: 17
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 and Kernel Toolkit 7.3
-
-  Technical Manual
----
-
 ![](kernel-8-0-and-kernel-toolkit-7-3-technical-manual/001.png)
 
 July 2025

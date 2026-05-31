@@ -3,46 +3,37 @@ title: Primary Care Management Module (PCMM) Mass Discharge Scenarios
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: PCMM
 app_name: Primary Care Management Module
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Clinic Discharge Rules PCMM Mass Discharge Scenarios The following is a matrix describing the possible scenarios that can be present when the mass discharge functionality is executed. Also indicated are the actions taken for each scenario. Many scenarios take no action....'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Clinic Discharge Rules](#clinic-discharge-rules) PCMM Mass Discharge Scenarios The following is a matrix describing the possible scenarios that can be present when the mass discharge functionality is executed. Also indicated are the actions taken for each scenario. Many scenarios take no action.
-audience: 
-keywords: 
-  - team
-  - strong
-  - position
-  - discharge
-  - date
-  - class
-  - future
-  - assignment
-  - style
-  - width
 page_count: 0
 word_count: 1979
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmugappx.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmugappx.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmugappx.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmugappx.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

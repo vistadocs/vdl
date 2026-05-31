@@ -11,49 +11,33 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
+group_key: ADT:ADT:5.3
+description: 'Date Description (Patch # if applicable) Project Manager Technical'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '45'
+- '45.02'
+- '818'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - table
-  - contents
-  - acute
-  - crisis
-  - admission
-  - discharge
-  - suicidal
-  - transfer
-  - notification
 page_count: 0
-word_count: 7796
+word_count: 7786
 section_count: 17
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_reg_bc_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_reg_bc_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_reg_bc_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_reg_bc_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ADT Module/Bed Control Menu
-
-  PIMS Version 5.3
-
-  User Manual
----
-
 ![](pims-version-5-3-user-manual-bed-control-menu/001.png)
 
 Original Software Release: August 1997

@@ -1,7 +1,7 @@
 ---
 title: FH*5.5*43 Manager/ADPAC Guide Change Pages
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: patch
 doc_subject: Change Pages
 app_code: FH
@@ -11,38 +11,39 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5*43
-group_key: "FH:FH:5.5"
-file_numbers: []
-security_keys: []
+group_key: FH:FH:5.5
+description: '| Date | Description of Change(s) | VA Project Manager | Technical Writer |...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '20'
+- '22'
+- '22.1'
+- '22.2'
+- '115'
+- '117.024'
+- '117.0241'
+- '117.0243'
+- '119.74'
+security_keys:
+- FHMGR
 menu_options: 0
-description: - [Document Purpose](#document-purpose) - [Scope of Patch FH\5.5\43](#scope-of-patch-fh5543) - [Updates to Nutrition and Food Service](#updates-to-nutrition-and-food-service) - [Enhancements](#enhancements) - [Patch FH\5.5\43 Functionality Changes/Enhancements](#patch-fh5543-functionality-changesenh
-audience: 
-keywords: 
-  - tray
-  - table
-  - contents
-  - ticket
-  - flag
-  - patch
-  - print
-  - supplemental
-  - patient
-  - nutrition
 page_count: 0
 word_count: 1114
 section_count: 4
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_ag_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_ag_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_ag_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh_5_5_p43_ag_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 Nutrition and Food Service

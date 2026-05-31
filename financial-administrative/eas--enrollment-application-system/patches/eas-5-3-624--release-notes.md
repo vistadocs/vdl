@@ -3,7 +3,7 @@ title: DG*5.3*P624/EAS*1.0*P57 10-10EZ Phase 3.0 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: *P624/EAS*1.0*P57 10-10EZ Phase 3.0
+doc_subject: '*P624/EAS*1.0*P57 10-10EZ Phase 3.0'
 app_code: EAS
 app_name: Enrollment Application System
 section: FIN
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 5.3
 patch_id: EAS*5.3*624
-group_key: "EAS:EAS:5.3"
-file_numbers: []
-security_keys: []
+group_key: EAS:EAS:5.3
+description: '- Introduction - Overview - Purpose of this Manual - Related Documents - New Features, Functions, and Enhancements - [10-10EZ Phase 3.0 Project Stakeholder...'
+audience: System administrators, end users reviewing changes
+keywords: ''
+file_numbers:
+- '2'
+- '408.21'
+- '408.22'
+- '711'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - application
-  - vista
-  - spouse
-  - manual
-  - enrollment
-  - benefits
-  - revised
-  - form
 page_count: 0
 word_count: 2099
 section_count: 12
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/dg_5_3_p624_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/dg_5_3_p624_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/dg_5_3_p624_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/dg_5_3_p624_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-p624-eas-1-0-p57-10-10ez-phase-3-0-release-notes/001.png)

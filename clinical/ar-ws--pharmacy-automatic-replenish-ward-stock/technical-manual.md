@@ -3,46 +3,51 @@ title: Automatic Replenishment/Ward Stock Version 2.3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AR/WS
-app_name: "Pharmacy: Automatic Replenish / Ward Stock"
+app_name: 'Pharmacy: Automatic Replenish / Ward Stock'
 section: CLI
 app_status: active
 pkg_ns: AR/WS
 patch_ver: 2.3
 patch_id: AR/WS*2.3
-group_key: "AR/WS:AR/WS:2.3"
-file_numbers: []
-security_keys: []
+group_key: AR/WS:AR/WS:2.3
+description: This technical manual is designed to provide the VAMC's Site Manager and IRM/ADP staff with the information necessary to install, maintain, and troubleshoot Version 2.3 of the Automatic Replenishment/Ward Stock module of the DHCP Inpatient Pharmacy software.
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '44'
+- '50'
+- '58.1'
+- '58.11'
+- '58.16'
+- '58.19'
+- '58.3'
+- '58.5'
+- '59.4'
+- '8989.5'
+- '8989.51'
+security_keys:
+- PSGW PARAM
+- PSGW PURGE
+- PSGW TRAN
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 15%\\" /> <col style=\\"width: 12%\\" /> <col style=\\"width: 27%\\" /> <col style=\\"width: 15%\\" /> <col style=\\"width: 15%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><strong>Date</strong></th> <th><p><strong>Version/</strong></p> <p><strong>"
-audience: 
-keywords: 
-  - routine
-  - psgw
-  - inventory
-  - print
-  - report
-  - amis
-  - stock
-  - span
-  - column
-  - items
 page_count: 0
 word_count: 9624
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wstech.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wstech.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=83"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wstech.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wstech.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=83
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

@@ -5,44 +5,51 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Laser Printed Prescription Labels Phase II
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*87
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: '''Laser Printed Prescriptions Labels Phase II functionality affects Pharmacy Data Management in the following ways:'''
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '3.2'
+- '8.1'
+- '8.2'
+- '10'
+- '16'
+- '44'
+- '50'
+- '50.625'
+- '50.626'
+- '52'
+- '54'
+- '55'
+- '59'
+- '59.7'
 security_keys: []
 menu_options: 0
-description: "Laser Printed Prescriptions Labels Phase II functionality affects Pharmacy Data Management in the following ways:"
-audience: 
-keywords: 
-  - warning
-  - label
-  - labels
-  - pharmacy
-  - print
-  - table
-  - laser
-  - contents
-  - prescription
-  - patient
 page_count: 0
 word_count: 3680
 section_count: 11
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pso_7_p161_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pso_7_p161_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pso_7_p161_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pso_7_p161_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](pss-1-87-release-notes-laser-printed-prescription-labels-phase-ii/001.png)

@@ -1,39 +1,60 @@
 ---
-consolidated_title: "mental health assistant release notes"
-app_code: YS
+title: Mental Health Assistant YS*5.01*202 Release Notes
 doc_type: RN
-master_source: "YS*5.01*199 Mental Health Assistant Release Notes"
-master_pub_date: May 2022
-consolidated_from: 5 versions
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: null
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*202
+group_key: YS:YS:5.01
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |--------------|-------------|-----------------|----------------------| | October 2022 | 1.0 | Initial version | Liberty IT Solutions'
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1485
+section_count: 9
+table_count: 2
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: October 2022
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_202_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_202_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: Mental Health Assistant YS*5.01*202 Release Notes
+master_pub_date: October 2022
+consolidated_from: 6 versions
 prior_versions:
-  - "YS*5.01*187 Mental Health Assistant Release Notes"
-  - "YS*5.01*204 Mental Health Assistant Release Notes"
-  - "YS*5.01*217 Mental Health Assistant Release Notes"
-  - "YS*5.01*218 Mental Health Assistant Release Notes"
+- YS*5.01*187 Mental Health Assistant Release Notes
+- YS*5.01*199 Mental Health Assistant Release Notes
+- YS*5.01*204 Mental Health Assistant Release Notes
+- YS*5.01*217 Mental Health Assistant Release Notes
+- YS*5.01*218 Mental Health Assistant Release Notes
+consolidated_title: mental health assistant release notes
 ---
 
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Mental Health Assistant (MHA)
-
-  YS\*5.01\*199
-
-  Release Notes
-
-  ![](ys-5-01-199-mental-health-assistant-release-notes/001.png)
----
-
-May 2022
+October 2022
 
 Office of Information and Technology (OIT)
 
 Revision History
 
-| Date   | Version | Description | Author          |
-|------------|-------------|-----------------|---------------------|
-| April 2022 | 1.0         | Initial version | Booz Allen Hamilton |
+| Date     | Version | Description | Author           |
+|--------------|-------------|-----------------|----------------------|
+| October 2022 | 1.0         | Initial version | Liberty IT Solutions |
 
 <span id="_Toc101433393" class="anchor"></span>Table 1: Acronyms List
 
@@ -41,7 +62,7 @@ Table of Contents
 
 List of Tables
 
-[Table 1: Acronyms List [4](#_Toc101433393)](#_Toc101433393)
+[Table 1: Acronyms List [3](#_Toc101433393)](#_Toc101433393)
 
 # Introduction
 
@@ -66,7 +87,7 @@ The Suicide Prevention Program (SPP) Mental Health Assistant (MHA) Project is co
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-These release notes cover the changes to implement reports that affect the MHA application made by YS\*5.01\*199 to enhance clinician workflow and patient care.
+These release notes cover the changes to implement reports that affect the MHA application made by YS\*5.01\*202 to enhance clinician workflow and patient care.
 
 ## Audience
 
@@ -78,73 +99,87 @@ This document targets users of the MHA Applications and applies to the changes m
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following sections provide a summary of the new features and functions added, enhancements and modifications to the existing software, and any known issues for YS\*5.01\*199.
+The following sections provide a summary of the new features and functions added, enhancements and modifications to the existing software, and any known issues for YS\*5.01\*202.
 
 ## New Features and Functions Added
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following are the features and functions added by YS\*5.01\*199:
+The following are the features and functions added by YS\*5.01\*202:
 
-- Added Special Reports functionality
-  - Added a new functionality that will allow users to display multiple graphs on a single page. The Completed Reports panel was updated to display Completed Reports along with Special Reports. There will be a maximum of 8 graphable instruments.
-- Added Patient in Context notification
-  - If MHA Web loses context with CPRS, a red banner will be displayed along with an icon that shows the connection is broken
-- Added an ID to error messages for troubleshooting
-  - If an error appears to the user, it will contain a Universally Unique Identifier (UUID) that will allow for troubleshooting of the issue
-- Added Computer Adaptive Testing (CAT) tests for Post-Traumatic Stress Disorder (PTSD)
-  - Two test CAT tests (CAD-PTSD-DX and CAT-PTSD-E) were added for PTSD and are now available for use
-- Added a collapse capability to the Active Assignment panel
-  - The user can now collapse the Active Assignment panel to allow more room for viewing reports and graphs
+- Added additional instruments to MHA Web
+  - Added the following instruments to MHA Web
+    - ASRS
+    - CAT-PSYCHOSIS
+    - EHS-14
+    - PEBS-20
+    - PEBS-27
+    - WBS
+- Added Preferences interface
+  - Created an interface to allow clinicians to configure preferences outside of Staff Entry. It is available through Preferences icon (cog) -\> Favorites
+- Added the High-Risk Patient Dashboard view to MHA Web.
+  - A High-Risk Patient Dashboard was created to view information for all patients in a site that are labeled High-Risk. This will allow the clinicians to view critical data related to suicide risk.
 
 ## Enhancements and Modifications to Existing Functionality
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following are the enhancements and modifications by YS\*5.01\*199:
+The following are the enhancements and modifications by YS\*5.01\*202:
 
-- The Batteries group is expanded to show four Batteries and is now consistent with the other groups on the Create/Edit Assignment screens
-- Consolidated multi-instrument assessments into a single Progress Note
-- Enabled graphing for Personality type instruments
-  - 
-  - PAI
-  - MBMD
-  - MCMI4
-  - MMPI-2-RF
-  - MCMI3
-  - MMPI2
-- 
-- Removed extraneous information for the instrument description pop-up. Also corrected erroneous authors
-- Removed the Options button from Staff Entry
-- Changed timeout to be 45 minutes with a warning countdown modal to appear at 40 minutes
-- Updated Barthel Index to be Staff Entry only
-- Added hover over description to icons in the Active Assignment panel
-- Updated format in BDI-2 Progress Note
-- Updated “Show” button on graphing to be “Show All Dates” to explain the functionality
-- If all scales on Completed Reports Graphing are un-checked, now displayed a blank graph.
+- Special Reports enhancements
+  - Added the ability of creating a custom graph based upon the instruments selected in Special Reports.
+  - Added interpretation information for the Special Reports graphs.
+- Computer Adaptive Testing (CAT) Enhancements
+  - Update CAT-Psychosis for administration in both Staff Entry and Patient Entry.
+  - Inactivated CAT instruments
+    - CAT-ADHD
+    - CAT-SDOH
+    - CAT-PTSD
+- Update FOCI skip logic
+  - Updated FOCI skip logic to: If any question in section A is answered "Yes", section B questions should be enabled. Only if every question in section A is answered "No" should section B questions be disabled.
+- Update FAST instrument scoring
+  - Currently the score for Functional Assessment Staging of Alzheimer's Disease (FAST) is calculated based on the first question with a negative response. The score should be based on the highest question with a positive response.
+- Update MCMI4 to allow 13 skipped questions
+  - The MCMI4 instrument did not allow skipped questions. The instrument was updated to allow skipped questions and alert clinicians when more than 13 questions are skipped.
+- Update SLUMS and GDS Dementia instruments to contain the needed stories.
+  - The SLUMS and GDS Dementia instruments rely on stories for administration. MHA Web was missing these stories.
+- User Name entry fails when multiple names match 
+  - When creating a new assignment, if the name for the ordering doctor or interviewer matches multiple users, the user's title will show up appended to the name to help the user select the correct name.  If a user selects the name with the title appended, trying to create the assignment by hitting Patient Entry or Staff Entry will result in an error message for an incorrect field
+- Locations/Clinics with long names show as invalid 
+  - Locations/Clinics with long names were failing the field validations which kept users from entering the correct location. 
+- Updated VistA import to remove inactive instruments for Favorites, Special Reports and Batteries.
+  - In a specific button click sequence it is possible for a user to create an Instrument Favorites list with a null instrument. Instead, the user should be notified that an instrument must be selected.
+- Enabled graphing for Millon Behavioral Medicine Diagnostic (MBMD) instrument
+  - The MBMD results can now be graphed on MHA Web from the Completed Instruments panel.
+- Updated Select Instruments page to remove checkbox from a battery if an instrument is removed from the Instruments Chosen list
+  - If an instrument is removed from the Instruments Chosen list, the Battery will become unchecked.
+- Expand selectable locations to include Wards
+  - Wards and Clinics are allowed to be displayed in MHA Web.
+- Change the Division Selection list to alphabetical
+  - The Division Selection drop down list is in alphanumeric order by Division ID.
+- Update MHA Web Timeout to match CPRS timeout
+  - There were multiple reports of MHA Web timing out too often. A change was made to allow MHA Web to use the VistA timeout of the current user, the same as CPRS/MHA Core does.
+- Enhanced Completed Report delete button pop up message
+  - The delete button pop up now displays the information that was in MHA Core.
+- Moved capability of printing a blank instrument from Staff Entry to the main MHA Web landing page. A clinician can now print multiple instrumets from the Active Assignments pane.
+  - Printing has been removed from Staff Entry.
 
 ## Remediated Known Issues from Previous Releases
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following are known issues from previous releases that are remedied by YS\*5.01\*199:
+The following are known issues from previous releases that are remedied by YS\*5.01\*202:
 
-- SPP-9600 - MHA Web - Deleting all instruments within Instrument Administration can lead to Error
-  - This is a rare condition that has very little chance of happening in the field. This is when an assignment is created, the Delete button is pressed as fast as possible to remove all instruments in an assignment
-- SPP-9549 – MHA Web - Staff Entry - BAM-R allows answers \>30 to be submitted
-  - The BAM-R displays an error to the user when the answers are \>30 but still allows the instrument to be submitted
-- SPP-9729 – Patient Entry – Cannot use Prior Question button to return to first question
-  - For a few instruments (PSOCQ, STOP, ZBI SCREEN, ZBI SHORT) the “Prior Question” button will not return the user to the first question. The “Review Answers” button must be used
-- SPP-9792 – Patient Entry – Cannot use “Prior Question” to go to first question in the administration
-  - The “Prior Question” button is disabled when the second question is displayed, not allowing the user to click the button. The workaround is to click “Review Answers” and select the first question
-- SPP-9782 – MHA Web – Free text field truncating text after ^ special character
-  - When typing in the free text field for instrument testing, if a ^ happens to be typed, it causes any characters after the instrument to be erased when the note is saved, and the report viewed
-- SPP-9789 – Patient Entry – Speed tab not working for scaled responses in 3 instruments (POQ, Promise29v2.1 and Promise29+2 V2.1)
-  - When Patient Entry encounters a scaled question, the user must tab to get into focus. This causes speed entry to appear as if it’s not working
-- SPP-9867 – MHA Web – Save message on Batteries covers a Battery Name
-  - When adding a third battery (the fourth line), the successful message is no longer in focus
-- SPP-9883 – MHA Web – Completed Reports – “Print” button workflow issues
-  - In the Completed Reports view, the “Print” button remains highlighted after the print is completed and displays a blank screen. The workaround is to switch to the “Report” or “Graph” button
+- SPP-9863 – MHA Web – Co-Signer causes the label to change to Save Edited Note.
+  - When using the co-signer functionality and selecting a co-signer, the "Save Note" button is relabeled to "Save Edited Note", even though no changes were made to the note.
+- SPP-9887 – MHA Web – Some instrument names are duplicated in the Completed Instruments field.
+  - In certain cases, there are multiple instances of the same instrument buttons within the Completed Assignments field.
+- SPP-10268 - MHA Web - Patient Entry - Instructional text missing from instrument.
+  - Information related to the context of the question should be displayed for each question on Patient Entry. This will reduce any potential confusion.
+- SPP-10511 - MHA Web – Graphing – Maximum call stack size exceeded error.
+  - On occasion when a graph is zoomed in using the mouse, an error will appear in the graph stating "Maximum call stack size exceeded. If the page is refreshed or the graph is reloaded or changed, the error message will disappear.
+- SPP-10561 – Special characters in clinic name caused internal server errors when searching for location.
+  - Users are receiving "Internal Server Error – No Message Available" when searching for clinics via the location field using special characters. Workaround – do not use special characters in the search.
 
 ## Known Issues
 
@@ -152,18 +187,12 @@ The following are known issues from previous releases that are remedied by YS\*5
 
 This list outlines existing issues that will be corrected in a future release:
 
-- SPP-9863 – MHA Web – Co-Signer causes the label to change to Save Edited Note
-  - When using the co-signer functionality and selecting a co-signer, the “Save Note” button is relabeled to “Save Edited Note”, even though no changes were made to the note
-- SPP-9887 – MHA Web – Some instrument names are duplicated in the Completed Instruments field
-  - In certain cases, there are multiple instances of the same instrument buttons within the Completed Assignments field
-- SPP-10268 - MHA Web - Patient Entry - Instructional text missing from instrument
-  - Information related to the context of the question should be displayed for each question on Patient Entry. This will reduce any potential confusion
-- SPP-10511 - MHA Web – Graphing – Maximum call stack size exceeded error
-  - On occasion when a graph is zoomed in using the mouse, an error will appear in the graph stating “Maximum call stack size exceeded. If the page is refreshed or the graph is reloaded or changed, the error message will disappear.
-- SPP-10561 – Special characters in clinic name caused internal server errors when searching for location.
-  - Users are receiving “Internal Server Error – No Message Available” when searching for clinics via the location field using special characters. Workaround – do not use special characters in the search.
-- SPP-10576 – MCMI-4 does not allow skipped questions.
-  - The instrument needs to be updated to allow skipped questions. Examine the PDD for details and scoring for skipped questions. – Workaround – answer all questions for the instrument.
+- SPP-10640 – Wording in the hover overs of various instruments are incorrect.
+  - The hover over for CAGE is corrected to state: CAGE Alcohol Screening Tool.
+  - The hover over for BPRS-A does not contain question marks.
+  - The hover over for BSI-18 Norm Sample: Community sample (N = 1,134) and oncology sample (N = 1,543).
+- SPP-10919 – Finishing last instrument in assignment sends user back to landing page instead of unfinished instrument.
+  - Upon selecting the finish button on the last instrument in the assignment, the user is redirected to previous instruments in the assignment where they can either finish the instruments or Save & Exit.
 
 ## Product Documentation
 
@@ -182,6 +211,8 @@ The following documents *(located at the VA Software Document Library)* apply to
 | CAT         | Computer Adaptive Testing                              |
 | CPRS        | Computerized Patient Record System                     |
 | DIBRG       | Deployment, Installation, Back-out, and Rollback Guide |
+| FAST        | Functional Assessment Staging of Alzheimer's Disease   |
+| MBMD        | Millon Behavioral Medicine Diagnostic                  |
 | MCMI        | Millon Clinical Multiaxial Inventory                   |
 | MH          | Mental Health                                          |
 | MHA         | Mental Health Assistant                                |

@@ -5,44 +5,52 @@ doc_label: User Manual
 doc_layer: patch
 doc_subject: Health Summary
 app_code: GMTS
-app_name: "CPRS: Health Summary"
+app_name: 'CPRS: Health Summary'
 section: CLI
 app_status: active
 pkg_ns: GMTS
 patch_ver: 2.7
 patch_id: GMTS*2.7*133
-group_key: "GMTS:GMTS:2.7"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: GMTS:GMTS:2.7
 description: Version 2.7March 2020Department of Veterans Affairs (VA)Office of Information and Technology (OIT)Preface
-audience: 
-keywords: 
-  - summary
-  - health
-  - component
-  - gmts
-  - types
-  - patient
-  - date
-  - remote
-  - time
-  - components
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '50.605'
+- '50.7'
+- '59'
+- '90'
+- '101.24'
+- '142'
+- '142.1'
+- '142.5'
+- '142.99'
+- '394.71'
+- '811.9'
+security_keys:
+- GMTS VIEW ONLY
+- GMTSMGR
+- LRSUPER
+- ORMGR
+- SROREP
+menu_options: 5
 page_count: 0
 word_count: 31961
 section_count: 26
 table_count: 1
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=63"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=63
+audit_applied: '2026-05-31'
 ---
 
 <span id="BUILD" class="anchor"></span>Health SummaryUser Manual

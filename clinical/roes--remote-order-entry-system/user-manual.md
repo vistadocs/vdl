@@ -3,7 +3,7 @@ title: ROES Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ROES
 app_name: Remote Order Entry System
 section: CLI
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: ROES
 patch_ver: 3
 patch_id: ROES*3
-group_key: "ROES:ROES:3"
-file_numbers: []
+group_key: ROES:ROES:3
+description: The Remote Order Entry System (ROES) gives authorized end users at VHA facilities the ability to order products and services from the VA Denver Acquisition & Logistics Center (DALC). This manual provides instructions for the use of the ROES 3.0 software. The information in this manual is intended fo
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '87'
+- '791814'
 security_keys: []
 menu_options: 0
-description: The Remote Order Entry System (ROES) gives authorized end users at VHA facilities the ability to order products and services from the VA Denver Acquisition & Logistics Center (DALC). This manual provides instructions for the use of the ROES 3.0 software. The information in this manual is intended fo
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - order
-  - roes
-  - table
-  - contents
-  - manual
-  - patient
-  - version
-  - button
-  - form
-  - dalc
 page_count: 0
 word_count: 33264
 section_count: 37
 table_count: 6
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=99"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/rmpf3_0um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=99
+audit_applied: '2026-05-31'
 ---
 
 ![](roes-version-3-user-manual/001.png)

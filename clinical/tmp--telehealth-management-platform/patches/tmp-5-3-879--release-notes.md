@@ -3,7 +3,7 @@ title: TMP VistA Patch 879
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: TMP
 app_name: Telehealth Management Platform
 section: CLI
@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 5.3
 patch_id: TMP*5.3*879
-group_key: "TMP:TMP:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: TMP:TMP:5.3
 description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\879 patch
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - rollback
-  - patch
-  - install
-  - procedure
-  - routine
-  - message
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3'
+- '19'
+- '43.8'
+- '409.85'
+security_keys:
+- PROVIDER
+- SDTOOL
+menu_options: 1
 page_count: 0
 word_count: 2001
 section_count: 25
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 1
 revision_newest: 6/6/2024
 revision_oldest: 6/6/2024
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_879_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_879_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_879_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_879_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Scheduling Package EnhancementPatch SD\*5.3\*879

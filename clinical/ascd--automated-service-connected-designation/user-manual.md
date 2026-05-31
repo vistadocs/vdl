@@ -1,20 +1,53 @@
 ---
-consolidated_title: "ascd user manual"
-app_code: ASCD
+title: ASCD User Manual (PCE)
 doc_type: UM
-master_source: "ASCD User Manual (PCE)"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: ASCD (PCE)
+app_code: ASCD
+app_name: Automated Service Connected Designation
+section: CLI
+app_status: active
+pkg_ns: ASCD
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers:
+- '44'
+- '60'
+- '63'
+- '69'
+- '811.2'
+- '811.9'
+- '999999'
+security_keys:
+- PROVIDER
+menu_options: 1
+description: 'Date Description (Patch # if applicable) Project Manager Technical'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 28360
+section_count: 17
+table_count: 3
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: September 2007
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Automated_Service_Connected_Designation/ascd_px_10_p184_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Automated_Service_Connected_Designation/ascd_px_10_p184_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=174
+audit_applied: '2026-05-31'
+master_source: ASCD User Manual (PCE)
 master_pub_date: September 2007
 consolidated_from: 2 versions
 prior_versions:
-  - "ASCD User Manual (Scheduling)"
----
-
----
-title: |
-
-  ![](ascd-user-manual-pce/001.png)
-
-  Patient Care Encounter (PCE) V. 1.0 User Manual
+- ASCD User Manual (Scheduling)
+consolidated_title: ascd user manual
 ---
 
 August 1996Patch PX\*1.0\*184(Revised September 2007)
@@ -217,8 +250,8 @@ Version 1.0 of PCE provides options that allow:
   
 Definitions
 
-- Outpatient Visit: The visit of an outpatient to one or more units or facilities located in or directed by the provider maintaining the outpatient health care services (clinic, physician’s office, hospital/medical center) within one calendar day.
-- Encounter: A contact between a patient and a provider who has primary responsibility for assessing and treating the patient at a given contact, exercising independent judgment. A patient may have multiple encounters per visit. Outpatient encounters include scheduled appointments and walk-in unscheduled visits. A clinician’s telephone communications with a patient may be represented by a separate visit entry. If the patient is seen in an outpatient clinic while an inpatient, this is treated as a separate encounter.
+- Outpatient Visit: The visit of an outpatient to one or more units or facilities located in or directed by the provider maintaining the outpatient health care services (clinic, physician's office, hospital/medical center) within one calendar day.
+- Encounter: A contact between a patient and a provider who has primary responsibility for assessing and treating the patient at a given contact, exercising independent judgment. A patient may have multiple encounters per visit. Outpatient encounters include scheduled appointments and walk-in unscheduled visits. A clinician's telephone communications with a patient may be represented by a separate visit entry. If the patient is seen in an outpatient clinic while an inpatient, this is treated as a separate encounter.
 - Episode of Care: Many encounters for the same problem can constitute an episode of care. An outpatient episode of care may be a single encounter or can encompass multiple encounters over a long period of time. The definition of an episode of care may be interpreted differently by different professional services even for the same problem. Therefore, the duration of an episode of care is dependent on the viewpoints of individuals delivering or reviewing the care provided.
 - Ancillary Service/Occasion of Service: A specified instance of an act of service involved in the care of a patient or consumer which is not an encounter. These occasions of service may be the result of an encounter; for example, tests or procedures ordered as part of an encounter. A patient may have multiple occasions of service per encounter or per visit.
 - Provider: The entity which furnishes health care to a consumer. This definition includes an individual or defined group of individuals who provide a defined unit of health care services (defined = codable) to one or more individuals at a single session.
@@ -231,14 +264,14 @@ Potential PCE Workflow
 Materials available to provider:
 
 - *Health Summary* with new components summarizing previous encounters, and a health reminders component based on clinical repository data
-- *Encounter Form* (hard copy or workstation) with pre-defined terminology for the provider’s clinic/service type
+- *Encounter Form* (hard copy or workstation) with pre-defined terminology for the provider's clinic/service type
 - *PCE Clinical Reports*, Action Profile, Daily Order Summary, Lab Interim report, and *other*V*IST*A *reports.*2. The provider documents the encounter (on hard copy or online).
 
 Types of data collected and stored in PCE:
 
 *ProvidersDiagnosesCPT procedures providedImmunizations (CPT-mappable)Skin tests (CPT-mappable)Patient educationExams (non-CPT-mappable)Treatments (non-CPT-mappable)*3. Information from a hard copy encounter form is entered into V*IST*A by a data entry clerk or scanned via an interface utility.
 
-4. Encounter form data that isn’t scanned or is scanned incorrectly can be entered or edited through the PCE data entry program described in this manual.
+4. Encounter form data that isn't scanned or is scanned incorrectly can be entered or edited through the PCE data entry program described in this manual.
 5. Providers can enter immunizations, patient education, or other pieces of clinical information through PCE.
 6. Providers can view items entered into PCE on a Health Summary or customized report. If any of these items have been set up for clinical reminders, these reminders will appear on the patient's health summary.
 
@@ -274,13 +307,13 @@ Patch XU\*8\*27 has been developed to provide functionality that will enable you
 
 The Automated Service Connected Designation (ASCD) project automates the Service Connected decision for outpatient encounters using the mapped ICD/Rated Disability Codes at the time the clinician actually picks the ICD code for the outpatient encounter within the Patient Care Encounter (PCE) and Scheduling packages. 
 
-In the current clinical work environment, providers are requested to designate at the point of care if a specific patient care encounter is service connected (SC) based on available disability rating information. This software will computerize the clinician’s process at each encounter, i.e. mark the encounter service-connected (SC) or non service-connected (NSC) as appropriate. Thus, when a provider or clinician chooses the diagnosis code for the encounter the system will automatically determine if the diagnosis is related to the veteran's established service connected conditions, and will likewise automatically make the proper SC/NSC determination for that encounter.
+In the current clinical work environment, providers are requested to designate at the point of care if a specific patient care encounter is service connected (SC) based on available disability rating information. This software will computerize the clinician's process at each encounter, i.e. mark the encounter service-connected (SC) or non service-connected (NSC) as appropriate. Thus, when a provider or clinician chooses the diagnosis code for the encounter the system will automatically determine if the diagnosis is related to the veteran's established service connected conditions, and will likewise automatically make the proper SC/NSC determination for that encounter.
 
 Modifications made to the outpatient checkout diagnosis entry process automates the response to the question "Was treatment for SC Condition?" for each diagnosis code. The question will not allow user entry and will be displayed briefly to the user with the ASCD answer.
 
 The PCE Encounter Data Entry - Supervisor \[PXCE ENCOUNTER ENTRY SUPER\] option allows users to change the ASCD value which will be displayed as the default. This allows users to access encounters that are not set for review and are not accessible via the ASCD review options.
 
-Modifications were made to the checkout screen under the section “Patient’s Service Connection and Rated Disabilities:” to display the RATED DISABILITY CODE number before the Rated Disabilities (VA) name.
+Modifications were made to the checkout screen under the section "Patient's Service Connection and Rated Disabilities:" to display the RATED DISABILITY CODE number before the Rated Disabilities (VA) name.
 
 # Orientation
 
@@ -331,7 +364,7 @@ Without leaving the option, you can:
 - take action on those items, or
 - select other actions,
 
-You select an action by typing the name or abbreviation at the “Select Action” prompt.
+You select an action by typing the name or abbreviation at the "Select Action" prompt.
 
 Actions may be preselected by typing the action abbreviation, then the number of the encounter on the list. For example, UE=1 will process entry 1 for Update Encounter
 
@@ -992,7 +1025,7 @@ With the Update Encounter action you can add or edit encounter information, eith
 
 *Follow the steps below to use Update Encounter.*1. Type the name of the patient or the clinic whose encounters you want to edit.
 
-Select Patient or Clinic Name: PCEPATIENT,ONE2. A screen like this appears. Type UE at the “Select Action” prompt.
+Select Patient or Clinic Name: PCEPATIENT,ONE2. A screen like this appears. Type UE at the "Select Action" prompt.
 
 <u>PCE Encounter List Jul 25, 1996 07:41:25 Page: 1 of 1</u>
 
@@ -1369,7 +1402,7 @@ Select Action: Quit// \[ENTER\]
 
 #### How to Add or Edit an Encounter
 
-You can add an encounter for an appointment that doesn’t have an encounter associated with it, or edit an existing encounter.
+You can add an encounter for an appointment that doesn't have an encounter associated with it, or edit an existing encounter.
 
 *Steps to edit an Encounter*1. Select UE from the PCE Appointment List screen.2. Select EN from the PCE Update Encounter screen.
 
@@ -1536,7 +1569,7 @@ Is this Provider Attending: YES// NO5. The edited screen is then displayed.
 
 #### How to Add or Edit Diagnoses (ICD 9)
 
-You can enter a diagnosis and/or an ICD-9 code for a patient’s encounter. You will be prompted to designate the diagnosis as primary or secondary. CIDC (Clinical Indicator Data Capture) has added functionality that displays patient Service Connected and Rated Disabilities for those SC patients. In addition, an optional Ordering/Resulting Diagnosis prompt asks “Is this Diagnosis Ordering, Resulting, or Both.” See NOTE in Step 3.
+You can enter a diagnosis and/or an ICD-9 code for a patient's encounter. You will be prompted to designate the diagnosis as primary or secondary. CIDC (Clinical Indicator Data Capture) has added functionality that displays patient Service Connected and Rated Disabilities for those SC patients. In addition, an optional Ordering/Resulting Diagnosis prompt asks "Is this Diagnosis Ordering, Resulting, or Both." See NOTE in Step 3.
 
 With functionality put in place by the Code Set Versioning project, only ICD Codes that are active for the encounter date and time will be available.
 
@@ -1654,7 +1687,7 @@ Was treatment related to Head and/or Neck Cancer? NO// \[ENTER\]*\*Response will
 | Resulting            | Professional claim HCFA 1500.                             |
 | Both                 | Institutional and Professional claims UB92 and HCFA 1500. |
 
-When Ordering/Resulting Diagnosis is not entered, IB personnel must reseach the Provider’s documenation for Ordering and Resulting diagnosis information.
+When Ordering/Resulting Diagnosis is not entered, IB personnel must reseach the Provider's documenation for Ordering and Resulting diagnosis information.
 
 4. The edited screen is then displayed.
 
@@ -1734,7 +1767,7 @@ CP CPT (Procedure) HF Health Factors
 
 Select Action: Quit// cp\[ENTER\] CPT (PROCEDURE)
 
-Patient’s Service Connection and Rated Disabilities:SC Percent: 40%Rated Disabilities: 5257 KNEE CONDITION (20%-SC)5257 KNEE CONDITION (10%-SC)5003 DEGENERATIVE ARTHRITIS (10%-SC)3. Respond to the following prompts for the Procedure, as appropriate.
+Patient's Service Connection and Rated Disabilities:SC Percent: 40%Rated Disabilities: 5257 KNEE CONDITION (20%-SC)5257 KNEE CONDITION (10%-SC)5003 DEGENERATIVE ARTHRITIS (10%-SC)3. Respond to the following prompts for the Procedure, as appropriate.
 
 --- CPT ---
 
@@ -3368,11 +3401,11 @@ Scanned encounter forms can be used to capture encounter data relevant to clinic
 
 It is a challenge to keep the forms as simple as possible while still meeting information capture requirements. This may be done by combining information such as immunizations and skin tests with other required preventive procedures and assigning appropriate CPT codes so they will be captured correctly.
 
-There is no perfect encounter form. Everyone who uses these forms will have ideas about how to make them “perfect.” They need to be carefully designed to meet *most* of the users’ needs, while capturing information for workload and billing purposes. You can’t capture everything for everyone on one form.
+There is no perfect encounter form. Everyone who uses these forms will have ideas about how to make them "perfect." They need to be carefully designed to meet *most* of the users' needs, while capturing information for workload and billing purposes. You can't capture everything for everyone on one form.
 
 *How do Clinical Reminders and Health Summary packages usethe data?*
 
-Reminder items are added to health summary selection components for a given health summary type. When the health summary type is run, the Clinical Reminders software evaluates the patient’s data and returns the results to the health summary for display.
+Reminder items are added to health summary selection components for a given health summary type. When the health summary type is run, the Clinical Reminders software evaluates the patient's data and returns the results to the health summary for display.
 
 *Health Summary Reminder Components*
 
@@ -3428,9 +3461,9 @@ HbA1C required yearly for diabetic patients
 
 Final frequency and age range used: 1 year for diabetic patients
 
-Health summaries and reminder definitions can be tailored to suit clinicians’ needs. Some health summaries are defined by users themselves and some are designed for generic use. Many kinds of information can be displayed on a health summary. The user can define a reminder that is very detailed so that it could be used in place of a paper chart. Most sites use the health summary to supplement the paper chart, based on the clinic and provider’s preference for health summary content.
+Health summaries and reminder definitions can be tailored to suit clinicians' needs. Some health summaries are defined by users themselves and some are designed for generic use. Many kinds of information can be displayed on a health summary. The user can define a reminder that is very detailed so that it could be used in place of a paper chart. Most sites use the health summary to supplement the paper chart, based on the clinic and provider's preference for health summary content.
 
-*Clinician’s Role in Clinical Reminders*
+*Clinician's Role in Clinical Reminders*
 
 The clinician plays an important role in Clinical Reminders. He/she will be asked to assist the Clinical Coordinator in selecting which reminders to implement and in defining the clinical aspects of the Clinical Reminder Definition Worksheets, including:
 
@@ -3453,7 +3486,7 @@ Most important, clinicians will make use of clinical reminders and clinical main
 
 Make the most of your clinical reminders!
 
-The National Center for Health Promotion (NCHP) has defined a set of 15 reminders that represent the minimum that sites must report on yearly to comply with Congressional law. The Ambulatory Care Expert Panel has defined 22 reminders that they recommend. The NCHP reminders are prefixed with VA-\* and the EP reminders with VA-. Any of these reminders that meet your site’s requirements may be used *as i*s. If your site requires a reminder that is not met by one of the distributed reminders, you can create your own. It is usually easiest to start by copying the existing reminder that is closest to what you want.
+The National Center for Health Promotion (NCHP) has defined a set of 15 reminders that represent the minimum that sites must report on yearly to comply with Congressional law. The Ambulatory Care Expert Panel has defined 22 reminders that they recommend. The NCHP reminders are prefixed with VA-\* and the EP reminders with VA-. Any of these reminders that meet your site's requirements may be used *as i*s. If your site requires a reminder that is not met by one of the distributed reminders, you can create your own. It is usually easiest to start by copying the existing reminder that is closest to what you want.
 
 You may wish to review VHA Handbook 1101.8 Health Promotion and Disease Prevention Program (RCN 10-0666), VAMC Outpatient Performance Indications, and Clinical Guidelines as resource materials when deciding what reminders you need.
 
@@ -3461,11 +3494,11 @@ Create a Preventive Medicine Health Summary or add reminder and maintenance item
 
 When reviewers visit your medical center, make these summaries available to them. Feedback from reviewers who have used these health summaries during their reviews has been very positive.
 
-PLEASE NOTE: Clinical reminders and clinical maintenance do *not* satisfy documentation requirements. Documentation supporting these reminders must still be made on progress notes, doctor’s orders, etc.
+PLEASE NOTE: Clinical reminders and clinical maintenance do *not* satisfy documentation requirements. Documentation supporting these reminders must still be made on progress notes, doctor's orders, etc.
 
 Implementing Clinical Reminders
 
-Tips on how to get started with clinical reminders and clinical maintenance from a Clinical Coordinator’s perspective.
+Tips on how to get started with clinical reminders and clinical maintenance from a Clinical Coordinator's perspective.
 
 Clinical Reminders are created or modified by using a combination of PCE Table Maintenance options, Clinical Reminders Maintenance options, Taxonomy options, Health Summary Create/Modify Health Summary Type option, and AICS Encounter Form options.
 
@@ -3493,10 +3526,10 @@ Use a list of PCE Reminders/Maintenance items, health factors, and taxonomies fo
 
 a\. Review reminder definitions with appropriate clinical staff and determine any reminders that will need editing.
 
-- If you are going to use the distributed reminders *without* making any changes, you won’t need to copy them. For example, immunizations, skin tests, and blood pressures can be used as exported. If you wish to make changes (e.g., frequency, age range, health factors), copy the exported reminder and edit it.
-- If no distributed reminder provides exactly what you require, you will need to create your own local reminder. It is usually easiest to start with the distributed reminder that is closest to your requirements. Copy it to a local reminder using the *Copy Reminder Item* option, and then edit the new reminder to meet your site’s needs. An example of copying and editing a reminders is at the end of this chapter.
+- If you are going to use the distributed reminders *without* making any changes, you won't need to copy them. For example, immunizations, skin tests, and blood pressures can be used as exported. If you wish to make changes (e.g., frequency, age range, health factors), copy the exported reminder and edit it.
+- If no distributed reminder provides exactly what you require, you will need to create your own local reminder. It is usually easiest to start with the distributed reminder that is closest to your requirements. Copy it to a local reminder using the *Copy Reminder Item* option, and then edit the new reminder to meet your site's needs. An example of copying and editing a reminders is at the end of this chapter.
 
-> NOTE: The “VA-“ prefix designates the nationally distributed set. (Sites are not allowed to use the VA- prefix in the names of locally defined reminders.) Reminders with the “VA-\*” prefix represent the minimum requirements as defined by the National Center for Health Promotion (NCHP).
+> NOTE: The "VA-" prefix designates the nationally distributed set. (Sites are not allowed to use the VA- prefix in the names of locally defined reminders.) Reminders with the "VA-\*" prefix represent the minimum requirements as defined by the National Center for Health Promotion (NCHP).
 
 - You will always need to copy and edit the following reminders to add your specific laboratory or radiology test names:
 
@@ -3508,9 +3541,9 @@ a\. Review reminder definitions with appropriate clinical staff and determine an
 
 > VA-: \*Pap Smear, \*FOBT, Flex sigmoidoscopy, Blood Pressure check, Influenza Vaccine, Pneumovax, PPD, Weight
 
-> \* The Pap Smear and FOBT-type reminders don’t look at the laboratory test names at this time. However, a future lab patch is anticipated that will require you to enter the laboratory test name as you did for PSA and cholesterol reminders.
+> \* The Pap Smear and FOBT-type reminders don't look at the laboratory test names at this time. However, a future lab patch is anticipated that will require you to enter the laboratory test name as you did for PSA and cholesterol reminders.
 
-- The following screening and education reminders work “as is,” but you must activate the topics under the PCE Reminder Maintenance Menu. The Table Maintenance item should match one or more of the Target Result Findings items as listed in each reminder definition.
+- The following screening and education reminders work "as is," but you must activate the topics under the PCE Reminder Maintenance Menu. The Table Maintenance item should match one or more of the Target Result Findings items as listed in each reminder definition.
 
 > VA-\*: Fitness and Exercise Screen, Problem Drinking Screen, Seat
 
@@ -3526,7 +3559,7 @@ a\. Review reminder definitions with appropriate clinical staff and determine an
 
 > Exam, Digital Rectal (Prostate) Exam
 
-b\. Run enough copies of “Clinical Reminder Definition Worksheets”
+b\. Run enough copies of "Clinical Reminder Definition Worksheets"
 
 (Appendix A-3) for the reminders you wish to edit.
 
@@ -3559,9 +3592,9 @@ You can do this two ways:
 
 a\. Run health summaries on patients you know have documented health factors or taxonomies.
 
-b\. Use the *Reminder Test* option, a standalone option which technical users can use to see a programmer’s view of the results of a reminder for a patient. This option doesn’t affect any data; it provides debugging information. Check with your IRMS staff for availability..
+b\. Use the *Reminder Test* option, a standalone option which technical users can use to see a programmer's view of the results of a reminder for a patient. This option doesn't affect any data; it provides debugging information. Check with your IRMS staff for availability..
 
-10. Meet with users and explain Clinical Reminders, the use of the Preventive Medicine Health Summary, and the need for their continued documentation of progress notes, doctor’s orders, etc.11. Meet with appropriate staff to arrange for data validation to assure that:
+10. Meet with users and explain Clinical Reminders, the use of the Preventive Medicine Health Summary, and the need for their continued documentation of progress notes, doctor's orders, etc.11. Meet with appropriate staff to arrange for data validation to assure that:
 
 a\. Encounter forms are being completed correctly
 
@@ -3571,7 +3604,7 @@ c\. Scanners are picking up information accurately (if scanning)
 
 d\. Information is being passed to health summaries correctly
 
-e\. Documentation in the patient’s medical record supports information displayed on the clinical reminders and clinical maintenance components
+e\. Documentation in the patient's medical record supports information displayed on the clinical reminders and clinical maintenance components
 
 *Defining Clinical Terms with PCE Tables*
 
@@ -3583,7 +3616,7 @@ The PCE package provides options for defining terminology which your site can us
 
 > Skin Test Treatment
 
-With the exception of the table of Treatments, all of the table items are supplied in an activated state. (clinical reminders do not use Treatments). If there are choices that you don’t want your users to see and pick, you must deactivate them (with the PCE Table Maintenance *Activate/Inactivate Table Items* option).  
+With the exception of the table of Treatments, all of the table items are supplied in an activated state. (clinical reminders do not use Treatments). If there are choices that you don't want your users to see and pick, you must deactivate them (with the PCE Table Maintenance *Activate/Inactivate Table Items* option).  
 *PCE Reminder Maintenance Menu*Option Descriptions
 
 List Reminder Definitions
@@ -3608,7 +3641,7 @@ Used to make reminders active or inactive with Health Summary.
 
 List Reminder Types Logic
 
-Lists the Reminder Types along with a summary of where the reminder's logic searches for data in V*IST*A to be used for the reminder type’s target patient findings.
+Lists the Reminder Types along with a summary of where the reminder's logic searches for data in V*IST*A to be used for the reminder type's target patient findings.
 
 List Taxonomy Definitions
 
@@ -3632,9 +3665,9 @@ This option allows you to activate/inactivate taxonomies.
 
 *Reminder Test* \[PXRM REMINDER TEST\], a standalone option, provides the technical user with a tool that can facilitate the creation and debugging of reminder definitions. This option lets you run a reminder directly and see all the details. It is completely safe to use, and its impact on the system is no different than running a reminder through Health Summary. The use of this option is explained in detail in Appendix A-7.
 
-Depending on a site’s preferences, IRMS can add this option to the Reminder
+Depending on a site's preferences, IRMS can add this option to the Reminder
 
-Maintenance menu or to a particular user’s secondary menus.
+Maintenance menu or to a particular user's secondary menus.
 
   
 Copying and Editing a ReminderNOTE: Use one up-arrow (^) or two up-arrows (^^) to exit from the option. Two up-arrows (^^) are necessary to exit from some prompts (ones that are indented).
@@ -4439,7 +4472,7 @@ Appointment criteria met:
 
 9/30/96 09:00 CARDIOLOGY CLINIC
 
-Enter RETURN to continue or ‘^’ to exit:
+Enter RETURN to continue or '^' to exit:
 
 Apr 29, 1997 3:03:05 pm Page 2
 
@@ -5215,7 +5248,7 @@ End of the report
 
 Selected Person Classes
 
-This “Selected Person Classes” option lets you compile a report of selected Person Classes based on occupation, specialty, and/or sub-specialty. A wild card (\*) may be entered as a response for any of the Person Class pieces. For example, if you want a report on every provider from a specific specialty, occupation would be “\*,” specialty would be the specific specialty, and sub-specialty would be “\*.”
+This "Selected Person Classes" option lets you compile a report of selected Person Classes based on occupation, specialty, and/or sub-specialty. A wild card (\*) may be entered as a response for any of the Person Class pieces. For example, if you want a report on every provider from a specific specialty, occupation would be "\*," specialty would be the specific specialty, and sub-specialty would be "\*."
 
 Select PCE Clinical Reports Option: PE Provider Encounter Counts
 
@@ -5603,7 +5636,7 @@ Ambulatory Data Capture Project. ADCP was formed to coordinate the various V*IST
 
 Action
 
-A functional process that a clinician or clerk uses in the PCE computer program. For example, “Update Encounter” is an action that allows the user to pick an encounter and edit information that was previously entered (either through PCE or the PIMS Checkout process), or add new information (such as an immunization or patient education).
+A functional process that a clinician or clerk uses in the PCE computer program. For example, "Update Encounter" is an action that allows the user to pick an encounter and edit information that was previously entered (either through PCE or the PIMS Checkout process), or add new information (such as an immunization or patient education).
 
 Appointment
 
@@ -5619,7 +5652,7 @@ Part of Medical Administration (the PIMS package), the checkout process can crea
 
 Clinic
 
-An entry in the HOSPITAL LOCATION File \#44 with a TYPE=”C”. Clinics must have stop codes in compliance with their restriction type. (See: Conforming Clinics; Non-conforming Clinics).
+An entry in the HOSPITAL LOCATION File \#44 with a TYPE="C". Clinics must have stop codes in compliance with their restriction type. (See: Conforming Clinics; Non-conforming Clinics).
 
 Clinician
 
@@ -5659,7 +5692,7 @@ A Health Summary is a clinically oriented, structured report that extracts many 
 
 Indian Health Service (IHS)
 
-IHS developed a computer program similar to VA’s V*IST*A, which contains Patient Care Component (PCC) from which PCE and many of its components were derived.
+IHS developed a computer program similar to VA's V*IST*A, which contains Patient Care Component (PCC) from which PCE and many of its components were derived.
 
 Inpatient Visit
 
@@ -5687,7 +5720,7 @@ A specified instance of an act of service involved in the care of a patient or c
 
 Outpatient Visit
 
-The visit of an outpatient to one or more units or facilities located in or directed by the provider maintaining the outpatient health care services (clinic, physician’s office, hospital/medical center) within one calendar day. Outpatient encounters include scheduled appointments and walk-in unscheduled visits. A clinician’s telephone communications with a patient may be represented by a separate visit entry.
+The visit of an outpatient to one or more units or facilities located in or directed by the provider maintaining the outpatient health care services (clinic, physician's office, hospital/medical center) within one calendar day. Outpatient encounters include scheduled appointments and walk-in unscheduled visits. A clinician's telephone communications with a patient may be represented by a separate visit entry.
 
 Person Class
 
@@ -5707,7 +5740,7 @@ A three-digit number corresponding to an additional stop/service a patient recei
 
 Visit
 
-Each encounter with a provider during a patient’s appointment; can also be a telephone call or a walk-in.
+Each encounter with a provider during a patient's appointment; can also be a telephone call or a walk-in.
 
 Visit Tracking
 
@@ -5860,17 +5893,17 @@ The ASCD options are as follows:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There are three (3) types of User’s that are recognized and authorized to use the Automated Service Connected Designation Menu \[SDSC MENU\] option:
+There are three (3) types of User's that are recognized and authorized to use the Automated Service Connected Designation Menu \[SDSC MENU\] option:
 
 1.  <u>General Users</u>
 
-    These users are not assigned a security key and can only see and review the encounters with a status of ‘NEW’. They can print the reports, which do not require a security key.
+    These users are not assigned a security key and can only see and review the encounters with a status of 'NEW'. They can print the reports, which do not require a security key.
 2.  <u>Clinical Reviewers</u>
 
-    These users are assigned the SDSC CLINICAL security key. They can only see and review encounters with a status of ‘REVIEW’. They can print the reports, which do not require a security key.
+    These users are assigned the SDSC CLINICAL security key. They can only see and review encounters with a status of 'REVIEW'. They can print the reports, which do not require a security key.
 3.  <u>Supervisors</u>
 
-    These users are assigned the SDSC SUPER security key. They can see and review ALL encounters with a status of ‘NEW’, ‘REVIEW’, and ‘COMPLETED’. This security key should be restricted to only a few users who as supervisors have the ability to undo a change. Supervisors have access to all ASCD options.
+    These users are assigned the SDSC SUPER security key. They can see and review ALL encounters with a status of 'NEW', 'REVIEW', and 'COMPLETED'. This security key should be restricted to only a few users who as supervisors have the ability to undo a change. Supervisors have access to all ASCD options.
 
 ### ### ### Automation of Diagnosis Code - (SC)/(NSC) Designation
 
@@ -5878,9 +5911,9 @@ There are three (3) types of User’s that are recognized and authorized to use 
 
 The Patient Care Encounter (PCE) and Scheduling packages outpatient encounter data entry process for entering diagnosis codes has been enhanced to automate the service connected (SC) or non-service connected (NSC) decision-making.
 
-The response to the service connected classification prompt "Was treatment for SC Condition?” has been automated for each diagnosis code entry. The question will not allow user entry and will be displayed briefly to the user with the ASCD answer. However, users can change the ASCD default value for encounters that are not set for review and are not accessible via the ASCD review options via the PCE Encounter Data Entry - Supervisor \[PXCE ENCOUNTER ENTRY SUPER\] option. The next service connected classification prompt will be presented for user input if applicable.
+The response to the service connected classification prompt "Was treatment for SC Condition?" has been automated for each diagnosis code entry. The question will not allow user entry and will be displayed briefly to the user with the ASCD answer. However, users can change the ASCD default value for encounters that are not set for review and are not accessible via the ASCD review options via the PCE Encounter Data Entry - Supervisor \[PXCE ENCOUNTER ENTRY SUPER\] option. The next service connected classification prompt will be presented for user input if applicable.
 
-The patient’s mapped RATED DISABILITIES (VBA Code) and ICD9 codes in the DISABILITY CONDITION (#31) file are used to determine the SC/NSC response for outpatient encounters.
+The patient's mapped RATED DISABILITIES (VBA Code) and ICD9 codes in the DISABILITY CONDITION (#31) file are used to determine the SC/NSC response for outpatient encounters.
 
 The Service Connected Classification status automation uses the following conditions:
 
@@ -5947,7 +5980,7 @@ The response to the question "Was treatment for SC Condition?" will be automatic
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The ASCD Compile Parameter \[SDSC SITE PARAMETER\] menu option is used to set the number of days that the manual ‘Compile ASCD Encounters by Date Range’ \[SDSC COMPILE\] option will use as a start date when searching for outpatient encounters that may need additional review by the ASCD software. This value is also used in the ‘Compile Results Report’ \[SDSC CHECK COMPILE\] and ‘Manager Summary Report’ \[SDSC MANAGER SUMMARY REPORT\] to validate the beginning date.
+The ASCD Compile Parameter \[SDSC SITE PARAMETER\] menu option is used to set the number of days that the manual 'Compile ASCD Encounters by Date Range' \[SDSC COMPILE\] option will use as a start date when searching for outpatient encounters that may need additional review by the ASCD software. This value is also used in the 'Compile Results Report' \[SDSC CHECK COMPILE\] and 'Manager Summary Report' \[SDSC MANAGER SUMMARY REPORT\] to validate the beginning date.
 
 The site parameter is set to 30 days when the SD\*5.3\*495 patch is installed. This option is LOCKED by the SDSC SUPER security key.
 
@@ -5963,7 +5996,7 @@ DAYS: 30//
 
 This option gathers encounters that have been updated or encounters with late identified insurance by performing a search on the OUTPATIENT ENCOUNTER file (#409.68).
 
-The start date of the compile is based on the number of days defined by the Site Parameter Definition \[SDSC SITE PARAMETER\] and is ran for a user specified date range. The option uses the rules listed under ‘Automation of Diagnosis Code: SC/NSC Designation’ to determine if the encounter should be added to the review file. This option can be run real-time or scheduled for a later time.
+The start date of the compile is based on the number of days defined by the Site Parameter Definition \[SDSC SITE PARAMETER\] and is ran for a user specified date range. The option uses the rules listed under 'Automation of Diagnosis Code: SC/NSC Designation' to determine if the encounter should be added to the review file. This option can be run real-time or scheduled for a later time.
 
 This option also purges and reports those records from the SDSC SERVICE CONNECTED CHANGES file (#409.48) when corresponding records do not exist in the OUTPATIENT ENCOUNTER file (#409.68).
 
@@ -6052,7 +6085,7 @@ PLEASE NOTE: CPRS will be updated if SC/NSC value is changed after ASCD review.
 
 #### Records Removed from the SDSC SERVICE CONNECTED CHANGES File (#409.48) 
 
-Any outpatient encounter record that has been reviewed and was updated by adding a primary diagnosis code that has a true match with one of the patient’s rated disabilities will be deleted from the SDSC SERVICE CONNECTED CHANGES file (#409.48).
+Any outpatient encounter record that has been reviewed and was updated by adding a primary diagnosis code that has a true match with one of the patient's rated disabilities will be deleted from the SDSC SERVICE CONNECTED CHANGES file (#409.48).
 
 ### Edit ASCD Encounters by Date Range \[SDSC EDIT BY DATE\] Option
 
@@ -6261,7 +6294,7 @@ No validation errors found!
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option enables users to review multiple ASCD encounters for the selected date range and division(s), as well as the ability to choose which type they would like to display. This option displays the encounters using VistA List Manager format. The various types of encounter statuses displayed will be based on the security key assigned to the user (See section on ‘Edit ASCD Encounters by Date Range’ \[SDSC EDIT BY DATE\] for security keys).
+This option enables users to review multiple ASCD encounters for the selected date range and division(s), as well as the ability to choose which type they would like to display. This option displays the encounters using VistA List Manager format. The various types of encounter statuses displayed will be based on the security key assigned to the user (See section on 'Edit ASCD Encounters by Date Range' \[SDSC EDIT BY DATE\] for security keys).
 
 Edit Encounter by Date Range Screen Display Example:
 
@@ -6360,7 +6393,7 @@ Continued: Review Encounter Detail Display Example
 </tbody>
 </table>
 
-> **NOTE:** For each encounter reviewed, users can choose one of three actions as described under the section ‘Edit ASCD Encounters by Date Range’ \[SDSC EDIT BY DATE\] option.
+> **NOTE:** For each encounter reviewed, users can choose one of three actions as described under the section 'Edit ASCD Encounters by Date Range' \[SDSC EDIT BY DATE\] option.
 
 ### Edit Single ASCD Encounter \[SDSC SINGLE EDIT\] Option
 
@@ -6372,7 +6405,7 @@ The following user prompt is presented:
 
 > Select OUTPATIENT ENCOUNTER:
 
-For each encounter reviewed, users can choose one of three actions as described under the section ‘Edit ASCD Encounters by Date Range’ \[SDSC EDIT BY DATE\].
+For each encounter reviewed, users can choose one of three actions as described under the section 'Edit ASCD Encounters by Date Range' \[SDSC EDIT BY DATE\].
 
 ### Updates to Claims Tracking (Billing) After Encounter is Reviewed via ASCD
 
@@ -6391,7 +6424,7 @@ If the SC/NSC determination is changed and if the encounter is already defined i
 
 If the encounter is not already in Claims Tracking then it will be added with the correct/update SC/NSC information from PCE when it is added.
 
-PLEASE NOTE: Changing a patient’s status from Non-Service Connected (NSC) to Service Connected (SC) needs to be monitored to ensure any newly SC designated care has not been billed. If SC care has been billed, the bill needs to be cancelled.
+PLEASE NOTE: Changing a patient's status from Non-Service Connected (NSC) to Service Connected (SC) needs to be monitored to ensure any newly SC designated care has not been billed. If SC care has been billed, the bill needs to be cancelled.
 
 ### Compile ASCD Encounters on a Nightly Basis \[SDSC NIGHTLY COMPILE\] Option
 
@@ -6476,12 +6509,12 @@ This menu contains all the reports related to the Automated Service Connected De
 
 This report prints the service connected changes by clinical service, M:MEDICINE; S:SURGERY; P:PSYCHIATRY; R:REHAB MEDICINE; N:NEUROLOGY; 0:NONE, under the following categories per that clinic service.
 
-- Number of outpatient encounters where ASCD automatically matched the encounter diagnosis with at least one (1) diagnosis code associated with the patient’s rated disability codes (partial match) - VBA OK.
+- Number of outpatient encounters where ASCD automatically matched the encounter diagnosis with at least one (1) diagnosis code associated with the patient's rated disability codes (partial match) - VBA OK.
 - Number of outpatient encounters set to Clinical Review - REVIEW
-- Number of outpatient encounters marked as ‘Service Connected=YES’ but were changed to ‘Service Connected =NO’ - SC to NSC.
-- Number of outpatient encounters marked as ‘Service Connected=NO’ but were changed to ‘Service Connected=YES’ – NSC to SC.
-- Number of outpatient encounters marked as ‘Service Connected=YES’ or ‘Service Connected = No’ that were not changed.- SC KEPT.
-- Number of outpatient encounters marked as ‘NEW’, which have not been reviewed yet.
+- Number of outpatient encounters marked as 'Service Connected=YES' but were changed to 'Service Connected =NO' - SC to NSC.
+- Number of outpatient encounters marked as 'Service Connected=NO' but were changed to 'Service Connected=YES' – NSC to SC.
+- Number of outpatient encounters marked as 'Service Connected=YES' or 'Service Connected = No' that were not changed.- SC KEPT.
+- Number of outpatient encounters marked as 'NEW', which have not been reviewed yet.
 
 Users provide a start date which cannot be greater than the date of the first outpatient encounter within the SDSC SERVICE CONNECTED CHANGES file (#409.48). The end date can be any date beginning with the start date through current date. They will also able to select one or more clinical service(s).
 
@@ -6688,7 +6721,7 @@ This report prints totals for the following information pertaining to the ASCD o
 - Not editable
 - Not yet processed
 
-The report can be printed for a specified date range for one or more divisions and will search through ‘All’ checked out outpatient encounters or just the ‘Compiled ASCD Encounters Only’. Users provide a start date, which cannot be greater than the value defined for the SDSC Site Parameter. The end date can be any date beginning with the start date through current date. This report is LOCKED by the SDSC SUPER security key.
+The report can be printed for a specified date range for one or more divisions and will search through 'All' checked out outpatient encounters or just the 'Compiled ASCD Encounters Only'. Users provide a start date, which cannot be greater than the value defined for the SDSC Site Parameter. The end date can be any date beginning with the start date through current date. This report is LOCKED by the SDSC SUPER security key.
 
 Managers Summary Report – (All) Example:
 
@@ -6751,9 +6784,9 @@ This report prints information regarding ASCD outpatient encounters and it is so
 
 The report can be printed using either a summary or detail format within a specified date range and one or more divisions. Users provide a start date which cannot be greater than the date of the first outpatient encounter within the SDSC SERVICE CONNECTED CHANGES file (#409.48). The end date can be any date beginning with the start date through current date.
 
-\* The ‘VBA SC’ column refers to whether any encounter diagnosis was matched to a diagnosis code associated with a rated disability code. Values are ‘YES’ or ‘NO’.
+\* The 'VBA SC' column refers to whether any encounter diagnosis was matched to a diagnosis code associated with a rated disability code. Values are 'YES' or 'NO'.
 
-\*\* The ‘User SC’ column refers to the user assigned service connected value for an encounter based upon their review of the encounter. Values are ‘YES’, ‘NO’, or ‘TBD (to be determined)’.
+\*\* The 'User SC' column refers to the user assigned service connected value for an encounter based upon their review of the encounter. Values are 'YES', 'NO', or 'TBD (to be determined)'.
 
 Provider Service Connected Encounters Report – (Summary) Example:
 
@@ -6833,11 +6866,11 @@ Total: 2
 
 This report prints totals of the ASCD encounters for the categories listed below per each provider:
 
-- Number of outpatient encounters where ASCD automatically matched the encounter diagnosis with at least one (1) diagnosis associated patient’s rated disability codes (partial match) - VBA OK.
-- Number of outpatient encounters marked as ‘Service Connected=YES’ but were changed to ‘Service Connected =NO’ - SC to NSC.
-- Number of outpatient encounters marked as ‘Service Connected=NO’ but were changed to ‘Service Connected=YES’ – NSC to SC.
-- Number of outpatient encounters marked as ‘Service Connected=YES’ or ‘Service Connected = No’ that were not changed.- SC KEPT.
-- Number of outpatient encounters marked as ‘NEW’, which have not been reviewed yet.
+- Number of outpatient encounters where ASCD automatically matched the encounter diagnosis with at least one (1) diagnosis associated patient's rated disability codes (partial match) - VBA OK.
+- Number of outpatient encounters marked as 'Service Connected=YES' but were changed to 'Service Connected =NO' - SC to NSC.
+- Number of outpatient encounters marked as 'Service Connected=NO' but were changed to 'Service Connected=YES' – NSC to SC.
+- Number of outpatient encounters marked as 'Service Connected=YES' or 'Service Connected = No' that were not changed.- SC KEPT.
+- Number of outpatient encounters marked as 'NEW', which have not been reviewed yet.
 
 The report can be printed for a specified date range for one or more divisions. Users provide a start date which cannot be greater than the date of the first outpatient encounter within the SDSC SERVICE CONNECTED CHANGES file (#409.48). The end date can be any date beginning with the start date through current date.
 
@@ -6939,7 +6972,7 @@ DATE PATIENT ENCOUNTER
 
 #### #### Unbilled/Billable Amount Report \[SDSC UNBILL AMT REPORT\] 
 
-This report prints Billing information for reviewed ASCD encounters ONLY, whose SC value was changed from ‘SC’ to ‘NSC’ and have not yet billed or whose SC value was changed from ‘NSC’ to ‘SC’, which have already been billed. Users holding the SDSC SUPER key will have the ability to print the Supervisor report, which prints the names of the last two editors of the ASCD encounter record.
+This report prints Billing information for reviewed ASCD encounters ONLY, whose SC value was changed from 'SC' to 'NSC' and have not yet billed or whose SC value was changed from 'NSC' to 'SC', which have already been billed. Users holding the SDSC SUPER key will have the ability to print the Supervisor report, which prints the names of the last two editors of the ASCD encounter record.
 
 The report can be printed for a specified date range and for one or more divisions. Users provide a start date which cannot be greater than the date of the first outpatient encounter within the SDSC SERVICE CONNECTED CHANGES file (#409.48). The end date can be any date beginning with the start date through current date.
 

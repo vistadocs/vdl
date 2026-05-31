@@ -3,46 +3,37 @@ title: BCMA Version 3 GUI User Manual - Appendix B (Index)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: GUI  - Appendix B (Index)
+doc_subject: GUI - Appendix B (Index)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '''- Appendix B: Index - A - B - Index - B (cont.) - C - Index - C (cont.) - D - E - Index - E (cont.) - F - G - H - I - Index - [I...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "- [Appendix B: Index](#appendix-b-index) - [A](#a) - [B](#b) - [Index](#index) - [B (cont.)](#b-cont) - [C](#c) - [Index](#index-1) - [C (cont.)](#c-cont) - [D](#d) - [E](#e) - [Index](#index-2) - [E (cont.)](#e-cont) - [F](#f) - [G](#g) - [H](#h) - [I](#i) - [Index](#index-3) - [I (cont.)](#i-cont)"
-audience: 
-keywords: 
-  - contents
-  - table
-  - medications
-  - medication
-  - dose
-  - report
-  - index
-  - order
-  - unit
-  - ivpb
 page_count: 0
 word_count: 2110
 section_count: 26
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixb_index_r1205.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixb_index_r1205.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixb_index_r1205.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixb_index_r1205.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 # Appendix B: Index

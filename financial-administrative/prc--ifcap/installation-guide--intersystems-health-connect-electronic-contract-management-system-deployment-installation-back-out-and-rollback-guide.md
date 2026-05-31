@@ -8,41 +8,33 @@ app_code: PRC
 app_name: IFCAP
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: PRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This document describes the deployment, installation, back-out, and rollback instructions for the migration of Electronic Contract Management System (eCMS) from the Vitria Interface Engine (VIE) to InterSystems Health Connect (HC).'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '870'
 security_keys: []
 menu_options: 0
-description: > This document describes the deployment, installation, back-out, and rollback instructions for the migration of Electronic Contract Management System (eCMS) from the Vitria Interface Engine (VIE) to InterSystems Health Connect (HC).
-audience: 
-keywords: 
-  - table
-  - contents
-  - connect
-  - health
-  - production
-  - ecms
-  - deployment
-  - back
-  - vista
-  - installation
 page_count: 0
 word_count: 4372
 section_count: 27
 table_count: 3
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_ecms_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_ecms_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_ecms_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_ecms_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 # InterSystems Health Connect (HC) / Electronic Contract Management System (eCMS)

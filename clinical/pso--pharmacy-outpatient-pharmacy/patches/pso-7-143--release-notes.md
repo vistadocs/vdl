@@ -5,44 +5,42 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Clinical Indicator Data Capture
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*143
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '- # Introduction - New Features, Functions, and Enhancements - Options - Reports and Profiles - Files and Fields - Other Functionality - [Impacts to Other...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '52'
+- '52.41'
+- '80'
+- '200'
+- '311'
+- '52311'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: - [# Introduction](#introduction) - [New Features, Functions, and Enhancements](#new-features-functions-and-enhancements) - [Options](#options) - [Reports and Profiles](#reports-and-profiles) - [Files and Fields](#files-and-fields) - [Other Functionality](#other-functionality) - [Impacts to Other Pa
-audience: 
-keywords: 
-  - diagnosis
-  - outpatient
-  - code
-  - table
-  - contents
-  - pharmacy
-  - cidc
-  - diabetes
-  - copay
-  - service
 page_count: 0
 word_count: 1709
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p143_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p143_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p143_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p143_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-143-clinical-indicator-data-capture-release-notes/001.png)

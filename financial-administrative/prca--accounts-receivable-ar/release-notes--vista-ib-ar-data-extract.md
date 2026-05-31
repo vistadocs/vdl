@@ -8,42 +8,60 @@ app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 354
+pkg_ns: PRCA
+patch_ver: null
+patch_id: null
+group_key: null
+description: '* (This page included for two-sided printing.)*Table of'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '7'
+- '17'
+- '21'
+- '22'
+- '24'
+- '26'
+- '27'
+- '29'
+- '45'
+- '52'
+- '79.18'
+- '79.19'
+- '131'
+- '132'
+- '200'
+- '202'
+- '344'
+- '348.4'
+- '350'
+- '354.7'
+- '355.3'
+- '362.5'
+- '365.12'
+- '399'
+- '408.31'
+- '433'
+- '747.111'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - prca
-  - patch
-  - blockquote
-  - table
-  - contents
-  - test
-  - extract
-  - date
-  - accounts
-  - class
 page_count: 0
 word_count: 1774
 section_count: 5
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/VistA_IB_AR_Data_Extract_Release_Notes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/VistA_IB_AR_Data_Extract_Release_Notes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/VistA_IB_AR_Data_Extract_Release_Notes.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/VistA_IB_AR_Data_Extract_Release_Notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-ib-ar-data-extract-release-notes/001.png)

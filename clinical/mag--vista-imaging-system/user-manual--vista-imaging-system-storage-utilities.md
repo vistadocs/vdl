@@ -8,41 +8,45 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> This manual explains how to use the utilities in VistA Imaging that concern storage architecture. The following utilities are briefly described and are detailed in separate chapters:'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '4'
+- '11'
+- '29'
+- '30'
+- '55'
+- '56'
+- '2005'
+- '2005.021'
+- '2005.1'
+- '2005.2'
+- '2006.033'
+security_keys:
+- MAG DOD FIX
 menu_options: 0
-description: "> This manual explains how to use the utilities in VistA Imaging that concern storage architecture. The following utilities are briefly described and are detailed in separate chapters:"
-audience: 
-keywords: 
-  - table
-  - vista
-  - class
-  - contents
-  - strong
-  - magkat
-  - files
-  - platter
-  - image
-  - imaging
 page_count: 0
 word_count: 12143
 section_count: 31
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 2
 revision_newest: 4/21/11
 revision_oldest: 11/1/10
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_storage_utilities_user_manual_f.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_storage_utilities_user_manual_f.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_storage_utilities_user_manual_f.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_storage_utilities_user_manual_f.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-storage-utilities-user-manual/001.png)

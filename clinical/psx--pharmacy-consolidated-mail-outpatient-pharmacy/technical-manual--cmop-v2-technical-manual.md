@@ -5,55 +5,62 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: (Updated PSX*2*91)
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2
-group_key: "PSX:PSX:2"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSX:PSX:2
 description: The Consolidated Mail Outpatient Pharmacy (CMOP) software package establishes an interface for the electronic transfer of information between Veterans Affairs Medical Centers (VAMCs) and the Consolidated Mail Outpatient Pharmacy host system for an integrated and highly automated outpatient pharmacy
-audience: 
-keywords: 
-  - table
-  - cmop
-  - segment
-  - contents
-  - message
-  - span
-  - transmission
-  - class
-  - number
-  - example
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '3.2'
+- '3.5'
+- '3.6'
+- '10'
+- '14'
+- '19'
+- '50'
+- '50.6'
+- '52'
+- '52.5'
+- '54'
+- '59'
+- '200'
+- '550'
+- '550.1'
+- '550.2'
+- '552'
+- '552.1'
+- '552.2'
+- '552.3'
+- '552.4'
+- '554'
+security_keys:
+- PROVIDER
+- PSXMAIL
+menu_options: 0
 page_count: 0
-word_count: 21251
+word_count: 21242
 section_count: 56
 table_count: 88
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p91_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p91_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p91_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p91_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Consolidated Mail Outpatient Pharmacy (CMOP)
-
-  Version 2.0
-
-  Technical Manual
----
-
 ![](cmop-version-2-technical-manual-updated-psx-2-91/001.png)
 
 April 1997  

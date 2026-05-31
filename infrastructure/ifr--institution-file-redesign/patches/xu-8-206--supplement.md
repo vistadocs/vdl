@@ -11,38 +11,69 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*206
-group_key: "IFR:XU:8"
-file_numbers: []
-security_keys: []
-menu_options: 8
+group_key: IFR:XU:8
 description: This supplemental documentation is intended for use in conjunction with the Institution File Redesign (IFR)-related software patches (i.e., Kernel Patch XU\8.0\206). It outlines the details of the work involved in the IFR software and gives guidelines for how the generic APIs can be used to standard
-audience: 
-keywords: 
-  - institution
-  - strong
-  - class
-  - xumf
-  - facility
-  - master
-  - station
-  - patch
-  - number
-  - kernel
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '1.01'
+- '1.02'
+- '1.03'
+- '1.04'
+- '3'
+- '4'
+- '4.001'
+- '4.01'
+- '4.02'
+- '4.03'
+- '4.04'
+- '4.05'
+- '4.1'
+- '5'
+- '7'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '16'
+- '30'
+- '40.8'
+- '51'
+- '60'
+- '77'
+- '95'
+- '99'
+- '100'
+- '101'
+- '200'
+- '389.9'
+- '772'
+- '870'
+- '999'
+- '9999'
+security_keys:
+- PF1
+- XUMGR
+- XUPROGMODE
+menu_options: 8
 page_count: 0
 word_count: 30631
 section_count: 8
 table_count: 235
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Institution_File_Redesign_(IFR)/krn8_0p416sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Institution_File_Redesign_(IFR)/krn8_0p416sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=9"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Institution_File_Redesign_(IFR)/krn8_0p416sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Institution_File_Redesign_(IFR)/krn8_0p416sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=9
+audit_applied: '2026-05-31'
 ---
 
 ![](ifr-xu-8-206-416-supplement-to-patch-description/001.png)

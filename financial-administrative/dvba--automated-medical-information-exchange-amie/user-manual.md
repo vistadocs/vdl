@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7
-group_key: "DVBA:DVBA:2.7"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: DVBA:DVBA:2.7
 description: Automated Medical Information Exchange (AMIE) V. 2.7Regional Office User ManualApril 1995
-audience: 
-keywords: 
-  - request
-  - report
-  - office
-  - date
-  - regional
-  - exam
-  - table
-  - contents
-  - patient
-  - discharge
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '44'
+- '396.1'
+security_keys:
+- GMRD REMOTE USER
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 9647
 section_count: 26
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 1
 revision_newest: 1/23/09
 revision_oldest: 1/23/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rous.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rous.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=31"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rous.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rous.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=31
+audit_applied: '2026-05-31'
 ---
 
 ![](amie-version-2-7-regional-office-user-manual/001.png)

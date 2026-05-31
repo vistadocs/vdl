@@ -11,47 +11,31 @@ app_status: active
 pkg_ns: TIU
 patch_ver: 1
 patch_id: TIU*1*325
-group_key: "ROES:TIU:1"
-file_numbers: []
+group_key: ROES:TIU:1
+description: '| Date | Revision | Description | Author | |------------|----------|---------------------------------------|------------------------------------| | 06/04/2019 | 0.2 | Added VistA steps details in Appendix | REDACTED | | 04/15/2019 | 0.1 | Original Version | REDACTED'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - roes
-  - deployment
-  - production
-  - back
-  - vista
-  - messages
-  - span
-  - link
 page_count: 0
-word_count: 4116
+word_count: 4093
 section_count: 29
 table_count: 4
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2019
 revision_count: 2
 revision_newest: 06/04/2019
 revision_oldest: 04/15/2019
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/tiu_1_p325_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/tiu_1_p325_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=99"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/tiu_1_p325_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Remote_Order_Entry_Sys_(ROES)/tiu_1_p325_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=99
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>InterSystems Health Connect (HC) / Remote Order Entry System (ROES)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](tiu-1-325-dibr/001.png)
 
 June 2019

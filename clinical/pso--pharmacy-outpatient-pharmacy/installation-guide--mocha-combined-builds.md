@@ -1,12 +1,46 @@
 ---
-consolidated_title: "mocha combined builds installation guide"
-app_code: PSO
+title: MOCHA Version 1 Combined Builds Installation Guide
 doc_type: IG
-master_source: "MOCHA Version 1 Combined Builds Installation Guide"
+doc_label: Installation Guide
+doc_layer: anchor
+doc_subject: Combined Builds
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: archive
+pkg_ns: PSO
+patch_ver: 1
+patch_id: PSO*1
+group_key: PSO:PSO:1
+file_numbers:
+- '3.5'
+security_keys: []
+menu_options: 0
+description: Medication Order Check Healthcare Application (MOCHA) v1.0Combined BuildInstallation
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 3723
+section_count: 17
+table_count: 10
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: April 2011
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/mocha_cb_pss_1_ig_r0811.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/mocha_cb_pss_1_ig_r0811.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
+master_source: MOCHA Version 1 Combined Builds Installation Guide
 master_pub_date: April 2011
 consolidated_from: 2 versions
 prior_versions:
-  - "MOCHA Version 2 Combined Builds Installation Guide"
+- MOCHA Version 2 Combined Builds Installation Guide
+consolidated_title: mocha combined builds installation guide
 ---
 
 > ![](mocha-version-1-combined-builds-installation-guide/001.png)
@@ -107,7 +141,7 @@ Revision History
   - [Example of Combined Build Install](#example-of-combined-build-install)
 - [Appendix](#appendix)
   - [Acronyms](#acronyms)
-Medication Order Check Healthcare Application (MOCHA) v1.0 provides for the implementation of all order checks demonstrated in the 2006 Pharmacy Enterprise Product System (PEPS) Proof of Concept (POC) Demonstration. Services provided by First DataBank (FDB), our current drug database vendor, will be utilized. VistA enhancements include: enhanced drug-drug interactions to provide more clinical information to the clinician; enhanced duplicate class to utilize FDB’s Enhanced Therapeutic Classification (ETC) system which allows for multiple classes per drug and APIs to support the order check enhancements. Health*<u>e</u>*Vet (H*<u>e</u>*V) construction will include component(s) to utilize services provided by a commercial drug database to support Legacy VistA order check changes. A later release will expand the functionality to include a new maximum single dose order check; a new daily dosage range check; and general dosing information.
+Medication Order Check Healthcare Application (MOCHA) v1.0 provides for the implementation of all order checks demonstrated in the 2006 Pharmacy Enterprise Product System (PEPS) Proof of Concept (POC) Demonstration. Services provided by First DataBank (FDB), our current drug database vendor, will be utilized. VistA enhancements include: enhanced drug-drug interactions to provide more clinical information to the clinician; enhanced duplicate class to utilize FDB's Enhanced Therapeutic Classification (ETC) system which allows for multiple classes per drug and APIs to support the order check enhancements. Health*<u>e</u>*Vet (H*<u>e</u>*V) construction will include component(s) to utilize services provided by a commercial drug database to support Legacy VistA order check changes. A later release will expand the functionality to include a new maximum single dose order check; a new daily dosage range check; and general dosing information.
 The following patches are part of the combined build that makes up the release of MOCHA v1.0: PSO\*7\*251, PSJ\*5\*181, OR\*3\*272, and standalone patches PSS\*1\*117 and PSO\*7\*375.
 These patches will introduce a new order check system that utilizes data and logic from a commercial database system. The current Drug Interaction and Duplicate Class order checks are replaced. New Maximum Single Dose and Daily Dose Range order checks will occur in Outpatient Pharmacy, Inpatient Medications, and Computerized Patient Record System (CPRS). The dosing functionality WILL BE RELEASED in a LATER patch.
 
@@ -246,9 +280,9 @@ Because PSS\*1\*117 rebuilds the PDM menu structure, any locally added options u
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](mocha-version-1-combined-builds-installation-guide/004.png) |                                                                                                                                                                                                                                        |
 
-2.  When prompted “Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//”, answer NO.
-3.  When prompted “Want KIDS to INHIBIT LOGONs during the install? NO//”, answer NO.
-4.  When prompted “Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//”, answer NO.
+2.  When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//", answer NO.
+3.  When prompted "Want KIDS to INHIBIT LOGONs during the install? NO//", answer NO.
+4.  When prompted "Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//", answer NO.
 
 ## Post-Installation Instructions
 
@@ -256,7 +290,7 @@ Because PSS\*1\*117 rebuilds the PDM menu structure, any locally added options u
 
 Once the KIDS build is installed, a VistA MailMan message is automatically sent to members of the PSS ORDER CHECKS Mail Group as well as to the user who installs the patch.
 
-The message subject is: “PSS\*1\*117 Installation Complete” and the message text is: “The Installation of patch PSS\*1.0\*117 is complete.”
+The message subject is: "PSS\*1\*117 Installation Complete" and the message text is: "The Installation of patch PSS\*1.0\*117 is complete."
 
 Please verify that the VistA mail message indicating that the POST-INIT has run to completion has been received. If this message is not received, please log a Remedy Ticket.
 
@@ -320,7 +354,7 @@ Run the *PEPS Services Option Menu* \[PSS PEPS SERVICES\] option.
 </tbody>
 </table>
 
-If you get the message “Connected to Vendor database successfully …,” it means the connection was successful.
+If you get the message "Connected to Vendor database successfully …," it means the connection was successful.
 
 <table>
 <colgroup>
@@ -349,13 +383,13 @@ If you get the message “Connected to Vendor database successfully …,” it m
 
 This option will schedule the Interface Scheduler \[PSS INTERFACE SCHEDULER\] option, which tests the PEPS interface by sending a PING request. If the PEPS Interface is not available, a mail message will be sent to the G.PSS ORDER CHECKS mail group. This must be scheduled so constant monitoring takes place on the Mocha Interface, to provide timely notification of any problems.
 
-| <span id="p5" class="anchor"></span>Note:                                                                           | The next paragraph, regarding the POSTMASTER, is only applicable up until the installation of patch PSS\*1\*163. Patch PSS\*1\*163 includes functionality that will replace any Person’s Internal Entry Number in the interface message that is not a whole number with the number 0 because the interface will accept 0 as a valid number. PSS\*1\*163 will also do the same with Job Number and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages. |
+| <span id="p5" class="anchor"></span>Note:                                                                           | The next paragraph, regarding the POSTMASTER, is only applicable up until the installation of patch PSS\*1\*163. Patch PSS\*1\*163 includes functionality that will replace any Person's Internal Entry Number in the interface message that is not a whole number with the number 0 because the interface will accept 0 as a valid number. PSS\*1\*163 will also do the same with Job Number and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages. |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](mocha-version-1-combined-builds-installation-guide/007.png) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 When scheduling this job, the person that is doing the scheduling must not have assumed the identity of the POSTMASTER, because the Internal Entry Number of the POSTMASTER is .5, and the decimal could cause the interface to fail, so this job would continue to fail until it is scheduled by another user other than POSTMASTER.
 
-| IMPORTANT:                                                                                          | A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a “NULL” type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that “Startup Persistent” be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. <span id="p6" class="anchor"></span>Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS\*1\*163, by replacing .5 with a 0 in the interface message. |
+| IMPORTANT:                                                                                          | A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a "NULL" type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that "Startup Persistent" be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. <span id="p6" class="anchor"></span>Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS\*1\*163, by replacing .5 with a 0 in the interface message. |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](mocha-version-1-combined-builds-installation-guide/008.png) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
@@ -421,7 +455,7 @@ The software distribution includes: PRE_I_3\_\_PHARMACY_BUILD.KID is a KIDS Buil
 
 The PSO\*7\*251 Post-Init links the Process Order Checks \[PSO ORDER CHECKS VERIFY\] Option to the Outpatient Pharmacy Manager \[PSO MANAGER\] and Pharmacist Menu \[PSO USER1\] Menu options. It also sends a mail message to the PSS ORDER CHECKS Mail group indicating the install is complete.
 
-| Note:                                                                                                               | If your facility has the Pyxis/Omnicell/McKesson interface from ILC, patch PSJ\*5\*181 will overwrite any “local” modifications in routines PSGOEE and PSJCOMR. This could affect certain orders being sent across this interface. The modifications will have to be re-introduced following installation of this patch. |
+| Note:                                                                                                               | If your facility has the Pyxis/Omnicell/McKesson interface from ILC, patch PSJ\*5\*181 will overwrite any "local" modifications in routines PSGOEE and PSJCOMR. This could affect certain orders being sent across this interface. The modifications will have to be re-introduced following installation of this patch. |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](mocha-version-1-combined-builds-installation-guide/009.png) |                                                                                                                                                                                                                                                                                                                          |
 
@@ -455,7 +489,7 @@ Installation takes less than fifteen minutes. This patch should be installed dur
 
 Once the KIDS build is installed, a VistA MailMan message is automatically sent to members of the PSS ORDER CHECKS Mail Group as well as the user that installs the patch.
 
-Please verify that the VistA mail message indicating that the POST-INIT has run to completion has been received. If this message is not received, please log a Remedy Ticket. The message subject will be “PSO\*7\*251 Installation Complete.” The message text should be “The Installation of patch PSO\*7.0\*251 is complete.”
+Please verify that the VistA mail message indicating that the POST-INIT has run to completion has been received. If this message is not received, please log a Remedy Ticket. The message subject will be "PSO\*7\*251 Installation Complete." The message text should be "The Installation of patch PSO\*7.0\*251 is complete."
 
 The receipt of this VistA mail message will verify that the POST-INIT has run to completion. If there is other information in this mail message concerning post-init failures, please log a remedy ticket.
 
@@ -871,9 +905,9 @@ Patch PSO\*7\*375 should not be installed while Outpatient Pharmacy users are on
 > This is the step to start the installation of this KIDS patch:
 
 1.  Choose the Install Package(s) option to start the patch install and enter "PSO\*7.0\*375" at the INSTALL NAME prompt.
-6.  When prompted “Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//”, answer NO.
-7.  When prompted “Want KIDS to INHIBIT LOGONs during the install? NO//”, answer NO.
-8.  When prompted “Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//”, answer NO.
+6.  When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//", answer NO.
+7.  When prompted "Want KIDS to INHIBIT LOGONs during the install? NO//", answer NO.
+8.  When prompted "Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//", answer NO.
 
 # Appendix
 
@@ -925,11 +959,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 1.  Download PSS_1_160.KID into your local directory.
 2.  From the Kernel Installation and Distribution System (KIDS) Menu, select the Installation menu.
-3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for “Enter a Host File: “, respond with PSS_1_160.KID
+3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File: ", respond with PSS_1_160.KID
 
 > Example: USER\$:\[ABC\]PSS_1_160.KID
 
-4.  If given the option to run any Environment Check Routine(s), answer "YES”.
+4.  If given the option to run any Environment Check Routine(s), answer "YES".
 5.  From this menu, you may then select to use the following options:
 
 | Note:                                             | The following are OPTIONAL - (When prompted for the INSTALL NAME, enter PSS\*1.0\*160) |
@@ -1316,7 +1350,7 @@ As a follow-up to the installation instructions if you had any locally added opt
 
 1.  Download PSS_1_173.KID into your local directory.
 2.  From the Kernel Installation and Distribution System (KIDS) Menu, select the Installation menu.
-3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File:”, respond with PSS_1_173.KID.
+3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File:", respond with PSS_1_173.KID.
 
 > Example: USER\$:\[ABC\]PSS_1_173.KID
 
@@ -1741,7 +1775,7 @@ Install Completed
 
 1.  Download MOCHA_2_0_FOLLOW_UP_COMBINED_BUILD.KID into your local directory.
 2.  From the Kernel Installation & Distribution System (KIDS) menu, select Installation.
-3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for “Enter a Host File: “, respond with MOCHA_2_0_FOLLOW_UP_COMBINED_BUILD.KID
+3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File: ", respond with MOCHA_2_0_FOLLOW_UP_COMBINED_BUILD.KID
 
 > Example: USER\$:\[ABC\]MOCHA_2_0_FOLLOW_UP_COMBINED_BUILD.KID
 
@@ -1757,7 +1791,7 @@ Install Completed
 <th><blockquote>
 <p>Note:</p>
 </blockquote></th>
-<th rowspan="2">The following are OPTIONAL - (When prompted for the INSTALL NAME, enter MOCHA 2.0 FOLLOW UP BUILD Combined Build 1.0). Refer to the note on page 3 for an explanation on the ‘before’ checksum inconsistencies with patch OR*3*311.</th>
+<th rowspan="2">The following are OPTIONAL - (When prompted for the INSTALL NAME, enter MOCHA 2.0 FOLLOW UP BUILD Combined Build 1.0). Refer to the note on page 3 for an explanation on the 'before' checksum inconsistencies with patch OR*3*311.</th>
 </tr>
 <tr class="odd">
 <th><blockquote>
@@ -2221,7 +2255,7 @@ Enter message action (in IN basket): Ignore//
 
 1.  Download OR_3_381.KID into your local directory.
 2.  From the Kernel Installation and Distribution System (KIDS) Menu, select the Installation menu.
-3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for “Enter a Host File: “, respond with OR_3_381.
+3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File: ", respond with OR_3_381.
 
 > Example: USER\$:\[ABC\]OR_3_381.KID
 
@@ -2410,7 +2444,7 @@ Select Installation \<TEST ACCOUNT\> Option:
 
 1.  Download MOCHA_2_0_FAST_TRACK_BUILDS.KID into your local directory.
 2.  From the Kernel Installation & Distribution System (KIDS) menu, select Installation.
-3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for “Enter a Host File: “, respond with MOCHA_2_0_FAST_TRACK_BUILDS.KID.
+3.  Use Load a Distribution. You may need to prepend a directory name. When prompted for "Enter a Host File: ", respond with MOCHA_2_0_FAST_TRACK_BUILDS.KID.
 
 > Example: USER\$:\[ABC\]MOCHA_2_0_FAST_TRACK_BUILDS.KID
 

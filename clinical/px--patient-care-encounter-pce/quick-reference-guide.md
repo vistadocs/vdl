@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1
-group_key: "PX:PX:1"
+group_key: PX:PX:1
+description: Presentation of outpatient encounter data through Health Summary components and Clinical
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: "<table> <colgroup> <col style=\\"width: 31%\\" /> <col style=\\"width: 32%\\" /> <col style=\\"width: 35%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><p>![](patient-care-encounter-version-1-quick-reference-card/001.png)<strong>Functionality</strong></p> <blockquote> <p>Version 1.0 of PCE provides options tha"
-audience: 
-keywords: 
-  - strong
-  - encounter
-  - blockquote
-  - patient
-  - outpatient
-  - clinical
-  - diagnoses
-  - clinic
-  - style
-  - width
 page_count: 0
 word_count: 1176
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxqr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxqr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxqr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxqr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 <table>

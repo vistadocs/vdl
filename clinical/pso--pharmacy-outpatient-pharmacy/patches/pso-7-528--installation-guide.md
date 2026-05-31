@@ -5,44 +5,36 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: MCCF EDI TAS
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*528
-group_key: "PSO:PSO:7"
+group_key: PSO:PSO:7
+description: '> This document describes how to deploy and install the multi-build PSO IB BUNDLE 10.0 (which includes PSO\7.0\528, IB\2.0\624) and how to back-out the product and rollback to a previous version or data set.'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- CHAMPVA
 menu_options: 0
-description: > This document describes how to deploy and install the multi-build PSO IB BUNDLE 10.0 (which includes PSO\7.0\528, IB\2.0\624) and how to back-out the product and rollback to a previous version or data set.
-audience: 
-keywords: 
-  - table
-  - contents
-  - blockquote
-  - back
-  - installation
-  - strong
-  - procedure
-  - rollback
-  - deployment
-  - style
 page_count: 0
 word_count: 2723
 section_count: 31
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p528_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p528_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p528_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p528_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 # Medical Care Collection Fund (MCCF) Electronic Data Interchange (EDI) Transaction Applications Suite (TAS) ePharmacy Build 10

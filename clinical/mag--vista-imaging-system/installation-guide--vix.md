@@ -1,16 +1,48 @@
 ---
-consolidated_title: "vix installation guide"
-app_code: MAG
+title: MAG*3*197 VIX Installation Guide
 doc_type: IG
-master_source: "MAG*3*197 VIX Installation Guide"
-master_pub_date: revision_count: 0
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: VIX
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: archive
+pkg_ns: MAG
+patch_ver: 3
+patch_id: MAG*3*197
+group_key: MAG:MAG:3
+file_numbers:
+- '4'
+- '99'
+security_keys:
+- MAG VIX ADMIN
+menu_options: 0
+description: '> This document explains how to install the VistA Imaging Exchange (VIX) service. Please review the install checklist in Appendix A prior to starting the install and reference throughout.'
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 7465
+section_count: 21
+table_count: 0
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: ''
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_vix_installation_guiide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_vix_installation_guiide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
+master_source: MAG*3*197 VIX Installation Guide
+master_pub_date: ''
 consolidated_from: 2 versions
 prior_versions:
-  - "MAG*3*185 VIX Installation Guide"
----
-
----
-title: MAG\*3.0\*197 Deployment, Installation, Back-out, and Rollback Plan
+- MAG*3*185 VIX Installation Guide
+consolidated_title: vix installation guide
 ---
 
 ![](mag-3-197-vix-installation-guide/001.png)
@@ -301,7 +333,7 @@ Contents
 <p>![](mag-3-197-vix-installation-guide/003.png)</p>
 </blockquote></td>
 <td><blockquote>
-<p>Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator’s knowledge, sites must exclude the VIX server from such systems.</p>
+<p>Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator's knowledge, sites must exclude the VIX server from such systems.</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -314,9 +346,9 @@ Contents
 > This document uses the following conventions:
 
 - Controls, options, and button names are shown in Bold.
-- A vertical bar is used to separate successive menu choices. For example: “Click
+- A vertical bar is used to separate successive menu choices. For example: "Click
 
-> File \| Open” means: “Click the File menu; then click the Open option.”
+> File \| Open" means: "Click the File menu; then click the Open option."
 
 - Keyboard key names are shown in bold and in brackets.
 - Sample output is shown in monospace.
@@ -414,13 +446,13 @@ o 4 CPUs and 8 gigabytes of RAM
 
 - If you are installing on Windows Server 2008 R2
   - Verify that .Net 3.5 is installed and enabled. It must be enabled for the VIX install.
-  - .Net 4.5 framework might not be installed on your server. If so, this condition causes the installer to fail. To discover if you have the feature installed it should be present in *“Control Panel\Programs\Programs and Features”* as *“Microsoft .NET Framework 4.5.x”*.
+  - .Net 4.5 framework might not be installed on your server. If so, this condition causes the installer to fail. To discover if you have the feature installed it should be present in *"Control Panel\Programs\Programs and Features"* as *"Microsoft .NET Framework 4.5.x"*.
   - To remedy download and install the .Net 4.5 framework. (for convenience, a copy is placed on the FTP site)
 - If you are installing on Windows Server 2012 R2
   - Verify that .Net 3.5 is enabled. It must be enabled for the VIX install.
-  - .Net 4.5 framework should be installed on your server. If it isn’t installed, the installer will fail. To discover if you have the feature installed it should be present in *“Control Panel\Programs\Programs and Features”* as
+  - .Net 4.5 framework should be installed on your server. If it isn't installed, the installer will fail. To discover if you have the feature installed it should be present in *"Control Panel\Programs\Programs and Features"* as
 
-> *“Microsoft .NET Framework 4.5.x”*.
+> *"Microsoft .NET Framework 4.5.x"*.
 
 - To remedy download and install the .Net 4.5 framework. (for convenience, a copy is placed on the FTP site)
 
@@ -490,9 +522,9 @@ o 4 CPUs and 8 gigabytes of RAM
 2.  Browse to the following key in the registry and select: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
 3.  Search for the following registry value: TcpTimedWaitDelay.
 
-> If this value is not there, click on the Edit menu, click New, DWORD Value, and then add “TcpTimedWaitDelay” to reduce the length of time that a connection stays in the TIME_WAIT state when the connection is being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused:
+> If this value is not there, click on the Edit menu, click New, DWORD Value, and then add "TcpTimedWaitDelay" to reduce the length of time that a connection stays in the TIME_WAIT state when the connection is being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused:
 
-4.  Right click on the “TcpTimedWaitDelay” registry value and click “’Modify”. Then click “Decimal” and ensure the value is between 30 and 240.
+4.  Right click on the "TcpTimedWaitDelay" registry value and click "'Modify". Then click "Decimal" and ensure the value is between 30 and 240.
 5.  Close Registry Editor.
 
 > Tomcat User Permissions
@@ -534,7 +566,7 @@ o 4 CPUs and 8 gigabytes of RAM
     - This account will be rarely used; it only needs to be secured properly.
     - The password is case-sensitive and only alphanumeric characters are allowed.
 3.  Prepare a password for the Windows account that will be created as part of the VIX installation process.
-    - This Windows account, which will be named “apachetomcat” when it is created by the VIX installer, is used to run the VIX in the Tomcat environment. This account is limited to only the functions it needs to run the VIX.
+    - This Windows account, which will be named "apachetomcat" when it is created by the VIX installer, is used to run the VIX in the Tomcat environment. This account is limited to only the functions it needs to run the VIX.
     - The password is case sensitive, must contain at least eight characters, and must contain at least one capital letter and one number.
 4.  Set up a service account in VistA for ROI periodic processing with the MAG DICOM VISA secondary menu option and the OR CPRS GUI CHART secondary menu option. The service account may be the same service account as the one the DICOM Gateway and the HDIG use. The credentials are required for the VIX to process ROI disclosure requests periodically, in the background and to purge completed requests.
 5.  Determine the email address or addresses for notification about invalid ROI periodic processing credentials. The VIX will send an email notification to the email address or addresses, if the ROI periodic processing credentials are invalid or have expired. You must specify this address when you install the VIX. You can set up a new email account for this purpose or use an existing one.
@@ -549,7 +581,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 > ![](mag-3-197-vix-installation-guide/011.png)
 
-- Always use the Window ‘Task Manager’ to monitor the processing tasks as needed
+- Always use the Window 'Task Manager' to monitor the processing tasks as needed
 
 > Standalone Server Installation
 
@@ -610,7 +642,7 @@ o 4 CPUs and 8 gigabytes of RAM
 - Contact name and Contact email – the administrator of your local VistA Imaging system.
 3.  Near the bottom of the window, click Activate. After a brief delay, the Status
 
-> box will display a green “Success” message.
+> box will display a green "Success" message.
 
 4.  Click Exit with success. The Activate DCF License window will close and the updated Laurel Bridge toolkit will be installed (installation will only take a second or two).
 12. On the same page, check the line that indicates the state of the service account. If ![](mag-3-197-vix-installation-guide/019.png) is shown, do the following:
@@ -636,7 +668,7 @@ o 4 CPUs and 8 gigabytes of RAM
     1.  Edit image cache directory drive to the dedicated VIX cache drive. (For example "E:\VIXRenderCache")
     2.  If setting values were modified click the Save Configuration button in the top right corner.
     3.  Click OK
-    4.  If prompted to install the SQL server, click OK and select the SQLEXPRESS_X64-14_0_1000_169.ZIP file from the “VIXSqlInstaller” folder in the temporary folder on the desktop. (Depending on your system, this step may take up to twenty minutes)
+    4.  If prompted to install the SQL server, click OK and select the SQLEXPRESS_X64-14_0_1000_169.ZIP file from the "VIXSqlInstaller" folder in the temporary folder on the desktop. (Depending on your system, this step may take up to twenty minutes)
 
 > ![](mag-3-197-vix-installation-guide/025.png)
 
@@ -652,7 +684,7 @@ o 4 CPUs and 8 gigabytes of RAM
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 18. Click Next.
-- Select the “C:\\ drive for VixConfig folder and the “E:\\ drive for VixCache folder. Click each Create button to create the folders.
+- Select the "C:\\ drive for VixConfig folder and the "E:\\ drive for VixCache folder. Click each Create button to create the folders.
 
 ![](mag-3-197-vix-installation-guide/028.png)![](mag-3-197-vix-installation-guide/029.png)
 
@@ -669,7 +701,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 - In the Configure Local DoD connection page, do one of the following:
   - If your site has no local network connection to a DoD facility, click Next (this will be the case at most VA sites)
-  - If your site has a local network connection to a DoD facility, enter connection information for the DoD’s PACS Integrator server. After entering the connection information, click Validate to test the connection. Then, click Next.
+  - If your site has a local network connection to a DoD facility, enter connection information for the DoD's PACS Integrator server. After entering the connection information, click Validate to test the connection. Then, click Next.
 
 > ![](mag-3-197-vix-installation-guide/031.png)
 
@@ -724,7 +756,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 9.  Enter a CA ticket to Clin 3 for site service update.
     - Paste the lines in the preceding step into the ticket.
-    - Include “Add VIX server to Site Service database”
+    - Include "Add VIX server to Site Service database"
 10. You will be notified, typically within five business days, when the site service registration is complete.
 5.  See [*<u>Verifying VIX Operations</u>*](#verifying-vix-operations)
 
@@ -815,7 +847,7 @@ o 4 CPUs and 8 gigabytes of RAM
 <td>Remote exam data and monitored exam lists will not be available. For additional information, refer to the documentation for VistARad.</td>
 </tr>
 <tr class="odd">
-<td>Remote VA or DoD clinicians requesting your site’s images</td>
+<td>Remote VA or DoD clinicians requesting your site's images</td>
 <td><p>Remote clinicians may experience transitory application errors if the VIX is shut down while it is in the middle of processing a request; the clinician may have to repeat the request.</p>
 <p>Remote VA clinicians issuing new requests may notice longer retrieval times for the duration of the VIX shutdown.</p>
 <p>Remote DoD clinicians will not be able to retrieve locally stored images for the duration of the VIX shutdown.</p></td>
@@ -858,9 +890,9 @@ o 4 CPUs and 8 gigabytes of RAM
 2.  Browse to the following key in the registry and select: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
 3.  Search for the following registry value: TcpTimedWaitDelay.
 
-> If this value is not there, click on the Edit menu, click New, DWORD Value, and then add “TcpTimedWaitDelay” to reduce the length of time that a connection stays in the TIME_WAIT state when the connection is being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused:
+> If this value is not there, click on the Edit menu, click New, DWORD Value, and then add "TcpTimedWaitDelay" to reduce the length of time that a connection stays in the TIME_WAIT state when the connection is being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused:
 
-11. Right click on the “TcpTimedWaitDelay” registry value and click “’Modify”. Then click “Decimal” and ensure the value is between 30 and 240.
+11. Right click on the "TcpTimedWaitDelay" registry value and click "'Modify". Then click "Decimal" and ensure the value is between 30 and 240.
 12. Close Registry Editor.
 
 > Uninstall Prior Version of SQL (If older than current patch version)
@@ -888,7 +920,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 > ![](mag-3-197-vix-installation-guide/040.png)(For other OS version, please find Admin Tools – Local Services to stop VIX service)
 
-- Always use the ‘Task Manager’ Window to monitor the processing tasks as needed.
+- Always use the 'Task Manager' Window to monitor the processing tasks as needed.
 
 > Check Tomcat Permissions (Ensure the Apache Tomcat account is in the local users group. If it does not exist, add it.)
 
@@ -902,7 +934,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 - C:\Program Files\Apache Software Foundation\Tomcat 8.0\\
 - C:\Program Files\java\Jre (current version)
-- C:\DCF_Run Time_x64 (Check advanced special permissions in the C:\DCF_runtime x64\\ folder with “delete subfolder and file”)
+- C:\DCF_Run Time_x64 (Check advanced special permissions in the C:\DCF_runtime x64\\ folder with "delete subfolder and file")
 - C:\Vixconfig
 
 > Right-click on the Folder, select 'Properties' - 'Security' - 'Edit'
@@ -970,14 +1002,14 @@ o 4 CPUs and 8 gigabytes of RAM
 4.  Edit image cache directory drive to the dedicated VIX cache drive. (For example "E:\VIXRenderCache")
 5.  If setting values were modified click the Save Configuration button in the top right corner. (The Save Configuration button will not activate unless configuration changes were actually made)
 6.  Click OK
-7.  If prompted to install the SQL server, click OK and select the SQLEXPRESS_X64- 14_0_1000_169.ZIP found in the “VIXSqlInstaller” folder in the temporary folder on the desktop. (Depending on your system, this step may take up to twenty minutes)
+7.  If prompted to install the SQL server, click OK and select the SQLEXPRESS_X64- 14_0_1000_169.ZIP found in the "VIXSqlInstaller" folder in the temporary folder on the desktop. (Depending on your system, this step may take up to twenty minutes)
 
 > ![](mag-3-197-vix-installation-guide/055.png)
 
 > ![](mag-3-197-vix-installation-guide/056.png)
 
 14. Click Next.
-15. Select the “C:\\ drive for VixConfig folder and the dedicated VIX cache drive for VixCache folder. (For example, “E:\VIXCache”) Click each Create button to create the folders.
+15. Select the "C:\\ drive for VixConfig folder and the dedicated VIX cache drive for VixCache folder. (For example, "E:\VIXCache") Click each Create button to create the folders.
 
 > ![](mag-3-197-vix-installation-guide/057.png)![](mag-3-197-vix-installation-guide/058.png)
 
@@ -993,7 +1025,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 17. In the Configure Local DoD connection page, do one of the following:
     - If your site has no local network connection to a DoD facility, click Next (this will be the case at most VA sites)
-    - If your site has a local network connection to a DoD facility, enter connection information for the DoD’s PACS Integrator server. After entering the connection information, click Validate to test the connection. Then, click Next.
+    - If your site has a local network connection to a DoD facility, enter connection information for the DoD's PACS Integrator server. After entering the connection information, click Validate to test the connection. Then, click Next.
 
 > ![](mag-3-197-vix-installation-guide/060.png)
 
@@ -1055,7 +1087,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 > For detailed information about the contents of the transaction log, refer to the [*<u>VIX Viewer</u>*](https://www.va.gov/vdl/application.asp?appid=105)
 
-> [*<u>Administrator’s Guide.</u>*](https://www.va.gov/vdl/application.asp?appid=105)
+> [*<u>Administrator's Guide.</u>*](https://www.va.gov/vdl/application.asp?appid=105)
 
 > You can also spot-check individual remote images to see if they were delivered via the VIX as described in this section.
 
@@ -1064,7 +1096,7 @@ o 4 CPUs and 8 gigabytes of RAM
 1.  On the Clinical Display workstation, select a patient with remote images.
 2.  If it is not visible already, display the Abstracts area to display an abstract for one of the remote images.
 3.  Right-click the abstract for the remote image and open the Image Information window.
-4.  In the Image Information window, check the IEN (Internal Entry Number) value. If the value starts with “urn”, the remote image was retrieved by the VIX.
+4.  In the Image Information window, check the IEN (Internal Entry Number) value. If the value starts with "urn", the remote image was retrieved by the VIX.
 5.  Go to the VIX homepage: http://\<FQDN of VIX server\>:8080/
 6.  The current version is listed in the format XX.XXX.X.X. The first two digits represent Version 3.0 of the VistA Imaging system and do not change. The next three digits are the number of the latest patch that has affected the VIX. This patch number should match the number of the VIX component you have most recently installed.
 
@@ -1178,7 +1210,7 @@ o 4 CPUs and 8 gigabytes of RAM
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.  When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch 197 VIX and click Next.
+3.  When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch 197 VIX and click Next.
 4.  Then, when you are prompted to do so, click Uninstall version 30.197.xxx. (The wizard will gracefully stop the VIX service before performing the uninstall.)
 5.  Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*197 VIX installer.
 6.  Re-execute the VIX installation as if for a new standaloneVIX, see [*<u>New VIX</u><u>Installation - Standalone Server</u>*](#_bookmark12) section. .
@@ -1259,7 +1291,7 @@ o 4 CPUs and 8 gigabytes of RAM
 6.  Select the apachetomcat user and click Remove.
 7.  Click OK to close the Properties dialog box, and click Yes when are asked if you want to continue.
 
-> Note: If one or more “Error applying security” messages display, click Continue
+> Note: If one or more "Error applying security" messages display, click Continue
 
 > until they are all closed.
 
@@ -1426,9 +1458,9 @@ _These sections appeared in earlier versions of this document but are not presen
 > This document uses the following conventions:
 
 - Controls, options, and button names are shown in Bold.
-- A vertical bar is used to separate successive menu choices. For example: “Click
+- A vertical bar is used to separate successive menu choices. For example: "Click
 
-> File \| Open” means: “Click the File menu; then click the Open option.”
+> File \| Open" means: "Click the File menu; then click the Open option."
 
 - Keyboard key names are shown in bold and in brackets.
 - Sample output is shown in monospace.

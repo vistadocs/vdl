@@ -3,7 +3,7 @@ title: MailMan Version 8 Network Reference Guide
 doc_type: REF
 doc_label: Reference
 doc_layer: anchor
-doc_subject: Network  Guide
+doc_subject: Network Guide
 app_code: XM
 app_name: MailMan
 section: INF
@@ -11,38 +11,45 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8
-group_key: "XM:XM:8"
-file_numbers: []
-security_keys: []
-menu_options: 15
+group_key: XM:XM:8
 description: This section describes the design, components, set-up, and maintenance of Network MailMan. Read this section in its entirety to become familiar with the architecture of Network MailMan.
-audience: 
-keywords: 
-  - network
-  - domain
-  - message
-  - mailman
-  - table
-  - class
-  - transmission
-  - span
-  - mail
-  - site
+audience: ''
+keywords: []
+file_numbers:
+- '3.2'
+- '3.4'
+- '3.5'
+- '3.7'
+- '4.2'
+- '4.281'
+- '4.2997'
+- '4.2998'
+- '4.2999'
+- '4.3'
+- '4.4'
+- '4.501'
+- '4.6'
+- '200'
+security_keys:
+- PF1
+- XUPROGMODE
+menu_options: 15
 page_count: 0
 word_count: 24137
 section_count: 8
 table_count: 76
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_netrefguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_netrefguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_netrefguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_netrefguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](mailman-version-8-network-reference-guide/001.png)

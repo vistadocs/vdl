@@ -3,7 +3,7 @@ title: PDX V. 1.5 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: VAQ
 app_name: Patient Data Exchange (PDX)
 section: INF
@@ -11,49 +11,44 @@ app_status: active
 pkg_ns: VAQ
 patch_ver: 1.5
 patch_id: VAQ*1.5
-group_key: "VAQ:VAQ:1.5"
-file_numbers: []
-security_keys: []
+group_key: VAQ:VAQ:1.5
+description: '''Patch XU*8.0*679: Electronic Signatures—Added note after Figure 1 concerning electronic Signature Block restrictions. Reformatted document to follow current Office of Information and Technology (OIT) documentation standards and style'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '52'
+- '394.61'
+- '394.62'
+- '394.73'
+- '394.81'
+- '518'
+security_keys:
+- PF1
+- VAQ EDIT FILE
+- VAQ LOAD
+- VAQ PURGE
+- VAQ RPT
+- VAQ RPT USER
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - patient
-  - class
-  - strong
-  - facility
-  - time
-  - date
-  - request
-  - mark
-  - remote
 page_count: 0
-word_count: 26913
+word_count: 26898
 section_count: 10
 table_count: 13
 figure_count: 1
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=22"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5um.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=22
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc412806483" class="anchor"></span>Patient Data Exchange (PDX)
-
-  Software Version 1.5
-
-  User Manual
----
-
 ![](pdx-v-1-5-user-manual/001.png)
 
 August 2018

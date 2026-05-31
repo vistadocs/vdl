@@ -3,7 +3,7 @@ title: Clinical Lexicon Version 2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LEX
 app_name: Lexicon Utility
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: LEX
 patch_ver: 2
 patch_id: LEX*2
-group_key: "LEX:LEX:2"
-file_numbers: []
+group_key: LEX:LEX:2
+description: '> Office of Information and Technology (OI&T) Office of Enterprise Development'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '81'
 security_keys: []
 menu_options: 6
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - table
-  - style
-  - width
-  - even
-  - defaults
-  - lexicon
-  - contents
 page_count: 0
 word_count: 7074
 section_count: 16
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexum2_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexum2_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=76"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexum2_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexum2_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=76
+audit_applied: '2026-05-31'
 ---
 
 > ![](clinical-lexicon-version-2-user-manual/001.png)

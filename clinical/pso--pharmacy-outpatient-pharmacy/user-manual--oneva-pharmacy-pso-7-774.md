@@ -3,57 +3,52 @@ title: OneVA Pharmacy User Manual (PSO*7*774)
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: OneVA Pharmacy  (PSO*7*774)
+doc_subject: OneVA Pharmacy (PSO*7*774)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: PSO
+patch_ver: null
+patch_id: null
+group_key: null
+description: When updates occur, the Title Page lists the new revised date, and this page describes the changes. Bookmarks link the described content changes to its place within manual. There are no bookmarks for format updates. Page numbers change with each update; therefore, they are not included as a...
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '17.5'
+- '50'
+- '52.09'
+- '59'
+- '101'
+- '391.91'
+- '907'
+- '2006'
+- '2007'
+- '2008'
+security_keys:
+- DIUSER
+- PROVIDER
+- PSOLOCKCLOZ
+- PSORPH
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - pharmacy
-  - oneva
-  - prescription
-  - class
-  - fill
-  - site
-  - drug
-  - refill
-  - dispensing
-  - partial
 page_count: 0
-word_count: 12550
+word_count: 12523
 section_count: 7
 table_count: 2
 figure_count: 3
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_oneva_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_oneva_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_oneva_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_oneva_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>Outpatient Pharmacy (PSO)
-
-  <span id="_Toc82184094" class="anchor"></span>Version 7.0
-
-  <span id="_Toc122007588" class="anchor"></span>OneVA Pharmacy User Manual
----
-
 ![](oneva-pharmacy-user-manual-pso-7-774/001.png)
 
 August 2025

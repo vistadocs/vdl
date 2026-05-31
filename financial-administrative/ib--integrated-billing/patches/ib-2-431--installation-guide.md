@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*431
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '| Date | Version | Description | Author | |------------|---------|-------------|----------| | 08/01/2011 | 1.0 | Initial | REDACTED | | | | |'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '344.3'
+- '344.4'
+- '361.1'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - installation
-  - table
-  - contents
-  - install
-  - patch
-  - prca
-  - distribution
-  - epayments
-  - patches
-  - redacted
+menu_options: 2
 page_count: 0
 word_count: 1424
 section_count: 6
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2011
 revision_count: 1
 revision_newest: 08/01/2011
 revision_oldest: 08/01/2011
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p431_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p431_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p431_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p431_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 Integrated Billing

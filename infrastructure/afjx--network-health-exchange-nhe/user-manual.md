@@ -3,7 +3,7 @@ title: Network Health Exchange Version 5 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AFJX
 app_name: Network Health Exchange (NHE)
 section: INF
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: AFJX
 patch_ver: 5
 patch_id: AFJX*5
-group_key: "AFJX:AFJX:5"
-file_numbers: []
-security_keys: []
-menu_options: 6
+group_key: AFJX:AFJX:5
 description: Network Health Exchange (NHE) was developed at the REDACTED Veterans Affairs Medical Center (VAMC) and has evolved over several iterations. The Network Health Exchange is a Veterans Health Information Systems and Technology Architecture (VistA) component that provides clinicians with quick and easy
-audience: 
-keywords: 
-  - network
-  - health
-  - exchange
-  - patient
-  - span
-  - options
-  - figure
-  - table
-  - sample
-  - class
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3.9'
+- '4.2'
+- '537010'
+security_keys:
+- XUPROGMODE
+menu_options: 6
 page_count: 0
 word_count: 7679
 section_count: 7
 table_count: 30
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=79"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=79
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

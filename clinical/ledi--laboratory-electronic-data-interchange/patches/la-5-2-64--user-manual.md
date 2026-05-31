@@ -3,46 +3,77 @@ title: LA*5.2*64/LR*5.2*286 LEDI III Implementation and User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*64
-group_key: "LEDI:LA:5.2"
-file_numbers: []
-security_keys: []
+group_key: LEDI:LA:5.2
+description: '''- Preface - Staffing Requirements: - IRM Staff: - IRM and LIM Staff: - ### Intended Users: - Users Interface: - [VISTA BLOOD BANK SOFTWARE V5.2 DEVICE PRODUCT LABELING...'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '2.3'
+- '4'
+- '4.5'
+- '13'
+- '18'
+- '22'
+- '50'
+- '60'
+- '60.01'
+- '61'
+- '62.4'
+- '62.48'
+- '62.485'
+- '62.49'
+- '62.8'
+- '62.85'
+- '62.9'
+- '62.91'
+- '62.92'
+- '62.93'
+- '63'
+- '64.061'
+- '67'
+- '68'
+- '68.2'
+- '69'
+- '69.6'
+- '95'
+- '99'
+- '100'
+- '101'
+- '106'
+- '162'
+- '700'
+- '771'
+- '869.2'
+- '870'
+- '9999'
+security_keys:
+- DIUSER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - shipping
-  - test
-  - host
-  - laboratory
-  - facility
-  - collection
-  - ledi
-  - edit
-  - specimen
-  - manifest
 page_count: 0
 word_count: 31753
 section_count: 11
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_imp_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_imp_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_imp_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_imp_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-64-lr-5-2-286-ledi-iii-implementation-and-user-guide/001.png)

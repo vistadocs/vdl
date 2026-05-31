@@ -1,16 +1,50 @@
 ---
-consolidated_title: "bed management solution dibr"
-app_code: BMS
+title: Bed Management Solution Version 2.4 DIBR
 doc_type: DIBR
-master_source: "Bed Management Solution Version 2.4 DIBR"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: anchor
+doc_subject: DIBR
+app_code: BMS
+app_name: Bed Management Solution
+section: FIN
+app_status: archive
+pkg_ns: BMS
+patch_ver: 2.4
+patch_id: BMS*2.4
+group_key: BMS:BMS:2.4
+file_numbers:
+- '1'
+security_keys: []
+menu_options: 0
+description: '> This document describes how to deploy and install the various components of the software for the Bed Management Solution (BMS) v2.4 project, as well as how to back-out the product and rollback to a previous version or data set. This document is a companion to the project charter and management pla'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2215
+section_count: 18
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2020
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)_Archive/bms_2_0_dibr_2_4.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)_Archive/bms_2_0_dibr_2_4.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=247
+audit_applied: '2026-05-31'
+master_source: Bed Management Solution Version 2.4 DIBR
 master_pub_date: January 2020
 consolidated_from: 6 versions
 prior_versions:
-  - "Bed Management Solution Version 2.5 DIBR"
-  - "Bed Management Solution Version 2.6 DIBR"
-  - "Bed Management Solution Version 2.8 DIBR"
-  - "Bed Management Solution Version 2.9 DIBR"
-  - "Bed Management Solution Version 3.5 DIBR"
+- Bed Management Solution Version 2.5 DIBR
+- Bed Management Solution Version 2.6 DIBR
+- Bed Management Solution Version 2.8 DIBR
+- Bed Management Solution Version 2.9 DIBR
+- Bed Management Solution Version 3.5 DIBR
+consolidated_title: bed management solution dibr
 ---
 
 # Bed Management Solution (BMS) v2.4
@@ -224,7 +258,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This section outlines the roles and responsibilities for managing the deployment of the BMS 2.4 application. The BMS 2.4 Development Team will produce the deployment artifacts (RFC’s, DB Scripts, executables, etc.) and work directly with the AITC personnel to plan the actual deployment.
+> This section outlines the roles and responsibilities for managing the deployment of the BMS 2.4 application. The BMS 2.4 Development Team will produce the deployment artifacts (RFC's, DB Scripts, executables, etc.) and work directly with the AITC personnel to plan the actual deployment.
 
 > <span id="_bookmark6" class="anchor"></span>Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibilities
 
@@ -304,7 +338,7 @@ prior_versions:
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>Regional PM/FIS/OPP PM/ Nat’l Education &amp; Training</td>
+<td>Regional PM/FIS/OPP PM/ Nat'l Education &amp; Training</td>
 <td>Installations</td>
 <td>Coordinate training.</td>
 <td><blockquote>
@@ -350,13 +384,13 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product’s activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
+> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product's activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
 
 ## ![](bed-management-solution-version-2-4-dibr/017.png)Application Architecture
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site’s VistA instance.
+> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site's VistA instance.
 
 ![](bed-management-solution-version-2-4-dibr/018.png)
 
@@ -496,25 +530,25 @@ prior_versions:
     1.  On vaausappbms210, execute D:\\ Services\Consoles\PolicyManager\PolicyManager.exe, log into the policy manager using the appropriate BMS Service account.
     2.  In the Left Navigation pane, expand Policy Manager \> Definitions, click on Operation Definitions.
     3.  Scroll down the Operation Definitions list, add the following if they do not already exist:
-        1.  Click “Add Operation”, Name: “WardWhiteboard, Write" (then properties -\> Check Place & Organization)
-        2.  Click “Add Operation”, Name: “rep, UserAccess” Description: “User Access Report”
-        3.  Click “Add Operation”, Name: “rep, Discharge Order Difference Report” Description: “Discharge Order Difference Report”
-        4.  Click “Add Operation”, Name: “rep, Facility Diversion Report” Description: “Facility Diversion Report”
-        5.  Click “Add Operation”, Name: “rep, PPBP By Date Range Report” Description: “PPBP By Date Range Report”
-        6.  Click “Add Operation”, Name: “rep, VISN Diversion Report” Description: “VISN Diversion Report”
-        7.  Click “Add Operation”, Name: “rep, VISN Emergency Management Report” Description: “VISN Emergency Management Report”
-    4.  In the Operation Definitions list, double click “WardWhiteboard, Write":
-        1.  Check: Place, Organization, click “OK”
+        1.  Click "Add Operation", Name: "WardWhiteboard, Write" (then properties -\> Check Place & Organization)
+        2.  Click "Add Operation", Name: "rep, UserAccess" Description: "User Access Report"
+        3.  Click "Add Operation", Name: "rep, Discharge Order Difference Report" Description: "Discharge Order Difference Report"
+        4.  Click "Add Operation", Name: "rep, Facility Diversion Report" Description: "Facility Diversion Report"
+        5.  Click "Add Operation", Name: "rep, PPBP By Date Range Report" Description: "PPBP By Date Range Report"
+        6.  Click "Add Operation", Name: "rep, VISN Diversion Report" Description: "VISN Diversion Report"
+        7.  Click "Add Operation", Name: "rep, VISN Emergency Management Report" Description: "VISN Emergency Management Report"
+    4.  In the Operation Definitions list, double click "WardWhiteboard, Write":
+        1.  Check: Place, Organization, click "OK"
     5.  In the Left Navigation pane, expand Policy Manager \> Definitions, click on Task Definitions.
-    6.  In the Right List pane, double click on “Reporting Services, Fetch”
-    7.  Under the Definition tab, click the “Add …” button, and scroll down the Operation Definitions list, check the following if they exist:
+    6.  In the Right List pane, double click on "Reporting Services, Fetch"
+    7.  Under the Definition tab, click the "Add …" button, and scroll down the Operation Definitions list, check the following if they exist:
         1.  rep, UserAccess Report
         2.  rep, Discharge Order Difference Report
         3.  rep, Facility Diversion Report
         4.  rep, PPBP By Date Range Report
         5.  rep, VISN Diversion Report
         6.  rep, VISN Emergency Management Report
-    8.  Click Okay on the “Add Definitions” dialogue, click “OK” on the “Task Definition Properties” dialogue and close the PolicyManager.
+    8.  Click Okay on the "Add Definitions" dialogue, click "OK" on the "Task Definition Properties" dialogue and close the PolicyManager.
 
 ## ![](bed-management-solution-version-2-4-dibr/022.png)Web Server
 
@@ -630,13 +664,13 @@ BMS v2.9 design will support the server configurations deployed at the Austin In
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#_bookmark24) to complete the product’s activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
+> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#_bookmark24) to complete the product's activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
 
 ## Application Architecture
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site’s VistA instance.
+> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site's VistA instance.
 
 <span id="_Toc71893797" class="anchor"></span>Figure 2: BMS Architecture Diagram
 
@@ -816,7 +850,7 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 > This section outlines the installation steps for the BMS components on the App server for vaausappbms210 and vaaausappbms211.
 
-1.  Backup affected app dll’s from D:\Services\BMS both on VAAUSAPPBMS210 and VAAUSAPPBMS211.
+1.  Backup affected app dll's from D:\Services\BMS both on VAAUSAPPBMS210 and VAAUSAPPBMS211.
 
 > VAAUSAPPBMS210
 
@@ -943,7 +977,7 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 - Redeployment of repaired Bulk Add/Edit User
 - Email Alert for Patients added to the National Wait List
-- Census Category fix to display “N/A” for Wards not configured
+- Census Category fix to display "N/A" for Wards not configured
 - Bulk Bed Processing enhancements – bed management, return to service, evacuation icon
 - Hover feature for patients who are Opt-Out
 - Correct defect with CLC column not filtering when populated on facility PPBP list
@@ -960,13 +994,13 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product’s activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
+> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product's activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
 
 ## ![](bed-management-solution-version-2-6-dibr/005.png)Application Architecture
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site’s VistA instance.
+> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site's VistA instance.
 
 ![](bed-management-solution-version-2-6-dibr/006.png)
 
@@ -994,8 +1028,8 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 > This section outlines the installation steps for the BMS components on the web server – vaauswebbms210.
 
-1.  Backup affected web dll’s from D:\BMSWeb\\
-2.  Install modified web dll’s on the web server in the D:\BMSWeb\\ directory, which will restart the web services and update cache
+1.  Backup affected web dll's from D:\BMSWeb\\
+2.  Install modified web dll's on the web server in the D:\BMSWeb\\ directory, which will restart the web services and update cache
 
 ## App Servers
 
@@ -1003,9 +1037,9 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 > This section outlines the installation steps for the BMS components on the web server – vaausappbms210 and vaaausappbms211.
 
-1.  Backup affected app dll’s from D:\Services\BMS both on VAAUSAPPBMS200 and VAAUSAPPBMS201.
+1.  Backup affected app dll's from D:\Services\BMS both on VAAUSAPPBMS200 and VAAUSAPPBMS201.
 2.  Stop the following Services on VAAUSAPPBMS200 and VAAUSAPP201, in order as listed: VAAUSAPPBMS200: (BMS.BedManagerService, BMS.SecurityHost, BMS.ServiceHost) VAAUSAPPBMS201: (BMS.VI.ServiceHost, BMS.ServiceHost)
-3.  Install modified app dll’s on the app servers in the D:\Services\BMS directories on VAAUSAPPBMS200 and VAAUSAPPBMS201, which will restart the web services and update cache
+3.  Install modified app dll's on the app servers in the D:\Services\BMS directories on VAAUSAPPBMS200 and VAAUSAPPBMS201, which will restart the web services and update cache
 4.  Start the following Services on VAAUSAPPBMS200 (in order as listed): BMS.ServiceHost, BMS.SecurityHost, BMS.BedManagerService and VAAUSAPPBMS201 (in order as listed): BMS.ServiceHost, BMS.VI.ServiceHost
 
 ## ![](bed-management-solution-version-2-6-dibr/008.png)Post-installation and Smoke Testing
@@ -1083,7 +1117,7 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 - Redeployment of repaired Bulk Add/Edit User
 - Email Alert for Patients added to the National Wait List
-- Census Category fix to display “N/A” for Wards not configured
+- Census Category fix to display "N/A" for Wards not configured
 - Bulk Bed Processing enhancements – bed management, return to service, evacuation icon
 - Hover feature for patients who are Opt-Out
 - Correct defect with CLC column not filtering when populated on facility PPBP list
@@ -1100,13 +1134,13 @@ b\. Upload the updated Audit Log Report to the BMS\Others folder and the Emergen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product’s activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
+> The product will be released by the BMS Development Team to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in [Section 0](#installation) to complete the product's activation at AITC. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
 
 ## ![](bed-management-solution-version-2-5-dibr/005.png)Application Architecture
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site’s VistA instance.
+> The following diagram represents the high-level architecture for the BMS application. BMS is a national application deployed at the AITC data center. The application is accessed at VA medical centers using approved web browser software. BMS reads data from VistA systems associated with each site's VistA instance.
 
 ![](bed-management-solution-version-2-5-dibr/006.png)
 

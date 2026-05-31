@@ -5,54 +5,38 @@ doc_label: Frequently Asked Questions
 doc_layer: anchor
 doc_subject: AMPL
 app_code: PREA
-app_name: "Pharmacy: Advanced Medication Platform"
+app_name: 'Pharmacy: Advanced Medication Platform'
 section: CLI
 app_status: archive
 pkg_ns: PREA
 patch_ver: 1.4
 patch_id: PREA*1.4
-group_key: "PREA:PREA:1.4"
-file_numbers: []
+group_key: PREA:PREA:1.4
+description: '| Date | Version | Description | Author | |---------|---------|-------------------|-----------| | 07/2023 | 1.0 | Baseline Document | AMPL Team'
+audience: ''
+keywords: []
+file_numbers:
+- '3.2'
+- '59'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - ampl
-  - questions
-  - frequently
-  - asked
-  - class
-  - anchor
-  - figure
-  - filter
-  - table
 page_count: 0
-word_count: 7604
+word_count: 7585
 section_count: 39
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/prea_1_4_ampl_gui_faq.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/prea_1_4_ampl_gui_faq.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=398"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/prea_1_4_ampl_gui_faq.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/prea_1_4_ampl_gui_faq.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=398
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Advanced Medication Platform (AMPL)  
-  Graphic User Interface (GUI)
-
-  Frequently Asked Questions (FAQ)
----
-
 ![](ampl-frequently-asked-questions/001.png)
 
 August 2023

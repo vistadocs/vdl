@@ -3,46 +3,60 @@ title: PSJ*5*260/268 Technical Manual/Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*260
-group_key: "PSJ:PSJ:5"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: > Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - even
-  - table
-  - psju
-  - contents
-  - mark
-  - medications
-  - added
-  - strong
+group_key: PSJ:PSJ:5
+description: '> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '50'
+- '50.68'
+- '51.1'
+- '51.2'
+- '53.46'
+- '55'
+- '57.5'
+- '58.1'
+- '59.5'
+- '59.6'
+- '59.7'
+- '62'
+- '100'
+- '135'
+- '154'
+security_keys:
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI MGR
+menu_options: 1
 page_count: 0
 word_count: 6162
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-260-268-technical-manual-security-guide-change-pages/001.png)

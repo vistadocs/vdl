@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*107
-group_key: "RA:RA:5"
+group_key: RA:RA:5
+description: '- Release Notes for Patch RA\5.0\107 - For Present NTP Sites only - Enhancement for NTP Patch RA\5.0\107 - Prior to Patch Installation - [After Patch...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Release Notes for Patch RA\5.0\107](#release-notes-for-patch-ra50107) - [For Present NTP Sites only](#for-present-ntp-sites-only) - [Enhancement for NTP Patch RA\5.0\107](#enhancement-for-ntp-patch-ra50107) - [Prior to Patch Installation](#prior-to-patch-installation) - [After Patch Installation]
-audience: 
-keywords: 
-  - patch
-  - table
-  - contents
-  - gateway
-  - query
-  - vista
-  - notes
-  - radiology
-  - installation
-  - software
 page_count: 0
 word_count: 904
 section_count: 5
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p107.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p107.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p107.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p107.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-107-national-teleradiology-program-phase-2-release-notes/001.png)

@@ -5,59 +5,37 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: ICD-10 PTF Modifications
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: LR
 patch_ver: 5.2
 patch_id: LR*5.2*442
-group_key: "EPI:LR:5.2"
-file_numbers: []
+group_key: EPI:LR:5.2
+description: '| Date | Version | Description | Author | |-----------|---------|-------------------------------------------------------------------------------------|-------------------------------------------| | 8/26/2015 | 1.1 | Incorporated Release Coordinator feedback (corrected typo). | VA OI&T PD, ICD-10...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '45'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - associated
-  - patch
-  - laboratory
-  - does
-  - modifications
-  - changes
-  - modify
-  - fields
 page_count: 0
-word_count: 1617
+word_count: 1598
 section_count: 20
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 2
 revision_newest: 8/26/2015
 revision_oldest: 6/23/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lr_5_2_442_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lr_5_2_442_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lr_5_2_442_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lr_5_2_442_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ICD-10 Patient Treatment File (PTF) Modifications
-
-  Laboratory: Anatomic Pathology (AP)
-
-  Laboratory: Emerging Pathogens Initiative (EPI)
-
-  LR\*5.2\*442
-
-  Release Notes
----
-
 ![](lr-5-2-442-icd-10-ptf-modifications-release-notes/001.png)
 
 September 2015

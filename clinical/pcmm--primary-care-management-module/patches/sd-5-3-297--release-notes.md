@@ -11,38 +11,45 @@ app_status: active
 pkg_ns: SD
 patch_ver: 5.3
 patch_id: SD*5.3*297
-group_key: "PCMM:SD:5.3"
-file_numbers: []
-security_keys: []
+group_key: PCMM:SD:5.3
+description: '- I. Introduction - II. Description of Functionality - GUI Changes - Inactivation Messages - Managing Inactivations - PCMM Main Menu Option -...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '2.09'
+- '2.1'
+- '5'
+- '18'
+- '19'
+- '20'
+- '200'
+- '402'
+- '403.46'
+- '404.43'
+- '404.44'
+- '404.52'
+- '404.57'
+security_keys:
+- PROVIDER
+- SC PCMM SETUP
 menu_options: 0
-description: ![](sd-5-3-297-unassigned-inactive-primary-care-physician-release-notes/001.png)
-audience: 
-keywords: 
-  - pcmm
-  - patient
-  - provider
-  - patients
-  - care
-  - primary
-  - inactivation
-  - team
-  - position
-  - date
 page_count: 0
 word_count: 4169
 section_count: 12
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_p297_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_p297_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_p297_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_p297_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 Primary Care Management Module (PCMM)

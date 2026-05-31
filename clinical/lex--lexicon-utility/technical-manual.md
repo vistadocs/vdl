@@ -1,5 +1,5 @@
 ---
-title: Clinical Lexicon Version 2 Technical Manual  Developer's Guide
+title: Clinical Lexicon Version 2 Technical Manual Developer's Guide
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
@@ -11,45 +11,94 @@ app_status: active
 pkg_ns: LEX
 patch_ver: 2
 patch_id: LEX*2
-group_key: "LEX:LEX:2"
-file_numbers: 
-  - 9
-  - 75
-  - 80
-  - 81
-  - 627
-  - 757
-  - 801
+group_key: LEX:LEX:2
+description: '> VistA''s Lexicon Utility is a dynamic dictionary of medical terms. The Lexicon maps coding schemes such as ICD-10, SNOMED CT, and DSM to major medical concepts. Currently, there are 36 different coding schemes represented in the Lexicon. The Lexicon Utility can support other coding schemes that are'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.1'
+- '1.11'
+- '1.2'
+- '1.3'
+- '1.4'
+- '1.5'
+- '1.6'
+- '1.7'
+- '2'
+- '3'
+- '4'
+- '4.2'
+- '5'
+- '6'
+- '7'
+- '9.4'
+- '9.8'
+- '10'
+- '11'
+- '30'
+- '35'
+- '36'
+- '75.03'
+- '80'
+- '80.1'
+- '80.1711'
+- '80.2'
+- '80.3'
+- '80.4'
+- '81'
+- '81.1'
+- '81.2'
+- '81.3'
+- '95.3'
+- '100'
+- '101'
+- '200'
+- '627.7'
+- '757'
+- '757.001'
+- '757.01'
+- '757.011'
+- '757.018'
+- '757.02'
+- '757.03'
+- '757.033'
+- '757.06'
+- '757.07'
+- '757.1'
+- '757.11'
+- '757.118'
+- '757.12'
+- '757.13'
+- '757.14'
+- '757.2'
+- '757.21'
+- '757.31'
+- '757.32'
+- '757.33'
+- '757.5'
+- '775.03'
+- '801.41'
+- '999999'
 security_keys: []
 menu_options: 54
-description: > VistA’s Lexicon Utility is a dynamic dictionary of medical terms. The Lexicon maps coding schemes such as ICD-10, SNOMED CT, and DSM to major medical concepts. Currently, there are 36 different coding schemes represented in the Lexicon. The Lexicon Utility can support other coding schemes that are
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - class
-  - table
-  - even
-  - style
-  - width
-  - contents
-  - colgroup
-  - thead
-  - tbody
 page_count: 0
 word_count: 61591
 section_count: 24
 table_count: 0
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lextm2_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lextm2_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=76"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lextm2_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lextm2_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=76
+audit_applied: '2026-05-31'
 ---
 
 > ![](clinical-lexicon-version-2-technical-manual-developer-s-guide/001.png)

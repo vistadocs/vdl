@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*76
-group_key: "YS:YS:5.01"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - test
-  - patient
-  - array
-  - health
-  - ytapi
-  - mental
-  - software
-  - return
+group_key: YS:YS:5.01
+description: '- Preface - Section 508 of The Rehabilitation Act - VistA Mental Health Assistant Version 2, (MHA 2) 508 Compliance - MHA 2 Software Application -...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '601'
+- '601.3'
+- '604'
+- '604.68'
+security_keys:
+- SHIFT
+- YSP
+menu_options: 1
 page_count: 0
 word_count: 10427
 section_count: 35
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 ![](ys-5-01-76-mental-health-assistant-phase-2-installation-guide/001.png)

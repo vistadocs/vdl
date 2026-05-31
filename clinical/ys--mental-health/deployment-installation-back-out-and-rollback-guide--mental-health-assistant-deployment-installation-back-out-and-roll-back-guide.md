@@ -1,19 +1,45 @@
 ---
-consolidated_title: "mental health assistant deployment, installation, back-out & roll back guide"
-app_code: YS
+title: YS*5.01*179 Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide
 doc_type: DIBR
-master_source: "YS*5.01*179 Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*179
+group_key: YS:YS:5.01
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |------------|-------------|-----------------|----------------------| | 06/23/2021 | 1.0 | Initial Version | Liberty IT Solutions'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 1658
+section_count: 28
+table_count: 3
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: June 2021
+revision_count: 1
+revision_newest: 06/23/2021
+revision_oldest: 06/23/2021
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_179_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_179_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*179 Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide
 master_pub_date: June 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "YS*5.01*178 Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide"
----
-
----
-title: |
-  Mental Health YS\*5.01\*179
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*178 Mental Health Assistant Deployment, Installation, Back-Out & Roll Back Guide
+consolidated_title: mental health assistant deployment, installation, back-out & roll back guide
 ---
 
 ![](ys-5-01-179-mental-health-assistant-deployment-installation-back-out-roll-back-g/001.png)
@@ -245,13 +271,13 @@ No new Security Keys required.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This procedure configures VistA so that “MHA Web” appears as a choice on a user’s Tools menu on the CPRS desktop software. MHA Web must be started from the CPRS Tools Menu.
+This procedure configures VistA so that "MHA Web" appears as a choice on a user's Tools menu on the CPRS desktop software. MHA Web must be started from the CPRS Tools Menu.
 
 Go to the GUI TOOL Menu, Select 4 for System. At the Select Sequence prompt, enter the sequence number to assign for MHA Web. The Name=Command is
 
 MHA Web=https://\<server\>/app/home?station=\<station number\>&poi=%DFN
 
-You need to substitute the \<server\> with the MHA Web server name “mha.med.va.gov” and the \<station number\> with your VistA instance station number.
+You need to substitute the \<server\> with the MHA Web server name "mha.med.va.gov" and the \<station number\> with your VistA instance station number.
 
 Example: The example below shows the set up of MHA Web on the CPRS Tools menu from the GUI TOOLS MENU \[ORW TOOL MENU ITEMS\] option:
 

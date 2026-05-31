@@ -11,38 +11,44 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PRC:PRC:5.1
 description: Integrated Funds Distribution,Control Point Activity, Accountingand Procurement(IFCAP)
-audience: 
-keywords: 
-  - strong
-  - station
-  - inventory
-  - supply
-  - table
-  - point
-  - style
-  - width
-  - order
-  - secondary
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '7'
+- '31'
+- '440'
+- '441'
+- '445'
+- '445.2'
+- '445.3'
+- '447.1'
+- '771'
+- '772'
+- '773'
+- '870'
+- '12002'
+- '12013'
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 32300
 section_count: 36
 table_count: 5
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 3
 revision_newest: 06/07/11
 revision_oldest: 12/29/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1pou_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1pou_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1pou_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1pou_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ![](ifcap-version-5-1-point-of-use-manual/001.png)

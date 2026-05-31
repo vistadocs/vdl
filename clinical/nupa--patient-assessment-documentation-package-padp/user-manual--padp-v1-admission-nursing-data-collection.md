@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: NUPA
 patch_ver: 1
 patch_id: NUPA*1
-group_key: "NUPA:NUPA:1"
+group_key: NUPA:NUPA:1
+description: Admission - Nursing Data Collection User Manual for NUPA Version
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Revision History](#revision-history) - [# Introduction](#introduction) - [Using Admission – Nursing Data Collection](#using-admission-nursing-data-collection) - [Opening Admission – Nursing Data Collection](#opening-admission-nursing-data-collection) - [No Previously Saved Information](#no-previo
-audience: 
-keywords: 
-  - admission
-  - nursing
-  - collection
-  - class
-  - patient
-  - table
-  - padp
-  - manual
-  - contents
-  - version
 page_count: 0
-word_count: 5083
+word_count: 5077
 section_count: 8
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_dcum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_dcum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=193"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_dcum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Assessment_Documentation_Package/nupa1_0_dcum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=193
+audit_applied: '2026-05-31'
 ---
-
----
-title: Patient Assessment Documentation Package (PADP)
----
-
 C3-C1 Conversion Project
 
 Admission - Nursing Data Collection User Manual  

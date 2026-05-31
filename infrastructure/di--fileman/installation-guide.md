@@ -11,47 +11,35 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
+group_key: DI:DI:22.2
+description: '''NOTE: The revision history cycle begins once changes or enhancements are requested after the Installation, Back-Out, and Rollback Guide has been'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '9.4'
+- '14.5'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - span
-  - fileman
-  - back
-  - installation
-  - class
-  - install
-  - mark
-  - rollback
 page_count: 0
-word_count: 3359
+word_count: 3350
 section_count: 31
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2
-
-  Installation, Back-Out, and Rollback Guide
----
-
 ![](fm-22-2-installation-back-out-and-rollback-guide/001.png)
 
 August 2016

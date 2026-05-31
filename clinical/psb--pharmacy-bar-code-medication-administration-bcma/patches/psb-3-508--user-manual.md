@@ -3,46 +3,37 @@ title: BCMA Version 3 GUI User Manual - Appendix D (508 Compliance)
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: GUI  - Appendix D (508 Compliance)
+doc_subject: GUI - Appendix D (508 Compliance)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*508
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '''- Appendix D: 508 Compliance - Appendix D: 508 Compliance - Appendix D: 508 Compliance - Appendix D: 508 Compliance - [Appendix D: 508...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "- [Appendix D: 508 Compliance](#appendix-d-508-compliance) - [Appendix D: 508 Compliance](#appendix-d-508-compliance-1) - [Appendix D: 508 Compliance](#appendix-d-508-compliance-2) - [Appendix D: 508 Compliance](#appendix-d-508-compliance-3) - [Appendix D: 508 Compliance](#appendix-d-508-compliance-"
-audience: 
-keywords: 
-  - strong
-  - table
-  - compliance
-  - appendix
-  - bcma
-  - class
-  - style
-  - width
-  - contents
-  - cancel
 page_count: 0
 word_count: 4902
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixd_508_compliance_r0111.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixd_508_compliance_r0111.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixd_508_compliance_r0111.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixd_508_compliance_r0111.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 # Appendix D: 508 Compliance

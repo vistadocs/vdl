@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*340
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: VistA patch OR\*3.0\*340 provides resolution to a critical need to rapidly identify a patient's Mental Health (MH) Treatment Coordinator so that veterans with conditions such as depression, suicidal ideation and Post Traumatic Stress Disorder (PSTD) can be treated more quickly and effectively. This...
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: ![](or-3-340-release-notes-cprs-gui-version/001.png)![](or-3-340-release-notes-cprs-gui-version/002.png)
-audience: 
-keywords: 
-  - primary
-  - care
-  - mhtc
-  - span
-  - patient
-  - cprs
-  - treatment
-  - health
-  - class
-  - anchor
 page_count: 0
 word_count: 785
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_340rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_340rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_340rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_340rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-340-release-notes-cprs-gui-version/001.png)![](or-3-340-release-notes-cprs-gui-version/002.png)

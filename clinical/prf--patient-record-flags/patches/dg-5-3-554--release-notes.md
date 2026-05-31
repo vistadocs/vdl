@@ -3,7 +3,7 @@ title: DG*5.3*554/TIU*1*184/USR*1*27 Patient Record Flags Phase II Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PRF
 app_name: Patient Record Flags
 section: CLI
@@ -11,38 +11,46 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*554
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 12
+group_key: PRF:DG:5.3
 description: The Patient Record Flags Phase II patches (TIU\1\184, USR\1\27, DG\5.3\554), in conjunction with the CPRS GUI version 26 patch (OR\3\215), introduce changes and enhancements to the TIU – Text Integration Utilities V. 1.0 and Registration V. 5.3 packages in direct support of the Patient Record Flags
-audience: 
-keywords: 
-  - flag
-  - table
-  - contents
-  - record
-  - assignment
-  - action
-  - patient
-  - notes
-  - link
-  - dgpf
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '6'
+- '26.11'
+- '26.13'
+- '26.14'
+- '26.15'
+- '26.17'
+- '26.18'
+- '3860'
+- '4383'
+- '4384'
+- '4386'
+- '4387'
+- '8925'
+- '8925.1'
+security_keys:
+- CLINICIAN
+- DGPF PRF ACCESS
+- PROVIDER
+menu_options: 12
 page_count: 0
 word_count: 6947
 section_count: 58
 table_count: 15
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfii_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfii_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfii_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfii_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-554-tiu-1-184-usr-1-27-patient-record-flags-phase-ii-release-notes/001.png)

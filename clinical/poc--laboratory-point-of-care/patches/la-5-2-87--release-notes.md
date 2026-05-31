@@ -1,59 +1,43 @@
 ---
-title: "LA*5.2*87 Laboratory: POC VHIC Card Update Release Notes"
+title: '''LA*5.2*87 Laboratory: POC VHIC Card Update Release Notes'''
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: "Laboratory: POC VHIC Card Update"
+doc_subject: '''Laboratory: POC VHIC Card Update'''
 app_code: POC
-app_name: "Laboratory: Point of Care"
+app_name: 'Laboratory: Point of Care'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*87
-group_key: "POC:LA:5.2"
-file_numbers: []
+group_key: POC:LA:5.2
+description: '- Introduction - Purpose - This Release - Known Issues - Pre-Installation Instructions - Installation Instructions Before LA\*5.2\*87 was released, Lab Point of Care...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '62.4'
+- '62.48'
+- '68.2'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - vhic
-  - transport
-  - global
-  - patient
-  - release
-  - instructions
-  - patch
 page_count: 0
-word_count: 646
+word_count: 635
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/LA_87_VHIC_Card_Update.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/LA_87_VHIC_Card_Update.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=149"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/LA_87_VHIC_Card_Update.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/LA_87_VHIC_Card_Update.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=149
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  LABORATORY (LA\*5.2\*87)
-
-  Veterans Health Identification Card (VHIC) Update
-
-  Release Notes
----
-
 ![](la-5-2-87-laboratory-poc-vhic-card-update-release-notes/001.png)
 
 June 2018

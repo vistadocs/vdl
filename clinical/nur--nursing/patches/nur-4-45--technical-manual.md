@@ -3,7 +3,7 @@ title: NUR*4*45 Nursing Technical Manual and Package Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: Nursing  and Package Security Guide Change Pages
+doc_subject: Nursing and Package Security Guide Change Pages
 app_code: NUR
 app_name: Nursing
 section: CLI
@@ -11,49 +11,32 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4*45
-group_key: "NUR:NUR:4"
-file_numbers: []
+group_key: NUR:NUR:4
+description: '- Document Purpose - Scope of Patch NUR\4.0\45 - Updates to Nursing Technical Manual and Package Security Guide Version 4.0 - [Chapter 1: Implementation and...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '10.6'
+- '213.9'
 security_keys: []
 menu_options: 0
-description: "--- title: | <span id=\\"_Toc205632711\\" class=\\"anchor\\"></span>Nursing Technical Manual and"
-audience: 
-keywords: 
-  - table
-  - nursing
-  - contents
-  - security
-  - guide
-  - patch
-  - strong
-  - technical
-  - manual
-  - package
 page_count: 0
-word_count: 506
+word_count: 486
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Nursing Technical Manual and
-
-  Package Security Guide Version 4.0
-
-  Change Pages for Patch NUR\*4.0\*45
----
-
 VistA Health  
 Systems Design & Development
 

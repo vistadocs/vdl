@@ -11,47 +11,35 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1
-group_key: "XOBW:XOBW:1"
-file_numbers: []
-security_keys: []
+group_key: XOBW:XOBW:1
+description: Updated the "Orientation" section. Updated Figure 1, Figure 2, and Figure 5 for HTTPS. Updated/Renamed Section 1.6. Added new subsections for HTTPS. Updated and reformatted Section 5, APIS. Converted Word document to .docx format. Reformatted document to follow latest documentation standards and...
+audience: ''
+keywords: []
+file_numbers:
+- '18.02'
+- '18.12'
+security_keys:
+- PF1
+- XOBT SAMPLE SERVER
+- XUPROGMODE
 menu_options: 11
-description: 
-audience: 
-keywords: 
-  - service
-  - table
-  - error
-  - hwsc
-  - contents
-  - server
-  - object
-  - cach
-  - services
-  - client
 page_count: 0
-word_count: 16031
+word_count: 16018
 section_count: 25
 table_count: 6
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0dg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0dg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0dg.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0dg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  HealtheVet Web Services Client <span class="smallcaps">(HWSC)</span> 1.0
-
-  Developer’s Guide
----
-
 ![](healthevet-web-services-client-hwsc-version-1-developer-s-guide/001.png)
 
 October 2016

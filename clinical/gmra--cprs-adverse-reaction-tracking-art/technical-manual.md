@@ -5,44 +5,55 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: Adverse Reaction Tracking
 app_code: GMRA
-app_name: "CPRS: Adverse Reaction Tracking (ART)"
+app_name: 'CPRS: Adverse Reaction Tracking (ART)'
 section: CLI
 app_status: active
 pkg_ns: GMRA
 patch_ver: 4.0
 patch_id: GMRA*4.0
-group_key: "GMRA:GMRA:4.0"
-file_numbers: []
-security_keys: []
+group_key: GMRA:GMRA:4.0
+description: '- # # # Adverse Reaction Tracking 4.0 Technical Manual - ## Introduction - ART and Data Standardization - GMRA\4.0\68 - GMRA\4.0\59 - [GMRA\4\58 – Suppress Non-Drug...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3.1'
+- '4'
+- '19'
+- '50'
+- '50.416'
+- '50.605'
+- '120.8'
+- '120.82'
+- '120.83'
+- '120.84'
+- '120.85'
+- '120.86'
+- '443'
+- '493'
+- '12088'
+security_keys:
+- CLINICIAN
+- GMRA-ALLERGY VERIFY
+- GMRA-VERIFY ALLERGY
+- PROVIDER
 menu_options: 4
-description: - [# # # Adverse Reaction Tracking 4.0 Technical Manual](#adverse-reaction-tracking-40-technical-manual) - [## Introduction](#introduction) - [ART and Data Standardization](#art-and-data-standardization) - [GMRA\4.0\68](#gmra4068) - [GMRA\4.0\59](#gmra4059) - [GMRA\4\58 – Suppress Non-Drug Ingredien
-audience: 
-keywords: 
-  - allergy
-  - gmra
-  - table
-  - patient
-  - contents
-  - allergies
-  - reaction
-  - drug
-  - site
-  - patch
 page_count: 0
 word_count: 22025
 section_count: 24
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_4_0_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_4_0_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=57"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_4_0_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/gmra_4_0_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=57
+audit_applied: '2026-05-31'
 ---
 
 # # # # Adverse Reaction Tracking 4.0 Technical Manual

@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: EAS
 patch_ver: 1.1
 patch_id: EAS*1.1
-group_key: "EAS:EAS:1.1"
+group_key: EAS:EAS:1.1
+description: '- # Revision History - # Introduction - Public Law 106-117 - VA Regulations - # Using the Software - Overview - Add a New LTC Copayment Test - [Edit...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- DG MTDELETE
 menu_options: 1
-description: "<table> <colgroup> <col style=\\"width: 31%\\" /> <col style=\\"width: 68%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Option Name</th> <th>Brief Description</th> </tr> </thead> <tbody> <tr class=\\"odd\\"> <td>LTC Copayments Menu</td> <td>This is the menu that contains the options for the LTC Copayments "
-audience: 
-keywords: 
-  - test
-  - copayment
-  - veteran
-  - copay
-  - care
-  - patient
-  - exemption
-  - date
-  - table
-  - income
 page_count: 0
 word_count: 7231
 section_count: 1
 table_count: 11
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2019
 revision_count: 27
 revision_newest: 12/5/2019
 revision_oldest: 4/23/02
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)_Archive/eas_1_ltc_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)_Archive/eas_1_ltc_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=254"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)_Archive/eas_1_ltc_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)_Archive/eas_1_ltc_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=254
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-version-1-1-long-term-care-copayment-user-manual/001.png)

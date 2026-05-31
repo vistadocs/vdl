@@ -5,44 +5,41 @@ doc_label: Release Notes
 doc_layer: plain
 doc_subject: Pharmacy Ordering Enhancements (POE) Phase 1
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: PSO
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Pharmacy Ordering Enhancements (POE) Pharmacy Data Management (PDM) Pre-Release'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50'
+- '50.606'
+- '50.7'
+- '51'
+- '51.2'
+- '52.6'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - mark
-  - blockquote
-  - installation
-  - install
-  - patch
-  - redacted
-  - report
-  - medication
 page_count: 0
 word_count: 833
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pharmacy-ordering-enhancements-poe-phase-1-release-notes/001.png)

@@ -1,48 +1,45 @@
 ---
 title: Clinical Procedures Outbound Admissions, Discharges, Transfers (ADT) Feed Guide
 doc_type: INT
-doc_label: Interface Feed Guide
+doc_label: Interface Specification
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MD
+patch_ver: null
+patch_id: null
+group_key: null
+description: CLINICAL PROCEDURES (CP) V1.0MD\*1.0\*12FLOWSHEETS MODULEOUTBOUND ADMISSIONS, DISCHARGES, TRANSFERS (ADT) FEED
+audience: ''
+keywords: []
+file_numbers:
+- '101'
+- '200'
+- '704.005'
+- '704.117'
+security_keys:
+- MD READ-ONLY
+- MD TRAINEE
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - even
-  - clinical
-  - flowsheets
-  - table
-  - contents
-  - link
-  - service
-  - feed
 page_count: 0
 word_count: 10388
 section_count: 17
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/cp_flows.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/cp_flows.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/cp_flows.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/cp_flows.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-procedures-outbound-admissions-discharges-transfers-adt-feed-guide/001.png)

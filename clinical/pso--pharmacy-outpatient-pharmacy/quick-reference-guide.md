@@ -5,44 +5,35 @@ doc_label: Quick Reference Guide
 doc_layer: plain
 doc_subject: Inpatient Medications & Outpatient Pharmacy NCC (Clozapine)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: PSO
+patch_ver: null
+patch_id: null
+group_key: null
+description: Inpatient Medications and Outpatient Pharmacy Clozapine Changes– Quick Reference CardInpatient and Outpatient New Functionality
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Inpatient Medications and Outpatient Pharmacy Clozapine Changes– Quick Reference CardInpatient and Outpatient New Functionality
-audience: 
-keywords: 
-  - override
-  - clozapine
-  - order
-  - pharmacist
-  - national
-  - dispense
-  - message
-  - reason
-  - inpatient
-  - provider
 page_count: 0
 word_count: 1877
 section_count: 0
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/MH_NCC_Proj_5_01_PSO_PSJ_QR_R0719.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/MH_NCC_Proj_5_01_PSO_PSJ_QR_R0719.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/MH_NCC_Proj_5_01_PSO_PSJ_QR_R0719.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/MH_NCC_Proj_5_01_PSO_PSJ_QR_R0719.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 Inpatient Medications and Outpatient Pharmacy  

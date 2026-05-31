@@ -8,41 +8,53 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This manual explains how to configure and use the routing capability of the VistA DICOM Gateway. This manual also explains how to use the on-demand routing capability of the VistARad diagnostic workstation software.'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '5'
+- '40.5'
+- '45'
+- '63'
+- '101'
+- '771'
+- '2005'
+- '2005.02'
+- '2005.2'
+- '2005.587'
+- '2006.03'
+- '2006.035'
+- '2006.04'
+- '2006.1'
+- '2006.574'
+- '2006.587'
+- '2006.65'
+- '2006.69'
+- '3004'
+security_keys:
+- DEMAND ROUTE DICOM
+- MAGJ DEMAND ROUTE
 menu_options: 0
-description: > This manual explains how to configure and use the routing capability of the VistA DICOM Gateway. This manual also explains how to use the on-demand routing capability of the VistARad diagnostic workstation software.
-audience: 
-keywords: 
-  - routing
-  - table
-  - contents
-  - blockquote
-  - dicom
-  - gateway
-  - class
-  - rules
-  - destination
-  - strong
 page_count: 0
 word_count: 9731
 section_count: 39
 table_count: 3
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_routing_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_routing_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_routing_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_routing_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-dicom-gateway-routing-setup-and-user-guide/001.png)

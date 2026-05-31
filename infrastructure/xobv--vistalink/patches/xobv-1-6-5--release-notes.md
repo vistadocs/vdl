@@ -3,7 +3,7 @@ title: XOBV*1.6*5 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: XOBV
 app_name: VistALink
 section: INF
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: XOBV
 patch_ver: 1.6
 patch_id: XOBV*1.6*5
-group_key: "XOBV:XOBV:1.6"
+group_key: XOBV:XOBV:1.6
+description: '> Department of Veterans Affairs Office of Information and Technology Product'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - vistalink
-  - weblogic
-  - updates
-  - jars
-  - libraries
-  - java
-  - compatibility
-  - shared
 page_count: 0
 word_count: 1071
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/VistALink/vistalink_1_6_5_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/VistALink/vistalink_1_6_5_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=163"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/VistALink/vistalink_1_6_5_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/VistALink/vistalink_1_6_5_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=163
+audit_applied: '2026-05-31'
 ---
 
 > ![](xobv-1-6-5-release-notes/001.png)

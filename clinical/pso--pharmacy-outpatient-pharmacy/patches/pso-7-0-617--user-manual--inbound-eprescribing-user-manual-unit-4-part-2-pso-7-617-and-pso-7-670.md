@@ -3,46 +3,37 @@ title: Inbound ePrescribing User Manual (Unit 4 Part 2) PSO*7*617 and PSO*7*670
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (Unit 4 Part 2) PSO*7*617 and PSO*7*670
+doc_subject: Inbound ePrescribing (Unit 4 Part 2) PSO*7*617 and PSO*7*670
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
+group_key: PSO:PSO:7.0
+description: '''- Denied, New Prescription to Follow - Denied - Replace - Inbound Error – RRE - Add Comments: Hidden Action for RxRenewal Request/Response - [Acknowledge:...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "- [Denied, New Prescription to Follow](#denied-new-prescription-to-follow) - [Denied](#denied) - [Replace](#replace) - [Inbound Error – RRE](#inbound-error-rre) - [Add Comments: Hidden Action for RxRenewal Request/Response](#add-comments-hidden-action-for-rxrenewal-requestresponse) - [Acknowledge: H"
-audience: 
-keywords: 
-  - rxrenewal
-  - response
-  - span
-  - inbound
-  - figure
-  - class
-  - unit
-  - eprescribing
-  - status
-  - part
 page_count: 0
 word_count: 5303
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_42.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_42.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_42.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_42.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

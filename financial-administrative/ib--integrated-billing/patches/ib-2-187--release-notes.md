@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*187
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: VISIT COPAY PHASE 2RELEASE NOTESPatch IB\*2\*187September
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '352.5'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - stop
-  - routine
-  - care
-  - patch
-  - billable
-  - table
-  - contents
-  - description
-  - code
-  - codes
 page_count: 0
 word_count: 1143
 section_count: 4
 table_count: 17
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_187rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_187rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_187rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_187rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 ![](ib-2-187-visit-copay-phase-2-release-notes/001.png)

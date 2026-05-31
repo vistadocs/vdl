@@ -1,12 +1,50 @@
 ---
-consolidated_title: "dibr"
-app_code: VIAB
+title: VIAB*1*9 DIBR
 doc_type: DIBR
-master_source: "VIAB*1*9 DIBR"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: DIBR
+app_code: VIAB
+app_name: VistA Integration Adapter (VIA)
+section: CLI
+app_status: active
+pkg_ns: VIAB
+patch_ver: 1
+patch_id: VIAB*1*9
+group_key: VIAB:VIAB:1
+file_numbers:
+- '1'
+- '3.5'
+- '19'
+- '61'
+- '320'
+security_keys: []
+menu_options: 0
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the Installation, Back-out, Rollback Plan has been'''
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2407
+section_count: 8
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: April 2017
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_9_installation_back-out_rollback_plan.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_9_installation_back-out_rollback_plan.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=221
+audit_applied: '2026-05-31'
+master_source: VIAB*1*9 DIBR
 master_pub_date: April 2017
 consolidated_from: 2 versions
 prior_versions:
-  - "VIAB*1*15 DIBR"
+- VIAB*1*15 DIBR
+consolidated_title: dibr
 ---
 
 VistA Integration Adapter (VIA)VIAB 1\*9
@@ -650,13 +688,13 @@ N/A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The rollback plan for VistA applications is complex and not able to be a “one size fits all.” The general strategy for VistA rollback is to repair the code with a follow-on patch. The development team recommends that sites log a Remedy ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
+The rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA rollback is to repair the code with a follow-on patch. The development team recommends that sites log a Remedy ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
 
 ## Backout Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA Installation Procedure of the KIDS build, the installer should have backed up the modified routines by the use of the ‘Backup a Transport Global’ action as specified in the Patch Description Installation Instructions.  The installer can restore the routines using the MailMan message that were saved prior to installing the patch.  The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-on patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data.  This backout may need to include a database cleanup process.
+During the VistA Installation Procedure of the KIDS build, the installer should have backed up the modified routines by the use of the 'Backup a Transport Global' action as specified in the Patch Description Installation Instructions.  The installer can restore the routines using the MailMan message that were saved prior to installing the patch.  The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-on patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data.  This backout may need to include a database cleanup process.
 
 Please contact the product development team for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch.  If the installed patch that needs to be backed out includes a pre or post install routine please contact the product development team before attempting the backout.
 

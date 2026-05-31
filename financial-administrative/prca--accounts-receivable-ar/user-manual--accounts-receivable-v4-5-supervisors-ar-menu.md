@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: '- Supervisor''s AR Menu - Edit/Add "Bill Resulting From" List - Delete an Incomplete Transaction - Administrative Cost Adjustment - [Form Letter Menu...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '347'
+security_keys:
+- CS STOP SITE
+- PRCAF LATE CHARGES
 menu_options: 1
-description: - [Supervisor’s AR Menu](#supervisors-ar-menu) - [Edit/Add “Bill Resulting From” List](#editadd-bill-resulting-from-list) - [Delete an Incomplete Transaction](#delete-an-incomplete-transaction) - [Administrative Cost Adjustment](#administrative-cost-adjustment) - [Form Letter Menu (Edit/Print)](#for
-audience: 
-keywords: 
-  - table
-  - contents
-  - site
-  - bill
-  - edit
-  - group
-  - report
-  - statements
-  - form
-  - parameters
 page_count: 0
 word_count: 3160
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_6supvisr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_6supvisr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_6supvisr.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_6supvisr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](accounts-receivable-version-4-5-user-manual-supervisor-s-ar-menu/001.png)

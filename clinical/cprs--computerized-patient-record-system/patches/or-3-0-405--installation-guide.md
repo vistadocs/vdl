@@ -11,47 +11,45 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*405
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - table
-  - contents
-  - installation
-  - back
-  - install
-  - patch
-  - deployment
-  - rollback
-  - options
+group_key: CPRS:OR:3.0
+description: This document describes the Deployment, Installation, Back-out, and Rollback Plan for new products going into the VA Enterprise. The plan includes information about system support, issue tracking, escalation processes, and roles and responsibilities involved in all those activities. Its purpose is...
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3'
+- '13'
+- '14.2'
+- '19'
+- '50.7'
+- '59'
+- '100.04'
+- '100.3'
+- '100.97'
+- '101.41'
+- '920.05'
+- '8925'
+- '8992.1'
+security_keys:
+- OR CPRS TESTER
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 5797
+word_count: 5778
 section_count: 34
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_dibr_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_dibr_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_dibr_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_dibr_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>CPRS v32b (OR\*3.0\*405)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBOR)
----
-
 ![](or-3-0-405-cprs-v32b-deployment-installation-back-out-and-rollback-guide/001.png)
 
 September 2022

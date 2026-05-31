@@ -3,7 +3,7 @@ title: OR*3*243 and Associated Patches Installation Guide CPRS GUI 27
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: and Associated Patches  CPRS GUI 27
+doc_subject: and Associated Patches CPRS GUI 27
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,46 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*243
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: <span class="smallcaps">CPRS GUI version 27</span><span class="smallcaps">(Patch# OR\3\243) and Associated Patches</span><span class="smallcaps">Installation Guide</span><span class="smallcaps">September 2008</span>
-audience: 
-keywords: 
-  - cprs
-  - orders
-  - class
-  - span
-  - parameter
-  - jaws
-  - installation
-  - order
-  - files
-  - patches
+group_key: CPRS:OR:3
+description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '8'
+- '52'
+- '52.0523'
+- '52.41'
+- '52.4131'
+- '52.6'
+- '52.7'
+- '53.1'
+- '100'
+- '101.24'
+- '101.41'
+- '110.2'
+- '122.01'
+- '128'
+- '8925'
+security_keys:
+- CLINICIAN
+- PSO COPAY
+menu_options: 1
 page_count: 0
 word_count: 5782
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-243-and-associated-patches-installation-guide-cprs-gui-27/001.png)

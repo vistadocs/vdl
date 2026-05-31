@@ -1,7 +1,7 @@
 ---
 title: Nutrition & Food Services Version 5.5 Manager/ADPAC Guide (Revised Sept 2007)
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: (Revised Sept 2007)
 app_code: FH
@@ -11,38 +11,80 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5
-group_key: "FH:FH:5.5"
-file_numbers: []
-security_keys: []
+group_key: FH:FH:5.5
+description: Added new options to the FP Food Preference Management
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '05'
+- '111'
+- '111.11'
+- '111.115'
+- '112'
+- '112.6'
+- '112.62'
+- '112.64'
+- '113'
+- '113.1'
+- '113.2'
+- '114'
+- '114.01'
+- '114.03'
+- '114.05'
+- '114.1'
+- '114.2'
+- '114.3'
+- '114.4'
+- '115'
+- '115.01'
+- '115.011'
+- '115.03'
+- '115.07'
+- '115.08'
+- '115.09'
+- '115.2'
+- '115.7'
+- '116'
+- '116.01'
+- '116.1'
+- '116.11'
+- '116.2'
+- '116.3'
+- '118'
+- '118.1'
+- '118.2'
+- '118.3'
+- '119.1'
+- '119.6'
+- '119.71'
+- '119.72'
+- '119.9'
+- '120.82'
+- '200'
+- '405.4'
+security_keys:
+- CLINICIAN
+- FHAUTH
+- FHMGR
 menu_options: 209
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - class
-  - colspan
-  - style
-  - width
-  - even
-  - table
-  - strong
-  - header
-  - colgroup
 page_count: 0
 word_count: 60296
 section_count: 38
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8ag.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8ag.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8ag.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8ag.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 > ![](nutrition-food-services-version-5-5-manager-adpac-guide-revised-sept-2007/001.png)

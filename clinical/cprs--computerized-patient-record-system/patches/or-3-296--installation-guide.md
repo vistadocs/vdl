@@ -1,9 +1,9 @@
 ---
-title: OR*3*296  and Associated Patches Installation Guide CPRS GUI 27.9
+title: OR*3*296 and Associated Patches Installation Guide CPRS GUI 27.9
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: and Associated Patches  CPRS GUI 27.9
+doc_subject: and Associated Patches CPRS GUI 27.9
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*296
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: OR\3.0\296 includes one host file that exports routines, two options, three Remote Procedure Calls (RPCs), and parameters. No data dictionary changes are included.
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- CLINICIAN
 menu_options: 1
-description: <span class="smallcaps">CPRS Patch OR\3.0\296 (CPRS GUI V.27.90) and Associated Patches</span><span class="smallcaps">Installation Guide</span><span class="smallcaps">August 2009</span>
-audience: 
-keywords: 
-  - install
-  - site
-  - cprs
-  - installation
-  - span
-  - class
-  - global
-  - distribution
-  - transport
-  - send
 page_count: 0
 word_count: 3225
 section_count: 0
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-296-and-associated-patches-installation-guide-cprs-gui-27-9/001.png)

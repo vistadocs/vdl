@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*453
-group_key: "IVMB:IVMB:2"
-file_numbers: []
-security_keys: []
+group_key: IVMB:IVMB:2
+description: '- Introduction - Background - Functionality - Related Manuals - Integration - Implementation and Maintenance - Site Parameters - Routines -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '6'
+- '6.5'
+- '27.11'
+- '300.11'
+- '300.132'
+- '301.11'
+- '742027'
+security_keys:
+- IVME SUPERVISOR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - priority
-  - enrollment
-  - care
-  - veterans
-  - health
-  - letter
-  - letters
-  - group
 page_count: 0
 word_count: 5465
 section_count: 24
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 ![](ivmb-2-453-priority-letters-phase-1-technical-manual/001.png)

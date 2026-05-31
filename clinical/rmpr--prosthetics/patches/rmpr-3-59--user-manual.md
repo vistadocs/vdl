@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*59
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '- Table of Contents - ## Automated Delayed Order Report (DOR) User Manual - Display the DOR Data - View 2319 Information - View and Manage the DOR...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"introduction\\">Introduction</h5></td> <td><blockquote> <p>The <strong>Delayed Order Report (DOR)</strong> <strong>User Manual</strong> corresponds to Patch RMPR359. This patch pro"
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - class
-  - view
-  - delayed
 page_count: 0
 word_count: 9168
 section_count: 8
 table_count: 20
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_59um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_59um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_59um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_59um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

@@ -11,47 +11,30 @@ app_status: archive
 pkg_ns: VHIC
 patch_ver: 4.29
 patch_id: VHIC*4.29
-group_key: "VHIC:VHIC:4.29"
+group_key: VHIC:VHIC:4.29
+description: '''NOTE: The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - report
-  - vhic
-  - card
-  - span
-  - figure
-  - class
-  - status
-  - anchor
-  - facility
-  - reports
 page_count: 0
-word_count: 16653
+word_count: 16639
 section_count: 25
 table_count: 8
 figure_count: 171
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2024
 revision_count: 33
 revision_newest: 05/18/2024
 revision_oldest: 9/18/2014
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/vhic_4_29_um_v2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/vhic_4_29_um_v2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=274"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/vhic_4_29_um_v2.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/vhic_4_29_um_v2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=274
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Veteran Health Identification Card (VHIC 4.29)
-
-  User Guide
----
-
 ![](vhic-4-29-user-guide-vol-2-reports/001.png)
 
 Volume 2 - Reports

@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*163
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '''Table 1: Rules: DBQ – Male Reproductive System Conditions – Name of'''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - diagnosis
-  - class
-  - enabled
-  - strong
-  - mandatory
-  - veteran
-  - male
-  - reproductive
-  - else
-  - please
 page_count: 0
 word_count: 13912
 section_count: 17
 table_count: 96
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_malereproductive_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_malereproductive_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_malereproductive_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p163_dbq_malereproductive_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-163-workflow-male-reproductive-system-conditions/001.png)

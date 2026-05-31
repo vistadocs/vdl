@@ -1,23 +1,64 @@
 ---
-consolidated_title: "user manual change pages"
-app_code: PSS
+title: PSS*1*159 User Manual Change Pages
 doc_type: UM
-master_source: "PSS*1*159 User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Change Pages
+app_code: PSS
+app_name: 'Pharmacy: Data Management'
+section: CLI
+app_status: active
+pkg_ns: PSS
+patch_ver: 1
+patch_id: PSS*1*159
+group_key: PSS:PSS:1
+file_numbers:
+- '10'
+- '50.606'
+- '50.6061'
+- '50.68'
+- '50.7'
+- '50.711'
+- '51.2'
+- '51.23'
+security_keys: []
+menu_options: 6
+description: '- (Revised December 2011) - [Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 4360
+section_count: 4
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: September 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p159_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p159_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
+master_source: PSS*1*159 User Manual Change Pages
 master_pub_date: September 1997
 consolidated_from: 13 versions
 prior_versions:
-  - "PSS*1*137 User Manual Change Pages"
-  - "PSS*1*140 User Manual Change Pages"
-  - "PSS*1*141 User Manual Change Pages"
-  - "PSS*1*142 User Manual Change Pages"
-  - "PSS*1*143 User Manual Change Pages"
-  - "PSS*1*146 User Manual Change Pages"
-  - "PSS*1*147 User Manual Change Pages"
-  - "PSS*1*153 User Manual Change Pages"
-  - "PSS*1*155 User Manual Change Pages"
-  - "PSS*1*163 User Manual Change Pages"
-  - "PSS*1*172 User Manual Change Pages"
-  - "PSS*1*174 User Manual Change Pages"
+- PSS*1*137 User Manual Change Pages
+- PSS*1*140 User Manual Change Pages
+- PSS*1*141 User Manual Change Pages
+- PSS*1*142 User Manual Change Pages
+- PSS*1*143 User Manual Change Pages
+- PSS*1*146 User Manual Change Pages
+- PSS*1*147 User Manual Change Pages
+- PSS*1*153 User Manual Change Pages
+- PSS*1*155 User Manual Change Pages
+- PSS*1*163 User Manual Change Pages
+- PSS*1*172 User Manual Change Pages
+- PSS*1*174 User Manual Change Pages
+consolidated_title: user manual change pages
 ---
 
 #### ![](pss-1-159-user-manual-change-pages/001.png) 
@@ -38,7 +79,7 @@ PHARMACY DATA MANAGEMENT
 ## Table of Contents
 
 - [(Revised December 2011)](#revised-december-2011)
-- [Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.](#each-time-this-manual-is-updated-the-title-page-lists-the-new-revised-date-and-this-page-describes-the-changes-if-the-revised-pages-column-lists-all-replace-the-existing-manual-with-the-reissued-manual-if-the-revised-pages-column-lists-individual-entries-eg-25-32-either-update-the-existing-manual-with-the-change-pages-document-or-print-the-entire-new-manual)
+- [Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.](#each-time-this-manual-is-updated-the-title-page-lists-the-new-revised-date-and-this-page-describes-the-changes-if-the-revised-pages-column-lists-all-replace-the-existing-manual-with-the-reissued-manual-if-the-revised-pages-column-lists-individual-entries-eg-25-32-either-update-the-existing-manual-with-the-change-pages-document-or-print-the-entire-new-manual)
   - [(This side left blank for two-sided copying)](#this-side-left-blank-for-two-sided-copying)
     - [Example 3: Drug Enter/Edit Editing Local Possible Dosages and Orderable Item (continued)](#example-3-drug-enteredit-editing-local-possible-dosages-and-orderable-item-continued)
     - [Example 3: Drug Enter/Edit Editing Local Possible Dosages and Orderable Item (continued)](#example-3-drug-enteredit-editing-local-possible-dosages-and-orderable-item-continued-1)
@@ -47,20 +88,20 @@ PHARMACY DATA MANAGEMENT
     - [Example 4: Drug Enter/Edit Editing Non-VA Medications (continued)](#example-4-drug-enteredit-editing-non-va-medications-continued)
   - [(This side left blank for two-sided copying)](#this-side-left-blank-for-two-sided-copying-2)
     - [Example 4: Reactivated Standard Medication Route](#example-4-reactivated-standard-medication-route)
-- [Patch PSS\1\153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO,” the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO,” no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.](#patch-pss1153-added-the-ability-to-include-printing-the-possible-med-routes-multiple-if-the-default-med-route-field-is-populated-then-that-value-will-be-returned-as-the-default-value-if-the-default-med-route-field-is-not-populated-and-the-possible-med-routes-multiple-is-populated-with-a-single-entry-and-the-use-dosage-form-med-route-list-field-is-set-to-no-the-single-entry-will-be-returned-as-the-default-value-if-the-default-med-route-field-is-not-populated-and-the-possible-med-routes-multiple-is-populated-with-more-than-one-entry-and-the-use-dosage-form-med-route-list-field-is-set-to-no-no-value-will-be-returned-as-the-default-value-the-med-routes-selection-list-in-cprs-will-be-populated-with-all-the-medication-routes-associated-with-the-orderable-items-dosage-form-if-the-use-dosage-form-med-route-list-field-is-set-to-yes-otherwise-it-will-be-populated-from-the-possible-med-routes-multiple-these-conditions-are-shown-in-the-following-table-and-examples-are-provided)
+- [Patch PSS\1\153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO," the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO," no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.](#patch-pss1153-added-the-ability-to-include-printing-the-possible-med-routes-multiple-if-the-default-med-route-field-is-populated-then-that-value-will-be-returned-as-the-default-value-if-the-default-med-route-field-is-not-populated-and-the-possible-med-routes-multiple-is-populated-with-a-single-entry-and-the-use-dosage-form-med-route-list-field-is-set-to-no-the-single-entry-will-be-returned-as-the-default-value-if-the-default-med-route-field-is-not-populated-and-the-possible-med-routes-multiple-is-populated-with-more-than-one-entry-and-the-use-dosage-form-med-route-list-field-is-set-to-no-no-value-will-be-returned-as-the-default-value-the-med-routes-selection-list-in-cprs-will-be-populated-with-all-the-medication-routes-associated-with-the-orderable-items-dosage-form-if-the-use-dosage-form-med-route-list-field-is-set-to-yes-otherwise-it-will-be-populated-from-the-possible-med-routes-multiple-these-conditions-are-shown-in-the-following-table-and-examples-are-provided)
     - [Example 1: Default Med Route for Orderable Item Report](#example-1-default-med-route-for-orderable-item-report)
-- [The Edit Orderable Items \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.](#the-edit-orderable-items-pss-edit-orderable-items-option-allows-the-user-to-enter-and-edit-data-in-the-pharmacy-orderable-item-file-507-if-a-pharmacy-orderable-item-drug-text-entry-is-identified-at-the-oi-drug-text-prompt-it-will-be-viewable-during-medication-order-entry-processes-through-cprs-outpatient-pharmacy-and-inpatient-medications-pharmacy-orderable-item-defaults-can-be-entered-for-selected-fields-these-defaults-will-be-displayed-to-the-user-during-the-medication-order-entry-processes-for-all-applications-through-which-medication-orders-can-be-entered)
+- [The Edit Orderable Items \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.](#the-edit-orderable-items-pss-edit-orderable-items-option-allows-the-user-to-enter-and-edit-data-in-the-pharmacy-orderable-item-file-507-if-a-pharmacy-orderable-item-drug-text-entry-is-identified-at-the-oi-drug-text-prompt-it-will-be-viewable-during-medication-order-entry-processes-through-cprs-outpatient-pharmacy-and-inpatient-medications-pharmacy-orderable-item-defaults-can-be-entered-for-selected-fields-these-defaults-will-be-displayed-to-the-user-during-the-medication-order-entry-processes-for-all-applications-through-which-medication-orders-can-be-entered)
 - [The default medication route for CPRS will be derived from the DEFAULT MED ROUTE field (#.06) of the PHARMACY ORDERABLE ITEM file (#50.7) if it is populated or from the POSSIBLE MED ROUTES multiple (#50.711) of the PHARMACY ORDERABLE ITEM file](#the-default-medication-route-for-cprs-will-be-derived-from-the-default-med-route-field-06-of-the-pharmacy-orderable-item-file-507-if-it-is-populated-or-from-the-possible-med-routes-multiple-50711-of-the-pharmacy-orderable-item-file)
 - [Additional med routes for selection in the drop-down list in CPRS will be derived from the POSSIBLE MED ROUTES multiple (#50.711) if the USE DOSAGE FORM MED ROUTE](#additional-med-routes-for-selection-in-the-drop-down-list-in-cprs-will-be-derived-from-the-possible-med-routes-multiple-50711-if-the-use-dosage-form-med-route)
 - [The method of deriving the appropriate medication routes listed above will be for Inpatient Medications unit dose orders, IV Fluids orders, and Outpatient Pharmacy orders entered via CPRS orders dialog.](#the-method-of-deriving-the-appropriate-medication-routes-listed-above-will-be-for-inpatient-medications-unit-dose-orders-iv-fluids-orders-and-outpatient-pharmacy-orders-entered-via-cprs-orders-dialog)
-    - [Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO”](#example-1-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-no)
-    - [Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO” and there are no Default Med Route nor Possible Med Routes](#example-2-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-no-and-there-are-no-default-med-route-nor-possible-med-routes)
-    - [Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “YES”](#example-3-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-yes)
+    - [Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO"](#example-1-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-no)
+    - [Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO" and there are no Default Med Route nor Possible Med Routes](#example-2-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-no-and-there-are-no-default-med-route-nor-possible-med-routes)
+    - [Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "YES"](#example-3-edit-orderable-items-with-use-dosage-form-med-route-list-set-to-yes)
 - [If the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping for the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\1\141 and PSB\3\47.](#if-the-orderable-item-being-edited-is-matched-to-any-dispense-drugs-that-are-in-va-drug-classes-im100-through-im900-an-additional-prompt-will-appear-to-permit-mapping-for-the-orderable-item-to-an-associated-immunization-file-entry-this-feature-is-introduced-with-the-immunizations-documentation-by-bcma-application-in-patches-pss1141-and-psb347)
     - [Example: Editing Immunization-Related Pharmacy Orderable Items](#example-editing-immunization-related-pharmacy-orderable-items)
 > Department of Veterans Affairs Product Development
 
-# Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+# Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -139,7 +180,7 @@ PHARMACY DATA MANAGEMENT
 <td><blockquote>
 <p>PSS*1*136 &amp; PSS*1*117</p>
 </blockquote></td>
-<td><p>Besides the developer’s changes, this document incorporates the comments from <mark>REDACTED</mark> and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
+<td><p>Besides the developer's changes, this document incorporates the comments from <mark>REDACTED</mark> and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
 <p>Sections changed are:</p>
 <ul>
 <li><p>Changed overview of menu item descriptions to match application</p></li>
@@ -686,7 +727,7 @@ DISPENSE UNIT:
 
 > The *Default Med Route for OI Report* option is listed on the *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu. This report can be used to help identify the current default medication routes for the orderable items. The following is an example of the report.
 
-# Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO,” the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO,” no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.
+# Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO," the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO," no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -744,7 +785,7 @@ DISPENSE UNIT:
 </blockquote></td>
 <td>N</td>
 <td>Y</td>
-<td>All medication routes associated with orderable item’s dosage form</td>
+<td>All medication routes associated with orderable item's dosage form</td>
 </tr>
 </tbody>
 </table>
@@ -920,7 +961,7 @@ DISPENSE UNIT:
 
 > \[PSS EDIT ORDERABLE ITEMS\]
 
-# The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+# The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -944,11 +985,11 @@ DISPENSE UNIT:
 
 > Additionally, a report is available to view all current default medication routes as well as all possible med routes for the listed orderable items. See the section entitled *Default Med Route For OI Report* \[PSSDEF MED ROUTE OI RPT\].
 
-### Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO”
+### Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO” (continued)
+> Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO" (continued)
 
 > Dispense Drugs:
 
@@ -998,7 +1039,7 @@ DISPENSE UNIT:
 
 > Select SYNONYM:
 
-### Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO” and there are no Default Med Route nor Possible Med Routes
+### Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO" and there are no Default Med Route nor Possible Med Routes
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1050,7 +1091,7 @@ DISPENSE UNIT:
 
 > Select SYNONYM:
 
-### Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “YES”
+### Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "YES"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1158,7 +1199,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 ### From: PSS*1*153 User Manual Change Pages
 
-### Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+### Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1538,7 +1579,7 @@ DISPENSE UNIT:
 > \[PSS DEF MED ROUTE OI RPT\]
 > The *Default Med Route for OI Report* option is listed on the *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu. This report can be used to help identify the current default medication routes for the orderable items. Example 3 below illustrates the report.
 
-### Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO”, the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to “NO”, no value will be returned as the default value. The med routes selection list in CPRS will be populated with entries in all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES"; otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.
+### Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple. If the DEFAULT MED ROUTE field is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO", the single entry will be returned as the default value. If the DEFAULT MED ROUTE field is not populated and the POSSIBLE MED ROUTES multiple is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field is set to "NO", no value will be returned as the default value. The med routes selection list in CPRS will be populated with entries in all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field is set to "YES"; otherwise it will be populated from the POSSIBLE MED ROUTES multiple. These conditions are shown in the following table and examples are provided.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1615,19 +1656,19 @@ DISPENSE UNIT:
 <p>Y</p>
 </blockquote></td>
 <td><blockquote>
-<p>All medication routes associated with orderable item’s dosage form</p>
+<p>All medication routes associated with orderable item's dosage form</p>
 </blockquote></td>
 </tr>
 </tbody>
 </table>
 
-#### Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO”
+#### Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO"
 
-> Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “NO” continued
+> Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "NO" continued
 
-#### Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “YES”
+#### Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "YES"
 
-> Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to “YES” continued
+> Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST set to "YES" continued
 
 #### Are you sure you want to edit this Orderable Item? NO//Y YES
 
@@ -1880,7 +1921,7 @@ DISPENSE UNIT:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### The *Edit Orderabl*e *Items* option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+### The *Edit Orderabl*e *Items* option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -2086,7 +2127,7 @@ DISPENSE UNIT:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <table>
 <colgroup>
@@ -2257,7 +2298,7 @@ DISPENSE UNIT:
 <td><blockquote>
 <p>PSS*1*136 &amp; PSS*1*117</p>
 </blockquote></td>
-<td><p>Besides the developer’s changes, this document incorporates the comments from <mark>REDACTED</mark> and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
+<td><p>Besides the developer's changes, this document incorporates the comments from <mark>REDACTED</mark> and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
 <p>Sections changed are:</p>
 <ul>
 <li><p>Changed overview of menu item descriptions to match application</p></li>
@@ -2741,7 +2782,7 @@ DISPENSE UNIT:
 - Inactivation of a standard medication route
 - Change (add/delete/modify) to an FDB Medication Route Mapping
 
-> If a local medication route that is marked for ‘All Packages’ is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
+> If a local medication route that is marked for 'All Packages' is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
 
 > The MailMan message will include the reason for notification, what was updated and will also include any automatic mapping activities that occurred from the local Medication Routes file to the Standard Medication Routes file.
 
@@ -2947,11 +2988,11 @@ DISPENSE UNIT:
 - Used in IV Fluid Order Entry
 - Additive Frequency
 
-> If the user chooses to print only the IV Additives marked with ‘1 BAG/DAY’ in the Additive Frequency field or those entries with nothing entered in the Additive Frequency field and none are found, the report will display ‘No IV Additives marked as '1 BAG/DAY' or ‘No IV Additives marked as null’ respectively.
+> If the user chooses to print only the IV Additives marked with '1 BAG/DAY' in the Additive Frequency field or those entries with nothing entered in the Additive Frequency field and none are found, the report will display 'No IV Additives marked as '1 BAG/DAY' or 'No IV Additives marked as null' respectively.
 
 > Example 1: User selects only IV Additives marked with no value in the Additive Frequency Field
 
-> Example 2: User Selects Only IV Additives marked with ‘1BAG/DAY’ in the Additive Frequency Field
+> Example 2: User Selects Only IV Additives marked with '1BAG/DAY' in the Additive Frequency Field
 
 > Example 3: User selects all IV Additives
 
@@ -3041,7 +3082,7 @@ DISPENSE UNIT:
 - Used in IV Fluid Order Entry
 - PreMix
 
-> If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display ‘No IV Solutions marked as PreMixes found.’
+> If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display 'No IV Solutions marked as PreMixes found.'
 
 > Example 1: User selects only solutions marked as PreMix
 
@@ -3359,7 +3400,7 @@ PreMix: YES
 
 #### Multiple Automated Dispensing Devices (ADD)
 
-> Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE File (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt “OP EXTERNAL DISPENSE:” must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
+> Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE File (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt "OP EXTERNAL DISPENSE:" must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
 
 > Example 1: Assigning Dispensing Device for a Drug
 
@@ -3410,7 +3451,7 @@ PreMix: YES
 
 > The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH
 
-> DEXTROMETHORPHAN SYRUP in CPRS after the conjunction “OF” was provided using the
+> DEXTROMETHORPHAN SYRUP in CPRS after the conjunction "OF" was provided using the
 
 > *Dosage Form File Enter/Edit* option.
 
@@ -3442,7 +3483,7 @@ PreMix: YES
 
 > Once the Possible Dosages have been created, doses can be deleted or added by editing the DISPENSE UNITS PER DOSE field using the *Enter/Edit Dosages* option. The DOSE field is automatically calculated by multiplying the DISPENSE UNITS PER DOSE field times the STRENGTH field. For example, if the PROPRANOLOL TABLET is commonly given in a 10MG dose, and there is not a Dispense Drug entry in DRUG file (#50) of PROPRANOLOL HCL 10MG TAB, a Dispense Units Per Dose of .5 can be added for the PROPRANOLOL HCL 20MG TAB, and a dose of 10MG will be created. If a dose of 60MG is sometimes given for PROPRANOLOL TAB, entering a Dispense Units Per Dose of 3 for the PROPRANOLOL HCL 20MG TAB drug will provide a 60MG dose. Similarly, if the 80MG dose is rarely given, the Dispense Units Per Dose of 2 can be deleted for the PROPRANOLOL HCL 40MG TAB drug, and the 80MG dose will be deleted.
 
-> The PACKAGE field can also be edited, but this is a “controlled” type of edit. If the Dosage Form/Unit Combination is not marked as convertible in the DOSAGE FORM file (#50.606) for the package, then that package cannot be added as a package for that Possible Dosage. Strength can also be edited in the DRUG file (#50). If the strength is edited, then all of the doses are automatically re-calculated based on the DISPENSE UNITS PER DOSE and new STRENGTH entry. It is recommended that the strength only be edited in the rare case that the Dispense Drug must be matched to a VA Product with an inappropriate strength. (This scenario is discussed in further detail later in this document.) In summary, by adding new DISPENSE UNITS PER DOSE of .5 and 3 to the PROPRANOLOL HCL 20MG TAB entry, and by deleting the DISPENSE UNITS PER DOSE of 2 for the PROPRANOLOL HCL 40MG TAB entry, the
+> The PACKAGE field can also be edited, but this is a "controlled" type of edit. If the Dosage Form/Unit Combination is not marked as convertible in the DOSAGE FORM file (#50.606) for the package, then that package cannot be added as a package for that Possible Dosage. Strength can also be edited in the DRUG file (#50). If the strength is edited, then all of the doses are automatically re-calculated based on the DISPENSE UNITS PER DOSE and new STRENGTH entry. It is recommended that the strength only be edited in the rare case that the Dispense Drug must be matched to a VA Product with an inappropriate strength. (This scenario is discussed in further detail later in this document.) In summary, by adding new DISPENSE UNITS PER DOSE of .5 and 3 to the PROPRANOLOL HCL 20MG TAB entry, and by deleting the DISPENSE UNITS PER DOSE of 2 for the PROPRANOLOL HCL 40MG TAB entry, the
 
 > following Possible Dosages now exist for PROPRANOLOL TAB Orderable Item. (See Diagram D.)
 
@@ -3464,7 +3505,7 @@ PreMix: YES
 
 > In the TIMOLOL example, a review of the Dosage Form entry for SOLN,OPH, shows that the Dispense Units Per Dose of 1 and 2 are designated, and a Noun of DROP(S) is specified. If the *Auto Create Dosages* option is rerun with the current setup, no Possible Dosages for the two TIMOLOL drugs will be created because the drugs do not meet all four Possible Dosages criteria. Local Possible Dosages will be created of 1 DROP and 2 DROPS.
 
-> If a NOUN ends in “(S)” or “(s)”, such as TABLET(S) or capsule(s), the “(S)” or “(s)” will be completely dropped from the Noun when building the SIGs, as long as the Dispense Units Per Dose is 1 or less. If the Dispense Units Per Dose is greater than 1, the parenthesis around the “(S)” will be eliminated, creating a plural Noun, such as TABLETS. For this to happen, the Noun must precisely end in the three characters “(S)”.
+> If a NOUN ends in "(S)" or "(s)", such as TABLET(S) or capsule(s), the "(S)" or "(s)" will be completely dropped from the Noun when building the SIGs, as long as the Dispense Units Per Dose is 1 or less. If the Dispense Units Per Dose is greater than 1, the parenthesis around the "(S)" will be eliminated, creating a plural Noun, such as TABLETS. For this to happen, the Noun must precisely end in the three characters "(S)".
 
 > Keep in mind that if an Orderable Item is selected in CPRS, and there are Possible Dosages for any of the Dispense Drugs tied to that Orderable Item, only the Possible Dosages will be returned and any Local Possible Dosages will be ignored. Local Possible Dosages will only be used when no Possible Dosages can be found for drugs tied to the selected Orderable Item and identified for use by the selected application (Inpatient Medications or Outpatient Pharmacy).
 
@@ -3480,7 +3521,7 @@ PreMix: YES
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *Edit Orderabl*e *Items* option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+> The *Edit Orderabl*e *Items* option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 > The *Edit Orderable Items* option allows the user to enter a default medication route. If a default medication route has been defined for an orderable item and the Default Med Route for CPRS field is set to YES (see the *Pharmacy System Parameters Edit* \[PSS SYS EDIT\] section for details), that default medication route will be the only route displayed for selection from the
 
@@ -3518,7 +3559,7 @@ PreMix: YES
 
 > The *Standard Schedule Edit* option allows the user to enter or edit entries in the ADMINISTRATION SCHEDULE file (#51.1). The set of times associated with the standard dosage administration schedules can be assigned, as can ward-specific administration times. This feature may be used to define the outpatient expansion to be used when the schedule is entered for an Outpatient Pharmacy medication order. Entry of a frequency in minutes allows the software to calculate the interval between dosages for Inpatient Medication orders and BCMA and is used by Outpatient Pharmacy to calculate default quantities. When the frequency is entered, a message displays telling the user, in hours, how often the administration will occur. If the schedule type is on call, the system does not require a frequency.
 
-> Schedules with a frequency that is not evenly divisible into or by 24 hours are considered ‘odd’. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times.
+> Schedules with a frequency that is not evenly divisible into or by 24 hours are considered 'odd'. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times.
 
 > Continuous, non-odd schedules still require administration times.
 
@@ -3534,7 +3575,7 @@ PreMix: YES
 
 > If the type of schedule for an administration schedule used for an order is designated as ONE- TIME or ON CALL or if the Schedule Type for a Unit Dose order is ONE-TIME or ON CALL only a maximum single dosage check will be performed on the order and a frequency is not needed. General dosing information for the drug will also be provided.
 
-> If the TYPE OF SCHEDULE for an Administration Schedule within an order is designated as DAY OF THE WEEK, the number of administration times will be used to determine the frequency in order to perform a daily dose range check. If none are defined, a frequency of ‘1’ will be assumed.
+> If the TYPE OF SCHEDULE for an Administration Schedule within an order is designated as DAY OF THE WEEK, the number of administration times will be used to determine the frequency in order to perform a daily dose range check. If none are defined, a frequency of '1' will be assumed.
 
 > ![](pss-1-142-user-manual-change-pages/005.png)![](pss-1-142-user-manual-change-pages/006.png)![](pss-1-142-user-manual-change-pages/007.png)Note: A schedule name of OTHER is not allowed. This name is used to allow building a Day-of-Week and/or admin-time schedule in CPRS.
 
@@ -3552,11 +3593,11 @@ PreMix: YES
 
 > The system shall validate, for schedules with a Schedule Type of Continuous and a frequency of 1 day (1440 minutes) or less that the number of administration times is less than or equal to 1440 divided by the frequency. For example, a schedule frequency of 720 minutes must have at least one administration time and cannot exceed two administration times. Similarly, a schedule frequency of 360 minutes must have at least one administration time but cannot exceed four administration times.
 
-> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater
+> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater
 
 > 84 Pharmacy Data Management V. 1.0 June 2010 User Manual
 
-> than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+> than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 ### Schedule Edit Validation Two
 
@@ -3564,7 +3605,7 @@ PreMix: YES
 
 > The system shall validate for frequencies greater than one day (1440 minutes), that only one administration time is permitted. The system shall present an error message to the user if more than one administration time is entered.
 
-> The error message: “This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted.” shall appear if more than one administration time is entered.
+> The error message: "This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted." shall appear if more than one administration time is entered.
 
 ### Schedule Edit Validation Three
 
@@ -3572,7 +3613,7 @@ PreMix: YES
 
 > In the Standard Administration Times and the Ward Administration Times fields in the PSS SCHEDULE EDIT option, for a schedule that has a Schedule Type of Continuous, the system shall prevent a user from entering administration times to Odd Schedules {a schedule whose frequency is not evenly divisible by or into 1440 minutes (1 day)}.
 
-> The system shall present an error message to the user if an administration time is entered. The error message: “This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order.” shall appear.
+> The system shall present an error message to the user if an administration time is entered. The error message: "This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order." shall appear.
 
 ### Schedule Edit Validation Four
 
@@ -3580,7 +3621,7 @@ PreMix: YES
 
 > A validation to TYPE OF SCHEDULE field in the PSS SCHEDULE EDIT was added to remove frequency from the schedule file entry, if the TYPE OF SCHEDULE is changed from CONTINUOUS to ONE TIME, PRN, ON CALL, or DAY OF WEEK.
 
-> The warning message: “The Type of Schedule has changed. The frequency will be removed.” shall appear.
+> The warning message: "The Type of Schedule has changed. The frequency will be removed." shall appear.
 
 ### Schedule Edit Validation Five
 
@@ -3588,7 +3629,7 @@ PreMix: YES
 
 > In the PSS SCHEDULE EDIT option, the system shall prevent a user from creating Day of Week (DOW) schedules that are not in the correct day of week order. The correct order is: SU- MO-TU-WE-TH-FR-SA. The system shall display an error message if the user does not enter the correct order.
 
-> The error message: “The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA.” shall appear.
+> The error message: "The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA." shall appear.
 
 > June 2010 Pharmacy Data Management V. 1.0 84a User Manual
 
@@ -3598,7 +3639,7 @@ PreMix: YES
 
 > The *Administration Schedule File Report* option prints out entries from the ADMINISTRATION SCHEDULE file (#51.1) in order to check to see if a frequency is defined. A report can be run for all administration schedules or only the administration schedules without a defined frequency.
 
-> Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to ‘PSJ’ will be included in the report.
+> Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to 'PSJ' will be included in the report.
 
 > The report can be set to print in either an 80 or 132 column format.
 
@@ -3616,10 +3657,10 @@ PreMix: YES
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *Medication Route File Enter/Edit* option .provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the “OUTPATIENT EXPANSION” prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES
+> The *Medication Route File Enter/Edit* option .provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the "OUTPATIENT EXPANSION" prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES
 > file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
 > The *Medication Route File Enter/Edit* option allows the user to enter an interpretation of the OUTPATIENT EXPANSION field in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field, PDM will default to the value entered in the OUTPATIENT EXPANSION field. If no values exist in the OUTPATIENT EXPANSION and OTHER LANGUAGE EXPANSION fields, the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry. See Appendix G for a list of Spanish equivalents for some of the more common medication routes.
-> The *Medication Route File Enter/Edit* option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages’ to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for ‘All Packages.’
+> The *Medication Route File Enter/Edit* option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages' to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for 'All Packages.'
 > 1.8.5 Default Med Route For OI Report
 
 ### \[PSS DEF MED ROUTE OI RPT\]
@@ -3841,7 +3882,7 @@ PreMix: YES
 
 > The *Standard Schedule Edit* option allows the user to enter or edit entries in the ADMINISTRATION SCHEDULE file (#51.1). The set of times associated with the standard dosage administration schedules can be assigned, as can ward-specific administration times. This feature may be used to define the outpatient expansion to be used when the schedule is entered for an Outpatient Pharmacy medication order. Entry of a frequency in minutes allows the software to calculate the interval between dosages for Inpatient Medication orders and BCMA and is used by Outpatient Pharmacy to calculate default quantities. When the frequency is entered, a message displays telling the user, in hours, how often the administration will occur. If the schedule type is on call, the system does not require a frequency.
 
-> Schedules with a frequency that is not evenly divisible into or by 24 hours are considered ‘odd’. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times.
+> Schedules with a frequency that is not evenly divisible into or by 24 hours are considered 'odd'. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times.
 
 > Continuous, non-odd schedules still require administration times.
 
@@ -3853,7 +3894,7 @@ PreMix: YES
 
 > If the type of schedule for an administration schedule used for an order is designated as ONE- TIME or ON CALL or if the Schedule Type for a Unit Dose order is ONE-TIME or ON CALL only a maximum single dosage check will be performed on the order and a frequency is not needed. General dosing information for the drug will also be provided.
 
-> If the TYPE OF SCHEDULE for an Administration Schedule within an order is designated as DAY OF THE WEEK, the number of administration times will be used to determine the frequency in order to perform a daily dose range check. If none are defined, a frequency of ‘1’ will be assumed.
+> If the TYPE OF SCHEDULE for an Administration Schedule within an order is designated as DAY OF THE WEEK, the number of administration times will be used to determine the frequency in order to perform a daily dose range check. If none are defined, a frequency of '1' will be assumed.
 
 > ![](pss-1-143-user-manual-change-pages/002.png)Note: A schedule name of OTHER is not allowed. This name is used to allow building a Day-of-Week and/or admin-time schedule in CPRS.
 
@@ -3871,9 +3912,9 @@ PreMix: YES
 
 > The system shall validate, for schedules with a Schedule Type of Continuous and a frequency of 1 day (1440 minutes) or less that the number of administration times is less than or equal to 1440 divided by the frequency. For example, a schedule frequency of 720 minutes must have at least one administration time and cannot exceed two administration times. Similarly, a schedule frequency of 360 minutes must have at least one administration time but cannot exceed four administration times.
 
-> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater
+> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater
 
-> than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+> than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 ### Schedule Edit Validation Two
 
@@ -3881,7 +3922,7 @@ PreMix: YES
 
 > The system shall validate for frequencies greater than one day (1440 minutes), that only one administration time is permitted. The system shall present an error message to the user if more than one administration time is entered.
 
-> The error message: “This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted.” shall appear if more than one administration time is entered.
+> The error message: "This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted." shall appear if more than one administration time is entered.
 
 ### Schedule Edit Validation Three
 
@@ -3889,7 +3930,7 @@ PreMix: YES
 
 > In the Standard Administration Times and the Ward Administration Times fields in the PSS SCHEDULE EDIT option, for a schedule that has a Schedule Type of Continuous, the system shall prevent a user from entering administration times to Odd Schedules {a schedule whose frequency is not evenly divisible by or into 1440 minutes (1 day)}.
 
-> The system shall present an error message to the user if an administration time is entered. The error message: “This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order.” shall appear.
+> The system shall present an error message to the user if an administration time is entered. The error message: "This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order." shall appear.
 
 ### Schedule Edit Validation Four
 
@@ -3897,7 +3938,7 @@ PreMix: YES
 
 > A validation to TYPE OF SCHEDULE field in the PSS SCHEDULE EDIT was added to remove frequency from the schedule file entry, if the TYPE OF SCHEDULE is changed from CONTINUOUS to ONE TIME, PRN, ON CALL, or DAY OF WEEK.
 
-> The warning message: “The Type of Schedule has changed. The frequency will be removed.” shall appear.
+> The warning message: "The Type of Schedule has changed. The frequency will be removed." shall appear.
 
 ### Schedule Edit Validation Five
 
@@ -3905,7 +3946,7 @@ PreMix: YES
 
 > In the PSS SCHEDULE EDIT option, the system shall prevent a user from creating Day of Week (DOW) schedules that are not in the correct day of week order. The correct order is: SU- MO-TU-WE-TH-FR-SA. The system shall display an error message if the user does not enter the correct order.
 
-> The error message: “The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA.” shall appear.
+> The error message: "The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA." shall appear.
 
 ### Non-VA Meds, Drug Enter/Edit, 39, 40
 
@@ -3939,7 +3980,7 @@ PreMix: YES
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *Dispense Drug/Orderable Item Maintenance* option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the “MED ROUTE” and “SCHEDULE TYPE” prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
+> The *Dispense Drug/Orderable Item Maintenance* option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the "MED ROUTE" and "SCHEDULE TYPE" prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
 
 > The *Dispense Drug/Orderable Item Maintenance* option allows the user to enter patient instructions in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE INSTRUCTIONS field, PDM will default to the value entered in the PATIENT INSTRUCTIONS field. If the PATIENT INSTRUCTIONS field does not contain data for the selected orderable item, the system will not present default patient instructions to the user during CPRS or Outpatient Pharmacy prescription order processing.
 
@@ -3947,7 +3988,7 @@ PreMix: YES
 
 > Example: Dispense Drug/Orderable Item Maintenance
 
-> Following the on-screen instructions of “Now editing Orderable Item,” if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
+> Following the on-screen instructions of "Now editing Orderable Item," if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
 
 > Example: Editing Immunization-Related Pharmacy Orderable Items
 

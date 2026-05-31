@@ -1,48 +1,54 @@
 ---
-title: "LA*5.2*67/LR*5.2*290 Laboratory: POC HL7 Interface Specifications Document"
+title: '''LA*5.2*67/LR*5.2*290 Laboratory: POC HL7 Interface Specifications Document'''
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: POC
-app_name: "Laboratory: Point of Care"
+app_name: 'Laboratory: Point of Care'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*67
-group_key: "POC:LA:5.2"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: POC:LA:5.2
 description: This document specifies an interface to the Veterans Health Information Systems and Technology Architecture (VistA) Laboratory software application based upon the Health Level Seven (HL7) Standard. This interface forms the basis for the exchange of healthcare information between the VistA Laboratory
-audience: 
-keywords: 
-  - message
-  - vista
-  - table
-  - number
-  - segment
-  - code
-  - application
-  - laboratory
-  - observation
-  - identifier
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '4'
+- '6'
+- '44'
+- '60'
+- '62.4'
+- '63'
+- '63.04'
+- '64'
+- '64.061'
+- '64.1'
+- '64.2'
+- '99'
+- '200'
+security_keys:
+- PROVIDER
+menu_options: 1
 page_count: 0
 word_count: 5711
 section_count: 4
 table_count: 34
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/lab_52_poc_hl7_spec.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/lab_52_poc_hl7_spec.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=149"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/lab_52_poc_hl7_spec.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Point_of_Care/lab_52_poc_hl7_spec.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=149
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-67-lr-5-2-290-laboratory-poc-hl7-interface-specifications-document/001.png)

@@ -3,7 +3,7 @@ title: DG*5.3*869/892/TIU*1*279 Missing Patient PRF Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PRF
 app_name: Patient Record Flags
 section: CLI
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*869
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
+group_key: PRF:DG:5.3
+description: '| | | | | |----------|----------|-----------------------------------------------------------------------------------------------------------------|------------------------------------| | Date | Revision | Description | Author | | 04/20/15 | 0.6 | DG\*5.3\*892 - On page 6, update to National...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '26.15'
+security_keys:
+- DGPF ASSIGNMENT
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - flag
-  - missing
-  - record
-  - category
-  - table
-  - contents
-  - national
-  - project
-  - report
 page_count: 0
 word_count: 1305
 section_count: 5
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 6
 revision_newest: 04/20/15
 revision_oldest: 05/29/13
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_release_notes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_release_notes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_release_notes.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_release_notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 Missing Patient

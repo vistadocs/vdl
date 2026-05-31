@@ -8,41 +8,37 @@ app_code: YS
 app_name: Mental Health
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: YS
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- PATIENT RECORD FLAGS (PRF) USER GUIDE - Version 5.3 - Revision History - Orientation - Legal Requirements - Intended Audience - Disclaimers -...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '26.15'
+- '40.8'
+security_keys:
+- DGPF ASSIGNMENT
+- PF1
+- PROVIDER
 menu_options: 16
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - table
-  - patient
-  - flag
-  - contents
-  - record
-  - class
-  - style
-  - width
-  - health
 page_count: 0
 word_count: 11694
 section_count: 27
 table_count: 7
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/patrecflagug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/patrecflagug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/patrecflagug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/patrecflagug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 > ![](high-risk-mental-health-patient-patient-record-flags-user-guide/001.png)

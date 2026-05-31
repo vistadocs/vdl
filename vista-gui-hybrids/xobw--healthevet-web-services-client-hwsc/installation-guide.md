@@ -3,7 +3,7 @@ title: HealtheVet Web Services Client (HWSC) Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XOBW
 app_name: HealtheVet Web Services Client (HWSC)
 section: GUI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1
-group_key: "XOBW:XOBW:1"
-file_numbers: []
+group_key: XOBW:XOBW:1
+description: HEALTHEVET WEB SERVICES CLIENT(HWSC)INSTALLATION GUIDEVersion 1.0February
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '8989.3'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - xobw
-  - installation
-  - cach
-  - xobt
-  - class
-  - compiling
-  - install
-  - hwsc
 page_count: 0
 word_count: 7934
 section_count: 18
 table_count: 32
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw1_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
 
 ![](healthevet-web-services-client-hwsc-version-1-installation-guide/001.png)

@@ -1,15 +1,56 @@
 ---
-consolidated_title: "mobile electronic documentation (med) installation guide"
-app_code: MED
+title: TIU*1*262 Mobile Electronic Documentation (MED) Installation Guide
 doc_type: IG
-master_source: "TIU*1*262 Mobile Electronic Documentation (MED) Installation Guide"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Mobile Electronic Documentation (MED)
+app_code: MED
+app_name: Mobile Electronic Documentation
+section: CLI
+app_status: active
+pkg_ns: TIU
+patch_ver: 1
+patch_id: TIU*1*262
+group_key: MED:TIU:1
+file_numbers:
+- '4'
+- '49'
+- '200'
+- '8927'
+security_keys:
+- MED MANUAL OVERRIDE
+- MED MANUAL PATIENT
+- PF1
+- TIU MED MGT
+menu_options: 0
+description: Mobile Electronic Documentation (MED) 2.3 is a Veterans Health Information Systems and Technology Architecture (VistA) software application. It enables Department of Veterans Affairs (VA) staff to access a patient's previously downloaded electronic medical record information when not connected to th
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 6870
+section_count: 14
+table_count: 29
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2011
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/tiu_1_262_med_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/tiu_1_262_med_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=190
+audit_applied: '2026-05-31'
+master_source: TIU*1*262 Mobile Electronic Documentation (MED) Installation Guide
 master_pub_date: January 2011
 consolidated_from: 5 versions
 prior_versions:
-  - "TIU*1*244 Mobile Electronic Documentation (MED) Installation Guide"
-  - "TIU*1*264 Mobile Electronic Documentation (MED) Installation Guide"
-  - "TIU*1*311 Mobile Electronic Documentation (MED) Installation Guide"
-  - "TIU*1*315 Mobile Electronic Documentation (MED) Installation Guide"
+- TIU*1*244 Mobile Electronic Documentation (MED) Installation Guide
+- TIU*1*264 Mobile Electronic Documentation (MED) Installation Guide
+- TIU*1*311 Mobile Electronic Documentation (MED) Installation Guide
+- TIU*1*315 Mobile Electronic Documentation (MED) Installation Guide
+consolidated_title: mobile electronic documentation (med) installation guide
 ---
 
 ![](tiu-1-262-mobile-electronic-documentation-med-installation-guide/001.png)
@@ -1201,7 +1242,7 @@ Mobile Electronic Documentation v2.3.315.1 and the associated M patch are expect
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site’s discretion, within the constraints of the compliance period for the release.
+There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site's discretion, within the constraints of the compliance period for the release.
 
 ## Site Readiness Assessment 
 
@@ -1370,7 +1411,7 @@ Installation of Mobile Electronic Documentation v2.3.315.1 requires the followin
 - Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package TIU\*1.0\*315
 6.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//', respond NO.
-7.  When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, respond NO.
+7.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', respond NO.
 
 ### Mobile Electronic Documentation v2.3.315.1 GUI Installation
 
@@ -1392,7 +1433,7 @@ The following methods of installation of Mobile Electronic Documentation are ava
 
 > This method is typically the simplest to maintain, providing the local network infrastructure is robust enough to handle the additional traffic caused by users running the GUI executable (MED.exe) across the LAN.
 
-> The GUI executable (MED.exe), and help file (MED.chm), are copied to a network shared location. Users are provided with a desktop shortcut to run MED.exe directly from the network shared drive. The necessary command line parameters (VistA server address or name and RPC Broker Port number) are entered in the “Target” field of the shortcut properties
+> The GUI executable (MED.exe), and help file (MED.chm), are copied to a network shared location. Users are provided with a desktop shortcut to run MED.exe directly from the network shared drive. The necessary command line parameters (VistA server address or name and RPC Broker Port number) are entered in the "Target" field of the shortcut properties
 
 > At the time of a Mobile Electronic Documentation version update the copy of MED.exe and the help file are simply replaced, on the network share, with the new version.
 
@@ -1402,7 +1443,7 @@ The following methods of installation of Mobile Electronic Documentation are ava
 
 - Citrix installation:
 
-> The GUI executable (MED.exe) and associated files are installed and run from a remote workstation, and the user views the remote workstation’s screen on their local workstation.
+> The GUI executable (MED.exe) and associated files are installed and run from a remote workstation, and the user views the remote workstation's screen on their local workstation.
 
 > For the local site users, this method is on a similar level to the Network (shared) installation above. The users' workstations require only an appropriate shortcut (and the necessary Citrix Access Group (CAG) infrastructure).
 
@@ -1412,7 +1453,7 @@ The following methods of installation of Mobile Electronic Documentation are ava
 
 - Local workstation installation:
 
-  This is the “standard” method of installation where the GUI executable (MED.exe) and associated files are installed on and run from the user's local workstation. This method of installation initially requires the distribution and installation of a Microsoft Software Installation (MSI) file to each user's workstation, typically accomplished via SCCM. This is outside the scope of the Sustainment team. A National package (Mobile Electronic Documentation v2.3.315.1) has been prepared and made available to Regional COR Client Technologies leadership.
+  This is the "standard" method of installation where the GUI executable (MED.exe) and associated files are installed on and run from the user's local workstation. This method of installation initially requires the distribution and installation of a Microsoft Software Installation (MSI) file to each user's workstation, typically accomplished via SCCM. This is outside the scope of the Sustainment team. A National package (Mobile Electronic Documentation v2.3.315.1) has been prepared and made available to Regional COR Client Technologies leadership.
 - Manual install:
 
   This method is used for users who wish to have a production instance and a non-production instance running on the same machine. An example would be users who are testing this software or needs to have access to a pre-production (mirror) VistA instance.
@@ -1421,7 +1462,7 @@ The following methods of installation of Mobile Electronic Documentation are ava
 3.  Run the MedBatch.bat file as outlined in Appendix A. The system needs to be set to test during the testing phase. This will adjust the registries to point to the test DLL instead of the production one.
 
     Note: You need to have a user with Administrator rights to this PC to complete these steps.
-4.  Create a Shortcut and name it “Test MEDv315”. This is to give the user another visual cue that this is not the normal Mobile Electronic Documentation icon.
+4.  Create a Shortcut and name it "Test MEDv315". This is to give the user another visual cue that this is not the normal Mobile Electronic Documentation icon.
 
 <span id="_Toc517273827" class="anchor"></span>Figure 1: Shortcut Icon for Test MEDv315
 
@@ -1523,8 +1564,8 @@ These steps assume that the only reason to consider a back-out for Mobile Electr
 8.  If the decision is made to proceed with back-out and rollback, the HPS Sustainment Clinical team be available to assist sites that have misplaced their backup PackMan message, as well as give you the instructions on downloading the executable.
 9.  \[VistA\] (if needed)
 1.  Open the Backup MailMan Message
-2.  At the “Enter message action (in IN basket): Ignore//” prompt Enter “X” for \[Xtract PackMan\]
-3.  At the “Select PackMan function:” prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
+2.  At the "Enter message action (in IN basket): Ignore//" prompt Enter "X" for \[Xtract PackMan\]
+3.  At the "Select PackMan function:" prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
 4.  \[GUI\] (if needed) Coordinate with the appropriate IT support, local and regional, to schedule the time to install TIU\*1.0\*311 and to push out / install the previous GUI executable.
 10. Once TIU\*1.0\*311 and Mobile Electronic Documentation 2.3.311.6 have been installed, verify operations before making available to all staff.
 
@@ -1672,7 +1713,7 @@ proceed to STEP 1, otherwise go to STEP 3.
 
 STEP 1: Make note of the current TIU templates Update Path by opening MED and selecting a patient.
 
-> Select the ‘Tools’ menu, click Settings and simply make note of the Template Update Path name \>\>\>
+> Select the 'Tools' menu, click Settings and simply make note of the Template Update Path name \>\>\>
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/003.png)
 
@@ -1680,7 +1721,7 @@ STEP 1: Make note of the current TIU templates Update Path by opening MED and se
 
 STEP 2: Obtain and launch the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI program as administrator. Download instructions are defined in the TIU\*1.0\*311 patch description. It can be launched directly from the network share download directory or copied onto the laptop/client workstation and then run from that location.
 
-> Note *On a Windows7® PC, this means being logged on as an administrator, then right clicking the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSIand choosing “Run as Administrator.”*
+> Note *On a Windows7® PC, this means being logged on as an administrator, then right clicking the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSIand choosing "Run as Administrator."*
 
 > If TIU MED was previously installed you will see this dialog:
 
@@ -1690,7 +1731,7 @@ STEP 2: Obtain and launch the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI progra
 
 STEP 3: Obtain and launch the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI to install the MED Patch 311 Client and files. Download instructions are defined in the TIU\*1.0\*311 patch description. It can be launched directly from the network share download directory or copied onto the laptop/client workstation and then run from that location.
 
-> Note *On a Windows 7® PC, this means being signed on as an administrator, then right clicking the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSIand choosing “Run as Administrator.”*
+> Note *On a Windows 7® PC, this means being signed on as an administrator, then right clicking the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSIand choosing "Run as Administrator."*
 
 > The Install Wizard will present these dialogs to you:
 
@@ -1704,7 +1745,7 @@ STEP 3: Obtain and launch the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI to ins
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/007.png)
 
-> Note *Under Windows 7®, the default programs folder is “Program Files (x86)”.*
+> Note *Under Windows 7®, the default programs folder is "Program Files (x86)".*
 
 > *Under Windows XP®, the default programs folder is "Program Files."*
 
@@ -1724,13 +1765,13 @@ STEP 3: Obtain and launch the MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI to ins
 
 STEP 4: Configure the Launch MED icon target server and port so that MED knows what Vista system to connect to.
 
-> On the desktop, Right Click the “Launch MED” icon and choose properties.
+> On the desktop, Right Click the "Launch MED" icon and choose properties.
 
 > Enter the appropriate s=servername and p=rpcbrokerport on the Target line as follows:
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/011.png)
 
-> Don’t forget to Click the *APPLY* button.
+> Don't forget to Click the *APPLY* button.
 
  
 
@@ -1767,7 +1808,7 @@ Before deploying the HBPC laptop/client workstation to the user, the IRM or CAC 
 
 > In the Users & Settings dialogue, if not already selected, click on the Data & Files tab.
 
-> Next to "Template Update Path:" enter the network pathname where the TIU Templates are contained AND make sure ‘Retrieve Health Summaries’ is checked.
+> Next to "Template Update Path:" enter the network pathname where the TIU Templates are contained AND make sure 'Retrieve Health Summaries' is checked.
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/016.png)
 
@@ -1808,9 +1849,9 @@ Windows 7® registry for COM objects to properly launch in CPRS, otherwise your 
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/018.png)
 
-> Please note: This is not a CPRS software bug. In Windows XP®, when CPRS was launched by a non admin user, it properly registered itself because the registry wasn’t locked down like it is in Windows 7®.
+> Please note: This is not a CPRS software bug. In Windows XP®, when CPRS was launched by a non admin user, it properly registered itself because the registry wasn't locked down like it is in Windows 7®.
 
-> SOLUTION: CPRS will register itself in the registry automatically in Windows 7® if CPRS is launched once as ‘Run as Administrator’. Sign on to the laptop as an administrator. Right Click the CPRS Icon and select ‘Run as Administrator.’ You don’t even have to sign on to CPRS, just launching CPRS once as ‘run as administrator’ properly registers CPRS in the Windows 7® registry."
+> SOLUTION: CPRS will register itself in the registry automatically in Windows 7® if CPRS is launched once as 'Run as Administrator'. Sign on to the laptop as an administrator. Right Click the CPRS Icon and select 'Run as Administrator.' You don't even have to sign on to CPRS, just launching CPRS once as 'run as administrator' properly registers CPRS in the Windows 7® registry."
 
 The MOBILEELECTRONICDOCUMENTATION_TIU-1-311.MSI software automatically does the following:
 
@@ -1818,7 +1859,7 @@ Creates the Mobile Electronic Documentation folder in the Microsoft® Windows Pr
 
 > ![](tiu-1-311-mobile-electronic-documentation-med-installation-guide/019.png)
 
-NOTE \>\> under Windows 7® the program files directory is “Program Files (x86)”
+NOTE \>\> under Windows 7® the program files directory is "Program Files (x86)"
 
 - Adds a "Launch MED" shortcut icon on the laptop/client workstation, as shown below:
 

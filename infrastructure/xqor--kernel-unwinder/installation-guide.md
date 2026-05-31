@@ -3,52 +3,39 @@ title: XQOR Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: XQOR
 app_name: Kernel Unwinder
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: XQOR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| Date | Description | Author | |----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------| | 2/27/15 | Converted document to MS-Word 2007 format and incorporated...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '7.1'
 security_keys: []
 menu_options: 0
-description: - [Revision History](#revision-history) - [Preface](#preface) - [Unwinder Installation](#unwinder-installation) This document describes the installation of the XQOR routines. These routines are used in conjunction with the Protocol file to create modular building blocks for applications. The Unwinde
-audience: 
-keywords: 
-  - installation
-  - table
-  - contents
-  - unwinder
-  - routines
-  - xqor
-  - guide
-  - revision
-  - history
-  - preface
 page_count: 0
-word_count: 191
+word_count: 186
 section_count: 2
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1994
 revision_count: 1
 revision_newest: 2/27/15
 revision_oldest: 2/27/15
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqorig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqorig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=13"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqorig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqorig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=13
+audit_applied: '2026-05-31'
 ---
-
----
-title: Kernel Unwinder Installation Guide
----
-
 ![](xqor-installation-guide/001.png)
 
 Office of Information and Technology (OI&T)

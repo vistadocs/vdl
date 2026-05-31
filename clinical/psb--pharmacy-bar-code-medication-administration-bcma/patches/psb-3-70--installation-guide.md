@@ -5,44 +5,36 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: BCMA Clinic Orders, High Risk, etc T@Project Install Guide
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*70
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSB:PSB:3
 description: The purpose of this Installation Guide is to provide an explanation of the installation and implementation process for the Bar Code Medication Administration (BCMA) Clinic Orders, High Risk High Alert Drugs, IV Bag Logic, and T@0 project.
-audience: 
-keywords: 
-  - install
-  - table
-  - contents
-  - installation
-  - bcma
-  - patch
-  - want
-  - backup
-  - software
-  - options
+audience: System administrators performing installation
+keywords: []
+file_numbers: []
+security_keys:
+- CLINICIAN
+menu_options: 0
 page_count: 0
 word_count: 3725
 section_count: 19
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_imr6_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_imr6_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_imr6_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_imr6_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-70-bcma-clinic-orders-high-risk-etc-t-project-install-guide/001.png)

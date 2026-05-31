@@ -8,41 +8,33 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> The new VistARad diagnostic radiology reading software is used to retrieve and display full-resolution images and reports for radiology exams. VistARad is integrated with the VISTA Hospital Information System and with the Radiology Package in particular.'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2005'
 security_keys: []
 menu_options: 1
-description: > The new VistARad diagnostic radiology reading software is used to retrieve and display full-resolution images and reports for radiology exams. VistARad is integrated with the VISTA Hospital Information System and with the Radiology Package in particular.
-audience: 
-keywords: 
-  - class
-  - table
-  - blockquote
-  - contents
-  - image
-  - strong
-  - even
-  - patient
-  - style
-  - width
 page_count: 0
 word_count: 2591
 section_count: 20
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/imgreleasents.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/imgreleasents.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/imgreleasents.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/imgreleasents.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-release-notes/001.png)

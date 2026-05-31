@@ -5,44 +5,43 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Herbal/OTC/Non-VA Meds Documentation
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*132
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '''Non-VA Meds functionality affects Pharmacy Data Management in the following ways:'''
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '8'
+- '50'
+- '50.7'
+- '55'
+- '55.05'
+- '63'
+- '100'
+security_keys:
+- PSORPH
 menu_options: 0
-description: "Non-VA Meds functionality affects Pharmacy Data Management in the following ways:"
-audience: 
-keywords: 
-  - meds
-  - drug
-  - table
-  - contents
-  - pharmacy
-  - report
-  - patient
-  - other
-  - entries
-  - medications
 page_count: 0
 word_count: 2981
 section_count: 15
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p132_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p132_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p132_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p132_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-132-herbal-otc-non-va-meds-documentation-release-notes/001.png)

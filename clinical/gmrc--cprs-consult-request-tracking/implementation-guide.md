@@ -5,45 +5,43 @@ doc_label: Implementation Guide
 doc_layer: plain
 doc_subject: Inter-Facility Consults
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 391
-security_keys: []
+pkg_ns: GMRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: GMRC*3.0*58 Added errors 702 & 703 October 2008
+audience: ''
+keywords: []
+file_numbers:
+- '4.2'
+- '123'
+- '123.3'
+- '123.5'
+- '123.6'
+- '391.91'
+- '870'
+security_keys:
+- PROVIDER
 menu_options: 7
-description: "<table> <colgroup> <col style=\\"width: 43%\\" /> <col style=\\"width: 23%\\" /> <col style=\\"width: 33%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td>Originally released</td> <td>April 2002</td> <td></td> </tr> <tr class=\\"even\\"> <td>Patch 28</td> <td>October 2002</td> <td></td> </tr> <tr class=\\"odd\\"> <td>192"
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - facility
-  - error
-  - consult
-  - table
-  - patient
-  - contents
-  - service
-  - inter
-  - procedure
-  - site
 page_count: 0
 word_count: 13185
 section_count: 52
 table_count: 72
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consifc.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consifc.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consifc.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consifc.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
 
 ![](inter-facility-consults-implementation-guide/001.png)

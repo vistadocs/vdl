@@ -11,40 +11,38 @@ app_status: active
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: 
-  - 78
-  - 79
-security_keys: []
+group_key: RA:RA:5
+description: February 2007 2.0 Fully updated to include current functionality Document reformatted to meet current Documentation
+audience: ''
+keywords: []
+file_numbers:
+- '78.3'
+- '79'
+- '771'
+- '772'
+- '869.3'
+- '870'
+security_keys:
+- CLINICIAN
+- PROVIDER
+- RA VERIFY
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - message
-  - report
-  - event
-  - vista
-  - link
-  - interface
-  - application
-  - radiology
-  - cots
-  - protocol
 page_count: 0
 word_count: 24182
 section_count: 33
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](radiology-version-5-hl7-setup-manual/001.png)

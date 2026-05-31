@@ -3,7 +3,7 @@ title: AICS Version 3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
@@ -11,39 +11,36 @@ app_status: active
 pkg_ns: IBD
 patch_ver: 3
 patch_id: IBD*3
-group_key: "IBD:IBD:3"
-file_numbers: 
-  - 357
-security_keys: []
+group_key: IBD:IBD:3
+description: This is the technical manual for the Automated Information Collection System (AICS) V. 3.0 software package. It is designed to assist IRM personnel in operation and maintenance of the package.
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '357.03'
+- '357.09'
+- '357.95'
+- '357.96'
+- '359.2'
+- '359.3'
+security_keys:
+- PROVIDER
 menu_options: 3
-description: "<table> <colgroup> <col style=\\"width: 14%\\" /> <col style=\\"width: 14%\\" /> <col style=\\"width: 46%\\" /> <col style=\\"width: 25%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><strong>Date</strong></td> <td><strong>Version</strong></td> <td><strong>Description</strong></td> <td><strong>Author</strong></td> "
-audience: 
-keywords: 
-  - class
-  - span
-  - encounter
-  - aics
-  - anchor
-  - form
-  - forms
-  - print
-  - package
-  - options
 page_count: 0
 word_count: 4844
 section_count: 0
 table_count: 42
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 aUTOMATED iNFORMATIONCOLLECTION SYSTEMAICSTECHNICALManual

@@ -1,12 +1,45 @@
 ---
-consolidated_title: "tmp tmp dibrg"
-app_code: TMP
+title: TMP Version 8.0 TMP DIBRG 4.9.0.12
 doc_type: DIBR
-master_source: "TMP Version 8.0 TMP DIBRG 4.9.0.12"
-master_pub_date: revision_count: 0
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: anchor
+doc_subject: TMP DIBRG 4.9.0.12
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 8.0
+patch_id: TMP*8.0
+group_key: TMP:TMP:8.0
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |--------------------|---------|----------------------------------------------------------------------------------------------|----------| | April 29, 2022 | 7.1 | Renamed release 4.9.0.10 to \ | TMP Team | | Jan 11, 2021 | 7.0 | Added URL to CRM code and...'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 4678
+section_count: 20
+table_count: 11
+figure_count: 2
+appendix_count: 2
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_4_9_0_12.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_4_9_0_12.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 8.0 TMP DIBRG 4.9.0.12
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "TMP Version 8.0 TMP DIBRG 4.9.0.11"
+- TMP Version 8.0 TMP DIBRG 4.9.0.11
+consolidated_title: tmp tmp dibrg
 ---
 
 Telehealth Management Platform
@@ -697,7 +730,7 @@ This section provides steps to deploy the TMP related changes in the Production 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Navigate to the <https://gcc.admin.powerplatform.microsoft.us/environments>
-2.  Select the production environment “VA TMP Prod”.
+2.  Select the production environment "VA TMP Prod".
 3.  Create a manual backup as shown below: ![](tmp-version-8-0-tmp-dibrg-4-9-0-12/007.png)
 4.  Please wait till you see a message similar to below:
 
@@ -836,17 +869,17 @@ PROD EAST: ihs-lob-prod-tmp-east; vvs-lob-prod-east; vvs-ec-prod-east; mvi-lob-p
     1.  Using the XrmToolKit open the Data Migration Tool.
     2.  Connect to TMP Dev Environment
     3.  Filter Tables to the mcs_setting Table.
-    4.  Filter the records to by name matching “VALD Feature”.
+    4.  Filter the records to by name matching "VALD Feature".
     5.  Connect to SQA as the Target Environment.
     6.  Click on the Export menu and select the Data option.
     7.  Select the folder in which to save the Export to.
     8.  Confirm the alert message by clicking on the Yes button. Then click OK to acknowledge the notification.
-    9.  Click on the Import men and select the “From last exported” option.
+    9.  Click on the Import men and select the "From last exported" option.
     10. Confirm the alert message by clicking on the Yes button. Then click OK to acknowledge the notification.
 
 Integrations Deployment (Kudu)Manual Configuration:
 
-Step 1: select any one of the TSA’s which is approved and set the review date to 60 days from the current day for testing and save.
+Step 1: select any one of the TSA's which is approved and set the review date to 60 days from the current day for testing and save.
 
 Step 2: Click on advance settings and navigate to email automation Entity and open the entity.
 
@@ -906,9 +939,9 @@ create new Scheduling Package for VVC Test Call
 
 - Migrate the integration settings record where name is VVSLoanedDevices
 
-11\. For Patient search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option set Touch ‘last name’ on all record.
+11\. For Patient search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option set Touch 'last name' on all record.
 
-Select ‘include all records returned’
+Select 'include all records returned'
 
 <span class="mark">\<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"\></span>
 
@@ -926,9 +959,9 @@ Select ‘include all records returned’
 
 <span class="mark">\</fetch\></span>
 
-<span class="mark">12.</span> For Appointment search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option set Touch on ‘customers’ all record.
+<span class="mark">12.</span> For Appointment search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option set Touch on 'customers' all record.
 
-Select ‘include all records returned’
+Select 'include all records returned'
 
 <span class="mark">\<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"\></span>
 
@@ -946,9 +979,9 @@ Select ‘include all records returned’
 
 <span class="mark">\</fetch\></span>
 
-13\. For Reserve Respource search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option setTouch on ‘optionalattendees’ all record.
+13\. For Reserve Respource search, Use XrmToolbox tool bulk updater to update all Patient records to have a new field updated with Lastname+ SSN. To do this use the below fetchxml, and use the option setTouch on 'optionalattendees' all record.
 
-Select ‘include all records returned’
+Select 'include all records returned'
 
 <span class="mark">\<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"\></span>
 
@@ -984,7 +1017,7 @@ Select ‘include all records returned’
 
 ![](tmp-version-8-0-tmp-dibrg-4-9-0-12/026.png)
 
-17\. Delete the Last 4(tmp_last4) field in patient entity. Kindly make sure the right field is deleted as there are 2 other fields with the same display name of ‘Last 4’.
+17\. Delete the Last 4(tmp_last4) field in patient entity. Kindly make sure the right field is deleted as there are 2 other fields with the same display name of 'Last 4'.
 
 ![](tmp-version-8-0-tmp-dibrg-4-9-0-12/027.png)
 
@@ -995,8 +1028,8 @@ Select ‘include all records returned’
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Navigate to the <https://gcc.admin.powerplatform.microsoft.us/environments>
-2.  Select the production environment “VA TMP Prod”.
-3.  Select Restore or manage under “Backups” link:
+2.  Select the production environment "VA TMP Prod".
+3.  Select Restore or manage under "Backups" link:
 
 > ![](tmp-version-8-0-tmp-dibrg-4-9-0-12/028.png)
 

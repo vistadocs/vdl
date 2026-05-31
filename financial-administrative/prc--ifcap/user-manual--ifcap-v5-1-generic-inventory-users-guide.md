@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
+group_key: PRC:PRC:5.1
+description: '> This option will automatically generate a Primary or Supply Warehouse Inventory Point repetitive item list or a Secondary Inventory Point Distribution Order. The auto-generation will use the selected group categories and those vendors (stored in the mandatory or suggested source field in the Primar'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '440'
 security_keys: []
 menu_options: 0
-description: > This option will automatically generate a Primary or Supply Warehouse Inventory Point repetitive item list or a Secondary Inventory Point Distribution Order. The auto-generation will use the selected group categories and those vendors (stored in the mandatory or suggested source ﬁeld in the Primar
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - style
-  - width
-  - table
-  - strong
-  - colspan
-  - contents
-  - report
-  - even
 page_count: 0
 word_count: 34109
 section_count: 62
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1gip.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1gip.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1gip.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1gip.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 > Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP)

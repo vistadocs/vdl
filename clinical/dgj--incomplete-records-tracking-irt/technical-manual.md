@@ -3,7 +3,7 @@ title: Incomplete Records Tracking (IRT) Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DGJ
 app_name: Incomplete Records Tracking (IRT)
 section: CLI
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: DGJ
 patch_ver: 1
 patch_id: DGJ*1
-group_key: "DGJ:DGJ:1"
-file_numbers: []
-security_keys: []
+group_key: DGJ:DGJ:1
+description: '- Introduction 1 - Orientation 3 - General Information 5 - Implementation and Maintenance 7 - Routines 11 - Files 13 - Exported Options 15 -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '404.01'
+- '404.02'
+- '999.2'
+security_keys:
+- DGJ SUPER
+- PROVIDER
 menu_options: 0
-description: - [Introduction 1](#introduction-1) - [Orientation 3](#orientation-3) - [General Information 5](#general-information-5) - [Implementation and Maintenance 7](#implementation-and-maintenance-7) - [Routines 11](#routines-11) - [Files 13](#files-13) - [Exported Options 15](#exported-options-15) - [Archi
-audience: 
-keywords: 
-  - table
-  - contents
-  - package
-  - vaip
-  - physician
-  - vadpt
-  - incomplete
-  - entry
-  - patient
-  - options
 page_count: 0
 word_count: 4823
 section_count: 14
 table_count: 22
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=124"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=124
+audit_applied: '2026-05-31'
 ---
 
 ![](incomplete-records-tracking-irt-version-1-technical-manual/001.png)

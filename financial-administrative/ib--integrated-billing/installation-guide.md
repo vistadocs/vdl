@@ -3,7 +3,7 @@ title: Integrated Billing Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,39 +11,56 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2
-group_key: "IB:IB:2"
-file_numbers: 
-  - 350
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - filed
-  - ibini
-  - protocol
-  - blockquote
-  - table
-  - contents
-  - routine
-  - ibdf
-  - installation
-  - billing
+group_key: IB:IB:2
+description: '- Department of Veterans Affairs Decentralized Hospital Computer Program - Information Systems Center Albany, New York - Introduction - [This package includes...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '2.0'
+- '9.4'
+- '40.8'
+- '350'
+- '350.2'
+- '350.21'
+- '350.3'
+- '350.8'
+- '350.9'
+- '351'
+- '353'
+- '354'
+- '354.1'
+- '355.3'
+- '357'
+- '357.1'
+- '357.2'
+- '357.3'
+- '357.4'
+- '357.5'
+- '362.3'
+- '399'
+- '399.1'
+- '399.2'
+- '399.3'
+security_keys:
+- PROVIDER
+menu_options: 5
 page_count: 0
 word_count: 16387
 section_count: 6
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 ### Department of Veterans Affairs Decentralized Hospital Computer Program

@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*271
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
+group_key: PRCA:PRCA:4.5
+description: '- Introduction - Documentation Distribution - Patch Description and Installation Instructions - Patch Description - [Pre/Post Installation...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '900231'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - prca
-  - patch
-  - installation
-  - table
-  - contents
-  - distribution
-  - install
-  - pharmacy
-  - version
-  - number
 page_count: 0
 word_count: 1820
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p271_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p271_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p271_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p271_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](prca-4-5-271-ar-epharmacy-phase-v-release-notes-and-installation-guide/001.png)

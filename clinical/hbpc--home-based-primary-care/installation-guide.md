@@ -3,7 +3,7 @@ title: Hospital Based Primary Care (former HBHC) Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: HBPC
 patch_ver: 1
 patch_id: HBPC*1
-group_key: "HBPC:HBPC:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: HBPC:HBPC:1
 description: This package was developed under Kernel 7, FileMan 19, MailMan 7, MAS 5.1, and references the NEW PERSON (200) file.
-audience: 
-keywords: 
-  - hbhc
-  - filed
-  - edit
-  - hbhcrp
-  - package
-  - clinic
-  - fileman
-  - visit
-  - application
-  - coordinator
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '32'
+- '44'
+- '200'
+- '631.8'
+- '2500'
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 1300
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbhc_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

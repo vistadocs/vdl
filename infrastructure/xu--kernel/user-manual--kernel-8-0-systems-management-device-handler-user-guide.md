@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: Device Handler User Guide"
+title: '''Kernel 8.0 Systems Management: Device Handler User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: Device Handler"
+doc_subject: '''Systems Management: Device Handler'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,85 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '1.9'
+- '1.95'
+- '2'
+- '3'
+- '3.2'
+- '3.22'
+- '3.5'
+- '3.51'
+- '3.519'
+- '3.54'
+- '3.9'
+- '4'
+- '5'
+- '5.1'
+- '5.2'
+- '5.5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '11.2'
+- '14.4'
+- '19'
+- '19.5'
+- '31'
+- '31.1'
+- '31.2'
+- '31.3'
+- '32'
+- '33'
+- '35'
+- '36'
+- '41'
+- '41.1'
+- '41.2'
+- '52'
+- '61'
+- '62'
+- '63'
+- '64'
+- '65'
+- '66'
+- '67'
+- '87'
+- '110'
+- '111'
+- '200'
+- '320'
+- '320.2'
+- '504'
+- '505'
+- '2009.5'
+- '8989.3'
+security_keys:
+- XUMGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - device
-  - span
-  - class
-  - table
-  - terminal
-  - spool
-  - contents
-  - figure
-  - anchor
-  - devices
 page_count: 0
-word_count: 17324
+word_count: 17316
 section_count: 24
 table_count: 15
 figure_count: 1
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_device_handler_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_device_handler_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_device_handler_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_device_handler_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Device Handler User Guide
----
-
 ![](kernel-8-0-systems-management-device-handler-user-guide/001.png)
 
 August 2025

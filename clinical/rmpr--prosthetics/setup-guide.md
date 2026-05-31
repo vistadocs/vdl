@@ -3,7 +3,7 @@ title: Prosthetics Version 3 Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '- [Prosthetics Security'
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- RMPR LAB ADMIN
+- RMPR LAB MENU
+- RMPR LAB SUPERVISOR
 menu_options: 7
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"overview\\">Overview</h5></td> <td><blockquote> <p>The Decentralized Hospital Computer Program (DHCP) Prosthetics package automates many functions for Prosthetics. The Record of Pr"
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - prosthetics
-  - module
-  - rmpr
-  - access
 page_count: 0
 word_count: 2508
 section_count: 2
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmprsg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmprsg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmprsg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmprsg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

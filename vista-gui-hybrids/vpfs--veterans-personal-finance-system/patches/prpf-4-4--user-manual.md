@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: PRPF
 patch_ver: 4
 patch_id: PRPF*4*4
-group_key: "VPFS:PRPF:4"
-file_numbers: []
-security_keys: []
+group_key: VPFS:PRPF:4
+description: Appendix A.Migration Business Rules..............................................................................................................A-1
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '200'
+- '470'
+- '470.1'
+- '470.2'
+- '470.3'
+security_keys:
+- PROVIDER
+- PRPF SUPERVISOR
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 10%\\" /> <col style=\\"width: 13%\\" /> <col style=\\"width: 33%\\" /> <col style=\\"width: 20%\\" /> <col style=\\"width: 21%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><blockquote> <p><strong>Version</strong></p> </blockquote></th> <th><strong>Section Changed</strong></"
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - blank
-  - table
-  - style
-  - width
-  - cannot
-  - patient
-  - diagnostic
 page_count: 0
 word_count: 9810
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_datamigrationpatchuserguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_datamigrationpatchuserguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=170"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_datamigrationpatchuserguide.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_datamigrationpatchuserguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=170
+audit_applied: '2026-05-31'
 ---
 
 > Veterans Personal Finance System

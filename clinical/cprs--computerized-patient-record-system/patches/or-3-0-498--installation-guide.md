@@ -11,48 +11,33 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*498
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3.0
 description: CPRS v31b Follow-Up Build is a multi-package build that addresses several defects identified during the deployment of the CPRS v31b series of patches.
-audience: 
-keywords: 
-  - table
-  - cprs
-  - contents
-  - install
-  - send
-  - site
-  - installation
-  - build
-  - routine
-  - follow
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '790.9'
+security_keys:
+- DIUSER
+- ENTER
+menu_options: 0
 page_count: 0
-word_count: 7011
+word_count: 6994
 section_count: 24
 table_count: 1
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_498_dibr_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_498_dibr_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_498_dibr_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_498_dibr_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  Version 31b Follow-Up Build
----
-
 Deployment, Installation, Back Out and Rollback Guide
 
 ![](or-3-0-498-cprs-v31b-followup-deployment-installation-back-out-and-rollback-guid/001.png)

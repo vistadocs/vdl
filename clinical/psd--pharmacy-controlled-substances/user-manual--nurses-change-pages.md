@@ -1,20 +1,58 @@
 ---
-consolidated_title: "nurse's user manual change pages"
-app_code: PSD
+title: PSD*3*69 Nurse's User Manual Change Pages
 doc_type: UM
-master_source: "PSD*3*69 Nurse's User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Nurse's Change Pages
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: active
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3*69
+group_key: PSD:PSD:3
+file_numbers: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDMGR
+- PSJ PHARM TECH
+- PSJ RPHARM
+menu_options: 0
+description: '> The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 535
+section_count: 1
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p69_nurse_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p69_nurse_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
+master_source: PSD*3*69 Nurse's User Manual Change Pages
 master_pub_date: March 1997
 consolidated_from: 3 versions
 prior_versions:
-  - "PSD*3*71 Nurse's User Manual Change Pages"
-  - "PSD*3*76 Nurse's User Manual Change Pages"
+- PSD*3*71 Nurse's User Manual Change Pages
+- PSD*3*76 Nurse's User Manual Change Pages
+consolidated_title: nurse's user manual change pages
 ---
 
 > ![](psd-3-69-nurse-s-user-manual-change-pages/001.png)
 
 CONTROLLED SUBSTANCES
 
-> NURSES’ USER MANUAL
+> NURSES' USER MANUAL
 
 > Version 3.0
 
@@ -66,7 +104,7 @@ CONTROLLED SUBSTANCES
 <td><blockquote>
 <p>PSD*3*69</p>
 </blockquote></td>
-<td><p>Added description of patch’s new security key PSD TECH ADV, and PSD TECH key.</p>
+<td><p>Added description of patch's new security key PSD TECH ADV, and PSD TECH key.</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
 <tr class="even">
@@ -206,7 +244,7 @@ CONTROLLED SUBSTANCES
 
 > PSD TRAN This key should be allocated to the Inpatient Pharmacy Coordinator(s). This key controls the access to the Transfer NAOU Stock Entries option. Users can copy stock entries from one NAOU into another NAOU or from an AR/WS AOU into an NAOU.
 
-> PSDMGR This key should be allocated to the Inpatient Pharmacy Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the Supervisor’s Menu options \[PSD MGR\].
+> PSDMGR This key should be allocated to the Inpatient Pharmacy Package Coordinator(s) or his/her designee. This lock controls the editing of CS files for package set up. This key locks the Supervisor's Menu options \[PSD MGR\].
 
 > PSJ PHARM TECH This key should be allocated to pharmacy technicians
 

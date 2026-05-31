@@ -3,46 +3,47 @@ title: PSJ*5*260/268 Supervisor User Manual Change Pages
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Supervisor  Change Pages
+doc_subject: Supervisor Change Pages
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*260
-group_key: "PSJ:PSJ:5"
-file_numbers: []
-security_keys: []
+group_key: PSJ:PSJ:5
+description: '> The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages Document, or replace it with the updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '50'
+- '50.68'
+- '51.1'
+- '51.2'
+- '57.5'
+- '59.5'
+security_keys:
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI MGR
 menu_options: 1
-description: > The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages Document, or replace it with the updated manual.
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - even
-  - example
-  - table
-  - style
-  - width
-  - updated
-  - contents
 page_count: 0
 word_count: 1796
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_supr_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_supr_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_supr_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p260_p268_supr_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-260-268-supervisor-user-manual-change-pages/001.png)

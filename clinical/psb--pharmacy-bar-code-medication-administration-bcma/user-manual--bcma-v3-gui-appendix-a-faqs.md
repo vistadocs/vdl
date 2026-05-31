@@ -3,46 +3,45 @@ title: BCMA Version 3 GUI User Manual - Appendix A (FAQs)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: GUI  - Appendix A (FAQs)
+doc_subject: GUI - Appendix A (FAQs)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: '[IRM-Related Questions and Answers'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '50'
+- '52.6'
+security_keys:
+- PSB INSTRUCTOR
+- PSB STUDENT
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI PHARM TECH
 menu_options: 7
-description: - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs) - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs-1) - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs-2) - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs-3) - [Fre
-audience: 
-keywords: 
-  - bcma
-  - order
-  - questions
-  - medication
-  - table
-  - frequently
-  - asked
-  - faqs
-  - orders
-  - patient
 page_count: 0
 word_count: 7242
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM_APPENDIX_A_FAQS.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM_APPENDIX_A_FAQS.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM_APPENDIX_A_FAQS.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM_APPENDIX_A_FAQS.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 Appendix A: Frequently Asked Questions

@@ -3,7 +3,7 @@ title: GMRV*5*44 Deployment, Installation, Back Out, and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: GMRV
 app_name: Vitals/Measurements
 section: CLI
@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: GMRV
 patch_ver: 5
 patch_id: GMRV*5*44
-group_key: "GMRV:GMRV:5"
+group_key: GMRV:GMRV:5
+description: 01/2021 Section 1 Introduction, add note regarding Vitals Manager Section 5.1, remove EXCEPTION parameters
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - vitals
-  - installation
-  - back
-  - rollback
-  - deployment
-  - class
-  - lite
-  - vista
 page_count: 0
-word_count: 4495
+word_count: 4478
 section_count: 30
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/gmrv_5_0_44_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/gmrv_5_0_44_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=107"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/gmrv_5_0_44_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/gmrv_5_0_44_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Vitals Suite (GMRV\*5.0\*44)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](gmrv-5-44-deployment-installation-back-out-and-rollback-guide/001.png)
 
 January 2021

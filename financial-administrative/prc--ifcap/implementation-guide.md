@@ -11,42 +11,56 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: 
-  - 410
-  - 411
-  - 441
-  - 442
+group_key: PRC:PRC:5.1
+description: Integrated Funds Distribution, Control Point Activity, Accounting and Procurement
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '004'
+- '4'
+- '5'
+- '6'
+- '7'
+- '10'
+- '17'
+- '18'
+- '106'
+- '107'
+- '200'
+- '410'
+- '410.02'
+- '410.3'
+- '411'
+- '414'
+- '414.01'
+- '414.02'
+- '414.03'
+- '414.04'
+- '440'
+- '441'
+- '442'
+- '442.01'
+- '8989.51'
 security_keys: []
 menu_options: 7
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - dynamed
-  - ifcap
-  - table
-  - even
-  - contents
-  - message
-  - vendor
-  - control
 page_count: 0
 word_count: 36337
 section_count: 65
 table_count: 106
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1dynamed_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1dynamed_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1dynamed_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1dynamed_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ![](ifcap-version-5-1-dynamed-ifcap-implementation-guide/001.png)

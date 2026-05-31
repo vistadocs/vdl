@@ -1,7 +1,7 @@
 ---
 title: OR*3.0*405 (CPRS v32b) Setup and Configuration Guide
 doc_type: CFG
-doc_label: Setup and Configuration Guide
+doc_label: Configuration Guide
 doc_layer: patch
 doc_subject: (CPRS v32b)
 app_code: CPRS
@@ -11,48 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*405
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3.0
 description: The Computerized Patient Record System (CPRS) is a Veterans Health Information Systems and Technology Architecture (VistA) suite of application packages. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order lab tests, medications,
-audience: 
-keywords: 
-  - table
-  - contents
-  - immunization
-  - cprs
-  - reminder
-  - quick
-  - prompt
-  - order
-  - installation
-  - class
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '100.03'
+security_keys:
+- ORMGR
+- PROVIDER
+menu_options: 0
 page_count: 0
-word_count: 3372
+word_count: 3356
 section_count: 24
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_setup_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_setup_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_setup_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_setup_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  Version 32b Build (OR\*3.0\*405)
----
-
 Setup and Configuration Guide
 
 ![](or-3-0-405-cprs-v32b-setup-and-configuration-guide/001.png)

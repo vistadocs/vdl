@@ -3,46 +3,48 @@ title: PSN*4*108 Technical Manual/Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSN
-app_name: "Pharmacy: National Drug File (NDF)"
+app_name: 'Pharmacy: National Drug File (NDF)'
 section: CLI
 app_status: active
 pkg_ns: PSN
 patch_ver: 4
 patch_id: PSN*4*108
-group_key: "PSN:PSN:4"
-file_numbers: []
-security_keys: []
+group_key: PSN:PSN:4
+description: '- Version 4.0 - Revision History - Files - Routines - Exported Options - National Drug File V. 4.0 Menu - Archiving and Purging - [Callable...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3'
+- '3.18'
+- '50'
+- '50.12'
+- '50.58'
+- '50.6'
+- '50.64'
+- '50.67'
+- '50.68'
+- '100'
+security_keys:
+- PSNMGR
 menu_options: 1
-description: - [Version 4.0](#version-40) - [Revision History](#revision-history) - [Files](#files) - [Routines](#routines) - [Exported Options](#exported-options) - [National Drug File V. 4.0 Menu](#national-drug-file-v-40-menu) - [Archiving and Purging](#archiving-and-purging) - [Callable Routines](#callable-r
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - contents
-  - strong
-  - added
-  - style
-  - width
-  - routines
-  - even
 page_count: 0
 word_count: 1658
 section_count: 8
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/psn_4_p108_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/psn_4_p108_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=89"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/psn_4_p108_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/psn_4_p108_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=89
+audit_applied: '2026-05-31'
 ---
 
 > ![](psn-4-108-technical-manual-security-guide-change-pages/001.png)

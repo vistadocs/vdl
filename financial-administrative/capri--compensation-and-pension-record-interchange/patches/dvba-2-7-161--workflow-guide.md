@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*161
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '| | | | |---------|--------------------------------------|----------| | Date | Description (Patch \# if applicable) | Author | | 9/30/10 | Document created for Patch 161. | REDACTED | | 2/22/11 | Corrections and revisions | REDACTED'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - eating
-  - class
-  - strong
-  - table
-  - span
-  - disorders
-  - style
-  - width
-  - contents
-  - anchor
 page_count: 0
 word_count: 3384
 section_count: 10
 table_count: 31
 figure_count: 2
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2011
 revision_count: 2
 revision_newest: 2/22/11
 revision_oldest: 9/30/10
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p161_dbq_eatingdisorders_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p161_dbq_eatingdisorders_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p161_dbq_eatingdisorders_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p161_dbq_eatingdisorders_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-161-workflow-dbq-eating-disorders/001.png)

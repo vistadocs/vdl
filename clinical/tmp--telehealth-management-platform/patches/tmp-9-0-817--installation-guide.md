@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 9.0
 patch_id: TMP*9.0*817
-group_key: "TMP:TMP:9.0"
-file_numbers: []
+group_key: TMP:TMP:9.0
+description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\821 patch
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '40.6'
+- '409.84'
 security_keys: []
 menu_options: 0
-description: The Deployment, Installation, Back-Out and Rollback Guide defines the ordered, technical steps required to install the product, back out the installation (if necessary), and roll back to the previously installed version of the product. It provides installation instructions for the SD\5.3\821 patch
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - patch
-  - rollback
-  - install
-  - procedure
-  - clinic
-  - telehealth
 page_count: 0
 word_count: 2033
 section_count: 25
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2022
 revision_count: 1
 revision_newest: 10/14/2022
 revision_oldest: 10/14/2022
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_817_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_817_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_817_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/sd_5_3_817_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Scheduling Package EnhancementPatch SD\*5.3\*821

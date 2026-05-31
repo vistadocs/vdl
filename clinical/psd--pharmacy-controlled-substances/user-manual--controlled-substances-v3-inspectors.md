@@ -3,46 +3,43 @@ title: Controlled Substances Version 3 Inspector's User Manual (Updated PSD*3*82
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Inspector's  (Updated PSD*3*82)
+doc_subject: Inspector's (Updated PSD*3*82)
 app_code: PSD
-app_name: "Pharmacy: Controlled Substances"
+app_name: 'Pharmacy: Controlled Substances'
 section: CLI
 app_status: active
 pkg_ns: PSD
 patch_ver: 3
 patch_id: PSD*3
-group_key: "PSD:PSD:3"
+group_key: PSD:PSD:3
+description: '> The Controlled Substances (CS) computer software package V. 3.0 is one segment of the Veterans Health Information Systems and Technology Architecture (VISTA) in use at the Department of Veterans Affairs Medical Centers (VAMCs). This package provides functionality to monitor and track the receipt,'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
 menu_options: 1
-description: > The Controlled Substances (CS) computer software package V. 3.0 is one segment of the Veterans Health Information Systems and Technology Architecture (VISTA) in use at the Department of Veterans Affairs Medical Centers (VAMCs). This package provides functionality to monitor and track the receipt,
-audience: 
-keywords: 
-  - report
-  - controlled
-  - date
-  - substances
-  - pharmacy
-  - inspector
-  - table
-  - contents
-  - trakker
-  - green
 page_count: 0
 word_count: 5796
 section_count: 17
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_insp_um_r0618.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_insp_um_r0618.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=86"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_insp_um_r0618.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_insp_um_r0618.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
 ---
 
 > ![](controlled-substances-version-3-inspector-s-user-manual-updated-psd-3-82/001.png)

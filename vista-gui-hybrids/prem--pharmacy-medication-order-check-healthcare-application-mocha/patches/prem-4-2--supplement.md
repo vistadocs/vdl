@@ -5,55 +5,36 @@ doc_label: Production Operations Manual
 doc_layer: patch
 doc_subject: MOCHA Server Productions Operations Manual
 app_code: PREM
-app_name: "Pharmacy: Medication Order Check Healthcare Application (MOCHA)"
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
 section: GUI
 app_status: active
 pkg_ns: PREM
 patch_ver: 4
 patch_id: PREM*4*2
-group_key: "PREM:PREM:4"
+group_key: PREM:PREM:4
+description: 04/24/2025 2.1 Updated MOCHA to version 4.0.2 Tech Edits Liberty IT
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - mocha
-  - server
-  - contents
-  - database
-  - class
-  - application
-  - operations
-  - maintenance
-  - errors
 page_count: 0
-word_count: 5373
+word_count: 5352
 section_count: 13
 table_count: 4
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_POM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_POM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=201"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_POM.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_POM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Re-Engineering (PRE)
-
-  Medication Order Check Healthcare Application (MOCHA) Server 4.0.2
-
-  Production Operations Manual
----
-
 ![](prem-4-2-mocha-server-productions-operations-manual/001.png)
 
 May 2025

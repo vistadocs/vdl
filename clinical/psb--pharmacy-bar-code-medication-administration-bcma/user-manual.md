@@ -1,21 +1,57 @@
 ---
-consolidated_title: "bcma manager's user manual change pages"
-app_code: PSB
+title: PSB*3*42 BCMA Version 3 Manager's User Manual Change Pages
 doc_type: UM
-master_source: "PSB*3*42 BCMA Version 3 Manager's User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: BCMA Version 3 Manager's Change Pages
+app_code: PSB
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
+section: CLI
+app_status: active
+pkg_ns: PSB
+patch_ver: 3
+patch_id: PSB*3*42
+group_key: PSB:PSB:3
+file_numbers:
+- '4'
+- '50'
+security_keys:
+- PSB MGR
+menu_options: 3
+description: '> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 5011
+section_count: 3
+table_count: 0
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: February 2004
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p42_man_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p42_man_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
+master_source: PSB*3*42 BCMA Version 3 Manager's User Manual Change Pages
 master_pub_date: February 2004
 consolidated_from: 4 versions
 prior_versions:
-  - "PSB*3*47 BCMA Version 3 Manager's User Manual Change Pages"
-  - "PSB*3*58 BCMA Version 3 Manager's User Manual Change Pages"
-  - "PSB*3*68 BCMA Version 3 Manager's User Manual Change Pages"
+- PSB*3*47 BCMA Version 3 Manager's User Manual Change Pages
+- PSB*3*58 BCMA Version 3 Manager's User Manual Change Pages
+- PSB*3*68 BCMA Version 3 Manager's User Manual Change Pages
+consolidated_title: bcma manager's user manual change pages
 ---
 
 > ![](psb-3-42-bcma-version-3-manager-s-user-manual-change-pages/001.png)
 
 BAR CODE MEDICATION ADMINISTRATION (BCMA)
 
-> MANAGER’S USER MANUAL
+> MANAGER'S USER MANUAL
 
 ## Version 3.0
 
@@ -31,7 +67,7 @@ BAR CODE MEDICATION ADMINISTRATION (BCMA)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <table>
 <colgroup>
@@ -100,7 +136,7 @@ BAR CODE MEDICATION ADMINISTRATION (BCMA)
 </tbody>
 </table>
 
-> ii BCMA V. 3.0 Manager’s User Manual January 2009
+> ii BCMA V. 3.0 Manager's User Manual January 2009
 
 Introduction 1
 
@@ -152,7 +188,7 @@ Creating a Follow-up Message for a Missing Dose Request 37
 
 Resetting User Parameters 41
 
-Resetting a User’s Default Parameter Settings 41
+Resetting a User's Default Parameter Settings 41
 
 Using the Trouble Shoot Med Log 43
 
@@ -232,7 +268,7 @@ Defining the Tools Menu in VistA 49
 <th><blockquote>
 <p><strong>Defining and Updating Site Parameters for Your Division (cont.)</strong></p>
 <p><strong>TIP:</strong></p>
-<p>Modifying the “BCMA On-line” parameter affects <em>all</em> users signing on to your division.</p>
+<p>Modifying the "BCMA On-line" parameter affects <em>all</em> users signing on to your division.</p>
 <p>Multi-division sites must disable access to each site.</p>
 </blockquote></th>
 <th><blockquote>
@@ -240,18 +276,18 @@ Defining the Tools Menu in VistA 49
 <p>The Facility Tab, on the BCMA Site Parameters Main Screen, provides the following functions:</p>
 <p><strong>Facility Information (Read-Only):</strong> This area provides read-only information populated by the INSTITUTION</p>
 <p>file (#4).</p>
-<p><strong>BCMA On-Line:</strong> This option (check box) under the “BCMA Status for Division” section lets IRM personnel enable or disable all GUI BCMA options. It does not affect CHUI BCMA options.</p>
+<p><strong>BCMA On-Line:</strong> This option (check box) under the "BCMA Status for Division" section lets IRM personnel enable or disable all GUI BCMA options. It does not affect CHUI BCMA options.</p>
 </blockquote>
 <ul>
-<li><p><strong>If the “BCMA On-Line” check box is checked,</strong> the system is on-line and all GUI BCMA options are available.</p></li>
-<li><p><strong>If the “BCMA On-line” check box is <em>not c</em>hecked,</strong> all users currently logged on to GUI BCMA options will <em>not</em> be affected. However, when a user attempts to log on to the GUI options, the following Error message displays:</p></li>
+<li><p><strong>If the "BCMA On-Line" check box is checked,</strong> the system is on-line and all GUI BCMA options are available.</p></li>
+<li><p><strong>If the "BCMA On-line" check box is <em>not c</em>hecked,</strong> all users currently logged on to GUI BCMA options will <em>not</em> be affected. However, when a user attempts to log on to the GUI options, the following Error message displays:</p></li>
 </ul>
 <blockquote>
 <p><strong>Example: Error Message When BCMA Not Active for Your Site</strong></p>
 <p>![](psb-3-42-bcma-version-3-manager-s-user-manual-change-pages/003.png)</p>
 </blockquote>
 <ul>
-<li><p>If the “BCMA On-Line” check box is checked and you try to take it off-line by deselecting the check box, the following Warning message displays:</p></li>
+<li><p>If the "BCMA On-Line" check box is checked and you try to take it off-line by deselecting the check box, the following Warning message displays:</p></li>
 </ul>
 <blockquote>
 <p><strong>Example: Warning Message When All BCMA Users Are Being Disabled for Your Division</strong></p>
@@ -324,17 +360,17 @@ Defining the Tools Menu in VistA 49
 </ul></li>
 </ol>
 <blockquote>
-<p>entered using the BCMA CHUI or GUI menu options. The E-mail is sent to all members of the mail group, specifically Pharmacy, as a “fail safe” even if the designated Missing Dose printer is not functioning.</p>
+<p>entered using the BCMA CHUI or GUI menu options. The E-mail is sent to all members of the mail group, specifically Pharmacy, as a "fail safe" even if the designated Missing Dose printer is not functioning.</p>
 </blockquote>
 <ul>
-<li><p><strong>Unknown Actions:</strong> This field generates an E-mail message for any administration with an “Unknown” status while processing administrations to display on the VDL.</p></li>
-<li><p><strong>Unable to Scan:</strong> Generates an E-mail message to alert the mail group when a user creates an “Unable to Scan” entry and to assist in researching the reasons for a scanning failure.</p></li>
+<li><p><strong>Unknown Actions:</strong> This field generates an E-mail message for any administration with an "Unknown" status while processing administrations to display on the VDL.</p></li>
+<li><p><strong>Unable to Scan:</strong> Generates an E-mail message to alert the mail group when a user creates an "Unable to Scan" entry and to assist in researching the reasons for a scanning failure.</p></li>
 </ul>
 <ul>
 <li><p><strong>Reports Area</strong></p></li>
 </ul>
 <blockquote>
-<p><strong>Include Comments:</strong> This check box, when selected, will automatically check the “Include Comments” check box in the Report dialog box as the default setting for the Medication History Report and the Medication Log Report. If this is unchecked, the “Include Comments” check box will be unchecked, by default, in the related Report dialog box. Users can change the check box setting in the Printer dialog box as needed, depending on whether they wish to have the comments for the administration included on the report.</p>
+<p><strong>Include Comments:</strong> This check box, when selected, will automatically check the "Include Comments" check box in the Report dialog box as the default setting for the Medication History Report and the Medication Log Report. If this is unchecked, the "Include Comments" check box will be unchecked, by default, in the related Report dialog box. Users can change the check box setting in the Printer dialog box as needed, depending on whether they wish to have the comments for the administration included on the report.</p>
 <p><strong>Med Hist Days Back:</strong> This field lets you define the number of days in the past, from the current system date, that the Medication History Report should retrieve data. The allowable entry is 1 to 9999 days.</p>
 <p>The default is 30 days.</p>
 </blockquote>
@@ -444,7 +480,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>Active</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p>When a medication has been finished <em>and</em> verified, it becomes “active,” and displays on the VDL under the related Medication Tab. A nurse can then administer the medication to the patient. Under the IV Medication Tab, this information is listed in the Status column.</p>
+<p>When a medication has been finished <em>and</em> verified, it becomes "active," and displays on the VDL under the related Medication Tab. A nurse can then administer the medication to the patient. Under the IV Medication Tab, this information is listed in the Status column.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -463,7 +499,7 @@ Defining the Tools Menu in VistA 49
 </blockquote></td>
 <td><blockquote>
 <p>A marquee located in the lower, right-hand corner of the VDL that</p>
-<p>identifies PRN medication orders needing effectiveness documentation. The setting is based on the “PRN Documentation” site parameter, and applies to current admissions or the site parameter timeframe (whichever is greater). A mouse-over list displays when the pointer is placed over the PRN Effectiveness Activity, or a full list is available by double clicking on the Activity.</p>
+<p>identifies PRN medication orders needing effectiveness documentation. The setting is based on the "PRN Documentation" site parameter, and applies to current admissions or the site parameter timeframe (whichever is greater). A mouse-over list displays when the pointer is placed over the PRN Effectiveness Activity, or a full list is available by double clicking on the Activity.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -583,7 +619,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>Given</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p>When a medication is administered to a patient, it is considered to be “Given” and marked as such (with a “G”) in the Status column of the VDL.</p>
+<p>When a medication is administered to a patient, it is considered to be "Given" and marked as such (with a "G") in the Status column of the VDL.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -625,7 +661,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>Internal Entry Number</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p>Also called “IEN,” the internal entry drug number entered by Pharmacy</p>
+<p>Also called "IEN," the internal entry drug number entered by Pharmacy</p>
 <p>personnel into the DRUG file (#50) to identify Unit Dose and IV medications.</p>
 </blockquote></td>
 </tr>
@@ -644,7 +680,7 @@ Defining the Tools Menu in VistA 49
 </blockquote></td>
 <td><blockquote>
 <p>A mode in which BCMA can be accessed that provides medication</p>
-<p>administering users the ability to access patient records for non- medication administration documentation, review and reporting purposes without being at the patient’s bedside.</p>
+<p>administering users the ability to access patient records for non- medication administration documentation, review and reporting purposes without being at the patient's bedside.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -654,7 +690,7 @@ Defining the Tools Menu in VistA 49
 </blockquote></td>
 <td><p>![](psb-3-42-bcma-version-3-manager-s-user-manual-change-pages/029.png)</p>
 <blockquote>
-<p><strong>M</strong>edication <strong>A</strong>dministration <strong>H</strong>istory. A patient report that lists a clinician’s name and initials, and the exact time that an action was taken on an order (in a conventional MAR format). Each order is listed alphabetically by the orderable item. The Date column lists three asterisks (*) to indicate that a medication is not due. The report also lists information about when an order is placed “On Hold” and taken “Off Hold” by a provider, and the order Start and Stop Date/Time for the medication.</p>
+<p><strong>M</strong>edication <strong>A</strong>dministration <strong>H</strong>istory. A patient report that lists a clinician's name and initials, and the exact time that an action was taken on an order (in a conventional MAR format). Each order is listed alphabetically by the orderable item. The Date column lists three asterisks (*) to indicate that a medication is not due. The report also lists information about when an order is placed "On Hold" and taken "Off Hold" by a provider, and the order Start and Stop Date/Time for the medication.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -673,8 +709,8 @@ Defining the Tools Menu in VistA 49
 <p><strong>History Report</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p><strong>M</strong>edication <strong>A</strong>dministration <strong>H</strong>istory. A patient report that lists a clinician’s</p>
-<p>name and initials, and the exact time that an action was taken on an order (in a conventional MAR format). Each order is listed alphabetically by the orderable item. The Date column lists three asterisks (*) to indicate that a medication is not due. The report also lists information about when an order is placed “On Hold” and taken “Off Hold” by a provider, and the order Start and Stop Date/Time for the medication.</p>
+<p><strong>M</strong>edication <strong>A</strong>dministration <strong>H</strong>istory. A patient report that lists a clinician's</p>
+<p>name and initials, and the exact time that an action was taken on an order (in a conventional MAR format). Each order is listed alphabetically by the orderable item. The Date column lists three asterisks (*) to indicate that a medication is not due. The report also lists information about when an order is placed "On Hold" and taken "Off Hold" by a provider, and the order Start and Stop Date/Time for the medication.</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -752,7 +788,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>Security Keys</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p>Used to access specific options within BCMA V. 3.0 that are otherwise “locked” without the security key. Only users designated as “Holders” may access these options.</p>
+<p>Used to access specific options within BCMA V. 3.0 that are otherwise "locked" without the security key. Only users designated as "Holders" may access these options.</p>
 </blockquote>
 <p>![](psb-3-42-bcma-version-3-manager-s-user-manual-change-pages/041.png)</p></td>
 </tr>
@@ -814,7 +850,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>VDL</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p><strong>V</strong>irtual <strong>D</strong>ue <strong>L</strong>ist. An on-line “list” used by clinicians when administering</p>
+<p><strong>V</strong>irtual <strong>D</strong>ue <strong>L</strong>ist. An on-line "list" used by clinicians when administering</p>
 <p>active medication orders (i.e., Unit Dose, IV Push, IV Piggyback, and large-volume IVs) to a patient. This is the Main Screen in BCMA V. 3.0.</p>
 </blockquote></td>
 </tr>
@@ -831,7 +867,7 @@ Defining the Tools Menu in VistA 49
 <p><strong>Virtual Due List</strong></p>
 </blockquote></td>
 <td><blockquote>
-<p>Also called “VDL,” an on-line list used by clinicians when administering active medication orders to a patient. This is the Main Screen in BCMA V. 3.0.</p>
+<p>Also called "VDL," an on-line list used by clinicians when administering active medication orders to a patient. This is the Main Screen in BCMA V. 3.0.</p>
 </blockquote>
 <p>![](psb-3-42-bcma-version-3-manager-s-user-manual-change-pages/045.png)</p></td>
 </tr>
@@ -864,7 +900,7 @@ Defining the Tools Menu in VistA 49
 <th><blockquote>
 <p>The Indian Health Service (IHS) project requires the addition of a new parameter to the BCMA Parameters application. The IHS user- specified parameter entries are stored at the Division level and override corresponding System level values.</p>
 <p><strong>Working with the Parameters Tab</strong></p>
-<p>If the operating environment is Resource and Patient Management System (RPMS), the tab entitled “IHS” is added to the parameters application.</p>
+<p>If the operating environment is Resource and Patient Management System (RPMS), the tab entitled "IHS" is added to the parameters application.</p>
 <p>You can activate the IHS Tab by placing the cursor over the Tab and clicking once on it or by selecting Alt-H to access it directly. Doing so activates the site parameters for this Tab.</p>
 <p>This section describes the field available on the IHS Tab.</p>
 <p><strong>Example: Site Parameters Available IHS Tab</strong></p>
@@ -1068,7 +1104,7 @@ Defining the Tools Menu in VistA 49
 > R
 > Related Documentation, 2
 > Reports Area, Parameters Tab, 12-13
-> Reset User Parameters Sequence Screen, 39 Resetting a User’s Default Parameter Settings,
+> Reset User Parameters Sequence Screen, 39 Resetting a User's Default Parameter Settings,
 > 39-40
 > Responding to Missing Dose Requests, 35-37 Results of Drug File Inquiry Screen, 34
 
@@ -1172,25 +1208,25 @@ _These sections appeared in earlier versions of this document but are not presen
 <tr class="odd">
 <td><strong>Medication Route</strong></td>
 <td><blockquote>
-<p>Also called “Route” or “Med Route,” the method by which a patient receives medication (i.e., PO, IV, IM, ID, SQ, and SC). Each VAMC determines routes and associated abbreviations, which cannot exceed five characters in length. Otherwise they will <em>not</em> fit on bar code labels and the MAH.</p>
+<p>Also called "Route" or "Med Route," the method by which a patient receives medication (i.e., PO, IV, IM, ID, SQ, and SC). Each VAMC determines routes and associated abbreviations, which cannot exceed five characters in length. Otherwise they will <em>not</em> fit on bar code labels and the MAH.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td><strong>Medication Tab</strong></td>
 <td><blockquote>
-<p>Used to separate and view a type of active medication order (i.e., Unit Dose IV Push, IV Piggyback, and large-volume IVs) that needs to be administered to a patient. The Tab under which an order displays depends on how it was entered. The “alert light” on a Tab turns <strong>GREEN</strong> <em>only</em> when a medication order exists for the Schedule Type selected within the respective start/stop date and time selected on the BCMA VDL. If grayed out, then none exist.</p>
+<p>Used to separate and view a type of active medication order (i.e., Unit Dose IV Push, IV Piggyback, and large-volume IVs) that needs to be administered to a patient. The Tab under which an order displays depends on how it was entered. The "alert light" on a Tab turns <strong>GREEN</strong> <em>only</em> when a medication order exists for the Schedule Type selected within the respective start/stop date and time selected on the BCMA VDL. If grayed out, then none exist.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
 <td><strong>Missing Dose</strong></td>
 <td><blockquote>
-<p>A medication considered “Missing.” BCMA automatically marks this order type (with an “M”) in the Status column of the VDL after you submit a Missing Dose Request to the Pharmacy. If an IV bag displayed in the IV Bag Chronology display area of the VDL is <em>not</em> available for administration, you may mark the IV bag as a “Missing Dose” using the Missing Dose button or by right clicking the IV bag and selecting the Missing Dose command in the Right Click drop-down menu.</p>
+<p>A medication considered "Missing." BCMA automatically marks this order type (with an "M") in the Status column of the VDL after you submit a Missing Dose Request to the Pharmacy. If an IV bag displayed in the IV Bag Chronology display area of the VDL is <em>not</em> available for administration, you may mark the IV bag as a "Missing Dose" using the Missing Dose button or by right clicking the IV bag and selecting the Missing Dose command in the Right Click drop-down menu.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td><strong>National Drug Code</strong></td>
 <td><blockquote>
-<p>Also called “NDC,” the number assigned by a manufacturer to each item/medication administered to a patient.</p>
+<p>Also called "NDC," the number assigned by a manufacturer to each item/medication administered to a patient.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -1202,12 +1238,12 @@ _These sections appeared in earlier versions of this document but are not presen
 <tr class="even">
 <td><strong>On-Call Order</strong></td>
 <td><blockquote>
-<p>A specific order or action dependent upon another order or action taking place <em>before</em> it is carried out. For example, “Cefazolin 1gm IVPB On Call to Operating Room.” Since it may be unknown when the patient will be taken to the operating room, the administration of the On-Call Cefazolin is dependent upon that event.</p>
+<p>A specific order or action dependent upon another order or action taking place <em>before</em> it is carried out. For example, "Cefazolin 1gm IVPB On Call to Operating Room." Since it may be unknown when the patient will be taken to the operating room, the administration of the On-Call Cefazolin is dependent upon that event.</p>
 </blockquote></td>
 </tr>
 </tbody>
 </table>
-January 2009 BCMA V. 3.0 Manager’s User Manual 55
+January 2009 BCMA V. 3.0 Manager's User Manual 55
 
 ### ![](psb-3-47-bcma-version-3-manager-s-user-manual-change-pages/004.png)![](psb-3-47-bcma-version-3-manager-s-user-manual-change-pages/005.png)Example: Alphabetical Listing of BCMA Acronyms and Terms
 
@@ -1238,13 +1274,13 @@ January 2009 BCMA V. 3.0 Manager’s User Manual 55
 <tr class="even">
 <td><strong>Orderable Item</strong></td>
 <td><blockquote>
-<p>A drug whose name does NOT have the strength associated with it (e.g., Acetaminophen 325 mg). The name with a strength is called the “Dispensed Drug Name.”</p>
+<p>A drug whose name does NOT have the strength associated with it (e.g., Acetaminophen 325 mg). The name with a strength is called the "Dispensed Drug Name."</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
 <td><strong>Patient Transfer Notification</strong></td>
 <td><blockquote>
-<p>A message that displays when a patient’s record is opened or the Unit Dose or IVP/IVPB Medication Tab is viewed for the first time. It indicates that the patient has had a movement type (usually a transfer) within the site-definable parameter, and the last action for the medication occurred before the movement, but still within the defined timeframe.</p>
+<p>A message that displays when a patient's record is opened or the Unit Dose or IVP/IVPB Medication Tab is viewed for the first time. It indicates that the patient has had a movement type (usually a transfer) within the site-definable parameter, and the last action for the medication occurred before the movement, but still within the defined timeframe.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -1268,46 +1304,46 @@ January 2009 BCMA V. 3.0 Manager’s User Manual 55
 <tr class="odd">
 <td><strong>PRN Order</strong></td>
 <td><blockquote>
-<p>The Latin abbreviation for <strong>P</strong>ro <strong>R</strong>e <strong>N</strong>ata. A medication dosage given to a patient on an “as needed” basis.</p>
+<p>The Latin abbreviation for <strong>P</strong>ro <strong>R</strong>e <strong>N</strong>ata. A medication dosage given to a patient on an "as needed" basis.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td><strong>Provider</strong></td>
 <td><blockquote>
-<p>Another name for the “Physician” involved in the prescription of a medication (Unit Dose or IV) to a patient.</p>
+<p>Another name for the "Physician" involved in the prescription of a medication (Unit Dose or IV) to a patient.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
 <td><strong>PSB CPRS MED BUTTON</strong></td>
 <td><blockquote>
-<p>The name of the security “key” that must be assigned to nurses who document verbal- and phone-type STAT and medication orders using the CPRS Med Order Button on the BCMA VDL.</p>
+<p>The name of the security "key" that must be assigned to nurses who document verbal- and phone-type STAT and medication orders using the CPRS Med Order Button on the BCMA VDL.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td><strong>PSB INSTRUCTOR</strong></td>
 <td><blockquote>
-<p>The name of the security “key” that must be assigned to nursing instructors, supervising nursing students, so they can access user options within BCMA V. 3.0.</p>
+<p>The name of the security "key" that must be assigned to nursing instructors, supervising nursing students, so they can access user options within BCMA V. 3.0.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
 <td><strong>PSB MANAGER</strong></td>
 <td><blockquote>
-<p>The name of the security “key” that must be assigned to managers so they can access the PSB Manager options within BCMA V. 3.0.</p>
+<p>The name of the security "key" that must be assigned to managers so they can access the PSB Manager options within BCMA V. 3.0.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td><strong>PSB STUDENT</strong></td>
 <td><blockquote>
-<p>The name of the security “key” that must be assigned to nursing students, supervised by nursing instructors, so they can access user options with BCMA V. 3.0. This key requires that a nursing instructor sign on to BCMA V. 3.0.</p>
+<p>The name of the security "key" that must be assigned to nursing students, supervised by nursing instructors, so they can access user options with BCMA V. 3.0. This key requires that a nursing instructor sign on to BCMA V. 3.0.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
 <td><strong>PSB UNABLE TO SCAN</strong></td>
 <td><blockquote>
-<p>The name of the security “key” that must be assigned to allow the user to run the Unable to Scan Detailed and Summary reports.</p>
+<p>The name of the security "key" that must be assigned to allow the user to run the Unable to Scan Detailed and Summary reports.</p>
 </blockquote></td>
 </tr>
 </tbody>
 </table>
 
-> 56 BCMA V. 3.0 Manager’s User Manual October 2009 PSB\*3\*47
+> 56 BCMA V. 3.0 Manager's User Manual October 2009 PSB\*3\*47

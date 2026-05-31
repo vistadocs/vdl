@@ -5,44 +5,46 @@ doc_label: Interface Specification
 doc_layer: anchor
 doc_subject: Interface Document
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: archive
 pkg_ns: PSS
 patch_ver: 2.0
 patch_id: PSS*2.0
-group_key: "PSS:PSS:2.0"
-file_numbers: []
+group_key: PSS:PSS:2.0
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '11'
+- '22'
+- '50'
+- '50.68'
+- '50.7'
+- '51.2'
+- '51.24'
+- '99.99'
+- '100'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - colspan
-  - base
-  - drug
-  - dose
-  - profile
-  - order
-  - phenytoin
-  - prospective
-  - drugdrug
-  - message
 page_count: 0
 word_count: 8092
 section_count: 4
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/pss_1_vista_to_mocha_id.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/pss_1_vista_to_mocha_id_1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=392"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/pss_1_vista_to_mocha_id.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)_Archive/pss_1_vista_to_mocha_id_1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=392
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-to-mocha-version-2-0-interface-document/001.png)

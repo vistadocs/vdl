@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: PBM Demographics Enhancements
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*161
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: PHARMACY ENHANCEMENTS TO SUPPORT PHARMACY BENEFITS
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '59.9'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - pharmacy
-  - changes
-  - management
-  - interface
-  - patch
-  - modifications
-  - benefits
-  - inpatient
 page_count: 0
 word_count: 363
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_psu_4_dg_5_3_pss_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_psu_4_dg_5_3_pss_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_psu_4_dg_5_3_pss_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_psu_4_dg_5_3_pss_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-161-release-notes-pbm-demographics-enhancements/001.png)

@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*76
-group_key: "YS:YS:5.01"
-file_numbers: []
-security_keys: []
-menu_options: 2
+group_key: YS:YS:5.01
 description: The primary goal is to make the VistA Mental Health Package (MHP) V. 5.01, an effective and more efficient tool for use by mental health clinicians and patients with the creation of a windows based application for the most commonly used options in the MHP. Currently the MHP is administered through V
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - health
-  - mental
-  - test
-  - assistant
-  - contents
-  - window
-  - example
-  - tests
-  - manual
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '601'
+- '601.3'
+- '604.68'
+security_keys:
+- ESC
+- RETURN
+- SHIFT
+- TAB
+- YSP
+menu_options: 2
 page_count: 0
 word_count: 23875
 section_count: 19
 table_count: 87
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: JUNE 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50176_mha2_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 ![](ys-5-01-76-mental-health-assistant-phase-2-user-manual/001.png)

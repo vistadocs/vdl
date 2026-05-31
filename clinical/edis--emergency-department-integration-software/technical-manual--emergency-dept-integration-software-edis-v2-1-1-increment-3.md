@@ -11,40 +11,114 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.1.1
 patch_id: EDIS*2.1.1
-group_key: "EDIS:EDIS:2.1.1"
-file_numbers: 
-  - 9
-  - 232
-security_keys: []
+group_key: EDIS:EDIS:2.1.1
+description: Updated footer , TOC, and addressed text styles for 508
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.2'
+- '1.5'
+- '2'
+- '3.2'
+- '3.3'
+- '4'
+- '9.4'
+- '44'
+- '47'
+- '60'
+- '80'
+- '101.43'
+- '200'
+- '210'
+- '230'
+- '230.1'
+- '231.7'
+- '231.8'
+- '231.9'
+- '231.93'
+- '232.1'
+- '232.11'
+- '232.12'
+- '232.13'
+- '232.5'
+- '232.6'
+- '232.62'
+- '232.622'
+- '232.63'
+- '232.71'
+- '232.711'
+- '232.712'
+- '232.72'
+- '232.725'
+- '232.727'
+- '232.728'
+- '232.729'
+- '232.73'
+- '232.74'
+- '233.1'
+- '233.12'
+- '233.2'
+- '233.21'
+- '233.8'
+- '233.81'
+- '233.82'
+- '233.821'
+- '233.8211'
+- '233.822'
+- '234'
+- '784'
+- '787'
+- '788'
+- '789'
+- '790'
+- '791'
+- '792'
+- '793'
+- '794'
+- '795'
+- '796'
+- '797'
+- '800'
+- '801'
+- '802'
+- '803'
+- '804'
+- '805'
+- '806'
+- '807'
+- '871'
+- '872'
+- '873'
+- '874'
+- '875'
+- '876'
+- '886'
+- '891'
+- '892'
+- '8930'
+- '900001'
+security_keys:
+- CLINICIAN
+- ORELSE
+- PROVIDER
+- PSJ RNURSE
 menu_options: 10
-description: ![](emergency-dept-integration-software-edis-version-2-1-1-increment-3-technical-man/001.png)
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - table
-  - width
-  - style
-  - contents
-  - even
-  - edis
-  - colgroup
 page_count: 0
 word_count: 30958
 section_count: 28
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 > Department of Veterans Affairs

@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*153
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '> The Hepatitis C Case Registry contains important demographic and clinical data on all VHA patients identified with Hepatitis C infection. The registry extracts VISTA pharmacy, laboratory, and pathology databases in order to provide the key clinical information needed to track disease stage, diseas'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
-menu_options: 0
-description: > The Hepatitis C Case Registry contains important demographic and clinical data on all VHA patients identified with Hepatitis C infection. The registry extracts VISTA pharmacy, laboratory, and pathology databases in order to provide the key clinical information needed to track disease stage, diseas
-audience: 
-keywords: 
-  - table
-  - contents
-  - query
-  - strong
-  - cprs
-  - report
-  - reports
-  - hepatitis
-  - class
-  - manual
+security_keys:
+- VA HEPC USER
+menu_options: 1
 page_count: 0
 word_count: 4711
 section_count: 15
 table_count: 3
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: APRIL 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_153um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_153um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_153um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_153um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 > ![](or-3-153-cprs-query-hepatitis-c-reports-user-manual/001.png)

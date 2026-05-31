@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: SD
 patch_ver: 5.3
 patch_id: SD*5.3*264
-group_key: "PCMM:SD:5.3"
-file_numbers: []
+group_key: PCMM:SD:5.3
+description: Scheduling V. 5.3Primary Care Management Module (PCMM)ENHANCEMENTS forDIRECT PRIMARY CARE(SD\*5.3\*264)User
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '404.52'
 security_keys: []
 menu_options: 0
-description: ![](sd-5-3-264-277-pcmm-enhancements-for-direct-primary-care-user-guide/001.png)
-audience: 
-keywords: 
-  - care
-  - direct
-  - primary
-  - time
-  - table
-  - contents
-  - patient
-  - ftee
-  - pcmm
-  - patients
 page_count: 0
 word_count: 5395
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_277.um-final.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_277.um-final.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_277.um-final.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_277.um-final.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 ![](sd-5-3-264-277-pcmm-enhancements-for-direct-primary-care-user-guide/001.png)

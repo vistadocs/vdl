@@ -11,38 +11,31 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*41
-group_key: "RA:RA:5"
+group_key: RA:RA:5
+description: '| Date | Page | Description | |----------|----------|-------------------------------------------------------------------------------------------------| | 09-10-03 | All | New Functionality based on Clinical Indicator Data Capture (CIDC) | | 06-16-04 | All | Edited previous notes to reflect changes...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- ORES
+- PROVIDER
 menu_options: 0
-description: - [Release Notes](#release-notes) - [Clinical Indicator Data Capture](#clinical-indicator-data-capture) - [Changed Options](#changed-options) - [Data Definition Changes](#data-definition-changes)
-audience: 
-keywords: 
-  - clinical
-  - order
-  - radiology
-  - table
-  - contents
-  - ordering
-  - diagnosis
-  - modified
-  - location
-  - date
 page_count: 0
 word_count: 892
 section_count: 2
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2005
 revision_count: 4
 revision_newest: 08/02/05
 revision_oldest: 12/15/04
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_p41_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_p41_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_p41_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_p41_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-41-clinical-indicator-capture-cidc-release-notes/001.png)

@@ -3,7 +3,7 @@ title: DG*5.3*864 Patient Record Flags User Guide - HRMHP
 doc_type: UG
 doc_label: User Guide
 doc_layer: patch
-doc_subject: Patient Record Flags  - HRMHP
+doc_subject: Patient Record Flags - HRMHP
 app_code: PRF
 app_name: Patient Record Flags
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*864
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 24
+group_key: PRF:DG:5.3
 description: a\. VHA is committed to a safety program that is systems based and focused on prevention, not on punishment or retribution. Preventative methods that target root causes are favored.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - flag
-  - patient
-  - record
-  - table
-  - contents
-  - category
-  - assignment
-  - flags
-  - class
-  - dgpf
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '40.8'
+security_keys:
+- DGPF ASSIGNMENT
+- PF1
+- PROVIDER
+menu_options: 24
 page_count: 0
 word_count: 12679
 section_count: 36
 table_count: 18
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patrecflagug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patrecflagug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patrecflagug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patrecflagug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-864-patient-record-flags-user-guide-hrmhp/001.png)

@@ -3,7 +3,7 @@ title: DG*5.3*869/TIU*1*279 Missing Patient PRF Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PRF
 app_name: Patient Record Flags
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*869
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
+group_key: PRF:DG:5.3
+description: '| | | | |...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '26.15'
+- '8925.1'
+security_keys:
+- DGPF ASSIGNMENT
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - install
-  - installation
-  - missing
-  - patient
-  - flag
-  - created
-  - record
-  - want
 page_count: 0
 word_count: 3155
 section_count: 13
 table_count: 11
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2014
 revision_count: 6
 revision_newest: 2/4/2014
 revision_oldest: 8/30/2013
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/missing_patient_prf_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 Missing Patient

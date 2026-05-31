@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 6
+group_key: ADT:ADT:5.3
 description: The Scheduling module of the PIMS Package is designed to assist in the set-up of clinics, scheduling of patients for clinic appointments, and the collection of an assortment of related workload data for reporting purposes. The Scheduling Menus, Intro & Orientation functionality provides the End-User
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - report
-  - class
-  - show
-  - table
-  - high
-  - risk
-  - health
-  - mental
-  - clinic
-  - proactive
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '40.1'
+- '40.15'
+- '409.43'
+- '409.44'
+- '409.5'
+security_keys:
+- PROVIDER
+menu_options: 6
 page_count: 0
 word_count: 12034
 section_count: 37
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/PIMS_User_Manual-Menus_Intros_Orientation.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/PIMS_User_Manual-Menus_Intros_Orientation.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/PIMS_User_Manual-Menus_Intros_Orientation.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/PIMS_User_Manual-Menus_Intros_Orientation.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

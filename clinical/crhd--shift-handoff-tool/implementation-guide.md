@@ -3,7 +3,7 @@ title: Shift Handoff Tool Version 1 Implementation Guide & Technical Manual
 doc_type: IG-IMP
 doc_label: Implementation Guide
 doc_layer: anchor
-doc_subject: & Technical Manual
+doc_subject: '& Technical Manual'
 app_code: CRHD
 app_name: Shift Handoff Tool
 section: CLI
@@ -11,53 +11,39 @@ app_status: active
 pkg_ns: CRHD
 patch_ver: 1
 patch_id: CRHD*1
-group_key: "CRHD:CRHD:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - handoff
-  - table
-  - shift
-  - contents
-  - tool
-  - crhd
-  - team
-  - patient
-  - files
-  - technical
+group_key: CRHD:CRHD:1
+description: '| Date | Description | Author | |--------------|--------------------------------------------------------------------|------------------------------------| | October 2018 | Setup: New SERVICE/SECTION | REDACTED | | June 2008 | Initial Release | REDACTED'
+audience: ''
+keywords: ''
+file_numbers:
+- '49'
+- '183'
+- '183.2'
+- '183.3'
+- '183.4'
+- '8989.51'
+security_keys:
+- CHG HANDOFF MGR
+- HOT TEAM MGR
+- PROVIDER
+menu_options: 3
 page_count: 0
-word_count: 4318
+word_count: 4300
 section_count: 16
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdigtm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdigtm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=175"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdigtm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdigtm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=175
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Shift Handoff Tool
-
-  Implementation Guide
-
-  and
-
-  Technical Manual
-
-  ![](shift-handoff-tool-version-1-implementation-guide-technical-manual/001.png)
----
-
 Clinician Desktop Service
 
 Veterans Health Information Technology

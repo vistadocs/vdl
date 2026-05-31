@@ -8,52 +8,33 @@ app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: RA
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> NOTE: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.'''
+audience: Trainers and end users during onboarding
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "--- title: | <span id=\\"_Toc205632711\\" class=\\"anchor\\"></span>One Consult - Order to Consult - Radiology Consult Solution"
-audience: 
-keywords: 
-  - imaging
-  - community
-  - care
-  - orders
-  - consult
-  - figure
-  - training
-  - guide
-  - order
-  - patient
 page_count: 0
-word_count: 1419
+word_count: 1396
 section_count: 1
 table_count: 1
 figure_count: 35
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2021
 revision_count: 1
 revision_newest: 03/18/2019
 revision_oldest: 03/18/2019
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ococ_rcs_imaging_orders_to_consult_tg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ococ_rcs_imaging_orders_to_consult_tg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ococ_rcs_imaging_orders_to_consult_tg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ococ_rcs_imaging_orders_to_consult_tg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>One Consult - Order to Consult - Radiology Consult Solution
-
-  Community Care Imaging Orders to Consult
-
-  Training Guide
----
-
 ![](community-care-imaging-orders-to-consult-training-guide/001.png)
 
 February 2021

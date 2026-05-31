@@ -11,38 +11,39 @@ app_status: active
 pkg_ns: VPFS
 patch_ver: 1.2
 patch_id: VPFS*1.2
-group_key: "VPFS:VPFS:1.2"
-file_numbers: []
-security_keys: []
+group_key: VPFS:VPFS:1.2
+description: '> VPFS is the mini-banking system used to manage the accounts of VHA patients in the VHA hospital system. VPFS replaces the Personal Funds of Patients (PFOP) system that was used previously. VPFS looks different from PFOP because it is a web-based application; however, its design and functionality a'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '4'
+- '26'
+- '200'
+- '470'
+- '470.1'
+- '470.2'
+- '470.3'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: > VPFS is the mini-banking system used to manage the accounts of VHA patients in the VHA hospital system. VPFS replaces the Personal Funds of Patients (PFOP) system that was used previously. VPFS looks different from PFOP because it is a web-based application; however, its design and functionality a
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - style
-  - width
-  - strong
-  - colspan
-  - even
-  - table
-  - colgroup
-  - thead
 page_count: 0
 word_count: 39126
 section_count: 7
 table_count: 3
 figure_count: 0
 appendix_count: 6
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vistamigrate_1_datamigrationguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vistamigrate_1_datamigrationguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=170"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vistamigrate_1_datamigrationguide.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vistamigrate_1_datamigrationguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=170
+audit_applied: '2026-05-31'
 ---
 
 ## Veterans Personal Finance System (VPFS)

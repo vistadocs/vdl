@@ -1,22 +1,54 @@
 ---
-consolidated_title: "deployment, installation, back-out, and rollback guide"
-app_code: XU
+title: XU*8*702 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
 doc_type: DIBR
-master_source: "XU*8*702 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: (DIBRG)
+app_code: XU
+app_name: Kernel
+section: INF
+app_status: active
+pkg_ns: XU
+patch_ver: 8
+patch_id: XU*8*702
+group_key: XU:XU:8
+file_numbers:
+- '1'
+- '2'
+- '3.05'
+- '8994.5'
+security_keys:
+- PF1
+- XUPROGMODE
+menu_options: 1
+description: Added explanatory note in Step 2, following Figure 9. Added explanatory note in Step 4, following Figure 11. Kernel 8.0; Patch
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 13545
+section_count: 38
+table_count: 6
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: August 2020
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
+master_source: XU*8*702 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
 master_pub_date: August 2020
 consolidated_from: 5 versions
 prior_versions:
-  - "XU*8*671 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
-  - "XU*8*688 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
-  - "XU*8*765 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
-  - "XU*8*775 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
----
-
----
-title: |
-  <span id="_Hlk46159836" class="anchor"></span>Kernel 8.0; Patch XU\*8.0\*702
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+- XU*8*671 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+- XU*8*688 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+- XU*8*765 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+- XU*8*775 Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+consolidated_title: deployment, installation, back-out, and rollback guide
 ---
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/001.png)
@@ -139,7 +171,7 @@ Software Disclaimer
 
 This software was developed at the Department of Veterans Affairs (VA) by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is *not* subject to copyright protection and is in the public domain. VA assumes no responsibility whatsoever for its use by other parties, and makes no guarantees, expressed or implied, about its quality, reliability, or any other characteristic. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.
 
-![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/002.png) CAUTION: To protect the security of VistA systems, distribution of this software for use on any other computer system by VistA sites is prohibited. All requests for copies of this software for *non*-VistA use should be referred to the VistA site’s local Office of Information Field Office (OIFO).
+![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/002.png) CAUTION: To protect the security of VistA systems, distribution of this software for use on any other computer system by VistA sites is prohibited. All requests for copies of this software for *non*-VistA use should be referred to the VistA site's local Office of Information Field Office (OIFO).
 
 Documentation Disclaimer
 
@@ -162,12 +194,12 @@ This manual uses several methods to highlight different aspects of the material:
 
 - Descriptive text is presented in a proportional font (as represented by this font).
 - Conventions for displaying TEST data in this document are as follows:
-- The first three digits (prefix) of any Social Security Numbers (SSN) begin with either “000” or “666.”
+- The first three digits (prefix) of any Social Security Numbers (SSN) begin with either "000" or "666."
 - Patient and user names are formatted as follows:
 - \[Application Name\]PATIENT,\[N\]
 - \[Application Name\]USER,\[N\]
 
-Where “*Application Name*” is defined in the Approved Application Abbreviations document and “*N*” represents the first name as a number spelled out and incremented with each new entry.
+Where "*Application Name*" is defined in the Approved Application Abbreviations document and "*N*" represents the first name as a number spelled out and incremented with each new entry.
 
 For example, in Kernel (XU) test patient names would be documented as follows:
 
@@ -177,12 +209,12 @@ For example, in Kernel (XU) test user names would be documented as follows:
 
 XUUSER,ONE; XUUSER,TWO; XUUSER,14, etc.
 
-- “Snapshots” of computer online displays (i.e., screen captures/dialogues) and computer source code is shown in a *non*-proportional font and may be enclosed within a box.
-- User’s responses to online prompts are in boldface and highlighted in yellow (e.g., <span class="mark">\<Enter\></span>).
+- "Snapshots" of computer online displays (i.e., screen captures/dialogues) and computer source code is shown in a *non*-proportional font and may be enclosed within a box.
+- User's responses to online prompts are in boldface and highlighted in yellow (e.g., <span class="mark">\<Enter\></span>).
 - Emphasis within a dialogue box is in boldface and highlighted in blue (e.g.,<span class="mark"> STANDARD LISTENER: RUNNING</span>).
 - Some software code reserved/key words are in boldface with alternate color font.
-- References to “\<Enter\>” within these snapshots indicate that the user should press the \<Enter\> key on the keyboard. Other special keys are represented within \< \> angle brackets. For example, pressing the PF1 key can be represented as pressing \<PF1\>.
-- Author’s comments are displayed in italics or as “callout” boxes.
+- References to "\<Enter\>" within these snapshots indicate that the user should press the \<Enter\> key on the keyboard. Other special keys are represented within \< \> angle brackets. For example, pressing the PF1 key can be represented as pressing \<PF1\>.
+- Author's comments are displayed in italics or as "callout" boxes.
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/006.png) NOTE: Callout boxes refer to labels or descriptions usually enclosed within a box, which point to specific areas of a displayed image.
 
@@ -193,11 +225,11 @@ XUUSER,ONE; XUUSER,TWO; XUUSER,14, etc.
 
 Documentation Navigation
 
-This document uses Microsoft<sup>®</sup> Word’s built-in navigation for internal hyperlinks. To add Back and Forward navigation buttons to your toolbar, do the following:
+This document uses Microsoft<sup>®</sup> Word's built-in navigation for internal hyperlinks. To add Back and Forward navigation buttons to your toolbar, do the following:
 
 1.  Right-click anywhere on the customizable Toolbar in Word 2010 (*not* the Ribbon section).
 2.  Select Customize Quick Access Toolbar from the secondary menu.
-3.  Press the drop-down arrow in the “Choose commands from:” box.
+3.  Press the drop-down arrow in the "Choose commands from:" box.
 4.  Select All Commands from the displayed list.
 5.  Scroll through the command list in the left column until you see the Back command (circle with arrow pointing left).
 6.  Select/Highlight the Back command and press Add to add it to your customized toolbar.
@@ -225,7 +257,7 @@ Obtaining Data Dictionary Listings
 
 Technical information about VistA M Server-based files and the fields in files is stored in data dictionaries (DD). You can use the List File Attributes \[DILIST\] option on the Data Dictionary Utilities \[DI DDU\] menu in VA FileMan to print formatted data dictionaries.
 
-![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/010.png) REF: For details about obtaining data dictionaries and about the formats available, see the “List File Attributes” chapter in the “File Management” section of the *VA FileMan Advanced User Manual*.
+![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/010.png) REF: For details about obtaining data dictionaries and about the formats available, see the "List File Attributes" chapter in the "File Management" section of the *VA FileMan Advanced User Manual*.
 
 Assumptions
 
@@ -243,11 +275,11 @@ Micro Focus<sup>®</sup> Reflection (v16)
 
 - Microsoft<sup>®</sup> Visual Basic Editor:
 
-Ability to import macros as described in Section <u>4.8.2</u>, “<u>Client Workstation Instructions—Micro Focus® Reflection (v16)</u>.”
+Ability to import macros as described in Section <u>4.8.2</u>, "<u>Client Workstation Instructions—Micro Focus® Reflection (v16)</u>."
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/011.png) DISCLAIMER: The installation and configuration steps described in this manual should be performed by regional or local system administrators who maintain enterprise client workstations, as it requires Administrative privileges.  
   
-The instructions in this manual are written and can be used to set up on an individual client workstation (Dynamic Link Library \[DLL\] and Visual Basic \[VB\] script); however, they are intended more for national (mass) deployment. These instructions are intended for regional or local system administrators to set up a “push” version of the Micro Focus<sup>®</sup> Reflection (v16) terminal emulator software to invoke 2-Factor Authentication (2FA). The configured Reflection terminal emulator software would then be distributed (pushed) throughout the enterprise using a custom System Center Configuration Manager (SCCM) script to push the 2FA-enabled Reflection software settings files and the DLL to all required client workstations.
+The instructions in this manual are written and can be used to set up on an individual client workstation (Dynamic Link Library \[DLL\] and Visual Basic \[VB\] script); however, they are intended more for national (mass) deployment. These instructions are intended for regional or local system administrators to set up a "push" version of the Micro Focus<sup>®</sup> Reflection (v16) terminal emulator software to invoke 2-Factor Authentication (2FA). The configured Reflection terminal emulator software would then be distributed (pushed) throughout the enterprise using a custom System Center Configuration Manager (SCCM) script to push the 2FA-enabled Reflection software settings files and the DLL to all required client workstations.
 
 References
 
@@ -266,7 +298,7 @@ Readers who wish to learn more about Kernel should consult the following:
 - *Kernel Release Notes*
 - *Kernel Patch XU\*8.0\*702 Deployment, Installation, Back-Out, and Rollback Guide* (this manual)
 - *Kernel 8.0 and Kernel Toolkit 7.3 Systems Management Guide*
-- *Kernel 8.0 and Kernel Toolkit 7.3 Developer’s Guide*
+- *Kernel 8.0 and Kernel Toolkit 7.3 Developer's Guide*
 - *Kernel 8.0 and Kernel Toolkit 7.3 Technical Manual*
 - Kernel VA Intranet website.  
     
@@ -391,7 +423,7 @@ Micro Focus<sup>®</sup> Reflection (v16)
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/013.png) DISCLAIMER: Department of Veterans Affairs (VA) does *not* own or maintain the Micro Focus<sup>®</sup> Reflection (v16) terminal emulator software. This document only describes how to configure that software to invoke 2-Factor Authentication (2FA). Ongoing maintenance of the Reflection software is outside the scope of this document.
 
-There are no other direct dependencies; other than the typical operating system and software dependencies described in Section <u>3.3.2</u>, “<u>Software</u>.”
+There are no other direct dependencies; other than the typical operating system and software dependencies described in Section <u>3.3.2</u>, "<u>Software</u>."
 
 ### 2-Factor Authentication (2FA) Dependencies
 
@@ -456,7 +488,7 @@ Kernel Patch XU\*8.0\*701 provided enhancements and security fixes for VistA use
 
 #### RPC Broker Patch XWB\*1.1\*64
 
-RPC Broker Patch XWB\*1.1\*64 was the patch for the IAM “Link My Accounts” application. This patch made changes in the Remote Procedure Call (RPC) Broker listener processes to support emerging technologies and made bug fixes. As part of 2-Factor Authentication (2FA), this patch made the XUS IAM BIND USER RPC available to all users in any context to implement binding of the VistA user account to the user's Active Directory account using the Identity and Access Management (IAM) Binding application.
+RPC Broker Patch XWB\*1.1\*64 was the patch for the IAM "Link My Accounts" application. This patch made changes in the Remote Procedure Call (RPC) Broker listener processes to support emerging technologies and made bug fixes. As part of 2-Factor Authentication (2FA), this patch made the XUS IAM BIND USER RPC available to all users in any context to implement binding of the VistA user account to the user's Active Directory account using the Identity and Access Management (IAM) Binding application.
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/017.png) NOTE: RPC Broker Patch XWB\*1.1\*64 was released 11/18/2016.
 
@@ -480,7 +512,7 @@ The DLL included with patch XU\*8.0\*702 was built with BDK components/code prov
 
 This section describes the target physical environment for deployment. The Kernel security controls are operationally capable within full implementation of National Institute of Standards and Technology (NIST) controls. It is in compliance with Directive 6500, Section 508, and performance impacts of the deployment environment.
 
-There are no constraints for Kernel Patch XU\*8.0\*702 release other than the operating system and software dependencies described in Section <u>3.3.2</u>, “<u>Software</u>.”
+There are no constraints for Kernel Patch XU\*8.0\*702 release other than the operating system and software dependencies described in Section <u>3.3.2</u>, "<u>Software</u>."
 
 # Roles and Responsibilities
 
@@ -794,8 +826,8 @@ This section provides the minimum requirements for the product to be installed.
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/024.png) REF: For a list of the minimum hardware and software requirements, including platform, Operating System (OS), and storage requirements required for Kernel Patch XU\*8.0\*702, see the following:
 
-- Section <u>3.3.1</u>, “<u>Hardware</u>”
-- Section <u>3.3.2</u>, “<u>Software</u>”
+- Section <u>3.3.1</u>, "<u>Hardware</u>"
+- Section <u>3.3.2</u>, "<u>Software</u>"
 
 <u>Table 9</u> lists the items that installers should consider before installing Kernel Patch XU\*8.0\*702:
 
@@ -900,7 +932,7 @@ C:\Temp\Patch-702
 10. Use Microsoft<sup>®</sup> Windows Explorer to extract all of the files:
 1.  Right-click on XU_8_702.zip file name.
 2.  Select Extract All.
-3.  In the “Extract Compressed (Zipped) Folders” dialogue, accept the default location displayed, or select a new destination folder.
+3.  In the "Extract Compressed (Zipped) Folders" dialogue, accept the default location displayed, or select a new destination folder.
 4.  Select Extract.
 
 ### File and Documentation Maintenance
@@ -1000,10 +1032,10 @@ The configuration of Micro Focus<sup>®</sup> Reflection (v16) for 2FA includes 
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/030.png) NOTE: The DLL file will be automatically placed on workstations with Micro Focus<sup>®</sup> Reflection installed by the Client Technologies team.
 
-- <u>Import Visual Basic Script</u>—Import VB Script to the “Project” environment within Micro Focus<sup>®</sup> Reflection (v16), so the script is available to and contained within the configured .rdox file, allowing its portability for deployment to workstations.
+- <u>Import Visual Basic Script</u>—Import VB Script to the "Project" environment within Micro Focus<sup>®</sup> Reflection (v16), so the script is available to and contained within the configured .rdox file, allowing its portability for deployment to workstations.
 - <u>Set Connection Action</u>—Set the Connection Action to:
 
-"Run a macro or other action after the initial connection” action (mapping that action to the “XUSSOi.XUSSOProcess” subroutine in the VB script).
+"Run a macro or other action after the initial connection" action (mapping that action to the "XUSSOi.XUSSOProcess" subroutine in the VB script).
 
 #### Copy DLL to Reflection Program Files Folder
 
@@ -1011,7 +1043,7 @@ Copy the XUIAMSSOi.dll file to the location where Micro Focus<sup>®</sup> Refle
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/031.png) ATTENTION: This step requires Administrative privileges on the client workstation. Also, the DLL file will be automatically placed on workstations with Micro Focus<sup>®</sup> Reflection installed by the Client Technologies team.
 
-On the client workstation, from the extracted files (see Section <u>4.3.2</u>, “<u>Extract Zip Files</u>”), copy the XUIAMSSOi.dll file (Version 8.0.702.3) into the following directory:
+On the client workstation, from the extracted files (see Section <u>4.3.2</u>, "<u>Extract Zip Files</u>"), copy the XUIAMSSOi.dll file (Version 8.0.702.3) into the following directory:
 
 C:\Program Files (x86)\Micro Focus\Reflection
 
@@ -1019,11 +1051,11 @@ The DLL[^2] file is copied to this location, so it is loaded when Micro Focus<su
 
 #### Import Visual Basic Script
 
-The step-by-step instructions in this section import the XUSSOi-1.0p702_v16.bas Visual Basic script to the “Project” environment within the Micro Focus<sup>®</sup> Reflection (v16) session file (.rdox), so the script is contained and available to the specific .rdox file and portable if it needs to be distributed to multiple workstations after setup.
+The step-by-step instructions in this section import the XUSSOi-1.0p702_v16.bas Visual Basic script to the "Project" environment within the Micro Focus<sup>®</sup> Reflection (v16) session file (.rdox), so the script is contained and available to the specific .rdox file and portable if it needs to be distributed to multiple workstations after setup.
 
 For Micro Focus<sup>®</sup> Reflection (v16) terminal emulator software on the client workstation, do the following:
 
-1.  From the extracted files (see Section <u>4.3.2</u>, “<u>Extract Zip Files</u>”), copy the XUSSOi-1.0p702_v16.bas Visual Basic script (“v16”) into a temporary directory. For example:
+1.  From the extracted files (see Section <u>4.3.2</u>, "<u>Extract Zip Files</u>"), copy the XUSSOi-1.0p702_v16.bas Visual Basic script ("v16") into a temporary directory. For example:
 
 <span id="Step_1_v16_file_location" class="anchor"></span>C:\Temp\Patch-702
 
@@ -1031,12 +1063,12 @@ The XUSSOi-1.0p702_v16.bas file can be deleted after the installation is complet
 
 2.  Open/launch an existing Micro Focus<sup>®</sup> Reflection session file (.rdox) that is configured to connect to a VistA system. At this point, a VistA connection is *not* needed, so the session can be allowed to timeout without entering ACCESS/VERIFY codes.
 11. Depending on the Micro Focus<sup>®</sup> Reflection (v16) mode in use (see <u>Figure 2</u>), open the Microsoft<sup>®</sup> Visual Basic Editor by either of the following methods:
-- “Ribbon” Mode—On the Tools tab under Macros, select Visual Basic.
-- “Classic” Mode—From the Macro menu, select Visual Basic Editor.
+- "Ribbon" Mode—On the Tools tab under Macros, select Visual Basic.
+- "Classic" Mode—From the Macro menu, select Visual Basic Editor.
 
 <span id="_Ref479072065" class="anchor"></span>
 
-> Figure : Micro Focus<sup>®</sup> Reflection (v16)—Open “Visual Basic” Editor in “Ribbon” Mode or “Classic” Mode
+> Figure : Micro Focus<sup>®</sup> Reflection (v16)—Open "Visual Basic" Editor in "Ribbon" Mode or "Classic" Mode
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/032.png)
 
@@ -1060,7 +1092,7 @@ The XUSSOi-1.0p702_v16.bas file can be deleted after the installation is complet
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/035.png)
 
-14. You should see the XUSSOi module listed under the “Project” project, as shown in <u>Figure 5</u>:
+14. You should see the XUSSOi module listed under the "Project" project, as shown in <u>Figure 5</u>:
 
 > <span id="_Ref479073130" class="anchor"></span>Figure : Microsoft<sup>®</sup> Visual Basic Editor—XUSSOi Module
 
@@ -1086,54 +1118,54 @@ The XUSSOi-1.0p702_v16.bas file can be deleted after the installation is complet
 
 #### Set Connection Action
 
-This step sets the following Connection Action within the “Host Connections Settings” in Micro Focus<sup>®</sup> Reflection (v16):
+This step sets the following Connection Action within the "Host Connections Settings" in Micro Focus<sup>®</sup> Reflection (v16):
 
-"Run a macro or other action after the initial connection” action, which maps to the XUSSOi.XUSSOProcess VB subroutine.
+"Run a macro or other action after the initial connection" action, which maps to the XUSSOi.XUSSOProcess VB subroutine.
 
-Configure the terminal session .rdox file to trigger these events upon launching the session or when an open session is disconnected and reconnects, which forces the user to go through IAM and the RPC Broker’s 2-Factor Authentication.
+Configure the terminal session .rdox file to trigger these events upon launching the session or when an open session is disconnected and reconnects, which forces the user to go through IAM and the RPC Broker's 2-Factor Authentication.
 
 To configure the Micro Focus<sup>®</sup> Reflection (v16) host settings connection action, do the following:
 
 1.  Depending on the Micro Focus<sup>®</sup> Reflection mode in use, open the Connection Settings, as shown in <u>Figure 8</u>:
-- “Ribbon” Mode—Under the Sessions tab, select the Host Connection Settings expansion button.
-- “Classic” Mode—Under the Setup menu, select the View Settings menu option, then select the Configure Connection Settings link in the “Settings for VT” page.
+- "Ribbon" Mode—Under the Sessions tab, select the Host Connection Settings expansion button.
+- "Classic" Mode—Under the Setup menu, select the View Settings menu option, then select the Configure Connection Settings link in the "Settings for VT" page.
 
-> <span id="_Ref479074739" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—Select “Host Connection Settings” in “Ribbon” or “Classic” Mode
+> <span id="_Ref479074739" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—Select "Host Connection Settings" in "Ribbon" or "Classic" Mode
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/041.png)
 
-17. In the “Configure Connection Settings” form:
+17. In the "Configure Connection Settings" form:
 1.  Select the Connection Action option on the left menu.
 2.  Select the Run a macro or other action after the initial connection checkbox, as shown in <u>Figure 9</u>:
 
-> <span id="_Ref479074860" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—“Configure Connection Settings” Form: Select “Connection Action” Event
+> <span id="_Ref479074860" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—"Configure Connection Settings" Form: Select "Connection Action" Event
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/042.png)
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/043.png) NOTE: The first Connection Action checkbox, Run a macro or other action before the initial connection, does *<u>not</u>* need to change. Some .rdox file configurations may have this box checked or unchecked, and that setting can be left as is. Only the second Connection Action checkbox, Run a macro or other action after the initial connection, which is circled in RED (<u>Figure 9</u>), needs to change as per these instructions.
 
-18. In the “Connection Action” form (<u>Figure 10</u>):
+18. In the "Connection Action" form (<u>Figure 10</u>):
 1.  Select the Select macro option.
 2.  Select XUSSOi.XUSSOProcess VB macro.
 3.  Select OK, as shown in <u>Figure 10</u>.
 
 <span id="_Ref479074990" class="anchor"></span>
 
-> Figure : Micro Focus<sup>®</sup> Reflection (v16)—“Connection Action” Form: “Select XUSSOi.XUSSOProcess” Macro
+> Figure : Micro Focus<sup>®</sup> Reflection (v16)—"Connection Action" Form: "Select XUSSOi.XUSSOProcess" Macro
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/044.png)
 
-19. When returned to the “Configure Connection Settings” form:
+19. When returned to the "Configure Connection Settings" form:
 1.  Select the Run when reconnecting checkbox.
 2.  Select OK, as shown in <u>Figure 11</u>.
 
-> <span id="_Ref479075338" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—Returned to the “Configure Connection Settings” Form: Select “Run when reconnecting”
+> <span id="_Ref479075338" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—Returned to the "Configure Connection Settings" Form: Select "Run when reconnecting"
 
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/045.png)
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/046.png) NOTE: The first Connection Action checkbox, Run a macro or other action before the initial connection, does *<u>not</u>* need to change. Some .rdox file configurations may have this box checked or unchecked, and that setting can be left as is. Only the third Connection Action checkbox, Run when reconnecting, which is circled in RED (<u>Figure 11</u>), needs to change as per these instructions.
 
-20. Select the “File” menu and then “Save”, as shown in <span class="mark"></span><u>Figure 12</u>, to save the Micro Focus<sup>®</sup> Reflection terminal session.
+20. Select the "File" menu and then "Save", as shown in <span class="mark"></span><u>Figure 12</u>, to save the Micro Focus<sup>®</sup> Reflection terminal session.
 
 > <span id="_Ref485306870" class="anchor"></span>Figure : Micro Focus<sup>®</sup> Reflection (v16)—Save Terminal Session File
 
@@ -1153,8 +1185,8 @@ To verify the installation of Kernel Patch XU\*8.0\*702 on the VistA M Server an
 
 Verify the installation using the KIDS Install File Print \[XPD PRINT INSTALL FILE\] option, located under the Utilities \[XPD UTILITY\] menu.
 
-1.  At the “Select INSTALL NAME:” prompt, enter XU\*8.0\*702.
-2.  Confirm that the STATUS field is “Install Completed”, as shown in <u>Figure 13</u>:
+1.  At the "Select INSTALL NAME:" prompt, enter XU\*8.0\*702.
+2.  Confirm that the STATUS field is "Install Completed", as shown in <u>Figure 13</u>:
 
 > <span id="_Ref33694226" class="anchor"></span>Figure : Verify the Kernel Patch XU\*8.0\*702 Installation was Completed on the VistA M Server (Excerpt)
 
@@ -1188,7 +1220,7 @@ ROUTINES: 08:10:34
 
 Micro Focus<sup>®</sup> Reflection (v16):
 
-Verify the configuration information matches what is shown in the “<u>Set Connection Action</u>” section.
+Verify the configuration information matches what is shown in the "<u>Set Connection Action</u>" section.
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/048.png) CONGRATULATIONS: The installation of Kernel Patch XU\*8.0\*702 on the VistA M Server and client workstation is complete!
 
@@ -1198,7 +1230,7 @@ Verify the configuration information matches what is shown in the “<u>Set Conn
 
 Kernel Patch XU\*8.0\*702 does *not* require any VistA M Server system configuration.
 
-For client workstations, follow the configuration procedures listed in the “<u>Set Connection Action</u>” section.
+For client workstations, follow the configuration procedures listed in the "<u>Set Connection Action</u>" section.
 
 ## Database Tuning
 
@@ -1273,10 +1305,10 @@ There are no other VistA M Server software updates.
 To back-out Kernel Patch XU\*8.0\*702 in VistA, and back-out configuration updates to the Micro Focus<sup>®</sup> Reflection (v16) terminal emulator software, do the following (in any order):
 
 1.  VistA M Server:
-1.  Open the VistA MailMan message created during the “Backup a Transport Global” step of the patch installation process (i.e.,* Kernel 8.0 and Kernel Toolkit 7.3 Systems Management Guide*, Section 23.7.8, “Backing Up Transport Globals”).
-2.  Follow the installation sequence (i.e.,* Kernel 8.0 and Kernel Toolkit 7.3 Systems Management Guide*, Section 23.7.1, “Installation Sequence”) to load and install a patch from a PackMan message. This installation restores the original (pre-patch) VistA routine.
+1.  Open the VistA MailMan message created during the "Backup a Transport Global" step of the patch installation process (i.e.,* Kernel 8.0 and Kernel Toolkit 7.3 Systems Management Guide*, Section 23.7.8, "Backing Up Transport Globals").
+2.  Follow the installation sequence (i.e.,* Kernel 8.0 and Kernel Toolkit 7.3 Systems Management Guide*, Section 23.7.1, "Installation Sequence") to load and install a patch from a PackMan message. This installation restores the original (pre-patch) VistA routine.
 3.  Terminal Emulator Software on the Client Workstation: Micro Focus<sup>®</sup> Reflection (v16)
-1.  Remove/Delete the event from the Event Mapper and the XUSSOi macro that were enabled during the configuration process performed in the “<u>Set Connection Action</u>” section.
+1.  Remove/Delete the event from the Event Mapper and the XUSSOi macro that were enabled during the configuration process performed in the "<u>Set Connection Action</u>" section.
 2.  Use a backup copy of the modified terminal session (.rdox) file to copy over the updated one to remove the changes done in the configuration process.
 
 ## Back-Out Verification Procedure
@@ -1447,7 +1479,7 @@ Users should first verify their workstation has the correct and latest XUIAMSSOi
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Client Tech pushes the XUIAMSSOi.dll file to *all* machines. If a machine is *not* turned on at the time of the push, the XUIAMSSOi.dll file will *not* be installed on the user’s machine.
+Client Tech pushes the XUIAMSSOi.dll file to *all* machines. If a machine is *not* turned on at the time of the push, the XUIAMSSOi.dll file will *not* be installed on the user's machine.
 
 If the XUIAMSSOi.dll file is *not* available when a user launches the (new) .rdox file, they will be alerted that the software *cannot* find the DLL file and then prompted for their Access/Verify codes. If the XUIAMSSOi.dll file is missing, the user receives an error message and should select End, then the ACCESS CODE prompt will be presented to login, as shown in <u>Figure 16</u>.
 
@@ -1459,7 +1491,7 @@ If the XUIAMSSOi.dll file is *not* available when a user launches the (new) .rdo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section addresses the scenario when your Micro Focus<sup>®</sup> Reflection session window keeps closing on time out. The “Leave disconnected” connection setting keeps the Micro Focus<sup>®</sup> Reflection session window open if you time out; you would just need to press Enter to get prompted to reconnect.
+This section addresses the scenario when your Micro Focus<sup>®</sup> Reflection session window keeps closing on time out. The "Leave disconnected" connection setting keeps the Micro Focus<sup>®</sup> Reflection session window open if you time out; you would just need to press Enter to get prompted to reconnect.
 
 To prevent your Micro Focus<sup>®</sup> Reflection session window from closing on time-out, do the following:
 
@@ -1468,9 +1500,9 @@ To prevent your Micro Focus<sup>®</sup> Reflection session window from closing 
 3.  Select Settings.
 4.  Select Host Connection.
 5.  Select Configure Connection Settings.
-22. Scroll down to the “Connection Options” section at the bottom of the screen.
-23. Locate the “When Connection is Terminated:” box.
-24. Change the setting to “Leave disconnected.”
+22. Scroll down to the "Connection Options" section at the bottom of the screen.
+23. Locate the "When Connection is Terminated:" box.
+24. Change the setting to "Leave disconnected."
 
 > <span id="_Toc33624121" class="anchor"></span>Figure : Micro Focus Reflection—Connections Page (Sample)
 
@@ -1486,7 +1518,7 @@ If you fail to change this setting, when your session disconnects, the session w
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes the scenario when a new user (brand new Access/Verify codes) attempts to use the IAM Link My Account webpage to provision their PIV card with a VistA system. The results are that you *cannot* link your PIV to a VistA account if the Verify code is NEW or EXPIRED. Technically, a new or expired Verify code is the same thing, since assigning a new Verify code to a user just presets the code’s expiration date back by several years; thus, forcing an entry of a new Verify code during the user’s first login.
+This section describes the scenario when a new user (brand new Access/Verify codes) attempts to use the IAM Link My Account webpage to provision their PIV card with a VistA system. The results are that you *cannot* link your PIV to a VistA account if the Verify code is NEW or EXPIRED. Technically, a new or expired Verify code is the same thing, since assigning a new Verify code to a user just presets the code's expiration date back by several years; thus, forcing an entry of a new Verify code during the user's first login.
 
 To provision new users and link their PIV to VistA, do the following:
 
@@ -1497,7 +1529,7 @@ To provision new users and link their PIV to VistA, do the following:
 6.  Enter your initial Access/Verify codes provided and change your Verify code.
 25. Use the IAM Link My Account website to provision your PIV card to the VistA system using your Access and Verify codes the user created in [Step 1](#provision_new_users_step_1).
 
-![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/055.png) REF: Follow the sample steps to provision your account in the “<u>Link My Account</u>” section.
+![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/055.png) REF: Follow the sample steps to provision your account in the "<u>Link My Account</u>" section.
 
 26. Complete. Subsequent PIV logons to that VistA system would be functional and future Verify code expirations will be ignored when logging in using their PIV card.
 
@@ -1507,9 +1539,9 @@ To provision new users and link their PIV to VistA, do the following:
 
 VistA Kernel Patch XU\*8.0\*701 (released on 2/11/2020 and a compliance date of 2/18/2020) includes a logic fix to bypass the Verify code expiration check when successfully logged into VistA using PIV/SAML credentials. This allows Patch XU\*8.0\*702 and Micro Focus<sup>®</sup> Reflection to mimic the behavior of applications that use the Remote Procedure Call (RPC) Broker to connect to VistA (e.g., CPRS). The difference is that the RPC Broker applications do their connections through the Broker Transmission Control Protocol (TCP) port for communication, and with the Reflection method it is doing the communication through Secure Shell (SSH) and passing information to the VistA logon (XUS).
 
-This Verify code expiration bypass also maintains the bypass if Active Directory (Username/Password) is used for SAML authentication by eliminating the check for Level of Assurance (LOA), since both Active Directory and PIV/PIN use STS SAML exchange for authentication and are both identified as SSO in the SAML certificate. The logic checks if the authentication contains “SSO,” which allows the logic to work for both authentication methods and the ability to bypass the Verify code expiration check.
+This Verify code expiration bypass also maintains the bypass if Active Directory (Username/Password) is used for SAML authentication by eliminating the check for Level of Assurance (LOA), since both Active Directory and PIV/PIN use STS SAML exchange for authentication and are both identified as SSO in the SAML certificate. The logic checks if the authentication contains "SSO," which allows the logic to work for both authentication methods and the ability to bypass the Verify code expiration check.
 
-![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/056.png) NOTE: Using the Active Directory credentials gives a credential Level of Assurance (LOA) a “2” rating, which is using typed codes for authentication as opposed to full 2-Factor Authentication (PIV Card and PIN), which would be a “3” rating for the LOA.
+![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/056.png) NOTE: Using the Active Directory credentials gives a credential Level of Assurance (LOA) a "2" rating, which is using typed codes for authentication as opposed to full 2-Factor Authentication (PIV Card and PIN), which would be a "3" rating for the LOA.
 
 ## Link My Account
 
@@ -1542,7 +1574,7 @@ If you receive the following errors after logging in, see the indicated knowledg
 
 - Page Cannot Be Displayed: Verify the correct Internet Explorer settings, required by the VA for PIV use (see ServiceNow: KB0013570 \[VA Intranet site\]).
 - You are in compatibility mode and certain features in the TK will not work as expected: Turn off compatibility view (see ServiceNow: KB0013476 \[VA Intranet site\]).
-29. The “Link VistA User” page opens. If it does *not* open, select the Link VistA User menu option from the navigation links on the left of the page.
+29. The "Link VistA User" page opens. If it does *not* open, select the Link VistA User menu option from the navigation links on the left of the page.
 
 After selecting Link VistA User, the following message is displayed:
 
@@ -1555,7 +1587,7 @@ Users can ignore this message.
 > ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/059.png)
 
 30. Select a VistA instance:
-1.  Move to the “User Account Request Information” section.
+1.  Move to the "User Account Request Information" section.
 4.  From the Link Account drop-down menu, select a VistA Instance.
 
 ![](xu-8-702-deployment-installation-back-out-and-rollback-guide-dibrg/060.png) NOTE: The VistA Instance list is sorted by station number. If station ends in a letter or contains a letter, select the parent station for your division. For example, if your station is 576A or 576A5, select 576 station number.
@@ -1677,7 +1709,7 @@ These lines are available 24 hours a day, 7 days a week.
 
 [^2]: Dynamic Link Library (DLL) is a shared "library of executable functions or data that can be used by a Windows application. Typically, a DLL provides one or more particular functions and a program accesses the functions by creating either a static or dynamic link to the DLL. A static link remains constant during program execution while a dynamic link is created by the program as needed. DLLs can also contain just data. DLL files usually end with the extension .dll, .exe, .drv, or .fon.
 
-    A DLL can be used by several applications at the same time. Some DLLs are provided with the Windows operating system and available for any Windows application. Other DLLs are written for a particular application and are loaded with the application." Webopedia “Dynamic Link Library (DLL)” term definition; Author: Vangie Beal;Website: <http://www.webopedia.com/TERM/D/DLL.html>
+    A DLL can be used by several applications at the same time. Some DLLs are provided with the Windows operating system and available for any Windows application. Other DLLs are written for a particular application and are loaded with the application." Webopedia "Dynamic Link Library (DLL)" term definition; Author: Vangie Beal;Website: <http://www.webopedia.com/TERM/D/DLL.html>
 
 ---
 

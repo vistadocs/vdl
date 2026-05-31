@@ -3,47 +3,70 @@ title: TIU Technical Manual (TIU*1.0*372)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
 pkg_ns: TIU
 patch_ver: 1.0
 patch_id: TIU*1.0
-group_key: "TIU:TIU:1.0"
-file_numbers: 
-  - 8925
-security_keys: []
+group_key: TIU:TIU:1.0
+description: '- Department of Veterans Affairs Text Integration Utilities (TIU) Technical Manual - Introduction - Purpose of TIU - Functional Overview - [Recently...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '4.001'
+- '4.005'
+- '4.9'
+- '5'
+- '6'
+- '19.2'
+- '60'
+- '64'
+- '99.991'
+- '101.22'
+- '128'
+- '8625'
+- '8925'
+- '8925.1'
+- '8925.2'
+- '8925.7'
+- '8925.71'
+- '8926'
+- '8926.1'
+- '8926.2'
+- '8926.3'
+- '8926.4'
+- '8926.5'
+- '8926.6'
+- '8927'
+- '8930'
+- '8932.1'
+security_keys:
+- CLINICIAN
+- PROVIDER
+- TIU AUTOVERIFY
+- TIUDCT
 menu_options: 12
-description: 
-audience: 
-keywords: 
-  - document
-  - class
-  - object
-  - print
-  - title
-  - patient
-  - notes
-  - edit
-  - progress
-  - table
 page_count: 0
 word_count: 69373
 section_count: 17
 table_count: 32
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiutm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiutm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiutm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiutm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 # Department of Veterans Affairs Text Integration Utilities (TIU) Technical Manual

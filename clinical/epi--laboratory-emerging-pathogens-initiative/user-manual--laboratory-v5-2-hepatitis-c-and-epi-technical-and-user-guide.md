@@ -5,44 +5,59 @@ doc_label: User Guide
 doc_layer: anchor
 doc_subject: Hepatitis C and EPI Technical and
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: EPI
 patch_ver: 5.2
 patch_id: EPI*5.2
-group_key: "EPI:EPI:5.2"
-file_numbers: []
-security_keys: []
+group_key: EPI:EPI:5.2
+description: LaboratoryEmerging Pathogens Initiative (EPI)Version 5.2Hepatitis C Extract and EPI Technical and User
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '0'
+- '2'
+- '3'
+- '3.8'
+- '07'
+- 08
+- '12'
+- '45'
+- '50'
+- '60'
+- '61'
+- '61.2'
+- '62.06'
+- '62.6'
+- '63'
+- '64'
+- '69.4'
+- '69.5'
+- '69.51'
+- '80'
+- '771'
+- '811.5'
+- '811.9'
+security_keys:
+- PROVIDER
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - strong
-  - contents
-  - even
-  - date
-  - style
-  - width
-  - alphanumeric
 page_count: 0
 word_count: 16211
 section_count: 67
 table_count: 8
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_hepc_tech_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_hepc_tech_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_hepc_tech_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_hepc_tech_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
 
 LaboratoryEmerging Pathogens Initiative (EPI)Version 5.2Hepatitis C Extract and EPI Technical and User Guide

@@ -3,57 +3,41 @@ title: Inbound ePrescribing User Manual (Unit 3 Part 1) PSO*7*617 and PSO*7*670
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (Unit 3 Part 1) PSO*7*617 and PSO*7*670
+doc_subject: Inbound ePrescribing (Unit 3 Part 1) PSO*7*617 and PSO*7*670
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
-file_numbers: []
+group_key: PSO:PSO:7.0
+description: '- Inbound eR X VistA Holding Queue - Inbound eR X VistA Outpatient Profile - Complete Orders from Order Entry/Results Reporting (OERR) and Patient Prescription Processing'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3'
+- '10.2'
+- '59'
 security_keys: []
 menu_options: 0
-description: - Inbound eR<sub>X</sub> VistA Holding Queue - Inbound eR<sub>X</sub> VistA Outpatient Profile - Complete Orders from Order Entry/Results Reporting (OERR) and Patient Prescription Processing
-audience: 
-keywords: 
-  - span
-  - patient
-  - inbound
-  - view
-  - figure
-  - class
-  - queue
-  - holding
-  - unit
-  - message
 page_count: 0
-word_count: 6575
+word_count: 6560
 section_count: 6
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_31.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_31.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_31.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_31.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk52202211" class="anchor"></span>Pharmacy Reengineering (PRE)
-
-  Inbound ePrescribing (IEP) 5.0
-
-  User Guide
----
-
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-617-and-pso-7-670/001.png)
 
 November 2021

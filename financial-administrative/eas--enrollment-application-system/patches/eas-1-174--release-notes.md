@@ -3,7 +3,7 @@ title: EAS*1*174 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: EAS
 app_name: Enrollment Application System
 section: FIN
@@ -11,52 +11,32 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1*174
-group_key: "EAS:EAS:1"
-file_numbers: []
+group_key: EAS:EAS:1
+description: '''[Table 1: EAS\*1.0\*174 Enhancements and Modifications'''
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '714.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - release
-  - test
-  - exemption
-  - contents
-  - span
-  - vista
-  - veteran
-  - medal
-  - honor
 page_count: 0
-word_count: 1406
+word_count: 1379
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_174_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_174_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_174_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_174_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Enrollment System Modernization (ESM) Phase 2
-
-  Veterans Health Information Systems and Technology Architecture (VistA)  
-  Registration, Eligibility & Enrollment (REE)
-
-  EAS\*1.0\*174
-
-  Release Notes
----
-
 ![](eas-1-174-release-notes/001.png)
 
 December 2019

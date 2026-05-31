@@ -8,41 +8,32 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Department of Veterans Affairs Office of Enterprise Development'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - telereader
-  - configurator
-  - vista
-  - imaging
-  - strong
-  - configuring
-  - guide
-  - consult
+menu_options: 1
 page_count: 0
 word_count: 1589
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_telereader_configurator_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_telereader_configurator_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_telereader_configurator_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_telereader_configurator_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-telereader-configurator-user-guide/001.png)

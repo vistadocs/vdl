@@ -1,5 +1,5 @@
 ---
-title: Mental Health Version 5.01 Installation Guide  Release Notes
+title: Mental Health Version 5.01 Installation Guide Release Notes
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
@@ -11,38 +11,65 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01
-group_key: "YS:YS:5.01"
-file_numbers: []
+group_key: YS:YS:5.01
+description: '- # Preface - # # # # ## Pre-INIT, INIT, and Post-INIT Actions - [Installation of Mental Health V. 5.01 is accomplished through the actions of the package''s pre-INIT, INIT, and post-INIT routines. The main actions of these groups of routines are...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '5.01'
+- '9.4'
+- '10'
+- '11'
+- '12'
+- '13'
+- '16'
+- '19'
+- '30'
+- '80'
+- '90'
+- '90.04'
+- '90.06'
+- '90.07'
+- '102'
+- '102.6'
+- '121'
+- '200'
+- '602'
+- '606'
+- '606.5'
+- '615.2'
+- '615.5'
+- '615.6'
+- '615.7'
+- '615.8'
+- '615.9'
+- '618.4'
+- '624'
+- '627'
+- '627.5'
+- '627.7'
+- '627.8'
+- '627.99'
 security_keys: []
 menu_options: 1
-description: - [# Preface](#preface) - [# # # # ## Pre-INIT, INIT, and Post-INIT Actions](#pre-init-init-and-post-init-actions) - [Installation of Mental Health V. 5.01 is accomplished through the actions of the package’s pre-INIT, INIT, and post-INIT routines. The main actions of these groups of routines are li
-audience: 
-keywords: 
-  - filed
-  - routine
-  - mental
-  - health
-  - conversion
-  - compiling
-  - yssr
-  - print
-  - progress
-  - reference
 page_count: 0
 word_count: 13374
 section_count: 9
 table_count: 13
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh5_01.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh5_01.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh5_01.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh5_01.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

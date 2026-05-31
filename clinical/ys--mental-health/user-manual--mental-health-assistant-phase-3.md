@@ -8,41 +8,38 @@ app_code: YS
 app_name: Mental Health
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: YS
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- MENTAL HEALTH ASSISTANT - Version 3 (MHA3) - Revised March 2020 - Office of Information and Technology (OI&T) Product Development - Orientation -...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '141'
+- '171'
+- '601.92'
+security_keys:
+- RETURN
+- TAB
+- YSP
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - strong
-  - contents
-  - health
-  - mental
-  - even
-  - assistant
-  - manual
 page_count: 0
 word_count: 26563
 section_count: 27
 table_count: 1
 figure_count: 0
 appendix_count: 7
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/YS_MHA_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/YS_MHA_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/YS_MHA_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/YS_MHA_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 # MENTAL HEALTH ASSISTANT

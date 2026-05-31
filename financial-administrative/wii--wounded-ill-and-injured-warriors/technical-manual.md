@@ -3,7 +3,7 @@ title: WII Version 1.1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: WII
 app_name: Wounded Ill and Injured Warriors
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: WII
 patch_ver: 1.1
 patch_id: WII*1.1
-group_key: "WII:WII:1.1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - even
-  - table
-  - contents
-  - facility
-  - redacted
-  - dfas
-  - active
-  - action
-  - record
+group_key: WII:WII:1.1
+description: '| Date | Revision | Page Number | Description | |--------------------|-----------------|-------------|------------------------------------------------------------------------------| | August 2008 | Initial Version | | Document created. | | September 10,2008 | Version .2 | C1 to C155 | List of VA...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '987.5'
+- '987.6'
+- '987.7'
+- '987.8'
+security_keys:
+- XUPROGMODE
+menu_options: 3
 page_count: 0
 word_count: 12635
 section_count: 9
 table_count: 1
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=178"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=178
+audit_applied: '2026-05-31'
 ---
 
 ![](wii-version-1-1-technical-manual/001.png)

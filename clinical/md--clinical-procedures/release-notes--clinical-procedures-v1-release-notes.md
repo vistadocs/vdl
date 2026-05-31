@@ -3,7 +3,7 @@ title: Clinical Procedures Version 1 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1
-group_key: "MD:MD:1"
+group_key: MD:MD:1
+description: '[Implementation Considerations'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - issue
-  - imaging
-  - considerations
-  - vista
-  - reports
-  - resolution
-  - table
-  - contents
-  - introduction
-  - implementation
 page_count: 0
 word_count: 529
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-procedures-version-1-release-notes/001.png)

@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*893
-group_key: "IVMB:IVMB:2"
+group_key: IVMB:IVMB:2
+description: '[Enhanced Continuous Enrollment Rules'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - enrollment
-  - veteran
-  - enrolled
-  - rules
-  - record
-  - status
-  - date
-  - continuous
-  - table
-  - eligibility
 page_count: 0
 word_count: 1076
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p893_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p893_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p893_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p893_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 Health eligibility center

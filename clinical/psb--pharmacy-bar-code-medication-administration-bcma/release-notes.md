@@ -1,14 +1,48 @@
 ---
-consolidated_title: "bcma release notes"
-app_code: PSB
+title: PSB*3*68 BCMA Version 3 Release Notes
 doc_type: RN
-master_source: "PSB*3*68 BCMA Version 3 Release Notes"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: BCMA Version 3
+app_code: PSB
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
+section: CLI
+app_status: active
+pkg_ns: PSB
+patch_ver: 3
+patch_id: PSB*3*68
+group_key: PSB:PSB:3
+file_numbers:
+- '51.2'
+security_keys: []
+menu_options: 0
+description: Special Instructions / Other Print Info and Injection Sites for BCMA
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 3244
+section_count: 13
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: September 2012
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p68_rn_.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p68_rn_.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
+master_source: PSB*3*68 BCMA Version 3 Release Notes
 master_pub_date: September 2012
 consolidated_from: 4 versions
 prior_versions:
-  - "PSB*3*2 BCMA Version 3 Release Notes"
-  - "PSB*3*42 BCMA Version 3 Release Notes"
-  - "PSB*3*58 BCMA Version 3 Release Notes"
+- PSB*3*2 BCMA Version 3 Release Notes
+- PSB*3*42 BCMA Version 3 Release Notes
+- PSB*3*58 BCMA Version 3 Release Notes
+consolidated_title: bcma release notes
 ---
 
 > ![](psb-3-68-bcma-version-3-release-notes/001.png)
@@ -42,7 +76,7 @@ Table of Contents
   - [BCMA Reports Modified](#bcma-reports-modified)
 - [Injection Sites Enhancement](#injection-sites-enhancement)
   - [Conditions to enable Injection Site features](#conditions-to-enable-injection-site-features)
-  - [“Last Site” column displayed on the BCMA VDL](#last-site-column-displayed-on-the-bcma-vdl)
+  - ["Last Site" column displayed on the BCMA VDL](#last-site-column-displayed-on-the-bcma-vdl)
   - [Options to Display Injection Site History](#options-to-display-injection-site-history)
   - [Injection Site History Dialog](#injection-site-history-dialog)
   - [Expanded Injection Site Needed Dialog](#expanded-injection-site-needed-dialog)
@@ -56,7 +90,7 @@ This document provides a feature summary of the Special Instructions and Other P
 ­­­­­­­­­­­­­
 Installation instructions for PSB\*3\*68 are included in the patch description. See page [20](#installation-details) of these Release Notes for additional installation details.
 - When installing PSB\*3\*68, a second part of the install will immediately begin running in the background and will create a new index for the injection site. This may take 20 to 30 hours to complete.
-- After installing the patch, and upon opening BCMA, be sure to expand the last column which is entitled “Last Site.” The default is approximately 8 characters, depending on screen resolution, use of capitals or lower case, etc. After you expand the column, BCMA will remember the width each time you log in.
+- After installing the patch, and upon opening BCMA, be sure to expand the last column which is entitled "Last Site." The default is approximately 8 characters, depending on screen resolution, use of capitals or lower case, etc. After you expand the column, BCMA will remember the width each time you log in.
 Patches PSB\*3\*58, PSB\*3\*61, PSB\*3\*62, PSS\*1\*171, PSJ\*5\*267 and PSB\*3\*67 must be installed prior to PSB\*3\*68.Highlights
 - The following dialogs and popups that include Special Instructions/Other Print Info were widened and modified to accommodate unlimited text sent via Inpatient Medications.
   - Special Instructions/Other Print Info pop-up boxes
@@ -90,7 +124,7 @@ Inpatient Medications and BCMA Special Instructions/Other Print Info fields were
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Special Instructions/Other Print Info will display on the VDL under the Active Medication. If the total height of the administration row including Special Instructions/Other Print Info is equal to or greater than 19 lines, the following message displays for all three med tabs in place of Special Instructions/Other Print Info (bold red text): “Too much information to display. Use right-click menu to display full text.”
+Special Instructions/Other Print Info will display on the VDL under the Active Medication. If the total height of the administration row including Special Instructions/Other Print Info is equal to or greater than 19 lines, the following message displays for all three med tabs in place of Special Instructions/Other Print Info (bold red text): "Too much information to display. Use right-click menu to display full text."
 
 Example: VDL Display
 
@@ -157,7 +191,7 @@ The following dialog boxes were modified by allowing the Special Instructions/Ot
 
 ![](psb-3-68-bcma-version-3-release-notes/012.png)
 
-In all of the above dialog boxes, if Special Instructions/Other Print Info text exceeds 6 lines, a scroll bar and “Display Instructions” button appear. The following message displays in bold red text: “\<Scroll down or click ‘Display Instructions’ for full text\>.” When the “Display Instructions” button is clicked, Special Instructions/Other Print Info will display in the pop-up.
+In all of the above dialog boxes, if Special Instructions/Other Print Info text exceeds 6 lines, a scroll bar and "Display Instructions" button appear. The following message displays in bold red text: "\<Scroll down or click 'Display Instructions' for full text\>." When the "Display Instructions" button is clicked, Special Instructions/Other Print Info will display in the pop-up.
 
 Following are examples of dialog boxes with Special Instructions/Other Print Info text that exceed 6 lines.
 
@@ -177,7 +211,7 @@ Example: Scan IV Dialog Box
 - The title bar of the pop-up for Special Instructions/Other Print Info now reflects the type of information contained in the dialog, Special Instructions or Other Print Info. Special Instructions displays for Unit Dose and IV Push administrations, while Other Print Info display for IVPB and large volume IV medications.
 - The default size of the Special Instructions pop-up box is approximately 80 characters wide with a minimum height of 6 lines. The width cannot be changed, and the height will automatically resize to accommodate the length of the message. If the vertical height of the message exceeds the size of the screen, a vertical scroll bar displays.
 
-> If the total height of the administration row, including Special Instructions, is equal to or greater than 19 lines, the following message displays in place of Special Instructions (bold red text): “Too much information to display. Use right-click menu to display full text.”
+> If the total height of the administration row, including Special Instructions, is equal to or greater than 19 lines, the following message displays in place of Special Instructions (bold red text): "Too much information to display. Use right-click menu to display full text."
 
 Example: Special Instructions Pop-up Box
 
@@ -191,14 +225,14 @@ Example: Other Print Info Pop-up Box
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-- For orders containing Special Instructions/Other Print Info that exceed 180 characters on the Cover Sheet, the message: “Too much information to display. Use right-click menu to display full text” will be displayed.
+- For orders containing Special Instructions/Other Print Info that exceed 180 characters on the Cover Sheet, the message: "Too much information to display. Use right-click menu to display full text" will be displayed.
 
   
 Example: BCMA Cover Sheet
 
 ![](psb-3-68-bcma-version-3-release-notes/017.png)
 
-- For orders containing Special Instructions/Other Print Info that exceed 180 characters on the Cover Sheet, the hover text message: “Too much information to display. Use right-click menu to display full text” will be displayed while hovering over a Special Instructions/Other Print Info field exceeding 180 characters.
+- For orders containing Special Instructions/Other Print Info that exceed 180 characters on the Cover Sheet, the hover text message: "Too much information to display. Use right-click menu to display full text" will be displayed while hovering over a Special Instructions/Other Print Info field exceeding 180 characters.
 
 Example: BCMA Cover Sheet Hover Text
 
@@ -236,11 +270,11 @@ The following BCMA reports were modified to invoke a 74 character word wrap for 
 - Cover Sheet Report – Medication Overview Report
 - Cover Sheet Report – PRN Overview Report
 - Cover Sheet Report – IV Overview
-- Cover Sheet Report – Expired/DC’d/Expiring Report
+- Cover Sheet Report – Expired/DC'd/Expiring Report
 
-When printing the MAH report to a printer, if Special Instructions/Other Print Info need to flow to another printed page, a blank line with the message: “CONTINUED ON NEXT PAGE\*\*\*” is printed before the page break. The message: “\*\*\*CONTINUED FROM PREVIOUS PAGE \*\*\*” and a blank line is printed on the subsequent page after the page headers.
+When printing the MAH report to a printer, if Special Instructions/Other Print Info need to flow to another printed page, a blank line with the message: "CONTINUED ON NEXT PAGE\*\*\*" is printed before the page break. The message: "\*\*\*CONTINUED FROM PREVIOUS PAGE \*\*\*" and a blank line is printed on the subsequent page after the page headers.
 
-Special Instructions was moved below the Initials field and starts on a separate line to allow for wrapping and unlimited text. The field is now entitled “Special Instructions.”
+Special Instructions was moved below the Initials field and starts on a separate line to allow for wrapping and unlimited text. The field is now entitled "Special Instructions."
 
   
 Example: MAH Report
@@ -254,13 +288,13 @@ The report dialog boxes of the following BCMA reports were also modified to disp
 - Cover Sheet Report – Medication Overview Report
 - Cover Sheet Report – PRN Overview Report
 - Cover Sheet Report – IV Overview
-- Cover Sheet Report – Expired/DC’d/Expiring Report
+- Cover Sheet Report – Expired/DC'd/Expiring Report
 
 # Injection Sites Enhancement
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-BCMA now allows the nurse at the time of medication administration to see the location of up to the last four injection sites for the orderable item, displayed without time limits and all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, “Injection Site History Max Hours.” The default is 72 hours.
+BCMA now allows the nurse at the time of medication administration to see the location of up to the last four injection sites for the orderable item, displayed without time limits and all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, "Injection Site History Max Hours." The default is 72 hours.
 
 ## Conditions to enable Injection Site features
 
@@ -278,7 +312,7 @@ The new injection site functionality applies to injectable administrations that 
 </tr>
 <tr class="even">
 <td><p>If the administration is on the Unit Dose Tab, and</p>
-<p>“PROMPT FOR INJ SITE IN BCMA” = YES</p>
+<p>"PROMPT FOR INJ SITE IN BCMA" = YES</p>
 <p>in the Medication Routes file (#51.2).</p></td>
 </tr>
 <tr class="odd">
@@ -289,18 +323,18 @@ The new injection site functionality applies to injectable administrations that 
 <p>IV TYPE = SYRINGE, subtype INTERMITTENT or</p>
 <p>IV TYPE = CHEMOTHERAPY, subtype SYRINGE, subtype INTERMITTENT, and</p>
 <p>MEDICATION ROUTE = Intramuscular, Subcutaneous, or Intradermal, and</p>
-<p>“PROMPT FOR INJ SITE IN BCMA” = YES, and</p>
-<p>“DISPLAY ON IVP/IVPB TAB IN BCMA?” = YES</p>
+<p>"PROMPT FOR INJ SITE IN BCMA" = YES, and</p>
+<p>"DISPLAY ON IVP/IVPB TAB IN BCMA?" = YES</p>
 <p>in the Medication Routes file (#51.2).</p></td>
 </tr>
 </tbody>
 </table>
 
-## “Last Site” column displayed on the BCMA VDL
+## "Last Site" column displayed on the BCMA VDL
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A new column, “Last Site”, was added to the VDL on the Unit Dose and IVP/IVPB tabs, displaying the last injection site that was indicated for the orderable item, for administrations that participate in injection site rotation. The column appears in the last position to the right of the “Last Action” column.
+A new column, "Last Site", was added to the VDL on the Unit Dose and IVP/IVPB tabs, displaying the last injection site that was indicated for the orderable item, for administrations that participate in injection site rotation. The column appears in the last position to the right of the "Last Action" column.
 
   
 Example: Last Site Display
@@ -313,13 +347,13 @@ Example: Last Site Display
 
 BCMA provides multiple ways to display Injection Site History for administrations that participate in injection site rotation.
 
-- Right-click menu option, “Injection Site History”.
+- Right-click menu option, "Injection Site History".
 
 Example: Right-Click Menu
 
 ![](psb-3-68-bcma-version-3-release-notes/024.png)
 
-- Due List menu option, “Injection Site History”.
+- Due List menu option, "Injection Site History".
 
 Example: Due List Menu
 
@@ -333,10 +367,10 @@ Example: Due List Menu
 
 The Injection Site History Dialog displays two tables:
 
-- “Previous Injection Sites for this Medication (up to 4)” shown at the top, lists the last four injection sites for the orderable item displayed without time limits. The name of the Orderable Item and the route are shown above the top table.
-- “All Injection Sites (within last nn hours)” shown at the bottom, lists all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, “Injection Site History Max Hours.” The default is 72 hours.
+- "Previous Injection Sites for this Medication (up to 4)" shown at the top, lists the last four injection sites for the orderable item displayed without time limits. The name of the Orderable Item and the route are shown above the top table.
+- "All Injection Sites (within last nn hours)" shown at the bottom, lists all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, "Injection Site History Max Hours." The default is 72 hours.
 
-> Note: If no data exists for the table, the message “\<\<No data to display\>\>” appears.
+> Note: If no data exists for the table, the message "\<\<No data to display\>\>" appears.
 
 > The following fields are displayed in each table: Date Time, Medication (orderable item name), Dosage Given, Route, and Injection Site – sorted in reverse date/time order.
 
@@ -351,10 +385,10 @@ Example: Injection Site History Dialog
 
 The expanded Injection Site Needed displays during administration of injectable medications when the conditions in section 3.1 are met. The information provided in the following tables will assist the nurse in deciding the location of the next injection site, to ensure proper injection site rotation.
 
-- “Previous Injection Sites for this Medication (up to 4)” shown at the top, lists the last four injection sites for the orderable item displayed without time limits. The name of the Orderable Item and the route are shown above the top table.
-- “All Injection Sites (within last nn hours)” shown at the bottom, lists all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, “Injection Site History Max Hours.” The default is 72 hours.
+- "Previous Injection Sites for this Medication (up to 4)" shown at the top, lists the last four injection sites for the orderable item displayed without time limits. The name of the Orderable Item and the route are shown above the top table.
+- "All Injection Sites (within last nn hours)" shown at the bottom, lists all injection site entries for the patient within the time frame (nn) specified by the BCMA Site Parameter, "Injection Site History Max Hours." The default is 72 hours.
 
-> Note: If no data exists for the table, the message “\<\<No data to display\>\>” appears.
+> Note: If no data exists for the table, the message "\<\<No data to display\>\>" appears.
 
 > The following fields are displayed in each table: Date Time, Medication (orderable item name), Dosage Given, Route, and Injection Site sorted in reverse date/time order.
 
@@ -371,7 +405,7 @@ Example: Expanded Injection Site Needed Dialog on Unit Dose Tab
   
 On the IVP/IVPB tab:
 
-1.  In the lower left of the following dialog, a checkbox is displayed with the statement: “I acknowledge this medication to be administered via route:\_\_\_\_\_\_\_\_\_\_\_.” The medication route is displayed in bold uppercase red text. The OK button remains disabled until the user confirms the acknowledgement statement by checking the checkbox and selecting an injection site.
+1.  In the lower left of the following dialog, a checkbox is displayed with the statement: "I acknowledge this medication to be administered via route:\_\_\_\_\_\_\_\_\_\_\_." The medication route is displayed in bold uppercase red text. The OK button remains disabled until the user confirms the acknowledgement statement by checking the checkbox and selecting an injection site.
 2.  The user selects the location on the patient where the medication is to be injected from the Select Injection Site drop-down list.
 3.  Click OK.
 
@@ -401,7 +435,7 @@ The following Patient Safety Issue corrections made with this patch:
 
 The following Remedy Tickets were resolved with this patch:
 
-- HD480879 – Multiple Dose Dialog Box “Invalid Medications” popup modified to display whenever an invalid dose is scanned.
+- HD480879 – Multiple Dose Dialog Box "Invalid Medications" popup modified to display whenever an invalid dose is scanned.
 - HD488494 – BCMA modified to display all Allergies and ADRs for patients with more than one line of Allergies and ADRs.
 - HD506938 – BCMA modified to always display Patient Record flag in Red.
 - HD419658 – Special Instructions modified to print in full on Med Overview and PRN Overview Reports
@@ -443,7 +477,7 @@ The background job can be stopped by asking Taskman to stop. A MailMan message w
 
 The status of this background job can be checked by typing the Mumps command in Programmer Mode, as shown below in the Example Status Check.
 
-The Post Install routine, PSB3P68, should be deleted manually after the MailMan message is received indicating the Cross Ref Builder is complete. See “Post Installation” section in the patch description for instructions on deleting the routine.
+The Post Install routine, PSB3P68, should be deleted manually after the MailMan message is received indicating the Cross Ref Builder is complete. See "Post Installation" section in the patch description for instructions on deleting the routine.
 
  Example MailMan Message:
 
@@ -535,9 +569,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-In the BCMA Site Parameters application Graphical User Interface (GUI), a new option group labeled “Non-Nurse Verified Orders” with three mutually exclusive options: “Allow Administration (No Warning)”, “Allow Administration with Warning”, “Prohibit Administration” was added.
+In the BCMA Site Parameters application Graphical User Interface (GUI), a new option group labeled "Non-Nurse Verified Orders" with three mutually exclusive options: "Allow Administration (No Warning)", "Allow Administration with Warning", "Prohibit Administration" was added.
 
-“Allow Administration (No Warning)” is the default setting. Below are examples of the parameter screens.
+"Allow Administration (No Warning)" is the default setting. Below are examples of the parameter screens.
 
 Example: Parameter Screen
 
@@ -547,36 +581,36 @@ Example: Parameter Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-- When “Allow Administration (No Warning)” parameter option is selected:
+- When "Allow Administration (No Warning)" parameter option is selected:
 
-> If nurse initials are <u>not</u> displayed in Verified “Ver” column of the BCMA VDL for a particular order/administration, BCMA will allow the medication to be administered with no warning to the user.
+> If nurse initials are <u>not</u> displayed in Verified "Ver" column of the BCMA VDL for a particular order/administration, BCMA will allow the medication to be administered with no warning to the user.
 
 > Marking non-nurse verified administrations as Held, Refused, or Missing Dose will be unaffected by this parameter setting. Therefore, no warnings will be displayed.
 
-- When “Allow Administration with Warning” parameter option is selected:
+- When "Allow Administration with Warning" parameter option is selected:
 
-> If nurse initials are <u>not</u> displayed in Verified “Ver” column of the BCMA VDL for a particular order/administration, BCMA will display a warning dialog with the message: “Order NOT Nurse-Verified! Do you want to continue?” when user scans the medication (or uses Unable to Scan).
+> If nurse initials are <u>not</u> displayed in Verified "Ver" column of the BCMA VDL for a particular order/administration, BCMA will display a warning dialog with the message: "Order NOT Nurse-Verified! Do you want to continue?" when user scans the medication (or uses Unable to Scan).
 
 > The user has the choice of continuing the administration or cancelling the administration. Clicking OK will acknowledge that the order has not been nurse verified, and the user may continue the administration. All medication administration dialogs will display as appropriate to the workflow for the selected administration.
 
-> Clicking Cancel will display the “Order Administration Cancelled” dialog. User must click OK to acknowledge the cancellation and return to the VDL.
+> Clicking Cancel will display the "Order Administration Cancelled" dialog. User must click OK to acknowledge the cancellation and return to the VDL.
 
 Example: Warning Message
 
 > ![](psb-3-58-bcma-version-3-release-notes/003.png)
 
-- When “Prohibit Administration” parameter option is selected:
+- When "Prohibit Administration" parameter option is selected:
 
-> If nurse initials are <u>not</u> displayed in Verified “Ver” column of the BCMA VDL for a particular order/administration, BCMA will display an error dialog with the message: “Order NOT Nurse-Verified! DO NOT GIVE!” when user scans the medication (or uses Unable to Scan).
+> If nurse initials are <u>not</u> displayed in Verified "Ver" column of the BCMA VDL for a particular order/administration, BCMA will display an error dialog with the message: "Order NOT Nurse-Verified! DO NOT GIVE!" when user scans the medication (or uses Unable to Scan).
 
-> Clicking OK to acknowledge the “DO NOT GIVE” message and clicking OK at the “Order Administration Cancelled” dialog will acknowledge the cancellation and return the user to the VDL without administering the medication.
+> Clicking OK to acknowledge the "DO NOT GIVE" message and clicking OK at the "Order Administration Cancelled" dialog will acknowledge the cancellation and return the user to the VDL without administering the medication.
 
   
 Example: Error Message
 
 > ![](psb-3-58-bcma-version-3-release-notes/004.png)
 
-- When the “Allow Administration with Warning” or “Prohibit Administration” parameter setting is selected, the resulting warning/error pop-up message will usually precede other BCMA pop-ups during the medication administration process. Exceptions to this are:
+- When the "Allow Administration with Warning" or "Prohibit Administration" parameter setting is selected, the resulting warning/error pop-up message will usually precede other BCMA pop-ups during the medication administration process. Exceptions to this are:
   - Ward Stock Bags: When the user scans bag components into the Ward stock dialog thus creating a ward stock bag, BCMA will not match the list of components to the order until the user selects OK. At that time, if the order is not nurse-verified, the Non-Nurse Verify pop-up will then display. (Applies to IVP/IVPB and IV)
   - Multiple Orders for Scanned Drugs: When the user scans a medication and there are multiple administrations available within the virtual due list parameters timeframe, the Multiple Orders for Scanned Drugs dialog displays before the Non-Nurse Verify pop-up. (Applies to Unit Dose and IVP/IVPB)
   - Currently Infusing IV Bags: When attempting to scan a new bag while an existing bag is currently infusing, the user must complete the infusing bag before the Non-Nurse Verify pop-up displays. (Applies to IV)
@@ -588,8 +622,8 @@ Example: Error Message
 
 When submitting a Missing Dose request for non-nurse verified Unit Dose, IVP/IVPB, or IV orders, the user must perform one of the following actions:
 
-- When “Allow Administration (No Warning)” parameter option is selected, no Warning message will display. The Missing Dose Request dialog box will display. The user may continue submitting the Missing Dose Request for the non-nurse verified order.
-- When “Allow Administration with Warning” parameter option is selected, the pop-up dialog with the warning: “Order NOT Nurse-Verified! Do you want to continue?” will display.
+- When "Allow Administration (No Warning)" parameter option is selected, no Warning message will display. The Missing Dose Request dialog box will display. The user may continue submitting the Missing Dose Request for the non-nurse verified order.
+- When "Allow Administration with Warning" parameter option is selected, the pop-up dialog with the warning: "Order NOT Nurse-Verified! Do you want to continue?" will display.
 
 > The user must click OK to acknowledge that the order has not been nurse verified. The Missing Dose Request dialog box will display. The user may continue submitting the Missing Dose Request for the non-nurse verified order.
 
@@ -600,7 +634,7 @@ Example: Warning Message
 
 > ![](psb-3-58-bcma-version-3-release-notes/005.png)
 
-- When “Prohibit Administration” parameter option is selected, the pop-up dialog with the error message: “Order NOT Nurse-Verified. Action unavailable until verified.” will display.
+- When "Prohibit Administration" parameter option is selected, the pop-up dialog with the error message: "Order NOT Nurse-Verified. Action unavailable until verified." will display.
 
 > The user must click OK to cancel the selected action and return to the VDL.
 
@@ -608,13 +642,13 @@ Example: Error Message
 
 ![](psb-3-58-bcma-version-3-release-notes/006.png)
 
-> Note: User’s site policy will determine the correct workflow for verifying the order in CPRS.
+> Note: User's site policy will determine the correct workflow for verifying the order in CPRS.
 
 ## Marking Multiple Non-Nurse Verified Administrations Held or Refused
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-- When “Allow Administration With Warning” parameter option is selected, if nurse initials are <u>not</u> displayed in the Verified “Ver” column of the BCMA VDL for a particular order/administration, when the user attempts to mark multiple administrations Held or Refused, BCMA will display a pop-up dialog with the warning: “You have selected one or more orders that are NOT Nurse Verified. Do you want to continue?”
+- When "Allow Administration With Warning" parameter option is selected, if nurse initials are <u>not</u> displayed in the Verified "Ver" column of the BCMA VDL for a particular order/administration, when the user attempts to mark multiple administrations Held or Refused, BCMA will display a pop-up dialog with the warning: "You have selected one or more orders that are NOT Nurse Verified. Do you want to continue?"
 
 User has the choice of continuing the administration or cancelling the administration.
 
@@ -626,7 +660,7 @@ Example: Warning Message
 
 ![](psb-3-58-bcma-version-3-release-notes/007.png)
 
-- When “Prohibit Administration” parameter option is selected, if nurse initials are <u>not</u> displayed in the Verified “Ver” column of the BCMA VDL for a particular order/administration, when the user attempts to mark multiple administrations Held or Refused, BCMA will display a pop-up error dialog with the message:“You have selected one or more orders that are NOT Nurse Verified. Do you want to continue?”
+- When "Prohibit Administration" parameter option is selected, if nurse initials are <u>not</u> displayed in the Verified "Ver" column of the BCMA VDL for a particular order/administration, when the user attempts to mark multiple administrations Held or Refused, BCMA will display a pop-up error dialog with the message:"You have selected one or more orders that are NOT Nurse Verified. Do you want to continue?"
 
 User has the choice of continuing the administration or cancelling the administration.
 
@@ -661,12 +695,12 @@ Example: Parameter Screen
 
 A logical flag was created to pass from Inpatient Medications to BCMA, to indicate the existence of CPRS Provider override reasons and/or Pharmacist interventions associated with an order.
 
-If the flag exists for an order, the cell in the Verified “Ver” column of the order/administration on the BCMA VDL is highlighted in yellow, to indicate the existence of CPRS Provider override reasons and/or Pharmacist interventions associated with the order.
+If the flag exists for an order, the cell in the Verified "Ver" column of the order/administration on the BCMA VDL is highlighted in yellow, to indicate the existence of CPRS Provider override reasons and/or Pharmacist interventions associated with the order.
 
-- The highlighting of the Verified “Ver” cell is applicable to orders on all three medication tabs: Unit Dose, IVP/IVPB, and IV.
-- The highlighting of the Verified “Ver” cell is applicable to orders on the Cover Sheet.
+- The highlighting of the Verified "Ver" cell is applicable to orders on all three medication tabs: Unit Dose, IVP/IVPB, and IV.
+- The highlighting of the Verified "Ver" cell is applicable to orders on the Cover Sheet.
 
-The Verified “Ver” column was added to the Cover Sheet tab to display either initials of the nurse who verified order, or three asterisks “\*\*\*” to indicate the order is non-nurse verified.
+The Verified "Ver" column was added to the Cover Sheet tab to display either initials of the nurse who verified order, or three asterisks "\*\*\*" to indicate the order is non-nurse verified.
 
 Example: VDL Screen Excerpt
 
@@ -676,15 +710,15 @@ Example: VDL Screen Excerpt
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If CPRS Provider override reasons and/or Pharmacist interventions exist for an order, a summary of the order’s <u>current</u> CPRS Order Checks, Provider override reasons and Pharmacist intervention information will be included in the BCMA Order Detail report, below “Spec Inst”.
+If CPRS Provider override reasons and/or Pharmacist interventions exist for an order, a summary of the order's <u>current</u> CPRS Order Checks, Provider override reasons and Pharmacist intervention information will be included in the BCMA Order Detail report, below "Spec Inst".
 
 At the top of the summary, the following Provider Override information displays:
 
 - Heading: \*\*Current Provider Overrides for this order \*\*
-- “Overriding Provider:” (Provider Name and Title)
-- “Override Entered By:” (User who entered justification and Title)
-- “Date//Time Entered: ” (MM/DD/YY HH:MM)
-- “Override Reason:” (Justification text)
+- "Overriding Provider:" (Provider Name and Title)
+- "Override Entered By:" (User who entered justification and Title)
+- "Date//Time Entered: " (MM/DD/YY HH:MM)
+- "Override Reason:" (Justification text)
 
 Below the Provider Override information, the summary of current CPRS Order Checks will display in the following order:
 
@@ -716,7 +750,7 @@ Example: BCMA Order Detail Report
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A new menu option called “Icon Legend” was added to the View Menu so that when selected, a dialog will display showing icons used throughout BCMA, with their corresponding descriptions:
+A new menu option called "Icon Legend" was added to the View Menu so that when selected, a dialog will display showing icons used throughout BCMA, with their corresponding descriptions:
 
 - Click on View then click on Icon Legend.
 - Clicking OK will return the user to the VDL.
@@ -725,11 +759,11 @@ Example: Icon Legend
 
 ![](psb-3-58-bcma-version-3-release-notes/014.png)
 
-## “Hover-Over” Capability Added to the VDL
+## "Hover-Over" Capability Added to the VDL
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A new hover-over feature was added to the BCMA VDL. When CPRS Provider Overrides and/or Pharmacist Interventions exist for an order, the user will be able to hover over the highlighted Verified “Ver” cell, and the following visual indicator will display: “Override/Intervention reasons.”
+A new hover-over feature was added to the BCMA VDL. When CPRS Provider Overrides and/or Pharmacist Interventions exist for an order, the user will be able to hover over the highlighted Verified "Ver" cell, and the following visual indicator will display: "Override/Intervention reasons."
 
 Example: Override/Intervention Indicator
 
@@ -746,14 +780,14 @@ Functionality was added to test for scanning of data into the Quantity and Units
 - IV label: nnnVnn where n is a numeric digit
 - Number and units: nnnnnU or nnnnn U where n is a numeric digit. A single U is also rejected.
 
-Where double scanning occurs, e.g., a match is found for any of the first three conditions, above, BCMA will display a popup error dialog with the message: “Error. Incorrect or insufficient information entered. Please use the correct quantity and units. Examples: 5000 units, 2mg, 1 puff, small amount, 1 inch.”
+Where double scanning occurs, e.g., a match is found for any of the first three conditions, above, BCMA will display a popup error dialog with the message: "Error. Incorrect or insufficient information entered. Please use the correct quantity and units. Examples: 5000 units, 2mg, 1 puff, small amount, 1 inch."
 
   
 Example: Error Message
 
 ![](psb-3-58-bcma-version-3-release-notes/016.png)
 
-If ‘U’ or ‘u’ is entered, BCMA will display a popup error dialog with the message: “Error. ‘U’ or ‘u’ is not an acceptable abbreviation. Retype the entry using the word “units.”
+If 'U' or 'u' is entered, BCMA will display a popup error dialog with the message: "Error. 'U' or 'u' is not an acceptable abbreviation. Retype the entry using the word "units."
 
 Example: Error Message
 
@@ -763,7 +797,7 @@ Example: Error Message
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Missed Medications Report dialog was modified so that the “Include Admin Status: Held, Refused” and the “Include Detail: Comments/Reasons” checkboxes will be checked (selected) as a default when the report dialog initially displays.
+The Missed Medications Report dialog was modified so that the "Include Admin Status: Held, Refused" and the "Include Detail: Comments/Reasons" checkboxes will be checked (selected) as a default when the report dialog initially displays.
 
 These new default settings will always be in effect when the report is executed. The Comments/Reasons checkbox will be selected regardless of parameter settings for Reports-Include Comments. Upon display of the dialog, the user will be able to uncheck the boxes as desired.
 
@@ -791,7 +825,7 @@ Example: Missed Medication Report by Patient
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The BCMA application is now able to determine if it is operating in the Indian Health Service (IHS) or Veterans Health Administration (VHA) environment and recognize and display the appropriate patient identifier. This enables a single version of BCMA to be maintained by VHA and be installed and operate in a “plug and play” fashion in an IHS or Tribal facility running Resource and Patient Management System (RPMS).
+The BCMA application is now able to determine if it is operating in the Indian Health Service (IHS) or Veterans Health Administration (VHA) environment and recognize and display the appropriate patient identifier. This enables a single version of BCMA to be maintained by VHA and be installed and operate in a "plug and play" fashion in an IHS or Tribal facility running Resource and Patient Management System (RPMS).
 
 BCMA principally interacts with the Patient Information Management System (PIMS), Inpatient Pharmacy, and Order Entry/Results Reporting (OE/RR) packages. Each of these has a native VistA version and a modified Resource and Patient Management system (RPMS) version maintained by IHS. With this enhancement, BCMA is able to work seamlessly alongside these packages regardless of the operating environment. In addition, the BCMA Graphical User Interface (GUI) displays vital measurements from the Veterans Administration (VA) VITALS/MEASUREMENTS package or the PCC V MEASUREMENT files, if operating in an RPMS system.
 
@@ -809,7 +843,7 @@ The Delphi Components for Section 508 Compliance functionality and screen reader
 
 Identifies Operational Environment
 
-BCMA recognizes the operational environment (VistA or RPMS) by referencing the agency variable DUZ (“AG”).
+BCMA recognizes the operational environment (VistA or RPMS) by referencing the agency variable DUZ ("AG").
 
 Recognizes IHS Patient Identifier
 
@@ -817,11 +851,11 @@ When operating in the RPMS environment, BCMA reads the 12-digit bar code IHS pat
 
 Provides IHS Site Parameter for Customizing IHS Patient ID Label
 
-When operating in the RPMS environment, the application provides a Site Parameter to customize the IHS Patient ID label in BCMA. By default, the IHS Patient ID Label defaults to “HRN.” The features below are described using the default IHS Patient ID Label. Please note that the application will display the customized label, if applicable. See Section 3.3 below for details.
+When operating in the RPMS environment, the application provides a Site Parameter to customize the IHS Patient ID label in BCMA. By default, the IHS Patient ID Label defaults to "HRN." The features below are described using the default IHS Patient ID Label. Please note that the application will display the customized label, if applicable. See Section 3.3 below for details.
 
 Displays IHS Patient Identifier on BCMA GUI Screens
 
-When operating in the RPMS environment, the application displays the default IHS Patient ID Label of “HRN” instead of “SSN” on the following BCMA GUI screens that display a label for the patient identifier, as well as the patient’s 6-digit IHS HRN:
+When operating in the RPMS environment, the application displays the default IHS Patient ID Label of "HRN" instead of "SSN" on the following BCMA GUI screens that display a label for the patient identifier, as well as the patient's 6-digit IHS HRN:
 
 - BCMA Virtual Due List (VDL)
 - Patient Confirmation form
@@ -831,13 +865,13 @@ When operating in the RPMS environment, the application displays the default IHS
 
 Displays IHS Patient Identifier on BCMA GUI Reports
 
-When operating in the RPMS environment, the patient’s entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, are displayed and printed on the following reports:
+When operating in the RPMS environment, the patient's entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, are displayed and printed on the following reports:
 
 - Administration Times
 - Cover Sheet Medication Overview
 - Cover Sheet PRN Overview
 - Cover Sheet IV Overview
-- Cover Sheet Expired/DC’d/Expiring Orders
+- Cover Sheet Expired/DC'd/Expiring Orders
 - Display Order
 - Due List
 - IV Bag Status
@@ -855,11 +889,11 @@ When operating in the RPMS environment, the patient’s entire 6-digit HRN and c
 
 Transmits HRN in HL7 Messages
 
-The application transmits the patient’s entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, in any Health Level Seven (HL7) messages that it generates.
+The application transmits the patient's entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, in any Health Level Seven (HL7) messages that it generates.
 
 Displays HRN in BCMA E-mail Notifications
 
-When operating in the RPMS environment, the patient’s entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, will be displayed and formatted appropriately in the following BCMA e‑mail notification messages:
+When operating in the RPMS environment, the patient's entire 6-digit HRN and corresponding IHS Patient ID Label, instead of the SSN, will be displayed and formatted appropriately in the following BCMA e‑mail notification messages:
 
 - Due List Error
 - Missing Dose Notification
@@ -874,15 +908,15 @@ Whether a facility uses the VA VITALS/MEASUREMENTS (VHA origin) or the PCC V MEA
 
 Provides IHS Output Device Support
 
-If BCMA recognizes the RPMS operating environment, it adds the output device of OTH “OTHER” to support printing of reports in the IHS AIX operating system.
+If BCMA recognizes the RPMS operating environment, it adds the output device of OTH "OTHER" to support printing of reports in the IHS AIX operating system.
 
 Sets System Level IHS Patient ID Label Default
 
-Upon installation of the server package, the System level “IHS Patient ID Label” variable default value, PSB PATIENT ID LABEL, must be set.
+Upon installation of the server package, the System level "IHS Patient ID Label" variable default value, PSB PATIENT ID LABEL, must be set.
 
-- If the operating environment is RPMS, and the System level variable has no value, the script sets the System level “IHS Patient ID Label” variable to a default value of “HRN.”
-- If the operating environment is VistA, the script sets the System level “IHS Patient ID Label” variable to a default value of “SSN.”
-- A Division level “IHS Patient ID Label” variable having an assigned value takes precedence and overrides the value in the System level “IHS Patient ID Label” variable.
+- If the operating environment is RPMS, and the System level variable has no value, the script sets the System level "IHS Patient ID Label" variable to a default value of "HRN."
+- If the operating environment is VistA, the script sets the System level "IHS Patient ID Label" variable to a default value of "SSN."
+- A Division level "IHS Patient ID Label" variable having an assigned value takes precedence and overrides the value in the System level "IHS Patient ID Label" variable.
 
 See the BCMA User Manual, Appendix E: IHS – Parameterization.
 
@@ -892,7 +926,7 @@ See the BCMA User Manual, Appendix E: IHS – Parameterization.
 
 Recognizes JAWS Application
 
-When launching BCMA, the application recognizes whether the JAWS screen reader is currently running. If the screen reader is detected, the BCMA title bar displays “s508”. An alternate interface is launched that runs Delphi components, providing a framework allowing keyboard navigation of the BCMA VDL that is compatible with the JAWS screen reader.
+When launching BCMA, the application recognizes whether the JAWS screen reader is currently running. If the screen reader is detected, the BCMA title bar displays "s508". An alternate interface is launched that runs Delphi components, providing a framework allowing keyboard navigation of the BCMA VDL that is compatible with the JAWS screen reader.
 
 Implemented for BCMA GUI Tabs
 
@@ -916,25 +950,25 @@ A new parameter has been added to the BCMA Parameters application allowing IHS t
 
 New Tab Added to BCMA Site Parameters Application
 
-If the operating environment is RPMS, a new tab entitled “IHS” is added to the Parameters application which can only be seen when operating in the RPMS environment.
+If the operating environment is RPMS, a new tab entitled "IHS" is added to the Parameters application which can only be seen when operating in the RPMS environment.
 
 Field Added to BCMA Site Parameters Application
 
-If the operating environment is RPMS, the field entitled “IHS Patient ID Label” is added to the “IHS” tab. This text entry field allows the user to enter a patient ID textual label of up to 5 characters. The contents of this field are displayed throughout BCMA GUI forms, reports, and e-mail notifications.
+If the operating environment is RPMS, the field entitled "IHS Patient ID Label" is added to the "IHS" tab. This text entry field allows the user to enter a patient ID textual label of up to 5 characters. The contents of this field are displayed throughout BCMA GUI forms, reports, and e-mail notifications.
 
 Patient ID Label Displayed
 
-If the operating environment is RPMS and the Division level “IHS Patient ID Label” variable has no value, the program displays the System level “IHS Patient ID Label” variable value in the “IHS Patient ID Label” field.
+If the operating environment is RPMS and the Division level "IHS Patient ID Label" variable has no value, the program displays the System level "IHS Patient ID Label" variable value in the "IHS Patient ID Label" field.
 
-If the Division level “IHS Patient ID Label” variable has a value assigned to it, the program displays the Division level “IHS Patient ID Label” variable value in the “IHS Patient ID Label” field.
+If the Division level "IHS Patient ID Label" variable has a value assigned to it, the program displays the Division level "IHS Patient ID Label" variable value in the "IHS Patient ID Label" field.
 
-If the operating environment is RPMS and both Division and System level “IHS Patient ID Label” variables have no value, the program displays the “IHS Patient ID Label” field as blank and BCMA displays “PtID” as the default value for “IHS Patient ID Label.”
+If the operating environment is RPMS and both Division and System level "IHS Patient ID Label" variables have no value, the program displays the "IHS Patient ID Label" field as blank and BCMA displays "PtID" as the default value for "IHS Patient ID Label."
 
 User Selected Patient ID Label Stored
 
-If the operating environment is RPMS and the user entry for “IHS Patient ID Label” differs from the System level value, the program stores the user entry to the Division level variable.
+If the operating environment is RPMS and the user entry for "IHS Patient ID Label" differs from the System level value, the program stores the user entry to the Division level variable.
 
-See the BCMA Manager’s User Manual, Appendix A: Setting Site Parameters for IHS.
+See the BCMA Manager's User Manual, Appendix A: Setting Site Parameters for IHS.
 
 ### From: PSB*3*2 BCMA Version 3 Release Notes
 
@@ -999,7 +1033,7 @@ Zebra Bar Code Label - Field Position Map
 
 | Abbreviation | Control Code ( Field Coordinates) | Description              |
 |--------------|-----------------------------------|--------------------------|
-| EB           | FO20,150                          | “No – Code” statement    |
+| EB           | FO20,150                          | "No – Code" statement    |
 | SB           | FO20,100 "                        | Bar Code Graph           |
 | STF          | PSBTLE="PSBDRUG":"20,25"          | Drug Name                |
 |              | PSBTLE="PSBDOSE":"20,60",         | Dosage                   |
@@ -1120,7 +1154,7 @@ Example: Intermec Bar Code Label - Field Position Map
 <tr class="odd">
 <td>EB</td>
 <td>&lt;STX&gt;H8;o50,40;f3;c0;h1;w1;d0,80;&lt;ETX&gt;</td>
-<td>“No – Code” statement</td>
+<td>"No – Code" statement</td>
 </tr>
 <tr class="even">
 <td rowspan="4">FI1</td>

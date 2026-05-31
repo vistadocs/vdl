@@ -11,47 +11,84 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
-security_keys: []
+group_key: DI:DI:22.2
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.1'
+- '1.11'
+- '1.12'
+- '1.2'
+- '1.5'
+- '2'
+- '2.5'
+- '3'
+- '3.1'
+- '3.5'
+- '3.9'
+- '4'
+- '4.5'
+- '05'
+- '5'
+- '6'
+- '7'
+- '9.4'
+- '9.6'
+- '13'
+- '16'
+- '19'
+- '25'
+- '45'
+- '59.9'
+- '100'
+- '120.8'
+- '120.85'
+- '120.86'
+- '200'
+- '301.7'
+- '391.71'
+- '405'
+- '680'
+- '798.3'
+- '1000'
+- '1001'
+- '1009'
+- '16000'
+- '16026'
+- '16999'
+- '999000'
+security_keys:
+- DDXP-DEFINE
+- DIEXTRACT
+- DIUSER
+- PF1
+- PROVIDER
+- XUAUDITING
+- XUFILEGRAM
+- XUMGR
+- XUPROGMODE
+- XUSCREENMAN
 menu_options: 36
-description: 
-audience: 
-keywords: 
-  - span
-  - class
-  - strong
-  - mark
-  - table
-  - entries
-  - fileman
-  - contents
-  - figure
-  - fields
 page_count: 0
-word_count: 106735
+word_count: 106723
 section_count: 80
 table_count: 53
 figure_count: 6
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um2.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk123800418" class="anchor"></span>VA FileMan 22.2
-
-  Advanced User Manual
----
-
 ![](fm-22-2-advanced-user-manual/001.png)
 
 July 2025

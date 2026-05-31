@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3*21
-group_key: "ACKQ:ACKQ:3"
-file_numbers: []
-security_keys: []
+group_key: ACKQ:ACKQ:3
+description: Quality Audiology and Speech Analysis and Reporting
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '509850.1'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - code
-  - visit
-  - count
-  - codes
-  - diagnosis
-  - entry
-  - diagnostic
-  - reports
 page_count: 0
 word_count: 1425
 section_count: 11
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/icd-10_rn_ackq_3_21.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/icd-10_rn_ackq_3_21.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/icd-10_rn_ackq_3_21.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/icd-10_rn_ackq_3_21.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation Project

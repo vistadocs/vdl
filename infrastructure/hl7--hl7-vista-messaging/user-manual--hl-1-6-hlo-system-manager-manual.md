@@ -1,48 +1,53 @@
 ---
 title: HL7 HL*1.6 HLO System Manager Manual
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: HLO System Manager Manual
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: '| | | | | |------------|----------|----------------------------------------------------------------------|----------| | Date | Revision | Description | Author | | 4/24/09 | 1 | Created a System Manager Manual from the Technical Manual (VMS_CR 3) | REDACTED | | 9/28/09 | 1.1 | Technical Edit (VMS_CR...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '19'
+- '101'
+- '400.01'
+- '400.08'
+- '772'
+- '773'
+- '774'
+- '777'
+- '778'
+- '779.1'
+- '779.2'
+- '779.3'
+- '779.4'
+- '870'
 security_keys: []
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - span
-  - message
-  - table
-  - contents
-  - class
-  - mark
-  - link
-  - listener
-  - process
-  - service
 page_count: 0
 word_count: 20860
 section_count: 41
 table_count: 9
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 3
 revision_newest: 10/28/2009
 revision_oldest: 4/24/09
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hlo_system_manager_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hlo_system_manager_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hlo_system_manager_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hlo_system_manager_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 VistA Messaging Services

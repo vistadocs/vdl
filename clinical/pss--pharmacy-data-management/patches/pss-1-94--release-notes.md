@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: CPRS V27
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*94
-group_key: "PSS:PSS:1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:1
+description: Pharmacy Changes to Support Computerized Patient Record System (CPRS) GUI Version
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50.7'
+- '51.1'
+security_keys:
+- PSORPH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - pharmacy
-  - changes
-  - order
-  - medications
-  - schedule
-  - inpatient
-  - patient
-  - outpatient
-  - orders
 page_count: 0
 word_count: 1302
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_pso_7_pss_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_pso_7_pss_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_pso_7_pss_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_pso_7_pss_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](pss-1-94-release-notes-cprs-v27/001.png)

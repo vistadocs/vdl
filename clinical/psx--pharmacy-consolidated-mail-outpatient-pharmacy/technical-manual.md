@@ -1,12 +1,45 @@
 ---
-consolidated_title: "technical manual change pages"
-app_code: PSX
+title: PSX*2*65 Technical Manual Change Pages
 doc_type: TM
-master_source: "PSX*2*65 Technical Manual Change Pages"
+doc_label: Technical Manual
+doc_layer: patch
+doc_subject: Change Pages
+app_code: PSX
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSX
+patch_ver: 2
+patch_id: PSX*2*65
+group_key: PSX:PSX:2
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '> Department of Veterans Affairs VistA Health Systems Design &'
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 1118
+section_count: 1
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: April 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
+master_source: PSX*2*65 Technical Manual Change Pages
 master_pub_date: April 1997
 consolidated_from: 2 versions
 prior_versions:
-  - "PSX*2*71 Technical Manual Change Pages"
+- PSX*2*71 Technical Manual Change Pages
+consolidated_title: technical manual change pages
 ---
 
 > ![](psx-2-65-technical-manual-change-pages/001.png)
@@ -33,7 +66,7 @@ CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP)
 - [Revision History](#revision-history)
 - [Routine List](#routine-list)
 > Each time this manual is updated, the Title Page lists the new revised date and this page
-> describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+> describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 <table>
 <colgroup>
 <col style="width: 12%" />

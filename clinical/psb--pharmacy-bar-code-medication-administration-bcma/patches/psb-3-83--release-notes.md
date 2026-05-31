@@ -5,44 +5,44 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: OR*3*417 Clinical Ancillary Services (CAS) Inpatient Medication Administration - Transdermal
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*83
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: PSB:PSB:3
 description: This document provides a feature summary of the Clinical Ancillary Services (CAS) - Development – Delivery of Pharmacy Enhancements (DDPE) Inpatient Medication Administration – Transdermal Enhancements for Bar Code Medication Administration (BCMA) v3.0 project, patch PSB\3\83, PSB\3\87, and Associat
-audience: 
-keywords: 
-  - medication
-  - removal
-  - bcma
-  - site
-  - span
-  - table
-  - contents
-  - time
-  - report
-  - class
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '7.4'
+- '7.5'
+- '12'
+- '50.7'
+- '53.7'
+- '53.702'
+security_keys:
+- PSB MGR
+- PSJ RPHARM
+- PSJI MGR
+menu_options: 1
 page_count: 0
 word_count: 5414
 section_count: 14
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-83-87-or-3-417-clinical-ancillary-services-cas-inpatient-medication-admini/001.png)

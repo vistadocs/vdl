@@ -1,425 +1,1818 @@
 ---
-consolidated_title: "numi server setup guide"
+title: NUMI Server Setup Guide Version 15.10
+doc_type: SG-SET
+doc_label: Setup Guide
+doc_layer: anchor
+doc_subject: null
 app_code: NUMI
-doc_type: base-setup
-master_source: "NUMI Server Setup Guide Version 15.09"
-master_pub_date: August 2021
+app_name: National Utilization Management Integration
+section: GUI
+app_status: archive
+pkg_ns: NUMI
+patch_ver: 15.1
+patch_id: NUMI*15.10
+group_key: NUMI:NUMI:15.10
+file_numbers:
+- '3'
+security_keys: []
+menu_options: 0
+description: 08/04/2011 Refined CERME instructions in section 6 per AITC Windows SA
+audience: ''
+keywords: []
+page_count: 0
+word_count: 9781
+section_count: 42
+table_count: 8
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/National_Utilization_Management_Integration_Archive/numi_server_setup_guide_15_10.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/National_Utilization_Management_Integration_Archive/numi_server_setup_guide_15_10.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=285
+audit_applied: '2026-05-31'
+master_source: NUMI Server Setup Guide Version 15.10
+master_pub_date: 'null'
 consolidated_from: 5 versions
 prior_versions:
-  - "NUMI Server Setup Guide Version 15.10"
-  - "NUMI Server Setup Guide Version 15.14"
-  - "NUMI Server Setup Guide Version 15.15"
-  - "NUMI Server Setup Guide"
+- NUMI Server Setup Guide Version 15.09
+- NUMI Server Setup Guide Version 15.14
+- NUMI Server Setup Guide Version 15.15
+- NUMI Server Setup Guide
+consolidated_title: numi server setup guide
 ---
 
-**National Utilization Management Integration (NUMI)**
+> National Utilization Management Integration (NUMI)
+
+> Server Setup Guide
+
+> Release 1.1.15.10
+
+![](numi-server-setup-guide-version-15-10/001.png)
+
+Department of Veterans AffairsJuly 2022
+
+Revision History
+
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 59%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Description</th>
+<th>Author</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>04/22/2009</td>
+<td>Submitted to Medora Team for</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/14/2009</td>
+<td>Updated to reflect "Release 1.1"</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>08/28/2009</td>
+<td>Updated document name to</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>08/01/2011</td>
+<td>Updated per issues found in AITC</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>08/02/2011</td>
+<td>Updated section 9.9 per AITC</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>08/04/2011</td>
+<td>Refined CERME instructions in section 6 per AITC Windows SA</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>08/24/2011</td>
+<td>Refined MDWS instructions in section 6.12-6.15 per AITC</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>10/13/2011</td>
+<td>Updated CERME instructions in</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>04/10/2012</td>
+<td>Draft preliminary update for</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/03/2012</td>
+<td><p>Added figures to section 6.13;</p>
+<p>Added captions to figures throughout; replaced example in section 6.12, step #10; added new section 6.14; updated cover and footers to "Release 14" per VA PM</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>01/03/2013</td>
+<td><p>Added section 6.12; updated</p>
+<p>section 6.13 with new Fig. 19, corrected Section 6.14, Windows Event Log and updated SSL setup and config; updated 6.19 per Operational feedback; added Appendix F NUMI Exchange</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>03/25/2013</td>
+<td>Modified section 6.15 for NUMI event folder, modified section 6.19</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>3/29/2013</td>
+<td><p>Removed original highlighting and</p>
+<p>updated per customer feedback: changed Section 2.2 Web Server (Server 2) to reference NUMI Exchange and MDWS; updated</p>
+<p>Section 3.1 Disk Space and Devices; updated Section 5.1 to reference test environments and removed Section 5.6, Installation During Off Peak Hours. Also reordered installation steps SQL and CERMe (now section</p>
+<p>6.1 and 6.14) and added CERMe SSL</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>5/13/2013</td>
+<td><p>Corrected release referenced in</p>
+<p>section 1, removed content for Windows Server 2003 and IIS 6 setup, added content for Windows Server 2008 and IIS 7 setup, added content for MDWS 2.Xinstallation, re-organized document content.</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>5/24/2013</td>
+<td><p>Made the following corrections</p>
+<p>per VA comments: Changed section</p>
+<p>2.2.1 to specify SQL Server 2005, changed figures 37,</p>
+<p>38, 39 to reflect MDWS1.2, added MDWS config information to section 6.11.3 (MDWS1.2) and</p>
+<p>6.12.4 (MDWS2.x), added execution timeout setting for the synchronizer in section 6.18.1, step 4.</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>6/17/2013</td>
+<td><p>Made the following corrections per VA comments: Changed section 2.2.1 to clarify restoring from a NUMI backup database and added replication comments, updated 3.1.3 with CPU capacity details, updated section 3.1.4 with disk space details;</p>
+<p>changed section 5 to clarify restoring from a NUMI backup database, updated section 5.1 added synchronizer and user account information, removed original item 3, updated section 6.7 to specify version and recovery mode, updated section 6.8 removed Medora information, updated section 6.19 to add more script information.</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>6/27/2013</td>
+<td>Updated to version number to 14.1 changed sections 2.2.1 and 5. To include 14.0 and 14.1 database information.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>7/2/2013</td>
+<td>Changed example directory references to remove 14.0</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>8/2/2013</td>
+<td><p>Removed references to CERMe 2012. Changed hard coded build name directory references to</p>
+<p>&lt;install_dir&gt;.</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>8/20/2013</td>
+<td><p>Added version number for MDWS in section 2.2.2, added version number for CERME in section 2.2.3, added RAM to section 3.1.3, updated Figure 68, removed MDWS 1.2 section 6.11, renamed MDWS 2.x to MDWS 2.7.3.2 in section 6.12,</p>
+<p>renamed section 6.12 to 6.11</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>5/11/2015</td>
+<td>Updated the version number from 14.1 to 14.2</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>11/12/2015</td>
+<td>Updated the version number from 14.2 to 14.3</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>09/12/2016</td>
+<td>Updating document for NUMI 14.4 and .NET version. Made the Windows version generic</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>9/20/2016</td>
+<td>Updated install instructions for 15.0 and updated CERMe installation instructions and IIS and File service installation screenshots</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>2/3/2017</td>
+<td>Added steps to encrypt the configuration files</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>3/1/2017</td>
+<td>Updates for IAM SSO integration changes</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>3/27/2017</td>
+<td>Added CA WebAgent setup instructions</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>5/25/2017</td>
+<td>Reviewed document and revised</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/14/2017</td>
+<td>Updated release version number (version 15.4) and CERME upgrade installation steps</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>04/23/2018</td>
+<td>Update release version number (15.5)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>10/1/2018</td>
+<td>Updated release version number (15.6)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>02/19/2018</td>
+<td>Updated release version number (15.7) and new Synchronizer installation instructions.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>08/28/2019</td>
+<td>Updated release version number and added STS integration information (Section 13).</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>2/1/2020</td>
+<td>Updated release version number (15.9)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>5/28/2020</td>
+<td>Updated CERMe RM and InterQual View version (19.0/2020)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>12/03/2020</td>
+<td><p>Updated release version number (15.9.1) in footer and title.</p>
+<p>Month and year updated both in title and footer.</p></td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>8/16/2021</td>
+<td>Updated CERMe RM 20.0 and InterQual View version 2021</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>11/15/2021</td>
+<td>Updated release version number to 15.10</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>7/7/2022</td>
+<td>Updated CERMe RM 21.0.1 and InterQual View version 2022</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+</tbody>
+</table>
+
+Table of Contents
+
+List of Tables
+
+List of Figures
+
+# Introduction
+
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Scope](#scope)
+  - [Target Audience](#target-audience)
+- [Deployment Overview](#deployment-overview)
+  - [National Deployment Request](#national-deployment-request)
+  - [Installing NUMI on the Servers](#installing-numi-on-the-servers)
+    - [Database Server](#database-server)
+    - [Web Server](#web-server)
+    - [Application Server](#application-server)
+- [Pre-Installation Instructions and Preparation](#pre-installation-instructions-and-preparation)
+  - [Installation Process Requirements](#installation-process-requirements)
+    - [Minimum Software Version](#minimum-software-version)
+    - [Resources Required](#resources-required)
+    - [CPU Capacity](#cpu-capacity)
+    - [Disk Space](#disk-space)
+    - [Devices (Servers, etc.)](#devices-servers-etc)
+    - [VistA Rights Needed for NUMI Users](#vista-rights-needed-for-numi-users)
+  - [Install Software in Test Environments](#install-software-in-test-environments)
+  - [Generate Pre-Installation Reports](#generate-pre-installation-reports)
+  - [Coordinate Installation with Other Teams](#coordinate-installation-with-other-teams)
+  - [Install Sequence Information for Multiple Patches](#install-sequence-information-for-multiple-patches)
+  - [Logoff During Installation](#logoff-during-installation)
+  - [Average Amount of Time Required to Complete the Installation](#average-amount-of-time-required-to-complete-the-installation)
+- [Database Information](#database-information)
+  - [Instructions for Installing Database Components](#instructions-for-installing-database-components)
+    - [Database Installation / Restoration Procedures](#database-installation-restoration-procedures)
+- [Installation Procedure for Server 2019](#installation-procedure-for-server-2019)
+  - [Patch the Operating System](#patch-the-operating-system)
+- [SQL Server Setup (Windows Server 2019)](#sql-server-setup-windows-server-2019)
+  - [Role Setup](#role-setup)
+- [Web Server Setup (Windows Server 2019)](#web-server-setup-windows-server-2019)
+  - [Role Setup](#role-setup-1)
+  - [ASP.NET 2.0 AJAX Extensions 1.0 Setup](#aspnet-20-ajax-extensions-10-setup)
+  - [MS Web Services Enhancements (WSE) 3.0 Setup](#ms-web-services-enhancements-wse-30-setup)
+- [Application Server Setup (Windows Server 2019)](#application-server-setup-windows-server-2019)
+  - [Role Setup](#role-setup-2)
+  - [Feature Delegation](#feature-delegation)
+  - [Install MS ASP.Net 2.0 AJAX Extensions 1.0](#install-ms-aspnet-20-ajax-extensions-10)
+  - [Install MS Web Services Enhancements 3.0](#install-ms-web-services-enhancements-30)
+- [Install SQL Server](#install-sql-server)
+  - [Download all SQL Server Patches](#download-all-sql-server-patches)
+  - [Restore the Appropriate Databases for the NUMI Application](#restore-the-appropriate-databases-for-the-numi-application)
+- [Installing NUMI Exchange on Server 2019](#installing-numi-exchange-on-server-2019)
+  - [Unzip/Install NUMI Exchange Distribution](#unzipinstall-numi-exchange-distribution)
+  - [NUMI Exchange Website Configuration](#numi-exchange-website-configuration)
+    - [Application Pool Configuration](#application-pool-configuration)
+- [Installing NUMI on Server 2019](#installing-numi-on-server-2019)
+  - [Software Copy Instructions](#software-copy-instructions)
+  - [NUMI Web Site Configuration](#numi-web-site-configuration)
+  - [Application Pool Configuration](#application-pool-configuration-1)
+- [Install CA SiteMinder Web Agent for Single Sign On (SSO) on the Web server](#install-ca-siteminder-web-agent-for-single-sign-on-sso-on-the-web-server)
+  - [Agent location](#agent-location)
+  - [Agent installation](#agent-installation)
+  - [Agent configuration](#agent-configuration)
+    - [Configuring for the first time](#configuring-for-the-first-time)
+    - [Reconfiguration configuration](#reconfiguration-configuration)
+- [Secure Token Service Integration for SSOi](#secure-token-service-integration-for-ssoi)
+  - [Download Certificate Chain from appropriate endpoint](#download-certificate-chain-from-appropriate-endpoint)
+  - [Export server cert to .pfx](#export-server-cert-to-pfx)
+- [Find the server cert in the personal folder](#find-the-server-cert-in-the-personal-folder)
+- [Right click and export the certificate](#right-click-and-export-the-certificate)
+- [Select "Yes, export private key" and choose next](#select-yes-export-private-key-and-choose-next)
+- [Select "Export all extended properties" and choose next](#select-export-all-extended-properties-and-choose-next)
+- [Select a strong password. This password will go into NumiWebApp.config later in this guide.](#select-a-strong-password-this-password-will-go-into-numiwebappconfig-later-in-this-guide)
+- [Select a filename for the exported certificate and save it as a .pfx. Select a folder not specific to a version of NUMI as this cert will be valid for future versions of the applications until expiration. For example, if the folder structure for website is NUMI/NUMI15.9 select the /NUMI folder for the cert and not the specific /NUMI15.9 folder. This file path will go into NumiWebApp.config later in this guide.](#select-a-filename-for-the-exported-certificate-and-save-it-as-a-pfx-select-a-folder-not-specific-to-a-version-of-numi-as-this-cert-will-be-valid-for-future-versions-of-the-applications-until-expiration-for-example-if-the-folder-structure-for-website-is-numinumi159-select-the-numi-folder-for-the-cert-and-not-the-specific-numi159-folder-this-file-path-will-go-into-numiwebappconfig-later-in-this-guide)
+  - [NumiWebApp.config keys](#numiwebappconfig-keys)
+  - [Install CERMe SSL Certificate](#install-cerme-ssl-certificate)
+- [Setting up NUMI Section in the Windows Event Log](#setting-up-numi-section-in-the-windows-event-log)
+  - [Validate XML Configuration File Settings](#validate-xml-configuration-file-settings)
+- [Test NUMI Web Site Functionality](#test-numi-web-site-functionality)
+- [Installing NUMI Synchronizer on the DB Server](#installing-numi-synchronizer-on-the-db-server)
+  - [Installation Instructions](#installation-instructions)
+  - [Uninstall:](#uninstall)
+  - [Validate Installation:](#validate-installation)
+  - [Add Jobs to the SQL Server](#add-jobs-to-the-sql-server)
+- [Post-Installation Considerations](#post-installation-considerations)
+- [Acronyms and Descriptions](#acronyms-and-descriptions)
+- [NUMI Comparison Table](#numi-comparison-table)
+This Server Setup Guide explains how to install National Utilization Management Integration (NUMI), Release 1.1.15.10.
+
+## Purpose
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The purpose of this document is to explain the hardware and software requirements and tasks that must be performed before and after the installation process.
+
+## Scope
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The scope of this document includes explanations of the appropriate steps to install the NUMI software, and the steps that are needed to be completed before and after the installation process is started.
+
+## Target Audience
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This document is intended for the Information Technology Team and the individuals who install software in your organization.
+
+# Deployment Overview
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The following process is followed to request permission to do a National Deployment.
+
+## National Deployment Request
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The ProPath Release Management processes govern the request for a National Deployment. Refer to ProPath for guidance on requesting a release. This process must be complete before installation of services on the NUMI servers.
+
+## Installing NUMI on the Servers
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The steps to install NUMI on the servers are described below. The middle tier of NUMI is the Veterans Information Systems Technology Architecture (VistA) Integration Adapter (VIA), which is a hosted service and is not part of the NUMI deployment. The primary NUMI application servers are located at the Austin Information Technology Center (AITC) facility in Austin, Texas. The application servers run on an Internet Information Services (IIS) Application Server. The NUMI application requires Microsoft (MS) ASP.NET 2.0 Ajax Extensions 1.0 and Web Services Enhancements 3.0 to enable the interactions with the Web Services.
+
+### Database Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The NUMI database as it exists now is a manifestation of multiple changes over multiple releases. This installation document has as a pre-requisite the backup of an existing NUMI database. Therefore, to install a new NUMI database, it is necessary to restore a backup of an existing NUMI database.
+
+Database Platform installation, and Database Restoration Procedures
+
+1.  Install Windows Server 2019 on the database server platform
+2.  Download and install any critical patches for the Operating System
+3.  Install the 64-bit MS Structured Query Language (SQL) Server 2019 application according to local "best practices"
+    1.  MS's Full Text Search is required for the NUMI installation
+    2.  Replication is necessary for the NUMI installation to use the alternate database reporting capability of NUMI
+    3.  Reporting Services is not necessary for installation on the NUMI database server
+    4.  NUMI's database will function properly in cluster, but clustering is not required for the NUMI application
+4.  Apply all appropriate patches (according to local best practices) to MS SQL Server 2019
+5.  Install / restore the database components according to the instructions in section 4.1 Instructions for Installing Database Components.
+
+### Web Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To install NUMI Exchange software on the Web Server (Server 2):
+
+1.  Install Windows Server 2019 on the web server platform
+6.  Download and install any critical patches for the Operating System on all web servers
+7.  Install MS ASP.NET 2.0 Ajax Extensions 1.0
+8.  Install Web Services Enhancements 3.0
+9.  Install NUMI Exchange
+10. Change the web.config file settings as needed
+
+### Application Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To install NUMI application software on the Application Server (Server 3)
+
+1.  Install Windows Server 2019 on the application server platform
+11. Download and install any critical patches for the Operating System on all application servers
+12. Install the Care Enhance Review Management Enterprise (CERMe) 21.0.1 InterQual View 2022 application
+13. Install the NUMI application
+14. Change the web.config file settings as needed
+15. Install the SiteMinder Web Agent and configure it for the NUMI application Web site
+
+# Pre-Installation Instructions and Preparation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Pre-Installation Instructions and Preparation section explains the tasks that need to be performed before installing NUMI software. Before proceeding with the installation procedures, consult the list of requirements below.
+
+## Installation Process Requirements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+An assumption is made that the person responsible for doing installations at your site has performed appropriate pre-installation planning.
+
+### Minimum Software Version
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Operating System: Windows Server 2019
+
+Database: SQL Server 2019
+
+### Resources Required
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Sys Admin, DBA
+
+### CPU Capacity
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+64GB RAM, Dual 2.20 GHz Intel Xeon®E5-2698 v4 – Database Server
+
+12GB RAM, Dual 2.20 GHz Intel Xeon®E5-2698 v4 – Application Server
+
+12GB RAM, Dual 2.20 GHz Intel Xeon®E5-2698 v4 – Web Server
+
+### Disk Space
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Application server – 100 GB Web Services server – 100 GB
+
+Database – E:900 GB, F:700 GB, L:200 GB, O:400 GB (This includes space needed for the backups and data storage.)
+
+### Devices (Servers, etc.)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> 1 Database Server
+
+> 2 Application Servers
+
+> 2 Web Servers
+
+> 1 Data Warehouse Server 1 SQL Reporting Server
+
+### VistA Rights Needed for NUMI Users
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Each NUMI user must have Computerized Patient Record System (CPRS) access in their VistA menu structure, such as in their secondary menu tree. The VistA menu name is CPRSChart (or CPRS Graphical User Interface CHART). Table 1 and Table 2 identify the menus, options and settings these user accounts will need to have assigned.
+
+It is also highly recommended that the VIAB WEB SERVICES OPTION be added to the System Command Options \[XUCOMMAND\] menu in each site's VistA system. If you do not add this to the Common Menu, you will need to add it to the secondary menu of each individual NUMI user.
+
+<span id="_bookmark18" class="anchor"></span>­Table 1: CPRS Rights
+
+| CPRS Rights                                 |
+|---------------------------------------------|
+| Primary Menu: XMUSER                        |
+| Primary Menu: MailMan Menu                  |
+| Secondary Menu: \[OR CPRS GUI CHART\]       |
+| Secondary Menu: CPRSChart Release 1.0.30.72 |
+| Keys Held                                   |
+| Patient Selection                           |
+| Restrict? NO                                |
+| OE/RR List                                  |
+
+<span id="_bookmark19" class="anchor"></span>Table 2: CPRS Access Tabs
+
+| Name | Description | Effective Date | Expiration Date |
+|------|-------------|----------------|-----------------|
+| RPT  | Reports tab | Sept. 2, 2008  | N/A             |
+
+## Install Software in Test Environments
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The software will be installed in the Test environments before installing in Production.
+
+## Generate Pre-Installation Reports
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Not applicable.
+
+## Coordinate Installation with Other Teams
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Installation Team will need to involve the Implementation/Architecture Team.
+
+## Install Sequence Information for Multiple Patches
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-**Server Setup Guide**
+Not applicable.
 
-**Release 1.1.15.9.1**
+## Logoff During Installation
 
-<!-- image -->
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-**Department of Veterans Affairs**
+End users do not need to be logged off during installation (during the act of copying files and installation executions to the server(s)). However, the users must be logged off for any updates to the software (running the executions and/or configuring the software and configuration files).
 
-**August 2021**
+Logging off during software updates is no different from any other logoff that a user may do.
 
-# Revision History
+## Average Amount of Time Required to Complete the Installation
 
-| Date       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Author   |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| 04/22/2009 | Submitted to Medora Team for                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED |
-| 07/14/2009 | Updated to reflect “Release 1.1”                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | REDACTED |
-| 08/28/2009 | Updated document name to                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | REDACTED |
-| 08/01/2011 | Updated per issues found in AITC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | REDACTED |
-| 08/02/2011 | Updated section 9.9 per AITC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED |
-| 08/04/2011 | Refined CERME instructions in section 6 per AITC Windows SA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | REDACTED |
-| 08/24/2011 | Refined MDWS instructions in section 6.12-6.15 per AITC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED |
-| 10/13/2011 | Updated CERME instructions in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | REDACTED |
-| 04/10/2012 | Draft preliminary update for                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED |
-| 07/03/2012 | Added figures to section 6.13;  Added captions to figures throughout; replaced example in section 6.12, step #10; added new section 6.14; updated cover and footers to “Release 14” per VA PM                                                                                                                                                                                                                                                                                                                                                                                    | REDACTED |
-| 01/03/2013 | Added section 6.12; updated  section 6.13 with new Fig. 19, corrected Section 6.14, Windows Event Log and updated SSL setup and config; updated 6.19 per Operational feedback; added Appendix F NUMI Exchange                                                                                                                                                                                                                                                                                                                                                                    | REDACTED |
-| 03/25/2013 | Modified section 6.15 for NUMI event folder, modified section 6.19                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED |
-| 3/29/2013  | Removed original highlighting and  updated per customer feedback: changed Section 2.2 Web Server (Server 2) to reference NUMI Exchange and MDWS; updated  Section 3.1 Disk Space and Devices; updated Section 5.1 to reference test environments and removed Section 5.6, Installation During Off Peak Hours. Also reordered installation steps SQL and CERMe (now section  6.1 and 6.14) and added CERMe SSL                                                                                                                                                                    | REDACTED |
-| 5/13/2013  | Corrected release referenced in  section 1, removed content for Windows Server 2003 and IIS 6 setup, added content for Windows Server 2008 and IIS 7 setup, added content for MDWS 2.Xinstallation, re-organized document content.                                                                                                                                                                                                                                                                                                                                               | REDACTED |
-| 5/24/2013  | Made the following corrections  per VA comments: Changed section  2.2.1 to specify SQL Server 2005, changed figures 37,  38, 39 to reflect MDWS1.2, added MDWS config information to section 6.11.3 (MDWS1.2) and  6.12.4 (MDWS2.x), added execution timeout setting for the synchronizer in section 6.18.1, step 4.                                                                                                                                                                                                                                                             | REDACTED |
-| 6/17/2013  | Made the following corrections per VA comments: Changed section 2.2.1 to clarify restoring from a NUMI backup database and added replication comments, updated 3.1.3 with CPU capacity details, updated section 3.1.4 with disk space details;  changed section 5 to clarify restoring from a NUMI backup database, updated section 5.1 added synchronizer and user account information, removed original item 3, updated section 6.7 to specify version and recovery mode, updated section 6.8 removed Medora information, updated section 6.19 to add more script information. | REDACTED |
-| 6/27/2013  | Updated to version number to 14.1 changed sections 2.2.1 and 5. To include 14.0 and 14.1 database information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | REDACTED |
-| 7/2/2013   | Changed example directory references to remove 14.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | REDACTED |
-| 8/2/2013   | Removed references to CERMe 2012.  Changed hard coded build name directory references to  &lt;install\_dir&gt;.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | REDACTED |
-| 8/20/2013  | Added version number for MDWS in section 2.2.2, added version number for CERME in section 2.2.3, added RAM to section 3.1.3, updated Figure 68, removed MDWS 1.2 section 6.11, renamed MDWS 2.x to MDWS 2.7.3.2 in section 6.12,  renamed section 6.12 to 6.11                                                                                                                                                                                                                                                                                                                   | REDACTED |
-| 5/11/2015  | Updated the version number from 14.1 to 14.2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED |
-| 11/12/2015 | Updated the version number from 14.2 to 14.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED |
-| 09/12/2016 | Updating document for NUMI 14.4 and .NET version. Made the Windows version generic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED |
-| 9/20/2016  | Updated install instructions for 15.0 and updated CERMe installation instructions and IIS and File service installation screenshots                                                                                                                                                                                                                                                                                                                                                                                                                                              | REDACTED |
-| 2/3/2017   | Added steps to encrypt the configuration files                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | REDACTED |
-| 3/1/2017   | Updates for IAM SSO integration changes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED |
-| 3/27/2017  | Added CA WebAgent setup instructions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED |
-| 5/25/2017  | Reviewed document and revised                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | REDACTED |
-| 11/14/2017 | Updated release version number (version 15.4) and CERME upgrade installation steps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED |
-| 04/23/2018 | Update release version number (15.5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED |
-| 10/1/2018  | Updated release version number (15.6)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | REDACTED |
-| 02/19/2018 | Updated release version number (15.7) and new Synchronizer installation instructions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | REDACTED |
-| 08/28/2019 | Updated release version number and added STS integration information (Section 13).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED |
-| 2/1/2020   | Updated release version number (15.9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | REDACTED |
-| 5/28/2020  | Updated CERMe RM and InterQual View version (19.0/2020)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED |
-| 8/16/2021  | Updated CERMe RM 20.0 and InterQual View version 2021                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | REDACTED |
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-# Table of Contents
+The average amount of time required to complete the NUMI installation is 2 days.
 
-1.	Introduction	1
+# Database Information
 
-1.1.	Purpose	1
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.2.	Scope	1
+Refer to the NUMI Systems Management Guide for information about the structure and components of the NUMI database.
 
-1.3.	Target Audience	1
+## Instructions for Installing Database Components
 
-2.	Deployment Overview	1
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-2.1.	National Deployment Request	1
+The NUMI database as it exists now is a manifestation of multiple changes over multiple releases. This installation document has as a pre-requisite the backup of an existing NUMI database. Therefore, to install a new NUMI database, it is necessary to restore a backup of an existing NUMI database.
 
-2.2.	Installing NUMI on the Servers	1
+### Database Installation / Restoration Procedures
 
-2.2.1.	Database Server	1
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-2.2.2.	Web Server	2
+1.  Copy a backup of an existing NUMI database(s) of appropriate size and content to the new NUMI database server
+    1.  The application database (typically called NUMI) is necessary for proper function of the application
+    2.  The "auditing" database (typically called LogSyncDb) is necessary for proper functioning of the application and the synchronizer
+    3.  The CERMe database can be restored from an existing backup, or can be built from scratch from the CERMe installation media
+        1.  If the CERMe database is restored from an existing backup, verify that the application configuration files reference a database authenticated user that has DBO privilege on the CERMe database for proper functioning of the NUMI application
+        2.  If the CERMe database is installed from media, follow the instructions provided by Change Healthcare for installation
+16. Restore the database backup to the existing server
+    1.  File paths will have to be altered according to local best practices
+    2.  User accounts may be, but are not required to be, restored with the database. NUMI requires the numi_user account to be setup.
+    3.  Database ownership may be altered so that the owning account for the NUMIdatabase complies with local best practices
+    4.  A database authenticated user for the application should be configured, and granted DBO privileges on the NUMI database
+17. Run the Install_XX.sql if it was provided with the build, where XX is the database version for the NUMI build. This will apply changes to the database necessary for the version of NUMI that is being installed
+18. Install the NUMI Synchronizer according to the instructions in section 17 Installing NUMI Synchronizer on the DB Server
 
-2.2.3.	Application Server	2
+# Installation Procedure for Server 2019
 
-3.	Pre-Installation Instructions and Preparation	2
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.1.	Installation Process Requirements	2
+This section identifies the installation procedures that shall be followed.
 
-3.1.1.	Minimum Software Version	2
+## Patch the Operating System
 
-3.1.2.	Resources Required	3
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.1.3.	CPU Capacity	3
+This applies to all servers.
 
-3.1.4.	Disk Space	3
+1.  Open up an instance of Internet Explorer.
+19. Select menu item \<Tools/Windows Update\>.
+20. Follow the instructions on MS's website. (NOTE: A restart of the servers may be necessary).
 
-3.1.5.	Devices (Servers, etc.)	3
+# SQL Server Setup (Windows Server 2019)
 
-3.1.6.	VistA Rights Needed for NUMI Users	3
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.2.	Install Software in Test Environments	4
+## Role Setup
 
-3.3.	Generate Pre-Installation Reports	4
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.4.	Coordinate Installation with Other Teams	4
+The role set-up in this section applies to the SQL database server. Use Server Manager to install the File Services with the role services shown in Figure 1: SQL Server Role Services.
 
-3.5.	Install Sequence Information for Multiple Patches	4
+![](numi-server-setup-guide-version-15-10/002.png)
 
-3.6.	Logoff During Installation	4
+<span id="_bookmark33" class="anchor"></span>Figure 1: SQL Server Role Services
 
-3.7.	Average Amount of Time Required to Complete the Installation	4
+# Web Server Setup (Windows Server 2019)
 
-4.	Database Information	5
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-4.1.	Instructions for Installing Database Components	5
+## Role Setup
 
-4.1.1.	Database Installation / Restoration Procedures	5
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-5.	Installation Procedure for Server 2019	5
+The role setup in this section applies to the NUMI Exchange web server.
 
-5.1.	Patch the Operating System	5
+Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Figure 2: NUMI Exchange Role Services and Figure 3: NUMI Exchange (IIS).
 
-6.	SQL Server Setup (Windows Server 2019)	6
+![](numi-server-setup-guide-version-15-10/003.png)
 
-6.1.	Role Setup	6
+<span id="_bookmark36" class="anchor"></span>Figure 2: NUMI Exchange Role Services
 
-7.	Web Server Setup (Windows Server 2019)	6
+![](numi-server-setup-guide-version-15-10/004.png)
 
-7.1.	Role Setup	6
+<span id="_bookmark37" class="anchor"></span>Figure 3: NUMI Exchange (IIS)
 
-7.2.	ASP.NET 2.0 AJAX Extensions 1.0 Setup	9
+## ASP.NET 2.0 AJAX Extensions 1.0 Setup
 
-7.3.	MS Web Services Enhancements (WSE) 3.0 Setup	9
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-8.	Application Server Setup (Windows Server 2019)	9
+Install the ASP.NET 2.0 Ajax Extensions 1.0 as detailed in section 8.3, Install MS ASP.NET 2.0 Ajax Extensions 1.0.
 
-8.1.	Role Setup	9
+## MS Web Services Enhancements (WSE) 3.0 Setup
 
-8.2.	Feature Delegation	11
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-8.3.	Install MS ASP.Net 2.0 AJAX Extensions 1.0	12
+Install MS WSE 3.0 as detailed in section 8.4 Install MS Web Services Enhancements 3.0.
 
-8.4.	Install MS Web Services Enhancements 3.0	16
+# Application Server Setup (Windows Server 2019)
 
-9.	Install SQL Server	19
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-9.1.	Download all SQL Server Patches	20
+## Role Setup
 
-9.2.	Restore the Appropriate Databases for the NUMI Application	20
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-10.	Installing NUMI Exchange on Server 2019	20
+The role setup in this section applies to the NUMI app servers. Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Figure 4: NUMI Role Services and Figure 5: NUMI Web Services IIS.
 
-10.1.	Unzip/Install NUMI Exchange Distribution	20
+![](numi-server-setup-guide-version-15-10/005.png)
 
-10.2.	NUMI Exchange Website Configuration	20
+<span id="_bookmark42" class="anchor"></span>Figure 4: NUMI Role Services
 
-10.2.1.	Application Pool Configuration	24
+![](numi-server-setup-guide-version-15-10/006.png)
 
-11.	Installing NUMI on Server 2019	27
+<span id="_bookmark43" class="anchor"></span>Figure 5: NUMI Web Services IIS
 
-11.1.	Software Copy Instructions	27
+## Feature Delegation
 
-11.2.	NUMI Web Site Configuration	27
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-11.3.	Application Pool Configuration	33
+Select the main node in IIS, with the server name. Then double click on "Feature Delegation" item. Change the "Feature Delegation" settings for the server, as shown in Figure 6: IIS Feature Delegation.
 
-12.	Install CA SiteMinder Web Agent for Single Sign On (SSO) on the Web server	37
+![](numi-server-setup-guide-version-15-10/007.png)
 
-12.1.	Agent location	37
+<span id="_bookmark45" class="anchor"></span>Figure 6: IIS Feature Delegation
 
-12.2.	Agent installation	37
+Make sure all authentication rules are set to Read/Write as shown in Figure 7: Feature Delegation Selection.
 
-12.3.	Agent configuration	41
+![](numi-server-setup-guide-version-15-10/008.png)
 
-12.3.1.	Configuring for the first time	42
+<span id="_bookmark46" class="anchor"></span>Figure 7: Feature Delegation Selection
 
-12.3.2.	Reconfiguration configuration	48
+## Install MS ASP.Net 2.0 AJAX Extensions 1.0
 
-13.	Secure Token Service Integration for SSOi	54
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-13.1.	Download Certificate Chain from appropriate endpoint	54
+Installing MS ASP.NET 2.0 Ajax Extensions 1.0 applies to the web servers only.
 
-13.2.	Export server cert to .pfx	59
+1.  Download the MS ASP.NET 2.0 Ajax Extensions 1.0 from MS's website.
+21. Run the ASPAJAXExtSetup.msi by double-clicking it.
+22. When the File Download – Security Warning window displays, click the \<Run\> button (shown in Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window).
+23. 
 
-2.	Find the server cert in the personal folder	59
+![](numi-server-setup-guide-version-15-10/009.png)
 
-3.	Right click and export the certificate	59
+<span id="_bookmark48" class="anchor"></span>Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window
 
-4.	Select “Yes, export private key” and choose next	60
+24. When the Internet Explorer – Security Warning window displays, click the \<Run\> button (shown in Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window).
 
-5.	Select “Export all extended properties” and choose next	60
+![](numi-server-setup-guide-version-15-10/010.png)
 
-6.	Select a strong password.  This password will go into NumiWebApp.config later in this guide.	61
+<span id="_bookmark49" class="anchor"></span>Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window
 
-7.	Select a filename for the exported certificate and save it as a .pfx.  Select a folder not specific to a version of NUMI as this cert will be valid for future versions of the applications until expiration.  For example, if the folder structure for website is NUMI/NUMI\_15.9 select the /NUMI folder for the cert and not the specific /NUMI\_15.9 folder.  This file path will go into NumiWebApp.config later in this guide.	61
+25. When the MS ASP.NET 2.0 AJAX Extensions 1.0 Setup window displays, click the \<Next\> button (shown in Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window).
 
-13.3.	NumiWebApp.config keys	61
+![](numi-server-setup-guide-version-15-10/011.png)
 
-14.	Installing CERMe Software and Database from CERMe Installation CD	61
+<span id="_bookmark50" class="anchor"></span>Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window
 
-14.1.	Install CERMe on the Application Server	62
+Click the "I accept the terms in the License Agreement" checkbox, as illustrated in Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window.
 
-14.2.	Install CERMe SSL Certificate	64
+1.  Click the \<Next\> button.
 
-15.	Setting up NUMI Section in the Windows Event Log	68
+![](numi-server-setup-guide-version-15-10/012.png)
 
-15.1.	Validate XML Configuration File Settings	69
+<span id="_bookmark51" class="anchor"></span>Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window
 
-16.	Perform Restart	71
+26. Click the \<Install\> button (shown in Figure 12: MS ASP.NET 2.0 AJAX Installation Window).
 
-17.	Test NUMI Web Site Functionality	71
+![](numi-server-setup-guide-version-15-10/013.png)
 
-18.	Installing NUMI Synchronizer on the DB Server	71
+<span id="_bookmark52" class="anchor"></span>Figure 12: MS ASP.NET 2.0 AJAX Installation Window
 
-18.1.	Installation Instructions	71
+27. The installation is complete. Select the \<Finish\> button by clicking on it to exit the installation wizard, as depicted in Figure 13: MS ASP.NET 2.0 AJAX Completion window.
 
-18.2.	Uninstall:	74
+![](numi-server-setup-guide-version-15-10/014.png) If you do not wish to view the release notes, un-check the "Display MS ASP.NET 2.0 AJAX Extensions 1.0 Release Notes" checkbox.
 
-18.3.	Validate Installation:	74
+![](numi-server-setup-guide-version-15-10/015.png)
 
-18.4.	Add Jobs to the SQL Server	74
+<span id="_bookmark53" class="anchor"></span>Figure 13: MS ASP.NET 2.0 AJAX Completion window
 
-19.	Post-Installation Considerations	75
+## Install MS Web Services Enhancements 3.0
 
-20.	Acronyms and Descriptions	76
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-21.	Numi Comparison Table	77
+Installing MS Web Services Enhancements 3.0 applies to the web servers only.
 
-# List of Tables
+1.  Download the MS Web Services Enhancements 3.0 from MS's website.
+28. Run the MS WSE 3.0.msi by double-clicking it.
+29. When the File Download – Security Warning window displays, click the \<Run\> button (shown in Figure 14: MS WSE 3.0 File Download-Security Warning Window).
 
-Table 1: CPRS Rights	4
+![](numi-server-setup-guide-version-15-10/016.png)
 
-Table 2: CPRS Access Tabs	4
+<span id="_bookmark55" class="anchor"></span>Figure 14: MS WSE 3.0 File Download-Security Warning Window
 
-Table 3: IAM Host Configuration Object	43
+2.  When the Internet Explorer – Security Warning window displays, click the \<Run\> button (shown in Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window).
 
-Table 4: SiteMinder Policy Server IP Address	44
+![](numi-server-setup-guide-version-15-10/017.png)
 
-Table 5: SSOLogoutUri values	70
+<span id="_bookmark56" class="anchor"></span>Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window
 
-# List of Figures
+3.  When the MS WSE 3.0 – InstallShield Wizard window displays, click the \<Next\> button (shown in Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window).
 
-Figure 1: SQL Server Role Services	6
+![](numi-server-setup-guide-version-15-10/018.png)
 
-Figure 2: NUMI Exchange Role Services	7
+<span id="_bookmark57" class="anchor"></span>Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window
 
-Figure 3: NUMI Exchange (IIS)	8
+4.  Click the "I accept the terms in the license agreement" checkbox, as illustrated in Figure 17: MS WSE 3.0 License Agreement Window.
+30. Click the \<Next\> button.
 
-Figure 4: NUMI Role Services	9
+![](numi-server-setup-guide-version-15-10/019.png)
 
-Figure 5: NUMI Web Services IIS	10
+<span id="_bookmark58" class="anchor"></span>Figure 17: MS WSE 3.0 License Agreement Window
 
-Figure 6: IIS Feature Delegation	11
+5.  Click the \<Administrator\> radio button, as illustrated in Figure 18: MS WSE 3.0 InstallShield Wizard Window.
+31. Click the \<Next\> button.
 
-Figure 7: Feature Delegation Selection	12
+![](numi-server-setup-guide-version-15-10/020.png)
 
-Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window	13
+<span id="_bookmark59" class="anchor"></span>Figure 18: MS WSE 3.0 InstallShield Wizard Window
 
-Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window	13
+6.  Click the \<Install\> button (shown in Figure 19: MS WSE 3.0 Installation Window).
 
-Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window	14
+![](numi-server-setup-guide-version-15-10/021.png)
 
-Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window	14
+<span id="_bookmark60" class="anchor"></span>Figure 19: MS WSE 3.0 Installation Window
 
-Figure 12: MS ASP.NET 2.0 AJAX Installation Window	15
+7.  Click the \<Finish\> button (shown in Figure 20: MS WSE 3.0 Completion Window).
 
-Figure 13: MS ASP.NET 2.0 AJAX Completion window	16
+![](numi-server-setup-guide-version-15-10/022.png)
 
-Figure 14: MS WSE 3.0 File Download-Security Warning Window	16
+<span id="_bookmark61" class="anchor"></span>Figure 20: MS WSE 3.0 Completion Window
 
-Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window	17
+# Install SQL Server
 
-Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window	17
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 17: MS WSE 3.0 License Agreement Window	18
+Install the MS SQL Server 2019 Database Server software only on the database server, applying both MS installation instructions and local best practices.
 
-Figure 18: MS WSE 3.0 InstallShield Wizard Window	18
+Additional service packs or patches may be installed subsequent to application testing, and in accordance with local best practices.
 
-Figure 19: MS WSE 3.0 Installation Window	19
+All production NUMI databases should be run in Simple Recovery mode, to enable replication to function, and to maximize the recoverability of the databases. In non-production environments, any recovery mode is acceptable, and simple recovery mode is encouraged for development and QA testing environments due to ease of administration.
 
-Figure 20: MS WSE 3.0 Completion Window	19
+## Download all SQL Server Patches
 
-Figure 21: Add NUMI Exchange Website	21
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 22: NUMI Exchange Website	21
+Downloading all SQL Server Patches applies to the database server only.
 
-Figure 23: NUMI Exchange Basic Settings	22
+## Restore the Appropriate Databases for the NUMI Application
 
-Figure 24: NUMI Advanced Settings	22
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 25: NUMI Exchange Bindings	23
+Restoring the Appropriate Databases for the NUMI Application applies to the database server only.
 
-Figure 26: NUMI Exchange Authentication Settings	23
+Follow the instructions in section 4 Instructions for Installing Database Components.
 
-Figure 27: NUMI Exchange SSL Settings	24
+# Installing NUMI Exchange on Server 2019
 
-Figure 28: Application Pool Window	24
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 29: NUMI Exchange Application Pool Basic Settings	25
+![](numi-server-setup-guide-version-15-10/023.png) Before doing this, you must make a backup copy of the web.config file (if this is an upgrade). Settings may need to be extracted from this in the future.
 
-Figure 30: NUMI Exchange Pool Advanced Settings	26
+## Unzip/Install NUMI Exchange Distribution
 
-Figure 31: Unblocking Restricted Files in Installation ZIP File	27
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 32: Add NUMI Website	28
+1.  Using Windows Explorer, create the NumiExchange folder on the D drive, if available; otherwise create on the C drive. E.g., D:\NumiExchange
+32. Unzip the NUMI Exchange files into the NumiExchange folder created above.
+33. Update the application settings in the NUMI Exchange web.config file, located in the directory created above. Typically, this would involve updating the database connection string.
 
-Figure 33: NUMI Basic Settings	29
+## NUMI Exchange Website Configuration
 
-Figure 34: NUMI Advanced Settings	30
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 35: NUMI Bindings	31
+Using IIS Manager, add a new website and select the Secure Socket Layer (SSL) certificate as shown in Figure 21: Add NUMI Exchange Website.
 
-Figure 36: NUMI Authentication Settings	31
+![](numi-server-setup-guide-version-15-10/024.png)
 
-Figure 37: NUMI SSL Settings	32
+<span id="_bookmark68" class="anchor"></span>Figure 21: Add NUMI Exchange Website
 
-Figure 38: NUMI Compression Settings	33
+![](numi-server-setup-guide-version-15-10/025.png)
 
-Figure 39: Application Pool Window	34
+<span id="_bookmark69" class="anchor"></span>Figure 22: NUMI Exchange Website
 
-Figure 40: NUMI Application Pool Basic Settings	35
+The NUMI website basic and advanced settings are shown in Figure 23: NUMI Exchange Basic Settings and Figure 24: NUMI Advanced Settings.
 
-Figure 41: NUMI Application Pool Advanced Settings	36
+![](numi-server-setup-guide-version-15-10/026.png)
 
-Figure 42: Security Warning	37
+<span id="_bookmark70" class="anchor"></span>Figure 23: NUMI Exchange Basic Settings
 
-Figure 43: Preparing to install dialog	38
+![](numi-server-setup-guide-version-15-10/027.png)
 
-Figure 44: Web agent install wizard - Welcome screen	38
+<span id="_bookmark71" class="anchor"></span>Figure 24: NUMI Advanced Settings
 
-Figure 45: Web agent install wizard - License agreement screen	39
+The NUMI Exchange web site bindings are shown in Figure 25: NUMI Exchange Bindings.
 
-Figure 46: Web agent install wizard - Install location screen	39
+![](numi-server-setup-guide-version-15-10/028.png)
 
-Figure 47: Web agent install wizard - Review screen	40
+<span id="_bookmark72" class="anchor"></span>Figure 25: NUMI Exchange Bindings
 
-Figure 48: Web agent install wizard - Agent configuration screen	40
+The NUMI Exchange web site authentication settings are shown in Figure 26: NUMI Exchange Authentication Settings.
 
-Figure 49: Web agent install wizard - Install complete screen	41
+![](numi-server-setup-guide-version-15-10/029.png)
 
-Figure 50: Launch Web Agent Configuration Wizard	41
+<span id="_bookmark73" class="anchor"></span>Figure 26: NUMI Exchange Authentication Settings
 
-Figure 51: Web agent configuration wizard - Host registration	42
+The NUMI Exchange website SSL settings are shown in Figure 27: NUMI Exchange SSL Settings.
 
-Figure 52: Web agent configuration wizard - Admin credentials	43
+![](numi-server-setup-guide-version-15-10/030.png)
 
-Figure 53: Web agent configuration wizard - Host name and configuration object	44
+<span id="_bookmark74" class="anchor"></span>Figure 27: NUMI Exchange SSL Settings
 
-Figure 54: Web agent configuration wizard - Policy server IP Address	45
+### Application Pool Configuration
 
-Figure 55: Web agent configuration wizard - FIPS mode setting	45
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 56: Web agent configuration wizard - Configuration file location	46
+The NUMI Exchange application pool setup is shown in Figure 28: Application Pool Window.
 
-Figure 57: Web agent configuration wizard - Web server	46
+![](numi-server-setup-guide-version-15-10/031.png)
 
-Figure 58: Web agent configuration wizard - Agent configuration	47
+<span id="_bookmark76" class="anchor"></span>Figure 28: Application Pool Window
 
-Figure 59: Web agent configuration wizard - Sites selection	47
+The NUMI Exchange application pool basic settings are shown in Figure 29: NUMI Exchange Application Pool Basic Settings.
 
-Figure 60: Web agent configuration wizard - Summary screen	48
+![](numi-server-setup-guide-version-15-10/032.png)
 
-Figure 61: Web agent configuration wizard - Completion screen	48
+<span id="_bookmark77" class="anchor"></span>Figure 29: NUMI Exchange Application Pool Basic Settings
 
-Figure 62: Web agent configuration wizard - Host registration	49
+The NUMI Exchange application pool advanced settings are shown in Figure 30: NUMI Exchange Pool Advanced Settings.
 
-Figure 63: Web agent configuration wizard - Web server	49
+![](numi-server-setup-guide-version-15-10/033.png)
 
-Figure 64: Web agent configuration wizard - Agent configuration	50
+![](numi-server-setup-guide-version-15-10/034.png)
 
-Figure 65: Web agent configuration wizard - Sites selection	51
+![](numi-server-setup-guide-version-15-10/035.png)
 
-Figure 66: Web agent configuration wizard - Summary screen	51
+<span id="_bookmark78" class="anchor"></span>Figure 30: NUMI Exchange Pool Advanced Settings
 
-Figure 67: Web agent configuration wizard - Previously configured sites	52
+# Installing NUMI on Server 2019
 
-Figure 68: Web agent configuration wizard - Summary screen	53
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 69: Web agent configuration wizard - Completion screen	53
+## Software Copy Instructions
 
-Figure 70: IIS Server Certificates	65
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Figure 71: IIS Server Certificate Selection	66
+Right click on the zip file, select the "Unblock" if active, and select O.K. Some security schemes will block certain files from being unpacked, typically the Java files under the "web" directory. Setting the file to Unblock eliminates this problem.
 
-Figure 72: IIS Certificate Details	66
+![](numi-server-setup-guide-version-15-10/036.png)
 
-Figure 73: keytool -keystore "C:\Certs\CERME.ks" –list	67
+<span id="_bookmark99" class="anchor"></span>Figure 31: Unblocking Restricted Files in Installation ZIP File
 
-Figure 74: Creating a NUMI section in the Windows Event Log	69
+It is recommended that NUMI be installed in the D:\NUMI folder. Using Windows Explorer, create a NUMI folder in D drive, if available, otherwise create in C drive. E.g., D:\NUMI.
 
-Figure 75: Updating Settings in NUMI XML Configuration File	70
+Unzip the NumiWebApp folder from the NUMI distribution zip file into the D:\NUMI folder. Rename the NumiWebApp folder using the build name of the distribution zip file.
+
+## NUMI Web Site Configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Using IIS Manager, add a new web site as shown in Figure 32: Add NUMI Website.
+
+![](numi-server-setup-guide-version-15-10/037.png)
+
+<span id="_bookmark101" class="anchor"></span>Figure 32: Add NUMI Website
+
+The NUMI web site basic and advanced settings are shown in Figure 33: NUMI Basic Settings and Figure 34: NUMI Advanced Settings.
+
+![](numi-server-setup-guide-version-15-10/038.png)
+
+<span id="_bookmark102" class="anchor"></span>Figure 33: NUMI Basic Settings
+
+![](numi-server-setup-guide-version-15-10/039.png)
+
+<span id="_bookmark103" class="anchor"></span>Figure 34: NUMI Advanced Settings
+
+The NUMI web site bindings are shown in Figure 35: NUMI Bindings.
+
+![](numi-server-setup-guide-version-15-10/040.png)
+
+<span id="_bookmark104" class="anchor"></span>Figure 35: NUMI Bindings
+
+The NUMI web site authentication settings are shown in Figure 36: NUMI Authentication Settings. Make sure Forms Authentication is the only one enabled.
+
+![](numi-server-setup-guide-version-15-10/041.png)
+
+<span id="_bookmark105" class="anchor"></span>Figure 36: NUMI Authentication Settings
+
+The NUMI website SSL settings are shown in Figure 37: NUMI SSL Settings.
+
+![](numi-server-setup-guide-version-15-10/042.png)
+
+<span id="_bookmark107" class="anchor"></span>Figure 37: NUMI SSL Settings
+
+The NUMI web site compression settings are shown in Figure 38: NUMI Compression Settings.
+
+![](numi-server-setup-guide-version-15-10/043.png)
+
+<span id="_bookmark108" class="anchor"></span>Figure 38: NUMI Compression Settings
+
+## Application Pool Configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The NUMI application pool setup is shown in Figure 39: Application Pool Window.
+
+![](numi-server-setup-guide-version-15-10/044.png)
+
+<span id="_bookmark111" class="anchor"></span>Figure 39: Application Pool Window
+
+The NUMI application pool basic settings are shown in Figure 40: NUMI Application Pool Basic Settings.
+
+![](numi-server-setup-guide-version-15-10/045.png)
+
+<span id="_bookmark112" class="anchor"></span>Figure 40: NUMI Application Pool Basic Settings
+
+The NUMI application pool advanced settings are shown in Figure 41: NUMI Application Pool Advanced Settings.
+
+![](numi-server-setup-guide-version-15-10/046.png)
+
+<span id="_bookmark113" class="anchor"></span>Figure 41: NUMI Application Pool Advanced Settings
+
+# Install CA SiteMinder Web Agent for Single Sign On (SSO) on the Web server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The CA SiteMinder Web Agent needs to be installed and configured on the WebServer where the NUMI web application will be setup. The VA Identity and Access Management (IAM) Team provides the software and instructions to install the CA SiteMinder Web Agent.
+
+## Agent location
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The current version of software can be found at SiteMinder Webagent share drive.
+
+Copy the 32-bit or 64-bit version of the zip file as appropriate based on the OS in the server and extracts it. You will get a file with name 'ca-wa-12.51-cr08-win32.exe' in case of 32-bit and 'ca-wa-12.51-cr08-win64-64.exe' in case of 64-bit.
+
+## Agent installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Follow the instructions below to install the software on the application server:
+
+1.  Run the exe file you obtained after extracting the zip file. If you get a dialog as shown in Figure 42 click on 'Run' button.
+
+![](numi-server-setup-guide-version-15-10/047.png)
+
+<span id="_Ref478045423" class="anchor"></span>Figure 42: Security Warning
+
+2.  Wait for the dialog shown in Figure 43 to close. It may take little longer for the next dialog to show up.
+
+![](numi-server-setup-guide-version-15-10/048.png)
+
+<span id="_Ref478045780" class="anchor"></span>Figure 43: Preparing to install dialog
+
+3.  Click on 'Next' in the dialog shown in Figure 44.
+
+![](numi-server-setup-guide-version-15-10/049.png)
+
+<span id="_Ref478048631" class="anchor"></span>Figure 44: Web agent install wizard - Welcome screen
+
+4.  Scroll through to the bottom of the license agreement, accept it and click 'Next' button (as shown in Figure 45).
+
+![](numi-server-setup-guide-version-15-10/050.png)
+
+<span id="_Ref478131899" class="anchor"></span>Figure 45: Web agent install wizard - License agreement screen
+
+5.  Leave the default location of installation (as shown in Figure 46) and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/051.png)
+
+<span id="_Ref478131957" class="anchor"></span>Figure 46: Web agent install wizard - Install location screen
+
+6.  Review the summary screen and click on 'Install' button (as shown in Figure 47).
+
+![](numi-server-setup-guide-version-15-10/052.png)
+
+<span id="_Ref478132065" class="anchor"></span>Figure 47: Web agent install wizard - Review screen
+
+7.  Select 'No. I would like to configure the Agent later' option in the agent configuration screen as shown in Figure 48 and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/053.png)
+
+<span id="_Ref478132208" class="anchor"></span>Figure 48: Web agent install wizard - Agent configuration screen
+
+8.  Select one of the options in the Install Complete screen as shown in Figure 49 and click on 'Done' button. A restart is required to continue with the agent configuration steps described in the next section. If you selected 'No' you would need to wait until the server is restarted to continue with next steps.
+
+![](numi-server-setup-guide-version-15-10/054.png)
+
+<span id="_Ref478132458" class="anchor"></span>Figure 49: Web agent install wizard - Install complete screen
+
+## Agent configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The next steps require you to launch the agent configuration wizard from the start menu. The Figure 50 shows the one that would need to be launched.
+
+![](numi-server-setup-guide-version-15-10/055.png)
+
+<span id="_Ref478132751" class="anchor"></span>Figure 50: Launch Web Agent Configuration Wizard
+
+If you were configuring the agent for the first time on this specific server, you would need to register the host with the IAM server. In that case, follow the instructions in Section 12.3.1.
+
+Otherwise, skip to Section 12.3.2. Launch the Web Agent Configuration Wizard as described in Figure 50 and continue with the steps in that section.
+
+After you complete any of these configuration steps, you would need to reset IIS by running the following command at admin command prompt:
+
+iisreset
+
+> **NOTE:** You may need to use different values for various options in the below steps if IAM team has provided different values.
+
+### Configuring for the first time
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> **NOTE:** The steps below are if you want to register the server with IAM. This can only be done once. If for any reason you need to reconfigure the whole server, you would need to contact the IAM Team to get the current server registration deleted before you can re-run these steps.
+
+9.  Select 'Yes, I would like to do Host Registration now' and click 'Next' in the dialog as shown in Figure 51.
+
+![](numi-server-setup-guide-version-15-10/056.png)
+
+<span id="_Ref478133519" class="anchor"></span>Figure 51: Web agent configuration wizard - Host registration
+
+10. Enter the following details in the Admin Registration screen (Figure 52), ensure 'Enable Shared Secret Rollover' is unchecked and click 'Next' button.  
+    Admin User Name: threg  
+    Admin Password: \<will be provided\>
+
+![](numi-server-setup-guide-version-15-10/057.png)
+
+<span id="_Ref478133901" class="anchor"></span>Figure 52: Web agent configuration wizard - Admin credentials
+
+11. Enter the FQDN of the server you are currently configuring in the 'Trusted Host Name' box and one of values from Table 3 based on which IAM environment you are trying to connect to for 'Host Configuration Object' in the next dialog as shown in Figure 53.
+
+<span id="_Ref478135595" class="anchor"></span>Table 3: IAM Host Configuration Object
+
+| Environment | Host Configuration Object |
+|-------------|---------------------------|
+|             |                           |
+| DEV         | DEVHCO                    |
+| SQA         | SQAHCO                    |
+| Preprod     | Preprod_ext               |
+| PROD        | PROD_external_HCO         |
+
+![](numi-server-setup-guide-version-15-10/058.png)
+
+<span id="_Ref478134515" class="anchor"></span>Figure 53: Web agent configuration wizard - Host name and configuration object
+
+12. Add the three IP Address of Policy Server one at a time in the 'IP Address' box from Table 4 based on the IAM environment you are trying to connect to and click 'Next' in the dialog as shown in the Figure 54.
+
+<span id="_Ref478135706" class="anchor"></span>Table 4: SiteMinder Policy Server IP Address
+
+| Environment | SiteMinder Policy Server IP Address |
+|-------------|-------------------------------------|
+|             |                                     |
+| DEV         | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+| SQA         | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+| Preprod     | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+| PROD        | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+|             | xxx.xxx.xxx.xxx                     |
+
+![](numi-server-setup-guide-version-15-10/059.png)
+
+<span id="_Ref478134915" class="anchor"></span>Figure 54: Web agent configuration wizard - Policy server IP Address
+
+13. Select 'FIPS Only Mode' in the next screen as shown in Figure 55 and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/060.png)
+
+<span id="_Ref478136868" class="anchor"></span>Figure 55: Web agent configuration wizard - FIPS mode setting
+
+14. Leave everything default in the next screen as shown in Figure 56 and click 'Next'
+
+![](numi-server-setup-guide-version-15-10/061.png)
+
+<span id="_Ref478137101" class="anchor"></span>Figure 56: Web agent configuration wizard - Configuration file location
+
+15. Select the web server on which NUMI was installed and click 'Next'. Usually only one will be listed in this dialog as shown in Figure 57.
+
+![](numi-server-setup-guide-version-15-10/062.png)
+
+<span id="_Ref478137418" class="anchor"></span>Figure 57: Web agent configuration wizard - Web server
+
+16. Enter 'NUMIAgentConfig' in 'Default Agent Configuration Object,' check 'Enable Agent' and uncheck 'Manage Application Pools' in the next screen as shown in Figure 58 and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/063.png)
+
+<span id="_Ref478137772" class="anchor"></span>Figure 58: Web agent configuration wizard - Agent configuration
+
+17. Select the NUMI website and any other sites where you want to enable SSO on and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/064.png)
+
+<span id="_Toc478591166" class="anchor"></span>Figure 59: Web agent configuration wizard - Sites selection
+
+18. Review the options you selected in the summary screen as shown in Figure 60 and click on 'Install' button.
+
+![](numi-server-setup-guide-version-15-10/065.png)
+
+<span id="_Ref478377425" class="anchor"></span>Figure 60: Web agent configuration wizard - Summary screen
+
+19. Click on 'Done' when you see the completion screen as shown in Figure 61.
+
+![](numi-server-setup-guide-version-15-10/066.png)
+
+<span id="_Ref478378873" class="anchor"></span>Figure 61: Web agent configuration wizard - Completion screen
+
+### Reconfiguration configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> **NOTE:** The steps below are if you want to reconfigure one or more websites in IIS due to say re-deployment. The server should have already been registered with IAM using the steps in Section 12.3.1.
+
+20. Select 'No, I would like to do Host Registration later' and click 'Next' in the dialog as shown in Figure 62.
+
+![](numi-server-setup-guide-version-15-10/067.png)
+
+<span id="_Ref478480339" class="anchor"></span>Figure 62: Web agent configuration wizard - Host registration
+
+21. Select the web server on which NUMI was installed and click 'Next'. Usually only one will be listed in this dialog as shown in Figure 63.
+
+![](numi-server-setup-guide-version-15-10/068.png)
+
+<span id="_Ref478480311" class="anchor"></span>Figure 63: Web agent configuration wizard - Web server
+
+22. Enter 'NUMIAgentConfig' in 'Default Agent Configuration Object' if not already entered, check 'Enable Agent' and uncheck 'Manage Application Pools' in the next screen as shown in Figure 64 and click 'Next'.
+
+![](numi-server-setup-guide-version-15-10/069.png)
+
+<span id="_Ref478480272" class="anchor"></span>Figure 64: Web agent configuration wizard - Agent configuration
+
+23. Select the NUMI website and any other sites where you want to enable SSO on and click 'Next'. The sites that were previously configured will remain selected and cannot be changed (unconfigured) as shown in Figure 65.
+
+![](numi-server-setup-guide-version-15-10/070.png)
+
+<span id="_Ref478480597" class="anchor"></span>Figure 65: Web agent configuration wizard - Sites selection
+
+24. Review the options you selected in the summary screen as shown in Figure 66 and click on 'Install' button.
+
+![](numi-server-setup-guide-version-15-10/071.png)
+
+<span id="_Ref478480624" class="anchor"></span>Figure 66: Web agent configuration wizard - Summary screen
+
+25. In the screen shown in Figure 67, select appropriate option for the site you are trying to reconfigure and click 'Next'.
+
+> 'Overwrite' will overwrite the previously configured settings with the new one entered in the previous steps of this wizard. 'Preserve' will not change any existing settings but will add missing settings back in to the site. If 'Unconfigure' is selected it will remove and disable SSO for the selected site.
+
+![](numi-server-setup-guide-version-15-10/072.png)
+
+<span id="_Ref478480885" class="anchor"></span>Figure 67: Web agent configuration wizard - Previously configured sites
+
+26. Review the options you selected in the summary screen as shown in Figure 68 and click on 'Install' button.
+
+![](numi-server-setup-guide-version-15-10/073.png)
+
+<span id="_Ref478481585" class="anchor"></span>Figure 68: Web agent configuration wizard - Summary screen
+
+27. Click on 'Done' when you see the completion screen as shown in Figure 69.
+
+![](numi-server-setup-guide-version-15-10/074.png)
+
+<span id="_Ref478481157" class="anchor"></span>Figure 69: Web agent configuration wizard - Completion screen
+
+# Secure Token Service Integration for SSOi
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+NUMI supports secure token service implementation through SSOi. Full details of the implementation can be found at SSOi Secure Token Service Playbook.
+
+## Download Certificate Chain from appropriate endpoint
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Downloading the chain can be done from any computer but installing the chain must be done as the local computer account of the server being set up.
+
+- iDEV:  [RequestSecurityToken](https://int.services.eauth.va.gov:9301/STS/RequestSecurityToken) dev url
+- SQA: [RequestSecurityToken](https://sqa.services.eauth.va.gov:9301/STS/RequestSecurityToken) SQA url
+- PREPROD: [RequestSecurityToken](https://preprod.services.eauth.va.gov:9301/STS/RequestSecurityToken) Pre-Prod url
+- PROD: [RequestSecurityToken](https://services.eauth.va.gov:9301/STS/RequestSecurityToken)
+  1.  Install the full certification chain from the matching IAM environment(s). This can be obtained by visiting the link and clicking the lock icon and choosing "View Certificates".  
+      https://<span class="mark">redacted</span>:9301/
+
+> ![](numi-server-setup-guide-version-15-10/075.png)
+
+1.  Install the full certification chain from the matching IAM environment(s). This can be obtained by visiting the link and clicking the lock icon and choosing "View Certificates".  
+    https:// <span class="mark">redacted</span>:9301/
+
+> ![](numi-server-setup-guide-version-15-10/076.png)
+
+2.  Click on the Details tab and select "Copy to file", choose PKCS and include all certificates in the path if possible
+
+> ![](numi-server-setup-guide-version-15-10/077.png)
+
+3.  Save file as \<endpointname_date\>, click next then finish.
+
+> ![](numi-server-setup-guide-version-15-10/078.png)
+
+4.  Optional – Reuse this file if another web server requires this STS endpoint's certificate.
+5.  In MMC, right click Computer-Personal store and import the certificate created in Step 9.
+
+> ![](numi-server-setup-guide-version-15-10/079.png)
+
+6.  Import for local machine
+
+> ![](numi-server-setup-guide-version-15-10/080.png)
+
+7.  Browse to file created in step 10 and click Next
+
+> ![](numi-server-setup-guide-version-15-10/081.png)
+
+8.  Place all certificates in the Personal store, click next and finish
+
+> ![](numi-server-setup-guide-version-15-10/082.png)
+
+9.  The imported certificate should now be in the store (refreshing may be required). It will follow the naming convention xxxx.services.eauth.va.gov
+
+> ![](numi-server-setup-guide-version-15-10/083.png)
+
+## Export server cert to .pfx
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This is a copy of the .cer installed locally to the computer/personal account. It should be the one served by IIS when you navigate to the website.
+
+1.  Load the Microsoft Management Console, Certificate Snap-in, for the local computer
+
+# Find the server cert in the personal folder
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> ![](numi-server-setup-guide-version-15-10/084.png)
+
+# Right click and export the certificate
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> ![](numi-server-setup-guide-version-15-10/085.png)
+
+# Select "Yes, export private key" and choose next
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> ![](numi-server-setup-guide-version-15-10/086.png)
+
+# Select "Export all extended properties" and choose next
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> ![](numi-server-setup-guide-version-15-10/087.png)
+
+# Select a strong password. This password will go into NumiWebApp.config later in this guide.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> ![](numi-server-setup-guide-version-15-10/088.png)
+
+# Select a filename for the exported certificate and save it as a .pfx. Select a folder not specific to a version of NUMI as this cert will be valid for future versions of the applications until expiration. For example, if the folder structure for website is NUMI/NUMI_15.9 select the /NUMI folder for the cert and not the specific /NUMI_15.9 folder. This file path will go into NumiWebApp.config later in this guide.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## NumiWebApp.config keys
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+\
+
+34. Navigate to the CERMe install image and double click the install.htm file in the root directory to open the setup welcome page. This will open the CERMe install page in Internet Explorer.
+35. Click on the Install Review Manager 21.0.1 / InterQual View 2022 link on the installation page. This will prompt to save or run the file, select Run. This will start the CERMe Install wizard.
+36. Accept the license agreement and click Next.
+37. On the License Information screen, enter the license information given above and click Next.
+38. On the Select Review Manager Enterprise screen, select "Review Manager Enterprise" and click Next.
+39. On the Installation Type screen, select "New Installation" and click Next.
+40. Select an installation directory.
+41. On the Choose Components screen, keep the default selection (i.e., all selected) and click Next.
+42. On the Database Information page, enter the following info and click Next.
+- Database type: SQL Server
+- Server Name: Name of the SQL database server
+- Database: Name of the database to which the dump restored in step 1
+- Port Number: SQL Server
+- Instance: leave blank
+- User ID: SQL Server user ID with access to the CERMe database restored above
+- Password: Password for the SQL Server user used above
+43. On separate database to store report data screen, select No and click Next.
+44. On the Install Jetty window, select Yes to install Jetty.
+45. On the next screen, enter 8357 for Port Number.
+46. On the next screen, select the hardware architecture.
+47. Review the selections, and click Install to start the installation.
+48. Once the installation completes, go to the URL: http://\<servername\>:8357/rm/login.
+
+    This is should open the CERMe login page.
+49. Now follow the steps below to update CERMe to CERMe 21.0.1.
+50. Stop the CERMe Service from the Windows Services.
+51. Create a backup of the CERMe Installation folder and the CERMe database.
+52. Make the changes to the file (below)on the CERMe Jetty Server:
+
+#### File: \<CERMe Install Folder\>\Jetty\etc\webdefault.xml
+
+Add the following element to \<session-config\> element.
+
+\<cookie-config\>
+
+\<http-only\>true\</http-only\>
+
+\</cookie-config\>
+
+Session Config element should look like the following after the change:
+
+\<session-config\>
+
+\<session-timeout\>30\</session-timeout\>
+
+\<cookie-config\>\<http-only\>true\</http-only\>\</cookie-config\>
+
+\</session-config\>
+
+#### File: \<CERMe Install Folder?\Jetty\etc\jetty-rewrite.xml
+
+Add the following \<Call\> element to the end of the \<New\> element.
+
+\<Call name="addRule"\>
+
+\<Arg\>
+
+\<New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"\>
+
+\<Set name="pattern"\>/\*\</Set\>
+
+\<Set name="name"\>Strict-Transport-Security\</Set\>
+
+\<Set name="value"\>max-age=31536000; includeSubDomains\</Set\>
+
+\</New\>
+
+\</Arg\>
+
+\</Call\>
+
+The file will look like the following after the change:
+
+\<Set name="handler"\>
+
+\<New id="Rewrite" class="org.eclipse.jetty.rewrite.handler.RewriteHandler"\>
+
+\<Set name="handler"\>\<Ref refid="oldhandler"/\>\</Set\>
+
+\<Set name="rewriteRequestURI"\>\<Property name="rewrite.rewriteRequestURI" default="true"/\>\</Set\>
+
+\<Set name="rewritePathInfo"\>\<Property name="rewrite.rewritePathInfo" default="false"/\>\</Set\>
+
+\<Set name="originalPathAttribute"\>\<Property name="rewrite.originalPathAttribute" default="requestedPath"/\>\</Set\>
+
+\<Call name="addRule"\>\<Arg\>\<New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"\>\<Set name="pattern"\>/\*\</Set\>\<Set name="name"\>Strict-Transport-Security\</Set\>\<Set name="value"\>max-age=31536000; includeSubDomains\</Set\>\</New\>\</Arg\>\</Call\>
+
+\</New\>
+
+\</Set\>
+
+#### File: \<CERMe Install Folder\>\Jetty\start.ini
+
+Add the following new section to the bottom of the file:
+
+\# ===========================================================
+
+\# Enforce Strict Transport Security
+
+\# -----------------------------------------------------------
+
+OPTIONS=rewrite
+
+etc/jetty-rewrite.xml
+
+#### File: \<CERMe Install Folder\>\Jetty\ReviewManager.xml
+
+Add the content below to the end of the \< Config \> element
+
+\<IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw=="
+
+AuthenticationFailUrl="/iqm/html/rm_integrated_authentication_failed.htm" GuidUserCid="IQ_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128"
+
+AuthenticateWS="false"/\>
+
+The modified file will look like the following:
+
+…
+
+\<Path Prefix="/rm"/\>
+
+\<Login Check="true"/\>
+
+\<IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw==" AuthenticationFailUrl="/iqm/html/rm_integrated_authentication_failed.htm" GuidUserCid="IQ_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128" AuthenticateWS="false"/\>
+
+\</Config\>
+
+\</ReviewManager\>
+
+53. Start CERMe Service from the Windows Services.
+54. Go to CERMe URL: https://\<server\>:8443/rm/login Login with the credential provided, and go to the menu Help \> About. It should show Version InterQual Review Manager™ 21.0.1 (Build 4).
+55. This completes the installation of the CERMe RM 21.0.1 InterQual View 2022.
+
+## Install CERMe SSL Certificate
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+NUMI will need SSL certificates for CERMe (for Jetty). NUMI uses the SSL certificate for the server that CERMe is running on. If the sever does not have a SSL certificate installed, follow the normal VA processes for obtaining SSL Certificates and install it.
+
+1.  Use IIS Manager to export the current certificate to a .pfx file. Select the server name in the Connections pane and double click on the Server Certificates in the IIS pane as shown in Figure 70.
+
+![](numi-server-setup-guide-version-15-10/089.png)
+
+<span id="_bookmark117" class="anchor"></span>Figure 70: IIS Server Certificates
+
+56. Select the certificate to export and click on the "Export…" link in the Actions pane, as shown in Figure 71.
+
+![](numi-server-setup-guide-version-15-10/090.png)
+
+<span id="_bookmark118" class="anchor"></span>Figure 71: IIS Server Certificate Selection
+
+57. Set the name of the .pfx file. Set the password, e.g., use numi (all lowercase) for the password, as shown in Figure 72. This password will be used in subsequent steps.
+
+![](numi-server-setup-guide-version-15-10/091.png)
+
+<span id="_bookmark119" class="anchor"></span>Figure 72: IIS Certificate Details
+
+> **NOTE:** For the following, the password can be whatever you choose, but please make a note of them, as they will be used later. For this example, D:\Certs\NUMI.pfx is the file name and the password, the one that you used to export the .pfx file, e.g., numi (all lowercase).
+
+58. Open a command prompt window and change the current directory to the location of the keytool executable. In this example it would be:
+
+D:\Program Files (x86)\Change Healthcare\CERME\Jre\bin\keytool.exe
+
+59. Execute the following command:
+
+keytool -importkeystore -srcstoretype PKCS12 -srckeystore "D:\Certs\NUMI.pfx" -destkeystore "D:\Certs\CERME.ks"
+
+> **NOTE:** -srckeystore value will be the .pfx path and filename above, -destkeystore can be whatever you choose; again, passwords can be whatever you choose, but please make a note of them. The word "secret" is used as the keystore password in this example.
+
+60. Execute the following command:
+
+Keytool –list -keystore "D:\Certs\CERME.ks"
+
+Make a note of the long, auto-generated alphanumeric value circled in red below. Recommended actions are to copy, paste the entire command prompt output to notepad to copy, and paste this value.
+
+![](numi-server-setup-guide-version-15-10/092.png)
+
+<span id="_bookmark120" class="anchor"></span>Figure 73: keytool -keystore "C:\Certs\CERME.ks" –list
+
+61. Execute the following command:
+
+keytool -changealias -keystore "D:\Certs\CERME.ks" -destalias numi –alias \<alphanumeric value\>
+
+> **NOTE:** Replace \<alphanumeric value\> with the value noted and circled from the step above. The keystore password is the password specified when creating the keystore above, secret in our example. The key password is the password specified when creating the pfx file, numi in our example.
+
+62. Execute the following command:
+
+keytool -keypasswd -keystore "D:\Certs\CERME.ks" -alias numi
+
+> **NOTE:** With this command, we are changing the key password to "reallysecret" for this example.
+
+63. Next, copy the keystore, (D:\Certs\CERME.ks), to the Jetty\etc directory. For this example, it would be here: D:\Program Files (x86)\Change Healthcare\CERME\Jetty\etc.
+64. Modify \<Jetty-home\>\start.ini. Uncomment the relevant lines in the SSL Context and HTTPS Connector sections of start.ini file (as shown in the example below).
+
+\#=========================================================
+
+\# SSL Context
+
+\# Create the keystore and trust store for use by
+
+\# HTTPS and SPDY
+
+\#-------------------------------------------------------------------
+
+jetty.keystore=etc/keystore
+
+jetty.keystore.password=(your password)
+
+jetty.keymanager.password=(your password)
+
+jetty.truststore=etc/keystore
+
+jetty.truststore.password=(your password)
+
+jetty.secure.port=(your SSL port number)
+
+etc/jetty-ssl.xml
+
+\#===========================================================
+
+\# HTTPS Connector
+
+\# Must be used with jetty-ssl.xml
+
+\#-----------------------------------------------------------
+
+jetty.https.port=(your SSL port number)
+
+etc/jetty-https.xml
+
+65. Open the windows services management console, (START-\>RUN-\>services.msc-\>OK), and restart the CERMe service. It will take about 20 to 30 seconds for the service to restart completely but you should be able to browse directly to the secure CERMe. Use whatever URL is used to access NUMI, e.g., https://vaww.prod.temp.numi.med.va.gov/web/home.aspx
+66. Replace the "/web/home.aspx" portion with CERMe' s secure port, (8443 by default), e.g., https://vaww.prod.temp.numi.med.va.gov:8443/
+
+The CERMe website should be displayed and you should not have been warned of the security certificate problem.
+
+# Setting up NUMI Section in the Windows Event Log
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+1.  Change Directory - Go to command prompt (run as Administrator) and change current directory to Framework v2.0 bit folder e.g., C:\WINDOWS\MS.NET\Framework\v4.5.x
+67. Install Command - Type InstallUtil.exe /I \< source folder full path \>\bin\NumiWebApp.dll under Framework v4.5 folder and press enter.
+
+e.g., InstallUtil.exe /i D:\NUMI\\install_dir\>\bin\NumiWebApp.dll
+
+68. This should create a NUMI section in the Windows Event log.
+
+![](numi-server-setup-guide-version-15-10/093.png)
+
+<span id="_bookmark122" class="anchor"></span>Figure 74: Creating a NUMI section in the Windows Event Log
+
+69. NUMI Event Folder Properties
+    1.  Go to NUMI Properties by right mouse.
+    2.  Click on General Tab under NUMI Properties dialog box window. Check/Click on Overwrite events as needed.
+    3.  Press \<Apply\> button (if needed) and Press \<OK\> button.
+    4.  Verify Event View, if any error logs occurred during the installation.
+
+## Validate XML Configuration File Settings
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Verify that all XML configuration file settings are correct. Validate NUMI XML Configuration File Settings.
+
+1.  Edit the application settings in the web.config file in the NUMI folder. E.g., D:\NUMI\\install_dir\>\web.config
+
+Settings to update:
+
+\
+
+72. Click the Command Prompt (or \<Run\>, depending on the Operating System)
+73. Type: IISReset
+74. Click \<Enter\>.
+
+# Test NUMI Web Site Functionality
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Open Internet Explorer and type: http:// <span class="mark">redacted</span>.aspx e.g., https:// <span class="mark">redacted</span>.aspx
+
+# Installing NUMI Synchronizer on the DB Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Installation Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+1.  Copy the Sychronizer_Setup.msi file to the intended environment. This file will be provided by Tier 3 maintenance and should be stored on each environment
+
+![](numi-server-setup-guide-version-15-10/095.png)
+
+- If an upgrade in place, stop the existing service in task manager and uninstall from program files
+
+![](numi-server-setup-guide-version-15-10/096.png)
+
+![](numi-server-setup-guide-version-15-10/097.png)
+
+2.  Launch the Synchronizer Setup file
+3.  Click Next
+
+![](numi-server-setup-guide-version-15-10/098.png)
+
+4.  Choose the everyone option and browse to the desired directory
+
+![](numi-server-setup-guide-version-15-10/099.png)
+
+5.  Click next
+
+> ![](numi-server-setup-guide-version-15-10/100.png)
+
+6.  Click Close
+
+> ![](numi-server-setup-guide-version-15-10/101.png)
+
+7.  Enter the connection information for VIA & NUMI DB into the Synchronizer.config and Sychronizer.exe.config. Use the database server full name in source, e.g. VAAUSNUMSQLXX.aac.dva.va.gov where XX is the number of the database.
+
+\<!-- VIA Service configuration --\>
+
+\<add key="VIAServiceURL" value="<u>\<VIA Endpoint URL\></u>" /\>
+
+\<add key="VIARequestingApp" value="NumiBatch"/\>
+
+\<add key="VIAConsumingAppToken" value*=*"*(SEE PW VAULT)"/\> PW Vault under "NUMISynchronizer PWs (VIARequestingApp)*" <u>Under NOTES section</u>
+
+\<add key="VIAConsumingAppPassword" value="*(See PW VAULT)"/\> PW Vault under "NUMI Synchronizer PWs (VIARequestingApp)*" <u>Under NOTES section</u>
+
+\<add key="numiDbConnectionString" value="Data Source=*VAAUSNUMSQLXX.aac.dva.va.gov*;Database=*NUMI*;User ID=*numi_user*;Password= *PW Vault under "NUMI Synchronizer PWs (VIARequestingApp)"NOTES section* ;Trusted_Connection=False" /\>
+
+\<add key="reportDbConnectionString" value="Data Source=*VAAUSNUMSQLXX.aac.dva.va.gov*;Database=*NUMI*;User ID=<u>numi_user</u>;Password=*PW Vault under "NUMI Synchronizer PWs (VIARequestingApp)"* NOTES section;Trusted_Connection=False" /\>
+
+8.  Restart the service from task manager or the services mmc.
+
+![](numi-server-setup-guide-version-15-10/102.png)
+
+## Uninstall:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+If you need to uninstall the NUMI Synchronizer services use add/remove programs and right click on the synchronizer.
+
+![](numi-server-setup-guide-version-15-10/103.png)
+
+## Validate Installation:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To confirm the synchronizer installation
+
+Open MS SQL Server Management Studio after 2 hours. Open a new query and type:
+
+Use numi go.
+
+Select TOP 1000 \* from patientstay.
+
+Click the \<Execute\> button to run the query. New records shall display.
+
+## Add Jobs to the SQL Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+There are 3 jobs that must be added to the SQL Server:
+
+1.  NUMI_PhysicianAdvisorPatientReview_AutoExpire
+2.  LogSynchDB_ValidateSynchronizer
+3.  NUMI_AlterIndex_Rebuild
+
+These jobs can be installed from scripts (included in the build) or, if you are transferring from another server, you can right click on each job and script as DROP and CREATE.
+
+Backup the jobs before you run the scripts. Modify the scripts to replace the @owner_login_name with the owner login name appropriate for your installation, if necessary.
+
+NUMI_PhysicianAdvisorPatientReview_AutoExpire is a job that executes the Stored Procedure usp_PhysicianAdvisorPatientReview_AutoExpire every day at midnight. The Stored Procedure looks for Physician UM Advisor (PUMA) Reviews that have not been completed within 14 days and marks them as Completed with a reason description of Expired.
+
+LogSynchDB_ValidateSynchronizer is job that executed the stored procedure LogSyncDB.dbo.usp_LogSync_ValidateSynchronizer every hour. This stored procedure confirms imported stays within the last 3 hours and reports the problem to a pre-defined e- mail distribution list determined by the needs of the installation.
+
+NUMI_AlterIndex_Rebuild is a job that executes the stored procedure NUMI.dbo.usp_AlterIndex_Rebuild. This stored procedure rebuilds the indexes for the tables in the NUMI database.
+
+# Post-Installation Considerations
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+If there are post-installation considerations for NUMI, this information will be provided by the appropriate project teams.
+
+# Acronyms and Descriptions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+| Acronym |     | Description                                          |     |
+|---------|-----|------------------------------------------------------|-----|
+| CERMe   |     | Care Enhance Review Management Enterprise            |     |
+| CPRS    |     | Computerized Patient Record System                   |     |
+| CPU     |     | Central Processing Unit                              |     |
+| HTTP    |     | HyperText Transfer Protocol                          |     |
+| HTTPS   |     | HyperText Transfer Protocol Secure                   |     |
+| IAM     |     | Identity and Access Management                       |     |
+| IIS     |     | Internet Information Services                        |     |
+| MDWS    |     | Medical Domain Web Services                          |     |
+| NUMI    |     | National Utilization Management Integration          |     |
+| PM      |     | Project Manager                                      |     |
+| PUMA    |     | Physician UM Advisor                                 |     |
+| QA      |     | Quality Assurance                                    |     |
+| SQL     |     | Standard Query Language                              |     |
+| SSL     |     | Secure Socket Layer                                  |     |
+| SSO     |     | Single Sign On                                       |     |
+| UM      |     | Utilization Management                               |     |
+| URL     |     | Uniform Resource Locator                             |     |
+| VIA     |     | VistA Integration Adaptor                            |     |
+| VistA   |     | Veterans Information Systems Technology Architecture |     |
+
+# NUMI Comparison Table
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+| NUMI Version | CERMe RM | InterQual View | CA SiteMinder | Windows Server | MS SQL Server |
+|--------------|----------|----------------|---------------|----------------|---------------|
+| 15.4         | 16.1     | 2017.2         | 12.51         | 2012 R2        | 2012          |
+| 15.5         | 17       | 2018.1         | 12.51         | 2012 R2        | 2012          |
+| 15.6         | 17       | 2018.1         | 12.51         | 2012 R2        | 2012          |
+| 15.8         | 18.1     | 2019.1         | 12.51         | 2012 R2        | 2012          |
+| 15.9         | 19.0     | 2020           | 12.51         | 2012 R2        | 2012          |
+| 15.9.1       | 20.0     | 2021           | 12.52         | 2019           | 2019          |
+| 15.10        | 21.0.1   | 2022           | 12.52         | 2019           | 2019          |
+
+---
+
+## Appendix: Unique Sections from Prior Versions
+
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
+
+### From: NUMI Server Setup Guide
 
 ## Introduction
 
-This Server Setup Guide explains how to install National Utilization Management Integration (NUMI), Release 1.1.15.9.1.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This Server Setup Guide explains how to install National Utilization Management Integration (NUMI).
 
 ### Purpose
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The purpose of this document is to explain the hardware and software requirements and tasks that must be performed before and after the installation process.
 
 ### Scope
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 The scope of this document includes explanations of the appropriate steps to install the NUMI software, and the steps that are needed to be completed before and after the installation process is started.
 
 ### Target Audience
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 This document is intended for the Information Technology Team and the individuals who install software in your organization.
 
 ## Deployment Overview
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 The following process is followed to request permission to do a National Deployment.
 
 ### National Deployment Request
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 The ProPath Release Management processes govern the request for a National Deployment. Refer to ProPath for guidance on requesting a release. This process must be complete before installation of services on the NUMI servers.
 
 ### Installing NUMI on the Servers
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The steps to install NUMI on the servers are described below. The middle tier of NUMI is the Veterans Information Systems Technology Architecture (VistA) Integration Adapter (VIA), which is a hosted service and is not part of the NUMI deployment. The primary NUMI application servers are located at the Austin Information Technology Center (AITC) facility in Austin, Texas. The application servers run on an Internet Information Services (IIS) Application Server. The NUMI application requires Microsoft (MS) ASP.NET 2.0 Ajax Extensions 1.0 and Web Services Enhancements 3.0 to enable the interactions with the Web Services.
 
@@ -429,58 +1822,46 @@ The NUMI database as it exists now is a manifestation of multiple changes over m
 
 Database Platform installation, and Database Restoration Procedures
 
-Install Windows Server 2019 on the database server platform
-
-Download and install any critical patches for the Operating System
-
-Install the 64-bit MS Structured Query Language (SQL) Server 2019 application according to local “best practices”
-
-- 1.1. MS’s Full Text Search is required for the NUMI installation
-- 1.2. Replication is necessary for the NUMI installation to use the alternate database reporting capability of NUMI
-- 1.3. Reporting Services is not necessary for installation on the NUMI database server
-- 1.4. NUMI’s database will function properly in cluster, but clustering is not required for the NUMI application
-
-Apply all appropriate patches (according to local best practices) to MS SQL Server 2019
-
-Install / restore the database components according to the instructions in section 4.1 Instructions for Installing Database Components.
+1.  Install Windows Server 2019 on the database server platform
+2.  Download and install any critical patches for the Operating System
+3.  Install the 64-bit MS Structured Query Language (SQL) Server 2019 application according to local "best practices"
+    1.  MS's Full Text Search is required for the NUMI installation
+    2.  Replication is necessary for the NUMI installation to use the alternate database reporting capability of NUMI
+    3.  Reporting Services is not necessary for installation on the NUMI database server
+    4.  NUMI's database will function properly in cluster, but clustering is not required for the NUMI application
+4.  Apply all appropriate patches (according to local best practices) to MS SQL Server 2019
+5.  Install / restore the database components according to the instructions in section 4.1 Instructions for Installing Database Components.
 
 #### Web Server
 
 To install NUMI Exchange software on the Web Server (Server 2):
 
-1. Install Windows Server 2019 on the web server platform
-
-Download and install any critical patches for the Operating System on all web servers
-
-Install MS ASP.NET 2.0 Ajax Extensions 1.0
-
-Install Web Services Enhancements 3.0
-
-Install NUMI Exchange
-
-Change the web.config file settings as needed
+1.  Install Windows Server 2019 on the web server platform
+6.  Download and install any critical patches for the Operating System on all web servers
+7.  Install MS ASP.NET 2.0 Ajax Extensions 1.0
+8.  Install Web Services Enhancements 3.0
+9.  Install NUMI Exchange
+10. Change the web.config file settings as needed
 
 #### Application Server
 
 To install NUMI application software on the Application Server (Server 3)
 
-1. Install Windows Server 2019 on the application server platform
-
-Download and install any critical patches for the Operating System on all application servers
-
-Install the Care Enhance Review Management Enterprise (CERMe) 20.0 InterQual View 2021 application
-
-Install the NUMI application
-
-Change the web.config file settings as needed
-
-Install the SiteMinder Web Agent and configure it for the NUMI application Web site
+1.  Install Windows Server 2019 on the application server platform
+11. Download and install any critical patches for the Operating System on all application servers
+12. Install the Care Enhance Review Management Enterprise (CERMe) 22.0 InterQual View 2025 application
+13. Install the NUMI application
+14. Change the web.config file settings as needed
 
 ## Pre-Installation Instructions and Preparation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The Pre-Installation Instructions and Preparation section explains the tasks that need to be performed before installing NUMI software. Before proceeding with the installation procedures, consult the list of requirements below.
 
 ### Installation Process Requirements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 An assumption is made that the person responsible for doing installations at your site has performed appropriate pre-installation planning.
 
@@ -510,56 +1891,64 @@ Database – E:900 GB, F:700 GB, L:200 GB, O:400 GB (This includes space needed 
 
 #### Devices (Servers, etc.)
 
-1 Database Server
+> 1 Database Server
 
-2 Application Servers
+> 2 Application Servers
 
-2 Web Servers
+> 2 Web Servers
 
-1 Data Warehouse Server 1 SQL Reporting Server
+> 1 Data Warehouse Server 1 SQL Reporting Server
 
 #### VistA Rights Needed for NUMI Users
 
 Each NUMI user must have Computerized Patient Record System (CPRS) access in their VistA menu structure, such as in their secondary menu tree. The VistA menu name is CPRSChart (or CPRS Graphical User Interface CHART). Table 1 and Table 2 identify the menus, options and settings these user accounts will need to have assigned.
 
-It is also highly recommended that the VIAB WEB SERVICES OPTION be added to the System Command Options [XUCOMMAND] menu in each site’s VistA system. If you do not add this to the Common Menu, you will need to add it to the secondary menu of each individual NUMI user.
-
-Table 1: CPRS Rights
+It is also highly recommended that the VIAB WEB SERVICES OPTION be added to the System Command Options \[XUCOMMAND\] menu in each site's VistA system. If you do not add this to the Common Menu, you will need to add it to the secondary menu of each individual NUMI user.
 
 | CPRS Rights                                 |
 |---------------------------------------------|
 | Primary Menu: XMUSER                        |
 | Primary Menu: MailMan Menu                  |
-| Secondary Menu: [OR CPRS GUI CHART]         |
+| Secondary Menu: \[OR CPRS GUI CHART\]       |
 | Secondary Menu: CPRSChart Release 1.0.30.72 |
 | Keys Held                                   |
 | Patient Selection                           |
 | Restrict? NO                                |
 | OE/RR List                                  |
 
-Table 2: CPRS Access Tabs
+<span id="_bookmark19" class="anchor"></span>Table 2: CPRS Access Tabs
 
-| Name   | Description   | Effective Date   | Expiration Date   |
-|--------|---------------|------------------|-------------------|
-| RPT    | Reports tab   | Sept. 2, 2008    | N/A               |
+| Name | Description | Effective Date | Expiration Date |
+|------|-------------|----------------|-----------------|
+| RPT  | Reports tab | Sept. 2, 2008  | N/A             |
 
 ### Install Software in Test Environments
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The software will be installed in the Test environments before installing in Production.
 
 ### Generate Pre-Installation Reports
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Not applicable.
 
 ### Coordinate Installation with Other Teams
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The Installation Team will need to involve the Implementation/Architecture Team.
 
 ### Install Sequence Information for Multiple Patches
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Not applicable.
 
 ### Logoff During Installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 End users do not need to be logged off during installation (during the act of copying files and installation executions to the server(s)). However, the users must be logged off for any updates to the software (running the executions and/or configuring the software and configuration files).
 
@@ -567,212 +1956,242 @@ Logging off during software updates is no different from any other logoff that a
 
 ### Average Amount of Time Required to Complete the Installation
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 The average amount of time required to complete the NUMI installation is 2 days.
 
 ## Database Information
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Refer to the NUMI Systems Management Guide for information about the structure and components of the NUMI database.
 
 ### Instructions for Installing Database Components
 
-The NUMI database as it exists now is a manifestation of multiple changes over multiple releases. This installation document has as a pre-requisite the backup of an existing NUMI database.  Therefore, to install a new NUMI database, it is necessary to restore a backup of an existing NUMI database.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The NUMI database as it exists now is a manifestation of multiple changes over multiple releases. This installation document has as a pre-requisite the backup of an existing NUMI database. Therefore, to install a new NUMI database, it is necessary to restore a backup of an existing NUMI database.
 
 #### Database Installation / Restoration Procedures
 
-1. Copy a backup of an existing NUMI database(s) of appropriate size and content to the new NUMI database server
-    - 1.5. The application database (typically called NUMI) is necessary for proper function of the application
-    - 1.6. The “auditing” database (typically called LogSyncDb) is necessary for proper functioning of the application and the synchronizer
-    - 1.7. The CERMe database can be restored from an existing backup, or can be built from scratch from the CERMe installation media
-        - 1.7.1. If the CERMe database is restored from an existing backup, verify that the application configuration files reference a database authenticated user that has DBO privilege on the CERMe database for proper functioning of the NUMI application
-        - 1.7.2. If the CERMe database is installed from media, follow the instructions provided by Change Healthcare for installation
-
-Restore the database backup to the existing server
-
-- 1.1. File paths will have to be altered according to local best practices
-- 1.2. User accounts may be, but are not required to be, restored with the database. NUMI requires the numi\_user account to be setup.
-- 1.3. Database ownership may be altered so that the owning account for the NUMIdatabase complies with local best practices
-- 1.4. A database authenticated user for the application should be configured, and granted DBO privileges on the NUMI database
-
-Run the Install\_XX.sql if it was provided with the build, where XX is the database version for the NUMI build. This will apply changes to the database necessary for the version of NUMI that is being installed
-
-Install the NUMI Synchronizer according to the instructions in section 17 Installing NUMI Synchronizer on the DB Server
+1.  Copy a backup of an existing NUMI database(s) of appropriate size and content to the new NUMI database server
+    1.  The application database (typically called NUMI) is necessary for proper function of the application
+    2.  The "auditing" database (typically called LogSyncDb) is necessary for proper functioning of the application and the synchronizer
+    3.  The CERMe database can be restored from an existing backup, or can be built from scratch from the CERMe installation media
+        1.  If the CERMe database is restored from an existing backup, verify that the application configuration files reference a database authenticated user that has DBO privilege on the CERMe database for proper functioning of the NUMI application
+        2.  If the CERMe database is installed from media, follow the instructions provided by Change Healthcare for installation
+15. Restore the database backup to the existing server
+    1.  File paths will have to be altered according to local best practices
+    2.  User accounts may be, but are not required to be, restored with the database. NUMI requires the numi_user account to be setup.
+    3.  Database ownership may be altered so that the owning account for the NUMIdatabase complies with local best practices
+    4.  A database authenticated user for the application should be configured, and granted DBO privileges on the NUMI database
+16. Run the Install_XX.sql if it was provided with the build, where XX is the database version for the NUMI build. This will apply changes to the database necessary for the version of NUMI that is being installed
+17. Install the NUMI Synchronizer according to the instructions in section 17 Installing NUMI Synchronizer on the DB Server
 
 ## Installation Procedure for Server 2019
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 This section identifies the installation procedures that shall be followed.
 
 ### Patch the Operating System
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 This applies to all servers.
 
-1. Open up an instance of Internet Explorer.
-
-Select menu item &lt;Tools/Windows Update&gt;.
-
-Follow the instructions on MS’s website. ( **NOTE:** A restart of the servers may be necessary).
+1.  Open up an instance of Internet Explorer.
+18. Select menu item \<Tools/Windows Update\>.
+19. Follow the instructions on MS's website. (NOTE: A restart of the servers may be necessary).
 
 ## SQL Server Setup (Windows Server 2019)
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 ### Role Setup
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The role set-up in this section applies to the SQL database server. Use Server Manager to install the File Services with the role services shown in Figure 1: SQL Server Role Services.
 
-<!-- image -->
+<span id="_Hlk166518008" class="anchor"></span>Figure 1: SQL Server Role Services
 
-Figure 1: SQL Server Role Services
+![](numi-server-setup-guide/002.png)
 
 ## Web Server Setup (Windows Server 2019)
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 ### Role Setup
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The role setup in this section applies to the NUMI Exchange web server.
 
-Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Figure 2: NUMI Exchange Role Services and Figure 3: NUMI Exchange (IIS).
+Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Figure 2: NUMI Exchange Role Services and
 
-<!-- image -->
+Figure 3: NUMI Exchange (IIS).
 
-Figure 2: NUMI Exchange Role Services
+<span id="_Hlk166518017" class="anchor"></span>Figure 2: NUMI Exchange Role Services
 
-<!-- image -->
+![](numi-server-setup-guide/003.png)
+
+<span id="_bookmark36" class="anchor"></span>
 
 Figure 3: NUMI Exchange (IIS)
 
+![](numi-server-setup-guide/004.png)
+
 ### ASP.NET 2.0 AJAX Extensions 1.0 Setup
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Install the ASP.NET 2.0 Ajax Extensions 1.0 as detailed in section 8.3, Install MS ASP.NET 2.0 Ajax Extensions 1.0.
 
 ### MS Web Services Enhancements (WSE) 3.0 Setup
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Install MS WSE 3.0 as detailed in section 8.4 Install MS Web Services Enhancements 3.0.
 
 ## Application Server Setup (Windows Server 2019)
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 ### Role Setup
 
-The role setup in this section applies to the NUMI app servers. Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Figure 4: NUMI Role Services and Figure 5: NUMI Web Services IIS.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<!-- image -->
+The role setup in this section applies to the NUMI app servers. Use Server Manager to install the File Services and Web Server (IIS) roles with the role services shown in Error! Not a valid bookmark self-reference. and Figure 5: NUMI Web Services IIS.
 
-Figure 4: NUMI Role Services
+<span id="_Toc225235838" class="anchor"></span>Figure 4: NUMI Role Services
 
-<!-- image -->
+![](numi-server-setup-guide/005.png)
 
-Figure 5: NUMI Web Services IIS
+<span id="_bookmark42" class="anchor"></span>Figure 5: NUMI Web Services IIS
+
+![](numi-server-setup-guide/006.png)
 
 ### Feature Delegation
 
-Select the main node in IIS, with the server name. Then double click on “Feature Delegation” item.  Change the “Feature Delegation” settings for the server, as shown in Figure 6: IIS Feature Delegation.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<!-- image -->
+Select the main node in IIS, with the server name. Then double click on "Feature Delegation" item. Change the "Feature Delegation" settings for the server, as shown in Figure 6: IIS Feature Delegation.
 
-Figure 6: IIS Feature Delegation
+<span id="_Hlk166518039" class="anchor"></span>Figure 6: IIS Feature Delegation
+
+![](numi-server-setup-guide/007.png)
 
 Make sure all authentication rules are set to Read/Write as shown in Figure 7: Feature Delegation Selection.
 
-<!-- image -->
+<span id="_Hlk166518044" class="anchor"></span>Figure 7: Feature Delegation Selection
 
-Figure 7: Feature Delegation Selection
+![](numi-server-setup-guide/008.png)
 
 ### Install MS ASP.Net 2.0 AJAX Extensions 1.0
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Installing MS ASP.NET 2.0 Ajax Extensions 1.0 applies to the web servers only.
 
-1. Download the MS ASP.NET 2.0 Ajax Extensions 1.0  from MS’s website.
+1.  Download the MS ASP.NET 2.0 Ajax Extensions 1.0 from MS's website.
+20. Run the ASPAJAXExtSetup.msi by double-clicking it.
+21. When the File Download – Security Warning window displays, click the \<Run\> button (shown in Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window).
+22. 
 
-Run the ASPAJAXExtSetup.msi by double-clicking it.
+<span id="_Hlk166518053" class="anchor"></span>Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window
 
-When the File Download – Security Warning window displays, click the &lt;Run&gt; button (shown in Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window).
+![](numi-server-setup-guide/009.png)
 
-<!-- image -->
+23. When the Internet Explorer – Security Warning window displays, click the \<Run\> button (shown in Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window).
 
-Figure 8: MS ASP.Net 2.0 File Download-Security Warning Window
+<span id="_Hlk166518057" class="anchor"></span>Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window
 
-When the Internet Explorer – Security Warning window displays, click the &lt;Run&gt; button (shown in Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window).
+![](numi-server-setup-guide/010.png)
 
-<!-- image -->
+24. When the MS ASP.NET 2.0 AJAX Extensions 1.0 Setup window displays, click the \<Next\> button (shown in Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window).
 
-Figure 9: MS ASP.Net 2.0 Internet Explorer-Security Warning Window
+<span id="_Hlk166518062" class="anchor"></span>Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window
 
-When the MS ASP.NET 2.0 AJAX Extensions 1.0 Setup window displays, click the &lt;Next&gt; button (shown in Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window).
+![](numi-server-setup-guide/011.png)
 
-<!-- image -->
+Click the "I accept the terms in the License Agreement" checkbox, as illustrated in Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window.
 
-Figure 10: MS ASP.NET 2.0 AJAX Extensions 1.0 Setup Wizard Window
+1.  Click the \<Next\> button.
 
-Click the “I accept the terms in the License Agreement” checkbox, as illustrated in Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window.
+<span id="_Hlk166518067" class="anchor"></span>Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window
 
-1. Click the &lt;Next&gt; button.
-<!-- image -->
+![](numi-server-setup-guide/012.png)
 
-Figure 11: MS ASP.NET 2.0 AJAX License Agreement Window
+25. Click the \<Install\> button (shown in Figure 12: MS ASP.NET 2.0 AJAX Installation Window).
 
-Click the &lt;Install&gt; button (shown in Figure 12: MS ASP.NET 2.0 AJAX Installation Window).
+<span id="_Hlk166518072" class="anchor"></span>Figure 12: MS ASP.NET 2.0 AJAX Installation Window
 
-<!-- image -->
+![](numi-server-setup-guide/013.png)
 
-Figure 12: MS ASP.NET 2.0 AJAX Installation Window
+26. The installation is complete. Select the \<Finish\> button by clicking on it to exit the installation wizard, as depicted in Figure 13: MS ASP.NET 2.0 AJAX Completion window.
 
-The installation is complete. Select the &lt;Finish&gt; button by clicking on it to exit the installation wizard, as depicted in Figure 13: MS ASP.NET 2.0 AJAX Completion window.
+![](numi-server-setup-guide/014.png) If you do not wish to view the release notes, un-check the "Display MS ASP.NET 2.0 AJAX Extensions 1.0 Release Notes" checkbox.
 
-<!-- image -->
+<span id="_Hlk166518078" class="anchor"></span>Figure 13: MS ASP.NET 2.0 AJAX Completion window
 
-If you do not wish to view the release notes, un-check the “Display MS ASP.NET 2.0 AJAX Extensions 1.0 Release Notes” checkbox.
-
-<!-- image -->
-
-Figure 13: MS ASP.NET 2.0 AJAX Completion window
+![](numi-server-setup-guide/015.png)
 
 ### Install MS Web Services Enhancements 3.0
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Installing MS Web Services Enhancements 3.0 applies to the web servers only.
 
-1. Download the MS Web Services Enhancements 3.0 from MS’s website.
+1.  Download the MS Web Services Enhancements 3.0 from MS's website.
+27. Run the MS WSE 3.0.msi by double-clicking it.
+28. When the File Download – Security Warning window displays, click the \<Run\> button (shown in Figure 14: MS WSE 3.0 File Download-Security Warning Window).
 
-Run the MS WSE 3.0.msi by double-clicking it.
+<span id="_Hlk166518086" class="anchor"></span>Figure 14: MS WSE 3.0 File Download-Security Warning Window
 
-When the File Download – Security Warning window displays, click the &lt;Run&gt; button (shown in Figure 14: MS WSE 3.0 File Download-Security Warning Window).
+![](numi-server-setup-guide/016.png)
 
-<!-- image -->
+2.  When the Internet Explorer – Security Warning window displays, click the \<Run\> button (shown in Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window).
 
-Figure 14: MS WSE 3.0 File Download-Security Warning Window
+<span id="_Hlk166518091" class="anchor"></span>Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window
 
-1. When the Internet Explorer – Security Warning window displays, click the &lt;Run&gt; button (shown in Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window).
-<!-- image -->
+![](numi-server-setup-guide/017.png)
 
-Figure 15: MS WSE 3.0 Internet Explorer-Security Warning Window
+3.  When the MS WSE 3.0 – InstallShield Wizard window displays, click the \<Next\> button (shown in Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window).
 
-1. When the MS WSE 3.0 – InstallShield Wizard window displays, click the &lt;Next&gt; button (shown in Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window).
-<!-- image -->
+<span id="_Hlk166518095" class="anchor"></span>Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window
 
-Figure 16: MS WSE 3.0 InstallShield Wizard Welcome Window
+![](numi-server-setup-guide/018.png)
 
-1. Click the “I accept the terms in the license agreement” checkbox, as illustrated in Figure 17: MS WSE 3.0 License Agreement Window.
+4.  Click the "I accept the terms in the license agreement" checkbox, as illustrated in Figure 17: MS WSE 3.0 License Agreement Window.
+29. Click the \<Next\> button.
 
-Click the &lt;Next&gt; button.
+<span id="_Hlk166518101" class="anchor"></span>Figure 17: MS WSE 3.0 License Agreement Window
 
-<!-- image -->
+![](numi-server-setup-guide/019.png)
 
-Figure 17: MS WSE 3.0 License Agreement Window
+5.  Click the \<Administrator\> radio button, as illustrated in Figure 18: MS WSE 3.0 InstallShield Wizard Window.
+30. Click the \<Next\> button.
 
-1. Click the &lt;Administrator&gt; radio button, as illustrated in Figure 18: MS WSE 3.0 InstallShield Wizard Window.
+<span id="_Hlk166518106" class="anchor"></span>Figure 18: MS WSE 3.0 InstallShield Wizard Window
 
-Click the &lt;Next&gt; button.
+![](numi-server-setup-guide/020.png)
 
-<!-- image -->
+6.  Click the \<Install\> button (shown in Figure 19: MS WSE 3.0 Installation Window).
 
-Figure 18: MS WSE 3.0 InstallShield Wizard Window
+<span id="_Hlk166518111" class="anchor"></span>Figure 19: MS WSE 3.0 Installation Window
 
-1. Click the &lt;Install&gt; button (shown in Figure 19: MS WSE 3.0 Installation Window).
-<!-- image -->
+![](numi-server-setup-guide/021.png)
 
-Figure 19: MS WSE 3.0 Installation Window
+7.  Click the \<Finish\> button (shown in Figure 20: MS WSE 3.0 Completion Window).
 
-1. Click the &lt;Finish&gt; button (shown in Figure 20: MS WSE 3.0 Completion Window).
-<!-- image -->
+<span id="_Hlk166518115" class="anchor"></span>Figure 20: MS WSE 3.0 Completion Window
 
-Figure 20: MS WSE 3.0 Completion Window
+![](numi-server-setup-guide/022.png)
 
 ## Install SQL Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Install the MS SQL Server 2019 Database Server software only on the database server, applying both MS installation instructions and local best practices.
 
@@ -782,9 +2201,13 @@ All production NUMI databases should be run in Simple Recovery mode, to enable r
 
 ### Download all SQL Server Patches
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Downloading all SQL Server Patches applies to the database server only.
 
 ### Restore the Appropriate Databases for the NUMI Application
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Restoring the Appropriate Databases for the NUMI Application applies to the database server only.
 
@@ -792,87 +2215,97 @@ Follow the instructions in section 4 Instructions for Installing Database Compon
 
 ## Installing NUMI Exchange on Server 2019
 
-<!-- image -->
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Before doing this, you must make a backup copy of the web.config file (if this is an upgrade). Settings may need to be extracted from this in the future.
+![](numi-server-setup-guide/023.png) Before doing this, you must make a backup copy of the web.config file (if this is an upgrade). Settings may need to be extracted from this in the future.
 
 ### Unzip/Install NUMI Exchange Distribution
 
-1. Using Windows Explorer, create the NumiExchange folder on the D drive, if available; otherwise create on the C drive. E.g., D:\NumiExchange
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Unzip the NUMI Exchange files into the NumiExchange folder created above.
-
-Update the application settings in the NUMI Exchange web.config file, located in the directory created above. Typically, this would involve updating the database connection string.
+1.  Using Windows Explorer, create the NumiExchange folder on the D drive, if available; otherwise create on the C drive. E.g., D:\NumiExchange
+31. Unzip the NUMI Exchange files into the NumiExchange folder created above.
+32. Update the application settings in the NUMI Exchange web.config file, located in the directory created above. Typically, this would involve updating the database connection string.
 
 ### NUMI Exchange Website Configuration
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Using IIS Manager, add a new website and select the Secure Socket Layer (SSL) certificate as shown in Figure 21: Add NUMI Exchange Website.
 
-<!-- image -->
+<span id="_Hlk166518136" class="anchor"></span>Figure 21: Add NUMI Exchange Website
 
-Figure 21: Add NUMI Exchange Website
+![](numi-server-setup-guide/024.png)
 
-<!-- image -->
+<span id="_bookmark68" class="anchor"></span>Figure 22: NUMI Exchange Website
 
-Figure 22: NUMI Exchange Website
+![](numi-server-setup-guide/025.png)
 
 The NUMI website basic and advanced settings are shown in Figure 23: NUMI Exchange Basic Settings and Figure 24: NUMI Advanced Settings.
 
-<!-- image -->
+<span id="_Hlk166518144" class="anchor"></span>Figure 23: NUMI Exchange Basic Settings
 
-Figure 23: NUMI Exchange Basic Settings
+![](numi-server-setup-guide/026.png)
 
-<!-- image -->
+<span id="_bookmark70" class="anchor"></span>Figure 24: NUMI Advanced Settings
 
-Figure 24: NUMI Advanced Settings
+![](numi-server-setup-guide/027.png)
 
 The NUMI Exchange web site bindings are shown in Figure 25: NUMI Exchange Bindings.
 
-<!-- image -->
+<span id="_Hlk166518151" class="anchor"></span>Figure 25: NUMI Exchange Bindings
 
-Figure 25: NUMI Exchange Bindings
+![](numi-server-setup-guide/028.png)
 
 The NUMI Exchange web site authentication settings are shown in Figure 26: NUMI Exchange Authentication Settings.
 
-<!-- image -->
+<span id="_Hlk166518155" class="anchor"></span>Figure 26: NUMI Exchange Authentication Settings
 
-Figure 26: NUMI Exchange Authentication Settings
+![](numi-server-setup-guide/029.png)
 
 The NUMI Exchange website SSL settings are shown in Figure 27: NUMI Exchange SSL Settings.
 
-<!-- image -->
+<span id="_Hlk166518160" class="anchor"></span>Figure 27: NUMI Exchange SSL Settings
 
-Figure 27: NUMI Exchange SSL Settings
+![](numi-server-setup-guide/030.png)
 
 #### Application Pool Configuration
 
 The NUMI Exchange application pool setup is shown in Figure 28: Application Pool Window.
 
-<!-- image -->
+<span id="_Hlk166518165" class="anchor"></span>Figure 28: Application Pool Window
 
-Figure 28: Application Pool Window
+![](numi-server-setup-guide/031.png)
 
 The NUMI Exchange application pool basic settings are shown in Figure 29: NUMI Exchange Application Pool Basic Settings.
 
-<!-- image -->
+<span id="_Hlk166518170" class="anchor"></span>Figure 29: NUMI Exchange Application Pool Basic Settings
 
-Figure 29: NUMI Exchange Application Pool Basic Settings
+![](numi-server-setup-guide/032.png)
 
 The NUMI Exchange application pool advanced settings are shown in Figure 30: NUMI Exchange Pool Advanced Settings.
 
-<!-- image -->
+<span id="_Hlk166518175" class="anchor"></span>Figure 30: NUMI Exchange Pool Advanced Settings
 
-Figure 30: NUMI Exchange Pool Advanced Settings
+![](numi-server-setup-guide/033.png)
+
+![](numi-server-setup-guide/034.png)
+
+![](numi-server-setup-guide/035.png)
 
 ## Installing NUMI on Server 2019
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 ### Software Copy Instructions
 
-Right click on the zip file, select the “Unblock” if active, and select O.K. Some security schemes will block certain files from being unpacked, typically the Java files under the “web” directory. Setting the file to Unblock eliminates this problem.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<!-- image -->
+Right click on the zip file, select the "Unblock" if active, and select O.K. Some security schemes will block certain files from being unpacked, typically the Java files under the "web" directory. Setting the file to Unblock eliminates this problem.
 
-Figure 31: Unblocking Restricted Files in Installation ZIP File
+<span id="_Hlk166518180" class="anchor"></span>Figure 31: Unblocking Restricted Files in Installation ZIP File
+
+![](numi-server-setup-guide/036.png)
 
 It is recommended that NUMI be installed in the D:\NUMI folder. Using Windows Explorer, create a NUMI folder in D drive, if available, otherwise create in C drive. E.g., D:\NUMI.
 
@@ -880,392 +2313,111 @@ Unzip the NumiWebApp folder from the NUMI distribution zip file into the D:\NUMI
 
 ### NUMI Web Site Configuration
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Using IIS Manager, add a new web site as shown in Figure 32: Add NUMI Website.
 
-<!-- image -->
+<span id="_Hlk166518188" class="anchor"></span>Figure 32: Add NUMI Website
 
-Figure 32: Add NUMI Website
+![](numi-server-setup-guide/037.png)
 
 The NUMI web site basic and advanced settings are shown in Figure 33: NUMI Basic Settings and Figure 34: NUMI Advanced Settings.
 
-<!-- image -->
+<span id="_Hlk166518194" class="anchor"></span>Figure 33: NUMI Basic Settings
 
-Figure 33: NUMI Basic Settings
+![](numi-server-setup-guide/038.png)
 
-<!-- image -->
+<span id="_bookmark102" class="anchor"></span>
 
 Figure 34: NUMI Advanced Settings
 
+![](numi-server-setup-guide/039.png)
+
 The NUMI web site bindings are shown in Figure 35: NUMI Bindings.
 
-<!-- image -->
+<span id="_Hlk166518202" class="anchor"></span>Figure 35: NUMI Bindings
 
-Figure 35: NUMI Bindings
+![](numi-server-setup-guide/040.png)
 
-The NUMI web site authentication settings are shown in Figure 36: NUMI Authentication Settings. Make sure Forms Authentication is the only one enabled.
+The NUMI web site authentication settings are shown in Figure 36: NUMI Authentication Setting. Make sure Forms Authentication is the only one enabled.
 
-<!-- image -->
+<span id="_Hlk166518206" class="anchor"></span>Figure 36: NUMI Authentication Settings
 
-Figure 36: NUMI Authentication Settings
+![](numi-server-setup-guide/041.png)
 
 The NUMI website SSL settings are shown in Figure 37: NUMI SSL Settings.
 
-<!-- image -->
+<span id="_Hlk166518211" class="anchor"></span>Figure 37: NUMI SSL Settings
 
-Figure 37: NUMI SSL Settings
+![](numi-server-setup-guide/042.png)
 
 The NUMI web site compression settings are shown in Figure 38: NUMI Compression Settings.
 
-<!-- image -->
+<span id="_Hlk166518216" class="anchor"></span>Figure 38: NUMI Compression Settings
 
-Figure 38: NUMI Compression Settings
+![](numi-server-setup-guide/043.png)
 
 ### Application Pool Configuration
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 The NUMI application pool setup is shown in Figure 39: Application Pool Window.
 
-<!-- image -->
+<span id="_Hlk166518222" class="anchor"></span>Figure 39: Application Pool Window
 
-Figure 39: Application Pool Window
+![](numi-server-setup-guide/044.png)
 
 The NUMI application pool basic settings are shown in Figure 40: NUMI Application Pool Basic Settings.
 
-<!-- image -->
+<span id="_Hlk166518227" class="anchor"></span>Figure 40: NUMI Application Pool Basic Settings
 
-Figure 40: NUMI Application Pool Basic Settings
+![](numi-server-setup-guide/045.png)
 
-The NUMI application pool advanced settings are shown in Figure 41: NUMI Application Pool Advanced Settings.
+The NUMI application pool advanced settings are shown in Error! Not a valid bookmark self-reference..
 
-<!-- image -->
+<span id="_Ref188530969" class="anchor"></span>Figure 41: NUMI Application Pool Advanced Settings
 
-Figure 41: NUMI Application Pool Advanced Settings
+![](numi-server-setup-guide/046.png)
 
-## Install CA SiteMinder Web Agent for Single Sign On (SSO) on the Web server
+## Microsoft EntraId Application Registration for the Web Server Configuration
 
-The CA SiteMinder Web Agent needs to be installed and configured on the WebServer where the NUMI web application will be setup. The VA Identity and Access Management (IAM) Team provides the software and instructions to install the CA SiteMinder Web Agent.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Agent location
+Microsoft EntraId is the network based authentication method and pattern used by NUMI. Users must be authenticated with Microsoft EntraId to use NUMI. There are several key configurations from the EntraId Application Registration that need to be in the NUMI Web Server Configuration
 
-The current version of software can be found below:
+### Microsoft EntraId Application Registration
 
-[\\vaausfpciamsh61.vha.med.va.gov\Partners\_Share\CA\_SiteMinder\_WebAgents\Windows\Current](file:///vaausfpciamsh61.vha.med.va.gov/Partners_Share/CA_SiteMinder_WebAgents/Windows/Current)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Copy the 32-bit or 64-bit version of the zip file as appropriate based on the OS in the server and extracts it. You will get a file with name ‘ca-wa-12.51-cr08-win32.exe’ in case of 32-bit and ‘ca-wa-12.51-cr08-win64-64.exe’ in case of 64-bit.
+Each NUMI environment has its own Application Registration. The key values needed are ClientId, TenantId, ClientSecret, and RedirectUri.
 
-### Agent installation
+The values can be found on the EntraId portal in these sections: REDACTED
 
-Follow the instructions below to install the software on the application server:
+<span id="_Toc225235876" class="anchor"></span>Figure 42: Microsoft EntraId Application Registration
 
-- 1.1.1.1. Run the exe file you obtained after extracting the zip file. If you get a dialog as shown in Figure 42 click on ‘Run’ button.
-<!-- image -->
+![](numi-server-setup-guide/047.png)
 
-Figure 42: Security Warning
+<span id="_Toc225235877" class="anchor"></span>Figure 43: Application Registration Client Secret
 
-- 1.1.1.1. Wait for the dialog shown in Figure 43 to close. It may take little longer for the next dialog to show up.
-<!-- image -->
+![](numi-server-setup-guide/048.png)
 
-Figure 43: Preparing to install dialog
+<span id="_Toc225235878" class="anchor"></span>Figure 44: EntraId Application Registration Redirect URIs
 
-- 1.1.1.1. Click on ‘Next’ in the dialog shown in Figure 44.
-<!-- image -->
+![](numi-server-setup-guide/049.png)
 
-Figure 44: Web agent install wizard - Welcome screen
+The values are then added to the NUMI Web App Config.
 
-- 1.1.1.1. Scroll through to the bottom of the license agreement, accept it and click ‘Next’ button (as shown in Figure 45).
-<!-- image -->
+\
 
-Figure 45: Web agent install wizard - License agreement screen
-
-- 1.1.1.1. Leave the default location of installation (as shown in Figure 46) and click ‘Next’.
-<!-- image -->
-
-Figure 46: Web agent install wizard - Install location screen
-
-- 1.1.1.1. Review the summary screen and click on ‘Install’ button (as shown in Figure 47).
-<!-- image -->
-
-Figure 47: Web agent install wizard - Review screen
-
-- 1.1.1.1. Select ‘No. I would like to configure the Agent later’ option in the agent configuration screen as shown in Figure 48 and click ‘Next’.
-<!-- image -->
-
-Figure 48: Web agent install wizard - Agent configuration screen
-
-- 1.1.1.1. Select one of the options in the Install Complete screen as shown in Figure 49 and click on ‘Done’ button. A restart is required to continue with the agent configuration steps described in the next section. If you selected ‘No’ you would need to wait until the server is restarted to continue with next steps.
-<!-- image -->
-
-Figure 49: Web agent install wizard - Install complete screen
-
-### Agent configuration
-
-The next steps require you to launch the agent configuration wizard from the start menu. The Figure 50 shows the one that would need to be launched.
-
-<!-- image -->
-
-Figure 50: Launch Web Agent Configuration Wizard
-
-If you were configuring the agent for the first time on this specific server, you would need to register the host with the IAM server. In that case, follow the instructions in Section 12.3.1.
-
-Otherwise, skip to Section 12.3.2. Launch the Web Agent Configuration Wizard as described in Figure 50 and continue with the steps in that section.
-
-After you complete any of these configuration steps, you would need to reset IIS by running the following command at admin command prompt:
-
-iisreset
-
-**NOTE** : You may need to use different values for various options in the below steps if IAM team has provided different values.
-
-#### Configuring for the first time
-
-**NOTE** : The steps below are if you want to register the server with IAM. This can only be done once. If for any reason you need to reconfigure the whole server, you would need to contact the IAM Team to get the current server registration deleted before you can re-run these steps.
-
-- 1.1.1.1. Select ‘Yes, I would like to do Host Registration now’ and click ‘Next’ in the dialog as shown in Figure 51.
-<!-- image -->
-
-Figure 51: Web agent configuration wizard - Host registration
-
-- 1.1.1.1. Enter the following details in the Admin Registration screen (Figure 52), ensure ‘Enable Shared Secret Rollover’ is unchecked and click ‘Next’ button.
-Admin User Name: threg
-Admin Password: &lt;will be provided&gt;
-<!-- image -->
-
-Figure 52: Web agent configuration wizard - Admin credentials
-
-- 1.1.1.1. Enter the FQDN of the server you are currently configuring in the ‘Trusted Host Name’ box and one of values from Table 3 based on which IAM environment you are trying to connect to for ‘Host Configuration Object’ in the next dialog as shown in Figure 53.
-
-Table 3: IAM Host Configuration Object
-
-| Environment   | Host Configuration Object   |
-|---------------|-----------------------------|
-| Environment   | Host Configuration Object   |
-| DEV           | DEVHCO                      |
-| SQA           | SQAHCO                      |
-| Preprod       | Preprod_ext                 |
-| PROD          | PROD_external_HCO           |
-
-<!-- image -->
-
-Figure 53: Web agent configuration wizard - Host name and configuration object
-
-- 1.1.1.1. Add the three IP Address of Policy Server one at a time in the ‘IP Address’ box from Table 4 based on the IAM environment you are trying to connect to and click ‘Next’ in the dialog as shown in the Figure 54.
-
-Table 4: SiteMinder Policy Server IP Address
-
-| Environment   | SiteMinder Policy Server IP Address   |
-|---------------|---------------------------------------|
-| Environment   | SiteMinder Policy Server IP Address   |
-| DEV           | 10.227.211.211                        |
-| DEV           | 10.227.211.212                        |
-| DEV           | 10.227.211.213                        |
-| SQA           | 10.227.238.46                         |
-| SQA           | 10.227.238.47                         |
-| SQA           | 10.227.238.48                         |
-| Preprod       | 10.244.91.18                          |
-| Preprod       | 10.244.91.20                          |
-| Preprod       | 10.244.91.21                          |
-| PROD          | 10.244.90.18                          |
-| PROD          | 10.244.90.20                          |
-| PROD          | 10.244.90.21                          |
-
-<!-- image -->
-
-Figure 54: Web agent configuration wizard - Policy server IP Address
-
-- 1.1.1.1. Select ‘FIPS Only Mode’ in the next screen as shown in Figure 55 and click ‘Next’.
-<!-- image -->
-
-Figure 55: Web agent configuration wizard - FIPS mode setting
-
-- 1.1.1.1. Leave everything default in the next screen as shown in Figure 56 and click ‘Next’
-<!-- image -->
-
-Figure 56: Web agent configuration wizard - Configuration file location
-
-- 1.1.1.1. Select the web server on which NUMI was installed and click ‘Next’. Usually only one will be listed in this dialog as shown in Figure 57.
-<!-- image -->
-
-Figure 57: Web agent configuration wizard - Web server
-
-- 1.1.1.1. Enter ‘NUMIAgentConfig’ in ‘Default Agent Configuration Object,’ check ‘Enable Agent’ and uncheck ‘Manage Application Pools’ in the next screen as shown in Figure 58 and click ‘Next’.
-<!-- image -->
-
-Figure 58: Web agent configuration wizard - Agent configuration
-
-- 1.1.1.1. Select the NUMI website and any other sites where you want to enable SSO on and click ‘Next’.
-<!-- image -->
-
-Figure 59: Web agent configuration wizard - Sites selection
-
-- 1.1.1.1. Review the options you selected in the summary screen as shown in Figure 60 and click on ‘Install’ button.
-<!-- image -->
-
-Figure 60: Web agent configuration wizard - Summary screen
-
-- 1.1.1.1. Click on ‘Done’ when you see the completion screen as shown in Figure 61.
-<!-- image -->
-
-Figure 61: Web agent configuration wizard - Completion screen
-
-#### Reconfiguration configuration
-
-**NOTE** : The steps below are if you want to reconfigure one or more websites in IIS due to say re-deployment. The server should have already been registered with IAM using the steps in Section 12.3.1.
-
-- 1.1.1.1. Select ‘No, I would like to do Host Registration later’ and click ‘Next’ in the dialog as shown in Figure 62.
-<!-- image -->
-
-Figure 62: Web agent configuration wizard - Host registration
-
-- 1.1.1.1. Select the web server on which NUMI was installed and click ‘Next’. Usually only one will be listed in this dialog as shown in Figure 63.
-<!-- image -->
-
-Figure 63: Web agent configuration wizard - Web server
-
-- 1.1.1.1. Enter ‘NUMIAgentConfig’ in ‘Default Agent Configuration Object’ if not already entered, check ‘Enable Agent’ and uncheck ‘Manage Application Pools’ in the next screen as shown in Figure 64 and click ‘Next’.
-<!-- image -->
-
-Figure 64: Web agent configuration wizard - Agent configuration
-
-- 1.1.1.1. Select the NUMI website and any other sites where you want to enable SSO on and click ‘Next’. The sites that were previously configured will remain selected and cannot be changed (unconfigured) as shown in Figure 65.
-<!-- image -->
-
-Figure 65: Web agent configuration wizard - Sites selection
-
-- 1.1.1.1. Review the options you selected in the summary screen as shown in Figure 66 and click on ‘Install’ button.
-<!-- image -->
-
-Figure 66: Web agent configuration wizard - Summary screen
-
-- 1.1.1.1. In the screen shown in Figure 67, select appropriate option for the site you are trying to reconfigure and click ‘Next’.
-
-‘Overwrite’ will overwrite the previously configured settings with the new one entered in the previous steps of this wizard. ‘Preserve’ will not change any existing settings but will add missing settings back in to the site.  If ‘Unconfigure’ is selected it will remove and disable SSO for the selected site.
-
-<!-- image -->
-
-Figure 67: Web agent configuration wizard - Previously configured sites
-
-- 1.1.1.1. Review the options you selected in the summary screen as shown in Figure 68 and click on ‘Install’ button.
-<!-- image -->
-
-Figure 68: Web agent configuration wizard - Summary screen
-
-- 1.1.1.1. Click on ‘Done’ when you see the completion screen as shown in Figure 69.
-<!-- image -->
-
-Figure 69: Web agent configuration wizard - Completion screen
-
-## Secure Token Service Integration for SSOi
-
-NUMI supports secure token service implementation through SSOi.  Full details of the implementation can be found at SSOi Secure Token Service Playbook.
-
-### Download Certificate Chain from appropriate endpoint
-
-Downloading the chain can be done from any computer but installing the chain must be done as the local computer account of the server being set up.
-
-- iDEV: [https:/redacted:9301/STS/RequestSecurityToken](https://int.services.eauth.va.gov:9301/STS/RequestSecurityToken)
-- SQA: [https:// redacted:9301/STS/RequestSecurityToken](https://sqa.services.eauth.va.gov:9301/STS/RequestSecurityToken)
-- PREPROD: [https:// redacted:9301/STS/RequestSecurityToken](https://preprod.services.eauth.va.gov:9301/STS/RequestSecurityToken)
-- PROD: [https:// redacted 301/STS/RequestSecurityToken](https://services.eauth.va.gov:9301/STS/RequestSecurityToken)
-
-- 1.1.1.1. Install the full certification chain from the matching IAM environment(s).  This can be obtained by visiting the link and clicking the lock icon and choosing “View Certificates”. [https://services.eauth.va.gov:9301/](https://services.eauth.va.gov:9301/STS/RequestSecurityToken)
-<!-- image -->
-
-1. Install the full certification chain from the matching IAM environment(s).  This can be obtained by visiting the link and clicking the lock icon and choosing “View Certificates”. 
-https:// redacted:9301/
-<!-- image -->
-2. Click on the Details tab and select “Copy to file”, choose PKCS and include all certificates in the path if possible
-<!-- image -->
-3. Save file as &lt;endpointname\_date&gt;, click next then finish.
-<!-- image -->
-4. Optional – Reuse this file if another web server requires this STS endpoint’s certificate.
-
-1. In MMC, right click Computer-Personal store and import the certificate created in Step 9.
-<!-- image -->
-
-1. Import for local machine
-<!-- image -->
-
-1. Browse to file created in step 10 and click Next
-
-<!-- image -->
-
-1. Place all certificates in the Personal store, click next and finish
-<!-- image -->
-
-1. The imported certificate should now be in the store (refreshing may be required).  It will follow the naming convention xxxx.services.eauth.va.gov
-
-<!-- image -->
-
-### Export server cert to .pfx
-
-This is a copy of the .cer installed locally to the computer/personal account.  It should be the one served by IIS when you navigate to the website.
-
-- 1.1.1.1. Load the Microsoft Management Console, Certificate Snap-in, for the local computer
-
-## Find the server cert in the personal folder
-
-<!-- image -->
-
-## Right click and export the certificate
-
-<!-- image -->
-
-## Select “Yes, export private key” and choose next
-
-<!-- image -->
-
-## Select “Export all extended properties” and choose next
-
-<!-- image -->
-
-## Select a strong password.  This password will go into NumiWebApp.config later in this guide.
-
-<!-- image -->
-
-## Select a filename for the exported certificate and save it as a .pfx.  Select a folder not specific to a version of NUMI as this cert will be valid for future versions of the applications until expiration.  For example, if the folder structure for website is NUMI/NUMI\_15.9 select the /NUMI folder for the cert and not the specific /NUMI\_15.9 folder.  This file path will go into NumiWebApp.config later in this guide.
-
-### NumiWebApp.config keys
-
-&lt;!-- STS Service configuration --&gt;
-
-&lt;add key="STSEndpoint" value="https:// redacted:9301/STS/RequestSecurityToken"/&gt;
-
-&lt;add key="STSEnabled" value="true"/&gt; &lt;!-- Set "true" to enable STS service integration --&gt;
-
-&lt;add key="STSCertificatePath" value="D:\\numi\_web820.pfx"/&gt;
-
-&lt;add key="STSCertificatePassword" value="numi123"/&gt;
-
-STSEnabled – anything but “true” will disable STS and revert to access/verify
-
-## ## 21 Installing CERMe Software and Database from CERMe Installation CD
-
-Refer to the RM Install Guide PDF file on the CERMe (COTS product) setup CD for detailed instructions on how to set up CERMe (DBA assistance may be required to setup the database, which must be done before application setup).
-
-### Install CERMe on the Application Server
-
-**NOTE:** Change Healthcare provides version updates several times a year.  The example below may not be the latest version
-
-CERMe Review Manager (RM) 20.0 InterQual 2021 for NUMI 15.9.1 will be installed based on an existing installation of CERMe 19.1. The CERMe installation would be performed using a dump of the existing CERMe 19.1 database. Listed below are the steps to restore the database and install CERME:
-
-1. Restore CERMe 19.1 data from the CERMe database dump obtained from the current CERMe pre-Prod/Production servers. Create database logins for orphaned users in the restored database. Write down the credentials for the new logins created. This will be required for the CERMe install.
-
-Navigate to the CERMe install image and double click the install.htm file in the root directory to open the setup welcome page. This will open the CERMe install page in Internet Explorer.
-
-Click on the Install Review Manager 20.0 / InterQual View 2021 link on the installation page. This will prompt to save or run the file, select Run. This will start the CERMe Install wizard.
-
-Accept the license agreement and click Next.
-
-On the License Information screen, enter the license information given above and click Next.
-
-On the Select Review Manager Enterprise screen, select “Review Manager Enterprise” and click Next.
-
-On the Installation Type screen, select “New Installation” and click Next.
-
-Select an installation directory.
-
-On the Choose Components screen, keep the default selection (i.e., all selected) and click Next.
-
-On the Database Information page, enter the following info and click Next.
-
+33. Navigate to the CERMe install image and double click the install.htm file in the root directory to open the setup welcome page. This will open the CERMe install page in EDGE Browser.
+34. Click on the Install Review Manager 21.0.1 / InterQual View 2022 link on the installation page. This will prompt to save or run the file, select Run. This will start the CERMe Install wizard.
+35. Accept the license agreement and click Next.
+36. On the License Information screen, enter the license information given above and click Next.
+37. On the Select Review Manager Enterprise screen, select "Review Manager Enterprise" and click Next.
+38. On the Installation Type screen, select "New Installation" and click Next.
+39. Select an installation directory.
+40. On the Choose Components screen, keep the default selection (i.e., all selected) and click Next.
+41. On the Database Information page, enter the following info and click Next.
 - Database type: SQL Server
 - Server Name: Name of the SQL database server
 - Database: Name of the database to which the dump restored in step 1
@@ -1273,223 +2425,191 @@ On the Database Information page, enter the following info and click Next.
 - Instance: leave blank
 - User ID: SQL Server user ID with access to the CERMe database restored above
 - Password: Password for the SQL Server user used above
+42. On separate database to store report data screen, select No and click Next.
+43. On the Install Jetty window, select Yes to install Jetty.
+44. On the next screen, enter 8357 for Port Number.
+45. On the next screen, select the hardware architecture.
+46. Review the selections, and click Install to start the installation.
+47. Once the installation completes, go to the URL: http://\<servername\>:8357/rm/login.
 
-On separate database to store report data screen, select No and click Next.
+    This is should open the CERMe login page.
+48. Now follow the steps below to update CERMe to CERMe 21.0.1.
+49. Stop the CERMe Service from the Windows Services.
+50. Create a backup of the CERMe Installation folder and the CERMe database.
+51. Make the changes to the file (below)on the CERMe Jetty Server:
 
-On the Install Jetty window, select Yes to install Jetty.
+#### File: \<CERMe Install Folder\>\Jetty\etc\webdefault.xml
 
-On the next screen, enter 8357 for Port Number.
+Add the following element to \<session-config\> element.
 
-On the next screen, select the hardware architecture.
+\<cookie-config\>
 
-Review the selections, and click Install to start the installation.
+\<http-only\>true\</http-only\>
 
-Once the installation completes, go to the URL: http://&lt;servername&gt;:8357/rm/login.
-
-This is should open the CERMe login page.
-
-Now follow the steps below to update CERMe to CERMe 20.0.
-
-Stop the CERMe Service from the Windows Services.
-
-Create a backup of the CERMe Installation folder and the CERMe database.
-
-Make the changes to the file (below)on the CERMe Jetty Server:
-
-#### File: &lt;CERMe Install Folder&gt;\Jetty\etc\webdefault.xml
-
-Add the following element to &lt;session-config&gt; element.
-
-&lt;cookie-config&gt;
-
-&lt;http-only&gt;true&lt;/http-only&gt;
-
-&lt;/cookie-config&gt;
+\</cookie-config\>
 
 Session Config element should look like the following after the change:
 
-&lt;session-config&gt;
+\<session-config\>
 
-&lt;session-timeout&gt;30&lt;/session-timeout&gt;
+\<session-timeout\>30\</session-timeout\>
 
-**&lt;cookie-config&gt;**
+\<cookie-config\>\<http-only\>true\</http-only\>\</cookie-config\>
 
-**&lt;http-only&gt;true&lt;/http-only&gt;**
+\</session-config\>
 
-**&lt;/cookie-config&gt;**
+#### File: \<CERMe Install Folder?\Jetty\etc\jetty-rewrite.xml
 
-&lt;/session-config&gt;
+Add the following \<Call\> element to the end of the \<New\> element.
 
-#### File: &lt;CERMe Install Folder?\Jetty\etc\jetty-rewrite.xml
+\<Call name="addRule"\>
 
-Add the following &lt;Call&gt; element to the end of the &lt;New&gt; element.
+\<Arg\>
 
-&lt;Call name="addRule"&gt;
+\<New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"\>
 
-&lt;Arg&gt;
+\<Set name="pattern"\>/\*\</Set\>
 
-&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;
+\<Set name="name"\>Strict-Transport-Security\</Set\>
 
-&lt;Set name="pattern"&gt;/*&lt;/Set&gt;
+\<Set name="value"\>max-age=31536000; includeSubDomains\</Set\>
 
-&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;
+\</New\>
 
-&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;
+\</Arg\>
 
-&lt;/New&gt;
-
-&lt;/Arg&gt;
-
-&lt;/Call&gt;
+\</Call\>
 
 The file will look like the following after the change:
 
-&lt;Set name="handler"&gt;
+\<Set name="handler"\>
 
-&lt;New id="Rewrite" class="org.eclipse.jetty.rewrite.handler.RewriteHandler"&gt;
+\<New id="Rewrite" class="org.eclipse.jetty.rewrite.handler.RewriteHandler"\>
 
-&lt;Set name="handler"&gt;&lt;Ref refid="oldhandler"/&gt;&lt;/Set&gt;
+\<Set name="handler"\>\<Ref refid="oldhandler"/\>\</Set\>
 
-&lt;Set name="rewriteRequestURI"&gt;&lt;Property name="rewrite.rewriteRequestURI" default="true"/&gt;&lt;/Set&gt;
+\<Set name="rewriteRequestURI"\>\<Property name="rewrite.rewriteRequestURI" default="true"/\>\</Set\>
 
-&lt;Set name="rewritePathInfo"&gt;&lt;Property name="rewrite.rewritePathInfo" default="false"/&gt;&lt;/Set&gt;
+\<Set name="rewritePathInfo"\>\<Property name="rewrite.rewritePathInfo" default="false"/\>\</Set\>
 
-&lt;Set name="originalPathAttribute"&gt;&lt;Property name="rewrite.originalPathAttribute" default="requestedPath"/&gt;&lt;/Set&gt;
+\<Set name="originalPathAttribute"\>\<Property name="rewrite.originalPathAttribute" default="requestedPath"/\>\</Set\>
 
-**&lt;Call name="addRule"&gt;**
+\<Call name="addRule"\>\<Arg\>\<New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"\>\<Set name="pattern"\>/\*\</Set\>\<Set name="name"\>Strict-Transport-Security\</Set\>\<Set name="value"\>max-age=31536000; includeSubDomains\</Set\>\</New\>\</Arg\>\</Call\>
 
-**&lt;Arg&gt;**
+\</New\>
 
-**&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;**
+\</Set\>
 
-**&lt;Set name="pattern"&gt;/*&lt;/Set&gt;**
-
-**&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;**
-
-**&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;**
-
-**&lt;/New&gt;**
-
-**&lt;/Arg&gt;**
-
-**&lt;/Call&gt;**
-
-&lt;/New&gt;
-
-&lt;/Set&gt;
-
-#### File: &lt;CERMe Install Folder&gt;\Jetty\start.ini
+#### File: \<CERMe Install Folder\>\Jetty\start.ini
 
 Add the following new section to the bottom of the file:
 
-# ===========================================================
+\# ===========================================================
 
-# Enforce Strict Transport Security
+\# Enforce Strict Transport Security
 
-# -----------------------------------------------------------
+\# -----------------------------------------------------------
 
 OPTIONS=rewrite
 
 etc/jetty-rewrite.xml
 
-#### File: &lt;CERMe Install Folder&gt;\Jetty\ReviewManager.xml
+#### File: \<CERMe Install Folder\>\Jetty\ReviewManager.xml
 
-Add the content below to the end of the &lt; Config &gt; element
+Add the content below to the end of the \< Config \> element
 
-&lt;IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw=="
+\<IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw=="
 
-AuthenticationFailUrl="/iqm/html/rm\_integrated\_authentication\_failed.htm" GuidUserCid="IQ\_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128"
+AuthenticationFailUrl="/iqm/html/rm_integrated_authentication_failed.htm" GuidUserCid="IQ_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128"
 
-AuthenticateWS="false"/&gt;
+AuthenticateWS="false"/\>
 
 The modified file will look like the following:
 
-…
+\<Path Prefix="/rm"/\>
 
-&lt;Path Prefix="/rm"/&gt;
+\<Login Check="true"/\>
 
-&lt;Login Check="true"/&gt;
+\<IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw==" AuthenticationFailUrl="/iqm/html/rm_integrated_authentication_failed.htm" GuidUserCid="IQ_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128" AuthenticateWS="false"/\>
 
-**&lt;IntegratedLogin Enabled="true" CookieName="unifiedkey" UnifiedKey="8rzVNfLwjHWHvPctaen9dw==" AuthenticationFailUrl="/iqm/html/rm\_integrated\_authentication\_failed.htm" GuidUserCid="IQ\_1" Guid="A1B0B165-3C18-4561-935F-5FB81BD42128" AuthenticateWS="false"/&gt;**
+\</Config\>
 
-&lt;/Config&gt;
+\</ReviewManager\>
 
-&lt;/ReviewManager&gt;
-
-Start CERMe Service from the Windows Services.
-
-Go to CERMe URL: http://&lt;server&gt;:8443/rm/login Login with the credential provided, and go to the menu Help &gt; About. It should show Version InterQual Review Manager™ 19 (Build 191).
-
-This completes the installation of the CERMe RM 20.0 InterQual 2021.
+52. Start CERMe Service from the Windows Services.
+53. Go to CERMe URL: http://\<server\>:8357/rm/login Login with the credential provided, and go to the menu Help \> About. It should show Version InterQual Review Manager™ 21.0.1 (Build 4).
+54. This completes the installation of the CERMe RM 21.0.1 InterQual View 2022.
 
 ### Install CERMe SSL Certificate
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 NUMI will need SSL certificates for CERMe (for Jetty). NUMI uses the SSL certificate for the server that CERMe is running on. If the sever does not have a SSL certificate installed, follow the normal VA processes for obtaining SSL Certificates and install it.
 
-1. Use IIS Manager to export the current certificate to a .pfx file. Select the server name in the Connections pane and double click on the Server Certificates in the IIS pane as shown in Figure 70.
-<!-- image -->
+1.  Use IIS Manager to export the current certificate to a .pfx file. Select the server name in the Connections pane and double click on the Server Certificates in the IIS pane as shown in Figure 45.
 
-Figure 70: IIS Server Certificates
+<span id="_Hlk166518546" class="anchor"></span>Figure 45: IIS Server Certificates
 
-Select the certificate to export and click on the “Export…” link in the Actions pane, as shown in Figure 71.
+![](numi-server-setup-guide/064.png)
 
-<!-- image -->
+55. Select the certificate to export and click on the "Export…" link in the Actions pane, as shown in Figure 46.
 
-Figure 71: IIS Server Certificate Selection
+<span id="_Hlk166518551" class="anchor"></span>Figure 46: IIS Server Certificate Selection
 
-Set the name of the .pfx file. Set the password, e.g., use numi (all lowercase) for the password, as shown in Figure 72. This password will be used in subsequent steps.
+![](numi-server-setup-guide/065.png)
 
-<!-- image -->
+56. Set the name of the .pfx file. Set the password, e.g., use numi (all lowercase) for the password, as shown in Figure 47. This password will be used in subsequent steps.
 
-Figure 72: IIS Certificate Details
+<span id="_Hlk166518555" class="anchor"></span>Figure 47: IIS Certificate Details
 
-**NOTE** : For the following, the password can be whatever you choose, but please make a note of them, as they will be used later.  For this example, D:\Certs\NUMI.pfx is the file name and the password, the one that you used to export the .pfx file, e.g., numi (all lowercase).
+![](numi-server-setup-guide/066.png)
 
-Open a command prompt window and change the current directory to the location of the keytool executable.  In this example it would be:
+> **NOTE:** For the following, the password can be whatever you choose, but please make a note of them, as they will be used later. For this example, D:\Certs\NUMI.pfx is the file name and the password, the one that you used to export the .pfx file, e.g., numi (all lowercase).
+
+57. Open a command prompt window and change the current directory to the location of the keytool executable. In this example it would be:
 
 D:\Program Files (x86)\Change Healthcare\CERME\Jre\bin\keytool.exe
 
-Execute the following command:
+58. Execute the following command:
 
 keytool -importkeystore -srcstoretype PKCS12 -srckeystore "D:\Certs\NUMI.pfx" -destkeystore "D:\Certs\CERME.ks"
 
-**NOTE** : -srckeystore value will be the .pfx path and filename above, -destkeystore can be whatever you choose; again, passwords can be whatever you choose, but please make a note of them.  The word “secret” is used as the keystore password in this example.
+> **NOTE:** -srckeystore value will be the .pfx path and filename above, -destkeystore can be whatever you choose; again, passwords can be whatever you choose, but please make a note of them. The word "secret" is used as the keystore password in this example.
 
-Execute the following command:
+59. Execute the following command:
 
-Keytool –list -keystore "D:\Certs\CERME.ks”
+Keytool –list -keystore "D:\Certs\CERME.ks"
 
 Make a note of the long, auto-generated alphanumeric value circled in red below. Recommended actions are to copy, paste the entire command prompt output to notepad to copy, and paste this value.
 
-<!-- image -->
+<span id="_Hlk166518566" class="anchor"></span>Figure 48: keytool -keystore "C:\Certs\CERME.ks" –list
 
-Figure 73: keytool -keystore "C:\Certs\CERME.ks" –list
+![](numi-server-setup-guide/067.png)
 
-Execute the following command:
+60. Execute the following command:
 
-keytool -changealias -keystore "D:\Certs\CERME.ks" -destalias numi –alias &lt;alphanumeric value&gt;
+keytool -changealias -keystore "D:\Certs\CERME.ks" -destalias numi –alias \<alphanumeric value\>
 
-**NOTE:** Replace &lt;alphanumeric value&gt; with the value noted and circled from the step above. The keystore password is the password specified when creating the keystore above, secret in our example.  The key password is the password specified when creating the pfx file, numi in our example.
+> **NOTE:** Replace \<alphanumeric value\> with the value noted and circled from the step above. The keystore password is the password specified when creating the keystore above, secret in our example. The key password is the password specified when creating the pfx file, numi in our example.
 
-Execute the following command:
+61. Execute the following command:
 
 keytool -keypasswd -keystore "D:\Certs\CERME.ks" -alias numi
 
-**NOTE** : With this command, we are changing the key password to “reallysecret” for this example.
+> **NOTE:** With this command, we are changing the key password to "reallysecret" for this example.
 
-Next, copy the keystore, (D:\Certs\CERME.ks), to the Jetty\etc directory.  For this example, it would be here: D:\Program Files (x86)\Change Healthcare\CERME\Jetty\etc.
+62. Next, copy the keystore, (D:\Certs\CERME.ks), to the Jetty\etc directory. For this example, it would be here: D:\Program Files (x86)\Change Healthcare\CERME\Jetty\etc.
+63. Modify \<Jetty-home\>\start.ini. Uncomment the relevant lines in the SSL Context and HTTPS Connector sections of start.ini file (as shown in the example below).
 
-Modify &lt;Jetty-home&gt;\start.ini. Uncomment the relevant lines in the SSL Context and HTTPS Connector sections of start.ini file (as shown in the example below).
+\#=========================================================
 
-#=========================================================
+\# SSL Context
 
-# SSL Context
+\# Create the keystore and trust store for use by
 
-# Create the keystore and trust store for use by
+\# HTTPS and SPDY
 
-# HTTPS and SPDY
-
-#-------------------------------------------------------------------
+\#-------------------------------------------------------------------
 
 jetty.keystore=etc/keystore
 
@@ -1505,186 +2625,140 @@ jetty.secure.port=(your SSL port number)
 
 etc/jetty-ssl.xml
 
-#===========================================================
+\#===========================================================
 
-# HTTPS Connector
+\# HTTPS Connector
 
-# Must be used with jetty-ssl.xml
+\# Must be used with jetty-ssl.xml
 
-#-----------------------------------------------------------
+\#-----------------------------------------------------------
 
 jetty.https.port=(your SSL port number)
 
 etc/jetty-https.xml
 
-Open the windows services management console, (START-&gt;RUN-&gt;services.msc-&gt;OK), and restart the CERMe service.  It will take about 20 to 30 seconds for the service to restart completely but you should be able to browse directly to the secure CERMe.  Use whatever URL is used to access NUMI, e.g., https://vaww.prod.temp.numi.med.va.gov/web/home.aspx
-
-Replace the “/web/home.aspx” portion with CERMe’ s secure port, (8443 by default), e.g., https://vaww.prod.temp.numi.med.va.gov:8443/
+64. Open the windows services management console, (START-\>RUN-\>services.msc-\>OK), and restart the CERMe service. It will take about 20 to 30 seconds for the service to restart completely but you should be able to browse directly to the secure CERMe. Use whatever URL is used to access NUMI, e.g., REDACTED
+65. Replace the "/web/home.aspx" portion with CERMe' s secure port, (8443 by default), e.g REDACTED
 
 The CERMe website should be displayed and you should not have been warned of the security certificate problem.
 
 ## Setting up NUMI Section in the Windows Event Log
 
-1. Change Directory - Go to command prompt (run as Administrator) and change current directory to Framework v2.0 bit folder e.g., C:\WINDOWS\MS.NET\Framework\v4.5.x
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Install Command - Type InstallUtil.exe /I &lt; source folder full path &gt;\bin\NumiWebApp.dll under Framework v4.5 folder and press enter.
+1.  Change Directory - Go to command prompt (run as Administrator) and change current directory to Framework v2.0 bit folder e.g., C:\WINDOWS\MS.NET\Framework\v4.5.x
+66. Install Command - Type InstallUtil.exe /I \< source folder full path \>\bin\NumiWebApp.dll under Framework v4.5 folder and press enter.
 
-e.g., InstallUtil.exe /i D:\NUMI\&lt;install\_dir&gt;\bin\NumiWebApp.dll
+e.g., InstallUtil.exe /i D:\NUMI\\install_dir\>\bin\NumiWebApp.dll
 
-This should create a NUMI section in the Windows Event log.
+67. This should create a NUMI section in the Windows Event log.
 
-<!-- image -->
+<span id="_Hlk166518603" class="anchor"></span>Figure 49: Creating a NUMI section in the Windows Event Log
 
-Figure 74: Creating a NUMI section in the Windows Event Log
+![](numi-server-setup-guide/068.png)
 
-NUMI Event Folder Properties
-
-- 1.1. Go to NUMI Properties by right mouse.
-- 1.2. Click on General Tab under NUMI Properties dialog box window. Check/Click on Overwrite events as needed.
-- 1.3. Press &lt;Apply&gt; button (if needed) and Press &lt;OK&gt; button.
-- 1.4. Verify Event View, if any error logs occurred during the installation.
+68. NUMI Event Folder Properties
+    1.  Go to NUMI Properties by right mouse.
+    2.  Click on General Tab under NUMI Properties dialog box window. Check/Click on Overwrite events as needed.
+    3.  Press \<Apply\> button (if needed) and Press \<OK\> button.
+    4.  Verify Event View, if any error logs occurred during the installation.
 
 ### Validate XML Configuration File Settings
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 Verify that all XML configuration file settings are correct. Validate NUMI XML Configuration File Settings.
 
-1. Edit the application settings in the web.config file in the NUMI folder. E.g., D:\NUMI\&lt;install\_dir&gt;\web.config
+1.  Edit the application settings in the web.config file in the NUMI folder. E.g., D:\NUMI\\install_dir\>\web.config
 
 Settings to update:
 
-&lt;!-- change this setting to point to the appropriate config file for the deployment. --&gt;
+\
 
-&lt;appSettings configSource="src\\main\\resources\\xml\\deployment\\numiwebapp.config"/&gt;
-
-&lt;connectionStrings/&gt;
-
-<!-- image -->
-
-Figure 75: Updating Settings in NUMI XML Configuration File
-
-Edit the application settings in the config file indicated in the previous entry.  Make sure to enter the VIA configuration properties listed below and the NUMI database server names, and the NUMI database password as indicated.
-
-D:\NUMI\&lt;install\_dir&gt;\src\main\resources\xml\deployment\numiweb app.config Settings to update:
-
-&lt;!-- VIA Service configuration --&gt;
-
-&lt;add key="VIAServiceURL" value="&lt;VIA Service URL&gt;" /&gt;
-
-&lt;add key="VIARequestingApp" value="&lt;Requesting App ID assigned by VIA&gt;"/&gt;
-
-&lt;add key="VIAConsumingAppToken" value="&lt;Consuming App token assigned by VIA&gt;"/&gt;
-
-&lt;add key="VIAConsumingAppPassword" value="&lt;Consuming app password assigned by VIA&gt;"/&gt;
-
-&lt;add key="numiDbConnectionString" value="Data Source=&lt;enter\_database\_server&gt;;Database=NUMI;User ID=numi\_user;Password=xxxxxxxx;Trusted\_Connection=False" /&gt;
-
-&lt;add key="SSOLogoutUri" value="…" /&gt;
-
-Modify the value of ‘SSOLogoutUri’setting to one of the URLs from the table below which is based on the installed environment.
-
-Table 5: SSOLogoutUri values
-
-| Environment   | Value                   |
-|---------------|-------------------------|
-| DEV           | https:/ redacted t.aspx |
-| SQA           | https:// redacted.aspx  |
-| Preprod       | https:// redacted.aspx  |
-| PROD          | https:// redacted.aspx  |
-
-Follow the steps below to encrypt the updated NumiWebApp.config
-
-- 1.1. Open a command prompt and change to .Net Framework 4.x directory (e.g. C:\Windows\MS.NET\Framework64\v4.x.x)
-- 1.2. Run command :
-
-.\aspnet\_regiis.exe -pef "appSettings" D:\NUMI\&lt;install\_dir&gt;
-
-- 1.1. The command should execute successfully and give the following message:
-
-Encrypting configuration section...
-
-Succeeded!
-
-- 1.1. Verify that the src\\main\\resources\\xml\\deployment\\NumiWebApp.config file does not contain any plain text passwords any more.
-
-**NOTE:**
-
-**Important: Make sure there is no unencrypted copy of the NumiWebApp config file in the server**
-
-To make any future changes to the src\\main\\resources\\xml\\deployment\\NumiWebApp.config first decrypt the file by running command:
-
-.\aspnet\_regiis.exe -pdf "appSettings" D:\NUMI\&lt;install\_dir&gt;
-
-Make changes to the configuration as needed and follow the above steps to encrypt it again.
-
-## Perform Restart
-
-Restart IIS
-
-1. Click &lt;Start&gt;.
-
-Click the Command Prompt (or &lt;Run&gt;, depending on the Operating System)
-
-Type:  IISReset
-
-Click &lt;Enter&gt;.
+71. Click the Command Prompt (or \<Run\>, depending on the Operating System)
+72. Type: IISReset
+73. Click \<Enter\>.
 
 ## Test NUMI Web Site Functionality
 
-Open Internet Explorer and type: http:// redacted.aspx e.g., https://vaausnumapp40/Web/Home.aspx
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## Installing NUMI Synchronizer on the DB Server
+Open Internet Explorer and type REDACTED e.g., REDACTED
+
+## Installing NUMI Synchronizer on the Web Server
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ### Installation Instructions
 
-1. Copy the Sychronizer\_Setup.msi file to the intended environment.  This file will be provided by Tier 3 maintenance and should be stored on each environment
-<!-- image -->
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-- If an upgrade in place, stop the existing service in task manager and uninstall from program files
-<!-- image -->
+For a new installation:
 
-<!-- image -->
+1.  Open CMD in Administrator mode
+2.  Enter 'cd C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+3.  Enter 'InstallUtil.exe D:\NUMI\Synchronizer\Synchronizer2.exe'
+4.  View the NUMI Synchronizer service on services.msc
+5.  Close the CMD prompt
+6.  Verify/Update the Synchronizer2.exe.config data
 
-1. Launch the Synchronizer Setup file
+> \<!-- Service configuration --\>
 
-1. Click Next
-<!-- image -->
+> \<!-- VistA Service configuration --\>
 
-1. Choose the everyone option and browse to the desired directory
-<!-- image -->
+> \<add key="ServiceURL" value=" REDACTED
 
-1. Click next
-<!-- image -->
-2. Click Close
-<!-- image -->
+> \<add key="RequestingApp" value="NUMI_SYNC"/\>
 
-1. Enter the connection information for VIA &amp; NUMI DB into the Synchronizer.config and Sychronizer.exe.config.  Use the database server full name in source, e.g. VAAUSNUMSQLXX.aac.dva.va.gov where XX is the number of the database.
+> \<add key="IsSynchronizer" value="true"/\>
 
-**&lt;!-- VIA Service configuration --&gt;**
+> \<add key="WSDLusername" value="vwsl_numi"/\>
 
-&lt;add key="VIAServiceURL" value=" **https:// redacted /via-webservices/services/NumiService** " /&gt;
+> \<add key="WSDLpassword" value="\<PW\>"/\>
 
-&lt;add key="VIARequestingApp" value=" **NumiBatch** "/&gt;
+> \<!--STS Configuration--\>
 
-&lt;add key="VIAConsumingAppToken" value ***=*** " ***(SEE PW VAULT)"/&gt; PW Vault under “NUMI***
+> \<add key="STSEndpoint" value=" REDACTED
 
-***Synchronizer PWs (VIARequestingApp)*** ” **Under NOTES section**
+> \<add key="STSEnabled" value="true"/\>
 
-&lt;add key="VIAConsumingAppPassword" value=" ***(See PW VAULT)"/&gt; PW Vault under “NUMI 	Synchronizer PWs (VIARequestingApp)*** ” **Under NOTES section**
+> \<add key="STSCertificatePath" value="D:\\NUMI\Synchronizer\numisyncsqa.pfx"/\>
 
-&lt;add key="numiDbConnectionString" value="Data Source= ***VAAUSNUMSQLXX.aac.dva.va.gov*** ;Database= ***NUMI*** ;User ID= ***numi\_user*** ;Password= ***PW Vault under “NUMI Synchronizer PWs (VIARequestingApp)”NOTES section*** ;Trusted\_Connection=False" /&gt;
+> \<add key="STSCertificatePassword" value="\<PW\>"/\>
 
-&lt;add key="reportDbConnectionString" value="Data Source= ***VAAUSNUMSQLXX.aac.dva.va.gov*** ;Database= ***NUMI*** ;User ID= **numi\_user** ;Password= ***PW Vault under “NUMI Synchronizer PWs (VIARequestingApp)”*** NOTES section;Trusted\_Connection=False" /&gt;
+> \<!--Database Connections--\>
 
-1. Restart the service from task manager or the services mmc.
-<!-- image -->
+> \<add key="numiDbConnectionString" value="Data Source=VAAUSSQLNUM###.aac.dva.va.gov;Database=NUMI;User ID=numi_user;Password=\<PW\>;Trusted_Connection=False" /\>
+
+> \<add key="reportDbConnectionString" value="Data Source=VAAUSSQLNUM###.aac.dva.va.gov;Database=NUMI;User ID=numi_user;Password=\<PW\>;Trusted_Connection=False" /\>
+
+7.  Start the service from services.msc
+
+> ![](numi-server-setup-guide/070.png)
+
+> For an upgrade in place:
+
+1.  Stop the existing service from services.msc
+
+> ![](numi-server-setup-guide/071.png)
+
+2.  Copy the Sychronizer distribution folder/files to the intended environment in the NUMI directory. This folder will be provided by Tier 3 maintenance and should be stored on each environment
+
+> ![](numi-server-setup-guide/072.png)
+
+3.  Start the service from services.msc
+
+> ![](numi-server-setup-guide/073.png)
 
 ### Uninstall:
 
-If you need to uninstall the NUMI Synchronizer services use add/remove programs and right click on the synchronizer.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<!-- image -->
+If you need to uninstall the NUMI Synchronizer services use services.msc and right click on the synchronizer to stop it. Then right click the Synchronizer and go to properties and disable it. Then open CMD in Admin mode and enter 'sc delete "NUMI Synchronizer"'.
 
 ### Validate Installation:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 To confirm the synchronizer installation
 
@@ -1692,501 +2766,77 @@ Open MS SQL Server Management Studio after 2 hours. Open a new query and type:
 
 Use numi go.
 
-Select TOP 1000 * from patientstay.
+Select TOP 1000 \* from patientstay.
 
-Click the &lt;Execute&gt; button to run the query. New records shall display.
+Click the \<Execute\> button to run the query. New records shall display.
 
 ### Add Jobs to the SQL Server
 
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 There are 3 jobs that must be added to the SQL Server:
 
-1. NUMI\_PhysicianAdvisorPatientReview\_AutoExpire
-2. LogSynchDB\_ValidateSynchronizer
-3. NUMI\_AlterIndex\_Rebuild
+1.  NUMI_PhysicianAdvisorPatientReview_AutoExpire
+2.  LogSynchDB_ValidateSynchronizer
+3.  NUMI_AlterIndex_Rebuild
 
 These jobs can be installed from scripts (included in the build) or, if you are transferring from another server, you can right click on each job and script as DROP and CREATE.
 
-Backup the jobs before you run the scripts. Modify the scripts to replace the @owner\_login\_name with the owner login name appropriate for your installation, if necessary.
+Backup the jobs before you run the scripts. Modify the scripts to replace the @owner_login_name with the owner login name appropriate for your installation, if necessary.
 
-NUMI\_PhysicianAdvisorPatientReview\_AutoExpire is a job that executes the Stored Procedure usp\_PhysicianAdvisorPatientReview\_AutoExpire every day at midnight. The Stored Procedure looks for Physician UM Advisor (PUMA) Reviews that have not been completed within 14 days and marks them as Completed with a reason description of Expired.
+NUMI_PhysicianAdvisorPatientReview_AutoExpire is a job that executes the Stored Procedure usp_PhysicianAdvisorPatientReview_AutoExpire every day at midnight. The Stored Procedure looks for Physician UM Advisor (PUMA) Reviews that have not been completed within 14 days and marks them as Completed with a reason description of Expired.
 
-LogSynchDB\_ValidateSynchronizer is job that executed the stored procedure LogSyncDB.dbo.usp\_LogSync\_ValidateSynchronizer every hour. This stored procedure confirms imported stays within the last 3 hours and reports the problem to a pre-defined e- mail distribution list determined by the needs of the installation.
+LogSynchDB_ValidateSynchronizer is job that executed the stored procedure LogSyncDB.dbo.usp_LogSync_ValidateSynchronizer every hour. This stored procedure confirms imported stays within the last 3 hours and reports the problem to a pre-defined e- mail distribution list determined by the needs of the installation.
 
-NUMI\_AlterIndex\_Rebuild is a job that executes the stored procedure NUMI.dbo.usp\_AlterIndex\_Rebuild. This stored procedure rebuilds the indexes for the tables in the NUMI database.
+NUMI_AlterIndex_Rebuild is a job that executes the stored procedure NUMI.dbo.usp_AlterIndex_Rebuild. This stored procedure rebuilds the indexes for the tables in the NUMI database.
 
 ## Post-Installation Considerations
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 If there are post-installation considerations for NUMI, this information will be provided by the appropriate project teams.
 
 ## Acronyms and Descriptions
 
-| Acronym   | Acronym   | Description                                 | Description                                 |    |
-|-----------|-----------|---------------------------------------------|---------------------------------------------|----|
-|           |           |                                             |                                             |    |
-| CERMe     | CERMe     | Care Enhance Review Management Enterprise   | Care Enhance Review Management Enterprise   |    |
-| CPRS      | CPRS      | Computerized Patient Record System          | Computerized Patient Record System          |    |
-| CPU       | CPU       | Central Processing Unit                     | Central Processing Unit                     |    |
-| HTTP      | HTTP      | HyperText Transfer Protocol                 | HyperText Transfer Protocol                 |    |
-| HTTPS     | HTTPS     | HyperText Transfer Protocol Secure          | HyperText Transfer Protocol Secure          |    |
-| IAM       | IAM       | Identity and Access Management              | Identity and Access Management              |    |
-| IIS       | IIS       | Internet Information Services               | Internet Information Services               |    |
-| MDWS      | MDWS      | Medical Domain Web Services                 | Medical Domain Web Services                 |    |
-| NUMI      | NUMI      | National Utilization Management Integration | National Utilization Management Integration |    |
-| PM        | PM        | Project Manager                             | Project Manager                             |    |
-| PUMA      | PUMA      | Physician UM Advisor                        | Physician UM Advisor                        |    |
-| QA        | QA        | Quality Assurance                           | Quality Assurance                           |    |
-| SQL       | SQL       | Standard Query Language                     | Standard Query Language                     |    |
-| SSL       | SSL       | Secure Socket Layer                         | Secure Socket Layer                         |    |
-| SSO       | SSO       | Single Sign On                              | Single Sign On                              |    |
-| UM        | UM        | Utilization Management                      | Utilization Management                      |    |
-| URL       | URL       | Uniform Resource Locator                    | Uniform Resource Locator                    |    |
-| VIA       | VIA       | VistA Integration Adaptor                   | VistA Integration Adaptor                   |    |
-
-## Numi Comparison Table
-
-| NUMI Version   |   CERMe RM |   InterQual View |   CA SiteMinder | Windows Server   |   MS SQL Server |
-|----------------|------------|------------------|-----------------|------------------|-----------------|
-| 15.4           |       16.1 |           2017.2 |           12.51 | 2012 R2          |            2012 |
-| 15.5           |       17   |           2018.1 |           12.51 | 2012 R2          |            2012 |
-| 15.6           |       17   |           2018.1 |           12.51 | 2012 R2          |            2012 |
-| 15.8           |       18.1 |           2019.1 |           12.51 | 2012 R2          |            2012 |
-| 15.9           |       19   |           2020   |           12.51 | 2012 R2          |            2012 |
-| 15.9.1         |       20   |           2021   |           12.52 | 2019             |            2019 |
-
----
-
-## Appendix: Unique Sections from Prior Versions
-
-_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
-
-### From: NUMI Server Setup Guide Version 15.14
-
-## ## 15 Installing CERMe Software and Database from CERMe Installation CD
-
-Refer to the RM Install Guide PDF file on the CERMe (COTS product) setup CD for detailed instructions on how to set up CERMe (DBA assistance may be required to setup the database, which must be done before application setup).
-
-### Install CERMe on the Application Server
-
-**NOTE:** Change Healthcare provides version updates several times a year.  The example below may not be the latest version
-
-CERMe Review Manager (RM) 21.0.1 InterQual 2022 for NUMI 15.10 will be installed based on an existing installation of CERMe 20.1. The CERMe installation would be performed using a dump of the existing CERMe 20.1 database. Listed below are the steps to restore the database and install CERME:
-
-1. Restore CERMe 20.1 data from the CERMe database dump obtained from the current CERMe pre-Prod/Production servers. Create database logins for orphaned users in the restored database. Write down the credentials for the new logins created. This will be required for the CERMe install.
-
-Navigate to the CERMe install image and double click the install.htm file in the root directory to open the setup welcome page. This will open the CERMe install page in EDGE Browser.
-
-Click on the Install Review Manager 21.0.1 / InterQual View 2022 link on the installation page. This will prompt to save or run the file, select Run. This will start the CERMe Install wizard.
-
-Accept the license agreement and click Next.
-
-On the License Information screen, enter the license information given above and click Next.
-
-On the Select Review Manager Enterprise screen, select “Review Manager Enterprise” and click Next.
-
-On the Installation Type screen, select “New Installation” and click Next.
-
-Select an installation directory.
-
-On the Choose Components screen, keep the default selection (i.e., all selected) and click Next.
-
-On the Database Information page, enter the following info and click Next.
-
-- Database type: SQL Server
-- Server Name: Name of the SQL database server
-- Database: Name of the database to which the dump restored in step 1
-- Port Number: SQL Server
-- Instance: leave blank
-- User ID: SQL Server user ID with access to the CERMe database restored above
-- Password: Password for the SQL Server user used above
-
-On separate database to store report data screen, select No and click Next.
-
-On the Install Jetty window, select Yes to install Jetty.
-
-On the next screen, enter 8357 for Port Number.
-
-On the next screen, select the hardware architecture.
-
-Review the selections, and click Install to start the installation.
-
-Once the installation completes, go to the URL: http://&lt;servername&gt;:8357/rm/login.
-
-This is should open the CERMe login page.
-
-Now follow the steps below to update CERMe to CERMe 21.0.1.
-
-Stop the CERMe Service from the Windows Services.
-
-Create a backup of the CERMe Installation folder and the CERMe database.
-
-Make the changes to the file (below)on the CERMe Jetty Server:
-
-File: &lt;CERMe Install Folder&gt;\Jetty\etc\webdefault.xml
-
-Add the following element to &lt;session-config&gt; element.
-
-&lt;cookie-config&gt;
-
-&lt;http-only&gt;true&lt;/http-only&gt;
-
-&lt;/cookie-config&gt;
-
-Session Config element should look like the following after the change:
-
-&lt;session-config&gt;
-
-&lt;session-timeout&gt;30&lt;/session-timeout&gt;
-
-**&lt;cookie-config&gt;**
-
-**&lt;http-only&gt;true&lt;/http-only&gt;**
-
-**&lt;/cookie-config&gt;**
-
-&lt;/session-config&gt;
-
-File: &lt;CERMe Install Folder?\Jetty\etc\jetty-rewrite.xml
-
-Add the following &lt;Call&gt; element to the end of the &lt;New&gt; element.
-
-&lt;Call name="addRule"&gt;
-
-&lt;Arg&gt;
-
-&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;
-
-&lt;Set name="pattern"&gt;/*&lt;/Set&gt;
-
-&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;
-
-&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;
-
-&lt;/New&gt;
-
-&lt;/Arg&gt;
-
-&lt;/Call&gt;
-
-The file will look like the following after the change:
-
-&lt;Set name="handler"&gt;
-
-&lt;New id="Rewrite" class="org.eclipse.jetty.rewrite.handler.RewriteHandler"&gt;
-
-&lt;Set name="handler"&gt;&lt;Ref refid="oldhandler"/&gt;&lt;/Set&gt;
-
-&lt;Set name="rewriteRequestURI"&gt;&lt;Property name="rewrite.rewriteRequestURI" default="true"/&gt;&lt;/Set&gt;
-
-&lt;Set name="rewritePathInfo"&gt;&lt;Property name="rewrite.rewritePathInfo" default="false"/&gt;&lt;/Set&gt;
-
-&lt;Set name="originalPathAttribute"&gt;&lt;Property name="rewrite.originalPathAttribute" default="requestedPath"/&gt;&lt;/Set&gt;
-
-**&lt;Call name="addRule"&gt;**
-
-**&lt;Arg&gt;**
-
-**&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;**
-
-**&lt;Set name="pattern"&gt;/*&lt;/Set&gt;**
-
-**&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;**
-
-**&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;**
-
-**&lt;/New&gt;**
-
-**&lt;/Arg&gt;**
-
-**&lt;/Call&gt;**
-
-&lt;/New&gt;
-
-&lt;/Set&gt;
-
-File: &lt;CERMe Install Folder&gt;\Jetty\start.ini
-
-Add the following new section to the bottom of the file:
-
-### From: NUMI Server Setup Guide
-
-### Microsoft EntraId Application Registration for the Web Server Configuration
-
-Microsoft EntraId is the network based authentication method and pattern used by NUMI. Users must be authenticated with Microsoft EntraId to use NUMI. There are several key configurations from the EntraId Application Registration that need to be in the NUMI Web Server Configuration
-
-#### Microsoft EntraId Application Registration
-
-Each NUMI environment has its own Application Registration. The key values needed are ClientId, TenantId, ClientSecret, and RedirectUri.
-
-The values can be found on the EntraId portal in these sections: REDACTED
-
-Figure 42: Microsoft EntraId Application Registration
-
-<!-- image -->
-
-Figure 43: Application Registration Client Secret
-
-<!-- image -->
-
-Figure 44: EntraId Application Registration Redirect URIs
-
-<!-- image -->
-
-The values are then added to the NUMI Web App Config.
-
-&lt;!-- Microsoft Entra ID (Azure AD) Configuration --&gt;
-
-&lt;add key="owin:AutomaticAppStartup" value="true" /&gt;
-
-&lt;add key="ida:ClientId" value="ceb38826-d7c6-4b02-a886-288e01d3b8a8" /&gt;
-
-&lt;add key="ida:TenantId" value="e95f1b23-abaf-45ee-821d-b7ab251ab3bf" /&gt;
-
-&lt;!--Client expires August 12th 2026 must be changed on the entraid side --&gt;
-
-&lt;add key="ida:ClientSecret" value="REDACTED" /&gt;
-
-&lt;add key="ida:RedirectUri" value=" REDACTED " /&gt;
-
-&lt;add key="ida:PostLogoutRedirectUri" value="REDACTED /" /&gt;
-
-&lt;add key="EntraIdSTSScope" value="api://idev.sts.va.gov/token"/&gt;
-
-Important note, the ClientSecret is only viewable in the portal in the session it was created, it must be copied and passed along. The secret also expires annually.
-
-### Installing CERMe Software and Database from CERMe Installation CD
-
-Refer to the RM Install Guide PDF file on the CERMe (COTS product) setup CD for detailed instructions on how to set up CERMe (DBA assistance may be required to setup the database, which must be done before application setup).
-
-#### Install CERMe on the Application Server
-
-**NOTE:** Change Healthcare provides version updates several times a year.  The example below may not be the latest version
-
-CERMe Review Manager (RM) 21.0.1 InterQual 2022 for NUMI 15.10 will be installed based on an existing installation of CERMe 20.1. The CERMe installation would be performed using a dump of the existing CERMe 20.1 database. Listed below are the steps to restore the database and install CERME:
-
-1. Restore CERMe 20.1 data from the CERMe database dump obtained from the current CERMe pre-Prod/Production servers. Create database logins for orphaned users in the restored database. Write down the credentials for the new logins created. This will be required for the CERMe install.
-
-Navigate to the CERMe install image and double click the install.htm file in the root directory to open the setup welcome page. This will open the CERMe install page in EDGE Browser.
-
-Click on the Install Review Manager 21.0.1 / InterQual View 2022 link on the installation page. This will prompt to save or run the file, select Run. This will start the CERMe Install wizard.
-
-Accept the license agreement and click Next.
-
-On the License Information screen, enter the license information given above and click Next.
-
-On the Select Review Manager Enterprise screen, select “Review Manager Enterprise” and click Next.
-
-On the Installation Type screen, select “New Installation” and click Next.
-
-Select an installation directory.
-
-On the Choose Components screen, keep the default selection (i.e., all selected) and click Next.
-
-On the Database Information page, enter the following info and click Next.
-
-- Database type: SQL Server
-- Server Name: Name of the SQL database server
-- Database: Name of the database to which the dump restored in step 1
-- Port Number: SQL Server
-- Instance: leave blank
-- User ID: SQL Server user ID with access to the CERMe database restored above
-- Password: Password for the SQL Server user used above
-
-On separate database to store report data screen, select No and click Next.
-
-On the Install Jetty window, select Yes to install Jetty.
-
-On the next screen, enter 8357 for Port Number.
-
-On the next screen, select the hardware architecture.
-
-Review the selections, and click Install to start the installation.
-
-Once the installation completes, go to the URL: http://&lt;servername&gt;:8357/rm/login.
-
-This is should open the CERMe login page.
-
-Now follow the steps below to update CERMe to CERMe 21.0.1.
-
-Stop the CERMe Service from the Windows Services.
-
-Create a backup of the CERMe Installation folder and the CERMe database.
-
-Make the changes to the file (below)on the CERMe Jetty Server:
-
-#### File: &lt;CERMe Install Folder&gt;\Jetty\etc\webdefault.xml
-
-Add the following element to &lt;session-config&gt; element.
-
-&lt;cookie-config&gt;
-
-&lt;http-only&gt;true&lt;/http-only&gt;
-
-&lt;/cookie-config&gt;
-
-Session Config element should look like the following after the change:
-
-&lt;session-config&gt;
-
-&lt;session-timeout&gt;30&lt;/session-timeout&gt;
-
-**&lt;cookie-config&gt;**
-
-**&lt;http-only&gt;true&lt;/http-only&gt;**
-
-**&lt;/cookie-config&gt;**
-
-&lt;/session-config&gt;
-
-#### File: &lt;CERMe Install Folder?\Jetty\etc\jetty-rewrite.xml
-
-Add the following &lt;Call&gt; element to the end of the &lt;New&gt; element.
-
-&lt;Call name="addRule"&gt;
-
-&lt;Arg&gt;
-
-&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;
-
-&lt;Set name="pattern"&gt;/*&lt;/Set&gt;
-
-&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;
-
-&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;
-
-&lt;/New&gt;
-
-&lt;/Arg&gt;
-
-&lt;/Call&gt;
-
-The file will look like the following after the change:
-
-&lt;Set name="handler"&gt;
-
-&lt;New id="Rewrite" class="org.eclipse.jetty.rewrite.handler.RewriteHandler"&gt;
-
-&lt;Set name="handler"&gt;&lt;Ref refid="oldhandler"/&gt;&lt;/Set&gt;
-
-&lt;Set name="rewriteRequestURI"&gt;&lt;Property name="rewrite.rewriteRequestURI" default="true"/&gt;&lt;/Set&gt;
-
-&lt;Set name="rewritePathInfo"&gt;&lt;Property name="rewrite.rewritePathInfo" default="false"/&gt;&lt;/Set&gt;
-
-&lt;Set name="originalPathAttribute"&gt;&lt;Property name="rewrite.originalPathAttribute" default="requestedPath"/&gt;&lt;/Set&gt;
-
-**&lt;Call name="addRule"&gt;**
-
-**&lt;Arg&gt;**
-
-**&lt;New class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule"&gt;**
-
-**&lt;Set name="pattern"&gt;/*&lt;/Set&gt;**
-
-**&lt;Set name="name"&gt;Strict-Transport-Security&lt;/Set&gt;**
-
-**&lt;Set name="value"&gt;max-age=31536000; includeSubDomains&lt;/Set&gt;**
-
-**&lt;/New&gt;**
-
-**&lt;/Arg&gt;**
-
-**&lt;/Call&gt;**
-
-&lt;/New&gt;
-
-&lt;/Set&gt;
-
-#### File: &lt;CERMe Install Folder&gt;\Jetty\start.ini
-
-Add the following new section to the bottom of the file:
-
-### Installing NUMI Synchronizer on the Web Server
-
-#### Installation Instructions
-
-For a new installation:
-
-- 1.0.0.1. Open CMD in Administrator mode
-- 1.0.0.2. Enter ‘cd C:\Windows\Microsoft.NET\Framework\v4.0.30319’
-- 1.0.0.3. Enter ‘InstallUtil.exe D:\NUMI\Synchronizer\Synchronizer2.exe’
-- 1.0.0.4. View the NUMI Synchronizer service on services.msc
-- 1.0.0.5. Close the CMD prompt
-- 1.0.0.6. Verify/Update the Synchronizer2.exe.config data
-
-&lt;!-- Service configuration --&gt;
-
-&lt;!-- VistA Service configuration --&gt;
-
-&lt;add key="ServiceURL" value=" REDACTED
-
-&lt;add key="RequestingApp" value="NUMI\_SYNC"/&gt;
-
-&lt;add key="IsSynchronizer" value="true"/&gt;
-
-&lt;add key="WSDLusername" value="vwsl\_numi"/&gt;
-
-&lt;add key="WSDLpassword" value="&lt;PW&gt;"/&gt;
-
-&lt;!--STS Configuration--&gt;
-
-&lt;add key="STSEndpoint" value=" REDACTED
-
-&lt;add key="STSEnabled" value="true"/&gt;
-
-&lt;add key="STSCertificatePath" value="D:\\NUMI\Synchronizer\numisyncsqa.pfx"/&gt;
-
-&lt;add key="STSCertificatePassword" value="&lt;PW&gt;"/&gt;
-
-&lt;!--Database Connections--&gt;
-
-&lt;add key="numiDbConnectionString" value="Data Source=VAAUSSQLNUM###.aac.dva.va.gov;Database=NUMI;User ID=numi\_user;Password=&lt;PW&gt;;Trusted\_Connection=False" /&gt;
-
-&lt;add key="reportDbConnectionString" value="Data Source=VAAUSSQLNUM###.aac.dva.va.gov;Database=NUMI;User ID=numi\_user;Password=&lt;PW&gt;;Trusted\_Connection=False" /&gt;
-
-- 1.0.0.1. Start the service from services.msc
-
-<!-- image -->
-
-For an upgrade in place:
-
-1. Stop the existing service from services.msc
-<!-- image -->
-2. Copy the Sychronizer distribution folder/files to the intended environment in the NUMI directory. This folder will be provided by Tier 3 maintenance and should be stored on each environment
-
-<!-- image -->
-
-1. Start the service from services.msc
-<!-- image -->
-
-#### Uninstall:
-
-If you need to uninstall the NUMI Synchronizer services use services.msc and right click on the synchronizer to stop it. Then right click the Synchronizer and go to properties and disable it. Then open CMD in Admin mode and enter ‘sc delete “NUMI Synchronizer”’.
-
-#### Validate Installation:
-
-To confirm the synchronizer installation
-
-Open MS SQL Server Management Studio after 2 hours. Open a new query and type:
-
-Use numi go.
-
-Select TOP 1000 * from patientstay.
-
-Click the &lt;Execute&gt; button to run the query. New records shall display.
-
-#### Add Jobs to the SQL Server
-
-There are 3 jobs that must be added to the SQL Server:
-
-1. NUMI\_PhysicianAdvisorPatientReview\_AutoExpire
-2. LogSynchDB\_ValidateSynchronizer
-3. NUMI\_AlterIndex\_Rebuild
-
-These jobs can be installed from scripts (included in the build) or, if you are transferring from another server, you can right click on each job and script as DROP and CREATE.
-
-Backup the jobs before you run the scripts. Modify the scripts to replace the @owner\_login\_name with the owner login name appropriate for your installation, if necessary.
-
-NUMI\_PhysicianAdvisorPatientReview\_AutoExpire is a job that executes the Stored Procedure usp\_PhysicianAdvisorPatientReview\_AutoExpire every day at midnight. The Stored Procedure looks for Physician UM Advisor (PUMA) Reviews that have not been completed within 14 days and marks them as Completed with a reason description of Expired.
-
-LogSynchDB\_ValidateSynchronizer is job that executed the stored procedure LogSyncDB.dbo.usp\_LogSync\_ValidateSynchronizer every hour. This stored procedure confirms imported stays within the last 3 hours and reports the problem to a pre-defined e- mail distribution list determined by the needs of the installation.
-
-NUMI\_AlterIndex\_Rebuild is a job that executes the stored procedure NUMI.dbo.usp\_AlterIndex\_Rebuild. This stored procedure rebuilds the indexes for the tables in the NUMI database.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+| Acronym |     | Description                                          |     |
+|---------|-----|------------------------------------------------------|-----|
+| CERMe   |     | Care Enhance Review Management Enterprise            |     |
+| CPRS    |     | Computerized Patient Record System                   |     |
+| CPU     |     | Central Processing Unit                              |     |
+| HTTP    |     | HyperText Transfer Protocol                          |     |
+| HTTPS   |     | HyperText Transfer Protocol Secure                   |     |
+| IAM     |     | Identity and Access Management                       |     |
+| IIS     |     | Internet Information Services                        |     |
+| MDWS    |     | Medical Domain Web Services                          |     |
+| NUMI    |     | National Utilization Management Integration          |     |
+| PM      |     | Project Manager                                      |     |
+| PUMA    |     | Physician UM Advisor                                 |     |
+| QA      |     | Quality Assurance                                    |     |
+| SQL     |     | Standard Query Language                              |     |
+| SSL     |     | Secure Socket Layer                                  |     |
+| SSO     |     | Single Sign On                                       |     |
+| UM      |     | Utilization Management                               |     |
+| URL     |     | Uniform Resource Locator                             |     |
+| VIA     |     | VistA Integration Adaptor                            |     |
+| VistA   |     | Veterans Information Systems Technology Architecture |     |
+
+## NUMI Comparison Table
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+| NUMI Version | CERMe RM | InterQual View | Windows Server | MS SQL Server |
+|--------------|----------|----------------|----------------|---------------|
+| 15.4         | 16.1     | 2017.2         | 2012 R2        | 2012          |
+| 15.5         | 17       | 2018.1         | 2012 R2        | 2012          |
+| 15.6         | 17       | 2018.1         | 2012 R2        | 2012          |
+| 15.8         | 18.1     | 2019.1         | 2012 R2        | 2012          |
+| 15.9         | 19.0     | 2020           | 2012 R2        | 2012          |
+| 15.9.1       | 20.0     | 2021           | 2019           | 2019          |
+| 15.10        | 21.0.1   | 2022           | 2019           | 2019          |
+| 15.11        | 21.0.1   | 2022           | 2019           | 2019          |
+| 15.14        | 21.0.1   | 2022           | 2019           | 2019          |
+| 15.15        | 22.0     | 2024           | 2019           | 2019          |
+| 15.16        | 22.0     | 2024           | 2019           | 2019          |
+| 15.17        | 22.0     | 2025           | 2019           | 2019          |

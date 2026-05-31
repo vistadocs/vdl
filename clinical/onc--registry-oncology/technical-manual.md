@@ -5,45 +5,53 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: and Package Security Guide (Updated ONC*2.2*22)
 app_code: ONC
-app_name: "Registry: Oncology"
+app_name: 'Registry: Oncology'
 section: CLI
 app_status: active
 pkg_ns: ONC
 patch_ver: 2.2
 patch_id: ONC*2.2
-group_key: "ONC:ONC:2.2"
-file_numbers: 
-  - 164
+group_key: ONC:ONC:2.2
+description: When updates occur, the Title Page lists the new revised date, and this page describes the changes. Bookmarks link the described content changes to its place within manual. There are no bookmarks for format updates. Page numbers change with each update; therefore, they are not included as a...
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '5.1'
+- '5.11'
+- '6'
+- '8'
+- '10'
+- '24'
+- '67'
+- '160'
+- '164'
+- '164.08'
+- '165'
+- '165.5'
+- '165.7'
+- '169.2'
+- '200'
+- '400'
 security_keys: []
 menu_options: 3
-description: ![](oncology-version-2-2-technical-manual-and-package-security-guide-updated-onc-2-2/001.png)
-audience: 
-keywords: 
-  - onco
-  - oncology
-  - table
-  - contents
-  - class
-  - site
-  - contains
-  - codes
-  - routines
-  - over
 page_count: 0
 word_count: 6109
 section_count: 14
 table_count: 5
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: JUNE 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=81"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Oncology/onc_2_2_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=81
+audit_applied: '2026-05-31'
 ---
 
 ONCOLOGY (ONC)TECHNICAL MANUALANDPACKAGE SECURITY GUIDE

@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: BMS
 patch_ver: 4.0
 patch_id: BMS*4.0
-group_key: "BMS:BMS:4.0"
+group_key: BMS:BMS:4.0
+description: '''5/2025 4.11 Updated for BMS patch version 4.11. The following figures were updated: Figure 2 - Community Care Tracking List - screenshot updated Figure 3 - Community Care Tracking List Link from BMS Home - screenshot updated Figure 4 - Return to Site Home Page Link - screenshot updated Figure 5 -...'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - community
-  - care
-  - span
-  - class
-  - tracking
-  - report
-  - date
-  - guide
-  - management
-  - anchor
 page_count: 0
-word_count: 24075
+word_count: 24058
 section_count: 15
 table_count: 31
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_4_0_cc.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_4_0_cc.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=205"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_4_0_cc.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_4_0_cc.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=205
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk53661254" class="anchor"></span>Bed Management Solution (BMS)
-
-  Community Care Tracking List User Guide
----
-
 ![](bed-management-solution-version-4-0-community-care-tracking-list-user-guide/001.png)
 
 May 2025

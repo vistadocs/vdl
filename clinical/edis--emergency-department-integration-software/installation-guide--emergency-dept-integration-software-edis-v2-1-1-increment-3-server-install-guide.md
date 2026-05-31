@@ -11,38 +11,45 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.1.1
 patch_id: EDIS*2.1.1
-group_key: "EDIS:EDIS:2.1.1"
-file_numbers: []
-security_keys: []
+group_key: EDIS:EDIS:2.1.1
+description: '- Department of Veterans Affairs - Emergency Department Integration Software (EDIS) Version 2.1.1 Increment 3 - [Product...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
+- '210'
+- '231.7'
+- '231.8'
+- '232.1'
+- '232.11'
+- '232.5'
+- '232.6'
+- '232.71'
+- '232.72'
+- '232.73'
+- '232.74'
+security_keys:
+- CLINICIAN
+- ORELSE
+- PROVIDER
+- PSJ RNURSE
 menu_options: 6
-description: - [Department of Veterans Affairs](#department-of-veterans-affairs) - [Emergency Department Integration Software (EDIS) Version 2.1.1 Increment 3](#emergency-department-integration-software-edis-version-211-increment-3) - [![](emergency-dept-integration-software-edis-version-2-1-1-increment-3-server
-audience: 
-keywords: 
-  - blockquote
-  - edis
-  - emergency
-  - software
-  - integration
-  - server
-  - version
-  - increment
-  - dept
-  - instal
 page_count: 0
 word_count: 4843
 section_count: 16
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2013
 revision_count: 28
 revision_newest: 7/17/2013
 revision_oldest: 01/09/2012
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_2_1_1_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 # Department of Veterans Affairs

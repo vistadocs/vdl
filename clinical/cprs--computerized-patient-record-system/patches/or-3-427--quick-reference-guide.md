@@ -3,7 +3,7 @@ title: OR*3*427 CPRS Quick Reference Guide
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*427
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '- Overview - Standard Prescribing - Local Override - National Override - Mild Neutropenia - Moderate and Severe Neutropenia - [Patient not registered in the...'
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - neutropenia
-  - patients
-  - override
-  - result
-  - clozapine
-  - emergency
-  - strong
 page_count: 0
 word_count: 786
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p427_qr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p427_qr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p427_qr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p427_qr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 # Overview

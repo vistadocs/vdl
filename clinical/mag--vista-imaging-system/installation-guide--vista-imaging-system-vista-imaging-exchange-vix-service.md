@@ -8,41 +8,35 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> This document explains how to install the VistA Imaging Exchange (VIX) service. The VIX:'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '99'
+security_keys:
+- MAG VIX ADMIN
 menu_options: 0
-description: "> This document explains how to install the VistA Imaging Exchange (VIX) service. The VIX:"
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - installation
-  - imaging
-  - vista
-  - table
-  - contents
-  - service
-  - server
-  - next
-  - programs
-  - cluster
 page_count: 0
 word_count: 8221
 section_count: 24
 table_count: 6
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_vix_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_vix_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_vix_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag_vix_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-vista-imaging-exchange-vix-service-installation-guide/001.png)

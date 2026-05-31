@@ -3,46 +3,37 @@ title: Military Eye Vision Injury Version 1 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ROEV
-app_name: "Registry: Military Eye Vision Injury (MEVIR)"
+app_name: 'Registry: Military Eye Vision Injury (MEVIR)'
 section: CLI
 app_status: active
 pkg_ns: ROEV
 patch_ver: 1
 patch_id: ROEV*1
-group_key: "ROEV:ROEV:1"
+group_key: ROEV:ROEV:1
+description: '> The Department of Veterans Affairs (VA) established the VA Eye Injury Data Store (VA EIDS) (formerly called the Military Eye Injury Registry, or MEVIR) in 2012 to transfer Veteran eye injury data into the Defense and Veterans Eye Injury and Vision Registry (DVEIVR). DVEIVR was developed by the Dep'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > The Department of Veterans Affairs (VA) established the VA Eye Injury Data Store (VA EIDS) (formerly called the Military Eye Injury Registry, or MEVIR) in 2012 to transfer Veteran eye injury data into the Defense and Veterans Eye Injury and Vision Registry (DVEIVR). DVEIVR was developed by the Dep
-audience: 
-keywords: 
-  - strong
-  - table
-  - blockquote
-  - contents
-  - military
-  - injury
-  - guide
-  - encounter
-  - vision
-  - version
 page_count: 0
 word_count: 6837
 section_count: 29
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2015
 revision_count: 2
 revision_newest: 08/27/2015
 revision_oldest: 08/24/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg_Mil_Eye_Vision_Injury_(MEVIR)/va_eidsv2_userguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg_Mil_Eye_Vision_Injury_(MEVIR)/va_eidsv2_userguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=216"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg_Mil_Eye_Vision_Injury_(MEVIR)/va_eidsv2_userguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg_Mil_Eye_Vision_Injury_(MEVIR)/va_eidsv2_userguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=216
+audit_applied: '2026-05-31'
 ---
 
 # VA Eye Injury Data Store (VA EIDS) User Guide

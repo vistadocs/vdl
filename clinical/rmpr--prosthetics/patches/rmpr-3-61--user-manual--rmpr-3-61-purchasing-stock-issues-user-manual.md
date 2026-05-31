@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*61
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '- ## Stock Issues User Manual - Issuing Stock - Appendix A - [Appendix'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [## Stock Issues User Manual](#stock-issues-user-manual) - [Issuing Stock](#issuing-stock) - [Appendix A](#appendix-a) - [Appendix B](#appendix-b) ![](rmpr-3-61-purchasing-stock-issues-user-manual/001.png) PROSTHETICSPURCHASING - STOCK ISSUESUSER MANUALPatch RMPR\3\61 March 2005 VISTA Health Syste
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - stock
-  - class
-  - issue
 page_count: 0
 word_count: 6586
 section_count: 5
 table_count: 24
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_sium.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_sium.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_sium.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_sium.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

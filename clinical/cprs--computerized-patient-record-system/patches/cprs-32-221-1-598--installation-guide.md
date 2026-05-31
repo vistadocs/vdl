@@ -3,7 +3,7 @@ title: CPRS v32.221.1 EMERGENCY GUI (OR*3.0*598) Deployment, Installation, Back-
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: EMERGENCY GUI (OR*3.0*598)  (DIBOR)
+doc_subject: EMERGENCY GUI (OR*3.0*598) (DIBOR)
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,47 +11,34 @@ app_status: active
 pkg_ns: CPRS
 patch_ver: 32.221.1
 patch_id: CPRS*32.221.1*598
-group_key: "CPRS:CPRS:32.221.1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - table
-  - contents
-  - installation
-  - emergency
-  - back
-  - rollback
-  - vista
-  - chart
-  - deployment
+group_key: CPRS:CPRS:32.221.1
+description: This document describes the Deployment, Installation, Back-out, and Rollback Plan for new products going into the VA Enterprise. The plan includes information about system support, issue tracking, escalation processes, and roles and responsibilities involved in all those activities. Its purpose is...
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3'
+- '19'
+security_keys:
+- OR CPRS TESTER
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 4193
+word_count: 4173
 section_count: 31
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_598_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_598_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_598_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_598_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>CPRS v32.221.1 EMERGENCY GUI (OR\*3.0\*598)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBOR)
----
-
 ![](cprs-v32-221-1-emergency-gui-or-3-0-598-deployment-installation-back-out-and-rol/001.png)
 
 March 2023

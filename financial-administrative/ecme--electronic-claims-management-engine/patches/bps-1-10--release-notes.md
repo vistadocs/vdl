@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: BPS
 patch_ver: 1
 patch_id: BPS*1*10
-group_key: "ECME:BPS:1"
-file_numbers: []
-security_keys: []
+group_key: ECME:BPS:1
+description: '- Introduction - Documentation Distribution - Patch Description and Installation Instructions - Patch Description - [Pre/Post Installation...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '900231'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - payer
-  - ncpdp
-  - routine
-  - before
-  - after
-  - claims
-  - other
-  - ecme
-  - responses
-  - transactions
 page_count: 0
 word_count: 7898
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_p10_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_p10_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=141"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_p10_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_p10_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=141
+audit_applied: '2026-05-31'
 ---
 
 > ![](bps-1-10-ecme-epharmacy-phase-v-release-notes/001.png)

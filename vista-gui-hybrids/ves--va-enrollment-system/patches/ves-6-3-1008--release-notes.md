@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: VES
 patch_ver: 6.3
 patch_id: VES*6.3*1008
-group_key: "VES:VES:6.3"
+group_key: VES:VES:6.3
+description: '- Release Notes for VHA Enrollment System - VES v6.3.1.01008 -'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Release Notes for VHA Enrollment System - VES v6.3.1.01008](#release-notes-for-vha-enrollment-system-ves-v63101008) - [Bugs](#bugs)
-audience: 
-keywords: 
-  - health
-  - care
-  - enrollment
-  - veterans
-  - eligibility
-  - table
-  - contents
-  - provide
-  - benefits
-  - quality
 page_count: 0
 word_count: 439
 section_count: 3
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01008_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01008_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=183"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01008_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01008_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=183
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

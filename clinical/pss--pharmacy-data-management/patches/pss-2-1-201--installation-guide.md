@@ -5,44 +5,47 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Dosing Infrastructure
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 2.1
 patch_id: PSS*2.1*201
-group_key: "PSS:PSS:2.1"
-file_numbers: []
+group_key: PSS:PSS:2.1
+description: 1. Introduction 1 1. Purpose 1 2. Pre-Requisite Considerations 1 1. Minimum Required Packages 1 2. Required Patches 1 3. [Installation Considerations/Restrictions...
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '9.4'
+- '11'
+- '32'
+- '51'
+- '51.1'
+- '51.111'
+- '51.113'
+- '51.24'
+- '51.25'
+- '51.321'
+- '51.33'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - rollback
-  - backout
-  - transport
-  - global
-  - required
-  - rollbackbackout
-  - install
 page_count: 0
 word_count: 1186
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p201_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p201_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p201_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p201_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](mocha-version-2-1-installation-guide-dosing-infrastructure/001.png)

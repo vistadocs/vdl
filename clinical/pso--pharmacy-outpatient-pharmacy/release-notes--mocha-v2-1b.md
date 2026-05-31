@@ -5,44 +5,37 @@ doc_label: Release Notes
 doc_layer: anchor
 doc_subject: b
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 2.1
 patch_id: PSO*2.1
-group_key: "PSO:PSO:2.1"
-file_numbers: []
+group_key: PSO:PSO:2.1
+description: PSJ\*5\*256, PSO\*7\*402, and OR\*3\*382 (MOCHA 2.1 Combined Build
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '51.24'
+- '51.25'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - table
-  - contents
-  - dose
-  - check
-  - schedule
-  - pharmacy
-  - mocha
-  - error
-  - daily
 page_count: 0
 word_count: 2154
 section_count: 16
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_pso_7_psj_5_rn_r0218.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_pso_7_psj_5_rn_r0218.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_pso_7_psj_5_rn_r0218.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_pso_7_psj_5_rn_r0218.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-2-1b-release-notes/001.png)

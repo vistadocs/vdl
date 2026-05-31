@@ -3,7 +3,7 @@ title: PRCA*4.5*375 Accounts Receivable ePayments User Manual (EDI) Lockbox
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Accounts Receivable ePayments  (EDI) Lockbox
+doc_subject: Accounts Receivable ePayments (EDI) Lockbox
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,38 +11,42 @@ app_status: archive
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*375
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: '*(This page included for two-sided copying.)*Revision'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+security_keys:
+- PRCADJ
+- PRCFA SUPERVISOR
+- PROVIDER
+- RCDPE AGED PMT
+- RCDPE AUTO DEC
+- RCDPE ERA EXCEPT
+- RCDPE MARK ERA
+- RCDPE PAYER IDENTIFY
+- RCDPE REMOVE DUPLICATES
+- RCDPE REMOVE EEOB
+- RCDPEAR
+- RCDPEPP
 menu_options: 15
-description: 
-audience: 
-keywords: 
-  - report
-  - auto
-  - table
-  - contents
-  - date
-  - payment
-  - receipt
-  - claim
-  - eeob
-  - payer
 page_count: 0
 word_count: 44466
 section_count: 79
 table_count: 26
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/epayments_edi_lockbox_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/epayments_edi_lockbox_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=244"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/epayments_edi_lockbox_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/epayments_edi_lockbox_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=244
+audit_applied: '2026-05-31'
 ---
 
 ePayments User Manual

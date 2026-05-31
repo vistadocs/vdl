@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRCN
 patch_ver: 1
 patch_id: PRCN*1
-group_key: "PRCN:PRCN:1"
-file_numbers: []
+group_key: PRCN:PRCN:1
+description: '> [Department of Veterans Affairs Decentralized Hospital Computer'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '9.4'
+- '6914.1'
 security_keys: []
 menu_options: 5
-description: - [PREFACE](#preface) - [CHAPTER 1 RELEASE NOTES](#chapter-1-release-notes) - [CHAPTER 2 PRE-INSTALLATION](#chapter-2-pre-installation) - [Equipment Request Menu table](#equipment-request-menu-table) - [Turn-In Menus](#turn-in-menus) - [Set-Up Procedures](#set-up-procedures) - [Patches](#patches) -
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - strong
-  - class
-  - rowspan
-  - installation
-  - equipment
-  - turn
-  - even
 page_count: 0
 word_count: 1528
 section_count: 10
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=113"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=113
+audit_applied: '2026-05-31'
 ---
 
 > [Department of Veterans Affairs Decentralized Hospital Computer Program](\l)

@@ -5,53 +5,36 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: Polytrauma
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall "create a 'Traumatic B
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall “create a ‘Traumatic B
-audience: 
-keywords: 
-  - class
-  - colspan
-  - span
-  - table
-  - contents
-  - glos
-  - polytrauma
-  - even
-  - blockquote
-  - anchor
 page_count: 0
-word_count: 27076
+word_count: 27061
 section_count: 29
 table_count: 27
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiptum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiptum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiptum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiptum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Traumatic Brain Injury (TBI)
-
-  Polytrauma Edition User Manual
----
-
 ![](tbi-version-4-2-polytrauma-user-manual/001.png)
 
 January 2018

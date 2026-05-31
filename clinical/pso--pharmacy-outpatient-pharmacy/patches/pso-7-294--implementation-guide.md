@@ -5,44 +5,40 @@ doc_label: Implementation Guide
 doc_layer: patch
 doc_subject: Medication Reconciliation Tools
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*294
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSO:PSO:7
 description: This product, Medication Reconciliation, represents the first class III to class I conversion. The software is a product initially developed at the Hines VA Hospital. The product utilizes Health Summary components and Text Integrated Utility (TIU) data objects to create a list of current medications
-audience: 
-keywords: 
-  - summary
-  - health
-  - component
-  - active
-  - medications
-  - remote
-  - medication
-  - object
-  - components
-  - print
+audience: ''
+keywords: []
+file_numbers:
+- '59.7'
+- '142.1'
+- '8925.1'
+security_keys:
+- ORMGR
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 9820
 section_count: 17
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_img.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_img.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_img.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_img.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-294-implementation-guide-medication-reconciliation-tools/001.png)

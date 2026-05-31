@@ -3,7 +3,7 @@ title: XOBW*1*6 Deployment, Installation, Back-Out, and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: XOBW
 app_name: HealtheVet Web Services Client (HWSC)
 section: GUI
@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1*6
-group_key: "XOBW:XOBW:1"
+group_key: XOBW:XOBW:1
+description: Initial document created for HWSC 1.0 Update Title page, Revision History, and
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - patch
-  - configuration
-  - back
-  - xobw
-  - vista
-  - cache
-  - procedure
 page_count: 0
-word_count: 1608
+word_count: 1584
 section_count: 14
 table_count: 0
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p6_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p6_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p6_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p6_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc186420068" class="anchor"></span>HealtheVet Web Services Client <span class="smallcaps">(HWSC)</span> 1.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBR)
----
-
 ![](xobw-1-6-deployment-installation-back-out-and-rollback-guide/001.png)
 
 August 2020

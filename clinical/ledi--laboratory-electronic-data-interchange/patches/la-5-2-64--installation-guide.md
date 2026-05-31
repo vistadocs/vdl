@@ -3,46 +3,37 @@ title: LA*5.2*64/LR*5.2*286 LDSI National Implementation Plan V.1.10
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*64
-group_key: "LEDI:LA:5.2"
+group_key: LEDI:LA:5.2
+description: '| | | | | |...'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 2
-description: - [# Introduction](#introduction) - [Document Purpose](#document-purpose) - [Project Description](#project-description) - [Project Purpose](#project-purpose) - [Project Background](#project-background) - [Project Documentation](#project-documentation) - [Project Benefits](#project-benefits) - [VA/Do
-audience: 
-keywords: 
-  - table
-  - contents
-  - implementation
-  - project
-  - site
-  - laboratory
-  - sharing
-  - management
-  - blockquote
-  - directional
 page_count: 0
 word_count: 7232
 section_count: 22
 table_count: 13
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 14
 revision_newest: 11/18/04
 revision_oldest: 7/23/04
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ldsi_implementation_plan_v1.10.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ldsi_implementation_plan_v1.10.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ldsi_implementation_plan_v1.10.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/ldsi_implementation_plan_v1.10.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 Bi-Directional Laboratory Data Sharing for LDSI Project

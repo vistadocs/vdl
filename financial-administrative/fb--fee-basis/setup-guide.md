@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: FB
 patch_ver: 3.5
 patch_id: FB*3.5
-group_key: "FB:FB:3.5"
-file_numbers: []
-security_keys: []
+group_key: FB:FB:3.5
+description: '- General Security - Audit Trails - # # Security Keys - Legal Requirements - VA FileMan Access Codes NOTICE > Per VHA Directive 10-93-142 regarding security of software that affects financial...'
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '161.2'
+- '162.2'
+- '200'
+security_keys:
+- XUSPF200
 menu_options: 0
-description: - [General Security](#general-security) - [Audit Trails](#audit-trails) - [# # Security Keys](#security-keys) - [Legal Requirements](#legal-requirements) - [VA FileMan Access Codes](#va-fileman-access-codes) <u>NOTICE</u> > Per VHA Directive 10-93-142 regarding security of software that affects fina
-audience: 
-keywords: 
-  - basis
-  - table
-  - contents
-  - access
-  - security
-  - unauthorized
-  - audit
-  - codes
-  - legal
-  - fileman
 page_count: 0
 word_count: 404
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

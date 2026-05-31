@@ -3,46 +3,50 @@ title: Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*617 and PSO*7*670
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (Unit 3 Part 2) PSO*7*617 and PSO*7*670
+doc_subject: Inbound ePrescribing (Unit 3 Part 2) PSO*7*617 and PSO*7*670
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7.0
+description: '- Manual Validation - Validate Patient - Validate Provider - Validate Drug/SIG - Accepting eRXes in the eRX Holding Queue - [Manual...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '10'
+- '10.2'
+- '50'
+- '50.67'
+- '50.68'
+- '52.46'
+- '52.48'
+- '52.49'
+- '59'
+- '200'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: - [Manual Validation](#manual-validation) - [Validate Patient](#validate-patient) - [Validate Provider](#validate-provider) - [Validate Drug/SIG](#validate-drugsig) - [Accepting eR<sub>X</sub>es in the eR<sub>X</sub> Holding Queue](#accepting-ersubxsubes-in-the-ersubxsub-holding-queue) - [Manual Val
-audience: 
-keywords: 
-  - span
-  - provider
-  - patient
-  - figure
-  - class
-  - validation
-  - drug
-  - inbound
-  - unit
-  - manual
 page_count: 0
 word_count: 12410
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_32.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_32.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_32.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um_32.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

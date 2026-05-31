@@ -11,38 +11,58 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1
-group_key: "PX:PX:1"
-file_numbers: []
-security_keys: []
+group_key: PX:PX:1
+description: 'Date Description (Patch # if applic.) Project Manager Technical'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.2'
+- '1.3'
+- '1.4'
+- '1.6'
+- '1.8'
+- '1.9'
+- '2'
+- '3'
+- '4'
+- '5'
+- '5.1'
+- '5.2'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '11.1'
+- '11.2'
+- '80'
+- '80.1'
+- '81'
+- '811.2'
+- '811.8'
+- '811.9'
+- '999999'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 41%\\" /> <col style=\\"width: 24%\\" /> <col style=\\"width: 21%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><strong>Date</strong></td> <td><strong>Description (Patch # if applic.)</strong></td> <td><strong>Project Manager</strong></td> <td>"
-audience: 
-keywords: 
-  - match
-  - reminder
-  - apply
-  - health
-  - logic
-  - frequency
-  - findings
-  - date
-  - taxonomy
-  - factor
 page_count: 0
 word_count: 27287
 section_count: 12
 table_count: 4
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxumappx.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxumappx.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxumappx.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/pxumappx.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 Patient Care Encounter (PCE)User Manual Appendices

@@ -11,48 +11,33 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1*4
-group_key: "XOBW:XOBW:1"
-file_numbers: []
-security_keys: []
+group_key: XOBW:XOBW:1
+description: '| Date | Version | Description | Author | |------------|---------|----------------------------------------------------------------------------------------|----------------------------------------------------| | 02/15/2017 | 1.1 | Corrected Figure 3 to reflect the SSLv3 check box is checked. |...'
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '18.12'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - security
-  - configuration
-  - server
-  - table
-  - contents
-  - client
-  - xobw
-  - authentication
-  - vista
-  - guide
 page_count: 0
-word_count: 4842
+word_count: 4831
 section_count: 16
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2017
 revision_count: 2
 revision_newest: 02/15/2017
 revision_oldest: 10/20/2016
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_scg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_scg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_scg.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_scg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  HealtheVet Web Services Client (HWSC) 1.0  
-  Patch XOBW\*1.0\*4
-
-  Security Configuration Guide
----
-
 ![](xobw-1-4-security-configuration-guide/001.png)
 
 February 2017

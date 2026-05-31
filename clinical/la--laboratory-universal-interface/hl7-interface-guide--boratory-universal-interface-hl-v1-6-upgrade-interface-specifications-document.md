@@ -1,48 +1,64 @@
 ---
-title: "Laboratory: Universal Interface HL V1.6 Upgrade Interface Specifications Document"
+title: '''Laboratory: Universal Interface HL V1.6 Upgrade Interface Specifications Document'''
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: anchor
 doc_subject: Upgrade s Document
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1.6
-patch_id: 
-group_key: "LA::1.6"
-file_numbers: []
-security_keys: []
+patch_id: ''
+group_key: LA::1.6
+description: '>'
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '6'
+- '9'
+- '11'
+- '12'
+- '13.6'
+- '61'
+- '62.3'
+- '62.4'
+- '62.41'
+- '62.485'
+- '63'
+- '64.061'
+- '64.2'
+- '68'
+- '68.02'
+- '68.04'
+- '99'
+- '200'
+security_keys:
+- LRLAB
+- LRVERIFY
+- PROVIDER
 menu_options: 4
-description: > ![](laboratory-universal-interface-hl-v1-6-upgrade-interface-specifications-document/001.png)
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - table
-  - style
-  - width
-  - bookmark
-  - span
-  - even
-  - contents
 page_count: 0
 word_count: 13195
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labui_hlv1_6_interfacespecificationsdocument.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labui_hlv1_6_interfacespecificationsdocument.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labui_hlv1_6_interfacespecificationsdocument.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labui_hlv1_6_interfacespecificationsdocument.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 > ![](laboratory-universal-interface-hl-v1-6-upgrade-interface-specifications-document/001.png)

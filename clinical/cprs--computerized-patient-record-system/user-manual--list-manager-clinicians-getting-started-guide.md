@@ -1,58 +1,41 @@
 ---
-title: "CPRS User Manual:List Manager Clinician's Getting Started Guide"
+title: CPRS User Manual:List Manager Clinician's Getting Started Guide
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: "CPRS :List Manager Clinician's Getting Started Guide"
+doc_subject: CPRS :List Manager Clinician's Getting Started Guide
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: OR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| Date | Revision | Description | Author | |-----------|----------|-----------------------------------------------------------------------------------------------------------------------|----------| | 3/15/05 | Various | Changes for SOP compliance about displaying sensitive patient data. | Redacted...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - orders
-  - cprs
-  - patient
-  - order
-  - clinician
-  - manager
-  - class
-  - manual
 page_count: 0
-word_count: 11540
+word_count: 11520
 section_count: 45
 table_count: 5
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 6
 revision_newest: 3/15/05
 revision_oldest: 6/29/00
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/cprslmum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/cprslmum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/cprslmum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/cprslmum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Computerized Patient Record System (CPRS)
-
-  Clinician’s Getting Started Guide:  
-  List Manager Version
----
-
 ![](cprs-user-manual-list-manager-clinician-s-getting-started-guide/001.png)
 
 March 2005

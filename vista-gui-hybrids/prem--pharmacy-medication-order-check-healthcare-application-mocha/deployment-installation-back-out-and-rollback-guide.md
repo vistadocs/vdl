@@ -1,22 +1,48 @@
 ---
-consolidated_title: "mocha server deployment, installation, back-out, and rollback guide"
-app_code: PREM
+title: PREM*4*1 MOCHA Server Version 4 Deployment, Installation, Back-out, and Rollback Guide
 doc_type: DIBR
-master_source: "PREM*4*1 MOCHA Server Version 4 Deployment, Installation, Back-out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: MOCHA Server Version 4
+app_code: PREM
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
+section: GUI
+app_status: active
+pkg_ns: PREM
+patch_ver: 4
+patch_id: PREM*4*1
+group_key: PREM:PREM:4
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |------------|-------------|------------------------|----------------------| | 06/28/2024 | 1.0 | MOCHA 4.0 / PREM\*4\*1 | Liberty IT Solutions'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 3631
+section_count: 32
+table_count: 7
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: June 2024
+revision_count: 1
+revision_newest: 06/28/2024
+revision_oldest: 06/28/2024
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_DIBR.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_1_DIBR.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
+master_source: PREM*4*1 MOCHA Server Version 4 Deployment, Installation, Back-out, and Rollback Guide
 master_pub_date: June 2024
 consolidated_from: 5 versions
 prior_versions:
-  - "PREM*3*3 MOCHA Server Version 3.2 Deployment, Installation, Back-out, and Rollback Guide"
-  - "PREM*3*4 MOCHA Server Version 3.2.1 Deployment, Installation, Back-out, and Rollback Guide"
-  - "PREM*3*5 MOCHA Server Version 3.3.1 Deployment, Installation, Back-out, and Rollback Guide"
-  - "PREM*4*2 MOCHA Server Deployment, Installation, Back-out, and Rollback Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Medication Order Check Healthcare Application (MOCHA) 4.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBR)
+- PREM*3*3 MOCHA Server Version 3.2 Deployment, Installation, Back-out, and Rollback Guide
+- PREM*3*4 MOCHA Server Version 3.2.1 Deployment, Installation, Back-out, and Rollback Guide
+- PREM*3*5 MOCHA Server Version 3.3.1 Deployment, Installation, Back-out, and Rollback Guide
+- PREM*4*2 MOCHA Server Deployment, Installation, Back-out, and Rollback Guide
+consolidated_title: mocha server deployment, installation, back-out, and rollback guide
 ---
 
 ![](prem-4-1-mocha-server-version-4-deployment-installation-back-out-and-rollback-gu/001.png)
@@ -347,7 +373,7 @@ Database Administrator will need:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The installation instructions found within this guide are intended to be performed on a clean installation of WebLogic 12.2.1.4.1, with a separate managed server to act as the Deployment Server. For details on completing the installation of the following items, please refer to each item’s installation and configuration documentation supplied by Oracle.
+The installation instructions found within this guide are intended to be performed on a clean installation of WebLogic 12.2.1.4.1, with a separate managed server to act as the Deployment Server. For details on completing the installation of the following items, please refer to each item's installation and configuration documentation supplied by Oracle.
 
 For successful deployment of the MOCHA Server software, the following assumptions must be met:
 

@@ -1,13 +1,54 @@
 ---
-consolidated_title: "release notes cprs gui 25"
-app_code: CPRS
+title: OR*3*195 Release Notes CPRS GUI 25
 doc_type: RN
-master_source: "OR*3*195 Release Notes CPRS GUI 25"
-master_pub_date: revision_count: 0
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: CPRS GUI 25
+app_code: CPRS
+app_name: Computerized Patient Record System
+section: CLI
+app_status: archive
+pkg_ns: OR
+patch_ver: 3
+patch_id: OR*3*195
+group_key: CPRS:OR:3
+file_numbers:
+- '14.4'
+- '14.8'
+- '100'
+- '101.24'
+security_keys:
+- ORELSE
+- ORES
+- ORMGR
+- TAB
+menu_options: 1
+description: The following section gives you the required patches for OR\3.0\195 and the order in which they should be installed.
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 13709
+section_count: 0
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_195rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_195rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
+master_source: OR*3*195 Release Notes CPRS GUI 25
+master_pub_date: 'null'
 consolidated_from: 3 versions
 prior_versions:
-  - "OR*3*231 Release Notes CPRS GUI 25"
-  - "OR*3*235 Release Notes CPRS GUI 25"
+- OR*3*231 Release Notes CPRS GUI 25
+- OR*3*235 Release Notes CPRS GUI 25
+consolidated_title: release notes cprs gui 25
 ---
 
 <span class="smallcaps">Release Notes</span><span class="smallcaps">for</span><span class="smallcaps">CPRS GUI version 25</span><span class="smallcaps">Patch OR\*3.0\*195</span>
@@ -56,19 +97,19 @@ Please see patch OR\*3.0\*195 for detailed instructions on the installation and 
 
 Known Issues
 
-Listed below are eight known issues identified with the release of OR\*3\*195. Per Executive Directive Memorandum “Software Release with Known Defect Reporting,” the following information regarding each known issue is provided below: the defect/issue, risks/impacts, and workarounds (alternative methods to do the job).
+Listed below are eight known issues identified with the release of OR\*3\*195. Per Executive Directive Memorandum "Software Release with Known Defect Reporting," the following information regarding each known issue is provided below: the defect/issue, risks/impacts, and workarounds (alternative methods to do the job).
 
 The justification for release with these eight defects/issues is as follows:
 
 The release of CPRS will support many interdependent projects, these include but are not limited to Inpatient Meds for Outpatients, Non Standard Schedules, Clinical Indicators/Data Capture as well as resolving many patient safety issues some of which are over a year old and are related to the Allergy Adverse Reaction enhancements contained in this release. There are also over 100 NOIS calls resolved by this release. Additional delays in releasing CPRS v25 will put the release of CPRS v26 in jeopardy. Most of the defects are minor inconveniences and the high level ones identified by the test sites are listed in the release notes and patch description message. HSD&D has received concurrence from Cynthia Kindred, ADD for Health Data Systems and Martha Gerard, QA manager for Health Data Systems.
 
-Issue 1: Any CPRS User Can Mark an Allergy as “Entered In Error” or Add a New Allergy
+Issue 1: Any CPRS User Can Mark an Allergy as "Entered In Error" or Add a New Allergy
 
 Defect/Issue – Risk/Impact: When patches OR\*3\*195, GMRA\*4.0\*21, and OR\*3\*216 have been installed, users will be able to add a new allergy as well as marking an existing allergy as "entered in error" directly from the Cover Sheet. CPRS GUI v25 does not restrict which users can perform these actions.
 
 Workarounds: None
 
-Resolution: This issue is scheduled to be resolved in CPRS GUI v.26 (OR\*3\*215). A parameter will be added that will control who can use the “entered in error” option from the Cover Sheet and the Orders tab (to be consistent). The ability to add a new allergy or to mark the patient as NKA will not be restricted.
+Resolution: This issue is scheduled to be resolved in CPRS GUI v.26 (OR\*3\*215). A parameter will be added that will control who can use the "entered in error" option from the Cover Sheet and the Orders tab (to be consistent). The ability to add a new allergy or to mark the patient as NKA will not be restricted.
 
 Issue 2: "Duration or Total Volume" Overrides IV Room Site Parameter
 
@@ -76,7 +117,7 @@ Defect/Issue – Risk/Impact: PSI-03-060 "IV Fluid Dialog" has been addressed in
 
 Workarounds:
 
-- When pharmacists are finishing the order, if they see an IV order written with a duration, closely review to make sure it’s appropriate.
+- When pharmacists are finishing the order, if they see an IV order written with a duration, closely review to make sure it's appropriate.
 - Advise providers to not use the duration field unless they want to override the IV policies.
 
 Resolution: PSJ\*5\*113 partially addresses this issue in that the stop date calculation for IV orders will be modified to treat "Duration or Total Volume" the same as all other stop date parameters that exist (it will no longer override the default). CPRS Clinical Workgroup input is still necessary to discuss the issue of there being no limit to the new field.
@@ -85,7 +126,7 @@ Issue 3: Prohibition against Ordering Inpatient Medications for an Inpatient fro
 
 Defect/Issue – Risk/Impact: With CPRS v.25, some concerns about ordering inpatient medications from outpatient locations have come up. One possible scenario was as follows:
 
-> It is not unusual that a very sick patient would be quickly admitted to an ICU bed without the patient’s encounter, note, or all admission orders being completed.  Thus, the situation described below could happen again.
+> It is not unusual that a very sick patient would be quickly admitted to an ICU bed without the patient's encounter, note, or all admission orders being completed.  Thus, the situation described below could happen again.
 
 > 1.       Patient is checked in to the outpatient Urgent Care clinic.
 
@@ -113,7 +154,7 @@ Issue 4: Remote Data Views Retrieval of Discharge Summary from Sites with Differ
 Defect/Issue – Risk/Impact: The Code Text Descriptor project determined that ICD codes and associated diagnosis information should not display in the detailed information of the Discharge Summary report format. Developers made this change, which made the v.25 report different from the v.24 report. Because the reports are different, if users at a site running one version of CPRS request a Clinical Reports Discharge Summary from a site running a different version of CPRS through Remote Data Views, the report may be missing some text or may not display correctly as described below:
 
 - When a v.24 site user requests a discharge summary from a v.25 site, the \[+\] column will not indicate that there is detailed information available. The other main columns will be correct as the majority of the columns were undisturbed. When the user clicks on an entry, the details will display in the lower pane. The top-most information related to who entered it and when will be correct. Also, the detail pane will display "DIAGNOSIS:" but there will not be any data.
-- When a v.25 site user requests a discharge summary from a v.24 site, CPRS displays the following informational box and the request will not be completed: “Programmer message: One or more column ID’s in file 101.24 do not match ID’s coded in extract routine”.
+- When a v.25 site user requests a discharge summary from a v.24 site, CPRS displays the following informational box and the request will not be completed: "Programmer message: One or more column ID's in file 101.24 do not match ID's coded in extract routine".
 
 Workarounds: None
 
@@ -167,7 +208,7 @@ Patient Safety Issues
 
 - PSI-03-036 Event Delayed Orders Status Issues (MOU-0803-30190, ISL-0903-50918) - Developers addressed a problem with locking event-delayed orders that allowed users to act on orders in close succession and could create two of the same order with statuses, such as discontinued and active. Additional locks have been added to prevent this from happening. See also PSI-04-010.
 - PSI-03-051 Remote Data Views User Names Inappropriately Displaying in CPRS Selection Lists (NOIS TOM-0503-41438, BRX-1003-11098, LEX-0302-40449) – Because they were users on the system, CPRS displayed providers in selection lists (such as consults, consigners, etc.) that belonged to other facilities and used Remote Data Views. Some users would select the incorrect non-local provider and the local provider would not receive important information. This has been corrected.
-- PSI-03-059Problem with CPRS Dosage Matching (NOIS CPH-1203-42234) - This issue arose when a provider typed a value in the Medication Order dialog’s Dosage field and accepted the default selection without checking to ensure that it was correct. Developers have changed the way CPRS matches what users type, making it much more difficult for users to select the wrong dosage. Unless the dosages users want are not listed in the Dosage pane, it may now be as quick for users to select a dosage from the list using their mouse (or tab and arrow keys) as it is to select the default dosage that CPRS displays in the Dosage field. Users must now type more characters (numbers, letters, spaces, and decimal points) to highlight an appropriate dosage in the list. Users may continue to type free-text dosages.
+- PSI-03-059Problem with CPRS Dosage Matching (NOIS CPH-1203-42234) - This issue arose when a provider typed a value in the Medication Order dialog's Dosage field and accepted the default selection without checking to ensure that it was correct. Developers have changed the way CPRS matches what users type, making it much more difficult for users to select the wrong dosage. Unless the dosages users want are not listed in the Dosage pane, it may now be as quick for users to select a dosage from the list using their mouse (or tab and arrow keys) as it is to select the default dosage that CPRS displays in the Dosage field. Users must now type more characters (numbers, letters, spaces, and decimal points) to highlight an appropriate dosage in the list. Users may continue to type free-text dosages.
 - PSI-03-060 New IV Fluid Duration or Total Volume Field Added (HIN-1203-42283) - Developers added a new field—Duration or Total Volume—to the IV Fluid Order dialog. This field enables users to specify a maximum duration or total volume for their IV orders, helping ensure that patients do not receive IV fluids for too long or receive too much fluid.
 - PSI-04-001 Template Field Data Not in Final Note (SLC-0901-51635) - When a user selected template fields and then selected the Next button, CPRS did not put the template field information in to the final progress note. Developers corrected this problem.
 -   
@@ -176,7 +217,7 @@ Patient Safety Issues
 - PSI-04-023 Lab Info Box Display Problem (NOIS MAC-0903-60683) - The Lab Info Box now displays its text at the top not the bottom.
 - PSI-04-039 Problem List Entry OK Button Unavailable at Font Size 8 (NOIS BUT-0704-21314) - If the font size on the Problem List Entry is greater than 8, the user is unable to access the OK button to accept the new problem. This has been corrected
 - PSI-04-042 Message Text Problem in Dialog (NOIS PAL-0704-60893) - Developers corrected a problem where all of the text in a Radiology dialog message area could not be viewed. CPRS displayed part of the text, but there were no scroll bars and the user could not view the remaining text.
-- PSI-04-048 Problem Entry Goes in Wrong Chart (NOIS MAC-0904-60407) – If a user began entering a problem on a patient’s Problems tab in CPRS and then decided not to and went to select another patient, CPRS prompted the user if it should discard the changes. If the user selected Cancel, and then opened another patient’s chart in CPRS, the partially finished problem was there and could be entered for the wrong patient. This has been corrected. If the user selects Cancel, CPRS returns to the Problems tab, but does not carry the information into another patient’s record.
+- PSI-04-048 Problem Entry Goes in Wrong Chart (NOIS MAC-0904-60407) – If a user began entering a problem on a patient's Problems tab in CPRS and then decided not to and went to select another patient, CPRS prompted the user if it should discard the changes. If the user selected Cancel, and then opened another patient's chart in CPRS, the partially finished problem was there and could be entered for the wrong patient. This has been corrected. If the user selects Cancel, CPRS returns to the Problems tab, but does not carry the information into another patient's record.
 - PSI -04-054 Context Problem Could Present Incorrect Data - Developers fixed a problem affecting users holding the ORELSE key and with the site parameter OR SIGNATURE DEFAULT ACTION set to "Release w/o Signature". On acceptance of a patient change request from another application, CPRS displayed the signature box before the patient change would be allowed to continue. This was incorrect CCOW behavior. But clicking CANCEL on that signature dialog then resulted in the previous patient's orders still being listed on the Review/Sign Changes screen for the newly synchronized patient. This now works correctly.
 - PSI-04-055 Auto-selection of Medication Schedule - Prior to the non-standard schedule project included in CPRS v.25, a provider entering an inpatient medication order could type in any free text schedule. If what the provider typed was not in the schedule list but passed the format validation, it would be accepted as a non-standard schedule. With the non-standard schedule project, the provider must now choose a schedule from the list or use the Other option to build a customized day-of-week/time administration schedule.
 
@@ -219,7 +260,7 @@ Clinicians will be required to enter at least one diagnosis for each of the abov
 - Clinicians can copy a diagnosis from one order and paste it one or multiple other orders.
 - Clinicians can create and edit a Personal Diagnoses List. This list is specific to the individual clinician. Clinicians can add any diagnosis to this list so that it is available to help them specify clinical indicator information when signing the appropriate orders.
 - Also, to help speed Treatment Factor entry, developers added code so that if a problem on the Problem List has associated Treatment Factors and the Provider signing orders selects that diagnosis using the Problem List as a source, CPRS automatically populates the appropriate boxes on the Electronic Signature dialogs with those Treatment Factors. Clinicians will be able to edit them or accept them as they are populated. To use this feature effectively, clinicians will need to ensure that the problems on the Problem list have the Treatment Factors associated with them.
-- Developers added a feature that supports the clinician’s workflow by displaying diagnoses entered for today’s orders on the Diagnosis Tab of the Encounter form (today in this case means within 24 of the visit for this particular patient). In addition, if the clinician does the Encounter form first, the diagnoses enter on the Diagnosis tab of the encounter form will be a choice on the Assign Diagnosis to Order(s) dialog that clinicians will use the assign a diagnosis for each appropriate order he or she will sign.
+- Developers added a feature that supports the clinician's workflow by displaying diagnoses entered for today's orders on the Diagnosis Tab of the Encounter form (today in this case means within 24 of the visit for this particular patient). In addition, if the clinician does the Encounter form first, the diagnoses enter on the Diagnosis tab of the encounter form will be a choice on the Assign Diagnosis to Order(s) dialog that clinicians will use the assign a diagnosis for each appropriate order he or she will sign.
 - Developers also added a feature that will copy the Treatment Factors when clinicians use the Copy, Change, or Renew actions on orders.
 - Shortcut Keys Added to Display Hover Hints and Move to the Grid of Orders – Developers added shortcut keys to help keyboard users display hover hints and move to the grid of orders.  
     
@@ -245,16 +286,16 @@ In addition, users can no longer select OTHER ALLERGY/ADVERSE REACTION as a type
 
 Also, CPRS now requires users to enter information about the nature of the reaction that they are documenting (Allergy, Pharmacological, or Unknown).
 
-Finally, CPRS GUI 24 introduced a dialog through which users can request that a causative agent be added to their site’s *ALLERGIES* file. Users access this dialog via a warning that pops up when they attempt to enter a free-text causative agent. The warning dialog asks users to indicate—by clicking either its YES or NO button—if they want to send a causative-agent inclusion request. In CPRS GUI 24, the default button was YES. In CPRS GUI 25, the default button is NO. Furthermore, when users click the system X button (located in the top right-hand corner of each screen) to exit any of the screens that comprise the inclusion-request dialog, CPRS now cancels the request action.
+Finally, CPRS GUI 24 introduced a dialog through which users can request that a causative agent be added to their site's *ALLERGIES* file. Users access this dialog via a warning that pops up when they attempt to enter a free-text causative agent. The warning dialog asks users to indicate—by clicking either its YES or NO button—if they want to send a causative-agent inclusion request. In CPRS GUI 24, the default button was YES. In CPRS GUI 25, the default button is NO. Furthermore, when users click the system X button (located in the top right-hand corner of each screen) to exit any of the screens that comprise the inclusion-request dialog, CPRS now cancels the request action.
 
  
 
 - Allergy Changes on the Cover Sheet –CPRS now enables users to perform several ART-related actions from the Cover Sheet tab—including the following:
   - Enter new allergy
   - Mark selected allergy as entered in error
-  - Mark patient as having “No Known Allergies” (NKA)
+  - Mark patient as having "No Known Allergies" (NKA)
 
-When users right click within the Allergies/Adverse Reactions pane, CPRS displays a menu offering the three selections listed in the previous paragraph (or a subset of these selections, depending on allergy information that is currently active for the selected patient). When users select one of the allergies listed within the Allergies/Adverse Reactions pane, CPRS opens a dialog that displays details about this allergy—as it always has. However, this dialog now includes two additional buttons: Add New and Entered in Error. As the names of these buttons suggest, clicking them enables users to add new allergies and designate the selected allergy as entered in error, respectively. When users mark allergy entries as entered in error, the ART package notifies (via MailMan bulletins) sites’ GMRA MARK CHART mail group.
+When users right click within the Allergies/Adverse Reactions pane, CPRS displays a menu offering the three selections listed in the previous paragraph (or a subset of these selections, depending on allergy information that is currently active for the selected patient). When users select one of the allergies listed within the Allergies/Adverse Reactions pane, CPRS opens a dialog that displays details about this allergy—as it always has. However, this dialog now includes two additional buttons: Add New and Entered in Error. As the names of these buttons suggest, clicking them enables users to add new allergies and designate the selected allergy as entered in error, respectively. When users mark allergy entries as entered in error, the ART package notifies (via MailMan bulletins) sites' GMRA MARK CHART mail group.
 
 Depending on how sites have configured their *GMR ALLERGIES SITE PARAMETERS* files, the ART package could also send bulletins to one or more of the following mail groups: GMRA VERIFY DRUG ALLERGY, GMRA VERIFY FOOD ALLERGY, and GMRA VERIFY OTHER ALLERGY. In addition, marking an allergy entry as entered in error triggers the Text Integration Utility (TIU) package to generate an Allergy/Adverse Reaction progress note that is sent to the originator to document the erroneous entry.
 
@@ -265,22 +306,22 @@ Whether users enter new allergies via the Cover Sheet or Orders tab, CPRS displa
 - A new button containing a question mark is associated with the Severity dialog; when users select this button, CPRS displays a text box defining severity selections
 - CPRS displays a hover hint when users mouse over the Observed and Historical option buttons; a user group (as opposed to OI staff) specified the text of the hover-hint
 - When the amount of text in the Comments dialog exceeds its viewing area, CPRS adds a scroll bar to the dialog
-- Developers altered the tabbing sequence to more closely match users’ expectations
+- Developers altered the tabbing sequence to more closely match users' expectations
 - When a user marks an allergy as an Observed, Drug allergy or as Entered in Error, the action generates a Progress Note for the user who marked it as such to sign. Once the user who marked the allergy as an Observed Drug allergy or as entered in error signs the note or an administrative user signs the note, all CPRS users can view the note. In the case of Entered in Error, this will let users know that the allergy was removed from the list.
 
-The Enter Allergy or Adverse Reaction dialog also contains a new check box: ID Band Marked. If the patients are inpatients and the sites have set the MARK ID BAND parameter in the *GMR ALLERGY SITE PARAMETERS* file to 1(YES), users can select this check box to indicate whether they have marked allergies and adverse reactions on the patient’s identification (ID ) bands. If users submit an allergy entry without selecting activated ID Band Marked check box, the ART package automatically notifies sites’ GMRA MARK CHART mail group via a MailMan bulletin. *GMR ALLERGY SITE PARAMETER* file settings also determine to which verification mail groups (GMRA VERIFY DRUG ALLERGY, GMRA VERIFY FOOD ALLERGY, or GMRA VERIFY OTHER ALLERGY) the ART package sends MailMan bulletins when users enter specific combinations of allergy information. (See the [*Adverse Reaction Tracking Technical Manual*](http://www.va.gov/vdl/VistA_Lib/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/allr4_tm.pdf) for information about how to configure the *GMR ALLERGY SITE PARAMATER* file.)
+The Enter Allergy or Adverse Reaction dialog also contains a new check box: ID Band Marked. If the patients are inpatients and the sites have set the MARK ID BAND parameter in the *GMR ALLERGY SITE PARAMETERS* file to 1(YES), users can select this check box to indicate whether they have marked allergies and adverse reactions on the patient's identification (ID ) bands. If users submit an allergy entry without selecting activated ID Band Marked check box, the ART package automatically notifies sites' GMRA MARK CHART mail group via a MailMan bulletin. *GMR ALLERGY SITE PARAMETER* file settings also determine to which verification mail groups (GMRA VERIFY DRUG ALLERGY, GMRA VERIFY FOOD ALLERGY, or GMRA VERIFY OTHER ALLERGY) the ART package sends MailMan bulletins when users enter specific combinations of allergy information. (See the [*Adverse Reaction Tracking Technical Manual*](http://www.va.gov/vdl/VistA_Lib/Clinical/CPRS-Advrs_Reaction_Trk_(ART)/allr4_tm.pdf) for information about how to configure the *GMR ALLERGY SITE PARAMATER* file.)
 
 Non-Standard Schedules
 
 When placing inpatient medication orders, users can no longer enter free-text schedules. Instead, users must select standard schedules from the Schedule list box or select Other from the Schedule list box to create a customized day-of-week or admin/time schedule. If users try to copy, transfer, or renew inpatient medication orders, CPRS allows only orders with valid schedules to proceed.
 
-> **NOTE:** If the user selects Other to create a customized schedule, the order may require that the pharmacist and the physician work out a valid schedule, which might delay the order becoming active. The parameter ORWIM NSS MESSAGE enables sites to customize the message in the text box on the Order with Schedule “OTHER” dialog to inform providers that a delay may be caused or give instructions. A default message appears in the text box if the site does not enter one.
+> **NOTE:** If the user selects Other to create a customized schedule, the order may require that the pharmacist and the physician work out a valid schedule, which might delay the order becoming active. The parameter ORWIM NSS MESSAGE enables sites to customize the message in the text box on the Order with Schedule "OTHER" dialog to inform providers that a delay may be caused or give instructions. A default message appears in the text box if the site does not enter one.
 
 Inpatient Medications for Outpatients (IMO)
 
 > **NOTE:** IMO features will not be available in the CPRS until patch SD\*5.3\*285 is installed in your account. This patch is currently under development.
 
-- IMO Orders Displayed under Clin. Meds on the Orders Tab - When IMO orders are placed from an authorized IMO location for an outpatient, CPRS will save newly placed Unit Dose and IV fluid orders under the “Clin. Meds” group.
+- IMO Orders Displayed under Clin. Meds on the Orders Tab - When IMO orders are placed from an authorized IMO location for an outpatient, CPRS will save newly placed Unit Dose and IV fluid orders under the "Clin. Meds" group.
 - New Clinic Medications Display Group For Inpatient Medications for Outpatients (IMO) Orders - Developers created a new display group, *CLINIC MEDICATIONS*, for IMO orders. On the Orders tab, CPRS displays IMO orders under the new display group (Clin. Med). On the Meds tab, CPRS displays IMO orders sorted at the top of the Inpatient Medications pane with the ordering location in the last column. (To view all IMO orders, users can select View \| Custom Order View from the main menu, then, in the Service/Section pane of the Custom Order View dialog box, click to expand PHARMACY and select CLINIC MEDICATIONS.) Users cannot transfer IMO orders. To add the Clinic Medications display group to the Order tab, use the following instructions:
 
 For CPRS to display the Clinic Medications display group on the Orders tab (the display group that shows Inpatient Medications for Outpatients), sites will need to make an entry in the ORWOR CATEGORY SEQUENCE parameter at the package or system level depending on which level the site uses.
@@ -295,7 +336,7 @@ Manually Updating ORWOR CATEGORY SEQUENCE
 
 First, you need to check the settings for this parameter to determine if you need to add Clinic Medications to the Package or System level settings for the ORWOR CATEGORY SEQUENCE parameter. Then, you can add this entry to the sequence at the appropriate level.
 
-To check the parameter values and add the display group "Clin. Meds”, use the following steps:
+To check the parameter values and add the display group "Clin. Meds", use the following steps:
 
 1.  Login to the List Manager interface to your system.
 2.  At the Option Name prompt, type ORMGR and press \<Enter\>.
@@ -364,7 +405,7 @@ PKG: ORDER ENTRY/RESULTS REPOR 120 OTHER HOSPITAL
 
 SERVICES
 
-In the above example, there are only Package level settings. If you see only “PKG”, your site uses the Package level setting and you will need to add CLINIC MEDICATIONS to your Package level. If you see one or more "SYS" listings, it indicates your site is not using the Package-level values and you must add CLINIC MEDICATIONS to your System level values.
+In the above example, there are only Package level settings. If you see only "PKG", your site uses the Package level setting and you will need to add CLINIC MEDICATIONS to your Package level. If you see one or more "SYS" listings, it indicates your site is not using the Package-level values and you must add CLINIC MEDICATIONS to your System level values.
 
 > **NOTE:** To change the parameter at the Package level, the user making the change must be in programmer mode. Changes at the system level do not require the user to be in Programmer mode. Only authorized users should make this change.
 
@@ -636,7 +677,7 @@ Two parameters, ORQQCSDR CS RANGE START and ORQQCSDR CS RANGE STOP control the d
 
 Users can also specify a temporary encounter date range from the Provider & Location for Current Activities dialog box by selecting the Clinic Appointments tab and clicking the Date Range button.
 
-> **NOTE:** The *Future Days Limit For PCE Selection* \[*ORQQEAFL ENC APPT FUTURE LIMIT*\] parameter determines the number of days in the future that users can select for encounter appointments without receiving a warning. While users can still select future dates for encounter appointments that fall outside this parameter’s setting, the parameter enables sites to provide feedback via a warning indicating users may be violating local policies.
+> **NOTE:** The *Future Days Limit For PCE Selection* \[*ORQQEAFL ENC APPT FUTURE LIMIT*\] parameter determines the number of days in the future that users can select for encounter appointments without receiving a warning. While users can still select future dates for encounter appointments that fall outside this parameter's setting, the parameter enables sites to provide feedback via a warning indicating users may be violating local policies.
 
 > Use the following guidelines for entering the allowable values listed above:
 
@@ -651,7 +692,7 @@ Installation Notes:
 - PACKAGE-LEVEL SETTINGS - During installation, post-install code examines the division-, system-, and package-level settings of the two previously used parameters (*ORQQVS SEARCH RANGE START* and O*RQQAP SEARCH RANGE STOP*) and populates only the package-level start and stop values of the new parameter pairs. If the post-install code finds no settings, it uses default settings of T-90 and T+90 to populate values for the new pairs at the package level.
 - USER-LEVEL SETTINGS - The post-install code also examines current user-level settings for the two previously used parameters (see above) and populates both new parameter pairs with these values.
 
-> **NOTE:** If users have current settings (using each half of the previous two pairs of parameters), their Cover Sheet tab and Provider & Location for Current Activities dialog box date ranges won’t change following patch installation. Because many users may now wish these date ranges to be different, after sites install the patch, it might be good to alert users to the possibility of setting these date ranges differently.
+> **NOTE:** If users have current settings (using each half of the previous two pairs of parameters), their Cover Sheet tab and Provider & Location for Current Activities dialog box date ranges won't change following patch installation. Because many users may now wish these date ranges to be different, after sites install the patch, it might be good to alert users to the possibility of setting these date ranges differently.
 
 - NEW *ORQQEAFL ENC APPT FUTURE LIMIT* PARAMETER - The post-install code populates the *ORQQEAFL ENC APPT FUTURE LIMIT* parameter at the package level with a value of 7 (for seven days).
 
@@ -674,8 +715,8 @@ Performance Improvement - Developers made changes to improve template dialog per
 Event Delayed Orders
 
 - Event Delayed Orders Status Issues (MOU-0803-30190, ISL-0903-50918 PSI-03-036) - Developers addressed a problem with locking event-delayed orders that allowed users to act on orders in close succession and could create two of the same order with statuses, such as discontinued and active. Additional locks have been added to prevent this from happening. See also PSI-04-010.
-- Event Delay Default Order Now Displayed on Delayed and Active Views (NOIS HUN-0103-20454) - Previously, if a user changed a patient movement order (admission, discharge, or transfer) that had been entered using the Event Delayed Default Order dialog, the order was visible only on the Delayed Orders view. Developers have corrected this, and these changed orders display on both the delayed and active order views with a status of “unreleased”.
-- New IV Fluid Duration or Total Volume Field Added (PSI-03-060, HIN-1203-42283) - Developers added a new field “Duration or Total volume” to the IV Fluids order dialog. By using this field, a user can specify the maximum duration or total volume for the IV order to better insure the patient does not receive their IV for too long or receive too much fluid.
+- Event Delay Default Order Now Displayed on Delayed and Active Views (NOIS HUN-0103-20454) - Previously, if a user changed a patient movement order (admission, discharge, or transfer) that had been entered using the Event Delayed Default Order dialog, the order was visible only on the Delayed Orders view. Developers have corrected this, and these changed orders display on both the delayed and active order views with a status of "unreleased".
+- New IV Fluid Duration or Total Volume Field Added (PSI-03-060, HIN-1203-42283) - Developers added a new field "Duration or Total volume" to the IV Fluids order dialog. By using this field, a user can specify the maximum duration or total volume for the IV order to better insure the patient does not receive their IV for too long or receive too much fluid.
 - Disparity Between BCMA and CPRS Order StatusAssociated NOIS
 - BAY-1003-32131
 - LIT-0903-71958
@@ -699,10 +740,10 @@ Patch DG\*5.3\*549 will now maintain the lock on the patient's movement record u
 Orders
 
 - Order Set Problem Corrected (NOIS MAC-1101-62553, TUC-0103-62288) - A problem was reported with an order set containing an order menu that contained another order set. If the order set were executed to the end, it cannot return the upper level order menu for selection. This has been corrected.
-- Order with Priority Set to Done Not Discontinued (NOIS MIN-0203-42113) - If a provider changed a pending order’s priority to “done”, the original order did not get discontinued and still had a pending status. This has been corrected.
+- Order with Priority Set to Done Not Discontinued (NOIS MIN-0203-42113) - If a provider changed a pending order's priority to "done", the original order did not get discontinued and still had a pending status. This has been corrected.
 - Inappropriate Prompting for Co-Pay Information Corrected (NOIS JAC-1202-71057) - Users were prompted for co-pay exemptions on outpatient medications given during treatment. They should not be asked. This has been corrected.
 - Mismatched Orders Between Outpatient Pharmacy and CPRS (NOIS UNY-0103-12342) - When pharmacists changed the dispense unit field in Outpatient Pharmacy, it did not create a new order with changed dispense units in CPRS and that resulted in mismatched orders. This has been corrected.
-- Dosage Conversion in Sig Corrected (NOIS TUA-0204-30045) - Possible dosages like 1.5 did not convert to text as “one and one-half” in order sig field. This has been corrected.
+- Dosage Conversion in Sig Corrected (NOIS TUA-0204-30045) - Possible dosages like 1.5 did not convert to text as "one and one-half" in order sig field. This has been corrected.
 - Problem with CPRS Dosage Matching (PSI-03-059, NOIS CPH-1203-42234) – Previously, in the medication order dialog, when a provider typed in part of a dosage, CPRS would try to highlight the correct dosage based on the first character the user entered. If the provider was not careful about checking the dosage, it was possible to select the wrong dosage if the dosages began with the same first character (e.g., 2mg and 200mg) and the provider accepted what was highlighted without reviewing the selection.  
     
   Developers have changed the way CPRS matches what is typed to make it much more difficult for CPRS to select the wrong dosage. Users will have to type in more characters (numbers, letters, spaces, and decimal points) to highlight the appropriate dosage from those displayed on the list. It may be as quick to use the mouse or tab and arrow keys to select the dosage from the list. Users may continue to type in free-text dosages.  
@@ -720,10 +761,10 @@ Orders
   200mg 200
 - List Manager Verification Problem Fixed - This patch corrects a problem with verifying orders. On rare occasions, a user does not see the verify option when reviewing orders in the List Manager interface. This has been corrected.
 - Additional List Manager Verification Problem (NOIS: SHR-0603-70545) - In the list manager interface, if the last order processed for a patient when building the active orders list is a renewed prescription, the verify options are not displayed when the order is selected. This has been corrected.
-- For Discontinued Child Orders, Providers Must Sign All or None (NOIS MIN-0304-42815) - When a user discontinued a complex order, CPRS discontinued all child orders also. On the “Review/Sign Changes” dialog or “Sign selected orders” dialog, CPRS allowed the user to uncheck each individual child order, leaving some of the child orders signed and others unsigned. This has been corrected. The Provider must now sign all child orders or none after a Discontinue action.
+- For Discontinued Child Orders, Providers Must Sign All or None (NOIS MIN-0304-42815) - When a user discontinued a complex order, CPRS discontinued all child orders also. On the "Review/Sign Changes" dialog or "Sign selected orders" dialog, CPRS allowed the user to uncheck each individual child order, leaving some of the child orders signed and others unsigned. This has been corrected. The Provider must now sign all child orders or none after a Discontinue action.
 - Order Dialog Closing Corrected (NOIS ATG-0304-32328) - After a user opened the order dialog and then switched to another tab, the order dialog was forced to close. This has been corrected.
-- Dosage with Half Tablets Not Expanding Correctly in Instruction Field (NOIS TUA-0104-31631) - When a user chose an outpatient medication that contains a dosage that uses half tablets along with a whole tablet, the dosage was not expanding to read correctly in the CPRS instruction field. An example would be Lopressor 75mg dosage that is built on the 50mg tab. When the user chooses the 75mg dose, the text should read “one and one-half tablet” in the instruction field in CPRS instead of 1.5 tablets. This has been corrected.
-- Display Problem Corrected (NOIS CPH-0703-42298, NTH-0703-71061) – Previously, if entering a lab quick order, a user could enter a value for the "Collection Date/Time". If the user tried to enter a date value of T+1D (today plus one day), T+1W (today plus one week), T+1M (today plus one month), and T+1Y (today plus one year), CPRS was only reading the first part of “T+1”, ignoring the units, and displaying "TOMORROW" for all of them. This has been fixed.
+- Dosage with Half Tablets Not Expanding Correctly in Instruction Field (NOIS TUA-0104-31631) - When a user chose an outpatient medication that contains a dosage that uses half tablets along with a whole tablet, the dosage was not expanding to read correctly in the CPRS instruction field. An example would be Lopressor 75mg dosage that is built on the 50mg tab. When the user chooses the 75mg dose, the text should read "one and one-half tablet" in the instruction field in CPRS instead of 1.5 tablets. This has been corrected.
+- Display Problem Corrected (NOIS CPH-0703-42298, NTH-0703-71061) – Previously, if entering a lab quick order, a user could enter a value for the "Collection Date/Time". If the user tried to enter a date value of T+1D (today plus one day), T+1W (today plus one week), T+1M (today plus one month), and T+1Y (today plus one year), CPRS was only reading the first part of "T+1", ignoring the units, and displaying "TOMORROW" for all of them. This has been fixed.
 
 Non-VA Meds
 
@@ -1019,7 +1060,7 @@ Do you wish to change the Device the task goes to:? No// NO
 
 Task requeued!
 
-Once All Task numbers identified that end with E and have a status of 4 in Step 2 above have been requeued as outlined in “Manual Clean-up Step 3”, the manual clean up is complete.
+Once All Task numbers identified that end with E and have a status of 4 in Step 2 above have been requeued as outlined in "Manual Clean-up Step 3", the manual clean up is complete.
 
 Notifications / Alerts
 
@@ -1033,7 +1074,7 @@ CCOW
 Problems
 
 - Display of Problem List Items Corrected – Developers corrected the count of problems displayed to read "0 of 0" if no problems are found for the patient.
-- Problems Tab Not Clearing on Cancel (NOIS MAC-0904-60407 PSI-04-048) - If a user was editing a problem and attempted to select a new patient before saving the changes, CPRS prompted the user to either "Discard Changes or Cancel". If the user selected "Cancel", CPRS would bring up the new patient’s record, but the problem edit screen was not cleared. If the user went to the Problems tab for the new patient, CPRS was still displaying the previous entry underway for the previous patient. The problem has been corrected.
+- Problems Tab Not Clearing on Cancel (NOIS MAC-0904-60407 PSI-04-048) - If a user was editing a problem and attempted to select a new patient before saving the changes, CPRS prompted the user to either "Discard Changes or Cancel". If the user selected "Cancel", CPRS would bring up the new patient's record, but the problem edit screen was not cleared. If the user went to the Problems tab for the new patient, CPRS was still displaying the previous entry underway for the previous patient. The problem has been corrected.
 - Problems Tab Not CCOW-Aware - If a user were editing a problem and a patient change request were received from another application, the user was not advised of the consequences of accepting the patient change before saving the problem changes. The problem has been corrected.
 
 Labs
@@ -1072,13 +1113,13 @@ Provider</u> <u>&</u> <u>Location</u> <u>For</u> <u>Current</u> <u>Activities</u
 
 - JAWS now reads the Clinic Appointments/Visits list caption correctly.
 - Correct Navigation for Location on the Current Activities Form - You can now navigate to the Hospital Admission and New Visit tabs using the keyboard.
-- Location for Current Activities Now Uses Correct Focus - In connection with the “Location for Current Activities Form”, the New Visit tab no longer automatically changes focus to the edit box.
+- Location for Current Activities Now Uses Correct Focus - In connection with the "Location for Current Activities Form", the New Visit tab no longer automatically changes focus to the edit box.
 
 Notes Tab
 
 - List Selected Documents Window JAWS Change - JAWS will now read the "Where Either Of" in the bottom section of the window. To test, use ALT-V-M on the Notes Tab, this brings up the List Selected Documents window.
 - Corrected Tabbing - When Editing/Creating a Note you can now tab to drawer buttons.
-- Drawers Navigation Corrected - Previously, users could get to the hidden drawer buttons by using the arrow keys when the buttons are hidden. Developers disabled navigating the drawer buttons with the arrow keys, so that the visually impaired users don’t have problems.
+- Drawers Navigation Corrected - Previously, users could get to the hidden drawer buttons by using the arrow keys when the buttons are hidden. Developers disabled navigating the drawer buttons with the arrow keys, so that the visually impaired users don't have problems.
 - Corrected Focus Problem after User Signed a Note - After a user signed a note, the note is removed from All Unsigned Notes pane. Previously, CPRS did not then focus on the Note TreeView. Now, the first Item in the TreeView gains focus.
 - Notes Properties Dialog - Date Range dialog boxes now highlight the text when they receive focus.
 - New Note Tab Order Corrected - Using Shift+tab now moves backwards in the tab order correctly from New Notes.
@@ -1112,7 +1153,7 @@ Review<u>/</u>Sign Changes and Sign Orders <u>Dialogs</u>
 - Changes to Enable Better Focus Tracking – Previously, it was difficult to tell what control (button, field, etc.) had focus when tabbing through the controls on the Review / Sign Changes and Sign Order dialogs. Developers created a new dialog component to correct the (TORStaticText). Now, when a user tabs to different controls, the on-screen text displays in bold font when the corresponding control has focus.
 - Keyboard Shortcut for Signature Screens - Developers added an Alt+S hot-key to the Sign Orders and Review/Sign Changes dialogs to allow a user to move the focus to the first order, regardless of where the focus currently is.
 - Question Marks that Were Not Spoken Now Cleared - When the checkboxes on the CIDC sign orders grid gains focus using the Tab key, the blue question mark in the checkboxes are now being cleared. That is, if a checkbox is tabbed into using the Tab key, and that checkbox contains a question mark, that checkbox is cleared. This change was made to accommodate screen reading software that could only determine if a box was checked or unchecked, but could not speak the question mark.
-- Check List Box Now Reading Correctly with Configuration File - The Window-Eyes screen reader software was not able to correctly read the Check List Box control (the ones used for indicating Treatment Factor and Service Connection information) on the CIDC Sign / Review and Sign Orders screens. To correct this problem, developers have distributed a Window-Eyes (WE) configuration file “CPRSCHAR.we” that users must install in the “WINEYES\Users\Default” directory on the machine running WE. Then, it will read the Check List Box.
+- Check List Box Now Reading Correctly with Configuration File - The Window-Eyes screen reader software was not able to correctly read the Check List Box control (the ones used for indicating Treatment Factor and Service Connection information) on the CIDC Sign / Review and Sign Orders screens. To correct this problem, developers have distributed a Window-Eyes (WE) configuration file "CPRSCHAR.we" that users must install in the "WINEYES\Users\Default" directory on the machine running WE. Then, it will read the Check List Box.
 
 Remote Data
 

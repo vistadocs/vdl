@@ -11,51 +11,48 @@ app_status: archive
 pkg_ns: IB
 patch_ver: 2.0
 patch_id: IB*2.0
-group_key: "IB:IB:2.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - insurance
-  - entry
-  - company
-  - buffer
-  - report
-  - payer
-  - patient
-  - table
-  - contents
-  - date
+group_key: IB:IB:2.0
+description: 1. The revision history cycle begins once changes or enhancements are requested after the document has been
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '36'
+- '355.3'
+- '355.32'
+- '355.33'
+- '355.4'
+- '365'
+- '365.1'
+- '365.11'
+- '365.12'
+- '365.19'
+security_keys:
+- COMPANY EDIT
+- GROUP PLAN EDIT
+- IB INSURANCE SUPERVISOR
+- IBCNE EICD REQUEST
+- IBCNE IIV SUPERVISOR
+- POLICY COMNT DELETE
+- PROVIDER
+- XUMGR
+menu_options: 1
 page_count: 0
-word_count: 27630
+word_count: 27612
 section_count: 42
 table_count: 6
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_eiv_iiu_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_eiv_iiu_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=266"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_eiv_iiu_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_eiv_iiu_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=266
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Electronic Insurance Verification &  
-  Interfacility Insurance Update
-
-  Integrated Billing  
-  Version 2.0
-
-  User Guide
----
-
 ![](ib-2-electronic-insurance-verification-eiv-and-interfacility-insurance-update-ii/001.png)
 
 September 2003  

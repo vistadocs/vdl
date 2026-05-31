@@ -1,13 +1,46 @@
 ---
-consolidated_title: "datup national installation guide"
-app_code: PRED
+title: DATUP Version 2 National Installation Guide
 doc_type: IG
-master_source: "DATUP Version 2 National Installation Guide"
+doc_label: Installation Guide
+doc_layer: anchor
+doc_subject: National
+app_code: PRED
+app_name: 'Pharmacy: Pharmacy Data Update (DATUP)'
+section: GUI
+app_status: active
+pkg_ns: PRED
+patch_ver: 2
+patch_id: PRED*2
+group_key: PRED:PRED:2
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '''The following list provides a brief description of the sections included in this document:'''
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 13031
+section_count: 14
+table_count: 3
+figure_count: 0
+appendix_count: 5
+has_toc: false
+is_stub: false
+pub_date: July 2014
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/pred_2_0_ign_r0714.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/pred_2_0_ign_r0714.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=203
+audit_applied: '2026-05-31'
+master_source: DATUP Version 2 National Installation Guide
 master_pub_date: July 2014
 consolidated_from: 3 versions
 prior_versions:
-  - "DATUP Version 3.0.01 National Installation Guide"
-  - "DATUP Version 3 National Installation Guide"
+- DATUP Version 3.0.01 National Installation Guide
+- DATUP Version 3 National Installation Guide
+consolidated_title: datup national installation guide
 ---
 
 National Data Update (DATUP) Installation Guide
@@ -162,7 +195,7 @@ REVISION HISTORY
 <td>October 8, 2010</td>
 <td>All</td>
 <td></td>
-<td><p>Renamed all instances of “PEDTUP” to “DATUP.</p>
+<td><p>Renamed all instances of "PEDTUP" to "DATUP.</p>
 <p>SwRI</p></td>
 </tr>
 <tr class="odd">
@@ -528,14 +561,14 @@ Table ‑. Terminology
 | Deployment Machine                                                 | Site-specific machine on which WebLogic is installed and runs                                                                                                                          | DATUP-N                               |
 | Deployment Server                                                  | WebLogic managed server where DATUP is deployed                                                                                                                                        | NationalPharmacyServer                |
 | Deployment Server Port                                             | Port on which the Deployment Server is listening                                                                                                                                       | 8010                                  |
-| Deployment Server’s class path directory                           | Folder location on the Deployment Server where libraries on the class path are located (see WebLogic documentation for instructions on setting a WebLogic managed server’s class path) | /opt/bea/domains/PRE/lib              |
+| Deployment Server's class path directory                           | Folder location on the Deployment Server where libraries on the class path are located (see WebLogic documentation for instructions on setting a WebLogic managed server's class path) | /opt/bea/domains/PRE/lib              |
 | Java Database Connectivity (JDBC) Universal Resource Locator (URL) | URL to connect to Oracle database                                                                                                                                                      | jdbc:Oracle://DATUP-N-db:1972/FDB_DIF |
 
 ## Assumptions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The installation instructions found within this guide are intended to be performed on a clean installation of WebLogic 10.3, with a separate managed server to act as the Deployment Server. For details on completing the installation of the following items, please refer to each item’s installation and configuration documentation supplied by Oracle.
+The installation instructions found within this guide are intended to be performed on a clean installation of WebLogic 10.3, with a separate managed server to act as the Deployment Server. For details on completing the installation of the following items, please refer to each item's installation and configuration documentation supplied by Oracle.
 
 For successful deployment of the DATUP software at a national site, the following assumptions must be met:
 
@@ -546,13 +579,13 @@ For successful deployment of the DATUP software at a national site, the followin
 - Red Hat Enterprise Linux 5.2 operating system is properly installed.
 - Domain Name Server (DNS) resolution is configured for the DATUP server.
 - The installation instructions are followed in the order that the sections are presented within this Installation Guide.
-- FDB-DIF v3.3 database is installed on the Database Server. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
+- FDB-DIF v3.3 database is installed on the Database Server. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
 
 ## Database Installation and Configuration
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following sections describe the operating system and software for the DATUP database tier installation and configuration. Initially, install and configure the operating system software according to the manufacturer’s specifications. Then configure the Oracle databases as specified in the following sections for DATUP to function properly.
+The following sections describe the operating system and software for the DATUP database tier installation and configuration. Initially, install and configure the operating system software according to the manufacturer's specifications. Then configure the Oracle databases as specified in the following sections for DATUP to function properly.
 
 ### Oracle Database 
 
@@ -560,7 +593,7 @@ The following sections describe the operating system and software for the DATUP 
 
 The DATUP database is designed to be operating system independent. The only constraint is that Oracle 11g Enterprise Edition – Production must be properly installed and configured. The following sections describe the installation, features, user creation, and configuration for the Oracle database.
 
-For successful deployment of the DATUP 2.0 application on the National DATUP instance, the FDB-DIF v3.3 database must be installed. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
+For successful deployment of the DATUP 2.0 application on the National DATUP instance, the FDB-DIF v3.3 database must be installed. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
 
 ### Oracle Installation
 
@@ -594,12 +627,12 @@ Step 1 – Create Tablespace and Schema Owner
 
 Prior to creation of the schema, logical and physical environment structures must be setup for storage of the schema database objects: tablespaces and data files. For the DATUP schema one tablespace must be created, DATUP. The default scripted DATUP tablespace path is /home/oracle/datup.dbf, which may be changed in the 1_CreateDatupSchema.sql script to match the installation environment prior to execution. This script also creates the schema owner DATUP as described below:
 
-- DATUP – Owner of the DATUP schema. The default scripted password is “DATUP”, which may be changed in the 1_CreateDatupSchema.sql script prior to installation. The script should be loaded as SYSTEM, or a user with account creation privileges.
+- DATUP – Owner of the DATUP schema. The default scripted password is "DATUP", which may be changed in the 1_CreateDatupSchema.sql script prior to installation. The script should be loaded as SYSTEM, or a user with account creation privileges.
 
   Step by Step Commands
 1.  Open a text editor and open the 1_CreateDatupSchema.sql script. Replace /home/oracle with the data file directory. The directory entered should already exist on the database server.
 1.  Login to the SQL client using a database account that has SYSDBA privileges (SYSTEM).
-2.  Execute the “1_CreateDatupSchema.sql” script.
+2.  Execute the "1_CreateDatupSchema.sql" script.
 3.  Check for errors.
 
 Step 2 – Create Schema Objects
@@ -609,18 +642,18 @@ Once the storage structures and schema have been created, execute the script 2_C
 Step by Step Commands
 
 2.  Login to the SQL client using the DATUP user account.
-4.  Execute the “2_CreateDatupTables.sql” script.
+4.  Execute the "2_CreateDatupTables.sql" script.
 5.  Check for errors.
 
 Step 3 – Create Application User
 
 Once the schema objects have been established, create the required DATUP application user by executing the script 3_CreateDatupAppUser.sql.
 
-- DATUP_APP_USER – Application user with read/update/delete access granted to the tables in the DATUP schema. The default scripted password is “DATUP_APP_USER”, which may be changed in the 3_CreateDatupAppUser.sql script prior to installation. The script should be loaded as SYSTEM, or a user with account creation privileges. The chosen DATUP_APP_USER password must match the password used to configure the JDBC data sources in Section 3.4.4.
+- DATUP_APP_USER – Application user with read/update/delete access granted to the tables in the DATUP schema. The default scripted password is "DATUP_APP_USER", which may be changed in the 3_CreateDatupAppUser.sql script prior to installation. The script should be loaded as SYSTEM, or a user with account creation privileges. The chosen DATUP_APP_USER password must match the password used to configure the JDBC data sources in Section 3.4.4.
 
   Step by Step Commands
 3.  Login to the SQL client using a database account that has SYSDBA privileges (SYSTEM).
-6.  Execute the “3_CreateDatupAppUser.sql” script.
+6.  Execute the "3_CreateDatupAppUser.sql" script.
 7.  Check for errors.
 
 ### Oracle Configuration and Data Load
@@ -651,13 +684,13 @@ The following sections detail the steps required to configure and deploy DATUP o
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The national DATUP Enterprise Application Archive (EAR) file contains all the required libraries for the proper functioning of the application. If any other applications have been deployed to the Deployment Server, there may be conflicting third-party libraries in the Deployment Server's class path that will cause DATUP to operate differently than expected. If versions on the Deployment Server’s class path differ from those defined in the DATUP Version Description Document (Version 1.0.00.002, dated November 12, 2010), the preferred solution is to remove the library from the Deployment Server's class path. If that is not possible, replace the libraries with the DATUP versions.
+The national DATUP Enterprise Application Archive (EAR) file contains all the required libraries for the proper functioning of the application. If any other applications have been deployed to the Deployment Server, there may be conflicting third-party libraries in the Deployment Server's class path that will cause DATUP to operate differently than expected. If versions on the Deployment Server's class path differ from those defined in the DATUP Version Description Document (Version 1.0.00.002, dated November 12, 2010), the preferred solution is to remove the library from the Deployment Server's class path. If that is not possible, replace the libraries with the DATUP versions.
 
 ### WebLogic Server Startup Configuration
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-DATUP requires additional arguments added to the WebLogic Server’s Server Start properties. This section details the steps to add the arguments to the server
+DATUP requires additional arguments added to the WebLogic Server's Server Start properties. This section details the steps to add the arguments to the server
 
 1.  Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at: http://\<Deployment Machine\>:7001/console.
 2.  Within the Domain Structure panel found in the left column of the WebLogic console, click on the Services \> JDBC \> Data Sources node. For reference, see Figure 3‑2.
@@ -748,7 +781,7 @@ DATUP uses two database connections by means of a data source to FDB-DIF in orde
 6.  For the Name, type FDB-DIF.
 7.  For the JNDI Name, type datasource/FDB-DIF.
 8.  For the Database Type, select Oracle.
-9.  For the Database Driver, verify that Oracle’s Drive (Thin) Versions:9.0.1, 9.2.0, 10, 11 is selected.
+9.  For the Database Driver, verify that Oracle's Drive (Thin) Versions:9.0.1, 9.2.0, 10, 11 is selected.
 10. Click Next.
 11. WebLogic will now display the panel Transaction Options in the right column of the console, where the transaction attributes for this data source are set. For reference, see Figure 3‑12.
 
@@ -832,7 +865,7 @@ DATUP uses two database connections by means of a data source to perform the aut
 6.  For the Name, type DATUP.
 7.  For the JNDI Name, type datasource/DATUP.
 8.  For the Database Type, select Oracle.
-9.  For the Database Driver, verify that Oracle’s Drive (Thin) Versions: 9.0.1, 9.2.0, 10, 11 is selected.
+9.  For the Database Driver, verify that Oracle's Drive (Thin) Versions: 9.0.1, 9.2.0, 10, 11 is selected.
 10. Click Next.
 11. WebLogic will now display the panel Transaction Options in the right column of the console, where the transaction attributes for this data source are set. For reference, see Figure 3‑22.
 
@@ -890,11 +923,11 @@ DATUP uses Log4j to provide debug and error logs. Although the application will 
 
 If the installation of Log4j is desired, the Java Archive (JAR) can be found within the national DATUP EAR, or it can be downloaded from the Internet. Please refer to the DATUP Version Description Document (Version 1.0.00.002, dated November 12, 2010) for the version required.
 
-To install Log4j, the Log4j JAR must be placed on the Deployment Server’s class path and the log4j.xml must be edited to include the DATUP appenders and loggers. Complete the following instructions to place the Log4j library on the Deployment Server’s class path. If Log4j is already installed on the Deployment Server, these steps do not need to be completed.
+To install Log4j, the Log4j JAR must be placed on the Deployment Server's class path and the log4j.xml must be edited to include the DATUP appenders and loggers. Complete the following instructions to place the Log4j library on the Deployment Server's class path. If Log4j is already installed on the Deployment Server, these steps do not need to be completed.
 
-1.  Locate the Deployment Server’s Class Path Directory.
+1.  Locate the Deployment Server's Class Path Directory.
 2.  Copy the log4j-1.2.15.jar file into a folder within the class path.
-3.  Configure WebLogic to include the Log4j library in the Deployment Server’s class path. Please refer to the WebLogic documentation provided by BEA for completing this step.
+3.  Configure WebLogic to include the Log4j library in the Deployment Server's class path. Please refer to the WebLogic documentation provided by BEA for completing this step.
 4.  Restart the Deployment Server to load Log4j.
 
 With Log4j installed on the Deployment Server, the log4j.xml file must be modified to include the DATUP configuration. Note that the appenders place the logs under a log folder. This folder must be created at the same directory level at which the Deployment Server is running. For example, /opt/bea/domains/PRE/log. Without this folder, Log4j will not be able to create the log files specified in the DATUP configuration. Alternatively, the file locations could be altered to be placed in a different location. Follow the steps below to complete this process:
@@ -967,7 +1000,7 @@ With Log4j installed on the Deployment Server, the log4j.xml file must be modifi
 
     \</appender\>
 
-    \<logger name="<span class="mark">REDACTED.pharmacy.peps</span>.common.utility.profile" additivity=”false”\>
+    \<logger name="<span class="mark">REDACTED.pharmacy.peps</span>.common.utility.profile" additivity="false"\>
 
     \<level value="info" /\>
 
@@ -1377,7 +1410,7 @@ JMS Message Topic
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-In order to filter FDB drug-drug interactions replaced by custom VA drug-drug interactions, the fdb_custom_ddimstrings FDB-DIF table must be populated with a mapping between the FDB-DIF interaction to be replaced and the custom VA drug-drug interaction. One attribute of this mapping is a configurable category code, with a default of FDB_ID. A file, <span class="mark">REDACTED.pharmacy.peps</span>.siteConfig.properties, can be placed within a folder on the Deployment Server’s class path in order to override this default. Follow the BEA WebLogic documentation for adding folders to a server’s class path. Each property is set via a key/value pair. For example, fdb.id.category=FDB_ID, where fdb.id.category is the key and FDB_ID is the value. Table 3‑3 defines the optional property.
+In order to filter FDB drug-drug interactions replaced by custom VA drug-drug interactions, the fdb_custom_ddimstrings FDB-DIF table must be populated with a mapping between the FDB-DIF interaction to be replaced and the custom VA drug-drug interaction. One attribute of this mapping is a configurable category code, with a default of FDB_ID. A file, <span class="mark">REDACTED.pharmacy.peps</span>.siteConfig.properties, can be placed within a folder on the Deployment Server's class path in order to override this default. Follow the BEA WebLogic documentation for adding folders to a server's class path. Each property is set via a key/value pair. For example, fdb.id.category=FDB_ID, where fdb.id.category is the key and FDB_ID is the value. Table 3‑3 defines the optional property.
 
 <span id="_Ref213809714" class="anchor"></span>Table ‑. Optional Site Configuration Properties
 
@@ -1395,7 +1428,7 @@ In order to use the DATUP component, a configuration file must be configured for
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-DATUP creates temporary zip files during the update process. A script has been provided in the /scripts/datupcleanup.sh file. This file provides a template to remove any files that DATUP creates during the update process. If the bash interpreter is not located at /bin/bash or the system’s default temporary directory is not located at /tmp, the script file must be updated, comments in the example file show which lines to change.
+DATUP creates temporary zip files during the update process. A script has been provided in the /scripts/datupcleanup.sh file. This file provides a template to remove any files that DATUP creates during the update process. If the bash interpreter is not located at /bin/bash or the system's default temporary directory is not located at /tmp, the script file must be updated, comments in the example file show which lines to change.
 
 To automate this process using the CRON scheduler, copy the file to the /etc/cron.weekly/ directory for weekly execution. If you wish this script to run more often, it can be copied to the /etc/cron.daily/ directory for daily execution. The script must be given execution permissions, so the command chmod 755 datupcleanup.sh must also be run on the command line.
 
@@ -1998,7 +2031,7 @@ fdb.batch.commit.size=0
 
 \#or not.
 
-\#The Parameter is “TRUE” for National and “FALSE” for
+\#The Parameter is "TRUE" for National and "FALSE" for
 
 \#LOCAL by default.
 

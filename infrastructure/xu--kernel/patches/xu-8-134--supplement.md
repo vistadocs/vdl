@@ -5,46 +5,52 @@ doc_label: Patch Description Document
 doc_layer: patch
 doc_subject: Supplement to Patch Description
 app_code: XU
-app_name: Name Standardization
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*134
-group_key: "XU:XU:8"
-file_numbers: 
-  - 20
-  - 200
-security_keys: []
-menu_options: 6
+group_key: XU:XU:8
 description: This supplemental documentation is intended for use in conjunction with the Name Standardization patch (Kernel Patch, XU\8.0\134). It outlines the details of the work involved in the Name Standardization patch and gives guidelines for how the generic APIs can be used to standardize the collection an
-audience: 
-keywords: 
-  - strong
-  - components
-  - person
-  - class
-  - table
-  - patch
-  - entry
-  - xlfname
-  - standard
-  - given
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '9.4'
+- '10.1'
+- '10.6'
+- '11'
+- '16'
+- '19'
+- '20'
+- '20.2'
+- '200'
+security_keys:
+- PROVIDER
+- XUPROGMODE
+menu_options: 6
 page_count: 0
 word_count: 22367
 section_count: 10
 table_count: 26
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Name_Standardization/krn8_0p134.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Name_Standardization/krn8_0p134.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=28"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Name_Standardization/krn8_0p134.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Name_Standardization/krn8_0p134.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=28
+audit_applied: '2026-05-31'
 ---
 
 ![](xu-8-134-supplement-to-patch-description/001.png)

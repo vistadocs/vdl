@@ -5,44 +5,36 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: with Modifications for Outpatient Pharmacy Versions 6 and 7
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2*3
-group_key: "PSX:PSX:2"
-file_numbers: []
+group_key: PSX:PSX:2
+description: CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP)Patch PSX\*2\*3Modifications for Outpatient Pharmacy 6.0/7.0INSTALLATION
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.54'
 security_keys: []
 menu_options: 0
-description: ![](psx-2-3-installation-guide-with-modifications-for-outpatient-pharmacy-versions-6/001.png)
-audience: 
-keywords: 
-  - cmop
-  - tasks
-  - resource
-  - installation
-  - step
-  - fileman
-  - manager
-  - transmission
-  - edit
-  - patch
 page_count: 0
 word_count: 2142
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_3ins.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_3ins.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_3ins.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_3ins.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](psx-2-3-installation-guide-with-modifications-for-outpatient-pharmacy-versions-6/001.png)

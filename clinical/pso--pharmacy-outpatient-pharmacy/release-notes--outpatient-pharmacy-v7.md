@@ -3,46 +3,46 @@ title: Outpatient Pharmacy Version 7 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '> The Outpatient Pharmacy (OP) package provides a way to manage the medication regimen of veterans seen in the outpatient clinics and to monitor and manage the workload and costs in the Outpatient Pharmacy.'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3.16'
+- '50'
+- '50.9'
+- '51'
+- '52'
+- '52.11'
+- '52.12'
+- '52.8'
+- '59.3'
 security_keys: []
 menu_options: 0
-description: > The Outpatient Pharmacy (OP) package provides a way to manage the medication regimen of veterans seen in the outpatient clinics and to monitor and manage the workload and costs in the Outpatient Pharmacy.
-audience: 
-keywords: 
-  - table
-  - contents
-  - actions
-  - outpatient
-  - pharmacy
-  - action
-  - bingo
-  - drug
-  - added
-  - board
 page_count: 0
 word_count: 1149
 section_count: 8
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/op_7_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/op_7_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/op_7_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/op_7_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ![](outpatient-pharmacy-version-7-release-notes/001.png)

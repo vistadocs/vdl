@@ -3,7 +3,7 @@ title: PRPF*4*4 VPFS Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: VPFS
 app_name: Veterans Personal Finance System
 section: GUI
@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: PRPF
 patch_ver: 4
 patch_id: PRPF*4*4
-group_key: "VPFS:PRPF:4"
+group_key: VPFS:PRPF:4
+description: Veterans Personal Finance System (VPFS)PRPF\*4\*4Release
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - vpfs
-  - access
-  - parent
-  - multiple
-  - stations
-  - station
-  - functionality
-  - prpf
 page_count: 0
-word_count: 410
+word_count: 403
 section_count: 2
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_4_4_release_notes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_4_4_release_notes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=170"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_4_4_release_notes.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/prpf_4_4_release_notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=170
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc205632711" class="anchor"></span>
----
-
 Veterans Personal Finance System (VPFS)PRPF\*4\*4Release Notes
 
 ![](prpf-4-4-vpfs-release-notes/001.png)

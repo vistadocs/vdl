@@ -1,341 +1,461 @@
 ---
-consolidated_title: "release notes"
-app_code: MD
+title: MD*1*29 Release Notes
 doc_type: RN
-master_source: "MD*1*23 Release Notes (CP Flowsheets)"
-master_pub_date: February 2012
-consolidated_from: 3 versions
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: null
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*29
+group_key: MD:MD:1
+file_numbers:
+- '702.09'
+security_keys: []
+menu_options: 0
+description: '- Introduction - Purpose - Background - Scope of Changes - Dependencies - Documentation - GUI Installation Instructions - [GUI Installation...'
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 2305
+section_count: 14
+table_count: 2
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: August 2014
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/icd-10_rn_md_1_29.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/icd-10_rn_md_1_29.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*29 Release Notes
+master_pub_date: August 2014
+consolidated_from: 6 versions
 prior_versions:
-  - "MD*1*12 Release Notes  (CP Flowsheets)"
-  - "MD*1*16 Release Notes (CP Flowsheets)"
+- MD*1*12 Release Notes (CP Flowsheets)
+- MD*1*14 Release Notes
+- MD*1*16 Release Notes (CP Flowsheets)
+- MD*1*21 Release Notes
+- MD*1*23 Release Notes (CP Flowsheets)
+consolidated_title: release notes
 ---
 
-> ![](md-1-23-release-notes-cp-flowsheets/001.png)
+ICD-10 Follow On Class 1 Software Remediation Project
 
-> CLINICAL PROCEDURES (CP) V2.0 FLOWSHEETS MODULE
+Clinical Procedures
 
-> RELEASE NOTES
+Application Version 1.0
 
-> MD\*1.0\*23
+Release Notes
 
-> February 2012
+MD\*1.0\*29
 
-> Department of Veterans Affairs Office of Information & Technology (OI&T)
+![](md-1-29-release-notes/001.png)
 
-> Product Development (PD)
+August 2014
 
-> Revision History
+Office of Information and Technology (OI&T)
 
-<table>
-<colgroup>
-<col style="width: 44%" />
-<col style="width: 24%" />
-<col style="width: 30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p><strong>Description</strong></p>
-</blockquote></th>
-<th><strong>Date</strong></th>
-<th><strong>Author</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>Initial version of MD*1.0*23 release notes</p>
-</blockquote></td>
-<td>November 2011</td>
-<td><mark>REDACTED</mark></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>Added IV dose rate content to Implementation Considerations-</p>
-<p>Installation section</p>
-</blockquote></td>
-<td>February 2012</td>
-<td><mark>REDACTED</mark></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Product Development
 
-> *This page intentionally left blank for double-sided printing.*
+Table of Contents
 
-> ii Clinical Procedures (CP) V2.0 Flowsheets Module February 2012 (MD\*1.0\*23) Release Notes
-
-> *This page intentionally left blank for double-sided printing.*
-
-# Release Notes for Patch MD\*1.0\*23
+# Introduction
 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Table of Contents
 
-- [Release Notes for Patch MD\1.0\23](#release-notes-for-patch-md1023)
-  - [Overview](#overview)
-- [Patch MD\1.0\23 Features](#patch-md1023-features)
-- [Implementation Considerations](#implementation-considerations)
-  - [Installation](#installation)
-  - [Validated Patient Monitoring Devices](#validated-patient-monitoring-devices)
-  - [Additional Medical Monitoring Devices](#additional-medical-monitoring-devices)
-> Patch MD\*1.0\*23 releases fixes and updates to the CP Flowsheet and CP Console applications that were initially released as part of MD\*1.0\*16.
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Background](#background)
+  - [Scope of Changes](#scope-of-changes)
+  - [Dependencies](#dependencies)
+  - [Documentation](#documentation)
+- [GUI Installation Instructions](#gui-installation-instructions)
+  - [GUI Installation Steps](#gui-installation-steps)
+- [ESRD ICD-10 Diagnosis Code Drop Down List](#esrd-icd-10-diagnosis-code-drop-down-list)
+  - [ESRD ICD-10 Diagnosis Code Updating Instructions](#esrd-icd-10-diagnosis-code-updating-instructions)
+- [CP Hemodialysis Summary Tab Modifications](#cp-hemodialysis-summary-tab-modifications)
+  - [Diagnosis Code Modifications](#diagnosis-code-modifications)
+  - [Short Description Display Modifications](#short-description-display-modifications)
+- [ICD-10 Searches](#icd-10-searches)
+  - [Search Features for ICD Diagnosis Codes](#search-features-for-icd-diagnosis-codes)
+  - [ICD-10 Search/Look-Up](#icd-10-searchlook-up)
+  - [ICD-10 Search/Look-Up Parameters](#icd-10-searchlook-up-parameters)
+- [Technical Information](#technical-information)
+  - [Routines](#routines)
+
+## Purpose
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The purpose of these Release Notes is to identify enhancements to the Clinical Procedures (CP) package contained in patch MD\*1.0\*29.
+
+## Background
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+On January 16, 2009, the Centers for Medicare & Medicaid Services (CMS) released a final rule for replacing the 30-year-old International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) code set with International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) and International Classification of Diseases, Tenth Revision, Procedure Coding System (ICD-10-PCS) with dates of service or dates of discharge for inpatients that occur on or after the ICD-10 activation date.
+
+The classification system consists of more than 68,000 codes, compared to approximately 13,000 ICD-9-CM codes. There are nearly 87,000 ICD-10-PCS codes, while ICD-9-CM has nearly 3,800 procedure codes. Both systems also expand the number of characters allotted from five and four respectively to seven alphanumeric characters. This value does not include the decimal point, which follows the third character for the ICD-10-CM code set. There is no decimal point in the ICD-10-PCS code set. These code sets have the potential to reveal more about quality of care, so that data can be used in a more meaningful way to better understand complications, better design clinically robust algorithms, and better track the outcomes of care. ICD-10-CM also incorporates greater specificity and clinical detail to provide information for clinical decision-making and outcomes research.
+
+> ICD-9-CM and ICD-10-CM Comparison
+
+<table>
+<colgroup>
+<col style="width: 51%" />
+<col style="width: 48%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ICD-9-CM Diagnosis Codes</th>
+<th>ICD-10-CM Diagnosis Codes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>13,000 codes</td>
+<td>68,000 codes</td>
+</tr>
+<tr class="even">
+<td>3-5 characters</td>
+<td>3-7 characters (not including the decimal)</td>
+</tr>
+<tr class="odd">
+<td>Character 1 is numeric (chapters 1-17) or alpha (E or V) (supplemental chapters)</td>
+<td>Character 1 is alpha<br />
+Character 2 is numeric</td>
+</tr>
+<tr class="even">
+<td>Characters 2-5 are numeric</td>
+<td>Characters 3–7 are alpha or numeric<br />
+(alpha characters are not case-sensitive)</td>
+</tr>
+<tr class="odd">
+<td>Decimal included after 3rd character</td>
+<td>Decimal included after 3rd character</td>
+</tr>
+</tbody>
+</table>
+
+## Scope of Changes
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> **NOTE:** Existing ICD-9 functionality has not changed.
+
+Patch MD\*1.0\*29 makes the following changes to the Clinical Procedures application:
+
+- For a period of time, Veterans Health Administration (VHA) will require the use of dual code sets (ICD-9-CM, ICD-10-CM) to accommodate outpatient dates of service (visit date, appointment date) and inpatient discharge dates prior to and following the ICD-10 activation date as well as for reporting and research purposes.
+- The VistA Clinical Procedures package does not utilize ICD procedure codes, therefore, there are no changes required for ICD-10-PCS.
+- CP Hemodialysis is the only module within Clinical Procedures that will utilize the ICD-10-CM code set.
+- VistA Clinical Procedures is a conduit for passing patient results from the vendor specific Commercial-Off-the-Shelf (COTS) instruments and VistA using Health Level 7 (HL7) messaging. The VistA CP MUMPS device interface used for HL7 interfaces with vendor instruments needs no revisions to accept ICD-10 diagnosis codes, because the ICD data are transmitted in a free text field in the HL7 message.
+- National Service Request: NSR 20070902, ICD-10-CM Conversion.
+
+The search functionality includes, but is not limited to, the following:
+
+- Diagnosis codes are increased from approximately 13,000 to 68,000.
+- Search features for diagnosis codes are standardized and enhanced.
+- Selection features for diagnosis codes using Add/Edit/Store can now be done three ways.
+- Problem List code replacement of inactive ICD codes with active ICD-10 codes is enabled.
+- Online forms will display "ICD-10" instead of "ICD-9" where appropriate.
+- Online forms enable selection of multiple or individual patients, and entry of notes and data in respective windows.
+
+## Dependencies
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+End Stage Renal Disease (ESRD) Diagnosis Codes table  
+The ESRD diagnosis codes are selected from the ESRD Diagnosis Codes table, a data list with customized ICD-9 textual data. The business owners/subject matter experts (SMEs) have provided updates to this custom data list with ICD-10-CM diagnoses for testing and implementation purposes.
+
+Lexicon Utility and Patient Care Encounter (PCE) Dependencies  
+The VistA Clinical Procedures Hemodialysis module is dependent on the Lexicon Utility to search for the ICD diagnoses and the PCE module to store the patient ICD diagnosis data. The interdependency between these VistA applications makes it essential that the VistA Lexicon and PCE ICD-10 patches be installed prior to the installation of the Clinical Procedures ICD-10 patches.
+
+ICD-10 Clinical Procedures Test Environment  
+An ICD-10 test environment needs to be created that mirrors a production medical center and has the ICD-10 Lexicon Utility, PCE and Clinical Procedures patches in place. It is essential to co-install these VistA applications because of the interdependencies for successful ICD-10 end-to-end integration testing and implementation.
+
+ICD Diagnosis Code Transmission  
+VistA CP is a conduit for passing patient results from the vendor-specific COTS instruments and VistA using HL7 messaging. The VistA CP MUMPS device interface needs no revisions to accept ICD-10 diagnosis codes from the free text field, but any changes due to ICD-10 implementation must be coordinated with the Hines Office of Information Field Office (OIFO) and the dialysis machine vendors.
+
+The VistA CP application has approved HL7 interfaces with dialysis machines from the following manufacturers: Gambro, Fresenius, and Braun. Diagnosis codes can be passed to CP Hemodialysis from these external software applications using the free text UNIVERSAL SERVICE ID field in the CP INSTRUMENT file (#702.09), which defines what type of procedure the device can perform. Since there is no VA standard list for hemodialysis devices, local facilities may or may not have Class III interfaces with VistA, which may capture ICD data.
+
+> External Dependencies Specific to CP Remote Procedure Calls (RPCs)
+
+| Name/Signature of the Component | Provider Application | Consumer Application | ICR   | ICD Related? |
+|---------------------------------|----------------------|----------------------|-------|--------------|
+| IN5^VADPT                       | Registration         | Clinical Procedures  | 10061 | Yes          |
+| \$\$DATA2PCE^PXAPI              | PCE                  | Clinical Procedures  | 1889  | Yes          |
+| \$\$DELVFILE^PXAPI              | PCE                  | Clinical Procedures  | 1890  | Yes          |
+| MAKE^TIUSRVP                    | TIU                  | Clinical Procedures  | 3535  | TBD          |
+| UPDATE^TIUSRVP                  | TIU                  | Clinical Procedures  | 3535  | TBD          |
+| SIGN^TIUSRVP2                   | TIU                  | Clinical Procedures  | 4795  | TBD          |
+| GETLST^IBDF18A                  | AICS                 | Clinical Procedures  | 1296  | Yes          |
+| CONFIG^LEXSET                   | Lexicon              | Clinical Procedures  | 1609  | Yes          |
+| LOOK^LEXA                       | Lexicon              | Clinical Procedures  | 2950  | Yes          |
+| \$\$GETENC^PXAPI                | PCE                  | Clinical Procedures  | 1894  | Yes          |
+| ENCEVENT^PXAPI                  | PCE                  | Clinical Procedures  | 1894  | Yes          |
+
+Patches  
+The following associated patches must be installed prior to installing MD\*1\*29:
+
+- MD\*1\*20
+- LEX\*2\*80
+- PX\*1\*199
+- IBD\*3\*63
+- ICD\*18\*57
+
+## Documentation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Clinical Procedures manuals are posted on the Department of Veterans Affairs (VA) Documentation Library (VDL) at [http://www.va.gov/vdl](http://www.va.gov/vdl139).
+
+The following Clinical Procedures user manuals are updated with changes for MD\*1.0\*29:
+
+- VistA Clinical Procedures Technical Manual Version 1.0 and Change Pages
+- VistA Clinical Procedures User Manual Version 1.0 Hemodialysis Module and Change Pages
+
+The following manuals do not contain changes relating to MD\*1.0\*29:
+
+- Implementation Guide Version 1.0
+
+The following manual does not exist for this package:
+
+- Security Guide
+
+> **NOTE:** Security Information is contained within the *VistA Clinical Procedures Technical Manual Version 1.0*.
+
+# GUI Installation Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Clinical Procedures Graphical User Interface (GUI) client software is being distributed as a self- extracting Install Shield executable. The installed executable for this patch is client version 1.0.29.22 with a size of 4.15 MB.
+
+- Application version: 1.0.29.22
+- CRC for Hemodialysis.exe: 30C8789D
+- File Name: MD1_0P29GUI_22.ZIP
+- GUI changes:
+- The default ICD-10 cut-off date is set to the ICD-10 activation date.
+- Comments added to the "ICD-10 Implementation date" parameter.
+
+> **NOTE:** This patch includes a revised Graphical User Interface (GUI) application that must be distributed to the appropriate workstations. After the patch is installed correctly, and the GUI is updated, the version of the GUI will be 1.0.29.22.
+
+## GUI Installation Steps
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+1.  Unzip the MD1_0P29GUI_22.ZIP into a temporary folder.
+2.  Open the temporary folder and double-click the Hemodialysis.exe file to begin the install.
+3.  Wait until the setup Wizard prepares the installation procedure. A Welcome message displays.
+4.  Click Next to continue the installation.
+5.  Select the directory in which to install the CP GUI. We recommend that you accept the default directory:
+    1.  Windows XP: C:\Program Files\Vista\Hemodialysis
+    2.  Windows 7: C:\Program Files(x86)\Vista\Hemodialysis
+
+> Note: We recommend using the default location if you have desktop shortcuts with parameters.
+
+6.  Click Next to proceed with installation.
+7.  Review the installation settings and click Install to proceed. The setup Wizard finishes the installation and a confirmation screen displays.
+8.  Click Finish.
+9.  This installs or updates the following files:
+1.  Hemodialysis.exe , size 4.15MB
+2.  Hemodialysis.hlp, size 937KB
+3.  Hemodialysis.cnt, size 4KB
+4.  RoboEX32.dll, size 1,020KB
+5.  Shortcut To Hemodialysis, size 1KB
+
+# ESRD ICD-10 Diagnosis Code Drop Down List
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The ESRD Diagnosis drop-down list is populated with ICD-9 and/or ICD-10 diagnosis codes, dependent on the Current Treatment Date.
+
+ESRD Diagnosis Drop-Down List
+
+![](md-1-29-release-notes/002.png)
+
+> **NOTE:** The default list of ICD-10 diagnosis codes contains more than 200 codes and can be updated by the Administrative user of the GUI application.
+
+## ESRD ICD-10 Diagnosis Code Updating Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+For Administrative user only: To update the default list of the ICD-10 codes manually, perform the following steps:
+
+1.  Start the application and log in as Admin user.
+2.  On the top left-hand corner of your screen, from the main menu, select Options.
+3.  From the drop-down on the left-hand side of your screen, select Custom Data Lists.
+4.  Select ESRD Diagnosis ICD10 from the list.
+
+> ESRD Diagnosis with ICD10 Selected
+
+> ![](md-1-29-release-notes/003.png)
+
+5.  Use "Add" and "Delete" buttons to modify the list of codes.
+6.  Once the codes have finished loading, click the Save To DB button.
+
+> Browse to ICD10 Diagnosis Code List to Load the List
+
+> ![](md-1-29-release-notes/004.png)
+
+1.  Once the codes have finished loading, click the Save To DB button.
+
+> Save To DB Button for ESRD ICD10
+
+> ![](md-1-29-release-notes/005.png)
+
+2.  The main window populates with the ICD-10 diagnosis codes.
+
+> ICD-10 Diagnosis Codes Loaded and Displayed
+
+> ![](md-1-29-release-notes/006.png)
+
+# CP Hemodialysis Summary Tab Modifications
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Within the CP Hemodialysis Patient Data Page Summary tab window, the ICD-10 diagnosis codes and descriptions display.
+
+> ICD-10 VistA CP Hemodialysis Summary Tab Display
+
+> Diagnosis (ICD Codes)
+
+> T39.011D Poisoning by aspirin, accident Primary
+
+The Diagnosis tab option, within the VistA CP Hemodialysis Patient Data Display Page Summary Tab, now has the ability to handle ICD-10 diagnoses codes from the "Diagnoses (ICD Codes)" prompt.
+
+> **NOTE:** Detailed information on the ICD-10 search ability is in Section 5, ICD-10 Searches.
+
+## Diagnosis Code Modifications
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+From the CP Hemodialysis Patient Data Page Summary Tab window, the VistA CP application can add/edit/store ICD-10 diagnosis codes (up to eight alphanumeric characters including the decimal point that follows the third character), depending on the Current Treatment Date field.
+
+> **NOTE:** Detailed information on the ICD-10 search ability is in Section 5, ICD-10 Searches.
+
+## Short Description Display Modifications
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+From the CP Hemodialysis Patient Data Display Page Summary tab window, primary ICD-10 diagnosis short descriptions are displayed if more than one diagnosis is associated with a treatment.
+
+> Display Primary Diagnosis Selection Example
+
+> ![](md-1-29-release-notes/007.png)
+
+> **NOTE:** Detailed information can be found in Section 5, ICD-10 Searches.
+
+# ICD-10 Searches
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Clinical Procedures package provides the ability to search on ICD-10-CM diagnosis codes.
+
+> **NOTE:** The VistA Clinical Procedures package does not utilize ICD procedure codes; therefore, there are no changes required for ICD-10-PCS.
+
+> **NOTE:** Existing ICD-9 functionality has not changed.
+
+## Search Features for ICD Diagnosis Codes
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+You are able to search on ICD-10-CM diagnosis codes from the Hemodialysis Patient Data Screen Summary tab through the "Diagnoses (ICD Codes)" prompt found on the Diagnosis tab. The search function allows you to do the following:
+
+- Search results include a manageable list of possible codes with descriptions that consist of any combination of categories, sub-categories, and valid codes.
+- You can "drill down" through the categories and sub-categories to identify a code that best matches the diagnosis.
+- Short descriptions for the codes can be displayed.
+- Partial and full code searches are enabled.
+- VistA Clinical Reminders when Clinical Reminders taxonomies are defined
+
+## ICD-10 Search/Look-Up
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The VistA CP User window, Hemodialysis Patient Data Screen Summary tab, allows ICD diagnosis code searches/lookups at the Diagnosis prompt using the Lexicon utility.
+
+> **NOTE:** The "Date of Interest" within the Lexicon Utility Requirements Specification Document (RSD) is equivalent to the PCE Visit date (Outpatient Appointment or Inpatient Encounter Date). Within CP, this date is referred to as Current Treatment Date and displayed in the Summary Tab.
+
+> **NOTE:** If the treatment date is prior to the ICD-10 activation date, the VistA Clinical Procedures Hemodialysis application shall retain the current search functionality for ICD-9-CM diagnosis codes and descriptions/definitions.
+
+The screen below shows the Hemodialysis Patient Data Screen Summary tab. To perform a search and/or add a diagnosis, follow the steps below.
+
+1.  To search for and add an ICD-10 diagnosis for a patient, click the Diagnosis option in the upper right-hand corner of the screen.
+
+> Patient Data Screen Summary Tab Showing Diagnosis Icon
+
+> ![](md-1-29-release-notes/008.png)
+
+2.  A dialogue box appears. Enter the diagnosis code in the Search text box and click Search. For this example, R59 is the code chosen.
+3.  The LexiconDiagnosis field populates, as does the Primary Diagnosis field.
+4.  Place a checkmark next to the code that is the Primary Diagnosis for that patient.
+5.  To add a Lexicon diagnosis to the Primary Diagnosis selected, highlight that Lexicon diagnosis and click the right pointingdouble arrow button between the two fields to move that diagnosis.
+6.  The newly added ICD-10 diagnosis now displays under the Primary Diagnosis field.
+
+> Primary Diagnosis Field Displaying the ICD-10 Codes
+
+> ![](md-1-29-release-notes/009.png)
+
+7.  Repeat this process until you have added all the Lexicon diagnoses needed. Once complete, click Save in PCE.
+8.  Return to the Hemodialysis Patient Data Screen Summary tab, the newly added diagnosis codes now display on the screen.
+
+> Hemodialysis Patient Data Screen Summary Tab Displaying Added Diagnosis Codes
+
+> ![](md-1-29-release-notes/010.png)
+
+## ICD-10 Search/Look-Up Parameters
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+If the Current Treatment Date in CP is prior to the ICD-10 activation date, then the search is conducted on ICD-9 codes. All searches associated with that date are in ICD-9 mode. Likewise, if the Current Treatment Date in CP is on or after to the ICD-10 activation date, then the search is conducted on ICD-10 codes. All searches associated with that date are in ICD-10 mode.
+
+If you try to search for an ICD-9 code under a PCE Visit Date that is on or after the ICD-10 activation date, the search results display a No Matches Found message.
+
+> Search Returns No Matches Example
+
+> ![](md-1-29-release-notes/011.png)
+
+# Technical Information
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Routines
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Some Clinical Procedures routines were modified to replace direct global reads and old Application Program Interfaces (APIs) with new Standards and Terminology Services (STS) APIs and Lexicon APIs wherever possible. The following new routines are added:
+
+New Routines
+
+| Modified API     | Function                                                                                       |
+|------------------|------------------------------------------------------------------------------------------------|
+| \$\$ICDDX^ICDEX  | To validate and retrieve the ICD data.                                                         |
+| \$\$ONE^LEXU     | Returns a single code for a given internal entry number (IEN) for a specified date and source. |
+| \$\$SINFO^ICDEX  | To determine the active coding system based on a date.                                         |
+| \$\$IMPDATE^LEXU | To determine the ICD-10 implementation date.                                                   |
+
+---
+
+## Appendix: Unique Sections from Prior Versions
+
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
+
+### From: MD*1*23 Release Notes (CP Flowsheets)
 
 ## Overview
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > MD\*1.0\*23 releases fixes and updates to CP Flowsheets and CP Console. See below for an individual list of fixes released.
-
-# Patch MD\*1.0\*23 Features
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 41%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Identifier</strong></th>
-<th><strong>Description</strong></th>
-<th><blockquote>
-<p><strong>Fix</strong></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CQ680</td>
-<td>General changes to permissions/access privileges</td>
-<td><ol type="1">
-<li><p>Instead of hiding the HL7 Tab in Flowsheets if the user does not have the CP HL7 MANAGER Key, the HL7 tab will be visible on an ongoing basis. However, the buttons to match a message to either a device or a patient will be disabled unless the user has HL7 MANAGER Key.</p></li>
-<li><p>In CP Console, user will need permission (via Vista’s XPAR EDIT PARAMETER - utility) for folder’s visibility. So, user can have access to various folders (VIEW, FS, SHIFT, TOTALS folders).</p></li>
-<li><p>Locking the Import/Export functionality. We will be locking Import/Export of Views, Procedures, and Instruments to be based on folder’s permission that is controlled by XPar. So, you will have ONLY access to Import/Export folders you have permission to. Example, if you have only access to Views and Procedures, you won’t be able to import/export Instruments.</p></li>
-<li><p>MD ADMIN access will remain as in V1, where s/he will have access to all functionality (ex import/exports), and ability to see edit folders, views….</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>CQ720</td>
-<td>Easier way to spot inactive terms</td>
-<td><blockquote>
-<p>All inactive terms now have a *</p>
-<p>postpended to the term name in CP</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 41%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Identifier</strong></th>
-<th><strong>Description</strong></th>
-<th><blockquote>
-<p><strong>Fix</strong></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td><blockquote>
-<p>Console</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>DM19.12</td>
-<td><p>When starting a supplemental view, have it default to that view upon final</p>
-<p>steps of opening process</p></td>
-<td><blockquote>
-<p>Fixed as described.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td><p>ADT</p>
-<p>Retransmit</p></td>
-<td>Ability for clinicians to re-transmit ADT feed (A08) to medical devices (inpatient or outpatient settings) without having to manually enter patient info on the device.</td>
-<td><blockquote>
-<p>Modified CP Flowsheets. If the patient is an inpatient, a new menu option will appear in the CP Flowsheets “File”</p>
-<p>menu: “Resend Last Message to</p>
-<p>Monitor”. If the Patient is an outpatient, a new menu option will appear in the CP Flowsheets “File” menu: “Send PII to Monitor”, along with a list of monitors</p>
-<p>that support A08 messages.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ580</td>
-<td>General Comment not shown on screens or reports</td>
-<td><blockquote>
-<p>Per SME agreement, we are removing this field in P23 and have tabled it for more analysis.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>CQ681</td>
-<td>Auto-Refresh was non-functional</td>
-<td><blockquote>
-<p>Fixed and enabled auto-refresh.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ705</td>
-<td><p>The column headings in the data entry screen were not lining up with the</p>
-<p>columns beneath</p></td>
-<td><blockquote>
-<p>Realigned column headings.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>Terminology Update – Remedy ticket 496628</td>
-<td>Improve the interoperability of the terminology conversion for units of measure</td>
-<td><blockquote>
-<p>The unit conversion for some observations do not convert equally due to a none existent measurement that is needed for the conversion. This causes an error in the Flowsheets reporting mechanism. This patch shall remove the unit from the observation. As a result, this will improve the interoperability of</p>
-<p>the terminology conversion.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>NK</td>
-<td><p>Enable official support for Nihon-</p>
-<p>Koden devices</p></td>
-<td><blockquote>
-<p>Nihon-Koden devices are now officially</p>
-<p>supported.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>CQ711</td>
-<td><p>Ability to Save changes to TIU Note</p>
-<p>in CPConsole</p></td>
-<td><blockquote>
-<p>Fixed TIU note selection to ensure note</p>
-<p>changes are saved.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ695</td>
-<td><p>Space needed between title and date in</p>
-<p>Report/TIU note</p></td>
-<td><blockquote>
-<p>Added space.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td><p>CQ708 –</p>
-<p>Remedy ticket 525716</p></td>
-<td><p>Ability to see data entered in a Supplemental Page if the page</p>
-<p>definition is changed to Optional in Flowsheet definition</p></td>
-<td><blockquote>
-<p>Modified Flowsheets to display the data. Note that changing view definitions</p>
-<p>from Supplemental to Optional is still strongly discouraged.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ579</td>
-<td>Remove location selection from TIU note, as location selected was not shown in TIU.</td>
-<td><blockquote>
-<p>Due to TIU business rules, sending a location has no effect unless/until a visit is created for the location prior to the note being generated. Adding visits to</p>
-<p>TIU was beyond the scope of the patch,</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 41%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Identifier</strong></th>
-<th><strong>Description</strong></th>
-<th><blockquote>
-<p><strong>Fix</strong></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td><blockquote>
-<p>so ability to select a location was</p>
-<p>removed.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><p>CQ715 –</p>
-<p>Remedy Ticket 525716</p></td>
-<td>The report tab in CP Flowsheets is not correctly filtering observations that were entered in a supplemental view.</td>
-<td><blockquote>
-<p>Filtering was enhanced to ensure that totals for each supplemental view were accurate.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>CQ638</td>
-<td>Add ability to show comments for an observation as a hint</td>
-<td><blockquote>
-<p>Due to Windows restrictions, adding a hint was not feasible. Instead, a status bar was added in each view between the title bar and the view grid which will show observation information and comments when an observation is</p>
-<p>hovered over.</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ712</td>
-<td><p>Spell out qualifiers for Juice and Water. Currently, only the first letter (“J” or “W” show up in flowsheets or</p>
-<p>TIU note)</p></td>
-<td><blockquote>
-<p>Corrected as part of the terminology update.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>CQ713</td>
-<td><p>Take out date/time as part of TIU Note</p>
-<p>entry</p></td>
-<td><blockquote>
-<p>See fix for CQ579</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td>CQ714</td>
-<td><p>Allow copy of procedures and</p>
-<p>instruments in CP Console</p></td>
-<td><blockquote>
-<p>Fixed as described.</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>Remedy Ticket 554645</td>
-<td>PSI – Location, Position, Method, and Product not being shown in Flowsheet view title bar</td>
-<td><blockquote>
-<p>Added Location, Position, Method, and Product to bottom left of title bar for supplemental views, as well as to the end of the title description (to ensure visibility to JAWS). REMOVED Location, Position, Method, and Product from Optional views, as their presence</p>
-<p>can be misleading and confusing.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
-
-# Implementation Considerations
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Installation
 
@@ -386,12 +506,6 @@ prior_versions:
 > *This page intentionally left blank for double-sided printing.*
 
 > .
-
----
-
-## Appendix: Unique Sections from Prior Versions
-
-_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
 ### From: MD*1*16 Release Notes (CP Flowsheets)
 
@@ -518,13 +632,13 @@ _These sections appeared in earlier versions of this document but are not presen
 </tbody>
 </table>
 
-### From: MD*1*12 Release Notes  (CP Flowsheets)
+### From: MD*1*12 Release Notes (CP Flowsheets)
 
 ## Support HL7 ADT Messages
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> CP Flowsheets introduced an Admission Discharge and Transfer (ADT) Health Level 7 (HL7) message feed. This ADT feed monitors the admitted, discharged, and transferred events from the Patient Information Management System (PIMS) and notifies interested patient medical monitoring devices via HL7 version 2.4 messages. Patch MD\*1.0\*12 provides HL7 messaging apparatus that eliminates CP Flowsheets’ dependency on VDEF. There are occasions during a PIMS ADT discharge/cancel discharge events when room/bed information is not provided. With the support of patch MD\*1.0\*12, CP Flowsheets will transmit ADT discharge (A03)/cancel discharge (A13) messages when those events are triggered by PIMS inpatient activity when there is no room/bed information supplied.
+> CP Flowsheets introduced an Admission Discharge and Transfer (ADT) Health Level 7 (HL7) message feed. This ADT feed monitors the admitted, discharged, and transferred events from the Patient Information Management System (PIMS) and notifies interested patient medical monitoring devices via HL7 version 2.4 messages. Patch MD\*1.0\*12 provides HL7 messaging apparatus that eliminates CP Flowsheets' dependency on VDEF. There are occasions during a PIMS ADT discharge/cancel discharge events when room/bed information is not provided. With the support of patch MD\*1.0\*12, CP Flowsheets will transmit ADT discharge (A03)/cancel discharge (A13) messages when those events are triggered by PIMS inpatient activity when there is no room/bed information supplied.
 
 ## Support Plan
 

@@ -3,7 +3,7 @@ title: IB*2*433/PRCA*4.5*270 eBilling - Preserve Claim Number When Cloning Relea
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*433
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '- Introduction - Hardware Compatibility - System Specifications - Installation and Configuration Notes - Supported Functionality - [Release Changes and...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '430'
 security_keys: []
 menu_options: 5
-description: 
-audience: 
-keywords: 
-  - bill
-  - table
-  - contents
-  - claim
-  - span
-  - correct
-  - patient
-  - cancel
-  - number
-  - class
 page_count: 0
 word_count: 1930
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_433_prca_45_270_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_433_prca_45_270_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_433_prca_45_270_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_433_prca_45_270_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 eBilling – Preserve Claim Number When Cloning

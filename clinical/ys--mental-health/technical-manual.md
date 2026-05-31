@@ -8,42 +8,46 @@ app_code: YS
 app_name: Mental Health
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 200
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - blockquote
-  - even
-  - table
-  - style
-  - width
-  - patient
-  - contents
-  - code
-  - health
+pkg_ns: YS
+patch_ver: null
+patch_id: null
+group_key: null
+description: Technical Manual/Security GuideVersion 2.5March 2012Revised September 2021Department of Veterans AffairsOffice of Information and Technology (OIT)Product DevelopmentRevision
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3.8'
+- '16'
+- '19'
+- '200'
+- '602'
+- '603.05'
+- '736'
+- '771'
+- '779.2'
+- '870'
+- '8994'
+security_keys:
+- ENTER
+- RUBOUT
+menu_options: 1
 page_count: 0
 word_count: 31928
 section_count: 27
 table_count: 8
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_mha_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_mha_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_mha_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_mha_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 Mental HealthAndMental Health Assistant Version 3

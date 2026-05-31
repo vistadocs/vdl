@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1
-group_key: "EAS:EAS:1"
+group_key: EAS:EAS:1
+description: Verified document is Section 508 conformant. Set Document version to 1.0 for final
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - deployment
-  - production
-  - back
-  - messages
-  - vista
-  - enterprise
-  - connect
-  - health
 page_count: 0
-word_count: 6280
+word_count: 6255
 section_count: 30
 table_count: 4
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/HC_ESR_MVR_DIBRG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/HC_ESR_MVR_DIBRG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/HC_ESR_MVR_DIBRG.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/HC_ESR_MVR_DIBRG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>InterSystems Health Connect (HC) / Enrollment System / Master Veteran Record (ESR/MVR)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](eas-version-1-health-connect-esr-mvr-deployment-installation-back-out-and-rollba/001.png)
 
 March 2019

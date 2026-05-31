@@ -5,44 +5,40 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Titration/Maintenance Rx
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*313
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '- Introduction - Purpose - Enhancements - Complex Orders Duration Field - Titration/Maintenance Rx - New Files and Fields - New Protocols - [New...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '45.1'
+- '45.2'
+- '45.3'
+- '52'
+- '101'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - titration
-  - table
-  - maintenance
-  - contents
-  - prescription
-  - order
-  - dose
-  - patient
-  - complex
-  - duration
 page_count: 0
 word_count: 2197
 section_count: 16
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p313_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p313_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p313_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p313_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-313-titration-maintenance-rx-release-notes/001.png)

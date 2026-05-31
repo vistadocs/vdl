@@ -5,44 +5,35 @@ doc_label: Installation Guide
 doc_layer: anchor
 doc_subject: Local Install Guide
 app_code: PRED
-app_name: "Pharmacy: Pharmacy Data Update (DATUP)"
+app_name: 'Pharmacy: Pharmacy Data Update (DATUP)'
 section: GUI
 app_status: active
 pkg_ns: PRED
 patch_ver: 1.0.00.003
 patch_id: PRED*1.0.00.003
-group_key: "PRED:PRED:1.0.00.003"
+group_key: PRED:PRED:1.0.00.003
+description: '''The following list provides a brief description of the sections included in this document:'''
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "The following list provides a brief description of the sections included in this document:"
-audience: 
-keywords: 
-  - figure
-  - datup
-  - span
-  - local
-  - class
-  - weblogic
-  - console
-  - server
-  - install
-  - version
 page_count: 0
 word_count: 9919
 section_count: 15
 table_count: 9
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/15168_datup_igl_v1-0-00-003.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/15168_datup_igl_v1-0-00-003.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=203"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/15168_datup_igl_v1-0-00-003.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/15168_datup_igl_v1-0-00-003.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=203
+audit_applied: '2026-05-31'
 ---
 
 15168-DATUP_IGL-V1.0.00.003

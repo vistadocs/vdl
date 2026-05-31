@@ -3,7 +3,7 @@ title: Nutrition & Food Services Version 5.5 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: FH
 app_name: Nutrition and Food Service
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5
-group_key: "FH:FH:5.5"
-file_numbers: []
+group_key: FH:FH:5.5
+description: Version 5.5February 2005Department of Veterans AffairsVistA Health System Design & Development
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '115'
+- '200'
 security_keys: []
 menu_options: 12
-description: Version 5.5February 2005Department of Veterans AffairsVistA Health System Design & Development
-audience: 
-keywords: 
-  - meals
-  - outpatient
-  - table
-  - nutrition
-  - contents
-  - meal
-  - class
-  - food
-  - special
-  - allows
 page_count: 0
 word_count: 1066
 section_count: 2
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 1
 revision_newest: 02/24/2005
 revision_oldest: 02/24/2005
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 ![](nutrition-food-services-version-5-5-release-notes/001.png)

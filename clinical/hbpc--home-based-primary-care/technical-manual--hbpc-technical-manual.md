@@ -3,46 +3,54 @@ title: HBPC Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: HBPC
+patch_ver: null
+patch_id: null
+group_key: null
+description: Version 1.0March 2001Revised August 2021Department of Veterans AffairsOffice of Information and TechnologyProduct
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '4'
+- '5'
+- '8'
+- '40.8'
+- '44'
+- '200'
+- '631'
+- '631.4'
+- '631.9'
+- '632'
+- '633.2'
+- '634.2'
+- '900001'
+security_keys:
+- HBHC MANAGER
+- HBHC TRANSMIT
+- MEDICAL FOSTER HOME
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - hbhc
-  - home
-  - class
-  - table
-  - contents
-  - foster
-  - date
-  - medical
-  - package
-  - discharge
 page_count: 0
 word_count: 6345
 section_count: 6
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
 
 Home Based Primary CareTechnical Manual

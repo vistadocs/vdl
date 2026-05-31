@@ -1,53 +1,57 @@
 ---
 title: HL7 V. 1.6*161 Site Manager Developer Manual
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: 
-  - 3
-  - 772
-  - 773
-  - 869
-  - 870
+patch_id: null
+group_key: HL7::1.6
+description: Links (also known as logical links) describe the complete network path to a given system. They are similar in function to VA MailMan's Domain file and Kernel's Device file. Link entries hold the details of how to connect to the target system, such as IP address and Port. For every target system that
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '3.8'
+- '4'
+- '4.2'
+- '5'
+- '8'
+- '101'
+- '200'
+- '770'
+- '771'
+- '771.17'
+- '771.7'
+- '772'
+- '773'
+- '774'
+- '869.2'
+- '869.3'
+- '870'
 security_keys: []
 menu_options: 3
-description: Links (also known as logical links) describe the complete network path to a given system. They are similar in function to VA MailMan's Domain file and Kernel's Device file. Link entries hold the details of how to connect to the target system, such as IP address and Port. For every target system that
-audience: 
-keywords: 
-  - strong
-  - message
-  - table
-  - link
-  - contents
-  - messages
-  - class
-  - vista
-  - links
-  - application
 page_count: 0
 word_count: 55658
 section_count: 88
 table_count: 84
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1999
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6smdm_p161.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6smdm_p161.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6smdm_p161.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6smdm_p161.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-v-1-6-161-site-manager-developer-manual/001.png)

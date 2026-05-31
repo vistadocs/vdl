@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: and OR*3*429 Problem Selection List Enhancements
 app_code: GMPL
-app_name: "CPRS: Problem List"
+app_name: 'CPRS: Problem List'
 section: CLI
 app_status: active
 pkg_ns: GMPL
 patch_ver: 2
 patch_id: GMPL*2*49
-group_key: "GMPL:GMPL:2"
+group_key: GMPL:GMPL:2
+description: Problem Selection List Enhancements (Patches GMPL\*2.0\*49 and OR\*3.0\*429)Release
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- GMPL IMPRT UTIL
 menu_options: 0
-description: <span class="smallcaps">Problem Selection List Enhancements (Patches GMPL\2.0\49 and OR\3.0\429)</span><span class="smallcaps">Release Notes</span>
-audience: 
-keywords: 
-  - span
-  - selection
-  - problem
-  - class
-  - gmpl
-  - enhancements
-  - patches
-  - anchor
-  - package
-  - lists
 page_count: 0
 word_count: 517
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=64"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=64
+audit_applied: '2026-05-31'
 ---
 
 <span class="smallcaps">Problem Selection List Enhancements (Patches GMPL\*2.0\*49 and OR\*3.0\*429)</span><span class="smallcaps">Release Notes</span>

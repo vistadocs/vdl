@@ -1,24 +1,54 @@
 ---
-consolidated_title: "vista imaging exchange (vix) installation guide"
-app_code: MAG
+title: VistA Imaging Exchange (VIX) Installation Guide
 doc_type: IG
-master_source: "VistA Imaging Exchange (VIX) Installation Guide"
+doc_label: Installation Guide
+doc_layer: plain
+doc_subject: VistA Imaging Exchange (VIX)
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: active
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers:
+- '1'
+- '4'
+- '99'
+- '200'
+security_keys:
+- DIUSER
+- MAG VIX ADMIN
+menu_options: 0
+description: '''This document explains how to install the VistA Imaging eXchange (VIX) service. Please follow the install checklist in Appendix E: VIX Install Checklist at the same time as you follow the main sections of this document. To do that, most people open two copies of this document at once.'''
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 17396
+section_count: 28
+table_count: 4
+figure_count: 0
+appendix_count: 5
+has_toc: false
+is_stub: false
+pub_date: January 2025
+revision_count: 96
+revision_newest: 01/17/2025
+revision_oldest: 10/14/2011
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_48_4_vx_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_48_4_vx_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
+master_source: VistA Imaging Exchange (VIX) Installation Guide
 master_pub_date: January 2025
 consolidated_from: 5 versions
 prior_versions:
-  - "MAG*3*269 VistA Imaging Exchange (VIX) Installation Guide"
-  - "MAG*3*303 VistA Imaging Exchange (VIX) Installation Guide"
-  - "MAG*3*329 VistA Imaging Exchange (VIX) Installation Guide"
-  - "MAG*3*348 VistA Imaging Exchange (VIX) Installation Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Imaging eXchange (VIX) Enhancements and Maintenance
-
-  MAG\*3.0\*<span id="PatchNumber" class="anchor"></span>358
-
-  VIX Installation Guide
+- MAG*3*269 VistA Imaging Exchange (VIX) Installation Guide
+- MAG*3*303 VistA Imaging Exchange (VIX) Installation Guide
+- MAG*3*329 VistA Imaging Exchange (VIX) Installation Guide
+- MAG*3*348 VistA Imaging Exchange (VIX) Installation Guide
+consolidated_title: vista imaging exchange (vix) installation guide
 ---
 
 ![](vista-imaging-exchange-vix-installation-guide/001.png)
@@ -228,7 +258,7 @@ This document uses the following conventions:
 
 Controls, options, and button names are displayed in Bold.
 
-A vertical bar is used to separate successive menu choices. For example: “Click File \| Open” means: “Click the File menu; then click the Open option.”
+A vertical bar is used to separate successive menu choices. For example: "Click File \| Open" means: "Click the File menu; then click the Open option."
 
 Keyboard key names are displayed in bold and in brackets.
 
@@ -248,7 +278,7 @@ The VIX is a component of VistA Imaging and is regulated as a medical device by 
 
 ![](vista-imaging-exchange-vix-installation-guide/003.png)The FDA classifies VistA Imaging and the VIX (as VistA Imaging component) as a medical device. Unauthorized modifications to VistA Imaging, including the VIX, such as installing unapproved software, adulterates the medical device. The use of an adulterated medical device violates US federal law (21CFR820).
 
-![](vista-imaging-exchange-vix-installation-guide/004.png)Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator’s knowledge, sites must exclude the VIX server from such systems.
+![](vista-imaging-exchange-vix-installation-guide/004.png)Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator's knowledge, sites must exclude the VIX server from such systems.
 
 ## Related Information
 
@@ -256,7 +286,7 @@ The VIX is a component of VistA Imaging and is regulated as a medical device by 
 
 In addition to this manual, the following document contains information about the VIX:
 
-[VIX Administrator’s Guide](https://www.va.gov/vdl/application.asp?appid=105)
+[VIX Administrator's Guide](https://www.va.gov/vdl/application.asp?appid=105)
 
 # Installing a New VIX
 
@@ -272,7 +302,7 @@ TIP: If you are updating an existing VIX, do not use this section; instead, use 
 
 Preparing to install a new VIX involves:
 
-- Configuring the MUSE interface is optional. If using the MUSE interface, this requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site’s online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
+- Configuring the MUSE interface is optional. If using the MUSE interface, this requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site's online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
 - Acquiring Installation File. Copy MAG3_0P358_VIX_SETUP.msi to C:\temp. (Download if required. See the patch description of the patch for the download location.)
 - Selecting and validating the server where the VIX gets installed, see *Selecting and Validating the VIX Server*.
 - Getting VIX component licenses, see *Getting VIX Component Licenses*.
@@ -406,11 +436,11 @@ The following steps are used to install a VIX on a server for the first time. In
 
 Before starting the VIX installation process, do the following:
 
-1.  If using the MUSE interface, as already stated in Section 2.1, configuring requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site’s online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
+1.  If using the MUSE interface, as already stated in Section 2.1, configuring requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site's online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
 2.  Prepare a password to be used for the Apache Tomcat administrator account created as part of the VIX installation process.
 - The password is case sensitive, must contain at least eight (8) alphanumeric characters, and must contain at least one capital letter and one number.
 3.  Prepare a password for the Windows account that the VIX installation process creates.
-- The system uses this Windows account, named “apachetomcat” when it is created by the VIX installer, to run the VIX in the Tomcat environment. This account is limited to only the functions it needs to run the VIX.
+- The system uses this Windows account, named "apachetomcat" when it is created by the VIX installer, to run the VIX in the Tomcat environment. This account is limited to only the functions it needs to run the VIX.
 - The password is case sensitive, must contain at least fourteen (14) alphanumeric characters, and must contain at least one capital letter and one number.
 4.  To use the Release of Information (ROI) and DICOM Query Retrieve Service Class Provider (SCP), set up a local VistA service account as specified in *Appendix D: Service Account Settings*.
 5.  Determine the email address or addresses for notification about invalid ROI periodic processing credentials. The VIX sends an email notification to the email address or addresses if the ROI periodic processing credentials are invalid or have expired. You must specify this address when you install the VIX. You can set up a new email account for this purpose or use an existing one.
@@ -429,7 +459,7 @@ VIX installation involves running two processes back-to-back. The first short pr
 6.  If you did not already do this, copy the latest VIX installer (MAG3_0P358_VIX_SETUP.msi) to C:\temp.
 7.  Do the following to prepare the VIX Service Installation Wizard:
 1.  Right-click the MAG3_0P358_VIX_SETUP.msi file and click on Install.
-2.  While running the VIX Service Installation Wizard, if prompted with “Do you want to allow the following program from a verified publisher to make changes to this computer?”, click Yes (Figure 2).
+2.  While running the VIX Service Installation Wizard, if prompted with "Do you want to allow the following program from a verified publisher to make changes to this computer?", click Yes (Figure 2).
 
 <span id="_Ref67914042" class="anchor"></span>Figure : User Account Control - VIX Service Installation Wizard
 
@@ -457,7 +487,7 @@ VIX installation involves running two processes back-to-back. The first short pr
 
 ![](vista-imaging-exchange-vix-installation-guide/008.png)
 
-9.  If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes (Figure 4).
+9.  If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes (Figure 4).
 
 <span id="_Ref90060692" class="anchor"></span>Figure : User Account Control - VIX Installer
 
@@ -483,7 +513,7 @@ When the installation of .NET Framework 4.8 completes, click Finish (Figure 7) a
 
 ![](vista-imaging-exchange-vix-installation-guide/013.png)
 
-After the server reboots, Run the VIX Service Installation Wizard as an administrator and if prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes, as discussed in steps 4 and 5, and then continue to step 7.
+After the server reboots, Run the VIX Service Installation Wizard as an administrator and if prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes, as discussed in steps 4 and 5, and then continue to step 7.
 
 11. When the Welcome page for the VIX Service Installation Wizard displays, click Next.
 12. In the Site Number field of the Specify the VA site... page, enter the STATION NUMBER (field (#99) in the INSTITUTION file (#4) of your site, the information is in FileMan in VistA).
@@ -508,7 +538,7 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 
 ![](vista-imaging-exchange-vix-installation-guide/019.png)
 
-> **NOTE:** The person installing the VIX software does not need to be in the VHAMASTER domain. The installer’s domain should appear with their name. This (and subsequent screenshots) is just an example of what the installer sees.
+> **NOTE:** The person installing the VIX software does not need to be in the VHAMASTER domain. The installer's domain should appear with their name. This (and subsequent screenshots) is just an example of what the installer sees.
 
 17. On the same page, read the line that indicates the state of the Apache Tomcat installation. Since you may have reached this page by clicking the Back button on a subsequent page, if ![](vista-imaging-exchange-vix-installation-guide/020.png) displays, skip to the next step. If ![](vista-imaging-exchange-vix-installation-guide/021.png) displays (Figure 11), do the following:
 1.  Click Install.
@@ -543,12 +573,12 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
     4.  End User name and End User email – the administrator of your local VistA Imaging system.
     5.  Maintenance Contact Name, Maintenance Contact E-mail, and Maintenance Contact Phone – information for the Health, Clinical Services Diagnostics Team.
 8.  Near the bottom of the window, click Activate. After a brief delay, the Status box displays a message.
-9.  If a green “Success” message appears click Exit with success and skip to the next prerequisite step, otherwise select the Manual Activation tab.
+9.  If a green "Success" message appears click Exit with success and skip to the next prerequisite step, otherwise select the Manual Activation tab.
 10. If network activation was not successful, for Manual Activation do the following:
 1.  Select the Manual Activation tab.
 2.  On the Manual Activation tab on the line Activation Code, enter the activation code.
 3.  Near the bottom of the window, click Activate. After a brief delay, the Status box displays a message.
-4.  If a green “Success” message appears click Exit with success and skip to the next prerequisite step, otherwise download the Laurel Bridge license from Laurel Bridge’s website and continue with the steps below.
+4.  If a green "Success" message appears click Exit with success and skip to the next prerequisite step, otherwise download the Laurel Bridge license from Laurel Bridge's website and continue with the steps below.
 
     NOTE: If downloading the Laurel Bridge license, such as using the Manual Product License Activation from <https://laurelbridge.com/product_activation.php>, please select the Version in the drop-down as 3.3.x before clicking Submit.
 5.  Click Exit with error to close out of the Manual Activation tab.
@@ -593,7 +623,7 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 
 ![](vista-imaging-exchange-vix-installation-guide/047.png)
 
-25. In the Specify the location page, select the drive for the VIX configuration files to reside. Select the “C:\\ drive for the VixConfig folder. Then, click Create.
+25. In the Specify the location page, select the drive for the VIX configuration files to reside. Select the "C:\\ drive for the VixConfig folder. Then, click Create.
 26. On the same page, select the drive where to create the VIX cache. Select the appropriate VixCache drive for your site (E: is displayed as an example in Figure 19). Then, click Create.
 27. On the same page, select the drive where to create the VIX log archive. Select the appropriate VIX log archive drive for your site (E: is displayed as an example in Figure 19). Then, click Create.
 
@@ -663,7 +693,7 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 5.  Verify Site Service \> Port Number is <span class="mark">REDACTED</span>.
 6.  Verify VIX Service \> Host Name is localhost.
 7.  Verify Database \> Instance Name is C:\Program Files\VistA\Imaging\VIX.Render.Service\Db\SQLiteDb.db.
-15. Edit image cache directory drive to the dedicated VIX cache drive. (i.e., “E:\VIXRenderCache”)
+15. Edit image cache directory drive to the dedicated VIX cache drive. (i.e., "E:\VIXRenderCache")
 16. If setting values were modified, click the Save Configuration button in the top right corner.
 17. Click OK.
 18. The installation updates the VIX Viewer/Render Services in the background. Then the VIX installation will finish. This takes up to over five minutes to complete.
@@ -707,7 +737,7 @@ After the VIX is registered in the site service, the VIX begins to be actively u
 - Network Name defined for Imaging Resources group:
 35. Enter a National ticket to the Health, Clinical Services Diagnostics Team (previously known as Clin 3, the group name is SPM.Health.ClinSvs.Diag) for a site service update.
 1.  Paste the lines in the preceding step into the ticket.
-2.  Include “Add VIX server to Site Service database.”
+2.  Include "Add VIX server to Site Service database."
 36. The Health, Clinical Services Diagnostics Team notifies you, typically within five business days, when the site service registration is complete.
 37. Continue to *[Post-Installation for New VIX Installations and Updating Existing VIX Installations](#_Verifying_VIX_Operations).*
 
@@ -723,7 +753,7 @@ This chapter explains how to update an existing VIX server. An installation chec
 
 Preparing for a VIX update involves:
 
-- Configuring the MUSE interface is optional. If using the MUSE interface, this requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site’s online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
+- Configuring the MUSE interface is optional. If using the MUSE interface, this requires the MUSE username, MUSE password, MUSE port, and MUSE protocol for the site's online MUSE server. If the MUSE username, password, port, and protocol are not documented in existing site VistA Imaging documentation, please contact the local BioMed team or MUSE administrator for the information.
 - Acquiring Installation File.
 - Acquiring Installation Files. Copy MAG3_0P358_VIX_SETUP.msi to C:\temp. (Download if required. See the patch description of the patch for the download location.)
 - Copy the MAG3_0P358_VIX_SETUP.msi to C:\temp for the backup plan if not already present.
@@ -754,7 +784,7 @@ While the VIX server is being updated, VIX assisted functions are unavailable. T
 Table 1 summarizes how a VIX outage affects clinicians.
 
 <table>
-<caption><p><span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site’s User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA</p></caption>
+<caption><p><span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site's User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA</p></caption>
 <colgroup>
 <col style="width: 26%" />
 <col style="width: 73%" />
@@ -793,7 +823,7 @@ Table 1 summarizes how a VIX outage affects clinicians.
 </tr>
 <tr class="even">
 <td>iMedConsent Users</td>
-<td>Patients’ consent forms are unavailable. Currently, this results in multiple unsigned Text Integration Utility (TIU) notes in Computerized Patient Record System (CPRS) due to CVIX and iMedConsent Web (ICW) deficiencies until the necessary corrective action(s) can be deployed by both the CVIX and ICW development teams.</td>
+<td>Patients' consent forms are unavailable. Currently, this results in multiple unsigned Text Integration Utility (TIU) notes in Computerized Patient Record System (CPRS) due to CVIX and iMedConsent Web (ICW) deficiencies until the necessary corrective action(s) can be deployed by both the CVIX and ICW development teams.</td>
 </tr>
 <tr class="odd">
 <td>IVS Mobile Application Users</td>
@@ -802,7 +832,7 @@ Table 1 summarizes how a VIX outage affects clinicians.
 </tbody>
 </table>
 
-<span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site’s User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA
+<span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site's User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA
 
 ## Preparing Service Account and Passwords
 
@@ -810,9 +840,9 @@ Table 1 summarizes how a VIX outage affects clinicians.
 
 Before starting the VIX server update process, identify your DICOM/ Release of Information (ROI) periodic processing VistA Imaging VistA service account. It is suggested to verify the name of the VistA service account as described in *Appendix D: Service Account Settings*. To ensure DICOM query retrieve/ROI periodic processing functionality, verify the Social Security Number (SSN) of the service account, verify it has the security keys, secondary menu options, a value for the INITIAL field, and additional options as described in *Appendix D: Service Account Settings*.
 
-Locate the current password used for the Windows account named “apachetomcat” and the DICOM query retrieve/ROI periodic processing VistA Imaging VistA service account credentials.
+Locate the current password used for the Windows account named "apachetomcat" and the DICOM query retrieve/ROI periodic processing VistA Imaging VistA service account credentials.
 
-- The Windows account named “apachetomcat” password is case sensitive, must contain at least fourteen (14) alphanumeric characters, and must contain at least one capital letter and one number.
+- The Windows account named "apachetomcat" password is case sensitive, must contain at least fourteen (14) alphanumeric characters, and must contain at least one capital letter and one number.
 
 ## Performing a VIX Server Update
 
@@ -827,7 +857,7 @@ Use the following steps to update a VIX server.
 39. Go into Control Panel/Programs/Programs and Features and remove the prior VIX Service Installation Wizard by right-clicking on it and choosing Uninstall.
 40. To Install the VIX Service Installation Wizard perform the following steps:
 1.  Right-click the VIX installation file (MAG3_0P358_VIX_SETUP.msi) and click on Install.
-2.  While running the VIX Service Installation Wizard, if prompted with “Do you want to allow the following program from a verified publisher to make changes to this computer?”, click Yes (Figure 28)
+2.  While running the VIX Service Installation Wizard, if prompted with "Do you want to allow the following program from a verified publisher to make changes to this computer?", click Yes (Figure 28)
 
 <span id="_Ref89777021" class="anchor"></span>Figure : User Account Control - Vix Service Installation Wizard
 
@@ -856,7 +886,7 @@ Use the following steps to update a VIX server.
 
 ![](vista-imaging-exchange-vix-installation-guide/058.png)
 
-42. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes (Figure 30).
+42. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes (Figure 30).
 
 <span id="_Ref67921616" class="anchor"></span>Figure : User Account Control - VixInstaller
 
@@ -882,9 +912,9 @@ When the installation of .NET Framework 4.8 completes, click Finish (Figure 33) 
 
 ![](vista-imaging-exchange-vix-installation-guide/063.png)
 
-After the server reboots, Run the VIX Service Installation Wizard as an administrator and if prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes, as discussed in steps 5 and 6, and then continue to step 9.
+After the server reboots, Run the VIX Service Installation Wizard as an administrator and if prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes, as discussed in steps 5 and 6, and then continue to step 9.
 
-44. If and only if there are multiple VIX Service Installation Wizards installed (as shown in the Add/Remove Programs in the Control Panel), confirm when running the VIX Service Installation Wizard (VixInstaller.exe) that a message box with an error message appears that says “Installation is unable to proceed” in the title and in the message “Another version of this product is already installed...” (Figure 35). In this case, uninstall any extra VIX Service Installation Wizard(s) and re-run the VIX Service Installation Wizard as an administrator.
+44. If and only if there are multiple VIX Service Installation Wizards installed (as shown in the Add/Remove Programs in the Control Panel), confirm when running the VIX Service Installation Wizard (VixInstaller.exe) that a message box with an error message appears that says "Installation is unable to proceed" in the title and in the message "Another version of this product is already installed..." (Figure 35). In this case, uninstall any extra VIX Service Installation Wizard(s) and re-run the VIX Service Installation Wizard as an administrator.
 
 <span id="_Ref141283362" class="anchor"></span>Figure : Installation unable to proceed
 
@@ -904,10 +934,10 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 ![](vista-imaging-exchange-vix-installation-guide/066.png)
 
 48. When the Uninstall is complete, Press Next to continue displays in the VIX Service Installation Wizard, click Next.
-49. On the “Specify the VA Site the VIX will service” page, if in Developer Mode (selected after clicking the lower left corner of the VIX Service Installation Wizard in the grey notch) the Site Service URL appears.
+49. On the "Specify the VA Site the VIX will service" page, if in Developer Mode (selected after clicking the lower left corner of the VIX Service Installation Wizard in the grey notch) the Site Service URL appears.
 
     NOTE: Only use Developer mode in the event that changes are needed to the Site Service URL.
-50. In the Site Number field of the “Specify the VA Site the VIX will service” page, verify that the Site Number box shows your STATION NUMBER (field (#99) in the INSTITUTION file (#4) of your site, the information is in FileMan in VistA).
+50. In the Site Number field of the "Specify the VA Site the VIX will service" page, verify that the Site Number box shows your STATION NUMBER (field (#99) in the INSTITUTION file (#4) of your site, the information is in FileMan in VistA).
 51. Confirm the connection by clicking Lookup Server Address. Then click Next (Figure 38).
 
 <span id="_Ref67921872" class="anchor"></span>Figure :Specify the VA site the VIX will service
@@ -922,7 +952,7 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 
 ![](vista-imaging-exchange-vix-installation-guide/071.png)
 
-> **NOTE:** The person installing the VIX software does not need to be in the VHAMASTER domain. The installer’s domain should appear with their name. This (and subsequent screenshots) is just an example of what the installer sees.
+> **NOTE:** The person installing the VIX software does not need to be in the VHAMASTER domain. The installer's domain should appear with their name. This (and subsequent screenshots) is just an example of what the installer sees.
 
 53. On the same page, read the line that indicates the state of the Apache Tomcat installation. If ![](vista-imaging-exchange-vix-installation-guide/072.png) displays, skip to the next step. If ![](vista-imaging-exchange-vix-installation-guide/073.png) displays (Figure 40), do the following:
 1.  Click Install.
@@ -951,12 +981,12 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
     4.  End User name and End User email – the administrator of your local VistA Imaging system.
     5.  Maintenance Contact Name, Maintenance Contact E-mail, and Maintenance Contact Phone – information for the Health, Clinical Services Diagnostics Team.
 23. Near the bottom of the window, click Activate. After a brief delay, the Status box displays a message.
-24. If a green “Success” message appears click Exit with success and skip to the next prerequisite step, otherwise select the Manual Activation tab.
+24. If a green "Success" message appears click Exit with success and skip to the next prerequisite step, otherwise select the Manual Activation tab.
 25. If network activation was not successful, for Manual Activation do the following:
 1.  Select the Manual Activation tab.
 2.  On the Manual Activation tab on the line Activation Code, enter the activation code.
 3.  Near the bottom of the window, click Activate. After a brief delay, the Status box displays a message.
-4.  If a green “Success” message appears click Exit with success and skip to the next prerequisite step, otherwise download the Laurel Bridge license from Laurel Bridge’s website and continue with the steps below.
+4.  If a green "Success" message appears click Exit with success and skip to the next prerequisite step, otherwise download the Laurel Bridge license from Laurel Bridge's website and continue with the steps below.
 
     NOTE: If downloading the Laurel Bridge license, such as using the Manual Product License Activation from <https://laurelbridge.com/product_activation.php>, please select the Version in the drop-down as 3.3.x before clicking Submit.
 5.  Click Exit with error to close out of the Manual Activation tab.
@@ -997,8 +1027,8 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 
 61. If you want to keep your existing locations for the VIX configuration files and the VIX cache, and the Create buttons are grayed out, skip to the next step.
 
-    If you want to change the locations for the VIX configuration files and the VIX cache, select the “C:\\ drive for VixConfig folder and the appropriate VIX cache drive for the VixCache folder for your site. Ensure the VIX cache drive correctly points to the drive letter that is currently being used, for example, “E:\VIXCache” as displayed in Figure 46. For each folder, click Create to confirm and create the folders.
-62. If you want to change the location or need to update the location, ensure the VIX log archive drive correctly points to the drive letter currently being used, for example, “E:\ImagingArchivedLogs” as displayed in Figure 46 and click either Create or Update. Then, click Next.
+    If you want to change the locations for the VIX configuration files and the VIX cache, select the "C:\\ drive for VixConfig folder and the appropriate VIX cache drive for the VixCache folder for your site. Ensure the VIX cache drive correctly points to the drive letter that is currently being used, for example, "E:\VIXCache" as displayed in Figure 46. For each folder, click Create to confirm and create the folders.
+62. If you want to change the location or need to update the location, ensure the VIX log archive drive correctly points to the drive letter currently being used, for example, "E:\ImagingArchivedLogs" as displayed in Figure 46 and click either Create or Update. Then, click Next.
 
     If you want to keep the existing locations for the VIX log archive, and the Create or Update button is grayed out, click Next.
 
@@ -1052,7 +1082,7 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 
 ![](vista-imaging-exchange-vix-installation-guide/102.png)
 
-67. On the Install the VIX page (Figure 51), if in Developer Mode (selected after clicking the lower left corner of the VIX Service Installation Wizard in the grey notch) a check box appears to “Update server.xml as if new installation.”. This checkbox can be checked if changes are being made to the Specify Site and Site Service Information a page since the last installation.
+67. On the Install the VIX page (Figure 51), if in Developer Mode (selected after clicking the lower left corner of the VIX Service Installation Wizard in the grey notch) a check box appears to "Update server.xml as if new installation.". This checkbox can be checked if changes are being made to the Specify Site and Site Service Information a page since the last installation.
 
     NOTE: Only use Developer mode and checkbox in the event that changes are needed to the Site Service or Site Information.
 
@@ -1080,10 +1110,10 @@ After the server reboots, Run the VIX Service Installation Wizard as an administ
 5.  Verify Site Service \> Port Number is <span class="mark">REDACTED</span>.
 6.  Verify VIX Service \> Host Name is localhost.
 7.  Verify Database \> Instance Name is C:\Program Files\VistA\Imaging\VIX.Render.Service\Db\SQLiteDb.db.
-8.  Verify the image cache directory drive is the dedicated VIX cache drive. (i.e., “E:\VIXRenderCache").
+8.  Verify the image cache directory drive is the dedicated VIX cache drive. (i.e., "E:\VIXRenderCache").
 31. If setting values were modified, click the Save Configuration button in the top right corner, otherwise skip to the next step.
 
-    NOTE: The ‘Save Configuration’ button does not activate unless you changed the configuration (Figure 54).
+    NOTE: The 'Save Configuration' button does not activate unless you changed the configuration (Figure 54).
 
 <span id="_Ref67922577" class="anchor"></span>Figure : Save/Configuration Button
 
@@ -1173,7 +1203,7 @@ After a VIX is installed and is registered with the Image Exchange Service (not 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-VIX administrators can use the VIX Tools as described in the *VIX Administrator’s Guide* with a listing of available tools in Appendix B: VIX Tools of the VIX Administrator’s Guide.
+VIX administrators can use the VIX Tools as described in the *VIX Administrator's Guide* with a listing of available tools in Appendix B: VIX Tools of the VIX Administrator's Guide.
 
 To access the VIX Tools, navigate to <span class="mark">REDACTED</span>/vix/viewer/tools to be prompted to login (Figure 60). Use a VistA account with the MAG VIX ADMIN security key and INITIAL to log in.
 
@@ -1192,7 +1222,7 @@ If you cannot access the transaction log, verify that the VIX service is running
 
 If the VIX is running, but you cannot access the transaction log, ensure that ports <span class="mark">REDACTED</span> on the VIX server are not blocked. Possible culprits of a blocked port include antivirus firewalls and modifications to ACLs (Access Control Lists).
 
-For detailed information about the transaction log contents, refer to the [*VIX Administrator’s Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
+For detailed information about the transaction log contents, refer to the [*VIX Administrator's Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Spot-Checking VIX Image Delivery
 
@@ -1202,13 +1232,13 @@ This section shows different ways you can spot-check displaying remote images.
 
 1.  Using JLV:
     1.  Select an image with a camera icon, and launch the Image Viewer to display the selected image.
-    2.  Select the “Cardiology Studies VA MUSE Only” widget and view a MUSE Electrocardiogram (EKG) image by selecting the camera icon. This launches the Image Viewer to display the selected MUSE EKG image.
+    2.  Select the "Cardiology Studies VA MUSE Only" widget and view a MUSE Electrocardiogram (EKG) image by selecting the camera icon. This launches the Image Viewer to display the selected MUSE EKG image.
     3.  Turn on the Display DOD Image User Preference in JLV. View a Department of Defense (DoD) image by selecting the camera icon. This launches the Image Viewer to display the selected DoD image.
 75. On the Clinical Display workstation:
     1.  Select a patient with remote images.
     2.  If it is not visible already, display the Abstracts area to display an abstract for one of the remote images.
     3.  Right-click the abstract for the remote image and open the Image Information Advanced window.
-    4.  In the Image Information Advanced window, check the IEN (Internal Entry Number) value or Image Number. If the value starts with “urn”, the remote image was retrieved by the VIX.
+    4.  In the Image Information Advanced window, check the IEN (Internal Entry Number) value or Image Number. If the value starts with "urn", the remote image was retrieved by the VIX.
 
 ## DICOM SCP Configuration
 
@@ -1251,7 +1281,7 @@ If you have had to interrupt or cancel an in-progress VIX installation, you can 
 
 ![](vista-imaging-exchange-vix-installation-guide/114.png)
 
-77. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+77. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 78. Follow the steps for a new VIX installation, see *New VIX Server Installation* section, or for updating a VIX, see *Updating an Existing VIX* section.
 
 ## Using the VIX Service Installation Wizard to Reconfigure the VIX
@@ -1290,21 +1320,21 @@ TIP: Changing a VIX cache location or local connection information should take a
 
 ![](vista-imaging-exchange-vix-installation-guide/115.png)
 
-80. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
-81. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX” and click Next.
+80. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
+81. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX" and click Next.
 82. Then, when prompted to do so, click Uninstall version 30.358.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.).
 83. When the Uninstall is complete, Press Next to continue displays in the VIX Service Installation Wizard, click Next.
-84. Click Next until the “Specify the VA Site the VIX will service” page displays.
+84. Click Next until the "Specify the VA Site the VIX will service" page displays.
 85. On this page, verify that the Site Number box shows your STATION NUMBER (field (#99) in the INSTITUTION file (#4) of your site, the information is in FileMan in VistA). Then, click the Lookup Server Address.
 86. Verify the correct hostname and port number for the local VistA system displays. Then, click Next.
 87. When the Install the VIX Prerequisites page displays, click Next. (All prerequisites are installed already.)
-88. On the “Specify the VA Site the VIX will service” page, do one of the following:
+88. On the "Specify the VA Site the VIX will service" page, do one of the following:
 1.  If you are changing the location of the VIX cache and configuration files, select the new drive for each. Click Create. Then, click Next.
 2.  If you are NOT changing the location of the VIX cache and configuration files, click Next.
 89. In the Specify the VistA and email Configuration, do the following:
 1.  Enter the access and verify codes. If you are changing the email address or addresses enter them. Click Confirm.
 2.  Click Next.
-90. In the “Specify the MUSE Configuration” page do one of the following:
+90. In the "Specify the MUSE Configuration" page do one of the following:
 1.  If you are changing the MUSE configuration, enter the configuration settings. Click Confirm. Then click Next.
 34. If you are NOT changing the location of the MUSE configuration, click Next.
 91. In the Install the VIX page, click Install.
@@ -1319,7 +1349,7 @@ TIP: Changing a VIX cache location or local connection information should take a
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If encountering file system access errors after VIX Installation, start-up, slowness, or cache not-purged issues, please refer to Appendix C: VIX Utility Scripts of the VIX Administrator’s Guide, for instructions to run the tomcat permissions script (permission_fixer.ps1).
+If encountering file system access errors after VIX Installation, start-up, slowness, or cache not-purged issues, please refer to Appendix C: VIX Utility Scripts of the VIX Administrator's Guide, for instructions to run the tomcat permissions script (permission_fixer.ps1).
 
 To check the modify and write access on the YOUR_DRIVE_LETTER:\VixCache folder for the apachetomcat user permissions, right-click on the folder, select Properties \> Security then select the apachetomcat user (Figure 64). If the Modify and Write access rights are not present for the apachetomcat user, run the tomcat permissions script (permission_fixer.ps1).
 
@@ -1331,7 +1361,7 @@ To check the modify and write access on the YOUR_DRIVE_LETTER:\VixCache folder f
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If encountering errors starting the Tomcat service or errors during VIX Installation related to the jmxremote.password file, please refer to Appendix C: VIX Utility Scripts of the VIX Administrator’s Guide, for instructions to run the Java Management Extensions (JMX) script (set_jmx_permissions.ps1).
+If encountering errors starting the Tomcat service or errors during VIX Installation related to the jmxremote.password file, please refer to Appendix C: VIX Utility Scripts of the VIX Administrator's Guide, for instructions to run the Java Management Extensions (JMX) script (set_jmx_permissions.ps1).
 
 ## VIX Support
 
@@ -1355,7 +1385,7 @@ This section describes stopping any currently running services to assist with th
 - VIX Render Service
 - VIX Viewer Service
 
-Always use the Window ‘Task Manager’ to monitor the processing tasks as needed.
+Always use the Window 'Task Manager' to monitor the processing tasks as needed.
 
 <span id="_Ref98578973" class="anchor"></span>Figure : Stopping VIX Viewer Service
 
@@ -1388,7 +1418,7 @@ If you need to remove and then immediately reinstall the VIX on the same server 
 3.  Type VIX.
 4.  Right-click VIX Service Installation Wizard.
 5.  Left-click Run as administrator.
-97. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX” and click Next.
+97. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX" and click Next.
 98. Then, when prompted to do so, click Uninstall version 30.358.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 99. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 100. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*358 VIX Service Installation Wizard.
@@ -1470,7 +1500,7 @@ These steps cover all supported VIX configurations.
 116. Select the apachetomcat user and click Remove.
 117. Click OK to close the Properties dialog box and click Yes when asked if you want to continue.
 
-     NOTE: If one or more “Error applying security” messages display, click Continue until they are all closed.
+     NOTE: If one or more "Error applying security" messages display, click Continue until they are all closed.
 118. Open the Computer Management/Server Manager window.
 1.  On Windows, right-click Computer on the desktop. Then, click Manage.
 119. In the tree on the left side of the window, navigate to Users.
@@ -1513,7 +1543,7 @@ If it is necessary to uninstall the MAG\*3.0\*358 VIX and back out the VIX to a 
 5.  Left-click Run as administrator.
 
     NOTE: If the VIX Service Installation Wizard does not appear in the Search bar, open Windows Explorer and navigate to the C:\Program Files (x86)\Vista\Imaging\VixInstaller folder, right-click VixInstaller.exe and left-click Run as administrator.
-126. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX” and click Next.
+126. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*358 VIX" and click Next.
 127. Then, when prompted to do so, click Uninstall version 30.358.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 128. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 129. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*358 VIX Service Installation Wizard.
@@ -1556,8 +1586,8 @@ If it is necessary to uninstall the MAG\*3.0\*358 VIX and back out the VIX to a 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the version of Java after rollback by running Windows ‘Programs and Feature’, is Java 8.0.371
-142. Verify the version of Tomcat after rollback by running Windows ‘Programs and Features’, is Tomcat 9.0.75
+1.  Verify the version of Java after rollback by running Windows 'Programs and Feature', is Java 8.0.371
+142. Verify the version of Tomcat after rollback by running Windows 'Programs and Features', is Tomcat 9.0.75
 143. Verify the version of the VIX by going to the VIX homepage <span class="mark">REDACTED</span> using a browser e.g.: Chrome or Edge.
 
 # Appendix A: Enable MUSE Functionality
@@ -1609,11 +1639,11 @@ One of the methods identified to obtain the values of the MUSE site number, host
 
 ![](vista-imaging-exchange-vix-installation-guide/124.png)
 
-> Under the “Storage Type” on the right side, the MUSE site number is listed under “Site \#” under “MUSE”. The Fully Qualified Domain Name of the MUSE server for the host entry is listed under “Network Share” between \\ and \\ (Figure 70). The port number (with \\ before and after) is appended to the Fully Qualified Domain Name. The MUSE site username for the username entry displays under “User Name” under “Network Credentials Security”.
+> Under the "Storage Type" on the right side, the MUSE site number is listed under "Site \#" under "MUSE". The Fully Qualified Domain Name of the MUSE server for the host entry is listed under "Network Share" between \\ and \\ (Figure 70). The port number (with \\ before and after) is appended to the Fully Qualified Domain Name. The MUSE site username for the username entry displays under "User Name" under "Network Credentials Security".
 
 > Note the entries for the MUSE site number, host, port number, and username for the MUSE server that is Operational. The MUSE site password can be obtained from the existing site VistA Imaging documentation (if not available, obtain your MUSE site password from the local BioMed team or MUSE administrator).
 
-> NOTE: The default standard MUSE port is <span class="mark">REDACTED</span> and protocol is http while the default MUSE™ NX port is <span class="mark">REDACTED</span> and protocol is https. If using MUSE™ NX, under the “Storage Type” on the right side the Network Location Properties tab in the BP Queue Processor, “NX” is selected under the “Vers \#”.
+> NOTE: The default standard MUSE port is <span class="mark">REDACTED</span> and protocol is http while the default MUSE™ NX port is <span class="mark">REDACTED</span> and protocol is https. If using MUSE™ NX, under the "Storage Type" on the right side the Network Location Properties tab in the BP Queue Processor, "NX" is selected under the "Vers \#".
 
 # Appendix B: DICOM SCP Configuration
 
@@ -1631,7 +1661,7 @@ You need to configure the DICOM SCP if this is a new installation, or in the cas
 - No, it is not configured. If the ae_title_mappings file located in the folder cfg\dicom within the Laurel Bridge installation directory (C:\DCF_RunTime_x64\cfg\dicom by default) is like the template displayed in Figure 71, continue with this Appendix to perform the steps to configure DICOM SCP functionality.
 - Yes, it is configured. If the ae_title_mappings file located in the folder cfg\dicom within the Laurel Bridge installation directory (C:\DCF_RunTime_x64\cfg\dicom by default) is <u>not</u> like the template displayed in Figure 71 (i.e. a real DICOM SCP host IP, port, and AE Title are present), the DICOM SCP functionality is already configured. There is no reason to perform the steps in this Appendix unless reconfiguring.
 
-Additional details on the DICOM SCP Configuration are provided in the “*Configure DICOM SCP Functionality*” section in the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105).
+Additional details on the DICOM SCP Configuration are provided in the "*Configure DICOM SCP Functionality*" section in the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105).
 
 ## Application Entity (AE) Titles Configuration
 
@@ -1661,7 +1691,7 @@ Figure : AE Titles Configuration File (Template)
 
 An example of the ae_title_mappings file updated for one DICOM SCP client is shown in Figure 72.
 
-> **NOTE:** The example in Figure 72 for configuration of one DICOM SCP client is not how an actual VIX site’s ae_title_mappings file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 72 for configuration of one DICOM SCP client is not how an actual VIX site's ae_title_mappings file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref112742877" class="anchor"></span>Figure : AE Titles Configuration File (Example)
 
@@ -1702,16 +1732,16 @@ Update the following entries for the DICOM SCP functionality (see Figure 74):
 
 An example of the ScpConfiguration.Config file updated for one DICOM SCP client is shown in Figure 75.
 
-> **NOTE:** The example in Figure 75 for configuration of the aeTitle and callingAeIp is not how an actual VIX site’s ScpConfiguration.Config file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 75 for configuration of the aeTitle and callingAeIp is not how an actual VIX site's ScpConfiguration.Config file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref112742452" class="anchor"></span>Figure : ScpConfiguration Configuration File (Example)
 
 ![](vista-imaging-exchange-vix-installation-guide/129.png)
 
-If additional changes to the defaults for the Tomcat DICOM SCP Configuration and/or Laurel Bridge DICOM SCP Configuration are desired, see the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105) for details.
+If additional changes to the defaults for the Tomcat DICOM SCP Configuration and/or Laurel Bridge DICOM SCP Configuration are desired, see the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105) for details.
 
-> **NOTE:** For each additional DICOM SCP client, insert an additional block of code containing the elements from lines 21 to 49 before current line 50 (Figure 75), as described in the *[VIX Administrator’s Guide](https://www.va.gov/vdl/application.asp?appid=105).*NOTE: If additional updates are needed to the encrypted access and verify codes in the ScpConfiguration.Config file, refer to lines 3 and 4 in Figure 75, for the account with VistA credentials see the section “Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX” in the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105) to update (preferred) or see the section  
-“*Reconfiguring a VIX Server*,” in this VIX Installation Guide to perform a reconfigure installation.
+> **NOTE:** For each additional DICOM SCP client, insert an additional block of code containing the elements from lines 21 to 49 before current line 50 (Figure 75), as described in the *[VIX Administrator's Guide](https://www.va.gov/vdl/application.asp?appid=105).*NOTE: If additional updates are needed to the encrypted access and verify codes in the ScpConfiguration.Config file, refer to lines 3 and 4 in Figure 75, for the account with VistA credentials see the section "Modifying the ROI Processing and DICOM Query/Retrieve Parameters of the VIX" in the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105) to update (preferred) or see the section  
+"*Reconfiguring a VIX Server*," in this VIX Installation Guide to perform a reconfigure installation.
 
 # Appendix C: Restart Script
 
@@ -1732,7 +1762,7 @@ Perform the following:
 
 ![](vista-imaging-exchange-vix-installation-guide/130.png)
 
-150. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+150. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 151. Once PowerShell launches, type the command:
 
      cd "C:\Program Files\VistA\Imaging\Scripts"
@@ -1756,9 +1786,9 @@ Perform the following:
 
 The VIX uses a service account on the local VistA for periodic processing of ROI disclosure requests and DICOM query retrieve SCP requests. The service account may be the same one used by the DICOM Gateway and the Hybrid DICOM Gateway (HDIG). You may also use it to log into the VIX Tools page described in the *Verifying Access to the VIX Tools and VIX Transaction Log* section.
 
-Table 2 lists each VIX site’s current and suggested local VistA service account. The Designated User (DUZ) identifies the service account. The suggested service account enables each site to have a unique name.
+Table 2 lists each VIX site's current and suggested local VistA service account. The Designated User (DUZ) identifies the service account. The suggested service account enables each site to have a unique name.
 
-The VIX’s service account on its local VistA must have the following SSN format, security keys, secondary menus, a value for the INITIAL field, RAD/NUC med classification, CPRS TAB, and authorized to write med orders. If any setting is missing, update the service account.
+The VIX's service account on its local VistA must have the following SSN format, security keys, secondary menus, a value for the INITIAL field, RAD/NUC med classification, CPRS TAB, and authorized to write med orders. If any setting is missing, update the service account.
 
 > **NOTE:** If unable to update the service account on the local VistA yourself, please create a ticket assigned to the (ESD) Tier 1 group to update the service account on the local VistA. Example text for the ticket appears after the table.
 
@@ -1967,7 +1997,7 @@ Verify the service account on the local VistA has the following authorized to wr
 
 > **NOTE:** Sites can find the DUZ corresponding to their VIX service account on the local VistA by following the steps below:
 
-1.  In FileMan, choose the option to Inquire to File Entries, choose the New Person file (#200), and then enter the name of your VIX’s service account on its local VistA.
+1.  In FileMan, choose the option to Inquire to File Entries, choose the New Person file (#200), and then enter the name of your VIX's service account on its local VistA.
 2.  Accept the defaults for Standard Captioned Output, when asked "Include COMPUTED fields", answer either B or R, as you need to view the record number.
 3.  If multiple results are returned based on the name you entered, you will need to view each of them to determine which is your local service account and which are visitor accounts. Select one of the accounts.
 4.  In the data listed for each account, check for the presence of the DATE VERIFY CODE LAST CHANGED field (refer to the red highlighted field in Figure 78). If the DATE VERIFY CODE LAST CHANGED field is not present return to step 2 and select a different account upon reaching step 4, otherwise continue to the next step.
@@ -1976,7 +2006,7 @@ Verify the service account on the local VistA has the following authorized to wr
 
 ![](vista-imaging-exchange-vix-installation-guide/132.png)
 
-5.  If the field is present, it is the local service account. If it is not, it is a visitor account and should not be edited. The number printed in the NUMBER field is the DUZ of the VIX’s service account on the local VistA (refer to the green highlighted field in Figure 78). Record the DUZ of the VIX’s service account on the local VistA. (Consider documenting the DUZ of the service account on the local VistA in your Master Site Profile.)
+5.  If the field is present, it is the local service account. If it is not, it is a visitor account and should not be edited. The number printed in the NUMBER field is the DUZ of the VIX's service account on the local VistA (refer to the green highlighted field in Figure 78). Record the DUZ of the VIX's service account on the local VistA. (Consider documenting the DUZ of the service account on the local VistA in your Master Site Profile.)
 
 > **NOTE:** Once the DUZ is obtained, follow the steps below to update the corresponding VIX service account:
 
@@ -1986,7 +2016,7 @@ Verify the service account on the local VistA has the following authorized to wr
 
 > **NOTE:** If you are unable to perform the above steps, please create a support ticket with VistA Apps for assistance.
 
-Below is an example of the information to provide in a ticket to update the VIX’s service account on the local VistA. The example shows specifying the access code of the VIX’s service account on the local VistA, the name of the VIX’s service account on the local VistA, the suggested name of the VIX’s service account on the local VistA, the SSN of the VIX’s service account on the local VistA, and any missing VistA menus, keys, and other settings to add. Be sure to copy and paste the security keys, secondary menus, INITIAL, and RAD/NUC information shown before Table 2 into the ticket as needed.
+Below is an example of the information to provide in a ticket to update the VIX's service account on the local VistA. The example shows specifying the access code of the VIX's service account on the local VistA, the name of the VIX's service account on the local VistA, the suggested name of the VIX's service account on the local VistA, the SSN of the VIX's service account on the local VistA, and any missing VistA menus, keys, and other settings to add. Be sure to copy and paste the security keys, secondary menus, INITIAL, and RAD/NUC information shown before Table 2 into the ticket as needed.
 
 Assignment group: ESD Tier 1
 
@@ -2206,7 +2236,7 @@ While the VIX server is being updated, VIX assisted functions are unavailable. T
 Table 1 summarizes how a VIX outage affects clinicians.
 
 <table>
-<caption><p><span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site’s User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA</p></caption>
+<caption><p><span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site's User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA</p></caption>
 <colgroup>
 <col style="width: 26%" />
 <col style="width: 73%" />
@@ -2245,7 +2275,7 @@ Table 1 summarizes how a VIX outage affects clinicians.
 </tr>
 <tr class="even">
 <td>iMedConsent Users</td>
-<td>Patients’ consent forms are unavailable. Currently, this results in multiple unsigned Text Integration Utility (TIU) notes in Computerized Patient Record System (CPRS) due to CVIX and iMedConsent Web (ICW) deficiencies until the necessary corrective action(s) can be deployed by both the CVIX and ICW development teams.</td>
+<td>Patients' consent forms are unavailable. Currently, this results in multiple unsigned Text Integration Utility (TIU) notes in Computerized Patient Record System (CPRS) due to CVIX and iMedConsent Web (ICW) deficiencies until the necessary corrective action(s) can be deployed by both the CVIX and ICW development teams.</td>
 </tr>
 <tr class="odd">
 <td>IVS Mobile Application Users</td>
@@ -2254,13 +2284,13 @@ Table 1 summarizes how a VIX outage affects clinicians.
 </tbody>
 </table>
 
-<span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site’s User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA
+<span id="_Ref102564585" class="anchor"></span>Table 2: VIX Site's User Profile SSN, Service Account on Local VistA, and Suggested Service Account on Local VistA
 
 ## McAfee Exclusions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Exclude the following directories using McAfee On-Access Scan Properties (Figure 63). Make sure “Also exclude subfolders” is checked, so subfolders are excluded as well:
+Exclude the following directories using McAfee On-Access Scan Properties (Figure 63). Make sure "Also exclude subfolders" is checked, so subfolders are excluded as well:
 
 - C:\Program Files\Java\\\*\\lib\\
 - C:\Program Files\Apache Software Foundation\Tomcat\*\lib\\
@@ -2299,7 +2329,7 @@ If it is necessary to uninstall the MAG\*3.0\*303 VIX and back out the VIX to a 
 5.  Left-click Run as administrator.
 
     NOTE: If the VIX Service Installation Wizard does not appear in the Search bar, open Windows Explorer and navigate to the C:\Program Files (x86)\Vista\Imaging\VixInstaller folder, right-click VixInstaller.exe and left-click Run as administrator.
-133. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*303 VIX” and click Next.
+133. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*303 VIX" and click Next.
 134. Then, when prompted to do so, click Uninstall version 30.303.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 135. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 136. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*303 VIX Service Installation Wizard.
@@ -2350,8 +2380,8 @@ If it is necessary to uninstall the MAG\*3.0\*303 VIX and back out the VIX to a 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the version of Java after reinstalling MAG\*3.0\*269 by running Windows ‘Programs and Feature’, is Java 8.0.291
-145. Verify the version of Tomcat after reinstalling MAG\*3.0\*269 by running Windows ‘Programs and Features’, is Tomcat 9.0.40
+1.  Verify the version of Java after reinstalling MAG\*3.0\*269 by running Windows 'Programs and Feature', is Java 8.0.291
+145. Verify the version of Tomcat after reinstalling MAG\*3.0\*269 by running Windows 'Programs and Features', is Tomcat 9.0.40
 146. Verify the version of the VIX by going to the VIX homepage http://*FQDN of VIX server*:<span class="mark">REDACTED</span>/ using a browser e.g.: Chrome or Edge.
 147. Verify the SQL Server services are running. For Server 2012 R2 or 2016 (Server Manager \| Tools \| Component Services \| Services (Local), or Task Manager \| Services \| Open Services), sort the Name column, and verify SQL Server (SQLEXPRESS) is running (Figure 80).
 
@@ -2389,7 +2419,7 @@ Ensure that each of these lines is uncommented (i.e. remove the \# at the front 
 
 An example of the ae_title_mappings file updated for one DICOM SCP client is shown in Figure 87.
 
-> **NOTE:** The example in Figure 87 for configuration of one DICOM SCP client is not how an actual VIX site’s ae_title_mappings file is to be configured. This example is for illustrative purposes only.
+> **NOTE:** The example in Figure 87 for configuration of one DICOM SCP client is not how an actual VIX site's ae_title_mappings file is to be configured. This example is for illustrative purposes only.
 
 <span id="_Ref95983087" class="anchor"></span>Figure 87: Example AE Titles Configuration File
 
@@ -2429,7 +2459,7 @@ Many different DICOM SCU vendors exist and each of these systems has their own d
 
 ![](mag-3-303-vista-imaging-exchange-vix-installation-guide/137.png)
 
-158. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+158. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 159. Once PowerShell launches, type the command:
 
      cd "C:\Program Files\VistA\Imaging\Scripts"
@@ -2440,9 +2470,9 @@ Many different DICOM SCU vendors exist and each of these systems has their own d
      .\uninstall_install_sql_server.ps1
 
      And press \[ENTER\] to execute the script.
-161. When prompted with “Please enter the full path of the SQLEXPRESS_X64-14_0_1000_169.ZIP file” enter C:\temp and press \[ENTER\].
-162. When prompted with “Please choose Deployment Option (1 to Uninstall, 2 to Install, or Q to Quit)” enter 1 and press \[ENTER\].
-163. When prompted with “Confirm you want to uninstall SQL Server Express (Y/N?)” enter Y and press \[ENTER\].
+161. When prompted with "Please enter the full path of the SQLEXPRESS_X64-14_0_1000_169.ZIP file" enter C:\temp and press \[ENTER\].
+162. When prompted with "Please choose Deployment Option (1 to Uninstall, 2 to Install, or Q to Quit)" enter 1 and press \[ENTER\].
+163. When prompted with "Confirm you want to uninstall SQL Server Express (Y/N?)" enter Y and press \[ENTER\].
 164. A Remove SQL Server 2017 window appears. On the Select Instance page click Next (Figure 94).
 
 <span id="_Ref117707733" class="anchor"></span>Figure 94: Remove SQL Server Select Instance
@@ -2496,7 +2526,7 @@ To reduce downtime required for installation, perform the following steps prior 
 
 ![](mag-3-329-vista-imaging-exchange-vix-installation-guide/053.png)
 
-40. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+40. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 41. Once PowerShell launches, type the command:
 
     \$vixLocalCachePath = \[System.Environment\]::GetEnvironmentVariable('vixcache') -replace "/", "\\
@@ -2530,7 +2560,7 @@ If it is necessary to uninstall the MAG\*3.0\*329 VIX and back out the VIX to a 
 5.  Left-click Run as administrator.
 
     NOTE: If the VIX Service Installation Wizard does not appear in the Search bar, open Windows Explorer and navigate to the C:\Program Files (x86)\Vista\Imaging\VixInstaller folder, right-click VixInstaller.exe and left-click Run as administrator.
-127. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*329 VIX” and click Next.
+127. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*329 VIX" and click Next.
 128. Then, when prompted to do so, click Uninstall version 30.329.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 129. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 130. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*329 VIX Service Installation Wizard.
@@ -2569,8 +2599,8 @@ If it is necessary to uninstall the MAG\*3.0\*329 VIX and back out the VIX to a 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the version of Java after reinstalling MAG\*3.0\*303 by running Windows ‘Programs and Feature’, is Java 8.0.331
-139. Verify the version of Tomcat after reinstalling MAG\*3.0\*303 by running Windows ‘Programs and Features’, is Tomcat 9.0.58
+1.  Verify the version of Java after reinstalling MAG\*3.0\*303 by running Windows 'Programs and Feature', is Java 8.0.331
+139. Verify the version of Tomcat after reinstalling MAG\*3.0\*303 by running Windows 'Programs and Features', is Tomcat 9.0.58
 140. Verify the version of the VIX by going to the VIX homepage http://*FQDN of VIX server*:<span class="mark">REDACTED</span>/ using a browser e.g.: Chrome or Edge.
 
 ### From: MAG*3*269 VistA Imaging Exchange (VIX) Installation Guide
@@ -2611,7 +2641,7 @@ If the current size of the VixCache folder exceeds 2 GB it is suggested to clear
 
 ![](mag-3-269-vista-imaging-exchange-vix-installation-guide/063.png)
 
-48. If prompted with “Do you want to allow the following program from an unknown publisher to make changes to this computer?”, click Yes.
+48. If prompted with "Do you want to allow the following program from an unknown publisher to make changes to this computer?", click Yes.
 49. Once PowerShell launches, type the command:
 
     \$vixLocalCachePath = \[System.Environment\]::GetEnvironmentVariable('vixcache') -replace "/", "\\
@@ -2641,7 +2671,7 @@ If the current size of the VixCache folder exceeds 2 GB it is suggested to clear
 
     Save the VIX.Viewer.Config file after updating.
 
-    NOTE: If a policy for "Dashboard.RequireAdministrator” already exists, ensure the value is set to “false”.
+    NOTE: If a policy for "Dashboard.RequireAdministrator" already exists, ensure the value is set to "false".
 
 <span id="_Ref103696546" class="anchor"></span>Figure 61: VIX.Viewer.Config File Policies
 
@@ -2669,7 +2699,7 @@ If it is necessary to uninstall the MAG\*3.0\*269 VIX and back out the VIX to a 
 5.  Left-click Run as administrator.
 
     NOTE: If the VIX Service Installation Wizard does not appear in the Search bar, open Windows Explorer and navigate to the C:\Program Files (x86)\Vista\Imaging\VixInstaller folder, right-click VixInstaller.exe and left-click Run as administrator.
-130. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*269 VIX” and click Next.
+130. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*269 VIX" and click Next.
 131. Then, when prompted to do so, click Uninstall version 30.269.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 132. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 133. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*269 VIX Service Installation Wizard.
@@ -2709,8 +2739,8 @@ If it is necessary to uninstall the MAG\*3.0\*269 VIX and back out the VIX to a 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the version of Java after reinstalling MAG\*3.0\*284 by running Windows ‘Programs and Feature’, is Java 8.0.251
-145. Verify the version of Tomcat after reinstalling MAG\*3.0\*284 by running Windows ‘Programs and Features’, is Tomcat 9.0.34
+1.  Verify the version of Java after reinstalling MAG\*3.0\*284 by running Windows 'Programs and Feature', is Java 8.0.251
+145. Verify the version of Tomcat after reinstalling MAG\*3.0\*284 by running Windows 'Programs and Features', is Tomcat 9.0.34
 146. Verify the version of the VIX by going to the VIX homepage http://*FQDN of VIX server*:<span class="mark">REDACTED</span>/ using a browser e.g.: Edge or Chrome.
 
 ### From: MAG*3*348 VistA Imaging Exchange (VIX) Installation Guide
@@ -2729,7 +2759,7 @@ If it is necessary to uninstall the MAG\*3.0\*348 VIX and back out the VIX to a 
 5.  Left-click Run as administrator.
 
     NOTE: If the VIX Service Installation Wizard does not appear in the Search bar, open Windows Explorer and navigate to the C:\Program Files (x86)\Vista\Imaging\VixInstaller folder, right-click VixInstaller.exe and left-click Run as administrator.
-123. When the Welcome page displays, verify that the screen displays “This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*348 VIX” and click Next.
+123. When the Welcome page displays, verify that the screen displays "This wizard will guide you through the installation of the Vista Imaging Patch MAG\*3.0\*348 VIX" and click Next.
 124. Then, when prompted to do so, click Uninstall version 30.348.xxx. (The wizard gracefully stops the VIX service before performing the uninstall.)
 125. When the Uninstall completes, "Press Next to continue" displays in the VIX Service Installation Wizard, click Cancel. Click Yes in the dialog box that displays "Do you really want to quit the VIX Service Installation Wizard?"
 126. Go to the Control Panel, choose Add/Remove Programs, and remove the MAG\*3.0\*348 VIX Service Installation Wizard.
@@ -2769,6 +2799,6 @@ If it is necessary to uninstall the MAG\*3.0\*348 VIX and back out the VIX to a 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the version of Java after reinstalling MAG\*3.0\*329 by running Windows ‘Programs and Feature’, is Java 8.0.351
-136. Verify the version of Tomcat after reinstalling MAG\*3.0\*329 by running Windows ‘Programs and Features’, is Tomcat 9.0.68
+1.  Verify the version of Java after reinstalling MAG\*3.0\*329 by running Windows 'Programs and Feature', is Java 8.0.351
+136. Verify the version of Tomcat after reinstalling MAG\*3.0\*329 by running Windows 'Programs and Features', is Tomcat 9.0.68
 137. Verify the version of the VIX by going to the VIX homepage http://*FQDN of VIX server*:<span class="mark">REDACTED</span>/ using a browser e.g.: Chrome or Edge.

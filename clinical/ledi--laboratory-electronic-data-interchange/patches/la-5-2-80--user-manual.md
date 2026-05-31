@@ -3,49 +3,110 @@ title: LA*5.2*80/LR*5.2*427 LDSI/LEDI IV Update User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*80
-group_key: "LEDI:LA:5.2"
-file_numbers: 
-  - 4
-  - 62
-  - 64
-security_keys: []
+group_key: LEDI:LA:5.2
+description: 6/2018 2.8 Changes for patch LA*5.2*95. This enhancement add a customizable parameter in VistA that allows Laboratory staff at each site to determine the default response when prompted to create a shipping
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '2.1'
+- '4'
+- '5'
+- '6'
+- '9.4'
+- '10'
+- '15'
+- '20'
+- '21'
+- '25'
+- '26'
+- '27'
+- '30'
+- '32'
+- '34'
+- '35'
+- '40'
+- '45'
+- '50'
+- '55'
+- '60'
+- '61'
+- '61.2'
+- '62'
+- '62.06'
+- '62.47'
+- '62.48'
+- '62.485'
+- '62.9'
+- '63'
+- '63.04'
+- '63.3'
+- '63.53'
+- '64'
+- '64.061'
+- '64.5'
+- '65'
+- '68'
+- '69'
+- '69.6'
+- '88'
+- '95.4'
+- '145'
+- '164'
+- '177'
+- '200'
+- '232'
+- '253'
+- '254'
+- '273'
+- '285'
+- '338'
+- '359'
+- '448'
+- '468'
+- '494'
+- '687'
+- '709'
+- '759'
+- '827'
+- '870'
+- '929'
+- '947'
+- '1096'
+- '1124'
+- '1158'
+- '1245'
+security_keys:
+- LRDATA
+- LRLAB
+- LRVERIFY
+- PROVIDER
 menu_options: 5
-description: 
-audience: 
-keywords: 
-  - span
-  - class
-  - mark
-  - report
-  - laboratory
-  - table
-  - test
-  - ledi
-  - accession
-  - contents
 page_count: 0
 word_count: 42603
 section_count: 23
 table_count: 39
 figure_count: 1
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_um_update.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_um_update.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_um_update.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_um_update.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 Laboratory Data Sharing and Interoperability (LDSI)

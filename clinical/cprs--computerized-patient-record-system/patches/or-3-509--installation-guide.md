@@ -3,7 +3,7 @@ title: OR*3*509 Windows 10 Deployment, Installation, Back-Out, and Rollback Guid
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: Windows 10  CPRS GUI 31A
+doc_subject: Windows 10 CPRS GUI 31A
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*509
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '| Date | Version | Description | Author | |----------------|-------------|--------------------|------------------------------------| | April 30, 2019 | | Updated to v31.118 | REDACTED | | April 16, 2019 | 1.0 | Initial Draft | REDACTED'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - cprs
-  - installation
-  - back
-  - windows
-  - rollback
-  - deployment
-  - install
-  - procedure
 page_count: 0
 word_count: 4232
 section_count: 32
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_509_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_509_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_509_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_509_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 CPRS v31a Windows 10 (OR\*3\*509)

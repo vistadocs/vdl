@@ -5,44 +5,46 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: HIPAA NCPDP Connection for EDI Pharmacy
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2*48
-group_key: "PSX:PSX:2"
-file_numbers: []
-security_keys: []
+group_key: PSX:PSX:2
+description: '- Project Overview - General Information - HIPAA – Global Patches and Build - Activating the ECME V. 1.0 Package - [PSS\1\90, PSX\2\48, and PRCA\4.5\230...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3'
+- '4'
+- '12'
+- '50'
+- '52'
+- '52.01'
+- '52.25'
+- '81'
+- '344.4'
+security_keys:
+- ECME
+- PSXMAIL
 menu_options: 0
-description: - [Project Overview](#project-overview) - [General Information](#general-information) - [HIPAA – Global Patches and Build](#hipaa-global-patches-and-build) - [Activating the ECME V. 1.0 Package](#activating-the-ecme-v-10-package) - [PSS\1\90, PSX\2\48, and PRCA\4.5\230 Patches](#pss190-psx248-and-pr
-audience: 
-keywords: 
-  - pharmacy
-  - ncpdp
-  - cmop
-  - ecme
-  - drug
-  - hipaa
-  - outpatient
-  - table
-  - electronic
-  - contents
 page_count: 0
 word_count: 4099
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/ecme_hipaa_ncpdp_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/ecme_hipaa_ncpdp_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/ecme_hipaa_ncpdp_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/ecme_hipaa_ncpdp_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 > ![](psx-2-48-release-notes-hipaa-ncpdp-connection-for-edi-pharmacy/001.png)

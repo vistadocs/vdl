@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*420
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '- Introduction - Purpose - Audience - This Release - New Features and Functions Added - Enhancements and Modifications to Existing - [Known...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '17.2'
+- '50'
+- '101'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - cprs
-  - order
-  - test
-  - vista
-  - patch
-  - quick
-  - added
-  - results
 page_count: 0
 word_count: 960
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_420rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_420rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_420rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_420rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 CPRS Lab MonitoringPatch OR\*3.0\*420

@@ -11,47 +11,43 @@ app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1*73
-group_key: "XWB:XWB:1.1"
-file_numbers: []
-security_keys: []
+group_key: XWB:XWB:1.1
+description: 09/15/2021 6.0 Tech Edits based on the Broker Development Kit (BDK) release with RPC Broker Patch XWB*1.1*73 (Client-Side only; no VistA M Server
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '19'
+- '19.05'
+- '19.1'
+- '200'
+- '320'
+- '8994'
+- '8994.5'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 21
-description: 
-audience: 
-keywords: 
-  - table
-  - property
-  - contents
-  - class
-  - broker
-  - server
-  - component
-  - strong
-  - application
-  - span
 page_count: 0
-word_count: 63779
+word_count: 63772
 section_count: 71
 table_count: 48
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_dg_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_dg_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=23"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_dg_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_dg_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=23
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  RPC Broker 1.1
-
-  Developer’s Guide (REDACTED)
----
-
 ![](xwb-1-1-73-developer-s-guide/001.png)
 
 September 2021

@@ -3,7 +3,7 @@ title: ASISTS GUI Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2
-group_key: "OOPS:OOPS:2"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: OOPS:OOPS:2
 description: The purpose of this Installation Guide is to provide details on the installation of the Automated Safety Incident Surveillance Tracking System (ASISTS) Graphical User Interface (GUI) software.
-audience: 
-keywords: 
-  - asists
-  - installation
-  - table
-  - contents
-  - install
-  - server
-  - oops
-  - package
-  - client
-  - hosts
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2263.2'
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 2749
 section_count: 12
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2017
 revision_count: 2
 revision_newest: 03/07/2017
 revision_oldest: 01/06/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ![](asists-gui-version-2-installation-guide/001.png)

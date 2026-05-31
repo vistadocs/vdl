@@ -1,34 +1,417 @@
 ---
-consolidated_title: "mocha server release notes"
-app_code: PREM
+title: MOCHA Server Version 3 Release Notes
 doc_type: RN
-master_source: "PREM*4*1 MOCHA Server Version 4 Release Notes"
-master_pub_date: June 2024
-consolidated_from: 2 versions
+doc_label: Release Notes
+doc_layer: anchor
+doc_subject: null
+app_code: PREM
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
+section: GUI
+app_status: active
+pkg_ns: PREM
+patch_ver: 3
+patch_id: PREM*3
+group_key: PREM:PREM:3
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: MEDICATION ORDER CHECK HEALTHCARE APPLICATION (MOCHA) Server
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1485
+section_count: 9
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: June 2017
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/MOCHA_Server_3-0_Release_Notes.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/MOCHA_Server_3-0_Release_Notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
+master_source: MOCHA Server Version 3 Release Notes
+master_pub_date: June 2017
+consolidated_from: 4 versions
 prior_versions:
-  - "PREM*3*3 MOCHA Server Version 3.2 Release Notes"
+- MOCHA Server Version 2 Release Notes
+- PREM*3*3 MOCHA Server Version 3.2 Release Notes
+- PREM*4*1 MOCHA Server Version 4 Release Notes
+consolidated_title: mocha server release notes
 ---
+
+> ![](mocha-server-version-3-release-notes/001.png)
+
+MEDICATION ORDER CHECK HEALTHCARE APPLICATION (MOCHA) Server 3.0
+
+RELEASE NOTES
+
+> June 2017
+
+### Department of Veterans Affairs Product Development
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### (This page included for two-sided copying.)
+
+1.  
+2.  
+3.  1.  
+    2.  
+    3.  
+    4.  
+    5.  
+    6.  
+    7.  
+    8.  
+4.  
+5.  
+6.  
+
+[Introduction 1](#introduction)[Enhancements 2](#enhancements)[Menu Changes 3](#menu-changes)[New Options 3](#new-options)[Changed Options 3](#changed-options)[Deleted Options 3](#deleted-options)[New Files 3](#new-files)[Modified Fields 4](#modified-fields)[New Fields 4](#new-fields)[Security Key 4](#security-key)[Modified Templates 4](#modified-templates)[Other Functionality 4](#other-functionality)[Impacts to Other Package 4](#impacts-to-other-package)[Known Anomalies 4](#known-anomalies)
+
+#### (This page included for two-sided copying.)
+
+# Introduction
+
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Table of Contents
 
-  - [## Introduction](#introduction)
-  - [Purpose](#purpose)
-  - [Audience](#audience)
-  - [This Release](#this-release)
-    - [New Features and Functions Added](#new-features-and-functions-added)
-    - [Enhancements and Modifications to Existing](#enhancements-and-modifications-to-existing)
-  - [Known Issues](#known-issues)
-  - [Product Documentation](#product-documentation)
+    - [Department of Veterans Affairs Product Development](#department-of-veterans-affairs-product-development)
+- [Introduction](#introduction)
+- [Enhancements](#enhancements)
+- [Menu Changes](#menu-changes)
+    - [No menu changes have been made.](#no-menu-changes-have-been-made)
+  - [New Options](#new-options)
+    - [Added functionality to incorporate Allergy Order Check capability.](#added-functionality-to-incorporate-allergy-order-check-capability)
+  - [Changed Options](#changed-options)
+    - [The following options have been changed:](#the-following-options-have-been-changed)
+  - [Deleted Options](#deleted-options)
+    - [No options have been deleted.](#no-options-have-been-deleted)
+  - [New Files](#new-files)
+    - [The following new files were added to the build for this release. In the case of library files, older versions of these libraries were deleted from the build.](#the-following-new-files-were-added-to-the-build-for-this-release-in-the-case-of-library-files-older-versions-of-these-libraries-were-deleted-from-the-build)
+    - [spring-aop-4.2.6.RELEASE.jar](#spring-aop-426releasejar)
+    - [spring-beans-4.2.6.RELEASE.jar](#spring-beans-426releasejar)
+    - [spring-context-4.2.6.RELEASE.jar](#spring-context-426releasejar)
+    - [spring-core-4.2.6.RELEASE.jar](#spring-core-426releasejar)
+    - [spring-expression-4.2.6.RELEASE.jar](#spring-expression-426releasejar)
+    - [spring-jdbc-4.2.6.RELEASE.jar](#spring-jdbc-426releasejar)
+    - [spring-tx-4.2.6.RELEASE.jar](#spring-tx-426releasejar)
+    - [commons-lang3-3.4.jar](#commons-lang3-34jar)
+    - [commons-logging-1.2.jar](#commons-logging-12jar)
+    - [commons-net-3.5.jar](#commons-net-35jar)
+    - [jsr250-api-1.0.jar](#jsr250-api-10jar)
+    - [commons-configuration-1.10.jar](#commons-configuration-110jar)
+    - [esapi-2.1.0.jar](#esapi-210jar)
+    - [PerformAllergyCheckCapability.java](#performallergycheckcapabilityjava)
+    - [PerformAllergyCheckCapabilityImpl.java](#performallergycheckcapabilityimpljava)
+    - [AllergenVo.java](#allergenvojava)
+    - [AllergyCheckResultVo.java](#allergycheckresultvojava)
+    - [ScreenAllergyVo.java](#screenallergyvojava)
+    - [ESAPIValidationType.java](#esapivalidationtypejava)
+    - [ESAPIValidator.java](#esapivalidatorjava)
+    - [Profiler.java](#profilerjava)
+    - [ProfileRunner.java](#profilerunnerjava)
+    - [StopWatch.java](#stopwatchjava)
+    - [TaskInfo.java](#taskinfojava)
+  - [Modified Fields](#modified-fields)
+    - [Not Applicable for Java Web Service](#not-applicable-for-java-web-service)
+  - [New Fields](#new-fields)
+    - [Not Applicable for Java Web Service](#not-applicable-for-java-web-service-1)
+  - [Security Key](#security-key)
+    - [No new security keys have been created.](#no-new-security-keys-have-been-created)
+  - [Modified Templates](#modified-templates)
+    - [XML Schema files for the web service were modified to include new elements and set bounds for unbounded elements. The following schemas were modified.](#xml-schema-files-for-the-web-service-were-modified-to-include-new-elements-and-set-bounds-for-unbounded-elements-the-following-schemas-were-modified)
+    - [dosingInfoSchemaInput.xsd](#dosinginfoschemainputxsd)
+    - [dosingInfoSchemaOutput.xsd](#dosinginfoschemaoutputxsd)
+    - [drugCheckSchemaInput.xsd](#drugcheckschemainputxsd)
+    - [drugCheckSchemaOutput.xsd](#drugcheckschemaoutputxsd)
+    - [drugInfoSchemaInput.xsd](#druginfoschemainputxsd)
+    - [drugInfoSchemaOutput.xsd](#druginfoschemaoutputxsd)
+- [Other Functionality](#other-functionality)
+    - [Not Applicable](#not-applicable)
+- [Impacts to Other Package](#impacts-to-other-package)
+    - [Not Applicable](#not-applicable-1)
+- [Known Anomalies](#known-anomalies)
+    - [N/A](#na)
+    - [This is a Web Application JAVA Build for centralized servers. NO installation is required at Local sites.](#this-is-a-web-application-java-build-for-centralized-servers-no-installation-is-required-at-local-sites)
+> Medication Order Check Healthcare Application (MOCHA) Server is a Java Enterprise Edition (JEE) application, used by the MOCHA Veterans Health Information Systems and Technology Architecture (VistA) Pharmacy Application to perform enhanced order checks using First Data Bank's (FDB) MedKnowledge Framework. MOCHA Server is a VA-built custom web application; it is not a legacy or COTS application or an Enterprise Shared Service (ESS). FDB MedKnowledge Framework is a drug data product that provides the latest identification and safety information on medications, along with the latest algorithms used to perform order checks. The order checks performed by MOCHA Server include:
+- Enhanced Drug-Drug Interactions Order Check provides the clinician with more information by displaying a short description of the clinical effects of the drug interaction and providing an optional view of a detailed professional drug interaction monograph. It checks interactions between two or more drugs, including interaction monographs.
+- Enhanced Duplicate Therapy Order Check uses FDB's Enhanced Therapeutic Classification (ETC) System, which allows checking for duplicated drug classifications between two or more drugs.
+- Drug Dose Order Check is the prescribed dose for an ordered drug within the proper dosing parameters based on the patient's age, weight, and body surface area. This includes both maximum single dose checking and daily dose range checking. General dosing information for a drug will be provided when the other dosing checks cannot be performed.
+> This release notes document provides a brief description of the MOCHA Server 3.0 changes that will address and or update functionalities to incorporate Allergy Order Check capabilities to support the Computerized Patient Record System (CPRS) v32 and incorporate Drug-Dose order check functionality to support MOCHA Application version 2.1.
+
+# Enhancements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> MOCHA Server 3.0 will provide the following enhancements:
+
+- Updated functionality to incorporate Allergy Order Check capability to support the Computerized Patient Record System (CPRS) v32. The purpose of this order check is to accept a list of drugs (current and
+
+> prospective) a patient is taking as well as known allergies for the
+
+> patient. The Allergy Order Check will then check to make sure the drugs could not potentially cause the patient to have an allergic reaction.
+
+- Updated code base to comply with the Technical Reference Model (TRM).
+- Updated code base to comply with software assurance policies to mitigate security vulnerabilities.
+- Updated functionality to return the MaxDailyDose, MaxDailyDoseUnit, MaxDailyDoseForm, and MaxDailyDoseFormUnit fields in the response back to VistA when performing a Drug-Dose order check.
+
+# Menu Changes
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### No menu changes have been made.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## New Options
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Added functionality to incorporate Allergy Order Check capability.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Changed Options
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### The following options have been changed:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Updated functionality to return the MaxDailyDose, MaxDailyDoseUnit, MaxDailyDoseForm, and MaxDailyDoseFormUnit fields in the response back to VistA when performing a Drug-Dose order check.
+
+## Deleted Options
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### No options have been deleted.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## New Files
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### The following new files were added to the build for this release. In the case of library files, older versions of these libraries were deleted from the build.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-aop-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-beans-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-context-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-core-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-expression-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-jdbc-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### spring-tx-4.2.6.RELEASE.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### commons-lang3-3.4.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### commons-logging-1.2.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### commons-net-3.5.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### jsr250-api-1.0.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### commons-configuration-1.10.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### esapi-2.1.0.jar
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### PerformAllergyCheckCapability.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### PerformAllergyCheckCapabilityImpl.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### AllergenVo.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### AllergyCheckResultVo.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### ScreenAllergyVo.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### ESAPIValidationType.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### ESAPIValidator.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Profiler.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### ProfileRunner.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### StopWatch.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### TaskInfo.java
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Modified Fields
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Not Applicable for Java Web Service
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## New Fields
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Not Applicable for Java Web Service
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Security Key
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### No new security keys have been created.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+## Modified Templates
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### XML Schema files for the web service were modified to include new elements and set bounds for unbounded elements. The following schemas were modified.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### dosingInfoSchemaInput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### dosingInfoSchemaOutput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### drugCheckSchemaInput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### drugCheckSchemaOutput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### drugInfoSchemaInput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### drugInfoSchemaOutput.xsd
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+# Other Functionality
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Not Applicable
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+# Impacts to Other Package
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Not Applicable
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+# Known Anomalies
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### N/A
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### This is a Web Application JAVA Build for centralized servers. NO installation is required at Local sites.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
 ---
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Medication Order Check Healthcare Application (MOCHA) 4.0
-  PREM\*4\*1
-  Release Notes
----
-![](prem-4-1-mocha-server-version-4-release-notes/001.png)
-June 2024
-Office of Information and Technology (OIT)
-Table of Contents
+
+## Appendix: Unique Sections from Prior Versions
+
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
+
+### From: MOCHA Server Version 2 Release Notes
+
+## Functional Enhancements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Dose Range:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+- Dosing Lookup now returns the Not-To-Exceed fields.
+- Order Checks now returns Not-To-Exceed fields when performing a Drug Dose Check.
+
+## Architectural Enhancements
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+- MOCHA Server updated from FDB-DIF v3.2 to FDB-DIF v3.3 Application Interface (API) and Schema
+
+> 2 Medication Order Check Healthcare Application (MOCHA Server) July 2014 V2.0 Release Notes
+
+### From: PREM*4*1 MOCHA Server Version 4 Release Notes
 
 ## ## Introduction
 
@@ -82,7 +465,7 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
 - FDB-2663 - Custom data fields for database version have been removed in version 4.5, we set values in MOCHA XML response to display for DrugVendorDataVo CT_Version fields: CustomBuildVersion, CustomDataVersion, and CustomIssueDate to same values as corresponding FDB published fields
 - Dose units are related to VistA file #50 and hard coded in VistA files \#51.24 and #51.25. Some of these values have changed between FDB v3.3 and v4.5
 - New Element in FDB v4.5 Response Structure Messages
-  - Drug-Drug and Duplicate Therapy checks now have messages being sent in the response from MOCHA to VistA with the 4.5 upgrade. This is a new element in the response structure that wasn’t being sent in 3.3. VistA did not accept the messages in the Drug-Drug and Duplicate Therapy responses and treated them as an exception and therefore would not process and display the order check messages appropriately.
+  - Drug-Drug and Duplicate Therapy checks now have messages being sent in the response from MOCHA to VistA with the 4.5 upgrade. This is a new element in the response structure that wasn't being sent in 3.3. VistA did not accept the messages in the Drug-Drug and Duplicate Therapy responses and treated them as an exception and therefore would not process and display the order check messages appropriately.
   - Current Workaround: Modified MOCHA code to suppress the message information in the response XML so that VistA continues to process. This allows MOCHA to return responses in the same format as v3.3
 - FDB-2727 - Medication Route Mappings for standard and continuous med routes have changes from 3.3 to 4.5
   - Standard Med Route / First Databank Med Route
@@ -99,21 +482,21 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
   - VistA is only concerned with the first two severity types and has the following hard-coded mappings:
     - Contraindicated Drug Combination à Critical (in VistA)
     - Severe Interaction à Significant (in VistA)
-- PEPS Services “Check Vendor Database Link” option being handled by VistA to display the Dif DbVersion, difBuildVersion, customDbVersion, and CustomBuildVersion fields for FDB 4.5
-- PEPS Services “Check PEPS Services Setup” option displays Critical or Significant for drug-drug interaction check with existing drugs
+- PEPS Services "Check Vendor Database Link" option being handled by VistA to display the Dif DbVersion, difBuildVersion, customDbVersion, and CustomBuildVersion fields for FDB 4.5
+- PEPS Services "Check PEPS Services Setup" option displays Critical or Significant for drug-drug interaction check with existing drugs
 - Updating the dose units in the inbound drugCheck schema to include the full 4.5 list for request validation. Adding 4.5 Dose Units plurals to the validation list
 - FDB-3288 - Option Lookup Dosing Check Information for Drug
 - Sustainment releases for PREM\*3\*3 and PREM\*3\*4 have been included in this release
-- FDB-3304 - Max Daily Dose ‘below the dosing range’ warning currently displaying when the prescribed dose is below recommended dosing levels for the medication route
+- FDB-3304 - Max Daily Dose 'below the dosing range' warning currently displaying when the prescribed dose is below recommended dosing levels for the medication route
   - Below dosing range was turned off
 - FDB-4158 - Transformations to accommodate for frequency abbreviations not supported in FDB v4.4 (e.g., X#D)
 - FDB-4111 - Lookup Dosing Check Information for a Drug was not displaying for IVs
 - FDB-4027 - No reason was provided for continuous epidural route when dose checks could not be performed warning was returned
-- FDB-3914 - Alert message was using what appeared to be a different “drug” source
+- FDB-3914 - Alert message was using what appeared to be a different "drug" source
 - FDB-3834 - Add route to CPRS alert message when a contraindicated route was chosen (CPRS / VistA)
 - FDB-3550 - Incorrect Dose Check Calculation for Short Duration Order
 - FDB-3521 - Admixtures were providing message in an improper format
-- FDB-3810 - Lower than normal frequency “max daily dose could not be done” in CPRS
+- FDB-3810 - Lower than normal frequency "max daily dose could not be done" in CPRS
 - FDB-3532 - Weight Required and BSA Required displayed twice for both Max Single and Max Daily (FDB-3532)
 - FDB-3797 - Continuous infusion not able to do dose range check
 - FDB-3368 - PSJ OE (Inpatient OE) – Invalid next dosing ID for this dosing set error warning (FDB-3368)
@@ -130,9 +513,9 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
 - FDB-2616 - Error Response in VistA when Order Check for Complex Medication Orders
 - FDB-2663 - Set values in MOCHA XML response for DrugVendorDataVo CT_Version fields CustomBuildVersion, CustomDataVersion, and CustomIssueDate to same values as corresponding FDB published fields
 - FDB-2614 - Maximum Single Dose Order Check with a New IV or Unit Dose Medication Order
-- FDB-2890 - VistA: Update M routines to correct PEPS Services “Check Vendor Database Link” option dB version field
+- FDB-2890 - VistA: Update M routines to correct PEPS Services "Check Vendor Database Link" option dB version field
 - FDB-2960 - VistA: Update M routines to update standard medication route mappings to FDB v4.4
-- FDB-2981 - VistA: Update PEPS Services Check PEPS Services Setup “Q4H” dosing check frequency value for FDB v4.4
+- FDB-2981 - VistA: Update PEPS Services Check PEPS Services Setup "Q4H" dosing check frequency value for FDB v4.4
 - FDB-2982 - VistA: Update PEPS Services Check PEPS Services Setup Drug-Drug Interaction Check to allow Critical or Significant result for hard-coded drugs
 - FDB-3273 - Validate PSS post init routine to handle dose unit changes for FDB v4.4
 - FDB-3726 - Dup drug screens not working (Issue tracker 21)
@@ -166,17 +549,17 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
 - FDB-5535 - VistA/CPRS/MOCHA: v4.5 Regression Test in SQC
 - FDB-5814 - VistA/MOCHA: Unexpected error returned when performing order check for fish oil with GCNSEQNO 73367
 - FDB-5611 - VistA MOCHA GCN SEQ: FR 23 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is 'NO', Drug level error should display
-- FDB-5609 - VistA/MOCHA GCN SEQ: FR 13 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is ‘NO’, Exclude from dose ck is 'NO', Override DF dose ck is 'NO' - A drug level error should display.
-- FDB-5610 - VistA/MOCHA GCN SEQ: FR 8 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is ‘YES’, no message shall be displayed to the user
+- FDB-5609 - VistA/MOCHA GCN SEQ: FR 13 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is 'NO', Exclude from dose ck is 'NO', Override DF dose ck is 'NO' - A drug level error should display.
+- FDB-5610 - VistA/MOCHA GCN SEQ: FR 8 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is 'YES', no message shall be displayed to the user
 - FDB-5730 - VistA/MOCHA GCN SEQ: FR 21- Inpatient- when an edit is performed on a unit dose or an IV order through pharmacy backdoor options for a dosing check is performed
 - FDB-5731 - VistA/MOCHA GCN SEQ: FR 14- Inpatient The drug level error message will be displayed to a user if an inpatient (IV & UD) order is entered through backdoor options for a drug
-- FDB-5732 - VistA/MOCHA: GCN SEQ: FR 6 Outpatient-If an OP order is written for a drug that has a bad GCNSEQNO and EXCLUDE DRG-DRG INTERACTION CK in the VA PRODUCT File is ‘Yes’, no message shall be displayed.
+- FDB-5732 - VistA/MOCHA: GCN SEQ: FR 6 Outpatient-If an OP order is written for a drug that has a bad GCNSEQNO and EXCLUDE DRG-DRG INTERACTION CK in the VA PRODUCT File is 'Yes', no message shall be displayed.
 - FDB-5611 - VistA MOCHA GCN SEQ -FR 23 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is 'NO', Drug level error should display
 - FDB-5604 - VistA: Installing PSS 254 - Orderable Items report that is easy to import into Excel
 - FDB-5603 - VistA: Installing PSS 254 - Quick Order report that is easy to import into Excel
 - FDB-5907 - MOCHA: Upgrade build to FDB v4.5.10.1
 - FDB-5611 - VistA MOCHA GCN SEQ -FR 23 Inpatient with drug that has a bad GCNSEQNO and Exclude DDI check is 'NO', Drug level error should display
-- FDB-5833 - VistA/CPRS: If the frequency check status is ‘ExceedsHigh’ Inpatient or outpatient Medications shall display the FDB frequency message
+- FDB-5833 - VistA/CPRS: If the frequency check status is 'ExceedsHigh' Inpatient or outpatient Medications shall display the FDB frequency message
 - FDB-6204 - VistA: Update to the Rollback Messaging and PEPS Dev Port
 - FDB-6202 - VistA: Update Rollback/Back-out Process Data Handling
 - FDB-6114 - MOCHA: Upgrade build to FDB v4.5.10.3 and pass UNKNOWN severityFilter value to Screening.drugDrugScreen()
@@ -187,18 +570,18 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
 - FDB-4612 - VistA/CPRS: (May 2022 UAT Issue tracker \#8) Lowercase display of route in general dosing information message CPRS & backdoor
 - FDB-6165 - VistA/CPRS/MOCHA: Add drug name prefixed to frequency message
 - FDB-6356 - MOCHA: Upgrade build to use FDB v4.5.10.4
-- FDB-6367 - MOCHA/VistA: Two Drug-Drug Interaction alerts displayed for VA customized DDI’s
+- FDB-6367 - MOCHA/VistA: Two Drug-Drug Interaction alerts displayed for VA customized DDI's
 - FDB-4652 - CPRS (May 2022 UAT Issue tracker \#15): Continuous infusion – Free text dosing rate - No weight messaging
 - FDB-6011 - VistA / CPRS: As a user, I can see existing VA DDI customizations are available when performing order checks
 - FDB-6382 - VistA: Retest PSS Check PEPS Services Setup for VA Custom DDI following upgrade of MOCHA to use FDB v4.5.11.1
 - FDB-6688 - VistA/MOCHA: Double equal sign (===) lines above Drug-Drug Interaction alert message
 - FDB-4652 - CPRS (May 2022 UAT Issue tracker \#15) Continuous infusion – Free text dosing rate – No weight messaging
 - FDB-6382 - VistA: Retest PSS Check PEPS Services Setup for VA Custom DDI following upgrade of MOCHA to use FDB v4.5.11.1
-- FDB-5661 - Bug: VistA - Leuprolide and Degarelix drugs-The frequency schedule is for “week” the chemo message is displayed
+- FDB-5661 - Bug: VistA - Leuprolide and Degarelix drugs-The frequency schedule is for "week" the chemo message is displayed
 - FDB-6815 - VistA MOCHA CPRS\_ From PECS - New and Existing DDI Customizations Regression Testing
 - FDB-4717 - MOCHA: Upgrade FDB Fwk library to v4.4.16 alpha release to introduce support for dosing frequencies that require greater precision (e.g., greater than every 90 days)
 - FDB-6701 - VistA: Validate the extended dosing intervals for LEUPROLIDE ACETATE GCN# 44968 in FDB v4.5 using VistA SQC account
-- FDB-5661 - VistA: Leuprolide and Degarelix drugs -The frequency schedule is for “week” the chemo message is displayed
+- FDB-5661 - VistA: Leuprolide and Degarelix drugs -The frequency schedule is for "week" the chemo message is displayed
 - FDB-5034 - VistA/CPRS: Inconsistent Display of Frequency Messages
 - FDB-6069 - VistA/CPRS: As a user, I can see new VA DDI customizations are available when performing order checks
 - FDB-6905 - VistA/CPRS: Validate extended dosing intervals for ID 6 (LEUPROLIDE ACETATE 30MG/KIT INJ,SUSP,SA) and ID 18 (PALIPERIDONE PALMITATE 273MG/KIT (3 MONTH) INJ,SUSP,SA )
@@ -208,7 +591,7 @@ The following are the enhancements and modifications to the FDB Fwk Upgrade vers
 - FDB-7439 - DATUP/PECS/MOCHA: (Step 3) Load VA custom update file with New Duplicate Therapy Record
 - FDB-6069 - VistA/CPRS: As a user, I can see new VA DDI customizations are available when performing order checks
 - FDB-6701 - VistA: Validate the extended dosing intervals for LEUPROLIDE ACETATE GCN# 44968 in FDB v4.5 using VistA SQC account
-- FDB-5661 - VistA - Leuprolide and Degarelix drugs-The frequency schedule is for “week” the chemo message is displayed
+- FDB-5661 - VistA - Leuprolide and Degarelix drugs-The frequency schedule is for "week" the chemo message is displayed
 - FDB-5034 - VistA/CPRS: Inconsistent Display of Frequency Messages
 - FDB-6751 - VistA/CPRS: Annual dosing intervals - once a year
 - FDB-6795 - VistA/CPRS: Display max daily dose messaging returned by FDB API response for invalid frequencies
@@ -241,12 +624,6 @@ Documentation describing the new functionality introduced by this patch is avail
 
 Table of PSO\*7\*467 Release DocumentationTable includes file description, file name, and FTP mode
 
----
-
-## Appendix: Unique Sections from Prior Versions
-
-_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
-
 ### From: PREM*3*3 MOCHA Server Version 3.2 Release Notes
 
 ## Enhancements
@@ -260,57 +637,3 @@ MOCHA Server 3.2 updates the code base to comply with software assurance policie
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 No menu changes have been made.
-
-## New Options
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-No new options have been made.
-
-## Changed Options
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-No options have been changed.
-
-## Deleted Options
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-No options have been deleted.
-
-## New Files
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The following new files were added to the build for this release. In the case of library files, older versions of these libraries were deleted from the build.
-
-- javax.servlet.javax.servlet-api.jar
-- log4j-api-2.14.0.jar
-- log4j-core-2.14.0.jar
-- commons-collections4-4.4.jar
-- esapi-2.2.0.0.jar
-
-## Modified Fields
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-Not applicable for Java Web Service.
-
-## New Fields
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-Not applicable for Java Web Service.
-
-## Security Key
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-No new security keys have been created.
-
-## Modified Templates
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Templates have not been modified.

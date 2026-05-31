@@ -11,50 +11,33 @@ app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1*35
-group_key: "XWB:XWB:1.1"
-file_numbers: []
-security_keys: []
+group_key: XWB:XWB:1.1
+description: For the current patch history related to this software, see the National Patch Module (NPM) on FORUM.
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '19'
+- '8994.1'
+security_keys:
+- PF1
 menu_options: 0
-description: "<table> <caption><p><span id=\\"_Ref111129761\\" class=\\"anchor\\"></span>Table 1: Documentation Symbol Descriptions</p></caption> <colgroup> <col style=\\"width: 14%\\" /> <col style=\\"width: 51%\\" /> <col style=\\"width: 34%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>Description</th> <th>Autho"
-audience: 
-keywords: 
-  - broker
-  - service
-  - tcpip
-  - account
-  - span
-  - openvms
-  - table
-  - contents
-  - access
-  - cach
 page_count: 0
-word_count: 6633
+word_count: 6623
 section_count: 15
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb1_1P44um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb1_1P44um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=23"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb1_1P44um.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb1_1P44um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=23
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  RPC Broker 1.1
-
-  TCP/IP Supplement:
-
-  Patch XWB\*1.1\*35  
-  Patch XWB\*1.1\*44
----
-
 ![](xwb-1-1-35-and-xwb-1-1-44-tcp-ip-supplement/001.png)
 
 Patch XWB\*1.1\*35 Original: January 2005

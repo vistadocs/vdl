@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: BMS
 patch_ver: 5.0
 patch_id: BMS*5.0
-group_key: "BMS:BMS:5.0"
+group_key: BMS:BMS:5.0
+description: Table 2 - Bed Level Management - Individual Bed Level Update
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - level
-  - management
-  - span
-  - strong
-  - figure
-  - solution
-  - guide
-  - version
-  - class
-  - report
 page_count: 0
-word_count: 11384
+word_count: 11374
 section_count: 11
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_bl.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_bl.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=205"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_bl.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_bl.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=205
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Bed Management Solution (BMS)
-
-  Bed Level Management User Guide
----
-
 ![](bed-management-solution-version-5-0-bed-level-management-user-guide/001.png)
 
 November 2025

@@ -3,7 +3,7 @@ title: Vitals Version 5 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GMRV
 app_name: Vitals/Measurements
 section: CLI
@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: GMRV
 patch_ver: 5
 patch_id: GMRV*5
-group_key: "GMRV:GMRV:5"
-file_numbers: []
-security_keys: []
+group_key: GMRV:GMRV:5
+description: '''1September 2009 5.23 Sections updated for Patch 23 (GMRV*5.0*23): - updated Title Page - updated Revision History - updated Table of Contents - updated Introduction, page 1-2 and 1-4 - updated Using Vitals Manager, pages 2-2, 2-3, 2-4, 2-5, 2-7, 2-8, and 2-9 - updated Using Vitals, pages 3-3, and...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '44'
+- '100.21'
+- '200'
+- '8989.3'
+security_keys:
+- GMV MANAGER
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - vitals
-  - class
-  - patient
-  - button
-  - template
-  - table
-  - graph
-  - vital
-  - figure
-  - even
 page_count: 0
 word_count: 18499
 section_count: 28
 table_count: 0
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=107"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl5_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
 ---
 
 ![](vitals-version-5-user-manual/001.png)

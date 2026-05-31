@@ -5,55 +5,44 @@ doc_label: User Guide
 doc_layer: patch
 doc_subject: One VA Pharmacy
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*532
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: When updates occur, the Title Page lists the new revised date and this page describes the changes. Bookmarks link the described content changes to its place within manual. There are no bookmarks for format updates. Page numbers change with each update; therefore, they are not included as a...
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '52.09'
+- '59'
+- '59.7'
+- '101'
+- '391.91'
+- '3001'
+security_keys:
+- DIUSER
+- PSORPH
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - pharmacy
-  - oneva
-  - prescription
-  - table
-  - patient
-  - contents
-  - vista
-  - prescriptions
-  - report
-  - message
 page_count: 0
-word_count: 11207
+word_count: 11194
 section_count: 16
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p532_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p532_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p532_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p532_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Outpatient Pharmacy
-
-  OneVA Pharmacy
-
-  User Guide
----
-
 ![](pso-7-532-one-va-pharmacy-user-guide/001.png)
 
 December 1997

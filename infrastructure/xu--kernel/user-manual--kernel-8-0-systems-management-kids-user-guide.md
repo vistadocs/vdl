@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: KIDS User Guide"
+title: '''Kernel 8.0 Systems Management: KIDS User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: KIDS"
+doc_subject: '''Systems Management: KIDS'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,48 +11,41 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '6'
+- '9.4'
+- '9.6'
+- '9.7'
+- '9.8'
+- '17'
+- '50'
+- '63'
+security_keys:
+- XUMGR
+- XUPROG
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - install
-  - distribution
-  - transport
-  - installation
-  - kids
-  - build
-  - global
-  - class
-  - package
 page_count: 0
-word_count: 11400
+word_count: 11388
 section_count: 21
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_kids_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_kids_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_kids_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_kids_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Kernel Installation and Distribution System (KIDS)  
-  User Guide
----
-
 ![](kernel-8-0-systems-management-kids-user-guide/001.png)
 
 August 2025

@@ -3,46 +3,49 @@ title: MOCHA Version 2.1a Release Notes (PSS*1*201)
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: a  (PSS*1*201)
+doc_subject: a (PSS*1*201)
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 2.1
 patch_id: PSS*2.1*201
-group_key: "PSS:PSS:2.1"
-file_numbers: []
+group_key: PSS:PSS:2.1
+description: '*(This page included for two-sided copying.)*Table of'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '11'
+- '11.1'
+- '13'
+- '32'
+- '32.1'
+- '33'
+- '50'
+- '51'
+- '51.1'
+- '51.24'
+- '51.25'
+- '900903'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - dose
-  - table
-  - contents
-  - schedule
-  - instruction
-  - medication
-  - check
-  - dosing
-  - frequency
-  - order
 page_count: 0
 word_count: 1880
 section_count: 9
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_201_rn_r0517.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_201_rn_r0517.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_201_rn_r0517.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_201_rn_r0517.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-2-1a-release-notes-pss-1-201/001.png)

@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*418
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
-audience: 
-keywords: 
-  - installation
-  - table
-  - contents
-  - cprs
-  - sample
-  - install
-  - patch
-  - executable
-  - class
-  - test
 page_count: 0
-word_count: 2319
+word_count: 2303
 section_count: 11
 table_count: 18
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 1
 revision_newest: 8/25/2015
 revision_oldest: 8/25/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_418_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_418_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_418_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_418_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System Graphical User Interface (CPRS GUI)
----
-
 Installation Guide
 
 OR\*3.0\*418

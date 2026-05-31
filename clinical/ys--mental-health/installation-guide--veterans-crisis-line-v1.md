@@ -3,7 +3,7 @@ title: Veteran's Crisis Line Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: YS
 app_name: Mental Health
 section: CLI
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: YS
 patch_ver: 1
 patch_id: YS*1
-group_key: "YS:YS:1"
-file_numbers: []
+group_key: YS:YS:1
+description: '| | | | | |------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------| | Date | Version | Description | Author | | 12/01/2014 | 0.6 | Technical edit. Added...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
+- '704.117'
 security_keys: []
 menu_options: 2
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - span
-  - application
-  - installation
-  - version
-  - table
-  - class
-  - contents
-  - server
-  - crisis
-  - line
 page_count: 0
 word_count: 6635
 section_count: 22
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 9
 revision_newest: 12/01/2014
 revision_oldest: 6/3/2013
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 |     |     |     |

@@ -1,13 +1,49 @@
 ---
-consolidated_title: "cprs gui release notes"
-app_code: CPRS
+title: OR*3*569 CPRS GUI Release Notes
 doc_type: RN
-master_source: "OR*3*569 CPRS GUI Release Notes"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: CPRS GUI
+app_code: CPRS
+app_name: Computerized Patient Record System
+section: CLI
+app_status: archive
+pkg_ns: OR
+patch_ver: 3
+patch_id: OR*3*569
+group_key: CPRS:OR:3
+file_numbers:
+- '69.73'
+- '101.43'
+- '101.45'
+security_keys: []
+menu_options: 0
+description: The purposes of these patches are to resolve some technical issues so that Anatomic Pathology (AP) order dialogs can be enabled nationwide. Once these patches are released, sites are approved to enable Anatomic Pathology ordering in CPRS.
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1728
+section_count: 6
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: September 2022
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_569_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_569_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
+master_source: OR*3*569 CPRS GUI Release Notes
 master_pub_date: September 2022
 consolidated_from: 3 versions
 prior_versions:
-  - "OR*3*422 CPRS GUI Release Notes"
-  - "OR*3*542 CPRS GUI Release Notes"
+- OR*3*422 CPRS GUI Release Notes
+- OR*3*542 CPRS GUI Release Notes
+consolidated_title: cprs gui release notes
 ---
 
 ## Table of Contents
@@ -91,7 +127,7 @@ N/A
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 - <u>Specimen Gets Deleted Until Another Key Is Selected</u>  
-  If there is only one specimen on the AP Order Dialog, and the user deletes it, it will ask for confirmation that they want to delete the entry. If the user selects “yes,” the specimen is removed, however, if they click in any other boxes in the dialog, the specimen that was just deleted gets added back.
+  If there is only one specimen on the AP Order Dialog, and the user deletes it, it will ask for confirmation that they want to delete the entry. If the user selects "yes," the specimen is removed, however, if they click in any other boxes in the dialog, the specimen that was just deleted gets added back.
 - <u>Specimen Bottles Getting Switched</u>  
   Staff report that from time to time, the specimen bottles will get changed. Specimen \#1 will become \#2 and vice versa. Staff requests to be able reorder the specimen by either dragging and dropping or having arrow keys to reorder them.
 - <u>Auto-Populate the Specimen Number in the CPRS Order or in VistA</u>  
@@ -116,14 +152,14 @@ N/A
   The system does not allow users to auto-verify an AP quick order.
 - <u>Quick Order Default Comment is Word Processing Field and CPRS Dialog Are Single Line Edit</u>  
   > Quick order default comment is a Word Processing field and the field on the CPRS dialog are single line edit. This discrepancy needs to be resolved. If multiple lines entered in the quick-order they do carry over into the edit box, but they are displayed without carriage returns. In the final order the carriage returns come back.
-- <u>Tab Order of “How Often” and “How Long” Fields Are Backwards</u>  
-  The Tab order for the How Often” and “How Long” fields are backwards.
-- <u>“How Long” Field Sometimes Incorrectly Enabled</u>  
-  If the “How Often” order prompt is displayed, and defaults to a one-time frequency (such as ONCE), the “How Long” field is incorrectly enabled, but if you manually select ONCE, the field is correctly disabled. Default can be from the 101.45 file, a quick order, or from a changed or copied order.
+- <u>Tab Order of "How Often" and "How Long" Fields Are Backwards</u>  
+  The Tab order for the How Often" and "How Long" fields are backwards.
+- <u>"How Long" Field Sometimes Incorrectly Enabled</u>  
+  If the "How Often" order prompt is displayed, and defaults to a one-time frequency (such as ONCE), the "How Long" field is incorrectly enabled, but if you manually select ONCE, the field is correctly disabled. Default can be from the 101.45 file, a quick order, or from a changed or copied order.
 - <u>Cannot Create Personal AP Dialog Quick Orders in CPRS</u>  
   The system does not allow users to create personal AP Dialog quick orders in CPRS.
 - <u>Surgeon/Provider Required Error Message Says Surgeon/Physician</u>  
-  If the Surgeon/Provider field is marked as required, and the user creating an AP order does not populate that field, an error message will display, notifying the user that they need to populate that field. However, the message says “Surgeon/Physician” instead of Surgeon/Provider.”
+  If the Surgeon/Provider field is marked as required, and the user creating an AP order does not populate that field, an error message will display, notifying the user that they need to populate that field. However, the message says "Surgeon/Physician" instead of Surgeon/Provider."
 - <u>Required Collection Date/Time Not Enforced</u>  
   If the Collection Date/Time field is marked as required, the system is not enforcing it.
 - <u>Update AP Order Dialogs Allows Entry of Invalid Defaults</u>  

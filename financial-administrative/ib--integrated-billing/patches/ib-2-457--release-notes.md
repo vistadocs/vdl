@@ -11,44 +11,44 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*457
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '- Introduction - Patch Description and Installation Instructions - Patch Description - Installation Instructions - Enhancements - [Issue...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '13.01'
+- '13.02'
+- '13.03'
+- '13.04'
+- '13.05'
+- '13.06'
+- '13.07'
+- '350.9'
+- '350.9006'
+- '355.35'
+- '355.3503'
+- '355.3505'
+- '355.351'
+- '355.3511'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - extract
-  - message
-  - patch
-  - aitc
-  - software
-  - insurance
-  - redacted
-  - site
-  - sent
-  - messages
 page_count: 0
-word_count: 3232
+word_count: 3226
 section_count: 4
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p457_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p457_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p457_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p457_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
-
----
-title: "VistA Financial Annual Enhancements \\#1 eII"
----
-
 ####### RELEASE NOTES
 
 IB\*2\*457

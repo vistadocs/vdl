@@ -3,7 +3,7 @@ title: Mental Health Version 5.01 Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: YS
 app_name: Mental Health
 section: CLI
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01
-group_key: "YS:YS:5.01"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: "- [Preface](#preface) - [Package Security](#package-security) - [# Progress Notes](#progress-notes) - [Electronic Signature:](#electronic-signature) - [# Security Keys](#security-keys) - [# Menus](#menus) - [Option Assignment:](#option-assignment) - [Primary Menu Option:](#primary-menu-option) - [Se"
-audience: 
-keywords: 
-  - mental
-  - health
-  - table
-  - contents
-  - security
-  - access
-  - progress
-  - package
-  - options
-  - notes
+group_key: YS:YS:5.01
+description: '''- Preface - Package Security - # Progress Notes - Electronic Signature: - # Security Keys - # Menus - Option Assignment: - Primary Menu Option: -...'''
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '615'
+security_keys:
+- YSD
+- YSP
+- YSQ
+- YSZ
+menu_options: 1
 page_count: 0
 word_count: 1048
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh_sgv5.01.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh_sgv5.01.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh_sgv5.01.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/mh_sgv5.01.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 > ![](mental-health-version-5-01-security-guide/001.png)

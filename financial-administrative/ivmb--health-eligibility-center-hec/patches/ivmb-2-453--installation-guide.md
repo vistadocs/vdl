@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*453
-group_key: "IVMB:IVMB:2"
+group_key: IVMB:IVMB:2
+description: '''- Installation Instructions This patch can be loaded with users on the system. Installation will take less than 5 minutes. However, the post install will task two jobs: > Job Purpose > EN^IVMB453A Calculates sub-priorities > POST3A^IVMB453 Builds AF New-Style Index...'''
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: "- [Installation Instructions](#installation-instructions) This patch can be loaded with users on the system. Installation will take less than 5 minutes. However, the post install will task two jobs: > Job Purpose > EN^IVMB453A Calculates sub-priorities > POST3A^IVMB453 Builds AF New-Style Index Thes"
-audience: 
-keywords: 
-  - letter
-  - installation
-  - patch
-  - enrollment
-  - install
-  - ivmb
-  - blockquote
-  - letters
-  - table
-  - aycb
 page_count: 0
 word_count: 607
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/pl_pivmb_2_453_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 ![](ivmb-2-453-priority-letters-phase-1-installation-guide/001.png)

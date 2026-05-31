@@ -1,49 +1,41 @@
 ---
-title: "Laboratory: Universal Interface Micro Interface Version 1 User Guide"
+title: '''Laboratory: Universal Interface Micro Interface Version 1 User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: 
-  - 61
+patch_id: null
+group_key: LA::1
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '61'
+- '62.485'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - release
-  - default
-  - contents
-  - blockquote
-  - class
-  - micro
-  - parameters
-  - level
-  - code
 page_count: 0
 word_count: 5020
 section_count: 13
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 9
 revision_newest: 04/12/2017
 revision_oldest: 12/13/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 VistA Lab Enhancements – Microbiology

@@ -1,12 +1,46 @@
 ---
-consolidated_title: "install guide"
-app_code: IB
+title: IB*2*499 Install Guide
 doc_type: IG
-master_source: "IB*2*499 Install Guide"
-master_pub_date: revision_count: 0
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Install Guide
+app_code: IB
+app_name: Integrated Billing
+section: FIN
+app_status: active
+pkg_ns: IB
+patch_ver: 2
+patch_id: IB*2*499
+group_key: IB:IB:2
+file_numbers:
+- '355.81'
+security_keys: []
+menu_options: 0
+description: This bundle has enhancements that extend the capabilities of the Veterans Health Information Systems and Technology Architecture (VistA) Patient Registration system (DG), Fee Basis System (FB), and Integrated Billing (IB). Below is a list of all the applications involved in this project along with t
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 1320
+section_count: 6
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/cgnb_patch_bundle_dg_fb_ib_1_0_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/cgnb_patch_bundle_dg_fb_ib_1_0_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
+master_source: IB*2*499 Install Guide
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "IB*2*476 Install Guide"
+- IB*2*476 Install Guide
+consolidated_title: install guide
 ---
 
 NEWBORN DG FB IB PATCH BUNDLEINSTALLATION GUIDE

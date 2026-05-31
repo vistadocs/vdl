@@ -1,24 +1,48 @@
 ---
-consolidated_title: "vista imaging exchange (vix) deployment, installation, back-out, and rollback guide"
-app_code: MAG
+title: VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
 doc_type: DIBR
-master_source: "VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: plain
+doc_subject: VistA Imaging Exchange (VIX) (DIBRG)
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: active
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: This document describes how to deploy and install the VistA Imaging eXchange (VIX) MAG\3.0\358, and how to back-out the product and rollback to a previous version or data set. This document is a companion to the project charter and management plan for this effort. In cases where a non-developed comm
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2128
+section_count: 31
+table_count: 4
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2025
+revision_count: 21
+revision_newest: 01/06/2025
+revision_oldest: 03/10/2020
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_9_2_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_9_2_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
+master_source: VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
 master_pub_date: January 2025
 consolidated_from: 5 versions
 prior_versions:
-  - "MAG*3*269 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)"
-  - "MAG*3*303 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)"
-  - "MAG*3*329 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)"
-  - "MAG*3*348 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)"
----
-
----
-title: |
-  VistA Imaging eXchange (VIX) Enhancements and Maintenance
-
-  MAG\*3.0\*<span id="PatchNumber" class="anchor"></span>358
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- MAG*3*269 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)
+- MAG*3*303 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)
+- MAG*3*329 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)
+- MAG*3*348 VistA Imaging Exchange (VIX) Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
+consolidated_title: vista imaging exchange (vix) deployment, installation, back-out, and rollback guide
 ---
 
 ![](vista-imaging-exchange-vix-deployment-installation-back-out-and-rollback-guide-d/001.png)
@@ -169,13 +193,13 @@ Multiple entities oversee decision-making for deployment, installation, back-out
 
 Once approval has been given to nationally release MAG\*3.0\*358, the patch will be released from the National Patch Module. At this point, the patch will be available for installation and deployment at all sites from OI Field Offices using a web browser to download from the following URL: <span class="mark">REDACTED</span>.
 
-This section provides the schedule and milestones for the deployment. Scheduling of test/mirror installs, testing, and deployment to production will be at the site’s discretion. It is anticipated that there will be a 30-day compliance period.
+This section provides the schedule and milestones for the deployment. Scheduling of test/mirror installs, testing, and deployment to production will be at the site's discretion. It is anticipated that there will be a 30-day compliance period.
 
 ## Timeline
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site’s discretion, within the constraints of the compliance period for the release.
+There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site's discretion, within the constraints of the compliance period for the release.
 
 ## Site Readiness Assessment
 
@@ -201,7 +225,7 @@ The first deployment will be to initial operating capability (IOC) sites for ver
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Please refer to [*MAG3_0P<u>358</u>\_VIX_INSTALLATION_GUIDE.PDF*](https://www.va.gov/vdl/application.asp?appid=105) sections “Preparing for a New VIX Installation” or “Preparing for a VIX Update” for site preparation.
+Please refer to [*MAG3_0P<u>358</u>\_VIX_INSTALLATION_GUIDE.PDF*](https://www.va.gov/vdl/application.asp?appid=105) sections "Preparing for a New VIX Installation" or "Preparing for a VIX Update" for site preparation.
 
 ## Resources
 
@@ -574,7 +598,7 @@ KIDS installation will take 2-5 minutes.
 
 1.  This release is provided using a Host file, use the Load a Distribution option contained on the Kernel Installation and Distribution System Menu to load the Host file.
 
-    When prompted to “Enter a Host File:” enter
+    When prompted to "Enter a Host File:" enter
 
     /srv/vista/patches/SOFTWARE/MAG3_0P303.KID
 2.  From the Kernel Installation and Distribution System Menu, select the Installation Menu. From this menu,

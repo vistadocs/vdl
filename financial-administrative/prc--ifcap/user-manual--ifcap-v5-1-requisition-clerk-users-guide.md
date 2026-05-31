@@ -11,38 +11,39 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
+group_key: PRC:PRC:5.1
+description: Requisitions are orders from a Government vendor. After the Accountable Officer approves a 2237 (Request, Turn-in and Receipt for Property or Services) for procurement from a Government vendor, Requisition Clerks turn the 2237 into a requisition. When you create a requisition, you assign it a requis
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '411'
+- '411.2'
+- '420.5'
+- '440'
+- '440.2'
+- '441'
+- '442'
+- '442.3'
 security_keys: []
 menu_options: 1
-description: Requisitions are orders from a Government vendor. After the Accountable Officer approves a 2237 (Request, Turn-in and Receipt for Property or Services) for procurement from a Government vendor, Requisition Clerks turn the 2237 into a requisition. When you create a requisition, you assign it a requis
-audience: 
-keywords: 
-  - requisition
-  - number
-  - table
-  - contents
-  - order
-  - code
-  - amendment
-  - edit
-  - adjustment
-  - ifcap
 page_count: 0
 word_count: 6744
 section_count: 44
 table_count: 15
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 2
 revision_newest: 12/29/04
 revision_oldest: 12/29/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1requisition_clerk.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1requisition_clerk.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1requisition_clerk.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1requisition_clerk.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ![](ifcap-version-5-1-requisition-clerk-user-s-guide/001.png)

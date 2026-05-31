@@ -3,7 +3,7 @@ title: OR*3*0*626 (MOCHA 3.0 Combined Build Enhancement) Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,49 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*0
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3
+description: PSJ\*5\*447, PSO\*7\*737, and OR\*3\*626 (MOCHA 3.0 PGX Combined Build
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '6'
+- '18.02'
+- '18.12'
+- '46'
+- '47'
+- '50'
+- '50.416'
+- '50.68'
+- '51.26'
+- '51.263'
+- '51.28'
+- '51.29'
+- '59.7'
+- '100.05'
+- '100.3'
+- '100.8'
+- '103'
+security_keys:
+- PSJI MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - check
-  - table
-  - pharmacogenomic
-  - contents
-  - drug
-  - interaction
-  - checks
-  - phenotype
-  - pharmacy
 page_count: 0
 word_count: 2976
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-0-626-mocha-3-0-combined-build-enhancement-release-notes/001.png)

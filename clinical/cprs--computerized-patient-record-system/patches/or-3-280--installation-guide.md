@@ -3,7 +3,7 @@ title: OR*3*280 and Associated Patches Installation Guide CPRS GUI 28
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: and Associated Patches  CPRS GUI 28
+doc_subject: and Associated Patches CPRS GUI 28
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*280
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3
+description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '100'
+- '100.05'
+security_keys:
+- CLINICIAN
+- XUSPY
 menu_options: 0
-description: <span class="smallcaps">CPRS GUI version 28</span><span class="smallcaps">(Patch# OR\3\280) and Associated Patches</span><span class="smallcaps">Installation Guide</span>
-audience: 
-keywords: 
-  - site
-  - install
-  - send
-  - calculated
-  - cprs
-  - package
-  - span
-  - pxrm
-  - installing
-  - order
 page_count: 0
 word_count: 5820
 section_count: 0
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_280ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_280ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_280ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_280ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-280-and-associated-patches-installation-guide-cprs-gui-28/001.png)

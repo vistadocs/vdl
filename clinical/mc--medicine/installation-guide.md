@@ -11,38 +11,64 @@ app_status: active
 pkg_ns: MC
 patch_ver: 2.3
 patch_id: MC*2.3
-group_key: "MC:MC:2.3"
-file_numbers: []
-security_keys: []
+group_key: MC:MC:2.3
+description: '- Release Notes - Installation Information - Environment Check Routine - Pre Installation Routines - Post Installation Routines - [Prior to...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3.2'
+- '6'
+- '7'
+- '7.5'
+- '11'
+- '39'
+- '43'
+- '50'
+- '61.3'
+- '62'
+- '63'
+- '64'
+- '101'
+- '200'
+- '690.2'
+- '690.5'
+- '691'
+- '691.1'
+- '694'
+- '694.1'
+- '694.8'
+- '695'
+- '695.5'
+- '697.2'
+- '697.3'
+- '697.5'
+- '699'
+- '699.5'
+- '699.65'
+- '700.1'
+- '700.2'
+security_keys:
+- PROVIDER
+- VA PROVIDER
 menu_options: 0
-description: - [Release Notes](#release-notes) - [Installation Information](#installation-information) - [Environment Check Routine](#environment-check-routine) - [Pre Installation Routines](#pre-installation-routines) - [Post Installation Routines](#post-installation-routines) - [Prior to Installation](#prior-t
-audience: 
-keywords: 
-  - blockquote
-  - including
-  - your
-  - class
-  - already
-  - mine
-  - overwrite
-  - table
-  - medicine
-  - contents
 page_count: 0
 word_count: 5993
 section_count: 11
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/mc2_3ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/mc2_3ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=77"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Medicine/mc2_3ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Medicine/mc2_3ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=77
+audit_applied: '2026-05-31'
 ---
 
 # Release Notes

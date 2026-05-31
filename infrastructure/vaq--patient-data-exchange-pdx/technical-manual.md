@@ -3,7 +3,7 @@ title: PDX V. 1.5 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: VAQ
 app_name: Patient Data Exchange (PDX)
 section: INF
@@ -11,44 +11,55 @@ app_status: active
 pkg_ns: VAQ
 patch_ver: 1.5
 patch_id: VAQ*1.5
-group_key: "VAQ:VAQ:1.5"
-file_numbers: []
-security_keys: []
+group_key: VAQ:VAQ:1.5
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '4.2'
+- '19'
+- '142.1'
+- '200'
+- '394'
+- '394.1'
+- '394.2'
+- '394.3'
+- '394.4'
+- '394.61'
+- '394.62'
+- '394.71'
+- '394.72'
+- '394.73'
+- '394.81'
+- '394.82'
+- '394.83'
+- '394.84'
+- '394.85'
+- '394.86'
+- '394.87'
+- '394.88'
+security_keys:
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - software
-  - patient
-  - span
-  - class
-  - manual
-  - edit
-  - technical
-  - documentation
 page_count: 0
-word_count: 3619
+word_count: 3606
 section_count: 5
 table_count: 14
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=22"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Patient_Data_Exch_(PDX)/pdx1_5tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=22
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc412805077" class="anchor"></span>Patient Data Exchange (PDX) Technical Manual
----
-
 ![](pdx-v-1-5-technical-manual/001.png)
 
 Office of Information and Technology (OI&T)

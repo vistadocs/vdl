@@ -11,38 +11,80 @@ app_status: active
 pkg_ns: EN
 patch_ver: 7
 patch_id: EN*7
-group_key: "EN:EN:7"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - even
-  - style
-  - width
-  - table
-  - colspan
-  - colgroup
-  - thead
-  - tbody
+group_key: EN:EN:7
+description: '> Department of Veterans Affairs Decentralized Hospital Computer'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '5'
+- '23'
+- '24'
+- '32'
+- '164'
+- '178'
+- '194.6'
+- '233'
+- '446.4'
+- '446.5'
+- '446.6'
+- '6910'
+- '6910.1'
+- '6911'
+- '6912'
+- '6914'
+- '6914.1'
+- '6914.2'
+- '6916'
+- '6916.2'
+- '6916.3'
+- '6917'
+- '6920'
+- '6920.1'
+- '6921'
+- '6922'
+- '6924'
+- '6924.1'
+- '6924.2'
+- '6924.3'
+- '6925'
+- '6925.2'
+- '6926'
+- '6927'
+- '6928'
+- '6928.1'
+- '6928.2'
+- '6928.3'
+- '6929'
+- '7335.7'
+- '7336.3'
+- '7336.6'
+- '7336.8'
+- '7336.9'
+security_keys:
+- DIUSER
+- EN IT ASSIGNMENT
+- EN IT INVENTORY
+- ENEDNX
+- ENPLK001
+- ENPLK002
+menu_options: 14
 page_count: 0
 word_count: 14267
 section_count: 17
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/eng_tm_en_7_100.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/eng_tm_en_7_100.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=37"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/eng_tm_en_7_100.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/eng_tm_en_7_100.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=37
+audit_applied: '2026-05-31'
 ---
 
 > Department of Veterans Affairs Decentralized Hospital Computer System

@@ -1,73 +1,180 @@
 ---
-consolidated_title: "datup release notes"
-app_code: PRED
+title: DATUP Version 4.0.1 Release Notes
 doc_type: RN
-master_source: "DATUP Version 2 Release Notes"
-master_pub_date: June 2014
-consolidated_from: 3 versions
+doc_label: Release Notes
+doc_layer: anchor
+doc_subject: null
+app_code: PRED
+app_name: 'Pharmacy: Pharmacy Data Update (DATUP)'
+section: GUI
+app_status: active
+pkg_ns: PRED
+patch_ver: 4.0.1
+patch_id: PRED*4.0.1
+group_key: PRED:PRED:4.0.1
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: These release notes cover the changes to DATUP version (v) 4.0.1 First Databank (FDB) Framework (Fwk) Upgrade v4.5 for this release.
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 886
+section_count: 6
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: July 2024
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/PRED_4_0_P2_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Data_Update/PRED_4_0_P2_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=203
+audit_applied: '2026-05-31'
+master_source: DATUP Version 4.0.1 Release Notes
+master_pub_date: July 2024
+consolidated_from: 5 versions
 prior_versions:
-  - "DATUP Version 3 Release Notes"
-  - "PRED*4*3 DATUP Version 4.0.3 Release Notes"
+- DATUP Version 2 Release Notes
+- DATUP Version 3.0.01 Release Notes
+- DATUP Version 3 Release Notes
+- PRED*4*3 DATUP Version 4.0.3 Release Notes
+consolidated_title: datup release notes
 ---
 
-**Data Update (DATUP) Release Notes**
+## Table of Contents
 
-<!-- image -->
+  - [## Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Audience](#audience)
+  - [This Release](#this-release)
+    - [New Features and Functions Added](#new-features-and-functions-added)
+    - [Enhancements and Modifications to Existing](#enhancements-and-modifications-to-existing)
+    - [Known Issues](#known-issues)
+  - [Product Documentation](#product-documentation)
+---
+title: |
+  <span id="_Toc205632711" class="anchor"></span>Data Update (DATUP) 4.0.1
+  PRED\*4\*2
+  Release Notes
+---
+![](datup-version-4-0-1-release-notes/001.png)
+July 2024
+Department of Veterans Affairs (VA)
+Office of Information and Technology (OIT)
+Table of Contents
 
-**Version 2.0**
+## ## Introduction
 
-**June 2014**
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-**Department of Veterans Affairs Office of Information and Technology (OIT)**
+The Pharmacy Reengineering (PRE) Project provided innovative enhancements to Clinical Decision Support (CDS) within the Veterans Health Administration (VHA). Medication order checks are accomplished through the synergistic functionality of multiple applications, including Medication Order Check Healthcare Application (MOCHA), Pharmacy Product System-National (PPS-N), Pharmacy Enterprise Customization System (PECS), and Data Update (DATUP).
 
-**Product Development (PD)**
+DATUP is a utility that runs an automated process to maintain the First Databank Drug Information Framework (commonly abbreviated as FDB-DIF) and VA custom data used by regional MOCHA instances and at the national level by PPS-N.
 
-*(This page included for two-sided copying.)*
+## Purpose
 
-**Table of Contents**
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1. Introduction	1
-2. Enhancements	2
-    - 2.1. Functional Enhancements	2
-    - 2.2. Architectural Enhancements	2
+These release notes cover the changes to DATUP version (v) 4.0.1 First Databank (FDB) Framework (Fwk) Upgrade v4.5 for this release.
 
-June 2014	Data Update (DATUP) v2.0	i Release Notes
+## Audience
 
-*(This page included for two-sided copying.)*
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-ii	Data Update (DATUP) v2.0	June 2014 Release Notes
+This document targets users and administrators of DATUP FDB Fwk Upgrade v4.5 and applies to the changes made between this release and any previous release for this software.
 
-### Introduction
+## This Release
 
-The goal of the Pharmacy Reengineering (PRE) project is to replace the current M-based suite of pharmacy applications with a system that will better meet the current and expected business needs for the Department of Veterans Affairs (VA) and address the ever-changing patient safety issues. PRE is intended to build on the work accomplished in 2006 with the development of the Pharmacy Enterprise Product System (PEPS) Proof of Concept (POC). The first phase, PRE V.0.5, implements enhanced order checking functionality utilizing Health *e* Vet (H *e* V) compatible architecture and First Databank (FDB) MedKnowledge 1 Application Program Interfaces (APIs) and database. Data Update (DATUP) is a JAVA-based utility that supports the Medication Order Check Healthcare Application (MOCHA) by performing data source updates. MOCHA conducts order checks using First Databank (FDB) FDB-DIF within the existing VistA pharmacy application. FDB-DIF is a data product that provides the latest identification and safety information on medications. Additionally, FDB provides the latest algorithms used to perform order checks. DATUP processes the data updates associated with FDB’s DIF. DATUP is installed as a local instance as well as nationally, and there are two installation guides.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-In response to the Project Management Accountability System (PMAS) initiative instituted in the summer of 2009 that requires projects to complete an increment every six months, PRE now uses an Agile Development methodology, which focuses on developing a usable product at the end of small, iterative timeframes, with involvement and approval from the product owner at every iteration. Each small timeframe, called a sprint, ends with a workable product that is built on the previous efforts until the increment is complete and meets the PMAS schedule. Each increment produces agreed-upon functionality that is available to the entire user community upon National Deployment.
+The following sections provide a summary of the new features and functions added, enhancements and modifications to the existing software, and any known issue for FDB Fwk Upgrade v4.5 DATUP 4.0.1 / PRED\*4\*2.
 
-DATUP v1.0, the initial version, was deployed to production in 2010 and remained in use until DATUP v1.1 was deployed. The initial version included some changes to how the email notifications, informing users that a new First Databank Incremental Update file is available, were displayed. DATUP v1.1 was deployed in 2012 and included XXX???
+### New Features and Functions Added
 
-This Release Notes document provides a brief description of the new features and functions of DATUP v2.0.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1. At the time of development, this product was known as FDB Drug Information Framework (commonly abbreviated as FDB- DIF). The references to FDB-DIF in this Release Notes document are necessary because that was the product that was installed with this release, and references to the new database (MedKnowledge) would be inaccurate, as it has a different schema.
+This section is not applicable (N/A) to the FDB Fwk Upgrade v4.5 DATUP 4.0.1 / PRED\*4\*2 release.
 
-June 2014	Data Update (DATUP) v2.0	1
+### Enhancements and Modifications to Existing
 
-Release Notes
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Enhancements
+VHA, Patient Care Services, and Pharmacy Benefits Management (PBM) has requested the FDB Fwk upgrade from version 3.3 to version 4.5 for VA Pharmacy applications. DATUP will be upgrading the Application Programming Interface (API) calls in support of the FDB Fwk version 4.5 upgrade.
 
-DATUP v2.0 provides both functional and architectural enhancements.
+The following are the enhancements and modifications to the FDB Fwk Upgrade v4.5 DATUP 4.0.1 / PRED\*4\*2 release
 
-#### Functional Enhancements
+- FDB Fwk version 4.5 Application Programming Interfaces (APIs) to be integrated into the DATUP application
+- Modifications to methods and code-flow to be in compliance with FDB v4.5 constructs
+- FDB-6309 - DATUP: File naming issue - 4.5 custom update files have null in the file name after being processed and placed in the droid/custom folder
+- FDB-6309 - DATUP: File naming issue - 4.5 custom update files have null in the file name after being processed and placed in the droid/custom folder
+- FDB-7912 - PECS/DATUP/MOCHA: (Step 1) Validate DRC dose unit customizations
+- FDB-7756 - DATUP: Null pointer exception thrown by FDB v4.5.11.2 DDI Screening API as part of DATUP's validation during update file loads
+- FDB-7756 - DATUP: Null pointer exception thrown by FDB v4.5.11.2 DDI Screening API as part of DATUP's validation during update file loads
+- FDB-7755 - DATUP: Upgrade to use FDB v4.5.13.1 and latest version of mocha common jar following MOCHA upgrade to FDB v4.5.13.1
+- FDB-7651 - PECS/DATUP/MOCHA: (Step 1) Validate DRC rate field customizations
+- FDB-8112 - DATUP/PPS-N: Create cron script for file processing and validate in PPS-N lower environments
+- FDB-7713 - DATUP: Integrate and validate sustainment build PRED\*3\*6
+- FDB-8247 - PECS/DATUP/MOCHA: Update Jenkinsfile to refer to targetBranch following upgrade of GitForensics plugin and removal of defaultBranch naming
+- FDB-7800 - DATUP/PECS: Load FDB v4.5 standard update files into SQA environment to correct misspelling of capusles/kilogram/day dose unit
+- FDB-8337 - DATUP: Improve handling of DB connections to mitigate connection pool exceptions
+- FDB-6756 - PECS/DATUP/MOCHA: (Step 1) Low and high frequency customizations
+- FDB-8297 - DATUP: Update log4j2.xml application logging configuration to retain only last 10 files and ensure appropriate log levels are used when writing to logs to omit extraneous information
 
-#### Update Files:
+### Known Issues
 
-- Copies the image files included in the First Databank Incremental Update files to the file system so that PPS-N can display those images.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-#### Architectural Enhancements
+There were no known defects at the time that this document was written.
 
-DATUP updated from FDB-DIF 3.2 to FDB-DIF 3.3 API and Schema
+## Product Documentation
 
-1. Data Update (DATUP) v2.0	June 2014 Release Notes
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Documentation describing the new functionality introduced by this patch is available. Upon National Release, the documentation will be in the form of Adobe Acrobat files. Documentation will be found on the VA Software Documentation Library at:
+
+<https://www.va.gov/vdl/application.asp?appid=203>
+
+<table>
+<caption>Table of PSO*7*467 Release DocumentationTable includes file description, file name, and FTP mode</caption>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 44%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>File Name</strong></th>
+<th><strong>Title</strong></th>
+<th><strong>FTP Mode</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>PRED_4_0_P2_RN.DOCX</p>
+<p>PRED_4_0_P2_RN.PDF</p></td>
+<td>DATUP 4.0.1 PRED*4*2 Release Notes</td>
+<td>Binary</td>
+</tr>
+<tr class="even">
+<td><p>PRED_4_0_P2_DIBR.DOCX</p>
+<p>PRED_4_0_P2_DIBR.PDF</p></td>
+<td>DATUP 4.0.1 PRED*4*2 Deployment, Installation, Back-Out, Rollback Guide</td>
+<td>Binary</td>
+</tr>
+<tr class="odd">
+<td><p>PRED_4_0_P2_IG.DOCX</p>
+<p>PRED_4_0_P2_IG.PDF</p></td>
+<td>DATUP 4.0.1 PRED*4*2 Installation Guide</td>
+<td>Binary</td>
+</tr>
+</tbody>
+</table>
+
+Table of PSO\*7\*467 Release DocumentationTable includes file description, file name, and FTP mode
 
 ---
 
@@ -75,56 +182,22 @@ DATUP updated from FDB-DIF 3.2 to FDB-DIF 3.3 API and Schema
 
 _These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-### From: DATUP Version 3 Release Notes
+### From: DATUP Version 2 Release Notes
 
-## Purpose
+## Functional Enhancements
 
-These release notes cover the changes to DATUP v3.0 for this release.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## Audience
+### Update Files:
 
-This document targets users and administrators of DATUP 3.0 and applies to the changes made between this release and any previous release for this software.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## This Release
+- Copies the image files included in the First Databank Incremental Update files to the file system so that PPS-N can display those images.
 
-The purpose of this release was to make DATUP 3.0 Technical Reference Model (TRM) compliant.
+## Architectural Enhancements
 
-### New Features and Functions Added
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-No new features and functions were added to the DATUP 3.0 release:
+> DATUP updated from FDB-DIF 3.2 to FDB-DIF 3.3 API and Schema
 
-### Enhancements and Modifications to Existing
-
-Implementation of SFTP for DATUP. This updates the DATUP source code to use Apache SFTP instead of Apache FTP
-
-Update DATUP WebLogic Server to v12 so that DATUP is compliant with the TRM.
-
-Modifications were made to make DATUP 3.0 TRM compliant.
-
-### Known Issues
-
-None.
-
-## Product Documentation
-
-The following documents apply to this release:
-
-Data Update (DATUP) Requirements Specification v3.0 dated September 2015
-
-PRE V0 5 OC SRS 012210\_V6\_3
-
-Pharmacy Re-Engineering (PRE) Deployment Architecture Option, Version 0.3 dated 4/2007
-
-Pharmacy Re-Engineering (PRE) Deployment Architecture, Version 0.1 dated 4/2008
-
-PRE V. 0.5 Interface Control Document (ICD) v.1-1 (April 2008)
-
-PRE V. 0.5 VistA Pharmacy to PEPS Interface Document (draft) dated 3/2008
-
-### From: PRED*4*3 DATUP Version 4.0.3 Release Notes
-
-### ### 2 Introduction
-
-The Pharmacy Reengineering (PRE) Project provided innovative enhancements to Clinical Decision Support (CDS) within the Veterans Health Administration (VHA). Medication order checks are accomplished through the synergistic functionality of multiple applications, including Medication Order Check Healthcare Application (MOCHA), Pharmacy Product System-National (PPS-N), Pharmacy Enterprise Customization System (PECS), and Data Update (DATUP).
-
-DATUP is a utility that runs an automated process to maintain the First Databank Drug Information Framework (commonly abbreviated as FDB-DIF) and VA custom data used by regional MOCHA instances and at the national level by PPS-N.
+2.  Data Update (DATUP) v2.0 June 2014 Release Notes

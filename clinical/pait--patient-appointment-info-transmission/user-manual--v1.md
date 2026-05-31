@@ -3,7 +3,7 @@ title: PAIT Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PAIT
 app_name: Patient Appointment Info. Transmission
 section: CLI
@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: PAIT
 patch_ver: 1
 patch_id: PAIT*1
-group_key: "PAIT:PAIT:1"
-file_numbers: []
+group_key: PAIT:PAIT:1
+description: '| Document Owner | VistA Maintenance Team | |--------------------|-----------------------------------------------------------------| | Document Title | Patient Appointment Information Transmission (PAIT) User Manual | | Filename | pait_user_manual.doc'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '2.98'
+- '3.5'
+- '40.8'
+- '44'
+- '99'
+- '409.6'
+- '409.629'
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pait
-  - appointment
-  - table
-  - date
-  - transmission
-  - contents
-  - patient
-  - error
-  - manual
-  - span
 page_count: 0
 word_count: 5296
 section_count: 13
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=169"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Appointment_Info_Transmission/pait_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=169
+audit_applied: '2026-05-31'
 ---
 
 ![](pait-version-1-user-manual/001.png)

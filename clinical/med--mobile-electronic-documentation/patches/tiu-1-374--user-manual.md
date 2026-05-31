@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: TIU
 patch_ver: 1
 patch_id: TIU*1*374
-group_key: "MED:TIU:1"
+group_key: MED:TIU:1
+description: December 2025Department of Veterans AffairsOffice of Information and Technology
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- MED MANUAL OVERRIDE
+- MED MANUAL PATIENT
+- PF1
+- TIU MED MGT
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - table
-  - contents
-  - notes
-  - span
-  - error
-  - class
-  - strong
-  - documentation
-  - cprs
 page_count: 0
 word_count: 11945
 section_count: 42
 table_count: 9
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/TIU_MED_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/TIU_MED_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=190"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/TIU_MED_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mobile_Electronic_Documentation/TIU_MED_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=190
+audit_applied: '2026-05-31'
 ---
 
 Mobile Electronic Documentation (MED)User Manual

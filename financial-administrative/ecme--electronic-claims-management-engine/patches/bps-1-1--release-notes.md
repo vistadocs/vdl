@@ -11,38 +11,40 @@ app_status: active
 pkg_ns: BPS
 patch_ver: 1
 patch_id: BPS*1*1
-group_key: "ECME:BPS:1"
-file_numbers: []
-security_keys: []
+group_key: ECME:BPS:1
+description: '- Project Overview - General Information - HIPAA – Global Patches and Build - Activating the ECME V. 1.0 Package - [PSS\1\90, PSX\2\48, and PRCA\4.5\230...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3'
+- '4'
+- '12'
+- '50'
+- '52'
+- '52.01'
+- '52.25'
+- '81'
+- '344.4'
+security_keys:
+- ECME
+- PSXMAIL
 menu_options: 0
-description: - [Project Overview](#project-overview) - [General Information](#general-information) - [HIPAA – Global Patches and Build](#hipaa-global-patches-and-build) - [Activating the ECME V. 1.0 Package](#activating-the-ecme-v-10-package) - [PSS\1\90, PSX\2\48, and PRCA\4.5\230 Patches](#pss190-psx248-and-pr
-audience: 
-keywords: 
-  - pharmacy
-  - ncpdp
-  - cmop
-  - drug
-  - ecme
-  - outpatient
-  - table
-  - hipaa
-  - electronic
-  - contents
 page_count: 0
 word_count: 4036
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=141"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=141
+audit_applied: '2026-05-31'
 ---
 
 > ![](bps-1-1-ecme-hipaa-ncpdp-release-notes/001.png)

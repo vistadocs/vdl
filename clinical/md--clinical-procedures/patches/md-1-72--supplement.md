@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1*72
-group_key: "MD:MD:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: MD:MD:1
 description: ================================================================================
-audience: 
-keywords: 
-  - help
-  - description
-  - term
-  - active
-  - abbreviation
-  - pair
-  - boolean
-  - picklist
-  - observation
-  - units
+audience: ''
+keywords: []
+file_numbers: []
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 218076
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md1_0p72term.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md1_0p72term.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md1_0p72term.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md1_0p72term.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 > CliO Terminology Dictionary and

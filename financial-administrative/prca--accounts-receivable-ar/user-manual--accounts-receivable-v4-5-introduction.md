@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- Introduction - Menu Summary - Package Operation - data integrity This user manual is designed to provide the Accounts Receivable (AR) user with information necessary to operate the Accounts Receivable Version 4.5 software....'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - billing
-  - table
-  - options
-  - manage
-  - contents
-  - accounts
-  - receivable
-  - strong
-  - debts
-  - necessary
 page_count: 0
 word_count: 905
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/introduc.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/introduc.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/introduc.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/introduc.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 # Introduction

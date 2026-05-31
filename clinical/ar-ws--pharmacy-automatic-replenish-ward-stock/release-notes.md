@@ -3,46 +3,41 @@ title: Automatic Replenishment/Ward Stock Version 2.3 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AR/WS
-app_name: "Pharmacy: Automatic Replenish / Ward Stock"
+app_name: 'Pharmacy: Automatic Replenish / Ward Stock'
 section: CLI
 app_status: active
 pkg_ns: AR/WS
 patch_ver: 2.3
 patch_id: AR/WS*2.3
-group_key: "AR/WS:AR/WS:2.3"
-file_numbers: []
+group_key: AR/WS:AR/WS:2.3
+description: Automatic Replenishment (AR)/Ward Stock (WS) is a method of drug distribution and inventory management within a hospital. Drug products can be automatically inventoried and delivered (AR) to an area of use (AOU) or requested on demand (WS). An area of use is the place where commonly stocked items ar
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '58.1'
+- '58.11'
+- '58.19'
+- '58.26'
 security_keys: []
 menu_options: 0
-description: Automatic Replenishment (AR)/Ward Stock (WS) is a method of drug distribution and inventory management within a hospital. Drug products can be automatically inventoried and delivered (AR) to an area of use (AOU) or requested on demand (WS). An area of use is the place where commonly stocked items ar
-audience: 
-keywords: 
-  - inventory
-  - report
-  - stock
-  - added
-  - cost
-  - drug
-  - management
-  - area
-  - under
-  - duplicate
 page_count: 0
 word_count: 343
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsrelnts.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsrelnts.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=83"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsrelnts.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsrelnts.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=83
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

@@ -3,7 +3,7 @@ title: CPT Version 6 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CPT
 app_name: Current Procedural Terminology
 section: FIN
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: CPT
 patch_ver: 6
 patch_id: CPT*6
-group_key: "CPT:CPT:6"
+group_key: CPT:CPT:6
+description: '- Extrinsic Function Calls Current Procedural Terminology (CPT)V. 6.0 Technical ManualMay 1997IntroductionImplementation and Maintenance > Integrity Checker Routines > Callable Routines > Routines to Map > Routine List Files > Globals to Journal > File List > Templates...'
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Extrinsic Function Calls](#extrinsic-function-calls) Current Procedural Terminology (CPT)V. 6.0 Technical ManualMay 1997IntroductionImplementation and Maintenance > Integrity Checker Routines > Callable Routines > Routines to Map > Routine List Files > Globals to Journal > File List > Templates >
-audience: 
-keywords: 
-  - code
-  - package
-  - routines
-  - files
-  - routine
-  - codes
-  - print
-  - fileman
-  - options
-  - icpt
 page_count: 0
 word_count: 1457
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=33"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=33
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

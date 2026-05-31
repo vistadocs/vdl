@@ -11,48 +11,40 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1
-group_key: "PX:PX:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - encounter
-  - patient
-  - table
-  - date
-  - contents
-  - care
-  - edit
-  - clinic
-  - health
-  - episode
+group_key: PX:PX:1
+description: 'Date Description (Patch # if applicable) Project Manager Project'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '44'
+- '60'
+- '63'
+- '818'
+- '920.05'
+- '920.4'
+- '920.5'
+- '999999'
+security_keys:
+- IMM INVENTORY MGR
+- PROVIDER
+menu_options: 2
 page_count: 0
-word_count: 24231
+word_count: 24224
 section_count: 58
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-
-  Patient Care Encounter (PCE)
-
-  User Manual
----
-
 ![](patient-care-encounter-version-1-user-manual-updated-px-1-241/001.png)
 
 November 2025

@@ -1,13 +1,46 @@
 ---
-consolidated_title: "mental health assistant phase 3 release notes"
-app_code: YS
+title: YS*5.01*105 Mental Health Assistant Phase 3 Release Notes
 doc_type: RN
-master_source: "YS*5.01*105 Mental Health Assistant Phase 3 Release Notes"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: Mental Health Assistant Phase 3
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*105
+group_key: YS:YS:5.01
+file_numbers: []
+security_keys: []
+menu_options: 1
+description: 9/9/13 0.10 Updated Inactivated Instruments section and Defect Fixes sections. Added PCLS - PTSD Checklist Stressor Specific to list of instruments. Added HD0000000824422 to Associated Remedy Tickets. Added Backout Plan section.
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1865
+section_count: 2
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: September 2013
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys501105_mha3_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys501105_mha3_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*105 Mental Health Assistant Phase 3 Release Notes
 master_pub_date: September 2013
 consolidated_from: 3 versions
 prior_versions:
-  - "YS*5.01*103 Mental Health Assistant Phase 3 Release Notes"
-  - "YS*5.01*106 Mental Health Assistant Phase 3 Release Notes"
+- YS*5.01*103 Mental Health Assistant Phase 3 Release Notes
+- YS*5.01*106 Mental Health Assistant Phase 3 Release Notes
+consolidated_title: mental health assistant phase 3 release notes
 ---
 
 Mental Health AssistantVersion 3 (MHA3)Patch YS\*5.01\*105
@@ -76,7 +109,7 @@ Revision History
 <tr class="odd">
 <td>6/22/2012</td>
 <td>0.4</td>
-<td>Removed PCLS from instrument list; removed ROM from instrument list and added VRA; removed Patch 96 from Required Patches list per Vickey Elijah’s SQA recommendations.</td>
+<td>Removed PCLS from instrument list; removed ROM from instrument list and added VRA; removed Patch 96 from Required Patches list per Vickey Elijah's SQA recommendations.</td>
 <td><mark>REDACTED</mark></td>
 </tr>
 <tr class="even">
@@ -322,8 +355,8 @@ This test is outdated and no longer supported by the test publisher. It has been
 Grammatical errors from Patch 103 that are fixed in Patch 105 include the following:
 
 - Instrument FAST, question 6b, parenthesis is now closed.
-- Instrument FAST, questions 6d and 6e, the word “incontinence” now has consistent capitalization.
-- Instruments PCLC, and PCLM, question 10 in each, in the phrase “DISTANT OR CUT OFF,” “OR” is now in lower case to be consistent with other questions in the instrument.
+- Instrument FAST, questions 6d and 6e, the word "incontinence" now has consistent capitalization.
+- Instruments PCLC, and PCLM, question 10 in each, in the phrase "DISTANT OR CUT OFF," "OR" is now in lower case to be consistent with other questions in the instrument.
 - IADL  \#4 - Maintains house alone or with occasional assistance (e.g. heavy work domestic help).
 - FAST 6b - Unable to bathe properly; (e.g. difficulty adjusting)
 - PCLM \#9 - Loss of Interest in Activities you used to enjoy.  

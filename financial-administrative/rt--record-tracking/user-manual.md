@@ -3,7 +3,7 @@ title: Record Tracking Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RT
 app_name: Record Tracking
 section: FIN
@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: RT
 patch_ver: 1
 patch_id: RT*1
-group_key: "RT:RT:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: RT:RT:1
 description: The Transaction Menu is the focal point of the Record Tracking package. Generally, it is dedicated to file room activities although select options may be given to other users on an as- needed basis. It supports the following functions.
-audience: 
-keywords: 
-  - record
-  - records
-  - request
-  - pull
-  - borrower
-  - contents
-  - table
-  - requests
-  - patient
-  - prompt
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3.5'
+- '44'
+- '190'
+- '190.3'
+- '194.4'
+- '195.1'
+- '195.2'
+- '195.3'
+- '195.4'
+- '195.6'
+- '195.9'
+- '200'
+- '409.1'
+security_keys:
+- RAD-FR-SUPERVISOR
+menu_options: 0
 page_count: 0
 word_count: 37051
 section_count: 92
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2018
 revision_count: 2
 revision_newest: 05/03/2018
 revision_oldest: 3/30/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtuser1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtuser1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=53"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtuser1.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtuser1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=53
+audit_applied: '2026-05-31'
 ---
 
 ![](record-tracking-version-1-user-manual/001.png)

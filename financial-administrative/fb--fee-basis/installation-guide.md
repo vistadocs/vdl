@@ -1,16 +1,58 @@
 ---
-consolidated_title: "install guide"
-app_code: FB
+title: FB*3.5*158 Install Guide
 doc_type: IG
-master_source: "FB*3.5*158 Install Guide"
-master_pub_date: revision_count: 0
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Install Guide
+app_code: FB
+app_name: Fee Basis
+section: FIN
+app_status: active
+pkg_ns: FB
+patch_ver: 3.5
+patch_id: FB*3.5*158
+group_key: FB:FB:3.5
+file_numbers:
+- '10'
+- '161.4'
+- '161.7'
+- '161.91'
+- '161.93'
+- '162'
+- '162.1'
+- '162.5'
+- '163.98'
+security_keys: []
+menu_options: 0
+description: Patch FB\*3.5\*158Health Administration Product Enhancements (HAPE)Electronic Data Interchange (EDI)Purchased Care (PC)– Electronic Remittance Advice (ERA) ComplianceJanuary 2018Version
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 2761
+section_count: 18
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fee3_5_P158_IG.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fee3_5_P158_IG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
+master_source: FB*3.5*158 Install Guide
+master_pub_date: 'null'
 consolidated_from: 6 versions
 prior_versions:
-  - "FB*3.5*123 Install Guide"
-  - "FB*3.5*132 Install Guide"
-  - "FB*3.5*135 Install Guide"
-  - "FB*3.5*146 Install Guide"
-  - "FB*3.5*163 Install Guide"
+- FB*3.5*123 Install Guide
+- FB*3.5*132 Install Guide
+- FB*3.5*135 Install Guide
+- FB*3.5*146 Install Guide
+- FB*3.5*163 Install Guide
+consolidated_title: install guide
 ---
 
 FEE BASISINSTALLATION GUIDE
@@ -485,13 +527,13 @@ and Input Templates.
 
 REQUIRED: With this patch the method of batch transmissions will change, transmissions will now go through Central Feed instead Vitria. The Vitria feed must be shut down to prevent duplicate claims from being processed. To shut down the Vitria fee the option, FB FPPS TRANSMIT, needs to be removed from TaskManager three days after the FB\*3.5\*158 installation; the Vitria feed may be shut down during business hours.
 
-1.  In the EVE Systems Manager Menu, when prompted with ‘Select Systems Manager Menu Option:’answer Taskman Management.
-2.  When prompted with ‘Select Taskman Management Option:’ answer Schedule/Unschedule Options.
-3.  When prompted with ‘Select OPTION to schedule or reschedule:’ answer FB FPPS TRANSMIT.
-4.  When prompted with ‘Transmit Invoices to FPPS...OK? Yes//’ press \<return\>.
-5.  When prompted with ‘Enter a COMMAND, or "^" followed by the CAPTION of a FIELD to jump to. COMMAND:’ answer N.
-6.  In the ‘Option Name:’ field, enter @.
-7.  When prompted with ‘Are you sure you want to delete this entire record (Y/N)?’ answer Yes.
+1.  In the EVE Systems Manager Menu, when prompted with 'Select Systems Manager Menu Option:'answer Taskman Management.
+2.  When prompted with 'Select Taskman Management Option:' answer Schedule/Unschedule Options.
+3.  When prompted with 'Select OPTION to schedule or reschedule:' answer FB FPPS TRANSMIT.
+4.  When prompted with 'Transmit Invoices to FPPS...OK? Yes//' press \<return\>.
+5.  When prompted with 'Enter a COMMAND, or "^" followed by the CAPTION of a FIELD to jump to. COMMAND:' answer N.
+6.  In the 'Option Name:' field, enter @.
+7.  When prompted with 'Are you sure you want to delete this entire record (Y/N)?' answer Yes.
 
 OPTIONAL: The option, FBAA BATCH 7YR PURGE, can now be scheduled to run monthly in TaskManager. It is recommended that the task be scheduled for off-hours when users are not on the system.
 
@@ -606,7 +648,7 @@ It is recommended that sites log a Remedy ticket if it is a nationally released 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There are 2 build components that need to be uninstalled here: existing Fee Basis routines and existing Fee Basis Input Templates. The existing Fee Basis routines may be restored from the backup MailMan PackMan message that should have been created in step 3.a. in section 5, Installation Instructions (“Backup a Transport Global”). There are three input templates that need to be restored to the previous version. They are listed in section 3.7 of this document in the Templates section. They are named \[FBCH EDIT PAYMENT\], \[FBCH ENTER PAYMENT\], and \[FBNH EDIT PAYMENT\]. It is not standard practice to proactively backup input templates before patch installation. Therefore, in order to restore these input templates to the pre-patch FB\*3.5\*158 state, a new patch will be required to be sent to the target site and installed. Please contact Product Support in this case for further instructions. Product Support will work closely with the site and with the VistA Fee Basis development team.
+There are 2 build components that need to be uninstalled here: existing Fee Basis routines and existing Fee Basis Input Templates. The existing Fee Basis routines may be restored from the backup MailMan PackMan message that should have been created in step 3.a. in section 5, Installation Instructions ("Backup a Transport Global"). There are three input templates that need to be restored to the previous version. They are listed in section 3.7 of this document in the Templates section. They are named \[FBCH EDIT PAYMENT\], \[FBCH ENTER PAYMENT\], and \[FBNH EDIT PAYMENT\]. It is not standard practice to proactively backup input templates before patch installation. Therefore, in order to restore these input templates to the pre-patch FB\*3.5\*158 state, a new patch will be required to be sent to the target site and installed. Please contact Product Support in this case for further instructions. Product Support will work closely with the site and with the VistA Fee Basis development team.
 
 ## Roll-back Procedure
 
@@ -989,14 +1031,14 @@ Users should not be impacted by the application while the patch is being install
 2.  Next from the Installation Menu, users may elect to use the following options. When prompted for the INSTALL name enter the patch FB\*3.5\*163:
 1.  Verify Checksums in Transport Global - This option will allow you to ensure the integrity of the routines that are in the transport global.
 2.  Print Transport Global – This option allows the user to print the Transport Global Report
-3.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (routines, DD’s, templates, etc.).
-4.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD’s or templates.
+3.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (routines, DD's, templates, etc.).
+4.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD's or templates.
 3.  From the Installation Menu, select the Install Package(s) option and enter FB\*3.5\*163.
-4.  <u>If</u> prompted ‘Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//’ answer NO and press enter.
-5.  When prompted ‘Want KIDS to INHIBIT LOGONs during the install? YES//’ answer NO and press enter.
+4.  <u>If</u> prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//' answer NO and press enter.
+5.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? YES//' answer NO and press enter.
 6.  When prompted 'Want to DISABLE Scheduled Options, Menu Options and Protocols? YES//' answer YES and press enter.
-1.  When prompted ‘Enter options you wish to mark as ‘Out of Order’ enter FB PCR
-7.  <u>If</u> prompted ‘Delay Install (Minutes): (0 – 60): 0//’ respond 0 and press enter.
+1.  When prompted 'Enter options you wish to mark as 'Out of Order' enter FB PCR
+7.  <u>If</u> prompted 'Delay Install (Minutes): (0 – 60): 0//' respond 0 and press enter.
 8.  There are no installation routines to delete.
 
 ## Routine Information 

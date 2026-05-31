@@ -3,7 +3,7 @@ title: Clinical Monitoring System Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: QAM
 app_name: Clinical Monitoring System
 section: FIN
@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: QAM
 patch_ver: 1
 patch_id: QAM*1
-group_key: "QAM:QAM:1"
-file_numbers: []
+group_key: QAM:QAM:1
+description: '| | | | | |----------|---------------------------------------------------------------------|---------------------|----------------------| | Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | | 11/15/04 | Manual updated to comply with SOP 192-352 Displaying Sensitive...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '200'
+- '741'
+- '743'
+- '743.1'
+- '743.2'
+- '743.92'
 security_keys: []
-menu_options: 0
-description: - [# Introduction](#introduction) - [# Orientation](#orientation) - [# Package Management](#package-management) - [Monitoring System Manager Menu](#monitoring-system-manager-menu) - [Group Edit](#group-edit) - [Patient Group](#patient-group) - [Manually Run Auto Enroll](#manually-run-auto-enroll) -
-audience: 
-keywords: 
-  - monitor
-  - date
-  - fall
-  - group
-  - condition
-  - auto
-  - enroll
-  - patient
-  - class
-  - table
+menu_options: 1
 page_count: 0
 word_count: 11201
 section_count: 10
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 2
 revision_newest: 2/23/09
 revision_oldest: 11/15/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=32"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmum.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=32
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-monitoring-system-version-1-user-manual/001.png)

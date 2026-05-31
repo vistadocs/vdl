@@ -5,44 +5,35 @@ doc_label: Supplement
 doc_layer: patch
 doc_subject: VistA State Patch Follow-Up
 app_code: XU
-app_name: Standard Files and Tables
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*105
-group_key: "XU:XU:8"
+group_key: XU:XU:8
+description: '''Subject: Cleanup and Identification of Dangling Pointers with County'''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - xtmp
-  - xuxtmp
-  - routine
-  - global
-  - site
-  - patch
-  - county
-  - exceptions
-  - your
-  - xuxcty
+menu_options: 1
 page_count: 0
 word_count: 718
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/state_patch_follow_up_xu_8_105.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/state_patch_follow_up_xu_8_105.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=26"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/state_patch_follow_up_xu_8_105.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/state_patch_follow_up_xu_8_105.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=26
+audit_applied: '2026-05-31'
 ---
 
 =============================================================================

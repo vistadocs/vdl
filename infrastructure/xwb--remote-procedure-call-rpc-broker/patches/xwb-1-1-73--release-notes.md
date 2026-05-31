@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1*73
-group_key: "XWB:XWB:1.1"
+group_key: XWB:XWB:1.1
+description: ReadMe file for patch XWB\1.1\73 installation. There are no VistA M Server-side installation components for this patch.
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: ReadMe file for patch XWB\1.1\73 installation. There are no VistA M Server-side installation components for this patch.
-audience: 
-keywords: 
-  - delphi
-  - files
-  - components
-  - directory
-  - your
-  - source
-  - vista
-  - install
-  - library
-  - version
 page_count: 0
 word_count: 1017
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_rm_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_rm_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=23"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_rm_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_rm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=23
+audit_applied: '2026-05-31'
 ---
 
 README File

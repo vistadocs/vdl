@@ -1,21 +1,128 @@
 ---
-consolidated_title: "ar release notes"
-app_code: PRCA
+title: PRCA*4.5*301 AR Release Notes
 doc_type: RN
-master_source: "PRCA*4.5*301 AR Release Notes"
-master_pub_date: revision_count: 7
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: AR
+app_code: PRCA
+app_name: Accounts Receivable (AR)
+section: FIN
+app_status: active
+pkg_ns: PRCA
+patch_ver: 4.5
+patch_id: PRCA*4.5*301
+group_key: PRCA:PRCA:4.5
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '7.02'
+- '7.03'
+- '7.04'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '100'
+- '151'
+- '152'
+- '153'
+- '154'
+- '155'
+- '157'
+- '158'
+- '159'
+- '159.1'
+- '159.2'
+- '159.3'
+- '159.4'
+- '159.5'
+- '161'
+- '162'
+- '163'
+- '164'
+- '165'
+- '166'
+- '167'
+- '168'
+- '169'
+- '169.1'
+- '169.2'
+- '169.3'
+- '169.4'
+- '173'
+- '174'
+- '175'
+- '176'
+- '177'
+- '178'
+- '191'
+- '192'
+- '193'
+- '194'
+- '199.2'
+- '301'
+- '302'
+- '303'
+- '304'
+- '305'
+- '306'
+- '307'
+- '308'
+- '340'
+- '342'
+- '344'
+- '344.01'
+- '348.5'
+- '348.6'
+- '348.7'
+- '430'
+- '430.0171'
+- '430.0172'
+- '430.5'
+security_keys: []
+menu_options: 0
+description: Department of Veterans AffairsDebt Management CenterImplement Department of the Treasury'sCross-Servicing
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 6457
+section_count: 22
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 7
+revision_newest: 12/19/2016
+revision_oldest: 3/3/2015
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p301_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p301_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
+master_source: PRCA*4.5*301 AR Release Notes
+master_pub_date: 'null'
 consolidated_from: 6 versions
 prior_versions:
-  - "PRCA*4.5*281 AR Release Notes"
-  - "PRCA*4.5*310 AR Release Notes"
-  - "PRCA*4.5*347 AR Release Notes"
-  - "PRCA*4.5*373 AR Release Notes"
-  - "PRCA*4.5*379 AR Release Notes"
+- PRCA*4.5*281 AR Release Notes
+- PRCA*4.5*310 AR Release Notes
+- PRCA*4.5*347 AR Release Notes
+- PRCA*4.5*373 AR Release Notes
+- PRCA*4.5*379 AR Release Notes
+consolidated_title: ar release notes
 ---
 
 > ![](prca-4-5-301-ar-release-notes/001.png)
 
-Department of Veterans AffairsDebt Management CenterImplement Department of the Treasury’sCross-Servicing ProcessTAC-13-09842
+Department of Veterans AffairsDebt Management CenterImplement Department of the Treasury'sCross-Servicing ProcessTAC-13-09842
 
 Cross-Servicing
 
@@ -143,7 +250,7 @@ The following Cross-Servicing Referral enhancements are released under this patc
 - For all bills that have been referred to Cross-Servicing, VistA stops the accrual of interest and fees.
 - VistA automatically creates a Referral File of delinquent First Party bills in Integrated Agency Interface (IAI) format, containing record types: H, 1, 2, 2A, 2C, and Z. Note that not all record types will be included in each referral.
 - When the Referral Batch Job is completed, a bulletin (MailMan message) is generated confirming that the Referral File was transmitted.
-- A bill can be prevented from being referred to Cross Servicing by running the “Stop/Reactivate a TCSP Referral for a Bill” VistA option. Users can toggle between Stopping and Reactivating a bill for referral using this option.
+- A bill can be prevented from being referred to Cross Servicing by running the "Stop/Reactivate a TCSP Referral for a Bill" VistA option. Users can toggle between Stopping and Reactivating a bill for referral using this option.
 
 ## Cross-Servicing Update File
 
@@ -152,9 +259,9 @@ The following Cross-Servicing Referral enhancements are released under this patc
 Also included in this patch is a Cross-Servicing Update File. The specifications of the Update File are provided below:
 
 - Batch task created to generate an Update File in IAI format containing the updated information for previously referred bills.
-- Batch process created to transmit the Update File, consisting of updates to a debt and debtor’s contact information to AITC once per week.
+- Batch process created to transmit the Update File, consisting of updates to a debt and debtor's contact information to AITC once per week.
 - No interest, fees, or bill amount increases are included in the Update File.
-- Changes to a debtor’s name, Tax Identification Number (TIN), and address will be included in the Update File.
+- Changes to a debtor's name, Tax Identification Number (TIN), and address will be included in the Update File.
 - Bill amount decreases for offsets originating from DMC will also be included in the Update File.
 - VistA automatically creates an Update File in Integrated Agency Interface (IAI) format, containing an additional record type, 5B. 5A record types are not used. Note that not all record types will be included in each update.
 - When the Update Batch Job is completed, a bulletin (MailMan message) is generated confirming that the Update File was transmitted.
@@ -168,7 +275,7 @@ In addition to the new recall items on the Cross-Servicing Menu for recalling a 
 - Batch process runs once per week to automatically recall bills from Cross-Servicing that are less than \$25 and have had no payment activity in over 365 days.
 - The Recall File, containing all recalled debts or debtors is sent to AITC in IAI format.
 - When processing a manual recall on a debt or debtor, the user is prompted to enter a recall reason, which displays under the new field name, *CS Recall Reason*.
-- The Debt Recall Reasons include: “01 Debt Referred in Error”, “07 Agency is Forgiving Debt”, and “08 Agency Can Collect through Internal Offset”. The Debtor Recall Reasons include: “03 Bankruptcy with Automatic Stay”, “05 Debtor is Disabled with the Inability to Pay”, and “06 Debtor is Deceased”.
+- The Debt Recall Reasons include: "01 Debt Referred in Error", "07 Agency is Forgiving Debt", and "08 Agency Can Collect through Internal Offset". The Debtor Recall Reasons include: "03 Bankruptcy with Automatic Stay", "05 Debtor is Disabled with the Inability to Pay", and "06 Debtor is Deceased".
 - Once the Recall Batch Job is completed, a new field, *CS Recalled Date*, displays on the bill to identify the date the bill was recalled from Cross-Servicing.
 - When the Recall Batch Job is completed, a bulletin (MailMan message) is generated confirming that the Recall File was transmitted.
 - Note that once debt is recalled from Cross-Servicing, it cannot be re-referred to Cross- Servicing. However if a Debtor is recalled, additional new debts (bills) are allowed to be cross-serviced under that Debtor.
@@ -198,11 +305,11 @@ The following enhancements are released under this patch related to collections 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For those bills referred to Cross-Servicing and were rejected by AITC, DMC or Treasury, VistA receives and processes “reject” messages from all three groups in the form of an Unprocessable File in IAI format. The following additional enhancements are released under this patch for the Cross-Servicing Unprocessable File:
+For those bills referred to Cross-Servicing and were rejected by AITC, DMC or Treasury, VistA receives and processes "reject" messages from all three groups in the form of an Unprocessable File in IAI format. The following additional enhancements are released under this patch for the Cross-Servicing Unprocessable File:
 
 - VistA generates a MailMan message for Cross-Servicing rejects.
 - VistA captures the first nine error codes from the IAI Unprocessable File for each rejected bill, and displays the reject source, reject code, the reject reason, and the reject date on the bill sub-screen on the Full Account Profile, Brief Account Profile, Account Profile from the Agent Cashiers Menu, and Profile of Accounts Receivable, as well as the Bill Profile screens.
-- VistA prevents the re-referral of any rejected bills in future batch processing until the rejected bill is corrected and the ‘Stop’ flag is removed.
+- VistA prevents the re-referral of any rejected bills in future batch processing until the rejected bill is corrected and the 'Stop' flag is removed.
 
 ## Reconciliation File
 
@@ -212,11 +319,11 @@ The following Reconciliation File enhancements are released under this patch:
 
 - VistA receives the Reconciliation File from Treasury via AITC on the first day of every month through VA MailMan.
 - VistA generates a bulletin for Cross-Servicing indicating those returned debts / debtors that Treasury has sent in the Reconciliation File.
-- When a debt is returned by Treasury, the Cross-Servicing referral information will be deleted from the returned debt. VistA populates the Effective Date for stopping the Cross-Servicing referral with the Returned Date in the R1 record and the Stop Referral Reason with ‘Other’ with a comment of ‘By Reconciliation’.
-- When a debtor is returned by Treasury, the Cross-Servicing referral information on all debts for that debtor will be deleted. VistA populates the Effective Date for stopping the Cross-Servicing referral with the Returned Date in the R2 record and a Stop Referral Reason of ‘Other’.
+- When a debt is returned by Treasury, the Cross-Servicing referral information will be deleted from the returned debt. VistA populates the Effective Date for stopping the Cross-Servicing referral with the Returned Date in the R1 record and the Stop Referral Reason with 'Other' with a comment of 'By Reconciliation'.
+- When a debtor is returned by Treasury, the Cross-Servicing referral information on all debts for that debtor will be deleted. VistA populates the Effective Date for stopping the Cross-Servicing referral with the Returned Date in the R2 record and a Stop Referral Reason of 'Other'.
 - VistA generates a bulletin indicating those returned debts or debtors that Treasury sent in the Reconciliation File.
 - VistA generates a bulletin indicating the compromise offers that Treasury has sent in the Reconciliation File.
-- When a Reconciliation File is received with a Compromise Indicator = ‘Y’ on the R2 record (Field \# 19), VistA places a stop on the Cross-Servicing referral (which deletes the referral on all Cross-Serviced debts for that debtor). ‘Other’ is populated for the Stop Reason and an Effective Date for the stop is populated using the Closed Date from the R2 record (Field \# 21).
+- When a Reconciliation File is received with a Compromise Indicator = 'Y' on the R2 record (Field \# 19), VistA places a stop on the Cross-Servicing referral (which deletes the referral on all Cross-Serviced debts for that debtor). 'Other' is populated for the Stop Reason and an Effective Date for the stop is populated using the Closed Date from the R2 record (Field \# 21).
 
 ## Reports
 
@@ -224,12 +331,12 @@ The following Reconciliation File enhancements are released under this patch:
 
 The following Cross-Servicing Reports are released under this patch:
 
-- Print Cross-Servicing Report: Lists bills referred to Cross-Servicing as of the date the report is run. The report includes the Bill Number, Debtor’s Name, SSN, Original Amount of Debt initially referred to Cross-Servicing, date sent for Cross-Servicing (CS Referred Date) and the Current Amount Owed on the bill / balance owed. User can sort by Bill Number, Debtor Name, or Cross-Servicing Referred Date.
-- Cross-Servicing Bill Report: Lists bills referred to Cross-Servicing for a single Debtor. The report includes the Debtor’s Name, SSN, CS Referred Date, Current Amount Owed balance owed, Bill Number, Bill Status, the Original Amount of Debt initially referred to Cross-Servicing, Principal, Interest, Administrative Fees, and Court Fees.
-- Cross-Servicing Recall Report: Lists recalled bills by Bill Number from the Recall Files. The report includes the Bill Number, Debtor’s Name, SSN, Amount Recalled, Recall Reason, and CS Recall Date.
-- Debt Referral Reject Report: Lists rejected bills by Debtor Name from the Unprocessable Files. The report includes the Debtor’s Name, SSN, Bill \#, Record Type, Action Code, Error Code, Code Translation, and Reject Date. Only AR Supervisors and AR Clerks have access to this report. This report also has the feature of being able to export to MS-Excel by adding delimiters to the data displayed on the users screen.
+- Print Cross-Servicing Report: Lists bills referred to Cross-Servicing as of the date the report is run. The report includes the Bill Number, Debtor's Name, SSN, Original Amount of Debt initially referred to Cross-Servicing, date sent for Cross-Servicing (CS Referred Date) and the Current Amount Owed on the bill / balance owed. User can sort by Bill Number, Debtor Name, or Cross-Servicing Referred Date.
+- Cross-Servicing Bill Report: Lists bills referred to Cross-Servicing for a single Debtor. The report includes the Debtor's Name, SSN, CS Referred Date, Current Amount Owed balance owed, Bill Number, Bill Status, the Original Amount of Debt initially referred to Cross-Servicing, Principal, Interest, Administrative Fees, and Court Fees.
+- Cross-Servicing Recall Report: Lists recalled bills by Bill Number from the Recall Files. The report includes the Bill Number, Debtor's Name, SSN, Amount Recalled, Recall Reason, and CS Recall Date.
+- Debt Referral Reject Report: Lists rejected bills by Debtor Name from the Unprocessable Files. The report includes the Debtor's Name, SSN, Bill \#, Record Type, Action Code, Error Code, Code Translation, and Reject Date. Only AR Supervisors and AR Clerks have access to this report. This report also has the feature of being able to export to MS-Excel by adding delimiters to the data displayed on the users screen.
 - List IAI Error Codes: Listing of the IAI Error Codes in error code order. The display contains a) Error Code, b) Field Name, c) associated Record Types, and d) Description.
-- Print Reconciliation Report: Lists bills that have been received in the Reconciliation IAI file from Treasury. The report includes the Debtor’s Name, Bill Number, Returned Date, and Closed Date. The report also includes the Return Reason description and any required supporting information.
+- Print Reconciliation Report: Lists bills that have been received in the Reconciliation IAI file from Treasury. The report includes the Debtor's Name, Bill Number, Returned Date, and Closed Date. The report also includes the Return Reason description and any required supporting information.
 
 ## Transaction Profile Screen Modifications
 
@@ -246,8 +353,8 @@ The following modifications are released under this patch to the Transaction Pro
 
 The following modifications to the monthly patient statements are released under this patch:
 
-- The value of the bills referred to Cross-Servicing is excluded from the “Previous Balance” and “Balance” block on the monthly patient statement.
-- When a bill is no longer referred to Cross-Servicing, the value of bills is included in the “Previous Balance” and “Balance” block on the monthly patient statement.
+- The value of the bills referred to Cross-Servicing is excluded from the "Previous Balance" and "Balance" block on the monthly patient statement.
+- When a bill is no longer referred to Cross-Servicing, the value of bills is included in the "Previous Balance" and "Balance" block on the monthly patient statement.
 
 ## Updated Due Process Notification Letter
 
@@ -257,7 +364,7 @@ AITC currently sends letters to debtors notifying them of potential referral to 
 
 - Upon implementation of Cross-Servicing, a one-time-only process will generate a historical Initial Due Process Notification (DPN) file that identifies bills that comply with all of the Cross-Servicing rules, but are less than \$25.
 - On a weekly basis, the Initial DPN File will be checked by VistA for any bills that had been identified previously as less than \$25 and have increased (due to fees and charges) to \$25 or more.
-- VistA transmits the DPN File to AITC in an IAI-modified format containing the delinquent bill number, debtor’s name, address, and dollar amount of debt.
+- VistA transmits the DPN File to AITC in an IAI-modified format containing the delinquent bill number, debtor's name, address, and dollar amount of debt.
 - After a 60 day waiting period the bill will be Cross-Serviced
 - Note that this DPN File will only be required for approximately 12 months and will address debts that were established 12 months prior to the nationwide implementation of Cross-Servicing.
 - The feature is configurable. DPN processing can be disabled, extended, and modified via the AR SITE PARAMETER (342,100) file
@@ -267,7 +374,7 @@ AITC currently sends letters to debtors notifying them of potential referral to 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 - A bulletin is generated by VistA when there is eligible debt for Cross-Servicing and a third collection letter has not been sent.
-- The bulletin contains the debtor’s name and bill number(s).
+- The bulletin contains the debtor's name and bill number(s).
 
 # Patch Description
 
@@ -1301,8 +1408,8 @@ The following steps outline how to retrieve the host file:
 
 4.  The PRCA_45_P301.KID host file is located in the anonymous.software directory. Use ASCII Mode when downloading the file.
 5.  From the Installation menu, select the LOAD A DISTRIBUTION option.
-6.  When prompted for “Enter a Host File:”, enter the full directory path where you saved the host file PRCA_45_P301.KID (e.g., SYS\$SYSDEVICE:\[ANONYMOUS\] PRCA_45_P301.KID).
-7.  When prompted for “OK to continue with Load? NO//”, enter YES.
+6.  When prompted for "Enter a Host File:", enter the full directory path where you saved the host file PRCA_45_P301.KID (e.g., SYS\$SYSDEVICE:\[ANONYMOUS\] PRCA_45_P301.KID).
+7.  When prompted for "OK to continue with Load? NO//", enter YES.
 8.  The following will display: Loading Distribution...PRCA\*4.5\*301
 9.  Use INSTALL NAME: PRCA\*4.5\*301 to install this distribution.
 
@@ -1312,8 +1419,8 @@ The following steps outline how to retrieve the host file:
 
 From the Installation menu, you may select to use the following options (when prompted for the INSTALL NAME, enter PRCA\*4.5\*301):
 
-1.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD’s or templates.
-2.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (e.g., routines, DD’s, templates, etc.).
+1.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD's or templates.
+2.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (e.g., routines, DD's, templates, etc.).
 3.  Verify Checksums in Transport Global - This option will allow you to ensure the integrity of the routines that are in the transport global.
 
 ## Install Build
@@ -1323,13 +1430,13 @@ From the Installation menu, you may select to use the following options (when pr
 The below steps are to start the installation of the KIDS build. This will need to be run to install PRCA\*4.5\*301. Note that although it is a KIDS build, it does not entail installing more than one application.
 
 1.  Choose the Install Package(s) option to start the install.
-2.  When prompted for the “Select INSTALL NAME:”, enter PRCA\*4.5\*301.
-3.  When prompted, “Want KIDS to INHIBIT LOGONs during the install? NO//”, enter NO.
-4.  When prompted, “Want to DISABLE Scheduled Options, Menu Options, and Protocols? YES//”, enter YES.
-5.  When prompted, “Enter options you wish to mark as 'Out Of Order':”, enter the following option: TOP Menu \[RCTOP MENU\].
-6.  When prompted, “Enter protocols you wish to mark as 'Out Of Order':”, enter \<return\>.
-7.  When prompted, “Delay Install (Minutes): (0-60): 0//" enter an appropriate number of minutes to delay the installation in order to give users enough time to exit the disabled options before the installation starts.
-8.  When prompted, “Device: Home//”, respond with the correct device.
+2.  When prompted for the "Select INSTALL NAME:", enter PRCA\*4.5\*301.
+3.  When prompted, "Want KIDS to INHIBIT LOGONs during the install? NO//", enter NO.
+4.  When prompted, "Want to DISABLE Scheduled Options, Menu Options, and Protocols? YES//", enter YES.
+5.  When prompted, "Enter options you wish to mark as 'Out Of Order':", enter the following option: TOP Menu \[RCTOP MENU\].
+6.  When prompted, "Enter protocols you wish to mark as 'Out Of Order':", enter \<return\>.
+7.  When prompted, "Delay Install (Minutes): (0-60): 0//" enter an appropriate number of minutes to delay the installation in order to give users enough time to exit the disabled options before the installation starts.
+8.  When prompted, "Device: Home//", respond with the correct device.
 
 ## Post-Installation Instructions
 
@@ -1347,7 +1454,7 @@ The user will see the following messages displayed in the installation log:
 
 > \>\>\>Due Process Initialization is complete.
 
-The post-install routine, “RC45301P” may be deleted from the system if the post-install process has completed.
+The post-install routine, "RC45301P" may be deleted from the system if the post-install process has completed.
 
 # Backout / Rollback Procedures
 
@@ -1369,7 +1476,7 @@ Verify that the backup steps in Section 4.2 were completed. These steps create a
 
 The following steps document the procedures for rolling back to a previous patch version.
 
-1.  Go to your Vista MailMan inbox and open the most recent version of the backup message. The Subject of the message will read “Backup of PRCA\*4.5\*30”.
+1.  Go to your Vista MailMan inbox and open the most recent version of the backup message. The Subject of the message will read "Backup of PRCA\*4.5\*30".
 
 <span id="_Toc469998156" class="anchor"></span>Figure 3: Sample MailMan Backup Message
 
@@ -1440,7 +1547,7 @@ The PRCA RCDMC REFERRAL MENU has four new report options:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This report will assist users in reviewing the legitimacy of first party bills for Veterans who received a new or updated change to a 0-40% Service Connected (SC) eligibility factor and received the change in VistA during the report time frame requested. This report prints information on bills/charges without an IB Status of “Cancelled” and with an A/R Status of Active, Suspended, Open, Write-Off, Collected/Closed, Cancellation, or with an IB Bill Status of On Hold, for episodes of care within a user selected time frame.
+This report will assist users in reviewing the legitimacy of first party bills for Veterans who received a new or updated change to a 0-40% Service Connected (SC) eligibility factor and received the change in VistA during the report time frame requested. This report prints information on bills/charges without an IB Status of "Cancelled" and with an A/R Status of Active, Suspended, Open, Write-Off, Collected/Closed, Cancellation, or with an IB Bill Status of On Hold, for episodes of care within a user selected time frame.
 
 The report does not include bills for:
 
@@ -1455,10 +1562,10 @@ The report allows you to choose whether to print the report in a detailed format
 It is recommended that you queue this report to a device that is 132 characters wide.
 
 1.  The Med Care Date column will contain either an Outpatient Visit Date OR an Inpatient Discharge Date. The same K \# (Bill \#) could show on the report with the same date for the event where there was an outpatient date and an inpatient discharge date for the same Veteran.
-2.  If there is no Rated Disability Original Effective Date, then “NODATE” will be displayed/printed for the RD Orig Date.
+2.  If there is no Rated Disability Original Effective Date, then "NODATE" will be displayed/printed for the RD Orig Date.
 3.  Only one row will display/print for a particular rated disability if there is no RD ORIG DATE.
 
-The report output includes Veteran’s name, SSN, combined service connected percentage, the VistA last status change date, the rated disability name, the extremity associated with the rated disability (if applicable), the original rated disability date, bill number, charge amount for the bill, medical care date, medication fill date, the prescription number, the prescription name, and the bill status.
+The report output includes Veteran's name, SSN, combined service connected percentage, the VistA last status change date, the rated disability name, the extremity associated with the rated disability (if applicable), the original rated disability date, bill number, charge amount for the bill, medical care date, medication fill date, the prescription number, the prescription name, and the bill status.
 
 ### First Party Charge IB Cancellation Recon Report
 
@@ -1466,13 +1573,13 @@ The report output includes Veteran’s name, SSN, combined service connected per
 
 This report will assist users in reviewing first party charges receiving Integrated Billing (IB) cancellation for potential refund activities or charge cancellation accuracy, and to identify and monitor cancellation activity productivity so Veteran customers can receive refunds due to them for retroactive eligibility exemptions. The report provides data for first party charges receiving IB cancellation for a user defined bill cancellation date range.
 
-The report provides the option to print only bills with payments or print all bills within the user specified bill cancellation date range. If only bills with payments are printed, the report will include bills with an IB Status of “Cancelled” that have charges AND a payment. If all bills are printed, the report will include bills with an IB Status of “Cancelled” regardless of presence of payments.
+The report provides the option to print only bills with payments or print all bills within the user specified bill cancellation date range. If only bills with payments are printed, the report will include bills with an IB Status of "Cancelled" that have charges AND a payment. If all bills are printed, the report will include bills with an IB Status of "Cancelled" regardless of presence of payments.
 
 The report allows you the option to print the report in an Excel format.
 
 It is recommended that you queue this report to a device that is 132 characters wide.
 
-4.  This report does not include bills with third-party AR Category Types of “Reimbursable” or “Pre-payments”.
+4.  This report does not include bills with third-party AR Category Types of "Reimbursable" or "Pre-payments".
 
 The report output includes Veteran name, SSN, bill number, charge amount, medical care date, medication fill date, prescription number, prescription name, IB cancellation date, IB cancellation reason, and cancelled by.
 
@@ -1492,8 +1599,8 @@ It is recommended that users queue this report to a device that is 132 character
 
 5.  The Med Care Date column will contain either an Outpatient Visit Date OR an Inpatient Discharge Date. The same K \# (Bill \#) could show on the report with the same date for the event where there was an outpatient date and an inpatient discharge date for the same Veteran.
 6.  If a Veteran has more than one bill, the report prints a row for every bill number (K#) they have that meets the report parameters.
-7.  If a bill has a Status of “On-Hold”, the Bill number field will be blank.
-8.  If the Veteran record tied to the bill does not have a Co-Payment Exemption Date, the report prints/displays “NODATE” in the EXMPTDT field.
+7.  If a bill has a Status of "On-Hold", the Bill number field will be blank.
+8.  If the Veteran record tied to the bill does not have a Co-Payment Exemption Date, the report prints/displays "NODATE" in the EXMPTDT field.
 
 The report output includes Veteran name, SSN, Service Connected percentage, bill number, co-pay exemption date, medical care date, and bill status.
 
@@ -1516,8 +1623,8 @@ It is recommended that users queue this report to a device that is 132 character
 11. The RxFillDt will be blank if there is a Med Care Date.
 12. The RX# and RX Name will be blank if the charge is for medical care.
 13. If a Veteran has more than one bill, the report prints a row for every bill number (K#) they have that meets the report parameters.
-14. If a bill has a Status of “On-Hold”, the Bill number field will be blank.
-15. If the Veteran record tied to the bill does not have a Co-Payment Exemption Date, the report prints/displays “NODATE” in the EXMPTDT field and only prints one row of information if the Debtor has at least one bill matching the selected “Status” (e.g. Active, Open, Suspended, Collected/Closed, Write-Off, On-Hold).
+14. If a bill has a Status of "On-Hold", the Bill number field will be blank.
+15. If the Veteran record tied to the bill does not have a Co-Payment Exemption Date, the report prints/displays "NODATE" in the EXMPTDT field and only prints one row of information if the Debtor has at least one bill matching the selected "Status" (e.g. Active, Open, Suspended, Collected/Closed, Write-Off, On-Hold).
 
 The report output includes Veteran name, SSN, Service Connected percentage, bill number, co-pay exemption date, medical care date, Rx fill date, Rx number, Rx name, and bill status.
 

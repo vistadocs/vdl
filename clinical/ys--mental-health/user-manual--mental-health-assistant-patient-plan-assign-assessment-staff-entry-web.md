@@ -1,48 +1,39 @@
 ---
-title: Mental Health Assistant Patient Plan - Assign  Assessment - Staff Entry Web User Manual
+title: Mental Health Assistant Patient Plan - Assign Assessment - Staff Entry Web User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Mental Health Assistant Patient Plan - Assign  Assessment - Staff Entry Web
+doc_subject: Mental Health Assistant Patient Plan - Assign Assessment - Staff Entry Web
 app_code: YS
 app_name: Mental Health
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: YS
+patch_ver: ''
+patch_id: ''
+group_key: ''
+description: '| | | | | |---------------|----------|---------------------------------------------------------------------------|---------------------| | Date | Revision | Description | Author(s) | | May 2021 | 1.3 | Patch number 158. Remove references to "PaSE" and replace with "MHA Web". | Booz Allen Hamilton |...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: ![](mental-health-assistant-patient-plan-assign-assessment-staff-entry-web-user-manu/001.png)
-audience: 
-keywords: 
-  - patient
-  - table
-  - assessment
-  - entry
-  - staff
-  - contents
-  - assign
-  - assignment
-  - mental
-  - health
 page_count: 0
 word_count: 4030
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/CLIN_0004AY_UM_158_MHA_WEB.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/CLIN_0004AY_UM_158_MHA_WEB.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/CLIN_0004AY_UM_158_MHA_WEB.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/CLIN_0004AY_UM_158_MHA_WEB.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 Patient Plan - Assign Assessment - Staff Entry(MHA Web)

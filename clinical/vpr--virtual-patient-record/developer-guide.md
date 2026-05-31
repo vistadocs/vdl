@@ -3,55 +3,163 @@ title: Virtual Patient Record (VPR) Developer's Guide
 doc_type: DG
 doc_label: Developer Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: VPR
 app_name: Virtual Patient Record
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: VPR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''Updated entries in Table 3, Table 5, Table 11, Table 12, Table 20, Table 21, Table 22, Table 23, Table 26, Table 27, Table 28, Table 29, and Table 36. Updated Section 5, 5.1, 5.2, 5.2.1, 5.2.3, 5.2.3.2, 5.2.3.3, 5.5.1, and 5.6. Section 5.1: Deleted the "VPR Entities" table. Deleted the "VPR...'''
+audience: ''
+keywords: []
+file_numbers:
+- '1.5'
+- '2'
+- '2.312'
+- '2.98'
+- '4'
+- '4.2'
+- '5'
+- '8'
+- '9.4'
+- '10'
+- '10.2'
+- '10.99'
+- '11.99'
+- '13'
+- '21'
+- '26.11'
+- '26.13'
+- '26.15'
+- '26.16'
+- '31'
+- '36'
+- '40.7'
+- '41.1'
+- '42'
+- '42.4'
+- '44'
+- '45'
+- '45.05'
+- '45.3'
+- '45.7'
+- '49'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.606'
+- '50.68'
+- '50.7'
+- '51.1'
+- '51.2'
+- '52'
+- '52.41'
+- '53.1'
+- '55.01'
+- '55.05'
+- '55.06'
+- '60'
+- '61'
+- '62'
+- '63'
+- '63.01'
+- '63.02'
+- '63.05'
+- '63.08'
+- '63.09'
+- '68'
+- '69.9'
+- '70'
+- '70.03'
+- '71'
+- '74'
+- '75.1'
+- '79'
+- '79.2'
+- '80'
+- '81'
+- '81.3'
+- '95.3'
+- '100'
+- '100.01'
+- '100.98'
+- '101'
+- '101.42'
+- '101.43'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.8'
+- '120.83'
+- '120.86'
+- '123'
+- '123.5'
+- '130'
+- '200'
+- '230'
+- '355.1'
+- '355.3'
+- '404.42'
+- '404.51'
+- '405'
+- '405.1'
+- '405.3'
+- '408.32'
+- '409.1'
+- '409.2'
+- '409.68'
+- '560'
+- '560.1'
+- '619'
+- '697.2'
+- '704.117'
+- '723'
+- '757.5'
+- '779.004'
+- '783'
+- '790.05'
+- '811.9'
+- '920'
+- '920.2'
+- '920.3'
+- '8925'
+- '8925.1'
+- '8925.6'
+- '8925.7'
+- '8926.1'
+- '8926.2'
+- '8926.3'
+- '8926.4'
+- '8926.5'
+- '8926.6'
+- '8932.1'
+- '80001'
+security_keys:
+- PF1
+- PROVIDER
+- VPR HS ENABLE
 menu_options: 17
-description: 
-audience: 
-keywords: 
-  - span
-  - table
-  - class
-  - patient
-  - optional
-  - strong
-  - contents
-  - date
-  - filter
-  - anchor
 page_count: 0
-word_count: 31133
+word_count: 31125
 section_count: 54
 table_count: 65
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_dg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_dg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=197"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_dg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_dg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=197
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Virtual Patient Record (VPR) 1.0
-
-  Developer’s Guide
----
-
 ![](virtual-patient-record-vpr-developer-s-guide/001.png)
 
 January 2024

@@ -1,7 +1,7 @@
 ---
 title: OR*3*377 Set Up and Configuration Guide CPRS GUI 31B
 doc_type: CFG
-doc_label: Setup and Configuration Guide
+doc_label: Configuration Guide
 doc_layer: patch
 doc_subject: Set Up and Configuration Guide CPRS GUI 31B
 app_code: CPRS
@@ -11,38 +11,41 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*377
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3
 description: The Computerized Patient Record System (CPRS) is a Veterans Health Information Systems and Technology Architecture (VistA) suite of application packages. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order lab tests, medications,
-audience: 
-keywords: 
-  - health
-  - edit
-  - reminder
-  - table
-  - women
-  - contents
-  - manager
-  - patient
-  - cprs
-  - case
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '4.1'
+- '4.2'
+- '4.4'
+- '10.1'
+- '790.02'
+- '790.2'
+- '801'
+- '8925.95'
+- '8925.99'
+security_keys:
+- ENTER
+- ORMGR
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 19591
 section_count: 37
 table_count: 51
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_setup.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_setup.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_setup.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_setup.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 Computerized Patient Record System Version 31b

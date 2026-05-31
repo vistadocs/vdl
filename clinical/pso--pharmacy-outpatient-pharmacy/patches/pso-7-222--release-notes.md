@@ -5,44 +5,40 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: FDA Regulatory Changes for Clozapine
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*222
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '- Introduction - New Features, Functions, and Enhancements - Updated Fields - New Messages for Clozapine Drug Selection This document provides a brief description of...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4'
+- '52'
+- '52.52'
+- '304'
+security_keys:
+- YSCL AUTHORIZED
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - clozapine
-  - results
-  - table
-  - drug
-  - class
-  - patient
-  - override
-  - contents
-  - patch
-  - changes
 page_count: 0
 word_count: 1245
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p222_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p222_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p222_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p222_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-222-fda-regulatory-changes-for-clozapine-release-notes/001.png)

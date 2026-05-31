@@ -3,46 +3,52 @@ title: HL7 V. 1.6 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: '- Fields Added to the Top Level of the Protocol file (#101) 8 - V. 1.6 Related Manuals - V. 1.5 Related Manuals - New Modules - New Modules, cont. -...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '4'
+- '101'
+- '771'
+- '771.2'
+- '771.5'
+- '771.6'
+- '771.7'
+- '772'
+- '773'
+- '779.001'
+- '779.003'
+- '869.3'
+- '870'
 security_keys: []
 menu_options: 0
-description: - [Fields Added to the Top Level of the Protocol file (#101) 8](#fields-added-to-the-top-level-of-the-protocol-file-101-8) - [V. 1.6 Related Manuals](#v-16-related-manuals) - [V. 1.5 Related Manuals](#v-15-related-manuals) - [New Modules](#new-modules) - [New Modules, cont.](#new-modules-cont) - [Ne
-audience: 
-keywords: 
-  - hlini
-  - table
-  - message
-  - contents
-  - dhcp
-  - options
-  - cont
-  - protocol
-  - files
-  - incoming
 page_count: 0
 word_count: 2455
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

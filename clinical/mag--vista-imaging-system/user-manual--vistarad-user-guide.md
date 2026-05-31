@@ -8,41 +8,46 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: This document explains how to use the VistARad diagnostic workstation. VistARad is part of the VistA (Veterans' Hospital Information System Technology and Architecture) Imaging system.
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '13'
+- '44'
+- '200'
+- '2005'
+- '2005.2'
+- '2006.69'
+security_keys:
+- DEMAND ROUTE DICOM
+- MAGJ DEMAND ROUTE
+- MAGJ STORE IMAGES
+- MAGJ SYSTEM MANAGER
+- MAGJ SYSTEM USER
+- MAGJ VOXAR COPYIMAGE
+- REMOTE ACCESS CONTROL
 menu_options: 0
-description: This document explains how to use the VistARad diagnostic workstation. VistARad is part of the VistA (Veterans’ Hospital Information System Technology and Architecture) Imaging system.
-audience: 
-keywords: 
-  - exam
-  - hanging
-  - image
-  - exams
-  - vistarad
-  - table
-  - viewport
-  - contents
-  - window
-  - images
 page_count: 0
 word_count: 53588
 section_count: 82
 table_count: 14
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_VistARad_User_Guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_VistARad_User_Guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_VistARad_User_Guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_VistARad_User_Guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 ![](vistarad-user-guide/001.png)

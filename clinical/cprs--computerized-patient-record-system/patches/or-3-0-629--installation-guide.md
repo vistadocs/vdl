@@ -11,45 +11,34 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*629
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - table
-  - contents
-  - installation
-  - back
-  - rollback
-  - vista
-  - deployment
-  - chart
-  - install
+group_key: CPRS:OR:3.0
+description: '| Date | Version | Description | Author | |---------|---------|---------------------------------------------------------------------------------------|-------------------| | 03/2025 | | Updated the Installation Verification Procedure CRC \# to 0C5027D2 | CPRS Program Team | |...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3'
+- '19'
+security_keys:
+- OR CPRS TESTER
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 4014
+word_count: 3992
 section_count: 33
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_629_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>CPRS v33R Graphical User Interface (OR\*3.0\*629) Deployment, Installation, Back-Out, and Rollback Guide (DIBOR)
----
-
 ![](or-3-0-629-cprs-v33r-deployment-installation-back-out-and-rollback-guide/001.png)
 
 March 2025

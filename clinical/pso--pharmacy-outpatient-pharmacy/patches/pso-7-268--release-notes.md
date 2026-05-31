@@ -5,44 +5,42 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: FY07 Qtr 3
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*268
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '- Introduction - Outpatient Pharmacy V. 7.0 - Patient Safety Issues - PSI-06-186 – Changing Dispense Drug and SIG - [PSI-06-184 - Enhancements for No Allergy...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '0'
+- '3'
+- '50'
+- '53'
+- '55'
+- '100.02'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - order
-  - allergy
-  - status
-  - table
-  - contents
-  - drug
-  - update
-  - assessment
-  - mail
 page_count: 0
 word_count: 2436
 section_count: 9
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p268_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p268_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p268_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p268_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-268-fy07-qtr-3-release-notes/001.png)

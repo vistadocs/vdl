@@ -3,46 +3,37 @@ title: PSS*1*164/169 Technical Manual/Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*164
-group_key: "PSS:PSS:1"
+group_key: PSS:PSS:1
+description: '- Version 1.0 > June 2012 > (Revised January 2013) > Department of Veterans Affairs Product Development > Revision History > Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All,"...'
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: - [Version 1.0](#version-10) > June 2012 > (Revised January 2013) > Department of Veterans Affairs Product Development > Revision History > Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replac
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - added
-  - table
-  - style
-  - width
-  - mark
-  - pharmacy
-  - management
-  - version
 page_count: 0
 word_count: 278
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p164_p169_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](pss-1-164-169-technical-manual-security-guide-change-pages/001.png)

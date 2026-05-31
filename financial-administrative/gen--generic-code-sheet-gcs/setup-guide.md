@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: GEN
 patch_ver: 2
 patch_id: GEN*2
-group_key: "GEN:GEN:2"
-file_numbers: []
+group_key: GEN:GEN:2
+description: This Package Security Guide is designed to provide the Information Security Officer with information necessary to maintain security with Version 2.0 of the Generic Code Sheet
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '3'
+- '2100'
+- '2100.1'
+- '2101.1'
+- '2101.2'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - sheet
-  - generic
-  - table
-  - contents
-  - sheets
-  - security
-  - files
-  - package
-  - stack
 page_count: 0
 word_count: 901
 section_count: 6
 table_count: 31
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1995
 revision_count: 2
 revision_newest: 12/22/04
 revision_oldest: 12/22/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2sec.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2sec.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=7"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2sec.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2sec.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=7
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

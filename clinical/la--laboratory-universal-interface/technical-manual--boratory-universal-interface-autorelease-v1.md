@@ -1,48 +1,53 @@
 ---
-title: "Laboratory: Universal Interface AutoRelease  Version 1 Technical Manual"
+title: '''Laboratory: Universal Interface AutoRelease Version 1 Technical Manual'''
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: []
-security_keys: []
-menu_options: 8
+patch_id: null
+group_key: LA::1
 description: The VistA Laboratory Enhancement (VLE), AutoVerification initiative, is a natural extension of Kansas City (KC) Veterans Affairs Medical Center (VAMC) Innovation Award. This Office of Information & Technology (OI&T) effort both insures the original code conforms to National Release requirements and
-audience: 
-keywords: 
-  - class
-  - table
-  - autoverification
-  - laboratory
-  - span
-  - results
-  - interface
-  - contents
-  - colspan
-  - auto
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2.3'
+- '2.4'
+- '60'
+- '62.4'
+- '62.48'
+- '62.485'
+- '68.2'
+- '68.23'
+- '99'
+- '200'
+security_keys:
+- LRLAB
+- LRSUPER
+- LRVERIFY
+- PROVIDER
+menu_options: 8
 page_count: 0
 word_count: 6985
 section_count: 13
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 7
 revision_newest: 11/1/2016
 revision_oldest: 05/25/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease1_0_technicalmanual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease1_0_technicalmanual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease1_0_technicalmanual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease1_0_technicalmanual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 Auto Verification: VistA Auto ReleaseVistA Laboratory Enhancements Project

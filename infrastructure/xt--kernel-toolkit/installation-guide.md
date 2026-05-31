@@ -3,7 +3,7 @@ title: VistA Package Size Reporting Tool (VPSRT) Deployment, Installation, Back-
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XT
 app_name: Kernel Toolkit
 section: INF
@@ -11,49 +11,36 @@ app_status: active
 pkg_ns: XT
 patch_ver: 7.3
 patch_id: XT*7.3
-group_key: "XT:XT:7.3"
-file_numbers: []
-security_keys: []
+group_key: XT:XT:7.3
+description: '| Date | Revision | Description | Author |...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '9.4'
+- '19'
+- '221'
+- '8989.52'
+- '8989.521'
+security_keys:
+- XTVS EDITOR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - xtvs
-  - vista
-  - installation
-  - back
-  - kernel
-  - package
-  - deployment
 page_count: 0
-word_count: 5599
+word_count: 5573
 section_count: 37
 table_count: 6
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2021
 revision_count: 1
 revision_newest: 04/19/2021
 revision_oldest: 04/19/2021
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_dibrg_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_dibrg_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_dibrg_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_dibrg_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Package Size Reporting Tool (VPSRT)
-
-  Kernel Toolkit Patch XT\*7.3\*143
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBRG) (REDACTED)
----
-
 ![](vista-package-size-reporting-tool-vpsrt-deployment-installation-back-out-and-rol/001.png)
 
 April 2021

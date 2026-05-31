@@ -5,44 +5,43 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: AudioCARE Renewal Release Notes and Install Guide
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*328
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: PSO:PSO:7
 description: This document provides set-up steps and installation instructions to activate the AudioRENEWAL™ Module within the AudioCARE® telephone refill system. The AudioRENEWAL Module was de-activated by all VA locations currently using renewal functionality on January16, 2009 to prevent a problem reported in
-audience: 
-keywords: 
-  - renewal
-  - order
-  - strong
-  - provider
-  - message
-  - audiorenewal
-  - install
-  - audiocare
-  - request
-  - patch
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '16'
+- '44'
+- '52'
+- '100'
+- '200'
+security_keys:
+- OREMAS
+- ORES
+- PROVIDER
+menu_options: 1
 page_count: 0
 word_count: 10789
 section_count: 1
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p328_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p328_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p328_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p328_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 AudioCARE Renewal

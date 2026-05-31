@@ -5,44 +5,37 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: BCMA Version 3 -Managing Scanning Failures (MSF)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*28
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '- Introduction - Install Notes - Dependencies - Required Preparation before Running PSB\3\28 - Server-side (VistA) - Client (GUI) - [Installation...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PSB UNABLE TO SCAN
+- UNABLE TO SCAN
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - scan
-  - unable
-  - medication
-  - bcma
-  - table
-  - contents
-  - rights
-  - patient
-  - scanning
-  - report
 page_count: 0
 word_count: 5885
 section_count: 10
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p28_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p28_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p28_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p28_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-28-bcma-version-3-release-notes-managing-scanning-failures-msf/001.png)

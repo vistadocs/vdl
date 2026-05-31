@@ -3,7 +3,7 @@ title: Surgery Risk Assessment Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: SRA
 app_name: Surgery Risk Assessment
 section: CLI
@@ -11,42 +11,39 @@ app_status: active
 pkg_ns: SRA
 patch_ver: 3
 patch_id: SRA*3
-group_key: "SRA:SRA:3"
-file_numbers: []
-security_keys: 
-  - SR DOWNLOAD
-  - XM GROUP PRIORITY
-  - XUMGR
-  - XUPROG
+group_key: SRA:SRA:3
+description: '- Revision History - Risk Assessment Database - New User Set-Up - Setting up OIT Staff Supporting the Risk Assessment Database - [File Manager Access...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3'
+- '139'
+- '139.1'
+- '139.4'
+- '139.9'
+- '200'
+security_keys:
+- DIUSER
+- SRA CLEANUP
+- XUMGR
+- XUPROGMODE
 menu_options: 2
-description: - [Revision History](#revision-history) - [Risk Assessment Database - New User Set-Up](#risk-assessment-database-new-user-set-up) - [Setting up OIT Staff Supporting the Risk Assessment Database](#setting-up-oit-staff-supporting-the-risk-assessment-database) - [File Manager Access Code](#file-manager
-audience: 
-keywords: 
-  - assessment
-  - risk
-  - visn
-  - workload
-  - surgery
-  - table
-  - contents
-  - download
-  - transmission
-  - messages
 page_count: 0
 word_count: 9176
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=437"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=437
+audit_applied: '2026-05-31'
 ---
 
 Surgery Risk Assessment

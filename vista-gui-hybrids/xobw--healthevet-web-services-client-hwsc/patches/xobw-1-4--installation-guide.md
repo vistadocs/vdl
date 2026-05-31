@@ -11,48 +11,33 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1*4
-group_key: "XOBW:XOBW:1"
-file_numbers: []
-security_keys: []
+group_key: XOBW:XOBW:1
+description: '| Date | Revision | Description | Author | |------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------| | 12/05/2023 | 1.3 | Updated for...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '9.4'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - installation
-  - xobw
-  - contents
-  - patch
-  - back
-  - span
-  - hwsc
-  - vista
-  - install
 page_count: 0
-word_count: 5990
+word_count: 5966
 section_count: 29
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2017
 revision_count: 4
 revision_newest: 12/05/2023
 revision_oldest: 10/20/2016
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc186420068" class="anchor"></span>HealtheVet Web Services Client <span class="smallcaps">(HWSC)</span> 1.0  
-  Patch XOBW\*1.0\*4
-
-  Installation, Back-Out, and Rollback Guide
----
-
 ![](xobw-1-4-installation-back-out-and-rollback-guide/001.png)
 
 May 2017

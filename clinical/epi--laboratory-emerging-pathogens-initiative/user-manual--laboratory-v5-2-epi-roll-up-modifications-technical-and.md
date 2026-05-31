@@ -5,57 +5,59 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: EPI Roll Up Modifications Technical and
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: EPI
 patch_ver: 5.2
 patch_id: EPI*5.2
-group_key: "EPI:EPI:5.2"
-file_numbers: []
-security_keys: []
+group_key: EPI:EPI:5.2
+description: '''9/2015 LR*5.2*442 Updates for LR*5.2*442, ICD-10 PTF Modifications: Updated title page and footers. Added text to Preface (p.iv), added reference to ICD-10 PTF Modifications Installation Guide (pp.21, 30), added new DBIA #6130 (p.22), updated Post Installation (p.34).'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '3.8'
+- 08
+- '12'
+- '19'
+- '45'
+- '60'
+- '61'
+- '61.2'
+- '62.06'
+- '62.6'
+- '64'
+- '69'
+- '69.4'
+- '69.5'
+- '69.55'
+- '80'
+- '80.4'
+- '101'
+- '771'
+- '839.7'
+security_keys:
+- PROVIDER
 menu_options: 1
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - report
-  - table
-  - hepatitis
-  - contents
-  - local
-  - laboratory
-  - test
-  - class
-  - antibody
-  - reference
 page_count: 0
-word_count: 62065
+word_count: 62045
 section_count: 76
 table_count: 61
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_rollup_mod_tech_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_rollup_mod_tech_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_rollup_mod_tech_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_rollup_mod_tech_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Laboratory
-
-  Emerging Pathogens Initiative (EPI)
-
-  Version 5.2
-
-  Roll Up Modifications Technical and User Manual
----
-
 ![](laboratory-version-5-2-epi-roll-up-modifications-technical-and-user-manual/001.png)
 
 September 2015

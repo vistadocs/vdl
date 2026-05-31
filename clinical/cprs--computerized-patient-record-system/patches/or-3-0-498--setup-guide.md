@@ -1,7 +1,7 @@
 ---
-title: OR*3.0*498 (v31b followup)  Setup and Configuration Guide
+title: OR*3.0*498 (v31b followup) Setup and Configuration Guide
 doc_type: CFG
-doc_label: Setup and Configuration Guide
+doc_label: Configuration Guide
 doc_layer: patch
 doc_subject: (v31b followup)
 app_code: CPRS
@@ -11,48 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*498
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3.0
 description: CPRS v31b Follow-Up Build is a multi-package build that addresses several defects identified during the deployment of the CPRS v31b series of patches.
-audience: 
-keywords: 
-  - reminder
-  - finding
-  - prompt
-  - dialog
-  - term
-  - press
-  - codes
-  - group
-  - install
-  - mammogram
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '790.2'
+security_keys:
+- ENTER
+- NUM LOCK
+menu_options: 0
 page_count: 0
-word_count: 11183
+word_count: 11166
 section_count: 17
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_498_setup_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_498_setup_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_498_setup_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_498_setup_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  Version 31b Follow-Up Build
----
-
 Setup and Configuration Guide
 
 ![](or-3-0-498-v31b-followup-setup-and-configuration-guide/001.png)

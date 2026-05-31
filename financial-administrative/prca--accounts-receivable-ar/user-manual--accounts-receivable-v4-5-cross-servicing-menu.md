@@ -11,47 +11,49 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: 01/2025 1.7 Updated for patch PRCA*4.5*412. Creates a new report, Multiple Referral Programs Report [PRCAC MULT REF RPT], that identifies any bills that may be referred for debt collection to multiple debt referral programs. IBAR
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '61'
+- '121'
+- '125'
+- '168'
+- '169'
+- '170'
+- '340'
+- '342'
+- '348.5'
+- '348.6'
+- '348.7'
+- '430'
+- '430.0171'
+- '430.0172'
+- '430.03'
+- '430.5'
+- '433'
+security_keys:
+- RCDP TCSP FLAG
 menu_options: 7
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - cross
-  - servicing
-  - class
-  - debtor
-  - debt
-  - bill
-  - span
-  - table
-  - contents
-  - referred
 page_count: 0
-word_count: 30062
+word_count: 30033
 section_count: 51
 table_count: 20
 figure_count: 8
 appendix_count: 6
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_ar_cs_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_ar_cs_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_ar_cs_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_ar_cs_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk169268571" class="anchor"></span>Veterans’ Health Administration (VHA) Finance Integrated Billing (IB) and Accounts Receivable (AR)
-
-  <span id="_Hlk169268572" class="anchor"></span>Cross-Servicing User Manual
----
-
 ![](accounts-receivable-version-4-5-user-manual-cross-servicing-menu/001.png)
 
 January 2025

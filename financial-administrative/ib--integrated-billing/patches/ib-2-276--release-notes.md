@@ -3,7 +3,7 @@ title: IB*2*276/PRCA*4.5*230 HIPAA NCPDP IB/AR Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*276
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2
+description: '- Overview - Integrated Billing Patch IB\2\276 - Functional Changes - New Options - Modified Options - Technical Changes - [Enhancements to the IB-ECME...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '1.08'
+- '11.01'
+- '36'
+- '40.8'
+- '344.4'
+- '350.9'
+- '355.3'
+- '355.32'
+- '356'
+- '356.8'
+- '366.03'
+- '366.033'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - ecme
-  - plan
-  - pharmacy
-  - group
-  - claims
-  - status
-  - billing
-  - claim
-  - bill
-  - report
 page_count: 0
 word_count: 4873
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_prca_4_5_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_prca_4_5_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_prca_4_5_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_prca_4_5_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 > ![](ib-2-276-prca-4-5-230-hipaa-ncpdp-ib-ar-release-notes/001.png)

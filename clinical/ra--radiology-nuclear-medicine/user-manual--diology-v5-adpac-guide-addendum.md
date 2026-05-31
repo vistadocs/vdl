@@ -1,7 +1,7 @@
 ---
 title: Radiology Version 5 ADPAC Guide Addendum
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: ADPAC Guide Addendum
 app_code: RA
@@ -11,47 +11,37 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: []
-security_keys: []
+group_key: RA:RA:5
+description: Automated Data Processing Application Coordinator (ADPAC)
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '71'
+- '71.11'
+- '71.1105'
+- '71.99'
+- '300'
+security_keys:
+- DIEXTRACT
+- PF1
 menu_options: 0
-description: "<table> <caption><p>Table . Radiology Supervisor Menu Options and Descriptions</p></caption> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 12%\\" /> <col style=\\"width: 38%\\" /> <col style=\\"width: 35%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>Revision</th> <th>Description<"
-audience: 
-keywords: 
-  - procedure
-  - span
-  - procedures
-  - edit
-  - patch
-  - radiology
-  - mrpf
-  - mark
-  - class
-  - table
 page_count: 0
-word_count: 7697
+word_count: 7685
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_1.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Collaborative Terminology Tooling & Data Management (CTT & DM)
-
-  Native Domain Standardization (NDS)
----
-
 Radiology Reports
 
 Automated Data Processing Application Coordinator (ADPAC) Addendum

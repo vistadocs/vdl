@@ -5,44 +5,41 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Bad Address Enhancements
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*233
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: '- Introduction - Overview of Enhancements - Security Key Update - Field Update - Option Updates - Input Template Update - [Laser Label Printing...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '52'
+- '55'
+- '59'
+- '99'
+security_keys:
+- PSO ADDRESS UPDATE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - address
-  - patient
-  - update
-  - temporary
-  - table
-  - contents
-  - profile
-  - label
-  - pharmacy
-  - indicated
 page_count: 0
 word_count: 2055
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p233_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p233_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p233_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p233_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-233-bad-address-enhancements-release-notes/001.png)

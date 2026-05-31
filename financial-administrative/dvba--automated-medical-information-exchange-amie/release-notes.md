@@ -3,7 +3,7 @@ title: AMIE Version 2.7 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DVBA
 app_name: Automated Medical Information Exchange (AMIE)
 section: FIN
@@ -11,38 +11,46 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7
-group_key: "DVBA:DVBA:2.7"
-file_numbers: []
+group_key: DVBA:DVBA:2.7
+description: Automated Medical Information Exchange (AMIE) V. 2.7Release NotesApril
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '3.2'
+- '6.82'
+- '14'
+- '17'
+- '23'
+- '29'
+- '44'
+- '45'
+- '80'
+- '101'
+- '396.1'
+- '396.93'
+- '396.95'
+- '8984.1'
+- '8984.2'
 security_keys: []
 menu_options: 0
-description: - [Medical Center Release Notes](#medical-center-release-notes) - [User Release Notes](#user-release-notes) - [### Start/Stop 35 Day Clock for AMIS 290](#startstop-35-day-clock-for-amis-290) - [## ### Insufficient 2507 Exam Tracking](#insufficient-2507-exam-tracking) - [Divisional Transfer of 7131](
-audience: 
-keywords: 
-  - table
-  - contents
-  - exam
-  - report
-  - amie
-  - request
-  - requests
-  - appointment
-  - exams
-  - guide
 page_count: 0
 word_count: 3349
 section_count: 18
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 1/23/09
 revision_oldest: 1/23/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rnotes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rnotes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=31"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rnotes.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/rnotes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=31
+audit_applied: '2026-05-31'
 ---
 
 ![](amie-version-2-7-release-notes/001.png)

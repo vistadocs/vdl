@@ -3,46 +3,51 @@ title: Automatic Replenishment/Ward Stock Version 2.3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AR/WS
-app_name: "Pharmacy: Automatic Replenish / Ward Stock"
+app_name: 'Pharmacy: Automatic Replenish / Ward Stock'
 section: CLI
 app_status: active
 pkg_ns: AR/WS
 patch_ver: 2.3
 patch_id: AR/WS*2.3
-group_key: "AR/WS:AR/WS:2.3"
-file_numbers: []
-security_keys: []
+group_key: AR/WS:AR/WS:2.3
+description: '''The AR/WS module relies on, at least, the following external packages to run effectively:'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '42'
+- '42.4'
+- '44'
+- '50'
+- '51.5'
+- '58.1'
+- '58.11'
+- '58.2'
+- '58.5'
+- '200'
+security_keys:
+- PSGW PARAM
+- PSGW PURGE
+- PSGW TRAN
+- PSGWMGR
 menu_options: 0
-description: "The AR/WS module relies on, at least, the following external packages to run effectively:"
-audience: 
-keywords: 
-  - psgw
-  - filed
-  - print
-  - shall
-  - write
-  - over
-  - existing
-  - stock
-  - inventory
-  - amis
 page_count: 0
 word_count: 1355
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsinstall.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsinstall.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=83"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsinstall.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/wsinstall.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=83
+audit_applied: '2026-05-31'
 ---
 
 Installation

@@ -3,7 +3,7 @@ title: Surgery Risk Assessment SRA*3.0*9 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: SRA
 app_name: Surgery Risk Assessment
 section: CLI
@@ -11,38 +11,42 @@ app_status: active
 pkg_ns: SRA
 patch_ver: 3.0
 patch_id: SRA*3.0*9
-group_key: "SRA:SRA:3.0"
-file_numbers: []
+group_key: SRA:SRA:3.0
+description: These release notes cover the changes to the VistA Surgery Risk Assessment (SRA) package for this release.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3'
+- '4'
+- '6'
+- '19'
+- '139'
+- '139.4'
+- '139.42'
+- '227'
+- '234'
+- '625'
+- '628'
+- '629'
+- '632'
 security_keys: []
 menu_options: 0
-description: These release notes cover the changes to the VistA Surgery Risk Assessment (SRA) package for this release.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - donor
-  - surgery
-  - risk
-  - assessment
-  - table
-  - contents
-  - disposition
-  - vessel
-  - span
-  - cardiac
 page_count: 0
 word_count: 1110
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_RN.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_RN.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=437"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=437
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

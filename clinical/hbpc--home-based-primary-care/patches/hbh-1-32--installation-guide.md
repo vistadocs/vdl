@@ -3,7 +3,7 @@ title: HBH*1*32 HBPC Deployment, Installation, Back-out, and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
@@ -11,47 +11,44 @@ app_status: active
 pkg_ns: HBH
 patch_ver: 1
 patch_id: HBH*1*32
-group_key: "HBPC:HBH:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - hbhc
-  - provider
-  - table
-  - contents
-  - site
-  - back
-  - edit
-  - span
-  - installation
-  - hbpc
+group_key: HBPC:HBH:1
+description: '''Table : Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '6'
+- '9'
+- '35'
+- '40.8'
+- '91'
+- '200'
+- '631'
+- '631.4'
+- '631.9'
+- '633'
+- '633.2'
+security_keys:
+- PROVIDER
+menu_options: 1
 page_count: 0
-word_count: 7637
+word_count: 7618
 section_count: 31
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_dibr_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_dibr_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_dibr_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_dibr_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Home Based Primary Care (HBPC)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](hbh-1-32-hbpc-deployment-installation-back-out-and-rollback-guide/001.png)
 
 August 2021

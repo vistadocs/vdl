@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: anchor
 doc_subject: Combined Builds Enhancements 1
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 1
 patch_id: PSO*1
-group_key: "PSO:PSO:1"
-file_numbers: []
+group_key: PSO:PSO:1
+description: The goal of the Pharmacy Reengineering (PRE) project is to replace the current M-based suite of pharmacy applications with a system that will better meet the current and expected business needs for the Department of Veterans Affairs (VA) and address the ever-changing patient safety issues. The first
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '59.74'
 security_keys: []
 menu_options: 0
-description: The goal of the Pharmacy Reengineering (PRE) project is to replace the current M-based suite of pharmacy applications with a system that will better meet the current and expected business needs for the Department of Veterans Affairs (VA) and address the ever-changing patient safety issues. The first
-audience: 
-keywords: 
-  - order
-  - table
-  - drug
-  - clinic
-  - contents
-  - date
-  - orders
-  - inpatient
-  - pharmacy
-  - check
 page_count: 0
 word_count: 2283
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/m1e1_pso_7_psj_5_pss_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/m1e1_pso_7_psj_5_pss_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/m1e1_pso_7_psj_5_pss_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/m1e1_pso_7_psj_5_pss_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-1-combined-builds-enhancements-1-release-notes/001.png)

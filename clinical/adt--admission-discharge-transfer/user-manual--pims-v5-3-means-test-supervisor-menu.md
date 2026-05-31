@@ -11,38 +11,50 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ADT:ADT:5.3
 description: This menu contains the options used in all aspects of Means Testing. This includes adding, completing, editing, deleting, viewing past Means Tests, referral to Adjudication, if necessary, and generating management reports containing Means Test signature statistics. This menu is locked with the DGMEA
-audience: 
-keywords: 
-  - test
-  - means
-  - income
-  - blockquote
-  - table
-  - strong
-  - dependent
-  - status
-  - date
-  - veteran
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.9'
+- '2'
+- '2.01'
+- '2.03'
+- '2.04'
+- '2.05'
+- '3'
+- '4'
+- '43'
+- '408.12'
+- '408.13'
+- '408.21'
+- '408.22'
+- '408.31'
+- '408.34'
+security_keys:
+- DG DEPDELETE
+- DG MEANSTEST
+- DG MTDELETE
+- DG SUPERVISOR
+- GMT COUNTY EDIT
+menu_options: 0
 page_count: 0
 word_count: 12369
 section_count: 30
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_mts_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_mts_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_mts_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_mts_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 # PIMS V. 5.3 ADT Module User Manual Means Test Supervisor Menu

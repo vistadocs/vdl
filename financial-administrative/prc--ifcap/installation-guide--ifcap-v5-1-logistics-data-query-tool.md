@@ -11,39 +11,30 @@ app_status: archive
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: 
-  - 200
+group_key: PRC:PRC:5.1
+description: '> Patch PRC\5.1\103 implements the VistA side of the Logistics Data Query Tool (or, more simply, the Query Tool). Made available with the patch is an InstallShield® executable for the graphical user interface (GUI) components of the Query Tool client. This document covers primarily the GUI component'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
 security_keys: []
-menu_options: 0
-description: > Patch PRC\5.1\103 implements the VistA side of the Logistics Data Query Tool (or, more simply, the Query Tool). Made available with the patch is an InstallShield® executable for the graphical user interface (GUI) components of the Query Tool client. This document covers primarily the GUI component
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - table
-  - query
-  - tool
-  - contents
-  - installation
-  - class
-  - version
-  - guide
+menu_options: 2
 page_count: 0
 word_count: 3712
 section_count: 14
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=263"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=263
+audit_applied: '2026-05-31'
 ---
 
 > ![](ifcap-version-5-1-logistics-data-query-tool-installation-guide/001.png)

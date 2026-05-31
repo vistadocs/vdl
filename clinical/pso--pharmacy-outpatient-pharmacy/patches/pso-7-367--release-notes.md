@@ -5,44 +5,46 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: VistA FDA Medication Guides Project
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*367
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '- Introduction - Project Enhancements - [# Outpatient Pharmacy, Consolidated Mail Outpatient Pharmacy (CMOP), National Drug File (NDF) and Kernel...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3.5'
+- '35'
+- '50.68'
+- '52'
+- '52.01'
+- '52.032'
+- '59'
+- '75'
+- '100'
+- '134'
+- '135'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - guide
-  - medication
-  - pharmacy
-  - outpatient
-  - table
-  - contents
-  - updates
-  - cmop
-  - printer
-  - prescription
 page_count: 0
 word_count: 962
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/phar_fda_med_guide_rel3_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/phar_fda_med_guide_rel3_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/phar_fda_med_guide_rel3_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/phar_fda_med_guide_rel3_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-367-vista-fda-medication-guides-project-release-notes/001.png)

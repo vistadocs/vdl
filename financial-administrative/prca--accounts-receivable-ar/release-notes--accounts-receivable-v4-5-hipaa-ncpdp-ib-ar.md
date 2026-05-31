@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: '- Overview - Integrated Billing Patch IB\2\276 - Functional Changes - New Options - Modified Options - Technical Changes - [Enhancements to the IB-ECME...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '1.08'
+- '11.01'
+- '36'
+- '40.8'
+- '344.4'
+- '350.9'
+- '355.3'
+- '355.32'
+- '356'
+- '356.8'
+- '366.03'
+- '366.033'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - ecme
-  - plan
-  - pharmacy
-  - group
-  - claims
-  - status
-  - billing
-  - claim
-  - bill
-  - report
 page_count: 0
 word_count: 4873
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ib_2_prca_4_5_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ib_2_prca_4_5_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ib_2_prca_4_5_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ib_2_prca_4_5_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 > ![](accounts-receivable-version-4-5-hipaa-ncpdp-ib-ar-release-notes/001.png)

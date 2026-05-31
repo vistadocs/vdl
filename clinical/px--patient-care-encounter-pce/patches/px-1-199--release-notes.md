@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PX
 patch_ver: 1
 patch_id: PX*1*199
-group_key: "PX:PX:1"
-file_numbers: []
-security_keys: []
+group_key: PX:PX:1
+description: '- Introduction - Purpose - Background - Scope of Changes - Documentation - # New Features and Functions - [Differentiating ICD-9 and ICD-10 Diagnosis...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '80'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - diagnosis
-  - table
-  - code
-  - encounter
-  - contents
-  - fracture
-  - codes
-  - date
-  - report
-  - bone
 page_count: 0
 word_count: 2439
 section_count: 9
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/icd-10_rn_px_1_199.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/icd-10_rn_px_1_199.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/icd-10_rn_px_1_199.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/icd-10_rn_px_1_199.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation

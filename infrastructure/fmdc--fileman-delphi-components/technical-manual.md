@@ -3,46 +3,38 @@ title: FMDC Technical Manual and Security Guide
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: FMDC  and Security Guide
+doc_subject: FMDC and Security Guide
 app_code: FMDC
 app_name: FileMan Delphi Components
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: FMDC
+patch_ver: null
+patch_id: null
+group_key: null
+description: FILEMAN DELPHI COMPONENTS(FMDC)TECHNICAL MANUAL and SECURITY
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - fileman
-  - delphi
-  - table
-  - contents
-  - components
-  - unit
-  - fmdc
-  - security
-  - server
-  - compiled
 page_count: 0
 word_count: 2495
 section_count: 17
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1999
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=6"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0p1tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=6
+audit_applied: '2026-05-31'
 ---
 
 ![](fmdc-technical-manual-and-security-guide/001.png)

@@ -5,44 +5,35 @@ doc_label: Installation Guide
 doc_layer: anchor
 doc_subject: Install Guide_Extract Enhancements Phases I thru II
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
 pkg_ns: PSU
 patch_ver: 4
 patch_id: PSU*4
-group_key: "PSU:PSU:4"
+group_key: PSU:PSU:4
+description: '- Introduction - Purpose - Scope - Dependencies and Constraints - Pre-Installation - Minimum Required Packages - Required Setup - [Installation...'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - install
-  - contents
-  - installation
-  - class
-  - strong
-  - routines
-  - protocols
-  - pharmacy
-  - software
 page_count: 0
 word_count: 2462
 section_count: 11
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
 
 > ![](benefits-management-version-4-install-guide-extract-enhancements-phases-i-thru-i/001.png)

@@ -3,46 +3,40 @@ title: M-to-M Broker XWB*1.1*34 Supplement to Patch Description
 doc_type: PDD
 doc_label: Patch Description Document
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XWB
-app_name: M-to-M Broker
+app_name: Remote Procedure Call (RPC) Broker
 section: INF
 app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1
-group_key: "XWB:XWB:1.1"
-file_numbers: []
-security_keys: []
+group_key: XWB:XWB:1.1
+description: For the current patch history related to this software, please refer to the Patch Module (i.e., Patch User Menu \[A1AE USER\]) on FORUM.
+audience: ''
+keywords: []
+file_numbers:
+- '19'
+- '8994'
+security_keys:
+- XUPROGMODE
 menu_options: 1
-description: "<span id=\\"_Toc109028064\\" class=\\"anchor\\"></span>Table i‑: Documentation symbol descriptions"
-audience: 
-keywords: 
-  - vista
-  - strong
-  - broker
-  - xwbm
-  - class
-  - table
-  - application
-  - server
-  - span
-  - connection
 page_count: 0
 word_count: 12090
 section_count: 15
 table_count: 82
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/M_to_M_Broker/xwb1_1p34sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/M_to_M_Broker/xwb1_1p34sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=128"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/M_to_M_Broker/xwb1_1p34sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/M_to_M_Broker/xwb1_1p34sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=128
+audit_applied: '2026-05-31'
 ---
 
 ![](m-to-m-broker-xwb-1-1-34-supplement-to-patch-description/001.png)

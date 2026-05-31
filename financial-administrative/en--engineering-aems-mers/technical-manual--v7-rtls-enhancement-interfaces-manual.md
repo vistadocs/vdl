@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: EN
 patch_ver: 7
 patch_id: EN*7
-group_key: "EN:EN:7"
-file_numbers: []
+group_key: EN:EN:7
+description: '> The Department of Veterans Affairs (VA) is implementing an enterprise-wide solution for a Real Time Location System (RTLS) for the VA. RTLS will be used for the purpose of tracking objects such as equipment, supplies, and instruments. RTLS has the ability to locate patients and staff as well. In a'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '200'
+- '441'
+- '445'
+- '6914'
+- '6928'
+- '6930'
 security_keys: []
 menu_options: 0
-description: > The Department of Veterans Affairs (VA) is implementing an enterprise-wide solution for a Real Time Location System (RTLS) for the VA. RTLS will be used for the purpose of tracking objects such as equipment, supplies, and instruments. RTLS has the ability to locate patients and staff as well. In a
-audience: 
-keywords: 
-  - table
-  - contents
-  - rtls
-  - interface
-  - wavemark
-  - vista
-  - aems
-  - mers
-  - strong
-  - class
 page_count: 0
 word_count: 5047
 section_count: 24
 table_count: 11
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_ese_interfaces_technical_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_ese_interfaces_technical_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=37"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_ese_interfaces_technical_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_ese_interfaces_technical_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=37
+audit_applied: '2026-05-31'
 ---
 
 # Department of Veterans Affairs

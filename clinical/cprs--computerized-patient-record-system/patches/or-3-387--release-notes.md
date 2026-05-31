@@ -11,47 +11,31 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*387
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: The purpose of these Release Notes is to identify enhancements to Patch OR\3\387 PCMM WEB TEAM DISPLAY ENHANCEMENTS TO CPRS. This VistA patch is required to support changes to PCMM team and provider information displayed in CPRS and is compatible with CPRS version 30 and above.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '404.41'
 security_keys: []
 menu_options: 0
-description: The purpose of these Release Notes is to identify enhancements to Patch OR\3\387 PCMM WEB TEAM DISPLAY ENHANCEMENTS TO CPRS. This VistA patch is required to support changes to PCMM team and provider information displayed in CPRS and is compatible with CPRS version 30 and above.
-audience: 
-keywords: 
-  - table
-  - contents
-  - cprs
-  - pcmm
-  - modified
-  - primary
-  - care
-  - patient
-  - window
-  - remote
 page_count: 0
-word_count: 503
+word_count: 486
 section_count: 3
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_387_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_387_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_387_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_387_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Department of Veterans Affairs
-
-  Patient Centered Management Module (PCMM) – OR\*3.0\*387
----
-
 Release Notes
 
 ![](or-3-387-release-notes-patient-centered-management-module-pcmm-cprs/001.png)

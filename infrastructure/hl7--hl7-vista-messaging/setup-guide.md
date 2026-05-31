@@ -8,41 +8,32 @@ app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
+patch_id: null
+group_key: HL7::1.6
+description: '- Security Keys - Legal Requirements - VA FileMan Access Codes No security keys are provided with the HL7 V. 1.6 software'
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Security Keys](#security-keys) - [Legal Requirements](#legal-requirements) - [VA FileMan Access Codes](#va-fileman-access-codes) No security keys are provided with the HL7 V. 1.6 software package.
-audience: 
-keywords: 
-  - access
-  - table
-  - contents
-  - security
-  - message
-  - package
-  - keys
-  - legal
-  - requirements
-  - fileman
 page_count: 0
 word_count: 243
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

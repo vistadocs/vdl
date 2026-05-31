@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: VIAB
 patch_ver: 1
 patch_id: VIAB*1*14
-group_key: "VIAB:VIAB:1"
-file_numbers: []
+group_key: VIAB:VIAB:1
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the Installation, Back-out, Rollback Plan/RELEASE NOTES has been'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '8994'
+- '999999'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - installation
-  - patch
-  - viab
-  - table
-  - contents
-  - install
-  - instructions
-  - procedure
-  - rollback
-  - description
 page_count: 0
 word_count: 2624
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_14_installation_back-out_rollback_plan_release_notes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_14_installation_back-out_rollback_plan_release_notes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=221"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_14_installation_back-out_rollback_plan_release_notes.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/viab_1_14_installation_back-out_rollback_plan_release_notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=221
+audit_applied: '2026-05-31'
 ---
 
 VistA Integration Adapter (VIA)VIAB 1\*14

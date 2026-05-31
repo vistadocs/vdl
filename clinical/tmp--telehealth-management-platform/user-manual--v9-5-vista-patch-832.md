@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 9.5
 patch_id: TMP*9.5
-group_key: "TMP:TMP:9.5"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: TMP:TMP:9.5
 description: The Telehealth Management Program (TMP) integrates with Veterans Health Information Systems and Technology Architecture (VistA) to schedule, cancel or update appointments in support of Telehealth services provided by the VHA. When an appointment is made or canceled on TMP, a message is sent to VistA
-audience: 
-keywords: 
-  - stop
-  - code
-  - clinic
-  - telehealth
-  - provider
-  - number
-  - table
-  - update
-  - report
-  - strong
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '40.6'
+- '44'
+- '389.9'
+security_keys:
+- PROVIDER
+- SDTOOL
+menu_options: 0
 page_count: 0
 word_count: 8447
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_user_manual_832.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_user_manual_832.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_user_manual_832.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_user_manual_832.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsScheduling PackageTelehealth Management Platform (TMP) VistA

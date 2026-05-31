@@ -3,7 +3,7 @@ title: Radiology Version 5 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
@@ -11,51 +11,85 @@ app_status: active
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: 
-  - 2
-  - 4
-  - 40
-  - 42
-  - 44
-  - 49
-  - 71
-  - 72
-  - 74
-  - 78
-  - 79
-  - 81
-  - 200
-security_keys: []
+group_key: RA:RA:5
+description: Credit completed exams for an Imaging Location 15
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '19'
+- '34'
+- '40.5'
+- '40.7'
+- '40.8'
+- '42'
+- '42.4'
+- '44'
+- '49'
+- '70'
+- '70.2'
+- '70.3'
+- '71'
+- '71.1'
+- '71.1235'
+- '71.2'
+- '71.3'
+- '71.4'
+- '71.5'
+- '71.6'
+- '71.7'
+- '71.8'
+- '71.9'
+- '71.99'
+- '72'
+- '73.2'
+- '74'
+- '74.1'
+- '74.2'
+- '74.3'
+- '74.4'
+- '75.1'
+- '75.2'
+- '75.3'
+- '78.1'
+- '78.2'
+- '78.3'
+- '78.4'
+- '78.6'
+- '78.7'
+- '79'
+- '79.1'
+- '79.2'
+- '79.7'
+- '81'
+- '81.1'
+- '81.3'
+- '200'
+- '300'
+security_keys:
+- RA ALLOC
+- RA MGR
+- RA RPTMGR
+- RA SWITCHLOC
+- RA VERIFY
 menu_options: 32
-description: "<table> <caption><p>Table 1 - Summary Counts</p></caption> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 16%\\" /> <col style=\\"width: 65%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><strong>Date</strong></th> <th><strong>Page</strong></th> <th><strong>Change</strong></th> </tr> </thead>"
-audience: 
-keywords: 
-  - class
-  - report
-  - exam
-  - table
-  - even
-  - imaging
-  - contents
-  - radiology
-  - reports
-  - added
 page_count: 0
 word_count: 28883
 section_count: 27
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](radiology-version-5-technical-manual/001.png)

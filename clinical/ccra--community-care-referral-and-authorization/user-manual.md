@@ -8,41 +8,34 @@ app_code: CCRA
 app_name: Community Care Referral and Authorization
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: CCRA
+patch_ver: null
+patch_id: null
+group_key: null
+description: 1.0 08/11/2017 CCRA Training Team First version of HealthShare Referral Manager Participant Manual for User Functionality
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '8'
+- '58'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - referral
-  - table
-  - contents
-  - view
-  - task
-  - hsrm
-  - strong
-  - community
-  - mark
-  - blockquote
 page_count: 0
 word_count: 8863
 section_count: 42
 table_count: 6
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Community_Care/ccra_hsrm_end_user_guide_va.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Community_Care/ccra_hsrm_end_user_guide_va.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=228"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Community_Care/ccra_hsrm_end_user_guide_va.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Community_Care/ccra_hsrm_end_user_guide_va.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=228
+audit_applied: '2026-05-31'
 ---
 
 > HealthShare Referral Manager (HSRM)

@@ -3,46 +3,37 @@ title: InterSystems Health Connect - HL7 Messaging Product Operations Manual (PO
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: PRC
 app_name: IFCAP
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: PRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Revision History - HC-HL7MessagingPOM-Master.docx - Review eCMS System Default Settings - [Management Portal  Ensemble  Configure  System Default...'
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Revision History](#revision-history) - [HC-HL7MessagingPOM-Master.docx](#hc-hl7messagingpom-masterdocx) - [Review eCMS System Default Settings](#review-ecms-system-default-settings) - [Management Portal  Ensemble  Configure  System Default Settings](#management-portal-ensemble-configure-system
-audience: 
-keywords: 
-  - table
-  - ecms
-  - strong
-  - contents
-  - operation
-  - class
-  - settings
-  - business
-  - message
-  - style
 page_count: 0
 word_count: 1341
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc-hl7_messaging_pom-ecms-signed.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc-hl7_messaging_pom-ecms-signed.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc-hl7_messaging_pom-ecms-signed.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc-hl7_messaging_pom-ecms-signed.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 # Revision History

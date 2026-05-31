@@ -3,7 +3,7 @@ title: Capacity Management Tools Version 3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: KMPD
 app_name: Capacity Management Tools
 section: INF
@@ -11,48 +11,46 @@ app_status: active
 pkg_ns: KMPD
 patch_ver: 3
 patch_id: KMPD*3
-group_key: "KMPD:KMPD:3"
-file_numbers: 
-  - 8973
-security_keys: []
+group_key: KMPD:KMPD:3
+description: '''12/29/2015 1.2 Updated document based on Capacity Management Tools Patch KMPD*3.0*3. Software: CM Tools 3.0. REDACTED (CPE): St Petersburg Field Office Technical Writer:'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3.11'
+- '4.11'
+- '5.01'
+- '5.02'
+- '19.01'
+- '19.02'
+- '8970.1'
+- '8971.1'
+- '8972.1'
+- '8972.3'
+- '8973'
+- '8973.1'
+- '8973.2'
+- '8973.3'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 4
-description: 
-audience: 
-keywords: 
-  - tools
-  - kmpd
-  - table
-  - capacity
-  - contents
-  - management
-  - software
-  - class
-  - routine
-  - timing
 page_count: 0
-word_count: 13368
+word_count: 13362
 section_count: 29
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0tm_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0tm_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=129"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0tm_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0tm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=129
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Capacity Management Tools 3.0
-
-  Technical Manual
----
-
 ![](capacity-management-tools-version-3-technical-manual/001.png)
 
 December 2015

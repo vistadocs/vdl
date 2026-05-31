@@ -3,46 +3,39 @@ title: PSB*3*70 BCMA Version 3 Technical Manual / Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: BCMA Version 3  / Security Guide Change Pages
+doc_subject: BCMA Version 3 / Security Guide Change Pages
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*70
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '>'
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PSB MGR
+- PSB READ ONLY
 menu_options: 8
-description: > ![](psb-3-70-bcma-version-3-technical-manual-security-guide-change-pages/001.png)
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - bcma
-  - report
-  - class
-  - mark
-  - medication
-  - only
-  - table
-  - added
 page_count: 0
 word_count: 3042
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-70-bcma-version-3-technical-manual-security-guide-change-pages/001.png)

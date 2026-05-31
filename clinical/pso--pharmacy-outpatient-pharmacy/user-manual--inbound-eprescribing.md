@@ -1,22 +1,68 @@
 ---
-consolidated_title: "inbound eprescribing user manual"
-app_code: PSO
+title: Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*743
 doc_type: UM
-master_source: "Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*743"
+doc_label: User Manual
+doc_layer: anchor
+doc_subject: Inbound ePrescribing (Unit 3 Part 2) PSO*7*743
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7.0
+patch_id: PSO*7.0
+group_key: PSO:PSO:7.0
+file_numbers:
+- '1'
+- '3'
+- '10'
+- '10.2'
+- '50'
+- '50.67'
+- '50.68'
+- '52.46'
+- '52.48'
+- '52.49'
+- '59'
+- '200'
+security_keys:
+- PROVIDER
+menu_options: 0
+description: '- Manual Validation - Validate Patient - Validate Provider - Validate Drug/SIG - Accepting eRXes in the eRX Holding Queue - [Manual...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 12269
+section_count: 12
+table_count: 1
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: May 2024
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_um_3-2.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_um_3-2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*743
 master_pub_date: May 2024
 consolidated_from: 12 versions
 prior_versions:
-  - "Inbound ePrescribing User Manual (Unit 1) PSO*7*700"
-  - "Inbound ePrescribing User Manual (Unit 1 & Unit 2) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 3 Part 1) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 4 Part 1) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 4 Part 2) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 5 Part 1) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 5 Part 2) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 6) PSO*7*581"
-  - "Inbound ePrescribing User Manual (Unit 7 Part 1) PSO*7*746"
-  - "Inbound ePrescribing User Manual (Unit 7 Part 2) PSO*7*746"
+- Inbound ePrescribing User Manual (Unit 1) PSO*7*700
+- Inbound ePrescribing User Manual (Unit 1 & Unit 2) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 3 Part 1) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 3 Part 2) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 4 Part 1) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 4 Part 2) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 5 Part 1) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 5 Part 2) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 6) PSO*7*581
+- Inbound ePrescribing User Manual (Unit 7 Part 1) PSO*7*746
+- Inbound ePrescribing User Manual (Unit 7 Part 2) PSO*7*746
+consolidated_title: inbound eprescribing user manual
 ---
 
 ## Table of Contents
@@ -96,7 +142,7 @@ Revision History
 <li><p>Updated all screen shots with the latest versions</p></li>
 <li><p>Added paragraph numbers to all paragraphs</p></li>
 <li><p>Updated terminology throughout to comply with NCPDP 2017071 standards</p></li>
-<li><p>Added “Prohibit Renewal Request” functionality details under Unit 3</p></li>
+<li><p>Added "Prohibit Renewal Request" functionality details under Unit 3</p></li>
 <li><p>Added New unit for RxChange Requests and Responses - Unit 5</p></li>
 <li><p>Moved CancelRx Requests and Responses under Unit 6</p></li>
 <li><p>Added RxRenewal Response – Replace Type under Unit 5</p></li>
@@ -155,9 +201,9 @@ Revision History
 <ul>
 <li><p>Standardized images throughout document</p></li>
 <li><p>Clarified patient DOB format under Table 3</p></li>
-<li><p>Added Note to replace text “Dispense Notes” with “Substitutions” under Track/Audit Details screen in Section 5 Inbound/Outbound Message Detail</p></li>
-<li><p>Added Note to indicate the change of screen/page title from “Users” to “User Management” in section 2.2.5 User Management</p></li>
-<li><p>Included description for ERX LOOK-BACK DAYS display on the Holding Queue’s Traditional View and Patient Centric Views in section in section 3.5.1.2.1. Non-Actionable records are those that are in the Holding Queue but are not displayed in the List View. All records acknowledged, removed, rejected, processed/completed and auto-canceled are non-actionable. Non-Actionable records further include:</p></li>
+<li><p>Added Note to replace text "Dispense Notes" with "Substitutions" under Track/Audit Details screen in Section 5 Inbound/Outbound Message Detail</p></li>
+<li><p>Added Note to indicate the change of screen/page title from "Users" to "User Management" in section 2.2.5 User Management</p></li>
+<li><p>Included description for ERX LOOK-BACK DAYS display on the Holding Queue's Traditional View and Patient Centric Views in section in section 3.5.1.2.1. Non-Actionable records are those that are in the Holding Queue but are not displayed in the List View. All records acknowledged, removed, rejected, processed/completed and auto-canceled are non-actionable. Non-Actionable records further include:</p></li>
 <li><p>R<sub>X</sub>Renewal Request</p></li>
 <li><p>R<sub>X</sub>Renewal Response – Approved</p></li>
 <li><p>R<sub>X</sub>Renewal Response – Approved with Changes (change to drug data only)</p></li>
@@ -168,16 +214,16 @@ Revision History
 <p>For additional information on Actionable and Non-Actionable eR<sub>X</sub> Status Codes, refer to the tables in <u>Appendix B: Holding Queue Status Codes &amp; Descriptions</u> in Unit 6 (PSO_7_0_P617_UM_6) available on the Veteran's Documentation Library (VDL).</p>
 <ul>
 <li><p>eR<sub>X</sub> Default Loopback Days</p></li>
-<li><p>Replaced column label “LAST USER” with “LOCKED BY” and updated the description under Table 9</p></li>
+<li><p>Replaced column label "LAST USER" with "LOCKED BY" and updated the description under Table 9</p></li>
 <li><p>Added the information for LOCKED BY column in section 3.5.2 Patient Centric View</p></li>
 <li><p>Replaced Figure 3-14, Figure 3-16, Figure 3-17, Figure 3-18, Figure 3-19, Figure 3-42, Figure 3-52,<br />
 Figure 3-55, Figure 3-56, Figure 3-57, Figure 3-59, Figure 3-60, Figure 3-61, and Figure 3-68 for updated layout</p></li>
-<li><p>Added Note and included Figure 3.6‑18 to indicate to the user that a Provider’s DEA# has expired in section 3.6.2.3 Edit Provider</p></li>
-<li><p>Removed reference to “Limited Duration” field from Validate Drug/SIG for the modified workflow in section 3.6.3.3 Edit Drug/SIG</p></li>
+<li><p>Added Note and included Figure 3.6‑18 to indicate to the user that a Provider's DEA# has expired in section 3.6.2.3 Edit Provider</p></li>
+<li><p>Removed reference to "Limited Duration" field from Validate Drug/SIG for the modified workflow in section 3.6.3.3 Edit Drug/SIG</p></li>
 <li><p>Added description under Note for modified workflow in section 3.6.3.3 Edit Drug/SIG</p></li>
 <li><p>Updated description for VistA Days Supply calculation in section 3.6.3.3.1 Additional Field-level Information</p></li>
 <li><p>Added scenarios for Quantity/Days Supply workflow under VD Edit screen based on Available Dosage(s) in section 3.6.3.3.2 Quantity/Days Supply work flow under Validate Drug/SIG &gt; Edit:</p></li>
-<li><p>Added Note to replace text “Qty Qualifier” with “Code List Qualifier” and replace, “DAW Code” with “Substitutions” in section 3.13 Complete Orders from OERR and Patient Prescription Processing</p></li>
+<li><p>Added Note to replace text "Qty Qualifier" with "Code List Qualifier" and replace, "DAW Code" with "Substitutions" in section 3.13 Complete Orders from OERR and Patient Prescription Processing</p></li>
 <li><p>Added Note describing eR<sub>X</sub> Date, Date Written, Issue Date, and Written Date fields in section 3.13 Complete Orders from OERR and Patient Prescription Processing</p></li>
 </ul></td>
 <td>Redacted</td>
@@ -301,13 +347,13 @@ Patient Secondary Match in VistA
 
 The header of the Patient Validation screen contains the eR<sub>X</sub> Patient Name and the eR<sub>X</sub> Reference \#. Below the header is the eR<sub>X</sub> and VistA information for the patient, including any known allergies where applicable.
 
-If a match was NOT found for the eR<sub>X</sub> Patient, the screen looks similar to the below figure. The Status field has “NOT VALIDATED”, with “PATIENT NOT MATCHED” below the Status. No VistA patient information displays.
+If a match was NOT found for the eR<sub>X</sub> Patient, the screen looks similar to the below figure. The Status field has "NOT VALIDATED", with "PATIENT NOT MATCHED" below the Status. No VistA patient information displays.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/004.png)
 
 <span id="_Toc167367306" class="anchor"></span>Figure 3.6‑3: Patient Validation Screen Display - Patient Not Validated/Not Auto Matched
 
-If a match is found, however, the patient has NOT been validated, the Summary/Details screen looks similar to the below figure. The Status field has “NOT VALIDATED”, with VistA information displaying, where applicable.
+If a match is found, however, the patient has NOT been validated, the Summary/Details screen looks similar to the below figure. The Status field has "NOT VALIDATED", with VistA information displaying, where applicable.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/005.png)
 
@@ -319,7 +365,7 @@ If the VistA patient has known allergies, verified allergies display in the Alle
 
 <span id="_Toc167367308" class="anchor"></span>Figure 3.6‑5: VistA Patient with Known Allergies
 
-If the patient has been validated, the Status field above the VistA Patient contains “VALIDATED”, with the user who performed the validation and date/timestamp.
+If the patient has been validated, the Status field above the VistA Patient contains "VALIDATED", with the user who performed the validation and date/timestamp.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/007.png)
 
@@ -343,7 +389,7 @@ The actions at the bottom of the Patient Validation screen include:
 
 <span id="_Toc167367310" class="anchor"></span>Figure 3.6‑7: Edit Patient on a VistA Match
 
-3.  If a VistA patient match does not exist, the system prompts to select a patient at the “Select Patient Name” prompt. The partial or full name of the patient, DOB or SSN can be entered.
+3.  If a VistA patient match does not exist, the system prompts to select a patient at the "Select Patient Name" prompt. The partial or full name of the patient, DOB or SSN can be entered.
 1.  Select the correct patient and press \<Enter\>.
 2.  A message displays confirming the patient selection. Enter \<Y\> Yes.
 3.  The select patient information populates the VistA Patient fields on the Patient Validation screen.
@@ -365,13 +411,13 @@ Once the patient information has been edited and reviewed for accuracy, the vali
 
 If the validation is successful, a message displays indicating that the validation was updated.
 
-The Status changes to “VALIDATED” on the Patient Validation screen, along with the user who performed the validation and date/timestamp.
+The Status changes to "VALIDATED" on the Patient Validation screen, along with the user who performed the validation and date/timestamp.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/010.png)
 
 <span id="_Toc167367312" class="anchor"></span>Figure 3.6‑9: Confirm Acceptance of Patient Validation
 
-A “\[v\]” displays to the right of the VistA Patient field on the Summary/Details screen.
+A "\[v\]" displays to the right of the VistA Patient field on the Summary/Details screen.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/011.png)
 
@@ -405,8 +451,8 @@ To apply patient validation to other eR<sub>X</sub>es in the Holding Queue for t
 
 4.  Enter Y for Yes to apply the validation to the other eR<sub>X</sub>es for the patient. After selecting Yes, the patient validation is applied to the other eR<sub>X</sub>es. As previously noted, any eR<sub>X</sub>es received after this action will not be validated.
 3.  A message displays indicating that the validation was updated.
-5.  A “\[v\]” displays to the right of the VistA Patient field on the Summary/Details screen and the Status field changes to “VALIDATED” on the Patient Validation screen, along with the user who performed the validation and date/timestamp. This occurs for all the eR<sub>X</sub>es validated via the automatic patient validation process.
-6.  The statuses on all eR<sub>X</sub>es validated by the automatic patient validation process changes to “I” for In Process.
+5.  A "\[v\]" displays to the right of the VistA Patient field on the Summary/Details screen and the Status field changes to "VALIDATED" on the Patient Validation screen, along with the user who performed the validation and date/timestamp. This occurs for all the eR<sub>X</sub>es validated via the automatic patient validation process.
+6.  The statuses on all eR<sub>X</sub>es validated by the automatic patient validation process changes to "I" for In Process.
 
 > **NOTE:** When doing a batch validation for a patient, it is possible that one or more of the records for the patient is for Controlled Substance which requires the presence of at least a ZIP CODE for a patient residing in the US or a POSTAL CODE if they reside abroad. So, a check will be performed for such records and if the requirement is not fulfilled, the record will not be validated. The message below will be displayed for each record with this issue:
 
@@ -430,13 +476,13 @@ Information about the Validate Provider display and editing the provider informa
 
 #### Provider Auto-Match in the Processing Hub
 
-The auto-match on an external provider is based upon the NPI of the prescriber coming in on the new eR<sub>X</sub>. The NPI is matched against the VistA instance’s NEW PERSON file (#200) entry. If the NPI matches and if the Provider is marked “Authorized to Write Meds” that is considered as a match. Upon successful match, the VistA provider is linked with the incoming provider’s record in VistA.
+The auto-match on an external provider is based upon the NPI of the prescriber coming in on the new eR<sub>X</sub>. The NPI is matched against the VistA instance's NEW PERSON file (#200) entry. If the NPI matches and if the Provider is marked "Authorized to Write Meds" that is considered as a match. Upon successful match, the VistA provider is linked with the incoming provider's record in VistA.
 
 #### Provider Manual Validation Screen Overview
 
 The header of the Provider Validation screen contains the eR<sub>X</sub> Patient Name and the eR<sub>X</sub> Reference \#. Below the header is the eR<sub>X</sub> and VistA information for the provider, where applicable.
 
-If a match was NOT found for the eR<sub>X</sub> provider, the screen looks similar to the below figure. The Status field has “NOT VALIDATED”, with “PROVIDER NOT MATCHED” below the Status. No provider information displays.
+If a match was NOT found for the eR<sub>X</sub> provider, the screen looks similar to the below figure. The Status field has "NOT VALIDATED", with "PROVIDER NOT MATCHED" below the Status. No provider information displays.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/017.png)
 
@@ -447,12 +493,12 @@ If a match was NOT found for the eR<sub>X</sub> provider, the screen looks simil
 To edit the provider information:
 
 1.  Press the \<E\> Edit action on the Provider Validation screen.
-2.  If no VistA provider information is in the system for the eR<sub>X</sub>, the “Select Provider Name” prompt displays for searching for and selecting a provider.
-1.  Enter either the partial name or full name of the provider or the NPI of the Provider, or DEA of the Provider at the “Select Provider Name” prompt. If multiple providers exist with the same name exist, a list of providers is provided with additional identifying information (e.g., middle initial, mail code, and title, where applicable, etc.).
+2.  If no VistA provider information is in the system for the eR<sub>X</sub>, the "Select Provider Name" prompt displays for searching for and selecting a provider.
+1.  Enter either the partial name or full name of the provider or the NPI of the Provider, or DEA of the Provider at the "Select Provider Name" prompt. If multiple providers exist with the same name exist, a list of providers is provided with additional identifying information (e.g., middle initial, mail code, and title, where applicable, etc.).
 2.  Select the provider.
 3.  If a VistA provider is currently linked for the eR<sub>X</sub>, the system asks if the current provider should be modified.
 1.  Enter \<Y\> Yes.
-2.  Enter either the partial name or full name of the provider at the “Select Provider Name” prompt.
+2.  Enter either the partial name or full name of the provider at the "Select Provider Name" prompt.
 3.  Select the provider.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/018.png)
@@ -462,19 +508,19 @@ To edit the provider information:
 4.  Once the VistA provider is selected, the VistA provider fields populate on the Provider Validation screen, along with information whether the DEA of the Provider has expired or not.
 5.  The next step in the provider validation process is to accept the validation, which is described in the next section.
 
-<span id="PSO_7_743_p12" class="anchor"></span>NOTE: The text, “Expired”, displays when the DEA \# of the selected VistA Provider has expired in File \#8991.9.
+<span id="PSO_7_743_p12" class="anchor"></span>NOTE: The text, "Expired", displays when the DEA \# of the selected VistA Provider has expired in File \#8991.9.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/019.png)
 
 <span id="_Ref5968279" class="anchor"></span>Figure 3.6‑18: Select Provider Warning for Expired DEA#
 
-<span id="PSO_7_743_p18" class="anchor"></span>CS NOTE: The following message displays upon selecting the Provider if the date of the Provider’s matching DEA \# is expired.
+<span id="PSO_7_743_p18" class="anchor"></span>CS NOTE: The following message displays upon selecting the Provider if the date of the Provider's matching DEA \# is expired.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/020.png)
 
 <span id="_Toc167367322" class="anchor"></span>Figure 3.6‑19: Select Provider DEA Expiration Date Message
 
-CS NOTE: The following block message displays upon selecting the Provider if the Provider’s eRx DEA number is missing.
+CS NOTE: The following block message displays upon selecting the Provider if the Provider's eRx DEA number is missing.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/021.png)
 
@@ -492,13 +538,13 @@ CS NOTE: The following warning message displays upon selecting the Provider if t
 
 <span id="_Toc167367325" class="anchor"></span>Figure 3.6‑22: Select eRx Provider Missing DEA Number Warning Message
 
-<span id="PSO_7_743_p22" class="anchor"></span>CS NOTE: The following warning message displays upon selecting the Provider if the VistA Provider does not have a DEA number on file matching the eRx Provider’s DEA number.
+<span id="PSO_7_743_p22" class="anchor"></span>CS NOTE: The following warning message displays upon selecting the Provider if the VistA Provider does not have a DEA number on file matching the eRx Provider's DEA number.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/024.png)
 
 <span id="_Toc167367326" class="anchor"></span>Figure 3.6‑23: Select Provider DEA Number Mismatch Warning Message
 
-CS NOTE: The following warning message displays upon selecting the Provider if the VistA Drug selected is a Controlled Substance, but the VistA Provider’s DEA number matching the eRx Provider’s DEA number is not authorized to write medication orders for the DEA Schedule of the Drug.
+CS NOTE: The following warning message displays upon selecting the Provider if the VistA Drug selected is a Controlled Substance, but the VistA Provider's DEA number matching the eRx Provider's DEA number is not authorized to write medication orders for the DEA Schedule of the Drug.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/025.png)
 
@@ -516,13 +562,13 @@ Once the correct provider has been selected and reviewed for accuracy, the next 
 
 <span id="PSO_7_743_p15" class="anchor"></span>Figure 3.6‑25: Accept Provider Validation Warning Message
 
-CS NOTE: The following block message displays upon selecting the validation if the Provider’s Vista DEA number is missing.
+CS NOTE: The following block message displays upon selecting the validation if the Provider's Vista DEA number is missing.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/027.png)
 
 <span id="PSO_7_743_Figure_p16" class="anchor"></span>Figure 3.6‑26: Accept Provider Validation Missing VistA DEA Number Message
 
-CS NOTE: The following block message displays upon selecting the validation if the Provider’s not authorized to write a scheduled Controlled Substance prescription.
+CS NOTE: The following block message displays upon selecting the validation if the Provider's not authorized to write a scheduled Controlled Substance prescription.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/028.png)
 
@@ -540,7 +586,7 @@ CS NOTE: The following block message displays upon selecting the validation if t
 
 <span id="PSO_7_743_Figure_p18" class="anchor"></span>Figure 3.6‑29: Select VistA Provider Missing DEA Number Warning Message
 
-<span id="PSO_7_743_p26_2" class="anchor"></span>NOTE: The following block message displays upon selecting the validation if the eRx Provider’s DEA number does not match the VistA DEA number and Drug is not selected or Drug selected is a Controlled Substance.
+<span id="PSO_7_743_p26_2" class="anchor"></span>NOTE: The following block message displays upon selecting the validation if the eRx Provider's DEA number does not match the VistA DEA number and Drug is not selected or Drug selected is a Controlled Substance.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/031.png)
 
@@ -559,8 +605,8 @@ A message displays confirming whether to mark the provider as validated.
 
 > **NOTE:** If there are other eR<sub>X</sub>es for the patient written by the same provider and received on the same day for that patient, a message displays asking if the provider validation should be applied to those eR<sub>X</sub>es. Refer to section <u>3.6.2.5 Automatic Provider Validation</u> for more information.
 
-- The Status field changes to “VALIDATED” on the Provider Validation screen and the user who accepted the validation and date/timestamp displays to the right of “VALIDATED”.
-- A “\[v\]” displays to the right of the VistA Provider field on the Summary/Details screen.
+- The Status field changes to "VALIDATED" on the Provider Validation screen and the user who accepted the validation and date/timestamp displays to the right of "VALIDATED".
+- A "\[v\]" displays to the right of the VistA Provider field on the Summary/Details screen.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/033.png)
 
@@ -588,9 +634,9 @@ The determination of the same provider is based on unique records from the ERX E
 
 To apply the provider validation to the other eR<sub>X</sub>es enter \<Y\> Yes. A message displays indicating that the validation was updated.
 
-- The Status field on all the eR<sub>X</sub>es, where the provider validation has been applied, changes to “VALIDATED” on the Provider Validation screen and the user who accepted the validation and date/timestamp displays to the right of “VALIDATED”.
-- A “\[v\]” displays to the right of the VistA Provider field on the Summary/Details screen.
-- The statuses on all eR<sub>X</sub>es validated by the automatic provider validation process changes to “I” for In Process.
+- The Status field on all the eR<sub>X</sub>es, where the provider validation has been applied, changes to "VALIDATED" on the Provider Validation screen and the user who accepted the validation and date/timestamp displays to the right of "VALIDATED".
+- A "\[v\]" displays to the right of the VistA Provider field on the Summary/Details screen.
+- The statuses on all eR<sub>X</sub>es validated by the automatic provider validation process changes to "I" for In Process.
 
 ### Validate Drug/SIG
 
@@ -610,11 +656,11 @@ To validate drug/SIG information for the eR<sub>X</sub>, type \<VD\> Validate Dr
 
 The pre-conditions for a drug auto-match in the Processing Hub are that the drug should be a one-to-one match, should not be a Compound, not a Controlled Substance, should be Active, not Investigational and should be marked for Outpatient use in the local DRUG file (#50).
 
-First, the drug description on the new eR<sub>X</sub> is matched against the Drug Generic Name entry in the VistA instance’s DRUG file (#50). If successful, the match stops right here, and the drug is linked in VistA.
+First, the drug description on the new eR<sub>X</sub> is matched against the Drug Generic Name entry in the VistA instance's DRUG file (#50). If successful, the match stops right here, and the drug is linked in VistA.
 
-If the match is not successful, the drug description is then matched against the VA Product Name entry in the VistA instance’s VA PRODUCT file (#50.68). Then a drug in local file for the matched VA Product Name is identified, which should satisfy the preconditions. If the match is successful, the drug is linked in VistA.
+If the match is not successful, the drug description is then matched against the VA Product Name entry in the VistA instance's VA PRODUCT file (#50.68). Then a drug in local file for the matched VA Product Name is identified, which should satisfy the preconditions. If the match is successful, the drug is linked in VistA.
 
-If the match is not successful, the NDC is used to match against the VistA instance’s NDC/UPN file (#50.67). Using the VA Product Name identified at this step, a drug in the local file for the matched VA Product Name is identified, which should satisfy the preconditions. If the match is successful, the drug is linked in VistA.
+If the match is not successful, the NDC is used to match against the VistA instance's NDC/UPN file (#50.67). Using the VA Product Name identified at this step, a drug in the local file for the matched VA Product Name is identified, which should satisfy the preconditions. If the match is successful, the drug is linked in VistA.
 
 > **NOTE:** The NDC is an optional field and may or may not be included with the new eR<sub>X</sub>. For a supply, if UPC is sent, it is not matched against the NDC/UPN file (#50.67). Only the Drug Description match is attempted.
 
@@ -622,13 +668,13 @@ If the match is not successful, the NDC is used to match against the VistA insta
 
 The header of the Drug/SIG Validation screen contains the eR<sub>X</sub> Patient Name and the eR<sub>X</sub> Reference \#. Below the header is the eR<sub>X</sub> and VistA information for the drug/SIG, where applicable.
 
-If a match was NOT found for the VistA drug, the screen looks similar to the below figure. The Status field has “NOT VALIDATED”, with “NOT MATCHED” to the right of the VistA Drug field. The other VistA drug/SIG fields may or may not be populated.
+If a match was NOT found for the VistA drug, the screen looks similar to the below figure. The Status field has "NOT VALIDATED", with "NOT MATCHED" to the right of the VistA Drug field. The other VistA drug/SIG fields may or may not be populated.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/038.png)
 
 <span id="_Ref5967579" class="anchor"></span>Figure 3.6‑37: Drug Validation Screen Display - VistA Drug Not Validated / Not Auto Matched
 
-If a VistA match was found for the drug, the screen looks similar to the below figure. The Status field has “NOT VALIDATED”, with VistA drug/SIG information displaying in the VistA Drug field (#1).
+If a VistA match was found for the drug, the screen looks similar to the below figure. The Status field has "NOT VALIDATED", with VistA drug/SIG information displaying in the VistA Drug field (#1).
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/039.png)
 
@@ -639,10 +685,10 @@ If a VistA match was found for the drug, the screen looks similar to the below f
 1.  To edit the drug/SIG information, use the \<E\> Edit action on the Drug Validation screen.
 2.  If the VistA drug/SIG information has been linked for the eR<sub>X</sub>, the edit drug/SIG sequence prompts the user to select a field or select All fields.
     - Select Item (s): Quit// \<E\> Edit
-    - Which fields (s) would you like to edit? (1-10) or “A” 11: A//
-3.  Under eR<sub>X</sub> Holding Queue \> Validate Drug/SIG screen \> Edit, if a drug is already matched in the hub, that drug is displayed at the “select” prompt. The user is still allowed to change the drug by entering the drug name.
-7.  Under eR<sub>X</sub> Holding Queue \> Validate Drug/SIG screen \> Edit, if a drug is not matched in the hub, at the “select” prompt, it is blank wherein the user can enter the drug name.
-8.  When a Yes/No confirmation is asked for the selected drug, if the user hits enter or selects “No”, the control comes out of Edit mode back to VD screen.
+    - Which fields (s) would you like to edit? (1-10) or "A" 11: A//
+3.  Under eR<sub>X</sub> Holding Queue \> Validate Drug/SIG screen \> Edit, if a drug is already matched in the hub, that drug is displayed at the "select" prompt. The user is still allowed to change the drug by entering the drug name.
+7.  Under eR<sub>X</sub> Holding Queue \> Validate Drug/SIG screen \> Edit, if a drug is not matched in the hub, at the "select" prompt, it is blank wherein the user can enter the drug name.
+8.  When a Yes/No confirmation is asked for the selected drug, if the user hits enter or selects "No", the control comes out of Edit mode back to VD screen.
 
 > **NOTE:** The eR<sub>X</sub> Drug/SIG information from the external provider displays throughout the edit drug/SIG process as reference.
 
@@ -652,7 +698,7 @@ If a VistA match was found for the drug, the screen looks similar to the below f
 
 9.  Next, enter the Dosage. Either enter a free text dose or enter a question mark \<?\> to view a list of available dosages. The system prompts the user to confirm the selected dosage.
 1.  Enter the Verb, Route, and Schedule.
-2.  Patient Instructions are default/consistent instructions that come from the Orderable Item. VA Patient Instructions are auto populated when either a drug is auto matched or manually matched, or the drug’s Pharmacy Order Item has an entry for those instructions. If it is blank, enter VA Patient Instructions. Or if it needs to be edited, use the Replace function. Even abbreviated Patient Instructions from Medication Instruction files are allowed, which expand upon saving. This field holds the patient instructions for an eR<sub>X</sub>. This field is transferred to the Pending Queue upon acceptance of an eR<sub>X</sub>.
+2.  Patient Instructions are default/consistent instructions that come from the Orderable Item. VA Patient Instructions are auto populated when either a drug is auto matched or manually matched, or the drug's Pharmacy Order Item has an entry for those instructions. If it is blank, enter VA Patient Instructions. Or if it needs to be edited, use the Replace function. Even abbreviated Patient Instructions from Medication Instruction files are allowed, which expand upon saving. This field holds the patient instructions for an eR<sub>X</sub>. This field is transferred to the Pending Queue upon acceptance of an eR<sub>X</sub>.
 3.  Provider Comments are additional free text comments that the provider may enter. The VA Provider Comments field contains the eR<sub>X</sub> Notes from the external provider and can be edited by entering \<Replace\>. Even abbreviated Provider Comments from Medication Instruction files are allowed, which expand upon saving. This field is transferred to the Pending Queue upon acceptance of an eR<sub>X</sub>.
 4.  Enter Patient Status and edit the Patient Status as required.
 5.  Enter/edit VistA Quantity, VistA Days Supply, and VistA Renewals as needed.
@@ -674,11 +720,11 @@ Outpatient Pharmacy VDL URL: <https://www.va.gov/vdl/application.asp?appid=90>
 9.  The next step is to accept the validation \<AV\>, which is described in the next section.
 10. If you have to edit after this, you can pick the fields:
     - Select Item (s): Quit// E Edit
-    - Which fields (s) would you like to edit? (1-10) or “A” 11: A//
+    - Which fields (s) would you like to edit? (1-10) or "A" 11: A//
 
 > **NOTE:** If the Default eR<sub>X</sub> Clinic is changed from the one that is configured with the NPI Institution, of the receiving Pharmacy, the eR<sub>X</sub> may not show up in OERR when processed. Refer to the Implementation Guide – Inbound ePrescribing (PSO\*7.0\*p581) on the VA Documentation Library (VDL) for details on setting up the Default eR<sub>X</sub> Clinic for a site.
 
-CS NOTE: The following block message displays upon selecting the Drug validation if the Provider’s not authorized to write a scheduled Controlled Substance prescription.
+CS NOTE: The following block message displays upon selecting the Drug validation if the Provider's not authorized to write a scheduled Controlled Substance prescription.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/041.png)
 
@@ -708,13 +754,13 @@ CS NOTE: The following block message displays upon selecting an eRx that is not 
 
 <span id="_Toc167367347" class="anchor"></span>Figure 3.6‑44: Drug Validation eRx without DS Message
 
-CS NOTE: The following block message displays upon selecting an eRx that doesn’t have a valid DEA number on file for the eRx Provider.
+CS NOTE: The following block message displays upon selecting an eRx that doesn't have a valid DEA number on file for the eRx Provider.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/046.png)
 
 <span id="_Toc167367348" class="anchor"></span>Figure 3.6‑45: Drug Validation eRx with Invalid eRx Provider DEA Number Message
 
-CS NOTE: The following block message displays upon selecting an eRx that doesn’t have a valid DEA number on file for the VistA Provider.
+CS NOTE: The following block message displays upon selecting an eRx that doesn't have a valid DEA number on file for the VistA Provider.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/047.png)
 
@@ -726,7 +772,7 @@ CS NOTE: The following block message displays upon selecting an eRx that doesn�
 
 <span id="_Toc167367350" class="anchor"></span>Figure 3.6‑47: Drug Validation eRx with Provider DEA Number Mismatch Message
 
-<span id="PSO_7_743_p38" class="anchor"></span>CS NOTE: The following warning message displays upon selecting an eRx that was written or issued after the VistA Provider’s matching DEA number has expired.
+<span id="PSO_7_743_p38" class="anchor"></span>CS NOTE: The following warning message displays upon selecting an eRx that was written or issued after the VistA Provider's matching DEA number has expired.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/049.png)
 
@@ -738,7 +784,7 @@ CS NOTE: The following warning message displays upon selecting an eRx that does 
 
 <span id="_Toc167367352" class="anchor"></span>Figure 3.6‑49: Drug Validation eRx VistA Provider Not Authorized Warning Message
 
-<span id="PSO_7_743_p40" class="anchor"></span>CS NOTE: The following warning message displays upon selecting an eRx that is written/issued after the expiration date of the VistA Provider’s matching DEA number.
+<span id="PSO_7_743_p40" class="anchor"></span>CS NOTE: The following warning message displays upon selecting an eRx that is written/issued after the expiration date of the VistA Provider's matching DEA number.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/051.png)
 
@@ -810,13 +856,13 @@ CS NOTE: The following block message displays upon selecting an eRx that does no
 
 <span id="_Toc167367355" class="anchor"></span>Figure 3.6‑52: Drug Accept Validation eRx VistA Provider Not Authorized Block Message
 
-<span id="PSO_7_743_p32" class="anchor"></span>CS NOTE: The following block message displays upon selecting an eRx that is written/issued after the expiration date of the VistA Provider’s matching DEA number.
+<span id="PSO_7_743_p32" class="anchor"></span>CS NOTE: The following block message displays upon selecting an eRx that is written/issued after the expiration date of the VistA Provider's matching DEA number.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/054.png)
 
 <span id="_Ref165290419" class="anchor"></span>Figure 3.6‑53: Drug Accept Validation eRx VistA Provider Not Authorized Block Message
 
-The Status changes to “VALIDATED” on the Drug Validation screen, along with the user who performed the validation and date/timestamp. “\[v\]” also displays to the right of the VistA Drug field on the Summary/Details screen.
+The Status changes to "VALIDATED" on the Drug Validation screen, along with the user who performed the validation and date/timestamp. "\[v\]" also displays to the right of the VistA Drug field on the Summary/Details screen.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/055.png)
 
@@ -830,19 +876,19 @@ Press \<Enter\> to display Pages 2 and 3 of the Drug/SIG Validation screen.
 
 <span id="_Ref5967613" class="anchor"></span>Figure 3.6‑55: Drug / SIG Validation Complete (Summary/Details Screen)
 
-#### Wait Status Flag “W”
+#### Wait Status Flag "W"
 
-When the user completes validating Patient, Provider and Drug/SIG for an eR<sub>X</sub>, the status of the prescription changes from “I” In Process to “W” Wait in the Holding Queue’s list view.
+When the user completes validating Patient, Provider and Drug/SIG for an eR<sub>X</sub>, the status of the prescription changes from "I" In Process to "W" Wait in the Holding Queue's list view.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/057.png)
 
 <span id="_Ref5967623" class="anchor"></span>Figure 3.6‑56: eR<sub>X</sub> Holding Queue Summary/Details Screen with Validations Complete
 
-“W” can now be seen in the status column.
+"W" can now be seen in the status column.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/058.png)
 
-<span id="_Toc519780560" class="anchor"></span>Figure 3.6‑57: eR<sub>X</sub> Holding Queue List View with eR<sub>X</sub> Record in “W” Status
+<span id="_Toc519780560" class="anchor"></span>Figure 3.6‑57: eR<sub>X</sub> Holding Queue List View with eR<sub>X</sub> Record in "W" Status
 
 ## Accepting eR<sub>X</sub>es in the eR<sub>X</sub> Holding Queue
 
@@ -851,7 +897,7 @@ When the user completes validating Patient, Provider and Drug/SIG for an eR<sub>
 The following conditions must be met, before a fillable eR<sub>X</sub> can be accepted and transmitted to the Pending Queue for further processing:
 
 1.  The eR<sub>X</sub> cannot be on Hold. If the eR<sub>X</sub> is on Hold, the eR<sub>X</sub> status on the Holding Queue List has one of the Hold Status codes, and the Hold Status, Hold Reason, and the user who placed the eR<sub>X</sub> on hold is displayed on the Summary/Details screen.
-10. The eR<sub>X</sub> cannot have a status of “Rejected” RJ, “Removed” RM, “Processed” PR or “Canceled” CAN/CXQ.
+10. The eR<sub>X</sub> cannot have a status of "Rejected" RJ, "Removed" RM, "Processed" PR or "Canceled" CAN/CXQ.
 
 All validation steps, for patient, provider, and drug/SIG must be completed, including the \<AV\> Accept Validation action on the validate screens. For additional information on the validation steps, refer to section User Manual Unit 1 (PSO_7_0_P617_UM_1_2) available on the Veteran's Documentation Library (VDL).
 
@@ -914,8 +960,8 @@ To reject an eR<sub>X</sub>, complete the following steps:
     - ERR02 – Incorrect pharmacy
     - ERR03 – Issues with prescription, please contact the pharmacy
     - PVD03 – Missing/bad digital signature on inbound CS ERX
-    - PVD04 – Prescriber’s CS credential is not appropriate
-    - PTT03 – Patient’s mailing address is missing/mismatched
+    - PVD04 – Prescriber's CS credential is not appropriate
+    - PTT03 – Patient's mailing address is missing/mismatched
     - ERR99 - Other
 4.  Type additional comments as to why the eR<sub>X</sub> is being rejected and press \<Enter\>. These comments are optional.
 
@@ -933,7 +979,7 @@ Once the eR<sub>X</sub> is rejected, the details of the reject message are avail
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If a Controlled Substance record contains a value of ‘E’, the following message will display to inform the user that this is a DO NOT FILL record per the Provider.
+If a Controlled Substance record contains a value of 'E', the following message will display to inform the user that this is a DO NOT FILL record per the Provider.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/064.png)
 
@@ -986,19 +1032,19 @@ A fillable eR<sub>X</sub> can be placed on hold for several reasons indicating t
 - HPP – PATIENT CONTACTED
 - HPR – HOLD DUE TO PATIENT REQUEST
 - HQY – QUANTITY OR REFILL ISSUE
-- HCR – PRESCRIBER’S CS CREDENTIAL IS NOT APPROPRIATE
+- HCR – PRESCRIBER'S CS CREDENTIAL IS NOT APPROPRIATE
 - HWR – CS PRESCRIPTION WRITTEN/ISSUE DATE HAS PROBLEMS
 - HIS – PROVIDER DEA# ISSUE
 - HRX – HOLD FOR RX EDIT
 - HDE – DRUG USE EVALUATION
 - HTI – THERAPUTIC INTERCHANGE
-3.  To view the available hold reasons, enter a double question mark \<??\> at the “Select HOLD reason code” prompt, refer to Figure 3.12‑1. The available hold reasons display.
+3.  To view the available hold reasons, enter a double question mark \<??\> at the "Select HOLD reason code" prompt, refer to Figure 3.12‑1. The available hold reasons display.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/070.png)
 
 <span id="_Ref53479810" class="anchor"></span>Figure 3.12‑1: Hold eR<sub>X</sub>
 
-11. Enter the reason code at the “Select HOLD Reason code:” prompt and press \<Enter\>.
+11. Enter the reason code at the "Select HOLD Reason code:" prompt and press \<Enter\>.
 12. A prompt displays asking for additional comments on the reason for the hold. These comments are optional. Either press \<Enter\> to complete the hold process or add comments and then press \<Enter\>.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/071.png)
@@ -1011,25 +1057,25 @@ The Hold Status, Hold Reason, and the user placing the eR<sub>X</sub> on hold di
 
 <span id="_Toc167367372" class="anchor"></span>Figure 3.12‑3: Hold Status and Reason
 
-The hold status also displays in the “Status” column (STA) on the Holding Queue List screen.
+The hold status also displays in the "Status" column (STA) on the Holding Queue List screen.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/073.png)
 
 <span id="_Toc167367373" class="anchor"></span>Figure 3.12‑4: Hold Status in Status Column
 
-> **NOTE:** When a fillable eR<sub>X</sub> is put on ‘Hold’ the only actions available for the user are UH/Un Hold, P/Print and SH/Status History.
+> **NOTE:** When a fillable eR<sub>X</sub> is put on 'Hold' the only actions available for the user are UH/Un Hold, P/Print and SH/Status History.
 
 ## Un Hold eR<sub>X</sub> in the eR<sub>X</sub> Holding Queue
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-eR<sub>X</sub>es may be removed from a hold by typing \<UH\> Un Hold. Users who see the Un Hold function in parentheses “()” are not able to remove an eR<sub>X</sub> from a hold.
+eR<sub>X</sub>es may be removed from a hold by typing \<UH\> Un Hold. Users who see the Un Hold function in parentheses "()" are not able to remove an eR<sub>X</sub> from a hold.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/074.png)
 
 <span id="_Toc167367374" class="anchor"></span>Figure 3.13‑1: Un Hold eR<sub>X</sub>
 
-> **NOTE:** When a user exercises Un Hold option on a NewR<sub>X</sub> record that is in one of the Hold statuses, if all the 3 validations (Patient, Provider, and Drug/SIG) are complete, the eR<sub>X</sub> record’s status changes to “W” (Wait). When a user exercises Un Hold option on a NewR<sub>X</sub> record that is in one of the Hold statuses, if all the 3 validations (Patient, Provider, and Drug/SIG) are not complete, the eR<sub>X</sub> record’s status changes to “I” (In Process).
+> **NOTE:** When a user exercises Un Hold option on a NewR<sub>X</sub> record that is in one of the Hold statuses, if all the 3 validations (Patient, Provider, and Drug/SIG) are complete, the eR<sub>X</sub> record's status changes to "W" (Wait). When a user exercises Un Hold option on a NewR<sub>X</sub> record that is in one of the Hold statuses, if all the 3 validations (Patient, Provider, and Drug/SIG) are not complete, the eR<sub>X</sub> record's status changes to "I" (In Process).
 
 ## Removing eR<sub>X</sub>es in the eR<sub>X</sub> Holding Queue
 
@@ -1054,14 +1100,14 @@ To remove an eR<sub>X</sub> from the Holding Queue:
 - REM09 – ERX Issue not resolved - Provider contacted
 1.  Type additional comments as to why the eR<sub>X</sub> is being removed and press \<Enter\>. These comments are optional.
 
-Once the eR<sub>X</sub> is removed, the status changes to “RM” and it no longer displays in the default Holding Queue List; however, the eR<sub>X</sub> can be accessed via the search action from the main Holding Queue List screen using one or more of the search criteria. Refer to section  
+Once the eR<sub>X</sub> is removed, the status changes to "RM" and it no longer displays in the default Holding Queue List; however, the eR<sub>X</sub> can be accessed via the search action from the main Holding Queue List screen using one or more of the search criteria. Refer to section  
 <u>3.15.1 Searching eRXes</u>.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/075.png)
 
 <span id="_Toc167367375" class="anchor"></span>Figure 3.14‑1: Removing an eR<sub>X</sub>
 
-> **NOTE:** If the Remove function is in parentheses “()”, the user is not able to remove an eR<sub>X</sub>. If the action is still attempted, the user receives a message that the action is not available.
+> **NOTE:** If the Remove function is in parentheses "()", the user is not able to remove an eR<sub>X</sub>. If the action is still attempted, the user receives a message that the action is not available.
 
 ## Searching and Sorting in the eR<sub>X</sub> Holding Queue
 
@@ -1073,7 +1119,7 @@ Users can search and sort eR<sub>X</sub>es in the Holding Queue. Searching and s
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Searching and filtering of eR<sub>X</sub>es is available by typing \<SR\> Search Queue at the “Select Action” prompt. The Search Queue screen displays. Users can search using one or more of the following search criteria in the Traditional View:
+Searching and filtering of eR<sub>X</sub>es is available by typing \<SR\> Search Queue at the "Select Action" prompt. The Search Queue screen displays. Users can search using one or more of the following search criteria in the Traditional View:
 
 1.  PATIENT NAME
 2.  DATE OF BIRTH
@@ -1089,9 +1135,9 @@ Searching and filtering of eR<sub>X</sub>es is available by typing \<SR\> Search
 <span id="_Toc167367376" class="anchor"></span>Figure 3.15‑1: Search Queue Actions
 
 - The display contains all eR<sub>X</sub>es satisfying the search criteria. The list is refreshed depending on the action performed. After an action is performed, the user can return to the original filtered list.
-- The number of eR<sub>X</sub> records displayed in the Holding Queue’s list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
+- The number of eR<sub>X</sub> records displayed in the Holding Queue's list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
 - By default, the ERX DEFAULT LOOKBACK DAYS field is blank, so the software goes back 365 days.
-- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search (SR) option and select the “Received Date Range” (#3), to retrieve those records.
+- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search (SR) option and select the "Received Date Range" (#3), to retrieve those records.
 
 #### Search eR<sub>X</sub> – Patient Name
 
@@ -1122,7 +1168,7 @@ The search results display. To execute another search, enter \<Shift\>+\<^\> or 
 
 #### Search eR<sub>X</sub> – Date of Birth
 
-To search by patient’s date of birth:
+To search by patient's date of birth:
 
 1.  From the eR<sub>X</sub> Holding Queue List screen, type \<SR\> Search Queue.
 2.  From the Search Queue Type \<2\> or DATE OF BIRTH.
@@ -1176,7 +1222,7 @@ To search for an eR<sub>X</sub> by a provider:
 
 <span id="_Toc167367385" class="anchor"></span>Figure 3.15‑10: Search Criteria - Provider Name
 
-3.  Type the provider’s name and press \<Enter\>.
+3.  Type the provider's name and press \<Enter\>.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/086.png)
 
@@ -1282,9 +1328,9 @@ VA users can sort eR<sub>X</sub>es in the Holding Queue List. Sort parameters ar
 
 Additional sorting of eR<sub>X</sub>es is available by typing \<SO\> Sort Entries.
 
-- The number of eR<sub>X</sub> records displayed in the Holding Queue’s list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
+- The number of eR<sub>X</sub> records displayed in the Holding Queue's list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
 - By default, the ERX DEFAULT LOOKBACK DAYS field is blank, so the software goes back 365 days.
-- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search \<SR\> option and select the “Received Date Range” (#3), to retrieve those records.
+- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search \<SR\> option and select the "Received Date Range" (#3), to retrieve those records.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/096.png)
 
@@ -1311,7 +1357,7 @@ To sort by patient:
 
 <span id="_Toc167367397" class="anchor"></span>Figure 3.15‑22: Sort by Patient Name
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/098.png)
 
@@ -1330,7 +1376,7 @@ To sort by Date of Birth:
 
 <span id="_Toc167367399" class="anchor"></span>Figure 3.15‑24: Sort by Date of Birth
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/100.png)
 
@@ -1349,7 +1395,7 @@ To sort eR<sub>X</sub>es by received date (most recent date displays at top of s
 
 <span id="_Toc167367401" class="anchor"></span>Figure 3.15‑26: Sort by Received Date Range
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/102.png)
 
@@ -1368,7 +1414,7 @@ To sort eR<sub>X</sub>es by provider name:
 
 <span id="_Toc167367403" class="anchor"></span>Figure 3.15‑28: Sort Criteria - Sort by Provider
 
-1.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+1.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/104.png)
 
@@ -1387,7 +1433,7 @@ To sort eR<sub>X</sub>es by eR<sub>X</sub> Status:
 
 <span id="_Toc167367405" class="anchor"></span>Figure 3.15‑30: Sort Criteria – Sort by eR<sub>X</sub> Status
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/106.png)
 
@@ -1406,7 +1452,7 @@ To sort eR<sub>X</sub>es by Drug Name:
 
 <span id="_Toc167367407" class="anchor"></span>Figure 3.15‑32: Sort Criteria – Sort by Drug Name
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/108.png)
 
@@ -1423,7 +1469,7 @@ To sort eR<sub>X</sub>es by Drug Name:
 
 <span id="_Toc167367409" class="anchor"></span>Figure 3.15‑34: Sort Criteria – Sort by Message Type
 
-3.  Enter Yes or No to group by Controlled Substance. If the user selects ‘Yes’, prescriptions are grouped by Controlled Substance for each sort. If the user selects ‘No’, the prescriptions are not grouped by a Controlled Substance for each sort.
+3.  Enter Yes or No to group by Controlled Substance. If the user selects 'Yes', prescriptions are grouped by Controlled Substance for each sort. If the user selects 'No', the prescriptions are not grouped by a Controlled Substance for each sort.
 
     ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/110.png)
 
@@ -1437,7 +1483,7 @@ To sort eR<sub>X</sub>es by Drug Name:
 
 Following all the validation steps for patient, provider, and drug/SIG, and after the eR<sub>X</sub> has been accepted, the eR<sub>X</sub> advances to Pending Outpatient Orders file for further processing. The eR<sub>X</sub> is further finished using either Complete Orders from OERR or Patient Prescription Processing.
 
-The “&” symbol indicates that an eR<sub>X</sub> was received from an external provider. eR<sub>X</sub> records without the “&” symbol are VA eR<sub>X</sub>es.
+The "&" symbol indicates that an eR<sub>X</sub> was received from an external provider. eR<sub>X</sub> records without the "&" symbol are VA eR<sub>X</sub>es.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-2-pso-7-743/111.png)
 
@@ -1475,11 +1521,11 @@ Press \<Enter\> to view Pages 2 through 5 of the order in the Pending Queue.
 
 <span id="_Toc167367417" class="anchor"></span>Figure 3.16‑7: eR<sub>X</sub> Order in Pending Queue - Page 5
 
-> **NOTE:** - “eRx Date” on Holding Queue Summary screen – Date when the eR<sub>X</sub> was received in the VistA Holding Queue.
+> **NOTE:** - "eRx Date" on Holding Queue Summary screen – Date when the eR<sub>X</sub> was received in the VistA Holding Queue.
 
-- “Date Written” on Validate Drug/SIG screen – Date when the eR<sub>X</sub> was received in the VistA Holding Queue.
-- “Issue Date” on OERR/Backdoor Orders Summary screen – Effective Date if sent by the provider; if not, it is Written Date, both as sent on the eR<sub>X</sub>.
-- “Written Date” displayed on Track/Audit screen on web GUI – Written Date as sent on the eR<sub>X</sub>.
+- "Date Written" on Validate Drug/SIG screen – Date when the eR<sub>X</sub> was received in the VistA Holding Queue.
+- "Issue Date" on OERR/Backdoor Orders Summary screen – Effective Date if sent by the provider; if not, it is Written Date, both as sent on the eR<sub>X</sub>.
+- "Written Date" displayed on Track/Audit screen on web GUI – Written Date as sent on the eR<sub>X</sub>.
 
 ---
 
@@ -1504,7 +1550,7 @@ This new option replaces the existing *Complete Orders from eR<sub>X</sub>* opti
 
 The eR<sub>X</sub> Holding Queue allows for validation and review of the eR<sub>X</sub> by VA Pharmacy users prior to the eR<sub>X</sub> being added to the VA record and merging with the existing outpatient functionality. For the fillable prescriptions, VA Pharmacy users can validate patient, provider, and drug/SIG information. Additionally, users can accept, hold, un hold, print, reject, or remove an eR<sub>X</sub> from the Holding Queue after it has been received by VistA from the eR<sub>X</sub> Processing Hub. The users can also work with RxRenewal Responses, RxChange Responses and CancelRx Requests, which are described.
 
-> **NOTE:** Controlled Substance records that meet the requirements of the Drug Enforcement Administration’s (DEA) electronic prescribing for Controlled Substance rules will have a visual indicator stating “EPCS DEA Valid” at the top right corner in the VistA Holding Queue.
+> **NOTE:** Controlled Substance records that meet the requirements of the Drug Enforcement Administration's (DEA) electronic prescribing for Controlled Substance rules will have a visual indicator stating "EPCS DEA Valid" at the top right corner in the VistA Holding Queue.
 
 ## eRx Holding Queue Processing \[PSO ERX QUEUE PROCESSING\] option 
 
@@ -1614,7 +1660,7 @@ Upon entering the option, the user is prompted to choose which eRx record status
 <tr class="odd">
 <td colspan="2"><p>Meds-By-Mail site users will be prompted to select a Clinic. This helps MbM distribute the workload into multiple clinics so when the pharmacists are finishing the prescriptions they can work on the queue for a specific clinic.</p>
 <p>eRx Clinic (Optional):</p>
-<p>Although VAMC’s users are not presented this prompt, their eRx is still assigned a default clinic that is entered in the Site Parameter Enter/Edit [PSO SITE PARAMETERS] option under the field DEFAULT ERX CLINIC.</p></td>
+<p>Although VAMC's users are not presented this prompt, their eRx is still assigned a default clinic that is entered in the Site Parameter Enter/Edit [PSO SITE PARAMETERS] option under the field DEFAULT ERX CLINIC.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1691,7 +1737,7 @@ This choice will include only eRx with a WAIT status. Similar to IN PROCESS thes
 
 H – Hold
 
-This choice will include only eRx in a HOLD status. However, there are many different HOLD statuses and that’s why the next prompts shown below allows the user to further define this choice.
+This choice will include only eRx in a HOLD status. However, there are many different HOLD statuses and that's why the next prompts shown below allows the user to further define this choice.
 
 <table>
 <colgroup>
@@ -1764,7 +1810,7 @@ In this case the user can select ALL HOLD CODES to include every eRx in a HOLD s
 
 C – CCR
 
-This choice will include only eRx in a CCR status. However, there are many different CCR statuses and that’s why the next prompts shown below allows the user to further define this choice. If they choose “A” (ALL CCR CODES) the list will include all eRx records with any of the eRx statuses shown below.
+This choice will include only eRx in a CCR status. However, there are many different CCR statuses and that's why the next prompts shown below allows the user to further define this choice. If they choose "A" (ALL CCR CODES) the list will include all eRx records with any of the eRx statuses shown below.
 
 <table>
 <colgroup>
@@ -1826,7 +1872,7 @@ WP – Workload Processing
 
 This option will bypass the Patient Centric Queue and will load one patient at a time directly into the Single Patient Queue. Once inside the Single Patient queue the user can use the action NP (Next Patient) to load the next patient. The order in which the patients are presented are based on the eRx received date. Patient with the oldest records will be presented first. The date range for looking for these records are based on the ERX DEFAULT LOOKBACK DAYS parameter in the Site Parameter Enter/Edit option \[PSO SITE PARAMETERS\].
 
-Users holding the PSO ERX WORKLOAD TECH security key they cannot jump to the next patient (by selecting NP – Next Patient) until they have processed all the prescriptions for the current patient on their screen. Once a user with the PSO ERX WORKLOAD TECH key enters the first patient, that patient is assigned to that user for that day and no matter how many times the user gets out of the option and comes back in, such patient will be presented to them for processing. This feature was designed to prevent users from “cherry-picking” patients to work on while working in a Workload Processing mode.
+Users holding the PSO ERX WORKLOAD TECH security key they cannot jump to the next patient (by selecting NP – Next Patient) until they have processed all the prescriptions for the current patient on their screen. Once a user with the PSO ERX WORKLOAD TECH key enters the first patient, that patient is assigned to that user for that day and no matter how many times the user gets out of the option and comes back in, such patient will be presented to them for processing. This feature was designed to prevent users from "cherry-picking" patients to work on while working in a Workload Processing mode.
 
 <table>
 <colgroup>
@@ -1869,7 +1915,7 @@ Workload Processing option filters
 <p>3 <mark>DRUG FAIL -</mark> DRUG NOT MATCHED</p>
 <p>4 <mark>BASIC -</mark> PATIENT, PROVIDER AND DRUG MATCHED</p>
 <p>5 ALL (NO FILTERS)</p>
-<p>This is only a labeling difference and won’t affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
+<p>This is only a labeling difference and won't affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1964,7 +2010,7 @@ The figure above shows the eRx Holding Queue initial screen, in Patient Centric 
 
 #### Top Line
 
-It contains the title of the list, in this case “eRx Patient Centric Queue”, then the current date/time to the right the page the user is on and how many pages there are total.
+It contains the title of the list, in this case "eRx Patient Centric Queue", then the current date/time to the right the page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -2041,11 +2087,11 @@ One of these two symbols above can be spotted besides one of the following colum
 
 #### Listing Area
 
-This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view all the patient’s eRx records in a Single Patient Queue view.
+This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view all the patient's eRx records in a Single Patient Queue view.
 
 \#. Vs. \#\] (Digitally Signed Vs. Not Digitally Signed)
 
-Following each number there will be one of two characters “.” (dot) or “\]” (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The “.” indicates that the patient does not have any Digitally Signed eRx records, while the “\]” indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
+Following each number there will be one of two characters "." (dot) or "\]" (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The "." indicates that the patient does not have any Digitally Signed eRx records, while the "\]" indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
 
 Bolded Lines
 
@@ -2116,7 +2162,7 @@ Patient Centric Queue - Patient Locked
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -2514,14 +2560,14 @@ If the patient has at least one actionable record which the eRx patient has been
 <p>3 <mark>DRUG FAIL -</mark> DRUG NOT MATCHED</p>
 <p>4 <mark>BASIC -</mark> PATIENT, PROVIDER AND DRUG MATCHED</p>
 <p>5 ALL (NO FILTERS)</p>
-<p>This is only a labeling difference and won’t affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
+<p>This is only a labeling difference and won't affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
 </tr>
 </tbody>
 </table>
 
 Removing Individual Filters
 
-Individual filters can be removed by using the “^” (up-caret) along with the Number of the filter applied, as show below:
+Individual filters can be removed by using the "^" (up-caret) along with the Number of the filter applied, as show below:
 
 <table>
 <colgroup>
@@ -2560,7 +2606,7 @@ Patient Centric Queue – Individual Filter Removal
 
 #### LBD – Change Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -2826,7 +2872,7 @@ This parameter determines the maximum number of records to be loaded for the que
 
 #### 48-Lines Terminal Emulator Display Feature
 
-There is a Class 3 software (KIDS Build) that allows sites, including Meds-By-Mail (MbM), to expand their ListMan Listing Area to more than double of the displayed lines for one page when using the regular 24-Lines on the Terminal Emulator. It is important to emphasize that simply setting the Terminal Emulator to 48-Lines won’t work, the VistA account where the user is connecting must have this Class 3 software installed for it to work.
+There is a Class 3 software (KIDS Build) that allows sites, including Meds-By-Mail (MbM), to expand their ListMan Listing Area to more than double of the displayed lines for one page when using the regular 24-Lines on the Terminal Emulator. It is important to emphasize that simply setting the Terminal Emulator to 48-Lines won't work, the VistA account where the user is connecting must have this Class 3 software installed for it to work.
 
 Once the KIDS Build is installed and the Terminal Emulator is set to display 48-Line, the eRx Patient Centric Queue will look like the following:
 
@@ -2912,7 +2958,7 @@ Once the KIDS Build is installed and the Terminal Emulator is set to display 48-
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once the user selects a patient in the eRx Patient Centric Queue above, they will be taken to the eRx Single Patient Queue. This list will by default display all the eRx Patient’s Actionable records and they will be sorted by the REC.DATE column in a descending order (oldest records first).
+Once the user selects a patient in the eRx Patient Centric Queue above, they will be taken to the eRx Single Patient Queue. This list will by default display all the eRx Patient's Actionable records and they will be sorted by the REC.DATE column in a descending order (oldest records first).
 
 <table>
 <colgroup>
@@ -2964,7 +3010,7 @@ eRx Single Patient Queue
 
 #### Top Line
 
-It contains the title of the list, in this case “eRx Single Patient Queue”, then the current date/time to the right the page the user is on and how many pages there are total.
+It contains the title of the list, in this case "eRx Single Patient Queue", then the current date/time to the right the page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -2988,7 +3034,7 @@ Indicates up to how many days back the search looked for unprocessed records. Th
 
 STATUS
 
-By default, only ‘Actionable’ eRx records are included on the eRx Single Patient Queue, however the user can easily change this parameter as described further down on this document.
+By default, only 'Actionable' eRx records are included on the eRx Single Patient Queue, however the user can easily change this parameter as described further down on this document.
 
 SSN
 
@@ -3018,63 +3064,63 @@ This is the date when the eRx was received.
 
 STA
 
-This is eRx Status column. It shows the current eRx record status. It’s truncated at 3 characters.
+This is eRx Status column. It shows the current eRx record status. It's truncated at 3 characters.
 
 MATCHING PT
 
 This column indicates the current matching status for the eRx Patient. The following variations are possible for this column:
 
-“” (blank) – eRx Patient has not been matched to a VistA Patient
+"" (blank) – eRx Patient has not been matched to a VistA Patient
 
-“A” – eRx Patient has been auto-matched to a VistA Patient
+"A" – eRx Patient has been auto-matched to a VistA Patient
 
-“M” – eRx Patient has been manually matched to a VistA Patient by the user
+"M" – eRx Patient has been manually matched to a VistA Patient by the user
 
-“M” (bold) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient by the user
+"M" (bold) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient by the user
 
-“AV” – eRx Patient has been auto-matched to a VistA Patient and manually validated
+"AV" – eRx Patient has been auto-matched to a VistA Patient and manually validated
 
-“MV” – eRx Patient has been manually matched to a VistA Patient and manually validated
+"MV" – eRx Patient has been manually matched to a VistA Patient and manually validated
 
-“MV” (bold M) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient and subsequently manually validated by the user
+"MV" (bold M) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient and subsequently manually validated by the user
 
 MATCHING PR
 
 This column indicates the current matching status for the eRx Provider. The following variations are possible for this column:
 
-“” (blank) – eRx Provider has not been matched to a VistA Provider
+"" (blank) – eRx Provider has not been matched to a VistA Provider
 
-“A” – eRx Provider has been auto-matched to a VistA Provider
+"A" – eRx Provider has been auto-matched to a VistA Provider
 
-“M” – eRx Provider has been manually matched to a VistA Provider by the user
+"M" – eRx Provider has been manually matched to a VistA Provider by the user
 
-“M” (bold) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider by the user
+"M" (bold) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider by the user
 
-“AV” – eRx Provider has been auto-matched to a VistA Provider and manually validated
+"AV" – eRx Provider has been auto-matched to a VistA Provider and manually validated
 
-“AV” (bold V)– eRx Provider has been auto-matched to a VistA Provider and auto-validated (MbM Only – see below)
+"AV" (bold V)– eRx Provider has been auto-matched to a VistA Provider and auto-validated (MbM Only – see below)
 
-“MV” – eRx Provider has been manually matched to a VistA Provider and validated
+"MV" – eRx Provider has been manually matched to a VistA Provider and validated
 
-“MV” (bold M) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider and subsequently manually validated by the user
+"MV" (bold M) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider and subsequently manually validated by the user
 
 MATCHING DR
 
 This column indicates the current matching status for the eRx Drug. The following variations are possible for this column:
 
-“” (blank) – eRx Drug has not been matched to a VistA Drug
+"" (blank) – eRx Drug has not been matched to a VistA Drug
 
-“A” – eRx Drug has been auto-matched to a VistA Drug
+"A" – eRx Drug has been auto-matched to a VistA Drug
 
-“M” – eRx Drug has been manually matched to a VistA Drug by the user
+"M" – eRx Drug has been manually matched to a VistA Drug by the user
 
-“M” (bold) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug by the user
+"M" (bold) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug by the user
 
-“AV” – eRx Drug has been auto-matched to a VistA Drug and manually validated
+"AV" – eRx Drug has been auto-matched to a VistA Drug and manually validated
 
-“MV” – eRx Drug has been manually matched to a VistA Drug and manually validated
+"MV" – eRx Drug has been manually matched to a VistA Drug and manually validated
 
-“MV” (bold M) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug and subsequently manually validated by the user
+"MV" (bold M) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug and subsequently manually validated by the user
 
 <table>
 <colgroup>
@@ -3111,15 +3157,15 @@ Validation actions for a single patient may be complete from there. For more det
 
 #### Listing Area
 
-This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view the patient’s corresponding eRx record in the Summary eRx View Display.
+This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view the patient's corresponding eRx record in the Summary eRx View Display.
 
 \#. Vs. \#\] (Digitally Signed Vs. Not Digitally Signed)
 
-Following each number there will be one of two characters “.” (dot) or “\]” (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The “.” indicates that the patient does not have any Digitally Signed eRx records, while the “\]” indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
+Following each number there will be one of two characters "." (dot) or "\]" (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The "." indicates that the patient does not have any Digitally Signed eRx records, while the "\]" indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -3309,7 +3355,7 @@ IAS - Include All Statuses – eRx Details are Hidden
 <tbody>
 <tr class="odd">
 <td colspan="2"><p><strong><u>REMOVED Status</u></strong></p>
-<p>For MbM sites the status column won’t show “RM” like it does for a VA Medical Center site. Instead, it will show an abbreviation of the Removal Reason which is composed by “R” concatenated with the last 2 numbers of the Removal Reason. Like show above for entries #2 and #3 under the STA (Status) column.</p>
+<p>For MbM sites the status column won't show "RM" like it does for a VA Medical Center site. Instead, it will show an abbreviation of the Removal Reason which is composed by "R" concatenated with the last 2 numbers of the Removal Reason. Like show above for entries #2 and #3 under the STA (Status) column.</p>
 <p>REM01 Drug out of stock or on backorder and unavailable for processing</p>
 <p>REM02 Patient was not able to pick up</p>
 <p>REM03 Prescription canceled by Provider</p>
@@ -3327,7 +3373,7 @@ IAS - Include All Statuses – eRx Details are Hidden
 
 LBD – Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -4681,7 +4727,7 @@ The following verbiage will be displayed below.
 
 BU – Batch Hold
 
-In the example below, the user selects eRx’s (#9 and \#10) with a non-actionable status. See the displayed list above.
+In the example below, the user selects eRx's (#9 and \#10) with a non-actionable status. See the displayed list above.
 
 <table>
 <colgroup>
@@ -5084,7 +5130,7 @@ eRx Medication Queue
 | <u>Rx Medication Queue Sep 16, 2023@11:06:54 Page: 1 of 1</u> |
 |-------------------------------------------------------------------|
 
-Action Menu the user selected from the eRx Patient Centric Queue. Title of menu “Rx Medication Queue”, followed by the current date/time, and ending with view of current page the user is on and how many pages there are total.
+Action Menu the user selected from the eRx Patient Centric Queue. Title of menu "Rx Medication Queue", followed by the current date/time, and ending with view of current page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -5125,9 +5171,9 @@ DOB - Date of birth column (MM/DD/YYY format).
 
 DRUG - This is the eRx Drug Name exactly as received from the prescriber software. It is truncated at 22 characters.
 
-STA - This is eRx Status column. It shows the current eRx record status. It’s truncated at 3 characters.
+STA - This is eRx Status column. It shows the current eRx record status. It's truncated at 3 characters.
 
-REC.DATE -This is the date when the eRx was received. By default, the list is always sorted by the REC. DATE column in a descending order (oldest records first) as noted by “<span class="mark">^</span>”.
+REC.DATE -This is the date when the eRx was received. By default, the list is always sorted by the REC. DATE column in a descending order (oldest records first) as noted by "<span class="mark">^</span>".
 
 #### Listing Area
 
@@ -5151,7 +5197,7 @@ This area is where all the eRx records are listed. They are always in sequential
 
 #### Action & Hidden Action Menus
 
-Below the Listing Area includes a few select actions that are available to users to filter or change views. Users can access the Hidden Action Menu by typing “??” (double question mark). Hidden Action Menu will be described further below.
+Below the Listing Area includes a few select actions that are available to users to filter or change views. Users can access the Hidden Action Menu by typing "??" (double question mark). Hidden Action Menu will be described further below.
 
 #### Action Menu
 
@@ -5530,7 +5576,7 @@ Rx Medication Queue – Search by eRx Provider
 
 Rx Medication Queue – Search by eRx Provider resultSQ 5 – ERX STATUS
 
-User can filter search criteria by entering an eRx Order Status. User response must select one specific eRx Order Status. User can type “??” (double question mark) to review list of eRx status reason codes and numbers.
+User can filter search criteria by entering an eRx Order Status. User response must select one specific eRx Order Status. User can type "??" (double question mark) to review list of eRx status reason codes and numbers.
 
 <table>
 <colgroup>
@@ -5644,7 +5690,7 @@ User can filter search criteria by entering a drug name or parts of the name. Th
 <p>3 RECEIVED DATE RANGE</p>
 <p>4 ERX PROVIDER</p>
 <p>5 ERX STATUS</p>
-<p>6 DRUG NAME <strong>(‘ASP’)</strong></p>
+<p>6 DRUG NAME <strong>('ASP')</strong></p>
 <p>7 MESSAGE TYPE</p>
 <p>8 ERX REFERENCE NUMBER</p>
 <p>9 VISTA RX #</p>
@@ -5668,7 +5714,7 @@ Rx Medication Queue – Search by Drug Name
 <tr class="header">
 <th><p><u><strong>Rx Medication Queue</strong> Sep 28, 2023@11:06:54 Page: 1 of 1___</u></p>
 <p>LOOK BACK DAYS: <strong>365</strong> CS/NON-CS: <strong>BOTH (II-V)</strong> MAX. QUEUE SIZE: <strong>999</strong></p>
-<p>FILTERED BY: <strong>DRUG(‘ASP’)</strong></p>
+<p>FILTERED BY: <strong>DRUG('ASP')</strong></p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -5707,7 +5753,7 @@ Rx Medication Queue – Search by Drug Name
 
 Rx Medication Queue – Search by Drug Name resultSQ 7 – MESSAGE TYPE
 
-User can filter search criteria by message type. User can type “??” (double question mark) to view list of message types associated with incoming eRx or enter message code.
+User can filter search criteria by message type. User can type "??" (double question mark) to view list of message types associated with incoming eRx or enter message code.
 
 <table>
 <colgroup>
@@ -6168,7 +6214,7 @@ If the patient has at least one actionable record which the eRx patient has been
 
 LBD – Change Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -6285,11 +6331,11 @@ This action allows the user to remove all filters currently applied to the list.
 
 REF – Refresh List
 
-This action allows the user to refresh the list. This is used to make sure you’re looking at the latest version of the list because other users might have already worked through some of the records currently on the list which may have altered it the changes won’t show until the list is refreshed. This new action called Refresh (REF) was added to allow the user to re-display the queue. This feature also allows the user to view the latest “locks” from other users that have been placed since the queue was last built.
+This action allows the user to refresh the list. This is used to make sure you're looking at the latest version of the list because other users might have already worked through some of the records currently on the list which may have altered it the changes won't show until the list is refreshed. This new action called Refresh (REF) was added to allow the user to re-display the queue. This feature also allows the user to view the latest "locks" from other users that have been placed since the queue was last built.
 
 #### Hidden Action Menus
 
-The user can access the Hidden Action Menu can be viewed by typing “??” (double question mark). The user can use easily filter the list by Message Type by selecting one of the following hidden actions.
+The user can access the Hidden Action Menu can be viewed by typing "??" (double question mark). The user can use easily filter the list by Message Type by selecting one of the following hidden actions.
 
 <table>
 <colgroup>
@@ -6303,13 +6349,13 @@ The user can access the Hidden Action Menu can be viewed by typing “??” (dou
 <p>SDOB Sort by DOB RXF Rx Refill Only DN Down a Line</p>
 <p>SDRU Sort By Drug IE Inbound Errors Only FS First Screen</p>
 <p>SPRO Sort by Provider OE Outbound Errors Only LS Last Screen</p>
-<p>SSTA Sort by Status CA Cancel Rx’s Only GO Go to Page</p>
+<p>SSTA Sort by Status CA Cancel Rx's Only GO Go to Page</p>
 <p>SREC Sort by Received Date CN Cancel Response Only PS Print Screen</p>
 <p>CV Change View CX Change Response Only PT Print List</p>
 <p>RRQ Renewal Request Only DET Show/Hide Details SL Search List</p>
 <p>RRP Renewal Response Only + Next Screen QU Quit</p>
-<p>New New Rx’s Only - Previous Screen</p>
-<p>Type &lt;Enter&gt; to continue or ‘^” to exit:</p></th>
+<p>New New Rx's Only - Previous Screen</p>
+<p>Type &lt;Enter&gt; to continue or '^" to exit:</p></th>
 </tr>
 </thead>
 <tbody>
@@ -6944,9 +6990,9 @@ This hidden action allows the user to filter the list by Renewal Response Only
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Renewal Response OnlyNEW – New eRx’s Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Renewal Response OnlyNEW – New eRx's Only (Hidden)
 
-This hidden action allows the user to filter by new Rx’s Only (status in New, In Process, Hold, and Wait)
+This hidden action allows the user to filter by new Rx's Only (status in New, In Process, Hold, and Wait)
 
 <table>
 <colgroup>
@@ -7186,7 +7232,7 @@ This hidden action allows users to filter by Outbound Errors Only
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – Cancel Rx’s Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – Cancel Rx's Only (Hidden)
 
 <table>
 <colgroup>
@@ -7231,7 +7277,7 @@ Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – C
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Cancel Rx’s OnlyCN – Cancel Response Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Cancel Rx's OnlyCN – Cancel Response Only (Hidden)
 
 This hidden action allows users to filter by Cancel Response Only
 
@@ -7449,7 +7495,7 @@ To view the details of an eR<sub>X</sub>, select the record number from either t
 
 #### Non-Controlled Substance (CS) eRx Details Display
 
-This initial screen shown right after the user selects an individual eRx records shows a summary of the entire eRx record as well as the corresponding VistA matched records. VistA records can be automatically matched by the software or manually entered by the user by selecting the Validation actions VP (Validate Patient), VM (Validate Provider) and VD (Validate Drug). Received Allergy and Diagnosis information are also displayed. Digitally Signed eRx’s will display the additional information shown in the CS Single eRx View/Details Display section.
+This initial screen shown right after the user selects an individual eRx records shows a summary of the entire eRx record as well as the corresponding VistA matched records. VistA records can be automatically matched by the software or manually entered by the user by selecting the Validation actions VP (Validate Patient), VM (Validate Provider) and VD (Validate Drug). Received Allergy and Diagnosis information are also displayed. Digitally Signed eRx's will display the additional information shown in the CS Single eRx View/Details Display section.
 
 #### Side-by-Side Display
 
@@ -7536,7 +7582,7 @@ This initial screen shown right after the user selects an individual eRx records
 
 Patient, Provider, DrugAuto Matched, Validated and Accepted by the User
 
-If the user manually matched the Patient or the Provider, or the Drug, the only difference is that “AUTO-MATCHED” is changed to “MANUALLY-MATCHED”, as shown below.
+If the user manually matched the Patient or the Provider, or the Drug, the only difference is that "AUTO-MATCHED" is changed to "MANUALLY-MATCHED", as shown below.
 
 | PATIENT MANUALLY-MATCHED \| VALIDATED by USER,USER on 3/13/24@17:21 |
 |---------------------------------------------------------------------|
@@ -8471,7 +8517,7 @@ eR<sub>X</sub> Single View/Display Screen – Renewal Response without Prescribe
 
 #### Rx Details Display – Allergy Information
 
-eRx and VistA information displayed includes allergies and diagnosis. If the patient has no known allergies, eRx displays “NO ALLERGY INFORMATION RECEIVED” in the Allergies section. Vista section displays “NO KNOWN ALLERGIES”.
+eRx and VistA information displayed includes allergies and diagnosis. If the patient has no known allergies, eRx displays "NO ALLERGY INFORMATION RECEIVED" in the Allergies section. Vista section displays "NO KNOWN ALLERGIES".
 
 <table>
 <colgroup>
@@ -8608,7 +8654,7 @@ Patient with Known Allergies
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -8894,7 +8940,7 @@ Once the user completes holding one eRx for the patient the software checks whet
 
 Batch Hold
 
-The hold code HOLD FOR CHANGE (HC), besides being used for when the user submits a Change Request to the Provider, can also be used manually to place eRx’s on-hold and also un-hold.
+The hold code HOLD FOR CHANGE (HC), besides being used for when the user submits a Change Request to the Provider, can also be used manually to place eRx's on-hold and also un-hold.
 
 Additionally, a new hold code named HOLD FOR FUTURE FILL (HFF) is being added. This new hold code will work differently than all other hold codes. Once the user selects this code, the software will prompt the user to enter a future fill date. If there is an effective fill date on file for the eRx, this date will be used as the default date, as seen below:
 
@@ -9108,7 +9154,7 @@ Batch Un-Holding
 
 Batch eRx Remove
 
-Once the user completes removing one eRx for the patient, the software checks whether the patient has other eRx records received on the same date from the same provider. If it does, the software will prompt or ask the user to remove these eRx’s with the same reason and comments (if there are any, comments are optional) entered above.
+Once the user completes removing one eRx for the patient, the software checks whether the patient has other eRx records received on the same date from the same provider. If it does, the software will prompt or ask the user to remove these eRx's with the same reason and comments (if there are any, comments are optional) entered above.
 
 <table>
 <colgroup>
@@ -9530,7 +9576,7 @@ The View History Log (HL) hidden action has been added to the eRx Holding Queue 
 - The CMOP Event Log
 - The Change, Cancel, Renewal Log - which shows the related messages
 
-> **NOTE:** If no data is available for a section it will display ‘No (section name) Available’.
+> **NOTE:** If no data is available for a section it will display 'No (section name) Available'.
 
 <table>
 <colgroup>
@@ -9626,7 +9672,7 @@ The View History Log (HL) hidden action has been added to the eRx Holding Queue 
 </tbody>
 </table>
 
-View History Log Hidden ActionNOTE: If no data is available for a section it will display ‘No (section name) Available’.
+View History Log Hidden ActionNOTE: If no data is available for a section it will display 'No (section name) Available'.
 
 <table>
 <colgroup>
@@ -9997,9 +10043,9 @@ The users will now be allowed to send more than one change request for the same 
 </tbody>
 </table>
 
-EC (eRx Change Request) with more than one eRx’sChange Request already sent
+EC (eRx Change Request) with more than one eRx'sChange Request already sent
 
-In the “Select Suggestion Option: (N)EW (R)ESEND:” prompt, the user can either generate a New eRx Rx Change Request or Resend the previously sent eRx record. If the user selects the "RESEND" option, the software will then prompt which of the previously sent eRx records to resend. Refer to the Resend Change Request section on how to performed the Resend action.
+In the "Select Suggestion Option: (N)EW (R)ESEND:" prompt, the user can either generate a New eRx Rx Change Request or Resend the previously sent eRx record. If the user selects the "RESEND" option, the software will then prompt which of the previously sent eRx records to resend. Refer to the Resend Change Request section on how to performed the Resend action.
 
 CHANGE REQUEST CODE
 
@@ -10133,7 +10179,7 @@ Full List of Sub-Codes in Change RequestDrug Use Evaluation (DUE) Change Request
 
 \- The NOTE TO PROVIDER word-processing field only allow a maximum of 250 characters. CTRL + E to save and exit out of provider note.
 
-The user can also used “Num Lock + E” to exit. Num Lock + E automatically save the note without prompting the user if they want to save changes.
+The user can also used "Num Lock + E" to exit. Num Lock + E automatically save the note without prompting the user if they want to save changes.
 
 AR - Adverse Drug Reaction
 
@@ -10899,7 +10945,7 @@ These comments are optional.
 
 Un-Remove an eRx
 
-Similar to Batch eRx Remove, the Batch Un-Remove performs the opposite functionality. Once the user completes un-removing one eRx for the patient the software checks whether the patient has other eRx records received on the same date from the same Provider that have also been put on Remove with the same Remove Code. If it does, the software will prompt or ask the user to un-remove these eRx’s with the same comments entered above.
+Similar to Batch eRx Remove, the Batch Un-Remove performs the opposite functionality. Once the user completes un-removing one eRx for the patient the software checks whether the patient has other eRx records received on the same date from the same Provider that have also been put on Remove with the same Remove Code. If it does, the software will prompt or ask the user to un-remove these eRx's with the same comments entered above.
 
 <table>
 <colgroup>
@@ -11058,7 +11104,7 @@ Enter the hidden Jump to OP \<JO\> action.
 
 JO Action Selected (Patient not matched)
 
-If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, “VistA patient has not been matched. Cannot jump to outpatient”.
+If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, "VistA patient has not been matched. Cannot jump to outpatient".
 
 <table>
 <colgroup>
@@ -11115,7 +11161,7 @@ If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to a
 
 JO Action Selected (Patient not validated)
 
-If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, “Jumping can only be done on ‘NewRx’ messages, Renewal Response-Replace and fillable RxChange Response messages”.
+If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, "Jumping can only be done on 'NewRx' messages, Renewal Response-Replace and fillable RxChange Response messages".
 
 <table>
 <colgroup>
@@ -11184,20 +11230,20 @@ If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is no
 
 JO Action Selected (Invalid Record Type)
 
-Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the “Select Patient:” prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
+Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the "Select Patient:" prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
 
 ![](inbound-eprescribing-user-manual-unit-7-part-1-pso-7-746/002.png)
 
-JO “Select Patient” – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
+JO "Select Patient" – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
 
 #### UX – Un-Process eRx
 
 The Un-Process (UX) hidden action has been added to the eRx Holding Queue Display screen. This action allows the user to Un-Process an eRx order that has been accepted in the eRx Holding Queue \[PSO ERX QUEUE PROCESSING\] and finished in Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]. The following checks are in place to Un-Process an eRx:
 
 - The eRx status for the order must be Processed (PR), RXRENEWAL Response Processed (RXP), or RXCHANGE Response Processed (CXP).
-- The user must hold the “PSDRPH” key.
+- The user must hold the "PSDRPH" key.
 - Only message types NEWRX (N), RXRENEWALRESPONSE (RE) and RXCHANGERESPONSE (CX) can be unprocessed. 
-- If message type is RXRENEWALRESPONSE, it must have a Response Value of ‘REPLACE’.
+- If message type is RXRENEWALRESPONSE, it must have a Response Value of 'REPLACE'.
 - Must be original fill and not transmitted to CMOP.
 - The prescription status must be SUSPENDED or HOLD.
 
@@ -11649,7 +11695,7 @@ eR<sub>X</sub> Audit Log Sorted by Show/Hide eRx Value - Shown
 
 eR<sub>X</sub> Audit Log Sorted by Show/Hide eRx Value - Hidden
 
-To exit the Audit Log \<AU\> and return to the eRx Holding Queue Display, press ‘Enter’.
+To exit the Audit Log \<AU\> and return to the eRx Holding Queue Display, press 'Enter'.
 
 #### <span class="mark">VS – View Suggestion(s)</span>
 
@@ -11976,7 +12022,7 @@ Patient Information Prescription Processing Screen – Jump to eRx Patient (JE)
 
 Medical Profile Prescription Processing Screen – Jump to eRx Patient (JE)
 
-Once the user jumps to the eRx Patient side and wants to go back to the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option, upon selecting \<Enter\> at the “Select: Quit//” prompt, the user is navigated back to the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option screen from which \<JE\> was initiated.
+Once the user jumps to the eRx Patient side and wants to go back to the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option, upon selecting \<Enter\> at the "Select: Quit//" prompt, the user is navigated back to the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option screen from which \<JE\> was initiated.
 
 <table>
 <colgroup>
@@ -12023,7 +12069,7 @@ Once the user jumps to the eRx Patient side and wants to go back to the Patient 
 
 #### REC – Resend Change Request
 
-The new hidden action called Resend Change Request (REC) allows the user to send the previously sent eRx Change Request to the prescriber if the message type of the eRx is “CR”. Right after the user enters REC in the Select Action:Next Screen// prompt, the software will display the RX CHANGE REQUEST SUMMARY. This allows the user to review the previously sent eRx Change Request. The user can edit the existing eRx Change Request or just leave it as is, as shown below:
+The new hidden action called Resend Change Request (REC) allows the user to send the previously sent eRx Change Request to the prescriber if the message type of the eRx is "CR". Right after the user enters REC in the Select Action:Next Screen// prompt, the software will display the RX CHANGE REQUEST SUMMARY. This allows the user to review the previously sent eRx Change Request. The user can edit the existing eRx Change Request or just leave it as is, as shown below:
 
 > **NOTE:** CR for RXCHANGEREQUEST
 
@@ -12371,9 +12417,9 @@ Users are also allowed to edit the existing eRx Change Request before resending 
 
 Resend Change Request – Added New Drug and Change the Change Request Code
 
-After the user completed (entered FINISH in the “Select Drug Suggestion Option:” prompt) the addition of the new drug, the software displayed the RX Change Request Summary again. The display includes all the changes made to the existing eRx, as shown above.
+After the user completed (entered FINISH in the "Select Drug Suggestion Option:" prompt) the addition of the new drug, the software displayed the RX Change Request Summary again. The display includes all the changes made to the existing eRx, as shown above.
 
-> **NOTE:** Once the user answered “YES” to the prompt “Would you like to edit this Rx Change Request before sending it? NO//”, the user can edit/modify all the fields such as the patient’s current medication (e.g. dosage change) or change request code in the existing eRx record.
+> **NOTE:** Once the user answered "YES" to the prompt "Would you like to edit this Rx Change Request before sending it? NO//", the user can edit/modify all the fields such as the patient's current medication (e.g. dosage change) or change request code in the existing eRx record.
 
 <table>
 <colgroup>
@@ -12439,7 +12485,7 @@ After the user completed (entered FINISH in the “Select Drug Suggestion Option
 
 Resend Change Request – Edit the Existing eRx Drug
 
-In the “Select Entry \# to Edit:” prompt, the user selects which drug to edit. In the example above, the existing record contains only one (1) eRx drug. In the event that there are more than 1, the prompt would be similar below.
+In the "Select Entry \# to Edit:" prompt, the user selects which drug to edit. In the example above, the existing record contains only one (1) eRx drug. In the event that there are more than 1, the prompt would be similar below.
 
 Select Entry \# to Edit: (1-2):
 
@@ -12604,7 +12650,7 @@ Upon entering the option, the user is prompted to choose which eRx record status
 <tr class="odd">
 <td colspan="2"><p>Meds-By-Mail site users will be prompted to select a Clinic. This helps MbM distribute the workload into multiple clinics so when the pharmacists are finishing the prescriptions they can work on the queue for a specific clinic.</p>
 <p>eRx Clinic (Optional):</p>
-<p>Although VAMC’s users are not presented this prompt, their eRx is still assigned a default clinic that is entered in the Site Parameter Enter/Edit [PSO SITE PARAMETERS] option under the field DEFAULT ERX CLINIC.</p></td>
+<p>Although VAMC's users are not presented this prompt, their eRx is still assigned a default clinic that is entered in the Site Parameter Enter/Edit [PSO SITE PARAMETERS] option under the field DEFAULT ERX CLINIC.</p></td>
 </tr>
 </tbody>
 </table>
@@ -12681,7 +12727,7 @@ This choice will include only eRx with a WAIT status. Similar to IN PROCESS thes
 
 H – Hold
 
-This choice will include only eRx in a HOLD status. However, there are many different HOLD statuses and that’s why the next prompts shown below allows the user to further define this choice.
+This choice will include only eRx in a HOLD status. However, there are many different HOLD statuses and that's why the next prompts shown below allows the user to further define this choice.
 
 <table>
 <colgroup>
@@ -12750,7 +12796,7 @@ In this case the user can select ALL HOLD CODES to include every eRx in a HOLD s
 
 C – CCR
 
-This choice will include only eRx in a CCR status. However, there are many different CCR statuses and that’s why the next prompts shown below allows the user to further define this choice. If they choose “A” (ALL CCR CODES) the list will include all eRx records with any of the eRx statuses shown below.
+This choice will include only eRx in a CCR status. However, there are many different CCR statuses and that's why the next prompts shown below allows the user to further define this choice. If they choose "A" (ALL CCR CODES) the list will include all eRx records with any of the eRx statuses shown below.
 
 <table>
 <colgroup>
@@ -12812,7 +12858,7 @@ WP – Workload Processing
 
 This option will bypass the Patient Centric Queue and will load one patient at a time directly into the Single Patient Queue. Once inside the Single Patient queue the user can use the action NP (Next Patient) to load the next patient. The order in which the patients are presented are based on the eRx received date. Patient with the oldest records will be presented first. The date range for looking for these records are based on the ERX DEFAULT LOOKBACK DAYS parameter in the Site Parameter Enter/Edit option \[PSO SITE PARAMETERS\].
 
-Users holding the PSO ERX WORKLOAD TECH security key they cannot jump to the next patient (by selecting NP – Next Patient) until they have processed all the prescriptions for the current patient on their screen. Once a user with the PSO ERX WORKLOAD TECH key enters the first patient, that patient is assigned to that user for that day and no matter how many times the user gets out of the option and comes back in, such patient will be presented to them for processing. This feature was designed to prevent users from “cherry-picking” patients to work on while working in a Workload Processing mode.
+Users holding the PSO ERX WORKLOAD TECH security key they cannot jump to the next patient (by selecting NP – Next Patient) until they have processed all the prescriptions for the current patient on their screen. Once a user with the PSO ERX WORKLOAD TECH key enters the first patient, that patient is assigned to that user for that day and no matter how many times the user gets out of the option and comes back in, such patient will be presented to them for processing. This feature was designed to prevent users from "cherry-picking" patients to work on while working in a Workload Processing mode.
 
 <table>
 <colgroup>
@@ -12855,7 +12901,7 @@ Workload Processing option filters
 <p>3 <mark>DRUG FAIL -</mark> DRUG NOT MATCHED</p>
 <p>4 <mark>BASIC -</mark> PATIENT, PROVIDER AND DRUG MATCHED</p>
 <p>5 ALL (NO FILTERS)</p>
-<p>This is only a labeling difference and won’t affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
+<p>This is only a labeling difference and won't affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
 </tr>
 </tbody>
 </table>
@@ -12950,7 +12996,7 @@ The figure above shows the eRx Holding Queue initial screen, in Patient Centric 
 
 #### Top Line
 
-It contains the title of the list, in this case “eRx Patient Centric Queue”, then the current date/time to the right the page the user is on and how many pages there are total.
+It contains the title of the list, in this case "eRx Patient Centric Queue", then the current date/time to the right the page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -13027,11 +13073,11 @@ One of these two symbols above can be spotted besides one of the following colum
 
 #### Listing Area
 
-This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view all the patient’s eRx records in a Single Patient Queue view.
+This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view all the patient's eRx records in a Single Patient Queue view.
 
 \#. Vs. \#\] (Digitally Signed Vs. Not Digitally Signed)
 
-Following each number there will be one of two characters “.” (dot) or “\]” (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The “.” indicates that the patient does not have any Digitally Signed eRx records, while the “\]” indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
+Following each number there will be one of two characters "." (dot) or "\]" (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The "." indicates that the patient does not have any Digitally Signed eRx records, while the "\]" indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
 
 Bolded Lines
 
@@ -13102,7 +13148,7 @@ Patient Centric Queue - Patient Locked
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -13500,14 +13546,14 @@ If the patient has at least one actionable record which the eRx patient has been
 <p>3 <mark>DRUG FAIL -</mark> DRUG NOT MATCHED</p>
 <p>4 <mark>BASIC -</mark> PATIENT, PROVIDER AND DRUG MATCHED</p>
 <p>5 ALL (NO FILTERS)</p>
-<p>This is only a labeling difference and won’t affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
+<p>This is only a labeling difference and won't affect the functionality of this filter, which works the same for VAMC and MbM sites.</p></td>
 </tr>
 </tbody>
 </table>
 
 Removing Individual Filters
 
-Individual filters can be removed by using the “^” (up-caret) along with the Number of the filter applied, as show below:
+Individual filters can be removed by using the "^" (up-caret) along with the Number of the filter applied, as show below:
 
 <table>
 <colgroup>
@@ -13546,7 +13592,7 @@ Patient Centric Queue – Individual Filter Removal
 
 #### LBD – Change Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -13812,7 +13858,7 @@ This parameter determines the maximum number of records to be loaded for the que
 
 #### 48-Lines Terminal Emulator Display Feature
 
-There is a Class 3 software (KIDS Build) that allows sites, including Meds-By-Mail (MbM), to expand their ListMan Listing Area to more than double of the displayed lines for one page when using the regular 24-Lines on the Terminal Emulator. It is important to emphasize that simply setting the Terminal Emulator to 48-Lines won’t work, the VistA account where the user is connecting must have this Class 3 software installed for it to work.
+There is a Class 3 software (KIDS Build) that allows sites, including Meds-By-Mail (MbM), to expand their ListMan Listing Area to more than double of the displayed lines for one page when using the regular 24-Lines on the Terminal Emulator. It is important to emphasize that simply setting the Terminal Emulator to 48-Lines won't work, the VistA account where the user is connecting must have this Class 3 software installed for it to work.
 
 Once the KIDS Build is installed and the Terminal Emulator is set to display 48-Line, the eRx Patient Centric Queue will look like the following:
 
@@ -13898,7 +13944,7 @@ Once the KIDS Build is installed and the Terminal Emulator is set to display 48-
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once the user selects a patient in the eRx Patient Centric Queue above, they will be taken to the eRx Single Patient Queue. This list will by default display all the eRx Patient’s Actionable records and they will be sorted by the REC.DATE column in a descending order (oldest records first).
+Once the user selects a patient in the eRx Patient Centric Queue above, they will be taken to the eRx Single Patient Queue. This list will by default display all the eRx Patient's Actionable records and they will be sorted by the REC.DATE column in a descending order (oldest records first).
 
 <table>
 <colgroup>
@@ -13950,7 +13996,7 @@ eRx Single Patient Queue
 
 #### Top Line
 
-It contains the title of the list, in this case “eRx Single Patient Queue”, then the current date/time to the right the page the user is on and how many pages there are total.
+It contains the title of the list, in this case "eRx Single Patient Queue", then the current date/time to the right the page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -13974,7 +14020,7 @@ Indicates up to how many days back the search looked for unprocessed records. Th
 
 STATUS
 
-By default, only ‘Actionable’ eRx records are included on the eRx Single Patient Queue, however the user can easily change this parameter as described further down on this document.
+By default, only 'Actionable' eRx records are included on the eRx Single Patient Queue, however the user can easily change this parameter as described further down on this document.
 
 SSN
 
@@ -14004,63 +14050,63 @@ This is the date when the eRx was received.
 
 STA
 
-This is eRx Status column. It shows the current eRx record status. It’s truncated at 3 characters.
+This is eRx Status column. It shows the current eRx record status. It's truncated at 3 characters.
 
 MATCHING PT
 
 This column indicates the current matching status for the eRx Patient. The following variations are possible for this column:
 
-“” (blank) – eRx Patient has not been matched to a VistA Patient
+"" (blank) – eRx Patient has not been matched to a VistA Patient
 
-“A” – eRx Patient has been auto-matched to a VistA Patient
+"A" – eRx Patient has been auto-matched to a VistA Patient
 
-“M” – eRx Patient has been manually matched to a VistA Patient by the user
+"M" – eRx Patient has been manually matched to a VistA Patient by the user
 
-“M” (bold) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient by the user
+"M" (bold) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient by the user
 
-“AV” – eRx Patient has been auto-matched to a VistA Patient and manually validated
+"AV" – eRx Patient has been auto-matched to a VistA Patient and manually validated
 
-“MV” – eRx Patient has been manually matched to a VistA Patient and manually validated
+"MV" – eRx Patient has been manually matched to a VistA Patient and manually validated
 
-“MV” (bold M) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient and subsequently manually validated by the user
+"MV" (bold M) – eRx Patient was initially auto-matched and then manually matched to a different VistA Patient and subsequently manually validated by the user
 
 MATCHING PR
 
 This column indicates the current matching status for the eRx Provider. The following variations are possible for this column:
 
-“” (blank) – eRx Provider has not been matched to a VistA Provider
+"" (blank) – eRx Provider has not been matched to a VistA Provider
 
-“A” – eRx Provider has been auto-matched to a VistA Provider
+"A" – eRx Provider has been auto-matched to a VistA Provider
 
-“M” – eRx Provider has been manually matched to a VistA Provider by the user
+"M" – eRx Provider has been manually matched to a VistA Provider by the user
 
-“M” (bold) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider by the user
+"M" (bold) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider by the user
 
-“AV” – eRx Provider has been auto-matched to a VistA Provider and manually validated
+"AV" – eRx Provider has been auto-matched to a VistA Provider and manually validated
 
-“AV” (bold V)– eRx Provider has been auto-matched to a VistA Provider and auto-validated (MbM Only – see below)
+"AV" (bold V)– eRx Provider has been auto-matched to a VistA Provider and auto-validated (MbM Only – see below)
 
-“MV” – eRx Provider has been manually matched to a VistA Provider and validated
+"MV" – eRx Provider has been manually matched to a VistA Provider and validated
 
-“MV” (bold M) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider and subsequently manually validated by the user
+"MV" (bold M) – eRx Provider was initially auto-matched and then manually matched to a different VistA Provider and subsequently manually validated by the user
 
 MATCHING DR
 
 This column indicates the current matching status for the eRx Drug. The following variations are possible for this column:
 
-“” (blank) – eRx Drug has not been matched to a VistA Drug
+"" (blank) – eRx Drug has not been matched to a VistA Drug
 
-“A” – eRx Drug has been auto-matched to a VistA Drug
+"A" – eRx Drug has been auto-matched to a VistA Drug
 
-“M” – eRx Drug has been manually matched to a VistA Drug by the user
+"M" – eRx Drug has been manually matched to a VistA Drug by the user
 
-“M” (bold) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug by the user
+"M" (bold) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug by the user
 
-“AV” – eRx Drug has been auto-matched to a VistA Drug and manually validated
+"AV" – eRx Drug has been auto-matched to a VistA Drug and manually validated
 
-“MV” – eRx Drug has been manually matched to a VistA Drug and manually validated
+"MV" – eRx Drug has been manually matched to a VistA Drug and manually validated
 
-“MV” (bold M) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug and subsequently manually validated by the user
+"MV" (bold M) – eRx Drug was initially auto-matched and then manually matched to a different VistA Drug and subsequently manually validated by the user
 
 <table>
 <colgroup>
@@ -14097,15 +14143,15 @@ Validation actions for a single patient may be complete from there. For more det
 
 #### Listing Area
 
-This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view the patient’s corresponding eRx record in the Summary eRx View Display.
+This area is where all the records are listed. They are always sequential number that goes from 1 to the last item on the list. This number can be selected by the user to view the patient's corresponding eRx record in the Summary eRx View Display.
 
 \#. Vs. \#\] (Digitally Signed Vs. Not Digitally Signed)
 
-Following each number there will be one of two characters “.” (dot) or “\]” (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The “.” indicates that the patient does not have any Digitally Signed eRx records, while the “\]” indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
+Following each number there will be one of two characters "." (dot) or "\]" (closing square bracket), as seen on lines 2. 10 and 14 on figure 6-7 above. The "." indicates that the patient does not have any Digitally Signed eRx records, while the "\]" indicates that the patient has at least one eRx records that was Digitally Signed by the external provider. Digitally signed records is an indication by the external provider that the drug in the eRx records is a Controlled Substance drug. CS drugs are mandated by DEA (Drug Enforcement Agency) to always be transmitted to the pharmacy with a Digital Signature.
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -14295,7 +14341,7 @@ IAS - Include All Statuses – eRx Details are Hidden
 <tbody>
 <tr class="odd">
 <td colspan="2"><p><strong><u>REMOVED Status</u></strong></p>
-<p>For MbM sites the status column won’t show “RM” like it does for a VA Medical Center site. Instead, it will show an abbreviation of the Removal Reason which is composed by “R” concatenated with the last 2 numbers of the Removal Reason. Like show above for entries #2 and #3 under the STA (Status) column.</p>
+<p>For MbM sites the status column won't show "RM" like it does for a VA Medical Center site. Instead, it will show an abbreviation of the Removal Reason which is composed by "R" concatenated with the last 2 numbers of the Removal Reason. Like show above for entries #2 and #3 under the STA (Status) column.</p>
 <p>REM01 Drug out of stock or on backorder and unavailable for processing</p>
 <p>REM02 Patient was not able to pick up</p>
 <p>REM03 Prescription canceled by Provider</p>
@@ -14313,7 +14359,7 @@ IAS - Include All Statuses – eRx Details are Hidden
 
 LBD – Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -15666,7 +15712,7 @@ The following verbiage will be displayed below.
 
 BU – Batch Hold
 
-In the example below, the user selects eRx’s (#9 and \#10) with a non-actionable status. See the displayed list above.
+In the example below, the user selects eRx's (#9 and \#10) with a non-actionable status. See the displayed list above.
 
 <table>
 <colgroup>
@@ -16069,7 +16115,7 @@ eRx Medication Queue
 | <u>Rx Medication Queue Sep 16, 2023@11:06:54 Page: 1 of 1</u> |
 |-------------------------------------------------------------------|
 
-Action Menu the user selected from the eRx Patient Centric Queue. Title of menu “Rx Medication Queue”, followed by the current date/time, and ending with view of current page the user is on and how many pages there are total.
+Action Menu the user selected from the eRx Patient Centric Queue. Title of menu "Rx Medication Queue", followed by the current date/time, and ending with view of current page the user is on and how many pages there are total.
 
 #### Header Area
 
@@ -16110,9 +16156,9 @@ DOB - Date of birth column (MM/DD/YYY format).
 
 DRUG - This is the eRx Drug Name exactly as received from the prescriber software. It is truncated at 22 characters.
 
-STA - This is eRx Status column. It shows the current eRx record status. It’s truncated at 3 characters.
+STA - This is eRx Status column. It shows the current eRx record status. It's truncated at 3 characters.
 
-REC.DATE -This is the date when the eRx was received. By default, the list is always sorted by the REC. DATE column in a descending order (oldest records first) as noted by “<span class="mark">^</span>”.
+REC.DATE -This is the date when the eRx was received. By default, the list is always sorted by the REC. DATE column in a descending order (oldest records first) as noted by "<span class="mark">^</span>".
 
 #### Listing Area
 
@@ -16136,7 +16182,7 @@ This area is where all the eRx records are listed. They are always in sequential
 
 #### Action & Hidden Action Menus
 
-Below the Listing Area includes a few select actions that are available to users to filter or change views. Users can access the Hidden Action Menu by typing “??” (double question mark). Hidden Action Menu will be described further below.
+Below the Listing Area includes a few select actions that are available to users to filter or change views. Users can access the Hidden Action Menu by typing "??" (double question mark). Hidden Action Menu will be described further below.
 
 #### Action Menu
 
@@ -16515,7 +16561,7 @@ Rx Medication Queue – Search by eRx Provider
 
 Rx Medication Queue – Search by eRx Provider resultSQ 5 – ERX STATUS
 
-User can filter search criteria by entering an eRx Order Status. User response must select one specific eRx Order Status. User can type “??” (double question mark) to review list of eRx status reason codes and numbers.
+User can filter search criteria by entering an eRx Order Status. User response must select one specific eRx Order Status. User can type "??" (double question mark) to review list of eRx status reason codes and numbers.
 
 <table>
 <colgroup>
@@ -16629,7 +16675,7 @@ User can filter search criteria by entering a drug name or parts of the name. Th
 <p>3 RECEIVED DATE RANGE</p>
 <p>4 ERX PROVIDER</p>
 <p>5 ERX STATUS</p>
-<p>6 DRUG NAME <strong>(‘ASP’)</strong></p>
+<p>6 DRUG NAME <strong>('ASP')</strong></p>
 <p>7 MESSAGE TYPE</p>
 <p>8 ERX REFERENCE NUMBER</p>
 <p>9 VISTA RX #</p>
@@ -16653,7 +16699,7 @@ Rx Medication Queue – Search by Drug Name
 <tr class="header">
 <th><p><u><strong>Rx Medication Queue</strong> Sep 28, 2023@11:06:54 Page: 1 of 1___</u></p>
 <p>LOOK BACK DAYS: <strong>365</strong> CS/NON-CS: <strong>BOTH (II-V)</strong> MAX. QUEUE SIZE: <strong>999</strong></p>
-<p>FILTERED BY: <strong>DRUG(‘ASP’)</strong></p>
+<p>FILTERED BY: <strong>DRUG('ASP')</strong></p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -16692,7 +16738,7 @@ Rx Medication Queue – Search by Drug Name
 
 Rx Medication Queue – Search by Drug Name resultSQ 7 – MESSAGE TYPE
 
-User can filter search criteria by message type. User can type “??” (double question mark) to view list of message types associated with incoming eRx or enter message code.
+User can filter search criteria by message type. User can type "??" (double question mark) to view list of message types associated with incoming eRx or enter message code.
 
 <table>
 <colgroup>
@@ -17153,7 +17199,7 @@ If the patient has at least one actionable record which the eRx patient has been
 
 LBD – Change Look Back Days
 
-This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today’s date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
+This action allows the user to change the number of days to look back for eRx actionable records. A number between 0 (zero) and 1,000 can be selected. 0 (zero) would include only records for today's date. Once the new value is selected the list is refreshed to account for the new number of days to look back and the new number will be displayed on the header section.
 
 <table>
 <colgroup>
@@ -17270,11 +17316,11 @@ This action allows the user to remove all filters currently applied to the list.
 
 REF – Refresh List
 
-This action allows the user to refresh the list. This is used to make sure you’re looking at the latest version of the list because other users might have already worked through some of the records currently on the list which may have altered it the changes won’t show until the list is refreshed. This new action called Refresh (REF) was added to allow the user to re-display the queue. This feature also allows the user to view the latest “locks” from other users that have been placed since the queue was last built.
+This action allows the user to refresh the list. This is used to make sure you're looking at the latest version of the list because other users might have already worked through some of the records currently on the list which may have altered it the changes won't show until the list is refreshed. This new action called Refresh (REF) was added to allow the user to re-display the queue. This feature also allows the user to view the latest "locks" from other users that have been placed since the queue was last built.
 
 #### Hidden Action Menus
 
-The user can access the Hidden Action Menu can be viewed by typing “??” (double question mark). The user can use easily filter the list by Message Type by selecting one of the following hidden actions.
+The user can access the Hidden Action Menu can be viewed by typing "??" (double question mark). The user can use easily filter the list by Message Type by selecting one of the following hidden actions.
 
 <table>
 <colgroup>
@@ -17288,13 +17334,13 @@ The user can access the Hidden Action Menu can be viewed by typing “??” (dou
 <p>SDOB Sort by DOB RXF Rx Refill Only DN Down a Line</p>
 <p>SDRU Sort By Drug IE Inbound Errors Only FS First Screen</p>
 <p>SPRO Sort by Provider OE Outbound Errors Only LS Last Screen</p>
-<p>SSTA Sort by Status CA Cancel Rx’s Only GO Go to Page</p>
+<p>SSTA Sort by Status CA Cancel Rx's Only GO Go to Page</p>
 <p>SREC Sort by Received Date CN Cancel Response Only PS Print Screen</p>
 <p>CV Change View CX Change Response Only PT Print List</p>
 <p>RRQ Renewal Request Only DET Show/Hide Details SL Search List</p>
 <p>RRP Renewal Response Only + Next Screen QU Quit</p>
-<p>New New Rx’s Only - Previous Screen</p>
-<p>Type &lt;Enter&gt; to continue or ‘^” to exit:</p></th>
+<p>New New Rx's Only - Previous Screen</p>
+<p>Type &lt;Enter&gt; to continue or '^" to exit:</p></th>
 </tr>
 </thead>
 <tbody>
@@ -17929,9 +17975,9 @@ This hidden action allows the user to filter the list by Renewal Response Only
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Renewal Response OnlyNEW – New eRx’s Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Renewal Response OnlyNEW – New eRx's Only (Hidden)
 
-This hidden action allows the user to filter by new Rx’s Only (status in New, In Process, Hold, and Wait)
+This hidden action allows the user to filter by new Rx's Only (status in New, In Process, Hold, and Wait)
 
 <table>
 <colgroup>
@@ -18171,7 +18217,7 @@ This hidden action allows users to filter by Outbound Errors Only
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – Cancel Rx’s Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – Cancel Rx's Only (Hidden)
 
 <table>
 <colgroup>
@@ -18216,7 +18262,7 @@ Rx Medication Queue (Hidden Action) – Filtered by Outbound Errors OnlyCA – C
 </tbody>
 </table>
 
-Rx Medication Queue (Hidden Action) – Filtered by Cancel Rx’s OnlyCN – Cancel Response Only (Hidden)
+Rx Medication Queue (Hidden Action) – Filtered by Cancel Rx's OnlyCN – Cancel Response Only (Hidden)
 
 This hidden action allows users to filter by Cancel Response Only
 
@@ -18418,9 +18464,9 @@ A record from the eR<sub>X</sub> Single Patient Queue or Rx Medication Queue can
 
 On this screen, the header contains the eR<sub>X</sub> Patient Name and eR<sub>X</sub> Reference \#, which is an internal VA reference number assigned for tracking the eR<sub>X</sub>. Below the header is information received from the external provider for the patient, provider, and the drug/SIG. Where applicable, VistA information displays below the eR<sub>X</sub> information.
 
-> **NOTE:** - “eRx Written Date” – Date the eR<sub>X</sub> was received in the VistA Holding Queue.
+> **NOTE:** - "eRx Written Date" – Date the eR<sub>X</sub> was received in the VistA Holding Queue.
 
-- “eRx Issue Date” – Effective Date, if sent by the provider.
+- "eRx Issue Date" – Effective Date, if sent by the provider.
 
 #### eRx Details
 
@@ -18501,7 +18547,7 @@ To view the details of an eR<sub>X</sub>, select the record number from either t
 
 eR<sub>X</sub> Holding Queue Display Screen – Not Digitally Signed (Non-CS)
 
-This initial screen shown right after the user selects an individual eRx records shows a summary of the entire eRx record as well as the corresponding VistA matched records. VistA records can be automatically matched by the software or manually entered by the user by selecting the Validation actions VP (Validate Patient), VM (Validate Provider) and VD (Validate Drug). Received Allergy and Diagnosis information are also displayed. Digitally Signed eRx’s will display the additional information shown above.
+This initial screen shown right after the user selects an individual eRx records shows a summary of the entire eRx record as well as the corresponding VistA matched records. VistA records can be automatically matched by the software or manually entered by the user by selecting the Validation actions VP (Validate Patient), VM (Validate Provider) and VD (Validate Drug). Received Allergy and Diagnosis information are also displayed. Digitally Signed eRx's will display the additional information shown above.
 
 If the VistA information for the patient, provider, or drug is not linked, the display is as shown below:
 
@@ -18559,7 +18605,7 @@ eR<sub>X</sub> Holding Queue Display Screen – Digitally Signed (CS)
 
 #### Rx Details Display – Allergy Information
 
-VistA information displayed includes allergies and diagnosis. If the patient has no known allergies, “NKA” displays in the Allergies section.
+VistA information displayed includes allergies and diagnosis. If the patient has no known allergies, "NKA" displays in the Allergies section.
 
 <table>
 <colgroup>
@@ -18682,7 +18728,7 @@ VistA Patient with Known Allergies
 
 #### Action & Hidden Action Menus
 
-A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing “??” (double question mark).
+A few actions can be taken by the user on list displayed. The Action Menu is displayed right below the listing area while the Hidden Action Menu can be viewed by typing "??" (double question mark).
 
 #### Action Menu
 
@@ -19244,7 +19290,7 @@ The View History Log (HL) hidden action has been added to the eRx Holding Queue 
 - The CMOP Event Log
 - The Change, Cancel, Renewal Log - which shows the related messages
 
-> **NOTE:** If no data is available for a section it will display ‘No (section name) Available’.
+> **NOTE:** If no data is available for a section it will display 'No (section name) Available'.
 
 <table>
 <colgroup>
@@ -19289,7 +19335,7 @@ The View History Log (HL) hidden action has been added to the eRx Holding Queue 
 </tbody>
 </table>
 
-View History Log Hidden ActionNOTE: If no data is available for a section it will display ‘No (section name) Available’.
+View History Log Hidden ActionNOTE: If no data is available for a section it will display 'No (section name) Available'.
 
 <table>
 <colgroup>
@@ -19730,7 +19776,7 @@ Enter the hidden Jump to OP \<JO\> action.
 
 JO Action Selected (Patient not matched)
 
-If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, “VistA patient has not been matched. Cannot jump to outpatient”.
+If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, "VistA patient has not been matched. Cannot jump to outpatient".
 
 <table>
 <colgroup>
@@ -19770,26 +19816,26 @@ If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to a
 
 JO Action Selected (Patient not validated)
 
-If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, “Jumping can only be done on ‘NewRx’ messages, Renewal Response-Replace and fillable RxChange Response messages”.
+If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, "Jumping can only be done on 'NewRx' messages, Renewal Response-Replace and fillable RxChange Response messages".
 
 ![](inbound-eprescribing-user-manual-unit-1-pso-7-700/003.png)
 
 JO Action Selected (Invalid Record Type)
 
-Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the “Select Patient:” prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
+Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the "Select Patient:" prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
 
 ![](inbound-eprescribing-user-manual-unit-1-pso-7-700/004.png)
 
-JO “Select Patient” – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
+JO "Select Patient" – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
 
 #### UX – Un-Process eRx
 
 The Un-Process (UX) hidden action has been added to the eRx Holding Queue Display screen. This action allows the user to Un-Process an eRx order that has been accepted in the eRx Holding Queue \[PSO ERX QUEUE PROCESSING\] and finished in Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]. The following checks are in place to Un-Process an eRx:
 
 - The eRx status for the order must be Processed (PR), RXRENEWAL Response Processed (RXP), or RXCHANGE Response Processed (CXP).
-- The user must hold the “PSDRPH” key.
+- The user must hold the "PSDRPH" key.
 - Only message types NEWRX (N), RXRENEWALRESPONSE (RE) and RXCHANGERESPONSE (CX) can be unprocessed. 
-- If message type is RXRENEWALRESPONSE, it must have a Response Value of ‘REPLACE’.
+- If message type is RXRENEWALRESPONSE, it must have a Response Value of 'REPLACE'.
 - Must be original fill and not transmitted to CMOP.
 - The prescription status must be SUSPENDED or HOLD.
 
@@ -19922,7 +19968,7 @@ eR<sub>X</sub> Audit Log Sorted by Show/Hide eRx Value - Shown
 
 eR<sub>X</sub> Audit Log Sorted by Show/Hide eRx Value - Hidden
 
-To exit the Audit Log \<AU\> and return to the eRx Holding Queue Display, press ‘Enter’.
+To exit the Audit Log \<AU\> and return to the eRx Holding Queue Display, press 'Enter'.
 
 #### Patient-Level Record Lock
 
@@ -20221,7 +20267,7 @@ There are some important rules and exceptions when comparing the two fields:
 The following conditions must be met, before a fillable eR<sub>X</sub> can be accepted and transmitted to the Pending Queue for further processing:
 
 1.  The eR<sub>X</sub> cannot be on Hold. If the eR<sub>X</sub> is on Hold, the eR<sub>X</sub> status on the Holding Queue List has one of the Hold Status codes, and the Hold Status, Hold Reason, and the user who placed the eR<sub>X</sub> on hold is displayed on the Summary/Details screen.
-10. The eR<sub>X</sub> cannot have a status of “Rejected” RJ, “Removed” RM, “Processed” PR or “Canceled” CAN/CXQ.
+10. The eR<sub>X</sub> cannot have a status of "Rejected" RJ, "Removed" RM, "Processed" PR or "Canceled" CAN/CXQ.
 
 All validation steps, for patient, provider, and drug/SIG must be completed, including the \<AV\> Accept Validation action on the validate screens. For additional information on the validation steps, refer to section User Manual Unit 1 available on the Veteran's Documentation Library (VDL).
 
@@ -20313,8 +20359,8 @@ To reject an eR<sub>X</sub>, complete the following steps:
 - ERR02 – Incorrect pharmacy
 - ERR03 – Issues with prescription, please contact the pharmacy
 - PVD03 – Missing/bad digital signature on inbound CS ERX
-- PVD04 – Prescriber’s CS credential is not appropriate
-- PTT03 – Patient’s mailing address is missing/mismatched
+- PVD04 – Prescriber's CS credential is not appropriate
+- PTT03 – Patient's mailing address is missing/mismatched
 - ERR99 - Other
 4.  Type additional comments as to why the eR<sub>X</sub> is being rejected and press \<Enter\>. These comments are optional.
 
@@ -20347,7 +20393,7 @@ A fillable eR<sub>X</sub> can be placed on hold for several reasons indicating t
 - HPP – PATIENT CONTACTED
 - HPR – HOLD DUE TO PATIENT REQUEST
 - HQY – QUANTITY OR REFILL ISSUE
-- HCR – PRESCRIBER’S CS CREDENTIAL IS NOT APPROPRIATE
+- HCR – PRESCRIBER'S CS CREDENTIAL IS NOT APPROPRIATE
 - HWR – CS PRESCRIPTION WRITTEN/ISSUE DATE HAS PROBLEMS
 - HIS – PROVIDER DEA# ISSUE
 - HRX – HOLD FOR RX EDIT
@@ -20358,7 +20404,7 @@ A fillable eR<sub>X</sub> can be placed on hold for several reasons indicating t
 - HUR – HOLD UN-REMOVED
 - HFF – HOLD FOR FUTURE FILL
 
-  To view the available hold reasons, enter a double question mark \<??\> at the “Select HOLD reason code” prompt. The available hold reasons display.
+  To view the available hold reasons, enter a double question mark \<??\> at the "Select HOLD reason code" prompt. The available hold reasons display.
 
 <table>
 <colgroup>
@@ -20403,7 +20449,7 @@ A fillable eR<sub>X</sub> can be placed on hold for several reasons indicating t
 
 Hold eR<sub>X</sub>
 
-11. Enter the reason code at the “Select HOLD Reason code:” prompt and press \<Enter\>.
+11. Enter the reason code at the "Select HOLD Reason code:" prompt and press \<Enter\>.
 12. A prompt displays asking for additional comments on the reason for the hold. These comments are optional. Either press \<Enter\> to complete the hold process or add comments and then press \<Enter\>.
 
 ![](inbound-eprescribing-user-manual-unit-7-part-2-pso-7-746/046.png)
@@ -20416,7 +20462,7 @@ The Hold Status, Hold Reason, and the user placing the eR<sub>X</sub> on hold di
 
 Hold Status and Reason
 
-The hold status also displays in the “Status” column (STA) on the Holding Queue List screen.
+The hold status also displays in the "Status" column (STA) on the Holding Queue List screen.
 
 <table>
 <colgroup>
@@ -20478,7 +20524,7 @@ The hold status also displays in the “Status” column (STA) on the Holding Qu
 
 Hold Status in Status Column
 
-> **NOTE:** When a fillable eR<sub>X</sub> is put on ‘Hold’ the only actions available for the user are UH/Un Hold, P/Print and SH/Status History.
+> **NOTE:** When a fillable eR<sub>X</sub> is put on 'Hold' the only actions available for the user are UH/Un Hold, P/Print and SH/Status History.
 
 ### Future Fill Hold (HFF)
 
@@ -20559,19 +20605,19 @@ To remove an eR<sub>X</sub> from the Holding Queue:
 - REM09 – ERX Issue not resolved - Provider contacted
 1.  Type additional comments as to why the eR<sub>X</sub> is being removed and press \<Enter\>. These comments are optional.
 
-Once the eR<sub>X</sub> is removed, the status changes to “RM” and it no longer displays in the default Holding Queue List; however, the eR<sub>X</sub> can be accessed via the search action from the main Holding Queue List screen using one or more of the search criteria.
+Once the eR<sub>X</sub> is removed, the status changes to "RM" and it no longer displays in the default Holding Queue List; however, the eR<sub>X</sub> can be accessed via the search action from the main Holding Queue List screen using one or more of the search criteria.
 
 ![](inbound-eprescribing-user-manual-unit-7-part-2-pso-7-746/049.png)
 
 Removing an eR<sub>X</sub>
 
-> **NOTE:** If the Remove function is in parentheses “()”, the user is not able to remove an eR<sub>X</sub>. If the action is still attempted, the user receives a message that the action is not available.
+> **NOTE:** If the Remove function is in parentheses "()", the user is not able to remove an eR<sub>X</sub>. If the action is still attempted, the user receives a message that the action is not available.
 
 ### Batch Removing eR<sub>X</sub> in the eR<sub>X</sub> Holding Queue
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once the user completes removing one eRx for the patient, the software checks whether the patient has other eRx records received on the same date from the same provider. If it does, the software will prompt or ask the user to remove these eRx’s with the same reason and comments (if there are any, comments are optional) entered above.
+Once the user completes removing one eRx for the patient, the software checks whether the patient has other eRx records received on the same date from the same provider. If it does, the software will prompt or ask the user to remove these eRx's with the same reason and comments (if there are any, comments are optional) entered above.
 
 <table>
 <colgroup>
@@ -20710,7 +20756,7 @@ Un-Remove an eRx
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Similar to Batch eRx Remove, the Batch Un-Remove performs the opposite functionality. Once the user completes un-removing one eRx for the patient the software checks whether the patient has other eRx records received on the same date from the same Provider that have also been put on Remove with the same Remove Code. If it does, the software will prompt or ask the user to un-remove these eRx’s with the same comments entered above.
+Similar to Batch eRx Remove, the Batch Un-Remove performs the opposite functionality. Once the user completes un-removing one eRx for the patient the software checks whether the patient has other eRx records received on the same date from the same Provider that have also been put on Remove with the same Remove Code. If it does, the software will prompt or ask the user to un-remove these eRx's with the same comments entered above.
 
 <table>
 <colgroup>
@@ -20929,7 +20975,7 @@ An eR<sub>X</sub> pending order will display similar to the split screen in the 
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="2"><p>If the VistA patient is not eligible for ChampVA benefits the message “PATIENT NOT ELIGIBLE” will blink on the header section of the pending order:</p>
+<td colspan="2"><p>If the VistA patient is not eligible for ChampVA benefits the message "PATIENT NOT ELIGIBLE" will blink on the header section of the pending order:</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -21264,7 +21310,7 @@ By automating data transmission from providers to the VA, and between other phar
 
 Specific elements of PRE IEP include:
 
-- Receiving and processing inbound eR<sub>X</sub>es, where “inbound” refers to the ordering of medication or medical related supplies for a VA patient by a non-VA provider to be filled at a VA pharmacy.
+- Receiving and processing inbound eR<sub>X</sub>es, where "inbound" refers to the ordering of medication or medical related supplies for a VA patient by a non-VA provider to be filled at a VA pharmacy.
 - Pharmacy Service is not responsible for filling prescriptions for non-expendable medical equipment.
 - Pharmacy Service may dispense renewals for expendable supplies upon receipt of requests from patients with continuing eligibility for a period not to exceed one year from the date of the last signed order.
 - Expendable stock items may include catheters, colostomy sets, ileostomy sets and/or supplies, plastic and rubber gloves, skin preparations and powders, urinal bags and drainage supplies, incontinence supplies, etc.
@@ -21274,15 +21320,15 @@ Specific elements of PRE IEP include:
 
 Areas not included in PRE IEP include:
 
-- VA providers generating eR<sub>X</sub>es at one VA Medical Center (VAMC) location to be electronically transmitted to and processed by (filled, dispensed, etc.) a different VAMC location’s pharmacy.
+- VA providers generating eR<sub>X</sub>es at one VA Medical Center (VAMC) location to be electronically transmitted to and processed by (filled, dispensed, etc.) a different VAMC location's pharmacy.
 - Initiating outbound eR<sub>X</sub>es (generation of an eR<sub>X</sub> by a VA provider to be filled at a non-VA pharmacy).
 - Electronic receipt and processing of any VA or non-VA inpatient medication orders.
 - Electronic receipt and processing of any VA or non-VA orders for Durable Medical Equipment (DME), such as wheelchairs.
-- Electronic receipt and processing of RxRenewal Requests from a VA patient’s non-VA Electronic Health Record (EHR) system.
+- Electronic receipt and processing of RxRenewal Requests from a VA patient's non-VA Electronic Health Record (EHR) system.
 - Electronic transfers of prescriptions from any non-VA pharmacy to a VA pharmacy.
 - Electronic transfers of prescriptions from a VA pharmacy to a non-VA pharmacy.
 
-Items out of an eR<sub>X</sub> user’s control and requires validation by Pharmacists include:
+Items out of an eR<sub>X</sub> user's control and requires validation by Pharmacists include:
 
 - Patient: eR<sub>X</sub>es can be sent for any patient, including Veterans or non-Veterans.
 - Provider: eR<sub>X</sub>es can be sent by any provider, whether VA authorized or not.
@@ -21328,7 +21374,7 @@ The eR<sub>X</sub> Holding Queue is discussed in more detail in [Unit 3 - Inboun
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A “fillable prescription” is any inbound prescription with medication information, sent by an external or non-VA provider, which includes one of the following National Council for Prescription Drug Programs (NCPDP) 2017071 XML messages:
+A "fillable prescription" is any inbound prescription with medication information, sent by an external or non-VA provider, which includes one of the following National Council for Prescription Drug Programs (NCPDP) 2017071 XML messages:
 
 - NewRx Message
 - RxRenewal Response Message - Replace response type
@@ -21336,7 +21382,7 @@ A “fillable prescription” is any inbound prescription with medication inform
 - RxChange Response Message - Approved with Changes (AwC) response type for request types Generic Substitution, Therapeutic Interchange/Substitution, Drug Use Evaluation, Script Clarification and Out of Stock.
 - RxChange Response Message - Validated response type for request type Prescriber Authorization
 
-> **NOTE:** According to NCPDP 2017071, RxRenewal Response Approved and Approved with Changes types are also treated as fillable prescriptions. But the workflows for these are different than the above mentioned inbound message types. Throughout the guide, the term “fillable” is used for the above mentioned inbound message types only.
+> **NOTE:** According to NCPDP 2017071, RxRenewal Response Approved and Approved with Changes types are also treated as fillable prescriptions. But the workflows for these are different than the above mentioned inbound message types. Throughout the guide, the term "fillable" is used for the above mentioned inbound message types only.
 
 ### Inbound ePrescribing Workflow
 
@@ -21349,13 +21395,13 @@ The IEP workflow is illustrated in the figure and described below.
 <span id="_Toc56760876" class="anchor"></span>Figure 1‑2: Process Inbound ePrescribing Flow
 
 1.  eR<sub>X</sub>es are sent from an external provider to SureScripts and/or Change Healthcare (CH). CH provides commercial ePrescribing solutions and, for the purposes of the IEP implementation, serves as a gateway to all participating ePrescribing providers nationwide.
-2.  CH verifies and transmits eR<sub>X</sub> transactions to/from SureScripts and/or an external provider’s EHR system and the IEP system.
+2.  CH verifies and transmits eR<sub>X</sub> transactions to/from SureScripts and/or an external provider's EHR system and the IEP system.
 3.  The eR<sub>X</sub>es are routed from CH to the IEP Processing Hub via the Data Access Service (DAS) external gateway. DAS and CH communicate using https requests over a secured network.
 4.  In the IEP Processing Hub, autochecks occur on the fillable prescriptions for Patient, Provider, and Drug/SIG. Refer to section <u>1.2.4</u> [Fillable Prescriptions](#_Fillable_Prescriptions) for the definition of fillable prescriptions. The Master Person Index (MPI) is used for patient checking, depending on the data set that is sent by the Prescriber for that patient. For patient Enrollment and Eligibility (E&E) checks, the Enrollment System (ES) is used. The ES assists Veterans to enroll for VA healthcare benefits and is the core application that feeds other VA systems with E&E data. The E&E check is optional and can be turned on or off for each site. Patient Registration is also confirmed against the instance of the receiving pharmacy.
 5.  The Drug Name is matched against the local Drug File first, the VA Product Name next and then the National Drug Code (NDC), depending on which it matches first on. As a note, autochecks can be incorrect therefore the data must also be validated against the medication data sent for fillable prescriptions. Refer to section <u>Error! Reference source not found.Error! Reference source not found.</u> for more information.
 6.  The IEP web-based application allows users to view and generate reports on the autocheck results in the Processing Hub, as well as manage VA pharmacy information, and search for and print an eR<sub>X</sub>.
 7.  Once the eR<sub>X</sub> has completed all autochecks in the IEP Processing Hub, the fillable prescription, as well as the outcomes of all the autochecks (patient, provider, and drug), are transmitted to VistA OP. VistA Link is used for the provider and drug checks against the VistA OP system.
-8.  The VistA OP’s IEP Holding Queue allows for the initial validation and acceptance of an eR<sub>X</sub> before being transmitted to Pending Outpatient Orders file for additional order checks and then final dispensing.
+8.  The VistA OP's IEP Holding Queue allows for the initial validation and acceptance of an eR<sub>X</sub> before being transmitted to Pending Outpatient Orders file for additional order checks and then final dispensing.
 9.  A RxRenewal Request transaction is originated by the pharmacy. This transaction is for requesting approval for additional renewals of a prescription once the original number of renewals has been dispensed. A RxRenewal Response is sent by the prescriber to the pharmacy in response to a request to renew a prescription. The response indicates whether the RxRenewal Request has been accepted, denied, or replaced.
 10. A CancelRx Request message is used to notify the pharmacy that a previously sent fillable prescription should be canceled and not filled. The message is originated by the prescriber system as a CancelRx Request message. The CancelRx Response message is sent from the pharmacy to the prescriber system in response to a CancelRx Request message.
 11. A RxChange Request transaction is originated by the pharmacy. This transaction is for requesting changes to a prescription, Prior Authorization or Prescriber Authorization. A RxChange Response is sent by the prescriber to the pharmacy in response to the change requested. The response indicates whether the RxChange Request has been accepted, denied, or validated.
@@ -21524,13 +21570,13 @@ This table displays the VistA OP Inbound eRx Holding Queue User Roles & Capabili
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For issues with the IEP web-based application that cannot be resolved by this guide or the site administrator, please contact the Enterprise Service Desk (ESD) at 1-855-673-4357 and reference “VistA - Pharmacy: Outpatient Pharmacy.”
+For issues with the IEP web-based application that cannot be resolved by this guide or the site administrator, please contact the Enterprise Service Desk (ESD) at 1-855-673-4357 and reference "VistA - Pharmacy: Outpatient Pharmacy."
 
 ## FAX Failover
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When CH attempts to send an eR<sub>X</sub> to a pharmacy, but the VA Inbound eR<sub>X</sub> Processing Hub does not return an NCPDP STATUS message back before the request times out or if a synchronous NCPDP ERROR message is returned by the Hub, a “FAX failover” occurs. CH delivers the eR<sub>X</sub> message via FAX using the FAX number on record of the destination pharmacy. VA Pharmacies need to process eR<sub>X</sub> records received via FAX as non-electronic R<sub>X</sub>es. There is no record of these FAX messages in either the Inbound eR<sub>X</sub> Processing Hub or the VistA OP Holding Queue.
+When CH attempts to send an eR<sub>X</sub> to a pharmacy, but the VA Inbound eR<sub>X</sub> Processing Hub does not return an NCPDP STATUS message back before the request times out or if a synchronous NCPDP ERROR message is returned by the Hub, a "FAX failover" occurs. CH delivers the eR<sub>X</sub> message via FAX using the FAX number on record of the destination pharmacy. VA Pharmacies need to process eR<sub>X</sub> records received via FAX as non-electronic R<sub>X</sub>es. There is no record of these FAX messages in either the Inbound eR<sub>X</sub> Processing Hub or the VistA OP Holding Queue.
 
 ## Inbound ePrescribing Web-Based Application Overview
 
@@ -21563,13 +21609,13 @@ A Personal Identification Verification (PIV) card is required to access the appl
 
 <span id="_Toc56760878" class="anchor"></span>Figure 2‑1: VA Single Sign-on
 
-3.  In the “Select a Certificate” dialog, select the desired certificate and then select OK.
+3.  In the "Select a Certificate" dialog, select the desired certificate and then select OK.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/006.png)
 
 <span id="_Toc56760879" class="anchor"></span>Figure 2‑2: Select a Certificate
 
-4.  In the “ActivClient Login” dialog, enter the Personal Identification Number (PIN) in the “PIN” text box and select OK.
+4.  In the "ActivClient Login" dialog, enter the Personal Identification Number (PIN) in the "PIN" text box and select OK.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/007.png)
 
@@ -21594,7 +21640,7 @@ When authentication and authorization is successful, the application home screen
 The following figure outlines the key areas of the screen layout. Brief descriptions of the screen layout are provided below:
 
 1.  On the top-right of the screen is a Go to Main Content link for Section 508 purposes to allow a user to be directed to the main content on the screen.
-2.  The logged-in user’s VA User ID and a Logout link displays on the right side of the banner.
+2.  The logged-in user's VA User ID and a Logout link displays on the right side of the banner.
 3.  Below the banner, the main tabs display for accessing the screens within the application.
 4.  The name of the screen displays below the main tabs.
 5.  The bottom of the screen also contains hyperlinks to the main tab screens.
@@ -21616,7 +21662,7 @@ The tabs and their associated user access include:
 
 #### Inbound eR<sub>X</sub> Homepage
 
-The Inbound eR<sub>X</sub> Homepage is displayed when successful login authentication and verification is completed. The Inbound eR<sub>X</sub> Homepage is always accessible by selecting the Home tab in the menu bar. The Home screen is accessible to all user roles. However, only the tabs authorized for the user’s role display.
+The Inbound eR<sub>X</sub> Homepage is displayed when successful login authentication and verification is completed. The Inbound eR<sub>X</sub> Homepage is always accessible by selecting the Home tab in the menu bar. The Home screen is accessible to all user roles. However, only the tabs authorized for the user's role display.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/011.png)
 
@@ -21626,7 +21672,7 @@ The Inbound eR<sub>X</sub> Homepage is displayed when successful login authentic
 
 To access the Pharmacy Management screen, select the Pharmacy Management tab in the menu bar. The Pharmacy Management screen displays the Pharmacy Management table that provides information about pharmacies and allows Administrators and Pharmacy Managers to search for, add, and edit pharmacies. Users can also enable/disable the receiving of prescriptions targeted for a particular pharmacy.
 
-> **NOTE:** The search filters default to “All” in the VISN field. The user must select the Search button for information to populate.
+> **NOTE:** The search filters default to "All" in the VISN field. The user must select the Search button for information to populate.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/012.png)
 
@@ -21676,7 +21722,7 @@ When the Help tab is selected, the Help Page displays in a new window.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following sections provide descriptions of the IEP web-based application’s capabilities within each tab.
+The following sections provide descriptions of the IEP web-based application's capabilities within each tab.
 
 ### Pharmacy Management
 
@@ -21696,8 +21742,8 @@ To search for a pharmacy:
 
 1.  Enter the NCPDP ID (if known).
 2.  Enter the Pharmacy Name.
-3.  Select the desired VISN number from the “VISN” drop down.
-4.  Select the desired Station ID from the “Station ID” drop down. If viewing All VISNs, the user is unable to select a Station ID. To select a specific Station ID, the VISN must be selected.
+3.  Select the desired VISN number from the "VISN" drop down.
+4.  Select the desired Station ID from the "Station ID" drop down. If viewing All VISNs, the user is unable to select a Station ID. To select a specific Station ID, the VISN must be selected.
 5.  Select Search.
 
 The Pharmacy Management table displays results for the selected search criteria.
@@ -21708,17 +21754,17 @@ The Pharmacy Management table displays results for the selected search criteria.
 
 #### Adding a Pharmacy
 
-To add a new pharmacy, please contact the ESD at 1-855-673-4357 and reference “VistA - Pharmacy: Outpatient Pharmacy.”
+To add a new pharmacy, please contact the ESD at 1-855-673-4357 and reference "VistA - Pharmacy: Outpatient Pharmacy."
 
 > **NOTE:** The pharmacy must be pre-registered as a pharmacy in ePharmacy. ePharmacy is supported by CH therefore ePharmacy registration adds the pharmacy to the same CH Pharmacy Directory (\*NCPDP ID required) used by Inbound eR<sub>X</sub>. For IEP, CH must also enable eR<sub>X</sub> support for the pharmacy through the IEP web-based application.
 
 #### Updating a Pharmacy
 
-To update information for a VA pharmacy, please contact the ESD at 1-855-673-4357 and reference “VistA - Pharmacy: Outpatient Pharmacy.”
+To update information for a VA pharmacy, please contact the ESD at 1-855-673-4357 and reference "VistA - Pharmacy: Outpatient Pharmacy."
 
 #### Disable eR<sub>X</sub>
 
-To completely halt a specific Pharmacy from receiving ePrescriptions, please contact the ESD at 1-855-673-4357 and reference “VistA - Pharmacy: Outpatient Pharmacy.”
+To completely halt a specific Pharmacy from receiving ePrescriptions, please contact the ESD at 1-855-673-4357 and reference "VistA - Pharmacy: Outpatient Pharmacy."
 
 > **NOTE:** If a pharmacy is to be disabled for a long duration, a request must be made to CH. Note that the ESD routes the ticket to an IEP administrator to assist with this step. CH can switch the pharmacy to fax only or turn off eR<sub>X</sub> delivery (electronic or fax) completely.
 
@@ -21733,21 +21779,21 @@ Disabling a pharmacy allows users to temporarily disable the pharmacy from recei
 To temporarily disable a pharmacy:
 
 1.  Search for the desired pharmacy.
-2.  From the Pharmacy Management table, select the hyperlink for the desired pharmacy to edit in the “NCPDP ID” column.
+2.  From the Pharmacy Management table, select the hyperlink for the desired pharmacy to edit in the "NCPDP ID" column.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/019.png)
 
 <span id="_Toc56760892" class="anchor"></span>Figure 2‑15: NCPDP ID Column Hyperlinks
 
-The Edit Pharmacy screen displays. At the top of the screen is a Warning Message with text notifying the user that any change made here will not update the pharmacy in CH’s published pharmacy directory. Selecting Return to Pharmacy Management returns the user to the Pharmacy Management screen.
+The Edit Pharmacy screen displays. At the top of the screen is a Warning Message with text notifying the user that any change made here will not update the pharmacy in CH's published pharmacy directory. Selecting Return to Pharmacy Management returns the user to the Pharmacy Management screen.
 
-3.  Select No from the “Inbound eR<sub>X</sub> Enabled” drop down.
+3.  Select No from the "Inbound eR<sub>X</sub> Enabled" drop down.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/020.png)
 
 <span id="_Toc56760893" class="anchor"></span>Figure 2‑16: eR<sub>X</sub> Enabled Drop Down
 
-4.  At the bottom of the Edit Pharmacy screen, select Update to save all changes. The date that the fields were modified displays in the “Updated Date” field.
+4.  At the bottom of the Edit Pharmacy screen, select Update to save all changes. The date that the fields were modified displays in the "Updated Date" field.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/021.png)
 
@@ -21759,14 +21805,14 @@ The pharmacy can be enabled once it is ready to receive eR<sub>X</sub>es again.
 
 To enable a pharmacy:
 
-1.  Select Yes from the “Inbound eR<sub>X</sub> Enabled” drop down on the Edit Pharmacy screen.
+1.  Select Yes from the "Inbound eR<sub>X</sub> Enabled" drop down on the Edit Pharmacy screen.
 2.  Select Update (not shown).
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/022.png)
 
 <span id="_Toc56760895" class="anchor"></span>Figure 2‑18: Enable/Disable Pharmacy
 
-> **NOTE:** If a pharmacy is not enabled and a prescription comes in for that pharmacy, an error message is sent back to the provider’s EHR system to notify the provider that the pharmacy is not currently receiving eR<sub>X</sub>es.
+> **NOTE:** If a pharmacy is not enabled and a prescription comes in for that pharmacy, an error message is sent back to the provider's EHR system to notify the provider that the pharmacy is not currently receiving eR<sub>X</sub>es.
 
 #### Enrollment and Eligibility Check
 
@@ -21775,14 +21821,14 @@ The Enrollment and Eligibility (E&E) check may be enabled or disabled for indivi
 To ensure the Enrollment and Eligibility Check is enabled for a pharmacy:
 
 1.  Select the desired pharmacy from the Pharmacy Management table.
-2.  Ensure Yes displays in the “Enrollment and Eligibility Check Enabled” field.
-3.  If required, select Yes in the “Enrollment and Eligibility Check Enabled” drop-down and then select Update.
+2.  Ensure Yes displays in the "Enrollment and Eligibility Check Enabled" field.
+3.  If required, select Yes in the "Enrollment and Eligibility Check Enabled" drop-down and then select Update.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/023.png)
 
 <span id="_Toc56760896" class="anchor"></span>Figure 2‑19: Enrollment and Eligibility Check Enabled
 
-If the Enrollment and Eligibility Check is not enabled for a pharmacy, the Patient Auto Check Status displays as “MVI_MATCH_NOT_FOUND” on the Track/Audit screen.
+If the Enrollment and Eligibility Check is not enabled for a pharmacy, the Patient Auto Check Status displays as "MVI_MATCH_NOT_FOUND" on the Track/Audit screen.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/024.png)
 
@@ -21836,7 +21882,7 @@ The search criteria are described in the table below.
 
 Track/Audit eRx Search Criteria
 
-2.  Use the “Max Records” drop down to set the limit of search results. This value can be set to 100, 7500, or 10000. The default value is 100. Limiting search results decreases the time required to conduct a search.
+2.  Use the "Max Records" drop down to set the limit of search results. This value can be set to 100, 7500, or 10000. The default value is 100. Limiting search results decreases the time required to conduct a search.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/026.png)
 
@@ -21848,7 +21894,7 @@ Track/Audit eRx Search Criteria
 
 <span id="_Toc56760900" class="anchor"></span>Figure 2‑23: Track/Audit eR<sub>X</sub> Search
 
-A “Search in progress” message displays during search.
+A "Search in progress" message displays during search.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/028.png)
 
@@ -21891,7 +21937,7 @@ Table of the Search Results Fields and Descriptions
 
 #### Export Search Results
 
-From the Track/Audit tab, users have the capability of exporting the search results. Exports are in .CSV format and can be viewed in Microsoft Excel. The number of records exported is dependent on the number of records selected in the “Max Records” dropdown.
+From the Track/Audit tab, users have the capability of exporting the search results. Exports are in .CSV format and can be viewed in Microsoft Excel. The number of records exported is dependent on the number of records selected in the "Max Records" dropdown.
 
 To export the search results:
 
@@ -21910,14 +21956,14 @@ A prompt displays asking to Open or Save the results.
 
 <span id="_Toc56760904" class="anchor"></span>Figure 2‑27: Track/Audit Export Prompt (after clicking Export buttons)
 
-4.  When the arrow is selected, the system displays a “Save As” dialog (not shown). Navigate to a location on your system to save the file.
+4.  When the arrow is selected, the system displays a "Save As" dialog (not shown). Navigate to a location on your system to save the file.
 14. 
 
 #### Inbound/Outbound Message Detail
 
 Inbound/outbound message detail information is reviewed and managed under the Track/Audit tab.
 
-To access the detail screen of a message, select the hyperlink in the “eRx Reference \#” column to display the desired message detail.
+To access the detail screen of a message, select the hyperlink in the "eRx Reference \#" column to display the desired message detail.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/032.png)
 
@@ -21933,7 +21979,7 @@ The message details display. Each message detail screen includes the following b
 
 <span id="_Toc56760906" class="anchor"></span>Figure 2‑29: Message Details
 
-If the Show Related Messages button is selected, any sent and received messages that are related to the current message display based on the Message ID linkage. For example, Related Messages for a RxRenewal Response should, at minimum, display the related RxRenewal Request and the NewRx for which the refill was requested. Related messages also include related Status, Verify, and/or Error Messages, if applicable. Related messages display in descending order of received date. The most recent message is at the top of the list, and the NewRx message is at the bottom. Select the number in the “eR<sub>X</sub> Reference \#” column to view message details.
+If the Show Related Messages button is selected, any sent and received messages that are related to the current message display based on the Message ID linkage. For example, Related Messages for a RxRenewal Response should, at minimum, display the related RxRenewal Request and the NewRx for which the refill was requested. Related messages also include related Status, Verify, and/or Error Messages, if applicable. Related messages display in descending order of received date. The most recent message is at the top of the list, and the NewRx message is at the bottom. Select the number in the "eR<sub>X</sub> Reference \#" column to view message details.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/034.png)
 
@@ -21943,7 +21989,7 @@ If the Show Related Messages button is selected, any sent and received messages 
 
 The NewRx detail screen displays the new eR<sub>X</sub> from an external provider.
 
-To access the NewRx detail screen, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the NewRx detail screen, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/035.png)
 
@@ -21959,7 +22005,7 @@ The selected message details display.
 
 RxRenewal Request message details can be viewed under the Track/Audit tab.
 
-To access the RxRenewal Request message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the RxRenewal Request message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/037.png)
 
@@ -21975,7 +22021,7 @@ The selected message details display.
 
 RxRenewal Response message details can be viewed under the Track/Audit tab.
 
-To access the RxRenewal Response message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the RxRenewal Response message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/039.png)
 
@@ -21991,7 +22037,7 @@ The selected message details display.
 
 RxChange Request message details can be viewed under the Track/Audit tab.
 
-To access the RxChange Request message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the RxChange Request message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/041.png)
 
@@ -22007,7 +22053,7 @@ The selected message details display.
 
 RxChange Response message details can be viewed under the Track/Audit tab.
 
-To access the RxChange Response message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the RxChange Response message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/043.png)
 
@@ -22023,7 +22069,7 @@ The selected message details display.
 
 The CancelRx Request message details can be viewed under the Track/Audit tab.
 
-To access the CancelRx Request message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the CancelRx Request message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/045.png)
 
@@ -22039,7 +22085,7 @@ The selected message details display.
 
 The CancelRx Response message details can be displayed under the Track/Audit tab.
 
-To access the CancelRx Response message details, select the hyperlink in the “eRx Reference \#” column for the desired message.
+To access the CancelRx Response message details, select the hyperlink in the "eRx Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/047.png)
 
@@ -22055,9 +22101,9 @@ The selected message details display.
 
 At multiple points in the process, an Error transaction can be generated. Outbound error messages are sent when an eR<sub>X</sub> record that is NCPDP corrupted is received, when the receiving Pharmacy is not one of the VA pharmacies configured in the Inbound eR<sub>X</sub> system, or when an eR<sub>X</sub> record with a Written or Effective Date older than or equal to 365 days is received.
 
-Inbound Errors for VistA may be received under multiple situations such as if the Prescriber’s EHR system is unable to receive and process a certain transaction sent from the Pharmacy, or a connection between the Transaction Hub and CH is not working.
+Inbound Errors for VistA may be received under multiple situations such as if the Prescriber's EHR system is unable to receive and process a certain transaction sent from the Pharmacy, or a connection between the Transaction Hub and CH is not working.
 
-To access the Error message details, select the hyperlink in the “eR<sub>X</sub> Reference \#” column for the desired message.
+To access the Error message details, select the hyperlink in the "eR<sub>X</sub> Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/049.png)
 
@@ -22071,9 +22117,9 @@ The selected message details sent and received by the Processing Hub display.
 
 #### Verify Messages
 
-The Verify message confirms delivery of a message to its final destination. The Verify message is an NCPDP transaction that indicates the acceptance of the request by the receiving system. This message is used to communicate the data content status of a transaction. Verify Messages sent from the Transaction Hub are Outbound Verify Messages. Verify Messages received from CH and/or an External Provider’s EHR system are Inbound Verify Messages.
+The Verify message confirms delivery of a message to its final destination. The Verify message is an NCPDP transaction that indicates the acceptance of the request by the receiving system. This message is used to communicate the data content status of a transaction. Verify Messages sent from the Transaction Hub are Outbound Verify Messages. Verify Messages received from CH and/or an External Provider's EHR system are Inbound Verify Messages.
 
-To access the Verify message detail screen, select the hyperlink in the “eR<sub>X</sub> Reference \#” column for the desired message.
+To access the Verify message detail screen, select the hyperlink in the "eR<sub>X</sub> Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/051.png)
 
@@ -22089,7 +22135,7 @@ The selected message details sent by the Processing Hub display.
 
 The Status message is used to relay acceptance of a transaction back to the sender. The Status message is an NCPDP transaction that indicates the acceptance of the request. For the Inbound eR<sub>X</sub> web-based application, Inbound Status messages are received from CH and Outbound Status messages are sent from the Transaction Hub. Outbound Status messages are not stored in the Transaction Hub and cannot be viewed.
 
-To access the Status message detail screen, select the hyperlink in the “eR<sub>X</sub> Reference \#” column for the desired message.
+To access the Status message detail screen, select the hyperlink in the "eR<sub>X</sub> Reference \#" column for the desired message.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/053.png)
 
@@ -22112,7 +22158,7 @@ The Reports tab is used to generate high-level reports. From the Reports tab, us
 - <u>Reject Reasons Report</u>
 - <u>eRX Summary Report</u>
 
-When the user initially views any of the Reports pages, the default date range is two days (the current date and the previous date). Each report displays counts under the respective columns for the selected date range based on the status of the records in the system during the selected date range. When the user selects any report, the “Search in progress, please wait…” message displays while the report is loading.
+When the user initially views any of the Reports pages, the default date range is two days (the current date and the previous date). Each report displays counts under the respective columns for the selected date range based on the status of the records in the system during the selected date range. When the user selects any report, the "Search in progress, please wait…" message displays while the report is loading.
 
 Reports can be viewed in the web application or they can be exported. For additional information on exporting reports, refer to section <u>2.2.4 Export Reports</u>.
 
@@ -22122,13 +22168,13 @@ The Summary Report NewRx Only provides a summary of eR<sub>X</sub> auto-validati
 
 To run a NewRx Summary Report:
 
-1.  From the Reports screen, select Summary Report NewRx Only from the “Select Report” drop down.
+1.  From the Reports screen, select Summary Report NewRx Only from the "Select Report" drop down.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/055.png)
 
 <span id="_Toc56760928" class="anchor"></span>Figure 2‑51: Summary Report NewRx Only Drop Down Selection
 
-2.  Select the desired VISN from the “VISN” drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
+2.  Select the desired VISN from the "VISN" drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
 3.  To narrow the search by VA Station ID, select the Station ID for the report.
 4.  Select the date range from the Calendar drop downs for the report or enter date(s) using the MM/DD/YYYY format.
 5.  Select Run Report to generate the report.
@@ -22137,7 +22183,7 @@ To run a NewRx Summary Report:
 
 <span id="_Toc56760929" class="anchor"></span>Figure 2‑52: NewRx Summary Report
 
-Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a “Report As of:” date and time stamp.
+Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a "Report As of:" date and time stamp.
 
 The NewRx Only Summary Report fields are described in the table below.
 
@@ -22167,13 +22213,13 @@ The Auto Check Details Report provides details of the auto checks performed by t
 
 To run an Auto Check Details Report:
 
-1.  From the Reports screen, select Auto Check Details Report from the “Select Report” drop down.
+1.  From the Reports screen, select Auto Check Details Report from the "Select Report" drop down.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/057.png)
 
 <span id="_Toc56760930" class="anchor"></span>Figure 2‑53: Auto Check Details Report Drop Down Selection
 
-2.  Select the desired VISN from the “VISN” drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
+2.  Select the desired VISN from the "VISN" drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
 3.  To narrow the search by VA Station ID, select the Station ID for the report.
 4.  Select the date range from the Calendar drop downs for the report or enter date(s) using the MM/DD/YYYY format.
 5.  Select Run Report to generate the report.
@@ -22182,7 +22228,7 @@ To run an Auto Check Details Report:
 
 <span id="_Toc56760931" class="anchor"></span>Figure 2‑54: Auto Check Details Report
 
-Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a “Report As of:” date and time stamp.
+Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a "Report As of:" date and time stamp.
 
 The Auto Check Details Report fields are described in the table below.
 
@@ -22215,13 +22261,13 @@ The Reject Reasons Report provides details of eR<sub>X</sub> Rejections.
 
 To run a Reject Reasons Report:
 
-1.  From the Reports screen, select Reject Reasons Report from the “Select Report” drop down.
+1.  From the Reports screen, select Reject Reasons Report from the "Select Report" drop down.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/059.png)
 
 <span id="_Toc56760932" class="anchor"></span>Figure 2‑55: Reject Reasons Report Drop Down Selection
 
-2.  Select the desired VISN from the “VISN” drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
+2.  Select the desired VISN from the "VISN" drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
 3.  To narrow the search by VA Station ID, select the Station ID for the report.
 4.  Select the date range from the Calendar drop downs for the report or enter date(s) using the MM/DD/YYYY format.
 5.  Select Run Report to generate the report.
@@ -22230,7 +22276,7 @@ To run a Reject Reasons Report:
 
 <span id="_Toc56760933" class="anchor"></span>Figure 2‑56: Reject Reasons Report
 
-Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a “Report As of:” date and time stamp.
+Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a "Report As of:" date and time stamp.
 
 The Reject Reason Report fields are described in the table below.
 
@@ -22267,13 +22313,13 @@ The eR<sub>X</sub> Summary Report provides a summary of eR<sub>X</sub> auto-vali
 
 To run an eR<sub>X</sub> Summary Report:
 
-1.  From the Reports screen, select eRx Summary Report from the “Select Report” drop down.
+1.  From the Reports screen, select eRx Summary Report from the "Select Report" drop down.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/061.png)
 
 <span id="_Toc56760934" class="anchor"></span>Figure 2‑57: eR<sub>X</sub> Summary Report Drop Down Selection
 
-2.  Select the desired VISN from the “VISN” drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
+2.  Select the desired VISN from the "VISN" drop down. The drop down contains each VISN number as well as an ALL selection to select all VISNs.
 3.  To narrow the search by VA Station ID, select the Station ID for the report.
 4.  Select the date range from the Calendar drop downs for the report or enter date(s) using the MM/DD/YYYY format.
 5.  Select Run Report to generate the report.
@@ -22282,7 +22328,7 @@ To run an eR<sub>X</sub> Summary Report:
 
 <span id="_Toc56760935" class="anchor"></span>Figure 2‑58: eR<sub>X</sub> Summary Report
 
-Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a “Report As of:” date and time stamp. The eR<sub>X</sub> Summary Report fields are described in the table below.
+Beneath the generated report, a total number of records displays. The totals for each column display at the bottom of the page, along with a "Report As of:" date and time stamp. The eR<sub>X</sub> Summary Report fields are described in the table below.
 
 <span id="_Toc498002241" class="anchor"></span>Table 10: eR<sub>X</sub> Summary Report Columns
 
@@ -22326,7 +22372,7 @@ A prompt displays asking to Open or Save the report.
 
 <span id="_Toc56760937" class="anchor"></span>Figure 2‑60: Summary Report Export Prompt (after clicking Export button)
 
-4.  When the arrow is selected, the system displays a “Save As” dialog (not shown). Navigate to a location on your system to save the file.
+4.  When the arrow is selected, the system displays a "Save As" dialog (not shown). Navigate to a location on your system to save the file.
 
 ### User Management
 
@@ -22342,13 +22388,13 @@ System Administrators can add new users from the User Management screen.
 
 To add a new user:
 
-1.  Enter the new user’s User ID, First Name, and Last Name.
+1.  Enter the new user's User ID, First Name, and Last Name.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/065.png)
 
 <span id="_Toc56760938" class="anchor"></span>Figure 2‑61: Add User - User ID, First Name, Last Name
 
-2.  Select the new user’s role(s). Multiple roles may be selected by holding \<Ctrl\> while selecting more than one role.
+2.  Select the new user's role(s). Multiple roles may be selected by holding \<Ctrl\> while selecting more than one role.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/066.png)
 
@@ -22360,7 +22406,7 @@ To add a new user:
 
 <span id="_Toc56760940" class="anchor"></span>Figure 2‑63: Add User – Select Station ID
 
-15. Select Add to add the selected Station ID(s) to the “Selected Station IDs” field. To remove Station IDs from the “Selected Station IDs” field, select Remove (not shown).
+15. Select Add to add the selected Station ID(s) to the "Selected Station IDs" field. To remove Station IDs from the "Selected Station IDs" field, select Remove (not shown).
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/068.png)
 
@@ -22368,7 +22414,7 @@ To add a new user:
 
 When a user is assigned to a Station ID, they are only able to see other users and information within that Station ID. For example, in the User Management table they only see users also assigned to that Station ID and under Pharmacy Management, they only see information for pharmacies within that Station ID.
 
-If All is selected from the “Station ID” field and added to the “Selected Station IDs” field, the user has access to all Station IDs. Additional Station ID values cannot be added if All has been selected and added to the “Selected Station IDs” field. If a user attempts to add additional values an error message displays.
+If All is selected from the "Station ID" field and added to the "Selected Station IDs" field, the user has access to all Station IDs. Additional Station ID values cannot be added if All has been selected and added to the "Selected Station IDs" field. If a user attempts to add additional values an error message displays.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/069.png)
 
@@ -22407,17 +22453,17 @@ A message displays indicating that the user was updated successfully.
 
 #### Enable/Disable Users
 
-Users can be disabled and/or re-enabled to use the web application. Enabling and disabling a user’s access is selected using the “Enable/Disable User” checkbox in the desired user’s row. A deselected checkbox (shown below) reflects that the user’s access is enabled, and a selected checkbox reflects that the user’s access has been disabled.
+Users can be disabled and/or re-enabled to use the web application. Enabling and disabling a user's access is selected using the "Enable/Disable User" checkbox in the desired user's row. A deselected checkbox (shown below) reflects that the user's access is enabled, and a selected checkbox reflects that the user's access has been disabled.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/072.png)
 
 <span id="_Toc56760945" class="anchor"></span>Figure 2‑68: User Management Table – Enable/Disable User
 
-To update a user’s access:
+To update a user's access:
 
 1.  Locate the user in the User Management table.
-2.  Select the checkbox in the “Enable/Disable User” column to disable access or deselect the checkbox to re-enable access.
-3.  Select Save from the bottom of the screen (not shown) to update the user’s access.
+2.  Select the checkbox in the "Enable/Disable User" column to disable access or deselect the checkbox to re-enable access.
+3.  Select Save from the bottom of the screen (not shown) to update the user's access.
 
 ![](inbound-eprescribing-user-manual-unit-1-unit-2-pso-7-581/073.png)
 
@@ -22444,7 +22490,7 @@ Once the request is acknowledged, it is no longer displayed in the list view. Ca
 1.  From the eR<sub>X</sub> Holding Queue List screen, type \<MV\> Message View.
 2.  Type CancelRx Request.
 
-The CancelRx Request message statuses are displayed in the “Status” column on the eR<sub>X</sub> Holding Queue.
+The CancelRx Request message statuses are displayed in the "Status" column on the eR<sub>X</sub> Holding Queue.
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/002.png)
 
@@ -22549,7 +22595,7 @@ When a CancelRx Request is received, the eR<sub>X</sub> Transaction Hub sends th
 
 The following scenarios apply when there is no matching fillable eR<sub>X</sub> record for the CancelRx Request received:
 
-- If there is no matching fillable eR<sub>X</sub> in the eR<sub>X</sub> Transaction Hub, the request is received and displayed in the Holding Queue’s list view in status CAP (Cancel Paper R<sub>X</sub> or Faxed R<sub>X</sub>).
+- If there is no matching fillable eR<sub>X</sub> in the eR<sub>X</sub> Transaction Hub, the request is received and displayed in the Holding Queue's list view in status CAP (Cancel Paper R<sub>X</sub> or Faxed R<sub>X</sub>).
 - When the CancelRx Request is received in the Holding Queue but does not auto-Cancel a record, it is marked with the status CAR (CancelRx Request Received).
 
 In cases where the CancelRx Request status is marked as CAR or CAP, the user must acknowledge the requests and send out manual Approved or Denied CancelRx Responses.
@@ -22585,7 +22631,7 @@ The details screen displays the eR<sub>X</sub> information along with the Cancel
 
 #### Matching Fillable eR<sub>X</sub> Prescription Found
 
-When the CancelRx Request is received in the Holding Queue and finds a matching fillable eR<sub>X</sub> record to be canceled, the status of the fillable eR<sub>X</sub> record changes to “CAN” (Original eR<sub>X</sub> Canceled in Holding Queue) from its previously known status. In the case of a NewRx record, those statuses are: “N”, “I”, “W”, “H*xx* (where *x* = letter)”, “RJ” or “RM”. Once the fillable prescription is marked “CAN”, it is not an actionable entry and is not displayed in the Holding Queue’s list view.
+When the CancelRx Request is received in the Holding Queue and finds a matching fillable eR<sub>X</sub> record to be canceled, the status of the fillable eR<sub>X</sub> record changes to "CAN" (Original eR<sub>X</sub> Canceled in Holding Queue) from its previously known status. In the case of a NewRx record, those statuses are: "N", "I", "W", "H*xx* (where *x* = letter)", "RJ" or "RM". Once the fillable prescription is marked "CAN", it is not an actionable entry and is not displayed in the Holding Queue's list view.
 
 #### Automated Approved CancelRx Responses
 
@@ -22634,7 +22680,7 @@ To view a manually approved CancelRx Response details screen, select the desired
 
 <span id="_Toc56761244" class="anchor"></span>Figure ‑: CAH Status in Holding Queue List View
 
-The details screen displays the eR<sub>X</sub> information along with the CancelRx Request information. In the example below, the Last NewRx Status displays as “I” (In Process).
+The details screen displays the eR<sub>X</sub> information along with the CancelRx Request information. In the example below, the Last NewRx Status displays as "I" (In Process).
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/015.png)
 
@@ -22644,7 +22690,7 @@ The details screen displays the eR<sub>X</sub> information along with the Cancel
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When the CancelRx Request is received in the Holding Queue for a NewRx record to be canceled, and the status of the NewRx record is “PR” (Processed), an entry exists on the Outpatient side, the status changes to “CAN” (Original eR<sub>X</sub> Canceled in Holding Queue). Once the original prescription is marked “CAN”, it is not an actionable entry and is not displayed in the Holding Queue’s list view.
+When the CancelRx Request is received in the Holding Queue for a NewRx record to be canceled, and the status of the NewRx record is "PR" (Processed), an entry exists on the Outpatient side, the status changes to "CAN" (Original eR<sub>X</sub> Canceled in Holding Queue). Once the original prescription is marked "CAN", it is not an actionable entry and is not displayed in the Holding Queue's list view.
 
 When the NewRx is in one of the statuses as specified in the table below, an automated Approved CancelRx Response is sent outbound after auto-Discontinuing the Prescription in OP. The Activity log for the prescription captures the auto-Discontinue activity from this process.
 
@@ -22695,23 +22741,23 @@ As the user continues to scroll, the section for CancelRx Request Information di
 
 <span id="_Toc56761250" class="anchor"></span>Figure ‑: CancelRx Details Screen in Holding Queue 2
 
-The NewRx Details screen includes an eR<sub>X</sub> status stating, “Original eR<sub>X</sub> Canceled in the Holding Queue”.
+The NewRx Details screen includes an eR<sub>X</sub> status stating, "Original eR<sub>X</sub> Canceled in the Holding Queue".
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/021.png)
 
 <span id="_Toc56761251" class="anchor"></span>Figure ‑: NewRx Details Screen
 
-In addition to the above scenarios, the following also go through the same workflow in the case of an “Active” Prescription being auto-Discontinued by a CancelRx Request:
+In addition to the above scenarios, the following also go through the same workflow in the case of an "Active" Prescription being auto-Discontinued by a CancelRx Request:
 
-- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in “PR” status when there is an outstanding Denied RxRenewal Response in the Holding Queue.
-- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in “PR” status, when corresponding eR<sub>X</sub> record is also in Outpatient with a subsequent electronic renewal fill.
-- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in “PR” status and in Outpatient when there is an outstanding Approved or Approved with Changes RxRenewal Response not in the Holding Queue's List View.
-- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in “PR” status and in Outpatient, when there is an outstanding Approved with Changes RxRenewal Response in the Holding Queue's List View (Approved with Changes RxRenewal Response has been \<AC\> Accepted in the Holding Queue).
-- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in “PR” status and in Outpatient, when there is an outstanding Approved with Changes RxRenewal Response in the Holding Queue's List View (Approved with Change RxRenewal Response has not been \<AC\> Accepted in the Holding Queue).
+- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in "PR" status when there is an outstanding Denied RxRenewal Response in the Holding Queue.
+- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in "PR" status, when corresponding eR<sub>X</sub> record is also in Outpatient with a subsequent electronic renewal fill.
+- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in "PR" status and in Outpatient when there is an outstanding Approved or Approved with Changes RxRenewal Response not in the Holding Queue's List View.
+- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in "PR" status and in Outpatient, when there is an outstanding Approved with Changes RxRenewal Response in the Holding Queue's List View (Approved with Changes RxRenewal Response has been \<AC\> Accepted in the Holding Queue).
+- Auto-Cancel on NewR<sub>X</sub> records in the Holding Queue in "PR" status and in Outpatient, when there is an outstanding Approved with Changes RxRenewal Response in the Holding Queue's List View (Approved with Change RxRenewal Response has not been \<AC\> Accepted in the Holding Queue).
 
 #### Manual Approved or Denied CancelRx Responses
 
-When eR<sub>X</sub>es are renewed within VA using either RN function or using CPRS Renewal, the eR<sub>X</sub> is deemed as a VA Prescription. The “&” symbol used to denote eR<sub>X</sub> Prescriptions separately in OP does not display against such Prescriptions anymore. When CancelRx Requests are sent for fillable eR<sub>X</sub> prescriptions that are taken over by VA, the system will not auto-Discontinue the Prescriptions in OP. However, the corresponding Holding Queue NewRx record is changed to “CAN” status and the CancelRx Request may be marked “CAH”, indicating that there is user intervention required.
+When eR<sub>X</sub>es are renewed within VA using either RN function or using CPRS Renewal, the eR<sub>X</sub> is deemed as a VA Prescription. The "&" symbol used to denote eR<sub>X</sub> Prescriptions separately in OP does not display against such Prescriptions anymore. When CancelRx Requests are sent for fillable eR<sub>X</sub> prescriptions that are taken over by VA, the system will not auto-Discontinue the Prescriptions in OP. However, the corresponding Holding Queue NewRx record is changed to "CAN" status and the CancelRx Request may be marked "CAH", indicating that there is user intervention required.
 
 <span id="_Toc56761283" class="anchor"></span>Table 5: Scenarios for Manual Approved or Denied CancelRx Responses for NewRx
 
@@ -22733,7 +22779,7 @@ The Scenarios for Manual Approved or Denied Cancel Rx Responses table displays t
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-“CAF” (CancelRx Failed) is an actionable status used for CancelRx process when a failure occurs. One scenario is when the Outpatient Profile of a patient is locked in OERR and the system is attempting to auto-discontinue an eR<sub>X</sub>.
+"CAF" (CancelRx Failed) is an actionable status used for CancelRx process when a failure occurs. One scenario is when the Outpatient Profile of a patient is locked in OERR and the system is attempting to auto-discontinue an eR<sub>X</sub>.
 
 <span id="_Toc56761284" class="anchor"></span>Table 6: Scenarios for CancelRx Failed
 
@@ -22749,27 +22795,27 @@ The Scenarios for Cancel Rx Failed table displays the \#,Scenario,Lock in OERR, 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-“CAR” (CancelRx Request Received) is an actionable status used for CancelRx process when a NewR<sub>X</sub> record in “PR” status in the Holding Queue is successfully canceled. However, the corresponding eR<sub>X</sub> in OP could not be auto-Discontinued because the patient on the NewR<sub>X</sub> record did not match the VistA patient in the Outpatient record. In this case, no automated CancelRx Response is sent. The user must acknowledge and send a manual response.
+"CAR" (CancelRx Request Received) is an actionable status used for CancelRx process when a NewR<sub>X</sub> record in "PR" status in the Holding Queue is successfully canceled. However, the corresponding eR<sub>X</sub> in OP could not be auto-Discontinued because the patient on the NewR<sub>X</sub> record did not match the VistA patient in the Outpatient record. In this case, no automated CancelRx Response is sent. The user must acknowledge and send a manual response.
 
 ## Inbound Error – CNE
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Inbound Error message is in the NCPDP 2017071 format for Inbound Error message received in VistA under situations including the Prescriber’s EHR system being unable to receive and process a certain transaction sent from the pharmacy or a connection between the Transaction Hub and Change Healthcare is not working.
+The Inbound Error message is in the NCPDP 2017071 format for Inbound Error message received in VistA under situations including the Prescriber's EHR system being unable to receive and process a certain transaction sent from the pharmacy or a connection between the Transaction Hub and Change Healthcare is not working.
 
-When a CancelRx Response sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved but not displayed in the Holding list view, with the status “CNE” (CancelRx Response/Inbound Error). This is not an actionable entry and does not require the user to acknowledge it.
+When a CancelRx Response sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved but not displayed in the Holding list view, with the status "CNE" (CancelRx Response/Inbound Error). This is not an actionable entry and does not require the user to acknowledge it.
 
 ## Acknowledge: Hidden Action for CancelRx Request
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a CancelRx Request is displayed in the Holding Queue’s list view, it is in an actionable status. The user can use the hidden action \<ACK\> Acknowledge to review and remove it from the list view. For a full list of CancelRx Request statuses, refer to <u>Table 13: Holding Queue Status Codes & Descriptions for CancelRx Request Message Type</u> in <u>Appendix B: Holding Queue Status Codes & Descriptions</u>.
+When a CancelRx Request is displayed in the Holding Queue's list view, it is in an actionable status. The user can use the hidden action \<ACK\> Acknowledge to review and remove it from the list view. For a full list of CancelRx Request statuses, refer to <u>Table 13: Holding Queue Status Codes & Descriptions for CancelRx Request Message Type</u> in <u>Appendix B: Holding Queue Status Codes & Descriptions</u>.
 
 ### Acknowledge: Automated CancelRx Response Sent
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-In cases in which the automated CancelRx Response has already been sent to the requesting non-VA provider, the user does not have the ability to select the response type and send it out. This applies to the CancelRx Request records in the Holding Queue’s list view, in “CAO” (Cancel Completed in Holding Queue) actionable status only.
+In cases in which the automated CancelRx Response has already been sent to the requesting non-VA provider, the user does not have the ability to select the response type and send it out. This applies to the CancelRx Request records in the Holding Queue's list view, in "CAO" (Cancel Completed in Holding Queue) actionable status only.
 
 To Acknowledge a CancelRx Request:
 
@@ -22792,13 +22838,13 @@ To Acknowledge a CancelRx Request:
 
 <span id="_Toc56761255" class="anchor"></span>Figure ‑: Acknowledge Record
 
-The CancelRx Request is acknowledged and Status is changed to “CAA” in the Holding Queue.
+The CancelRx Request is acknowledged and Status is changed to "CAA" in the Holding Queue.
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/026.png)
 
 <span id="_Toc56761256" class="anchor"></span>Figure ‑: Holding Queue – CAA Status
 
-When viewing the details of the record, the status of the CancelRx Request displays as “CancelRx Request Acknowledged”.
+When viewing the details of the record, the status of the CancelRx Request displays as "CancelRx Request Acknowledged".
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/027.png)
 
@@ -22808,13 +22854,13 @@ When viewing the details of the record, the status of the CancelRx Request displ
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-In cases where no automated CancelRx Response has been sent to the requesting non-VA Provider, the user has the ability to select the response type and send it out. This applies to the CancelRx Request records in the Holding Queue’s list view, in the following actionable statuses only:
+In cases where no automated CancelRx Response has been sent to the requesting non-VA Provider, the user has the ability to select the response type and send it out. This applies to the CancelRx Request records in the Holding Queue's list view, in the following actionable statuses only:
 
-- “CAR” (CancelRx Request Received)
-- “CAP” (Cancel Paper R<sub>X</sub> or Faxed R<sub>X</sub>)
-- “CAH” (Cancel Completed in Holding Queue)
-- “CAX” (CancelRx Response from VistA Unsuccessful)
-- “CAF” (Cancel Process Failed)
+- "CAR" (CancelRx Request Received)
+- "CAP" (Cancel Paper R<sub>X</sub> or Faxed R<sub>X</sub>)
+- "CAH" (Cancel Completed in Holding Queue)
+- "CAX" (CancelRx Response from VistA Unsuccessful)
+- "CAF" (Cancel Process Failed)
 
 To Acknowledge a CancelRx Request:
 
@@ -22843,13 +22889,13 @@ To Acknowledge a CancelRx Request:
 
 <span id="_Toc56761261" class="anchor"></span>Figure ‑: Acknowledge Record
 
-The CancelRx Request is acknowledged and the Status is changed to “CAA” in the Holding Queue.
+The CancelRx Request is acknowledged and the Status is changed to "CAA" in the Holding Queue.
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/032.png)
 
 <span id="_Toc56761262" class="anchor"></span>Figure ‑: Holding Queue – CAA Status
 
-When viewing the details of the record, the status of the CancelRx Request displays as “CancelRx Request Acknowledged”.
+When viewing the details of the record, the status of the CancelRx Request displays as "CancelRx Request Acknowledged".
 
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-581/033.png)
 
@@ -22859,7 +22905,7 @@ When viewing the details of the record, the status of the CancelRx Request displ
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is a free-text “Comment” field in the Message Details view for CancelRx Request and Response messages. This field allows users to enter additional comments on the CancelRx Request and Response messages. To add a comment:
+There is a free-text "Comment" field in the Message Details view for CancelRx Request and Response messages. This field allows users to enter additional comments on the CancelRx Request and Response messages. To add a comment:
 
 1.  Type action \<AD\>.
 8.  Type Request/Response comments.
@@ -22874,7 +22920,7 @@ There is a free-text “Comment” field in the Message Details view for CancelR
 
 <span id="_Toc56761265" class="anchor"></span>Figure ‑: CancelRx Request Comments
 
-The name of the user who made the comment displays in the “Comments By” field and the date/time the comments were made display in the “Comments Date/Time” field. Users can replace the existing comments with updated comments. When comments are replaced, the last user who made comments displays in the “Comments By” field and the date/time the comments were updated display in the “Comments Date/Time” field. To update or replace comments:
+The name of the user who made the comment displays in the "Comments By" field and the date/time the comments were made display in the "Comments Date/Time" field. Users can replace the existing comments with updated comments. When comments are replaced, the last user who made comments displays in the "Comments By" field and the date/time the comments were updated display in the "Comments Date/Time" field. To update or replace comments:
 
 10. Type action \<AD\>.
 11. Replace with updated comments.
@@ -22952,7 +22998,7 @@ CancelRx Response message is the NCPDP 2017071 format for CancelRx Response sent
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-ERROR messages are in the NCPDP 2017071 format for Inbound Error message received in VistA under situations such as, the Prescriber’s EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and CH is not working.
+ERROR messages are in the NCPDP 2017071 format for Inbound Error message received in VistA under situations such as, the Prescriber's EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and CH is not working.
 
 ### Inbound vs. Outbound Messages
 
@@ -22960,7 +23006,7 @@ ERROR messages are in the NCPDP 2017071 format for Inbound Error message receive
 
 Inbound messages are those that are sent by the external (non-VA) Providers and are received in the Holding Queue. NewRx, RxRenewal Response, RxChange Response, CancelRx Request, and Inbound Error are Inbound messages.
 
-Outbound messages are those that are sent by VA pharmacies to the external Provider’s EHR system. RxRenewal Request, RxChange Request, and CancelRx Response are Outbound messages.
+Outbound messages are those that are sent by VA pharmacies to the external Provider's EHR system. RxRenewal Request, RxChange Request, and CancelRx Response are Outbound messages.
 
 ## Accessing the eR<sub>X</sub> Holding Queue
 
@@ -22998,11 +23044,11 @@ The first screen that displays upon accessing the eR<sub>X</sub> Holding Queue i
 
 #### eR<sub>X</sub> Holding Queue List View
 
-The eR<sub>X</sub> Holding Queue List columns include the patient’s name (Patient), date of birth of the patient (DOB), the prescribed drug from the external provider (Drug), the prescribing physician’s name (Provider), the status of the eR<sub>X</sub> (STA), and the date that the eR<sub>X</sub> was received by VistA (Rec Date). At any given time, 999 eR<sub>X</sub> records are displayed in the Holding Queue List View with actionable statuses of “N”, “I”, “W”, or with one of the Hold codes (H*xx* (where *x* = letter), HC), CAH, CAO, CAP, CAR, CXD, CXE, CXI, CXN, CXV, CXW, CXY, RXD, RXE, RXF, RXI, RXN, RXR, RXW, or the Inbound Error in RRE and CRE status. The records are sorted by Received Date with oldest records first. Refer to <u>Appendix B: Holding Queue Status Codes & Descriptions</u> for additional information on the various statuses in the list.
+The eR<sub>X</sub> Holding Queue List columns include the patient's name (Patient), date of birth of the patient (DOB), the prescribed drug from the external provider (Drug), the prescribing physician's name (Provider), the status of the eR<sub>X</sub> (STA), and the date that the eR<sub>X</sub> was received by VistA (Rec Date). At any given time, 999 eR<sub>X</sub> records are displayed in the Holding Queue List View with actionable statuses of "N", "I", "W", or with one of the Hold codes (H*xx* (where *x* = letter), HC), CAH, CAO, CAP, CAR, CXD, CXE, CXI, CXN, CXV, CXW, CXY, RXD, RXE, RXF, RXI, RXN, RXR, RXW, or the Inbound Error in RRE and CRE status. The records are sorted by Received Date with oldest records first. Refer to <u>Appendix B: Holding Queue Status Codes & Descriptions</u> for additional information on the various statuses in the list.
 
 The following actions are available from the eR<sub>X</sub> Holding Queue List:
 
-- \<SI\> Select Item can be entered to select an item in the Enter a Number prompt. Additionally, the record \# can be entered without selecting SI at the “Select Action: Next Screen//” prompt.
+- \<SI\> Select Item can be entered to select an item in the Enter a Number prompt. Additionally, the record \# can be entered without selecting SI at the "Select Action: Next Screen//" prompt.
 - \<SR\> Search Queue can be entered to search for an eR<sub>X</sub> based on a variety of search criteria.
 - \<SO\> Sort Entries can be entered to sort the list.
 - \<MV\> Message View can be entered to display various message types.
@@ -23046,16 +23092,16 @@ For additional information on Actionable and Non-Actionable eR<sub>X</sub> Statu
 
 #### eR<sub>X</sub> Default Lookback Days
 
-A new field, ERX DEFAULT LOOKBACK DAYS file (#10.2), has been added to the OUTPATIENT SITE file (#59), which contains the number of days the user would like to look back before loading the Holding Queue’s list view or completing a Search (SR) or Sort (SO). This is a configurable field that can be updated with the desired value by the local site’s VistA Admin. The addition of this new configurable field facilitates increased processing speed in the eR<sub>X</sub> Holding Queue.
+A new field, ERX DEFAULT LOOKBACK DAYS file (#10.2), has been added to the OUTPATIENT SITE file (#59), which contains the number of days the user would like to look back before loading the Holding Queue's list view or completing a Search (SR) or Sort (SO). This is a configurable field that can be updated with the desired value by the local site's VistA Admin. The addition of this new configurable field facilitates increased processing speed in the eR<sub>X</sub> Holding Queue.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/006.png)
 
 <span id="_Toc519780526" class="anchor"></span>Figure 3‑5: eR<sub>X</sub> Default Lookback Days
 
-- The number of eR<sub>X</sub> records displayed in the Holding Queue’s list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
+- The number of eR<sub>X</sub> records displayed in the Holding Queue's list view is based on the ERX DEFAULT LOOKBACK DAYS file (#10.2) configured in OUTPATIENT SITE file (#59).
 - By default, the ERX DEFAULT LOOKBACK DAYS field is blank, so the software goes back to 365 days.
 - ERX LOOK-BACK DAYS label along with the value and date stamp are displayed both in the Traditional View and the Patient Centric View of the eR<sub>X</sub> Holding Queue, in the Header section.
-- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search (SR) option and select the ‘Received Date Range’ (#3), to retrieve those records.
+- If the Pharmacy user would like to see eR<sub>X</sub> records received from older dates, the user can use the Search (SR) option and select the 'Received Date Range' (#3), to retrieve those records.
 
 > **NOTE:** Refer to the Implementation Guide – Inbound ePrescribing (PSO\*7.0\*p581) on the VA Documentation Library (VDL) for details on configuring the ERX DEFAULT LOOKBACK DAYS for a site.
 
@@ -23138,7 +23184,7 @@ The table below describes the columns visible in the Patient Centric View.
 | Column Label | Description                                                                                                                                                                                      |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ERX PATIENT  | Name of the patient sent on the New prescription                                                                                                                                                 |
-| DOB          | eR<sub>X</sub> patient’s date of birth                                                                                                                                                           |
+| DOB          | eR<sub>X</sub> patient's date of birth                                                                                                                                                           |
 | ED           | The number of days elapsed since the oldest eR<sub>X</sub> that is still in an actionable status was received for that patient                                                                   |
 | LOCKED BY    | Name of the current user that applied lock on the patient record successfully                                                                                                                    |
 | NW           | Number of NewRxes                                                                                                                                                                                |
@@ -23151,7 +23197,7 @@ The table below describes the columns visible in the Patient Centric View.
 
 This table displays the Patient Centric View Column label descriptions.
 
-- If an eR<sub>X</sub> patient does not have user name displayed in the LOCKED BY column, this means that the patient’s eR<sub>X</sub> record is available to the user.
+- If an eR<sub>X</sub> patient does not have user name displayed in the LOCKED BY column, this means that the patient's eR<sub>X</sub> record is available to the user.
 - Under columns NW, IP, HD, WT, CCR, and OTH the maximum count displayed is 99, even if the patient has more actionable eR<sub>X</sub> records, which the TOT (Total) column would indicate.
 - Under the TOT column, the maximum count displayed is 999, even if the patient has more than 999 items in actionable status.
 - Patient Centric View displays up to 999 records.
@@ -23169,7 +23215,7 @@ To view the details of an eR<sub>X</sub>, select the record number.
 
 <span id="_Toc520302023" class="anchor"></span>Figure 3‑15: eR<sub>X</sub> Summary/Details Screen
 
-Validation actions may be completed from here. If validation actions are started on NewRx message types, but not Accepted, the Status of the eR<sub>X</sub> displays as “I” for In Process. In the example below, just the patient was validated, therefore the eR<sub>X</sub> is still In Process.
+Validation actions may be completed from here. If validation actions are started on NewRx message types, but not Accepted, the Status of the eR<sub>X</sub> displays as "I" for In Process. In the example below, just the patient was validated, therefore the eR<sub>X</sub> is still In Process.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/017.png)
 
@@ -23201,9 +23247,9 @@ A record from the eR<sub>X</sub> Holding Queue List View can be selected by both
 
 On this screen, the header contains the eR<sub>X</sub> Patient Name and eR<sub>X</sub> Reference \#, which is an internal VA reference number assigned for tracking the eR<sub>X</sub>. Below the header is information received from the external provider for the patient, provider, and the drug/SIG. Where applicable, VistA information displays below the eR<sub>X</sub> information.
 
-> **NOTE:** - “eRx Written Date” – Date the eR<sub>X</sub> was received in the VistA Holding Queue.
+> **NOTE:** - "eRx Written Date" – Date the eR<sub>X</sub> was received in the VistA Holding Queue.
 
-- “eRx Issue Date” – Effective Date, if sent by the provider.
+- "eRx Issue Date" – Effective Date, if sent by the provider.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/021.png)
 
@@ -23221,7 +23267,7 @@ If the VistA information for the patient, provider, or drug is not linked, the d
 - VistA Provider: NOT LINKED
 - VistA Drug: NOT LINKED
 
-VistA information displayed includes allergies. If the patient has no known allergies, “NKA” displays in the Allergies section.
+VistA information displayed includes allergies. If the patient has no known allergies, "NKA" displays in the Allergies section.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/023.png)
 
@@ -23273,23 +23319,23 @@ Enter the hidden Jump to OP \<JO\> action.
 
 <span id="_Toc520302033" class="anchor"></span>Figure 3‑25: JO Action Selected
 
-If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, “VistA patient has not been matched. Cannot jump to outpatient”.
+If a user attempts to Jump to OP \<JO\> when a VistA Patient is not matched to an eR<sub>X</sub> Patient, an error message is received stating, "VistA patient has not been matched. Cannot jump to outpatient".
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/027.png)
 
 <span id="_Toc520302034" class="anchor"></span>Figure 3‑26: JO Error – VistA Patient Not Matched
 
-If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, “Jumping can only be done on ‘NewRx’ messages, Renewal Response-Replace and fillable RxChange Response messages”.
+If a user attempts to Jump to OP \<JO\> from an eR<sub>X</sub> record that is not a fillable prescription, an error message is received stating, "Jumping can only be done on 'NewRx' messages, Renewal Response-Replace and fillable RxChange Response messages".
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/028.png)
 
 <span id="_Toc520302035" class="anchor"></span>Figure 3‑27: JO Error – Fillable eR<sub>X</sub> Messages Only
 
-Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the “Select Patient:” prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
+Once the user has completed reviewing on the Outpatient side, upon selecting \<Enter\> at the "Select Patient:" prompt, the user is navigated back to the same Summary/Details screen in which \<JO\> was initiated from.
 
 ![](inbound-eprescribing-user-manual-unit-3-part-1-pso-7-581/029.png)
 
-<span id="_Toc65697542" class="anchor"></span>Figure 3‑28: JO “Select Patient” – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
+<span id="_Toc65697542" class="anchor"></span>Figure 3‑28: JO "Select Patient" – Jump Back to Holding Queue eR<sub>X</sub> Summary/Details Screen
 
 #### Status History
 
@@ -23348,7 +23394,7 @@ The Prohibit Renewal Request flag is used to denote that a RxRenewal Request sho
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Another RxRenewal Response message type is Denied New Prescription to Follow (DNTF). This indicates the renewal is denied, but a NewRx will follow.
-When a RxRenewal Response message type is Denied NewRx to Follow (DNTF), it will display in the List View screen. It can also be found using \<MV\> Message View or \<SR\> Search. The status of the DNTF RxRenewal Response will be “RXD” (RxRenewal Response Denied/DNTF).
+When a RxRenewal Response message type is Denied NewRx to Follow (DNTF), it will display in the List View screen. It can also be found using \<MV\> Message View or \<SR\> Search. The status of the DNTF RxRenewal Response will be "RXD" (RxRenewal Response Denied/DNTF).
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/013.png)
 <span id="_Toc56761113" class="anchor"></span>Figure ‑: RXD Status in the Holding Queue List View
 The RxRenewal Response details display the RxRenewal Response Message type.
@@ -23365,29 +23411,29 @@ The Activity Log on the OP side is updated to display that the eR<sub>X</sub> Pr
 <span id="_Toc56761117" class="anchor"></span>Figure ‑: Activity Log 1
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/018.png)
 <span id="_Toc56761118" class="anchor"></span>Figure ‑: Activity Log 2
-Once the DNTF RxRenewal Response has successfully auto-Discontinued the eR<sub>X</sub> Prescription in OP, the status of the RxRenewal Response in the Holding Queue continues to display as “RXD” (RxRenewal Response Denied/DNTF).
-The status of the corresponding RxRenewal Request will change to “RRP” (RxRenewal Request Processed).
+Once the DNTF RxRenewal Response has successfully auto-Discontinued the eR<sub>X</sub> Prescription in OP, the status of the RxRenewal Response in the Holding Queue continues to display as "RXD" (RxRenewal Response Denied/DNTF).
+The status of the corresponding RxRenewal Request will change to "RRP" (RxRenewal Request Processed).
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/019.png)
 <span id="_Toc56761119" class="anchor"></span>Figure ‑: RRP Status in the Holding Queue
-The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> actions are in parentheses “( )”, therefore the user cannot select these actions for this message type.
+The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> actions are in parentheses "( )", therefore the user cannot select these actions for this message type.
 
 #### RxRenewal Response Failed (RXF)
 
-RxRenewal Response Failed (RXF) is an actionable status used for the RxRenewal Response types Approved, Approved with Changes, and Denied NewRx to Follow (DNTF) if a failure occurs. One scenario is when a patient’s Outpatient Profile record is locked in OERR and a DNTF RxRenewal Response is attempting to auto-Discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxRenewal Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a DNTF RxRenewal Response is sent for the prescription.
+RxRenewal Response Failed (RXF) is an actionable status used for the RxRenewal Response types Approved, Approved with Changes, and Denied NewRx to Follow (DNTF) if a failure occurs. One scenario is when a patient's Outpatient Profile record is locked in OERR and a DNTF RxRenewal Response is attempting to auto-Discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxRenewal Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a DNTF RxRenewal Response is sent for the prescription.
 > **NOTE:** Additional RXF scenarios are as follows:
 RXF applies to Approved, Approved with Changes and Denied NewRx to Follow response types only.
 1.  When a user selects an active eR<sub>X</sub> from OP that has an outstanding RxRenewal Request and locks it, and at the same time an Approved or Approved with Changes RxRenewal Response is received, a new pending line entry for that response is added in OP.
 2.  When a RxRenewal Request is sent out for a prescription and it is manually discontinued before receiving a response, if an Approved or Approved with Changes RxRenewal Response is received, a new pending line entry for that response is added in OP.
-3.  When a user selects an active eR<sub>X</sub> from OP in Backdoor Orders that has an outstanding RxRenewal Request and locks it, and at the same time a DNTF RxRenewal Response is received, the Prescription gets auto-Discontinued and the corresponding Response is marked as “RXD” in the Holding Queue. However, if the record is locked in Edit mode in Backdoor Orders, the response fails to auto-Discontinue and is marked as “RXF” in the Holding Queue.
-4.  When a RxRenewal Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If an Approved RxRenewal Response is then received, no pending line entry is added in OP. The VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as “RXN” in the Holding Queue.
-5.  When a RxRenewal Request is sent out for a prescription and it is renewed within VA, the prescription becomes a non-electronic prescription. If a DNTF RxRenewal Response is then received, the VA Order (non-eR<sub>X</sub>) is not auto-Discontinued by the response. The response is marked as “RXD” in the Holding Queue.
+3.  When a user selects an active eR<sub>X</sub> from OP in Backdoor Orders that has an outstanding RxRenewal Request and locks it, and at the same time a DNTF RxRenewal Response is received, the Prescription gets auto-Discontinued and the corresponding Response is marked as "RXD" in the Holding Queue. However, if the record is locked in Edit mode in Backdoor Orders, the response fails to auto-Discontinue and is marked as "RXF" in the Holding Queue.
+4.  When a RxRenewal Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If an Approved RxRenewal Response is then received, no pending line entry is added in OP. The VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as "RXN" in the Holding Queue.
+5.  When a RxRenewal Request is sent out for a prescription and it is renewed within VA, the prescription becomes a non-electronic prescription. If a DNTF RxRenewal Response is then received, the VA Order (non-eR<sub>X</sub>) is not auto-Discontinued by the response. The response is marked as "RXD" in the Holding Queue.
 
 ### Denied
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Another RxRenewal Response message type is Denied. This indicates the renewal request is denied.
-When a RxRenewal Response – Denied type is received in the Holding Queue, it is displayed in the List View in “RXD” status (RxRenewal Response Denied/DNTF).
+When a RxRenewal Response – Denied type is received in the Holding Queue, it is displayed in the List View in "RXD" status (RxRenewal Response Denied/DNTF).
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/020.png)
 <span id="_Toc38526989" class="anchor"></span>Figure ‑: RXD Status in the Holding Queue List View
 Select the record to view the RxRenewal Response details screen.
@@ -23403,7 +23449,7 @@ The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> act
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Replace is one of the RxRenewal Response types introduced with NCPDP 2017071 which displays in the Holding Queue List View screen as an actionable entry. It can also be found using \<MV\> Message View or \<SR\> Search. The status of the Replace Response is “RXR” (RxRenewal Response Replace - New).
+Replace is one of the RxRenewal Response types introduced with NCPDP 2017071 which displays in the Holding Queue List View screen as an actionable entry. It can also be found using \<MV\> Message View or \<SR\> Search. The status of the Replace Response is "RXR" (RxRenewal Response Replace - New).
 Replace is used as a fillable prescription which is sent to replace an original NewRx on which the renewal was requested. When a Replace type Response is received, the original is discontinued in Outpatient Pharmacy and the Replace response is to be treated exactly the same way as a NewRx wherein the pharmacy user would exercise actions such as \<VP\>, \<VM\>, \<VD\> and so on.
 > **NOTE:** The workflow of a Replace type Response is very similar to that of a NewRx record. For complete details about how to process a NewRx record, refer to section <u>3.6 Manual Validation</u>.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/023.png)
@@ -23420,19 +23466,19 @@ The RxRenewal Response details screen displays the RxRenewal Response Message ty
 As the user continues to scroll, the RxRenewal Response Information section indicates the RxRenewal Response Message type is Replace.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/028.png)
 <span id="_Toc56761128" class="anchor"></span>Figure ‑: RxRenewal Response - Replace Information Section
-When a user takes any action on the “RXR” record in the Holding Queue, the status of the record changes to “RXI”, which indicates that the record is in process.
+When a user takes any action on the "RXR" record in the Holding Queue, the status of the record changes to "RXI", which indicates that the record is in process.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/029.png)
 <span id="_Toc56761129" class="anchor"></span>Figure ‑: RXI Status in the Holding Queue
 The user may select the record to view the RxRenewal Response Details screen.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/030.png)
 <span id="_Toc56761130" class="anchor"></span>Figure ‑: RXI – Summary/Details screen
-When the user completes accepting the validation of Patient, Provider and Drug sections on the Replace type response, the status changes to “RXW”, indicating that the record is now in waiting status.
+When the user completes accepting the validation of Patient, Provider and Drug sections on the Replace type response, the status changes to "RXW", indicating that the record is now in waiting status.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/031.png)
 <span id="_Toc56761131" class="anchor"></span>Figure ‑: RXW Status in the Holding Queue
 The user may select the record to view the RxRenewal Response Details screen.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/032.png)
 <span id="_Toc56761132" class="anchor"></span>Figure ‑: RXW – Summary/Details screen
-When the user accepts the RxRenewal Response record using \<AC\>, the status of the record changes to “RXP” (RxRenewal Response Processed), and it is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+When the user accepts the RxRenewal Response record using \<AC\>, the status of the record changes to "RXP" (RxRenewal Response Processed), and it is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/033.png)
 <span id="_Toc56761133" class="anchor"></span>Figure ‑: RXP Status in Holding Queue
 On the OP side, a pending line entry is added for the user to finish the Replace RxRenewal Response.
@@ -23441,13 +23487,13 @@ On the OP side, a pending line entry is added for the user to finish the Replace
 The user may select the pending line entry to finish the Replace RxRenewal Response and accept it. The Replace RxRenewal Response is now an active prescription which displays in the Active section of the Medication profile.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/035.png)
 <span id="_Toc56761135" class="anchor"></span>Figure ‑: Replace Response to an active R<sub>X</sub> in Active Section of the Medication Profile
-Once the Replace RxRenewal Response becomes an active prescription, the status of the RxRenewal Response in the Holding Queue changes to “RXC” (RxRenewal Response Completed).
+Once the Replace RxRenewal Response becomes an active prescription, the status of the RxRenewal Response in the Holding Queue changes to "RXC" (RxRenewal Response Completed).
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/036.png)
 <span id="_Toc56761136" class="anchor"></span>Figure ‑: RXC Status in the Holding Queue
 Select the record to view the RxRenewal Response details screen.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/037.png)
 <span id="_Toc56761137" class="anchor"></span>Figure ‑: RxRenewal Response Details Screen
-The status of the corresponding RxRenewal Request changes to “RRC” (RxRenewal Request Completed).
+The status of the corresponding RxRenewal Request changes to "RRC" (RxRenewal Request Completed).
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/038.png)
 <span id="_Toc56761138" class="anchor"></span>Figure ‑: RRC Status in the Holding Queue
 Select the record to view the RxRenewal Request details screen.
@@ -23457,34 +23503,34 @@ The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> act
 
 #### RxRenewal Response – Processing Error (RXE)
 
-RxRenewal Response – Processing Error (RXE) is an actionable status used for Replace RxRenewal Responses if a failure occurs. One scenario is when a patient’s Outpatient Profile record is locked in OERR and a Replace RxRenewal Response is attempting to auto-Discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxRenewal Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a Replace RxRenewal Response is sent for the prescription.
-When a Replace RxRenewal Response record is in “RXE” status, the user can still process the record similar to a NewRx record after manually canceling the original in Outpatient Pharmacy. The status codes for Replace RxRenewal Response workflow is covered in Table 21.
+RxRenewal Response – Processing Error (RXE) is an actionable status used for Replace RxRenewal Responses if a failure occurs. One scenario is when a patient's Outpatient Profile record is locked in OERR and a Replace RxRenewal Response is attempting to auto-Discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxRenewal Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a Replace RxRenewal Response is sent for the prescription.
+When a Replace RxRenewal Response record is in "RXE" status, the user can still process the record similar to a NewRx record after manually canceling the original in Outpatient Pharmacy. The status codes for Replace RxRenewal Response workflow is covered in Table 21.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/040.png)
 <span id="_Toc56761140" class="anchor"></span>Figure ‑: RXE Status in Holding Queue List View
 The RxRenewal Response details section displays the RxRenewal Response Message type.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/041.png)
 <span id="_Toc56761141" class="anchor"></span>Figure ‑: RxRenewal Response - Replace Details Screen for RXE
-When the user exercises one of the available actions, a warning displays that the corresponding OP record may not have been auto-Discontinued. The user is prompted to select Yes or No. Upon selecting Yes, the status of the record changes to “RXI”. Upon selecting No, the record remains in “RXE” status.
+When the user exercises one of the available actions, a warning displays that the corresponding OP record may not have been auto-Discontinued. The user is prompted to select Yes or No. Upon selecting Yes, the status of the record changes to "RXI". Upon selecting No, the record remains in "RXE" status.
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/042.png)
 <span id="_Toc56761142" class="anchor"></span>Figure ‑: Replace Response Processing Error Warning Text/Prompt
-Once the status of the Replace record is changed to “RXI”, the user can exercise the record same way as a Replace record that was originally in “RXR” status. For information on how to process a Replace type response, refer to section <u>4.6.5 Replace</u>.
-> **NOTE:** Additional “RXE” information are as follows:
-“RXE” applies to Replace response type only.
+Once the status of the Replace record is changed to "RXI", the user can exercise the record same way as a Replace record that was originally in "RXR" status. For information on how to process a Replace type response, refer to section <u>4.6.5 Replace</u>.
+> **NOTE:** Additional "RXE" information are as follows:
+"RXE" applies to Replace response type only.
 1.  When a user selects an Active eR<sub>X</sub> from OP that has an outstanding RxRenewal Request and locks it, and at the same time a Replace RxRenewal Response is received.
 2.  When a RxRenewal Request is sent out for a prescription and the original prescription is manually discontinued before receiving a response, following which a Replace RxRenewal Response is received.
 3.  When a RxRenewal Request is sent for a prescription that has expired within 120 days, and the patient record is locked in OP, during which a Replace RxRenewal Response message is received.
 4.  When a RxRenewal Request is sent for a prescription that has expired within 120 days, and the original is manually discontinued, following which a Replace RxRenewal Response message is received.
 5.  When a RxRenewal Request is sent for a prescription that has been discontinued within 120 days and a Replace RxRenewal Response message is received.
-6.  When a user selects an Active eR<sub>X</sub> in OP that has an outstanding RxRenewal Request and locks it, and at the same time a Replace RxRenewal Response is sent, the Prescription gets auto-Discontinued and the corresponding Response is marked as “RXR” in the Holding Queue. However, if the record is locked in Edit mode in OP, the response fails to auto-Discontinue and is marked as “RXE” in the Holding Queue.
-7.  When a RxRenewal Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If a Replace RxRenewal Response is then sent, the VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as “RXE” in the Holding Queue.
+6.  When a user selects an Active eR<sub>X</sub> in OP that has an outstanding RxRenewal Request and locks it, and at the same time a Replace RxRenewal Response is sent, the Prescription gets auto-Discontinued and the corresponding Response is marked as "RXR" in the Holding Queue. However, if the record is locked in Edit mode in OP, the response fails to auto-Discontinue and is marked as "RXE" in the Holding Queue.
+7.  When a RxRenewal Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If a Replace RxRenewal Response is then sent, the VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as "RXE" in the Holding Queue.
 
 ## Inbound Error – RRE
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The “Inbound ERROR” message is the NCPDP 2017071 format for an Inbound Error message received in VistA under certain situations, such as the Prescriber’s EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and Change Healthcare not working.
+The "Inbound ERROR" message is the NCPDP 2017071 format for an Inbound Error message received in VistA under certain situations, such as the Prescriber's EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and Change Healthcare not working.
 
-When a RxRenewal Request sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved and displayed in the Holding Queue’s list view with the status RRE (RxRenewal Request Error). This is an actionable entry and requires the user to acknowledge it.
+When a RxRenewal Request sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved and displayed in the Holding Queue's list view with the status RRE (RxRenewal Request Error). This is an actionable entry and requires the user to acknowledge it.
 
 For more information about \<ACK\> Acknowledge, refer to section <u>4.9 Acknowledge: Hidden Action for RxRenewal Response/Inbound Error</u>.
 
@@ -23492,7 +23538,7 @@ For more information about \<ACK\> Acknowledge, refer to section <u>4.9 Acknowle
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is a free-text “Comment” field in the Message Details view for RxRenewal Request and Response messages. This field allows users to enter additional comments on the RxRenewal Request and Response messages. To add a comment:
+There is a free-text "Comment" field in the Message Details view for RxRenewal Request and Response messages. This field allows users to enter additional comments on the RxRenewal Request and Response messages. To add a comment:
 
 1.  Type action \<AD\>.
 1.  Type Request/Response comments.
@@ -23507,7 +23553,7 @@ There is a free-text “Comment” field in the Message Details view for RxRenew
 
 <span id="_Toc56761144" class="anchor"></span>Figure ‑: RxRenewal Request Comments
 
-The user who made the comment displays in the “Comments By” field and the date/time the comments were made display in the “Comments Date/Time” field. Users can replace the comments with updated comments. When comments are replaced, the last user who made comments displays in the “Comments By” field and the date/time the comments were updated display in the “Comments Date/Time” field. To update or replace comments:
+The user who made the comment displays in the "Comments By" field and the date/time the comments were made display in the "Comments Date/Time" field. Users can replace the comments with updated comments. When comments are replaced, the last user who made comments displays in the "Comments By" field and the date/time the comments were updated display in the "Comments Date/Time" field. To update or replace comments:
 
 3.  Type action \<AD\>.
 4.  Replace with updated comments.
@@ -23526,7 +23572,7 @@ The user who made the comment displays in the “Comments By” field and the da
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once the user completes reviewing a Denied or a Denied, NewRx to Follow RxRenewal Response message in the Holding Queue List View, the user can exercise the \<ACK\> Acknowledge Hidden action to remove the message from the list view. The resulting acknowledged message can be retrieved using \<MV\> Message View or \<SR\> Search. Acknowledge is also enabled for RxRenewal Responses that fail to auto-process and are in status of “RXF” and the Inbound Errors with status “RRE”. When a RxRenewal Response – Denied or Denied NewRx to Follow type is received in the Holding Queue, it is displayed in the list view, and is in the actionable “RXD” status.
+Once the user completes reviewing a Denied or a Denied, NewRx to Follow RxRenewal Response message in the Holding Queue List View, the user can exercise the \<ACK\> Acknowledge Hidden action to remove the message from the list view. The resulting acknowledged message can be retrieved using \<MV\> Message View or \<SR\> Search. Acknowledge is also enabled for RxRenewal Responses that fail to auto-process and are in status of "RXF" and the Inbound Errors with status "RRE". When a RxRenewal Response – Denied or Denied NewRx to Follow type is received in the Holding Queue, it is displayed in the list view, and is in the actionable "RXD" status.
 
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/047.png)
 
@@ -23544,7 +23590,7 @@ The user may type \<ACK\> at the prompt to acknowledge the RxRenewal Response me
 
 <span id="_Toc56761149" class="anchor"></span>Figure ‑: Acknowledge RxRenewal Response Message
 
-Once the user selects Yes at the prompt, the status of the message is changed from “RXD” to “RXA” and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+Once the user selects Yes at the prompt, the status of the message is changed from "RXD" to "RXA" and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/050.png)
 
@@ -23556,9 +23602,9 @@ Select the record to view the RxRenewal Response details screen, displaying the 
 
 <span id="_Toc56761151" class="anchor"></span>Figure ‑: RxRenewal Response Acknowledged Details Screen
 
-> **NOTE:** When the user acknowledges a RxRenewal Response with a status of “RXF”, it changes to “RXA”. The workflow is the same as “RXD” to “RXA”.
+> **NOTE:** When the user acknowledges a RxRenewal Response with a status of "RXF", it changes to "RXA". The workflow is the same as "RXD" to "RXA".
 
-When a RxRenewal Request results in an Inbound Error with the status “RRE”, it is displayed in the list view as an actionable entry.
+When a RxRenewal Request results in an Inbound Error with the status "RRE", it is displayed in the list view as an actionable entry.
 
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/052.png)
 
@@ -23576,7 +23622,7 @@ The user may type \<ACK\> Acknowledge at the prompt to acknowledge the RxRenewal
 
 <span id="_Toc56761154" class="anchor"></span>Figure ‑: Acknowledge Action
 
-Once the user selects Yes at the prompt, the status of the message is changed from “RRE” to “IRA” and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+Once the user selects Yes at the prompt, the status of the message is changed from "RRE" to "IRA" and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 
 ![](inbound-eprescribing-user-manual-unit-4-part-2-pso-7-581/055.png)
 
@@ -23720,7 +23766,7 @@ The user may select the record to view the RxChange Response Details screen.
 
 <span id="_Toc56761203" class="anchor"></span>Figure Error! No text of specified style in document.‑: CXW – Summary/Details screen
 
-When the user accepts the RxChange Response record using \<AC\>, the status of the record changes to “CXP” (RxChange Response Processed), and it is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+When the user accepts the RxChange Response record using \<AC\>, the status of the record changes to "CXP" (RxChange Response Processed), and it is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/021.png)
 
@@ -23770,7 +23816,7 @@ The status of a RxChange Request record transitions from CRN, CRR, CRP to CRC. F
 
 #### RxChange Response – Processing Error (CXE)
 
-RxChange Response – Processing Error (CXE) is an actionable status used for fillable RxChange Responses if a failure occurs. One scenario is when a patient’s Outpatient Profile record is locked in OERR and a fillable RxChange Response is attempting to auto-discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxChange Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a fillable RxRenewal Response is sent for the prescription.
+RxChange Response – Processing Error (CXE) is an actionable status used for fillable RxChange Responses if a failure occurs. One scenario is when a patient's Outpatient Profile record is locked in OERR and a fillable RxChange Response is attempting to auto-discontinue an eR<sub>X</sub> record at the same time. Another scenario is when a RxChange Request is sent out for a prescription, and it is manually discontinued before a response is received. Then, a fillable RxRenewal Response is sent for the prescription.
 
 When a fillable RxRenewal Response record is in CXE status, the user can still process that record similar to a NewRx record after manually canceling the original in the Holding Queue and in Outpatient Pharmacy (if a record exists).
 
@@ -23802,7 +23848,7 @@ CXE applies to fillable change response types only.
 4.  When a RxChange Request is sent for a prescription expired within 120 days, the original is manually discontinued following which, a fillable RxChange Response message is received.
 5.  When a RxChange Request is sent for a prescription discontinued within 120 days and a fillable RxChange Response message is received.
 6.  When a user selects an Active eR<sub>X</sub> in OP that has an outstanding RxChange Request and locks it, and at the same time a fillable RxChange Response is sent, the Prescription gets auto-discontinued and the corresponding Response is marked as CXN/CXY in the Holding Queue. However, if the record is locked in Edit mode in OP, the response fails to auto-discontinue and is marked as CXE in the Holding Queue.
-7.  When a RxChange Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If a fillable RxChange Response is then sent, the VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as “CXE” in the Holding Queue.
+7.  When a RxChange Request is sent out for a prescription, and it is renewed within VA, the prescription becomes a non-electronic prescription. If a fillable RxChange Response is then sent, the VA Order (non-eR<sub>X</sub>) is not modified by the response. The response is marked as "CXE" in the Holding Queue.
 
 ### Non-Fillable RxChange Response Process
 
@@ -23810,9 +23856,9 @@ CXE applies to fillable change response types only.
 
 #### Approved RxChange Response for P Request Type
 
-For a P change request type, one of the response types is Approved, which is not a fillable prescription but an ‘information only’ kind of message.
+For a P change request type, one of the response types is Approved, which is not a fillable prescription but an 'information only' kind of message.
 
-When a RxChange Response – Approved for a P request type is received in the Holding Queue, it is displayed in the List View in “CXY” status (RxChange Response – Prior Auth - New).
+When a RxChange Response – Approved for a P request type is received in the Holding Queue, it is displayed in the List View in "CXY" status (RxChange Response – Prior Auth - New).
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/031.png)
 
@@ -23838,7 +23884,7 @@ The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> act
 
 Another RxChange Response message type is Denied. This indicates the change request is denied. This response applies to all request types.
 
-When a RxChange Response – Denied type is received in the Holding Queue, it is displayed in the List View in “CXD” status (RxChange Response Denied).
+When a RxChange Response – Denied type is received in the Holding Queue, it is displayed in the List View in "CXD" status (RxChange Response Denied).
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/034.png)
 
@@ -23864,9 +23910,9 @@ The \<VP\>, \<VM\>, \<VD\>, \<Hold\>, \<UnHold\>, \<RJ\>, \<RM\>, and \<AC\> act
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Inbound ERROR message is the NCPDP 2017071 format for Inbound Error message received in VistA under certain situations, including the Prescriber’s EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and Change Healthcare is not working.
+Inbound ERROR message is the NCPDP 2017071 format for Inbound Error message received in VistA under certain situations, including the Prescriber's EHR system being unable to receive and process a certain transaction sent from the Pharmacy or a connection between the Transaction Hub and Change Healthcare is not working.
 
-When a RxChange Request sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved and displayed in the Holding Queue’s list view with the status CRE (RxChange Request Error). This is an actionable entry and requires the user to acknowledge it.
+When a RxChange Request sent from VistA Outpatient Pharmacy results in an Inbound Error, it is retrieved and displayed in the Holding Queue's list view with the status CRE (RxChange Request Error). This is an actionable entry and requires the user to acknowledge it.
 
 For more information about \<ACK\> Acknowledge, refer to section <span class="mark"></span><u>5.9 <span class="mark"></span>Acknowledge: Hidden Action for RxChange Response/Inbound Error</u>.
 
@@ -23889,7 +23935,7 @@ There is a free-text Comment field in the Message Details view for RxChange Requ
 
 <span id="_Toc56761221" class="anchor"></span>Figure Error! No text of specified style in document.‑: RxChange Request Comments
 
-The user who made the comment displays in the “Comments By” field and the date/time the comments were made display in the “Comments Date/Time” field. Users can replace the comments with updated comments. When comments are replaced, the last user who made comments displays in the “Comments By” field and the date/time the comments were updated display in the “Comments Date/Time” field. To update or replace comments:
+The user who made the comment displays in the "Comments By" field and the date/time the comments were made display in the "Comments Date/Time" field. Users can replace the comments with updated comments. When comments are replaced, the last user who made comments displays in the "Comments By" field and the date/time the comments were updated display in the "Comments Date/Time" field. To update or replace comments:
 
 3.  Type action \<AD\>.
 4.  Replace with updated comments.
@@ -23908,7 +23954,7 @@ The user who made the comment displays in the “Comments By” field and the da
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once the user completes reviewing an Approved for Prior Authorization Request or a Denied RxChange Response message in the Holding Queue’s list view, the user can exercise \<ACK\> Acknowledge Hidden action to remove the message from the list view. The resulting acknowledged message can be retrieved using \<MV\> Message View or \<SR\> Search. Acknowledge is also enabled for the Inbound Errors with status CRE. When a RxChange Response – Denied type is received in the Holding Queue, it is displayed in the list view, and is in the actionable “CXD” status. When a RxChange Response – Approved type for Prior Authorization request is received in the Holding Queue, it is displayed in the list view, and is in the actionable “CXY” status.
+Once the user completes reviewing an Approved for Prior Authorization Request or a Denied RxChange Response message in the Holding Queue's list view, the user can exercise \<ACK\> Acknowledge Hidden action to remove the message from the list view. The resulting acknowledged message can be retrieved using \<MV\> Message View or \<SR\> Search. Acknowledge is also enabled for the Inbound Errors with status CRE. When a RxChange Response – Denied type is received in the Holding Queue, it is displayed in the list view, and is in the actionable "CXD" status. When a RxChange Response – Approved type for Prior Authorization request is received in the Holding Queue, it is displayed in the list view, and is in the actionable "CXY" status.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/041.png)
 
@@ -23922,7 +23968,7 @@ Select the record to view the RxChange Response details screen.
 
 The user may type \<ACK\> at the prompt to acknowledge the RxChange Response message.
 
-Once the user selects Yes at the prompt, the status of the message is changed from “CXD” to “CXA” and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+Once the user selects Yes at the prompt, the status of the message is changed from "CXD" to "CXA" and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/043.png)
 
@@ -23934,9 +23980,9 @@ Select the record to view the RxChange Response details screen, displaying the e
 
 <span id="_Toc56761227" class="anchor"></span>Figure Error! No text of specified style in document.‑: RxChange Response Acknowledged Details Screen
 
-> **NOTE:** When the user acknowledges a RxChange Response with a status of “CXY”, it changes to “CXA”. The workflow is the same as “CXD” to “CXA”.
+> **NOTE:** When the user acknowledges a RxChange Response with a status of "CXY", it changes to "CXA". The workflow is the same as "CXD" to "CXA".
 
-When a RxChange Request results in an Inbound Error with the status “CRE”, it is displayed in the list view as an actionable entry.
+When a RxChange Request results in an Inbound Error with the status "CRE", it is displayed in the list view as an actionable entry.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/045.png)
 
@@ -23950,7 +23996,7 @@ Select the record to view the Inbound Error details screen, displaying an eR<sub
 
 The user may type \<ACK\> Acknowledge at the prompt to acknowledge the RxChange Response message.
 
-Once the user selects Yes at the prompt, the status of the message is changed from “CRE” to “ICA” and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
+Once the user selects Yes at the prompt, the status of the message is changed from "CRE" to "ICA" and the message is not displayed in the list view. It can be found using \<MV\> Message View or \<SR\> Search.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-2-pso-7-581/047.png)
 
@@ -23968,7 +24014,7 @@ Select the record to view the Inbound Error details screen, with an eR<sub>X</su
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To generate a RxRenewal Request, navigate to the patient’s Medication Profile in Complete Orders from OERR or Patient Prescription Processing. The Medication Profile displays all of the R<sub>X</sub>es associated with the patient. To generate a RxRenewal Request:
+To generate a RxRenewal Request, navigate to the patient's Medication Profile in Complete Orders from OERR or Patient Prescription Processing. The Medication Profile displays all of the R<sub>X</sub>es associated with the patient. To generate a RxRenewal Request:
 
 1.  Select the eR<sub>X</sub>.
 
@@ -23990,7 +24036,7 @@ To generate a RxRenewal Request, navigate to the patient’s Medication Profile 
 
 <span id="_Toc65771152" class="anchor"></span>Figure 4‑3: RxRenewal Request Sent
 
-> **NOTE:** When an Outbound RxRenewal Request is sent, if the user requested “n” as the number of renewals using either option “R” or option “C”, the NCPDP 2017071 RxRenewal Request message with a value of “n+1” is sent to the Provider.
+> **NOTE:** When an Outbound RxRenewal Request is sent, if the user requested "n" as the number of renewals using either option "R" or option "C", the NCPDP 2017071 RxRenewal Request message with a value of "n+1" is sent to the Provider.
 
 The user is allowed to generate and send more than one RxRenewal Request for the same eR<sub>X</sub>. The history of all the requests sent, along with any responses or errors received within the last 30 days, is displayed at the time of generating a duplicate request.
 
@@ -23998,7 +24044,7 @@ The user is allowed to generate and send more than one RxRenewal Request for the
 
 <span id="_Toc65771153" class="anchor"></span>Figure 4‑4: RxRenewal Request History
 
-The RxRenewal Request generated in Outpatient Profile and sent by the Pharmacy user can be found in the Holding Queue in the Message View, displaying a status of “RRN” (RxRenewal Request - New).
+The RxRenewal Request generated in Outpatient Profile and sent by the Pharmacy user can be found in the Holding Queue in the Message View, displaying a status of "RRN" (RxRenewal Request - New).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/006.png)
 
@@ -24035,11 +24081,11 @@ The Holding Queue displays all RxRenewal Request messages, sorted by received da
 
 <span id="_Toc65771157" class="anchor"></span>Figure 4‑8: Message View Displaying RxRenewal Request Messages
 
-The RxRenewal Request message statuses are displayed in the “Status” column on the eR<sub>X</sub> Holding Queue. For RxRenewal Request statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
+The RxRenewal Request message statuses are displayed in the "Status" column on the eR<sub>X</sub> Holding Queue. For RxRenewal Request statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
 
-> **NOTE:** RxRenewal Request messages are not in actionable statuses and so, they are not displayed in the Holding Queue’s list view. Users may view them only by using \<MV\> Message View action or using the \<SR\> Search criteria.
+> **NOTE:** RxRenewal Request messages are not in actionable statuses and so, they are not displayed in the Holding Queue's list view. Users may view them only by using \<MV\> Message View action or using the \<SR\> Search criteria.
 
-RxRenewal Requests in the Holding Queue without a response or an error received for 2 weeks or more change status from “RRN” (RxRenewal Request - New) to “RRX” (RxRenewal Request Expired) in the Holding Queue.
+RxRenewal Requests in the Holding Queue without a response or an error received for 2 weeks or more change status from "RRN" (RxRenewal Request - New) to "RRX" (RxRenewal Request Expired) in the Holding Queue.
 
 ## RxRenewal Responses in the eR<sub>X</sub> Holding Queue
 
@@ -24053,7 +24099,7 @@ When a RxRenewal Request receives a RxRenewal Response from an external provider
 - Denied, New Prescription to Follow
 - Replace
 
-RxRenewal Responses that are in actionable statuses are displayed in the Holding Queue’s list view. For the full list of RxRenewal Response statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
+RxRenewal Responses that are in actionable statuses are displayed in the Holding Queue's list view. For the full list of RxRenewal Response statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
 
 To view a RxRenewal Response in the Holding Queue:
 
@@ -24090,7 +24136,7 @@ See more message details below.
 
 <span id="_Toc65771162" class="anchor"></span>Figure 4‑13: RxRenewal Request Message History
 
-The Message History segment displays the message history with a reference to the original R<sub>X</sub>. The RxRenewal Request Reference \# field displays a “V”, indicating that this was generated from VistA.
+The Message History segment displays the message history with a reference to the original R<sub>X</sub>. The RxRenewal Request Reference \# field displays a "V", indicating that this was generated from VistA.
 
 ## RxRenewal Response Message Details View
 
@@ -24102,7 +24148,7 @@ When the user selects the RxRenewal Response from the eR<sub>X</sub> Holding Que
 
 <span id="_Toc65771163" class="anchor"></span>Figure 4‑14: RxRenewal Response Message Details
 
-> **NOTE:** When an Inbound RxRenewal Response is received, if the provider approved “n” as the number of renewals, the Message Details view displays “n-1” as the number of renewals approved. This is applicable to Approved, Approved with Changes, and Replace RxRenewal Response Types.
+> **NOTE:** When an Inbound RxRenewal Response is received, if the provider approved "n" as the number of renewals, the Message Details view displays "n-1" as the number of renewals approved. This is applicable to Approved, Approved with Changes, and Replace RxRenewal Response Types.
 
 The RxRenewal Response Information section contains the RxRenewal Response message type along with the response date and time and any additional notes and comments.
 
@@ -24124,7 +24170,7 @@ The Message History section links the RxRenewal Request reference number to the 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a RxRenewal Response message type is Approved, it is not displayed in the List View screen. It can be found using \<MV\> Message View or \<SR\> Search. The status of the Approved RxRenewal Response is “RXP” (RxRenewal Response Processed).
+When a RxRenewal Response message type is Approved, it is not displayed in the List View screen. It can be found using \<MV\> Message View or \<SR\> Search. The status of the Approved RxRenewal Response is "RXP" (RxRenewal Response Processed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/018.png)
 
@@ -24170,13 +24216,13 @@ Then, the user may accept the Approved RxRenewal Response.
 
 <span id="_Toc65771173" class="anchor"></span>Figure 4‑24: AC/Accept eR<sub>X</sub> Renewal
 
-The Response includes information on the eR<sub>X</sub> prescription renewal that the Response was processed for. The renewed R<sub>X</sub> displays in the Active section of the Medication Profile. The R<sub>X</sub> number has an “A” appended to the end, indicating this is the first refill. Subsequent renewals include the next letter of the alphabet appended. (i.e., & 123456 changes to & 123456A after the first refill; for next refill: & 123456A changes to & 123456B)
+The Response includes information on the eR<sub>X</sub> prescription renewal that the Response was processed for. The renewed R<sub>X</sub> displays in the Active section of the Medication Profile. The R<sub>X</sub> number has an "A" appended to the end, indicating this is the first refill. Subsequent renewals include the next letter of the alphabet appended. (i.e., & 123456 changes to & 123456A after the first refill; for next refill: & 123456A changes to & 123456B)
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/026.png)
 
 <span id="_Toc65771174" class="anchor"></span>Figure 4‑25: Renewed R<sub>X</sub> Active
 
-Once the Approved RxRenewal Response is successfully renewed, the status of the RxRenewal Response in the Holding Queue changes to “RXC” (RxRenewal Response Completed).
+Once the Approved RxRenewal Response is successfully renewed, the status of the RxRenewal Response in the Holding Queue changes to "RXC" (RxRenewal Response Completed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/027.png)
 
@@ -24188,7 +24234,7 @@ Select the record to view the RxRenewal Response details screen.
 
 <span id="_Toc65771176" class="anchor"></span>Figure 4‑27: RxRenewal Response Details Screen
 
-The status of the corresponding RxRenewal Request changes to “RRC” (RxRenewal Request Completed).
+The status of the corresponding RxRenewal Request changes to "RRC" (RxRenewal Request Completed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/029.png)
 
@@ -24200,7 +24246,7 @@ Select the record to view the RxRenewal Request details screen.
 
 <span id="_Toc65771178" class="anchor"></span>Figure 4‑29: Corresponding RxRenewal Request Details Screen
 
-The \<VP\>, \<VM\>, \<VD\>. and \<AC\> actions are in parentheses “( )”, therefore the user cannot select these actions for this message type. If one of the actions is selected from here, the user receives an error message:
+The \<VP\>, \<VM\>, \<VD\>. and \<AC\> actions are in parentheses "( )", therefore the user cannot select these actions for this message type. If one of the actions is selected from here, the user receives an error message:
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/031.png)
 
@@ -24219,7 +24265,7 @@ Depending on the scenario, the RxRenewal Response message may display in the Hol
 
 #### Changes to Number of Renewals Only
 
-When a RxRenewal Response message type is Approved with Changes (for number of renewals only), it does not display in the Holding Queue List View screen. It can be found using \<MV\> Message View or \<SR\> Search. The status of the Approved with Changes RxRenewal Response is “RXP” (RxRenewal Response Processed).
+When a RxRenewal Response message type is Approved with Changes (for number of renewals only), it does not display in the Holding Queue List View screen. It can be found using \<MV\> Message View or \<SR\> Search. The status of the Approved with Changes RxRenewal Response is "RXP" (RxRenewal Response Processed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/032.png)
 
@@ -24265,13 +24311,13 @@ Then, the user may accept the Approved with Changes RxRenewal Response.
 
 <span id="_Toc65771187" class="anchor"></span>Figure 4‑38: AC/Accept eR<sub>X</sub> Renewal
 
-The eR<sub>X</sub> on which Renewals were requested and the Response has been processed, is now reinstated with the Response. The renewed R<sub>X</sub> displays in the Active section of the Medication Profile. The R<sub>X</sub> number has an “A” appended to the end, indicating this is the first refill. Subsequent renewals include the next letter of the alphabet appended. (Ex: & 123456 changes to & 123456A after the first refill; for next refill: & 123456A changes to & 123456B).
+The eR<sub>X</sub> on which Renewals were requested and the Response has been processed, is now reinstated with the Response. The renewed R<sub>X</sub> displays in the Active section of the Medication Profile. The R<sub>X</sub> number has an "A" appended to the end, indicating this is the first refill. Subsequent renewals include the next letter of the alphabet appended. (Ex: & 123456 changes to & 123456A after the first refill; for next refill: & 123456A changes to & 123456B).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/040.png)
 
 <span id="_Toc65771188" class="anchor"></span>Figure 4‑39: Renewed R<sub>X</sub> Active in Medication Profile
 
-Once the Approved with Changes RxRenewal Response is successfully renewed, the status of the RxRenewal Response in the Holding Queue changes to “RXC” (RxRenewal Response Completed).
+Once the Approved with Changes RxRenewal Response is successfully renewed, the status of the RxRenewal Response in the Holding Queue changes to "RXC" (RxRenewal Response Completed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/041.png)
 
@@ -24283,7 +24329,7 @@ Select the record to view the RxRenewal Response details screen.
 
 <span id="_Toc65771190" class="anchor"></span>Figure 4‑41: RxRenewal Response Details Screen
 
-The status of the corresponding RxRenewal Request changes to “RRC” (RxRenewal Request Completed).
+The status of the corresponding RxRenewal Request changes to "RRC" (RxRenewal Request Completed).
 
 ![](inbound-eprescribing-user-manual-unit-4-part-1-pso-7-581/043.png)
 
@@ -24295,7 +24341,7 @@ Select the record to view the RxRenewal Request details screen.
 
 <span id="_Toc65771192" class="anchor"></span>Figure 4‑43: RxRenewal Request Details Screen
 
-The \<VP\>, \<VM\>, \<VD\>. and \<AC\> actions are in parentheses “( )”, therefore the user cannot select these actions for this message type.
+The \<VP\>, \<VM\>, \<VD\>. and \<AC\> actions are in parentheses "( )", therefore the user cannot select these actions for this message type.
 
 ### From: Inbound ePrescribing User Manual (Unit 5 Part 1) PSO*7*581
 
@@ -24317,7 +24363,7 @@ eR<sub>X</sub> Change Request/EC is a hidden action used for requesting change o
 
 Once a user requests change on a NewRx, the NewRx record is changed from its current Holding Queue status to HC/Hold Due to Change. When a record is in HC status only UH/Un Hold, P/Print and SH/Status History actions are available.
 
-> **NOTE:** HC status is unavailable for the user while manually putting a fillable eR<sub>X</sub> record on ‘Hold’.
+> **NOTE:** HC status is unavailable for the user while manually putting a fillable eR<sub>X</sub> record on 'Hold'.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/003.png)
 
@@ -24333,7 +24379,7 @@ When a NewRx record is in HC status the user may use UH/Un Hold action to revert
 
 #### Long Form
 
-The long form is used for the change request types, D, G, T, OS, and S. On this version, there are two required fields, Drug and Substitutions. The user can request up to 3 new medications. The user can also enter an optional ‘Note’ and echo the eR<sub>X</sub> Drug information back to the provider.
+The long form is used for the change request types, D, G, T, OS, and S. On this version, there are two required fields, Drug and Substitutions. The user can request up to 3 new medications. The user can also enter an optional 'Note' and echo the eR<sub>X</sub> Drug information back to the provider.
 
 1.  When the user exercises EC action, the eRX information is displayed for reference.
 
@@ -24357,22 +24403,22 @@ The long form is used for the change request types, D, G, T, OS, and S. On this 
 
 <span id="_Toc56761162" class="anchor"></span>Figure ‑: Selecting Drug from local file on EC Form
 
-3.  The user is prompted to enter an optional ‘Quantity’.
-    1.  If the user skips entering a value for ‘Quantity’, the next prompt for optional ‘Days Supply’ entry is displayed.
+3.  The user is prompted to enter an optional 'Quantity'.
+    1.  If the user skips entering a value for 'Quantity', the next prompt for optional 'Days Supply' entry is displayed.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/008.png)
 
 <span id="_Toc56761163" class="anchor"></span>Figure ‑: Skip Quantity entry on EC Form
 
-2.  If the user enters a value for ‘Quantity’, the 2 required fields associated with ‘Quantity’ field are displayed for the user.
+2.  If the user enters a value for 'Quantity', the 2 required fields associated with 'Quantity' field are displayed for the user.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/009.png)
 
 <span id="_Toc56761164" class="anchor"></span>Figure ‑: Quantity related fields on EC Form
 
-> **NOTE:** ‘Quantity Code List Qualifier’ and ‘Quantity Unit Of Measure’ are text entry fields. The user could enter “??” for each field to view the list of values they can select from.
+> **NOTE:** 'Quantity Code List Qualifier' and 'Quantity Unit Of Measure' are text entry fields. The user could enter "??" for each field to view the list of values they can select from.
 
-4.  The user is prompted to enter the optional ‘Days Supply’ and ‘Refills’ values.
+4.  The user is prompted to enter the optional 'Days Supply' and 'Refills' values.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/010.png)
 
@@ -24398,7 +24444,7 @@ The option for selecting the G type change request is unavailable to the user wh
 
 #### Short Form
 
-The short form is used for the change request types P and U. On this version, the user can enter an optional ‘Note’. No new medication can be requested on these change request types.
+The short form is used for the change request types P and U. On this version, the user can enter an optional 'Note'. No new medication can be requested on these change request types.
 
 #### EC Form for Prior Authorization Request
 
@@ -24460,9 +24506,9 @@ The Holding Queue displays all RxChange Request messages, sorted by received dat
 
 <span id="_Toc56761176" class="anchor"></span>Figure ‑: Message View Displaying RxChange Request Messages
 
-The RxChange Request message statuses are displayed in the “Status” column on the eR<sub>X</sub> Holding Queue. For RxChange Request statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
+The RxChange Request message statuses are displayed in the "Status" column on the eR<sub>X</sub> Holding Queue. For RxChange Request statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
 
-> **NOTE:** RxChange Request messages are not in actionable statuses and so, they are not displayed in the Holding Queue’s list view. Users may view them only by using \<MV\> Message View action or using the \<SR\> Search criteria.
+> **NOTE:** RxChange Request messages are not in actionable statuses and so, they are not displayed in the Holding Queue's list view. Users may view them only by using \<MV\> Message View action or using the \<SR\> Search criteria.
 
 RxChange Requests in the Holding Queue without a response or an error received for 2 weeks or more, change status from CRN (RxChange Request - New) to CRX (RxChange Request Expired) in the Holding Queue.
 
@@ -24476,7 +24522,7 @@ The Pharmacy user may select the RxChange Request message to display from the Ho
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Message Details View looks the same for all the request types D, G, T, OS, and S. The ‘Change Request Type’ field displays what the request type is based on the user’s selection while generating the request.
+The Message Details View looks the same for all the request types D, G, T, OS, and S. The 'Change Request Type' field displays what the request type is based on the user's selection while generating the request.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/022.png)
 
@@ -24494,13 +24540,13 @@ The Message Details View looks the same for all the request types D, G, T, OS, a
 
 <span id="_Toc56761180" class="anchor"></span>Figure ‑: RxChange Request and Message History
 
-The Message History segment displays message history with a reference to the original R<sub>X</sub>. The RxChange Request Reference \# field displays a “V”, indicating that this was generated from VistA.
+The Message History segment displays message history with a reference to the original R<sub>X</sub>. The RxChange Request Reference \# field displays a "V", indicating that this was generated from VistA.
 
 ### RxChange Request for P and U Request Types
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Message Details View looks almost the same for all the request types P and U. In case of U only, the sub request code is included. The ‘Change Request Type’ field displays what the request type is based on the user’s selection while generating the request.
+The Message Details View looks almost the same for all the request types P and U. In case of U only, the sub request code is included. The 'Change Request Type' field displays what the request type is based on the user's selection while generating the request.
 
 ![](inbound-eprescribing-user-manual-unit-5-part-1-pso-7-581/026.png)
 
@@ -24521,7 +24567,7 @@ When a RxChange Response is received from an external provider for the RxChange 
 - Validated
 - Denied
 
-RxChange Responses that are in actionable statuses are displayed in the Holding Queue’s list view. For the full list of RxChange Response statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
+RxChange Responses that are in actionable statuses are displayed in the Holding Queue's list view. For the full list of RxChange Response statuses, refer to <u>Error! Reference source not found.</u> in <u>Error! Reference source not found.Error! Reference source not found.</u>.
 
 To view a RxChange Response in the Holding Queue:
 

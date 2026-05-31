@@ -3,7 +3,7 @@ title: CPT Version 6 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CPT
 app_name: Current Procedural Terminology
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: CPT
 patch_ver: 6
 patch_id: CPT*6
-group_key: "CPT:CPT:6"
-file_numbers: []
+group_key: CPT:CPT:6
+description: '- May 1997IntroductionCommentsPackage Updates > New Options > Obsolete Options > New Routines > Changed Routines > Obsolete Routines > Obsolete Files > New Sort Templates > New Print Templates > Obsolete Print Templates Other Package Modifications >...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '81'
+- '409.5'
+- '409.71'
+- '409.72'
 security_keys: []
 menu_options: 0
-description: - [May 1997IntroductionCommentsPackage Updates](#may-1997introductioncommentspackage-updates) > New Options > Obsolete Options > New Routines > Changed Routines > Obsolete Routines > Obsolete Files > New Sort Templates > New Print Templates > Obsolete Print Templates Other Package Modifications > Sc
-audience: 
-keywords: 
-  - icpt
-  - release
-  - codes
-  - routines
-  - dgya
-  - procedure
-  - package
-  - modifications
-  - apis
-  - obsolete
 page_count: 0
 word_count: 528
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=33"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=33
+audit_applied: '2026-05-31'
 ---
 
 Current Procedural Terminology (CPT) V. 6.0 Release Notes

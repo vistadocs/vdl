@@ -3,7 +3,7 @@ title: EAS Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EAS
 app_name: Enrollment Application System
 section: FIN
@@ -11,39 +11,40 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1
-group_key: "EAS:EAS:1"
-file_numbers: 
-  - 712
+group_key: EAS:EAS:1
+description: The purpose of this Technical Manual is to provide technical background information to the VISTA system manager and other operations personnel to effectively manage Enrollment Application System (EAS) Version 1.0.
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3.6'
+- '3.8'
+- '9.2'
+- '19.1'
+- '101'
+- '409.61'
+- '711.1'
+- '712'
+- '1010'
+- '8992'
 security_keys: []
 menu_options: 0
-description: The purpose of this Technical Manual is to provide technical background information to the VISTA system manager and other operations personnel to effectively manage Enrollment Application System (EAS) Version 1.0.
-audience: 
-keywords: 
-  - table
-  - contents
-  - class
-  - mail
-  - action
-  - group
-  - even
-  - server
-  - application
-  - security
 page_count: 0
 word_count: 4104
 section_count: 12
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-version-1-technical-manual/001.png)

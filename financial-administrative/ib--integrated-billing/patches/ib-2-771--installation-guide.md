@@ -3,7 +3,7 @@ title: IB*2*771 Deployment, Installation, Back-out and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,51 +11,31 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*771
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '| Date | Version | Description | Author | |---------------|---------|-----------------------|-------------------------| | March 2024 | 1.1 | IOC Exit | MCCF EDI TAS eInsurance | | November 2023 | 1.0 | IOC Entry | MCCF EDI TAS eInsurance | | October 2023 | 0.1 | Draft version for MOU | MCCF EDI TAS...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '355.33'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - patch
-  - installation
-  - rollback
-  - site
-  - procedure
-  - deployment
-  - testing
 page_count: 0
-word_count: 3037
+word_count: 3008
 section_count: 31
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p771_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p771_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p771_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p771_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk87958049" class="anchor"></span>Medical Care Collection Fund (MCCF)  
-  Electronic Data Interchange (EDI)  
-  Transaction Applications Suite (TAS)
-
-  eInsurance IB\*2.0\*771
-
-  Deployment, Installation, Back-out, and Rollback Guide
----
-
 ![](ib-2-771-deployment-installation-back-out-and-rollback-guide/001.png)
 
 March 2024

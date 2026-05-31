@@ -1,49 +1,48 @@
 ---
-title: "Laboratory: Universal Interface Data Innovations Instructional Implementation Guide Version 5.2"
+title: '''Laboratory: Universal Interface Data Innovations Instructional Implementation Guide Version 5.2'''
 doc_type: IG-IMP
 doc_label: Implementation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: ''
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 5.2
-patch_id: 
-group_key: "LA::5.2"
-file_numbers: 
-  - 770
+patch_id: ''
+group_key: LA::5.2
+description: '>'
+audience: ''
+keywords: []
+file_numbers:
+- '3.5'
+- '61'
+- '62.05'
+- '62.4'
+- '62.48'
+- '68'
+- 092
+- '770'
+- '771'
 security_keys: []
-menu_options: 0
-description: > ![](laboratory-universal-interface-data-innovations-instructional-implementation-gui/001.png)
-audience: 
-keywords: 
-  - strong
-  - table
-  - contents
-  - class
-  - instrument
-  - manager
-  - even
-  - auto
-  - analyzer
-  - setup
+menu_options: 2
 page_count: 0
 word_count: 3642
 section_count: 20
 table_count: 6
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/datain.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/datain.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/datain.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/datain.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 > ![](laboratory-universal-interface-data-innovations-instructional-implementation-gui/001.png)

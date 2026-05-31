@@ -1,19 +1,45 @@
 ---
-consolidated_title: "install guide"
-app_code: CRHD
+title: CRHD*1*8 Install Guide
 doc_type: IG
-master_source: "CRHD*1*8 Install Guide"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Install Guide
+app_code: CRHD
+app_name: Shift Handoff Tool
+section: CLI
+app_status: active
+pkg_ns: CRHD
+patch_ver: 1
+patch_id: CRHD*1*8
+group_key: CRHD:CRHD:1
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Description | Author | |-----------|-----------------|------------------------------------| | June 2019 | Initial Release | REDACTED'
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 3699
+section_count: 31
+table_count: 4
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: June 2019
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/CRHD_1_8_IG.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/CRHD_1_8_IG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=175
+audit_applied: '2026-05-31'
+master_source: CRHD*1*8 Install Guide
 master_pub_date: June 2019
 consolidated_from: 2 versions
 prior_versions:
-  - "CRHD*1*7 Install Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Shift Change Handoff Tool (CRHD\*1.0\*8)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)
+- CRHD*1*7 Install Guide
+consolidated_title: install guide
 ---
 
 ![](crhd-1-8-install-guide/001.png)
@@ -207,13 +233,13 @@ No one single entity oversees decision making for deployment, installation, back
 
 The deployment is planned as a standard VistA National Patch Module patch rollout. Once approval has been given to nationally release, the patch CRHD\*1.0\*8 will be released from the National Patch Module. At this point, it will be available for installation and deployment at all sites.
 
-Scheduling of test/mirror installs, testing and deployment to production will be at the site’s discretion. It is anticipated there will be a 30-day compliance period.
+Scheduling of test/mirror installs, testing and deployment to production will be at the site's discretion. It is anticipated there will be a 30-day compliance period.
 
 ## Timeline 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site’s discretion, within the constraints of the compliance period for the release.
+There is no timeline specifically for deployment. This is considered a maintenance release and installation will be at the site's discretion, within the constraints of the compliance period for the release.
 
 ## Site Readiness Assessment 
 
@@ -381,9 +407,9 @@ Installation of Shift Handoff Tool v1.0.8.3 requires the following to install:
 - Compare Transport Global to Current System
 - Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package CRHD\*1.0\*8
-6.  If prompted, “Want KIDS to Rebuild Menu Trees Upon Completion of install? NO//” respond NO
-7.  When prompted, “Want KIDS to INHIBIT LOGONs during the install? NO//” respond NO.
-8.  When prompted, “Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//” respond NO.
+6.  If prompted, "Want KIDS to Rebuild Menu Trees Upon Completion of install? NO//" respond NO
+7.  When prompted, "Want KIDS to INHIBIT LOGONs during the install? NO//" respond NO.
+8.  When prompted, "Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//" respond NO.
 
 ### Shift Handoff Tool v1.0.8.3 GUI Installation
 
@@ -409,7 +435,7 @@ If a user requires access to an older or newer version of Shift Handoff Tool (e.
 
 Citrix installation:
 
-The GUI executable (ShiftHandoffTool.exe) and associated files are installed and run from a remote workstation, and the user views the remote workstation’s screen on their local workstation.
+The GUI executable (ShiftHandoffTool.exe) and associated files are installed and run from a remote workstation, and the user views the remote workstation's screen on their local workstation.
 
 For the local site users, this method is on a similar level to the Network (shared) installation above. The users' workstations require only an appropriate shortcut and the necessary CAG infrastructure.
 
@@ -533,8 +559,8 @@ Shows the contact information for key personell from HPS
 1.  If the decision is made to proceed with a back-out and rollback, the HPS Sustainment Clinical team is available to assist sites that have misplaced their backup PackMan message and provide the instructions on downloading the executable.
 9.  \[VistA\]
 1.  Open the Backup MailMan Message
-2.  At the, “Enter message action (in IN basket): Ignore//” prompt enter X for \[Xtract PackMan\]
-3.  At the, “Select PackMan function:” prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
+2.  At the, "Enter message action (in IN basket): Ignore//" prompt enter X for \[Xtract PackMan\]
+3.  At the, "Select PackMan function:" prompt select \[INSTALL/CHECK MESSAGE\]. The old routine is now restored
 4.  \[GUI\] Coordinate with the appropriate IT support, local and regional, to schedule the time to install CRHD\*1.0\*7 and to push out / install the previous GUI executable.
 10. Once CRHD\*1.0\*7 and Shift Handoff Tool v1.0.7.1 have been installed, verify operations before making available to all staff.
 
@@ -621,5 +647,5 @@ _These sections appeared in earlier versions of this document but are not presen
 - Compare Transport Global to Current System
 - Verify Checksums in Transport Global
 5.  Use the Install Package(s) options and select the package CRHD\*1.0\*7
-6.  When prompted “Want KIDS to Rebuild Menu Trees Upon Completion of Install?” respond NO. When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//' respond NO.
-7.  When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, respond NO.
+6.  When prompted "Want KIDS to Rebuild Menu Trees Upon Completion of Install?" respond NO. When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//' respond NO.
+7.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', respond NO.

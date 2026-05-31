@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1*106
-group_key: "EAS:EAS:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: EAS:EAS:1
 description: This project was initially undertaken in response to Item \#22 in the "Report of Task Force to Review Enrollment, Means Testing and Income Verification" (a.k.a. Rossio Report) dated December 15, 2000. In the area of Means Test (MT) Deficiencies, Item \#22 required that the Veterans Health Administra
-audience: 
-keywords: 
-  - table
-  - contents
-  - letters
-  - print
-  - background
-  - software
-  - test
-  - letter
-  - means
-  - patch
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers: []
+security_keys:
+- EAS MT OVERRIDE
+- EAS MTOVERRIDE
+- EAS MTSUPV
+menu_options: 0
 page_count: 0
 word_count: 3922
 section_count: 20
 table_count: 10
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-1-106-local-signed-means-test-application-rossio-22-technical-manual/001.png)

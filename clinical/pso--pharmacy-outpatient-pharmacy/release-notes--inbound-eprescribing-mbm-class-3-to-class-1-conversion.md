@@ -1,12 +1,50 @@
 ---
-consolidated_title: "inbound eprescribing mbm class 3 to class 1 conversion release notes"
-app_code: PSO
+title: PSO*7.0*770 Inbound ePrescribing MbM Class 3 to Class 1 Conversion Release Notes
 doc_type: RN
-master_source: "PSO*7.0*770 Inbound ePrescribing MbM Class 3 to Class 1 Conversion Release Notes"
-master_pub_date: revision_count: 0
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: Inbound ePrescribing MbM Class 3 to Class 1 Conversion
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7.0
+patch_id: PSO*7.0*770
+group_key: PSO:PSO:7.0
+file_numbers:
+- '8991.9'
+security_keys:
+- ERX WORKLOAD RPH
+- PROVIDER
+- PSDMGR
+- PSORPH
+menu_options: 1
+description: Inbound ePrescribing (IEP)Meds-by-Mail (MbM) Class 3 to Class 1 ConversionVistA Patch \#
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 12940
+section_count: 3
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7.0*770 Inbound ePrescribing MbM Class 3 to Class 1 Conversion Release Notes
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "PSO*7*700 Inbound ePrescribing MbM Class 3 to Class 1 Conversion Release Notes"
+- PSO*7*700 Inbound ePrescribing MbM Class 3 to Class 1 Conversion Release Notes
+consolidated_title: inbound eprescribing mbm class 3 to class 1 conversion release notes
 ---
 
 Outpatient Pharmacy
@@ -2021,9 +2059,9 @@ will be suggested as the Fill Date for the eRx Pending Order.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Although not required to use the new *eRx Holding Queue Processing* \[PSO ERX QUEUE PROCESSING\] option, for you to have a better user interface experience it’s important that you adjust a few settings on your Reflection Terminal application. Below you will find a step-by-step on how to set the colors on your terminal display that works best for you.
+> Although not required to use the new *eRx Holding Queue Processing* \[PSO ERX QUEUE PROCESSING\] option, for you to have a better user interface experience it's important that you adjust a few settings on your Reflection Terminal application. Below you will find a step-by-step on how to set the colors on your terminal display that works best for you.
 
-> STEP 1 – Click on Display below to open the Terminal Display Settings on your Reflection application. Some Reflection applications may have a different top menu layout, which you will have to find this “Display” menu item via a different path.
+> STEP 1 – Click on Display below to open the Terminal Display Settings on your Reflection application. Some Reflection applications may have a different top menu layout, which you will have to find this "Display" menu item via a different path.
 
 > ![](pso-7-0-770-inbound-eprescribing-mbm-class-3-to-class-1-conversion-release-notes/002.png)
 
@@ -2031,11 +2069,11 @@ will be suggested as the Fill Date for the eRx Pending Order.
 
 > ![](pso-7-0-770-inbound-eprescribing-mbm-class-3-to-class-1-conversion-release-notes/003.png)
 
-> STEP 3 – Scroll down until you find the “Text Color Mapping” section. Here is where you will be able to set the color scheme that works best for you.
+> STEP 3 – Scroll down until you find the "Text Color Mapping" section. Here is where you will be able to set the color scheme that works best for you.
 
 > ![](pso-7-0-770-inbound-eprescribing-mbm-class-3-to-class-1-conversion-release-notes/004.png)
 
-Once you reach this color mapping you can adjust the colors by clicking on the “Change” button specific to each text feature supported by the terminal. See below for a few examples on where each setting is used in the new option:
+Once you reach this color mapping you can adjust the colors by clicking on the "Change" button specific to each text feature supported by the terminal. See below for a few examples on where each setting is used in the new option:
 
 > ![](pso-7-0-770-inbound-eprescribing-mbm-class-3-to-class-1-conversion-release-notes/005.png)
 

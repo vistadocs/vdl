@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: ECME
 patch_ver: 1
 patch_id: ECME*1
-group_key: "ECME:ECME:1"
-file_numbers: []
+group_key: ECME:ECME:1
+description: The purpose of this Installation Guide is to provide an explanation of the installation process for the BPS\*1.0 Master Build. This Master Build is the release mechanism of the HIPAA NCPDP Connection for EDI Pharmacy project, which includes the new Electronic Claims Management Engine (ECME) V. 1.0 p
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4.2'
+- '200'
+- '399.3'
 security_keys: []
 menu_options: 0
-description: The purpose of this Installation Guide is to provide an explanation of the installation process for the BPS\*1.0 Master Build. This Master Build is the release mechanism of the HIPAA NCPDP Connection for EDI Pharmacy project, which includes the new Electronic Claims Management Engine (ECME) V. 1.0 p
-audience: 
-keywords: 
-  - pharmacy
-  - table
-  - contents
-  - installation
-  - install
-  - ncpdp
-  - build
-  - registration
-  - located
-  - namespace
 page_count: 0
 word_count: 5817
 section_count: 7
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_0_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_0_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=141"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_0_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/bps_1_0_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=141
+audit_applied: '2026-05-31'
 ---
 
 > ![](bps-version-1-dormant-release-installation-guide/001.png)

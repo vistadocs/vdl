@@ -5,44 +5,44 @@ doc_label: Implementation Guide
 doc_layer: plain
 doc_subject: Pharmacy Ordering Enhancements (POE) Pre-Release
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: PSS
+patch_ver: null
+patch_id: null
+group_key: null
+description: The purpose of this POE PDM Pre-Release patch is to prepare sites for the upcoming release of the Pharmacy Ordering Enhancements patches. The new PDM options provide sites the necessary functionality to manipulate data in the Pharmacy files in preparation for the subsequent POE release. The packages
+audience: ''
+keywords: []
+file_numbers:
+- '50'
+- '50.606'
+- '50.607'
+- '50.68'
+- '50.7'
+- '51'
+- '51.1'
+- '51.2'
+- '52.6'
 security_keys: []
 menu_options: 0
-description: The purpose of this POE PDM Pre-Release patch is to prepare sites for the upcoming release of the Pharmacy Ordering Enhancements patches. The new PDM options provide sites the necessary functionality to manipulate data in the Pharmacy files in preparation for the subsequent POE release. The packages
-audience: 
-keywords: 
-  - drug
-  - dosages
-  - dosage
-  - possible
-  - inpatient
-  - dextrose
-  - pharmacy
-  - dispense
-  - dose
-  - diagram
 page_count: 0
 word_count: 18436
 section_count: 3
 table_count: 17
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_impg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_impg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_impg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pdm1p34_impg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 # ![](pharmacy-ordering-enhancements-poe-pre-release-implementation-guide/001.png)

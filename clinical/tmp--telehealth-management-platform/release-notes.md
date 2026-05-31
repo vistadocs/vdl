@@ -1,12 +1,45 @@
 ---
-consolidated_title: "tmp release notes"
-app_code: TMP
+title: TMP Version 2.0 Release 4.8 Release Notes
 doc_type: RN
-master_source: "TMP Version 2.0 Release 4.8 Release Notes"
+doc_label: Release Notes
+doc_layer: anchor
+doc_subject: Release 4.8
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 2.0
+patch_id: TMP*2.0
+group_key: TMP:TMP:2.0
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: Department of Veterans AffairsTelehealth Management Platform (TMP) 4.8.0 Release Notes
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 8144
+section_count: 6
+table_count: 6
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: October 2021
+revision_count: 1
+revision_newest: 06/24/2020
+revision_oldest: 06/24/2020
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_release_notes.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_release_notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 2.0 Release 4.8 Release Notes
 master_pub_date: October 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "TMP Version 1.5 Release 4.6 Release Notes"
+- TMP Version 1.5 Release 4.6 Release Notes
+consolidated_title: tmp release notes
 ---
 
 Department of Veterans AffairsTelehealth Management Platform (TMP)  
@@ -32,7 +65,7 @@ Complying with all applicable copyright laws is the responsibility of the user.�
 
 Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document.  Except as expressly provided in any written license agreement from Microsoft, our provision of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
-The descriptions of other companies’ products in this document, if any, are provided only as a convenience to you.  Any such references should not consider an endorsement or support by Microsoft.  Microsoft cannot guarantee their accuracy, and the products may change over time. In addition, the descriptions are intended as brief highlights to aid understanding, rather than as thorough coverage. For authoritative descriptions of these products, please consult their respective manufacturers.
+The descriptions of other companies' products in this document, if any, are provided only as a convenience to you.  Any such references should not consider an endorsement or support by Microsoft.  Microsoft cannot guarantee their accuracy, and the products may change over time. In addition, the descriptions are intended as brief highlights to aid understanding, rather than as thorough coverage. For authoritative descriptions of these products, please consult their respective manufacturers.
 
 © 2016 Microsoft Corporation. All rights reserved. Any use or distribution of these materials without express authorization of Microsoft Corp. is strictly prohibited.
 
@@ -178,7 +211,7 @@ This document provides the details of the Telehealth Management Platform(TMP) 4.
 <li><p>12856 - Production - TMP Intermittent Issues Pulling RTCs and Consults</p></li>
 <li><p>12901 - Pre-Prod- Preventing AlphaNumeric characters in Clinic IEN number when clinics are created</p></li>
 <li><p>13266 - [Internal] Handle error scenarios while canceling an appointment scheduled with TSA (i.e., w/o SP)</p></li>
-<li><p>13457 - Prod: Group Appointment: 2nd Patient Site booking into 1st Patients Site’s Vista IEN</p></li>
+<li><p>13457 - Prod: Group Appointment: 2nd Patient Site booking into 1st Patients Site's Vista IEN</p></li>
 <li><p>13478 - Prod: INC7581991 - TMP Inventory | Screen doesn't refresh</p></li>
 <li><p>14795 - Patient Participating Site - Missing VistA Clinic Message</p></li>
 <li><p>15561 - Prod - Real time clinic updates throws an error when information is missing in the VistA inbound message</p></li>
@@ -274,7 +307,7 @@ hub: Hub Director Approval Status = Review Pending</p></li>
 <li><p>non-hub: Both FTC Initial Approval Teams must take action before any Service Chief and Chief of Staffs are notified</p></li>
 </ul>
 <blockquote>
-<p>(Emails will not be sent out until both FTC teams have changed their Approval Statuses”). If either FTC changes their status to Reviewed and updated then both patient and provider side Service Chiefs and Chiefs of Staff will be notified.</p>
+<p>(Emails will not be sent out until both FTC teams have changed their Approval Statuses"). If either FTC changes their status to Reviewed and updated then both patient and provider side Service Chiefs and Chiefs of Staff will be notified.</p>
 </blockquote>
 <ul>
 <li><p>Service Chief and Chiefs of Staff Approval Status's reset to blank awaiting their new approvals (also the signee and signee date fields also go to blank)</p></li>
@@ -290,8 +323,8 @@ Text: This TSA has been Reviewed and Updated.  Clicking okay will clear all sig
 <td><p>As a TSA Manager, I need the ability to view all Facility Approvals(TSAs) reviewed so that I can see any outstanding or completed reviews as follows:</p>
 <p>- show what is due to be reviewed this quarter =&gt; Pending Review</p>
 <p>- show what is overdue for review (e.g. based on review due date is past)</p>
-<p>- show what was reviewed this quarter as ‘Reviewed and Confirmed’ ​</p>
-<p>- show what was reviewed this quarter as ‘Reviewed and Updated’ ​</p>
+<p>- show what was reviewed this quarter as 'Reviewed and Confirmed' ​</p>
+<p>- show what was reviewed this quarter as 'Reviewed and Updated' ​</p>
 <p>- user can select the date in a filter option if built as a view</p>
 <p>These 8 additional views are required for Facility Approvals within selected time period</p>
 <p>non hub:</p>
@@ -350,7 +383,7 @@ hub: notification email is sent to Hub Director, Initial Approver Text = Hub Di
 <li><p>clicking on the link included in the email takes user to the appropriate Facility approval record</p></li>
 </ul>
 <blockquote>
-<p>Subject: [Provider Facility Name] and [Patient Facility Name] agreement’s yearly review is overdue and service is deactivated &lt;=Subject ends here.   </p>
+<p>Subject: [Provider Facility Name] and [Patient Facility Name] agreement's yearly review is overdue and service is deactivated &lt;=Subject ends here.   </p>
 <p>[Provider Facility Name] and [Patient Facility Name] It has been more than a year since this Telehealth service agreement has been reviewed and signed by [Initial Approver Text], [Specialty, Specialty Sub-Type] Telehealth service.<br />
 To review, please click here [link to TSA].  <strong>This review was due by [review due date] and the associated TSA is no longer active.</strong></p>
 </blockquote>
@@ -408,7 +441,7 @@ To review, please click here [link to TSA].  <strong>This review was due by [re
 <td><a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fva-crmprojects.visualstudio.com%2F813c42f7-7b2c-4815-ba8f-afd87e914f66%2F_workitems%2Fedit%2F7925&amp;data=02%7C01%7CGina.Dominique%40microsoft.com%7C8b10121f7d634fc513a208d816b7219d%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637284323088178942&amp;sdata=OMuQEguEpxuk1hOC%2FhWgOyRKMenF%2BJbkB8GtuODJ4ok%3D&amp;reserved=0">7925</a></td>
 <td>Update Participating Site Default Lookup</td>
 <td>User Story</td>
-<td><p>As a TMP Scheduling Package Manager, adding a Participating Site to an intrafacility or interfacility Scheduling Package(SP), I need to efficiently view the TMP Sites that are selectable, so that I don’t have to scroll through all TMP sites.</p>
+<td><p>As a TMP Scheduling Package Manager, adding a Participating Site to an intrafacility or interfacility Scheduling Package(SP), I need to efficiently view the TMP Sites that are selectable, so that I don't have to scroll through all TMP sites.</p>
 <p>On the Participating Site form, the user must specify whether it is a Patient or Provider site, prior to selecting the TMP Site.</p>
 <ul>
 <li><p><strong>Location Type</strong> must be placed above <strong>TMP Site</strong></p></li>
@@ -433,7 +466,7 @@ To review, please click here [link to TSA].  <strong>This review was due by [re
 <br />
 -if scheduling resources are added and Can Be Scheduled=Yes, they get scheduled as part of the appointment creation for SPs with Scheduling Usage type of Scheduling.<br />
 <br />
--In order for an Intrafacility VVC Patient Participating Site ‘CanBe Scheduled’ field to be set to ‘Yes’, the Patient Participating Site must have a scheduling resource (when a patient participating site is added).<br />
+-In order for an Intrafacility VVC Patient Participating Site 'CanBe Scheduled' field to be set to 'Yes', the Patient Participating Site must have a scheduling resource (when a patient participating site is added).<br />
 <br />
 -If scheduling resources are added and its a TSA usage type, facility approvals would get initiated as required as well.<br />
 <br />
@@ -522,7 +555,7 @@ To review, please click here [link to TSA].  <strong>This review was due by [re
 <th>User Story</th>
 <th>As TMP Resource Manager I need to update available technology types for a Patient so that obsolete names are removed and device names are streamlined for clarity in the field</th>
 <th><p>Patient Form is updated for Technology Type:</p>
-<p>Please change CVT Tablet and COTS Tablet value to one value, “SIP Device”.</p>
+<p>Please change CVT Tablet and COTS Tablet value to one value, "SIP Device".</p>
 <p>Please leave SIP Address field. Make all fields visible for the Technology type, but gray out and lock the ones that are not pertinent to the Technology Type in question.</p>
 <table>
 <colgroup>
@@ -714,7 +747,7 @@ the following table logic holds true:</p>
 <td>Scheduling package validation when adding patient side resources</td>
 <td>User Story</td>
 <td>As an SchedulingPackage Manager, adding patient side scheduling resources, I should include a VistA clinic for clinic based type appointments, so that I avoid scheduling errors</td>
-<td>-When a user doesn’t add a patient side vista clinic type resource for clinic based type appointments and tries to change the Can Be Scheduled to Yes, they get a validation error</td>
+<td>-When a user doesn't add a patient side vista clinic type resource for clinic based type appointments and tries to change the Can Be Scheduled to Yes, they get a validation error</td>
 </tr>
 <tr class="even">
 <td><a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fva-crmprojects.visualstudio.com%2F813c42f7-7b2c-4815-ba8f-afd87e914f66%2F_workitems%2Fedit%2F15183&amp;data=02%7C01%7CGina.Dominique%40microsoft.com%7C8b10121f7d634fc513a208d816b7219d%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637284323088218922&amp;sdata=Pil9wymhxmPh2ukfR1L4lqydJzYQrMwp0UGu9EEgGgI%3D&amp;reserved=0">15183</a></td>
@@ -1043,7 +1076,7 @@ The following are the defects that have been resolved in this release:
 </tr>
 <tr class="odd">
 <td><a href="https://va-crmprojects.visualstudio.com/813c42f7-7b2c-4815-ba8f-afd87e914f66/_workitems/edit/13457">13457</a></td>
-<td>Prod: Group Appointment: 2nd Patient Site booking into 1st Patients Site’s Vista IEN</td>
+<td>Prod: Group Appointment: 2nd Patient Site booking into 1st Patients Site's Vista IEN</td>
 <td>Bug</td>
 <td>-the appointment books into the wrong clinic (IEN) ------ As a TMP Scheduler, scheduling a group appointment, I need to verify that each VistA clinic IEN is booked into the expected VistA station when multiple patients are booked either within different facilities (inter) or within the same facility (intra).</td>
 <td><p>-when there are multiple Reserve Resources (RRs) on a CVT group appointment, even if from different patient sites/facilities</p>

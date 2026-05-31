@@ -5,44 +5,36 @@ doc_label: Installation Guide
 doc_layer: plain
 doc_subject: Pharmacy Ordering Enhancements (POE) Phase 2
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: PSO
+patch_ver: null
+patch_id: null
+group_key: null
+description: The purpose of this Installation Guide is to provide an explanation of the installation process for the CPRS/Pharmacy Ordering Enhancements 1.0 Master Build. The intended audience for this document is the Information Resources Management Service (IRMS) staff and Pharmacy staff responsible for instal
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '52'
 security_keys: []
 menu_options: 0
-description: The purpose of this Installation Guide is to provide an explanation of the installation process for the CPRS/Pharmacy Ordering Enhancements 1.0 Master Build. The intended audience for this document is the Information Resources Management Service (IRMS) staff and Pharmacy staff responsible for instal
-audience: 
-keywords: 
-  - orwdq
-  - pharmacy
-  - psoz
-  - cprs
-  - installation
-  - install
-  - ordering
-  - enhancements
-  - build
-  - outpatient
 page_count: 0
 word_count: 4843
 section_count: 1
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 > ![](pharmacy-ordering-enhancements-poe-phase-2-installation-guide/001.png)

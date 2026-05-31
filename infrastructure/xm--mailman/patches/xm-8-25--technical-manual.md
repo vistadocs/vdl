@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8*25
-group_key: "XM:XM:8"
-file_numbers: []
+group_key: XM:XM:8
+description: Overview of the Steps in this Section
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '9.7'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - service
-  - xminet
-  - cache
-  - account
-  - namespace
-  - steps
-  - mailman
-  - create
-  - node
-  - sites
 page_count: 0
 word_count: 6319
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/tcpip_service_for_mailman.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/tcpip_service_for_mailman.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/tcpip_service_for_mailman.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/tcpip_service_for_mailman.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](xm-8-25-tcp-ip-service-for-mailman/001.png)

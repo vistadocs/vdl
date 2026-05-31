@@ -1,17 +1,91 @@
 ---
-consolidated_title: "user manual change pages"
-app_code: PSU
+title: PSU*4*19 User Manual Change Pages
 doc_type: UM
-master_source: "PSU*4*19 User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Change Pages
+app_code: PSU
+app_name: 'Pharmacy: Benefits Management'
+section: CLI
+app_status: active
+pkg_ns: PSU
+patch_ver: 4
+patch_id: PSU*4*19
+group_key: PSU:PSU:4
+file_numbers:
+- '1'
+- '1.2'
+- '2'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '10'
+- '12'
+- '13'
+- '14.5'
+- '15'
+- '17'
+- '34'
+- '40.8'
+- '45'
+- '50'
+- '51.2'
+- '51.5'
+- '52'
+- '55'
+- '58.81'
+- '58.811'
+- '59'
+- '59.9'
+- '62'
+- '70'
+- '71'
+- '80'
+- '80.1'
+- '81'
+- '99'
+- '113'
+- '120.5'
+- '120.52'
+- '120.8'
+- '120.85'
+- '200'
+- '442'
+- '991.01'
+- '991.02'
+- '15002'
+- '900001'
+security_keys:
+- PROVIDER
+menu_options: 0
+description: '> Office of Information and Technology (OI&T) Product'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 10671
+section_count: 17
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: July 2014
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_p19_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_p19_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
+master_source: PSU*4*19 User Manual Change Pages
 master_pub_date: July 2014
 consolidated_from: 3 versions
 prior_versions:
-  - "PSU*4*10 User Manual Change Pages"
-  - "PSU*4*12 User Manual Change Pages"
----
-
----
-title: Pharmacy Benefits Management (PBM) User Manual
+- PSU*4*10 User Manual Change Pages
+- PSU*4*12 User Manual Change Pages
+consolidated_title: user manual change pages
 ---
 
 ![](psu-4-19-user-manual-change-pages/001.png)
@@ -51,7 +125,7 @@ title: Pharmacy Benefits Management (PBM) User Manual
   - [Example MailMan Messages](#example-mailman-messages-10)
   - [Example MailMan Messages](#example-mailman-messages-11)
   - [Example MailMan Messages](#example-mailman-messages-12)
-> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 <table>
 <colgroup>
 <col style="width: 11%" />
@@ -95,7 +169,7 @@ title: Pharmacy Benefits Management (PBM) User Manual
 <p>Revised title page.</p>
 <p>Updated Inpatient and Outpatient Extracts to include a new Code Set Indicator field in sections 4.8.1 and 4.9.1, and include ICD10 in Data Element field name.</p>
 <p>Updated MailMan Message examples to reflect the addition of Code Set Indicators.</p>
-<p>Changed all instances of “double up arrow (^^)” to “up arrow (^)” within MailMan message descriptions.</p>
+<p>Changed all instances of "double up arrow (^^)" to "up arrow (^)" within MailMan message descriptions.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -189,7 +263,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
   - VI – Vitals/Immunizations Information Module
   - LR – Laboratory Module
 - 29810 The date of the reporting period, in this example October 1998.
-- 1/3 “1” represents the message number and “3” represents the total number of messages sent from this facility for this particular module. In this example, the header would indicate the first message of a total of 3 messages generated for the IV module.
+- 1/3 "1" represents the message number and "3" represents the total number of messages sent from this facility for this particular module. In this example, the header would indicate the first message of a total of 3 messages generated for the IV module.
 - 499B4 The station number with suffix (broken down to the outpatient clinic or the inpatient division).
 - GLRISC The name of the facility/outpatient clinic/division.
 
@@ -197,7 +271,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 
 > being performed on a PC in a language such as FoxPro, ProComm, Keaterm, etc., the asterisk at the beginning of a line will inform the user that this line and the previous line should be concatenated together, thus validating the definitions of the delimited fields explained later in this document.
 
-> A confirmation message will be generated whenever the program extracts data to be transmitted to the PBM section <span class="mark">REDACTED</span> for addition to the national database. Only those packages with requested data to be extracted will be listed. If no data is found for a package, the confirmation will list the module with “0” lines extracted and “1” message transmitted. A MailMan message will be generated if the extract program did not find any data for a specific module.
+> A confirmation message will be generated whenever the program extracts data to be transmitted to the PBM section <span class="mark">REDACTED</span> for addition to the national database. Only those packages with requested data to be extracted will be listed. If no data is found for a package, the confirmation will list the module with "0" lines extracted and "1" message transmitted. A MailMan message will be generated if the extract program did not find any data for a specific module.
 
 > Example confirmation messages are provided in the MailMan Messages section of this manual.
 
@@ -655,7 +729,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Free Text.</p>
-<p>Example: “1010185893V199552”</p>
+<p>Example: "1010185893V199552"</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -683,7 +757,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <td></td>
 <td></td>
 <td><blockquote>
-<p>(Values in both fields are concatenated with a “V”.)</p>
+<p>(Values in both fields are concatenated with a "V".)</p>
 </blockquote></td>
 <td></td>
 <td></td>
@@ -763,7 +837,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>24</p>
 </blockquote></td>
 <td><blockquote>
-<p>If the HOW sub-field (#.05) is set to “1” from Pick list, “2” Pre-exchange units, or “3” Extra Units dispensed, the AMOUNT sub-field (#.03) for each dispense drug shall be counted.</p>
+<p>If the HOW sub-field (#.05) is set to "1" from Pick list, "2" Pre-exchange units, or "3" Extra Units dispensed, the AMOUNT sub-field (#.03) for each dispense drug shall be counted.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -772,7 +846,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <td></td>
 <td></td>
 <td><blockquote>
-<p>The total dispensed amount shall be transmitted. If there is no amount to be counted for the reporting period, a value of “0” shall be transmitted.</p>
+<p>The total dispensed amount shall be transmitted. If there is no amount to be counted for the reporting period, a value of "0" shall be transmitted.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -792,8 +866,8 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>25</p>
 </blockquote></td>
 <td><blockquote>
-<p>If the HOW sub-field (#.05) is set to “4” returns, the AMOUNT sub-field (#.03) for each dispense drug shall be counted.</p>
-<p>The total returned amount shall be transmitted. If there is no returned amount to be counted for the reporting period, a value of “0” shall be transmitted.</p>
+<p>If the HOW sub-field (#.05) is set to "4" returns, the AMOUNT sub-field (#.03) for each dispense drug shall be counted.</p>
+<p>The total returned amount shall be transmitted. If there is no returned amount to be counted for the reporting period, a value of "0" shall be transmitted.</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -1278,7 +1352,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>42</p>
 </blockquote></td>
 <td><blockquote>
-<p>Duration can be entered in minutes, hours, days, weeks, or months. The internal format of the data shall be extracted, e.g. “14D or 14” represents 14 days, “1W” represents 1 week. If no duration exists a null value shall be transmitted.</p>
+<p>Duration can be entered in minutes, hours, days, weeks, or months. The internal format of the data shall be extracted, e.g. "14D or 14" represents 14 days, "1W" represents 1 week. If no duration exists a null value shall be transmitted.</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -1299,7 +1373,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>The internal format of the data shall be extracted.</p>
-<p>Example: “A” for And, “T” for Then, and “X” for Except.</p>
+<p>Example: "A" for And, "T" for Then, and "X" for Except.</p>
 <p>If no conjunction exists, a null value shall be transmitted.</p>
 </blockquote></td>
 </tr>
@@ -1569,7 +1643,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 
 > Procurement data from the IFCAP file (#442) is limited to transactions with a cost center of 822400 (Pharmacy) and 828100 (SPD). Only completed prime vendor invoice data from the DRUG ACCOUNTABILITY ORDER (Prime Vendor) file (#58.811) will be extracted.
 
-> Procurement data with dispensing transaction type of “1” (Receipt into Pharmacy) will be extracted from the DRUG ACCOUNTABILITY file (#58.81).
+> Procurement data with dispensing transaction type of "1" (Receipt into Pharmacy) will be extracted from the DRUG ACCOUNTABILITY file (#58.81).
 
 > Medical Center Divisions are selected from the MEDICAL CENTER DIVISION file (#40.8) NAME field (#.01). Outpatient Sites are selected from the OUTPATIENT SITE file (#59) NAME field (#.01). The user may select an active or inactive Outpatient Site. \*\*Inactive\*\* shall be displayed next to a selected inactive Outpatient Site.
 
@@ -1632,7 +1706,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Free Text. Example:</p>
-<p>“1010185893V199552”</p>
+<p>"1010185893V199552"</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -1660,7 +1734,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <td></td>
 <td></td>
 <td><blockquote>
-<p>(Values in both fields are concatenated with a ‘V’.)</p>
+<p>(Values in both fields are concatenated with a 'V'.)</p>
 </blockquote></td>
 <td></td>
 <td></td>
@@ -2033,7 +2107,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 
 8.  Outpatient Visits Extract
 
-> In order to decrease the running time of the monthly *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option, the ability to extract a month’s worth of outpatient visit records from the VISIT file (#9000010) shall no longer be provided. The ability to extract outpatient visit records for any given timeframe directly from the VISIT file (#9000010) shall be retained with the *Manual Pharmacy Statistics* \[PSU PBM MANUAL\] option.
+> In order to decrease the running time of the monthly *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option, the ability to extract a month's worth of outpatient visit records from the VISIT file (#9000010) shall no longer be provided. The ability to extract outpatient visit records for any given timeframe directly from the VISIT file (#9000010) shall be retained with the *Manual Pharmacy Statistics* \[PSU PBM MANUAL\] option.
 
 > Outpatient Visit records extracted on a daily basis shall be stored in the new PBM PATIENT DEMOGRAPHICS file (#59.9) until they are compiled for transmission when the monthly *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option is run.
 
@@ -2107,7 +2181,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>3</p>
 </blockquote></td>
 <td><blockquote>
-<p>“I” will be sent for Inpatient “O” will be sent for Outpatient</p>
+<p>"I" will be sent for Inpatient "O" will be sent for Outpatient</p>
 <p>If no data exists, a null value is sent.</p>
 </blockquote></td>
 </tr>
@@ -2192,14 +2266,14 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>NUMBER field (# 991.01)</p>
 <p>ICN CHECKSUM</p>
 <p>field (#991.02)</p>
-<p>(Values in both fields are concatenated with a “V”.)</p>
+<p>(Values in both fields are concatenated with a "V".)</p>
 </blockquote></td>
 <td><blockquote>
 <p>6</p>
 </blockquote></td>
 <td><blockquote>
 <p>Free Text.</p>
-<p>Example: “1010185893V199552”</p>
+<p>Example: "1010185893V199552"</p>
 <p>If an ICN does not exist, send null.</p>
 </blockquote></td>
 </tr>
@@ -2258,7 +2332,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>27</p>
 </blockquote></td>
 <td><blockquote>
-<p>Code set indicator values include 9 (contains ICD-9 codes only), 10 (contains ICD- 10 codes only, U (contains ICD-9 and ICD-10 codes), and “” (Null – contains no ICD-9 or ICD-10 codes).</p>
+<p>Code set indicator values include 9 (contains ICD-9 codes only), 10 (contains ICD- 10 codes only, U (contains ICD-9 and ICD-10 codes), and "" (Null – contains no ICD-9 or ICD-10 codes).</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -2499,7 +2573,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Internal format (minus time)</p>
-<p>Example: “2980409”</p>
+<p>Example: "2980409"</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -2518,7 +2592,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Internal format (minus time)</p>
-<p>Example: “2980409”</p>
+<p>Example: "2980409"</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -2536,7 +2610,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>6</p>
 </blockquote></td>
 <td><blockquote>
-<p>Internal format Example: “123456789”</p>
+<p>Internal format Example: "123456789"</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -2590,7 +2664,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>7</p>
 </blockquote></td>
 <td><blockquote>
-<p>Internal format Example: “1234”</p>
+<p>Internal format Example: "1234"</p>
 <p>If ICN does not exist, send null.</p>
 </blockquote></td>
 </tr>
@@ -2609,7 +2683,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>7</p>
 </blockquote></td>
 <td><blockquote>
-<p>Internal format Example: “1234”</p>
+<p>Internal format Example: "1234"</p>
 <p>If ICN does not exist, send null.</p>
 </blockquote></td>
 </tr>
@@ -2626,7 +2700,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td>8-27</td>
 <td><blockquote>
-<p>Internal format Example: “341.8, 341.9”</p>
+<p>Internal format Example: "341.8, 341.9"</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -2642,7 +2716,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td>28-43</td>
 <td><blockquote>
-<p>Internal format Example: “99.10,75.37”</p>
+<p>Internal format Example: "99.10,75.37"</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -2659,7 +2733,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>44</p>
 </blockquote></td>
 <td><blockquote>
-<p>Code set indicator values include 9 (contains ICD-9 codes only), 10 (contains ICD-10 codes only, U (contains ICD-9 and ICD-10 codes), and “” (Null – contains no ICD-9 or ICD-10 codes).</p>
+<p>Code set indicator values include 9 (contains ICD-9 codes only), 10 (contains ICD-10 codes only, U (contains ICD-9 and ICD-10 codes), and "" (Null – contains no ICD-9 or ICD-10 codes).</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -2881,7 +2955,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Internal Format.</p>
-<p>“o” for Observed “h” for Historical</p>
+<p>"o" for Observed "h" for Historical</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -2900,8 +2974,8 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Internal format.</p>
-<p>“A” for Allergy</p>
-<p>“P” for Pharmacologic “U” for Unknown</p>
+<p>"A" for Allergy</p>
+<p>"P" for Pharmacologic "U" for Unknown</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -2920,7 +2994,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>12</p>
 </blockquote></td>
 <td><blockquote>
-<p>Internal Format (date). Example: “3011001.0900”</p>
+<p>Internal Format (date). Example: "3011001.0900"</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -2962,7 +3036,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <p>14-19</p>
 </blockquote></td>
 <td><blockquote>
-<p>If the sign/symptom entered in the REACTION sub-field (#.01) equals “OTHER REACTION”, the value for the sign/symptom shall be extracted from the OTHER REACTION sub-field (#1).</p>
+<p>If the sign/symptom entered in the REACTION sub-field (#.01) equals "OTHER REACTION", the value for the sign/symptom shall be extracted from the OTHER REACTION sub-field (#1).</p>
 <p>This is where the free text sign/symptom is stored.</p>
 </blockquote></td>
 </tr>
@@ -3107,11 +3181,11 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Free text.</p>
-<p>Example: “70” for weight; “140/80” for blood pressure.</p>
+<p>Example: "70" for weight; "140/80" for blood pressure.</p>
 <p>Or</p>
-<p>Users can enter a reason for omission, such as “REFUSE, PASS, or UNAVAILABLE.”</p>
+<p>Users can enter a reason for omission, such as "REFUSE, PASS, or UNAVAILABLE."</p>
 <p>Pain scale codes:</p>
-<p>0 – Patient verbalizes no pain. 1-10 – Patient verbalizes pain with “1” representing minimal pain and “10” representing worst imaginable pain.</p>
+<p>0 – Patient verbalizes no pain. 1-10 – Patient verbalizes pain with "1" representing minimal pain and "10" representing worst imaginable pain.</p>
 <p>99 – Patient unable to respond/communicate pain level.</p>
 </blockquote></td>
 </tr>
@@ -3131,8 +3205,8 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 <td><blockquote>
 <p>Free text.</p>
 <p>Regardless of how the user enters a measurement, the software automatically converts the value and stores it in a standard format. The following units will be transmitted for a specific vital type:</p>
-<p>Weight – “lb” Height – “in”</p>
-<p>Pulse Oximetry – “%”</p>
+<p>Weight – "lb" Height – "in"</p>
+<p>Pulse Oximetry – "%"</p>
 <p>Null value will be sent for Blood Pressure, Pain, and Pulse since there is no unit associated with these vital types.</p>
 </blockquote></td>
 </tr>
@@ -3152,7 +3226,7 @@ ii Pharmacy Benefits Management V. 4.0 June 2005
 </blockquote></td>
 <td><blockquote>
 <p>Free text</p>
-<p>Example: weight may have the following qualifiers: “dry” or “actual”.</p>
+<p>Example: weight may have the following qualifiers: "dry" or "actual".</p>
 <p>Not all measurements will have an associated qualifier. A measurement can have multiple qualifiers. Currently, the maximum number of qualifiers a vital may have is 4.</p>
 </blockquote></td>
 </tr>
@@ -3788,7 +3862,7 @@ _These sections appeared in earlier versions of this document but are not presen
 > The *PBM Manager Menu* \[PSU PBM MANAGER MENU\] option grants the user access to the following options:
 
 - *Manual Pharmacy Statistics* \[PSU PBM MANUAL\] allows the user to manually run individual or combined extracts for a time period of their own choosing.
-- *Retransmit Patient Demographic Data* \[PSU RETRANSMIT PATIENT DATA\] allows the user to resend the prior month’s patient demographic data to the PBM national database should the background job be interrupted. Patient demographic data is held for a period of 75 days before being purged.
+- *Retransmit Patient Demographic Data* \[PSU RETRANSMIT PATIENT DATA\] allows the user to resend the prior month's patient demographic data to the PBM national database should the background job be interrupted. Patient demographic data is held for a period of 75 days before being purged.
 - *Map Pharmacy Locations* \[PSU MAP PHARMACY LOCATIONS\] allows the user to map Area of Uses (AOUs) from the AR/WS application, Narcotic Area of Uses (NAOUs) from the Controlled Substances application, and Pharmacy Locations from the Drug Accountability application to a specific Medical Center Division or Outpatient site.
 
 ## Manual Pharmacy Statistics
@@ -3895,7 +3969,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The site should assign the *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option to the Pharmacy Supervisor’s menu. This option is used to gather the pharmacy statistics for the previous month from the following files:
+> The site should assign the *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option to the Pharmacy Supervisor's menu. This option is used to gather the pharmacy statistics for the previous month from the following files:
 
 1.  Pharmacy Patient IV Subfile File \# 55.01
 2.  Pharmacy Patient UD Subfile File \# 55.06
@@ -3940,7 +4014,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *Pharmacy Background Job Check* \[PSU PBM JOB CHECK\] option checks to see if the monthly *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option ran to completion. A MailMan message will be sent to the local and remote members of the facility’s PSU PBM mail group and to the PBM national database at <span class="mark">REDACTED</span> if the report has not completed in six days.
+> The *Pharmacy Background Job Check* \[PSU PBM JOB CHECK\] option checks to see if the monthly *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option ran to completion. A MailMan message will be sent to the local and remote members of the facility's PSU PBM mail group and to the PBM national database at <span class="mark">REDACTED</span> if the report has not completed in six days.
 
 > Population of the PSU PBM JOB field (#90) in the PHARMACY SYSTEM file (#59.7) with a date/time verifies completion. This option is scheduled automatically by the *Automatic Pharmacy Statistics* \[PSU PBM AUTO\] option and normally does not need user intervention. In case of computer outage, it could be run manually.
 
@@ -3954,13 +4028,13 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This option retransmits patient demographic data stored in the PBM file. When a user first enters the option, the software displays the purpose of this option and the first date there is data available for retransmission. The user shall be asked if this is a monthly report. If the response is “Yes”, the user shall be prompted to enter a Month/Year. If the response is ‘No’, the user shall be asked to enter a start date and end date. The user shall not be allowed to retransmit data for the current date. A message shall be displayed to the user stating that the current date is not selectable. If statistical data is not available for the entire month/year, start date, or end date selected, the software shall display a message to the user indicating either the range of dates for which statistical data is available or the start or end date of selectable data. The user shall be prompted to reenter the month/year, start date, or end date.
+> This option retransmits patient demographic data stored in the PBM file. When a user first enters the option, the software displays the purpose of this option and the first date there is data available for retransmission. The user shall be asked if this is a monthly report. If the response is "Yes", the user shall be prompted to enter a Month/Year. If the response is 'No', the user shall be asked to enter a start date and end date. The user shall not be allowed to retransmit data for the current date. A message shall be displayed to the user stating that the current date is not selectable. If statistical data is not available for the entire month/year, start date, or end date selected, the software shall display a message to the user indicating either the range of dates for which statistical data is available or the start or end date of selectable data. The user shall be prompted to reenter the month/year, start date, or end date.
 
 > Example: Retransmission For a Month of Statistical Data.
 
 > Example: Retransmission For Two Weeks of Statistical Data.
 
-> The user shall then be prompted with “Do you want a copy of this report sent to you in a MailMan message?”. If the user responds Yes, the message shall be sent to the user executing the option, and to local and remote members of the PSU PBM mail group. The user shall then be prompted with “Send this to the PBM section for addition to the master file?”. If the user responds Yes, the message shall be sent to the PBM national database. Only monthly reports shall be transmittable to the PBM national database. The user shall not be prompted to send the message to the master file if the user enters a timeframe other than a month.
+> The user shall then be prompted with "Do you want a copy of this report sent to you in a MailMan message?". If the user responds Yes, the message shall be sent to the user executing the option, and to local and remote members of the PSU PBM mail group. The user shall then be prompted with "Send this to the PBM section for addition to the master file?". If the user responds Yes, the message shall be sent to the PBM national database. Only monthly reports shall be transmittable to the PBM national database. The user shall not be prompted to send the message to the master file if the user enters a timeframe other than a month.
 
 > The user shall be asked when they wish to run the job. The user shall be able to immediately run the job or queue it at a later date/time.
 

@@ -5,44 +5,49 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: (GMPL*2*60)
 app_code: GMPL
-app_name: "CPRS: Problem List"
+app_name: 'CPRS: Problem List'
 section: CLI
 app_status: active
 pkg_ns: GMPL
 patch_ver: 2
 patch_id: GMPL*2
-group_key: "GMPL:GMPL:2"
-file_numbers: []
-security_keys: []
+group_key: GMPL:GMPL:2
+description: Updated document globally for 508 compliance Removed broken links discontinued/unavailable
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '18'
+- '81'
+- '125'
+- '125.11'
+- '200'
+- '757.03'
+- '900001'
+security_keys:
+- ENTER
+- GMPL ICD CODE
+- GMPL IMPRT UTIL
+- ORELSE
+- OREMAS
+- ORES
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - problem
-  - problems
-  - selection
-  - table
-  - gmpl
-  - contents
-  - patient
-  - snomed
-  - code
-  - active
 page_count: 0
 word_count: 26328
 section_count: 37
 table_count: 2
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmplum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmplum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=64"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmplum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmplum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=64
+audit_applied: '2026-05-31'
 ---
 
 Problem List

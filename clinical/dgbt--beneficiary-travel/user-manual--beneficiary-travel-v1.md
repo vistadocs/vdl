@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: DGBT
 patch_ver: 1
 patch_id: DGBT*1
-group_key: "DGBT:DGBT:1"
-file_numbers: []
+group_key: DGBT:DGBT:1
+description: '''2/2024 DGBT*1*0*41 Decomission of options Removed sections: 4.1 Bene Travel Account file Enter/Edit 4.2 Claim Enter/Edit – Special Mode Claims 4.4 Reprint Denial of Benefits Letters'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '392.3'
+- '408.31'
 security_keys: []
 menu_options: 7
-description: 
-audience: 
-keywords: 
-  - report
-  - date
-  - travel
-  - dgbtpatient
-  - table
-  - contents
-  - testing
-  - beneficiary
-  - claim
-  - dellinger
 page_count: 0
 word_count: 8428
 section_count: 10
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=123"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt_1_41_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=123
+audit_applied: '2026-05-31'
 ---
 
 Beneficiary Travel (BT)

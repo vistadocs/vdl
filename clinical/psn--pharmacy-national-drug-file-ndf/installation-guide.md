@@ -3,57 +3,70 @@ title: National Drug File Version 4 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSN
-app_name: "Pharmacy: National Drug File (NDF)"
+app_name: 'Pharmacy: National Drug File (NDF)'
 section: CLI
 app_status: active
 pkg_ns: PSN
 patch_ver: 4
 patch_id: PSN*4
-group_key: "PSN:PSN:4"
-file_numbers: []
-security_keys: []
+group_key: PSN:PSN:4
+description: '| Date | Version | Description | Author | |------------|-------------|------------------------------------------------------------------------------------------------------------|------------------------------------| | 06/12/17 | 2.5 | Incorporated review findings – updated table on page 9-10,...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '4.0'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '17'
+- '20'
+- '21'
+- '22'
+- '30'
+- '31'
+- '32'
+- '33'
+- '34'
+- '39'
+- '41'
+- '45'
+- '50'
+- '57.23'
+- '59.7'
+- '70'
+- '100'
+security_keys:
+- PSN PPS ADMIN
+- PSN PPS COORD
+- PSNMGR
+- SSH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - server
-  - installation
-  - update
-  - routine
-  - back
-  - national
-  - site
-  - directory
 page_count: 0
-word_count: 7774
+word_count: 7753
 section_count: 31
 table_count: 17
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2018
 revision_count: 16
 revision_newest: 06/12/17
 revision_oldest: 6/1/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/ndf_4_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/ndf_4_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=89"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/ndf_4_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/ndf_4_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=89
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>Pharmacy Product System (PPS)-N Version 3.0
-
-  PSN\*4\*513
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](national-drug-file-version-4-installation-guide/001.png)
 
 January 2018

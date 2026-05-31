@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*182
-group_key: "YS:YS:5.01"
-file_numbers: []
+group_key: YS:YS:5.01
+description: '| Date | Version | Description | Author | |------------|-------------|-----------------|----------------------| | 10/18/2021 | 1.0 | Initial Version | Liberty IT Solutions'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '10'
+- '18'
+- '601.71'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - rollback
-  - backout
-  - procedure
-  - routine
-  - deployment
-  - patch
-  - health
 page_count: 0
-word_count: 2008
+word_count: 1992
 section_count: 27
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2021
 revision_count: 1
 revision_newest: 10/18/2021
 revision_oldest: 10/18/2021
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_182_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_182_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_182_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_182_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Mental Health YS\*5.01\*182
-
-  Deployment, Installation, Backout, and Rollback Guide
----
-
 ![](ys-5-01-182-mental-health-deployment-installation-back-out-rollback-guide/001.png)
 
 October 2021

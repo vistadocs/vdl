@@ -1,48 +1,48 @@
 ---
-title: "LA*5.2*12 Laboratory: Universal Interface VITEK Literal Interface Document"
+title: '''LA*5.2*12 Laboratory: Universal Interface VITEK Literal Interface Document'''
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: patch
-doc_subject: "Laboratory: Universal Interface VITEK Literal Interface Document"
+doc_subject: '''Laboratory: Universal Interface VITEK Literal Interface Document'''
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*12
-group_key: "LA:LA:5.2"
-file_numbers: []
+group_key: LA:LA:5.2
+description: Approximately 50 VAMC facilities have purchased the bioMerieux Vitek Analyzer to perform automated microbiology laboratory testing. The bioMerieux Vitek Analyzer performs bacterial identification and susceptibility profiles. The main benefit from having an interface from the analyzer to a Laboratory
+audience: ''
+keywords: []
+file_numbers:
+- '60'
+- '61.2'
+- '61.38'
+- '61.39'
+- '61.391'
+- '61.392'
+- '62.06'
+- '62.4'
+- '68.2'
 security_keys: []
 menu_options: 0
-description: Approximately 50 VAMC facilities have purchased the bioMerieux Vitek Analyzer to perform automated microbiology laboratory testing. The bioMerieux Vitek Analyzer performs bacterial identification and susceptibility profiles. The main benefit from having an interface from the analyzer to a Laboratory
-audience: 
-keywords: 
-  - vitek
-  - table
-  - code
-  - contents
-  - laboratory
-  - instrument
-  - dhcp
-  - entry
-  - organism
-  - installation
 page_count: 0
 word_count: 5251
 section_count: 19
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/vitek_la52_12_doc.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/vitek_la52_12_doc.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/vitek_la52_12_doc.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/vitek_la52_12_doc.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

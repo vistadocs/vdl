@@ -5,44 +5,35 @@ doc_label: Developer Guide
 doc_layer: patch
 doc_subject: KDC Developer's Guide (Readme)
 app_code: XU
-app_name: Kernel Delphi Components (KDC)
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*207
-group_key: "XU:XU:8"
+group_key: XU:XU:8
+description: '''\\* 06/12/02: Kernel Delphi Components Developer''''s Guide (standalone online help)'''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "\* 06/12/02: Kernel Delphi Components Developer's Guide (standalone online help)"
-audience: 
-keywords: 
-  - kernel
-  - delphi
-  - components
-  - developer
-  - guide
-  - help
-  - files
-  - directory
-  - installation
-  - development
 page_count: 0
 word_count: 314
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0dgrm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0dgrm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=127"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0dgrm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0dgrm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=127
+audit_applied: '2026-05-31'
 ---
 
 Readme File

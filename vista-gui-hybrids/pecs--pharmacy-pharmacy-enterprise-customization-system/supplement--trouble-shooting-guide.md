@@ -1,21 +1,45 @@
 ---
-consolidated_title: "trouble shooting guide"
-app_code: PECS
+title: PREC*6*516 TROUBLE SHOOTING GUIDE
 doc_type: SUP
-master_source: "PREC*6*516 TROUBLE SHOOTING GUIDE"
+doc_label: Supplement
+doc_layer: patch
+doc_subject: TROUBLE SHOOTING GUIDE
+app_code: PECS
+app_name: 'Pharmacy: Pharmacy Enterprise Customization System'
+section: GUI
+app_status: active
+pkg_ns: PREC
+patch_ver: 6
+patch_id: PREC*6*516
+group_key: PECS:PREC:6
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: 03/22/2016 22 All PREC*6.0*1 Update emails in section 3.3 508 conformance edit - REDACTED Updated for PECS v6.0.01 -
+audience: ''
+keywords: []
+page_count: 0
+word_count: 14869
+section_count: 30
+table_count: 23
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: May 2016
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_6_0_tg_r0516.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_6_0_tg_r0516.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=204
+audit_applied: '2026-05-31'
+master_source: PREC*6*516 TROUBLE SHOOTING GUIDE
 master_pub_date: May 2016
 consolidated_from: 2 versions
 prior_versions:
-  - "PREC*6.1*717 TROUBLE SHOOTING GUIDE"
----
-
----
-title: |
-  Pharmacy Enterprise Customization System (PECS)
-
-  Troubleshooting Guide
-
-  ![](prec-6-516-trouble-shooting-guide/001.png)
+- PREC*6.1*717 TROUBLE SHOOTING GUIDE
+consolidated_title: trouble shooting guide
 ---
 
 Version 6.0.01
@@ -83,7 +107,7 @@ Revision History
 <p>Revised introductory text on Page 13</p>
 <p>Removed extra space on Page 29</p>
 <p>Removed extra space on Page 43</p>
-<p>Corrected inconsistency in use of the phrase ‘Where X…’ throughout document</p>
+<p>Corrected inconsistency in use of the phrase 'Where X…' throughout document</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
 <tr class="odd">
@@ -256,13 +280,13 @@ The Service Level of the system and the availability of the system are described
 
 The logical view describes the architecturally significant parts of the design model. The object-oriented decomposition of the PECS application can be logically divided into three primary tiers: Presentation Tier, Business Logic Tier, and Data Persistence Tier. Each tier has its own design and implementation framework, and defined points of interaction with the other respective tiers.
 
-The PECS application is a web-based application accessible only from within the VA network via a client workstation with a VA approved Internet browser. The PECS application’s architecture is designed and implemented according to VA architecture requirements using JEE framework. PECS is architected as an n-tier JEE application consisting of Presentation Tier, Business Logic Tier, and Data Persistence Tier. Each tier has its own design and implementation framework, and defined points of interaction with the other respective tiers.
+The PECS application is a web-based application accessible only from within the VA network via a client workstation with a VA approved Internet browser. The PECS application's architecture is designed and implemented according to VA architecture requirements using JEE framework. PECS is architected as an n-tier JEE application consisting of Presentation Tier, Business Logic Tier, and Data Persistence Tier. Each tier has its own design and implementation framework, and defined points of interaction with the other respective tiers.
 
 ### Presentation Tier Overview
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The presentation tier represents the GUI screens that allow the user to interact with the application, and the logic initiated by user interaction to execute screen functionality. The presentation tier uses a well-known Model-View-Controller (MVC) design pattern implemented by the Spring MVC framework using JEE JSP pages as the “View” portion of MVC. The MVC framework is used to manage the display screens and to dispatch and delegate requests initiated by the user to a business rule processing business logic tier. The design of the MVC framework as it is used in the PECS application leverages an object hierarchy with commonly shared base classes.
+The presentation tier represents the GUI screens that allow the user to interact with the application, and the logic initiated by user interaction to execute screen functionality. The presentation tier uses a well-known Model-View-Controller (MVC) design pattern implemented by the Spring MVC framework using JEE JSP pages as the "View" portion of MVC. The MVC framework is used to manage the display screens and to dispatch and delegate requests initiated by the user to a business rule processing business logic tier. The design of the MVC framework as it is used in the PECS application leverages an object hierarchy with commonly shared base classes.
 
 ### Business Logic Tier Overview
 
@@ -317,7 +341,7 @@ The logical system components for the National and Local environments are illust
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-PECS is a national deployment at the Austin Information Technology Center (AITC). There is no disaster recovery site at AITC. The PECS application’s components are deployed on two servers: an application server (WebLogic) and a database server (Oracle). These servers’ characteristics are described in more detail below.
+PECS is a national deployment at the Austin Information Technology Center (AITC). There is no disaster recovery site at AITC. The PECS application's components are deployed on two servers: an application server (WebLogic) and a database server (Oracle). These servers' characteristics are described in more detail below.
 
 | Parameter                 | Value                                                              |
 |---------------------------|--------------------------------------------------------------------|
@@ -362,7 +386,7 @@ PECS is deployed at the national level as a single application server node conne
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The PECS application conforms to the VA’s requirements determining the use of third party tools. Please refer to the PECS Product Architecture Document for reference. See the PECS TSPR site: <span class="mark">REDACTED</span>
+The PECS application conforms to the VA's requirements determining the use of third party tools. Please refer to the PECS Product Architecture Document for reference. See the PECS TSPR site: <span class="mark">REDACTED</span>
 
 The three-tiered architecture, which consists of an Internet browser-based graphical user interface accessing a Spring MVC-based web application/presentation tier, a Java Enterprise Edition (JEE)-based business logic service processing layer, and a Hibernate-based data access tier, conforms to the design recommended by the Health Systems Design & Development (HSD&D) Core Specifications for Re-hosting Initiatives and generally acceptable JEE implementation recommendations.
 
@@ -516,7 +540,7 @@ Start the requested Managed Servers.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The application is first taken offline by the application admin and advises the team. The DBA takes the DB offline and advises the team. The SA will run “ps –ef” to identify any hung WebLogic or Oracle processes prior to shutdown/reboot of the servers.
+The application is first taken offline by the application admin and advises the team. The DBA takes the DB offline and advises the team. The SA will run "ps –ef" to identify any hung WebLogic or Oracle processes prior to shutdown/reboot of the servers.
 
 If the server is up and the database is up but needs to come down for maintenance on the database or server, the script on the database server, vapredbs1, in the directory, /u01/oracle/admin/PREP/scripts, is a shutdown\_ script which can be run by the Oracle Unix user to shut down any database on the server. It is called from that directory as ./shutdown_db.ksh \<database_name\>, i.e., ./shutdown_db.ksh PREP.
 
@@ -765,7 +789,7 @@ Once the server, vapredbs1 is restored from tape, including /etc, /var and /u01 
 
 Back-up Testing
 
-At the Program Manager’s discretion, random files can be selected to be restored to an alternate location.
+At the Program Manager's discretion, random files can be selected to be restored to an alternate location.
 
 Currently, there is no restore testing. The DBA team has requested an extra server to user for this purpose and will implement testing procedures when this server is purchased by AITC.
 
@@ -802,7 +826,7 @@ Document used from this page is the Installation Guide & Release Notes 1.0.1 (We
 
 The PECS application is only accessible by users signed directly into the VA network, or by users signed into the VA network via the RESCUE client. User authentication into the VA network is a precondition of PECS application access. Application authentication and authorization will be controlled by the VA KAAJEE security API.
 
-In order to log into the application, each user must have a valid VistA account, at a local or national facility, since KAAJEE delegates user authentication to VistA. At the application’s login screen, users will be prompted for their access and verify codes and will be allowed to select the VistA instance which issued their credentials.
+In order to log into the application, each user must have a valid VistA account, at a local or national facility, since KAAJEE delegates user authentication to VistA. At the application's login screen, users will be prompted for their access and verify codes and will be allowed to select the VistA instance which issued their credentials.
 
 <span id="_Toc447005118" class="anchor"></span>Figure - KAAJEE Application Overview
 
@@ -849,11 +873,11 @@ The purpose of this screen is to provide an authorized user access to the system
 
 If the response from the authentication request is successful via the KAAJEE API, KAAJEE will return a user profile object which will be used by the application to determine the user's role(s) and permissions. On successful login, the system transfers (navigate) the user to the Home page of the application.
 
-It should be noted that the authentication mechanism used by the KAAJEE API is “Form” based authentication. This type of authentication is configured in and enforced by the application server. A login form page is specified within the application configuration deployment descriptor which tells the application server what page within the application is to be used for authentication. When a request for login is received by the application server, the server knows to display this form. If a user session times out and the user subsequently requests an application link or resource, the application server will forward requests to the page specified as the login form first.
+It should be noted that the authentication mechanism used by the KAAJEE API is "Form" based authentication. This type of authentication is configured in and enforced by the application server. A login form page is specified within the application configuration deployment descriptor which tells the application server what page within the application is to be used for authentication. When a request for login is received by the application server, the server knows to display this form. If a user session times out and the user subsequently requests an application link or resource, the application server will forward requests to the page specified as the login form first.
 
 Within the PECS application, if the user session times out the application server will forward the user to the login page, then it will redirect the user to accept the confidentiality statement. Once the confidentiality statement is accepted, the user will be redirected to the application home page. The confidentiality statement must be accepted at least once per user session.
 
-A user’s role will determine the screens and operations that will be accessible. The table below details presents a security the matrix.
+A user's role will determine the screens and operations that will be accessible. The table below details presents a security the matrix.
 
 Menu Tab
 
@@ -894,7 +918,7 @@ Advanced Query/Customization/My Queries
 | Query Result      | Panel  | X         | X        | X               | X             |
 | Load              | Button | X         | X        |                 |               |
 
-Advanced Query/Customization/Other User’s Queries
+Advanced Query/Customization/Other User's Queries
 
 |                   | Type   | Requester | Approver | Release Manager | Administrator |
 |-------------------|--------|-----------|----------|-----------------|---------------|
@@ -1062,7 +1086,7 @@ The system validates form field values per business rule and data integrity cons
 
 The system receives the value after form validation and applies the appropriate business rules (if any) to the value. Examples of a business rule validation may include bounds checking, or any interdependencies that may exist between two data values. Please see Alternative Flows for data validation errors.
 
-Like most systems, PECS may generate a small set of error that may be considered “routine”. These errors are routine in the sense that they have minimal impact on the user and do not compromise the operational state of the system. Most of the errors are transient in nature and only require the user to retry an operation. The following sub-section describes these errors, their causes, and what response, if any, an operator needs to take.
+Like most systems, PECS may generate a small set of error that may be considered "routine". These errors are routine in the sense that they have minimal impact on the user and do not compromise the operational state of the system. Most of the errors are transient in nature and only require the user to retry an operation. The following sub-section describes these errors, their causes, and what response, if any, an operator needs to take.
 
 While the occasional occurrence of these errors may be routine, getting a large number of an individual errors over a short period of time is an indication of a more serious problem. In that case the error needs to be treated as an exceptional condition.
 
@@ -1077,7 +1101,7 @@ The DATUP subsystem does not provide or enforce a security model. However, the s
 1.  Access to FTP denied – The configured FTP Protocol over SSH (SFTP) account username and/or password is incorrect. To resolve this, the FDB-DIF Update DATUP configuration file should be modified to include the correct access information.
 2.  Access to Email denied – The configured email account username and/or password is incorrect. To resolve this, the FDB-DIF Update DATUP configuration file should be modified to include the correct access information.
 3.  Access to FDB-DIF denied – The configured JDBC driver URL, driver name, username, and/or password is incorrect. To resolve this, the FDB-DIF Update configuration file should be modified to include the correct access information.
-4.  Access to “temporary” directory denied – The WebLogic process does not have sufficient permission to write to the operating system defined temporary directory (e.g., “/tmp”). To resolve this, the WebLogic process should be granted write access to the temporary directory.
+4.  Access to "temporary" directory denied – The WebLogic process does not have sufficient permission to write to the operating system defined temporary directory (e.g., "/tmp"). To resolve this, the WebLogic process should be granted write access to the temporary directory.
 
 ### Time-outs
 
@@ -1139,7 +1163,7 @@ This section lists the error messages that can appear for all concepts.
 
 | All Concepts Error Message                                                                                                                                                               | Cause                                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Current Action Reason field is required                                                                                                                                                  | User didn’t fill out the ‘Current Action Reason’ field.                                                                               |
+| Current Action Reason field is required                                                                                                                                                  | User didn't fill out the 'Current Action Reason' field.                                                                               |
 | Action 'Submit as Reviewed' cannot be performed on modified records. Please click the 'Modify' button after changing fields. Field '\<name of field\>' cannot be changed for this action | Approver modifies an FDB field on a custom record in the Modified or Deleted action status and clicks the 'Submit as Reviewed' button |
 | Action 'Submit for Delete' cannot be performed on modified records. Please click the 'Modify' button after changing fields. Field '\<name of field\>' cannot be changed for this action  | Approver modifies an FDB field on a custom record in the Approved or Deleted action status and clicks the 'Submit for Delete' button  |
 
@@ -1156,10 +1180,10 @@ This section lists the informational messages that can appear for all concepts.
 | This custom record has been successfully modified and will be reviewed at the national level.                    | Approver modified several non-FDB fields on a custom record in the Approved action status and clicked the 'Modify' button.                                                                                                |
 | This custom record has been successfully submitted for delete.                                                   | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status whose associated drug pairs had been deleted.                                                                            |
 | This custom record has been successfully deleted.                                                                | Approver clicked the 'Delete' button on a customization in the Delete_Reviewed action status.                                                                                                                             |
-| This request for deletion has been rejected. The record has returned to previous action status (‘Approved’).     | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status and then, the user clicked the 'Reject' button.                                                                          |
-| This reviewed record has been rejected. The record has returned to previous action status (‘Deleted’).           | Approver clicked the 'Submit as Reviewed' button on a custom record in the Deleted action status and then, the user clicked the 'Reject' button.‘                                                                         |
-| This request for modification has been rejected. The record has returned to previous action status (‘Approved’). | Approver modified an FDB field on a custom record in the Approved action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                           |
-| This request for modification has been rejected. The record has returned to previous action status (‘Deleted’).  | Approver modified an FDB field on a custom record in the Deleted action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                            |
+| This request for deletion has been rejected. The record has returned to previous action status ('Approved').     | Approver clicked the 'Submit for Delete' button on a custom record in the Approved action status and then, the user clicked the 'Reject' button.                                                                          |
+| This reviewed record has been rejected. The record has returned to previous action status ('Deleted').           | Approver clicked the 'Submit as Reviewed' button on a custom record in the Deleted action status and then, the user clicked the 'Reject' button.'                                                                         |
+| This request for modification has been rejected. The record has returned to previous action status ('Approved'). | Approver modified an FDB field on a custom record in the Approved action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                           |
+| This request for modification has been rejected. The record has returned to previous action status ('Deleted').  | Approver modified an FDB field on a custom record in the Deleted action status and clicked the 'Modify' button and then, the user clicked the 'Reject' button.                                                            |
 | To update the record, click the edit button below.                                                               | User has entered the detail page for one of the concepts. (When a user first enters a detail page, it will be in read-only mode. The only way a user will be able to update the detail page is to click the Edit button.) |
 
 ### Dose Range
@@ -1193,7 +1217,7 @@ This section lists the Dose Range error messages.
 <tr class="even">
 <td><p>The customized Dose Range Check record could not be found.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User queries for a dose range record and the system can’t correctly parse the record to display.</td>
+<td>User queries for a dose range record and the system can't correctly parse the record to display.</td>
 </tr>
 <tr class="odd">
 <td><p>FDB customized object was not found in the database.</p>
@@ -1381,7 +1405,7 @@ This section lists the Dose Range error messages.
 <td>User attempts to save a record, and the system is unable to execute the process.</td>
 </tr>
 <tr class="odd">
-<td>‘X’ UNITS field cannot be blank when ‘X’ field has numeric value.</td>
+<td>'X' UNITS field cannot be blank when 'X' field has numeric value.</td>
 <td>User modifies a record that has a blank units field for a corresponding field containing a numeric value. For example, the 'Dose Low' field contains a number with no corresponding dose low units.</td>
 </tr>
 <tr class="even">
@@ -1453,7 +1477,7 @@ This section lists the Drug-Drug Interaction error messages.
 <tbody>
 <tr class="odd">
 <td>Interaction Description is required</td>
-<td>User doesn't input a value into the ‘Interaction Description' field.</td>
+<td>User doesn't input a value into the 'Interaction Description' field.</td>
 </tr>
 <tr class="even">
 <td>Interaction Description field is invalid; it must contain two drug names separated by a forward slash/</td>
@@ -1461,17 +1485,17 @@ This section lists the Drug-Drug Interaction error messages.
 </tr>
 <tr class="odd">
 <td>Record could not be retrieved due to missing ID number. Please report this error to the support team.</td>
-<td>User selects a DDI VA record from the query results to modify, but the record id is null or empty (“”).</td>
+<td>User selects a DDI VA record from the query results to modify, but the record id is null or empty ("").</td>
 </tr>
 <tr class="even">
 <td><p>The specified FDB record was not found.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects an FDB record to customize but it cannot be found in the database for the given FDB interaction id. This error displays in the FDB table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects an FDB record to customize but it cannot be found in the database for the given FDB interaction id. This error displays in the FDB table results area and the detailed page doesn't get loaded.</td>
 </tr>
 <tr class="odd">
 <td><p>The specified FDB interaction ID has errors.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects an FDB record to customize; however, multiple FDB records are in the database for the given interaction id. This error displays in the FDB table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects an FDB record to customize; however, multiple FDB records are in the database for the given interaction id. This error displays in the FDB table results area and the detailed page doesn't get loaded.</td>
 </tr>
 <tr class="even">
 <td><p>The specified Interaction ID has errors.</p>
@@ -1481,7 +1505,7 @@ This section lists the Drug-Drug Interaction error messages.
 <tr class="odd">
 <td><p>The specified VA Custom interaction ID has errors.</p>
 <p>Please report this error to the support team.</p></td>
-<td>User selects a DDI VA record to modify; however, the customized VA record cannot be found in the database for the given interaction id. This error displays in the VA table results area and the detailed page doesn’t get loaded.</td>
+<td>User selects a DDI VA record to modify; however, the customized VA record cannot be found in the database for the given interaction id. This error displays in the VA table results area and the detailed page doesn't get loaded.</td>
 </tr>
 </tbody>
 </table>
@@ -1550,7 +1574,7 @@ This section lists the DDI warning messages.
 
 | Drug-Drug Interaction Warning Messages                                                                                              | Cause                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The interaction ‘\<Drug A/Drug B\>’' is already customized with severity 'x'. See below for the duplicate VA custom record details. | User requests an FDB customization and changes the Severity Level Code. However, there is already an existing custom VA record at the requested severity level. For example, a requestor selects an FDB record to customize from severity level code 3 to 2. But there is already an existing custom VA record created from this FDB record at severity level 2. |
+| The interaction '\<Drug A/Drug B\>'' is already customized with severity 'x'. See below for the duplicate VA custom record details. | User requests an FDB customization and changes the Severity Level Code. However, there is already an existing custom VA record at the requested severity level. For example, a requestor selects an FDB record to customize from severity level code 3 to 2. But there is already an existing custom VA record created from this FDB record at severity level 2. |
 
 ### Drug Pair
 
@@ -1588,11 +1612,11 @@ This section lists the Drug Pair Customization Page error messages.
 <tr class="odd">
 <td>Routed Generic #1 and Routed Generic #2 cannot be the same value. X<br />
 Where X is the drug name</td>
-<td>On the Drug Pair Customization page accessed by the ‘Drug Pair’ button on the drug-drug interaction customization detail page, user adds a drug pair to a Drug-Drug interaction by selecting a pair of routed generic drugs in which both drugs in the pair are the same drug.</td>
+<td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the drug-drug interaction customization detail page, user adds a drug pair to a Drug-Drug interaction by selecting a pair of routed generic drugs in which both drugs in the pair are the same drug.</td>
 </tr>
 <tr class="even">
 <td>Unable to perform the save operation on the customization. (Drug pairs cannot be added to a deleted interaction)</td>
-<td>On the Drug Pair Customization page accessed by the ‘Drug Pair’ button on the drug-drug interaction customization detail page for a Drug-Drug interaction with a Deleted or Delete Reviewed action status, user tries to add a drug pair.</td>
+<td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the drug-drug interaction customization detail page for a Drug-Drug interaction with a Deleted or Delete Reviewed action status, user tries to add a drug pair.</td>
 </tr>
 <tr class="odd">
 <td>Unable to perform the save operation on the customization. (Field 'Current Action Reason' is required)</td>
@@ -1600,28 +1624,28 @@ Where X is the drug name</td>
 </tr>
 <tr class="even">
 <td>Enter values in text boxes below and click 'Customize' to add drug pairs to interaction.</td>
-<td>When using the ‘Drug Pair’ button on the drug-drug interaction customization detail, user chooses to expand the option to ‘Select Drug Pairs to add to the above VA Custom Interaction page</td>
+<td>When using the 'Drug Pair' button on the drug-drug interaction customization detail, user chooses to expand the option to 'Select Drug Pairs to add to the above VA Custom Interaction page</td>
 </tr>
 <tr class="odd">
 <td>Select from list of FDB drug pairs - note that at least one drug pair must be chosen before clicking the Customize button.</td>
-<td>When ‘Drug Pair’ button on the drug-drug interaction customization detail page, user chooses to select a drug pair to add to the custom drug-drug interaction by selecting an FDB drug pair</td>
+<td>When 'Drug Pair' button on the drug-drug interaction customization detail page, user chooses to select a drug pair to add to the custom drug-drug interaction by selecting an FDB drug pair</td>
 </tr>
 <tr class="even">
 <td>Select from list of Generic drug pairs - note that a drug pair must be chosen before clicking the Customize button. Routed Generic #1 and Routed Generic #2 fields cannot be the same value. Routed Generic #1 and Routed Generic #2 must follow the same order as the Interaction Description.</td>
-<td>When using the ‘Drug Pair’ button on the drug-drug interaction customization detail page, user chooses to select a drug pair by selecting from routed generic drug lists</td>
+<td>When using the 'Drug Pair' button on the drug-drug interaction customization detail page, user chooses to select a drug pair by selecting from routed generic drug lists</td>
 </tr>
 <tr class="odd">
-<td>Either no drug pairs exist for this custom interaction or there are no drug pairs for the current Action Status filter. Please update the Action Status filter or create new custom drug pair(s) for this interaction by clicking on ‘Select Drug Pairs to add to the above VA Custom Interaction’.</td>
+<td>Either no drug pairs exist for this custom interaction or there are no drug pairs for the current Action Status filter. Please update the Action Status filter or create new custom drug pair(s) for this interaction by clicking on 'Select Drug Pairs to add to the above VA Custom Interaction'.</td>
 <td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the DDI Detail page, the user chooses to view and/or edit associated drug pairs when either the DDI has no associated drug pairs or there are no drug pairs for the Action Status filter that was selected.</td>
 </tr>
 <tr class="even">
 <td>Select/Deselect All Drug Pairs Displayed from VA Custom Interaction</td>
-<td>On the Drug Pair Customization page accessed by the ‘Drug Pair’ button on the drug-drug interaction customization detail page for a Drug-Drug interaction, user chooses to view and/or edit associated Drug-Drug pairs.</td>
+<td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the drug-drug interaction customization detail page for a Drug-Drug interaction, user chooses to view and/or edit associated Drug-Drug pairs.</td>
 </tr>
 <tr class="odd">
 <td><p>Now showing x of y total records.</p>
 <p>Where x is the number of associated drug pairs filtered to display and y is the total number of associated drug pairs.</p></td>
-<td>On the Drug Pair Customization page accessed by the ‘Drug Pair’ button on the drug-drug interaction customization detail page for a Drug-Drug interaction, user chooses to get a count of the displayed and total associated drug pairs.</td>
+<td>On the Drug Pair Customization page accessed by the 'Drug Pair' button on the drug-drug interaction customization detail page for a Drug-Drug interaction, user chooses to get a count of the displayed and total associated drug pairs.</td>
 </tr>
 <tr class="even">
 <td>Attempt to create duplicate drug pair(s): x<br />
@@ -1688,12 +1712,12 @@ Error Messages
 <td>User submits a drug pair query that finds no customized VA records or FDB records</td>
 </tr>
 <tr class="even">
-<td><p>The Drug-Drug interaction ‘x’ has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair.</p>
+<td><p>The Drug-Drug interaction 'x' has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair.</p>
 <p>Where x is the selected interaction id and interaction id description</p></td>
 <td>User chooses to view a FDB defined drug pair that is not associated with a customized VA drug-drug interaction</td>
 </tr>
 <tr class="odd">
-<td>The selected drug pair is associated with the VA custom interaction ‘x' with severity 'y'. See below for the duplicate VA custom record details. Where x is the interaction description and y is the severity level code.</td>
+<td>The selected drug pair is associated with the VA custom interaction 'x' with severity 'y'. See below for the duplicate VA custom record details. Where x is the interaction description and y is the severity level code.</td>
 <td>User chooses to view an FDB defined drug pair that is associated with a customized VA drug-drug interaction</td>
 </tr>
 </tbody>
@@ -1720,16 +1744,16 @@ Error Messages
 <td>User clicked the Drug Pair Lookup button, selected a drug pair from the FDB table, and got a message that the drug pair ID has errors.</td>
 </tr>
 <tr class="even">
-<td>The Drug-Drug interaction &lt;Drug A/Drug B&gt;’ has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair. Do you want to customize the Drug-Drug interaction?</td>
+<td>The Drug-Drug interaction &lt;Drug A/Drug B&gt;' has not been customized. You must customize the Drug-Drug interaction prior to customizing the Drug-Drug pair. Do you want to customize the Drug-Drug interaction?</td>
 <td>User does a drug pair query, selects a FDB drug pair associated with an FDB Drug interaction that has never been customized and sees a Drug-Drug Interaction Message instead of the Drug Pairs detail page</td>
 </tr>
 <tr class="odd">
-<td><p>The selected drug pair is not customized. The drug interaction &lt;Drug A/Drug B&gt; has been customized with severity level ‘x’.</p>
+<td><p>The selected drug pair is not customized. The drug interaction &lt;Drug A/Drug B&gt; has been customized with severity level 'x'.</p>
 <p>Customization of this drug pair can be done only through the VA custom Drug-Drug Interaction detail page.</p></td>
 <td>User does a drug pair query and selects a drug pair in the FDB table. The drug pair is not customized but its parent DDI has already been customized.</td>
 </tr>
 <tr class="even">
-<td>The selected drug pair is associated with the VA custom interaction ‘x' with severity 'y'. See below for the duplicate VA custom record details.<br />
+<td>The selected drug pair is associated with the VA custom interaction 'x' with severity 'y'. See below for the duplicate VA custom record details.<br />
 Further customization or deletion of this drug pair can be done only through the VA custom Drug-Drug Interaction detail page.</td>
 <td>User does a drug pair query and selects a drug pair in the FDB table. The drug pair and its parent DDI are customized.</td>
 </tr>
@@ -1782,10 +1806,10 @@ Duplicate Therapy error messages are listed below.
 
 | Duplicate Therapy Message                                                                                                  | Cause                                                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Custom String field is required                                                                                            | User does not input any data into the ‘Custom String’ field                                                                                                                                                                        |
+| Custom String field is required                                                                                            | User does not input any data into the 'Custom String' field                                                                                                                                                                        |
 | The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record to customize; however, an FDB record cannot be found in the database for the given Duplicate Therapy Customization ID (DTCID). An error message will appear before the detail page is loaded.         |
-| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT VA record from the query results to modify. However, the VA record ID is null or empty (“”) for some reason.                                                                                                     |
-| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record from the query to customize. However, the DTCID is null or empty (“”) for some reason.                                                                                                                |
+| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT VA record from the query results to modify. However, the VA record ID is null or empty ("") for some reason.                                                                                                     |
+| The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | User selects a DT FDB record from the query to customize. However, the DTCID is null or empty ("") for some reason.                                                                                                                |
 | The specified Duplicate Therapy Customization ID (DTCID) could not be found. Please report this error to the support team. | The user selects a VA customized record from the list and for some reason; the DTCID is invalid, inactive, or deleted.                                                                                                             |
 | Field must be numeric and cannot contain more than 10 characters.                                                          | DTCID is null or has a length greater than ten.                                                                                                                                                                                    |
 | The specified VA custom record could not be found. Please report this error to the support team.                           | The user selects a record from the VA customization list; however, the detailed information for the customized record is missing from the database. This error appears after the user selects the customized record from the list. |
@@ -1806,7 +1830,7 @@ Error Messages
 
 | Professional Monograph Detail Page Message                                                                                                                | Cause                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Monograph Title is required                                                                                                                               | User didn't fill in the ‘Monograph Title’ field                                                                                      |
+| Monograph Title is required                                                                                                                               | User didn't fill in the 'Monograph Title' field                                                                                      |
 | The Professional Monograph FDB reference record was not found in the database. Please report this error to the support team                               | User selected a Professional Monograph record in the FDB table. However, it wasn't found in the database.                            |
 | Multiple Professional Monograph FDB reference records were found in the FDB database for the specified ID. Please report this error to the support team   | User selected a Professional Monograph record in the FDB table but multiple records were found in the database for the specified ID. |
 | The specified Professional Monograph ID has errors. Please report this error to the support team                                                          | User customized a Professional Monograph. However, the record couldn't load from the FDB table.                                      |
@@ -1835,8 +1859,8 @@ Warning Messages
 
 | Custom Update Page Message                                                                            | Cause                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Unable to generate the update file. The update file specified does not exist or could not be located. | Release manager selects a custom update and clicks the ‘Download Existing Update’ button. However, the system is unable to generate the update file. |
-| Unable to generate the update file. Failed to create customization update file                        | Release manager clicks the ‘Create New Update’ button. However, the system is unable to generate the update file.                                    |
+| Unable to generate the update file. The update file specified does not exist or could not be located. | Release manager selects a custom update and clicks the 'Download Existing Update' button. However, the system is unable to generate the update file. |
+| Unable to generate the update file. Failed to create customization update file                        | Release manager clicks the 'Create New Update' button. However, the system is unable to generate the update file.                                    |
 
 ## Query Pages Messages
 
@@ -1936,8 +1960,8 @@ Warning Messages
 <td>User submits a query for both customized VA records and FDB records that finds only FDB records</td>
 </tr>
 <tr class="even">
-<td><p>Your query saved successfully with name: ‘x’</p>
-<p>where x is the name I assigned the query or “Unnamed Query” if I did not assign the query a name. No change</p></td>
+<td><p>Your query saved successfully with name: 'x'</p>
+<p>where x is the name I assigned the query or "Unnamed Query" if I did not assign the query a name. No change</p></td>
 <td>Approver saves a query</td>
 </tr>
 <tr class="odd">
@@ -2023,7 +2047,7 @@ PRE Team will work with AITC resources to resolve the Infrastructure errors. AIT
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Oracle monitoring tools monitor several aspects of the PECS databases and alert database administrators via email and create service desk tickets for conditions such as “disk full errors or tablespace full”, archive log directory full, database down, connectivity to database down, etc.
+Oracle monitoring tools monitor several aspects of the PECS databases and alert database administrators via email and create service desk tickets for conditions such as "disk full errors or tablespace full", archive log directory full, database down, connectivity to database down, etc.
 
 In addition, as with all Oracle databases, errors within the database are recorded in the Oracle alert log for the database and trace files are created that will allow DBAs to review any errors. Any such errors are emailed to the database administrators daily.
 
@@ -2098,7 +2122,7 @@ The Team Leader or designee will provide hourly recovery status updates to the A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section’s instructions are identical to those found in Section 3.1, Administrative Procedures.
+This section's instructions are identical to those found in Section 3.1, Administrative Procedures.
 
 Software is recovered from images stored on the SAN. The same recovery procedures listed in ACP 4.1 should be followed for a return to original site restoration. An alternate site would need comparable equipment installed and would need to be able to boot from SAN for successful execution of this plan.
 
@@ -2116,7 +2140,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If the user has issues with the SSOi session, one of the following options can be used to reset the user’s SSOi session.
+If the user has issues with the SSOi session, one of the following options can be used to reset the user's SSOi session.
 
 - The user can go to the IAM SSOi Landing page using the link below and click on the Logout button.
 - <span class="mark">REDACTED</span>

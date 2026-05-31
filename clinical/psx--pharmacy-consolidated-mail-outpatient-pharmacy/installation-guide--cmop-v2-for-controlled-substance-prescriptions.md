@@ -5,44 +5,44 @@ doc_label: Installation Guide
 doc_layer: anchor
 doc_subject: for Controlled Substance Prescriptions
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2
-group_key: "PSX:PSX:2"
-file_numbers: []
+group_key: PSX:PSX:2
+description: The purpose of this document is to provide installation instructions for the four patches that comprise the Consolidated Mail Outpatient Pharmacy (CMOP) Controlled Substance Rxs project. These patches include Controlled Substances (PSD\3\21), Outpatient Pharmacy (PSO\7\33), Consolidated Mail Outpati
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '10'
+- '11'
+- '17'
+- '18'
+- '19'
+- '52'
+- '52.5'
+- '59'
+- '552.4'
 security_keys: []
 menu_options: 0
-description: The purpose of this document is to provide installation instructions for the four patches that comprise the Consolidated Mail Outpatient Pharmacy (CMOP) Controlled Substance Rxs project. These patches include Controlled Substances (PSD\3\21), Outpatient Pharmacy (PSO\7\33), Consolidated Mail Outpati
-audience: 
-keywords: 
-  - install
-  - cmop
-  - controlled
-  - installation
-  - substance
-  - outpatient
-  - pharmacy
-  - distribution
-  - table
-  - contents
 page_count: 0
 word_count: 3782
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_cs_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_cs_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_cs_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_cs_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](cmop-version-2-installation-guide-for-controlled-substance-prescriptions/001.png)

@@ -3,7 +3,7 @@ title: VistA Package Size Reporting Tool (VPSRT) User Guide (XT*7.3*143)
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XT
 app_name: Kernel Toolkit
 section: INF
@@ -11,49 +11,45 @@ app_status: active
 pkg_ns: XT
 patch_ver: 7.3
 patch_id: XT*7.3
-group_key: "XT:XT:7.3"
-file_numbers: []
-security_keys: []
+group_key: XT:XT:7.3
+description: '| Date | Revision | Description | Author | |------------|----------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------| | 04/19/2021 | 1.0 | Initial *VistA Package Size...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '9.4'
+- '9.6'
+- '10.6'
+- '11'
+- '14'
+- '919'
+- '8970'
+- '15001'
+- '15001.1'
+- '15003'
+security_keys:
+- PF1
+- XTVS EDITOR
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - package
-  - span
-  - vista
-  - size
-  - parameter
-  - action
-  - class
-  - extract
-  - xtmpsize
-  - xtvs
 page_count: 0
-word_count: 28660
+word_count: 28646
 section_count: 15
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2021
 revision_count: 1
 revision_newest: 04/19/2021
 revision_oldest: 04/19/2021
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_ug_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_ug_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_ug_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_ug_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VistA Package Size Reporting Tool (VPSRT)
-
-  Kernel Toolkit Patch XT\*7.3\*143
-
-  User Guide (REDACTED)
----
-
 ![](vista-package-size-reporting-tool-vpsrt-user-guide-xt-7-3-143/001.png)
 
 April 2021

@@ -3,46 +3,48 @@ title: BCMA Version 3 Manager's User Manual (PSB*3*142)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Manager's  (PSB*3*142)
+doc_subject: Manager's (PSB*3*142)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: '- Department of Veterans Affairs - Product Development - Revision History - Introduction - Introduction - Introduction - Introduction - [Setting...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '9'
+- '43'
+- '50'
+- '50.7'
+- '53.46'
+- '8932.1'
+- '900001'
+security_keys:
+- CPRS MED BUTTON
+- PSB MANAGER
+- PSB MGR
 menu_options: 13
-description: "<table> <colgroup> <col style=\\"width: 30%\\" /> <col style=\\"width: 69%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h2 id=\\"benefits-of-bcma-v.-3.0\\">![](bcma-version-3-manager-s-user-manual-psb-3-142/002.png)Benefits of<br /> BCMA V. 3.0 </h2></td> <td><p>The Bar Code Medication Administration (BCMA) "
-audience: 
-keywords: 
-  - strong
-  - bcma
-  - parameters
-  - table
-  - site
-  - class
-  - cont
-  - style
-  - width
-  - contents
 page_count: 0
 word_count: 19343
 section_count: 1
 table_count: 17
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_man_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_man_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_man_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_man_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 ![](bcma-version-3-manager-s-user-manual-psb-3-142/001.png)

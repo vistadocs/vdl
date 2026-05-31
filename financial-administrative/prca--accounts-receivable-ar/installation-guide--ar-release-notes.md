@@ -1,18 +1,92 @@
 ---
-consolidated_title: "ar release notes/installation guide"
-app_code: PRCA
+title: PRCA*4.5*298 AR Release Notes/Installation Guide
 doc_type: IG
-master_source: "PRCA*4.5*298 AR Release Notes/Installation Guide"
-master_pub_date: revision_count: 0
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: AR Release Notes/
+app_code: PRCA
+app_name: Accounts Receivable (AR)
+section: FIN
+app_status: active
+pkg_ns: PRCA
+patch_ver: 4.5
+patch_id: PRCA*4.5*298
+group_key: PRCA:PRCA:4.5
+file_numbers:
+- '1'
+- '1.01'
+- '1.02'
+- '2'
+- '3.8'
+- '4.01'
+- '4.02'
+- '4.03'
+- '4.2'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '9.01'
+- '9.4'
+- '10'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '344'
+- '344.31'
+- '344.4'
+- '344.41'
+- '344.48'
+- '344.49'
+- '344.494'
+- '344.6'
+- '344.61'
+- '344.7'
+- '344.81'
+- '344.812'
+- '344.82'
+security_keys:
+- PROVIDER
+- RCDPE AGED PMT
+- RCDPE AUTO DEC
+- RCDPE ERA EXCEPT
+- RCDPE REMOVE EEOB
+menu_options: 5
+description: Electronic Data Interchange (EDI)New Standards and Operating Rules –VHA Provider-side Technical Compliance
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 19013
+section_count: 45
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p298_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p298_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
+master_source: PRCA*4.5*298 AR Release Notes/Installation Guide
+master_pub_date: 'null'
 consolidated_from: 8 versions
 prior_versions:
-  - "PRCA*4.5*275 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*295 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*300 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*302 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*315 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*316 AR Release Notes/Installation Guide"
-  - "PRCA*4.5*339 AR Release Notes/Installation Guide"
+- PRCA*4.5*275 AR Release Notes/Installation Guide
+- PRCA*4.5*295 AR Release Notes/Installation Guide
+- PRCA*4.5*300 AR Release Notes/Installation Guide
+- PRCA*4.5*302 AR Release Notes/Installation Guide
+- PRCA*4.5*315 AR Release Notes/Installation Guide
+- PRCA*4.5*316 AR Release Notes/Installation Guide
+- PRCA*4.5*339 AR Release Notes/Installation Guide
+consolidated_title: ar release notes/installation guide
 ---
 
 ![](prca-4-5-298-ar-release-notes-installation-guide/001.png)
@@ -1972,13 +2046,13 @@ Routine list of preceding patches: 138, 220, 233, 249, 253, 261, 262, 271
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The rollback plan for VistA applications is complex and not able to be a “one size fits all.” The general strategy for VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a Remedy ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
+The rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a Remedy ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
 
 ## Backout Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA Installation Procedure of the KIDS build, the installer hopefully backed up the modified routines by the use of the ‘Backup a Transport Global’ action.  The installer can restore the routines using the MailMan message that were saved prior to installing the patch.  The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data.  This backout may need to include a database cleanup process.
+During the VistA Installation Procedure of the KIDS build, the installer hopefully backed up the modified routines by the use of the 'Backup a Transport Global' action.  The installer can restore the routines using the MailMan message that were saved prior to installing the patch.  The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data.  This backout may need to include a database cleanup process.
 
 Please contact the Product Support team for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch.  If the installed patch that needs to be backed out includes a pre or post install routine please contact the Product Support team before attempting the backout.
 
@@ -2546,7 +2620,7 @@ The EEOB WORKLIST \[RCDPE EDI LOCKBOX WORKLIST\] no longer contains the action A
 
 The system displays an "x" indicator before the ERA number on the EEOB WORKLIST \[RCDPE EDI LOCKBOX WORKLIST\] if any exception exists for the ERA.
 
-There is no need to display "-" with the indicator for an exception. Once the exception is resolved, the indicator of “x” no longer displays and the “-“displays next to the ERA number to indicate that there is no scratchpad.
+There is no need to display "-" with the indicator for an exception. Once the exception is resolved, the indicator of "x" no longer displays and the "-"displays next to the ERA number to indicate that there is no scratchpad.
 
 \# ERA \# TRACE#
 
@@ -2872,9 +2946,9 @@ ERA-EFT MATCH STATUS: BOTH//
 
 (A)LL PAYERS, (R)ANGE OF PAYER NAMES: ALL//
 
-The question of “(L)ist or (S)pecific” is displayed each time a user accesses the worklist.
+The question of "(L)ist or (S)pecific" is displayed each time a user accesses the worklist.
 
-The question of “LIMIT THE SELECTION TO A DATE RANGE WHEN THE ERA WAS RECEIVED” is displayed each time a user accesses the worklist.
+The question of "LIMIT THE SELECTION TO A DATE RANGE WHEN THE ERA WAS RECEIVED" is displayed each time a user accesses the worklist.
 
 ### EEOB Worklist Filter- Auto-Posting, Non-Auto-Posting or Both
 
@@ -3068,7 +3142,7 @@ The payment/retraction pairs are displayed in TPJI.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The EEOB WORKLIST \[RCDPE EDI LOCKBOX WORKLIST\] scratchpad automatically process’s fees at a line level.
+The EEOB WORKLIST \[RCDPE EDI LOCKBOX WORKLIST\] scratchpad automatically process's fees at a line level.
 
 ### Scratchpad- EEOB Screen Display
 
@@ -3272,7 +3346,7 @@ The system creates a receipt and processes that receipt for medical claims when 
 - The claim balance covers payment to be posted for all EEOBs
 - The claim status is open for all EEOBs
 - The claim has not been referred to regional council or general council
-- The claim has not been terminated as a write off, indicated by a “WO” claim status
+- The claim has not been terminated as a write off, indicated by a "WO" claim status
 
 ### Auto-Posting Medical Claims- Auto-Posting Awaiting Resolution
 
@@ -3300,7 +3374,7 @@ The system creates a receipt for all EEOBs that can be auto-posted, even if all 
 
 If all EEOBs in an ERA can be posted, there is no change to the way the receipt number is generated.
 
-If only some of the EEOBs in an ERA can be posted, the receipt number has an alphabetic character on the end, starting with “A” and proceeding in order until all EEOBs have been posted. The base number stays the same.
+If only some of the EEOBs in an ERA can be posted, the receipt number has an alphabetic character on the end, starting with "A" and proceeding in order until all EEOBs have been posted. The base number stays the same.
 
 Example \#1
 
@@ -3559,7 +3633,7 @@ The View/Print ERA action displays an Auto-Post Status of Completed or Not Compl
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The system contains a new value of POSTING INCOMPLETE for the Detail Post Status and changes the label to “ERA DETAIL POST STATUS”.
+The system contains a new value of POSTING INCOMPLETE for the Detail Post Status and changes the label to "ERA DETAIL POST STATUS".
 
 ### Auto-Post Awaiting Resolution View/Print ERA – Add Auto-Post Date
 
@@ -4065,7 +4139,7 @@ Once the EEOB is removed from the EXC Exception List, process continues as norma
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The system includes EFTs with trace number that is all 9’s and includes all payer names on the bulletin with a subject of “EDI LBOX-STA# NNN-ACTION REQ-EFTS\>14 days” and the following reports:
+The system includes EFTs with trace number that is all 9's and includes all payer names on the bulletin with a subject of "EDI LBOX-STA# NNN-ACTION REQ-EFTS\>14 days" and the following reports:
 
 - Daily Activity Report
 - EFT Unmatched Aging
@@ -4107,7 +4181,7 @@ The system allows a partial match on trace number, ignoring leading zeroes.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The option DECREASE ADJUSTMENT \[PRCAC TR DECREASE\] displays a warning message of “Marked for Auto-Post. Are you sure? (Y/N): N//” if a user tries to make a decrease adjustment on a bill that has at least one associated EEOB marked for auto-post.
+The option DECREASE ADJUSTMENT \[PRCAC TR DECREASE\] displays a warning message of "Marked for Auto-Post. Are you sure? (Y/N): N//" if a user tries to make a decrease adjustment on a bill that has at least one associated EEOB marked for auto-post.
 
 ## System Feature: EDI Lockbox Menu
 
@@ -5078,7 +5152,7 @@ When the balance of a bill is decreased to zero, the status will be automaticall
 
 > **NOTE:** If the bill category is Reimbursable Health Insurance, you will be prompted to answer "Contractual Adjustment?: YES//". This decrease transaction will be flagged as Contractual Adjustment.
 
-If the bill has at least one EEOB pending auto-post, you will be prompted to answer “Marked for Auto-Post. Are you sure?”
+If the bill has at least one EEOB pending auto-post, you will be prompted to answer "Marked for Auto-Post. Are you sure?"
 
 Select Adjustment to an AR record Option: Decrease Adjustment
 
@@ -5440,7 +5514,7 @@ MEAN: 9.40 \* -indicates that patient is deceased
 
 #### Refunds to be approved by certifying official
 
-This option allows the user to print all refunds which are pending approval by a certifying official. (See ‘Refund Review and Approve for more information.)
+This option allows the user to print all refunds which are pending approval by a certifying official. (See 'Refund Review and Approve for more information.)
 
 ### Delinquent AR Reports
 
@@ -5622,7 +5696,7 @@ This product is a VistA patch. There are three patches for this project and they
 
 Sites should install patches into the test/mirror/pre-prod accounts before the production account as is the normal VistA patch installation standard convention.
 
-When installing any VistA patch, sites should utilize the option “Backup a Transport Global” in order to create a backup message of any routines exported with this patch.
+When installing any VistA patch, sites should utilize the option "Backup a Transport Global" in order to create a backup message of any routines exported with this patch.
 
 Post-installation checksums are found in the patch description and in Forum NPM.
 
@@ -5654,7 +5728,7 @@ N/A for this VistA patch.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option “Kernel Installation & Distribution System” \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
+To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option "Kernel Installation & Distribution System" \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
 
 ## Installation Procedure
 
@@ -5766,15 +5840,15 @@ N/A for this VistA patch.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The back-out plan for VistA applications is complex and is not able to be a “one size fits all” strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
+The back-out plan for VistA applications is complex and is not able to be a "one size fits all" strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
 
-Although it is unlikely due to care in collecting approved requirements, SQA/PBM review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after National Release to the Field. The strategy would depend on during which of these stages the decision is made. If during Site Production Testing, unless the patch produces catastrophic problems, the normal VistA response would be for a new version of the test patch correcting defects to be produced, retested and upon successfully passing development team testing would be resubmitted to the site for testing. This project, however, has prepared a set of back-out patch instructions if necessary, as in the case that the project is canceled or the implemented design is found to be so wrong and detrimental to the site’s delivery of services to Veterans that the software must be removed. If the defects were not discovered until after national release but during the 30 days support period, a new patch will be entered into the National Patch Module on Forum and go through all the necessary milestone reviews etc. as an emergency patch. After 30 days, the VistA Maintenance Program would produce the new patch, either to correct the defective components or to back-out.
+Although it is unlikely due to care in collecting approved requirements, SQA/PBM review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after National Release to the Field. The strategy would depend on during which of these stages the decision is made. If during Site Production Testing, unless the patch produces catastrophic problems, the normal VistA response would be for a new version of the test patch correcting defects to be produced, retested and upon successfully passing development team testing would be resubmitted to the site for testing. This project, however, has prepared a set of back-out patch instructions if necessary, as in the case that the project is canceled or the implemented design is found to be so wrong and detrimental to the site's delivery of services to Veterans that the software must be removed. If the defects were not discovered until after national release but during the 30 days support period, a new patch will be entered into the National Patch Module on Forum and go through all the necessary milestone reviews etc. as an emergency patch. After 30 days, the VistA Maintenance Program would produce the new patch, either to correct the defective components or to back-out.
 
 ## Back-Out Considerations
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-It is necessary to determine if a wholesale back-out of the patch PRCA\*4.5\*315 is needed or if a better course of action is to correct through a new version of the patch (if prior to national release) or through a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will still require a new version (if prior to national release) or a subsequent patch (after national release). If the back-out is post-release of patch PRCA\*4.5\*315, this patch should be assigned status of “Entered in Error” in Forum’s NPM.
+It is necessary to determine if a wholesale back-out of the patch PRCA\*4.5\*315 is needed or if a better course of action is to correct through a new version of the patch (if prior to national release) or through a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will still require a new version (if prior to national release) or a subsequent patch (after national release). If the back-out is post-release of patch PRCA\*4.5\*315, this patch should be assigned status of "Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -5815,7 +5889,7 @@ Back-out authorization will be determined by a consensus consisting of the follo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA Installation Procedure of the KIDS build, the installer can back up the modified routines using the ‘Backup a Transport Global’ action. The installer can restore the routines using the MailMan message that were saved prior to installing the patch. The back-out procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data. This back-out may need to include a database cleanup process.
+During the VistA Installation Procedure of the KIDS build, the installer can back up the modified routines using the 'Backup a Transport Global' action. The installer can restore the routines using the MailMan message that were saved prior to installing the patch. The back-out procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data. This back-out may need to include a database cleanup process.
 
 Please contact the EPMO for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to back-out the patch. If the installed patch that needs to be backed out includes a pre or post install routine, please contact the EPMO before attempting the back-out.
 
@@ -5836,7 +5910,7 @@ Locate the Transport Global Backup message which should have been created as a p
 In addition to backing out and restoring the previous versions of the routines, the following software components will also need to be backed-out. The safest thing to do is to work with Health Product Support and the Development Team to create a separate build containing these non-routine software components from an environment in which this patch has not been installed.
 
 - Input Template: PRCAE ADMIN associated with File# 433
-- Parent Menu options “Repayment Plan Menu \[PRCAC REPAYMENT MENU\]” and “Cross-Servicing Menu” \[RCTCSP MENU\] and all of the child menu items on these parent menus.
+- Parent Menu options "Repayment Plan Menu \[PRCAC REPAYMENT MENU\]" and "Cross-Servicing Menu" \[RCTCSP MENU\] and all of the child menu items on these parent menus.
 - Security key PRCAF LATE CHARGES may be deleted upon a back-out
 - List template \[RCDP ACCOUNT PROFILE\] and associated parent menu protocol \[RCDP ACCOUNT PROFILE MENU\] and all associated child action protocols should be rolled back to the previous version via a new patch build
 - New List templates and associated new menu and action protocols may remain on the system without rolling them back without risk.
@@ -5888,7 +5962,7 @@ Template Revision History
 |---------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | March 2016    | 2.2     | Changed the title from Installation, Back-Out, and Rollback Guide to Deployment and Installation Guide, with the understanding that Back-Out and Rollback belong with Installation.                                                      | VIP Team                               |
 | February 2016 | 2.1     | Changed title from Installation, Back-Out, and Rollback Plan to Installation, Back-Out, and Rollback Guide as recommended by OI&T Documentation Standards Committee                                                                      | OI&T Documentation Standards Committee |
-| December 2015 | 2.0     | The OI&T Documentation Standards Committee merged the existing *“Installation, Back-Out, Rollback Plan”* template with the content requirements in the OI&T End-user Documentation Standards for a more comprehensive Installation Plan. | OI&T Documentation Standards Committee |
+| December 2015 | 2.0     | The OI&T Documentation Standards Committee merged the existing *"Installation, Back-Out, Rollback Plan"* template with the content requirements in the OI&T End-user Documentation Standards for a more comprehensive Installation Plan. | OI&T Documentation Standards Committee |
 | February 2015 | 1.0     | Initial Draft                                                                                                                                                                                                                            | Lifecycle and Release Management       |
 
 ### From: PRCA*4.5*339 AR Release Notes/Installation Guide

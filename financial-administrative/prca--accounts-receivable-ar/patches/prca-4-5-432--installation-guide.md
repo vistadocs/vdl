@@ -3,7 +3,7 @@ title: PRCA*4.5*432 Deployment,Installation, Back-out, and Rollback Guide
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,52 +11,31 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*432
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '| Date | Version | Description | Author | |--------------|---------|-----------------|--------------| | October 2024 | 1.0 | Initial Version | MCCF EDI TAS'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - patch
-  - report
-  - installation
-  - rollback
-  - rcdpe
-  - prca
-  - site
 page_count: 0
-word_count: 2941
+word_count: 2909
 section_count: 31
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p432_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p432_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p432_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p432_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Medical Care Collection Fund (MCCF)  
-  Electronic Data Interchange (EDI)  
-  Transaction Applications Suite (TAS)  
-  ePayments Release 21
-
-  Accounts Receivable PRCA\*4.5\*432
-
-  Deployment, Installation, Back-out, and Rollback Guide
----
-
 ![](prca-4-5-432-deployment-installation-back-out-and-rollback-guide/001.png)
 
 October 2024

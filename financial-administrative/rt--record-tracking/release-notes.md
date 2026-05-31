@@ -3,7 +3,7 @@ title: Record Tracking Version 1 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RT
 app_name: Record Tracking
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: RT
 patch_ver: 1
 patch_id: RT*1
-group_key: "RT:RT:1"
-file_numbers: []
+group_key: RT:RT:1
+description: '| | | | | |----------|---------------------------------------|---------------------|----------------------| | Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | | 3/30/09 | Reformatted Manual | | REDACTED'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '0'
+- '409.1'
 security_keys: []
 menu_options: 0
-description: - [# New Menu Options](#new-menu-options) - [# New Options](#new-options) - [# Changed Options](#changed-options) - [Users](#users) - [System Definition, set-up](#system-definition-set-up) - [Computer Site Manager](#computer-site-manager) - [# General Information](#general-information) - [Sort Globa
-audience: 
-keywords: 
-  - table
-  - contents
-  - record
-  - pull
-  - lists
-  - options
-  - global
-  - site
-  - sort
-  - tracking
 page_count: 0
 word_count: 682
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 3/30/09
 revision_oldest: 3/30/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtrn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtrn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=53"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=53
+audit_applied: '2026-05-31'
 ---
 
 ![](record-tracking-version-1-release-notes/001.png)

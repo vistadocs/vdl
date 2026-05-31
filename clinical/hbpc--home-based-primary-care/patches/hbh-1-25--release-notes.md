@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: HBH
 patch_ver: 1
 patch_id: HBH*1*25
-group_key: "HBPC:HBH:1"
+group_key: HBPC:HBH:1
+description: '- Introduction - Purpose - Background - Scope of Changes - Dependencies - Documentation - Discharge Data Entry - [Evaluation/Admission Data Report by Patient...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - date
-  - report
-  - discharge
-  - diagnosis
-  - table
-  - contents
-  - admission
-  - patient
-  - codes
 page_count: 0
 word_count: 4055
 section_count: 17
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/icd-10_rn_hbh_1_25.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/icd-10_rn_hbh_1_25.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/icd-10_rn_hbh_1_25.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/icd-10_rn_hbh_1_25.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation

@@ -11,38 +11,34 @@ app_status: archive
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*864
-group_key: "ADT:DG:5.3"
-file_numbers: []
+group_key: ADT:DG:5.3
+description: 2.1. Add members to the DGPF HL7 TRANSMISSION ERRORS Mail Group
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '26.15'
+- '142'
+- '142.1'
+- '811.9'
+- '8925.1'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - flag
-  - patient
-  - record
-  - install
-  - class
-  - table
-  - contents
-  - health
-  - summary
-  - span
+menu_options: 1
 page_count: 0
 word_count: 3424
 section_count: 20
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_5_3_864_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-864-ush-prf-legal-solution-installation-guide/001.png)

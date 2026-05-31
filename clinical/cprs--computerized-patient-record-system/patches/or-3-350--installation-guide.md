@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*350
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '100'
+- '123'
 security_keys: []
 menu_options: 0
-description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
-audience: 
-keywords: 
-  - install
-  - installation
-  - table
-  - contents
-  - global
-  - transport
-  - patch
-  - distribution
-  - cprs
-  - package
 page_count: 0
-word_count: 20086
+word_count: 20070
 section_count: 41
 table_count: 22
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2016
 revision_count: 1
 revision_newest: 4/18/2016
 revision_oldest: 4/18/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_350_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_350_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_350_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_350_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System Graphical User Interface (CPRS GUI)
----
-
 Installation Guide
 
 Version CPRS 30.b

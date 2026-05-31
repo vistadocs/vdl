@@ -3,7 +3,7 @@ title: XWB*1.1*73 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: XWB
 app_name: Remote Procedure Call (RPC) Broker
 section: INF
@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1*73
-group_key: "XWB:XWB:1.1"
-file_numbers: []
+group_key: XWB:XWB:1.1
+description: 09/14/2021 10.0 Tech Edits based on the Broker Development Kit (BDK) release with RPC Broker Patch XWB*1.1*73 (Client-Side only; no VistA M Server
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '30.1'
+- '200'
+- '8989.3'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - broker
-  - table
-  - contents
-  - vista
-  - added
-  - patch
-  - component
-  - strong
-  - application
-  - server
 page_count: 0
-word_count: 7128
+word_count: 7116
 section_count: 6
 table_count: 0
 figure_count: 6
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_rn_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_rn_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=23"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_rn_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_rn_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=23
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc396209182" class="anchor"></span>RPC Broker 1.1
-
-  Release Notes (REDACTED)
----
-
 ![](xwb-1-1-73-release-notes/001.png)
 
 September 2021

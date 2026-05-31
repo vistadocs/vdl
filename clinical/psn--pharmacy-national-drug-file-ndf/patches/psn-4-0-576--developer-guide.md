@@ -3,46 +3,178 @@ title: API Manual - Pharmacy Reengineering (PRE) (Updated PSN*4.0*576)
 doc_type: API
 doc_label: API Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSN
-app_name: "Pharmacy: National Drug File (NDF)"
+app_name: 'Pharmacy: National Drug File (NDF)'
 section: CLI
 app_status: active
 pkg_ns: PSN
 patch_ver: 4.0
 patch_id: PSN*4.0*576
-group_key: "PSN:PSN:4.0"
-file_numbers: []
-security_keys: []
+group_key: PSN:PSN:4.0
+description: Pharmacy Reengineering (PRE)Application Program Interface (API)
+audience: VistA / M developers integrating with the package
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '2.1'
+- '3'
+- '4'
+- '5'
+- '6'
+- '6.5'
+- '7'
+- '7.1'
+- '8'
+- '8.1'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '15'
+- '17'
+- '18'
+- '19'
+- '20'
+- '21'
+- '25'
+- '26'
+- '27'
+- '28'
+- '30'
+- '31'
+- '40.1'
+- '44'
+- '45'
+- '46'
+- '47'
+- '49.99'
+- '50'
+- '50.01'
+- '50.02'
+- '50.0212'
+- '50.0214'
+- '50.037'
+- '50.0441'
+- '50.065'
+- '50.0903'
+- '50.0904'
+- '50.1'
+- '50.4'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.606'
+- '50.6061'
+- '50.607'
+- '50.608'
+- '50.609'
+- '50.612'
+- '50.625'
+- '50.626'
+- '50.627'
+- '50.64'
+- '50.67'
+- '50.68'
+- '50.7'
+- '50.72'
+- '50.76'
+- '51'
+- '51.01'
+- '51.1'
+- '51.11'
+- '51.15'
+- '51.17'
+- '51.2'
+- '51.5'
+- '52'
+- '52.4'
+- '52.41'
+- '52.5'
+- '52.52'
+- '52.6'
+- '52.61'
+- '52.62'
+- '52.63'
+- '52.64'
+- '52.7'
+- '52.702'
+- '52.703'
+- '52.704'
+- '52.91'
+- '53'
+- '53.1'
+- '53.46'
+- '54'
+- '54.1'
+- '55'
+- '55.01'
+- '55.05'
+- '55.06'
+- '55.07'
+- '56'
+- '57'
+- '57.1'
+- '58'
+- '59'
+- '59.5'
+- '59.7'
+- '63'
+- '64'
+- '81'
+- '100'
+- '108'
+- '109'
+- '213'
+- '215'
+- '350'
+- '400'
+- '403'
+- '441'
+- '550'
+- '550.04'
+- '550.07'
+- '550.08'
+- '550.09'
+- '550.1'
+- '550.11'
+- '550.1101'
+- '550.2'
+- '550.215'
+- '550.216'
+- '736'
+- '1020.1'
+- '1020.2'
+- '1020.3'
+- '1020.4'
+- '1020.5'
+- '1020.51'
+- '1020.6'
+- '1020.7'
+- '1020.8'
+- '2000'
+- '900903'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - pssien
-  - drug
-  - component
-  - table
-  - contents
-  - class
-  - application
-  - entries
-  - where
-  - defined
 page_count: 0
 word_count: 49772
 section_count: 55
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/phar_1_P576_api_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/phar_1_P576_api_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=89"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/phar_1_P576_api_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)/phar_1_P576_api_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=89
+audit_applied: '2026-05-31'
 ---
 
 ![](api-manual-pharmacy-reengineering-pre-updated-psn-4-0-576/001.png)

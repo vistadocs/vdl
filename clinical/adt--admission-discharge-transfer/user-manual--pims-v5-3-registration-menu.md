@@ -11,49 +11,80 @@ app_status: archive
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
+group_key: ADT:ADT:5.3
+description: '''Table 1: Description of the Actions Available through the Patient Enrollment'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '2.01'
+- '2.03'
+- '2.04'
+- '2.05'
+- '2.1'
+- '2.2'
+- '2.3216'
+- '3'
+- '4'
+- '5'
+- '5.01'
+- '5.12'
+- '6'
+- '8'
+- '25'
+- '27.03'
+- '27.11'
+- '38.5'
+- '41.42'
+- '41.43'
+- '43'
+- '50.23'
+- '61'
+- '131'
+- '132'
+- '361'
+- '391'
+- '408.13'
+- '408.21'
+- '408.22'
+- '408.31'
+- '408.34'
+- '500'
+- '1100.05'
+- '1100.07'
+security_keys:
+- CD DELETE
+- DG DEPDELETE
+- DG DETAIL
+- DG ELIGIBILITY
+- DG MEANSTEST
+- DG OTH MANAGER
+- DG SUPERVISOR
+- DGNT VERIFY
+- DGPRE EDIT
+- EDIT
+- GMT COUNTY EDIT
+- OTH ADD PERIOD
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - patient
-  - date
-  - test
-  - address
-  - means
-  - edit
-  - table
-  - status
-  - registration
-  - veteran
 page_count: 0
-word_count: 56221
+word_count: 56212
 section_count: 69
 table_count: 4
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/pims_reg_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/pims_reg_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/pims_reg_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/pims_reg_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ADT Module/Registration Menu
-
-  PIMS Version 5.3
-
-  User Manual
----
-
 ![](pims-version-5-3-user-manual-registration-menu/001.png)
 
 October 2024

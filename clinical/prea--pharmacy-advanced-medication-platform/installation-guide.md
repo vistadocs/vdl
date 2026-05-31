@@ -5,54 +5,36 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
 doc_subject: AMPL
 app_code: PREA
-app_name: "Pharmacy: Advanced Medication Platform"
+app_name: 'Pharmacy: Advanced Medication Platform'
 section: CLI
 app_status: archive
 pkg_ns: PREA
 patch_ver: 1.14
 patch_id: PREA*1.14
-group_key: "PREA:PREA:1.14"
+group_key: PREA:PREA:1.14
+description: '| Date | Version | Description | Author | |---------|---------|-----------------------------------------------------------------------------------------|---------------| | 01/2026 | 1.14 | Basic Content Updates | AMPL GUI Team | | 08/2025 | 1.13 | Basic Content Updates | AMPL GUI Team | | 07/2025 |...'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - ampl
-  - back
-  - deployment
-  - rollback
-  - installation
-  - application
-  - procedure
-  - span
 page_count: 0
-word_count: 3595
+word_count: 3566
 section_count: 31
 table_count: 11
 figure_count: 2
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_14_AMPL_GUI_DIBRG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_14_AMPL_GUI_DIBRG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=398"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_14_AMPL_GUI_DIBRG.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_14_AMPL_GUI_DIBRG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=398
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc191980456" class="anchor"></span>Advanced Medication Platform (AMPL)  
-  Graphical User Interface (GUI)
-
-  <span id="_Toc191980457" class="anchor"></span>Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
----
-
 ![](ampl-deployment-installation-back-out-and-rollback-guide/001.png)
 
 January 2026

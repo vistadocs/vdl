@@ -3,7 +3,7 @@ title: IB*2*433 Integrated Billing Version 2.0 Package Security Guide Change Pag
 doc_type: SG
 doc_label: Security Guide
 doc_layer: patch
-doc_subject: Integrated Billing Version 2.0 Package  Change Pages
+doc_subject: Integrated Billing Version 2.0 Package Change Pages
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*433
-group_key: "IB:IB:2"
+group_key: IB:IB:2
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exist
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XUMGR
 menu_options: 0
-description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exist
-audience: 
-keywords: 
-  - manual
-  - security
-  - revised
-  - files
-  - modified
-  - lists
-  - pages
-  - routines
-  - integrated
-  - systems
 page_count: 0
 word_count: 186
 section_count: 0
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1994
 revision_count: 1
 revision_newest: 05/04/2011
 revision_oldest: 05/04/2011
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_p433_sg_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_p433_sg_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_p433_sg_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_20_p433_sg_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans Affairs Decentralized Hospital Computer Program

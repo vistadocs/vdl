@@ -3,46 +3,53 @@ title: HL7 HL*1.6*109 Event Monitoring Supplement
 doc_type: SUP
 doc_label: Supplement
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: V*ist*A Health Level Seven (HL7) Event MonitoringSupplement to Patch Description Patch
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '4'
+- '5'
+- '7'
+- '9.4'
+- '19'
+- '772'
+- '773'
+- '776'
+- '776.1'
+- '776.2'
+- '776.3'
+- '776.4'
+- '776.999'
+- '870'
 security_keys: []
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - strong
-  - monitor
-  - class
-  - event
-  - table
-  - message
-  - master
-  - contents
-  - hlevapi
-  - code
 page_count: 0
 word_count: 11213
 section_count: 18
 table_count: 3
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p109sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p109sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p109sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p109sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-hl-1-6-109-event-monitoring-supplement/001.png)

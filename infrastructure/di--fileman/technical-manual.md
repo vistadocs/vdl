@@ -3,7 +3,7 @@ title: FM 22.2 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
@@ -11,48 +11,73 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
-security_keys: 
-  - XUMGR
+group_key: DI:DI:22.2
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.1'
+- '1.11'
+- '1.12'
+- '1.5'
+- '1.5211'
+- '1.5212'
+- '1.5213'
+- '1.5214'
+- '1.5215'
+- '1.5216'
+- '1.5217'
+- '1.5218'
+- '1.5219'
+- '1.75'
+- '2'
+- '3'
+- '3.5'
+- '4.3'
+- '9.4'
+- '9.402'
+- '9.64'
+- '9.714'
+- '15.1'
+- '19'
+- '200'
+- '200.032'
+- '8980.2'
+- '8984.1'
+- '8984.3'
+- '8984.4'
+- '8989.3'
+- '8989.52'
+security_keys:
+- DDXP-DEFINE
+- DIEXTRACT
+- DIUSER
+- PF1
+- XUAUDITING
+- XUFILEGRAM
+- XUMGR
+- XUPROGMODE
+- XUSCREENMAN
 menu_options: 9
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - fileman
-  - table
-  - contents
-  - routines
-  - even
-  - sqli
-  - span
-  - cross
 page_count: 0
-word_count: 23043
+word_count: 23038
 section_count: 45
 table_count: 21
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2
-
-  Technical Manual
----
-
 ![](fm-22-2-technical-manual/001.png)
 
 July 2025

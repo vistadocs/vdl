@@ -3,7 +3,7 @@ title: Network Health Exchange Version 5 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: AFJX
 app_name: Network Health Exchange (NHE)
 section: INF
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: AFJX
 patch_ver: 5
 patch_id: AFJX*5
-group_key: "AFJX:AFJX:5"
-file_numbers: []
-security_keys: []
+group_key: AFJX:AFJX:5
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3.9'
+- '43'
+- '537000'
+- '537010'
+- '537015'
+- '537025'
+security_keys:
+- XUPROGMODE
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - health
-  - network
-  - class
-  - routine
-  - table
-  - patient
-  - exchange
-  - contents
-  - request
-  - software
 page_count: 0
 word_count: 5737
 section_count: 6
 table_count: 26
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=79"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Network_Health_Exchg_(NHE)/nhe_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=79
+audit_applied: '2026-05-31'
 ---
 
 ![](network-health-exchange-version-5-technical-manual/001.png)

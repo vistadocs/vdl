@@ -5,53 +5,36 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
 doc_subject: DIBR (Updated with PREM*3*2)
 app_code: PREM
-app_name: "Pharmacy: Medication Order Check Healthcare Application (MOCHA)"
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
 section: GUI
 app_status: active
 pkg_ns: PREM
 patch_ver: 3.1
 patch_id: PREM*3.1
-group_key: "PREM:PREM:3.1"
+group_key: PREM:PREM:3.1
+description: Deployment, Installation, Back-out, and Rollback Guide for MOCHA
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - deployment
-  - weblogic
-  - table
-  - console
-  - panel
-  - mocha
-  - contents
-  - column
-  - back
-  - right
 page_count: 0
-word_count: 1977
+word_count: 1954
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_3_p2_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_3_p2_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=201"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_3_p2_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_3_p2_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>Medication Order Check Healthcare Application Server 3.1 (MOCHA Server 3.1)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBR)
----
-
 ![](mocha-server-version-3-1-dibr-updated-with-prem-3-2/001.png)
 
 October 2020

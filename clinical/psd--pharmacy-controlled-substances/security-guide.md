@@ -1,13 +1,52 @@
 ---
-consolidated_title: "package security guide change pages"
-app_code: PSD
+title: PSD*3*76 Package Security Guide Change Pages
 doc_type: SG
-master_source: "PSD*3*76 Package Security Guide Change Pages"
+doc_label: Security Guide
+doc_layer: patch
+doc_subject: Package Change Pages
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: active
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3*76
+group_key: PSD:PSD:3
+file_numbers:
+- '19'
+security_keys:
+- PSD TECH ADV
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
+menu_options: 14
+description: '> The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated manual.'
+audience: ISSOs, security officers, system administrators
+keywords: []
+page_count: 0
+word_count: 1027
+section_count: 1
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p76_cssecuri_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p76_cssecuri_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
+master_source: PSD*3*76 Package Security Guide Change Pages
 master_pub_date: March 1997
 consolidated_from: 3 versions
 prior_versions:
-  - "PSD*3*69 Package Security Guide Change Pages"
-  - "PSD*3*71 Package Security Guide Change Pages"
+- PSD*3*69 Package Security Guide Change Pages
+- PSD*3*71 Package Security Guide Change Pages
+consolidated_title: package security guide change pages
 ---
 
 > ![](psd-3-76-package-security-guide-change-pages/001.png)
@@ -63,7 +102,7 @@ Package Security Guide
 <p>PSD*3*76</p>
 </blockquote></td>
 <td><blockquote>
-<p>Added description of patch’s new security key PSDRPH</p>
+<p>Added description of patch's new security key PSDRPH</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -93,7 +132,7 @@ Package Security Guide
 <p>PSD*3*69</p>
 </blockquote></td>
 <td><blockquote>
-<p>Added description of patch’s new security key PSD TECH ADV. Added Revision History.</p>
+<p>Added description of patch's new security key PSD TECH ADV. Added Revision History.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -133,8 +172,8 @@ Package Security Guide
 > Controlled Substances Inspectors can be assigned the *PSD INSPECTOR MENU*
 > option.
 > Some stations design their own menus for individual users. If this is the case, then the top level CS menu must contain the following entry and exit code in the OPTION file (#19):
-> ENTRY ACTION: I’\$D(PSDSITE) D ^PSDSET EXIT ACTION: K PSDSITE
-> This entry and exit code must be present because the PSDSITE variable is set as users enter the package. If the Kernel’s ^OPTION NAME feature is used to jump directly into lower levels of the CS package, then the “Inpatient Site Name” prompt must be answered in order to define the PSDSITE variable. All options are independently invocable, however, if the instructions above are not followed, users will be repeatedly asked to select an inpatient site if there are two or more sites flagged for CS use.
+> ENTRY ACTION: I'\$D(PSDSITE) D ^PSDSET EXIT ACTION: K PSDSITE
+> This entry and exit code must be present because the PSDSITE variable is set as users enter the package. If the Kernel's ^OPTION NAME feature is used to jump directly into lower levels of the CS package, then the "Inpatient Site Name" prompt must be answered in order to define the PSDSITE variable. All options are independently invocable, however, if the instructions above are not followed, users will be repeatedly asked to select an inpatient site if there are two or more sites flagged for CS use.
 
 # Keys
 
@@ -192,7 +231,7 @@ Package Security Guide
 <td><blockquote>
 <p>Allocate this key to specific control substance technicians who perform advance functions. This key controls access to the <em>Receipts Into Pharmacy</em> [PSD RECEIPTS MENU], <em>Dispensing Menu</em> [PSD DISPENSING MENU], <em>Destructions Menu</em> [PSD DESTROY MENU], <em>Manufacturer, Lot #, and Exp. Date - Enter/Edit</em> [PSD MFG/LOT/EXP], <em>Outpatient Rx's</em> [PSD OUTPATIENT], <em>Complete Green Sheet</em> [PSD COMPLETE GS], <em>Destroyed Drugs Report</em> [PSD DEST DRUGS REPORT], <em>DEA Form 41 Destroyed Drugs Report</em> [PSD DESTROY DEA41], <em>Destructions Holding Report</em> [PSD DESTRUCTION HOLDING], <em>Add Existing Green Sheets at Setup</em> [PSD EXISTING GS], <em>Green Sheet Transfer Between NAOUs Report</em> [PSD GS TRANSFER (NAOU) REPORT], <em>Transfer</em></p>
 <p><em>Drugs between Dispensing Sites</em> [PSD TRANSFER VAULT DRUGS] options on the <em>Technician (CS Pharmacy) Menu</em> [PSD PHARM TECH]. The CS technician may perform all</p>
-<p>functions of the <em>Outpatient Rx’s</em> [PSD OUTPATIENT] option except releasing prescriptions.</p>
+<p>functions of the <em>Outpatient Rx's</em> [PSD OUTPATIENT] option except releasing prescriptions.</p>
 </blockquote></td>
 </tr>
 </tbody>

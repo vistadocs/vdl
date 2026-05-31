@@ -3,7 +3,7 @@ title: WII Version 1.1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: WII
 app_name: Wounded Ill and Injured Warriors
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: WII
 patch_ver: 1.1
 patch_id: WII*1.1
-group_key: "WII:WII:1.1"
-file_numbers: []
-security_keys: []
+group_key: WII:WII:1.1
+description: Line of Action (LOA) \#8Pay ManagementInterim SolutionWII USER MANUALVersion 1.1February 2009Department of Veterans AffairsOffice of Enterprise
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+security_keys:
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - even
-  - table
-  - active
-  - facility
-  - contents
-  - entry
-  - computer
-  - dfas
-  - duty
 page_count: 0
 word_count: 9133
 section_count: 8
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=178"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Wounded_Injured_and_Ill_Warriors/wii_1_1_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=178
+audit_applied: '2026-05-31'
 ---
 
 ![](wii-version-1-1-user-manual/001.png)

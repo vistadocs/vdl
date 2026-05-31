@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*411
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '- Introduction - Patch Description and Installation Instructions - Enhancements - Technical Modifications - [Modification to TPJI, Receipt Processing and Decrease...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '399'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patch
-  - table
-  - contents
-  - secondary
-  - ecme
-  - routine
-  - installation
-  - billing
-  - bill
-  - install
 page_count: 0
 word_count: 2892
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p411_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p411_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p411_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p411_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 > ![](ib-2-411-op-epharmacy-phase-4-cob-release-notes/001.png)

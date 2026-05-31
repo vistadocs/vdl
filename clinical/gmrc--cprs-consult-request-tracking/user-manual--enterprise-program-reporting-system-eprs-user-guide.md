@@ -5,55 +5,36 @@ doc_label: User Guide
 doc_layer: plain
 doc_subject: Enterprise Program Reporting System (EPRS)
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: GMRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - eprs
-  - date
-  - span
-  - search
-  - class
-  - table
-  - reporting
-  - contents
-  - contractor
-  - guide
 page_count: 0
-word_count: 14076
+word_count: 14046
 section_count: 20
 table_count: 2
 figure_count: 2
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/eprs_ui_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/eprs_ui_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/eprs_ui_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/eprs_ui_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk100738314" class="anchor"></span>Enterprise Program Reporting System (EPRS)
-
-  <span id="_Toc52223626" class="anchor"></span>Software Version 1.37
-
-  <span id="_Toc52223627" class="anchor"></span>User Interface User Guide
----
-
 ![](enterprise-program-reporting-system-eprs-user-guide/001.png)
 
 May 2023

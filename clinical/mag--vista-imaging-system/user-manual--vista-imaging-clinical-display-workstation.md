@@ -8,42 +8,48 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 2006
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Department of Veterans Affairs Office of Enterprise Development Health Provider'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '121'
+- '2000'
+- '2005'
+- '2005.1'
+- '2005.2'
+- '2006.1'
+security_keys:
+- MAG ANNOTATE MGR
+- MAG DELETE
+- MAG EDIT
+- MAG PREFETCH
+- MAG RAD SETTINGS
+- MAG ROI
+- MAG SYSTEM
+- MAGDISP ADMIN
+- MAGDISP CLIN
+- PAT PHOTO ONLY
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - image
-  - blockquote
-  - clinical
-  - class
-  - imaging
-  - vista
-  - workstation
-  - manual
-  - strong
-  - table
 page_count: 0
 word_count: 36752
 section_count: 86
 table_count: 88
 figure_count: 1
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_Display_User_Manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_Display_User_Manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_Display_User_Manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_Display_User_Manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-clinical-display-workstation-user-manual/001.png)

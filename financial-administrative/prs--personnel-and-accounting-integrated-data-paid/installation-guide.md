@@ -3,7 +3,7 @@ title: PAID Version 4 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRS
 app_name: Personnel and Accounting Integrated Data (PAID)
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4
-group_key: "PRS:PRS:4"
-file_numbers: []
+group_key: PRS:PRS:4
+description: The Personnel and Accounting Integrated Data (PAID) distribution medium contains a file of routines. All of these routines begin with the PAID namespace PRS. All globals, options and keys created during the initialization process also begin with PRS. All PAID files have file numbers in the 450-459 n
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4.0'
+- '450'
+- '458'
+- '459'
 security_keys: []
 menu_options: 0
-description: The Personnel and Accounting Integrated Data (PAID) distribution medium contains a file of routines. All of these routines begin with the PAID namespace PRS. All globals, options and keys created during the initialization process also begin with PRS. All PAID files have file numbers in the 450-459 n
-audience: 
-keywords: 
-  - prsin
-  - filed
-  - prsa
-  - prse
-  - paid
-  - prsd
-  - prsdld
-  - employee
-  - prseed
-  - prsdeu
 page_count: 0
 word_count: 2600
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

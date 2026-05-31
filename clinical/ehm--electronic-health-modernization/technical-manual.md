@@ -8,51 +8,83 @@ app_code: EHM
 app_name: Electronic Health Modernization
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 1606
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - report
-  - options
-  - security
-  - appointments
-  - date
-  - patient
-  - subroutine
+pkg_ns: EHM
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '3'
+- '3.5'
+- '3.9'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9.6'
+- '9.7'
+- '10'
+- '13'
+- '16'
+- '19'
+- '44'
+- '52'
+- '52.4'
+- '52.5'
+- '55'
+- '70'
+- '74'
+- '123'
+- '123.5'
+- '200'
+- '391.919'
+- '403.5'
+- '405'
+- '409.2'
+- '409.3'
+- '409.68'
+- '409.84'
+- '409.85'
+- '509'
+- '510'
+- '1606'
+- '1606.5'
+- '1607'
+- '1608'
+- '1609'
+- '1609.1'
+- '1610'
+- '2005'
+- '2005.61'
+- '2005.62'
+- '2006.5839'
+- '9000'
+security_keys:
+- EHM MGR
+menu_options: 1
 page_count: 0
-word_count: 16959
+word_count: 16946
 section_count: 22
 table_count: 37
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2026
 revision_count: 16
 revision_newest: 06/04/2025
 revision_oldest: 01/11/2023
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Electronic_Health_Modernization_(EHM)/ehm_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Electronic_Health_Modernization_(EHM)/ehm_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=439"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Electronic_Health_Modernization_(EHM)/ehm_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Electronic_Health_Modernization_(EHM)/ehm_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=439
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Electronic Health Modernization (EHM)
-
-  Technical Manual
----
-
 ![](electronic-health-modernization-technical-manual/001.png)
 
 March 2026

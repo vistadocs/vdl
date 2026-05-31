@@ -3,51 +3,44 @@ title: TIU Generic HL7 Interface Handbook
 doc_type: UG
 doc_label: User Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 2
-  - 200
-  - 8925
-  - 900010
-  - 9000010
+pkg_ns: TIU
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| | | | | |-----------------------------------------|--------------|----------------------------------|------------------------------------| | Event | Date | Pages | Tech Writer, Project Manager | | Initial release | October 2006 | All | redacted | | VIE Migration to HealthConnect– updates | June...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '15'
+- '200'
+- '8925'
+- '8925.1'
+- '900001'
+- '900010'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - message
-  - document
-  - class
-  - table
-  - vista
-  - patient
-  - application
-  - strong
-  - contents
-  - vendor
 page_count: 0
 word_count: 31351
 section_count: 30
 table_count: 75
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuhl7.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuhl7.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuhl7.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuhl7.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 ![](tiu-generic-hl7-interface-handbook/001.png)

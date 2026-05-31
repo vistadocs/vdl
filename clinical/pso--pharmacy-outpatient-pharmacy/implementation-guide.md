@@ -1,12 +1,46 @@
 ---
-consolidated_title: "inbound eprescribing implementation guide"
-app_code: PSO
+title: Inbound ePrescribing Implementation Guide (PSO*7*581)
 doc_type: IG-IMP
-master_source: "Inbound ePrescribing Implementation Guide (PSO*7*581)"
+doc_label: Implementation Guide
+doc_layer: patch
+doc_subject: Inbound ePrescribing (PSO*7*581)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: archive
+pkg_ns: PSO
+patch_ver: 7.0
+patch_id: PSO*7.0*581
+group_key: PSO:PSO:7.0
+file_numbers:
+- '52.45'
+security_keys: []
+menu_options: 1
+description: 01/2021 1.5 Updated PSOERX01 Checksum to match value in Patch Description (pg12)
+audience: ''
+keywords: []
+page_count: 0
+word_count: 3928
+section_count: 28
+table_count: 5
+figure_count: 1
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2021
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p581_img.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p581_img.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
+master_source: Inbound ePrescribing Implementation Guide (PSO*7*581)
 master_pub_date: January 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "Inbound ePrescribing Implementation Guide (PSO*7*635)"
+- Inbound ePrescribing Implementation Guide (PSO*7*635)
+consolidated_title: inbound eprescribing implementation guide
 ---
 
 Pharmacy Reengineering (PRE)
@@ -174,7 +208,7 @@ Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibili
 | 4                            | FO or EO                                                                                                                             | Deployment                             | Execute deployment                                                                                                  | Design/Build                                           |
 | 5                            | FO or EO                                                                                                                             | Installation                           | Plan and schedule installation                                                                                      | Deployment                                             |
 | 6                            | Regional Project Manager (PM)/ Field Implementation Services (FIS)/ Office of Policy and Planning (OPP) PM                           | Installation                           | Ensure authority to operate and that certificate authority security documentation is in place                       | Design/Build                                           |
-| 7                            | Regional PM/FIS/OPP PM/ Nat’l Education & Training                                                                                   | Installations                          | Coordinate training                                                                                                 | Deployment                                             |
+| 7                            | Regional PM/FIS/OPP PM/ Nat'l Education & Training                                                                                   | Installations                          | Coordinate training                                                                                                 | Deployment                                             |
 | 8                            | FO, EO, or Product Development (depending upon project ownership)                                                                    | Back-out                               | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out) | Deployment                                             |
 | 9                            | FO, EO, or Product Development (depending upon project ownership)                                                                    | Post Deployment                        | Hardware, Software and System Support                                                                               | Maintenance                                            |
 
@@ -252,7 +286,7 @@ There are no facility-specific deployment or installation features of patch PSO\
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch PSO\*7.0\*581 is being released to enhance VistA’s Pharmacy Outpatient Pharmacy package. The patch allows the VA to receive prescriptions from external providers and allows the pharmacist to validate the prescription for final processing and dispensing in existing VistA functionality. It will be deployed to all VA pharmacy VistA sites nationwide.
+Patch PSO\*7.0\*581 is being released to enhance VistA's Pharmacy Outpatient Pharmacy package. The patch allows the VA to receive prescriptions from external providers and allows the pharmacist to validate the prescription for final processing and dispensing in existing VistA functionality. It will be deployed to all VA pharmacy VistA sites nationwide.
 
 It does not require additional hardware capabilities other than what is currently used by a VistA installation at the sites.
 
@@ -444,9 +478,9 @@ Input option: A ^TMP("PSO581PO")
 
 1.  Backup a Transport Global - This option will create a backup build of patch
 
-    components. Respond “BUILD” at the “Select one of the following: B
+    components. Respond "BUILD" at the "Select one of the following: B
 
-> Build or R Routines” prompt. \*\*THIS IS CRITICAL TO ACCURATE PATCH
+> Build or R Routines" prompt. \*\*THIS IS CRITICAL TO ACCURATE PATCH
 
 > BACKUP ON YOUR SYSTEM. \*\*
 
@@ -750,21 +784,21 @@ There are additional steps to be completed to finish patch 581 install and imple
 
 <span id="ConfigWeb" class="anchor"></span>Identify the FQDN, PORT, USERNAME/PASSWORD for the Web Server and Edit the Web Server Entry
 
-> **NOTE:** To obtain the information needed for configuring the Web Server Entry, submit a help desk ticket to the VA National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference “Inbound eRx to submit a YourIT ServiceNow ticket” . The ticket will be routed to an IEP Administrator for assistance.
+> **NOTE:** To obtain the information needed for configuring the Web Server Entry, submit a help desk ticket to the VA National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference "Inbound eRx to submit a YourIT ServiceNow ticket" . The ticket will be routed to an IEP Administrator for assistance.
 
 1.  Select option XOBW WEB SERVER MANAGER.
-1.  Choose ‘ES’ for Edit Server.
-2.  When prompted ‘NAME’ enter ‘PSO WEB SERVER’.
-3.  When prompted ‘SERVER:’, enter the FQDN of the target server.
-4.  When prompted ‘PORT:’, enter the port number for the target server.
-5.  When prompted for ‘STATUS:’, ensure this is set to ENABLED.
-6.  When prompted for ‘LOGIN REQUIRED:’, answer ‘YES’.
-7.  When prompted for ‘USERNAME:’, enter the assigned username.
-8.  When prompted ‘Want to edit PASSWORD (Y/N), respond ‘YES’.
+1.  Choose 'ES' for Edit Server.
+2.  When prompted 'NAME' enter 'PSO WEB SERVER'.
+3.  When prompted 'SERVER:', enter the FQDN of the target server.
+4.  When prompted 'PORT:', enter the port number for the target server.
+5.  When prompted for 'STATUS:', ensure this is set to ENABLED.
+6.  When prompted for 'LOGIN REQUIRED:', answer 'YES'.
+7.  When prompted for 'USERNAME:', enter the assigned username.
+8.  When prompted 'Want to edit PASSWORD (Y/N), respond 'YES'.
 9.  Enter the password associated with the username.
 10. Re-enter the password to verify the password.
-11. At the “SSL ENABLED” prompt, accept the default of “FALSE”.
-12. At the “Select Web Service” prompt, enter “PSO ERX WEB SERVICE”.
+11. At the "SSL ENABLED" prompt, accept the default of "FALSE".
+12. At the "Select Web Service" prompt, enter "PSO ERX WEB SERVICE".
 
 > **NOTE:** Do not include restricted information in the help desk ticket. It is VA Policy to send this information securely via public key infrastructure (PKI) message. Securely send this information for both the VistALink connector on your test VistA system and the VistALink connector on your production VistA system.
 
@@ -788,11 +822,11 @@ No database tuning is required before or after deployment of PSO\*7.0\*581.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> **NOTE:** Due to the complexity of this patch (because of the data dictionary changes), it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the NSD at 855-NSD-HELP (673-4357) and reference “Inbound eRx” to submit a YourIT ServiceNow ticket; the development team will assist with the process.
+> **NOTE:** Due to the complexity of this patch (because of the data dictionary changes), it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the NSD at 855-NSD-HELP (673-4357) and reference "Inbound eRx" to submit a YourIT ServiceNow ticket; the development team will assist with the process.
 
 The Back-out Procedure consists of restoring the routines and removing the Data Dictionaries (DD) introduced by the Patch PSO\*7.0\*581.
 
-The rollback/backout procedure for these patches should only occur when there is concurrence from the Enterprise Product Support and Inbound ePrescribing development teams, because of the complexity and risk involved in a rollback/backout. Normal installation back-ups using KIDS will back up only Mumps routines. For all non-routine components of these builds, Enterprise Product Support will have a build available if needed. Make sure the ‘Backup a Transport Global’ step in section 4.8 of this document is followed, so you do have a backup of all the routines if needed.
+The rollback/backout procedure for these patches should only occur when there is concurrence from the Enterprise Product Support and Inbound ePrescribing development teams, because of the complexity and risk involved in a rollback/backout. Normal installation back-ups using KIDS will back up only Mumps routines. For all non-routine components of these builds, Enterprise Product Support will have a build available if needed. Make sure the 'Backup a Transport Global' step in section 4.8 of this document is followed, so you do have a backup of all the routines if needed.
 
 The back-out is to be performed by persons with programmer-level access.
 
@@ -802,7 +836,7 @@ The back-out is to be performed by persons with programmer-level access.
 
 The Back-out Strategy is to manually delete the new Data Definitions (DDs) introduced with this patch.
 
-The Back-out and Rollback plan for VistA applications is complex and not able to be a “one size fits all.” The general strategy for VistA back-out and rollback is to repair the code with a follow-on patch. However, the backup of the transport global when created as part of the install will allow the routines to be converted to the prior patch state. For IEP, this is sufficient to restore the code to prior functionality.
+The Back-out and Rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA back-out and rollback is to repair the code with a follow-on patch. However, the backup of the transport global when created as part of the install will allow the routines to be converted to the prior patch state. For IEP, this is sufficient to restore the code to prior functionality.
 
 The development team recommends that sites log a help desk ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
 
@@ -846,7 +880,7 @@ Local Facility Management has the authority to back-out patch PSO\*7.0\*581.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Due to the complexity of this patch, it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference “Inbound eR<sub>X</sub>” to submit a YourIT ServiceNow ticket; the development team will assist with the process.
+Due to the complexity of this patch, it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference "Inbound eR<sub>X</sub>" to submit a YourIT ServiceNow ticket; the development team will assist with the process.
 
 # Rollback Procedure
 
@@ -940,7 +974,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Once the Pharmacy Manager has decided that their site will be processing live eR<sub>X</sub>’s they need to first ensure that their pharmacists/users have been trained on using the ePrescribing application.
+> Once the Pharmacy Manager has decided that their site will be processing live eR<sub>X</sub>'s they need to first ensure that their pharmacists/users have been trained on using the ePrescribing application.
 
 > To train the end users on using the application, refer to Training Material at [<u>Inbound</u>](https://dvagov.sharepoint.com/sites/OITEPMOPRE/PRE_Inb_eRx/v4%20Shared%20Documents/Forms/AllItems.aspx?viewid=4cd4d485%2D482a%2D4c96%2Da908%2D7481510bddc5&id=%2Fsites%2FOITEPMOPRE%2FPRE%5FInb%5FeRx%2Fv4%20Shared%20Documents%2FTraining%20Materials) [<u>ePrescribing (IEP) Training Materials</u>.](https://dvagov.sharepoint.com/sites/OITEPMOPRE/PRE_Inb_eRx/v4%20Shared%20Documents/Forms/AllItems.aspx?viewid=4cd4d485%2D482a%2D4c96%2Da908%2D7481510bddc5&id=%2Fsites%2FOITEPMOPRE%2FPRE%5FInb%5FeRx%2Fv4%20Shared%20Documents%2FTraining%20Materials)
 
@@ -1261,18 +1295,18 @@ _These sections appeared in earlier versions of this document but are not presen
 > The following outlines the steps for assigning keys (may need to be done by local Site IT Administrator):
 
 1.  Log in to VistA.
-2.  At the “Select OPTION NAME” prompt, type “eve” and then press the \<Enter\> key.
-3.  At the “Choose 1-5” prompt, type “1” (for EVE Systems Manager Menu) and then press the \<Enter\> key.
-4.  At the “Select Systems Manager Menu Option” prompt, type “menu” (for Menu Management) and then press the \<Enter\> key.
-5.  At the “Select Menu Management Option” prompt, type “key” (for Key Management) and then press the \<Enter\> key.
-6.  At the “Select Key Management Option” prompt, type “allocation” (for Allocation of Security Keys) and then press the \<Enter\> key.
-7.  At the “Allocate key” prompt, type the name of the security key you want to assign and then press the \<Enter\> key.
-8.  At the “Holder of key” prompt, type the name of the first user to whom you are assigning the key and then press the \<Enter\> key.
-9.  At the “Another holder” prompt, type the name of a second user to whom you are
+2.  At the "Select OPTION NAME" prompt, type "eve" and then press the \<Enter\> key.
+3.  At the "Choose 1-5" prompt, type "1" (for EVE Systems Manager Menu) and then press the \<Enter\> key.
+4.  At the "Select Systems Manager Menu Option" prompt, type "menu" (for Menu Management) and then press the \<Enter\> key.
+5.  At the "Select Menu Management Option" prompt, type "key" (for Key Management) and then press the \<Enter\> key.
+6.  At the "Select Key Management Option" prompt, type "allocation" (for Allocation of Security Keys) and then press the \<Enter\> key.
+7.  At the "Allocate key" prompt, type the name of the security key you want to assign and then press the \<Enter\> key.
+8.  At the "Holder of key" prompt, type the name of the first user to whom you are assigning the key and then press the \<Enter\> key.
+9.  At the "Another holder" prompt, type the name of a second user to whom you are
 
 > assigning the key and then press the \<Enter\> key. Repeat this step for all users to whom you are assigning the key.
 
-10. At the “You are allocating keys. Do you wish to proceed? YES//” prompt, press the
+10. At the "You are allocating keys. Do you wish to proceed? YES//" prompt, press the
 
 > \<Enter\> key to accept the default response.
 
@@ -1303,7 +1337,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > therefore accuracy is essential. In addition, if the eR<sub>X</sub> fails, the clearing house sends an
 
-> automated fax of the eR<sub>X</sub> to the pharmacy. So, ensure that your pharmacy’s fax number is correct. If changes are made, they update at the NCPDP and the clearinghouse. Updating NCPDP and the clearinghouse is a manual process and takes time.
+> automated fax of the eR<sub>X</sub> to the pharmacy. So, ensure that your pharmacy's fax number is correct. If changes are made, they update at the NCPDP and the clearinghouse. Updating NCPDP and the clearinghouse is a manual process and takes time.
 
 ### OUTPATIENT SITE file (#59)
 
@@ -1337,7 +1371,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The Default eR<sub>X</sub> Clinic allows the local user to locate non-processed eR<sub>X</sub> prescriptions by clinic name, in the existing pending queue.
 
-> Sites can add a Default eR<sub>X</sub> Clinic in OUTPATIENT SITE file (#59), DEFAULT ERX CLINIC field (#10). A new Hospital Location entry with type as ‘Clinic’ needs to be created for the
+> Sites can add a Default eR<sub>X</sub> Clinic in OUTPATIENT SITE file (#59), DEFAULT ERX CLINIC field (#10). A new Hospital Location entry with type as 'Clinic' needs to be created for the
 
 > purpose of Inbound ePrescribing.
 
@@ -1349,7 +1383,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Configuration
 
-> To confirm setup of Default eR<sub>X</sub> Clinic, using FileMan “Enter or Edit File Entries” option, in the HOSPITAL LOCATION file (#44). This setup may require assistance from Medical Administration Team:
+> To confirm setup of Default eR<sub>X</sub> Clinic, using FileMan "Enter or Edit File Entries" option, in the HOSPITAL LOCATION file (#44). This setup may require assistance from Medical Administration Team:
 
 1.  Check the field: INSTITUTION field (#3).
 2.  If it is blank, use the NPI INSTITUTION identified in OUTPATIENT SITE file (#59).
@@ -1359,7 +1393,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > <span id="_bookmark17" class="anchor"></span>Figure 1-3: HOSPITAL LOCATION file (#44) in Enter or Edit File Entries Mode
 
-> Using FileMan “Enter or Edit File Entries”, in the OUTPATIENT SITE file (#59), enter the DEFAULT ERX CLINIC field (#10).
+> Using FileMan "Enter or Edit File Entries", in the OUTPATIENT SITE file (#59), enter the DEFAULT ERX CLINIC field (#10).
 
 1.  If it is blank, populate it with the Clinic created for the purpose of Inbound ePrescribing.
 2.  If it is not blank, ensure that the Clinic used is same as the one created for the purpose of Inbound ePrescribing.
@@ -1401,19 +1435,19 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Once the site confirms the users have been trained and the NCPDP and NPI information is correct the site is then ready to proceed with enabling their pharmacy to start receiving live eR<sub>X</sub>es. The Inbound eR<sub>X</sub> Support Team assists the site with the final steps to enable their pharmacy.
 
-1.  To Go Live, submit a help desk ticket to the VA National Service Desk (NSD) at 855- NSD-HELP (673-4357) and reference “Inbound eR<sub>X</sub>”.
+1.  To Go Live, submit a help desk ticket to the VA National Service Desk (NSD) at 855- NSD-HELP (673-4357) and reference "Inbound eR<sub>X</sub>".
 2.  Provide the following site information for the ticket: NCPDP NUMBER, NPI \#, VISN, VA Station ID, Pharmacy Name (External/Published), Address, Phone Number and Fax Number.
-    1.  NSD Team routes the ‘go live’ request to Inbound eRX Support Team.
+    1.  NSD Team routes the 'go live' request to Inbound eRX Support Team.
     2.  Once the Inbound eRX Support Team receives the NSD help ticket they contact the site point of contact (POC) to complete the steps to enable the pharmacy.
 3.  The Support Team helps the local Site IT Administrator to setup the Connector Proxy.
 4.  The local Site IT Administrator sets up the Connector Proxy and provides the access and verify codes to the Support Team.
     1.  Select XOBU SITE SETUP MENU.
     2.  Select CP - Enter/Edit Connector Proxy User.
     3.  Answer the prompts, naming the connector: CONNECTORPROXY, PSO.
-    4.  At the “Want to edit ACCESS CODE (Y/N)” prompt, type “Y” (for Yes).
+    4.  At the "Want to edit ACCESS CODE (Y/N)" prompt, type "Y" (for Yes).
     5.  Enter the access code for the connector proxy.
     6.  Re-enter the access code for the connector proxy.
-    7.  At the “Want to edit VERIFY CODE (Y/N)” prompt, type “Y” (for Yes).
+    7.  At the "Want to edit VERIFY CODE (Y/N)" prompt, type "Y" (for Yes).
     8.  Enter a verify code for the proxy connector.
     9.  Re-enter the verify code for the proxy connector.
 5.  The local Site IT Administrator also provides the VistA link FQDN, TCP Port, and primary Station ID to the Support Team.
@@ -1422,17 +1456,17 @@ _These sections appeared in earlier versions of this document but are not presen
 8.  The Site IT Administrator configures the WEB SERVER entry.
     1.  Select option XOBW WEB SERVER MANAGER.
     2.  Select ES for Edit Server.
-    3.  At the “NAME” prompt, enter “PSO WEB SERVER”.
-    4.  At the “SERVER:” prompt, enter the target server FQDN. The target server name and port are given to the site during implementation.
-    5.  At the “PORT:” prompt, enter the target server port number.
-    6.  At the “STATUS:” prompt, ensure status is set to “ENABLED”.
-    7.  At the “LOGIN REQUIRED:” prompt, answer “YES”.
-    8.  At the “USERNAME:” prompt, enter the assigned username.
-    9.  At the “Want to edit PASSWORD (Y/N)” prompt, type “Y” (for YES).
+    3.  At the "NAME" prompt, enter "PSO WEB SERVER".
+    4.  At the "SERVER:" prompt, enter the target server FQDN. The target server name and port are given to the site during implementation.
+    5.  At the "PORT:" prompt, enter the target server port number.
+    6.  At the "STATUS:" prompt, ensure status is set to "ENABLED".
+    7.  At the "LOGIN REQUIRED:" prompt, answer "YES".
+    8.  At the "USERNAME:" prompt, enter the assigned username.
+    9.  At the "Want to edit PASSWORD (Y/N)" prompt, type "Y" (for YES).
     10. Enter the password associated with the username.
     11. Re-enter the password to verify the password.
-    12. At the “SSL ENABLED” prompt, accept the default of “FALSE”.
-    13. At the “Select Web Service” prompt, enter “PSO ERX WEB SERVICE”.
+    12. At the "SSL ENABLED" prompt, accept the default of "FALSE".
+    13. At the "Select Web Service" prompt, enter "PSO ERX WEB SERVICE".
 9.  The Support Team assigns user privileges for the IEP Web-based Graphical User Interface (GUI) Hub to the respective users from the site. Please see section [<u>1.2.3</u>](#_bookmark37) for additional details.
 10. The Support Team notifies the clearinghouse that the site is ready to Go Live.
 11. The Support Team coordinates with the site to determine the expected go live date.
@@ -1451,13 +1485,13 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > For issues with the IEP web-based application that cannot be resolved by this manual or the site administrator, please contact the National Service Desk at 855-NSD-HELP (673-4357) and
 
-> reference “Inbound eRX”.
+> reference "Inbound eRX".
 
 #### Help Desk Ticket Instructions
 
 > To submit a Help Desk ticket:
 
-1.  Select the “Your IT” icon on your desktop.
+1.  Select the "Your IT" icon on your desktop.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/009.png)
 
@@ -1494,14 +1528,14 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> While at a user’s workstation, create shortcuts to the IEP Web-based application. To create a shortcut on a user’s desktop:
+> While at a user's workstation, create shortcuts to the IEP Web-based application. To create a shortcut on a user's desktop:
 
 1.  Right-click the desktop and select New and then select Shortcut.
-2.  ![](inbound-eprescribing-implementation-guide-pso-7-635/013.png)Type the URL provided by IT support or the local Site IT Administrator in the “Type the location of the item” field and then select Next. A “Create Shortcut” dialog, similar to the one in the figure below, displays.
+2.  ![](inbound-eprescribing-implementation-guide-pso-7-635/013.png)Type the URL provided by IT support or the local Site IT Administrator in the "Type the location of the item" field and then select Next. A "Create Shortcut" dialog, similar to the one in the figure below, displays.
 
 > <span id="_bookmark33" class="anchor"></span>Figure 1-12: Create Shortcut Dialog Box
 
-3.  <span id="_bookmark37" class="anchor"></span>Type a name for the shortcut in the “Type a name for this shortcut” field (e.g., Inbound ePrescribing).
+3.  <span id="_bookmark37" class="anchor"></span>Type a name for the shortcut in the "Type a name for this shortcut" field (e.g., Inbound ePrescribing).
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/014.png)
 
@@ -1518,7 +1552,7 @@ _These sections appeared in earlier versions of this document but are not presen
 > To turn off Compatibility View:
 
 5.  In Internet Explorer, select Tools \> Compatibility View Settings.
-6.  ![](inbound-eprescribing-implementation-guide-pso-7-635/015.png)Verify that the “Display intranet sites in Compatibility View” checkbox is not selected.
+6.  ![](inbound-eprescribing-implementation-guide-pso-7-635/015.png)Verify that the "Display intranet sites in Compatibility View" checkbox is not selected.
 
 > <span id="_bookmark36" class="anchor"></span>Figure 1-14: Compatibility View Settings
 
@@ -1578,13 +1612,13 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > System Administrators can add new users from the User Management screen. To add a new user:
 
-1.  Enter the new user’s User ID, First Name, and Last Name.
+1.  Enter the new user's User ID, First Name, and Last Name.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/016.png)
 
 > <span id="_bookmark41" class="anchor"></span>Figure 1-15: Add User - User ID, First Name, Last Name
 
-2.  Select the new user’s role(s). Multiple roles may be selected by holding \<Ctrl\> while selecting more than one role.
+2.  Select the new user's role(s). Multiple roles may be selected by holding \<Ctrl\> while selecting more than one role.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/017.png)
 
@@ -1596,7 +1630,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > <span id="_bookmark43" class="anchor"></span>Figure 1-17: Add User – Select Station ID
 
-4.  Select the Add button to add the selected Station ID to the “Selected Station IDs” field. To remove Station IDs from the “Selected Station IDs” field, select Remove (not shown).
+4.  Select the Add button to add the selected Station ID to the "Selected Station IDs" field. To remove Station IDs from the "Selected Station IDs" field, select Remove (not shown).
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/019.png)
 
@@ -1606,9 +1640,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > assigned to that Station ID and under Pharmacy Management, they only see information for pharmacies within that Station ID.
 
-> If All is selected from the “Station ID” field and added to the “Selected Station IDs” field, the user has access to all Station IDs. Additional Station ID values cannot be added if All has been
+> If All is selected from the "Station ID" field and added to the "Selected Station IDs" field, the user has access to all Station IDs. Additional Station ID values cannot be added if All has been
 
-> selected and added to the “Selected Station IDs” field. If a user attempts to add additional values an error message displays.
+> selected and added to the "Selected Station IDs" field. If a user attempts to add additional values an error message displays.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/020.png)
 
@@ -1646,13 +1680,13 @@ _These sections appeared in earlier versions of this document but are not presen
 
 #### Enable/Disable Users
 
-> Users can be disabled and/or re-enabled to use the web application. To update a user’s access to the application, locate the user in the User Management table and select the checkmark in the “Enable/Disable” column. Select Save from the bottom of the screen to update the user’s access.
+> Users can be disabled and/or re-enabled to use the web application. To update a user's access to the application, locate the user in the User Management table and select the checkmark in the "Enable/Disable" column. Select Save from the bottom of the screen to update the user's access.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/023.png)
 
 > <span id="_bookmark50" class="anchor"></span>Figure 1-22: User Management Table – Enable/Disable User
 
-> When a user is disabled, their information is greyed in the User Management table. To modify the user’s access again, select the checkbox in the “Enable/Disable” column again.
+> When a user is disabled, their information is greyed in the User Management table. To modify the user's access again, select the checkbox in the "Enable/Disable" column again.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/024.png)
 
@@ -1682,8 +1716,8 @@ _These sections appeared in earlier versions of this document but are not presen
 
 1.  Enter the NCPDP ID (if known).
 2.  Enter the Pharmacy Name.
-3.  Select the desired VISN number from the “VISN” drop down.
-4.  Select the desired Station ID from the “Station ID” drop down. If viewing All VISNs, the user is unable to select a Station ID. To select a specific Station ID, the VISN must be
+3.  Select the desired VISN number from the "VISN" drop down.
+4.  Select the desired Station ID from the "Station ID" drop down. If viewing All VISNs, the user is unable to select a Station ID. To select a specific Station ID, the VISN must be
 
 > selected.
 
@@ -1697,11 +1731,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Figure 1-25: Search for a Pharmacy
 
-> To add a new pharmacy, please submit a help desk ticket to the VA National Service Desk (NSD) at 1-855-NSD-HELP (673-4357) and reference “Inbound eRX”.
+> To add a new pharmacy, please submit a help desk ticket to the VA National Service Desk (NSD) at 1-855-NSD-HELP (673-4357) and reference "Inbound eRX".
 
 #### Enable Pharmacy
 
-> ![](inbound-eprescribing-implementation-guide-pso-7-635/027.png)The pharmacy can be enabled to receive eR<sub>X</sub>es during initial go live or if it has been previously disabled. To enable a pharmacy select Yes from the “Inbound eR<sub>X</sub> Enabled” drop down on the Edit Pharmacy screen.
+> ![](inbound-eprescribing-implementation-guide-pso-7-635/027.png)The pharmacy can be enabled to receive eR<sub>X</sub>es during initial go live or if it has been previously disabled. To enable a pharmacy select Yes from the "Inbound eR<sub>X</sub> Enabled" drop down on the Edit Pharmacy screen.
 
 > <span id="_bookmark58" class="anchor"></span>Figure 1-26: Enable Pharmacy
 
@@ -1713,7 +1747,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > To ensure the Enrollment and Eligibility Check is enabled for a pharmacy, select the desired
 
-> pharmacy from the Pharmacy Management table and ensure “Yes” displays in the “Enrollment and Eligibility Check Enabled” field. If required, select Yes in the “Enrollment and Eligibility Check Enabled” drop down and then select Update.
+> pharmacy from the Pharmacy Management table and ensure "Yes" displays in the "Enrollment and Eligibility Check Enabled" field. If required, select Yes in the "Enrollment and Eligibility Check Enabled" drop down and then select Update.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/028.png)
 
@@ -1731,17 +1765,17 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > To temporarily disable a pharmacy:
 
-1.  On the Pharmacy Management screen, select Search and then, select the hyperlink for the desired pharmacy under the “NCPDP ID” column. The Edit Pharmacy screen
+1.  On the Pharmacy Management screen, select Search and then, select the hyperlink for the desired pharmacy under the "NCPDP ID" column. The Edit Pharmacy screen
 
 > ![](inbound-eprescribing-implementation-guide-pso-7-635/029.png)displays.
 
 > <span id="_bookmark62" class="anchor"></span>Figure 1-28: Edit Pharmacy Screen
 
-2.  ![](inbound-eprescribing-implementation-guide-pso-7-635/030.png)Select No from the “Inbound eR<sub>X</sub> Enabled” drop down.
+2.  ![](inbound-eprescribing-implementation-guide-pso-7-635/030.png)Select No from the "Inbound eR<sub>X</sub> Enabled" drop down.
 
 > <span id="_bookmark63" class="anchor"></span>Figure 1-29: Inbound eRX Enabled Drop Down
 
-4.  At the bottom of the Edit Pharmacy screen, select Update to save all changes. The date that the fields were modified displays in the “Updated Date” field.
+4.  At the bottom of the Edit Pharmacy screen, select Update to save all changes. The date that the fields were modified displays in the "Updated Date" field.
 
 ![](inbound-eprescribing-implementation-guide-pso-7-635/031.png)
 
@@ -1751,4 +1785,4 @@ _These sections appeared in earlier versions of this document but are not presen
 
 #### Disable Pharmacy
 
-> To completely halt a specific Pharmacy from receiving ePrescriptions, please submit a help desk ticket to the VA National Service Desk (NSD) at 1-855-NSD-HELP (673-4357) and reference “Inbound eR<sub>X</sub>”.
+> To completely halt a specific Pharmacy from receiving ePrescriptions, please submit a help desk ticket to the VA National Service Desk (NSD) at 1-855-NSD-HELP (673-4357) and reference "Inbound eR<sub>X</sub>".

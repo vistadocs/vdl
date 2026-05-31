@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: STS
 patch_ver: 11
 patch_id: STS*11
-group_key: "STS:STS:11"
+group_key: STS:STS:11
+description: '> This manual describes the Standards & Terminology Services (STS) Department of Veterans Affairs (VA) Enterprise Terminology Service Version 11.0 User Interface (UI) menu options and their functionality. It includes workflows that have systematic instructions for authoring and deploying terminology'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 2
-description: > This manual describes the Standards & Terminology Services (STS) Department of Veterans Affairs (VA) Enterprise Terminology Service Version 11.0 User Interface (UI) menu options and their functionality. It includes workflows that have systematic instructions for authoring and deploying terminology
-audience: 
-keywords: 
-  - strong
-  - class
-  - table
-  - terminology
-  - version
-  - contents
-  - even
-  - concept
-  - deployment
-  - vets
 page_count: 0
 word_count: 6014
 section_count: 4
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_vets_v11_userguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_vets_v11_userguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=191"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_vets_v11_userguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Standards_and_Terminology_Services/sts_vets_v11_userguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=191
+audit_applied: '2026-05-31'
 ---
 
 > Standards & Terminology Services (STS) VA Enterprise Terminology Service (VETS)

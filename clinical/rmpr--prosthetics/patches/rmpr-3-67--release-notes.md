@@ -11,39 +11,31 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*67
-group_key: "RMPR:RMPR:3"
-file_numbers: 
-  - 440
+group_key: RMPR:RMPR:3
+description: '- [Verify/Repair Purchase Card Numbers'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '440.6'
+- '664'
 security_keys: []
 menu_options: 0
-description: - [Verify/Repair Purchase Card Numbers (VR)](#verifyrepair-purchase-card-numbers-vr) ![](rmpr-3-67-purchase-card-release-notes/001.png) PROSTHETICS Patch RMPR\3.0\67RELEASE NOTES November 2001 VISTA Health System Design and Development (HSD&D)
-audience: 
-keywords: 
-  - strong
-  - card
-  - number
-  - purchase
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - blockquote
 page_count: 0
 word_count: 3131
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_67.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_67.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_67.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_67.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

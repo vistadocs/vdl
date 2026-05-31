@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*384
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2
+description: Healthcare Insurance Portability and Accountability Act (HIPAA)National Council for Prescription Drug Programs
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '356.25'
+- '356.8'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - date
-  - patient
-  - billing
-  - drug
-  - claims
-  - bill
-  - tracking
-  - ecme
-  - edit
-  - ibpatient
 page_count: 0
 word_count: 3020
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_384_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_384_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_384_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_384_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 > ![](ib-2-384-hipaa-ncpdp-ib-release-notes/001.png)

@@ -3,7 +3,7 @@ title: FM 22.2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
@@ -11,47 +11,46 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
-security_keys: []
+group_key: DI:DI:22.2
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '1.2'
+- '2'
+- '3.1'
+- '5'
+- '8'
+- '16'
+- '44'
+- '200'
+- '8989.3'
+- '16999'
+security_keys:
+- DIEXTRACT
+- DIUSER
+- PF1
+- PROVIDER
 menu_options: 18
-description: 
-audience: 
-keywords: 
-  - span
-  - strong
-  - class
-  - table
-  - mark
-  - contents
-  - print
-  - fields
-  - editor
-  - line
 page_count: 0
-word_count: 46671
+word_count: 46666
 section_count: 84
 table_count: 17
 figure_count: 2
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um1.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2um1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2
-
-  User Manual
----
-
 ![](fm-22-2-user-manual/001.png)
 
 July 2025

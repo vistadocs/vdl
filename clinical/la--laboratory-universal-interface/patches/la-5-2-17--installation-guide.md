@@ -1,50 +1,57 @@
 ---
-title: "LA*5.2*17/LR*5.2*65 Laboratory: Universal Interface Installation Guide"
+title: '''LA*5.2*17/LR*5.2*65 Laboratory: Universal Interface Installation Guide'''
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*17
-group_key: "LA:LA:5.2"
-file_numbers: 
-  - 62
-  - 68
+group_key: LA:LA:5.2
+description: LABORATORY UNIVERSAL INTERFACEPatch LA\*5.2\*17Patch
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '5.21'
+- '60'
+- '61'
+- '61.2'
+- '62.05'
+- '62.4'
+- '62.48'
+- '62.485'
+- '62.49'
+- '63'
+- '68'
+- '68.2'
+- '770'
+- '771'
+- '771.1'
+- '771.3'
+- '772'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - message
-  - contents
-  - dhcp
-  - routine
-  - laboratory
-  - instrument
-  - interface
-  - number
-  - class
 page_count: 0
 word_count: 16699
 section_count: 17
 table_count: 31
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labuig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labuig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labuig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labuig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-17-lr-5-2-65-laboratory-universal-interface-installation-guide/001.png)

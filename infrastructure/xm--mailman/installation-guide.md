@@ -3,7 +3,7 @@ title: MailMan Version 8 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XM
 app_name: MailMan
 section: INF
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8
-group_key: "XM:XM:8"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: XM:XM:8
 description: The purpose of this guide is to provide instructions for installing the Veterans Health Information Systems and Technology Architecture (VistA) Infrastructure & Security Service's (ISS) MailMan software, Version 8.0.
-audience: 
-keywords: 
-  - mailman
-  - strong
-  - blockquote
-  - table
-  - installation
-  - vista
-  - class
-  - guide
-  - software
-  - contents
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
+- '4.3'
+- '8.22'
+security_keys:
+- PF1
+- XUPROGMODE
+menu_options: 0
 page_count: 0
 word_count: 3059
 section_count: 5
 table_count: 26
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_installguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_installguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_installguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_installguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](mailman-version-8-installation-guide/001.png)

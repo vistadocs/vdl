@@ -3,46 +3,40 @@ title: CMOP Version 2 Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2
-group_key: "PSX:PSX:2"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSX:PSX:2
 description: CONSOLIDATED MAIL OUTPATIENT PHARMACY (CMOP)PACKAGE SECURITY GUIDESENSITIVE INFORMATION
-audience: 
-keywords: 
-  - blockquote
-  - cmop
-  - table
-  - class
-  - contents
-  - security
-  - even
-  - style
-  - width
-  - keys
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '50.6'
+security_keys:
+- PSXMAIL
+menu_options: 0
 page_count: 0
 word_count: 679
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](cmop-version-2-security-guide/001.png)

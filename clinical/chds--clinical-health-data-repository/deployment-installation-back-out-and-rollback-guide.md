@@ -1,22 +1,46 @@
 ---
-consolidated_title: "dibr"
-app_code: CHDS
+title: CHDS*2.2*1 DIBR
 doc_type: DIBR
-master_source: "CHDS*2.2*1 DIBR"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: DIBR
+app_code: CHDS
+app_name: Clinical/Health Data Repository
+section: CLI
+app_status: active
+pkg_ns: CHDS
+patch_ver: 2.2
+patch_id: CHDS*2.2*1
+group_key: CHDS:CHDS:2.2
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '''The purpose of this patch/upgrade is to bring the CHDR application into TRM, CRISP and Fortify compliance OS Upgrade: Solaris M8 Supercluster per AITC deployment Oracle WebLogic Middleware: Version 12.2.1.4 Oracle Database: Version 19c JAVA'''
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 3814
+section_count: 32
+table_count: 7
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2022
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_p1_dibr_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_p1_dibr_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=155
+audit_applied: '2026-05-31'
+master_source: CHDS*2.2*1 DIBR
 master_pub_date: January 2022
 consolidated_from: 3 versions
 prior_versions:
-  - "CHDS*2.2*8 DIBR"
-  - "CHDS*2.2*9 DIBR"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Clinical Data/Health Data Repository 2.2
-
-  CHDS\*2.2\*1
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- CHDS*2.2*8 DIBR
+- CHDS*2.2*9 DIBR
+consolidated_title: dibr
 ---
 
 ![](chds-2-2-1-dibr/001.png)
@@ -310,9 +334,9 @@ Although the AITC WebLogic Administrators have created/converted a new Pre-insta
 3.  Verify the new WebLogic domain includes current certificates in WebLogic keystores and AITC standard WebLogic domain configurations.
 4.  Verify applications directory chdr-core and the core.properties exists in the domain directory.
 5.  Verify core.properties file parameter hl7.processingId=P.
-6.  Verify WebLogic managed server startup parameter dgov.va.med.environment.production” is set to “true” in the WebLogic managed server startup parameters.
+6.  Verify WebLogic managed server startup parameter dgov.va.med.environment.production" is set to "true" in the WebLogic managed server startup parameters.
 7.  Verify timeout value in WebLogic domain JTA tab is changed from 30 to 3600 seconds for a transaction time out.
-8.  Any references to the production CHDR database schema must be ‘chdr2’ versus ‘chdr’.
+8.  Any references to the production CHDR database schema must be 'chdr2' versus 'chdr'.
 9.  Verify JMS module has been completely configured with Persistent Stores and JMS servers.
 10. Verify security realms match between old and new domains.
 
@@ -796,9 +820,9 @@ Pre-installation considerations/steps to be performed by AITC production WebLogi
 4.  Verify the WebLogic domain includes current certificates in WebLogic keystores and AITC standard WebLogic domain configurations.
 5.  Verify applications directory chdr-core and the core.properties exists in the domain directory.
 6.  Verify core.properties file parameter hl7.processingId=P.
-7.  Verify WebLogic managed server startup parameter dgov.va.med.environment.production” is set to “true” in the WebLogic managed server startup parameters.
+7.  Verify WebLogic managed server startup parameter dgov.va.med.environment.production" is set to "true" in the WebLogic managed server startup parameters.
 8.  Verify timeout value in WebLogic domain JTA tab is changed from 30 to 3600 seconds for a transaction time out.
-9.  Any references to the production CHDR database schema must be ‘chdr2’ versus ‘chdr’.
+9.  Any references to the production CHDR database schema must be 'chdr2' versus 'chdr'.
 10. Verify JMS module has been completely configured with Persistent Stores and JMS servers.<span id="_Toc198280902" class="anchor"></span>
 
 ## Installation Procedures

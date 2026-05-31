@@ -3,7 +3,7 @@ title: Radiology Version 5 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
@@ -11,39 +11,31 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: 
-  - 79
+group_key: RA:RA:5
+description: '- Department of Veterans Affairs Veterans Health Administration Office of Chief Information Officer - Installation Information - [This package was created using Kernel...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.8'
+- '79'
 security_keys: []
 menu_options: 4
-description: - [Department of Veterans Affairs Veterans Health Administration Office of Chief Information Officer](#department-of-veterans-affairs-veterans-health-administration-office-of-chief-information-officer) - [Installation Information](#installation-information) - [This package was created using Kernel V
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - class
-  - mail
-  - installation
-  - strong
-  - package
-  - install
-  - medicine
 page_count: 0
 word_count: 7930
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 > ![](radiology-version-5-installation-guide/001.png)

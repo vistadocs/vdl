@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: VDEF
 patch_ver: 1
 patch_id: VDEF*1
-group_key: "VDEF:VDEF:1"
+group_key: VDEF:VDEF:1
+description: '| | | | | |----------------|----------|---------------------------------------------------------------------------------|----------| | Date | Revision | Description | Author | | December 2004 | 1.0 | Created document | REDACTED | | January, 2006 | 1.1 | VDEF\*1.0\*3 - Documents false VDEF alerts...'
+audience: System administrators performing configuration
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vdef
-  - request
-  - queue
-  - status
-  - table
-  - contents
-  - package
-  - inactivate
-  - activate
-  - custodial
+menu_options: 8
 page_count: 0
 word_count: 7777
 section_count: 35
 table_count: 20
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_installation_and_user_configuration_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_installation_and_user_configuration_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=144"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_installation_and_user_configuration_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vdef_1_0_installation_and_user_configuration_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=144
+audit_applied: '2026-05-31'
 ---
 
 VistA Data Extraction Framework 1.0

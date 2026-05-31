@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: MAG
 patch_ver: 3
 patch_id: MAG*3*48
-group_key: "MAG:MAG:3"
-file_numbers: []
+group_key: MAG:MAG:3
+description: '> V*IST*A Imaging Software Design & Development Veterans Health Administration Department of Veterans'
+audience: ''
+keywords: []
+file_numbers:
+- '101.15'
+- '2005.2'
+- '2005.83'
+- '2005.84'
+- '2005.85'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - diagram
-  - annotation
-  - tool
-  - table
-  - contents
-  - setup
-  - class
-  - guide
-  - strong
-  - diagrams
 page_count: 0
 word_count: 3775
 section_count: 16
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag3_0_diag_annot_ug_f.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag3_0_diag_annot_ug_f.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag3_0_diag_annot_ug_f.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag3_0_diag_annot_ug_f.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![Diagram Annotation Tool User & Setup Guide](mag-3-48-diagram-annotation-tool-user-and-setup-guide/001.png)

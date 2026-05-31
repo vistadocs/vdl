@@ -5,59 +5,38 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: Deployment Installation BackOut Rollback Guide_r
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
 pkg_ns: TIU
 patch_ver: 1
 patch_id: TIU*1*309
-group_key: "TIU:TIU:1"
-file_numbers: []
+group_key: TIU:TIU:1
+description: '''Table 1: Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '2'
+- '8926.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - installation
-  - back
-  - deployment
-  - rollback
-  - procedure
-  - local
-  - install
 page_count: 0
-word_count: 3859
+word_count: 3829
 section_count: 31
 table_count: 3
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_0_309_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_0_309_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_0_309_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_0_309_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Collaborative Terminology Tooling & Data Management (CTT&DM)
-
-  Native Domain Standardization (NDS)
-
-  Text Integration Utility (TIU)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
-
-  TIU\*1.0\*309
----
-
 ![](tiu-1-309-deployment-installation-backout-rollback-guide-r/001.png)
 
 April, 2017

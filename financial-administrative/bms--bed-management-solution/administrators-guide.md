@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: BMS
 patch_ver: 5.0
 patch_id: BMS*5.0
-group_key: "BMS:BMS:5.0"
+group_key: BMS:BMS:5.0
+description: '''12/2025 5.5 Updated for BMS Patch WEBB-5-5 The following sections/figures were updated: Figure 173 – new Regional Board DevExpress grid Booz Allen'''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - span
-  - class
-  - admin
-  - management
-  - guide
-  - figure
-  - solution
-  - version
-  - report
-  - anchor
 page_count: 0
-word_count: 28889
+word_count: 28876
 section_count: 7
 table_count: 39
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_ag.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_ag.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=205"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_ag.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Bed_Management_Solution_(BMS)/bms_5_0_ag.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=205
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Bed Management Solution (BMS)
-
-  Admin Guide
----
-
 ![](bed-management-solution-version-5-0-admin-guide/001.png)
 
 February 2026

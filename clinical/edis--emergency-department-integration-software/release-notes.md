@@ -3,7 +3,7 @@ title: Emergency Dept Integration Software GUI (EDIS) Version 2.1.2 Release Note
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EDIS
 app_name: Emergency Department Integration Software
 section: CLI
@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.1.2
 patch_id: EDIS*2.1.2
-group_key: "EDIS:EDIS:2.1.2"
+group_key: EDIS:EDIS:2.1.2
+description: '| Date | Version | Description | Author | |---------------|---------|--------------------------------------|----------------------------------------------------------------------| | November 2014 | 1.0 | Tech Writer edit; baseline document. | redacted | | March...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - edis
-  - contents
-  - report
-  - software
-  - emergency
-  - codes
-  - modifications
-  - worksheet
-  - patient
 page_count: 0
 word_count: 2837
 section_count: 15
 table_count: 5
 figure_count: 9
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation Project

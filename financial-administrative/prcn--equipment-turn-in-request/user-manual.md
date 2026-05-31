@@ -3,7 +3,7 @@ title: PRCN Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRCN
 app_name: Equipment / Turn-In Request
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRCN
 patch_ver: 1
 patch_id: PRCN*1
-group_key: "PRCN:PRCN:1"
-file_numbers: []
+group_key: PRCN:PRCN:1
+description: '> You may be wondering how the Equipment/Turn-In Request module will change your job. You will be pleased to know that with the Equipment/Turn-In Request module, your job will not change much. The main difference is that you will be entering data via an on-line Equipment Request or Turn-In Request.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '200'
+- '440'
 security_keys: []
 menu_options: 9
-description: > You may be wondering how the Equipment/Turn-In Request module will change your job. You will be pleased to know that with the Equipment/Turn-In Request module, your job will not change much. The main difference is that you will be entering data via an on-line Equipment Request or Turn-In Request.
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - step
-  - class
-  - equipment
-  - request
-  - turn
-  - style
-  - width
 page_count: 0
 word_count: 9366
 section_count: 41
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=113"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=113
+audit_applied: '2026-05-31'
 ---
 
 > [Department of Veterans Affairs Decentralized Hospital Computer Program](\l)

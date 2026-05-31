@@ -1,18 +1,82 @@
 ---
-consolidated_title: "mental health assistant phase 3 installation guide"
-app_code: YS
+title: YS*5.01*85 Mental Health Assistant Phase 3 Installation Guide
 doc_type: IG
-master_source: "YS*5.01*85 Mental Health Assistant Phase 3 Installation Guide"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Mental Health Assistant Phase 3
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*85
+group_key: YS:YS:5.01
+file_numbers:
+- '8'
+- '101'
+- '200'
+- '601'
+- '601.2'
+- '601.71'
+- '601.72'
+- '601.73'
+- '601.74'
+- '601.75'
+- '601.751'
+- '601.76'
+- '601.77'
+- '601.78'
+- '601.781'
+- '601.79'
+- '601.81'
+- '601.82'
+- '601.83'
+- '601.84'
+- '601.85'
+- '601.86'
+- '601.87'
+- '601.88'
+- '601.89'
+- '601.91'
+- '601.92'
+- '601.93'
+- '771'
+- '870'
+security_keys:
+- YSP
+menu_options: 1
+description: '> MENTAL HEALTH ASSISTANT VERSION 3 (MHA3) INSTALLATION'
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 6866
+section_count: 31
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: December 2007
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50185_mha3_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys50185_mha3_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*85 Mental Health Assistant Phase 3 Installation Guide
 master_pub_date: December 2007
 consolidated_from: 8 versions
 prior_versions:
-  - "YS*5.01*103 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*104 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*105 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*130 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*134 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*150 Mental Health Assistant Phase 3 Installation Guide"
-  - "YS*5.01*93 Mental Health Assistant Phase 3 Installation Guide"
+- YS*5.01*103 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*104 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*105 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*130 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*134 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*150 Mental Health Assistant Phase 3 Installation Guide
+- YS*5.01*93 Mental Health Assistant Phase 3 Installation Guide
+consolidated_title: mental health assistant phase 3 installation guide
 ---
 
 > ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/001.png)
@@ -439,7 +503,7 @@ prior_versions:
 </tr>
 <tr class="odd">
 <td>YS_MHA_VASD.exe</td>
-<td>SecureDesktop’s main executable</td>
+<td>SecureDesktop's main executable</td>
 <td>BINARY</td>
 </tr>
 <tr class="even">
@@ -545,11 +609,11 @@ prior_versions:
 
 > MHA has enjoyed widespread usage among mental health clinicians over the past several years, and the current revisions of MHA and MHP initiate steps toward re-engineering VistA Mental Health functionality.
 
-> The Veterans Health Administration (VHA) Action Agenda for implementing the President's New Freedom Commission on Mental Health recommendations regarding the use of information technology to enhance the care of Mental Health patients states, “VHA should make the integration of MHA and HealtheVet Desktop (HeVD) an explicit goal and should provide the OI with sufficient resources to accomplish this goal in collaboration with the Mental Health Strategic Healthcare Group (MHSHG) Informatics Section. The integration should eliminate the need for Mental Health clinicians to change applications. Further, the integration should make appropriate Mental Health assessment tools available to clinicians outside Mental Health (e.g., depression and alcohol screening instruments should be made available to primary care clinicians).”
+> The Veterans Health Administration (VHA) Action Agenda for implementing the President's New Freedom Commission on Mental Health recommendations regarding the use of information technology to enhance the care of Mental Health patients states, "VHA should make the integration of MHA and HealtheVet Desktop (HeVD) an explicit goal and should provide the OI with sufficient resources to accomplish this goal in collaboration with the Mental Health Strategic Healthcare Group (MHSHG) Informatics Section. The integration should eliminate the need for Mental Health clinicians to change applications. Further, the integration should make appropriate Mental Health assessment tools available to clinicians outside Mental Health (e.g., depression and alcohol screening instruments should be made available to primary care clinicians)."
 
 > This revision of MHA creates a closer integration with CPRS, by placing the MHA GUI on the CPRS Tools Menu. Additionally, functionality was created to allow a site to place an individual instrument on the Tools menu, allowing widespread access to that specific instrument without having to issue the menu for the MHP to all clinicians.
 
-> Additional functionality that strengthens the tie to the patient’s medical record is the creation of a progress note in CPRS when an instrument is completed through MHA.
+> Additional functionality that strengthens the tie to the patient's medical record is the creation of a progress note in CPRS when an instrument is completed through MHA.
 
 > Furthermore, MHA maintains and strengthens its ties to the Clinical Reminders program, which allows for the presentation of specific instruments through reminder dialogs to all clinicians who resolve reminders.
 
@@ -575,12 +639,12 @@ prior_versions:
 - Major functionality (GAF, ASI, Results, etc.) is now presented on individual forms, as opposed to as tabs on one main form.
 - MHA3 provides a new Battery Wizard form to simplify creating batteries of instruments.
 - There is a new & improved SecureDesktop component that now uses stronger code to prevent hacking.
-- “Clerk entry” data-entry-mode form for psych tests has been removed.
+- "Clerk entry" data-entry-mode form for psych tests has been removed.
 - All completed administrations now automatically generate a progress note for review in CPRS.
 - All test scores are now saved in VistA, instead of calculated on-the-fly.
 - There is a hospital Location associated with an administered instrument, for progress notes purposes.
-- The accompanying MHA3 help file is supplied only for describing the functions of the ASI Manager forms. All other tests and interview have built-in help that is retrieved directly from the MHP when using the “Description” pop-up menu function in the Instrument Manager.
-- MHA3 recreates a debug log file named “mha3_debug.log” for each MHA3 session. This file can be emailed to developers to assist in remote debugging. No patient-identifying data is collected in this file.
+- The accompanying MHA3 help file is supplied only for describing the functions of the ASI Manager forms. All other tests and interview have built-in help that is retrieved directly from the MHP when using the "Description" pop-up menu function in the Instrument Manager.
+- MHA3 recreates a debug log file named "mha3_debug.log" for each MHA3 session. This file can be emailed to developers to assist in remote debugging. No patient-identifying data is collected in this file.
 - This patch includes 6 new instruments in MH TESTS AND SURVEYS file (#601.71). The instruments are the Braden Scale for Predicting Pressure Ulcer Risk (Braden Scale), Morse Fall Scale (Morse Fall Scale), the PTSD Screen (PTSD 4Q), BOMC: The Six-Item Blessed Orientation-Memory-Concentration Test, TBI 2ND LEVEL EVAL: Traumatic Brain Injury: 2nd Level Evaluation and the PHQ-2. Additionally, modifications have been made to the AUD-C to add skip logic and to the PHQ-9 to add a tenth question assessing impact of symptoms on overall functioning.
 
 > December 2007 VistA MHA 3 Patch YS\*5.01\*85 1
@@ -603,7 +667,7 @@ prior_versions:
 
 #### SecureDesktop
 
-> SecureDesktop is a set of security features intended to prevent unattended patients taking on-line tests from using the Personal Computer (PC) for other purposes. The SecureDesktop features construct a screen to cover the entire PC desktop. Non-alphanumeric keys are trapped to keep the patient from using the task bar and operating system functions (such as Task Manager). The Patient Entry button on the Instrument Administrator form is the only instrument data entry method that activates the SecureDesktop features. The Patient Entry button should only be used for the on-line patient administration of data entry of forms, instruments and surveys. The SecureDesktop security features cannot be defeated once the Patient Entry button becomes active. Excessive non-alphanumeric keystrokes are interpreted as “hacking” efforts and MHA is terminated. At the conclusion of the patient’s data entry session, MHA is terminated. Upon termination of the Windows session the user is logged off and the PC is shut down, which means that the user has to enter their network user name and password to log back on to the desktop.
+> SecureDesktop is a set of security features intended to prevent unattended patients taking on-line tests from using the Personal Computer (PC) for other purposes. The SecureDesktop features construct a screen to cover the entire PC desktop. Non-alphanumeric keys are trapped to keep the patient from using the task bar and operating system functions (such as Task Manager). The Patient Entry button on the Instrument Administrator form is the only instrument data entry method that activates the SecureDesktop features. The Patient Entry button should only be used for the on-line patient administration of data entry of forms, instruments and surveys. The SecureDesktop security features cannot be defeated once the Patient Entry button becomes active. Excessive non-alphanumeric keystrokes are interpreted as "hacking" efforts and MHA is terminated. At the conclusion of the patient's data entry session, MHA is terminated. Upon termination of the Windows session the user is logged off and the PC is shut down, which means that the user has to enter their network user name and password to log back on to the desktop.
 
 #### Mail Group:
 
@@ -663,9 +727,9 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> MHA3, software application did not release any new security keys. However, the YSP security key is required to control access to the results of “non-exempt” tests. Holders of the YSP security key are controlled (i.e., given out by the Chief of Psychology or a senior psychologist at a facility that does not have a Chief of Psychology). The Chief of Psychology or senior psychologist also determines which tests are “exempt” (i.e., the results can be seen by anyone), and which are
+> MHA3, software application did not release any new security keys. However, the YSP security key is required to control access to the results of "non-exempt" tests. Holders of the YSP security key are controlled (i.e., given out by the Chief of Psychology or a senior psychologist at a facility that does not have a Chief of Psychology). The Chief of Psychology or senior psychologist also determines which tests are "exempt" (i.e., the results can be seen by anyone), and which are
 
-> “non-exempt” (i.e., require the YSP key to see the results).
+> "non-exempt" (i.e., require the YSP key to see the results).
 
 ### File Security:
 
@@ -1095,7 +1159,7 @@ prior_versions:
 
 #### MH INSTRUMENT CONTENT file (#601.76)
 
-> This file specifies which entries from the MH QUESTIONS file (#601.72) are parts of which instrument in the MH TESTS AND SURVEYS file (#601.71). It is the “table of contents” for an interview, survey or test. Also specified are the sequence of questions and display attributes for the introductions, questions and choices. Display attributes can be bold, underlined and font size for the introductions, questions and choices.
+> This file specifies which entries from the MH QUESTIONS file (#601.72) are parts of which instrument in the MH TESTS AND SURVEYS file (#601.71). It is the "table of contents" for an interview, survey or test. Also specified are the sequence of questions and display attributes for the introductions, questions and choices. Display attributes can be bold, underlined and font size for the introductions, questions and choices.
 
 #### MH BATTERIES file (#601.77)
 
@@ -1119,7 +1183,7 @@ prior_versions:
 
 #### MH RULES file (#601.82)
 
-> This file contains the rules used in administering an interview, survey or test. A rule is an action that is performed when a specified question is answered in a specified manner. An example of a rule would be to enter ‘Not applicable’ to the Question, “Are you pregnant?” if the patient has had a hysterectomy. Rules are complex logic based entries that enables the user to create complex scripts.
+> This file contains the rules used in administering an interview, survey or test. A rule is an action that is performed when a specified question is answered in a specified manner. An example of a rule would be to enter 'Not applicable' to the Question, "Are you pregnant?" if the patient has had a hysterectomy. Rules are complex logic based entries that enables the user to create complex scripts.
 
 #### MH INSTRUMENTRULES file (#601.83)
 
@@ -1127,7 +1191,7 @@ prior_versions:
 
 #### MH ADMINISTRATIONS file (#601.84)
 
-> The MH ADMINISTRATIONS file (#601.84) contains the data collected during the administration of a specified instrument from the MH TESTS AND SURVEYS file (#601.71) given to a patient at a specific date and time. For each administration of a specified instrument from the MH TESTS AND SURVEYS file (#601.71) there will be an entry in this file. An entry in this file does not store the results of the instrument’s administration but is an index to the instrument’s administration. The entry indicates whether the instrument has been completed, who ordered the instrument, how many questions were answered and if the test has been electronically signed.
+> The MH ADMINISTRATIONS file (#601.84) contains the data collected during the administration of a specified instrument from the MH TESTS AND SURVEYS file (#601.71) given to a patient at a specific date and time. For each administration of a specified instrument from the MH TESTS AND SURVEYS file (#601.71) there will be an entry in this file. An entry in this file does not store the results of the instrument's administration but is an index to the instrument's administration. The entry indicates whether the instrument has been completed, who ordered the instrument, how many questions were answered and if the test has been electronically signed.
 
 #### MH ANSWERS file (#601.85)
 
@@ -1153,7 +1217,7 @@ prior_versions:
 
 #### MH SCORING KEYS file (#601.91)
 
-> This file contains the scoring keys. The scoring keys are the "answer sheet" for the specified scale entry in the MH SCALES file (#601.87). When an answer the matches the Target value (i.e., is correct) a specified value is added to the score. An example would be: if the question is “How much is 5 plus 3” the target value would be 8 and 10 points would be added to the total score (grade) in a ten question test to make a possible score of 100.
+> This file contains the scoring keys. The scoring keys are the "answer sheet" for the specified scale entry in the MH SCALES file (#601.87). When an answer the matches the Target value (i.e., is correct) a specified value is added to the score. An example would be: if the question is "How much is 5 plus 3" the target value would be 8 and 10 points would be added to the total score (grade) in a ten question test to make a possible score of 100.
 
 #### MH RESULTS file (#601.92)
 
@@ -1779,11 +1843,11 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Use the ‘LOAD A DISTRIBUTION’ option on the PackMan menu. The Host File name is YS_501_85.KID. Answer YES to the question:
+1.  Use the 'LOAD A DISTRIBUTION' option on the PackMan menu. The Host File name is YS_501_85.KID. Answer YES to the question:
 
-> “Want to Continue with Load? YES//”
+> "Want to Continue with Load? YES//"
 
-2.  The patch has now been loaded into a Transport global on your system. You now need to use KIDS to install the Transport global. On the KIDS menu, under the ‘Installation’ menu, use the following options:
+2.  The patch has now been loaded into a Transport global on your system. You now need to use KIDS to install the Transport global. On the KIDS menu, under the 'Installation' menu, use the following options:
 
 > Print Transport Global
 
@@ -1791,8 +1855,8 @@ prior_versions:
 
 3.  Users may remain on the system, but installation should be done at off peak hours.
 4.  Installation will take MORE than five minutes.
-5.  From the ‘Installation Menu’ of the KIDS menu, run the option ‘Install Package(s)’ Select the package ‘YS\*5.01\*85’ and proceed with install.
-6.  When prompted “Want KIDS to INHIBIT LOGONs during the install//” respond NO. When prompted “Want to DISABLE Scheduled Options, Menu Options, and Protocols? YES//” respond NO.
+5.  From the 'Installation Menu' of the KIDS menu, run the option 'Install Package(s)' Select the package 'YS\*5.01\*85' and proceed with install.
+6.  When prompted "Want KIDS to INHIBIT LOGONs during the install//" respond NO. When prompted "Want to DISABLE Scheduled Options, Menu Options, and Protocols? YES//" respond NO.
 7.  Place the MENTAL HEALTH ASSISTANT VERSION 3 USER MANUAL in a location that can be accessed by MHA users.
 8.  Please refer to the INSTALL WINDOWS ILLUSTRATION section of the MENTAL HEALTH ASSISTANT VERSION 3 INSTALLATION GUIDE to install the MHA software.
 9.  Place the option YS BROKER1 \[YS BROKER1\] on the Mental Health users secondary menu.
@@ -1986,12 +2050,12 @@ prior_versions:
 <tbody>
 <tr class="odd">
 <td>YS_MHA.exe</td>
-<td><p>MHA3’s main executable program, which is invoked by CPRS Tools Menu (when running</p>
+<td><p>MHA3's main executable program, which is invoked by CPRS Tools Menu (when running</p>
 <p>online) or by the MHA3 desktop shortcut (when running offline).</p></td>
 </tr>
 <tr class="even">
 <td>YS_MHA.HLP</td>
-<td><p>MHA3’s Help file, which only contains help</p>
+<td><p>MHA3's Help file, which only contains help</p>
 <p>for the ASI module. Online instruments provide their own online help from Vista.</p></td>
 </tr>
 <tr class="odd">
@@ -2022,7 +2086,7 @@ prior_versions:
 </tr>
 <tr class="even">
 <td>YS_MHA_VASD.exe</td>
-<td>SecureDesktop’s main executable program, which is invoked by the MHA3 executable at the point when the user chooses Patient Entry mode.</td>
+<td>SecureDesktop's main executable program, which is invoked by the MHA3 executable at the point when the user chooses Patient Entry mode.</td>
 </tr>
 </tbody>
 </table>
@@ -2047,7 +2111,7 @@ prior_versions:
 <tbody>
 <tr class="odd">
 <td>Sub-folders</td>
-<td>MHA3 relies on data contained in the following subfolders located in the Application Data folder under the user’s profile storage area. This is typically C:\Documents and Settings\&lt;user name&gt;\Application Data\MHA3.</td>
+<td>MHA3 relies on data contained in the following subfolders located in the Application Data folder under the user's profile storage area. This is typically C:\Documents and Settings\&lt;user name&gt;\Application Data\MHA3.</td>
 </tr>
 <tr class="even">
 <td>Answer Files</td>
@@ -2073,11 +2137,11 @@ prior_versions:
 
 > MHA3_DLL_Scoring.dll
 
-> C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user’s configuration.
+> C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user's configuration.
 
 #### C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3\Answer Files
 
-> This is usually empty, unless there are off-line records that haven’t been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.adm.
+> This is usually empty, unless there are off-line records that haven't been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.adm.
 
 #### C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3\\ Instrument Files
 
@@ -2123,7 +2187,7 @@ prior_versions:
 
 > Patch YS\*5.01\*85, MHA3, restructures the MH files and allows for usage of an increased number of types of responses in its instruments.
 
-> Clinical reminders has also written a patch, PXRM\*2.0\*6, that allows reminders to work with the new file structure in MHA. The clinical reminders patch will provide the functionality to use any MHA instrument in a reminder dialog. Some of the functionality won’t be available until version 27 of CPRS is released. Until then, any test that includes free text responses cannot be
+> Clinical reminders has also written a patch, PXRM\*2.0\*6, that allows reminders to work with the new file structure in MHA. The clinical reminders patch will provide the functionality to use any MHA instrument in a reminder dialog. Some of the functionality won't be available until version 27 of CPRS is released. Until then, any test that includes free text responses cannot be
 
 > <span id="_bookmark21" class="anchor"></span>included in a reminder dialog the Blessed Orientation Memory Concentration test (BOMC) and the Traumatic Brain Injury (TBI) 2<sup>nd</sup> Level Evaluation are two tests that include free text responses in MHA3).
 
@@ -2147,7 +2211,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <span id="_bookmark22" class="anchor"></span>MHA Version 3, software files are available on the following OIFOs ANONYMOUS. SOFTWARE directories. All sites are encouraged to use their FTP capability to obtain these files. Use the FTP address “download.vista.med.va.gov” (without the quotes) to connect to the first available FTP server where the files are located.
+> <span id="_bookmark22" class="anchor"></span>MHA Version 3, software files are available on the following OIFOs ANONYMOUS. SOFTWARE directories. All sites are encouraged to use their FTP capability to obtain these files. Use the FTP address "download.vista.med.va.gov" (without the quotes) to connect to the first available FTP server where the files are located.
 
 ### MHA3 Files Retrieval Locations
 
@@ -2271,7 +2335,7 @@ prior_versions:
 </tr>
 <tr class="even">
 <td>YS_MHA_VASD.exe</td>
-<td>SecureDesktop’s main executable</td>
+<td>SecureDesktop's main executable</td>
 <td>BINARY</td>
 </tr>
 <tr class="odd">
@@ -2348,7 +2412,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The following illustrates the Mental Health Assistant Install windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user’s workstation.
+> The following illustrates the Mental Health Assistant Install windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user's workstation.
 
 ### Installing Mental Health Assistant on your Computer
 
@@ -2364,7 +2428,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example: The Choose Destination Location dialog box text asks “Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files\Vista\YS\MHA3).
+> Example: The Choose Destination Location dialog box text asks "Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files\Vista\YS\MHA3).
 
 > To install to the directory displayed below, click on the Next button.
 
@@ -2376,7 +2440,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example: The Folder Does Not Exist dialog box text asks “The folder: C:\Program Files\Vista\YS\MHA3 does not exist. Would you like the folder to be created?
+> Example: The Folder Does Not Exist dialog box text asks "The folder: C:\Program Files\Vista\YS\MHA3 does not exist. Would you like the folder to be created?
 
 > To create the folder displayed below, click Yes.
 
@@ -2388,7 +2452,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example: The Select Start Menu Folder dialog box text asks “Where should Setup place the program’s shortcuts? We strongly recommend that the program’s shortcuts be placed in the Start Menu Folder.
+> Example: The Select Start Menu Folder dialog box text asks "Where should Setup place the program's shortcuts? We strongly recommend that the program's shortcuts be placed in the Start Menu Folder.
 
 > To install to the folder displayed below, click Next.
 
@@ -2400,7 +2464,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example: The Ready to Install dialog box text states “Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
+> Example: The Ready to Install dialog box text states "Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
 
 > To continue the setup, Click Install.
 
@@ -2410,7 +2474,7 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Example: The Mental Health Assistant 3 Installing dialog box text states “Please wait while Setup installs Mental Health Assistant 3 on your computer.”
+> Example: The Mental Health Assistant 3 Installing dialog box text states "Please wait while Setup installs Mental Health Assistant 3 on your computer."
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/010.png)
 
@@ -2420,9 +2484,9 @@ prior_versions:
 
 > Click on the Finish command button (located within the Setup - Mental Health Assistant 3 dialog box bottom right side) to exit Setup.
 
-> Example: The Setup - Mental Health Assistant 3 dialog box text displays “Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons.”
+> Example: The Setup - Mental Health Assistant 3 dialog box text displays "Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons."
 
-> The first time “Instrument Administrator” is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of “Instrument Administrator” should be much quicker.
+> The first time "Instrument Administrator" is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of "Instrument Administrator" should be much quicker.
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/011.png)
 
@@ -2457,7 +2521,7 @@ prior_versions:
 
 > SecureDesktop files are installed or uninstalled using a separate setup file than the one for installing MHA3. All the files necessary to use SecureDesktop are bundled in a single setup file. The SecureDesktop files MUST be installed to the same folder as the one containing the main MHA3 file (YS_MHA.exe)—this is why MHA3 must be installed first.
 
-> PRIOR to installing the Secure Desktop, the Patient Entry button on MHA3’s Instrument Administrator form is disabled, and these functions are not available to the user.
+> PRIOR to installing the Secure Desktop, the Patient Entry button on MHA3's Instrument Administrator form is disabled, and these functions are not available to the user.
 
 > Example: To start the installation process, execute the file named
 
@@ -2477,7 +2541,7 @@ prior_versions:
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/017.png)
 
-> Example: Select Start Menu Folder screen. To continue creating the program’s shortcuts in the
+> Example: Select Start Menu Folder screen. To continue creating the program's shortcuts in the
 
 > Start Menu Folder - click on the Next button.
 
@@ -2495,18 +2559,18 @@ prior_versions:
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/021.png)
 
-> Example: Before installing SecureDesktop, the Patient Entry button on MHA3’s Instrument Administrator form is disabled, and these functions are not available to the user, as shown below.
+> Example: Before installing SecureDesktop, the Patient Entry button on MHA3's Instrument Administrator form is disabled, and these functions are not available to the user, as shown below.
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/022.png)
 
-> Example: After installing SecureDesktop and running YS_MHA_SD_INSTALLGINA.exe, the Patient Entry button on MHA3’s Instrument Administrator form is enabled, and these functions become available to the user, as shown below.
+> Example: After installing SecureDesktop and running YS_MHA_SD_INSTALLGINA.exe, the Patient Entry button on MHA3's Instrument Administrator form is enabled, and these functions become available to the user, as shown below.
 
 > A test must also be selected in order to activate the Patient Entry button.
 
 ![](ys-5-01-85-mental-health-assistant-phase-3-installation-guide/023.png)
 
 - MHA3 is properly installed.
-- The PC’s operating system is Windows XP
+- The PC's operating system is Windows XP
 - The dwlGina2 DLL has been installed successfully. This is done automatically, when installing SecureDesktop.
 - The PC was rebooted after installing SecureDekstop
 
@@ -2533,15 +2597,15 @@ prior_versions:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This procedure configures VistA so that “Mental Health Assistant” appears as a choice on a user’s Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user’s particular access permissions in VistA.
+> This procedure configures VistA so that "Mental Health Assistant" appears as a choice on a user's Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user's particular access permissions in VistA.
 
 > The basic steps for setting up VistA MHA3 on the Tools menu are no different from doing it for other applications. The main difference lies in how the Name=Command entry is formatted. The following text capture is taken from the CPRS Setup documentation, to serve as an example of how to perform this step for MHA3:
 
 > Example: Setting up VistA MHA3 on the CPRS Tools menu.
 
-> From the previous example, adjust according to your own system’s settings, such as New Person
+> From the previous example, adjust according to your own system's settings, such as New Person
 
-> Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the “Name=Command:” field. This field should be entered exactly as shown, in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
+> Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the "Name=Command:" field. This field should be entered exactly as shown, in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
 
 > The path shown represents a typical path used during a default installation. If your path is different, adjust accordingly. ALL five parameters must be included as shown above, in the precise order in which they are found in the example. Here is what the Name=Command line should look like:
 
@@ -2549,7 +2613,7 @@ prior_versions:
 
 > Sequence number 2 is shown in the example, but, if you have other entries in the Tools Menu, then the next free sequence number will do just fine.
 
-> After this step is completed, a new choice will appear in the user’s CPRS Tools Menu labeled “Mental Health Assistant”. Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
+> After this step is completed, a new choice will appear in the user's CPRS Tools Menu labeled "Mental Health Assistant". Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
 
 > Refer to the CPRS Setup Guide, dated August 2000, for more information about this procedure.
 
@@ -2561,7 +2625,7 @@ prior_versions:
 
 > This procedure configures VistA so that you can add a variable number of individual, specific assessment-types choices, to the Tools menu in the CPRS GUI. This is in addition, or instead of, the Mental Health Assistant choice described above. This step is optional and will have no effect on the procedure described above.
 
-> The steps for setting up individual assessment types are identical to setting up MHA3, with one significant difference: The Name=Command line has one added parameter at the end of the parameter list. This parameter indicates the “code” name of the instrument to be added to the Tools menu. In this example, CAGE is added to the Tools menu. Here is what the Name=Command line should look like to add CAGE:
+> The steps for setting up individual assessment types are identical to setting up MHA3, with one significant difference: The Name=Command line has one added parameter at the end of the parameter list. This parameter indicates the "code" name of the instrument to be added to the Tools menu. In this example, CAGE is added to the Tools menu. Here is what the Name=Command line should look like to add CAGE:
 
 > Example: Mental Health Assistant=C:\Progra~1\Vista\YS\MHA3\YS_MHA.exe s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF CAGE
 
@@ -2720,7 +2784,7 @@ MHA3 Patch YS\*5.01\*103 installation time takes at least 10 minutes during off 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following illustrates the Mental Health Assistant Install windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user’s workstation.
+The following illustrates the Mental Health Assistant Install windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user's workstation.
 
 ### Installing Mental Health Assistant on your Computer 
 
@@ -2734,7 +2798,7 @@ Example: From the Mental Health Assistant Welcome dialog box, click on the Next 
 
 <span id="_Toc319647283" class="anchor"></span><u>Choose Destination Location</u>
 
-Example: The Choose Destination Location dialog box text asks “Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files\Vista\YS\MHA3).
+Example: The Choose Destination Location dialog box text asks "Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files\Vista\YS\MHA3).
 
 To install to the directory displayed below, click on the Next button.
 
@@ -2744,7 +2808,7 @@ To install to a different directory, click Browse and select another directory.
 
 <span id="_Toc319647284" class="anchor"></span><u>Folder Does Not Exist</u>
 
-Example: The Folder Does Not Exist dialog box text asks “The folder: C:\Program Files\Vista\YS\MHA3 does not exist. Would you like the folder to be created?
+Example: The Folder Does Not Exist dialog box text asks "The folder: C:\Program Files\Vista\YS\MHA3 does not exist. Would you like the folder to be created?
 
 To create the folder displayed below, click Yes.
 
@@ -2754,7 +2818,7 @@ If the button No is clicked the folder is not created and you are returned to th
 
 <span id="_Toc319647285" class="anchor"></span><u>Select Start Menu Folder</u>
 
-Example: The Select Start Menu Folder dialog box text asks “Where should Setup place the program’s shortcuts? We strongly recommend that the program’s shortcuts be placed in the Start Menu Folder.
+Example: The Select Start Menu Folder dialog box text asks "Where should Setup place the program's shortcuts? We strongly recommend that the program's shortcuts be placed in the Start Menu Folder.
 
 To install to the folder displayed below, click Next.
 
@@ -2773,7 +2837,7 @@ To install quick launch, check the box, click Next.
 ![](ys-5-01-103-mental-health-assistant-phase-3-installation-guide/006.png)  
 <u>Ready to Install</u>
 
-Example: The Ready to Install dialog box text states “Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
+Example: The Ready to Install dialog box text states "Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
 
 To continue the setup, Click Install.
 
@@ -2783,7 +2847,7 @@ To continue the setup, Click Install.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Example: The Mental Health Assistant 3Installing dialog box text states “Please wait while Setup installs Mental Health Assistant 3 on your computer.”
+Example: The Mental Health Assistant 3Installing dialog box text states "Please wait while Setup installs Mental Health Assistant 3 on your computer."
 
 ![](ys-5-01-103-mental-health-assistant-phase-3-installation-guide/008.png)
 
@@ -2793,9 +2857,9 @@ Example: The Mental Health Assistant 3Installing dialog box text states “Pleas
 
 Click on the Finish command button (located within the Setup - Mental Health Assistant 3 dialog box bottom right side) to exit Setup.
 
-Example: The Setup - Mental Health Assistant 3 dialog box text displays “Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons.”
+Example: The Setup - Mental Health Assistant 3 dialog box text displays "Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons."
 
-The first time “Instrument Administrator” is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of “Instrument Administrator” should be much quicker.
+The first time "Instrument Administrator" is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of "Instrument Administrator" should be much quicker.
 
 ![](ys-5-01-103-mental-health-assistant-phase-3-installation-guide/009.png)
 
@@ -2825,11 +2889,11 @@ C:\Program Files\Vista\Common Files
 > YS_MHA_A.dll  
 > YS_MHA_AUX.dll
 
-C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user’s configuration.
+C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user's configuration.
 
 C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3\Answer Files
 
-This is usually empty, unless there are off-line records that haven’t been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.adm.
+This is usually empty, unless there are off-line records that haven't been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.adm.
 
 C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3\\ Instrument Files
 
@@ -2878,11 +2942,11 @@ Example: Confirmation screen to that Mental Health Assistant 3 has been uninstal
 
 According to the Birch Grove Software site:
 
-> “Screen Pass is a screen locking system for Windows® that extends the capability of the standard workstation lock and gives network administrators complete control over idle workstations.
+> "Screen Pass is a screen locking system for Windows® that extends the capability of the standard workstation lock and gives network administrators complete control over idle workstations.
 
 > With Screen Pass, network administrators can enforce screensaver password use, screensaver timeout, and screen saver selection. Advanced features include automatic logout, automatic shutdown, customizable administrator override, and auditing of all logon/logoff and lock/unlock events.
 
-> Intended primarily for workstations connected to Novell Netware or Microsoft networks, Screen Pass can be distributed and managed remotely with or without group policy. The central management feature makes Screen Pass ideal for small, medium, and large networks - anywhere that security of idle workstations is a concern.”
+> Intended primarily for workstations connected to Novell Netware or Microsoft networks, Screen Pass can be distributed and managed remotely with or without group policy. The central management feature makes Screen Pass ideal for small, medium, and large networks - anywhere that security of idle workstations is a concern."
 
 Screen Pass installs its own version of a gina.dll and it may take precedence over the one used by Secure Desktop. If SecureDesktop does operate properly these changes may be necessary in the Windows Registry:
 
@@ -2910,7 +2974,7 @@ Here is how to fix it:
 
 5\. Reboot in normal mode.
 
-If this doesn’t work, then modify step five by first finding and running YS_MHA_SD_INSTALLGINA.exe. Click Yes, to install it. Then follow the remainder of step five.
+If this doesn't work, then modify step five by first finding and running YS_MHA_SD_INSTALLGINA.exe. Click Yes, to install it. Then follow the remainder of step five.
 
 ## Setting up VistA MHA3 on CPRS GUI Tools Menu
 
@@ -2918,7 +2982,7 @@ If this doesn’t work, then modify step five by first finding and running YS_MH
 
 > **WARNING:** THIS STEP IS MANDATORY, TO COMPLETE THE VistA MHA3 INSTALLATION PROCESS.
 
-This procedure configures VistA so that “Mental Health Assistant” appears as a choice on a user’s Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user’s particular access permissions in VistA.
+This procedure configures VistA so that "Mental Health Assistant" appears as a choice on a user's Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user's particular access permissions in VistA.
 
 The basic steps for setting up VistA MHA3 on the Tools menu are no different from doing it for other applications. The main difference lies in how the Name=Command entry is formatted. The following text capture is taken from the CPRS Setup documentation, to serve as an example of how to perform this step for MHA3:
 
@@ -2954,7 +3018,7 @@ Sequence: 2// \<Enter\>
 
 Name=Command: Mental Health Assistant=C:\Progra~1\Vista\YS\MHA3\YS_MHA.exe s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
 
-From the previous example, adjust according to your own system’s settings, such as New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the “Name=Command:” field. This field should be entered exactly as shown, in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
+From the previous example, adjust according to your own system's settings, such as New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the "Name=Command:" field. This field should be entered exactly as shown, in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
 
 The path shown represents a typical path used during a default installation. If your path is different, adjust accordingly. <u>ALL five parameters must be included as shown above, in the precise order in which they are found in the example</u>. Here is what the Name=Command line should look like:
 
@@ -2962,7 +3026,7 @@ Example: Mental Health Assistant=C:\Progra~1\Vista\YS\MHA3\YS_MHA.exe s=%SRV p=%
 
 Sequence number 2 is shown in the example, but, if you have other entries in the Tools Menu, then the next free sequence number will do just fine. (Sometimes when cutting and pasting, unseen control characters can be included in the text and will cause the command line to malfunction.)
 
-After this step is completed, a new choice will appear in the user’s CPRS Tools Menu labeled “Mental Health Assistant”. Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
+After this step is completed, a new choice will appear in the user's CPRS Tools Menu labeled "Mental Health Assistant". Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
 
 Refer to the Computerized Patient Record System (CPRS) Setup Guide for more information about this procedure.
 
@@ -3006,7 +3070,7 @@ Sequence: 2// \<Enter\>
 
 Name=Command: MHA3_Patient Entry=C:\Progra~1\Vista\YS\MHA3\YS_MHA.exe s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
 
-From the previous example, adjust according to your own system’s settings, such as New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the “Name=Command:” field. This field should be entered exactly as shown, in a single line—no line-breaks allowed, including all the % parameters that follow the filename and path to the MHA3 executable file.
+From the previous example, adjust according to your own system's settings, such as New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the "Name=Command:" field. This field should be entered exactly as shown, in a single line—no line-breaks allowed, including all the % parameters that follow the filename and path to the MHA3 executable file.
 
 ALL five parameters must be included as shown above, in the precise order in which they are found in the example. Here is what the Name=Command line should look like:
 
@@ -3014,11 +3078,11 @@ Example: MHA3_Patient Entry=C:\Progra~1\Vista\YS\MHA3\YS_MHA.exe s=%SRV p=%PORT 
 
 Sequence number 2 is shown in the example, but, if you have other entries in the Tools Menu, then the next free sequence number will do just fine. (Sometimes when cutting and pasting, unseen control characters can be included in the text and will cause the command line to malfunction.)
 
-After this step is completed, a new choice will appear in the user’s CPRS Tools Menu labeled “MHA3_Patient Entry”. Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS and if SecureDesktop is installed on that machine, the Patient Entry Button will be enabled.
+After this step is completed, a new choice will appear in the user's CPRS Tools Menu labeled "MHA3_Patient Entry". Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS and if SecureDesktop is installed on that machine, the Patient Entry Button will be enabled.
 
 ### From: YS*5.01*105 Mental Health Assistant Phase 3 Installation Guide
 
-### MHA3, software application did not release any new security keys. However, the YSP security key is required to control access to the results of “non-exempt” tests. Holders of the YSP security key are controlled (i.e., given out by the Chief of Psychology or a senior psychologist at a facility that does not have a Chief of Psychology). The Chief of Psychology or senior psychologist also determines which tests are “exempt” (i.e., the results can be seen by anyone), and which are “non-exempt” (i.e., require the YSP key to see the results).
+### MHA3, software application did not release any new security keys. However, the YSP security key is required to control access to the results of "non-exempt" tests. Holders of the YSP security key are controlled (i.e., given out by the Chief of Psychology or a senior psychologist at a facility that does not have a Chief of Psychology). The Chief of Psychology or senior psychologist also determines which tests are "exempt" (i.e., the results can be seen by anyone), and which are "non-exempt" (i.e., require the YSP key to see the results).
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -3058,7 +3122,7 @@ IRM Staff:NOTE: USERS installing SecureDesktop software on a Windows environment
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following illustrates the Mental Health Assistant Setup windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user’s workstation.
+The following illustrates the Mental Health Assistant Setup windows. When the default responses are accepted, MHA3 is installed into the appropriate V*ist*A directory on the user's workstation.
 
 ### Installing Mental Health Assistant on your Computer 
 
@@ -3070,7 +3134,7 @@ Example: From the Mental Health Assistant Welcome dialog box, click on the Next 
 
  ![](ys-5-01-105-mental-health-assistant-phase-3-installation-guide/002.png)
 
-<span id="_Toc361744489" class="anchor"></span>Choose Destination LocationExample: The Choose Destination Location dialog box text asks “Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files (x86)\Vista\YS\MHA).
+<span id="_Toc361744489" class="anchor"></span>Choose Destination LocationExample: The Choose Destination Location dialog box text asks "Which directory do you want to install this program into? We strongly recommend that, while the drive may be modified, the default directory structure be used (Drive:\Program Files (x86)\Vista\YS\MHA).
 
 To install to the directory displayed below, click on the Next button.
 
@@ -3081,7 +3145,7 @@ To install to a different directory, click Browse and select another directory.
 > **NOTE:** If you are using a WIN XP machine, your directory will look like the following: C:\Program Files\Vista\YS\MHA3  
 <span id="_Toc361744491" class="anchor"></span>
 
-Select Start Menu FolderExample: The Select Start Menu Folder dialog box text asks “Where should Setup place the program’s shortcuts? We strongly recommend that the program’s shortcuts be placed in the Start Menu Folder.
+Select Start Menu FolderExample: The Select Start Menu Folder dialog box text asks "Where should Setup place the program's shortcuts? We strongly recommend that the program's shortcuts be placed in the Start Menu Folder.
 
 To install to the Mental Health Assistant 3 folder, click Next.
 
@@ -3098,7 +3162,7 @@ To install quick launch, check the box.
 Click Next.
 
 ![](ys-5-01-105-mental-health-assistant-phase-3-installation-guide/005.png)  
-Ready to InstallExample: The Ready to Install dialog box text states “Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\\x86)\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
+Ready to InstallExample: The Ready to Install dialog box text states "Setup is now ready to begin installing Mental Health Assistant 3 on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location: C:\Program Files\\x86)\Vista\YS\MHA3. Start Menu folder: Mental Health Assistant 3.
 
 To continue the setup, Click Install.
 
@@ -3108,7 +3172,7 @@ To continue the setup, Click Install.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Example: The Mental Health Assistant 3Installing dialog box text states “Please wait while Setup installs Mental Health Assistant 3 on your computer.”
+Example: The Mental Health Assistant 3Installing dialog box text states "Please wait while Setup installs Mental Health Assistant 3 on your computer."
 
 ![](ys-5-01-105-mental-health-assistant-phase-3-installation-guide/007.png)
 
@@ -3118,9 +3182,9 @@ Example: The Mental Health Assistant 3Installing dialog box text states “Pleas
 
 Click on the Finish command button (located within the Setup - Mental Health Assistant 3 dialog box bottom right side) to exit Setup.
 
-Example: The Setup - Mental Health Assistant 3 dialog box text displays “Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons.”
+Example: The Setup - Mental Health Assistant 3 dialog box text displays "Setup has finished installing Mental Health Assistant 3 on your computer. The application may be launched by selecting the installed icons."
 
-The first time “Instrument Administrator” is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of “Instrument Administrator” should be much quicker.
+The first time "Instrument Administrator" is launched, it may take a couple of minutes to load all of the instruments. Subsequent launches of "Instrument Administrator" should be much quicker.
 
 ![](ys-5-01-105-mental-health-assistant-phase-3-installation-guide/008.png)
 
@@ -3150,11 +3214,11 @@ C:\Program Files\\x86)\Vista\YS\MHA3
 > YS_MHA_A.dll  
 > YS_MHA_AUX.dll
 
-C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user’s configuration.
+C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3 is an example path. The actual path will vary with the current user's configuration.
 
 C:\Documents and Settings\VHAXXXCliniJ.VHAXX\Application Data\MHA3\Answer Files
 
-This is usually empty, unless there are off-line records that haven’t been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.rsc.
+This is usually empty, unless there are off-line records that haven't been uploaded to VistA yet. Example filename: 2~3050623-134647~AUDIT.rsc.
 
 > **IMPORTANT:** the location of the answer and instrument files depends on whether your workstation is running Windows XP or Windows 7.
 
@@ -3189,11 +3253,11 @@ dwlGina2.dll
 
 According to the Birch Grove Software site:
 
-> “Screen Pass is a screen locking system for Windows® that extends the capability of the standard workstation lock and gives network administrators complete control over idle workstations.
+> "Screen Pass is a screen locking system for Windows® that extends the capability of the standard workstation lock and gives network administrators complete control over idle workstations.
 
 > With Screen Pass, network administrators can enforce screensaver password use, screensaver timeout, and screen saver selection. Advanced features include automatic logout, automatic shutdown, customizable administrator override, and auditing of all logon/logoff and lock/unlock events.
 
-> Intended primarily for workstations connected to Novell Netware or Microsoft networks, Screen Pass can be distributed and managed remotely with or without group policy. The central management feature makes Screen Pass ideal for small, medium, and large networks - anywhere that security of idle workstations is a concern.”
+> Intended primarily for workstations connected to Novell Netware or Microsoft networks, Screen Pass can be distributed and managed remotely with or without group policy. The central management feature makes Screen Pass ideal for small, medium, and large networks - anywhere that security of idle workstations is a concern."
 
 Screen Pass installs its own version of a gina.dll and it may take precedence over the one used by Secure Desktop. If SecureDesktop does operate properly these changes may be necessary in the Windows Registry:
 
@@ -3221,7 +3285,7 @@ Here is how to fix it:
 
 5\. Reboot in normal mode.
 
-If this doesn’t work, then modify step five by first finding and running YS_MHA_SD_INSTALLGINA.exe. Click Yes, to install it. Then follow the remainder of step five.
+If this doesn't work, then modify step five by first finding and running YS_MHA_SD_INSTALLGINA.exe. Click Yes, to install it. Then follow the remainder of step five.
 
 ### From: YS*5.01*104 Mental Health Assistant Phase 3 Installation Guide
 
@@ -3403,7 +3467,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 <p>1.1</p>
 </blockquote></td>
 <td><blockquote>
-<p>Added table “MHA3 Patch YS*5.01*129</p>
+<p>Added table "MHA3 Patch YS*5.01*129</p>
 </blockquote></td>
 <td><mark>REDACTED</mark></td>
 <td><mark>REDACTED</mark></td>
@@ -3507,9 +3571,9 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > This patch can be loaded with users in the system but it is recommended that it be installed when user activity is low. Installation time will be less than 5 minutes.
 
-> It is recommended that you use the “Backup a Transport Global” option that is referenced in the installation instructions. This will be useful should it be decided to back out the installation.
+> It is recommended that you use the "Backup a Transport Global" option that is referenced in the installation instructions. This will be useful should it be decided to back out the installation.
 
-> To ensure the integrity of the transport global, use the “Verify Checksums in Transport Global” to compare the checksums with the list that follows:
+> To ensure the integrity of the transport global, use the "Verify Checksums in Transport Global" to compare the checksums with the list that follows:
 
 > The checksums below are new checksums and can be checked with CHECK1^XTSUMBLD.
 
@@ -3914,9 +3978,9 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> “Stop/Re-Start Progress Notes for an Instrument” on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
+> "Stop/Re-Start Progress Notes for an Instrument" on the MHA3 Utilities menu (YTQ MHA3 MENU) can be used to edit the PNote Field (Progress Note), TIU Title Field, and Consult Note Title Field without having to go into FileMan.
 
-> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either “Start” or “Stop” the Progress Note field for the Instrument.
+> Based on what the PNote field should read, either Yes to show the Progress Note, or No to not show the Progress note, you would need to either "Start" or "Stop" the Progress Note field for the Instrument.
 
 > If a progress note is Yes and should appear, but it is NOT appearing, then you should use the START PROGRESS NOTES instructions below.
 
@@ -3971,8 +4035,8 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  The user needs to access FileMan and choose option ‘ENTER OR EDIT FILE ENTRIES’.
-2.  In ‘Input to what File’ enter MH TESTS AND SURVEYS
+1.  The user needs to access FileMan and choose option 'ENTER OR EDIT FILE ENTRIES'.
+2.  In 'Input to what File' enter MH TESTS AND SURVEYS
 3.  For EDIT WHICH FIELD: – GENERATE PNOTE
 4.  For THEN EDIT FIELD: TIU TITLE
 5.  For THEN EDIT FIELD: CONSULT NOTE TITLE
@@ -3980,15 +4044,15 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > Press return and at the prompt: Select MH TESTS AND SURVEYS NAME: enter name of instrument
 
-> For field ‘GENERATE PNOTE:’ enter “YES” or “NO”, depending on the instructions provided for each instrument in this Install Guide. For FIELD ‘TIU TITLE:’ enter the TIU Title as defined by your site
+> For field 'GENERATE PNOTE:' enter "YES" or "NO", depending on the instructions provided for each instrument in this Install Guide. For FIELD 'TIU TITLE:' enter the TIU Title as defined by your site
 
-> For FIELD ‘CONSULT NOTE TITLE:’ enter the title of the CONSULT NOTE as defined by your site
+> For FIELD 'CONSULT NOTE TITLE:' enter the title of the CONSULT NOTE as defined by your site
 
 > For LAST EDIT DATE: enter current date
 
 > Exit FileMan and your notes should now save to CPRS Notes.
 
-> <u>Example for Instrument: ‘CES’</u>
+> <u>Example for Instrument: 'CES'</u>
 
 > Select OPTION: ?
 
@@ -4147,7 +4211,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > If you wish to restore newly installed instruments to their previous state, you must do that <u>before</u> any other back-out steps. See the instructions for restoring the previous instrument state in the Rollback Procedure section to do this.
 
-> To back-out routines, you must have already selected the “Backup a Transport Global” option during the installation process. To restore the previous routines:
+> To back-out routines, you must have already selected the "Backup a Transport Global" option during the installation process. To restore the previous routines:
 
 1.  Choose the PackMan message containing the backup you created during installation.
 2.  Invoke the INSTALL/CHECK MESSAGE PackMan option.
@@ -4199,14 +4263,14 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 > For instruments that have been inactivated by YS\*5.01\*150 that need to be made active again:
 
 - Using FileMan, edit the OPERATIONAL field (#10) and the LAST EDIT DATE field (#18) in the MH TESTS AND SURVEYS file (601.71). Select the instrument that requires re-activation.
-- Change the value of the OPERATIONAL field from “Dropped” back to “Yes”
-- Change the value of the LAST EDIT DATE field to ‘NOW’.
+- Change the value of the OPERATIONAL field from "Dropped" back to "Yes"
+- Change the value of the LAST EDIT DATE field to 'NOW'.
 
 > Should it be required to move instruments back to being scored in YS_MHA_AUX DLL, contact the Mental Health development team for a routine that can find the appropriate records and make the replacement.
 
-> Optionally, if you want to see how many records will be restored, choose “Trial Install” then select the number of the backup you wish to restore.
+> Optionally, if you want to see how many records will be restored, choose "Trial Install" then select the number of the backup you wish to restore.
 
-> When you are ready to restore an instrument, choose “Install Exchange Entry” then select the number of the backup you want to restore.
+> When you are ready to restore an instrument, choose "Install Exchange Entry" then select the number of the backup you want to restore.
 
 ## Rollback Verification Procedure
 
@@ -4450,13 +4514,13 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > The MHA executable (YS_MHA.exe) is copied to a network shared location.
 
-> Since MHA is launched from the CPRS toolbar, CPRS must know where to find it on the network drive (see Section 4.5.3 below). Use the parameter, ”ORWT TOOLS MENU”, to enter the network location of YS_MHA.exe.
+> Since MHA is launched from the CPRS toolbar, CPRS must know where to find it on the network drive (see Section 4.5.3 below). Use the parameter, "ORWT TOOLS MENU", to enter the network location of YS_MHA.exe.
 
 > *Note:* MHA no longer uses the file, YS_MHA_AUX.dll, so it is not necessary to update the YS MHA_AUX DLL LOCATION parameter.
 
 #### Citrix installation:
 
-> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation’s screen on their local workstation.
+> The MHA executable (YS_MHA.exe) and supporting files are installed and run from a remote workstation, and the user views the remote workstation's screen on their local workstation.
 
 > For the local site users, this method is on a similar level to the Network (shared) installation above. The users' workstations require only an appropriate shortcut (and the necessary Citrix Access Group (CAG) infrastructure).
 
@@ -4479,7 +4543,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 #### SCCM install:
 
-> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the “Mental Health Assistant ” program be deployed.
+> An SCCM package is available for deployment to workstations at a site. To deploy via SCCM, request that the "Mental Health Assistant " program be deployed.
 
 ### Setting Connector Proxy User
 
@@ -4536,21 +4600,21 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This procedure configures VistA so that “Mental Health Assistant” appears as a choice on a user’s Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user’s access permissions in VistA.
+> This procedure configures VistA so that "Mental Health Assistant" appears as a choice on a user's Tools menu on the CPRS desktop software. Unlike previous versions of MHA, where this was optional, Version 3 of VistA MHA MUST be started from the CPRS Tools Menu. Selecting this choice from the CPRS Tools menu will offer the user full MHA3 functionality, based on a user's access permissions in VistA.
 
 > The basic steps for setting up VistA MHA3 on the Tools menu are no different from doing it for other applications. The main difference lies in how the Name=Command entry is formatted. The following text capture is taken from the CPRS Setup documentation, to serve as an example of how to perform this step for MHA3:
 
 > Example: Setting up VistA MHA3 on the CPRS Tools menu, GUI Parameters \[ORW PARAM GUI\]
 
-> From the previous example, adjust according to your own system’s settings, such as directory path, New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the “Name=Command:” field. This field should be entered in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
+> From the previous example, adjust according to your own system's settings, such as directory path, New Person Name and other parameters—consult the CPRS Setup Guide for the meaning of these parameters. The pertinent portion of the example is the "Name=Command:" field. This field should be entered in a single line—<u>no line-breaks allowed</u>, including all the % parameters that follow the filename and path to the MHA3 executable file.
 
 > The path shown represents a typical path used during a default installation. If your path is different, adjust accordingly. ALL five parameters must be included as shown above, in the precise order in which they are found in the example. Here is what the Name=Command line should look like:
 
-> Mental Health Assistant=”C:\Program Files (x86)\Vista\YS\MHA3\YS_MHA.exe” s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
+> Mental Health Assistant="C:\Program Files (x86)\Vista\YS\MHA3\YS_MHA.exe" s=%SRV p=%PORT c=%DFN u=%DUZ m=%MREF
 
 > Sequence number 2 is shown in the example, but, if you have other entries in the Tools Menu, then the next free sequence number will do just fine. (Sometimes when cutting and pasting, unseen control characters can be included in the text and will cause the command line to malfunction.)
 
-> After this step is completed, a new choice will appear in the user’s CPRS Tools Menu labeled “Mental Health Assistant”. Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
+> After this step is completed, a new choice will appear in the user's CPRS Tools Menu labeled "Mental Health Assistant". Clicking on this menu entry will start MHA3 with a selected patient synchronized to the one currently selected in CPRS.
 
 > Refer to the Computerized Patient Record System (CPRS) Setup Guide for more information about this procedure.
 
@@ -4594,7 +4658,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > ![](ys-5-01-130-mental-health-assistant-phase-3-installation-guide/004.png)Sign in to the Azure portal available [<u>here</u>.](https://portal.azure.us/%23%40vaazuregov.onmicrosoft.com/dashboard/private/da2c856d-39c7-46eb-8e29-7ea861eb900b)
 
-> Select “Sign in using an X.509 certificate”
+> Select "Sign in using an X.509 certificate"
 
 > The system would respond with a list of certificates. Select the valid certificate for your zero token and enter your PIN.
 
@@ -4610,7 +4674,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > ![](ys-5-01-130-mental-health-assistant-phase-3-installation-guide/008.png)
 
-> Click “Create VM” at the top of the portal
+> Click "Create VM" at the top of the portal
 
 > ![](ys-5-01-130-mental-health-assistant-phase-3-installation-guide/009.png)
 
@@ -4620,7 +4684,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > Virtual Machine Name: Enter the name of the virtual machine (eg. vac21appspp200)
 
-> Size: Find and select “Standard F8s”
+> Size: Find and select "Standard F8s"
 
 > Administration type: Since we are creating administrative account, select SSH public key, type your user name, then paste your public key into the text box. Remove any leading or trailing white space in your public key.
 
@@ -4632,7 +4696,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > Select default virtual network and any available subnet for this resource group. Since VM is not accessible from public network, select None for Public IP address.
 
-> Select “Allow selected ports and select all options from the list (HTTP, HTTPS, SSH, RDP) Press Review + Create
+> Select "Allow selected ports and select all options from the list (HTTP, HTTPS, SSH, RDP) Press Review + Create
 
 > Click Create button. It will take a few minutes for VM to be deployed. Once deployed, the following screen will display the notifications box in the right column.
 
@@ -4653,7 +4717,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 1.  Open up MicroFocus Reflections
 2.  Go to File, New VT Terminal
 3.  Click on Secure Shell for the Connection
-4.  Enter the IP address, (10.245.195.212) (This is an example. Please check the IP’s of the virtual machines across resource groups)
+4.  Enter the IP address, (10.245.195.212) (This is an example. Please check the IP's of the virtual machines across resource groups)
 5.  Enter sppprodadmin for the user name and Kerberos for the ssh configuration scheme.
 6.  Check the Configure additional settings checkbox
 
@@ -4685,7 +4749,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 15. Click Close
 16. This key will be used for authentication.
 
-> WinSCP: It’s a popular free open source SFTP client, FTP client SFTP and FTP client for Windows, a powerful file manager that will improve your productivity.
+> WinSCP: It's a popular free open source SFTP client, FTP client SFTP and FTP client for Windows, a powerful file manager that will improve your productivity.
 
 > Add the private key to the cloud server for authentication. Please contact the administrator for private-key.ppk Download and install from [<u>https://winscp.net/eng/download.php</u>](https://winscp.net/eng/download.php)
 
@@ -4695,7 +4759,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 
 > An alternative to password authentication is public key authentication, in which we generate and store on your computer a pair of cryptographic keys and then configure our server to recognize and accept your keys.
 
-> Because a password isn’t required at login, we are able to able to log in to servers from within scripts or automation tools that we need to run unattended. SSH public-key authentication relies on asymmetric
+> Because a password isn't required at login, we are able to able to log in to servers from within scripts or automation tools that we need to run unattended. SSH public-key authentication relies on asymmetric
 
 > cryptographic algorithms that generate a pair of separate keys (a key pair), one "private" and the other "public". You keep the private key a secret and store it on the computer you use to connect to the remote system
 
@@ -4704,7 +4768,7 @@ Only the KID build is needed for Patch YS\*5.01\*96 to be installed. The install
 ![](ys-5-01-130-mental-health-assistant-phase-3-installation-guide/018.png)
 
 2.  Find the key you just created. It will be in the folder: C:\Users\\username}\Documents\Micro Focus\Reflection\\ssh
-3.  Open the file using a text editor that is the version WITH the .pub extension. (Note – Use the “Open With” option
+3.  Open the file using a text editor that is the version WITH the .pub extension. (Note – Use the "Open With" option
 
 > and choose your text editor)
 

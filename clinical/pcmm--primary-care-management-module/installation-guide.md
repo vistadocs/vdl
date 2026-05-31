@@ -1,12 +1,48 @@
 ---
-consolidated_title: "pcmm install guide/release notes"
-app_code: PCMM
+title: SD*5.3*177 PCMM Install Guide/Release Notes
 doc_type: IG
-master_source: "SD*5.3*177 PCMM Install Guide/Release Notes"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: PCMM Install Guide/Release Notes
+app_code: PCMM
+app_name: Primary Care Management Module
+section: CLI
+app_status: active
+pkg_ns: SD
+patch_ver: 5.3
+patch_id: SD*5.3*177
+group_key: PCMM:SD:5.3
+file_numbers:
+- '4.5'
+- '404.43'
+- '870'
+security_keys: []
+menu_options: 0
+description: Scheduling V. 5.3Primary Care Management Module(PCMM)Installation Guide/Release Notes
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 3258
+section_count: 0
+table_count: 2
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: September 1999
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_177igrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_177igrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
+master_source: SD*5.3*177 PCMM Install Guide/Release Notes
 master_pub_date: September 1999
 consolidated_from: 2 versions
 prior_versions:
-  - "SD*5.3*148 PCMM Install Guide/Release Notes"
+- SD*5.3*148 PCMM Install Guide/Release Notes
+consolidated_title: pcmm install guide/release notes
 ---
 
 ![](sd-5-3-177-pcmm-install-guide-release-notes/001.png)
@@ -85,7 +121,7 @@ Technical Release Notes 23
 
 > C. New Options 24
 
-> D. “B”-Type Options 25
+> D. "B"-Type Options 25
 
 > E. APIs 25
 
@@ -135,7 +171,7 @@ The workstation must have one of the following operating systems.
 - MS Windows 95B or higher
 - MS Windows NT Workstation V. 3.51
 
-Each workstation should be networked into your V*IST*A Server through a local area network. The RPC Broker’s RPC Broker Test should have successfully run on each client workstation.
+Each workstation should be networked into your V*IST*A Server through a local area network. The RPC Broker's RPC Broker Test should have successfully run on each client workstation.
 
 III. Installation Activities*Server*
 
@@ -159,12 +195,12 @@ A. Installation Steps1. The KIDs build is distributed in a host file, SD_53_177.
 7. Use the Install Package(s) option and select package SD\*5.3\*177.
 8. This build will bring in two new mail groups, PCMM AUSTIN REPORTS and PCMM HL7 MESSAGES. You will be asked for a coordinator. Enter the name of the person responsible for PCMM.
 9. The install will ask if you wish to rebuild menu trees. It is recommended that you answer NO to this prompt. The trees will be rebuilt next time the system does this task.
-10. When prompted “Want KIDS to INHIBIT LOGONs during the install? YES//”, it is recommended you answer NO. The disabling of the Scheduling and Registration options will protect the installation.
+10. When prompted "Want KIDS to INHIBIT LOGONs during the install? YES//", it is recommended you answer NO. The disabling of the Scheduling and Registration options will protect the installation.
 11. When prompted to select the options you would like to place out of order, enter the following.
 
 > SDAPP Appointment Menu
 
-> SDMGR Scheduling Manager’s Menu
+> SDMGR Scheduling Manager's Menu
 
 > SDNEXT Find next Available Appointment
 
@@ -190,19 +226,19 @@ A. Installation Steps1. The KIDs build is distributed in a host file, SD_53_177.
 
 12. If routines were unmapped as part of Step 2, they should be returned to the mapped set once the installation has run to completion. Consider mapping the following routines: SCAP\* SCUTBK\* SCMCT\*.
 13. Ensure the AutoStart field (#4.5) in the HL Logical Link file (#870) for entry PCMM is set to ENABLED.
-14. Schedule PCMM’s HL7 transmission builder.
+14. Schedule PCMM's HL7 transmission builder.
 
 > a. From the TaskMan Management Menu, select the *Schedule/Unschedule Options* option.
 
-> b. At the “Select OPTION to schedule or reschedule: ” prompt, enter *SCMC PCMM HL7 TRANSMIT*.
+> b. At the "Select OPTION to schedule or reschedule: " prompt, enter *SCMC PCMM HL7 TRANSMIT*.
 
-> c. At the “Are you adding SCMC PCMM HL7 TRANSMIT as a new OPTION SCHEDULING ? ” prompt, enter *YES*.
+> c. At the "Are you adding SCMC PCMM HL7 TRANSMIT as a new OPTION SCHEDULING ? " prompt, enter *YES*.
 
 > d. In the ScreenMan form, enter *T+1@01:00* into the QUEUED TO RUN AT WHAT TIME field and *1D* into the RESCHEDULING FREQUENCY field.
 
 > e. Save changes and exit the form.
 
-15. Start PCMM’s HL7 Lower Level Protocol (LLP).
+15. Start PCMM's HL7 Lower Level Protocol (LLP).
 
 > a. From the HL7 Main Menu, select the *V1.6 OPTIONS* menu.
 
@@ -210,17 +246,17 @@ A. Installation Steps1. The KIDs build is distributed in a host file, SD_53_177.
 
 > c. From this menu, select the *Start LLP* option.
 
-> d. At the “Select HL LOGICAL LINK NODE: ” prompt, enter *PCMM*.
+> d. At the "Select HL LOGICAL LINK NODE: " prompt, enter *PCMM*.
 
-> e. Accept the default response at the “Method for running the receiver: B// ” prompt.
+> e. Accept the default response at the "Method for running the receiver: B// " prompt.
 
 B. Server Installation Notes
 
-Installation of the new HL7 Protocol will cause the following verbiage to appear during the install. “Not a known package or a local namespace.” This is because these are new protocols. Everything will be installed ok.
+Installation of the new HL7 Protocol will cause the following verbiage to appear during the install. "Not a known package or a local namespace." This is because these are new protocols. Everything will be installed ok.
 
 Sites that have not yet installed XU\*8.0\*124 will see the following error message in the KIDS dialog relating to the import of data into Files 403.43 and 403.44. This error message is extraneous and does not impact the build. Installation of XU\*8.0\*124 is recommended but not necessary.
 
-“\*\*ERROR IN DATA DICTIONARY FOR FILE \# XXX.XX\*\*”
+"\*\*ERROR IN DATA DICTIONARY FOR FILE \# XXX.XX\*\*"
 
 The KIDS build will import changes to the List Template SDAM APPT MGT. This will overwrite any modifications your site may have made.
 
@@ -664,9 +700,9 @@ The installation of the client software should take less than 5 minutes per work
 
 > a. Make sure to set transfer as BINARY.
 
-> b. Get the SD_53_177.EXE;1 file. Depending on the FTP software, this file might be placed in C:\WINDOWS, C:\\ or some other directory. If you cannot find it, use Window’s File Manager’s Search functionality.
+> b. Get the SD_53_177.EXE;1 file. Depending on the FTP software, this file might be placed in C:\WINDOWS, C:\\ or some other directory. If you cannot find it, use Window's File Manager's Search functionality.
 
-> c. VMS requires the “;1” extension on this file. It is necessary to rename the file to SD_53_177.EXE (without the “;1”).
+> c. VMS requires the ";1" extension on this file. It is necessary to rename the file to SD_53_177.EXE (without the ";1").
 
 2. Copy the SD_53_177.EXE file into an empty (temporary or scratch) directory.
 3. Run the SD_53_177.EXE file (double click on it). This starts the PCMM installation. See Section IV, Installation of the PCMM Client Software, for information on the files installed in the Client Workstation.
@@ -685,7 +721,7 @@ A PCMM.EXE cannot be placed on a workstation and successfully executed if the fu
 
 IV. Installation of the PCMM Client Software
 
-The following screens illustrate the installation of the PCMM client software. If all the default responses are accepted, the PCMM software will be installed into the appropriate V*IST*A directory on the user’s workstation.
+The following screens illustrate the installation of the PCMM client software. If all the default responses are accepted, the PCMM software will be installed into the appropriate V*IST*A directory on the user's workstation.
 
 This version of the client software can be installed as either a patch to the existing client software or as a new installation.
 
@@ -736,13 +772,13 @@ A Preceptor button has been added on the Primary Care Team Position Setup screen
 
 Once a preceptor is assigned it will be displayed on the General Tab. The preceptor field will display the current preceptor assignment.
 
-Assignment of a preceptor position locks the precepted position and the preceptor position into a “Preceptor Link”. For preceptor positions, the Staff Assignment form will not close if there is not a current staff assignment. For precepted positions, the Preceptor Assignment form will not close if there are current or future patient assignments and there is not a current preceptor assignment. When a position becomes part of a preceptor link, the “Can Act As Primary Care” and “Can Act as Preceptor” checkboxes on the Settings tab will not be allowed to change.
+Assignment of a preceptor position locks the precepted position and the preceptor position into a "Preceptor Link". For preceptor positions, the Staff Assignment form will not close if there is not a current staff assignment. For precepted positions, the Preceptor Assignment form will not close if there are current or future patient assignments and there is not a current preceptor assignment. When a position becomes part of a preceptor link, the "Can Act As Primary Care" and "Can Act as Preceptor" checkboxes on the Settings tab will not be allowed to change.
 
-Positions with “Can Act as Preceptor” checked will have the Preceptor button disabled.
+Positions with "Can Act as Preceptor" checked will have the Preceptor button disabled.
 
 C. Messages
 
-On the Messages tab, a Preceptor checkbox has been added for each message type. Checking the box will result in the current preceptor receiving the mail notification in addition to the current staff assigned to the position. The preceptor checkboxes will be disabled for positions with ‘Can Act as Preceptor’ checked.
+On the Messages tab, a Preceptor checkbox has been added for each message type. Checking the box will result in the current preceptor receiving the mail notification in addition to the current staff assigned to the position. The preceptor checkboxes will be disabled for positions with 'Can Act as Preceptor' checked.
 
 D. Patient Team Position Assignment Screen
 
@@ -784,9 +820,9 @@ II. Server Side
 
 > SLT Summary Listing of Teams (formerly Summary of Teams)
 
-> TML Team Member Listing (formerly Team’s Members)
+> TML Team Member Listing (formerly Team's Members)
 
-> TPL Team Patient Listing (formerly Team’s Patients)
+> TPL Team Patient Listing (formerly Team's Patients)
 
 > Primary Care Team/Posn Assign or Unassign
 
@@ -842,11 +878,11 @@ The total size of SD_53_177.EXE is 1683 KB. This file will load the following fi
 
 A. Mail Messages
 
-PCMM Reports users will be able to select “P-MESS” as an output device.
+PCMM Reports users will be able to select "P-MESS" as an output device.
 
 B. Kernel Security
 
-PCMM client version 1.2.0.0 will look to “SCMC PCMM GUI WORKSTATION” to verify user access to remote procedures. Client versions prior to 1.2.0.0 look to “SC PCMM GUI WORKSTATION”. This option has been placed out of order and should not be enabled under any circumstances. Users with programmer access will continue to be able to use old client versions, but should do so only for trouble-shooting purposes.
+PCMM client version 1.2.0.0 will look to "SCMC PCMM GUI WORKSTATION" to verify user access to remote procedures. Client versions prior to 1.2.0.0 look to "SC PCMM GUI WORKSTATION". This option has been placed out of order and should not be enabled under any circumstances. Users with programmer access will continue to be able to use old client versions, but should do so only for trouble-shooting purposes.
 
 II. V*IST*A Server Changes
 
@@ -940,7 +976,7 @@ PCMM HL7 Resubmit Rejects \[SCMC PCMM HL7 REJECTS\]\*
 
 \*Currently out-of-order - released for future use
 
-D. “B”-Type Options
+D. "B"-Type Options
 
 *<u>Updated</u>*
 
@@ -948,7 +984,7 @@ SC PCMM GUI WORKSTATION placed out of order; should NOT be reactivated.
 
 *<u>New</u>*
 
-SCMC PCMM GUI WORKSTATION replaces inactivated “B” option
+SCMC PCMM GUI WORKSTATION replaces inactivated "B" option
 
 E.APIs
 

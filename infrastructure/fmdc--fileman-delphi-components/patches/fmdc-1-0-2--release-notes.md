@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: FMDC
 patch_ver: 1.0
 patch_id: FMDC*1.0*2
-group_key: "FMDC:FMDC:1.0"
+group_key: FMDC:FMDC:1.0
+description: A. When you upgrade your Broker Development Kit (BDK) B. When you upgrade your Delphi VCL source code or
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: A. When you upgrade your Broker Development Kit (BDK) B. When you upgrade your Delphi VCL source code or
-audience: 
-keywords: 
-  - fmdc
-  - delphi
-  - package
-  - version
-  - installation
-  - program
-  - install
-  - component
-  - code
-  - files
 page_count: 0
 word_count: 1207
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/FMDC1_0P2RM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/FMDC1_0P2RM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=6"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/FMDC1_0P2RM.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/FMDC1_0P2RM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=6
+audit_applied: '2026-05-31'
 ---
 
 Readme File

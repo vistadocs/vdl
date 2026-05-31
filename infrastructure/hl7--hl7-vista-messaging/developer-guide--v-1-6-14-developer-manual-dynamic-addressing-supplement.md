@@ -1,49 +1,43 @@
 ---
-title: "HL7 V. 1.6*14 Developer Manual: Dynamic Addressing Supplement"
+title: '''HL7 V. 1.6*14 Developer Manual: Dynamic Addressing Supplement'''
 doc_type: API
 doc_label: API Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: 
-  - 870
+patch_id: null
+group_key: HL7::1.6
+description: DHCP HEALTH LEVEL SEVEN(HL7)DEVELOPER MANUAL:DYNAMIC ADDRESSING
+audience: VistA / M developers integrating with the package
+keywords: []
+file_numbers:
+- '4'
+- '4.2'
+- '774'
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - subscription
-  - registry
-  - table
-  - contents
-  - message
-  - addressing
-  - messages
-  - link
-  - protocol
-  - subscriber
 page_count: 0
 word_count: 3038
 section_count: 15
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p14.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p14.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p14.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p14.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-v-1-6-14-developer-manual-dynamic-addressing-supplement/001.png)

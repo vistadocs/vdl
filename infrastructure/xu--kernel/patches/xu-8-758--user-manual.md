@@ -11,51 +11,34 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*758
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - replacement
-  - program
-  - class
-  - mark
-  - table
-  - contents
-  - vista
-  - options
-  - prompt
+group_key: XU:XU:8
+description: '''| Date | Revision | Description | Author | |------------|----------|----------------------------------------------------------------------------------------------------------|--------------------------------------------| | 03/25/2022 | 1.0 | Initial *Kernel 8.0 Patch Supplement: XU\*8.0\*758...'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '3.01'
+- '19'
+security_keys:
+- DDXP-DEFINE
+- DG ELIGIBILITY
+menu_options: 1
 page_count: 0
-word_count: 6630
+word_count: 6613
 section_count: 19
 table_count: 2
 figure_count: 9
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2022
 revision_count: 1
 revision_newest: 03/25/2022
 revision_oldest: 03/25/2022
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_758_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_758_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_758_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_758_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Kernel 8.0
-
-  Patch XU\*8.0\*758
-
-  Reverse Negative Lock, Restricted Access
-
-  User Guide
----
-
 ![](xu-8-758-reverse-negative-lock-restricted-access-user-guide/001.png)
 
 March 2022

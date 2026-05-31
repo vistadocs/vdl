@@ -3,46 +3,52 @@ title: TMP Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: TMP
 app_name: Telehealth Management Platform
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: TMP
+patch_ver: null
+patch_id: null
+group_key: null
+description: Department of Veterans AffairsTelehealth Management Platform (TMP) Technical
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '7'
+- '8'
+- '9'
+- '9.5'
+- '40.6'
+- '40.7'
+- '44'
+- '400.03'
+- '1521'
+- '1918'
+- '2504'
+- '2505'
+- '2506'
+security_keys:
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - segment
-  - vista
-  - stop
-  - message
-  - code
-  - table
-  - class
-  - strong
-  - health
-  - clinic
 page_count: 0
 word_count: 3674
 section_count: 8
 table_count: 20
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v02.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v02.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v02.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v02.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsTelehealth Management Platform (TMP) Technical Manual  

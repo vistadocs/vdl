@@ -3,7 +3,7 @@ title: Occurrence Screen Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: QAO
 app_name: Occurrence Screen
 section: FIN
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: QAO
 patch_ver: 3
 patch_id: QAO*3
-group_key: "QAO:QAO:3"
+group_key: QAO:QAO:3
+description: This software supports the Occurrence Screening process as described in the VHA (Veterans Health Administration) circular. It gathers and manipulates data for the following Occurrence Screens.
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: This software supports the Occurrence Screening process as described in the VHA (Veterans Health Administration) circular. It gathers and manipulates data for the following Occurrence Screens.
-audience: 
-keywords: 
-  - occurrence
-  - peer
-  - table
-  - review
-  - contents
-  - date
-  - service
-  - clinical
-  - report
-  - reviewer
 page_count: 0
 word_count: 7609
 section_count: 13
 table_count: 51
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2016
 revision_count: 1
 revision_newest: 3/9/09
 revision_oldest: 3/9/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=49"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocum.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=49
+audit_applied: '2026-05-31'
 ---
 
 ![](occurrence-screen-version-3-user-manual/001.png)

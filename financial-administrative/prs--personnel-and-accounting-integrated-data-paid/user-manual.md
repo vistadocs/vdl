@@ -3,7 +3,7 @@ title: PAID Version 4 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRS
 app_name: Personnel and Accounting Integrated Data (PAID)
 section: FIN
@@ -11,38 +11,72 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4
-group_key: "PRS:PRS:4"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: PRS:PRS:4
 description: Decentralized Hospital Computer Program (DHCP) Personnel and Accounting Integrated Data (PAID) Version 4.0 provides enhanced time and attendance for VA Medical Centers. Of over 190,000 employees in the Veterans Health Administration (VHA), there are more than 20,000 timekeepers and 30,000 supervisor
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - width
-  - style
-  - employee
-  - time
-  - even
-  - table
-  - tour
-  - leave
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '28.1'
+- '80'
+- '200'
+- '210'
+- '212.4'
+- '212.42'
+- '450'
+- '450.0632'
+- '450.0633'
+- '452'
+- '452.033'
+- '452.1'
+- '452.2'
+- '452.3'
+- '452.31'
+- '452.4'
+- '452.42'
+- '452.5'
+- '452.51'
+- '452.6'
+- '452.7'
+- '452.8'
+- '452.877'
+- '452.9'
+- '454'
+- '454.1'
+- '457.1'
+- '457.4'
+- '458'
+- '458.5'
+- '458.7'
+- '459'
+- '496'
+security_keys:
+- ENTER
+- PRE SUP
+- PRSD PAID CODES
+- PRSE
+- PRSE CORD
+- PRSE SUP
+- PRSP EMP
+- RETURN
+- TAB
+menu_options: 1
 page_count: 0
 word_count: 58657
 section_count: 25
 table_count: 31
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsPersonnel and Accounting Integrated Data (PAID)User Manual

@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
+group_key: PRCA:PRCA:4.5
+description: '- Archive AR Records Menu - Mark AR records for archival - detailed report of pending archive records - UNMARK records marked for archival - [Build...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '430'
+- '430.8'
+- '433'
 security_keys: []
 menu_options: 0
-description: ![](accounts-receivable-version-4-5-user-manual-archive-ar-records-menu/001.png)
-audience: 
-keywords: 
-  - archive
-  - records
-  - bills
-  - archived
-  - temporary
-  - contents
-  - archival
-  - table
-  - marked
-  - arpatient
 page_count: 0
 word_count: 1151
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/3archive.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/3archive.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/3archive.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/3archive.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](accounts-receivable-version-4-5-user-manual-archive-ar-records-menu/001.png)

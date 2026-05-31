@@ -3,46 +3,46 @@ title: MOCHA Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 2
 patch_id: PSS*2*160
-group_key: "PSS:PSS:2"
-file_numbers: []
+group_key: PSS:PSS:2
+description: Medication Order Check Healthcare Application (MOCHA) v2.0Combined BuildInstallation
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '5'
+- '50'
+- '50.0904'
+- '51.2'
+- '51.23'
+- '51.24'
+- '53.1'
+- '55'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - install
-  - installation
-  - mocha
-  - table
-  - patch
-  - routine
-  - contents
-  - build
-  - patches
-  - message
 page_count: 0
 word_count: 8786
 section_count: 25
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p160_mocha_cb_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p160_mocha_cb_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p160_mocha_cb_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p160_mocha_cb_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](mocha-version-2-installation-guide/001.png)

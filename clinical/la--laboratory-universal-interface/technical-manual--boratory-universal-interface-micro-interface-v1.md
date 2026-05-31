@@ -1,52 +1,52 @@
 ---
-title: "Laboratory: Universal Interface Micro Interface Version 1 Technical Manual"
+title: '''Laboratory: Universal Interface Micro Interface Version 1 Technical Manual'''
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: 
-  - 11
-  - 61
-  - 62
-  - 8989
-security_keys: []
+patch_id: null
+group_key: LA::1
+description: '| Date | Revision | Description | Author | |------------|----------|---------------------------------------------------------------------------------------------|------------------------------------| | 04/12/2017 | 1.7 | Updated software requirements. | REDACTED | | 01/10/2017 | 1.6 | Addition of...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '11'
+- '30'
+- '60'
+- '61'
+- '62.4'
+- '62.41'
+- '62.485'
+- '63'
+- '867'
+- '8989.51'
+- '8989.52'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - parameter
-  - blockquote
-  - class
-  - sequence
-  - release
-  - interface
-  - strong
-  - micro
 page_count: 0
 word_count: 6685
 section_count: 24
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 8
 revision_newest: 04/12/2017
 revision_oldest: 12/14/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_technical_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_technical_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_technical_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_technical_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 VistA Lab Enhancements – Microbiology

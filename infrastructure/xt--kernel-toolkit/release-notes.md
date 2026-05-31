@@ -1,48 +1,39 @@
 ---
-title: "Kernel Toolkit ReadMe File: Toolkit documentation to be absorbed by Kernel"
+title: '''Kernel Toolkit ReadMe File: Toolkit documentation to be absorbed by Kernel'''
 doc_type: RN
 doc_label: Release Notes
 doc_layer: plain
-doc_subject: 
+doc_subject: ''
 app_code: XT
 app_name: Kernel Toolkit
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: XT
+patch_ver: ''
+patch_id: ''
+group_key: ''
+description: '''\* 03/13/07: Initial combination of Kernel Toolkit documentation set with Kernel'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "\* 03/13/07: Initial combination of Kernel Toolkit documentation set with Kernel"
-audience: 
-keywords: 
-  - kernel
-  - toolkit
-  - apis
-  - manual
-  - documentation
-  - absorbed
-  - technical
-  - content
-  - chapter
-  - combined
 page_count: 0
 word_count: 293
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/README.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/README.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/README.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/README.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
 
 Readme File

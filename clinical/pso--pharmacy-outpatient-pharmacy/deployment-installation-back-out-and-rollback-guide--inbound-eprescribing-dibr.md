@@ -1,25 +1,49 @@
 ---
-consolidated_title: "inbound eprescribing dibr"
-app_code: PSO
+title: PSO*7*589 Inbound ePrescribing DIBR
 doc_type: DIBR
-master_source: "PSO*7*589  Inbound ePrescribing DIBR"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Inbound ePrescribing DIBR
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7*589
+group_key: PSO:PSO:7
+file_numbers:
+- '8'
+security_keys: []
+menu_options: 0
+description: '''Table 1: Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 25057
+section_count: 34
+table_count: 11
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: February 2020
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p589_dirb.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p589_dirb.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7*589 Inbound ePrescribing DIBR
 master_pub_date: February 2020
-consolidated_from: 4 versions
+consolidated_from: 5 versions
 prior_versions:
-  - "PSO*7*590 Inbound ePrescribing DIBR"
-  - "PSO*7*610 Inbound ePrescribing DIBR"
-  - "PSO*7*617 Inbound ePrescribing DIBR"
----
-
----
-title: |
-  <span id="_top" class="anchor"></span>Pharmacy Reengineering (PRE)
-
-  Inbound ePrescribing (IEP) 3.1
-
-  Pentaho 8.2
-
-  <span id="_Hlk31639334" class="anchor"></span>Deployment, Installation, Rollback, and Back-Out Guide (DIRB)
+- Inbound ePrescribing DIBR (PSO*7*581)
+- PSO*7*590 Inbound ePrescribing DIBR
+- PSO*7*610 Inbound ePrescribing DIBR
+- PSO*7*617 Inbound ePrescribing DIBR
+consolidated_title: inbound eprescribing dibr
 ---
 
 ![](pso-7-589-inbound-eprescribing-dibr/001.png)
@@ -365,7 +389,7 @@ This section outlines the roles and responsibilities for managing the deployment
 | 4   | FO, EO, or NDCP                                                                          | Deployment      | Execute deployment.                                                                                                  | Design/Build                 |
 | 5   | FO, EO, or NDCP                                                                          | Installation    | Plan and schedule installation.                                                                                      | Deployment                   |
 | 6   | Regional PM/ Field Implementation Services (FIS)/ Office of Policy and Planning (OPP) PM | Installation    | Ensure authority to operate and that certificate authority security documentation is in place.                       | Design/Build                 |
-| 7   | Regional PM/FIS/OPP PM/ Nat’l Education & Training                                       | Installations   | Coordinate training.                                                                                                 | Deployment                   |
+| 7   | Regional PM/FIS/OPP PM/ Nat'l Education & Training                                       | Installations   | Coordinate training.                                                                                                 | Deployment                   |
 | 8   | FO, EO, NDCP or Product Development (depending upon project ownership)                   | Back-out        | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out). | Deployment                   |
 | 9   | FO, EO, NDCP or Product Development (depending upon project ownership)                   | Post Deployment | Hardware, Software and System Support.                                                                               | Maintenance                  |
 
@@ -434,7 +458,7 @@ The deployment and installation is scheduled to run for 18 months as depicted in
 
 This section discusses the locations that will receive the PRE Inbound eRx application deployment. Topology determinations are made by Enterprise Systems Engineering (ESE) and vetted by Field Operations (FO), National Data Center Program (NDCP), and AITC during the design phase as appropriate. Field site coordination is done by FO unless otherwise stipulated by FO.
 
-The product will be released by the PRE Inbound eRx Configuration Manager to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in Section 4 to complete the product’s activation at AITC and for the Disaster Recovery server. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
+The product will be released by the PRE Inbound eRx Configuration Manager to the AITC Build Manager via a Change Order. The AITC Build Manager will follow the installation steps in Section 4 to complete the product's activation at AITC and for the Disaster Recovery server. The Implementation Manager has assured site readiness by assessing the readiness of the receiving site to deploy the product. AITC, under contract, will provide the product dependencies, power, equipment, space, manpower, etc., to ensure the successful activation of this product.
 
 ### Application Architecture
 
@@ -1018,7 +1042,7 @@ WLS ALL=(ALL) LSOF_CMD
 
 umask 0022
 
-12. Create the app software directory if it doesn’t exist (the following must be performed by a system administrator):
+12. Create the app software directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ sudo chmod 777 /u01
 
@@ -1052,7 +1076,7 @@ Cmnd_Alias KETTLE_CMD=/bin/ls, /bin/du, /bin/grep, /bin/cat, /sbin/chkconfig --l
 
 \<ctrl\>d
 
-15. Create the pentaho software directory if it doesn’t exist (the following must be performed by a system administrator):
+15. Create the pentaho software directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ sudo mkdir -p /u01/app/pentaho
 
@@ -1086,7 +1110,7 @@ apache ALL=(kettle:kettle) NOPASSWD:/u01/app/cpanel/bin/carte_slave_util.sh
 
 \$ sudo su - weblogic
 
-19. Create downloads directory if it doesn’t exist:
+19. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -1094,7 +1118,7 @@ apache ALL=(kettle:kettle) NOPASSWD:/u01/app/cpanel/bin/carte_slave_util.sh
 
 Download from ATIC IEP eRx Downloads directory
 
-21. Create Java directory if it doesn’t exist:
+21. Create Java directory if it doesn't exist:
 
 \$ mkdir -p /u01/app/java
 
@@ -1150,9 +1174,9 @@ Here are the differences between document and Apache conf file on server.
 
 6\. No \<IfModule prefork.c\>
 
-9\. No \<Directory “/var/www/icons”\> section
+9\. No \<Directory "/var/www/icons"\> section
 
-Instead \<Directory “/var/www/html”\> section exist and it has the Option parameter
+Instead \<Directory "/var/www/html"\> section exist and it has the Option parameter
 
 Options Indexes FollowSymLinks
 
@@ -1355,7 +1379,7 @@ Substitute "s\|/kettle/\|/slave4/kettle/\|i"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3 thru 14. saving these certificates with .pem file extension instead of .txt, this does not make any difference in functionality, it’s only a better representation of the file format, since they are actually PEM format.
+3 thru 14. saving these certificates with .pem file extension instead of .txt, this does not make any difference in functionality, it's only a better representation of the file format, since they are actually PEM format.
 
 15, 16. Replacing these steps with the AITC standards that we follow to generate and request certificates. Steps are as follows:
 
@@ -1419,13 +1443,13 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \$ sudo su - weblogic
 
-40. Create a “certificates” directory to store all certificate artifacts:
+40. Create a "certificates" directory to store all certificate artifacts:
 
 \$ mkdir /u01/certificates
 
 \$ cd /u01/certificates
 
-41. Create the va_root_ca_cert.pem certificate in the “certificates” directory:
+41. Create the va_root_ca_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> va_root_ca_cert.pem
 
@@ -1433,7 +1457,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-43. Create the va_internal_subordinate_ca_cert.pem content in the “certificates” directory:
+43. Create the va_internal_subordinate_ca_cert.pem content in the "certificates" directory:
 
 \$ cat \> va_internal_subordinate_ca_cert.pem
 
@@ -1441,7 +1465,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-45. Create the va_root_ca_s2_cert.pem certificate in the “certificates” directory:
+45. Create the va_root_ca_s2_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> va_root_ca_s2_cert.pem
 
@@ -1449,7 +1473,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-47. Create the va_intermediate_ca1_s2_cert.pem certificate in the “certificates” directory:
+47. Create the va_intermediate_ca1_s2_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> va_intermediate_ca1_s2_cert.pem
 
@@ -1457,7 +1481,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-49. Create the va_intermediate_ca2_s2_cert.pem certificate in the “certificates” directory:
+49. Create the va_intermediate_ca2_s2_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> va_intermediate_ca2_s2_cert.pem
 
@@ -1465,7 +1489,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-51. Create the betrusted_production_ssp_ca_a1_cert.pem certificate in the “certificates” directory:
+51. Create the betrusted_production_ssp_ca_a1_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> betrusted_production_ssp_ca_a1_cert.pem
 
@@ -1473,7 +1497,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-53. Create the federal_common_policy_ca_cert.pem certificate in the “certificates” directory:
+53. Create the federal_common_policy_ca_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> federal_common_policy_ca_cert.pem
 
@@ -1481,7 +1505,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-55. Create the veterans_affairs_device_ca_b2_cert.pem certificate in the “certificates” directory:
+55. Create the veterans_affairs_device_ca_b2_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> veterans_affairs_device_ca_b2_cert.pem
 
@@ -1489,7 +1513,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-57. Create the vaww.ersdev.aac.<span class="mark">REDACTED</span>\_cert.pem certificate in the “certificates” directory:
+57. Create the vaww.ersdev.aac.<span class="mark">REDACTED</span>\_cert.pem certificate in the "certificates" directory:
 
 \$ cat \> vaww.ersdev.aac.<span class="mark">REDACTED</span>\_cert.pem
 
@@ -1497,7 +1521,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-59. Create the vaww.esrstage1a.aac.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+59. Create the vaww.esrstage1a.aac.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> vaww.esrstage1a.aac.<span class="mark">REDACTED</span>.pem
 
@@ -1505,7 +1529,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-61. Create the vaww.esrstage1b.aac.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+61. Create the vaww.esrstage1b.aac.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> vaww.esrstage1b.aac.<span class="mark">REDACTED</span>.pem
 
@@ -1513,7 +1537,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-63. Create the vaww.esrpre-prod.aac.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+63. Create the vaww.esrpre-prod.aac.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> vaww.esrpre-prod.aac.<span class="mark">REDACTED</span>.pem
 
@@ -1521,7 +1545,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-65. Create the das-test.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+65. Create the das-test.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> vaww.esrstage1a.aac.<span class="mark">REDACTED</span>.pem
 
@@ -1529,7 +1553,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-67. Create the das-sqa.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+67. Create the das-sqa.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> das-sqa.<span class="mark">REDACTED</span>.pem
 
@@ -1537,7 +1561,7 @@ openssl req -new -newkey rsa:2048 -keyout \[proxy_fqdn\].key -out \[proxy_fqdn\]
 
 \<ctrl\>d
 
-69. Create the das.<span class="mark">REDACTED</span>.pem certificate in the “certificates” directory:
+69. Create the das.<span class="mark">REDACTED</span>.pem certificate in the "certificates" directory:
 
 \$ cat \> das.<span class="mark">REDACTED</span>.pem
 
@@ -1604,7 +1628,7 @@ writing new private key to '*\[proxy_fqdn\]*\_key.txt'
 -----
 
 73. Submit the certificate signing request to VA PKI to obtain a permanent certificate.
-74. Save the permanent certificate in the “certificates” directory:
+74. Save the permanent certificate in the "certificates" directory:
 
 \$ cat \> /u01/certificates/*\[proxy_fqdn\]*\_cert.pem
 
@@ -1934,7 +1958,7 @@ NSS FIPS 140-2 Certificate DB:####
 
 \- Changed From LoadModule weblogic_module modules/mod_wl.so To LoadModule weblogic_module modules/mod_wl_24.so
 
-\- remove “#exit”
+\- remove "#exit"
 
 8\. Remove this step as we will run Apache commands as WebLogic.
 
@@ -2031,7 +2055,7 @@ The following steps need to be performed on VM1 and VM2:
 
 \- Changed From LoadModule weblogic_module modules/mod_wl.so To LoadModule weblogic_module modules/mod_wl_24.so
 
-\- remove “#exit”
+\- remove "#exit"
 
 8\. Remove this step as we will run Apache commands as WebLogic.
 
@@ -2120,7 +2144,7 @@ The following steps need to be performed on VM1 and VM2:
 
 \$ sudo su - weblogic
 
-117. Create downloads directory if it doesn’t exist:
+117. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -2256,7 +2280,7 @@ DebugConfigInfo ON
 
 \$ sudo su - weblogic
 
-128. Create downloads directory if it doesn’t exist:
+128. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/deployments
 
@@ -2282,7 +2306,7 @@ Download from AITC IEP eRx Deploymentss directory
 
 \$ sudo su - weblogic
 
-133. Create downloads directory if it doesn’t exist:
+133. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -2317,7 +2341,7 @@ PRESS \<ENTER\> TO CONTINUE: \<ENTER\>
 
 PRESS \<ENTER\> TO CONTINUE: \<ENTER\>
 
-140. Enter “Y” to accept license agreement:
+140. Enter "Y" to accept license agreement:
 
 DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT? (Y/N): Y
 
@@ -2633,7 +2657,7 @@ ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS \<ENTER\> TO ACCEPT THE
 
 DEFAULT: 1
 
-165. Continue installation if ssl.conf file doesn’t exist:
+165. Continue installation if ssl.conf file doesn't exist:
 
 1- Continue
 
@@ -2649,7 +2673,7 @@ Please select a choice.: 1
 
 PRESS \<ENTER\> TO EXIT THE INSTALLER: \<ENTER\>
 
-167. Enter “exit” to log out of root account:
+167. Enter "exit" to log out of root account:
 
 \# exit
 
@@ -2679,7 +2703,7 @@ vi /etc/httpd/conf/WebAgent.conf
 
 172. Enable the agent:
 
-EnableWebAgent=”YES”
+EnableWebAgent="YES"
 
 173. For an embedded Apache web server (included by default) on a RedHat Linux system, modify certain configuration files to accommodate the product first. Follow these steps:.
 
@@ -2809,17 +2833,17 @@ data: Date, Time, Pid, Function, TransactionID, User, Message
 
 > httpd should come up with a normal start command.
 
-> If a “file not found” error occurs, file “ca_wa_env.sh” may be in a different location.
+> If a "file not found" error occurs, file "ca_wa_env.sh" may be in a different location.
 
 > These files can get installed in different locations across different systems.
 
 > If this is the case, execute a find command:
 
-> dzdo find / -name ‘ca_wa_env.sh’
+> dzdo find / -name 'ca_wa_env.sh'
 
-> If ‘ca_wa_env.sh’ is not found, search for “set-apache-env.sh”.
+> If 'ca_wa_env.sh' is not found, search for "set-apache-env.sh".
 
-> dzdo find / -name ‘set-apache-env.sh’
+> dzdo find / -name 'set-apache-env.sh'
 
 > Update override.conf with the correct path.
 
@@ -2910,7 +2934,7 @@ export PATH=\${JAVA_HOME}/bin:\${PATH}:\${HOME}/bin
 
 \$ cp ~yourusername/.Xauthority .
 
-188. Create downloads directory if it doesn’t exist:
+188. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -2926,8 +2950,8 @@ Download from AITC IEP eRx Downloads directory
 
 \$ java -jar fmw_12.1.3.0.0_wls.jar
 
-192. Enter “y” to accept prerequisite checks.
-193. Enter “/u01/app/oraInventory”.
+192. Enter "y" to accept prerequisite checks.
+193. Enter "/u01/app/oraInventory".
 194. Select OK.
 
 > <span id="_Toc29569549" class="anchor"></span>Figure 3: Install WebLogic – Oracle Fusion Middleware Installation Inventory Setup
@@ -2946,7 +2970,7 @@ Download from AITC IEP eRx Downloads directory
 
 > ![](pso-7-589-inbound-eprescribing-dibr/006.png)
 
-197. Enter *Oracle Home*: “*\[ORACLE_BASE\]*”.
+197. Enter *Oracle Home*: "*\[ORACLE_BASE\]*".
 198. Select Next.
 
 > <span id="_Toc29569552" class="anchor"></span>Figure 6: Install WebLogic – Installation Location
@@ -2967,7 +2991,7 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/009.png)
 
 202. On the Security Updates screen, leave the *Email* field blank.
-203. Uncheck “I wish to receive security updates via My Oracle Support”.
+203. Uncheck "I wish to receive security updates via My Oracle Support".
 204. Select Next.
 
 > <span id="_Toc29569555" class="anchor"></span>Figure 9: Install WebLogic – Security Updates Screen
@@ -3019,16 +3043,16 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/016.png)
 
 216. On the Templates screen, select the *Create Domain using Product Templates* radio button.
-217. Under *Available Templates*, select “Basic WebLogic Server Domain”.
+217. Under *Available Templates*, select "Basic WebLogic Server Domain".
 218. Select Next.
 
 > <span id="_Toc29569562" class="anchor"></span>Figure 16: Install WebLogic – Templates Screen
 
 > ![](pso-7-589-inbound-eprescribing-dibr/017.png)
 
-219. On the Administrator Account screen, enter *Name*: “weblogic”
-220. Enter *Password*: “xxxxxxxx”
-221. Enter *Confirm Password*: “xxxxxxxx”
+219. On the Administrator Account screen, enter *Name*: "weblogic"
+220. Enter *Password*: "xxxxxxxx"
+221. Enter *Confirm Password*: "xxxxxxxx"
 222. Select Next.
 
 > <span id="_Toc29569563" class="anchor"></span>Figure 17: Install WebLogic – Administrator Account Screen
@@ -3050,9 +3074,9 @@ Download from AITC IEP eRx Downloads directory
 
 > ![](pso-7-589-inbound-eprescribing-dibr/020.png)
 
-228. On the Administration Server screen, enter *Server Name*: “AdminServer”
-229. Enter *Listen Address*: “All Local Addresses”
-230. Enter *Listen Port*: “7001”
+228. On the Administration Server screen, enter *Server Name*: "AdminServer"
+229. Enter *Listen Address*: "All Local Addresses"
+230. Enter *Listen Port*: "7001"
 231. Uncheck the check box for *Enable SSL*.
 232. Leave the *SSL Listen Port* field blank.
 233. Select Next.
@@ -3062,9 +3086,9 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/021.png)
 
 234. On the Node Manager screen, select the *Per Domain Default Location* radio button.
-235. Enter *Username*: “weblogic”
-236. Enter *Password*: “xxxxxxxx”
-237. Enter *Confirm Password*: “xxxxxxxx”
+235. Enter *Username*: "weblogic"
+236. Enter *Password*: "xxxxxxxx"
+237. Enter *Confirm Password*: "xxxxxxxx"
 238. Select Next.
 
 > <span id="_Toc29569567" class="anchor"></span>Figure 21: Install WebLogic – Node Manager
@@ -3072,15 +3096,15 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/022.png)
 
 239. On the Managed Servers screen, select Add.
-240. Enter the *Server Name*: “erx1”
+240. Enter the *Server Name*: "erx1"
 241. Enter the *Listen Address*: *\[vm1_fqdn\]*
-242. Enter *Listen Port*: “8001”
+242. Enter *Listen Port*: "8001"
 243. Leave *Enable SSL* unchecked.
 244. Leave *SSL Listen Port* empty (Disabled).
 245. Select Add.
-246. Enter *Server Name*: “erx2”
+246. Enter *Server Name*: "erx2"
 247. Enter *Listen Address*: *\[vm2_fqdn\]*
-248. Enter Listen Port: “8001”
+248. Enter Listen Port: "8001"
 249. Leave *Enable SSL* unchecked.
 250. Leave *SSL Listen Port* empty (Disabled).
 251. Select Next.
@@ -3090,18 +3114,18 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/023.png)
 
 252. On the Clusters screen, select Add.
-253. Enter *Cluster Name*: “erx”
-254. Enter *Cluster Address*: “*\[vm1_fqdn\]*:*\[erx_port\]*, *\[vm2_fqdn*\]:*\[erx_port\]*”
-255. Enter *Frontend Host*: “*\[proxy_fqdn\]*”
-256. Enter *Frontend HTTP Port*: “80”
-257. Enter *Frontend HTTPS*: “443”
+253. Enter *Cluster Name*: "erx"
+254. Enter *Cluster Address*: "*\[vm1_fqdn\]*:*\[erx_port\]*, *\[vm2_fqdn*\]:*\[erx_port\]*"
+255. Enter *Frontend Host*: "*\[proxy_fqdn\]*"
+256. Enter *Frontend HTTP Port*: "80"
+257. Enter *Frontend HTTPS*: "443"
 258. Select Next.
 
 > <span id="_Toc29569569" class="anchor"></span>Figure 23: Install WebLogic – Clusters
 
 > ![](pso-7-589-inbound-eprescribing-dibr/024.png)
 
-259. Assign “erx1” and “erx2” servers to the “erx” cluster.
+259. Assign "erx1" and "erx2" servers to the "erx" cluster.
 260. Select Next.
 
 > <span id="_Toc29569570" class="anchor"></span>Figure 24: Install WebLogic – Assign Servers to Clusters
@@ -3109,21 +3133,21 @@ Download from AITC IEP eRx Downloads directory
 > ![](pso-7-589-inbound-eprescribing-dibr/025.png)
 
 261. Select Add.
-262. Enter *Name*: “machine1”
-263. Enter *Node Manager Listen Address*: “*\[vm1_fqdn\]*”
-264. Enter *Node Manager Listen Port*: “5556”
-265. Enter *Name*: “machine2”
-266. Enter *Node Manager Listen Address*: “*\[vm1_fqdn\]*”
-267. Enter *Node Manager Listen Port*: “5556”
+262. Enter *Name*: "machine1"
+263. Enter *Node Manager Listen Address*: "*\[vm1_fqdn\]*"
+264. Enter *Node Manager Listen Port*: "5556"
+265. Enter *Name*: "machine2"
+266. Enter *Node Manager Listen Address*: "*\[vm1_fqdn\]*"
+267. Enter *Node Manager Listen Port*: "5556"
 268. Select Next.
 
 > <span id="_Toc29569571" class="anchor"></span>Figure 25: Install WebLogic – Machines
 
 > ![](pso-7-589-inbound-eprescribing-dibr/026.png)
 
-269. On the Assign Servers to Machines screen, add “AdminServer” on *Servers* panel to “machine1” on *Machines* panel.
-270. Add “erx1” on *Servers* panel to “machine1” on *Machines* panel.
-271. Add “erx2” on *Servers* panel to “machine2” on *Machines* panel.
+269. On the Assign Servers to Machines screen, add "AdminServer" on *Servers* panel to "machine1" on *Machines* panel.
+270. Add "erx1" on *Servers* panel to "machine1" on *Machines* panel.
+271. Add "erx2" on *Servers* panel to "machine2" on *Machines* panel.
 272. Select Next.
 
 > <span id="_Toc29569572" class="anchor"></span>Figure 26: Install WebLogic – Assign Servers to Machines
@@ -3164,7 +3188,7 @@ On VM1, set temporary environment. Remember to amend the DOMAIN_HOME environment
 
 #### Create a Domain Boot Identity File on VM1
 
-On VM1, create a boot identity file for the domain if it doesn’t exist:
+On VM1, create a boot identity file for the domain if it doesn't exist:
 
 \$ mkdir -p \$DOMAIN_HOME/servers/AdminServer/security
 
@@ -3178,7 +3202,7 @@ password=#########
 
 #### Copy Identity/Trust Store Files on VM1
 
-Copy the server identity key store to the WebLogic domain “security” directory on VM1:
+Copy the server identity key store to the WebLogic domain "security" directory on VM1:
 
 \$ cp /u01/certificates/*\[proxy_fqdn\]*.jks \$DOMAIN_HOME/security/*\[proxy_fqdn\]*.jks
 
@@ -3220,13 +3244,13 @@ On VM1, edit startManagedWeblogic.sh to modify TLS configuration:
 
 Modify the JAVA_OPTIONS as follows:
 
-JAVA_OPTIONS="\${SAVE_JAVA_OPTIONS} -Dweblogic.security.SSL.minimumProtocolVersion=TLSv1.1”
+JAVA_OPTIONS="\${SAVE_JAVA_OPTIONS} -Dweblogic.security.SSL.minimumProtocolVersion=TLSv1.1"
 
 Enter :wq to save the file and exit vi.
 
 #### Copy Identity/Trust Store Files on VM2
 
-Copy the server identity key store to the WebLogic domain “security” directory on VM1:
+Copy the server identity key store to the WebLogic domain "security" directory on VM1:
 
 \$ cp /u01/certificates/*\[proxy_fqdn\]*.jks \$DOMAIN_HOME/security/*\[proxy_fqdn\]*.jks
 
@@ -3310,7 +3334,7 @@ This section provides step-by-step instructions for deploying VistA Link Connect
 
 > ![](pso-7-589-inbound-eprescribing-dibr/031.png)
 
-284. Select *Database Driver*: Oracle’s Driver (Thin XA) for Instance connections; Versions: Any
+284. Select *Database Driver*: Oracle's Driver (Thin XA) for Instance connections; Versions: Any
 285. Select Next.
 
 > <span id="_Toc29569577" class="anchor"></span>Figure 31: Create Inbound eRx Datasource – Database Driver
@@ -3404,7 +3428,7 @@ This section provides step-by-step instructions for configuring the identify/tru
 
 > ![](pso-7-589-inbound-eprescribing-dibr/044.png)
 
-307. Modify the setting under the Keystores tab as illustrated in the figure below. The *Custom Identity Keystore* and *Custom Trust Keystore* use the same file path to the keystore file copied to the Domain “security” directory: (*\[DOMAIN_HOME\]*/security/*\[proxy_fqdn\]*.jks).
+307. Modify the setting under the Keystores tab as illustrated in the figure below. The *Custom Identity Keystore* and *Custom Trust Keystore* use the same file path to the keystore file copied to the Domain "security" directory: (*\[DOMAIN_HOME\]*/security/*\[proxy_fqdn\]*.jks).
 
 > <span id="_Toc29569590" class="anchor"></span>Figure 44: Configure Identity/Trust Store File – Modify Keystore Settings
 
@@ -3454,8 +3478,8 @@ This section provides step-by-step instructions for configuring the identify/tru
 This section provides step-by-step instructions for packing the domain on VM1:
 
 1.  On VM1, stop the newly created domain.
-2.  In the session that is currently running “startWebLogic.sh”, enter \<CTRL\> C.
-3.  The log messages should indicate that the Admin Server “was shut down”.
+2.  In the session that is currently running "startWebLogic.sh", enter \<CTRL\> C.
+3.  The log messages should indicate that the Admin Server "was shut down".
 2.  It may seem odd that we are immediately stopping the new domain, but some of the configuration is not written to the file system until the AdminServer is started for the first time.
 4.  Transfer the relevant configuration using the pack and unpack utilities.
 5.  On VM1, pack the domain configuration using the following commands. Remember to amend the DOMAIN_HOME environment variable and the -template_name parameter to match your domain.
@@ -3486,7 +3510,7 @@ Unpack the configuration on VM2. Remember to amend the DOMAIN_HOME environment v
 
 #### Copy Identity/Trust Store Files on VM2
 
-Copy the server identity key store to the WebLogic domain “security” directory on VM2:
+Copy the server identity key store to the WebLogic domain "security" directory on VM2:
 
 \$ cp /u01/certificates*/\[proxy_fqdn\]*.jks \$DOMAIN_HOME/security/*\[proxy_fqdn\]*.jks
 
@@ -3510,11 +3534,11 @@ Copy the server identity key store to the WebLogic domain “security” directo
 
 \> exit()
 
-320. Check that the “\$ORACLE_BASE/domain-registry.xml” file contains an entry like the following. If it doesn't, add it manually.
+320. Check that the "\$ORACLE_BASE/domain-registry.xml" file contains an entry like the following. If it doesn't, add it manually.
 
 \<domain location="*\[DOMAIN_HOME\]*"/\>
 
-321. Check that the “\$DOMAIN_HOME/nodemanager/nodemanager.domains” file contains an entry like the following. If it doesn't, add it manually.
+321. Check that the "\$DOMAIN_HOME/nodemanager/nodemanager.domains" file contains an entry like the following. If it doesn't, add it manually.
 
 erxdomain1=*\[DOMAIN_HOME\]*
 
@@ -3529,15 +3553,15 @@ This section outlines the steps for checking that the node manager is reachable 
 1.  Log in to the administration server (http://*\[vm1_fqdn\]*:7001/console).
 323. In the *Domain Structure* tree, expand the *Environment* node and then select the *Machines* node.
 324. In the right-hand pane, select on the first WebLogic machine (machine1).
-325. Select the Monitoring tab. Be patient. This may take some time the first time it’s done.
-326. If the status is “Reachable”, everything is fine.
+325. Select the Monitoring tab. Be patient. This may take some time the first time it's done.
+326. If the status is "Reachable", everything is fine.
 327. Repeat for the second WebLogic machine (machine2).
 
 #### Create a Boot Identity File for Managed Servers
 
 3.  This is a placeholder step that may be eliminated if the boot identity file is automatically copied over during the domain clone process.
 
-On VM2, create a boot identity file for the domain if it doesn’t exist:
+On VM2, create a boot identity file for the domain if it doesn't exist:
 
 \$ mkdir -p \$DOMAIN_HOME/servers/AdminServer/security
 
@@ -3556,7 +3580,7 @@ password=#########
 This section outlines the steps for deploying the test application.
 
 1.  Start the node manager on all servers.
-2.  Create the deployments directory if it doesn’t exist:
+2.  Create the deployments directory if it doesn't exist:
 
 \$ mkdir -p /u01/deployments
 
@@ -3590,7 +3614,7 @@ This section outlines the steps for deploying the test application.
 
 > ![](pso-7-589-inbound-eprescribing-dibr/054.png)
 
-335. Select the All servers in the cluster option under the “erx” cluster as the target for the deployment.
+335. Select the All servers in the cluster option under the "erx" cluster as the target for the deployment.
 336. Select Next.
 
 > <span id="_Toc29569600" class="anchor"></span>Figure 54: Deploy Test Application – Select Deployment Target
@@ -3613,7 +3637,7 @@ This section outlines the steps for deploying the test application.
 
 341. The Overview tab should appear as illustrated in the figure below.
 
-> <span id="_Toc29569603" class="anchor"></span>Figure 57: Deploy Test Application – Verify “benefits” Settings
+> <span id="_Toc29569603" class="anchor"></span>Figure 57: Deploy Test Application – Verify "benefits" Settings
 
 > ![](pso-7-589-inbound-eprescribing-dibr/058.png)
 
@@ -3676,7 +3700,7 @@ This section outlines the steps for installing VistALink on VM1:
 
 \$ sudo su - weblogic
 
-355. Create a downloads directory if it doesn’t exist:
+355. Create a downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -3684,7 +3708,7 @@ This section outlines the steps for installing VistALink on VM1:
 
 Download from AITC IEP eRx Downloads directory
 
-357. Create Deployments/VistaLink directory if it doesn’t exist:
+357. Create Deployments/VistaLink directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads/vistalink
 
@@ -3704,7 +3728,7 @@ Download from AITC IEP eRx Deployments/VistaLink directory
 
 Add the following line to the bottom of the file:
 
-export JAVA_OPTIONS=”\${JAVA_OPTIONS} -Dgov.va.med.environment.production=true”
+export JAVA_OPTIONS="\${JAVA_OPTIONS} -Dgov.va.med.environment.production=true"
 
 361. Modify the Domain Startup script (startWebLogic.sh):
 
@@ -3729,7 +3753,7 @@ StartScriptEnabled=true
 
 #### Configure VistALink on VM1
 
-1.  Create Deployments/VistaLink directory if it doesn’t exist:
+1.  Create Deployments/VistaLink directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads/vistalink
 
@@ -3751,7 +3775,7 @@ This section outlines the steps for installing VistALink on VM2:
 
 \$ sudo su - weblogic
 
-367. Create downloads directory if it doesn’t exist:
+367. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -3759,7 +3783,7 @@ This section outlines the steps for installing VistALink on VM2:
 
 Download from AITC IEP eRx Downloads directory
 
-369. Create Deployments/VistaLink directory if it doesn’t exist:
+369. Create Deployments/VistaLink directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads/vistalink
 
@@ -3779,7 +3803,7 @@ Download from AITC IEP eRx Deployments/VistaLink directory
 
 Add the following line to the bottom of the file:
 
-export JAVA_OPTIONS=”\${JAVA_OPTIONS} -Dgov.va.med.environment.production=true”
+export JAVA_OPTIONS="\${JAVA_OPTIONS} -Dgov.va.med.environment.production=true"
 
 373. Modify the Domain Startup script (startWebLogic.sh):
 
@@ -3801,7 +3825,7 @@ StartScriptEnabled=true
 
 #### Configure VistALink on VM2
 
-1.  Create Deployments/VistaLink directory if it doesn’t exist:
+1.  Create Deployments/VistaLink directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads/vistalink
 
@@ -4106,7 +4130,7 @@ The following sections describe the steps to install and configure the Inbound e
 
 \$ sudo su - weblogic
 
-447. Create the downloads directory if it doesn’t exist:
+447. Create the downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -4114,7 +4138,7 @@ The following sections describe the steps to install and configure the Inbound e
 
 Download from AITC IEP eRx Downloads directory
 
-449. Create the deployments directory if it doesn’t exist:
+449. Create the deployments directory if it doesn't exist:
 
 \$ mkdir -p /u01/deployments
 
@@ -4343,7 +4367,7 @@ The section provides step-by-step guidance on the installing the Pentaho softwar
 
 \$ sudo su - kettle
 
-493. Create downloads directory if it doesn’t exist:
+493. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -4355,7 +4379,7 @@ Download from AITC IEP eRx Downloads directory
 
 Download pdi-*\[env\]*\_cfg\_*\[yyyymmdd\]*.zip from AITC IEP eRx Deployments directory
 
-496. Create a pentaho directory if it doesn’t exist:
+496. Create a pentaho directory if it doesn't exist:
 
 \$ mkdir -p /u01/app/pentaho
 
@@ -4577,7 +4601,7 @@ The section provides step-by-step guidance to import the Pentaho repository:
 
 \$ sudo su - kettle
 
-512. Create downloads directory if it doesn’t exist:
+512. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -4611,7 +4635,7 @@ The section provides step-by-step guidance on the installing the SonaType Nexus 
 
 \$ sudo su - weblogic
 
-516. Create downloads directory if it doesn’t exist:
+516. Create downloads directory if it doesn't exist:
 
 \$ mkdir -p /u01/downloads
 
@@ -4623,7 +4647,7 @@ Download from AITC IEP eRx Downloads directory
 
 \$ exit
 
-519. Create the nexus software directory if it doesn’t exist:
+519. Create the nexus software directory if it doesn't exist:
 
 \$ sudo mkdir -p /u01/app/nexus
 
@@ -4851,7 +4875,7 @@ The following steps detail the deployment of the rolled-back Inbound eRx applica
 
 1.  Use the WebLogic console that was started at the beginning of the roll-back process.
 528. Within the Domain Structure panel in the left column of the WebLogic console, select the Deployments node.
-529. Verify that application is in Lock & Edit mode. Lock & Edit mode is indicated by the “greyed-out” Lock & Edit selection button.
+529. Verify that application is in Lock & Edit mode. Lock & Edit mode is indicated by the "greyed-out" Lock & Edit selection button.
 530. Select Install in the Deployments panel in the right column of the WebLogic console.
 531. WebLogic will now display the panel, Install Application Assistant in the right column of the console where the Inbound eRx deployment will be found.
      1.  If the rolled-back Inbound eRx deployment has already been transferred to the Deployment Machine, navigate to the deployment file location using the links and file structure displayed within the Location panel within the Install Application Assistant in the right column of the console. Choose the ear file associated with the rolled-back release.
@@ -4987,7 +5011,7 @@ The following steps detail the deployment of the rolled-back Inbound eRx applica
 
 1.  Use the WebLogic console that was started at the beginning of the roll-back process.
 567. Within the Domain Structure panel in the left column of the WebLogic console, select the Deployments node.
-568. Verify that the application is in Lock & Edit mode. Lock & Edit mode is indicated by the “greyed-out” Lock & Edit selection button.
+568. Verify that the application is in Lock & Edit mode. Lock & Edit mode is indicated by the "greyed-out" Lock & Edit selection button.
 569. Select the Install button in the Deployments panel in the right column of the WebLogic console.
 570. WebLogic will now display the panel Install Application Assistant in the right column of the console, where the location of the Inbound eRx deployment will be found.
 1.  If the rolled-back Inbound eRx deployment has already been transferred to the Deployment Machine, navigate to the deployment file location using the links and file structure displayed within the Location panel, which is within the Install Application Assistant panel in the right column of the console. Choose the ear file associated with the rolled-back release.
@@ -6239,7 +6263,7 @@ FdtejxfiRJr0kA9he/Yrl1EJ2NmWK1YWG6UPzGa1rT4H/OQGTItdxr1VIAff75Ub
 
 _These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-### From: PSO*7*617 Inbound ePrescribing DIBR
+### From: Inbound ePrescribing DIBR (PSO*7*581)
 
 ### X Windows on VM1 and VM2
 
@@ -6254,26 +6278,20 @@ _These sections appeared in earlier versions of this document but are not presen
     1.  Connection \> SSH \> X11 \> Enable X11 forwarding
     2.  Connection \> SSH \> X11 \> X display location \> :0.0
 3.  Connect to the Linux server with the new SSH session settings. The DISPLAY environment variable should be automatically set.
-4.  In order to run X applications after doing a dzdo su to another account, capture your xauthority.
+4.  In order to run X applications after doing a dzdo su to another account, first modify the .Xauthority file
 5.  As your normal Linux login account:
 
-\$ xauth list \| grep unix\`echo \$DISPLAY \| cut -c10-12\` \> /tmp/authx ; chmod o+r /tmp/authx
+\$ cp ~/.Xauthority /tmp
 
-6.  After you dzdo su to another user, add the xauth and verify:
+6.  After you dzdo su to another user, copy the .Xauthority file:
 
-\$ xauth add \`cat /tmp/authx\` ; xauth list
-
-\## \[set DISPLAY to localhost:xx.0 listed\] \##
-
-\$ export DISPLAY=localhost:10.0
-
-\$ xclock &
+\$ cp /tmp/.Xauthority ~
 
 ### Setup Administration Accounts on VM1 and VM2
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  Verify the /etc/sudoers file has “#includedir /etc/sudoers.d” entry near the end of the file, if not, perform the following:
+1.  Verify the /etc/sudoers file has "#includedir /etc/sudoers.d" entry near the end of the file, if not, perform the following:
 
 \$ dzdo chmod u+w /etc/sudoers
 
@@ -6289,7 +6307,7 @@ export JAVA_HOME=*\[ORACLE_BASE\]*/java/latest
 
 export PATH=\${JAVA_HOME}/bin:\${PATH}:\${HOME}/bin
 
-8.  Create the oracle software directory if it doesn’t exist (the following must be performed by a system administrator):
+8.  Create the oracle software directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo chmod 755 /u01
 
@@ -6307,7 +6325,7 @@ export PATH=\${JAVA_HOME}/bin:\${PATH}:\${HOME}/bin
 
 \$ dzdo usermod -a -G weblogic kettle (weblogic group already exists in LDAP)
 
-10. Create the app software directory if it doesn’t exist (the following must be performed by a system administrator):
+10. Create the app software directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo chmod 755 /u01
 
@@ -6317,7 +6335,7 @@ export PATH=\${JAVA_HOME}/bin:\${PATH}:\${HOME}/bin
 
 \$ dzdo chmod 755 /u01/app
 
-11. Create the pentaho software directory if it doesn’t exist (the following must be performed by a system administrator):
+11. Create the pentaho software directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo mkdir -p /u01/app/pentaho
 
@@ -6331,7 +6349,7 @@ umask 0022
 
 13. Modify the Linux kettle account .bash_profile, replace the PATH= and export PATH with the following near the end of the file:
 
-export JAVA_HOME=/u01/app/java/latest/
+export JAVA_HOME=*\[ORACLE_BASE\]*/java/latest
 
 export PATH=\${JAVA_HOME}/bin:\${PATH}:\${HOME}/bin
 
@@ -6363,7 +6381,7 @@ apache ALL=(kettle:kettle) NOPASSWD:/u01/app/cpanel/bin/carte_slave_util.sh
 
 \$ dzdo su - weblogic
 
-16. Create downloads directory if it doesn’t exist (the following must be performed by a system administrator):
+16. Create downloads directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo mkdir -p /u01/downloads
 
@@ -6375,7 +6393,7 @@ apache ALL=(kettle:kettle) NOPASSWD:/u01/app/cpanel/bin/carte_slave_util.sh
 
 Download from ATIC IEP eRx Downloads directory
 
-18. Create Java directory if it doesn’t exist:
+18. Create Java directory if it doesn't exist:
 
 \$ mkdir -p /u01/app/java
 
@@ -6502,7 +6520,7 @@ The following steps need to be performed on VM1 and VM2:
 
 The following steps need to be performed on VM1 and VM2:
 
-1.  Create downloads directory if it doesn’t exist (the following must be performed by a system administrator):
+1.  Create downloads directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo mkdir -p /u01/downloads
 
@@ -6538,7 +6556,7 @@ The following steps need to be performed on VM1 and VM2:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.  On VM1, create downloads directory if it doesn’t exist (the following must be performed by a system administrator):
+1.  On VM1, create downloads directory if it doesn't exist (the following must be performed by a system administrator):
 
 \$ dzdo mkdir -p /u01/downloads
 
@@ -6558,6 +6576,8 @@ The following steps need to be performed on VM1 and VM2:
 \$ https://*\[vm1_fqdn\]*/cpanel
 
 \$ https://*\[vm2_fqdn\]*/cpanel
+
+### From: PSO*7*617 Inbound ePrescribing DIBR
 
 ## Back-out VistA Patch
 
@@ -6588,7 +6608,7 @@ The Back-out Procedure can be verified by printing the first 2 lines of the PSO 
 3.  (SA) Execute IEP Deployer on VM1 (erx_iep_3.1.0.007_deploy_20200207_113007.sh) with options 1, 2, and 5.
     1.  Run Option 1. Install System Files
     2.  Run Option 2. Install CPanel
-5.  Run Option 5. Deposit WebLogic EAR’s
+5.  Run Option 5. Deposit WebLogic EAR's
 4.  (SA0 Execute IEP Configurator on VM2 (erx_iep_3.1.0.007_configur_20200207_113007.sh) options 1 and 2
     1.  Run Option 1. Install System Files
     2.  Run Option 2. Install CPanel
@@ -6622,7 +6642,7 @@ Previous INB_ERX-3.1.0.006.ear and INB_ERX_UI-3.1.0.006.ear still exist in insta
 
 1.  Run Option 1. (Install System Files)
 2.  Run Option 2. (Install CPanel)
-5.  Run Option 5. (Deposit WebLogic EAR’s)
+5.  Run Option 5. (Deposit WebLogic EAR's)
 3.  (SA) Execute IEP Configurator on VM2 (erx_iep_3.1.0.006_configur_20200114_141632.sh) options 1,2
     1.  Run Option 1. Install System Files
     2.  Run Option 2. Install CPanel.
@@ -6707,7 +6727,7 @@ Previous INB_ERX-3.1.0.007.ear and INB_ERX_UI-3.1.0.007.ear still exist in insta
 2.  (SA) Execute IEP Deployer on VM1 (erx_iep_3.1.0.007_deploy_20200207_113007.sh) with options 1,2 and 5.
     1.  Run Option 1. (Install System Files)
     2.  Run Option 2. (Install CPanel)
-5.  Run Option 5. (Deposit WebLogic EAR’s)
+5.  Run Option 5. (Deposit WebLogic EAR's)
 3.  (SA) Execute IEP Configurator on VM2 (erx_iep_3.1.0.007_configur_20200416_124213.sh) options 1,2
     1.  Run Option 1. Install System Files
     2.  Run Option 2. Install CPanel.

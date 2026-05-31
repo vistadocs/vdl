@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*686
-group_key: "IVMB:IVMB:2"
+group_key: IVMB:IVMB:2
+description: '- Introduction - Overview - Purpose - Related Manuals - Using the GMT Menu Options - Accessing the GMT Menu Options - [GMT Threshold Address...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - table
-  - threshold
-  - priority
-  - contents
-  - copay
-  - required
-  - class
-  - veterans
-  - income
 page_count: 0
 word_count: 1707
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p686_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p686_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p686_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p686_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 Health eligibility center

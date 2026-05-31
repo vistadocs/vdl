@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*653
-group_key: "IB:IB:2"
+group_key: IB:IB:2
+description: '''Table 1: Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - back
-  - installation
-  - rollback
-  - deployment
-  - testing
-  - site
-  - procedure
 page_count: 0
-word_count: 3552
+word_count: 3531
 section_count: 31
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_653_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_653_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_653_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_653_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Suicide High Risk Patient Enhancements (SHRPE)
-
-  IB\*2.0\*653
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](ib-2-653-suicide-high-risk-for-suicide-patient-enhancements-shrpe-dibr/001.png)
 
 May 2020

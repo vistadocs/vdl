@@ -8,41 +8,33 @@ app_code: QAP
 app_name: Survey Generator
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: QAP
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Introduction - Orientation Section - Package Management - Package Operation - Survey Generator Manager Menu Overview - [Survey Manager Menu Sub-option...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- QAP MANAGER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - survey
-  - question
-  - number
-  - answer
-  - author
-  - questions
-  - demographic
-  - entered
-  - wish
-  - edit
 page_count: 0
 word_count: 8879
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen2_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen2_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=27"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen2_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen2_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=27
+audit_applied: '2026-05-31'
 ---
 
 ![](survery-generator-user-guide/001.png)

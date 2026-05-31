@@ -3,7 +3,7 @@ title: Prosthetics Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual
-audience: 
-keywords: 
-  - href
-  - mark
-  - suspense
-  - class
-  - rmpr
-  - version
-  - style
-  - width
-  - record
-  - redacted
+menu_options: 1
 page_count: 0
 word_count: 372
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/RMPR_3_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/RMPR_3_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/RMPR_3_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/RMPR_3_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual

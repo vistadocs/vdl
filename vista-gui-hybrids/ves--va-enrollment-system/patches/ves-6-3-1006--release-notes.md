@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: VES
 patch_ver: 6.3
 patch_id: VES*6.3*1006
-group_key: "VES:VES:6.3"
+group_key: VES:VES:6.3
+description: '''[Table 1: Defects and Fixes in VES 6.3.1.01006'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - release
-  - health
-  - care
-  - enrollment
-  - fixes
-  - veterans
-  - defects
-  - strong
 page_count: 0
-word_count: 805
+word_count: 784
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01006_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01006_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=183"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01006_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VA_Enrollment_System/ves_6_3_1_01006_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=183
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Eligibility and Enrollment (E&E)
-
-  Veterans Health Administration (VHA) Enrollment System (VES) 6.3.1.01006
-
-  Release Notes
----
-
 ![](release-notes-es-6-3-1-01006/001.png)
 
 December 2022

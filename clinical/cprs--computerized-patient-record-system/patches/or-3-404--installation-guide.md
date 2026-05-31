@@ -1,9 +1,9 @@
 ---
-title: OR*3*404  and OR*3*385 Installation Guide CPRS GUI 30A
+title: OR*3*404 and OR*3*385 Installation Guide CPRS GUI 30A
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: and OR*3*385  CPRS GUI 30A
+doc_subject: and OR*3*385 CPRS GUI 30A
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,47 +11,31 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*404
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3
 description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
-audience: 
-keywords: 
-  - cprs
-  - installation
-  - table
-  - contents
-  - install
-  - patch
-  - class
-  - sample
-  - instructions
-  - installed
+audience: System administrators performing installation
+keywords: []
+file_numbers: []
+security_keys:
+- CLINICIAN
+menu_options: 0
 page_count: 0
-word_count: 8533
+word_count: 8517
 section_count: 21
 table_count: 19
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2014
 revision_count: 1
 revision_newest: 11/06/2014
 revision_oldest: 11/06/2014
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_404_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_404_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_404_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_404_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System Graphical User Interface (CPRS GUI)
----
-
 Installation Guide
 
 OR\*3.0\*385 and OR\*3.0\*404

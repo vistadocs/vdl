@@ -11,47 +11,37 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*539
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - table
-  - contents
-  - order
-  - installation
-  - back
-  - sites
-  - deployment
-  - access
-  - rollback
+group_key: CPRS:OR:3.0
+description: '| Date | Version | Description | Author | |-----------|-------------|-------------------------------------------------------------------------------------------------------------|-----------------------| | 8/16/2021 | 1.3 | Added more information about pre-installation tasks and unflagging orders...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
+security_keys:
+- CLINICIAN
+- OR CPRS TESTER
+- ORELSE
+- ORES
+- PSORPH
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 5946
+word_count: 5928
 section_count: 36
 table_count: 17
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 4
 revision_newest: 8/16/2021
 revision_oldest: 6/25/2021
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_539_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_539_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_539_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_539_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>CPRS v32a (OR\*3.0\*539)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](or-3-0-539-cprs-v32a-deployment-installation-back-out-and-roll-back-guide/001.png)
 
 August 2021

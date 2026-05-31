@@ -5,56 +5,37 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: AMPL
 app_code: PREA
-app_name: "Pharmacy: Advanced Medication Platform"
+app_name: 'Pharmacy: Advanced Medication Platform'
 section: CLI
 app_status: archive
 pkg_ns: PREA
 patch_ver: 1.13
 patch_id: PREA*1.13
-group_key: "PREA:PREA:1.13"
-file_numbers: []
+group_key: PREA:PREA:1.13
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '8994.5'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - ampl
-  - release
-  - applicable
-  - software
-  - requirements
-  - security
-  - access
-  - options
 page_count: 0
-word_count: 1604
+word_count: 1587
 section_count: 21
 table_count: 3
 figure_count: 1
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_13_AMPL_GUI_TM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_13_AMPL_GUI_TM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=398"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_13_AMPL_GUI_TM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharmacy_PREA_Archive/PREA_1_13_AMPL_GUI_TM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=398
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Advanced Medication Platform (AMPL)  
-  Graphical User Interface (GUI)
-
-  Technical Manual
----
-
 ![](ampl-technical-manual/001.png)
 
 August 2025

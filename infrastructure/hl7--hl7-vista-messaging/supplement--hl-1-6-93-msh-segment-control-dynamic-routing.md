@@ -3,46 +3,58 @@ title: HL7 HL*1.6*93 MSH Segment Control (Dynamic Routing)
 doc_type: SUP
 doc_label: Supplement
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: V*ist*A Health Level Seven (HL7)MSH Segment Control (Dynamic Routing)Sending Application, Sending FacilityReceiving Application, Receiving FacilitySupplement to Patch Description Patch
+audience: ''
+keywords: []
+file_numbers:
+- '3.5'
+- '19'
+- '90.01'
+- '90.02'
+- '90.03'
+- '90.04'
+- '90.05'
+- '90.06'
+- '90.07'
+- '90.08'
+- '91.01'
+- '91.02'
+- '91.03'
+- '91.04'
+- '91.05'
+- '91.06'
+- '91.07'
+- '91.08'
+- '772'
+- '773'
+- '870'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - strong
-  - span
-  - subscriber
-  - class
-  - fields
-  - protocol
-  - segment
-  - application
-  - table
-  - receiving
 page_count: 0
 word_count: 16291
 section_count: 9
 table_count: 62
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p93sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p93sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p93sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p93sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-hl-1-6-93-msh-segment-control-dynamic-routing/001.png)

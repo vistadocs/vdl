@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
+group_key: PRC:PRC:5.1
+description: Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP)Version 5.1Control Point RequestorUser's
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '8'
 security_keys: []
 menu_options: 6
-description: 
-audience: 
-keywords: 
-  - request
-  - strong
-  - table
-  - contents
-  - number
-  - vendor
-  - prompt
-  - control
-  - point
-  - class
 page_count: 0
 word_count: 19045
 section_count: 24
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1cp_requestor.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1cp_requestor.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1cp_requestor.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1cp_requestor.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP)Version 5.1Control Point RequestorUser's Guide

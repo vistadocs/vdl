@@ -11,47 +11,44 @@ app_status: active
 pkg_ns: VALM
 patch_ver: 1.0
 patch_id: VALM*1.0
-group_key: "VALM:VALM:1.0"
-file_numbers: []
-security_keys: []
+group_key: VALM:VALM:1.0
+description: '''Updated all formatting and style to follow current OIT standards and style guidelines. Table 10: Corrected index line reference in the @VALMAR@("IDX")'''
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '1.01'
+- '1.02'
+- '100'
+- '101'
+- '102'
+- '103'
+- '105'
+- '106'
+- '107'
+- '200'
+- '409.61'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 21
-description: 
-audience: 
-keywords: 
-  - valm
-  - manager
-  - table
-  - line
-  - contents
-  - span
-  - your
-  - strong
-  - array
-  - protocol
 page_count: 0
-word_count: 20760
+word_count: 20742
 section_count: 20
 table_count: 11
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/List_Manager/valm_1_0_dg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/List_Manager/valm_1_0_dg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=14"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/List_Manager/valm_1_0_dg.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/List_Manager/valm_1_0_dg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=14
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc137738635" class="anchor"></span>List Manager 1.0
-
-  <span id="_Toc137738636" class="anchor"></span>Developer’s Guide
----
-
 ![](list-manager-1-0-developer-s-guide/001.png)
 
 March 2025

@@ -11,38 +11,49 @@ app_status: archive
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ADT:ADT:5.3
 description: The options on this menu are used to enter the information necessary to run the ADT module, initialize the Daily Gains and Losses Report, check the integrity of DG routines and validity of patient transfers, purge scheduled admissions, recalculate G&L cumulative totals, view G&L corrections, and pro
-audience: 
-keywords: 
-  - edit
-  - patient
-  - table
-  - contents
-  - date
-  - number
-  - ward
-  - service
-  - parameter
-  - entry
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3.5'
+- '4'
+- '4.2'
+- '36'
+- '38.5'
+- '39.1'
+- '39.3'
+- '41.1'
+- '41.41'
+- '41.43'
+- '41.9'
+- '43'
+- '43.5'
+- '407.7'
+security_keys:
+- DG ELIGIBILITY
+- DG RECORD ACCESS
+- DG SUPERVISOR
+- IB INSURANCE SUPERVISOR
+menu_options: 0
 page_count: 0
 word_count: 13224
 section_count: 19
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/sadt_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/sadt_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/sadt_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/sadt_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

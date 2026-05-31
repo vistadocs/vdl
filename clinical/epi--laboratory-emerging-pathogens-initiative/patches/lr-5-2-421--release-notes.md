@@ -5,45 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Laboratory EPI
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: LR
 patch_ver: 5.2
 patch_id: LR*5.2*421
-group_key: "EPI:LR:5.2"
-file_numbers: 
-  - 69
+group_key: EPI:LR:5.2
+description: '''ICD-10 Follow On Class 1 Software RemediationLaboratory: Emerging Pathogens Initiative (EPI)Application Version 5.2Release'''
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '69.5'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - class
-  - contents
-  - pathogen
-  - colspan
-  - protocol
-  - fptf
-  - active
-  - lrepi
 page_count: 0
 word_count: 3310
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/icd-10_rn_lr_5_2_421.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/icd-10_rn_lr_5_2_421.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/icd-10_rn_lr_5_2_421.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/icd-10_rn_lr_5_2_421.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software RemediationLaboratory: Emerging Pathogens Initiative (EPI)Application Version 5.2Release NotesLR\*5.2\*421

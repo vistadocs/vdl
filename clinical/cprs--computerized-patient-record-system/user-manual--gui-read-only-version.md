@@ -1,48 +1,39 @@
 ---
-title: "CPRS User Manual: GUI Read Only Version"
+title: '''CPRS User Manual: GUI Read Only Version'''
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: "CPRS : GUI Read Only Version"
+doc_subject: '''CPRS : GUI Read Only Version'''
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: OR
+patch_ver: null
+patch_id: null
+group_key: null
+description: Computerized Patient Record System (CPRS) Read-OnlyUser
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - patient
-  - table
-  - reports
-  - contents
-  - remote
-  - report
-  - button
-  - only
-  - read
 page_count: 0
 word_count: 5352
 section_count: 17
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2023
 revision_count: 3
 revision_newest: 12/12/23
 revision_oldest: 6/26/2002
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsguium_ro.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsguium_ro.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsguium_ro.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsguium_ro.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](cprs-user-manual-gui-read-only-version/001.png)

@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Patients on Specific Drug(s) Multidivisional Enhancements
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*214
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '- Introduction - Description of Option - Discussion of Changes - ## Prompt User for Selected Division(s) - Prompt User for Selected Ward(s) - [Prompt User...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '42'
+- '50.605'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - ward
-  - drug
-  - prompt
-  - class
-  - patients
-  - drugs
-  - selected
-  - table
-  - contents
-  - orders
 page_count: 0
 word_count: 1869
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p214_psn_4_p193_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p214_psn_4_p193_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p214_psn_4_p193_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p214_psn_4_p193_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](psj-5-214-release-notes-patients-on-specific-drug-s-multidivisional-enhancements/001.png)

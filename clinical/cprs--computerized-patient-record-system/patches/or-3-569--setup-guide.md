@@ -1,7 +1,7 @@
 ---
 title: CPRS OR*3*569 AP Order Dialog Setup and Configuration Guide
 doc_type: CFG
-doc_label: Setup and Configuration Guide
+doc_label: Configuration Guide
 doc_layer: patch
 doc_subject: AP Order Dialog
 app_code: CPRS
@@ -11,52 +11,38 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*569
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: The Computerized Patient Record System (CPRS) is a Veterans Health Information Systems and Technology Architecture (VistA) suite of application packages. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order lab tests, medications,
+audience: System administrators performing configuration
+keywords: []
+file_numbers:
+- '3'
+- '4'
+- '60'
+- '64'
+- '69.9'
+- '100.98'
+- '101.43'
+- '101.45'
 security_keys: []
 menu_options: 0
-description: The Computerized Patient Record System (CPRS) is a Veterans Health Information Systems and Technology Architecture (VistA) suite of application packages. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order lab tests, medications,
-audience: 
-keywords: 
-  - order
-  - cprs
-  - edit
-  - dialog
-  - pathology
-  - table
-  - contents
-  - laboratory
-  - anatomic
-  - entry
 page_count: 0
-word_count: 2364
+word_count: 2342
 section_count: 11
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_569_setup.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_569_setup.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_569_setup.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_569_setup.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  OR\*3.0\*569/LR\*5.2\*553
-
-  Anatomic Pathology Order Dialog
-
-  Setup and Configuration Guide
----
-
 ![](cprs-or-3-569-ap-order-dialog-setup-and-configuration-guide/001.png)
 
 September 2022

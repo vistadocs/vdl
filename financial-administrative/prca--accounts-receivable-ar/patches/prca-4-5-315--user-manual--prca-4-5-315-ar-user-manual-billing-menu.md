@@ -3,7 +3,7 @@ title: PRCA*4.5*315 AR User Manual - Billing Menu
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: AR  - Billing Menu
+doc_subject: AR - Billing Menu
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*315
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- Billing Menu - New Bill (Enter) - veterans Beneficiary Travel - Display Pending Bill - Approve/Print Pending Bill - Edit Bill - Cancel Bill -...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PRCASVC
 menu_options: 3
-description: - [Billing Menu](#billing-menu) - [New Bill (Enter)](#new-bill-enter) - [veterans Beneficiary Travel](#veterans-beneficiary-travel) - [Display Pending Bill](#display-pending-bill) - [Approve/Print Pending Bill](#approveprint-pending-bill) - [Edit Bill](#edit-bill) - [Cancel Bill](#cancel-bill) - [Am
-audience: 
-keywords: 
-  - bill
-  - your
-  - date
-  - billing
-  - table
-  - contents
-  - arpatient
-  - status
-  - amount
-  - bills
 page_count: 0
 word_count: 3130
 section_count: 11
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_4billing.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_4billing.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_4billing.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_4billing.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](prca-4-5-315-ar-user-manual-billing-menu/001.png)

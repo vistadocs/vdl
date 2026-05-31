@@ -1,12 +1,134 @@
 ---
-consolidated_title: "outpatient pharmacy technical manual security guide"
-app_code: PSO
+title: Outpatient Pharmacy Version 7 Technical Manual Security Guide (PSO*7*766)
 doc_type: TM
-master_source: "Outpatient Pharmacy Version 7 Technical Manual Security Guide (PSO*7*766)"
-master_pub_date: revision_count: 3
+doc_label: Technical Manual
+doc_layer: anchor
+doc_subject: Security Guide (PSO*7*766)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7
+group_key: PSO:PSO:7
+file_numbers:
+- '1'
+- '1.1'
+- '1.2'
+- '2'
+- '3'
+- '3.2'
+- '3.5'
+- '4'
+- '5'
+- '6.5'
+- '7'
+- '8'
+- '9'
+- '10.2'
+- '11'
+- '16'
+- '17'
+- '18.02'
+- '18.12'
+- '19.1'
+- '20'
+- '21'
+- '27'
+- '31'
+- '32'
+- '43'
+- '48'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.606'
+- '50.68'
+- '50.9'
+- '52'
+- '52.07'
+- '52.09'
+- '52.1'
+- '52.2'
+- '52.3'
+- '52.4'
+- '52.41'
+- '52.444'
+- '52.45'
+- '52.46'
+- '52.47'
+- '52.48'
+- '52.49'
+- '52.5'
+- '52.53'
+- '52.8'
+- '52.87'
+- '53.2'
+- '53.21'
+- '55'
+- '58.4'
+- '58.41'
+- '58.42'
+- '59'
+- '59.7'
+- '59.747'
+- '60'
+- '61'
+- '82'
+- '100'
+- '101'
+- '101.52'
+- '102.1'
+- '105.1'
+- '107.2'
+- '109'
+- '114'
+- '116'
+- '123'
+- '124'
+- '200'
+- '771'
+- '779.004'
+- '870'
+- '1008'
+- '3001'
+- '8991.6'
+- '8991.7'
+- '8991.8'
+- '8991.9'
+security_keys:
+- PROVIDER
+- PSDRPH
+- PSO TECH ADV
+- PSORPH
+menu_options: 20
+description: This document briefly describes the technical and security aspects of Outpatient Pharmacy V.7.0. It is intended for members of the Automated Data Processing (ADP)/Information Resources Management Service (IRMS) staff who has had experience with other Veterans Health Information Systems and Technolog
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 85994
+section_count: 27
+table_count: 45
+figure_count: 0
+appendix_count: 9
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 3
+revision_newest: 2/13/2007
+revision_oldest: 12/1/2006
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: Outpatient Pharmacy Version 7 Technical Manual Security Guide (PSO*7*766)
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "Outpatient Pharmacy Version 7 Technical Manual Security Guide (PSO*7*774)"
+- Outpatient Pharmacy Version 7 Technical Manual Security Guide (PSO*7*774)
+consolidated_title: outpatient pharmacy technical manual security guide
 ---
 
 # Outpatient Pharmacy (PSO) 
@@ -63,7 +185,7 @@ prior_versions:
   - [Outpatient Pharmacy V. 7.0 Menu Diagrams](#outpatient-pharmacy-v-70-menu-diagrams)
     - [Outpatient Pharmacy Manager](#outpatient-pharmacy-manager)
     - [Pharmacist Menu](#pharmacist-menu)
-    - [Pharmacy Technician’s Menu](#pharmacy-technicians-menu)
+    - [Pharmacy Technician's Menu](#pharmacy-technicians-menu)
     - [Standalone Options](#standalone-options)
   - [Journaling Globals](#journaling-globals)
   - [Barcodes and Label Printer Support](#barcodes-and-label-printer-support)
@@ -602,7 +724,7 @@ Revision History
 <td>01/2014</td>
 <td>PSO*7*434</td>
 <td><p>Two documentation updates:</p>
-<p>The <em><u>active</u></em> Veteran’s Health Identity Card (VHIC) number was added to the PID segment (PID-4) on the VistA side.</p>
+<p>The <em><u>active</u></em> Veteran's Health Identity Card (VHIC) number was added to the PID segment (PID-4) on the VistA side.</p>
 <p>Format:</p>
 <p>[VIC Card #]~~~USVHA&amp;&amp;0363~PI~VA FACILITY ID&amp;742V1&amp;L</p>
 <p>The Outpatient Pharmacy Automation Interface (OPAI) has been changed to delimit the text on the pharmacy warning labels, correcting the problem in which text from one warning label runs into the text of another warning label.</p></td>
@@ -633,7 +755,7 @@ Added BSA &amp; CrCL to the Glossary</p></td>
 <tr class="even">
 <td>09/2012</td>
 <td>PSO*7*386</td>
-<td>Added description of patch’s new security key PSO TECH ADV and modifications to the HOLD/UNHOLD functionality.</td>
+<td>Added description of patch's new security key PSO TECH ADV and modifications to the HOLD/UNHOLD functionality.</td>
 </tr>
 <tr class="odd">
 <td>03/2012</td>
@@ -773,11 +895,11 @@ List of Figures
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This document briefly describes the technical and security aspects of Outpatient Pharmacy V.7.0. It is intended for members of the Automated Data Processing (ADP)/Information Resources Management Service (IRMS) staff who has had experience with other Veterans Health Information Systems and Technology Architecture (VistA) software and has worked or will work with a package coordinator who is familiar with the functions of the Outpatient Pharmacy V.7.0 in a VA Medical Center. Readers without this background are referred to the documentation for the Kernel, the VA FileMan and the User’s Manual for this release.
+This document briefly describes the technical and security aspects of Outpatient Pharmacy V.7.0. It is intended for members of the Automated Data Processing (ADP)/Information Resources Management Service (IRMS) staff who has had experience with other Veterans Health Information Systems and Technology Architecture (VistA) software and has worked or will work with a package coordinator who is familiar with the functions of the Outpatient Pharmacy V.7.0 in a VA Medical Center. Readers without this background are referred to the documentation for the Kernel, the VA FileMan and the User's Manual for this release.
 
-The Outpatient Pharmacy V.7.0 package provides a method for managing the medications given to veterans who have visited a clinic or who have received prescriptions upon discharge from the hospital. Prescription labels are automatically generated, and refill request forms are printed. Medication histories are kept online to permit checks for potential interactions. Profiles can be generated to assist the clinician in managing the patient’s medication regimen. Management reports aid the pharmacy in controlling inventory and costs.
+The Outpatient Pharmacy V.7.0 package provides a method for managing the medications given to veterans who have visited a clinic or who have received prescriptions upon discharge from the hospital. Prescription labels are automatically generated, and refill request forms are printed. Medication histories are kept online to permit checks for potential interactions. Profiles can be generated to assist the clinician in managing the patient's medication regimen. Management reports aid the pharmacy in controlling inventory and costs.
 
-A number of site parameters allow the individual Department of Veterans Affairs Medical Center (VAMC) to customize the package to meet local needs. The User’s Manual describes these site parameters and the ways they influence the operation of the package.
+A number of site parameters allow the individual Department of Veterans Affairs Medical Center (VAMC) to customize the package to meet local needs. The User's Manual describes these site parameters and the ways they influence the operation of the package.
 
 Effective with the OneVA Pharmacy Patch PSO\*7.0\*454 (December 2016), Pharmacists are able to dispense prescriptions that originated in other VistA host sites. The OneVA Pharmacy User Manual and Installation Guide describe the site parameter required to use this functionality.
 
@@ -801,13 +923,13 @@ Effective Inbound ePrescribing Patch PSO\*7.0\*635 (April 2021), Warranty defect
 - Reports - number of records not being displayed at the bottom of all reports and column width for Message Type in Track / Audit not wide enough
 - When editing the Validate Drug / SIG for Replace RxRenewal Response, eRx refills are not decrementing correctly and incorrectly displays the \# of refills.
 
-The OneVA Pharmacy patch PSO\*7\*736 (April 2024) replaces the query to the HDR/CDS repository with a query to the Veterans Data Information Exchange (VDIF). This patch also includes modifications to the "PROVIDER HOLD" status abbreviation from "PH" to "HP" and also adds "DISCONTINUED BY PROVIDER", "DISCONTINUED (EDIT)", and "NON-VERIFIED" statuses for display on the patient’s medication profile for remote prescriptions.
+The OneVA Pharmacy patch PSO\*7\*736 (April 2024) replaces the query to the HDR/CDS repository with a query to the Veterans Data Information Exchange (VDIF). This patch also includes modifications to the "PROVIDER HOLD" status abbreviation from "PH" to "HP" and also adds "DISCONTINUED BY PROVIDER", "DISCONTINUED (EDIT)", and "NON-VERIFIED" statuses for display on the patient's medication profile for remote prescriptions.
 
 The OneVA Pharmacy Patch PSO\*7.0\*774 (September 2025) extends OneVA functionality to include Auto-Unpark and Auto-Release capabilities.
 
 See External Relations Section of this manual for a listing of software not included in this package that must be installed before this version of Outpatient Pharmacy is fully functional.
 
-<span id="PSO_7_737" class="anchor"></span>PSO\*7\*737, along with other related patches, adds Pharmacogenomic (PGx) order checking to medication orders entered through Inpatient Medications, Outpatient Pharmacy, and Computerized Patient Record System (CPRS). PSO\*7\*737 also creates a new Pharmacy option called ‘Check Pharmacogenomic Interaction Check’ (PSS CHECK PGX INTERACTION) that allows a user to enter drug(s), gene(s), phenotype(s), and genotype(s) and see the PGx order checks returned from the vendor for the data entered. This option also allows for patient selection and returns PGx order checks based on the patient’s Genomic lab data and current medication profile.
+<span id="PSO_7_737" class="anchor"></span>PSO\*7\*737, along with other related patches, adds Pharmacogenomic (PGx) order checking to medication orders entered through Inpatient Medications, Outpatient Pharmacy, and Computerized Patient Record System (CPRS). PSO\*7\*737 also creates a new Pharmacy option called 'Check Pharmacogenomic Interaction Check' (PSS CHECK PGX INTERACTION) that allows a user to enter drug(s), gene(s), phenotype(s), and genotype(s) and see the PGx order checks returned from the vendor for the data entered. This option also allows for patient selection and returns PGx order checks based on the patient's Genomic lab data and current medication profile.
 
 ## Orientation
 
@@ -891,11 +1013,11 @@ The Data Dictionaries (DDs) are considered part of the online documentation for 
 
 > *Pharmacy Outpatient Release Notes – (PSO\*7\*737)*
 
-> *Pharmacy Outpatient Pharmacist’s User Guide V.7.0 - (PSO\*7\*737)*
+> *Pharmacy Outpatient Pharmacist's User Guide V.7.0 - (PSO\*7\*737)*
 
-> *Pharmacy Outpatient Manager’s User Guide V.7.0 – (PSO\*7\*737)*
+> *Pharmacy Outpatient Manager's User Guide V.7.0 – (PSO\*7\*737)*
 
-> *Pharmacy Outpatient Technician’s User Guide V.7.0 - (PSO\*7\*737)*
+> *Pharmacy Outpatient Technician's User Guide V.7.0 - (PSO\*7\*737)*
 
 ## Implementation and Maintenance
 
@@ -917,7 +1039,7 @@ Response Time monitor hooks have been placed in the following routines:
 
 <span id="_Toc207089077" class="anchor"></span>Table 2: Disk Space
 
-This package requires 28 files (see “Files” section in this manual). A typical site may require the following disk space:
+This package requires 28 files (see "Files" section in this manual). A typical site may require the following disk space:
 
 | Space                          | Description                                                                                                                   |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -926,19 +1048,19 @@ This package requires 28 files (see “Files” section in this manual). A typic
 | 150 Mbytes                     | PRESCRIPTION file (#52) (500,000 prescriptions)                                                                               |
 | 50 Mbytes                      | PHARMACY PATIENT file (#55) (500,000 prescriptions)                                                                           |
 | About 1 to 2 Mbytes            | Routines and the other files (except for RX VERIFY file (#52.4), RX SUSPENSE file (#52.5), and PHARMACY ARCHIVE file (#52.8)) |
-| 3 to 5 Mbytes of “swing space” | RX VERIFY file (#52.4), RX SUSPENSE file (#52.5), and PHARMACY ARCHIVE file (#52.8)                                           |
+| 3 to 5 Mbytes of "swing space" | RX VERIFY file (#52.4), RX SUSPENSE file (#52.5), and PHARMACY ARCHIVE file (#52.8)                                           |
 
 <span id="_Toc207089078" class="anchor"></span>Table 3: Options to be Deleted during Installation
 
 Outpatient Pharmacy V. 7.0 may be expected to require about 350 Mbytes of disk space. The actual disk utilization will, of course, depend primarily on the size of the three large files —PRESCRIPTION file (#52), PHARMACY PATIENT file (#55) and DRUG COST file (#50.9).
 
-The requirements for Video Display Terminals (VDTs) and printers also depend on the number of transactions Outpatient Pharmacy V. 7.0 performs. Approximately three VDTs and one printer are needed for each 500 prescriptions (or fraction of 500) issued each day. If mail-out refills are handled separately, at least one VDT and one printer for each 500 refills are required. An additional VDT and a printer may be desired in the supervisor’s office, and 1 VDT in the office of people who are assigned to consult with patients about their medication regimens.
+The requirements for Video Display Terminals (VDTs) and printers also depend on the number of transactions Outpatient Pharmacy V. 7.0 performs. Approximately three VDTs and one printer are needed for each 500 prescriptions (or fraction of 500) issued each day. If mail-out refills are handled separately, at least one VDT and one printer for each 500 refills are required. An additional VDT and a printer may be desired in the supervisor's office, and 1 VDT in the office of people who are assigned to consult with patients about their medication regimens.
 
 There are no special device requirements for dot matrix labels except to print barcodes on labels. In this case, the label printer must be able to print barcodes and must be able to be set to a form length of either 4 inches or 24 lines. The section in this document on barcodes provides additional information about this function.
 
-Laser printed labels require one or more specially configured printers. The printer must be able to print to a legal length form and must print barcodes. In addition, the printer must support Hewlett Packard’s Printer Control Language (PCL) version 5 or greater.
+Laser printed labels require one or more specially configured printers. The printer must be able to print to a legal length form and must print barcodes. In addition, the printer must support Hewlett Packard's Printer Control Language (PCL) version 5 or greater.
 
-1.  The OneVA Pharmacy Patch PSO\*7\*454 introduced the OneVA Pharmacy label-generation functionality with new/updated label routines. In order to print the OneVA Pharmacy label, each site must use a standard VistA laser label printer and label stock. The printer must be able to print a legal length form and must print barcodes. In addition, the printer must support Hewlett Packard’s Printer Control Language (PCL) version 5 or greater. For additional information related to the label stock go to the VA Software Document Library (VDL), select the Clinical section then choose the “Pharm: Outpatient Pharmacy” page. Locate the “User Manual – Supplemental – Outpatient Pharmacy” document and refer to the section titled “Laser Labels Phase II (PSO\*7\*161) and FY07 Q2 Release (PSO\*7\*200).”
+1.  The OneVA Pharmacy Patch PSO\*7\*454 introduced the OneVA Pharmacy label-generation functionality with new/updated label routines. In order to print the OneVA Pharmacy label, each site must use a standard VistA laser label printer and label stock. The printer must be able to print a legal length form and must print barcodes. In addition, the printer must support Hewlett Packard's Printer Control Language (PCL) version 5 or greater. For additional information related to the label stock go to the VA Software Document Library (VDL), select the Clinical section then choose the "Pharm: Outpatient Pharmacy" page. Locate the "User Manual – Supplemental – Outpatient Pharmacy" document and refer to the section titled "Laser Labels Phase II (PSO\*7\*161) and FY07 Q2 Release (PSO\*7\*200)."
 2.  The barcode printed on the OneVA Pharmacy label will contain the host site information where the prescription order originated.
 
 ### Options to be Deleted during Installation 
@@ -967,7 +1089,7 @@ Laser printed labels require one or more specially configured printers. The prin
 | PSO MARK DRUG             | Mark Clozapine Drug                  |
 | PSOL UNMARK DRUG          | Unmark Clozapine Drug                |
 | PSOARCCO                  | Find                                 |
-| PSOARCHLIST               | List One Patient’s Archived Rxs      |
+| PSOARCHLIST               | List One Patient's Archived Rxs      |
 | PSOARCIN                  | Tape Retrieval                       |
 | PSOARCPURGE               | Purge                                |
 | PSOARCSV                  | Save                                 |
@@ -1049,7 +1171,7 @@ If telephone refill requests are processed using AudioCARE, the installation of 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A dedicated device must be set up for use with the bingo board. The device setup is similar to that used to set up a printer, except the sub-type will be C-VT. Only devices with the sub-type C-VT will be allowed for entry at the “DISPLAY DEVICE” prompt in the *Enter/Edit Display* \[PSO BINGO ENTER/EDIT DISPLAY\] option found on the *Bingo Board Manager* \[PSO BINGO MANAGER\] menu. For further information, see the site’s systems guide for information on setting up the device. Once a dedicated device is set up, the bingo board can be scheduled to automatically start, stop, or both at user-defined times.
+A dedicated device must be set up for use with the bingo board. The device setup is similar to that used to set up a printer, except the sub-type will be C-VT. Only devices with the sub-type C-VT will be allowed for entry at the "DISPLAY DEVICE" prompt in the *Enter/Edit Display* \[PSO BINGO ENTER/EDIT DISPLAY\] option found on the *Bingo Board Manager* \[PSO BINGO MANAGER\] menu. For further information, see the site's systems guide for information on setting up the device. Once a dedicated device is set up, the bingo board can be scheduled to automatically start, stop, or both at user-defined times.
 
 ### Mail Group Setup for the HL7 External Interface
 
@@ -1061,7 +1183,7 @@ A mail group and device must be set up in order to run the HL7 external interfac
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The *Maintenance (Outpatient Pharmacy)* \[PSO MAINTENANCE\] menu is used for implementation as well as maintenance of the Outpatient Pharmacy V. 7.0 package. The first five options, *Site Parameter Enter/Edit* \[PSO SITE PARAMETERS\] (example follows)*, Edit Provider* \[PSO PROVIDER EDIT\], *AddNew Providers* \[PSO PROVIDER ADD\], *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\], and *Autocancel Rx’s on Admission* \[PSO AUTOCANCEL1\] are used for implementation. The remaining options on this menu may be used for maintenance. (An example is given below for the *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\] option. See the Outpatient Pharmacy V. 7.0 User Manual for an explanation of the other options on this menu.)
+The *Maintenance (Outpatient Pharmacy)* \[PSO MAINTENANCE\] menu is used for implementation as well as maintenance of the Outpatient Pharmacy V. 7.0 package. The first five options, *Site Parameter Enter/Edit* \[PSO SITE PARAMETERS\] (example follows)*, Edit Provider* \[PSO PROVIDER EDIT\], *AddNew Providers* \[PSO PROVIDER ADD\], *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\], and *Autocancel Rx's on Admission* \[PSO AUTOCANCEL1\] are used for implementation. The remaining options on this menu may be used for maintenance. (An example is given below for the *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\] option. See the Outpatient Pharmacy V. 7.0 User Manual for an explanation of the other options on this menu.)
 
 #### Maintenance (Outpatient Pharmacy) \[PSO MAINTENANCE\] Menu
 
@@ -1073,7 +1195,7 @@ The *Maintenance (Outpatient Pharmacy)* \[PSO MAINTENANCE\] menu is used for imp
 
 > *Queue Background Jobs*
 
-> *Autocancel Rx’s on Admission*
+> *Autocancel Rx's on Admission*
 
 > *Bingo Board Manager*
 
@@ -1113,9 +1235,9 @@ The *Maintenance (Outpatient Pharmacy)* \[PSO MAINTENANCE\] menu is used for imp
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option is used to queue all background jobs. Once the *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\] option is selected, the option automatically pre-selects the jobs. Entering “E” for exit will not exit the option. An up arrow (^) must be entered to exit a specific job and go on to the next one. The background jobs are as follows:
+This option is used to queue all background jobs. Once the *Queue Background Jobs* \[PSO AUTOQUEUE JOBS\] option is selected, the option automatically pre-selects the jobs. Entering "E" for exit will not exit the option. An up arrow (^) must be entered to exit a specific job and go on to the next one. The background jobs are as follows:
 
-- Autocancel Rx’s on Admission
+- Autocancel Rx's on Admission
 - Nightly Rx Cost Compile
 - Nightly Management Data Compile
 - Compile AMIS Data (NIGHT JOB)
@@ -1271,11 +1393,11 @@ FILE \# NAME DD CODE W/FILE DATA PTS RIDE
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-PSO\*7.0\*452 enables a new warning message that is sent to members of the new PHARMACY SUPERVISORS MailMan group, notifying recipients that one or more Outpatient Pharmacy sites are approaching the upper limit of the defined prescription numbering series. The new warning is intended to prevent an unintentional shutdown of prescription processing that will occur if the pharmacy reaches the upper limit of the numbering series. For additional information about the early warning message, refer to the *Outpatient Pharmacy (PSO) Manager’s User Manual*.
+PSO\*7.0\*452 enables a new warning message that is sent to members of the new PHARMACY SUPERVISORS MailMan group, notifying recipients that one or more Outpatient Pharmacy sites are approaching the upper limit of the defined prescription numbering series. The new warning is intended to prevent an unintentional shutdown of prescription processing that will occur if the pharmacy reaches the upper limit of the numbering series. For additional information about the early warning message, refer to the *Outpatient Pharmacy (PSO) Manager's User Manual*.
 
 This patch is delivered with companion patch PSS\*1.0\*215, which adds a new RX# UPPER BOUND WARNING LIMIT field (#48) to the PHARMACY SYSTEM file (#59.7). The value stored in this field determines when the early warning message is sent. If no custom value is entered in this field, then the message will be sent when 1000 numbers remain in the series. For more information about this Data Dictionary change, refer to the Pharmacy Data Management Technical Manual/Security Guide.
 
-PSO\*7.0\*452 also adds a Clinical Alert that displays in the header area with patient demographic information when using certain Outpatient Pharmacy \[PSO\] options. Pharmacy Supervisors can use the Clinical Alert to make Pharmacy staff aware of information such as drug interactions or the patient’s participation in clinical trials. For more information about Clinical Alerts, refer to the Outpatient Pharmacy (PSO) Manager’s User Manual.
+PSO\*7.0\*452 also adds a Clinical Alert that displays in the header area with patient demographic information when using certain Outpatient Pharmacy \[PSO\] options. Pharmacy Supervisors can use the Clinical Alert to make Pharmacy staff aware of information such as drug interactions or the patient's participation in clinical trials. For more information about Clinical Alerts, refer to the Outpatient Pharmacy (PSO) Manager's User Manual.
 
 The companion patch PSS\*1.0\*215 adds a CLINICAL ALERT multiple field (#109) to the PHARMACY PATIENT file (#55). This field stores the date and time of the alert and provides a free-text field for the alert text. For more information about this Data Dictionary change, refer to the *Pharmacy Data Management Technical Manual/Security Guide*.
 
@@ -1309,7 +1431,7 @@ VA DRUG CLASS (#50.605) file shall be updated to include a new field multiple to
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following routine list for Outpatient Pharmacy appears when the new routine set is loaded. Each routine’s first line contains a brief description of the routine’s function. Use the First Line Routine Print \[XU FIRST LINE PRINT\] option to print a list of just the first line of each PSO\* routine.
+The following routine list for Outpatient Pharmacy appears when the new routine set is loaded. Each routine's first line contains a brief description of the routine's function. Use the First Line Routine Print \[XU FIRST LINE PRINT\] option to print a list of just the first line of each PSO\* routine.
 
 - PSO5241
 - PSO5252
@@ -2172,7 +2294,7 @@ The following waiver permits the use of this non-standard M syntax to allow the 
 | Decision Date                                                           | 12/1/2006                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Decision Type                                                           | Architecture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Decision Making Body                                                    | HPMO CCB                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Description                                                             | On December 1, 2006, the HPMO Change Control Board voted to accept the migration of VistA from the current M2J solution to the VistA Web Services Client (VWSC). This decision was made for a number of reasons, in particular the fact that the existing 12-year-old M standard has been surpassed by evolving technologies and can no longer address today’s requirements. Additionally, we are no longer required to support DSM, previously the primary VistA/M hosting environment. Today, all sites are standardized on Caché 5.0 systems. As such, approvals were granted as follows: Waiver of the requirement to adhere to the existing 1995 M standard (that does not address the implementation of web services); Implementation of an industry standard such as web services for VistA/M to J2EE calls using Caché’s built in HTTP and web service client feature; Use of VWSC as an interim solution that ensures continuity of integration between VistA/M applications and migrated J2EE applications as HealtheVet evolves by enabling the consumption of external web services by legacy VistA applications; and Deprecation of the original M2J approach. |
+| Description                                                             | On December 1, 2006, the HPMO Change Control Board voted to accept the migration of VistA from the current M2J solution to the VistA Web Services Client (VWSC). This decision was made for a number of reasons, in particular the fact that the existing 12-year-old M standard has been surpassed by evolving technologies and can no longer address today's requirements. Additionally, we are no longer required to support DSM, previously the primary VistA/M hosting environment. Today, all sites are standardized on Caché 5.0 systems. As such, approvals were granted as follows: Waiver of the requirement to adhere to the existing 1995 M standard (that does not address the implementation of web services); Implementation of an industry standard such as web services for VistA/M to J2EE calls using Caché's built in HTTP and web service client feature; Use of VWSC as an interim solution that ensures continuity of integration between VistA/M applications and migrated J2EE applications as HealtheVet evolves by enabling the consumption of external web services by legacy VistA applications; and Deprecation of the original M2J approach. |
 | Rationale                                                               | This architectural change allows for a number of improvements, including better scalability, resilience, and performance. Deployment and configuration is far less complicated for administrators, and the APIs can be used by a variety of clients rather than solely M-based. It also places responsibility for support, maintenance, etc. with the vendor rather than OIT.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Record Type                                                             | TDR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | State                                                                   | Approved                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -2196,7 +2318,7 @@ The following waiver permits the use of this non-standard M syntax to allow the 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Unless menus have already been assigned, the *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to the Package Coordinator for Outpatient Pharmacy. It should also be added to the menu of the Site Manager and any ADP/IRMS staff that the Package Coordinator selects to help in the operation of Outpatient Pharmacy. The *Pharmacist Menu* \[PSO USER1\] option should be assigned to all pharmacists and the *Pharmacy Technician’s Menu* \[PSO USER2\] option should be assigned to all pharmacy technicians and other pharmacy personnel who may view prescriptions, inquire into other Outpatient Pharmacy V. 7.0 files, or both.
+Unless menus have already been assigned, the *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to the Package Coordinator for Outpatient Pharmacy. It should also be added to the menu of the Site Manager and any ADP/IRMS staff that the Package Coordinator selects to help in the operation of Outpatient Pharmacy. The *Pharmacist Menu* \[PSO USER1\] option should be assigned to all pharmacists and the *Pharmacy Technician's Menu* \[PSO USER2\] option should be assigned to all pharmacy technicians and other pharmacy personnel who may view prescriptions, inquire into other Outpatient Pharmacy V. 7.0 files, or both.
 
 ### Security Keys
 
@@ -2382,13 +2504,13 @@ Unless menus have already been assigned, the *Outpatient Pharmacy Manager* \[PSO
 
 Electronic signatures may be established by using the *Electronic Signature code Edit* \[XUSESIG\] option.
 
-In Kernel V. 8.0 the *Electronic Signature codeEdit* \[XUSESIG\] option has been tied to the Common Options, under the *User’s Toolbox* \[XUSERTOOLS\] submenu, for easy access by all users.
+In Kernel V. 8.0 the *Electronic Signature codeEdit* \[XUSESIG\] option has been tied to the Common Options, under the *User's Toolbox* \[XUSERTOOLS\] submenu, for easy access by all users.
 
 ## Archiving and Purging
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Detailed information is kept for each prescription, including all information about the original prescription, all refills, and all editing. An average prescription requires about 300 bytes (0.3 Kbytes) of disk storage. The archiving options under the manager’s menu allow the package coordinator and IRMS/ADP staff to manage this file. Old prescriptions, typically those that have been expired or canceled for more than a year, can be saved to tape and then purged from online storage. NOTE: The purge options under the *Archive Menu* \[PRCAK AR SUPERVISOR\] option are out of order until further notice. The User’s Manual describes the operation of these options. Because not all prescriptions require the same amount of space and because of the way the operating system utilizes the disk, do not expect to regain 300 bytes of disk storage for every prescription purged. As prescriptions are purged, all references to these prescriptions from other files are also deleted.
+Detailed information is kept for each prescription, including all information about the original prescription, all refills, and all editing. An average prescription requires about 300 bytes (0.3 Kbytes) of disk storage. The archiving options under the manager's menu allow the package coordinator and IRMS/ADP staff to manage this file. Old prescriptions, typically those that have been expired or canceled for more than a year, can be saved to tape and then purged from online storage. NOTE: The purge options under the *Archive Menu* \[PRCAK AR SUPERVISOR\] option are out of order until further notice. The User's Manual describes the operation of these options. Because not all prescriptions require the same amount of space and because of the way the operating system utilizes the disk, do not expect to regain 300 bytes of disk storage for every prescription purged. As prescriptions are purged, all references to these prescriptions from other files are also deleted.
 
 The RX SUSPENSE file (#52.5) holds information about all prescriptions that have been suspended for later printing. There is an automatic purge for this file for prescriptions printed from 7 to 90 days ago. The package coordinator can run the Auto-delete from Suspense \[PSO PNDEL\] option at regular intervals to purge this file of suspended prescriptions which have been printed 7 to 90 days ago. The purging is tasked to run every 7 days.
 
@@ -2450,13 +2572,13 @@ BAUD RATE (c): UNKNOWN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Entry points provided by the Outpatient Pharmacy V. 7.0 package to other packages can be found in the External Relations section of this manual. No other routines are designated as callable from outside of this package. For additional information of other external calls and their entry points go to VA Software Document Library (VDL), see under the Clinical Section on the “Pharm: Outpatient Pharmacy” page. Choose the “API Manual: Pharmacy Reengineering (PRE).”
+Entry points provided by the Outpatient Pharmacy V. 7.0 package to other packages can be found in the External Relations section of this manual. No other routines are designated as callable from outside of this package. For additional information of other external calls and their entry points go to VA Software Document Library (VDL), see under the Clinical Section on the "Pharm: Outpatient Pharmacy" page. Choose the "API Manual: Pharmacy Reengineering (PRE)."
 
 ## External Interfaces
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For information on HL7 External Interface, go to VA Software Document Library (VDL), select the Infrastructure Section, then choose “HL7 (VistA Messaging).”
+For information on HL7 External Interface, go to VA Software Document Library (VDL), select the Infrastructure Section, then choose "HL7 (VistA Messaging)."
 
 11. The HL Logical Link Entry / Node set up for Outpatient Pharmacy V. 7.0 is PSO DISP. This is a new Logical Link installed with Patch PSO\*7\*156.
 12. The HL Logical Link Entry / Node set up for Outpatient Pharmacy V. 7.0 is PSORRXSEND. This is a new Logical Link installed with Patch PSO\*7\*454.
@@ -2613,7 +2735,7 @@ The following software is not included in this package and must be installed bef
 
 13. For Outpatient Medication Copay options to be fully functional, the Pharmacy Ordering Enhancement (POE) project software must be installed, which includes patches to Outpatient Pharmacy (PSO\*7\*46), Order Entry/Results Reporting (OR\*3\*94), Pharmacy Data Management (PSS\*1\*38), and Inpatient Medications (PSJ\*5\*50).
 14. For Clinical Indicator Data Capture (CIDC) to be fully functional, the Outpatient Pharmacy CIDC software (PSO\*7\*143) must be installed along with CPRS Version 25.
-15. The OneVA Pharmacy Patch PSO\*7\*454 introduced new functionality that allows for a pharmacist to remotely refill <span id="PSO_774_Note1" class="anchor"></span>(and original fill with the introduction of PSO\*7\*774) a prescription from another VistA instance. This patch utilizes Health Level 7 (HL7) messaging to send and receive remote prescription details from another VAMC. This allows a 'dispensing', or 'non-custodial' Pharmacy to refill a prescription that originated from another VA facility. The VA facility where the prescription exists is considered the 'host' facility. Before the release of patch PSO\*7\*736, VistA utilized HL7 to send a query message to middleware application and then the middleware application was used to query the Health Data Repository/Clinical Data Service (HDR/CDS) Repository for all active medications from all sites. The medications are returned to the querying site. Once the prescriptions are received, they are displayed below any 'local' prescriptions within the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option sorted by facility. The pharmacist can then view the remote prescriptions and will be able to refill or partially fill (or original fill with the introduction of PSO\*7\*774) any active prescriptions that are not considered controlled substances at either facility. The OneVA Pharmacy patch PSO\*7\*736 (January 2024) replaces the query to the HDR/CDS repository with a query to the Veterans Data Information Exchange (VDIF). The OneVA Pharmacy software sends an HL7 message to VDIF National Health Connect to an existing TCP Service to request patient medications. PSO\*7\*774 (September 2025) also introduced auto-unpark and auto-release functionality (on the ‘host’ facility) for OneVA Pharmacy processing.
+15. The OneVA Pharmacy Patch PSO\*7\*454 introduced new functionality that allows for a pharmacist to remotely refill <span id="PSO_774_Note1" class="anchor"></span>(and original fill with the introduction of PSO\*7\*774) a prescription from another VistA instance. This patch utilizes Health Level 7 (HL7) messaging to send and receive remote prescription details from another VAMC. This allows a 'dispensing', or 'non-custodial' Pharmacy to refill a prescription that originated from another VA facility. The VA facility where the prescription exists is considered the 'host' facility. Before the release of patch PSO\*7\*736, VistA utilized HL7 to send a query message to middleware application and then the middleware application was used to query the Health Data Repository/Clinical Data Service (HDR/CDS) Repository for all active medications from all sites. The medications are returned to the querying site. Once the prescriptions are received, they are displayed below any 'local' prescriptions within the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option sorted by facility. The pharmacist can then view the remote prescriptions and will be able to refill or partially fill (or original fill with the introduction of PSO\*7\*774) any active prescriptions that are not considered controlled substances at either facility. The OneVA Pharmacy patch PSO\*7\*736 (January 2024) replaces the query to the HDR/CDS repository with a query to the Veterans Data Information Exchange (VDIF). The OneVA Pharmacy software sends an HL7 message to VDIF National Health Connect to an existing TCP Service to request patient medications. PSO\*7\*774 (September 2025) also introduced auto-unpark and auto-release functionality (on the 'host' facility) for OneVA Pharmacy processing.
 16. The OneVA HL7 Listener Service is using an existing connection that all 130+ VistAs have with the National HL7 Health Connect.
 
 ### Data Base Integration Agreements (IAs)
@@ -2633,7 +2755,7 @@ Very few of the options in this package can be invoked independently. Those that
 | PSO MANAGER                                 | Outpatient Pharmacy Manager |
 | PSO P                                       | Medication Profile          |
 | PSO USER1                                   | Pharmacist Menu             |
-| PSO USER2                                   | Pharmacy Technician’s Menu  |
+| PSO USER2                                   | Pharmacy Technician's Menu  |
 | Any other option may not run independently. |                             |
 
 <span id="_Toc207089090" class="anchor"></span>Table 15: Templates - Input
@@ -2727,25 +2849,25 @@ A mail group and device should be set up in order to run the HL7 external interf
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For archiving and purging information, see the section titled “Archiving and Purging” in this manual.
+For archiving and purging information, see the section titled "Archiving and Purging" in this manual.
 
 ### Interfacing
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For interface information, see the section titled “External Interfaces” in this manual.
+For interface information, see the section titled "External Interfaces" in this manual.
 
 ### Electronic Signatures
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Electronic signatures may be established by using the *Electronic Signature codeEdit* \[XUSESIG\] option. In Kernel V. 8.0 the *Electronic Signature codeEdit* \[XUSESIG\] option has been tied to the Common Options, under the *User’s Toolbox* \[XUSERTOOLS\] submenu, for easy access by all users.
+Electronic signatures may be established by using the *Electronic Signature codeEdit* \[XUSESIG\] option. In Kernel V. 8.0 the *Electronic Signature codeEdit* \[XUSESIG\] option has been tied to the Common Options, under the *User's Toolbox* \[XUSERTOOLS\] submenu, for easy access by all users.
 
 ### Menu Assignments
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to the Package Coordinator for Outpatient Pharmacy and also added to the menu of the Site Manager and any ADP/IRMS staff that s/he selects to help in the operation of Outpatient Pharmacy. The *Pharmacist Menu* \[PSO USER1\] option should be assigned to all pharmacists and the *Pharmacy Technician’s Menu* \[PSO USER2\] option should be assigned to all pharmacy technicians and other pharmacy personnel who may view prescriptions, inquire into other Outpatient Pharmacy files, or both.
+The *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to the Package Coordinator for Outpatient Pharmacy and also added to the menu of the Site Manager and any ADP/IRMS staff that s/he selects to help in the operation of Outpatient Pharmacy. The *Pharmacist Menu* \[PSO USER1\] option should be assigned to all pharmacists and the *Pharmacy Technician's Menu* \[PSO USER2\] option should be assigned to all pharmacy technicians and other pharmacy personnel who may view prescriptions, inquire into other Outpatient Pharmacy files, or both.
 
 ### Security Keys
 
@@ -3194,13 +3316,13 @@ GROUP</td>
 
 <span id="_Toc207089095" class="anchor"></span>Table 20: Glossary
 
-18. Please refer to Chapter 28 of Kernel V. 8.0 Systems Manual concerning installation of security codes sections entitled “Sending Security Codes.”
+18. Please refer to Chapter 28 of Kernel V. 8.0 Systems Manual concerning installation of security codes sections entitled "Sending Security Codes."
 
 ## Outpatient Pharmacy V. 7.0 Menu Diagrams
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Three main menus are exported with the package. The *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to supervisors, package coordinators, and members of the ADP/IRMS staff. Pharmacists should have the *Pharmacist Menu* \[PSO USER1\] option and clerks and technicians should have the *Pharmacy Technician’s Menu* \[PSO USER2\] option.
+Three main menus are exported with the package. The *Outpatient Pharmacy Manager* \[PSO MANAGER\] menu should be assigned to supervisors, package coordinators, and members of the ADP/IRMS staff. Pharmacists should have the *Pharmacist Menu* \[PSO USER1\] option and clerks and technicians should have the *Pharmacy Technician's Menu* \[PSO USER2\] option.
 
 ### Outpatient Pharmacy Manager
 
@@ -3226,7 +3348,7 @@ Three main menus are exported with the package. The *Outpatient Pharmacy Manager
 
 > Print Archived Prescriptions
 
-> Autocancel Rx’s on Admission
+> Autocancel Rx's on Admission
 
 > Bingo Board ...
 
@@ -3250,11 +3372,11 @@ Three main menus are exported with the package. The *Outpatient Pharmacy Manager
 
 > Enter New Patient
 
-> Display Patient’s Name on Monitor
+> Display Patient's Name on Monitor
 
-> Remove Patient’s Name from Monitor
+> Remove Patient's Name from Monitor
 
-> Status of Patient’s Order
+> Status of Patient's Order
 
 > Change Label Printer
 
@@ -3314,7 +3436,7 @@ Three main menus are exported with the package. The *Outpatient Pharmacy Manager
 
 > Queue Background Jobs
 
-> Autocancel Rx’s on Admission
+> Autocancel Rx's on Admission
 
 > Bingo Board Manager ...
 
@@ -3538,7 +3660,7 @@ Three main menus are exported with the package. The *Outpatient Pharmacy Manager
 
 > View ePharmacy Rx
 
-> List One Patient’s Archived Rx’s
+> List One Patient's Archived Rx's
 
 > Manual Print of Multi-Rx Forms
 
@@ -3642,11 +3764,11 @@ Reinitialize ScripTalk Printer
 
 > Change Suspense Date
 
-> Count of Suspended Rx’s by Day
+> Count of Suspended Rx's by Day
 
-> Delete Printed Rx’s from Suspense
+> Delete Printed Rx's from Suspense
 
-> Log of Suspended Rx’s by Day (this Division)
+> Log of Suspended Rx's by Day (this Division)
 
 > Print from Suspense File
 
@@ -3674,11 +3796,11 @@ Reinitialize ScripTalk Printer
 
 > Enter New Patient
 
-> Display Patient’s Name on Monitor
+> Display Patient's Name on Monitor
 
-> Remove Patient’s Name from Monitor
+> Remove Patient's Name from Monitor
 
-> Status of Patient’s Order
+> Status of Patient's Order
 
 > Change Label Printer
 
@@ -3774,7 +3896,7 @@ Reinitialize ScripTalk Printer
 
 > View ePharmacy Rx
 
-> List One Patient’s Archived Rx’s
+> List One Patient's Archived Rx's
 
 > Manual Print of Multi-Rx Forms
 
@@ -3796,7 +3918,7 @@ Reinitialize ScripTalk Printer
 
 > Rx Verification by Clerk
 
-### Pharmacy Technician’s Menu
+### Pharmacy Technician's Menu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -3804,11 +3926,11 @@ Reinitialize ScripTalk Printer
 
 > Enter New Patient
 
-> Display Patient’s Name on Monitor
+> Display Patient's Name on Monitor
 
-> Remove Patient’s Name from Monitor
+> Remove Patient's Name from Monitor
 
-> Status of Patient’s Order
+> Status of Patient's Order
 
 > Change Label Printer
 
@@ -3836,7 +3958,7 @@ Reinitialize ScripTalk Printer
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Transitional Pharmacy Benefit (TPB) options were available in previous releases of Outpatient Pharmacy V. 7.0 but are currently placed “Out of Order” by PSO\*7\*227.
+The Transitional Pharmacy Benefit (TPB) options were available in previous releases of Outpatient Pharmacy V. 7.0 but are currently placed "Out of Order" by PSO\*7\*227.
 
 Non-VA Provider Inactivate \[PSO NON-VA PROVIDER INACTIVATE\] option was added by patch PSO\*7.0\*481. This option is not attached to a menu and therefore must be assigned individually to each user requiring access. See the Non-VA Provider Import (PSO\*7.0\*481) Deployment, Installation, Back-out and Rollback Guide for more information.
 
@@ -3872,7 +3994,7 @@ The primary global the Outpatient Pharmacy V. 7.0 package uses is ^PSRX. This gl
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This version of Outpatient Pharmacy includes the ability to print barcodes on the patient copy, the pharmacist’s copy, and the patient narrative documents for new label stock and laser labels. Two options utilize the barcodes.
+This version of Outpatient Pharmacy includes the ability to print barcodes on the patient copy, the pharmacist's copy, and the patient narrative documents for new label stock and laser labels. Two options utilize the barcodes.
 
 19. The OneVA Pharmacy Patch PSO\*7\*454 introduced the OneVA Pharmacy label-generation functionality with new/updated label routines. The barcode printed on the OneVA Pharmacy label will contain the host site information where the prescription order originated not the dispensing site where the prescription is being filled.
 
@@ -3880,7 +4002,7 @@ This version of Outpatient Pharmacy includes the ability to print barcodes on th
 
     *Barcode Batch Prescription Entry* \[PSO BATCH BARCODE\] option is used to actually refill the prescriptions utilizing barcodes in a batch entry.
 
-If barcodes are not used, enter an “OUT OF ORDER MESSAGE” for these two options.
+If barcodes are not used, enter an "OUT OF ORDER MESSAGE" for these two options.
 
 ### Barcodes on Dot Matrix Printers
 
@@ -3925,7 +4047,7 @@ Previously, old label stock printed barcodes in one column at 10 characters per 
 
 20. If you cannot find barcodes that work, please contact the nearest OIFO.
 
-Check to see that a line feed is performed after the barcode off sequence is executed. Due to limited space, information must be printed after certain barcodes print, without relying on a line feed in the Outpatient Pharmacy code. To test this, print a test label for an Rx with no refills. On the center copy of the label, on the next line after the “station number-Rx no.” which prints directly under the barcode, one of the two following lines should print clearly:
+Check to see that a line feed is performed after the barcode off sequence is executed. Due to limited space, information must be printed after certain barcodes print, without relying on a line feed in the Outpatient Pharmacy code. To test this, print a test label for an Rx with no refills. On the center copy of the label, on the next line after the "station number-Rx no." which prints directly under the barcode, one of the two following lines should print clearly:
 
 \* NO REFILLS REMAINING \*\* PHYSICIAN USE ONLY \*
 
@@ -3939,7 +4061,7 @@ If there is a problem, insert a line feed at the end of the Barcode Off sequence
 
 Remember to set the New Label Stock site parameter to Yes.
 
-Three site parameters provide patient instructions that will print after each patient’s prescriptions. They are “NARRATIVE NON-REFILLABLE RX”, “NARRATIVE REFILLABLE RX”, and “NARRATIVE FOR COPAY DOCUMENT”. The “NARRATIVE FOR COPAY DOCUMENT” will only print if at least one of the patient’s prescriptions is subject to a Copay charge.
+Three site parameters provide patient instructions that will print after each patient's prescriptions. They are "NARRATIVE NON-REFILLABLE RX", "NARRATIVE REFILLABLE RX", and "NARRATIVE FOR COPAY DOCUMENT". The "NARRATIVE FOR COPAY DOCUMENT" will only print if at least one of the patient's prescriptions is subject to a Copay charge.
 
 For the Data South 220
 
@@ -3967,7 +4089,7 @@ BAR CODE OFF=\*27,"\[0t",!
 
 For the MT290:
 
-BAR CODE ON=\*26, "F0",\$S(‘\$D(X):2,X="M":2,X="S":1,X="L":6,1:2), ";000",\*25,\*20,"\*"
+BAR CODE ON=\*26, "F0",\$S('\$D(X):2,X="M":2,X="S":1,X="L":6,1:2), ";000",\*25,\*20,"\*"
 
 BAR CODE OFF="\*",\*20,!,?\$S(\$D(X1):X1,1:0),\$S(\$D(X2):X2,1:"")
 
@@ -4795,7 +4917,7 @@ x Weight (kg)<sup>0.425</sup></p>
 </tr>
 <tr class="odd">
 <td>Gene</td>
-<td>A gene is a section of an individual’s DNA that provides instructions for making proteins, including those that affect how the body processes medications.</td>
+<td>A gene is a section of an individual's DNA that provides instructions for making proteins, including those that affect how the body processes medications.</td>
 </tr>
 <tr class="even">
 <td>Genotype</td>
@@ -4815,7 +4937,7 @@ x Weight (kg)<sup>0.425</sup></p>
 </tr>
 <tr class="even">
 <td>Non-VA Meds</td>
-<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients’ medical records.</td>
+<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients' medical records.</td>
 </tr>
 <tr class="odd">
 <td>OneVA Pharmacy Label</td>
@@ -4867,11 +4989,11 @@ x Weight (kg)<sup>0.425</sup></p>
 </tr>
 <tr class="odd">
 <td>VHA</td>
-<td>Veterans’ Health Administration</td>
+<td>Veterans' Health Administration</td>
 </tr>
 <tr class="even">
 <td>VHIC</td>
-<td>Veterans’ Health Identification Card</td>
+<td>Veterans' Health Identification Card</td>
 </tr>
 <tr class="odd">
 <td>VistA</td>
@@ -4897,7 +5019,7 @@ x Weight (kg)<sup>0.425</sup></p>
 
 This document specifies an interface between the VistA Outpatient Pharmacy V. 7.0 application and any automatic dispensing system. It is based upon the Health Level 7 Standard (HL7) V. 2.4.
 
-The term “Level 7” refers to the highest level of the Open System Interconnection (OSI) model of the International Standards Organization (ISO). The OSI model is divided into seven levels or layers. The HL7 Standard is primarily focused on what happens within the seventh or application layer. At this layer, the definitions of the data to be exchanged, the timing of the exchanges, and the communication of certain application specific errors occurs. The lower levels support the actual movement of data between systems.
+The term "Level 7" refers to the highest level of the Open System Interconnection (OSI) model of the International Standards Organization (ISO). The OSI model is divided into seven levels or layers. The HL7 Standard is primarily focused on what happens within the seventh or application layer. At this layer, the definitions of the data to be exchanged, the timing of the exchanges, and the communication of certain application specific errors occurs. The lower levels support the actual movement of data between systems.
 
 The high-level communication requirements for this interface include TCP/IP, HL7 Logical link and bi-directional communications for the BusinessWare server at the VAMC. BusinessWare will support MLLP connection.
 
@@ -4926,7 +5048,7 @@ A field is a string of characters. HL7 does not care how systems actually store 
 
 #### Special Escaping Characters
 
-Standard HL7 field delimiters represented by the “~ , &, \| ” (tilde, ampersand, pipe) characters, as well as the commonly used VistA “^” (caret), are sometimes needed by users of Outpatient Pharmacy in various fields to provide complete information about a patient or order. The use of these characters can cause sending and receiving software to format HL7 messages incorrectly, construct / deconstruct the information, or both incorrectly. Data loss can also occur if data is truncated at one of the special delimiter characters.
+Standard HL7 field delimiters represented by the "~ , &, \| " (tilde, ampersand, pipe) characters, as well as the commonly used VistA "^" (caret), are sometimes needed by users of Outpatient Pharmacy in various fields to provide complete information about a patient or order. The use of these characters can cause sending and receiving software to format HL7 messages incorrectly, construct / deconstruct the information, or both incorrectly. Data loss can also occur if data is truncated at one of the special delimiter characters.
 
 The following fields require special escaping characters.
 
@@ -5255,7 +5377,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td></td>
 <td></td>
 <td></td>
-<td>Active Veteran’s Health Identification Card (VHIC) number(s)</td>
+<td>Active Veteran's Health Identification Card (VHIC) number(s)</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -5497,7 +5619,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td>O</td>
 <td></td>
 <td></td>
-<td>Enterer’s Location</td>
+<td>Enterer's Location</td>
 <td>_TNA1225:</td>
 </tr>
 <tr class="odd">
@@ -5651,7 +5773,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <p>8 = Medication Instructions</p>
 <p>9 = Privacy Notification</p></td>
 <td><p>Medication Instructions</p>
-<p><strong>NOTE</strong>: The separator value “\.sp\” has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.</p></td>
+<p><strong>NOTE</strong>: The separator value "\.sp\" has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.</p></td>
 </tr>
 <tr class="even">
 <td>RXE</td>
@@ -5771,7 +5893,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td>O</td>
 <td></td>
 <td></td>
-<td>Ordering Provider’s DEA Number</td>
+<td>Ordering Provider's DEA Number</td>
 <td>EZ9278277</td>
 </tr>
 <tr class="odd">
@@ -5782,7 +5904,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td>C</td>
 <td></td>
 <td></td>
-<td>Pharmacist/Treatment Supplier’s Verifier ID</td>
+<td>Pharmacist/Treatment Supplier's Verifier ID</td>
 <td>188~OPPROVIDER3~ONE</td>
 </tr>
 <tr class="even">
@@ -5971,7 +6093,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td>O</td>
 <td></td>
 <td></td>
-<td>Pharmacy/Treatment Supplier’s Special Dispensing Instructions</td>
+<td>Pharmacy/Treatment Supplier's Special Dispensing Instructions</td>
 <td>~NON-SAFETY</td>
 </tr>
 <tr class="odd">
@@ -6039,7 +6161,7 @@ PID\|\|\|5000002199V009321\~\~~USVHA&&0363~NI~VA FACILITY ID&500&L\~~20140212^23
 <td></td>
 <td>Comment Type – P MI</td>
 <td><p>Patient Medication Instructions</p>
-<p><strong>NOTE</strong>: The separator value “\.sp\” has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.</p></td>
+<p><strong>NOTE</strong>: The separator value "\.sp\" has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -6107,7 +6229,7 @@ Notes pertaining to some of the data elements:
 - PN = Claim \#
 - PI = DFN \#
 
-\[PID-4\] Alternate Patient ID will contain the active Veteran’s Health Identification Card (VHIC) number(s) to identify a patient.
+\[PID-4\] Alternate Patient ID will contain the active Veteran's Health Identification Card (VHIC) number(s) to identify a patient.
 
 \[PID-11\] Patient Address
 
@@ -6141,7 +6263,7 @@ When the <u>temporary</u> address is active, both the temporary and permanent ad
 
 > ^HL(772,35537819,"IN",3,0)="~""""~061\~\~~20160628&20160718^1 CONFIDENTIAL STREET~""""~NEW YORK~NY~10019~USA~VACAM~""""~061\~\~~20160628&20160718^200 TEMPROARY ADDRESS~""""~NEW YORK~NY~10017~USA~C
 
-\[PID-11\] If the BAD ADDRESS INDICATOR (BAI) field (#.121) of the PATIENT file (#2) is set, the text “VAB” concatenated with the BAI code is sent in the Address field of the PID segment of the HL7 message to the filling equipment.
+\[PID-11\] If the BAD ADDRESS INDICATOR (BAI) field (#.121) of the PATIENT file (#2) is set, the text "VAB" concatenated with the BAI code is sent in the Address field of the PID segment of the HL7 message to the filling equipment.
 
 Example: Permanent address – active:
 
@@ -6181,7 +6303,7 @@ category=5 (ALL OTHERS): VACAO
 
 otherwise= null
 
-The “C” is hardcoded after USA (the country) on the Temporary Address record.
+The "C" is hardcoded after USA (the country) on the Temporary Address record.
 
 The vendor will need to read through the addresses (^ pieces) until it finds the C in the 7th ~ piece of data for a temporary address.
 
@@ -6237,11 +6359,11 @@ NEW YORK~NY~10017~USA~C~""""~061\~\~~20160623&20160802\|\|(222)222-2222~PRN~PH^(
 
 \[ORC-2\] Placer Order Number is a composite field. The first component is the IEN from the PRESCRIPTION file (#52). The second component is hard-coded to a value of OP7.0.
 
-\[ORC-10\] Entered By is the person’s pointer to the NEW PERSON file (#200) and name in VistA who keyed in the order.
+\[ORC-10\] Entered By is the person's pointer to the NEW PERSON file (#200) and name in VistA who keyed in the order.
 
-\[ORC-12\] Ordering Provider is a composite ID field. The first component is the Provider’s pointer to the NEW PERSON file (#200) in VistA and the second component is his/her name.
+\[ORC-12\] Ordering Provider is a composite ID field. The first component is the Provider's pointer to the NEW PERSON file (#200) in VistA and the second component is his/her name.
 
-\[ORC.13\] Enterer’s Location is the printer where the dispensing machine should print the label.
+\[ORC.13\] Enterer's Location is the printer where the dispensing machine should print the label.
 
 \[ORC-15\] Order Effective Date is the date/time the order took effect.
 
@@ -6249,17 +6371,17 @@ NEW YORK~NY~10017~USA~C~""""~061\~\~~20160623&20160802\|\|(222)222-2222~PRN~PH^(
 
 \[ORC-17\] Entering Organization is the Clinic number and name.
 
-\[ORC-19\] Action By is the physician who cosigned, if any, and is a composite field. The first component is the physician’s pointer to the NEW PERSON file (#200) in VistA and the second component is his/her name.
+\[ORC-19\] Action By is the physician who cosigned, if any, and is a composite field. The first component is the physician's pointer to the NEW PERSON file (#200) in VistA and the second component is his/her name.
 
-\[ORC-20\] Advanced Beneficiary Notice Code is used to send an indicator to an automated dispensing system that the RX being dispensed is for an electronically billed prescription and that a patient signature is needed. The value of “VA5” will be sent as the indicator in the RDS^O13 Dispense Request message for an ePharmacy patient prescription.
+\[ORC-20\] Advanced Beneficiary Notice Code is used to send an indicator to an automated dispensing system that the RX being dispensed is for an electronically billed prescription and that a patient signature is needed. The value of "VA5" will be sent as the indicator in the RDS^O13 Dispense Request message for an ePharmacy patient prescription.
 
 \[ORC-21\] Ordering Facility Name is the facility name and number found in the OUTPATIENT SITE file (#59).
 
-<span id="orc30" class="anchor"></span>\[ORC-30\] Enterer Authorization Mode is passed for digitally signed controlled substance orders. The value of ‘EL’ is used, representing a value of ‘Electronic’.
+<span id="orc30" class="anchor"></span>\[ORC-30\] Enterer Authorization Mode is passed for digitally signed controlled substance orders. The value of 'EL' is used, representing a value of 'Electronic'.
 
 \[NTE\] The Set ID field will identify the NTE segment (1=Med. Instructions; 2=Patient Instructions Narrative; 3=Drug Warning Narrative; 4=Profile Information; 5=Drug Interactions; 6=Drug Allergy Indications; 7=PMI Sheet; 8=Medication Instructions; 9=Privacy Notification.) The Comment field will contain the respective information.
 
-29. The separator value “\\sp\\ has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.
+29. The separator value "\\sp\\ has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.
 
 \[RXE-1\] Quantity Timing is a required field, but it will not be used in Outpatient Pharmacy V. 7.0. It will always be a null value ("").
 
@@ -6279,9 +6401,9 @@ NEW YORK~NY~10017~USA~C~""""~061\~\~~20160623&20160802\|\|(222)222-2222~PRN~PH^(
 
 \[RXE-11\] Dispense Units identifies the units for the dispense amount as encoded by the Pharmacy.
 
-\[RXE-13\] Ordering Provider’s DEA Number will contain the physician’s DEA number if the drug is a controlled substance.
+\[RXE-13\] Ordering Provider's DEA Number will contain the physician's DEA number if the drug is a controlled substance.
 
-\[RXE-14\] Pharmacist/Treatment Supplier’s Verifier ID identifies the pharmacist who verified the order. The first component is the DFN pointer in the NEW PERSON file (#200) of VistA and the second component is the name.
+\[RXE-14\] Pharmacist/Treatment Supplier's Verifier ID identifies the pharmacist who verified the order. The first component is the DFN pointer in the NEW PERSON file (#200) of VistA and the second component is the name.
 
 \[RXE-18\] D/T of Most Recent Refill or Dose Dispensed contains the last date/time the patient received this particular drug. This is the PRIOR FILL DATE field (#102.1) from the PRESCRIPTION file (#52).
 
@@ -6291,7 +6413,7 @@ NEW YORK~NY~10017~USA~C~""""~061\~\~~20160623&20160802\|\|(222)222-2222~PRN~PH^(
 
 - An indicator that the drug is a controlled substance or not (Y/N).
 - An indicator if the patient is a ScripTalk patient (0 or 1).
-- An indicator if the patient’s PMI language preference is something other than English (Y/N).
+- An indicator if the patient's PMI language preference is something other than English (Y/N).
 
 \[RXD-1\] Dispense Sub-ID Counter identifies the prescription fill number.
 
@@ -6308,13 +6430,13 @@ NEW YORK~NY~10017~USA~C~""""~061\~\~~20160623&20160802\|\|(222)222-2222~PRN~PH^(
 
 \[RXD-13\] Dispense-To-Location will contain how the patient will receive the medication. Possible answers are WINDOW, REGULAR MAIL, CERTIFIED MAIL or DO NOT MAIL.
 
-\[RXD-15\] Pharmacy/Treatment Supplier’s Special Dispensing Instructions will indicate what sort of bottle cap should be employed. It is a safety cap or non-safety cap.
+\[RXD-15\] Pharmacy/Treatment Supplier's Special Dispensing Instructions will indicate what sort of bottle cap should be employed. It is a safety cap or non-safety cap.
 
 \[RXD-25\] Supplementary Code is the drug warning number and text.
 
 \[NTE\] This segment following the RXD segment will contain the Patient Medication Instructions if any.
 
-30. The separator value “\\sp\\ has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.
+30. The separator value "\\sp\\ has been added to NTE-3, 3 = Drug Warning Narrative, to separate the different warning labels.
 
 \[RXR-1\] Route is the medication route.
 
@@ -6369,7 +6491,7 @@ RXD\|3\|^ASPIRIN 325 MG TAB\|20030610\|\|\|\|100001351\|\|20031212~233~6505-00-5
 |         | 16   | 2   | ID  |     |      | 0155 | Application Ack Type                                               | AL                                                                                                |
 |         |      |     |     |     |      |      |                                                                    |                                                                                                   |
 | PID     | 3    | 250 | CX  | R   | Y    |      | Patient ID (will contain IEN, SSN, ICN, Claim \#, etc., if exists) | 218\~\~~USVHA&&0363~PI~VA FACILITY ID&500&L                                                       |
-| PID     | 4    | 250 | CX  |     |      |      | Active Veteran’s Health Identification Card (VHIC) number(s)       |                                                                                                   |
+| PID     | 4    | 250 | CX  |     |      |      | Active Veteran's Health Identification Card (VHIC) number(s)       |                                                                                                   |
 |         | 5    | 250 | XPN | R   |      |      | Patient Name                                                       | OPPATIENT~ONE                                                                                     |
 |         | 7    | 26  | TS  | R   |      |      | Date/Time of Birth                                                 | 19280622                                                                                          |
 |         | 8    | 1   | IS  |     |      | 0001 | Administrative Sex                                                 | M                                                                                                 |
@@ -6411,7 +6533,7 @@ Notes pertaining to some of the data elements:
 - PN = Claim \#
 - PI = DFN \#
 
-\[PID-4\] Alternate Patient ID will contain the active Veteran’s Health Identification Card (VHIC) number(s) to identify a patient.
+\[PID-4\] Alternate Patient ID will contain the active Veteran's Health Identification Card (VHIC) number(s) to identify a patient.
 
 \[PV1-2\] Patient Class is hard-coded to an O for outpatient.
 
@@ -6685,7 +6807,7 @@ RXD\|1\|D0082^DIGOXIN 0.25MG TAB^99PSNDF^372.3^DIGOXIN 0.25MG TAB^99PSD\|2003121
 <td></td>
 <td></td>
 <td></td>
-<td>Active Veteran’s Health Identification Card (VHIC) number(s)</td>
+<td>Active Veteran's Health Identification Card (VHIC) number(s)</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -6921,7 +7043,7 @@ Notes pertaining to some data elements:
 - PN = Claim \#
 - PI = DFN \#
 
-\[PID-4\] Patient ID will contain the active Veteran’s Health Identification Card (VHIC) number(s) to identify a patient.
+\[PID-4\] Patient ID will contain the active Veteran's Health Identification Card (VHIC) number(s) to identify a patient.
 
 \[ORC-2\] Placer Order Number is the RX internal entry number.
 
@@ -6994,7 +7116,7 @@ When the PSO RECEIVE ORDER protocol is enabled to process orders from an externa
 |         |       |                                                |                                                                                              |                              |
 | PVI     | 3     | Clinic (pointer to File \#44)                  | VistA IEN of Hospital Location from File \#44                                                | Composite                    |
 |         |       |                                                |                                                                                              |                              |
-| ORC     | 1     | Order Control Code                             | ‘NW’                                                                                         | Coded Value                  |
+| ORC     | 1     | Order Control Code                             | 'NW'                                                                                         | Coded Value                  |
 |         | 2     | Placer Order Number\*                          | External Placer Order Number                                                                 | Composite                    |
 |         | 9     | Date/Time of Transaction                       | Current Date/Time                                                                            | Time Stamp                   |
 |         | 10    | Entered By                                     | VistA IEN of Provider from File \#200                                                        | Composite ID Number and Name |
@@ -7004,13 +7126,13 @@ When the PSO RECEIVE ORDER protocol is enabled to process orders from an externa
 |         | 11    | Quantity                                       | Quantity                                                                                     | Numeric                      |
 |         | 13    | Number of Refills                              | Number of Refills                                                                            | Numeric                      |
 |         |       |                                                |                                                                                              |                              |
-| NTE     | 6     | Provider’s Instructions to Dispensing Pharmacy | Free Text Provider Comments                                                                  | String                       |
-|         | 7     | Patient’s Instructions                         | Expanded Sig                                                                                 | String                       |
+| NTE     | 6     | Provider's Instructions to Dispensing Pharmacy | Free Text Provider Comments                                                                  | String                       |
+|         | 7     | Patient's Instructions                         | Expanded Sig                                                                                 | String                       |
 |         |       |                                                |                                                                                              |                              |
 | ZRN     | 1     | Non-VA                                         | N                                                                                            | Coded Element (N=Non VA med) |
 |         | 2     | Statement/Reason                               | Non-VA Medication not recommended by VA provider or Medication prescribed by non-VA provider | String                       |
 |         |       |                                                |                                                                                              |                              |
-| ZRX     | 4     | Routing                                        | ‘W’ (for Window)                                                                             | String                       |
+| ZRX     | 4     | Routing                                        | 'W' (for Window)                                                                             | String                       |
 
 <span id="_Toc207089106" class="anchor"></span>Table 31: Example of VDEF HL7 Message Details
 
@@ -7039,7 +7161,7 @@ The PSO RECEIVE ORDER protocol can also receive discontinue order messages. The 
 |         |       |                               |                                                                                              |                              |
 | PVI     | 3     | Clinic (pointer to File \#44) | VistA IEN of Hospital Location from File \#44                                                | Composite                    |
 |         |       |                               |                                                                                              |                              |
-| ORC     | 1     | Order Control Code            | ‘CA’                                                                                         | Coded Value                  |
+| ORC     | 1     | Order Control Code            | 'CA'                                                                                         | Coded Value                  |
 |         | 2     | Placer Order Number\*         | External Placer Order Number                                                                 | Composite                    |
 |         | 9     | Date/Time of Transaction      | Current Date/Time                                                                            | Time Stamp                   |
 |         | 10    | Entered By                    | VistA IEN of Provider from File \#200                                                        | Composite ID Number and Name |
@@ -7084,7 +7206,7 @@ Exceptions will occur when VistA rejects a new or discontinue order message. For
 
 Drug exceptions
 
-- Drug is inactive (less than today’s date)
+- Drug is inactive (less than today's date)
 - Drug is not marked for outpatient use
 - Drug is not associated with a Pharmacy Orderable Item
 - Invalid drug entry
@@ -7161,7 +7283,7 @@ Other exceptions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Transitional Pharmacy Benefit (TPB) functionality has been placed “Out of Order” with the PSO\*7\*227 patch.
+The Transitional Pharmacy Benefit (TPB) functionality has been placed "Out of Order" with the PSO\*7\*227 patch.
 
 ## Appendix D: HL7 Messaging for VistA Data Extraction Framework (VDEF)
 
@@ -10245,8 +10367,8 @@ ASAP 4.1+: Routing Number (Real-time transactions only) (Not Used)</td>
 <td><p>ASAP 3.0: Creation Time. Format: HHMMSS or HHMM<br />
 ASAP 4.0+: Segment Terminator Character</p>
 <ul>
-<li><p>For ASAP version 4.0, the separator is set to “\” (backward slash)</p></li>
-<li><p>For ASAP version 4.0, 4.1 and 4.2, the separator is set to “~” (tilde)</p></li>
+<li><p>For ASAP version 4.0, the separator is set to "\" (backward slash)</p></li>
+<li><p>For ASAP version 4.0, 4.1 and 4.2, the separator is set to "~" (tilde)</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -10330,7 +10452,7 @@ ASAP 4.0+: Segment Terminator Character</p>
 <p>Entity name of the Information Receiver</p></td>
 <td><p><strong>File</strong>: STATE (#5)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
-<p>Concatenated with “PMP PROGRAM”</p>
+<p>Concatenated with "PMP PROGRAM"</p>
 <p><strong>Example</strong>: OKLAHOMA PMP PROGRAM</p></td>
 </tr>
 <tr class="odd">
@@ -10467,7 +10589,7 @@ Use if available</p></td>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>99 Other (Trading partner agreed upon ID, such as cardholder ID)</p></td>
@@ -10477,7 +10599,7 @@ Use if available</p></td>
 <td>PAT03</td>
 <td><p>ID of Patient</p>
 <p>Identification number for the patient as indicated in PAT02</p>
-<p>An example would be the driver’s license number</p></td>
+<p>An example would be the driver's license number</p></td>
 <td><p>ASAP 3.0 : Unique System ID - Patient (Not Used)<br />
 ASAP 4.0+: ID of Patient (SSN)</p>
 <p>Retrieved via the Registration API $$DEM^VADPT (ICR #10061) return variable VADM(2)</p>
@@ -10503,7 +10625,7 @@ ASAP 4.0+: ID Qualifier of Additional Patient Identifier (Not Used)</p></td>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>99 Other (Trading partner agreed upon ID, such as cardholder ID)</p></td>
@@ -10513,27 +10635,27 @@ ASAP 4.0+: ID Qualifier of Additional Patient Identifier (Not Used)</p></td>
 <td>PAT06</td>
 <td><p>Additional ID</p>
 <p>Identification that might be required by the PMP to further identify the individual</p>
-<p>An example: in PAT03, driver’s license is required and in PAT06, Social Security number is also required</p></td>
+<p>An example: in PAT03, driver's license is required and in PAT06, Social Security number is also required</p></td>
 <td>Not Used</td>
 </tr>
 <tr class="odd">
 <td>PAT07</td>
 <td><p>Last Name</p>
-<p>Patient’s last name</p></td>
+<p>Patient's last name</p></td>
 <td><p>Retrieved via the Registration API $$DEM^VADPT (ICR #10061) return variable VADM(1) – first value before the comma (e.g., SMITH, JOHN F)</p>
 <p><strong>Example</strong>: SMITH</p></td>
 </tr>
 <tr class="even">
 <td>PAT08</td>
 <td><p>First Name</p>
-<p>Patient’s first name</p></td>
+<p>Patient's first name</p></td>
 <td><p>Retrieved via the Registration API $$DEM^VADPT (ICR #10061) return variable VADM(1) – first value after the comma and before blank space (e.g., SMITH, JOHN F)</p>
 <p>Example: JOHN</p></td>
 </tr>
 <tr class="odd">
 <td>PAT09</td>
 <td><p>Middle Name</p>
-<p>Patient’s middle name or initial if available</p>
+<p>Patient's middle name or initial if available</p>
 <p>Used if available in pharmacy system and required by the PMP</p></td>
 <td><p>Retrieved via the Registration API $$DEM^VADPT (ICR #10061) return variable VADM(1) –value following the first name (e.g., SMITH, JOHN F)</p>
 <p>Example: F</p></td>
@@ -10541,14 +10663,14 @@ ASAP 4.0+: ID Qualifier of Additional Patient Identifier (Not Used)</p></td>
 <tr class="even">
 <td>PAT10</td>
 <td><p>Name Prefix</p>
-<p>Patient’s name prefix such as Mr. or Dr.</p>
+<p>Patient's name prefix such as Mr. or Dr.</p>
 <p>Used if available in pharmacy system and required by the PMP</p></td>
 <td>Not Used</td>
 </tr>
 <tr class="odd">
 <td>PAT11</td>
 <td><p>Name Suffix</p>
-<p>Patient’s name prefix such as Jr. or the III</p>
+<p>Patient's name prefix such as Jr. or the III</p>
 <p>Used if available in pharmacy system and required by the PMP</p></td>
 <td>Not Used</td>
 </tr>
@@ -10657,7 +10779,7 @@ Retrieved via the Registration API $$DEM^VADPT (ICR #10061) return variable VADM
 <tr class="even">
 <td>PAT22</td>
 <td><p>Country of Non-U.S. Resident</p>
-<p>Used when the patient’s address is a foreign country and PAT12 through PAT16 are left blank.</p>
+<p>Used when the patient's address is a foreign country and PAT12 through PAT16 are left blank.</p>
 <p>This is a free-form text field</p></td>
 <td><p>ASAP 3.0 : Primary Prescription Coverage Type (Not Used)<br />
 ASAP 4.0+:Country of Non-U.S. Resident</p>
@@ -10765,7 +10887,7 @@ ASAP 4.0+:Country of Non-U.S. Resident</p>
 <p>03 HRI</p>
 <p>04 UPN</p>
 <p>05 DIN</p>
-<p>06 Compound (used to indicate it is a compound’ if used, the CDI segment then becomes a required segment)</p></td>
+<p>06 Compound (used to indicate it is a compound' if used, the CDI segment then becomes a required segment)</p></td>
 <td>Always <strong>01</strong> (NDC)</td>
 </tr>
 <tr class="even">
@@ -10916,7 +11038,7 @@ ASAP 4.0+:Country of Non-U.S. Resident</p>
 <p>03 Medicare</p>
 <p>04 Commercial Insurance</p>
 <p>05 Military Installations and VA</p>
-<p>06 Workers’ Compensation</p>
+<p>06 Workers' Compensation</p>
 <p>07 Indian Nations</p>
 <p>99 Other</p></td>
 <td>Always <strong>05</strong> (Military Installations and VA)</td>
@@ -10924,7 +11046,7 @@ ASAP 4.0+:Country of Non-U.S. Resident</p>
 <tr class="odd">
 <td>DSP17</td>
 <td><p>Date Sold</p>
-<p>Usage of this field depends on the pharmacy having a point-of-sale system that is integrated with the pharmacy management system to allow a bidirectional flow of information, and the PMP requires the capturing of the date received by the patient or the patient’s agent</p>
+<p>Usage of this field depends on the pharmacy having a point-of-sale system that is integrated with the pharmacy management system to allow a bidirectional flow of information, and the PMP requires the capturing of the date received by the patient or the patient's agent</p>
 <p>This date may be different from DSP05</p></td>
 <td>Not Used</td>
 </tr>
@@ -11131,16 +11253,16 @@ ASAP 4.0+: Prescriber National Provider Identifier (NPI)</p>
 <p>Identifying number assigned to a prescriber or an institution by the Drug Enforcement Administration (DEA)</p></td>
 <td><p>ASAP 3.0 : Not Used<br />
 ASAP 4.0+: Prescriber DEA Number</p>
-<p>First “-“ (dash) piece of the value returned by the Registration API $$DEA^XUSER (ICR # 2343) using the prescription fill provider</p>
+<p>First "-" (dash) piece of the value returned by the Registration API $$DEA^XUSER (ICR # 2343) using the prescription fill provider</p>
 <p><strong>Example</strong>: AV4598251</p></td>
 </tr>
 <tr class="even">
 <td>PRE03</td>
 <td><p>DEA Number Suffix</p>
-<p>Identifying number assigned to a prescriber by an institution when the institution’s number is used as the DEA number, if required by the PMP</p></td>
+<p>Identifying number assigned to a prescriber by an institution when the institution's number is used as the DEA number, if required by the PMP</p></td>
 <td><p>ASAP 3.0 : Prescriber NPI<br />
 ASAP 4.0+: Prescriber DEA Number Suffix</p>
-<p>Second “-“ (dash) piece of the value returned by the Registration API $$DEA^XUSER (ICR # 2343) using the prescription fill provider</p>
+<p>Second "-" (dash) piece of the value returned by the Registration API $$DEA^XUSER (ICR # 2343) using the prescription fill provider</p>
 <p><strong>Example</strong>: 4598251PP</p></td>
 </tr>
 <tr class="odd">
@@ -11154,7 +11276,7 @@ ASAP 4.0+: Prescriber State License Number (Not Used)</td>
 <tr class="even">
 <td>PRE05</td>
 <td><p>Last Name</p>
-<p>Prescriber’s last name</p>
+<p>Prescriber's last name</p>
 <p>Used if required by the PMP</p></td>
 <td><p>ASAP 3.0 : Prescriber DEA Number Suffix<br />
 ASAP 4.0+: Prescriber Last Name</p>
@@ -11166,7 +11288,7 @@ ASAP 4.0+: Prescriber Last Name</p>
 <tr class="odd">
 <td>PRE06</td>
 <td><p>First Name</p>
-<p>Prescriber’s first name</p>
+<p>Prescriber's first name</p>
 <p>Used if required by the PMP</p></td>
 <td><p>ASAP 3.0 : Prescriber State License Number (Not Used)<br />
 ASAP 4.0+: Prescriber First Name</p>
@@ -11178,7 +11300,7 @@ ASAP 4.0+: Prescriber First Name</p>
 <tr class="even">
 <td>PRE07</td>
 <td><p>Middle Name</p>
-<p>Prescriber’s middle name or initial</p>
+<p>Prescriber's middle name or initial</p>
 <p>Used if required by the PMP and is available in the pharmacy system</p></td>
 <td><p>ASAP 3.0 : Prescriber Alternate ID (Not Used)<br />
 ASAP 4.0+: Prescriber Middle Name</p>
@@ -11190,7 +11312,7 @@ ASAP 4.0+: Prescriber Middle Name</p>
 <tr class="odd">
 <td>PRE08</td>
 <td><p>Phone Number</p>
-<p>Prescriber’s phone number</p></td>
+<p>Prescriber's phone number</p></td>
 <td><p>ASAP 3.0 : Prescriber's Last Name<br />
 ASAP 4.0 &amp; 4.1: N/A (up to PRE07 only)<br />
 ASAP 4.2: Prescriber's Phone Number</p>
@@ -11201,7 +11323,7 @@ ASAP 4.2: Prescriber's Phone Number</p>
 <tr class="even">
 <td>PRE09</td>
 <td><p>Prescriber' First Name</p>
-<p>Prescriber’s first name</p></td>
+<p>Prescriber's first name</p></td>
 <td><p>ASAP 3.0 Only</p>
 <p><strong>File</strong>: NEW PERSON (#200)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
@@ -11211,7 +11333,7 @@ ASAP 4.2: Prescriber's Phone Number</p>
 <tr class="odd">
 <td>PRE10</td>
 <td><p>Prescriber' Middle Name</p>
-<p>Prescriber’s middle name</p></td>
+<p>Prescriber's middle name</p></td>
 <td><p>ASAP 3.0 Only</p>
 <p><strong>File</strong>: NEW PERSON (#200)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
@@ -11246,7 +11368,7 @@ ASAP 4.2: Prescriber's Phone Number</p>
 <tr class="odd">
 <td>RPH06</td>
 <td><p>Last Name</p>
-<p>Pharmacist’s last name</p></td>
+<p>Pharmacist's last name</p></td>
 <td><p><strong>File</strong>: NEW PERSON (#200)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
 <p>First value before the comma (e.g., <strong>SMITH</strong>, JOHN F)</p>
@@ -11255,7 +11377,7 @@ ASAP 4.2: Prescriber's Phone Number</p>
 <tr class="even">
 <td>RPH07</td>
 <td><p>First Name</p>
-<p>Pharmacist’s first name</p></td>
+<p>Pharmacist's first name</p></td>
 <td><p><strong>File</strong>: NEW PERSON (#200)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
 <p>First value after the comma and before blank space (e.g., SMITH, <strong>JOHN</strong> F)</p>
@@ -11264,7 +11386,7 @@ ASAP 4.2: Prescriber's Phone Number</p>
 <tr class="odd">
 <td>RPH08</td>
 <td><p>Middle Name</p>
-<p>Pharmacist’s middle name or initial</p></td>
+<p>Pharmacist's middle name or initial</p></td>
 <td><p><strong>File</strong>: NEW PERSON (#200)</p>
 <p><strong>Field</strong>: NAME (#.01)</p>
 <p>First value after the comma and after the first blank space (e.g., SMITH, JOHN <strong>F</strong>)</p>
@@ -11484,7 +11606,7 @@ TT\*123456\*10\\
 <td>TH09 - Segment Terminator Character</td>
 <td><p>This terminates the TH segment and sets the actual value of the data segment terminator for the entire transaction.</p>
 <ol start="41">
-<li><p>The ASAP 4.2a Standard document uses the “~” in all examples. See the “Data Element Separators and Segment Terminators” in the standard's introduction for more information.</p></li>
+<li><p>The ASAP 4.2a Standard document uses the "~" in all examples. See the "Data Element Separators and Segment Terminators" in the standard's introduction for more information.</p></li>
 </ol></td>
 <td>$$TH09^PSOASAP()</td>
 <td>Retrieved from the SEGMENT TERMINATOR CHAR field (#58.4001,.03) of the SPMP ASAP RECORD DEFINITION file. Tilde character "~"</td>
@@ -11604,7 +11726,7 @@ TT\*123456\*10\\
 <td>PHA04 - Pharmacy or Dispensing Prescriber Name</td>
 <td><p>Freeform name of the pharmacy.</p>
 <ol start="43">
-<li><p>If a dispensing prescriber, the prescriber’s name and professional degree should be entered, such as John Doe MD.</p></li>
+<li><p>If a dispensing prescriber, the prescriber's name and professional degree should be entered, such as John Doe MD.</p></li>
 </ol></td>
 <td>$$PHA04^PSOASAP()</td>
 <td>NAME field (#.01) retrieved from OUTPATIENT SITE file (#59)</td>
@@ -11708,7 +11830,7 @@ TT\*123456\*10\\
 <tbody>
 <tr class="odd">
 <td><strong>PAT – Patient Information Segment</strong></td>
-<td colspan="4"><p><strong>Purpose: Used to report the patient’s name and basic information as contained in the pharmacy record.</strong></p>
+<td colspan="4"><p><strong>Purpose: Used to report the patient's name and basic information as contained in the pharmacy record.</strong></p>
 <p><strong>Level: Detail</strong></p>
 <p><strong>Requirement: Required</strong></p></td>
 </tr>
@@ -11824,7 +11946,7 @@ TT\*123456\*10\\
 <p>If the patient DFN exists in the NAME COMPONENTS file (#20), the PREFIX field (#4) in the NAME COMPONENTS file (#20).</p>
 </blockquote></li>
 <li><blockquote>
-<p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p>
+<p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p>
 </blockquote></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
@@ -11838,7 +11960,7 @@ TT\*123456\*10\\
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
 <li><p>If the patient DFN exists in the NAME COMPONENTS file (#20), the SUFFIX field (#5) in the NAME COMPONENTS file (#20).</p></li>
-<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p></li>
+<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
 <p>ICR #10061</p></td>
@@ -11966,7 +12088,7 @@ TT\*123456\*10\\
 <td>Used when the patient's address is a foreign country and PAT12 through PAT16 are left blank. This is a freeform text field. ASAP does not provide a list of countries for this field. PDMPs may permit some of the other address fields to not be used if this field is populated.</td>
 <td>$$PAT22^PSOASAP()</td>
 <td><p>API ADD^VADPT is called and it is a supported reference to the REGISTRATION API. (ICR# 10061).</p>
-<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns “” (null).</p>
+<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns "" (null).</p>
 <p>Else VistA returns the FIPS CODE field (#1.2) in the COUNTRY CODE file (#779.004) pointed to by the COUNTRY field (#.1173) in the PATIENT file (#2).</p></td>
 <td>Optional</td>
 </tr>
@@ -12019,7 +12141,7 @@ TT\*123456\*10\\
 <p>DSP01 requires one of the codes below. An empty or blank field no longer indicates a new prescription dispensing transaction. A PDMP may elect to require a subset of the codes below, specifically 00 and 02, but not 01.</p>
 <p>00 This code indicates a new prescription dispensing transaction.</p>
 <p>01 This code indicates that one or more data element values in a previously submitted transaction are being revised.</p>
-<p>Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments’ data of the original prescription transaction with all of the detail segments’ data from the revised prescription transaction. So it is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment – or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
+<p>Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments' data of the original prescription transaction with all of the detail segments' data from the revised prescription transaction. So it is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment – or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
 <p>02 This code is a message to the PDMP to remove the original prescription transaction from its database (or to mark the record as invalid and to be ignored). There can be several reasons for sending a void transaction. One example would be when the prescription was never picked up and the medication was returned to stock. Another example would be when the prescription was reported in error. A DSP01 value of 02 can also be used as an alternative to the DSP01 value of 01 in order to send PDMP corrections. When submitting corrections in this manner; first submit a record with a DSP01 of 02 to indicate to the PDMP to void the original prescription transaction; then submit a brand-new prescription transaction with a DSP01 value of 00 with the correct information.</p>
 <ol start="48">
 <li><p>Examples of the correct use of codes in DSP01 are shown in Appendix D in the ASAP version 4.2a Standard, as well as the limited data set to void a prescription that PDMPs can elect to use.</p></li>
@@ -12087,7 +12209,7 @@ TT\*123456\*10\\
 <td>DSP08 - Product ID</td>
 <td><p>Full product identification as indicated in DSP07, including zeros without punctuation. If the product is a compound, use 99999 as the first five characters of the product code. The remaining characters are assigned by the pharmacy. The CDI then becomes a required segment.</p>
 <ol start="49">
-<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported if it is a legitimate manufacturer’s NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
+<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported if it is a legitimate manufacturer's NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
 </ol></td>
 <td>$$DSP08^PSOASAP()</td>
 <td><p>Retrieved from one of the following locations in respective order:</p>
@@ -12221,7 +12343,7 @@ TT\*123456\*10\\
 <p>03 Medicare</p>
 <p>04 Commercial Insurance</p>
 <p>05 Military Installations and VA</p>
-<p>06 Workers’ Compensation</p>
+<p>06 Workers' Compensation</p>
 <p>07 Indian Nations</p>
 <p>99 Other</p></td>
 <td>$$DSP16^PSOASAP()</td>
@@ -12852,7 +12974,7 @@ TT\*123456\*10\\
 <td>TH09 - Segment Terminator Character</td>
 <td><p>This terminates the TH segment and sets the actual value of the data segment terminator for the entire transaction.</p>
 <ol start="58">
-<li><p>The ASAP 4.2b Standard document uses the “~” in all examples. See the “Data Element Separators and Segment Terminators” in the standard's introduction for more information.</p></li>
+<li><p>The ASAP 4.2b Standard document uses the "~" in all examples. See the "Data Element Separators and Segment Terminators" in the standard's introduction for more information.</p></li>
 </ol></td>
 <td>$$TH09^PSOASAP()</td>
 <td>Retrieved from the SEGMENT TERMINATOR CHAR field (#58.4001,.03) of the SPMP ASAP RECORD DEFINITION file. Tilde character "~"</td>
@@ -12971,7 +13093,7 @@ TT\*123456\*10\\
 <td>PHA04 - Pharmacy or Dispensing Prescriber Name</td>
 <td><p>Freeform name of the pharmacy.</p>
 <ol start="60">
-<li><p>If a dispensing prescriber, the prescriber’s name and professional degree should be entered, such as John Doe MD.</p></li>
+<li><p>If a dispensing prescriber, the prescriber's name and professional degree should be entered, such as John Doe MD.</p></li>
 </ol></td>
 <td>$$PHA04^PSOASAP()</td>
 <td>NAME field (#.01) retrieved from OUTPATIENT SITE file (#59)</td>
@@ -13075,7 +13197,7 @@ TT\*123456\*10\\
 <tbody>
 <tr class="odd">
 <td><strong>PAT – Patient Information</strong></td>
-<td colspan="4"><p><strong>Purpose: Used to report the patient’s name and basic information as contained in the<br />
+<td colspan="4"><p><strong>Purpose: Used to report the patient's name and basic information as contained in the<br />
 pharmacy record</strong></p>
 <p><strong>Level: Detail</strong></p>
 <p><strong>Requirement: Required</strong></p></td>
@@ -13097,7 +13219,7 @@ pharmacy record</strong></p>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>09 Vendor Specific (such as Appriss Health, Experian, LexisNexis)</p>
@@ -13110,7 +13232,7 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>PAT03 - ID of Patient</td>
 <td><blockquote>
-<p>Identification number for the patient as indicated in PAT02. An example would be the driver’s license number.</p>
+<p>Identification number for the patient as indicated in PAT02. An example would be the driver's license number.</p>
 </blockquote>
 <ol start="63">
 <li><p>This field can only be populated with code 10 when provided on the prescription.</p></li>
@@ -13200,7 +13322,7 @@ pharmacy record</strong></p>
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
 <li><p>If the patient DFN exists in the NAME COMPONENTS file (#20), the PREFIX field (#4) in the NAME COMPONENTS file (#20).</p></li>
-<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p></li>
+<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
 <p>ICR #10061</p></td>
@@ -13213,7 +13335,7 @@ pharmacy record</strong></p>
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
 <li><p>If the patient DFN exists in the NAME COMPONENTS file (#20), the SUFFIX field (#5) in the NAME COMPONENTS file (#20).</p></li>
-<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p></li>
+<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
 <p>ICR #10061</p></td>
@@ -13253,7 +13375,7 @@ pharmacy record</strong></p>
 <li><p>Field has been sized to handle international patients not residing in the U.S.</p></li>
 </ol></td>
 <td>$$PAT15^PSOASAP()</td>
-<td><p>API ADD^VADPT is called and it is a supported reference to the REGISTRATION API. (ICR# 10061)”. Retrieved using the following logic:</p>
+<td><p>API ADD^VADPT is called and it is a supported reference to the REGISTRATION API. (ICR# 10061)". Retrieved using the following logic:</p>
 <p>If the COUNTRY field (#.1173) in the PATIENT file (#2) is the United States, retrieved from the ABBREVATION field (#1) in the STATE file (#5) pointed to by the STATE field (#.115) in the PATIENT file (#2).</p>
 <p>If the COUNTRY field (#.1173) in the PATIENT file (#2) is not the United States, retrieved from the PROVINCE field (#.1171) in the PATIENT file (#2).</p></td>
 <td>Optional</td>
@@ -13338,10 +13460,10 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT22 - Country of Non-U.S. Resident</td>
-<td>Used when the patient’s address is a foreign country. This is a freeform text field. ASAP does not provide a list of countries for this field. PDMPs may permit some of the other address fields to not be used if this field is populated.</td>
+<td>Used when the patient's address is a foreign country. This is a freeform text field. ASAP does not provide a list of countries for this field. PDMPs may permit some of the other address fields to not be used if this field is populated.</td>
 <td>$$PAT22^PSOASAP()</td>
 <td><p>API ADD^VADPT is called and it is a supported reference to the REGISTRATION API. (ICR# 10061).</p>
-<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns “” (null).</p>
+<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns "" (null).</p>
 <p>Else VistA returns the FIPS CODE field (#1.2) in the COUNTRY CODE file (#779.004) pointed to by the COUNTRY field (#.1173) in the PATIENT file (#2).</p></td>
 <td>Optional</td>
 </tr>
@@ -13393,7 +13515,7 @@ pharmacy record</strong></p>
 <p>02 Void</p>
 <p>DSP01 requires one of the codes below. An empty or blank field no longer indicates a new prescription dispensing transaction. A PDMP may elect to require a subset of the codes below, specifically 00 and 02, but not 01.</p>
 <p>00 This code indicates a new prescription dispensing transaction.</p>
-<p>01 This code indicates that one or more data element values in a previously submitted transaction are being revised. Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments’ data of the original prescription transaction with all of the detail segments’ data from the revised prescription transaction. So it is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment – or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
+<p>01 This code indicates that one or more data element values in a previously submitted transaction are being revised. Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments' data of the original prescription transaction with all of the detail segments' data from the revised prescription transaction. So it is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment – or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
 <p>02 This code is a message to the PDMP to remove the original prescription transaction from its database (or to mark the record as invalid and to be ignored). There can be several reasons for sending a void transaction. One example would be when the prescription was never picked up and the medication was returned to stock. Another example would be when the prescription was reported in error. A DSP01 value of 02 can also be used as an alternative to the DSP01 value of 01 in order to send PDMP corrections. When submitting corrections in this manner; first submit a record with a DSP01 of 02 to indicate to the PDMP to void the original prescription transaction; then submit a brand-new prescription transaction with a DSP01 value of 00 with the correct information.</p>
 <ol start="66">
 <li><p>Examples of the correct use of codes in DSP01 are shown in Appendix D in the ASAP version 4.2b Standard, as well as the limited dataset to void a prescription that PDMPs can elect to use.</p></li>
@@ -13460,7 +13582,7 @@ pharmacy record</strong></p>
 <td>DSP08 - Product ID</td>
 <td><p>Full product identification as indicated in DSP07, including leading zeros without punctuation. If the product is a compound, use 99999 as the first five characters of the product code. The remaining six characters are assigned by the pharmacy. The CDI then becomes a required segment.</p>
 <ol start="67">
-<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported as long as it is a legitimate manufacturer’s NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
+<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported as long as it is a legitimate manufacturer's NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
 </ol></td>
 <td>$$DSP08^PSOASAP()</td>
 <td><p>Retrieved from one of the following locations in respective order:</p>
@@ -13594,7 +13716,7 @@ pharmacy record</strong></p>
 <p>03 Medicare</p>
 <p>04 Commercial Insurance</p>
 <p>05 Military Installations and VA</p>
-<p>06 Workers’ Compensation</p>
+<p>06 Workers' Compensation</p>
 <p>07 Indian Nations</p>
 <p>99 Other</p></td>
 <td>$$DSP16^PSOASAP()</td>
@@ -13750,7 +13872,7 @@ pharmacy record</strong></p>
 <p>The ORDER ENTRY/RESULTS REPORTING procedure ARCHIVE^ORDEA retrieves the value at the DEA # field (#101.52,10) of the ORDER DEA ARCHIVE INFO file. The first piece by "-" is returned.</p>
 <p>ICR# 5709</p>
 <p>Prescription fill provider or facility DEA#</p>
-<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) of the NEW PERSON file. The first piece by “-" is returned.</p>
+<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) of the NEW PERSON file. The first piece by "-" is returned.</p>
 <p>ICR# 2343</p>
 <p>Pharmacy DEA#</p>
 <p>The Kernel API $$WHAT^XUAF4 is called to return the FACILITY DEA NUMBER field (#4,52) of the INSTITUTION file.</p>
@@ -13763,10 +13885,10 @@ pharmacy record</strong></p>
 <td>$$PRE03^PSOASAP()</td>
 <td><p>Retrieved from one of the following locations in respective order:</p>
 <p>Provider DEA# suffix associated with the CPRS order</p>
-<p>The ORDER ENTRY/RESULTS REPORTING procedure ARCHIVE^ORDEA retrieves the value at the DEA # field (#101.52,10) of the ORDER DEA ARCHIVE INFO file. The 2nd piece by “-" is returned.</p>
+<p>The ORDER ENTRY/RESULTS REPORTING procedure ARCHIVE^ORDEA retrieves the value at the DEA # field (#101.52,10) of the ORDER DEA ARCHIVE INFO file. The 2nd piece by "-" is returned.</p>
 <p>ICR# 5709</p>
 <p>Prescription fill provider or facility DEA# suffix</p>
-<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) from the NEW DEA #'S multiple of the NEW PERSON file. The 2nd piece by “-" is returned.</p>
+<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) from the NEW DEA #'S multiple of the NEW PERSON file. The 2nd piece by "-" is returned.</p>
 <p>ICR# 2343</p>
 <p>VA#</p>
 <p>If DEA# from PHA03 is equal to the DEA# from PHA02, then The Kernel API $$DEA^XUSER retrieves the value at the VA# field (#200,53.3) of the NEW PERSON file.</p>
@@ -13821,7 +13943,7 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PRE10 - Jurisdiction or State Issuing Prescriber License Number</td>
-<td>This field can be used to further identify the information in PRE04 depending on PDMP’s need for this information.</td>
+<td>This field can be used to further identify the information in PRE04 depending on PDMP's need for this information.</td>
 <td>$$PRE10^PSOASAP()</td>
 <td>VistA sends "" (null)</td>
 <td>Optional</td>
@@ -13964,7 +14086,7 @@ pharmacy record</strong></p>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>09 Vendor Specific (such as Appriss Health, Experian, LexisNexis)</p>
@@ -14210,7 +14332,7 @@ pharmacy record</strong></p>
 </blockquote>
 <ol start="2" type="1">
 <li><blockquote>
-<p>Take the TIME value of the returned date/time stamp and set that data to be exactly 6 in length and append a “Z" to the end.</p>
+<p>Take the TIME value of the returned date/time stamp and set that data to be exactly 6 in length and append a "Z" to the end.</p>
 </blockquote></li>
 </ol></td>
 <td>Required</td>
@@ -14235,7 +14357,7 @@ pharmacy record</strong></p>
 <td>TH09 - Segment Terminator Character</td>
 <td><p>This terminates the TH segment and sets the actual value of the data segment terminator for the entire transaction.</p>
 <ol start="75">
-<li><p>The ASAP 5.0 Standard document uses the “~” in all examples. See the “Data Element Separators and Segment Terminators” in the standard's introduction for more information.</p></li>
+<li><p>The ASAP 5.0 Standard document uses the "~" in all examples. See the "Data Element Separators and Segment Terminators" in the standard's introduction for more information.</p></li>
 </ol></td>
 <td>$$TH09^PSOASAP()</td>
 <td>Retrieved from the SEGMENT TERMINATOR CHAR field (#58.4001,.03) of the SPMP ASAP RECORD DEFINITION file. Tilde character "~"</td>
@@ -14279,7 +14401,7 @@ pharmacy record</strong></p>
 <li><p>Call REGISTRATION's $$SITE^VASITE to get the 3-digit VA SITE CODE (e.g.,500)</p></li>
 <li><p>Use the VA SITE CODE to find the first valid OUTPATIENT SITE entry at the SITE NUMBER (59,.06) x-ref.</p></li>
 <li><p>If there isn't a match at the SITE NUMBER x-ref then populate IS01 with the VA SITE CODE retrieved at step 1 concatenated with the ZIP (4, 1.04) W/0 any hyphen and quit</p></li>
-<li><p>Call $$NPI^XUSNPI passing in file 59 ien retrieved at the SITE NUMBER x-ref and the “"Organizational_ID""</p></li>
+<li><p>Call $$NPI^XUSNPI passing in file 59 ien retrieved at the SITE NUMBER x-ref and the ""Organizational_ID""</p></li>
 <li><p>If the NPI is not returned at step 4, then populate IS01 with the VA SITE CODE retrieved at step 1 concatenated with the ZIP (4, 1.04) W/0 any hyphen and quit</p></li>
 <li><p>Return NPI that was returned at step 4</p></li>
 </ol></td>
@@ -14373,7 +14495,7 @@ pharmacy record</strong></p>
 <td>PHA04 - Pharmacy or Dispensing Prescriber Name</td>
 <td><p>Freetext name of the pharmacy.</p>
 <ol start="77">
-<li><p>If a dispensing prescriber, the prescriber’s name and professional degree should be entered, such as John Doe MD.</p></li>
+<li><p>If a dispensing prescriber, the prescriber's name and professional degree should be entered, such as John Doe MD.</p></li>
 </ol></td>
 <td>$$PHA04^PSOASAP()</td>
 <td>NAME field (#.01) retrieved from OUTPATIENT SITE file (#59)</td>
@@ -14505,7 +14627,7 @@ pharmacy record</strong></p>
 <tbody>
 <tr class="odd">
 <td><strong>PAT – Patient Information Segment</strong></td>
-<td colspan="4"><p><strong>Purpose: Used to report the patient’s name and basic information as contained in the pharmacy record.</strong></p>
+<td colspan="4"><p><strong>Purpose: Used to report the patient's name and basic information as contained in the pharmacy record.</strong></p>
 <p><strong>Level: Detail</strong></p>
 <p><strong>Requirement: Required</strong></p></td>
 </tr>
@@ -14527,7 +14649,7 @@ pharmacy record</strong></p>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>09 Vendor Specific (such as Bamboo Health, Experian, LexisNexis)</p>
@@ -14540,7 +14662,7 @@ pharmacy record</strong></p>
 </tr>
 <tr class="even">
 <td>PAT03 - ID of Patient</td>
-<td><p>Identification number for the patient as indicated in PAT02. An example would be the driver’s license number.</p>
+<td><p>Identification number for the patient as indicated in PAT02. An example would be the driver's license number.</p>
 <ol start="80">
 <li><p>This field can only be populated with code 10 when provided on the prescription.</p></li>
 </ol></td>
@@ -14576,20 +14698,20 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT06 - Additional ID</td>
-<td>Identification that might be required by the PDMP to further identify the individual. An example might be in that PAT03 driver’s license is required and in PAT06 Social Security number is also required.</td>
+<td>Identification that might be required by the PDMP to further identify the individual. An example might be in that PAT03 driver's license is required and in PAT06 Social Security number is also required.</td>
 <td>$$PAT06^PSOASAP()</td>
 <td>VistA sends "" (null)</td>
 <td>Optional</td>
 </tr>
 <tr class="even">
 <td>PAT07 - Last Name</td>
-<td><p>Patient’s last name.</p>
+<td><p>Patient's last name.</p>
 <p>Recommended way to report:</p>
-<p>Report the patient’s complete legal last name ONLY as listed on a government-issued identification</p>
+<p>Report the patient's complete legal last name ONLY as listed on a government-issued identification</p>
 <p>Do NOT report extraneous information or notes in this field</p>
 <p>Do NOT enter Prefix or Suffix in Last Name field</p>
 <p>Do NOT report special characters (e.g., parentheses, asterisk) other than a hyphen or apostrophe.</p>
-<p>If for a veterinary patient, enter information of PERSON responsible for the care of the animal or who arranges for the animal’s veterinary care</p></td>
+<p>If for a veterinary patient, enter information of PERSON responsible for the care of the animal or who arranges for the animal's veterinary care</p></td>
 <td>$$PAT07^PSOASAP()</td>
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
@@ -14606,13 +14728,13 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT08 - First Name</td>
-<td><p>Patient’s first name.</p>
+<td><p>Patient's first name.</p>
 <p>Recommended way to report:</p>
-<p>Report the patient’s complete legal first name ONLY as listed on a government-issued identification</p>
+<p>Report the patient's complete legal first name ONLY as listed on a government-issued identification</p>
 <p>Do NOT report extraneous information or notes in this field</p>
 <p>Do NOT enter Prefix or Suffix in First Name field</p>
 <p>Do NOT report special characters (e.g., parentheses, asterisk) other than a hyphen or apostrophe.</p>
-<p>If for a veterinary patient, enter information of PERSON responsible for the care of the animal or who arranges for the animal’s veterinary care</p></td>
+<p>If for a veterinary patient, enter information of PERSON responsible for the care of the animal or who arranges for the animal's veterinary care</p></td>
 <td>$$PAT08^PSOASAP()</td>
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
@@ -14638,12 +14760,12 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT10 - Name Prefix</td>
-<td>Patient’s name prefix such as Mr. or Dr. Used if available in pharmacy system and required by the PDMP. Do not report special characters other than a hyphen or a period.</td>
+<td>Patient's name prefix such as Mr. or Dr. Used if available in pharmacy system and required by the PDMP. Do not report special characters other than a hyphen or a period.</td>
 <td>$$PAT10^PSOASAP()</td>
 <td><p>Retrieved using the following logic:</p>
 <ol type="1">
 <li><p>If the patient DFN exists in the NAME COMPONENTS file (#20), the PREFIX field (#4) in the NAME COMPONENTS file (#20).</p></li>
-<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p></li>
+<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
 <p>ICR #10061</p></td>
@@ -14651,14 +14773,14 @@ pharmacy record</strong></p>
 </tr>
 <tr class="even">
 <td>PAT11 - Name Suffix</td>
-<td><p>Patient’s name suffix such as Jr. or the III.</p>
+<td><p>Patient's name suffix such as Jr. or the III.</p>
 <p>Used if available in pharmacy system and if required by the PDMP.</p>
 <p>Do not report special characters other than a hyphen or a period.</p></td>
 <td>$$PAT11^PSOASAP()</td>
 <td><p>Retrieved using the following logic:</p>
 <ol start="3" type="1">
 <li><p>If the patient DFN exists in the NAME COMPONENTS file (#20), the SUFFIX field (#5) in the NAME COMPONENTS file (#20).</p></li>
-<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends “” (null).</p></li>
+<li><p>If no entry exists in the NAME COMPONENTS file (#20) for the patient DFN, VistA sends "" (null).</p></li>
 </ol>
 <p>Retrieved using the REGISTRATION API, ADD^VADPT</p>
 <p>ICR #10061</p></td>
@@ -14735,7 +14857,7 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT18 - Date of Birth</td>
-<td>Owner’s date of birth as listed on a government-issued identification. If for a veterinary patient Date of Birth should be listed as directed by applicable state/jurisdiction PDMP laws and regulations. Format: CCYYMMDD.</td>
+<td>Owner's date of birth as listed on a government-issued identification. If for a veterinary patient Date of Birth should be listed as directed by applicable state/jurisdiction PDMP laws and regulations. Format: CCYYMMDD.</td>
 <td>$$PAT18^PSOASAP()</td>
 <td><p>Retrieved from the DATE OF BIRTH field (#.03) in the PATIENT file (#2)</p>
 <p>Retrieved using the REGISTRATION API, DEM^VADPT</p>
@@ -14788,10 +14910,10 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PAT22 - Country of Non-U.S. Resident</td>
-<td>Used when the patient’s address is a foreign country. This is a freetext field. ASAP does not provide a list of countries for this field. PDMPs may permit some of the other address fields to not be used if this field is populated.</td>
+<td>Used when the patient's address is a foreign country. This is a freetext field. ASAP does not provide a list of countries for this field. PDMPs may permit some of the other address fields to not be used if this field is populated.</td>
 <td>$$PAT22^PSOASAP()</td>
 <td><p>API ADD^VADPT is called and it is a supported reference to the REGISTRATION API. (ICR# 10061).</p>
-<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns “” (null).</p>
+<p>Retrieved If COUNTRY field (#.1173) in the PATIENT file (#2) points to the US in the COUNTRY CODE file (#779.004), VistA returns "" (null).</p>
 <p>Else VistA returns the FIPS CODE field (#1.2) in the COUNTRY CODE file (#779.004) pointed to by the COUNTRY field (#.1173) in the PATIENT file (#2).</p></td>
 <td>Optional</td>
 </tr>
@@ -14913,7 +15035,7 @@ pharmacy record</strong></p>
 <p>02 Void</p>
 <p>DSP01 requires one of the codes below. An empty or blank field no longer indicates a new prescription dispensing transaction. A PDMP may elect to require a subset of the codes below, specifically 00 and 02, but not 01.</p>
 <p>00 This code indicates a new prescription dispensing transaction.</p>
-<p>01 This code indicates that one or more data element values in a previously submitted transaction are being revised. Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments’ data of the original prescription transaction with all of the detail segments’ data from the revised prescription transaction. It is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
+<p>01 This code indicates that one or more data element values in a previously submitted transaction are being revised. Examples of when a revision may be necessary include corrections to typographical errors in original data submissions; or change occurred to the prescription between the time the record was submitted and the time the patient picked it up, such as dispensing a smaller metric quantity, adding or correcting patient information, correcting prescriber DEA number, or payment type. When receiving a transaction with a DSP01 value of 01, the PDMP will override all of the detail segments' data of the original prescription transaction with all of the detail segments' data from the revised prescription transaction. It is essential to submit all of the data elements in all of the detail segments populated with the identical data as it appeared in the original record, with only the changed data element(s) content being different (and DSP01 with a value of 01). Do not use 01 in combination with a zero metric quantity to indicate that the prescription was not picked up. Use the value 02 instead as described below. If the PDMP receives a prescription transaction with DSP01 as 01 and a separate prescription transaction with DSP01 as 02, the PDMP will only void the original prescription transaction and will not attempt to apply a revision. Because the PAT segment loops at a higher level than the other detail segments, the only ways to submit revisions to PAT data elements are either: 1) to not loop the DSP segment within the PAT segment or 2) to loop the DSP segment within PAT segment and have every DSP01 record element within the loop have a DSP01 of 01.</p>
 <p>02 This code is a message to the PDMP to remove the original prescription transaction from its database (or to mark the record as invalid and to be ignored). There can be several reasons for sending a void transaction. One example would be when the prescription was never picked up and the medication was returned to stock. Another example would be when the prescription was reported in error. A DSP01 value of 02 can also be used as an alternative to the DSP01 value of 01 in order to send PDMP corrections. When submitting corrections in this manner; first submit a record with a DSP01 of 02 to indicate to the PDMP to void the original prescription transaction; then submit a brand-new prescription transaction with a DSP01 value of 00 with the correct information.</p>
 <ol start="82">
 <li><p>Examples of the correct use of codes in DSP01 <strong>are</strong> shown in Appendix D <strong>in the ASAP version 5.0 Standard</strong>, as well as the limited data set to void a prescription that PDMPs can elect to use.</p></li>
@@ -14981,7 +15103,7 @@ pharmacy record</strong></p>
 <td>DSP08 - Product ID</td>
 <td><p>Full product identification as indicated in DSP07, including zeros without punctuation. If DSP07 = 01, then DSP08 should contain the 11-digit NDC code without hyphens. If the product is a compound, use 99999 as the first five characters of the product code. The remaining six characters are assigned by the pharmacy. The CDI then becomes a required segment.</p>
 <ol start="83">
-<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported if it is a legitimate manufacturer’s NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
+<li><p>If a controlled substance is part of a kit, the NDC of the kit should be reported if it is a legitimate manufacturer's NDC. If not, the NDC of the controlled substance within the kit should be reported. Also, if multiple controlled substances are in the kit, use the CDI segment to report it as a compound.</p></li>
 </ol></td>
 <td>$$DSP08^PSOASAP()</td>
 <td><p>Retrieved from one of the following locations in respective order:</p>
@@ -15118,7 +15240,7 @@ pharmacy record</strong></p>
 <p>03 Medicare</p>
 <p>04 Commercial Insurance</p>
 <p>05 Military Installations and VA</p>
-<p>06 Workers’ Compensation</p>
+<p>06 Workers' Compensation</p>
 <p>07 Indian Nations</p>
 <p>99 Other</p></td>
 <td>$$DSP16^PSOASAP()</td>
@@ -15326,7 +15448,7 @@ pharmacy record</strong></p>
 <p>03 Medicare</p>
 <p>04 Commercial Insurance</p>
 <p>05 Military Installations and VA</p>
-<p>06 Workers’ Compensation</p>
+<p>06 Workers' Compensation</p>
 <p>07 Indian Nations</p>
 <p>99 Other</p></td>
 <td>$$DSP32^PSOASAP()</td>
@@ -15430,14 +15552,14 @@ pharmacy record</strong></p>
 </tr>
 <tr class="even">
 <td>PRE03 - DEA Number Suffix</td>
-<td>Identifying number assigned to a prescriber by an institution when the institution’s DEA number is used, if required by the PDMP.</td>
+<td>Identifying number assigned to a prescriber by an institution when the institution's DEA number is used, if required by the PDMP.</td>
 <td>$$PRE03^PSOASAP()</td>
 <td><p>Retrieved from one of the following locations in respective order:</p>
 <p>Provider DEA# suffix associated with the CPRS order</p>
-<p>The ORDER ENTRY/RESULTS REPORTING procedure ARCHIVE^ORDEA retrieves the value at the DEA # field (#101.52,10) of the ORDER DEA ARCHIVE INFO file. The 2nd piece by “-" is returned.</p>
+<p>The ORDER ENTRY/RESULTS REPORTING procedure ARCHIVE^ORDEA retrieves the value at the DEA # field (#101.52,10) of the ORDER DEA ARCHIVE INFO file. The 2nd piece by "-" is returned.</p>
 <p>ICR# 5709</p>
 <p>Prescription fill provider or facility DEA# suffix</p>
-<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) from the NEW DEA #'S multiple of the NEW PERSON file. The 2nd piece by “-" is returned.</p>
+<p>The Kernel API $$DEA^XUSER retrieves the value at the DEA NUMBER field (#200.5321,.01) from the NEW DEA #'S multiple of the NEW PERSON file. The 2nd piece by "-" is returned.</p>
 <p>ICR# 2343</p>
 <p>VA#</p>
 <p>If DEA# from PHA03 is equal to the DEA# from PHA02, then The Kernel API $$DEA^XUSER retrieves the value at the VA# field (#200,53.3) of the NEW PERSON file.</p>
@@ -15492,7 +15614,7 @@ pharmacy record</strong></p>
 </tr>
 <tr class="odd">
 <td>PRE10 - Jurisdiction or State of Issuing Prescriber License Number</td>
-<td>This field can be used to further identify the information in PRE04, depending on the PDMP’s need for this information.</td>
+<td>This field can be used to further identify the information in PRE04, depending on the PDMP's need for this information.</td>
 <td>$$PRE10^PSOASAP()</td>
 <td>VistA sends "" (null)</td>
 <td>Optional</td>
@@ -15711,7 +15833,7 @@ pharmacy record</strong></p>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>09 Vendor Specific (such as Bamboo Health, Experian, LexisNexis)</p>
@@ -15725,7 +15847,7 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>AIR05 - ID of Person Picking Up Rx</td>
 <td><p>Identification number for the person picking up the prescription as indicated in AIR 04.</p>
-<p>An example would be the driver’s license number.</p>
+<p>An example would be the driver's license number.</p>
 <ol start="90">
 <li><p>This field can only be populated with code 10 when provided on the prescription.</p></li>
 </ol></td>
@@ -15855,7 +15977,7 @@ pharmacy record</strong></p>
 <p>03 Unique System ID</p>
 <p>04 Permanent Resident Card (Green Card)</p>
 <p>05 Passport ID</p>
-<p>06 Driver’s License ID</p>
+<p>06 Driver's License ID</p>
 <p>07 Social Security Number</p>
 <p>08 Tribal ID</p>
 <p>09 Vendor Specific (such as Bamboo Health, Experian, LexisNexis)</p>
@@ -15869,7 +15991,7 @@ pharmacy record</strong></p>
 <tr class="odd">
 <td>AIR22 - ID of Person Dropping Off Rx</td>
 <td><p>Identification number for the person dropping off the prescription as indicated in AIR 21.</p>
-<p>An example would be the driver’s license number.</p>
+<p>An example would be the driver's license number.</p>
 <ol start="92">
 <li><p>This field can only be populated with code 10 when provided on the prescription.</p></li>
 </ol></td>
@@ -16104,7 +16226,7 @@ pharmacy record</strong></p>
 <tr class="odd">
 <td>PAT01 – PAT06</td>
 <td>Optional</td>
-<td colspan="2">“”</td>
+<td colspan="2">""</td>
 </tr>
 <tr class="even">
 <td>PAT07</td>
@@ -16119,7 +16241,7 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>PAT09 – PAT23</td>
 <td>Variable*</td>
-<td colspan="2"><p>“”</p>
+<td colspan="2"><p>""</p>
 <ol start="94">
 <li><p>4.2AZ <strong>have</strong> the data elements up to and including PAT19.</p></li>
 </ol>
@@ -16131,7 +16253,7 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>DSP01 – DSP04</td>
 <td>Required</td>
-<td colspan="2">“”</td>
+<td colspan="2">""</td>
 </tr>
 <tr class="odd">
 <td>DSP05 – Date Filled</td>
@@ -16141,7 +16263,7 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>DSP06 – DSP25</td>
 <td>Variable*</td>
-<td colspan="2"><p>“”</p>
+<td colspan="2"><p>""</p>
 <ol start="95">
 <li><p>4.2AZ <strong>have</strong> the data elements up to and including DSP17.</p></li>
 </ol>
@@ -16153,12 +16275,12 @@ pharmacy record</strong></p>
 <tr class="even">
 <td>PRE01</td>
 <td>Optional</td>
-<td colspan="2">“”</td>
+<td colspan="2">""</td>
 </tr>
 <tr class="odd">
 <td>PRE02</td>
 <td>Required</td>
-<td colspan="2">“”</td>
+<td colspan="2">""</td>
 </tr>
 <tr class="even">
 <td colspan="4"><strong>CDI: Compound Drug Ingredient Detail (Required)</strong></td>
@@ -16166,7 +16288,7 @@ pharmacy record</strong></p>
 <tr class="odd">
 <td>CDI01 - CDI04</td>
 <td>Required</td>
-<td colspan="2">“”</td>
+<td colspan="2">""</td>
 </tr>
 <tr class="even">
 <td colspan="4"><strong>AIR: Additional Information Reporting (Required)</strong></td>
@@ -16174,7 +16296,7 @@ pharmacy record</strong></p>
 <tr class="odd">
 <td>AIR01 - AIR02</td>
 <td colspan="2">Optional</td>
-<td>“”</td>
+<td>""</td>
 </tr>
 <tr class="even">
 <td colspan="4"><strong>TP: Pharmacy Trailer (Required)</strong></td>
@@ -16243,24 +16365,24 @@ The overall OneVA Pharmacy software design has several components; they are:
 7.  To identify titration prescriptions at the host site and to disallow refills of such titration prescriptions at the dispensing site.
 8.  Update OneVA Pharmacy functionality to add menu item for turning OFF/ON Switch for OneVA Pharmacy ADPACs
 
-VistA is the user interface where a pharmacist uses the “Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]” menu (found within the VistA Pharmacy Outpatient Pharmacy Manager package) to query for and refill patient’s active and refillable prescriptions from other VA Pharmacy VistA instances. The OneVA Pharmacy uses Health Level 7 (HL7) messaging to query and receive remote prescription details to and from VDIF.
+VistA is the user interface where a pharmacist uses the "Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]" menu (found within the VistA Pharmacy Outpatient Pharmacy Manager package) to query for and refill patient's active and refillable prescriptions from other VA Pharmacy VistA instances. The OneVA Pharmacy uses Health Level 7 (HL7) messaging to query and receive remote prescription details to and from VDIF.
 
-The VistA instance the Veteran is refilling the prescription is considered the ‘dispensing’ VistA instance. This patch allows a pharmacist from a ‘dispensing’ VistA instance to refill a prescription that originated from another VA Pharmacy VistA instance and print a prescription label at the dispensing site. The VA Pharmacy VistA instance where the prescription originated and currently exits is the ‘host’ VistA instance. The host VistA instance is where the update to the prescription record is made after the fill is processed and the host label file is being extracted to return to the dispensing site via HL7.
+The VistA instance the Veteran is refilling the prescription is considered the 'dispensing' VistA instance. This patch allows a pharmacist from a 'dispensing' VistA instance to refill a prescription that originated from another VA Pharmacy VistA instance and print a prescription label at the dispensing site. The VA Pharmacy VistA instance where the prescription originated and currently exits is the 'host' VistA instance. The host VistA instance is where the update to the prescription record is made after the fill is processed and the host label file is being extracted to return to the dispensing site via HL7.
 
 The OneVA Pharmacy software sends an HL7 message to VDIF National Health Connect to an existing TCP Service to request patient medications.
 
 96. The OneVA HL7 Listener Service is using an existing connection that all 130+ VistAs have with the National HL7 Health Connect.
 
-The medications return to the dispensing site via HL7 messaging. Once the prescription reaches the dispensing site, they display below any 'local' prescriptions on the ‘Medication Profile’ screen. The prescriptions displayed to the Pharmacist by VA Pharmacy site. The dispensing Pharmacist can then view the ‘remote’ prescriptions and select one to refill or partially fill.
+The medications return to the dispensing site via HL7 messaging. Once the prescription reaches the dispensing site, they display below any 'local' prescriptions on the 'Medication Profile' screen. The prescriptions displayed to the Pharmacist by VA Pharmacy site. The dispensing Pharmacist can then view the 'remote' prescriptions and select one to refill or partially fill.
 
 For label printing, VistA triggers the HL7 message stream that executes during the full or partial refill prescription processes. The event triggers the handling of the printing of the host label information at the dispensing printing device.
 
 Using existing functionality detailed above, patch PSO\*7\*774 introduces the following enhancements:
 
-1.  Prescriptions originating on the ‘host’ VistA instance which have been PARKED are designated as “AP” or “ACT/PK” (Active/Parked) on the ‘dispensing’ VistA instance’s ‘Medication Profile’ screen and upon selection of one of these prescriptions.
-2.  For prescriptions originating on the ‘host’ VistA instance which have no original fill (e.g. PARKED prescriptions), an original fill will be done and the label printed on the ‘dispensing’ VistA instance as with refills.
-3.  Original fills, refills, and partial fills PARKED on the ‘host’ VistA instance will be UNPARKED there as a result of fill requests on the ‘dispensing’ VistA instance.
-4.  Original fills, refills, and partial fills going through OPAI automated dispensing device (ADD) on the ‘dispensing’ VistA instance will be auto-released on the ‘host’ VistA instance. Furthermore, if an original fill or refill is being auto-released, then ECME and copay transaction will be triggered, where applicable.
+1.  Prescriptions originating on the 'host' VistA instance which have been PARKED are designated as "AP" or "ACT/PK" (Active/Parked) on the 'dispensing' VistA instance's 'Medication Profile' screen and upon selection of one of these prescriptions.
+2.  For prescriptions originating on the 'host' VistA instance which have no original fill (e.g. PARKED prescriptions), an original fill will be done and the label printed on the 'dispensing' VistA instance as with refills.
+3.  Original fills, refills, and partial fills PARKED on the 'host' VistA instance will be UNPARKED there as a result of fill requests on the 'dispensing' VistA instance.
+4.  Original fills, refills, and partial fills going through OPAI automated dispensing device (ADD) on the 'dispensing' VistA instance will be auto-released on the 'host' VistA instance. Furthermore, if an original fill or refill is being auto-released, then ECME and copay transaction will be triggered, where applicable.
 
 ### OneVA Pharmacy New Menu
 
@@ -16287,18 +16409,18 @@ A new HL7 logical link, PSORRXSEND will facilitate the sending of the HL7 messag
 <tr class="header">
 <th>![](outpatient-pharmacy-version-7-technical-manual-security-guide-pso-7-766/005.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the “off” position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
+<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the "off" position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-To use OneVA Pharmacy, the user turns on the ‘ONEVA PHARMACY FLAG (#101)’. The 'ONEVA PHARMACY FLAG (#101)’ is located on the ‘PHARMACY SYSTEM FILE (#59.7)’ This field will allow sites to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field by using option, PSS SYS EDIT and editing the 'ONEVA PHARMACY FLAG (#101)’ field.
+To use OneVA Pharmacy, the user turns on the 'ONEVA PHARMACY FLAG (#101)'. The 'ONEVA PHARMACY FLAG (#101)' is located on the 'PHARMACY SYSTEM FILE (#59.7)' This field will allow sites to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field by using option, PSS SYS EDIT and editing the 'ONEVA PHARMACY FLAG (#101)' field.
 
-The patch PSS\*1\*212 delivers the ‘ONEVA PHARMACY FLAG (#101)’ in the 'off' state. When this flag is in the 'off' state, the VDIF National Health Connect is not queried for external prescriptions and other VistA instances will not be able to (re)fill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, original fills, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG (#101)’ set to the 'on' state.
+The patch PSS\*1\*212 delivers the 'ONEVA PHARMACY FLAG (#101)' in the 'off' state. When this flag is in the 'off' state, the VDIF National Health Connect is not queried for external prescriptions and other VistA instances will not be able to (re)fill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, original fills, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG (#101)' set to the 'on' state.
 
-To turn on the ‘ONEVA PHARMACY FLAG (#101)’
+To turn on the 'ONEVA PHARMACY FLAG (#101)'
 
 Select OPTION NAME: PSS SYS EDIT Pharmacy System Parameters Edit
 
@@ -16398,7 +16520,7 @@ REMOTE CHECKING PHARMACIST (#52,97)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Remote Prescription Log File (#52.09) logs all activity related to OneVA Pharmacy ‘remote refills’ and ‘partial fills’. The log file will record all actions taken by the local or dispensing site as well as all actions taken by any external facility for any remote or host prescription. The log is input into the OneVA Pharmacy reports found on the OneVA Pharmacy Prescription Report \[PSO REMOTE RX REPORT\] menu.
+The Remote Prescription Log File (#52.09) logs all activity related to OneVA Pharmacy 'remote refills' and 'partial fills'. The log file will record all actions taken by the local or dispensing site as well as all actions taken by any external facility for any remote or host prescription. The log is input into the OneVA Pharmacy reports found on the OneVA Pharmacy Prescription Report \[PSO REMOTE RX REPORT\] menu.
 
 REMOTE PRESCRIPTION LOG file (#52.09)
 
@@ -16446,11 +16568,11 @@ Version 2.5.1 of the HL7 specification will be used for the message format. VDIF
 
 ![](outpatient-pharmacy-version-7-technical-manual-security-guide-pso-7-766/006.png)
 
-When the Pharmacist enters a request to display the Medication Profile screen from a dispensing VistA instance, the QBP^Q13 HL7 ‘Query By Parameter Request’ message is sent to VDIF National Health Connect to an existing TCP Service to request patient medications.
+When the Pharmacist enters a request to display the Medication Profile screen from a dispensing VistA instance, the QBP^Q13 HL7 'Query By Parameter Request' message is sent to VDIF National Health Connect to an existing TCP Service to request patient medications.
 
-97. The OneVA HL7 Listener Service is using an existing connection that all 130+ VistAs have with the National HL7 Health Connect. The patient’s prescription data is returned to the dispensing VistA instance and displayed on the Medication Profile screen.
+97. The OneVA HL7 Listener Service is using an existing connection that all 130+ VistAs have with the National HL7 Health Connect. The patient's prescription data is returned to the dispensing VistA instance and displayed on the Medication Profile screen.
 
-When a Pharmacist selects a prescription from the Medication Profile screen from a dispensing VistA instance, the RDS^O13 HL7 ‘Pharmacy/Treatment Dispense’ message is sent to a middleware application will receive the request, determine the destination facility, and then forward the message to the host VistA instance. The host VistA instance will process the message and return a response message containing the prescription label. The middleware will route the message back to the dispensing VistA, displaying the completion of the transaction to the Pharmacist on the screen.
+When a Pharmacist selects a prescription from the Medication Profile screen from a dispensing VistA instance, the RDS^O13 HL7 'Pharmacy/Treatment Dispense' message is sent to a middleware application will receive the request, determine the destination facility, and then forward the message to the host VistA instance. The host VistA instance will process the message and return a response message containing the prescription label. The middleware will route the message back to the dispensing VistA, displaying the completion of the transaction to the Pharmacist on the screen.
 
 ### OneVA Pharmacy HL7 Message Types
 
@@ -16473,7 +16595,7 @@ Query Parameter Definition (QPD) segment
 
 Patient Identification (PID) segment
 
-The MUMPS code is designed to use the ‘D BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)’ routine to create the Patient Identification (PID) segment.
+The MUMPS code is designed to use the 'D BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)' routine to create the Patient Identification (PID) segment.
 
 Response Control Parameter (RCP) segment
 
@@ -16507,7 +16629,7 @@ Response Control Parameter (RCP) segment
 |         | 3     | Patient ID (Internal ID)       | CK        |
 |         | 4     | Alternate Patient ID           | CK        |
 |         | 5     | Patient Name                   | PN        |
-|         | 6     | Mother’s Maiden Name           | ST        |
+|         | 6     | Mother's Maiden Name           | ST        |
 |         | 7     | Date of Birth                  | TS        |
 |         | 8     | Sex                            | ID        |
 |         | 9     | Patient Alias                  | PN        |
@@ -16521,8 +16643,8 @@ Response Control Parameter (RCP) segment
 |         | 17    | Religion                       | ID        |
 |         | 18    | Patient Account Number         | CK        |
 |         | 19    | SSN Number – Patient           | ST        |
-|         | 20    | Driver’s Lic Num – Patient     | CM        |
-|         | 21    | Mother’s Identifier            | CK        |
+|         | 20    | Driver's Lic Num – Patient     | CM        |
+|         | 21    | Mother's Identifier            | CK        |
 |         | 22    | Ethnic Group                   | ID        |
 |         | 23    | Birth Place                    | ST        |
 |         | 24    | Multiple Birth Indicator       | ID        |
@@ -16597,7 +16719,7 @@ Table Row Definition (RDF) segment
 |                                           | 13    | Status                         | The status of the prescription                                                             |
 |                                           | 14    | VA Product IEN                 | The VA Product IEN of the drug                                                             |
 |                                           | 15    | FQDN/Port (Unused)             | The fully qualified domain name of the host where the prescription originated and its port |
-| <span id="Table37" class="anchor"></span> | 16    | PARKED Indicator               | Indicates if the prescription is PARKED on ‘host’                                          |
+| <span id="Table37" class="anchor"></span> | 16    | PARKED Indicator               | Indicates if the prescription is PARKED on 'host'                                          |
 | RDT                                       | 1     | Site Number                    | Site Number of the facility where the veteran has or had a prescription                    |
 |                                           | 2     | Rx Number                      | The prescription number                                                                    |
 |                                           | 3     | Drug Name (from the host site) | The name of the drug                                                                       |
@@ -16628,9 +16750,9 @@ The Table Row Definition (RDF) segment defines the content for the Table Row Dat
 
 #### RDS^O13 Pharmacy/Treatment Dispense Message Request
 
-The ‘RDS^O13’ is a pass-through message that requires no transformation by a middleware application. The message can either be for a ‘Refill’ or ‘Partial Fill’ request. For a ‘Partial Fill’ request, the NTE segment will exist; it will not be there for a ‘Refill’ request.
+The 'RDS^O13' is a pass-through message that requires no transformation by a middleware application. The message can either be for a 'Refill' or 'Partial Fill' request. For a 'Partial Fill' request, the NTE segment will exist; it will not be there for a 'Refill' request.
 
-98. With the introduction of patch PSO\*7\*774, a ‘Refill’ request on the ‘dispensing’ VistA instance can create an original fill on the ‘host’ VistA instance if a prescription was created there but never filled (e.g. PARKED prescription situation). Also, the ability to run a “Partial Fill Rx from Another VA Pharmacy” may not be selected for a remote medication that is both Parked and never been filled.
+98. With the introduction of patch PSO\*7\*774, a 'Refill' request on the 'dispensing' VistA instance can create an original fill on the 'host' VistA instance if a prescription was created there but never filled (e.g. PARKED prescription situation). Also, the ability to run a "Partial Fill Rx from Another VA Pharmacy" may not be selected for a remote medication that is both Parked and never been filled.
 
 The following table defines the data elements required for each of the following segments of the RTB^K13 Prescription Query Service Response.
 
@@ -16638,7 +16760,7 @@ Message Header (MSH) segment
 
 Patient Identification (PID) segment
 
-The MUMPS code uses BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)’ to create the Patient Identification (PID) segment.
+The MUMPS code uses BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)' to create the Patient Identification (PID) segment.
 
 Common Order (ORC) segment
 
@@ -16646,7 +16768,7 @@ Pharmacy/Treatment Prescription Order (RXO)
 
 Notes and Comments (NTE) segment
 
-99. The Notes and Comments (NTE) segment will be present if the request is for a ‘Partial Fill’.
+99. The Notes and Comments (NTE) segment will be present if the request is for a 'Partial Fill'.
 
 | Segment | Piece | Description / Field Name               | Data Type |
 |---------|-------|----------------------------------------|-----------|
@@ -16674,7 +16796,7 @@ Notes and Comments (NTE) segment
 |         | 3     | Patient ID (Internal ID)               | CK        |
 |         | 4     | Alternate Patient ID                   | CK        |
 |         | 5     | Patient Name                           | PN        |
-|         | 6     | Mother’s Maiden Name                   | ST        |
+|         | 6     | Mother's Maiden Name                   | ST        |
 |         | 7     | Date of Birth                          | TS        |
 |         | 8     | Sex                                    | ID        |
 |         | 9     | Patient Alias                          | PN        |
@@ -16688,8 +16810,8 @@ Notes and Comments (NTE) segment
 |         | 17    | Religion                               | ID        |
 |         | 18    | Patient Account Number                 | CK        |
 |         | 19    | SSN Number – Patient                   | ST        |
-|         | 20    | Driver’s Lic Num – Patient             | CM        |
-|         | 21    | Mother’s Identifier                    | CK        |
+|         | 20    | Driver's Lic Num – Patient             | CM        |
+|         | 21    | Mother's Identifier                    | CK        |
 |         | 22    | Ethnic Group                           | ID        |
 |         | 23    | Birth Place                            | ST        |
 |         | 24    | Multiple Birth Indicator               | ID        |
@@ -16708,7 +16830,7 @@ Notes and Comments (NTE) segment
 |         | 10    | Entered By                             | CN        |
 |         | 11    | Verified By                            | CN        |
 |         | 12    | Ordering Provider                      | CN        |
-|         | 13    | Enterer’s Location                     | CM        |
+|         | 13    | Enterer's Location                     | CM        |
 |         | 14    | Call Back Phone Number                 | TN        |
 |         | 15    | Order Effective Date/Time              | TS        |
 |         | 16    | Order Control Code Reason              | CE        |
@@ -16720,15 +16842,15 @@ Notes and Comments (NTE) segment
 |         | 3     | Requested Give Amount – Maximum        | NM        |
 |         | 4     | Requested Give Units                   | CE        |
 |         | 5     | Requested Dosage Form                  | CE        |
-|         | 6     | Provider’s Pharmacy Instructions       | CE        |
-|         | 7     | Provider’s Administration Instructions | CE        |
+|         | 6     | Provider's Pharmacy Instructions       | CE        |
+|         | 7     | Provider's Administration Instructions | CE        |
 |         | 8     | Deliver to Location                    | CM        |
 |         | 9     | Allow Substitutions                    | ID        |
 |         | 10    | Requested Dispense Code                | CE        |
 |         | 11    | Requested Dispense Amount              | NM        |
 |         | 12    | Requested Dispense Units               | CE        |
 |         | 13    | Number of Refills                      | NM        |
-|         | 14    | Ordering Provider’s DEA Number         | CN        |
+|         | 14    | Ordering Provider's DEA Number         | CN        |
 |         | 15    | Pharmacist Verifier ID                 | CN        |
 |         | 16    | Needs Human Review                     | ID        |
 |         | 17    | Requested Giver Per (Time Unit)        | ST        |
@@ -16747,7 +16869,7 @@ Notes and Comments (NTE) segment
 
 #### RRD^O14 Prescription Refill / Partial Services Response
 
-The ‘RRD^O14’ message is the response to the ‘RDS^O13’ message.
+The 'RRD^O14' message is the response to the 'RDS^O13' message.
 
 The following table defines the data elements required for each of the following segments of the RRD^O14 Prescription Refill/Partial Services Response
 
@@ -16757,7 +16879,7 @@ Message Acknowledgement (MSH) segment
 
 Patient Identification (PID) segment
 
-100. The MUMPS code uses BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)’ to create the Patient Identification (PID) segment.
+100. The MUMPS code uses BLDPID^PSOTPHL2(DFN,"",.PSORRDAT,.HL,.ERR)' to create the Patient Identification (PID) segment.
 
 Common Order (ORC) segment
 
@@ -16765,7 +16887,7 @@ RXD Pharmacy/Treatment Dispense Segment
 
 Notes and Comments (NTE) segment
 
-101. The Notes and Comments (NTE) segment will be present if the request is for a ‘Partial Fill’.
+101. The Notes and Comments (NTE) segment will be present if the request is for a 'Partial Fill'.
 
 | Segment | Piece | Description / Field Name       | Data Type |
 |---------|-------|--------------------------------|-----------|
@@ -16801,7 +16923,7 @@ Notes and Comments (NTE) segment
 |         | 3     | Patient ID (Internal ID)       | CK        |
 |         | 4     | Alternate Patient ID           | CK        |
 |         | 5     | Patient Name                   | PN        |
-|         | 6     | Mother’s Maiden Name           | ST        |
+|         | 6     | Mother's Maiden Name           | ST        |
 |         | 7     | Date of Birth                  | TS        |
 |         | 8     | Sex                            | ID        |
 |         | 9     | Patient Alias                  | PN        |
@@ -16815,8 +16937,8 @@ Notes and Comments (NTE) segment
 |         | 17    | Religion                       | ID        |
 |         | 18    | Patient Account Number         | CK        |
 |         | 19    | SSN Number – Patient           | ST        |
-|         | 20    | Driver’s Lic Num – Patient     | CM        |
-|         | 21    | Mother’s Identifier            | CK        |
+|         | 20    | Driver's Lic Num – Patient     | CM        |
+|         | 21    | Mother's Identifier            | CK        |
 |         | 22    | Ethnic Group                   | ID        |
 |         | 23    | Birth Place                    | ST        |
 |         | 24    | Multiple Birth Indicator       | ID        |
@@ -16835,7 +16957,7 @@ Notes and Comments (NTE) segment
 |         | 10    | Entered By                     | CN        |
 |         | 11    | Verified By                    | CN        |
 |         | 12    | Ordering Provider              | CN        |
-|         | 13    | Enterer’s Location             | CM        |
+|         | 13    | Enterer's Location             | CM        |
 |         | 14    | Call Back Phone Number         | TN        |
 |         | 15    | Order Effective Date/Time      | TS        |
 |         | 16    | Order Control Code Reason      | CE        |
@@ -16865,7 +16987,7 @@ Notes and Comments (NTE) segment
 
 With this integrated VistA patch, several points of failure could occur. The systems design will allow the process to continue if any of the various integration points fail, however, remote prescriptions will not display to the Pharmacist on the Medication Profile view.
 
-There are application error messages that will display during the search for the patient and the patient’s prescriptions. They are:
+There are application error messages that will display during the search for the patient and the patient's prescriptions. They are:
 
 - No patient error message:  
   PATIENT IDENTIFIER NOT FOUND
@@ -16929,7 +17051,7 @@ The Inbound eR<sub>x</sub> processing flow is sequential in nature as depicted i
 - Step 7: The eR<sub>x</sub> Processing Hub constructs the eR<sub>x</sub> data into the format of the eRx Holding Queue and sends to the respective VistA OP. The eRx system utilizes the NPI Institution in the Outpatient site file (#59) to identify the eRx institution. The institution identified as the NPI Institution is a pointer to the Institution file (#4). The NPI value for this NPI Institution in the Institution file (#4) is used to map the eR<sub>x</sub>.
 - Step 8: In the respective VistA OP instance, pharmacy personnel perform manual validation of the eR<sub>x</sub> (e.g., patient match, drug match, etc.).
 - Step 9: Once all the validations are completed successfully, the prescription is fulfilled in VistA OP based on the existing fulfillment routines.
-102. Change Healthcare validates all messages received back from eRx Processing Hub against the NCPDP 2017071 format to ensure that the message is in valid construct without any corruption and sends it to the External Provider. The Inbound eR<sub>x</sub> process flow ends with the External Provider receiving the message update from VA. In some cases, some of the EMR’s send Status messages back to the Hub upon successful receipt of messages from VA.
+102. Change Healthcare validates all messages received back from eRx Processing Hub against the NCPDP 2017071 format to ensure that the message is in valid construct without any corruption and sends it to the External Provider. The Inbound eR<sub>x</sub> process flow ends with the External Provider receiving the message update from VA. In some cases, some of the EMR's send Status messages back to the Hub upon successful receipt of messages from VA.
 
 ### Inbound ePrescribing Protocols 
 
@@ -17913,7 +18035,7 @@ OUTPATIENT SITE (#59) ERX DEFAULT LOOKBACK DAYS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A new field for a VA site’s default eRx clinic (ERX LOOKBACK DAYS \#10.2) was added to the Outpatient Site File \#59 and is also released as part of the VistA patch for Inbound ePrescribing.
+A new field for a VA site's default eRx clinic (ERX LOOKBACK DAYS \#10.2) was added to the Outpatient Site File \#59 and is also released as part of the VistA patch for Inbound ePrescribing.
 
 <span id="_26_Appendix_H:" class="anchor"></span>
 
@@ -17935,9 +18057,9 @@ The overall design of Pharmacy Operations – DEA# Enhancements DOJ/DEA Migratio
   - The Add New Providers \[PSO PROVIDER ADD\], Edit Provider \[PSO PROVIDER EDIT\], and View Provider \[PSO PROVIDER INQUIRE\] options have been updated to prompt for and display the DEA number information from the DEA NUMBERS file (#8991.9), and to allow an unlimited number of DEA numbers to be assigned to each provider.
   - Pharmacy Order Entry options have been updated to prompt the pharmacist to select the correct DEA number when there are multiple DEA numbers assigned to the ordering provider.
 
-The initial DOJ/DEA migration process occurs as part of the patch installations of PSO\*7.0\*529. At installation, a search is made through the DEA \# field (#53.2) of the NEW PERSON file (#200). For each DEA \#, a call is made to the DOJ/DEA web server to retrieve the prescriber’s DEA information. If the call is successful, then the DEA information is filed in the DEA NUMBERS file (#8991.9) and the DEA NUMBERS file entry is linked to the prescriber in the NEW PERSON file (#200) and to the DEA BUSINESS ACTIVITY CODES file (#8991.8).
+The initial DOJ/DEA migration process occurs as part of the patch installations of PSO\*7.0\*529. At installation, a search is made through the DEA \# field (#53.2) of the NEW PERSON file (#200). For each DEA \#, a call is made to the DOJ/DEA web server to retrieve the prescriber's DEA information. If the call is successful, then the DEA information is filed in the DEA NUMBERS file (#8991.9) and the DEA NUMBERS file entry is linked to the prescriber in the NEW PERSON file (#200) and to the DEA BUSINESS ACTIVITY CODES file (#8991.8).
 
-Patch PSO\*7.0\*684 performs a refresh “migration” of provider DEA information to new data dictionaries introduced by XU\*8\*688 and initially migrated by PSO\*7.0\*529. The DOJ/DEA migration process occurs as part of the patch installation. Prior to refreshing the DEA information, all old DEA information will be deleted. At installation, a search is made through the DEA \# field (#53.2) of the NEW PERSON file (#200). For each DEA \#, a call is made to the DOJ/DEA web server to retrieve the prescriber’s DEA information. If the call is successful, then the DEA information is filed in the DEA NUMBERS file (#8991.9) and the DEA NUMBERS file entry is linked to the prescriber in the NEW PERSON file (#200) and to the DEA BUSINESS ACTIVITY CODES file (#8991.8). Upon successful installation of this patch, an entry will be logged in the Kernel ^XTMP global for use by the environment check of the follow-on patch PSO\*7.0\*545 installation.
+Patch PSO\*7.0\*684 performs a refresh "migration" of provider DEA information to new data dictionaries introduced by XU\*8\*688 and initially migrated by PSO\*7.0\*529. The DOJ/DEA migration process occurs as part of the patch installation. Prior to refreshing the DEA information, all old DEA information will be deleted. At installation, a search is made through the DEA \# field (#53.2) of the NEW PERSON file (#200). For each DEA \#, a call is made to the DOJ/DEA web server to retrieve the prescriber's DEA information. If the call is successful, then the DEA information is filed in the DEA NUMBERS file (#8991.9) and the DEA NUMBERS file entry is linked to the prescriber in the NEW PERSON file (#200) and to the DEA BUSINESS ACTIVITY CODES file (#8991.8). Upon successful installation of this patch, an entry will be logged in the Kernel ^XTMP global for use by the environment check of the follow-on patch PSO\*7.0\*545 installation.
 
 Patch PSO\*7.0\*684 also makes enhancements to the DEA Migration Report \[PSO DEA MIGRATION REPORT\] option to support the migration of DEA numbers from the NEW PERSON file (#200) to the DEA NUMBERS file (#8991.9).
 

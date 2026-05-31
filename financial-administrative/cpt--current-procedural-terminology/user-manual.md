@@ -3,7 +3,7 @@ title: CPT Version 6 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CPT
 app_name: Current Procedural Terminology
 section: FIN
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: CPT
 patch_ver: 6
 patch_id: CPT*6
-group_key: "CPT:CPT:6"
+group_key: CPT:CPT:6
+description: Current Procedural Terminology (CPT) V. 6.0 User ManualMay 1997IntroductionPackage ManagementPackage Operation
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Current Procedural Terminology (CPT) V. 6.0 User ManualMay 1997IntroductionPackage ManagementPackage Operation
-audience: 
-keywords: 
-  - facility
-  - exam
-  - codes
-  - code
-  - inactive
-  - musculoskeletal
-  - integumentary
-  - graft
-  - bone
-  - microvascular
 page_count: 0
 word_count: 1625
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=33"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=33
+audit_applied: '2026-05-31'
 ---
 
 Current Procedural Terminology (CPT) V. 6.0 User ManualMay 1997IntroductionPackage ManagementPackage Operation

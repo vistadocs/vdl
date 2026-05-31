@@ -3,7 +3,7 @@ title: Hospital Based Primary Care (former HBHC) Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
@@ -11,41 +11,45 @@ app_status: active
 pkg_ns: HBPC
 patch_ver: 1
 patch_id: HBPC*1
-group_key: "HBPC:HBPC:1"
-file_numbers: 
-  - 44
-  - 631
-  - 632
-security_keys: []
+group_key: HBPC:HBPC:1
+description: Version 1.0March 2001Revised May 2015Department of Veterans AffairsOffice of Information and TechnologyProduct
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '44'
+- '200'
+- '631'
+- '631.4'
+- '631.6'
+- '631.9'
+- '632'
+- '633.2'
+- '634'
+- '634.1'
+- '634.2'
+- '634.3'
+- '634.5'
+security_keys:
+- HBHC MANAGER
+- HBHC TRANSMIT
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - report
-  - date
-  - patient
-  - class
-  - table
-  - contents
-  - hbhc
-  - home
-  - discharge
-  - provider
 page_count: 0
 word_count: 26219
 section_count: 43
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh1_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh1_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh1_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh1_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
 
 Home Based Primary CareUser Manual

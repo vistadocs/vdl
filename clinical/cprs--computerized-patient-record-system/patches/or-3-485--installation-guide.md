@@ -3,7 +3,7 @@ title: OR*3*485 COVID-19 Identifier Deployment, Installation, Back-Out, and Roll
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: COVID-19 Identifier  CPRS GUI 31A
+doc_subject: COVID-19 Identifier CPRS GUI 31A
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*485
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '| Date | Version | Description | Author | |---------------|-------------|-----------------|------------------------------------| | April 6, 2020 | 1.0 | Initial Draft | REDACTED'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - cprs
-  - installation
-  - covid
-  - install
-  - back
-  - rollback
-  - deployment
-  - site
 page_count: 0
 word_count: 5421
 section_count: 34
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_485_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_485_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_485_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_485_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 CPRS v31a COVID-19 Identifier

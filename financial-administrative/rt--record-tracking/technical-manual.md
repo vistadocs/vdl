@@ -3,7 +3,7 @@ title: Record Tracking Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RT
 app_name: Record Tracking
 section: FIN
@@ -11,38 +11,40 @@ app_status: active
 pkg_ns: RT
 patch_ver: 1
 patch_id: RT*1
-group_key: "RT:RT:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: - [# Orientation](#orientation) - [# Introduction](#introduction) - [# Functional Description](#functional-description) - [# Technical Overview](#technical-overview) - [Namespace Conventions](#namespace-conventions) - [Key Variables](#key-variables) - [Resource Requirements](#resource-requirements)
-audience: 
-keywords: 
-  - record
-  - records
-  - tracking
-  - table
-  - contents
-  - request
-  - pull
-  - routine
-  - site
-  - routines
+group_key: RT:RT:1
+description: '| | | | | |----------|---------------------------------------|---------------------|----------------------| | Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | | 3/30/09 | Reformatted Manual | | REDACTED'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '100'
+- '190'
+- '194.4'
+- '195.1'
+- '195.2'
+- '195.3'
+- '195.4'
+- '195.6'
+- '195.9'
+security_keys:
+- MAS-FR-SUPERVISOR
+menu_options: 1
 page_count: 0
 word_count: 7508
 section_count: 23
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 3/30/09
 revision_oldest: 3/30/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rttech.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rttech.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=53"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rttech.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rttech.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=53
+audit_applied: '2026-05-31'
 ---
 
 ![](record-tracking-version-1-technical-manual/001.png)

@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*276
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
+group_key: PRCA:PRCA:4.5
+description: '| Date | Version | Description | Project Manager | Technical Writer | |--------------|---------|-------------|-----------------|------------------| | January 2012 | 1.0 | Initial | Sookie Spence | Berry Anderson | | | | | |'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '344.31'
+- '361.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - report
-  - rcdpe
-  - prca
-  - eeob
-  - installation
-  - profile
-  - lockbox
-  - audit
 page_count: 0
 word_count: 2610
 section_count: 16
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p276_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p276_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p276_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p276_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ePayments II

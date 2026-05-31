@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*345
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
+group_key: PRCA:PRCA:4.5
+description: '> This document describes how to deploy and install the multi-build (which includes patches PRCA\4.5\345 and IB\2.0\639) as well as how to back-out the product and rollback to a previous version or data set.'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '342'
+- '344.5'
 security_keys: []
 menu_options: 0
-description: > This document describes how to deploy and install the multi-build (which includes patches PRCA\4.5\345 and IB\2.0\639) as well as how to back-out the product and rollback to a previous version or data set.
-audience: 
-keywords: 
-  - table
-  - contents
-  - blockquote
-  - strong
-  - back
-  - style
-  - width
-  - installation
-  - deployment
-  - class
 page_count: 0
 word_count: 2816
 section_count: 31
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p345_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p345_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p345_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p345_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 # Medical Care Collection Fund (MCCF) Electronic Data Interchange (EDI) Transaction Applications Suite (TAS) ePayments Build 9

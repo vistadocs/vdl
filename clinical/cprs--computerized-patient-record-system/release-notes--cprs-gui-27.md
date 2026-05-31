@@ -1,13 +1,50 @@
 ---
-consolidated_title: "release notes cprs gui 27"
-app_code: CPRS
+title: OR*3*243 Release Notes CPRS GUI 27
 doc_type: RN
-master_source: "OR*3*243 Release Notes CPRS GUI 27"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: CPRS GUI 27
+app_code: CPRS
+app_name: Computerized Patient Record System
+section: CLI
+app_status: archive
+pkg_ns: OR
+patch_ver: 3
+patch_id: OR*3*243
+group_key: CPRS:OR:3
+file_numbers:
+- '100'
+- '101.24'
+- '101.41'
+security_keys:
+- YSCL AUTHORIZED
+menu_options: 1
+description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 23439
+section_count: 0
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: February 2009
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_243rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
+master_source: OR*3*243 Release Notes CPRS GUI 27
 master_pub_date: February 2009
 consolidated_from: 3 versions
 prior_versions:
-  - "OR*3*277 Release Notes CPRS GUI 27"
-  - "OR*3*304 Release Notes CPRS GUI 27"
+- OR*3*277 Release Notes CPRS GUI 27
+- OR*3*304 Release Notes CPRS GUI 27
+consolidated_title: release notes cprs gui 27
 ---
 
 ![](or-3-243-release-notes-cprs-gui-27/001.png)
@@ -64,7 +101,7 @@ Patch</strong></td>
 <td>OR*3.0*300 (This is an informational patch only.)</td>
 <td><a href="#no_continuous_default">12</a></td>
 <td><blockquote>
-<p><a href="#no_continuous_default">Corrected the release notes to reflect that the Infusion dialog does not come up with a default route of “continuous”. The user must choose a route.</a></p>
+<p><a href="#no_continuous_default">Corrected the release notes to reflect that the Infusion dialog does not come up with a default route of "continuous". The user must choose a route.</a></p>
 </blockquote></td>
 <td><mark>REDACTED</mark></td>
 <td><mark>REDACTED</mark></td>
@@ -162,7 +199,7 @@ Resolution: Developers added a right-click option to the note editing popup menu
 
 HDS software involved in resolving PSI-04-012: OR\*3.0\*243.
 
-- PSI-04-057: Provider Selecting Wrong Patient with Same First/Last Name (NOIS BHH-1104-40049, Remedy \#71065) – On the patient selection screen, if a user typed in some letters of a patient’s name, CPRS would try to match the selection, go to that part of the patient list, and highlight the first entry that matched the text entered—even if there was more than one possible match. If the user pressed \<Enter\> without ensuring that the correct patient was selected, the user might be looking at the wrong record.
+- PSI-04-057: Provider Selecting Wrong Patient with Same First/Last Name (NOIS BHH-1104-40049, Remedy \#71065) – On the patient selection screen, if a user typed in some letters of a patient's name, CPRS would try to match the selection, go to that part of the patient list, and highlight the first entry that matched the text entered—even if there was more than one possible match. If the user pressed \<Enter\> without ensuring that the correct patient was selected, the user might be looking at the wrong record.
 
 Resolution: To address this problem, developers changed the patient selection list to implement the same auto-unique selection behavior that the mediation order dialog dosage, route, and schedule implements. Specifically, an item in the list will not be selected unless the text typed uniquely identifies the item. If there are multiple items that could match what the user entered, CPRS requires the user to explicitly select the patient.
 
@@ -201,9 +238,9 @@ HDS software involved in resolving PSI-05-026: OR\*3.0\*243.
 Resolution: Developers changed the report format to a grid reports. Users can now select a date to view the information from that time.
 
 -   
-  PSI-05-048: System Changes Order from Lab Collect to Ward Collect (Remedy \#97102) ­– Previously, for inpatient lab orders that are of type “lab collect” or “immediate collect”, if a continuous schedule was selected (such as QD or QWEEKLY) and a child order falls on a day when the lab cannot perform the collection (for example, weekends or holidays), the collection type was automatically changed to “ward collect”, but CPRS did not warn the user.
+  PSI-05-048: System Changes Order from Lab Collect to Ward Collect (Remedy \#97102) ­– Previously, for inpatient lab orders that are of type "lab collect" or "immediate collect", if a continuous schedule was selected (such as QD or QWEEKLY) and a child order falls on a day when the lab cannot perform the collection (for example, weekends or holidays), the collection type was automatically changed to "ward collect", but CPRS did not warn the user.
 
-Resolution: Developers added an advisory window that initially appears when the user selects “Accept” for that order, advising of any such changes to child orders. If these orders are left unsigned, the same advisory window will also appear at the point when they are signed or released at some future date.
+Resolution: Developers added an advisory window that initially appears when the user selects "Accept" for that order, advising of any such changes to child orders. If these orders are left unsigned, the same advisory window will also appear at the point when they are signed or released at some future date.
 
 HDS software involved in resolving PSI-05-048: OR\*3.0\*243.
 
@@ -225,9 +262,9 @@ HDS software involved in resolving PSI-05-093: OR\*3.0\*243.
 
 Resolution: This PSI will be addressed in several parts. In CPRS v.27, these items have been changed:
 
-- The “Return to Orders” button has been implemented on the order checks dialog. This does not cancel the order, but it does cancel the signature process. The provider could then return to the ordering dialog to rework the order.
+- The "Return to Orders" button has been implemented on the order checks dialog. This does not cancel the order, but it does cancel the signature process. The provider could then return to the ordering dialog to rework the order.
 - Developers created several reports that sites can run to review the critical order check override reasons. Reports can be extracted and sorted by division, display group, and other appropriate fields.
-- Developers added a new note to critical order checks that reads “NOTE: The override justification is for tracking purposes and does not change or place new order(s).”
+- Developers added a new note to critical order checks that reads "NOTE: The override justification is for tracking purposes and does not change or place new order(s)."
 
 HDS software involved in resolving PSI-05-103: OR\*3.0\*243.
 
@@ -237,13 +274,13 @@ Resolution: To address this issue, the CPRS Clinical workgroup and the Patient S
 
 - My Unsigned Orders - This Session: This list contains all orders written by the current user in the current session.
 - My Unsigned Orders - Previous Sessions: This list contains all orders written in previous sessions by the current user.
-- Others’ Unsigned Orders - All Sessions: This list contains all orders written by other users.
+- Others' Unsigned Orders - All Sessions: This list contains all orders written by other users.
 
 This should enable providers to better identify which orders belong to them and which do not.
 
 Another change was that when the user discontinues an unsigned/unreleased order, if the order was placed in the current ordering session the order is DELETED. If the order was placed in a different ordering session, then the order is CANCELLED. Deleted orders do not appear in the chart because other users never saw them, but it is possible that other clinicians saw the order placed in a different session so that information is retained in the chart and the order is given a CANCELLED status.
 
-> **NOTE:** Note on Ordering Session—With CPRS 27, how CPRS behaves when a user discontinues (DC) an order is affected by the ordering session. If the order is DC’ed in the same ordering session in which it was created, then it is deleted and no longer remains in the database. If the order is DC’ed in a different ordering session, then the order is given a status of CANCELLED and is still in the database in file 100. Special attention should be given to when an ordering session actually ends. It ends in one of the following 4 ways:
+> **NOTE:** Note on Ordering Session—With CPRS 27, how CPRS behaves when a user discontinues (DC) an order is affected by the ordering session. If the order is DC'ed in the same ordering session in which it was created, then it is deleted and no longer remains in the database. If the order is DC'ed in a different ordering session, then the order is given a status of CANCELLED and is still in the database in file 100. Special attention should be given to when an ordering session actually ends. It ends in one of the following 4 ways:
 
 - The user switches patients
 - The user closes CPRS
@@ -258,9 +295,9 @@ Resolution: To address this issue, the CPRS Clinical Workgroup recommended chang
 
 HDS software involved in resolving PSI-05-116: OR\*3.0\*243.
 
-- PSI-05-118: Caption on the Most Recent Labs Shows 00:00 when No Time Is Entered (Remedy \#123277) – For the caption on the Labs tab for the “Most Recent Labs” grid and Worksheet, if a lab result had a date but no associated specific time, CPRS was displaying “00:00” if no time was present for those results.
+- PSI-05-118: Caption on the Most Recent Labs Shows 00:00 when No Time Is Entered (Remedy \#123277) – For the caption on the Labs tab for the "Most Recent Labs" grid and Worksheet, if a lab result had a date but no associated specific time, CPRS was displaying "00:00" if no time was present for those results.
 
-Resolution: If no specific time is entered (“T@U” for an unknown time), CPRS will display only the date. This change applies to the Most Recent Labs and Worksheet views and will not be visible to users until Lab patch LR\*5.2\*364 is also installed.
+Resolution: If no specific time is entered ("T@U" for an unknown time), CPRS will display only the date. This change applies to the Most Recent Labs and Worksheet views and will not be visible to users until Lab patch LR\*5.2\*364 is also installed.
 
 HDS software involved in resolving PSI-05-118: OR\*3.0\*243.
 
@@ -272,10 +309,10 @@ Resolution:
 
 - CPRS now includes the medication route for solutions displayed in the Infusions group and on the detailed display.
 - CPRS added three new fields to the IV Order dialog: Type, Route and Schedule.
-- The new “<span id="no_continuous_default" class="anchor"></span>Type” field does not have a default. Users must select either “continuous” or “intermittent”.
-- If the “Type” is “Continuous”, the Route defaults based on the Solution/Additive unless there was a conflict or none was selected. Then, the user must explicitly select a Route. An “Infusion Rate (ml/hr)” would need to be entered. The Schedule field would be unavailable.
-- If “Type” is “Intermittent”, the Route defaults based on the Solution/Additive unless there is a conflict or none was selected. In that case, the user must explicitly select a Route. An “Infuse Over Time” value would need to be entered with a “Unit of time” designated, and a “Schedule” would need to be entered.
-- New quick orders can be built using the new fields. A utility will be provided to “identify” quick orders that were done with an IV Dialog and lack data relevant to the new fields. IV quick orders that do not lack data for the new fields will be treated as continuous orders.
+- The new "<span id="no_continuous_default" class="anchor"></span>Type" field does not have a default. Users must select either "continuous" or "intermittent".
+- If the "Type" is "Continuous", the Route defaults based on the Solution/Additive unless there was a conflict or none was selected. Then, the user must explicitly select a Route. An "Infusion Rate (ml/hr)" would need to be entered. The Schedule field would be unavailable.
+- If "Type" is "Intermittent", the Route defaults based on the Solution/Additive unless there is a conflict or none was selected. In that case, the user must explicitly select a Route. An "Infuse Over Time" value would need to be entered with a "Unit of time" designated, and a "Schedule" would need to be entered.
+- New quick orders can be built using the new fields. A utility will be provided to "identify" quick orders that were done with an IV Dialog and lack data relevant to the new fields. IV quick orders that do not lack data for the new fields will be treated as continuous orders.
 - When a user writes an intermittent infusion order with a schedule of ONCE, the following will happen in CPRS:
 - Disable the display of DURATION
 - Only VOLUME should be displayed
@@ -294,14 +331,14 @@ Resolution: The user may flag outpatient order and have the update sent to outpa
 HDS software involved in resolving PSI-06-041: PSO\*7\*225.
 
 - PSI-06-045: (E3R \#18904) – (Duplicate of PSI-06-014)
-- PSI-06-066: IV Fluid Order in CPRS with a Duration or Total Volume of a Fractional Dose (e.g., 0.5L) Causes Problem in Pharmacy Finishing (Remedy \#144913) – Previously, if a user entered an IV Fluid order in CPRS and used a fractional dose such as “0.5L” in the Duration or Total Volume window, the leading zero caused a problem when finishing the order in pharmacy.
+- PSI-06-066: IV Fluid Order in CPRS with a Duration or Total Volume of a Fractional Dose (e.g., 0.5L) Causes Problem in Pharmacy Finishing (Remedy \#144913) – Previously, if a user entered an IV Fluid order in CPRS and used a fractional dose such as "0.5L" in the Duration or Total Volume window, the leading zero caused a problem when finishing the order in pharmacy.
 
 For the pharmacy application, in field \#2, Solutions, instead of displaying IV Limit with the proper information, it displayed Duration: without a value. Also, in the display for START DATE/TIME and STOP DATE/TIME, the time span is only 6 minutes. Unless changed, the order would have only a 6-minute ACTIVE status and could easily be missed in BCMA because it could expire before the RN sees it.
 
 Resolution: OR\*3.0\*254 addresses the PSI. Developers also changed CPRS (OR\*3.0\*243) to consistently manage entry of leading zeros at the user interface level. CPRS v.27 forces the provider to add a leading numeric value when entering a fractional duration for ml and L. This change also applies to the volume/strength field on the Infusion dialog.
 
 - PSI-06-068: See PSI-05-001
-- PSI-06-088: Consults Alert Changes (Remedy \#151414) – When sending alerts on addition of a comment to a consult request, no distinction was made between service update users defined at the service level and update users defined as “unrestricted access” for that service. Alerts were being sent incorrectly or not sent at all as a result of this.
+- PSI-06-088: Consults Alert Changes (Remedy \#151414) – When sending alerts on addition of a comment to a consult request, no distinction was made between service update users defined at the service level and update users defined as "unrestricted access" for that service. Alerts were being sent incorrectly or not sent at all as a result of this.
 
 Resolution: CPRS developers made the necessary changes to support patch GMRC\*3.0\*55 that will correct the issues when installed.
 
@@ -309,11 +346,11 @@ Resolution: CPRS developers made the necessary changes to support patch GMRC\*3.
 
 Resolution: This problem goes beyond Health Summary reports and what is displayed when using or not using DOD/FHIE sites/Reports. All reports will experience this problem depending on what the user has selected and which remote sites are in an active query. The same issue will exist when the HDR comes online for CPRS.
 
-Developers provided “cognitive” information when data is excluded on a report query. For text reports only, CPRS adds a comment that describes the problem where the report would normally be. For ‘grid’ type reports, the error comment is put in the first column (after the facility name) of the report. Here are some examples of the comments that could show up, depending on the type of query and what the user has selected:
+Developers provided "cognitive" information when data is excluded on a report query. For text reports only, CPRS adds a comment that describes the problem where the report would normally be. For 'grid' type reports, the error comment is put in the first column (after the facility name) of the report. Here are some examples of the comments that could show up, depending on the type of query and what the user has selected:
 
-- \<No HDR Data Included\> - Use “HDR Reports” menu for HDR Data.
+- \<No HDR Data Included\> - Use "HDR Reports" menu for HDR Data.
 - \<No HDR Data\> - This site is not a source for HDR Data.
-- \<No DOD Data\> - Use “Dept. of Defense Reports” Menu to retrieve data from DOD.
+- \<No DOD Data\> - Use "Dept. of Defense Reports" Menu to retrieve data from DOD.
 - \<ERROR\> - Unable to communicate with Remote site
 
 In addition to this text, error messages will also be shown after each remote site listed under the (blue) Remote Data View button, when appropriate.
@@ -346,13 +383,13 @@ Resolution: Developer changed the routine used to retrieve orders based on date 
 
 Resolution: Developers changed CPRS to cancel out of an IV Quick Order when the provider does not pass the pharmacy DEA check. The same check now occurs when the user is signing the order to catch auto-accept quick orders.
 
-- PSI-06-192: User May Give Additional Dose Now in the Inpatient Medication Dialog Box with a Medication Schedule of ONCE or ONE-TIME (Remedy \#172339) – Previously, CPRS allowed the user to select the “Give additional dose now” checkbox in the inpatient medication dialog box with medication schedules of ONCE or ONE-TIME if the user was changing the medication order, transferring outpatient medications to inpatient medications, or copying to a new order. The checkbox was NOT selectable when the user was entering the medication the first time. The checkbox being selectable allowed the user to place two orders for the same medication, but CPRS did NOT alert the physician by displaying a pop-up warning dialog box as did the other schedules that told the physician two orders for the medication had been created.
+- PSI-06-192: User May Give Additional Dose Now in the Inpatient Medication Dialog Box with a Medication Schedule of ONCE or ONE-TIME (Remedy \#172339) – Previously, CPRS allowed the user to select the "Give additional dose now" checkbox in the inpatient medication dialog box with medication schedules of ONCE or ONE-TIME if the user was changing the medication order, transferring outpatient medications to inpatient medications, or copying to a new order. The checkbox was NOT selectable when the user was entering the medication the first time. The checkbox being selectable allowed the user to place two orders for the same medication, but CPRS did NOT alert the physician by displaying a pop-up warning dialog box as did the other schedules that told the physician two orders for the medication had been created.
 
-Resolution: Developers modified CPRS to not display the “Give additional dose now” checkbox for any ONCE or ONE-TIME schedule.
+Resolution: Developers modified CPRS to not display the "Give additional dose now" checkbox for any ONCE or ONE-TIME schedule.
 
-- PSI-07-013: Orders Are Not Discontinuing as Expected--Error Message States “Invalid Pharmacy Order” (Remedy \#175403) – Duplicate of PSI-05-007.
+- PSI-07-013: Orders Are Not Discontinuing as Expected--Error Message States "Invalid Pharmacy Order" (Remedy \#175403) – Duplicate of PSI-05-007.
 - PSI-07-014: See PSI-05-001
-- PSI-07-025: Update Provider/Location--Primary Focus Is Not on Encounter Provider (Remedy \#166051) – In CPRS v.25, when the user went to “Update Provider/Location”, the primary focus when the dialog opened was on the encounter provider, but with CPRS v.26, the focus was changed and the primary focus was on the bottom portion of the screen — Visit Location for outpatient medication orders, Clinic Appointments for inpatient medications, etc.
+- PSI-07-025: Update Provider/Location--Primary Focus Is Not on Encounter Provider (Remedy \#166051) – In CPRS v.25, when the user went to "Update Provider/Location", the primary focus when the dialog opened was on the encounter provider, but with CPRS v.26, the focus was changed and the primary focus was on the bottom portion of the screen — Visit Location for outpatient medication orders, Clinic Appointments for inpatient medications, etc.
 
 Resolution: Developers modified CPRS GUI v.27 so that the focus defaults to the Provider list box for non-provider users.
 
@@ -377,9 +414,9 @@ Resolution:
 
 Resolution: Developers added the schedule to both of these reports.
 
-- PSI-07-177: Display on “Medication Nearing Expiration” Alert Does Not Match Status of Order – An expiring medication may not get renewed or there may be a delay in renewal since what is displayed on the CPRS Orders tab upon processing the “Medications nearing expiration” alert doesn't appear to match the status of the order. The user is routed to the correct order, but the status displays as “dc/edit”. The reporting site stated they had to use CPRS Orders tab “Custom View” for a Date Range to find the "expired" orders to renew.  
+- PSI-07-177: Display on "Medication Nearing Expiration" Alert Does Not Match Status of Order – An expiring medication may not get renewed or there may be a delay in renewal since what is displayed on the CPRS Orders tab upon processing the "Medications nearing expiration" alert doesn't appear to match the status of the order. The user is routed to the correct order, but the status displays as "dc/edit". The reporting site stated they had to use CPRS Orders tab "Custom View" for a Date Range to find the "expired" orders to renew.  
     
-  Resolution: CPRS GUI v27 has been modified to include an indirect fix for PSI-07-177. Currently when a user processes a “Medication Nearing Expiration” alert (after the expiration date/time) on a changed inpatient meds order (order with an ACTION of change), the user will be directed to the list of “expired” (status) orders under the Recently Expired Orders view of the Orders tab. Only those orders that have “expired” will be displayed in the corresponding view and not those that have been “Discontinued/Edit” or “dc/edit”. If the alert was processed before the expiration date/time, CPRS directs the user to the list of orders (with a status of ACTIVE) that are going to expire soon under the Medications, Expiring view on the Orders tab.
+  Resolution: CPRS GUI v27 has been modified to include an indirect fix for PSI-07-177. Currently when a user processes a "Medication Nearing Expiration" alert (after the expiration date/time) on a changed inpatient meds order (order with an ACTION of change), the user will be directed to the list of "expired" (status) orders under the Recently Expired Orders view of the Orders tab. Only those orders that have "expired" will be displayed in the corresponding view and not those that have been "Discontinued/Edit" or "dc/edit". If the alert was processed before the expiration date/time, CPRS directs the user to the list of orders (with a status of ACTIVE) that are going to expire soon under the Medications, Expiring view on the Orders tab.
 - PSI-07-212: Upon Patient Movement, the Event-Delayed NPO Order Was Discontinued, Causing the Activation of a Regular Diet
 
 Resolution: This is not easily corrected, if possible at all, but the user is now prompted about the possible conflict, and instructed on how to prevent it from happening by entering explicit start and stop date/times for any diet orders defined for that same release event. Developers also added code to check for auto-accept diet quick orders, immediate and delayed, that would auto-DC because of overlapping start/stop times. For event-delayed, auto-accept diet quick orders, CPRS checks for conflicting orders for the same release event, and if the user answers NO to the prompt about having adjusted the start/stop dates, CPRS displays the diet order dialog with that quick order pre-loaded so date adjustments can be made.
@@ -393,7 +430,7 @@ Resolution: Developers corrected the problem—inadvertent double-clicking on re
 
 This is a patient safety concern in that patient care may be delayed or missed since the alert is not sent.
 
-Resolution:  CPRS was modified to include an ‘ADD’ and ‘REMOVE’ buttons so that someone can add/remove recipients without having to use the mouse. They can ‘enter’ to select, but there are also the buttons.
+Resolution:  CPRS was modified to include an 'ADD' and 'REMOVE' buttons so that someone can add/remove recipients without having to use the mouse. They can 'enter' to select, but there are also the buttons.
 
 <span id="_Toc221409092" class="anchor"></span>Known Issues
 
@@ -463,7 +500,7 @@ Work Around: None
 
 Comments: This is a known issue that will be addressed in PSJ\*5\*207, which is in the queue for national release immediately after CPRS GUI v27. The problem is documented in Remedy tickets 230800 and 233925.
 
-- Can’t Change, Renew, or Copy To New Order an IVPB Solution—Must Rewrite Entire Order and DC Soon To Expire OrderDescription: This problem has been reported by one provider at Hudson Valley Health Care (HVHC). It cannot be duplicated by development staff. No other CPRS GUI v27 test site has experienced this problem. It is believed that this may be a set-up issue at the site.
+- Can't Change, Renew, or Copy To New Order an IVPB Solution—Must Rewrite Entire Order and DC Soon To Expire OrderDescription: This problem has been reported by one provider at Hudson Valley Health Care (HVHC). It cannot be duplicated by development staff. No other CPRS GUI v27 test site has experienced this problem. It is believed that this may be a set-up issue at the site.
 
 Risk/Impact: Low Risk/Low Impact
 
@@ -522,7 +559,7 @@ Work Around: The user can click on the Mental Health DLL and give it focus.
 Comments: CPRS GUI v27 resolves numerous problems where forms were inaccessible because they were hidden; however, use of the MH DLL was introduced with CPRS GUI v27. This form is partially hidden, but accessible. This will be addressed in CPRS GUI v28.
 
 -   
-  RDV Reports from v.26 Displayed in a v.27 AccountDescription: In CPRS v.27, developers added a new field called “Reason for Study” to accommodate the need of third-party radiology products. As a result, the Radiology reports in CPRS v.27 also changed. This created a problem with the display of reports created in v.26, but displayed in v.27. The new field created a mismatch between the headings in the report, and the data that followed as shown below in the following two captures.
+  RDV Reports from v.26 Displayed in a v.27 AccountDescription: In CPRS v.27, developers added a new field called "Reason for Study" to accommodate the need of third-party radiology products. As a result, the Radiology reports in CPRS v.27 also changed. This created a problem with the display of reports created in v.26, but displayed in v.27. The new field created a mismatch between the headings in the report, and the data that followed as shown below in the following two captures.
 
 A v.26 Report as Shown in a v.26 Account
 
@@ -641,7 +678,7 @@ All the VBECS issues listed below will be considered for resolution in CPRS GUI 
 
 Reports of CPRS/VBECS issues have been delayed due to the limited production testing of CPRS/VBECS ordering functionality. Philadelphia installed VBECS into production initially, and then St. Louis installed on July 19. The problems listed below were reported after CPRS GUI v27.77 was created. In conjunction with the CPRS/VBECS test sites, a decision was made to proceed forward with national release and address these issues in either CPRS GUI v27.n or CPRS GUI v28.
 
-- VBECS-San Diego-Quick Orders: Labs linked to Whole Blood and RED BLOOD CELLS Do Not Display in “Lab Results” of DialogDescription: Lab results are being displayed properly when they are available and are supposed to be displayed; however, the tab changes from “Lab Results” to “Lab Results Available”, even when there are no results available. This is misleading. The tab should remain “Lab Results” if there are no results to be displayed.
+- VBECS-San Diego-Quick Orders: Labs linked to Whole Blood and RED BLOOD CELLS Do Not Display in "Lab Results" of DialogDescription: Lab results are being displayed properly when they are available and are supposed to be displayed; however, the tab changes from "Lab Results" to "Lab Results Available", even when there are no results available. This is misleading. The tab should remain "Lab Results" if there are no results to be displayed.
 
 Risk/Impact: Low Risk/Low Impact
 
@@ -649,15 +686,15 @@ Work Around: N/A
 
 Comments: This has been resolved in CPRS GUI v27.n
 
-- VBECS: “Date/Time Wanted” Does Not Display in the Printed/Displayed Lab Order in CPRSDescription: “Date/Time Wanted” Does Not Display in the Printed/Displayed Lab Order in CPRS
+- VBECS: "Date/Time Wanted" Does Not Display in the Printed/Displayed Lab Order in CPRSDescription: "Date/Time Wanted" Does Not Display in the Printed/Displayed Lab Order in CPRS
 
 Risk/Impact: Low Risk/Low Impact
 
 Work Around: Date/Time Wanted is displayed on Detailed Display of the order.
 
-Comments: This issue was discussed with the test sites on 6/12. There was unanimous agreement that displaying the “Date/Time Wanted” in the order detailed display was sufficient for this version.
+Comments: This issue was discussed with the test sites on 6/12. There was unanimous agreement that displaying the "Date/Time Wanted" in the order detailed display was sufficient for this version.
 
-- VBECS-Non-Quick Order VBECS Dialog: System Thinks that ‘Now’ Is a Time in the PastDescription: In a Quick Order and a “Non-Quick Order”, when the user creates an order and adds a Diagnostic test, clicks to open the Change Date/Time for the Collection Date/Time and clicks the "NOW" button, clicks OK and then clicks Accept Order, CPRS displays a message stating that “Collection times in the past are not allowed”.
+- VBECS-Non-Quick Order VBECS Dialog: System Thinks that 'Now' Is a Time in the PastDescription: In a Quick Order and a "Non-Quick Order", when the user creates an order and adds a Diagnostic test, clicks to open the Change Date/Time for the Collection Date/Time and clicks the "NOW" button, clicks OK and then clicks Accept Order, CPRS displays a message stating that "Collection times in the past are not allowed".
 
 Risk/Impact: Low Risk/Low Impact
 
@@ -665,7 +702,7 @@ Work Around: User may enter a date/time.
 
 Comments: Current functionality is consistent with the Lab dialog. If a change is made, it should be done to both the Lab order dialog as well as the Blood Bank order dialog. This will be reviewed by CPRS Clinical Work Group and evaluated whether it should go in V28.
 
-- VBECS Date/Time, Urgency Elements Need to Be Consolidated or Cross ExaminedDescription: St. Louis surgeons reported June 19, 2008, that The Date/Time’s and Urgency elements need to be consolidated or cross examined. Blood Component, Diagnostic Tests, and Urgency can each have its own time. Blood Component can be set to NOW, TYPE AND SCREEN can be set to Next scheduled lab collection, and Urgency can be set to Routine.
+- VBECS Date/Time, Urgency Elements Need to Be Consolidated or Cross ExaminedDescription: St. Louis surgeons reported June 19, 2008, that The Date/Time's and Urgency elements need to be consolidated or cross examined. Blood Component, Diagnostic Tests, and Urgency can each have its own time. Blood Component can be set to NOW, TYPE AND SCREEN can be set to Next scheduled lab collection, and Urgency can be set to Routine.
 
 Risk/Impact: Low Risk/Low Impact
 
@@ -674,7 +711,7 @@ Work Around: N/A
 Comments: This was reported with CPRS GUI v27 t77. The site agreed that it could wait for resolution until CPRS GUI v27.n
 
 -   
-  VBECS Input Validation; Blood Component Field Allows Free TextDescription: Blood Component field allows free text. It doesn’t validate the entry until the Accept Order button is pressed. Validation should be triggered as soon as the focus changes the user down-clicks another field.
+  VBECS Input Validation; Blood Component Field Allows Free TextDescription: Blood Component field allows free text. It doesn't validate the entry until the Accept Order button is pressed. Validation should be triggered as soon as the focus changes the user down-clicks another field.
 
 Risk/Impact: Low Risk/Low Impact
 
@@ -710,7 +747,7 @@ Resolution: Developers changed the email address to the correct email address.
 
 <span id="_Toc198000111" class="anchor"></span>Encounter Form and Signature Forms
 
-- New Environmental Indicator: SHD (Shipboard Hazard And Defense) – Developers added a new Environmental Indicator to Co-pay and CIDC Review and Sign Orders dialogs—SHD. The encounter form has also been modified to prompt for the new option (SHD). The SHD definition will display as a hint when the provider hovers over “SHD” in the co-pay portion of the Order Signature dialogs or uses the keyboard combination Alt + h.
+- New Environmental Indicator: SHD (Shipboard Hazard And Defense) – Developers added a new Environmental Indicator to Co-pay and CIDC Review and Sign Orders dialogs—SHD. The encounter form has also been modified to prompt for the new option (SHD). The SHD definition will display as a hint when the provider hovers over "SHD" in the co-pay portion of the Order Signature dialogs or uses the keyboard combination Alt + h.
 
 The Health Frame information is as follows:
 
@@ -731,13 +768,13 @@ The Patient Information tab shows blood product information, such as available u
 
 The Orders tab is where clinicians place orders for various blood products, for units of blood, plasma, red blood cells, platelets, for example. The dialog will prompt the user for needed information, such as ordering a type and screen for some units. Users can also place the order and put a desired date when the blood product is needed, such as for a future surgery.
 
-The Lab Results tab shows the results of lab tests the may have been ordered related to the blood products. The lab results are displayed in this tab for the user’s convenience so that they do not have to go to the Labs tab for information when ordering blood products.
+The Lab Results tab shows the results of lab tests the may have been ordered related to the blood products. The lab results are displayed in this tab for the user's convenience so that they do not have to go to the Labs tab for information when ordering blood products.
 
-- Radiology “Reason for Study” Prompt – The Radiology package is implementing a PACS messaging and Voice Recognition interface that needs “Reason for Study” split out from “Clinical History”. Prior to this version, “Clinical History” had been a catch-all; it collected unlimited text which the users have been accustomed to entering both the clinical history of the patient and the reason for the study.
+- Radiology "Reason for Study" Prompt – The Radiology package is implementing a PACS messaging and Voice Recognition interface that needs "Reason for Study" split out from "Clinical History". Prior to this version, "Clinical History" had been a catch-all; it collected unlimited text which the users have been accustomed to entering both the clinical history of the patient and the reason for the study.
 
-Resolution: Developers added a new “Reason for Study” prompt to the Radiology ordering dialog. CPRS still prompts for “Clinical History”, but it is no longer required, while “Reason for Study” is a required entry. Until Radiology patch RA\*5.0\*75 is released, both items will still appear in “Clinical History” in that package, but will appear separately in the ORDERS file.
+Resolution: Developers added a new "Reason for Study" prompt to the Radiology ordering dialog. CPRS still prompts for "Clinical History", but it is no longer required, while "Reason for Study" is a required entry. Until Radiology patch RA\*5.0\*75 is released, both items will still appear in "Clinical History" in that package, but will appear separately in the ORDERS file.
 
-Developers also added validity checking to CPRS for the optional “Clinical History” field. Following Radiology’s validation rules, CPRS will validate that this field contains at least one occurrence of two consecutive alphanumeric non-space characters. If it does not find them, CPRS will display a warning message and will not accept the order.
+Developers also added validity checking to CPRS for the optional "Clinical History" field. Following Radiology's validation rules, CPRS will validate that this field contains at least one occurrence of two consecutive alphanumeric non-space characters. If it does not find them, CPRS will display a warning message and will not accept the order.
 
 > **NOTE:** Radiology patch RA\*5.0\*75 will correct the issue where a user enters no Clinical History at all, and the order is rejected by Radiology on signature/release.
 
@@ -761,7 +798,7 @@ Additionally, the values of the Days Supply, Quantity, and Refills fields are re
 CPRS now prevents the user from renewing outpatient and inpatient Clozapine orders.
 
 - Inpatient Clozapine Order Checks – Developers added inpatient Clozapine checks to the ordering process. CPRS now performs an order check when processing a Clozapine order for an inpatient. If the patient fails the check, the user will not be able to enter the Clozapine order. If the patient passes the check, the user will see a message if text has been defined in the OR CLOZ INPT MSG parameter.
-- If an Inpatient Order Is DC’d at an Outpatient Location, Print the Order at the Inpatient Location
+- If an Inpatient Order Is DC'd at an Outpatient Location, Print the Order at the Inpatient Location
 
 Resolution: Developers changed CPRS to automatically print to the inpatient ward for discontinued (DC) orders if the Nature Order allows printing. Because this is done automatically, the user should not see discontinued orders on the new print form.
 
@@ -795,7 +832,7 @@ Four new fields have been added including:
 
 BMI has also been added to the detailed display for weight values, when looking at non-HDR data. This new information will be displayed in the details when the values are clicked on in the grid display of the vitals.
 
-A correction has also been made to the HDR All Outpatient Pharmacy report. Any set of results that has a SIG with a length greater than 60 characters will show “\[+\]” in the corresponding column.
+A correction has also been made to the HDR All Outpatient Pharmacy report. Any set of results that has a SIG with a length greater than 60 characters will show "\[+\]" in the corresponding column.
 
 - Bidirectional Health Information Exchange (BHIE) Only Sends Head Circumference/Girth Measure in Inches – The only circumference/girth that CPRS receives from the Department of Defense is the head measurement and it is only measured in inches. Because the measurement is not listed as a head measurement, providers must be aware that the circumference/girth measurement from a DoD location is a head measurement and it is in inches.
 
@@ -815,11 +852,11 @@ Resolution: Developers corrected this problem.
 
 - Remove Default for Value for Observed/Historical (E3R 19668) – Previously, the allergy dialog had a default for whether an allergy was observed or historical. User might not check to ensure that the correct value was selected.
 
-Resolution: Developers removed the default value for the “Observed/Historical” radio button group, and the user will need to select one or the other to complete the entry of the allergy or adverse reaction.
+Resolution: Developers removed the default value for the "Observed/Historical" radio button group, and the user will need to select one or the other to complete the entry of the allergy or adverse reaction.
 
-- Users Can No Longer Change the “Originator” on Allergy Entry Dialog – Previously, on the Allergy Entry dialog, the “Originator” defaulted to the user who was logged in, but the user could change the “Originator” to another user. This was not consistent with the List Manager version of the Adverse Reaction Tracking package.
+- Users Can No Longer Change the "Originator" on Allergy Entry Dialog – Previously, on the Allergy Entry dialog, the "Originator" defaulted to the user who was logged in, but the user could change the "Originator" to another user. This was not consistent with the List Manager version of the Adverse Reaction Tracking package.
 
-Resolution: Developers changed CPRS so that the “Originator” selection continues to default to current user, but is no longer editable.
+Resolution: Developers changed CPRS so that the "Originator" selection continues to default to current user, but is no longer editable.
 
 <span id="_Toc221409110" class="anchor"></span>CCOW
 
@@ -855,9 +892,9 @@ Resolution: This has been corrected, displaying instructions to the user that te
 
 <span id="_Toc221409112" class="anchor"></span>Date/Time Selection
 
-- Users Can Select an Invalid Time (Remedy \#153432) – From the CPRS date/time chooser dialog, the user can choose 00:00 from the time columns. Since it’s unclear what that means in terms of a date, CPRS currently changes it to 00:00:01. (Similarly, clicking “midnight” enters a time of 23:59.) But then, back on whatever form called this dialog, those seconds are stripped from the time, leaving the time at 00:00, and that’s the time that gets used.
+- Users Can Select an Invalid Time (Remedy \#153432) – From the CPRS date/time chooser dialog, the user can choose 00:00 from the time columns. Since it's unclear what that means in terms of a date, CPRS currently changes it to 00:00:01. (Similarly, clicking "midnight" enters a time of 23:59.) But then, back on whatever form called this dialog, those seconds are stripped from the time, leaving the time at 00:00, and that's the time that gets used.
 
-Resolution: Developers changed CPRS so that selecting an hour of “00” will cause the minutes of “00” to change to “01”, making the selection of a “00:00” time impossible. Typing in a “00:00” will result in a value of “00:01” being returned to the calling date box when OK is selected.
+Resolution: Developers changed CPRS so that selecting an hour of "00" will cause the minutes of "00" to change to "01", making the selection of a "00:00" time impossible. Typing in a "00:00" will result in a value of "00:01" being returned to the calling date box when OK is selected.
 
 <span id="_Toc221409113" class="anchor"></span>Delphi 2006
 
@@ -871,7 +908,7 @@ Resolution: Developers made the Space bar once again toggle the checked state in
 
 Resolution: The problem has been resolved.
 
-- Delphi 2006 Problem Deleting CIDC Diagnosis – Users would get an access violation when attempting to remove a diagnosis from the “Assign Diagnoses to Order(s)” dialog.
+- Delphi 2006 Problem Deleting CIDC Diagnosis – Users would get an access violation when attempting to remove a diagnosis from the "Assign Diagnoses to Order(s)" dialog.
 
 Resolution: Developers corrected the issue by coding separate delete function.
 
@@ -879,7 +916,7 @@ Resolution: Developers corrected the issue by coding separate delete function.
 
 - Problems with Users Allowed to Cosign Discharge Summaries – Previously, it was possible for some users who should not have been allowed to cosign discharge summaries to do so.
 
-Resolution: The complete solution to this problem will probably need to be addressed by role-based user classes, but this will be at a later date. For now, developers reinstated a check for “requires cosignature” document parameter for Discharge Summaries. The check was removed in 2001, CPRS v15.7. For the discharge summary user/title, the check looks at the user class of the author and if the author’s user class requires cosignature, the author cannot be selected as an expected cosigner.
+Resolution: The complete solution to this problem will probably need to be addressed by role-based user classes, but this will be at a later date. For now, developers reinstated a check for "requires cosignature" document parameter for Discharge Summaries. The check was removed in 2001, CPRS v15.7. For the discharge summary user/title, the check looks at the user class of the author and if the author's user class requires cosignature, the author cannot be selected as an expected cosigner.
 
 <span id="_Toc221409115" class="anchor"></span>Encounters
 
@@ -887,11 +924,11 @@ Resolution: The complete solution to this problem will probably need to be addre
 
 Resolution: Developers corrected this problem.
 
-- Hover Hint Gives Incorrect Information – A hover hint that said, “To sort, click on column headers", was included on the Encounter form. However, clicking on the column headers does not sort the columns.
+- Hover Hint Gives Incorrect Information – A hover hint that said, "To sort, click on column headers", was included on the Encounter form. However, clicking on the column headers does not sort the columns.
 
 Resolution: The columns in this dialog are not designed to sort. The hover hint has been removed.
 
-- Replace “Environmental Contaminants” Label with “SW Asia Conditions”
+- Replace "Environmental Contaminants" Label with "SW Asia Conditions"
 
 Resolution: As requested, developers changed the term Environmental Contaminants to Southwest Asia Conditions on the Order Signature dialogs. The change was to the display only, no other changes made regarding SW Asia Conditions.
 
@@ -911,7 +948,7 @@ Resolution: Developers changed the graphing display to create two tabs: one for 
 
 - Changes to Display of Non-Numerical (Free-Text) Results and Comments
 
-Resolution: Developers improved the display of non-numerical results or data by placing them closest to the graph’s top or bottom margin. Values that begin with “\>” are displayed at the top of the graph, others are down at the bottom of the graph. By default, free-text values display. This can be toggled by clicking on the label that reads “free-text labels:”. Comments are shown with a label that reads “\*\*comment”. Clicking on this label will display details of all items on the graph.
+Resolution: Developers improved the display of non-numerical results or data by placing them closest to the graph's top or bottom margin. Values that begin with "\>" are displayed at the top of the graph, others are down at the bottom of the graph. By default, free-text values display. This can be toggled by clicking on the label that reads "free-text labels:". Comments are shown with a label that reads "\*\*comment". Clicking on this label will display details of all items on the graph.
 
 - Views Definitions Can Be Displayed
 
@@ -929,18 +966,18 @@ Resolution: Developers added the ability of users to see and use the views and l
 
 - Image Flag Added to Windows Messages
 
-Resolution: Users will not see any changes as a result to this internal change. As requested by the Imaging team, developers added a 1/0 flag to piece 13 of certain Windows messages to indicate the presence/absence of images attached to the report or document. This is in addition to the display of the “image” icon for these items. Other CPRS messages will require API changes by an ancillary application before the flag can be included. The places that include the NEW messages are as follows. All other places in CPRS will continue to send the OLD messages, without piece 13 set to reflect the presence/absence of images:
+Resolution: Users will not see any changes as a result to this internal change. As requested by the Imaging team, developers added a 1/0 flag to piece 13 of certain Windows messages to indicate the presence/absence of images attached to the report or document. This is in addition to the display of the "image" icon for these items. Other CPRS messages will require API changes by an ancillary application before the flag can be included. The places that include the NEW messages are as follows. All other places in CPRS will continue to send the OLD messages, without piece 13 set to reflect the presence/absence of images:
 
-- Consults tab – “Related documents” and med results in the lower treeview.
+- Consults tab – "Related documents" and med results in the lower treeview.
 - Notes, Discharge Summary tabs - click on any note.
 - Surgery tab - Click on a TIU document. Clicking on a case will still send the existing messages until an API is updated by Surgery.
 - Reports tab - Imaging (local only), Clinical Reports/Progress Notes. All others will still be the old messages.
 
 <span id="_Toc221409118" class="anchor"></span>Labs
 
-- Display of Lab Time Could Be Misleading (PSI-05-118) – On the Most Recent Labs and Worksheet views, developers changes CPRS to not display a time of “00:00” if Lab entered a result date/time of “T@U”, representing an unknown time.
+- Display of Lab Time Could Be Misleading (PSI-05-118) – On the Most Recent Labs and Worksheet views, developers changes CPRS to not display a time of "00:00" if Lab entered a result date/time of "T@U", representing an unknown time.
 
-Resolution: In this version, the same correction has been applied to the dates/times in the “Worksheet” display. Neither change will be visible to users until associated Lab patch LR\*5.2\*364 is installed.
+Resolution: In this version, the same correction has been applied to the dates/times in the "Worksheet" display. Neither change will be visible to users until associated Lab patch LR\*5.2\*364 is installed.
 
 <span id="_Toc221409119" class="anchor"></span>Launching CPRS
 
@@ -966,7 +1003,7 @@ Resolution: To address this issue, the Non-VA Meds dialog will display both the 
 
 <span id="_Toc221409122" class="anchor"></span>Notes
 
-- Text Search “List Index Out of Bounds” Error – If a user did a text search in a notes view other than Signed Notes (All), CPRS gave a “list index out of bounds” error.
+- Text Search "List Index Out of Bounds" Error – If a user did a text search in a notes view other than Signed Notes (All), CPRS gave a "list index out of bounds" error.
 
 Resolution: Developers corrected this problem. There will no longer be an out of bounds error, when doing a text search in other views.
 
@@ -974,15 +1011,15 @@ Resolution: Developers corrected this problem. There will no longer be an out of
 
 Resolution: Developers changed CPRS so that the currently selected cosigner cannot be selected as an additional signer.
 
-- User Able to Add Disallowed Author or Cosigner – When a user clicked on the disallowed user from the selection list for either the current author or cosigner, or for an already selected additional signer, CPRS correctly displayed an error message that the selection was not allowed. However, if the user then clicked the “Add” button immediately after the error message, CPRS would still add the disallowed selection to the list.
+- User Able to Add Disallowed Author or Cosigner – When a user clicked on the disallowed user from the selection list for either the current author or cosigner, or for an already selected additional signer, CPRS correctly displayed an error message that the selection was not allowed. However, if the user then clicked the "Add" button immediately after the error message, CPRS would still add the disallowed selection to the list.
 
 Resolution: Developers corrected this problem; CPRS will not add the inappropriate selection.
 
 <span id="_Toc221409123" class="anchor"></span>Notifications
 
-- Fixing Which Providers Should See “Orders Needing Clarification” Alert (Remedy \#69990) – Frequently, the alert for “Orders needing Clarification” was going to providers who were not interested in the alert or could take no action on the alert.
+- Fixing Which Providers Should See "Orders Needing Clarification" Alert (Remedy \#69990) – Frequently, the alert for "Orders needing Clarification" was going to providers who were not interested in the alert or could take no action on the alert.
 
-Resolution: When the user processes the “Orders needing Clarification” alert in CPRS, the list of orders will only include orders where the user is either stored in the Orders file (File 100) as the person identified to see the flagged order or where the user is identified as needing to see the order because of provider recipient rules for the Flagged Order for Clarification Notification.
+Resolution: When the user processes the "Orders needing Clarification" alert in CPRS, the list of orders will only include orders where the user is either stored in the Orders file (File 100) as the person identified to see the flagged order or where the user is identified as needing to see the order because of provider recipient rules for the Flagged Order for Clarification Notification.
 
 - Orders Needing Clarification Default Reasons
 
@@ -995,27 +1032,27 @@ Resolution: Developers changed the surrogate validation code (Tools/Options/Noti
 <span id="_Toc221409124" class="anchor"></span>Orders
 
 - Orders Custom View Settings Not Being Retained
-- The Orders Custom View selection screen has always opened with all values set to the most generic defaults, instead of to the user’s current view settings. A small change to the settings then requires starting from scratch.
+- The Orders Custom View selection screen has always opened with all values set to the most generic defaults, instead of to the user's current view settings. A small change to the settings then requires starting from scratch.
 - The Status and Service treeviews only highlighted the selected item when the treeview had focus.
 - There was also an obvious copy/paste error in the code that may have also caused incorrect behavior.
 
 Resolution: Developers changed CPRS so that the Custom Order View dialog now opens with the current view settings shown.
 
-- Diet Quick Orders Do Not Prompt for Late Tray (Remedy \#69260) - Diet orders, both inpatient and outpatient, prompt for a late tray if the cutoff time has passed for the meal being ordered. If needed, this prompt appears when the user selects the Accept button. For diet quick orders that are designated as “auto-accept”, this prompt has never appeared as it should (reported in 2000), resulting in missing late trays for patients.
+- Diet Quick Orders Do Not Prompt for Late Tray (Remedy \#69260) - Diet orders, both inpatient and outpatient, prompt for a late tray if the cutoff time has passed for the meal being ordered. If needed, this prompt appears when the user selects the Accept button. For diet quick orders that are designated as "auto-accept", this prompt has never appeared as it should (reported in 2000), resulting in missing late trays for patients.
 
 Resolution: Developers corrected this so that the late tray prompt will display when it should.
 
-- Sequence Problem with Delayed NPO at Midnight and Other Diet Orders (related to PSI-07-212) – For inpatient delayed diet orders, if an “NPO at Midnight” were ordered, followed by any other diet with a start date prior to midnight and no expiration date, the NPO order will be discontinued on release and replaced by the second order. If placed in the reverse sequence, both orders are released correctly and remain in effect.
+- Sequence Problem with Delayed NPO at Midnight and Other Diet Orders (related to PSI-07-212) – For inpatient delayed diet orders, if an "NPO at Midnight" were ordered, followed by any other diet with a start date prior to midnight and no expiration date, the NPO order will be discontinued on release and replaced by the second order. If placed in the reverse sequence, both orders are released correctly and remain in effect.
 
 Resolution: This is not easily corrected, if possible at all, but the user is now prompted about the possible conflict, and instructed on how to prevent it from happening by entering explicit start and stop date/times for any diet orders defined for that same release event. Developers also added code to check for auto-accept diet quick orders, immediate and delayed, that would auto-DC because of overlapping start/stop times. For event-delayed, auto-accept diet quick orders, CPRS checks for conflicting orders for the same release event, and if the user answers NO to the prompt about having adjusted the start/stop dates, CPRS displays the diet order dialog with that quick order pre-loaded so date adjustments can be made.
 
-- Provide a Way to Sort the DC List Sequence (This item is also under “New Parameters”)
+- Provide a Way to Sort the DC List Sequence (This item is also under "New Parameters")
 
 Resolution: The new parameter OR DC REASON LIST enables someone at a site to define the sequence in which the list of reasons for DC appears in CPRS. The user configuring this list can define the entire list, but does not need to set the entire sequence for every DC reason. For example, if the user wants to have one item listed first, the user can define that item as the first sequence, causing CPRS to load the specified reason first and then load the rest of the DC reasons in alphabetical order.
 
 - Error Message When Attempting to Copy to New Order – In the Recently Expired medications view, some medications that had a status of DC/EDIT were displayed because CPRS had not yet been refreshed. This could cause problems with a provider attempting to copy orders.
 
-Resolution: Developers made changes to the Orders tab to review the order status and the order action status when determining if the Order Status in CPRS is out-of-sync with the Order Status in VistA. This should correct the problem with CPRS refreshing automatically when trying to copy an order with a status of DC/EDIT. Most likely, the user will receive another message not allowing the copy to happen, with a reason “Orders that have been DC’d due to editing may not be copied.”
+Resolution: Developers made changes to the Orders tab to review the order status and the order action status when determining if the Order Status in CPRS is out-of-sync with the Order Status in VistA. This should correct the problem with CPRS refreshing automatically when trying to copy an order with a status of DC/EDIT. Most likely, the user will receive another message not allowing the copy to happen, with a reason "Orders that have been DC'd due to editing may not be copied."
 
 - Change the Recently Expired Orders View
 
@@ -1037,7 +1074,7 @@ Resolution: Developers changed the Complex order tab to display PRN in the sched
 
 Resolution: Developers changed this because IMO orders should not expand the schedule.
 
-- “Give Additional Dose Now” Checkbox Disappearing – When selecting a schedule in a Complex Inpatient Order dialog, the “Give Additional Dose Now” checkbox disappearing.
+- "Give Additional Dose Now" Checkbox Disappearing – When selecting a schedule in a Complex Inpatient Order dialog, the "Give Additional Dose Now" checkbox disappearing.
 
 Resolution: Developers corrected this problem.
 
@@ -1047,7 +1084,7 @@ Resolution: Developers added a message to the Limitations field, stating that th
 
 - New Parameter for Help Text for Administration Times
 
-Resolution: CPRS has added the ability to display information describing how to change the administration times. The new parameter OR ADMIN TIME HELP TEXT enables sites to enter text that displays as a Hover Hint on the order dialog’s Dosage tab and as an Information Box on the Complex tab. To access this box on the Complex tab, the user must either click or press \<Enter\> in the administration schedule cells.
+Resolution: CPRS has added the ability to display information describing how to change the administration times. The new parameter OR ADMIN TIME HELP TEXT enables sites to enter text that displays as a Hover Hint on the order dialog's Dosage tab and as an Information Box on the Complex tab. To access this box on the Complex tab, the user must either click or press \<Enter\> in the administration schedule cells.
 
 - Sig Not Updating after Dosage Edit – Previously, when deleting the first character in the dosage field and closing out of the Order dialog, the sig field did not update to the new dosage. For Example the user enter a dosage of 55 MG by accident they then deleted the first 5 out of the dosage field. The sig field will still show as 55 MG.
 
@@ -1102,10 +1139,10 @@ Resolution: Developers created a new dialog that CPRS displays when the patient 
 
 - Order Marked as Obsolete Still Showing on Active Orders List – In CPRS v.26 (OR\*30\*215), developers required a signature for discontinued orders that created an order action. In doing so, these orders did not drop off the active orders list as they previously done; the orders remained on the list until the length of time defined in the Context Hrs.
 
-Resolution: At the recommendation of the CPRS Clinical Workgroup, developers changed CPRS so that discontinued orders now respect the value of the field “INCLUDE IN ACTIVE ORDERS” located in the NATURE OF ORDER file for the order’s NATURE OF DC. Orders marked appropriately will now behave as they did before CPRS v.26.
+Resolution: At the recommendation of the CPRS Clinical Workgroup, developers changed CPRS so that discontinued orders now respect the value of the field "INCLUDE IN ACTIVE ORDERS" located in the NATURE OF ORDER file for the order's NATURE OF DC. Orders marked appropriately will now behave as they did before CPRS v.26.
 
 -   
-  Truncated or Hidden Labels on Radiology Ordering Dialog – Previously, the “Imaging Type” and “Imaging Procedure” labels were sometimes being truncated or partially hidden on the Radiology ordering dialog, especially on resizing form.
+  Truncated or Hidden Labels on Radiology Ordering Dialog – Previously, the "Imaging Type" and "Imaging Procedure" labels were sometimes being truncated or partially hidden on the Radiology ordering dialog, especially on resizing form.
 
 Resolution: Developers corrected this problem and the labels should appear correctly.
 
@@ -1113,7 +1150,7 @@ Resolution: Developers corrected this problem and the labels should appear corre
 
 Resolution: The schedule field now behaves the same for IV and Unit Dose Orders.
 
-- Quick Order Prompt “Include Patient Instructions in SIG?” Not Functioning Properly (Remedy \#69829) – In VistA, when defining a Quick Order, one prompt is the question “Include Patient Instructions in SIG?”. The default response is “yes”. However, if the user changed the response to “no”, closed the dialog, and then began to edit the quick order, the value of this prompt was automatically changed back to “yes”. If the user presses \<Enter\> through the question without changing it, a value of “yes” will be stored.
+- Quick Order Prompt "Include Patient Instructions in SIG?" Not Functioning Properly (Remedy \#69829) – In VistA, when defining a Quick Order, one prompt is the question "Include Patient Instructions in SIG?". The default response is "yes". However, if the user changed the response to "no", closed the dialog, and then began to edit the quick order, the value of this prompt was automatically changed back to "yes". If the user presses \<Enter\> through the question without changing it, a value of "yes" will be stored.
 
 Resolution: Developers changed the code to now retain the value as it has been entered by the user.
 
@@ -1143,7 +1180,7 @@ There is now a nightly process that looks at overdue delayed events and lapses o
 
 Resolution: CPRS now escapes the HL7 delimiter characters that may be placed in the word processing fields of an order. The escaping is done before the order is handed to Pharmacy so that Pharmacy can parse it and use the data. Pharmacy must in turn un-escape these characters so that they display correctly to the users. Pharmacy also escapes the same characters before sending HL7 messages to CPRS and CPRS un-escapes these before use.
 
-- Lack of Control in Display of Obsolete Orders – Previously, the INCLUDE IN ACTIVE ORDERS attribute in the NATURE OF ORDER file applied to discontinued orders that did not create an order action (i.e., required a signature). Developers assumed that users would always want to see any discontinued order that had to be signed. At that time, housekeeping types of discontinues (DC’s) such as Obsolete did not create an action or get signed, so it was up to the sites to decide if they wanted those DC’s to display or not (according to the Context Hrs parameter, as noted) using this Nature attribute. With the change that all front-door DC’s create an action, there was no way for sites to make DC’s such as obsolete fall off the Orders display right away unless they have their Context Hrs set to 0.
+- Lack of Control in Display of Obsolete Orders – Previously, the INCLUDE IN ACTIVE ORDERS attribute in the NATURE OF ORDER file applied to discontinued orders that did not create an order action (i.e., required a signature). Developers assumed that users would always want to see any discontinued order that had to be signed. At that time, housekeeping types of discontinues (DC's) such as Obsolete did not create an action or get signed, so it was up to the sites to decide if they wanted those DC's to display or not (according to the Context Hrs parameter, as noted) using this Nature attribute. With the change that all front-door DC's create an action, there was no way for sites to make DC's such as obsolete fall off the Orders display right away unless they have their Context Hrs set to 0.
 
 Resolution: Discontinued orders now respect the value for INCLUDE IN ACTIVE ORDERS set in the NATURE OF ORDER file for the nature that was chosen when DCing the order in CPRS, which determines whether the orders will display or not.
 
@@ -1161,9 +1198,9 @@ Resolution: Developers changed CPRS to pass the user DUZ to the M system to run 
 
 - Cannot Focus on a Disabled or Invisible Window Message Received when Exiting Medication Order Menus after Order Checks – Previously, if a provider created a complex medication order against an allergy, the Order Check is received, and the provider canceled the order. Then, instead of exiting the order menu via the Quit button, the provider attempted to exit the dialog using the X in top right corner. This action generated an error message.
 
-Resolution: Developers added code to correct the problem and the user can now exit by clicking the “X” from in the upper right corner of the dialog.
+Resolution: Developers added code to correct the problem and the user can now exit by clicking the "X" from in the upper right corner of the dialog.
 
-- Access Violation on Time Out When Day-of-Week Schedule Builder Is Open – Previously, when the Day-Of-Week schedule builder window was open and CPRS timed out, CPRS did not shut down following the countdown to “0” seconds. Instead, an access violation occurred.
+- Access Violation on Time Out When Day-of-Week Schedule Builder Is Open – Previously, when the Day-Of-Week schedule builder window was open and CPRS timed out, CPRS did not shut down following the countdown to "0" seconds. Instead, an access violation occurred.
 
 Resolution: CPRS closes correctly as expected when the timeout is executed while the Day-of-Week form is open.
 
@@ -1181,7 +1218,7 @@ Resolution: Developers corrected this problem.
 
 - Problem with Order Status Synchronization in VistA and CPRS – When the user tried to copy an order with a status of DC/EDIT, CPRS would automatically refresh.
 
-Resolution: Developers changed the Orders tab to review the order status and the order action status when determining if the Order Status in CPRS is out-of-sync with the Order Status in VistA. Generally, CPRS will not allow the copy to happen, and will display a message to the user stating “Orders that have been DC’d due to editing may not be copied.” CPRS should not refresh if the order status in the GUI is DC/EDIT.
+Resolution: Developers changed the Orders tab to review the order status and the order action status when determining if the Order Status in CPRS is out-of-sync with the Order Status in VistA. Generally, CPRS will not allow the copy to happen, and will display a message to the user stating "Orders that have been DC'd due to editing may not be copied." CPRS should not refresh if the order status in the GUI is DC/EDIT.
 
 - Delayed A/D/T Orders Show Global Value in Location Field – When placing an A/D/T delayed order for an outpatient and a location is not selected before writing a delayed order, CPRS currently displays "0;sc(" in the location column for the order.
 
@@ -1197,7 +1234,7 @@ Resolution: To help determine if a location is an authorized IMO location, CPRS 
 
 - Detailed Order Display Change
 
-Resolution: Developers changed the Order Detail display to read “Released:” and the date instead of “Released by: on” and the Date if the Signed on Chart field is not checked.
+Resolution: Developers changed the Order Detail display to read "Released:" and the date instead of "Released by: on" and the Date if the Signed on Chart field is not checked.
 
 - Changed the Sequence Button on the Complex Order Dialog to a Drop-Down List
 
@@ -1259,13 +1296,13 @@ Resolution: Developers changed CPRS so that double-clicking on the Patient Info 
 
 - Display of Added Demographic Information
 
-Resolution: When the user selects the Patient Inquiry button, developers enhanced CPRS to display the secondary Next of Kin information, the Emergency contact, and the patient’s cell phone number. This data comes from a registration (DG) Application Programming Interface (API).
+Resolution: When the user selects the Patient Inquiry button, developers enhanced CPRS to display the secondary Next of Kin information, the Emergency contact, and the patient's cell phone number. This data comes from a registration (DG) Application Programming Interface (API).
 
 <span id="_Toc221409128" class="anchor"></span>Patient Insurance Dialog
 
 - Patient Insurance Dialog Formatting Problem – Previously, the patient name next to the dialog title might not be viewable.
 
-Resolution: Developers made a change in CPRS on the dialog title to eliminate leading spaces between the title and the patients name to ensure that the patient’s name is viewable.
+Resolution: Developers made a change in CPRS on the dialog title to eliminate leading spaces between the title and the patients name to ensure that the patient's name is viewable.
 
 <span id="_Toc221409129" class="anchor"></span>Patient Record Flags
 
@@ -1277,7 +1314,7 @@ Resolution: Developers fixed this problem and users can now change the date, aut
 
 <span id="_Toc221409130" class="anchor"></span>Patient Selection
 
-- Provider Selecting Wrong Patient with Same First/Last Name (PSI-04-057, NOIS BHH-1104-40049, Remedy \#71065) – On the patient selection screen, if a user typed in some letters of a patient’s name, CPRS would try to match the selection, go to that part of the patient list, and highlight the first entry that matched the text entered—even if there was more than one possible match. If the user pressed \<Enter\> without ensuring that the correct patient was selected, the user might be looking at the wrong record.
+- Provider Selecting Wrong Patient with Same First/Last Name (PSI-04-057, NOIS BHH-1104-40049, Remedy \#71065) – On the patient selection screen, if a user typed in some letters of a patient's name, CPRS would try to match the selection, go to that part of the patient list, and highlight the first entry that matched the text entered—even if there was more than one possible match. If the user pressed \<Enter\> without ensuring that the correct patient was selected, the user might be looking at the wrong record.
 
 Resolution: To address this problem, developers changed the patient selection list to implement the same auto-unique selection behavior that the mediation order dialog dosage, route, and schedule implements. Specifically, an item in the list will not be selected unless the text typed uniquely identifies the item. If there are multiple items that could match what the user entered, CPRS requires the user to explicitly select the patient.
 
@@ -1299,7 +1336,7 @@ Resolution: Along with patch PXRM\*2.0\*4 and the changes in CPRS GUI v.27, user
 
 - Additional Text in Progress Notes for Inexact Date Entered in Reminder Dialog (Remedy \#141382)
 
-Resolution: When the user enters a vague historical date in a Reminder Dialog, the progress note text will append “exact date unknown” next to the date.
+Resolution: When the user enters a vague historical date in a Reminder Dialog, the progress note text will append "exact date unknown" next to the date.
 
 <span id="_Toc221409133" class="anchor"></span>Remote Data Views (RDV)
 
@@ -1309,7 +1346,7 @@ Resolution: RDV displays units consistently for both data from the HDR and the s
 
 <span id="_Toc221409134" class="anchor"></span>Reports
 
-- Missing Image Icons and Incorrect Messages on Radiology Reports – Previously on the Reports tab, radiology reports listed under “Clinical Reports/Radiology/Imaging” were not displaying an image icon if images were attached, as they did for the identical reports under “Imaging (local only)”. Additionally, if a report did have linked images, CPRS displayed the incorrect message “Imaging links are not active at this site” at the top of the report text when the user clicked on that report in the list. Behind the scenes, Windows messaging used by VistA Imaging was also not behaving correctly for these reports.
+- Missing Image Icons and Incorrect Messages on Radiology Reports – Previously on the Reports tab, radiology reports listed under "Clinical Reports/Radiology/Imaging" were not displaying an image icon if images were attached, as they did for the identical reports under "Imaging (local only)". Additionally, if a report did have linked images, CPRS displayed the incorrect message "Imaging links are not active at this site" at the top of the report text when the user clicked on that report in the list. Behind the scenes, Windows messaging used by VistA Imaging was also not behaving correctly for these reports.
 
 Resolution: Developers corrected all of these issues.
 
@@ -1327,20 +1364,20 @@ Access to a record would be denied, for example, if a user tries to access his o
 
 There are two known issues remaining, both occur only when an alert cannot be processed at all because viewing that patient is denied:
 
-1.  If that alert is the first in the list to be processed, then following the “access denied” message, the patient selection screen will open, and any subsequent alerts that the user had previously selected will need to be selected again.
-2.  In any other sequence, alerts up to and including the “access denied” message will process correctly. At that point, the user cannot continue processing alerts using the NEXT button or menu, and must go back to the patient selection screen to continue, or reselect additional alerts.
+1.  If that alert is the first in the list to be processed, then following the "access denied" message, the patient selection screen will open, and any subsequent alerts that the user had previously selected will need to be selected again.
+2.  In any other sequence, alerts up to and including the "access denied" message will process correctly. At that point, the user cannot continue processing alerts using the NEXT button or menu, and must go back to the patient selection screen to continue, or reselect additional alerts.
 
 <span id="_Toc221409136" class="anchor"></span>Signature
 
-- Review/Sign Changes Dialog Incorrectly Identifying Some Orders as “Non-VA” Orders – CPRS was treating generic text orders containing the text of “Non-VA Meds” as Non-VA Meds orders on the Review/Sign Changes form. As a result, the checkbox on the Review/Sign Changes was grayed out for this order, and the user could not uncheck the order so that it would not be signed.
+- Review/Sign Changes Dialog Incorrectly Identifying Some Orders as "Non-VA" Orders – CPRS was treating generic text orders containing the text of "Non-VA Meds" as Non-VA Meds orders on the Review/Sign Changes form. As a result, the checkbox on the Review/Sign Changes was grayed out for this order, and the user could not uncheck the order so that it would not be signed.
 
 Resolution: For signature, CPRS now checks the display group of the order instead of the order text.
 
-- Redundant Display of “Review/Sign Orders Dialog – Previously, if a patient had unsigned items, and the user selected "File/Select" to open a different patient’s chart, and then processes an alert from the patient selection screen, CPRS displayed the Review/Sign Changes dialog. The second instance, after selecting the alert, was redundant.
+- Redundant Display of "Review/Sign Orders Dialog – Previously, if a patient had unsigned items, and the user selected "File/Select" to open a different patient's chart, and then processes an alert from the patient selection screen, CPRS displayed the Review/Sign Changes dialog. The second instance, after selecting the alert, was redundant.
 
 Resolution: Developers prevented the dialog from displaying the second time.
 
-- Other Users’ Orders Appearing under the Current User’s Signature List – When a user was exiting a patient record that contained unreleased orders written by other users and the current user did not write any orders, CPRS was inappropriately placing the other users’ orders in the current user’s signature list.
+- Other Users' Orders Appearing under the Current User's Signature List – When a user was exiting a patient record that contained unreleased orders written by other users and the current user did not write any orders, CPRS was inappropriately placing the other users' orders in the current user's signature list.
 
 Resolution: Developers corrected this problem. The order will now appear in the correct section of the signature list.
 
@@ -1374,7 +1411,7 @@ Resolution: Developers made changes to CPRS to disable the Mental Health Test bu
 
 Resolution: The Reason for Request field on the Consult dialog now expands vertically when the dialog increases in size.
 
-- “Transfer Medication Orders" Pop-Up Window Does Not Display OK and Cancel Buttons with Fonts \>10 Pt
+- "Transfer Medication Orders" Pop-Up Window Does Not Display OK and Cancel Buttons with Fonts \>10 Pt
 
 Resolution: The OK and Cancel buttons will now display with 10 point and larger font sizes.
 
@@ -1406,15 +1443,15 @@ Resolution: CPRS will now automatically adjust text colors and black button imag
 
 > **NOTE:** Graphing colors are not adjusted. Also, CPRS will not adjust well to color scheme changes made while CPRS is running.
 
-- Provider Selection Using Keyboard Difficult on the Encounter Form’s Procedure Tab (Remedy \# 70301) – Using the keyboard to select a provider on the Procedures tab of the Encounter Form was extremely difficult. After only a half second of typing, typed text was used to select the provider, with additional typed text restarting the provider selection.
+- Provider Selection Using Keyboard Difficult on the Encounter Form's Procedure Tab (Remedy \# 70301) – Using the keyboard to select a provider on the Procedures tab of the Encounter Form was extremely difficult. After only a half second of typing, typed text was used to select the provider, with additional typed text restarting the provider selection.
 
 Resolution: Developers changed this so that when the user types some text, CPRS searches for a possible match. If it finds a partial match (names that contain part of what was typed), the text remains in the field and the user can continue to type or use the down arrow to find the correct name. If there is no partial match, the field returns to blank or the previous name.
 
 - Focus Should Remain on Tab When Navigating using the Keyboard – When navigating the tabs on the Encounter form, the focus would go to the first control on each tab. This made it difficult for sight-impaired users to know which tab they were on.
 
-Resolution: The focus now stays on the tab rather than jumping to the first control on the tab’s page.
+Resolution: The focus now stays on the tab rather than jumping to the first control on the tab's page.
 
-- Problem Selecting Items from List Boxes – When users attempted to check the selected diagnosis code using the keyboard, the cursor does not check the item, but goes somewhere else. A list box that allowed a user to type some text to go to the portion of the list where needed items were located (such as typing “m” to go to the first m item in the list, “macular degeneration” for example) did not keep the focus on the “macular degeneration” item if the user pressed the Up arrow, Down arrow, or Space bar on the item.
+- Problem Selecting Items from List Boxes – When users attempted to check the selected diagnosis code using the keyboard, the cursor does not check the item, but goes somewhere else. A list box that allowed a user to type some text to go to the portion of the list where needed items were located (such as typing "m" to go to the first m item in the list, "macular degeneration" for example) did not keep the focus on the "macular degeneration" item if the user pressed the Up arrow, Down arrow, or Space bar on the item.
 
 Resolution: Now the focus will activate (check for check list boxes) the correct item when pressing the Space bar or move to the correct item when pressing the Up or Down arrow keys.
 
@@ -1430,7 +1467,7 @@ Resolution: The Service Connection & Rated Disabilities box is no longer editabl
 
 Resolution: The OK & Cancel buttons should no longer be hidden at 18 pt font.
 
-- Hover Hints on the Other Examinations Window Now Left Justified at Fonts Sizes 18 and 24 – The Other Examinations dialog (accessed from the encounter forms “exams” tab.) contains a list box. The list box hover hints are now left justified at font sizes 18 and 24.
+- Hover Hints on the Other Examinations Window Now Left Justified at Fonts Sizes 18 and 24 – The Other Examinations dialog (accessed from the encounter forms "exams" tab.) contains a list box. The list box hover hints are now left justified at font sizes 18 and 24.
 
 Resolution: The upgrade to Delphi 2006 caused this improvement.
 
@@ -1442,7 +1479,7 @@ Resolution: Developers corrected the problem and users can now toggle between as
 
 Resolution: Now pressing the Space bar will not jump to items that begin with a space. The Space bar is reserved for selecting items so that the user will now be able to select other items in the list when using a keyboard.
 
-- 508: Inconsistency in Checking Diagnosis Code – Previously, on the Encounter form’s Diagnoses tab, it was sometimes necessary for the user to arrow down off a specific code and then and back up to the code before the code could be checked.
+- 508: Inconsistency in Checking Diagnosis Code – Previously, on the Encounter form's Diagnoses tab, it was sometimes necessary for the user to arrow down off a specific code and then and back up to the code before the code could be checked.
 
 Resolution: Developers corrected this problem. CPRS now functions correctly. Using the Up Arrow and Down Arrow keys and pressing the Space key keeps the user on the correct item in the list.
 
@@ -1453,19 +1490,19 @@ Developers added the Encounter menu item to the Action Menu on the Notes tab and
 -   
   508: Encounter Form—Need short-cut to Get to the CANCEL Button
 
-Resolution: “ALT+C” activates the CANCEL button.
+Resolution: "ALT+C" activates the CANCEL button.
 
 - 508: Encounter Form—Need short-cut to Get to the OK Button
 
-Resolution: “ALT+O” on the encounter form activates the OK button.
+Resolution: "ALT+O" on the encounter form activates the OK button.
 
 - 508: Put Add and Remove Buttons on the Consults Send Alert Dialog
 
 Resolution: Developers put Add and Remove on the Consult Actions Send Alert dialog.
 
-- 508: When Shift-Tabbing Out of the Encounter Information, a “Cannot Focus Error” Occurs
+- 508: When Shift-Tabbing Out of the Encounter Information, a "Cannot Focus Error" Occurs
 
-Resolution: Developers corrected the “Cannot focus” error that occurred when a user shift-tabbed out of the Encounter read-only text field on the Notes tab.
+Resolution: Developers corrected the "Cannot focus" error that occurred when a user shift-tabbed out of the Encounter read-only text field on the Notes tab.
 
 - 508: Encounter Form Navigation—Tab Should List Selected Section Entries – Previously, the tab order for moving the focus in the dialog was confusing to those using screen readers.
 
@@ -1473,7 +1510,7 @@ Resolution: Developers changed the tab order on the following Encounter form tab
 
 - 508: When Reviewing/Checking Questions in the Classification Questions, Screen Readers Do Not Read Cursor Location
 
-Resolution: Each check box will now read the group box title: “Visit Related To” and then the value it is related to like “Agent Orange Exposure” and then if the check box is a yes check box it will read: “- Yes”, and for no it will read: “- No”.
+Resolution: Each check box will now read the group box title: "Visit Related To" and then the value it is related to like "Agent Orange Exposure" and then if the check box is a yes check box it will read: "- Yes", and for no it will read: "- No".
 
 - 508: Consults Tab – Change Cursor Location for Action Menu - Alt-A-C-T – JAWS
 
@@ -1485,7 +1522,7 @@ Resolution: Now when the user navigates using the keyboard (with the Tab or arro
 
 - 508: Blind Users Can Only Select One Order at a Time – Previously, visually impaired users and those who use the keyboard exclusively could not select more than one order unless the orders were next to each other in a list.
 
-Resolution: Multiple orders that are not in a row (not contiguous) can now be selected using the keyboard only. The functionality mimics Outlook’s email list. To move the focus without selecting an order, the user should press and hold the Ctrl key and then use the arrow keys. To select an order when the focus is on it, press the Space bar. To select another order, continue to hold the Ctrl key and press the arrow key to move focus to the next order you want to select, then still holding the Ctrl key, press Space bar—the new and the previous order will be selected.
+Resolution: Multiple orders that are not in a row (not contiguous) can now be selected using the keyboard only. The functionality mimics Outlook's email list. To move the focus without selecting an order, the user should press and hold the Ctrl key and then use the arrow keys. To select an order when the focus is on it, press the Space bar. To select another order, continue to hold the Ctrl key and press the arrow key to move focus to the next order you want to select, then still holding the Ctrl key, press Space bar—the new and the previous order will be selected.
 
 - 508 : Notes Tab - Action Menu (Alt-A-G) Sign Order Dialog Text Now Accessible
 
@@ -1493,7 +1530,7 @@ Resolution: The notes sign orders dialog (Alt-A-G) has been modified so that the
 
 - 508: Consults - Press \<Enter\> Key to Begin a New Consult
 
-The New Consult button is now the default button on the Consults tab. When the user first gets to the Consults tab and presses \<Enter\> the button will be “clicked” (the Order a Consult dialog displays).
+The New Consult button is now the default button on the Consults tab. When the user first gets to the Consults tab and presses \<Enter\> the button will be "clicked" (the Order a Consult dialog displays).
 
 - 508: Tabbing Access to Patient Inquiry from Notes Tab Is Problematic and Inconsistent
 
@@ -1501,27 +1538,27 @@ Resolution: Developers changed the tab order on the Notes tab. The Patient Inqui
 
 - 508: Treatment Factor Definition Pop-Ups Not Read by Screen Readers
 
-Resolution: When a screen reader is running, the treatment factor labels now appear as read only edit fields. The read only fields contain the text displayed by the pop-up. The user can use their “read in” keys to read the text; this makes the data available for screen reader users.
+Resolution: When a screen reader is running, the treatment factor labels now appear as read only edit fields. The read only fields contain the text displayed by the pop-up. The user can use their "read in" keys to read the text; this makes the data available for screen reader users.
 
 - 508: Create Standardized Shortcuts for Use Throughout CPRS
 
-Resolution: Developers changed CPRS so that now as a general rule “Ctrl + Enter” will activate (click) the default button on a dialog. Default buttons are typically labeled “Ok”, “Done”, or “Accept” Not all dialogs and windows have default buttons assigned. If no default exists for the dialog or window, “Ctrl + Enter” will not activate any button on those forms.
+Resolution: Developers changed CPRS so that now as a general rule "Ctrl + Enter" will activate (click) the default button on a dialog. Default buttons are typically labeled "Ok", "Done", or "Accept" Not all dialogs and windows have default buttons assigned. If no default exists for the dialog or window, "Ctrl + Enter" will not activate any button on those forms.
 
-- 508: Orders Tab ‑ Would Like to Press the \<Enter\> key to “Accept Order” – Pressing the \<Enter\> key on most order dialogs moves the focus from one control to the next. So \<Enter\> had conflicting functionality.
+- 508: Orders Tab ‑ Would Like to Press the \<Enter\> key to "Accept Order" – Pressing the \<Enter\> key on most order dialogs moves the focus from one control to the next. So \<Enter\> had conflicting functionality.
 
 Resolution: Developers changed CPRS so that if the user presses "Ctrl + Enter" on an order dialog it will activate the Accept button.
 
-- 508: Encounter Form Inaccessible: CPRS Does Not Track Focus and Focus Changes – Specifically, users reported that on the Encounter form’s Visit Type tab, there were two places where the focus would get “lost”. The first instance occurred when the user tabbed or shift-tabbed between SC & Rated Disabilities box and the Visit Related To groupbox. The other instance of “lost” focus occurred only when the user shift-tabbed from the Available providers combo box.
+- 508: Encounter Form Inaccessible: CPRS Does Not Track Focus and Focus Changes – Specifically, users reported that on the Encounter form's Visit Type tab, there were two places where the focus would get "lost". The first instance occurred when the user tabbed or shift-tabbed between SC & Rated Disabilities box and the Visit Related To groupbox. The other instance of "lost" focus occurred only when the user shift-tabbed from the Available providers combo box.
 
-Resolution: The focus will no longer be “lost” to adaptive technologies on the Encounter form.
+Resolution: The focus will no longer be "lost" to adaptive technologies on the Encounter form.
 
 - 508: Problems Tab - Default OK so that Pressing \<Enter\> Key Selects Term
 
 Resolution: Now pressing the \<Enter\> key on the New Problem dialog will activate the OK button.
 
-- 508: Notifications - Create Keystrokes for “Go to the Next Notification”, Continue, Forward and Renew - When processing multiple notifications in CPRS, there is a small hand pointing to the right in the lower right hand section of CPRS. Clicking on the hand means “go to the next notification” automatically. There was no keystroke for this option. Neither are there keystrokes for the pop-up menu items Continue, Forward, and Renew.
+- 508: Notifications - Create Keystrokes for "Go to the Next Notification", Continue, Forward and Renew - When processing multiple notifications in CPRS, there is a small hand pointing to the right in the lower right hand section of CPRS. Clicking on the hand means "go to the next notification" automatically. There was no keystroke for this option. Neither are there keystrokes for the pop-up menu items Continue, Forward, and Renew.
 
-Resolution: Developers changed CPRS so that the user can now tab to the “Next Hand” or “go to the next notification” button, or the user can access it by pressing ALT+ N. All of the pop-up menu options are now available using short-cut keys: Continue = CTRL+C, Forward = CTRL+F, and Renew = CTLR+R.
+Resolution: Developers changed CPRS so that the user can now tab to the "Next Hand" or "go to the next notification" button, or the user can access it by pressing ALT+ N. All of the pop-up menu options are now available using short-cut keys: Continue = CTRL+C, Forward = CTRL+F, and Renew = CTLR+R.
 
 - Splash Screen--Fix the Email Address on the Splash Screen
 
@@ -1552,26 +1589,26 @@ Resolution: The scroll bars remain visible when using larger fonts.
 
 A component has been created that will allow Delphi developers to place a label that can gain focus when a screen reader is running. This will allow free standing single line labels to be read.
 
-- 508: Some Labs Grids Not Reading Correctly – Previously, the labs grid that CPRS displays after the user selects “Most Recent Results” or “Worksheet” does not read the data correctly.
+- 508: Some Labs Grids Not Reading Correctly – Previously, the labs grid that CPRS displays after the user selects "Most Recent Results" or "Worksheet" does not read the data correctly.
 
-Resolution: Developers worked on the labs grid for the “Most Recent Results” and “Worksheet” displays so that it reads the whole row, including headers, as the user arrows around in the grid.
+Resolution: Developers worked on the labs grid for the "Most Recent Results" and "Worksheet" displays so that it reads the whole row, including headers, as the user arrows around in the grid.
 
 - 508: Clinical Reminders and Reminder Categories on Cover Sheet Dialog
 
-Resolution: The dialog “Clinical Reminders and Reminder Categories Displayed on Cover Sheet” now is accessible through a screen reader, with the exception of reading the graphics. The graphics are going to be handled globally with another correction.
+Resolution: The dialog "Clinical Reminders and Reminder Categories Displayed on Cover Sheet" now is accessible through a screen reader, with the exception of reading the graphics. The graphics are going to be handled globally with another correction.
 
 - 508: JAWS Does Not Speak the State of Template and Reminder Drawers – Previously, the Templates and Reminders drawer buttons would speak their names, but they did not speak whether they were opened or closed.
 
-Resolution: On the Notes, D/C Summ, or Consults tabs, or any other tab where they are found, when the Templates and Reminders buttons are pressed or receive focus, the screen reader will now indicate the state of the drawer. For example, when a closed templates drawer button receives focus, the screen reader will say “Templates Drawer, drawer closed”. When the button is pressed, the screen reader will say “drawer open”.
+Resolution: On the Notes, D/C Summ, or Consults tabs, or any other tab where they are found, when the Templates and Reminders buttons are pressed or receive focus, the screen reader will now indicate the state of the drawer. For example, when a closed templates drawer button receives focus, the screen reader will say "Templates Drawer, drawer closed". When the button is pressed, the screen reader will say "drawer open".
 
 -   
   508: Users Not Told that Text Was Inserted into Documents
 
-Resolution: When a user is working with any kind of document (note, consult, etc.) and a boilerplate, template, or reminder dialog inserts text into that document, the screen reader will say “text inserted”.
+Resolution: When a user is working with any kind of document (note, consult, etc.) and a boilerplate, template, or reminder dialog inserts text into that document, the screen reader will say "text inserted".
 
 - 508: Dialogs Not Identified
 
-Resolution: When a dialog appears, the screen reader will say the word “Dialog” following the title of the dialog.
+Resolution: When a dialog appears, the screen reader will say the word "Dialog" following the title of the dialog.
 
 - 508: JAWS Does Not Read Day of Week (DOW) Schedule
 
@@ -1599,7 +1636,7 @@ Resolution: Developers changed CPRS so that the keystrokes now work as they shou
 
 - 508: Encounter Area under Note Text Pane Does Not Have a Label
 
-Resolution: Developers added the following label for JAWS: “Encounter Information” to the Encounter text area under the Note text pane. (This change can only be listened for.)
+Resolution: Developers added the following label for JAWS: "Encounter Information" to the Encounter text area under the Note text pane. (This change can only be listened for.)
 
 - 508: Focus Always Returns to Upper Left Item in Page – Previously on several CPRS tabs, when a used navigated CPRS with the keyboard and performed certain actions, the focus would return to the upper left item on the tab. The upper left item was not always the most useful place and at times required a lot of tabbing and navigation to return to the cursor or focus to the appropriate item.
 
@@ -1617,7 +1654,7 @@ Resolution: The bottom of the Cancel button is no longer cut off.
 
 Resolution: The buttons will no longer be inaccessible by shrinking the size of the dialog.
 
-- 508: Encounter Form Inaccessible: CPRS Does Not Track Focus and Focus Changes – Previously, CPRS providers who used adaptive technologies, such as screen readers had trouble navigating some areas of CPRS. On the Encounter form, for example, the focus would be “lost” when tabbing through the controls—meaning that the focus was on items, but the screen reader did not speak anything. This “lost” focus made the controls almost impossible to use effectively.
+- 508: Encounter Form Inaccessible: CPRS Does Not Track Focus and Focus Changes – Previously, CPRS providers who used adaptive technologies, such as screen readers had trouble navigating some areas of CPRS. On the Encounter form, for example, the focus would be "lost" when tabbing through the controls—meaning that the focus was on items, but the screen reader did not speak anything. This "lost" focus made the controls almost impossible to use effectively.
 
 Resolution: The focus will no longer be "lost" to adaptive technologies on the encounter form—specifically on the Visit Type tab on the Encounter form.
 
@@ -1663,15 +1700,15 @@ Resolution: Developers changed CPRS and replaced the read only edits with a labe
 
 - 508: CPRS Does Not Enable Screen Readers to Differentiate between Auto-Accept Quick Orders and Non-Auto-Accept Quick Orders
 
-Resolution: Auto-accept quick orders will now speak “Auto Accept” before the order menu text is spoken.
+Resolution: Auto-accept quick orders will now speak "Auto Accept" before the order menu text is spoken.
 
-- 508: Progress Notes: Screen Reader says “Procedure date/time” instead of “Date/Time of Note”
+- 508: Progress Notes: Screen Reader says "Procedure date/time" instead of "Date/Time of Note"
 
-Resolution: Developers changed CPRS, and the note field date/time should read “Date/Time of Note:”.
+Resolution: Developers changed CPRS, and the note field date/time should read "Date/Time of Note:".
 
 - 508: Medication Order Dialog—Medication Field and Quick Order Field Need Labels
 
-Resolution: Developers placed JAWS labels on the Medication field (“Medication”) and the Quick order field (“Quick Orders”).
+Resolution: Developers placed JAWS labels on the Medication field ("Medication") and the Quick order field ("Quick Orders").
 
 - 508: Notifications—Forward aNotification—New Buttons Are Not in the Correct Tab Order
 

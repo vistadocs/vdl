@@ -3,7 +3,7 @@ title: Accounts Receivable Version 4.5 Technical Manual/Security Guide
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,51 +11,60 @@ app_status: archive
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: 
-  - 200
-  - 340
-  - 430
-  - 433
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: This Technical Manual is designed to provide the Site Manager with information necessary to install, maintain, and troubleshoot Version 4.5 of the Accounts Receivable package. The Accounts Receivable package automates the Fiscal functions related to the management of Accounts Receivable and is integ
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.02'
+- '3.02'
+- '200'
+- '314.314'
+- '340'
+- '340.5'
+- '341.1'
+- '342'
+- '344'
+- '344.2'
+- '344.4'
+- '344.5'
+- '344.6'
+- '344.61'
+- '347'
+- '349'
+- '361.1'
+- '430'
+- '430.2'
+- '430.3'
+- '430.8'
+- '433'
+security_keys:
+- PRCAF LATE CHARGES
+- PRCASVC
+- PRCAY PAYMENT SUP
+- PRCFA SUPERVISOR
+- PROVIDER
+- RCDP TCSP FLAG
+- RCDPE AGED PMT
+- RCDPE REMOVE DUPLICATES
 menu_options: 1
-description: "<table> <caption><p><span id=\\"_Toc67391128\\" class=\\"anchor\\"></span>Table 1: AR Routines</p></caption> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 39%\\" /> <col style=\\"width: 21%\\" /> <col style=\\"width: 21%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><strong>Date</strong></th> <th><stro"
-audience: 
-keywords: 
-  - class
-  - even
-  - bill
-  - cross
-  - report
-  - accounts
-  - receivable
-  - table
-  - reference
-  - span
 page_count: 0
-word_count: 33545
+word_count: 33538
 section_count: 8
 table_count: 50
 figure_count: 3
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=244"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=244
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Accounts Receivable
-
-  Technical Manual/Security Guide
----
-
 ![](accounts-receivable-version-4-5-technical-manual-security-guide/001.png)
 
 March 1995

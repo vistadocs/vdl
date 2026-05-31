@@ -8,41 +8,42 @@ app_code: VAP
 app_name: Veterans Authorization and Preferences
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: VAP
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> The Veterans Health Information Exchange (VHIE) Program was tasked by the Department of Veterans Affairs (VA) to replace the eHealth Exchange (eHX) solution with a commercial-off- the-shelf (COTS) product called the HealthShare Enterprise Platform (HEP). As part of the enhancement, HealthShare (HS'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '33'
+- '34'
+- '35'
+- '37'
+- '38'
+- '47'
+- '49'
+- '56'
+- '59'
+security_keys:
+- CTRL
 menu_options: 1
-description: > The Veterans Health Information Exchange (VHIE) Program was tasked by the Department of Veterans Affairs (VA) to replace the eHealth Exchange (eHX) solution with a commercial-off- the-shelf (COTS) product called the HealthShare Enterprise Platform (HEP). As part of the enhancement, HealthShare (HS
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - class
-  - vhie
-  - bookmark
-  - portal
-  - span
-  - figure
-  - style
 page_count: 0
 word_count: 11506
 section_count: 20
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/vdif_ug_vhie_portal.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/vdif_ug_vhie_portal.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=222"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/vdif_ug_vhie_portal.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/vdif_ug_vhie_portal.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=222
+audit_applied: '2026-05-31'
 ---
 
 # Veterans Health Information Exchange (VHIE) Portal Build 3.6 VHIE Portal User Guide

@@ -11,40 +11,35 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*62
-group_key: "RMPR:RMPR:3"
-file_numbers: 
-  - 660
-  - 669
-security_keys: []
+group_key: RMPR:RMPR:3
+description: '- All About Error Messages - Suspense Processing (SP) Menu - Suspense Reports - [Appendix'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '44'
+- '81'
+- '200'
+- '660'
+- '669.9'
+security_keys:
+- PROVIDER
 menu_options: 14
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"patch-description\\">Patch description</h5></td> <td><blockquote> <p>Patch RMPR3.062 enhances the purchase order process from the <strong>Purchasing (PU) Menu</strong> to link the "
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - suspense
-  - colgroup
-  - style
-  - width
-  - tbody
-  - patient
-  - prosthetics
 page_count: 0
 word_count: 10647
 section_count: 5
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_62.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_62.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_62.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_62.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

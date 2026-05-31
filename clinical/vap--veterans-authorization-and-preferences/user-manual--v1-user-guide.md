@@ -3,7 +3,7 @@ title: VAP Version 1 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: VAP
 app_name: Veterans Authorization and Preferences
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: VAP
 patch_ver: 1
 patch_id: VAP*1
-group_key: "VAP:VAP:1"
-file_numbers: []
+group_key: VAP:VAP:1
+description: '> The Veterans Authorizations and Preferences (VAP) project in the Virtual Lifetime Electronic Record (VLER) Initiative is responsible for authorizing Health Information Exchange (HIE) to trusted external partners and managing Veteran Electronic Consent Directives. The VAP project creates an enterpr'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '12'
+- '16'
+- '18'
+- '86'
 security_keys: []
 menu_options: 0
-description: > The Veterans Authorizations and Preferences (VAP) project in the Virtual Lifetime Electronic Record (VLER) Initiative is responsible for authorizing Health Information Exchange (HIE) to trusted external partners and managing Veteran Electronic Consent Directives. The VAP project creates an enterpr
-audience: 
-keywords: 
-  - date
-  - report
-  - patient
-  - table
-  - strong
-  - facility
-  - figure
-  - exchange
-  - contents
-  - ehealth
 page_count: 0
 word_count: 37275
 section_count: 30
 table_count: 0
 figure_count: 1
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/VAPE_User_Guide_2_7_0_20170427.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/VAPE_User_Guide_2_7_0_20170427.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=222"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/VAPE_User_Guide_2_7_0_20170427.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Veterans_Authorization_and_Preferences_(VAP)/VAPE_User_Guide_2_7_0_20170427.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=222
+audit_applied: '2026-05-31'
 ---
 
 # Veterans Authorizations and Preferences (VAP) User Guide

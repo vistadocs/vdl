@@ -11,47 +11,39 @@ app_status: active
 pkg_ns: DI
 patch_ver: 22.2
 patch_id: DI*22.2
-group_key: "DI:DI:22.2"
-file_numbers: []
-security_keys: []
+group_key: DI:DI:22.2
+description: '| Date | Revision | Description | Author | |------------|----------|----------------------------------------------------------------------------------------|----------------------------------| | 08/07/2017 | 1.0 | Initial Data Access Control (DAC) document released with VA FileMan Patch...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1.6'
+- '1.61'
+- '1.62'
+- '19'
+- '63'
+- '200'
+security_keys:
+- DIUSER
+- LRLAB
+- PROVIDER
 menu_options: 14
-description: 
-audience: 
-keywords: 
-  - policy
-  - span
-  - class
-  - action
-  - mark
-  - read
-  - access
-  - table
-  - application
-  - result
 page_count: 0
-word_count: 9822
+word_count: 9811
 section_count: 24
 table_count: 3
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2017
 revision_count: 1
 revision_newest: 08/07/2017
 revision_oldest: 08/07/2017
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2p8_dac_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2p8_dac_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2p8_dac_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_2p8_dac_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2; Patch DI\*22.2\*8
-
-  Data Access Control (DAC) User Guide
----
-
 ![](fm-22-2-data-access-control-dac-user-guide/001.png)
 
 August 2017

@@ -5,44 +5,70 @@ doc_label: Release Notes
 doc_layer: anchor
 doc_subject: Combined Builds Enhancements 2
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 2
 patch_id: PSO*2
-group_key: "PSO:PSO:2"
-file_numbers: []
+group_key: PSO:PSO:2
+description: The goal of the Pharmacy Reengineering (PRE) project is to replace the current M-based suite of pharmacy applications with a system that will better meet the current and expected business needs for the Department of Veterans Affairs (VA) and address the ever-changing patient safety issues.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '13'
+- '14'
+- '14.1'
+- '15'
+- '16'
+- '17'
+- '50'
+- '50.416'
+- '50.6'
+- '50.68'
+- '50.7'
+- '52.6'
+- '60'
+- '70'
+- '81'
+- '82'
+- '83'
+- '84'
+- '85'
+- '86'
+- '90'
+- '100'
+- '100.05'
+- '120.8'
+- '120.86'
 security_keys: []
 menu_options: 0
-description: The goal of the Pharmacy Reengineering (PRE) project is to replace the current M-based suite of pharmacy applications with a system that will better meet the current and expected business needs for the Department of Veterans Affairs (VA) and address the ever-changing patient safety issues.
-audience: 
-keywords: 
-  - order
-  - drug
-  - pharmacy
-  - table
-  - contents
-  - checks
-  - inpatient
-  - allergy
-  - check
-  - outpatient
 page_count: 0
 word_count: 3081
 section_count: 7
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_psj_5_pso_7_rn_r0416.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_psj_5_pso_7_rn_r0416.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_psj_5_pso_7_rn_r0416.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_psj_5_pso_7_rn_r0416.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-2-combined-builds-enhancements-2-release-notes/001.png)

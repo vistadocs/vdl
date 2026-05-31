@@ -8,41 +8,69 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: DICOM Gateway User Manual VistA Imaging MAG\*3.0\*305June 2022Property of the US
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '4'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '38.1'
+- '70'
+- '70.03'
+- '71'
+- '73.1'
+- '2005'
+- '2005.2'
+- '2005.6'
+- '2006.1'
+- '2006.5'
+- '2006.541'
+- '2006.563'
+- '2006.571'
+- '2006.5713'
+- '2006.574'
+- '2006.575'
+- '2006.585'
+- '2006.587'
+- '2006.592'
+- '2006.593'
+- '2006.621'
+- '2006.623'
+- '2006.9192'
+- '2006.921'
+security_keys:
+- MAG SYSTEM
+- MAG VIX ADMIN
+- MAGD QR REPORT
+- QR AUTO RETRIEVE
+- QR MANUAL RETRIEVE
 menu_options: 4
-description: 
-audience: 
-keywords: 
-  - dicom
-  - gateway
-  - image
-  - vista
-  - table
-  - contents
-  - patient
-  - images
-  - number
-  - study
 page_count: 0
 word_count: 68952
 section_count: 103
 table_count: 15
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicomug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicomug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicomug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicomug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-imaging-dicom-gateway-user-guide/001.png)

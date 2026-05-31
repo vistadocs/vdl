@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*61
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '''PROSTHETIC INVENTORY HCPCS SUMMARY REPORT Run Date: DEC 14,2000@10:15:30 Page: 1'''
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: <span id="_Toc461510747" class="anchor"></span>Prosthetics Inventory Package (PIP)
-audience: 
-keywords: 
-  - strong
-  - table
-  - colgroup
-  - width
-  - tbody
-  - style
-  - blockquote
-  - class
-  - hcpcs
-  - report
 page_count: 0
 word_count: 39810
 section_count: 0
 table_count: 74
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ![](rmpr-3-61-prosthetics-inventory-package-pip-user-manual/001.png)

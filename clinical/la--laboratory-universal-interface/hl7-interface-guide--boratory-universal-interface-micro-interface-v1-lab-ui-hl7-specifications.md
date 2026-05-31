@@ -1,48 +1,79 @@
 ---
-title: "Laboratory: Universal Interface Micro Interface Version 1 Lab UI HL7 Specifications"
+title: '''Laboratory: Universal Interface Micro Interface Version 1 Lab UI HL7 Specifications'''
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: anchor
 doc_subject: Lab UI HL7 Specifications
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: []
-security_keys: []
+patch_id: null
+group_key: LA::1
+description: '''Laboratory Universal Interface (UI) Version 1.6Health Level 7 (HL7) Version 2.5.1Interface Specifications DocumentRelease: LAB_MICRO_INTERFACE_RELEASE_1.0(LA\*5.2\*90 and'''
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '9'
+- '10'
+- '11'
+- '11.6'
+- '12'
+- '13.6'
+- '14'
+- '16'
+- '16.3'
+- '16.4'
+- '18'
+- '20'
+- '22'
+- '24'
+- '25'
+- '26'
+- '33'
+- '36'
+- '60'
+- '61'
+- '62'
+- '62.06'
+- '62.485'
+- '63'
+- '64'
+- '64.061'
+- '64.2'
+- '68'
+- '68.02'
+- '68.04'
+- '99'
+- '100'
+- '200'
+security_keys:
+- LRLAB
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - message
-  - vista
-  - code
-  - number
-  - class
-  - segment
-  - span
-  - identifier
 page_count: 0
 word_count: 13094
 section_count: 91
 table_count: 52
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_ui_specs_lab_micro_interface_rel_1_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_ui_specs_lab_micro_interface_rel_1_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_ui_specs_lab_micro_interface_rel_1_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_ui_specs_lab_micro_interface_rel_1_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 Laboratory Universal Interface (UI) Version 1.6Health Level 7 (HL7) Version 2.5.1Interface Specifications DocumentRelease: LAB_MICRO_INTERFACE_RELEASE_1.0(LA\*5.2\*90 and LR\*5.2\*474)

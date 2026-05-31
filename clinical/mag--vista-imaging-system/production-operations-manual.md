@@ -1,24 +1,48 @@
 ---
-consolidated_title: "vista imaging exchange (vix) production operations manual"
-app_code: MAG
+title: VistA Imaging Exchange (VIX) Production Operations Manual (POM)
 doc_type: POM
-master_source: "VistA Imaging Exchange (VIX) Production Operations Manual (POM)"
+doc_label: Production Operations Manual
+doc_layer: plain
+doc_subject: VistA Imaging Exchange (VIX) (POM)
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: active
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Revision | Description | Author | |------------|----------|-----------------------------------------|------------------------------------| | 11/04/2024 | 8.0 | Initial draft for MAG\*3.0\*358 | VA IT VistA Imaging Technical team | | 01/02/2024 | 7.3 | Updates for MAG\*3.0\*348 release...'
+audience: Production operations, release engineers
+keywords: []
+page_count: 0
+word_count: 2151
+section_count: 14
+table_count: 8
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: November 2024
+revision_count: 24
+revision_newest: 11/04/2024
+revision_oldest: 9/23/2016
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_8_0_pom.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_vx_8_0_pom.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
+master_source: VistA Imaging Exchange (VIX) Production Operations Manual (POM)
 master_pub_date: November 2024
 consolidated_from: 5 versions
 prior_versions:
-  - "MAG*3*269 VistA Imaging Exchange (VIX) Production Operations Manual (POM)"
-  - "MAG*3*303 VistA Imaging Exchange (VIX) Production Operations Manual (POM)"
-  - "MAG*3*329 VistA Imaging Exchange (VIX) Production Operations Manual (POM)"
-  - "MAG*3*348 VistA Imaging Exchange (VIX) Production Operations Manual (POM)"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Imaging eXchange (VIX) <span id="PatchTitle" class="anchor"></span>Enhancements and Maintenance
-
-  MAG\*3.0\*<span id="PatchNumber" class="anchor"></span>358
-
-  Production Operations Manual (POM)
+- MAG*3*269 VistA Imaging Exchange (VIX) Production Operations Manual (POM)
+- MAG*3*303 VistA Imaging Exchange (VIX) Production Operations Manual (POM)
+- MAG*3*329 VistA Imaging Exchange (VIX) Production Operations Manual (POM)
+- MAG*3*348 VistA Imaging Exchange (VIX) Production Operations Manual (POM)
+consolidated_title: vista imaging exchange (vix) production operations manual
 ---
 
 ![](vista-imaging-exchange-vix-production-operations-manual-pom/001.png)
@@ -117,7 +141,7 @@ Table of Contents
     - [Rollback Procedures](#rollback-procedures)
 - [Operations and Maintenance Responsibilities/RACI](#operations-and-maintenance-responsibilitiesraci)
 - [Approval Signatures](#approval-signatures)
-This document explains how to maintain and administer the Veterans Health Information Systems and Technology Architecture Imaging Exchange service (most often referred to as the VistA Imaging eXchange (VIX) service). The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently, the VIX’s primary purpose is to support image sharing between the Department of Veterans Affairs (VA) medical facilities and between the VA and the Department of Defense (DoD) medical facilities. It is anticipated that the VIX’s role will be expanded to support data sharing and exchange within a facility and between facilities. This document assumes that the VIX is installed and configured. For information about VIX system requirements, installation, and configuration, see the [*MAG\*3.0\*<u>358</u> VIX Installation Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
+This document explains how to maintain and administer the Veterans Health Information Systems and Technology Architecture Imaging Exchange service (most often referred to as the VistA Imaging eXchange (VIX) service). The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently, the VIX's primary purpose is to support image sharing between the Department of Veterans Affairs (VA) medical facilities and between the VA and the Department of Defense (DoD) medical facilities. It is anticipated that the VIX's role will be expanded to support data sharing and exchange within a facility and between facilities. This document assumes that the VIX is installed and configured. For information about VIX system requirements, installation, and configuration, see the [*MAG\*3.0\*<u>358</u> VIX Installation Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ## Intended Audience
 
@@ -137,21 +161,21 @@ This document is intended for VA staff responsible for managing a local VIX. It 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.*](https://www.va.gov/vdl/application.asp?appid=105)
 
 #### System Start-Up from Emergency Shut-Down
 
-See the *[VIX Administrator’s Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
+See the *[VIX Administrator's Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
 
 ### System Shut-down
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the *[VIX Administrator’s Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
+See the *[VIX Administrator's Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
 
 #### Emergency System Shut-down
 
-See the *[VIX Administrator’s Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
+See the *[VIX Administrator's Guide and the MAG\*3.0\*<u>358</u> VIX Installation Guide.](https://www.va.gov/vdl/application.asp?appid=105)*
 
 ### Back-up & Release
 
@@ -159,7 +183,7 @@ See the *[VIX Administrator’s Guide and the MAG\*3.0\*<u>358</u> VIX Installat
 
 #### Back-up Procedures
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 #### Restore Procedures
 
@@ -177,37 +201,37 @@ N/A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Identity Management
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Access control
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### VIX Interfaces
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Other VIX Components
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### VIX Security Certificate
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ## User Notifications
 
@@ -227,19 +251,19 @@ Table 2: Critical Metrics
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Dataflow Diagram
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Availability Monitoring
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Performance/Capacity Monitoring
 
@@ -307,7 +331,7 @@ Since the system is a component of a larger system that is responsible for user-
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Concurrency
 
@@ -325,7 +349,7 @@ Significant errors can be defined as errors or conditions that affect the system
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-See the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105)
+See the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105)
 
 ### Application Error Codes and Descriptions
 
@@ -345,7 +369,7 @@ The application installs SQLite a Structured Query Language (SQL) database that 
 
 #### Web Server
 
-Web Services are provided by the VIX using already deployed components. No other Commercial-Off-The-Shelf (COTS) components are required. Refer to the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105) for specific errors.
+Web Services are provided by the VIX using already deployed components. No other Commercial-Off-The-Shelf (COTS) components are required. Refer to the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105) for specific errors.
 
 #### Application Server
 
@@ -357,7 +381,7 @@ N/A
 
 #### Authentication & Authorization
 
-Refer to the [*VIX Administrator’s Guide*.](https://www.va.gov/vdl/application.asp?appid=105) The VIX services use pass-through authentication via security tokens. Errors manifest themselves as the inability to load images. Correction of these errors involves the controlling application or altering the site-specific settings in VistA Imaging.
+Refer to the [*VIX Administrator's Guide*.](https://www.va.gov/vdl/application.asp?appid=105) The VIX services use pass-through authentication via security tokens. Errors manifest themselves as the inability to load images. Correction of these errors involves the controlling application or altering the site-specific settings in VistA Imaging.
 
 #### Logical and Physical Descriptions
 
@@ -373,7 +397,7 @@ The VIX Viewer is part of VistA Imaging components. The main system dependency i
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Errors manifest themselves as the inability to load images. A review of the VIX error logs and transaction logs is the only tool available on the VIX to troubleshoot these conditions. Refer to the [*VIX Administrator’s Guide*](https://www.va.gov/vdl/application.asp?appid=105) for further details.
+Errors manifest themselves as the inability to load images. A review of the VIX error logs and transaction logs is the only tool available on the VIX to troubleshoot these conditions. Refer to the [*VIX Administrator's Guide*](https://www.va.gov/vdl/application.asp?appid=105) for further details.
 
 ## System Recovery
 
@@ -411,7 +435,7 @@ If it is necessary to uninstall the MAG\*3.0\*358 VIX, go to the Control Panel, 
 
 This responsibility matrix defines the roles and responsibilities for supporting VistA patches as part of a deployed solution. This is a template of the standard support structure required for VistA patches; therefore, the Project Manager (PM) should note any deviations in responsibility from this standardized Field Operations responsibility matrix in the Operational Acceptance Plan (OAP).
 
-VistA Patching is generally relegated to the sustainment of existing solutions but may also include emergency “hotfix” patches designed to remediate a noted deficiency within the solution. This Responsibility Matrix (Responsible, Accountable, Consulted, Informed, or RACI) (Table 3, Table 4, Table 5, and Table 6) is related to VistA patches released and supported at the national level (known as “Class I” patches), which are distributed to the entire Enterprise after testing and release management has been completed. VistA Patches are released via the FORUM, KERNEL, or via Secure File Transfer Protocol (SFTP) directly to the Field.
+VistA Patching is generally relegated to the sustainment of existing solutions but may also include emergency "hotfix" patches designed to remediate a noted deficiency within the solution. This Responsibility Matrix (Responsible, Accountable, Consulted, Informed, or RACI) (Table 3, Table 4, Table 5, and Table 6) is related to VistA patches released and supported at the national level (known as "Class I" patches), which are distributed to the entire Enterprise after testing and release management has been completed. VistA Patches are released via the FORUM, KERNEL, or via Secure File Transfer Protocol (SFTP) directly to the Field.
 
 |                                               | R     | A   | C   | I     |
 |-----------------------------------------------|-------|-----|-----|-------|
@@ -500,7 +524,7 @@ Project Manager Date
 
 1.  <span id="_Toc181633332" class="anchor"></span>References
 - [*MAG\*3.0\*<u>358</u> Deployment, Installation, Back-Out, and Rollback Plan*](https://www.va.gov/vdl/application.asp?appid=105)
-- [*VIX Administrator’s Guide  
+- [*VIX Administrator's Guide  
   > *](https://www.va.gov/vdl/application.asp?appid=105)
   1.  [<span id="_Toc181633333" class="anchor"></span>Definitions*,*](https://www.va.gov/vdl/application.asp?appid=105) Acronyms, and Abbreviations
 

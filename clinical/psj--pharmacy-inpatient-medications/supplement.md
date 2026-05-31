@@ -3,58 +3,49 @@ title: Inpatient Medications Pharmacy Interface Automation (PIA) Startup and Tro
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: 
-  - PSJ PADE ADV
-  - PSJ PADE MGR
-  - PSS PADE INIT
+pkg_ns: PSJ
+patch_ver: null
+patch_id: null
+group_key: null
+description: 06/22/2022 0.5 PSJ*5.0*432 - Added 3.4.2.9 Re-Send Orders at Check-In Parameter Description.
+audience: ''
+keywords: []
+file_numbers:
+- '3'
+- '3.6'
+- '50'
+- '57.8'
+- '58.6'
+- '58.601'
+- '58.63'
+- '58.7'
+- '58.72'
+security_keys:
+- PSJ PADE ADV
+- PSJ PADE MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pade
-  - span
-  - class
-  - clinic
-  - send
-  - mark
-  - setup
-  - group
-  - messages
-  - device
 page_count: 0
-word_count: 14443
+word_count: 14428
 section_count: 16
 table_count: 1
 figure_count: 30
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_tg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_tg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_tg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_tg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Interface Automation (PIA)
-
-  Startup and Troubleshooting Guide
----
-
 ![](inpatient-medications-pharmacy-interface-automation-pia-startup-and-troubleshoot/001.png)
 
 June 2022

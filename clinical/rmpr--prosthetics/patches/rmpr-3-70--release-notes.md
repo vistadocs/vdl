@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*70
-group_key: "RMPR:RMPR:3"
-file_numbers: []
+group_key: RMPR:RMPR:3
+description: '- ## HCPCS Update and Read Only 2319 - [Patch RMPR\3\70 Release'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4'
+- '660'
+- '661.1'
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"introduction\\">Introduction</h5></td> <td><blockquote> <p>The purpose of this patch is to update a list of HCPCS in Prosthetics HCPCS file (#661.1) and to transport two Prosthetic"
-audience: 
-keywords: 
-  - strong
-  - table
-  - rmpr
-  - colgroup
-  - style
-  - width
-  - tbody
-  - blockquote
-  - vendor
-  - transactions
 page_count: 0
 word_count: 1667
 section_count: 3
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_70.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_70.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_70.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_70.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

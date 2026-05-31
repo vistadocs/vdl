@@ -3,46 +3,38 @@ title: HL7 HL*1.6*118 Message Parsing Utilities Supplement
 doc_type: SUP
 doc_label: Supplement
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: []
+patch_id: null
+group_key: HL7::1.6
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the field.
+audience: ''
+keywords: []
+file_numbers:
+- '773'
 security_keys: []
 menu_options: 0
-description: <span class="smallcaps">VistA Health Level Seven (HL7) Message Parsing Utilities </span><span class="smallcaps">Supplement to Patch Description </span><span class="smallcaps">Patch HL\1.6\118</span>
-audience: 
-keywords: 
-  - header
-  - segment
-  - class
-  - message
-  - strong
-  - table
-  - component
-  - parsing
-  - even
-  - contents
 page_count: 0
 word_count: 3027
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p118_sp2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p118_sp2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p118_sp2.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p118_sp2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-hl-1-6-118-message-parsing-utilities-supplement/001.png)

@@ -3,46 +3,37 @@ title: CAPRI GUI Installation Supplemental Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: CAPRI
 app_name: Compensation and Pension Record Interchange
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: DVBA
+patch_ver: null
+patch_id: null
+group_key: null
+description: August 2015Version 3.10Department of Veterans AffairsOffice of Information and Technology (OIT)Management & Financial
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - capri
-  - table
-  - contents
-  - installation
-  - windows
-  - class
-  - files
-  - reflection
-  - patch
-  - dvba
 page_count: 0
 word_count: 4176
 section_count: 10
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/capri_gui_isg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/capri_gui_isg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/capri_gui_isg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/capri_gui_isg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](capri-gui-installation-supplemental-guide/001.png)

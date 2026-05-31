@@ -3,7 +3,7 @@ title: Emergency Dept Integration Software (EDIS) Version 1.0 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EDIS
 app_name: Emergency Department Integration Software
 section: CLI
@@ -11,38 +11,31 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 1.0
 patch_id: EDIS*1.0
-group_key: "EDIS:EDIS:1.0"
-file_numbers: []
-security_keys: []
+group_key: EDIS:EDIS:1.0
+description: '- Revision History - Emergency Department Integration Software - About this Guide - Section 508 of the Rehabilitation Act of 1973 - [Recommendations for JAWS...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '900001'
+security_keys:
+- EDPR EXPORT
 menu_options: 0
-description: - [Revision History](#revision-history) - [Emergency Department Integration Software](#emergency-department-integration-software) - [About this Guide](#about-this-guide) - [Section 508 of the Rehabilitation Act of 1973](#section-508-of-the-rehabilitation-act-of-1973) - [Recommendations for JAWS User
-audience: 
-keywords: 
-  - patient
-  - edis
-  - patients
-  - table
-  - contents
-  - locate
-  - keyboard
-  - emergency
-  - board
-  - arrow
 page_count: 0
 word_count: 26516
 section_count: 41
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edp_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 ![](emergency-dept-integration-software-edis-version-1-0-user-guide/001.png)

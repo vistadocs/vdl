@@ -3,46 +3,42 @@ title: PSJ*5*160/175 Nurse's User Manual Change Pages
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Nurse's  Change Pages
+doc_subject: Nurse's Change Pages
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*160
-group_key: "PSJ:PSJ:5"
+group_key: PSJ:PSJ:5
+description: '> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
+- PSJ RNFINISH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI RNFINISH
 menu_options: 0
-description: > Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - order
-  - width
-  - style
-  - drug
-  - patient
-  - contents
-  - colgroup
 page_count: 0
 word_count: 5696
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p175_p160_nurse_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p175_p160_nurse_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p175_p160_nurse_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p175_p160_nurse_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-160-175-nurse-s-user-manual-change-pages/001.png)

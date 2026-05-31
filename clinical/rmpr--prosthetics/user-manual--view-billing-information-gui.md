@@ -3,46 +3,37 @@ title: View Billing Information (GUI) User Manual (Updated RMPR*3*178)
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: View Billing Information (GUI)  (Updated RMPR*3*178)
+doc_subject: View Billing Information (GUI) (Updated RMPR*3*178)
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: RMPR
+patch_ver: null
+patch_id: null
+group_key: null
+description: Version 3.0January 2005(Revised August 2014)Department of Veterans AffairsOffice of Information and TechnologyProduct DevelopmentRevision History
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Version 3.0January 2005(Revised August 2014)Department of Veterans AffairsOffice of Information and TechnologyProduct DevelopmentRevision History
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - style
-  - width
-  - table
-  - colgroup
-  - tbody
-  - class
-  - view
-  - billing
 page_count: 0
 word_count: 6546
 section_count: 0
 table_count: 6
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_pvbi_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_pvbi_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_pvbi_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_pvbi_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 Prosthetics View Billing Information (GUI)User Manual

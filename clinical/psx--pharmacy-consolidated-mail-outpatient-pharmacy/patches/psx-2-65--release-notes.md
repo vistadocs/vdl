@@ -5,44 +5,39 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: ePharmacy Phase 4 Iteration II
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2*65
-group_key: "PSX:PSX:2"
-file_numbers: []
+group_key: PSX:PSX:2
+description: '*(This page included for two-sided copying.)*Table of'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '52'
+- '86'
+- '101'
+- '102.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cmop
-  - table
-  - contents
-  - suspense
-  - ecme
-  - prescriptions
-  - prescription
-  - hold
-  - fill
-  - date
 page_count: 0
 word_count: 1422
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_p65_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](psx-2-65-release-notes-epharmacy-phase-4-iteration-ii/001.png)

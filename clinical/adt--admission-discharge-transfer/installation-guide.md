@@ -3,7 +3,7 @@ title: PIMS Version 5.3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ADT
 app_name: Admission Discharge Transfer
 section: CLI
@@ -11,38 +11,121 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ADT:ADT:5.3
 description: PIMS v5.3 sends out the Order Parameters for Registration and Scheduling set to NULL. Before installing PIMS v5.3, the values in the Order Parameters file (#100.99), PACKAGE PARAMETERS field multiple (#5), ON field (#1) should be reviewed and saved. After the installation is completed, the parameter
-audience: 
-keywords: 
-  - filed
-  - valm
-  - dgini
-  - protocol
-  - routine
-  - added
-  - edit
-  - sdini
-  - namespace
-  - located
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '5'
+- '5.3'
+- '8'
+- '8.1'
+- '8.2'
+- '10'
+- '11'
+- '13'
+- '21'
+- '22'
+- '23'
+- '25'
+- '35'
+- '36'
+- '38.1'
+- '39.3'
+- '40.7'
+- '40.8'
+- '41.1'
+- '42.4'
+- '42.55'
+- '43.1'
+- '43.11'
+- '43.61'
+- '43.7'
+- '44'
+- '45'
+- '45.1'
+- '45.5'
+- '45.61'
+- '45.62'
+- '45.64'
+- '45.7'
+- '45.81'
+- '45.85'
+- '45.86'
+- '45.87'
+- '45.88'
+- '45.89'
+- '45.9'
+- '50'
+- '81'
+- '81.1'
+- '100.99'
+- '101'
+- '389.9'
+- '391'
+- '391.1'
+- '392'
+- '392.1'
+- '392.2'
+- '392.3'
+- '392.4'
+- '393'
+- '393.1'
+- '393.2'
+- '393.3'
+- '393.41'
+- '405'
+- '405.1'
+- '405.2'
+- '405.3'
+- '405.4'
+- '405.5'
+- '405.6'
+- '406.41'
+- '407.7'
+- '408'
+- '408.11'
+- '408.12'
+- '408.13'
+- '408.21'
+- '408.22'
+- '408.31'
+- '408.32'
+- '408.33'
+- '408.41'
+- '408.42'
+- '409.5'
+- '409.61'
+- '409.65'
+- '409.68'
+- '409.71'
+- '409.72'
+- '409.81'
+security_keys:
+- DG ELIGIBILITY
+- DG SECURITY OFFICER
+- DGMTCOR
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 16885
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

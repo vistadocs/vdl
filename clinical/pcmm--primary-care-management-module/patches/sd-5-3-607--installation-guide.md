@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: SD
 patch_ver: 5.3
 patch_id: SD*5.3*607
-group_key: "PCMM:SD:5.3"
+group_key: PCMM:SD:5.3
+description: This guide provides details on the preparation for and installation of Patch SD\5.3\607 to the PCMM software. It includes instructions on the installation of the Client software (PCMM GUI).
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: This guide provides details on the preparation for and installation of Patch SD\5.3\607 to the PCMM software. It includes instructions on the installation of the Client software (PCMM GUI).
-audience: 
-keywords: 
-  - pcmm
-  - installation
-  - table
-  - contents
-  - shortcut
-  - patch
-  - parameters
-  - windows
-  - files
-  - directory
 page_count: 0
 word_count: 533
 section_count: 3
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_607ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_607ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_607ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_607ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 ![](sd-5-3-607-installation-guide-patch/001.png)

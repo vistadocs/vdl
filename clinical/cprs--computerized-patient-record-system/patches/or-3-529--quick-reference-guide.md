@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*529
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '- VistA Cutover Utilities Menu New Functionality This patch provides functionality to maintain continuity of care during a site''s Cerner cutover by creating a report of recent clinical activity for every patient seen in the last three years that providers can...'
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [VistA Cutover Utilities Menu](#vista-cutover-utilities-menu) New Functionality This patch provides functionality to maintain continuity of care during a site's Cerner cutover by creating a report of recent clinical activity for every patient seen in the last three years that providers can cross-r
-audience: 
-keywords: 
-  - time
-  - cutover
-  - strong
-  - test
-  - evaluation
-  - document
-  - reminders
-  - wall
-  - clock
-  - patients
 page_count: 0
 word_count: 813
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p529_qr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p529_qr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p529_qr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_p529_qr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

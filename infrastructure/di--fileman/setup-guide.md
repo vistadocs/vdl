@@ -3,55 +3,46 @@ title: FM and Kernel File Access Security
 doc_type: SG
 doc_label: Security Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: DI
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''Remodeled document to follow current documentation standards and style guidelines. Content updated based on review of the "File Access Security" section in the Kernel 8.0 Systems Management: Signon/Security User'''
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '9.4'
+- '32'
+- '123'
+- '200'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 14
-description: 
-audience: 
-keywords: 
-  - access
-  - security
-  - strong
-  - fileman
-  - kernel
-  - span
-  - class
-  - table
-  - example
-  - classic
 page_count: 0
-word_count: 4478
+word_count: 4468
 section_count: 4
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_krn8_file_security.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_krn8_file_security.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_krn8_file_security.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/fm22_krn8_file_security.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VA FileMan 22.2 and Kernel 8.0
-
-  File Access Security User Guide
----
-
 ![](fm-and-kernel-file-access-security/001.png)
 
 July 2007

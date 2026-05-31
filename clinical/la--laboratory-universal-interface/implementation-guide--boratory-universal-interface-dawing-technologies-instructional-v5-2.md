@@ -1,51 +1,45 @@
 ---
-title: "Laboratory: Universal Interface Dawing Technologies Instructional Implementation Guide Version 5.2"
+title: '''Laboratory: Universal Interface Dawing Technologies Instructional Implementation Guide Version 5.2'''
 doc_type: IG-IMP
 doc_label: Implementation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 5.2
-patch_id: 
-group_key: "LA::5.2"
-file_numbers: 
-  - 60
-  - 770
-  - 771
+patch_id: null
+group_key: LA::5.2
+description: '> Office of Employee Education Salt Lake Education Center Clin2 Customer'
+audience: ''
+keywords: []
+file_numbers:
+- '3.5'
+- '60'
+- '62.4'
+- '62.48'
+- '770'
+- '771'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - class
-  - contents
-  - even
-  - dawning
-  - width
-  - style
-  - configuration
 page_count: 0
 word_count: 5342
 section_count: 30
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/dawning.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/dawning.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/dawning.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/dawning.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 > ![](laboratory-universal-interface-dawing-technologies-instructional-implementation-/001.png)

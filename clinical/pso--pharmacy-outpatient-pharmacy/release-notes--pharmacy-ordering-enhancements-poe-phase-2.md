@@ -5,44 +5,48 @@ doc_label: Release Notes
 doc_layer: plain
 doc_subject: Pharmacy Ordering Enhancements (POE) Phase 2
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: PSO
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- # Introduction - Outpatient Pharmacy - Options and Actions - Reports and Profiles - Files and Fields - Other Functionality - [Obsolete...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50'
+- '50.606'
+- '50.7'
+- '51'
+- '51.1'
+- '52'
+- '52.41'
+- '52.6'
+- '52.7'
+- '55'
+- '59.7'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 0
-description: - [# Introduction](#introduction) - [Outpatient Pharmacy](#outpatient-pharmacy) - [Options and Actions](#options-and-actions) - [Reports and Profiles](#reports-and-profiles) - [Files and Fields](#files-and-fields) - [Other Functionality](#other-functionality) - [Obsolete Functionality](#obsolete-fun
-audience: 
-keywords: 
-  - order
-  - pharmacy
-  - orderable
-  - drug
-  - orders
-  - patient
-  - dose
-  - cprs
-  - table
-  - contents
 page_count: 0
 word_count: 10745
 section_count: 25
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/cprs_poe_1_0_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 > ![](pharmacy-ordering-enhancements-poe-phase-2-release-notes/001.png)

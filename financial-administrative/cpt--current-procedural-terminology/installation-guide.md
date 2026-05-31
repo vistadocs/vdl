@@ -3,7 +3,7 @@ title: CPT Version 6 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CPT
 app_name: Current Procedural Terminology
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: CPT
 patch_ver: 6
 patch_id: CPT*6
-group_key: "CPT:CPT:6"
-file_numbers: []
+group_key: CPT:CPT:6
+description: This package was created using Kernel V. 8.0 and VA FileMan V. 21.0. It was exported using the Kernel Installation and Distribution System (KIDS). You must use Kernel V. 8.0 to install this software from the ICPT6_0.KID file. Installation will take between 5 and 40 minutes.
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '81'
+- '81.1'
+- '81.2'
+- '81.3'
+- '81.4'
+- '81.5'
 security_keys: []
 menu_options: 0
-description: This package was created using Kernel V. 8.0 and VA FileMan V. 21.0. It was exported using the Kernel Installation and Distribution System (KIDS). You must use Kernel V. 8.0 to install this software from the ICPT6_0.KID file. Installation will take between 5 and 40 minutes.
-audience: 
-keywords: 
-  - icpt
-  - site
-  - install
-  - installation
-  - send
-  - package
-  - delete
-  - routines
-  - patch
-  - deleted
 page_count: 0
 word_count: 1955
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=33"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Current_Proc_Terminology_(CPT)/cpt6_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=33
+audit_applied: '2026-05-31'
 ---
 
 Current Procedural Terminology (CPT)V. 6.0 Installation GuideMay 1997

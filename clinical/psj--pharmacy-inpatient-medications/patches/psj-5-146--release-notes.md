@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Remote Data Interoperability Project
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*146
-group_key: "PSJ:PSJ:5"
+group_key: PSJ:PSJ:5
+description: '- Introduction - Project Overview - Inpatient Medications - Inpatient Medications V. 5.0 - Outpatient Pharmacy - Outpatient Pharmacy V. 7.0 This...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - remote
-  - outpatient
-  - drug
-  - checks
-  - table
-  - contents
-  - medications
-  - inpatient
-  - project
 page_count: 0
 word_count: 1266
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-146-release-notes-remote-data-interoperability-project/001.png)

@@ -3,52 +3,60 @@ title: PSS*1*189 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*189
-group_key: "PSS:PSS:1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:1
+description: '[Department of Veterans Affairs'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.1'
+- '2'
+- '4'
+- '8'
+- '12'
+- '17'
+- '31'
+- '32'
+- '50'
+- '50.68'
+- '51'
+- '51.1'
+- '52'
+- '52.07'
+- '52.1'
+- '52.41'
+- '52.6'
+- '52.7'
+- '66'
+- '101'
+- '362.4'
+security_keys:
+- PSJI MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patch
-  - install
-  - table
-  - contents
-  - installation
-  - dextrose
-  - components
-  - options
-  - solution
-  - prompted
 page_count: 0
-word_count: 1990
+word_count: 1985
 section_count: 17
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p189_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p189_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p189_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p189_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
-
----
-date: "![](pss-1-189-installation-guide/001.png)"
----
-
 PSS\*1.0\*189
 
 INSTALLATIONGUIDE

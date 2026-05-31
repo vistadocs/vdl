@@ -3,56 +3,90 @@ title: CPRS Setup Guide
 doc_type: SG-SET
 doc_label: Setup Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: OR
+patch_ver: null
+patch_id: null
+group_key: null
 description: The Notifications component in CPRS generates clinical alerts regarding patient information from DHCP packages such as CPRS, Lab, Radiology, and Consults. A notification consists of one line of text that is displayed to the user at sign-on and option prompts.
-audience: 
-keywords: 
-  - order
-  - class
-  - cprs
-  - template
-  - orders
-  - edit
-  - blockquote
-  - patient
-  - even
-  - parameters
+audience: ''
+keywords: []
+file_numbers:
+- '3.2'
+- '3.54'
+- '4'
+- '6'
+- '6.9'
+- '19'
+- '20.2'
+- '25.1'
+- '25.2'
+- '50.3'
+- '50.7'
+- '53.1'
+- '53.3'
+- '53.5'
+- '55'
+- '59.5'
+- '59.7'
+- '60'
+- '64'
+- '69'
+- '69.9'
+- '71.3'
+- '100'
+- '100.22'
+- '100.23'
+- '100.99'
+- '101'
+- '101.41'
+- '101.43'
+- '102'
+- '104'
+- '108'
+- '109'
+- '123.5'
+- '200'
+- '409.61'
+- '8989.1'
+security_keys:
+- CLINICIAN
+- ORELSE
+- OREMAS
+- ORES
+- ORMGR
+- PROVIDER
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI MGR
+- PSJI PURGE
+- PSJU RPH
+- PSORPH
+- RPHARM
+- XUPROG
+menu_options: 5
 page_count: 0
-word_count: 38682
+word_count: 38668
 section_count: 21
 table_count: 43
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprssetup.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprssetup.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprssetup.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprssetup.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc330181311" class="anchor"></span>
-
-  Computerized Patient Record System (CPRS)  
-  Setup Guide
----
-
 ![](cprs-setup-guide/001.png)
 
 July 2025

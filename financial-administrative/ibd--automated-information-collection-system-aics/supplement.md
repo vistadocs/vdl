@@ -3,46 +3,37 @@ title: AICS Modification for Code Set Versioning
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: IBD
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- AICS MODIFICATIONS FOR THE CODE SET VERSIONING PROJECT - AICS OPTIONS - SECURITY KEY This patch supports the HIPAA legislation that diagnostic (ICD) and procedure codes (CPT),used for billing purposes, be...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 2
-description: - [AICS MODIFICATIONS FOR THE CODE SET VERSIONING PROJECT](#aics-modifications-for-the-code-set-versioning-project) - [AICS OPTIONS](#aics-options) - [SECURITY KEY](#security-key) This patch supports the HIPAA legislation that diagnostic (ICD) and procedure codes (CPT),used for billing purposes, be
-audience: 
-keywords: 
-  - entry
-  - aics
-  - table
-  - contents
-  - scanning
-  - manual
-  - encounter
-  - forms
-  - form
-  - modifications
 page_count: 0
 word_count: 439
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0modifcations.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0modifcations.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0modifcations.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0modifcations.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 # AICS MODIFICATIONS FOR THE CODE SET VERSIONING PROJECT

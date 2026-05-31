@@ -11,42 +11,62 @@ app_status: active
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: 
-  - 40
-  - 71
-  - 79
-  - 81
-security_keys: []
+group_key: RA:RA:5
+description: '''June 2024 244-245 RA*5.0*216: Update to the ''''Print Rad/Nuc Med Requests by Date'''' [RA ORDERPRINTS] option to allow sorting by the scheduled date of the'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '34'
+- '40.7'
+- '44'
+- '45.7'
+- '70'
+- '71'
+- '71.1'
+- '71.2'
+- '71.4'
+- '71.5'
+- '72'
+- '73.2'
+- '74'
+- '74.1'
+- '75.1'
+- '75.2'
+- '78.1'
+- '78.3'
+- '78.4'
+- '78.6'
+- '79'
+- '79.1'
+- '81'
+- '200'
+- '301'
+security_keys:
+- ORELSE
+- ORES
+- PROVIDER
+- RA ALLOC
+- RA MGR
+- RA RPTMGR
+- RA VERIFY
 menu_options: 67
-description: 
-audience: 
-keywords: 
-  - report
-  - exam
-  - date
-  - imaging
-  - patient
-  - procedure
-  - status
-  - reports
-  - class
-  - case
 page_count: 0
 word_count: 112181
 section_count: 126
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](radiology-version-5-user-manual-updated-ra-5-216/001.png)

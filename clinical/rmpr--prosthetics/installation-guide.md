@@ -3,7 +3,7 @@ title: Prosthetics Version 3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3
-group_key: "RMPR:RMPR:3"
-file_numbers: []
+group_key: RMPR:RMPR:3
+description: Prosthetics Installation Guide
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '663'
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"preface\\">Preface</h5></td> <td><blockquote> <p>This guide is for use by Information Resources Management Services and Information Systems Center personnel to install the DHCP Pro"
-audience: 
-keywords: 
-  - table
-  - style
-  - width
-  - colgroup
-  - tbody
-  - blockquote
-  - prosthetics
-  - class
-  - module
-  - installation
 page_count: 0
 word_count: 2757
 section_count: 0
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr3ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ![](prosthetics-version-3-installation-guide/001.png)

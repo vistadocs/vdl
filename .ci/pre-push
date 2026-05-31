@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Pre-push hook for the vistadocs/vdl corpus repo.
+# Refuses to push if any document has broken frontmatter.
+#
+# Install (from the repo root):
+#     ln -sf ../../.ci/pre-push .git/hooks/pre-push
+# or run:  bash .ci/install-hooks.sh
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+echo "[pre-push] validating corpus frontmatter ..."
+python3 "$ROOT/.ci/validate_frontmatter.py" "$ROOT"
+echo "[pre-push] corpus is clean — proceeding with push."

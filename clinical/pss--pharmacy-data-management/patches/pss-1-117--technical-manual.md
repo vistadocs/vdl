@@ -3,46 +3,75 @@ title: PSS*1*117/136 Technical Manual/Security Guide Change Pages
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*117
-group_key: "PSS:PSS:1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:1
+description: '- Version 1.0 - Revision History - Implementation and Maintenance - File List - Routines - Exported Options - Protocols - Bulletins - [HL7 Messaging...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '5'
+- '7.1'
+- '8'
+- '9'
+- '10'
+- '11'
+- '18'
+- '20.412'
+- '31'
+- '50'
+- '50.0904'
+- '50.3'
+- '50.4'
+- '50.606'
+- '50.68'
+- '50.7'
+- '50.711'
+- '51'
+- '51.1'
+- '51.2'
+- '51.23'
+- '51.24'
+- '51.7'
+- '52.6'
+- '52.7'
+- '59.7'
+- '59.73'
+- '59.74'
+- '101'
+- '101.43'
+- '901'
+- '900001'
+security_keys:
+- PSA ORDERS
+- PSDMGR
+- PSJI MGR
+- PSORPH
 menu_options: 9
-description: - [Version 1.0](#version-10) - [Revision History](#revision-history) - [Implementation and Maintenance](#implementation-and-maintenance) - [File List](#file-list) - [Routines](#routines) - [Exported Options](#exported-options) - [Protocols](#protocols) - [Bulletins](#bulletins) - [HL7 Messaging with
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - colspan
-  - table
-  - even
-  - style
-  - width
-  - contents
-  - pharmacy
 page_count: 0
 word_count: 9473
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p136_and_p117_tm_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p136_and_p117_tm_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p136_and_p117_tm_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p136_and_p117_tm_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](pss-1-117-136-technical-manual-security-guide-change-pages/001.png)

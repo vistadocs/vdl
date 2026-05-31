@@ -3,46 +3,68 @@ title: LA*5.2*64/LR*5.2*286 LEDI III Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*64
-group_key: "LEDI:LA:5.2"
-file_numbers: []
+group_key: LEDI:LA:5.2
+description: Department of Veterans AffairsVistA Health Systems Design &
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '2.3'
+- '3'
+- '4'
+- '13'
+- '22'
+- '30'
+- '50'
+- '60'
+- '60.01'
+- '61'
+- '62.4'
+- '62.48'
+- '62.481'
+- '62.485'
+- '62.49'
+- '62.8'
+- '62.85'
+- '62.9'
+- '63'
+- '67'
+- '68'
+- '68.2'
+- '69'
+- '69.6'
+- '100'
+- '106'
+- '162'
+- '700'
+- '771'
+- '870'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - ledi
-  - laboratory
-  - vista
-  - test
-  - software
-  - results
-  - message
-  - modified
 page_count: 0
 word_count: 14645
 section_count: 35
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iii_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-64-lr-5-2-286-ledi-iii-installation-guide/001.png)

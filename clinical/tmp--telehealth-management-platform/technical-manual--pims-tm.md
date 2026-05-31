@@ -1,21 +1,145 @@
 ---
-consolidated_title: "tmp pims tm"
-app_code: TMP
+title: TMP Version 6.0 Release 4.9.0.9 PIMS TM
 doc_type: TM
-master_source: "TMP Version 6.0 Release 4.9.0.9 PIMS TM"
+doc_label: Technical Manual
+doc_layer: anchor
+doc_subject: Release 4.9.0.9 PIMS TM
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 6.0
+patch_id: TMP*6.0
+group_key: TMP:TMP:6.0
+file_numbers:
+- '1'
+- '2'
+- '2.191'
+- '2.3215'
+- '2.98'
+- '3'
+- '3.2'
+- '3.2055'
+- '3.5'
+- '4'
+- '4.2'
+- '5'
+- '6'
+- '8'
+- '8.1'
+- '9.5'
+- '10'
+- '10.99'
+- '11'
+- '11.99'
+- '12.11'
+- '13'
+- '13.99'
+- '16'
+- '17'
+- '19'
+- '21'
+- '23'
+- '26.11'
+- '26.14'
+- '26.15'
+- '26.22'
+- '27.11'
+- '38.6'
+- '39.6'
+- '40.6'
+- '40.7'
+- '41.9'
+- '42'
+- '42.4'
+- '43'
+- '44'
+- '44.003'
+- '45'
+- '47.77'
+- '47.78'
+- '55'
+- '80'
+- '81'
+- '81.3'
+- '90'
+- '99'
+- '99.97'
+- '99.98'
+- '99.99'
+- '99.991'
+- '100.21'
+- '101'
+- '113'
+- '200'
+- '216'
+- '301.92'
+- '361'
+- '389.9'
+- '390'
+- '391.71'
+- '404.01'
+- '404.02'
+- '404.91'
+- '405'
+- '405.2'
+- '408.32'
+- '408.43'
+- '409.43'
+- '409.68'
+- '409.831'
+- '409.84'
+- '409.88'
+- '409.98'
+- '771'
+- '801'
+- '802'
+- '803'
+- '870'
+- '991.11'
+- '999.2'
+- '1100.07'
+- '2600'
+- '4903'
+- '8925'
+- '8925.1'
+- '8930.3'
+- '8989.5'
+- '8989.51'
+- '8994'
+security_keys:
+- ORES
+- PROVIDER
+- PSORPH
+- SDSUP
+- XUPROGMODE
+menu_options: 9
+description: This section defines the HL7 message transactions that are necessary to support the outpatient database interface for the Austin Information Technology Center (AITC), (formerly the Austin Automation Center \[AAC\]).
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 84917
+section_count: 123
+table_count: 124
+figure_count: 0
+appendix_count: 3
+has_toc: false
+is_stub: false
+pub_date: February 2022
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_4909.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_4909.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 6.0 Release 4.9.0.9 PIMS TM
 master_pub_date: February 2022
 consolidated_from: 2 versions
 prior_versions:
-  - "TMP Version 4.0 Release 4.9.0.8 PIMS TM"
----
-
----
-title: |
-  <span id="_Hlk54771572" class="anchor"></span>Patient Information Management System (PIMS) Software Version 5.3
-
-  Patient Registration, Admission, Discharge, Transfer, and Appointment Scheduling
-
-  Technical Manual
+- TMP Version 4.0 Release 4.9.0.8 PIMS TM
+consolidated_title: tmp pims tm
 ---
 
 ![](tmp-version-6-0-release-4-9-0-9-pims-tm/001.png)
@@ -138,7 +262,7 @@ Liberty ITS</td>
 <td>10/2021</td>
 <td>0.75</td>
 <td><p>DG*5.3*1061 Updates:</p>
-<p>Added Section <u>3.5.52</u> Patch DG*5.3*1061 Routines: Modified ICR #10061 for VADPT with new component “CAI” for downstream applications to retrieve the COMPACT Act Indicator. Modified routines DGENELA, DGLOCK1, DGRP7, DGRPD, and VADPT. Also added DG531061P, which added entries into ELIGIBILITY CODE file (#8).</p>
+<p>Added Section <u>3.5.52</u> Patch DG*5.3*1061 Routines: Modified ICR #10061 for VADPT with new component "CAI" for downstream applications to retrieve the COMPACT Act Indicator. Modified routines DGENELA, DGLOCK1, DGRP7, DGRPD, and VADPT. Also added DG531061P, which added entries into ELIGIBILITY CODE file (#8).</p>
 <p>Added Section <u>12.2.20</u> for CAI^VADPT, new callable entry point in VADPT for COMPACT Act eligibility determination.</p></td>
 <td>Liberty ITS</td>
 </tr>
@@ -153,7 +277,7 @@ Liberty ITS</td>
 <td>09/2021</td>
 <td>0.73</td>
 <td><p>DG*5.3*1056 Updates:</p>
-<p>Changed “patient’s permanent address” to “patient’s mailing address” and changed “permanent mailing address” to “mailing address” where this address is referenced.</p>
+<p>Changed "patient's permanent address" to "patient's mailing address" and changed "permanent mailing address" to "mailing address" where this address is referenced.</p>
 <p>Added Section <u>3.5.50</u> Patch DG*5.3*1056 Routines.</p></td>
 <td>Liberty ITS</td>
 </tr>
@@ -208,7 +332,7 @@ Liberty ITS</td>
 <td>06/2021</td>
 <td>0.65</td>
 <td><p>DG*5.3*1044 Updates:</p>
-<p>Changed “AIR FORCE – ACTIVE DUTY” to “USAF, USSF – ACTIVE DUTY” in Section <u>15.9.24</u> Table VA11—Period of Service</p>
+<p>Changed "AIR FORCE – ACTIVE DUTY" to "USAF, USSF – ACTIVE DUTY" in Section <u>15.9.24</u> Table VA11—Period of Service</p>
 <p>Added Section <u>3.5.42</u> Patch DG*5.3*1044 Routines: Modified routines DGRPMS, DGRPE, DGRP61 and added post-install routine DG531044P to re-compile templates.</p></td>
 <td>Liberty ITS</td>
 </tr>
@@ -217,7 +341,7 @@ Liberty ITS</td>
 <td>0.64</td>
 <td><p>DG*5.3*1027 Updates:</p>
 <p>Added new and modified routines to Section <u>3.5.41</u> Patch DG*5.3*1027 Routines</p>
-<p>Modified “ENROLLMENT APPLICATION DATE” to “APPLICATION DATE” in <u>Table 99</u></p></td>
+<p>Modified "ENROLLMENT APPLICATION DATE" to "APPLICATION DATE" in <u>Table 99</u></p></td>
 <td>Liberty ITS</td>
 </tr>
 <tr class="odd">
@@ -302,7 +426,7 @@ Liberty ITS</td>
 <td><p>Updates: Merged missing content from the PIMS Technical Manual (i.e., <strong>PIMS_Technical_Manual.docx/.pdf</strong>) into this manual (i.e., <strong>adt_pims_tm.docx/.pdf</strong>) so there will only be one PIMS Technical Manual going forward:</p>
 <ul>
 <li><p>Changed references from VistA Scheduling Enhancement (VSE) to VistA Scheduling Graphical User Interface (VS GUI) throughout.</p></li>
-<li><p>Added (missing) Section <u>3.5.30</u>, “<u>Patch SD*5.3*756 Routines</u>.”</p></li>
+<li><p>Added (missing) Section <u>3.5.30</u>, "<u>Patch SD*5.3*756 Routines</u>."</p></li>
 <li><p>Added (missing) File #409.88 entry to <u>Table 42</u> and <u>Table 62</u>.</p></li>
 <li><p>Added (missing) Patch SD*5.2*756 option entry to <u>Table 47</u>.</p></li>
 </ul></td>
@@ -319,7 +443,7 @@ Liberty ITS</td>
 <li><p>Corrected document to be Section 508 conformant.</p></li>
 <li><p>Updated organizational references and acronyms.</p></li>
 <li><p>Renamed this document to match current naming conventions: <strong>adt_pims_tm.docx/.pdf</strong>. This is the <em>unredacted</em> version of this document that can be uploaded to internal Anonymous directories, other VA internal repositories, and Intranet sites only accessible behind the VA firewall.</p></li>
-<li><p>Created a mirror document named <strong>adt_pims_tm_r.docx/.pdf</strong>. In accordance with the current VA Software Document Library (VDL) redaction requirements, all personal identifiable information (PII) and sensitive information (e.g., DFN, IPs, ports, names, Intranet links, etc.) have been replaced with a “REDACTED” placeholder.</p></li>
+<li><p>Created a mirror document named <strong>adt_pims_tm_r.docx/.pdf</strong>. In accordance with the current VA Software Document Library (VDL) redaction requirements, all personal identifiable information (PII) and sensitive information (e.g., DFN, IPs, ports, names, Intranet links, etc.) have been replaced with a "REDACTED" placeholder.</p></li>
 </ul></td>
 <td>VDIF Development Team</td>
 </tr>
@@ -362,7 +486,7 @@ Liberty ITS</td>
 <td>0.47</td>
 <td><p>DG*5.3*993 Updates:</p>
 <ul>
-<li><p>Added new routine to Section <u>3.5.17</u> and to Section <u>3.5</u>, “<u>New and Modified Routines</u>.”</p></li>
+<li><p>Added new routine to Section <u>3.5.17</u> and to Section <u>3.5</u>, "<u>New and Modified Routines</u>."</p></li>
 <li><p>Modified <strong>ZEN</strong>: VA-Specific Enrollment Segment <u>Table 99</u> to include SEQ 11 – 19.</p></li>
 </ul></td>
 <td>Liberty ITS</td>
@@ -392,11 +516,11 @@ Liberty ITS</td>
 <td>0.43</td>
 <td><p>DG*5.3*996 Updates:</p>
 <ul>
-<li><p>Added modified routine <strong>VADPT</strong> to Section <u>3.5</u>, “<u>New and Modified Routines</u>.”</p></li>
-<li><p>Added PREFERRED NAME field to <u>Table 63</u>, “Supported References.”</p></li>
-<li><p>Removed <strong>VADM(14)</strong> The PREFERRED NAME of the patient (e.g., "PREFERRED NAME") from Section <u>12.2.1</u>, “<u>DEM^VADPT</u>”.</p></li>
-<li><p>Added Section <u>12.2.2</u>, “<u>DEMUPD^VADPT</u>.”</p></li>
-<li><p>Added <strong>DEMUPD^VADPT</strong> call to <u>Table 65</u>, “Alpha Subscripts.”</p></li>
+<li><p>Added modified routine <strong>VADPT</strong> to Section <u>3.5</u>, "<u>New and Modified Routines</u>."</p></li>
+<li><p>Added PREFERRED NAME field to <u>Table 63</u>, "Supported References."</p></li>
+<li><p>Removed <strong>VADM(14)</strong> The PREFERRED NAME of the patient (e.g., "PREFERRED NAME") from Section <u>12.2.1</u>, "<u>DEM^VADPT</u>".</p></li>
+<li><p>Added Section <u>12.2.2</u>, "<u>DEMUPD^VADPT</u>."</p></li>
+<li><p>Added <strong>DEMUPD^VADPT</strong> call to <u>Table 65</u>, "Alpha Subscripts."</p></li>
 </ul></td>
 <td>Liberty IT Solutions</td>
 </tr>
@@ -407,7 +531,7 @@ Liberty ITS</td>
 <ul>
 <li><p>Changes for Emergent <strong>OTHER THAN HONORABLE</strong> eligibility patients in Section <u>12.2.3</u>.</p></li>
 <li><p>Added <strong>EXPANDED MH CARE NON-ENROLLEE</strong> code to the <u>Table 119</u>.</p></li>
-<li><p>Added new alpha subscript <strong>VAEL(“OTH”)</strong> to <u>Table 65</u>.</p></li>
+<li><p>Added new alpha subscript <strong>VAEL("OTH")</strong> to <u>Table 65</u>.</p></li>
 </ul></td>
 <td>REDACTED</td>
 </tr>
@@ -415,21 +539,21 @@ Liberty ITS</td>
 <td>01/2020</td>
 <td>0.41</td>
 <td><p>DG*5.3*985 Updates:</p>
-<p>Added modified routines <strong>DGR111</strong>, <strong>DGRP1</strong>, <strong>DGRPD1</strong>, <strong>DGRPE</strong>, <strong>DGRPH</strong>, and <strong>DGRPV</strong> to Section <u>3.5</u>, “<u>New and Modified Routines</u>.”</p></td>
+<p>Added modified routines <strong>DGR111</strong>, <strong>DGRP1</strong>, <strong>DGRPD1</strong>, <strong>DGRPE</strong>, <strong>DGRPH</strong>, and <strong>DGRPV</strong> to Section <u>3.5</u>, "<u>New and Modified Routines</u>."</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="even">
 <td>12/2019</td>
 <td>0.40</td>
 <td><p>DG*5.3*972 Updates:</p>
-<p>Added modified routine <strong>DGRPDB</strong> to Section <u>3.5</u>, “<u>New and Modified Routines</u>.”</p></td>
+<p>Added modified routine <strong>DGRPDB</strong> to Section <u>3.5</u>, "<u>New and Modified Routines</u>."</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="odd">
 <td>10/2019</td>
 <td>0.39</td>
 <td><p>DG*5.3*982 Updates:</p>
-<p>Added modified routines <strong>DGENACL2</strong> and <strong>DGENA2</strong> to Section <u>3.5</u>, “<u>New and Modified Routines</u>.”</p></td>
+<p>Added modified routines <strong>DGENACL2</strong> and <strong>DGENA2</strong> to Section <u>3.5</u>, "<u>New and Modified Routines</u>."</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="even">
@@ -443,7 +567,7 @@ Liberty ITS</td>
 <td>0.37</td>
 <td><p>SD*5.3*707 Updates:</p>
 <ul>
-<li><p>Added Section <u>3.5.11</u>, “Patch SD*5.3*707 Routines.”</p></li>
+<li><p>Added Section <u>3.5.11</u>, "Patch SD*5.3*707 Routines."</p></li>
 <li><p>Added Section <u>23</u>.</p></li>
 <li><p>Updated Pages: 22, 256-265.</p></li>
 </ul></td>
@@ -455,7 +579,7 @@ Liberty ITS</td>
 <td><p>DG*5.3*941 Updates:</p>
 <ul>
 <li><p>Reintroduced updates dated 12/2018 that were inadvertently removed from manual.</p></li>
-<li><p>Updated <strong>VADPT</strong> routine to include Residential Address: <strong>VAPA(30)</strong> – <strong>VAPA(39)</strong> added to Section <u>12.2.6</u>, ADD^VADPT and <u>Table 65</u>, “Alpha Subscripts.”</p></li>
+<li><p>Updated <strong>VADPT</strong> routine to include Residential Address: <strong>VAPA(30)</strong> – <strong>VAPA(39)</strong> added to Section <u>12.2.6</u>, ADD^VADPT and <u>Table 65</u>, "Alpha Subscripts."</p></li>
 </ul></td>
 <td>VA OIT</td>
 </tr>
@@ -464,9 +588,9 @@ Liberty ITS</td>
 <td>0.35</td>
 <td><p>DG*5.3*951 Updates:</p>
 <ul>
-<li><p>Added Section <a href="#patch-dg5.3951-routines">3.5.1</a>, “Patch DG*5.3*951 Routines.”</p></li>
+<li><p>Added Section <a href="#patch-dg5.3951-routines">3.5.1</a>, "Patch DG*5.3*951 Routines."</p></li>
 <li><p>Added PRF HL7 REQUEST LOG (#26.22) file to Sections <a href="#file-list">4.2</a> and <u>11.6</u>.</p></li>
-<li><p>Added Section <a href="#hl7-interface-specification-for-patient-record-flags-prf">22</a>, “<u>HL7 Interface Specification for Patient Record Flags (PRF)</u>.”</p></li>
+<li><p>Added Section <a href="#hl7-interface-specification-for-patient-record-flags-prf">22</a>, "<u>HL7 Interface Specification for Patient Record Flags (PRF)</u>."</p></li>
 </ul></td>
 <td>VA OIT</td>
 </tr>
@@ -492,7 +616,7 @@ Liberty ITS</td>
 <td>09/2018</td>
 <td>0.32</td>
 <td><p>DG*5.3*960 Updates:</p>
-<p>Added Section <a href="#_Patch_DG*5.3*960_Routines_1"><u>3.5.3</u></a>, “Patch DG*5.3*960 Routines.”</p></td>
+<p>Added Section <a href="#_Patch_DG*5.3*960_Routines_1"><u>3.5.3</u></a>, "Patch DG*5.3*960 Routines."</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="odd">
@@ -501,7 +625,7 @@ Liberty ITS</td>
 <td><p>DG*5.3*933 Updates:</p>
 <ul>
 <li><p>Demographics Native Domain Standardization.</p></li>
-<li><p>Added Section <u>24</u>, “Appendix A.”</p></li>
+<li><p>Added Section <u>24</u>, "Appendix A."</p></li>
 </ul></td>
 <td>CTT DM NDS Team</td>
 </tr>
@@ -574,18 +698,18 @@ Liberty ITS</td>
 <td>0.23</td>
 <td><p>SD*5.3*588 High Risk Mental Health Proactive Report patch Updates; exported the following:</p>
 <ul>
-<li><p>Updated the “Implementation and Maintenance” section Eligibility/ID Maintenance Menu with current information and four new SD parameters.</p></li>
-<li><p>Updated “Routines” section: new and modified <strong>SD</strong> routines.</p></li>
-<li><p>Updated “Exported Options” section: two new <strong>SD</strong> and two modified <strong>SD</strong> options.</p></li>
-<li><p>Updated “Callable Routines/Entry Points/Application Program Interfaces” sections with <strong>SD</strong> routine information.</p></li>
-<li><p>Updated “External Relationships” section with the Scheduling Reports required patch information.</p></li>
+<li><p>Updated the "Implementation and Maintenance" section Eligibility/ID Maintenance Menu with current information and four new SD parameters.</p></li>
+<li><p>Updated "Routines" section: new and modified <strong>SD</strong> routines.</p></li>
+<li><p>Updated "Exported Options" section: two new <strong>SD</strong> and two modified <strong>SD</strong> options.</p></li>
+<li><p>Updated "Callable Routines/Entry Points/Application Program Interfaces" sections with <strong>SD</strong> routine information.</p></li>
+<li><p>Updated "External Relationships" section with the Scheduling Reports required patch information.</p></li>
 </ul>
 <p>DG*5.3*849 – DGPF New Cat 1 Flag and Conversion &amp; Supporting Reports patch.</p>
 <ul>
-<li><p>Updated “Implementation and Maintenance” section with PRF NATIONAL FLAG (#26.15) file new entry.</p></li>
-<li><p>Updated “Routines” section with new <strong>DG</strong> routines.</p></li>
-<li><p>Updated “Exported Options” section with new Convert Local option <strong>HRMH PRF to National Action</strong> [DGPF LOCAL TO NATIONAL CONVERT] option.</p></li>
-<li><p>Updated “Reference Material” section with <strong>SD</strong> and <strong>DG</strong> manual releases. Corrected existing reference manuals names.</p></li>
+<li><p>Updated "Implementation and Maintenance" section with PRF NATIONAL FLAG (#26.15) file new entry.</p></li>
+<li><p>Updated "Routines" section with new <strong>DG</strong> routines.</p></li>
+<li><p>Updated "Exported Options" section with new Convert Local option <strong>HRMH PRF to National Action</strong> [DGPF LOCAL TO NATIONAL CONVERT] option.</p></li>
+<li><p>Updated "Reference Material" section with <strong>SD</strong> and <strong>DG</strong> manual releases. Corrected existing reference manuals names.</p></li>
 </ul></td>
 <td>VA OIT</td>
 </tr>
@@ -610,7 +734,7 @@ Liberty ITS</td>
 <li><p>Patch DG*5.3*836 - HRMH-VISTA CHANGES FOR NATIONAL REMINDER &amp; FLAG. This is a Registration patch containing Patient Record Flag APIs.</p></li>
 <li><p><strong>DGPFAPIH</strong> and <strong>DGPFAPIU</strong> are new routines.</p></li>
 <li><p>Patch SD*5.3*578 – HIGH RISK MENTAL HEALTH NO SHOW REPORT. This is a Scheduling patch with a new nightly run and Ad-hoc Missed Appt Report option.</p></li>
-<li><p>Added two new Scheduling reports that identify no-show “high risk for suicide” patients that missed their MH appointments.</p></li>
+<li><p>Added two new Scheduling reports that identify no-show "high risk for suicide" patients that missed their MH appointments.</p></li>
 <li><p><strong>SDMHAD</strong>, <strong>SDMHAD1</strong>, <strong>SDMHNS</strong>, and <strong>SDMHNS1</strong> are new routines.</p></li>
 <li><p>SD MH NO SHOW NIGHTLY BGJ and No Show Nightly Background Job are being added to the Background Job Options.</p></li>
 <li><p>Glossary of Terms added.</p></li>
@@ -629,9 +753,9 @@ Liberty ITS</td>
 <td>0.18</td>
 <td><p>DG*5.3*754 – ESR 3.1 Updates:</p>
 <ul>
-<li><p>Updated “Alpha Subscripts” section.</p></li>
-<li><p>Added ADD^VADPT (29) &amp; “CPN”.</p></li>
-<li><p>Added OPD^VADPT (8) &amp; “WP”.</p></li>
+<li><p>Updated "Alpha Subscripts" section.</p></li>
+<li><p>Added ADD^VADPT (29) &amp; "CPN".</p></li>
+<li><p>Added OPD^VADPT (8) &amp; "WP".</p></li>
 </ul></td>
 <td>VA OIT</td>
 </tr>
@@ -640,8 +764,8 @@ Liberty ITS</td>
 <td>0.17</td>
 <td><p>DG*5.3*754 – ESR 3.1 Updates:</p>
 <ul>
-<li><p>Updated “VADPT Variables” section.</p></li>
-<li><p>Added ADD^VADPT (Conf. Phone Number, OPD^VADPT (Patient’s Phone Number (Work).</p></li>
+<li><p>Updated "VADPT Variables" section.</p></li>
+<li><p>Added ADD^VADPT (Conf. Phone Number, OPD^VADPT (Patient's Phone Number (Work).</p></li>
 <li><p>Added SEQ 13 to the PID - Patient Identification Segment.</p></li>
 </ul></td>
 <td>VA OIT</td>
@@ -652,12 +776,12 @@ Liberty ITS</td>
 <td><p>DG*5.3*688 and SD*5.3*441 Updates:</p>
 <ul>
 <li><p>Enrollment VistA Changes Release 2 (EVC R2).</p></li>
-<li><p>Added additional Value of “<strong>O</strong>” for “<strong>Other</strong>” to <u>Table 133: Table VA0046—Agent Orange Exposure Location</u>.</p></li>
+<li><p>Added additional Value of "<strong>O</strong>" for "<strong>Other</strong>" to <u>Table 133: Table VA0046—Agent Orange Exposure Location</u>.</p></li>
 <li><p>Removed Unknown value.</p></li>
 <li><p>Changed Environmental Contaminants to SW Asia Conditions.</p></li>
-<li><p>Added entries to Part 5 of the “Callable Entry Points in VADPT” section.</p></li>
+<li><p>Added entries to Part 5 of the "Callable Entry Points in VADPT" section.</p></li>
 <li><p>SVC^VADPT modified to add <strong>VASV (14)</strong> and <strong>VASV (14,1)</strong> to the <strong>VASV</strong> array for project SHAD.</p></li>
-<li><p>Added alpha subscripts to “ADD^VADPT” section.</p></li>
+<li><p>Added alpha subscripts to "ADD^VADPT" section.</p></li>
 <li><p>Added alpha subscripts to SVC^VADPT to reflect the alpha translation.</p></li>
 <li><p>Replaced HL7 Control Segment - 2.3.6 PID-Patient Identification Segment table - with referral to MPI site on VDL.</p></li>
 </ul></td>
@@ -675,7 +799,7 @@ Liberty ITS</td>
 <td>0.14</td>
 <td><p>DG*5.3*763 – Hold Debt to DMC:</p>
 <ul>
-<li><p>Added ENROLLMENT RATED DISABILITY UPLOAD AUDIT file to the “Files” section (File List) and “Security” section (VA FileMan Access Codes).</p></li>
+<li><p>Added ENROLLMENT RATED DISABILITY UPLOAD AUDIT file to the "Files" section (File List) and "Security" section (VA FileMan Access Codes).</p></li>
 <li><p>Added <strong>DGEN RD UPLOAD AUDIT PURGE</strong> background job option.</p></li>
 </ul></td>
 <td>VA OIT</td>
@@ -712,7 +836,7 @@ Liberty ITS</td>
 <td>06/2007</td>
 <td>0.9</td>
 <td><p>DG*5.3*707 Updates:</p>
-<p>Added “HL7 Generic PID,EVN,PV1 Segment Builder established by MPI” to the “HL7 Interface Specifications” section.</p></td>
+<p>Added "HL7 Generic PID,EVN,PV1 Segment Builder established by MPI" to the "HL7 Interface Specifications" section.</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="even">
@@ -726,7 +850,7 @@ Liberty ITS</td>
 <td>10/2006</td>
 <td>0.7</td>
 <td><p>DG*5.3*689 OEF/OIF Enhancements:</p>
-<p>Updated “SVC^VADPT Variable Segment” section.</p></td>
+<p>Updated "SVC^VADPT Variable Segment" section.</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="even">
@@ -747,7 +871,7 @@ Liberty ITS</td>
 <td>08/2005</td>
 <td>0.4</td>
 <td><p>DG*5.3*624 - (10-10EZ 3.0) Updates:</p>
-<p>Deleted <strong>DGRPT 10-10T REGISTRATION</strong> input template in the “Compiled Template Routines” section.</p></td>
+<p>Deleted <strong>DGRPT 10-10T REGISTRATION</strong> input template in the "Compiled Template Routines" section.</p></td>
 <td>VA OIT</td>
 </tr>
 <tr class="odd">
@@ -1442,7 +1566,7 @@ The following are the steps you may take to obtain the Standards and Conventions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Primary Care Management Module (PCMM) was developed to assist VA facilities in implementing primary care. It supports both primary care teams and *non*-primary care teams. PCMM’s functionality is divided into eight areas:
+The Primary Care Management Module (PCMM) was developed to assist VA facilities in implementing primary care. It supports both primary care teams and *non*-primary care teams. PCMM's functionality is divided into eight areas:
 
 - Setup & Define Team
 - Assign Staff to Positions in Teams
@@ -1453,7 +1577,7 @@ The Primary Care Management Module (PCMM) was developed to assist VA facilities 
 - Other Changes to Scheduling Package
 - Application Program Interface (API) calls.
 
-PCMM uses a Graphical User Interface (GUI) to control the startup, setup, and assignment functions. To use the functionality in the PCMM, a site needs a Microsoft Windows workstation which has a connection to VistA (either LAN or serial connection) for each location where a patient or staff member is assigned to a team. A typical site wants one workstation for each team, one for the PIMS ADPAC, plus one for the manager in charge of primary care. Existing Scheduling functionality continues to be useable from “roll-and-scroll” terminals.
+PCMM uses a Graphical User Interface (GUI) to control the startup, setup, and assignment functions. To use the functionality in the PCMM, a site needs a Microsoft Windows workstation which has a connection to VistA (either LAN or serial connection) for each location where a patient or staff member is assigned to a team. A typical site wants one workstation for each team, one for the PIMS ADPAC, plus one for the manager in charge of primary care. Existing Scheduling functionality continues to be useable from "roll-and-scroll" terminals.
 
 # Implementation and Maintenance
 
@@ -1666,7 +1790,7 @@ Routine mapping is not required with VMS/Cache systems.
 
 <span id="_Toc95464537" class="anchor"></span>Table 6: Input Templates
 
-REF: For entry points, see the “<u>Callable Routines, Entry Points, and Application Programming Interfaces</u>” section.
+REF: For entry points, see the "<u>Callable Routines, Entry Points, and Application Programming Interfaces</u>" section.
 
 ## Compiled Template Routines
 
@@ -1806,7 +1930,7 @@ The following are the steps you can take to obtain a listing of the routines con
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The DGOREL1 routine was modified by patch DG\*5.3\*958. This patch changed the Religion List for Inpatients \[DG RELIGION LIST\] option in the Inpatient/Lodger Report Menu \[DG INPATIENT REPORTS\] to display only the last four digits of a patient’s Social Security Number (SSN). Previously, the full SSN had displayed in this report.
+The DGOREL1 routine was modified by patch DG\*5.3\*958. This patch changed the Religion List for Inpatients \[DG RELIGION LIST\] option in the Inpatient/Lodger Report Menu \[DG INPATIENT REPORTS\] to display only the last four digits of a patient's Social Security Number (SSN). Previously, the full SSN had displayed in this report.
 
 | New DG Routines                            | Modified DG Routines |
 |--------------------------------------------|----------------------|
@@ -1974,13 +2098,13 @@ This API obtains the Patient Record Flag assignment information and status for t
 - BLDHIST^DGPFAPIH—This API collects and builds the return array containing the PRF assignment history data.
 - ACTIVE^DGPFAPIU—The DGPFAPIU routine provides support utilities and functions for the new Application Programming Interface calls.
 
-This procedure checks if the Patient Record Flag was active at any point during the specified date range. The procedure accepts a date range parameter which specifies whether “A”ll dates or only a “S”pecified date range is to be checked.
+This procedure checks if the Patient Record Flag was active at any point during the specified date range. The procedure accepts a date range parameter which specifies whether "A"ll dates or only a "S"pecified date range is to be checked.
 
-The PRF ASSIGNMENT HISTORY (#26.14) file was *not* designed for this type of date interaction so the algorithm in this procedure has to make a number of assumptions when interpreting the dates and PRF actions. While there can only be one “New Assignment” entry, it is possible to have multiple “Continue.” “Inactivate,” and “Reactivate” action entries. In addition, the “Entered In Error” action can pose additional issues with determining a status during a specific date range.
+The PRF ASSIGNMENT HISTORY (#26.14) file was *not* designed for this type of date interaction so the algorithm in this procedure has to make a number of assumptions when interpreting the dates and PRF actions. While there can only be one "New Assignment" entry, it is possible to have multiple "Continue." "Inactivate," and "Reactivate" action entries. In addition, the "Entered In Error" action can pose additional issues with determining a status during a specific date range.
 
-- CHKDATE^DGPFAPIU—Checks for valid start and end dates. Sets up the DGRANGE parameter with the validated dates and sets DGRANGE top element to “A” for all dates, or “S” for a specific range of dates.
+- CHKDATE^DGPFAPIU—Checks for valid start and end dates. Sets up the DGRANGE parameter with the validated dates and sets DGRANGE top element to "A" for all dates, or "S" for a specific range of dates.
 - CHKDFN^DGPFAPIU—This function checks for a valid patient by checking the DFN in the PATIENT (#2) file. If a valid patient is found, the patient name is returned; otherwise, the error text from the DIQ call is returned.
-- ASGNDATE^DGPFAPIU—Gets the initial Assignment Date/Time of the Patient Record Flag by looking for the “NEW ASSIGNMENT” action in the PRF ASSIGNMENT HISTORY (#26.14) file.
+- ASGNDATE^DGPFAPIU—Gets the initial Assignment Date/Time of the Patient Record Flag by looking for the "NEW ASSIGNMENT" action in the PRF ASSIGNMENT HISTORY (#26.14) file.
 - GETFLAG^DGPFAPIU—This function gets the variable pointer value for the Patient Record Flag passed in. The PRF is passed in as a text value:
 - If the optional flag category is passed in, only that category is checked for the PRF.
 - If no category is passed in, then first the National category is checked.
@@ -2006,7 +2130,7 @@ The PRF ASSIGNMENT HISTORY (#26.14) file was *not* designed for this type of dat
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*903 addresses NSR \# 20150314 - Increase Engagement in My HealtheVet (IEMHV). The Preregister a Patient \[DGPRE PRE-REGISTER OPTION\] option, in the VistA Registration V. 5.3 package, was enhanced to display a message alerting the registration clerk to engage with the selected patient regarding the patient’s registration status for My HealtheVet. The clerk should document that status, any registration assistance rendered, or the Veteran’s desire to be excluded from My HealtheVet registration. Recent assistance with the patient's My HealtheVet registration is displayed within the alert/reminder.
+Patch DG\*5.3\*903 addresses NSR \# 20150314 - Increase Engagement in My HealtheVet (IEMHV). The Preregister a Patient \[DGPRE PRE-REGISTER OPTION\] option, in the VistA Registration V. 5.3 package, was enhanced to display a message alerting the registration clerk to engage with the selected patient regarding the patient's registration status for My HealtheVet. The clerk should document that status, any registration assistance rendered, or the Veteran's desire to be excluded from My HealtheVet registration. Recent assistance with the patient's My HealtheVet registration is displayed within the alert/reminder.
 
 There is no interface with My HealtheVet. This is only a mechanism to engage directly with the patient to encourage him/her to register for My HealtheVet.
 
@@ -2035,12 +2159,12 @@ The following new routines are being added to support Patch DG\*5.3\*903:
 
 The following existing routines are being updated to support Patch DG\*5.3\*903:
 
-- DGPAR - PREREG subroutine—Updated to display value of the ENABLE MY HEALTHEVET PROMPTS?” (#1100.07) field in the MAS PARAMETERS (#43) file.
+- DGPAR - PREREG subroutine—Updated to display value of the ENABLE MY HEALTHEVET PROMPTS?" (#1100.07) field in the MAS PARAMETERS (#43) file.
 - DGPAR1—Updated to allow the edit of the ENABLE MY HEALTHEVET PROMPTS? (#1100.07) field in the MAS PARAMETERS (#43) file.
-- DGPREP1 - DIREDT API—Updated to include the new “Increase Engagement in My HealtheVet” prompts to display and prompt for updates from the clerk.
-- DGRPC - EN API—Updated to include the new 315 Consistency Check for “Increase Engagement in My HealtheVet”
+- DGPREP1 - DIREDT API—Updated to include the new "Increase Engagement in My HealtheVet" prompts to display and prompt for updates from the clerk.
+- DGRPC - EN API—Updated to include the new 315 Consistency Check for "Increase Engagement in My HealtheVet"
 - DGRPC3—Added 315 subroutine to include the new 315 Consistency Check Editing functionality.
-- DGRPCE1—Updated to include 315 Consistency Check Editing functionality when necessary “Increase Engagement in My HealtheVet” data fields have *not* been updated.
+- DGRPCE1—Updated to include 315 Consistency Check Editing functionality when necessary "Increase Engagement in My HealtheVet" data fields have *not* been updated.
 
 ### Patch SD\*5.3\*707 Routines
 
@@ -2071,7 +2195,7 @@ The following modified routines are exported by patch DG\*5.3\*982:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*972 addresses NSR \#20120809 regarding Public Law 112-154. Users shall be able to view a patient’s current Camp Lejeune eligibility from the Eligibility Inquiry for Patient Billing option on the Admissions/Discharges/Transfers (ADT) Manager menu and/or the Registration sub-menu.
+Patch DG\*5.3\*972 addresses NSR \#20120809 regarding Public Law 112-154. Users shall be able to view a patient's current Camp Lejeune eligibility from the Eligibility Inquiry for Patient Billing option on the Admissions/Discharges/Transfers (ADT) Manager menu and/or the Registration sub-menu.
 
 The following modified routine is exported by patch DG\*5.3\*972:
 
@@ -2096,7 +2220,7 @@ The following modified routines are exported by patch DG\*5.3\*985:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*996 includes modifications and updates to VistA REE related to adding the PREFERRED NAME to a demographic API. A new demographics API, DEMUPD VADPT, is included in Integration Control Registration (ICR) 7109. A new tag, DEMUPD, which adds the patient’s PREFERRED NAME to the patient's basic demographic information and stores this data in the VADEMO array, has been added to the VADPT routine. ICR 7109 is in addition to, and does not replace, ICR 10061.
+Patch DG\*5.3\*996 includes modifications and updates to VistA REE related to adding the PREFERRED NAME to a demographic API. A new demographics API, DEMUPD VADPT, is included in Integration Control Registration (ICR) 7109. A new tag, DEMUPD, which adds the patient's PREFERRED NAME to the patient's basic demographic information and stores this data in the VADEMO array, has been added to the VADPT routine. ICR 7109 is in addition to, and does not replace, ICR 10061.
 
 ### Patch DG\*5.3\*997 Routines
 
@@ -2110,11 +2234,11 @@ This patch also includes modifications to routines VAFHLFNC and VAFHLZCT to send
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*997 contains modifications to VistA REE to separate patient registration from enrollment of Veterans for VHA healthcare. The questions beginning with the “DO YOU WANT TO ENROLL?” prompt have been moved from the end of the patient registration screens to the beginning of registration after a new patient has been added to the PATIENT (#2) file. The answer to the “DO YOU WANT TO ENROLL?” prompt is kept in the DGENRYN variable that is now used in several routines downstream from DGREG.
+Patch DG\*5.3\*997 contains modifications to VistA REE to separate patient registration from enrollment of Veterans for VHA healthcare. The questions beginning with the "DO YOU WANT TO ENROLL?" prompt have been moved from the end of the patient registration screens to the beginning of registration after a new patient has been added to the PATIENT (#2) file. The answer to the "DO YOU WANT TO ENROLL?" prompt is kept in the DGENRYN variable that is now used in several routines downstream from DGREG.
 
-- DGREG—This routine is called when the DG REGISTER PATIENT option is selected. It now asks the “DO YOU WANT TO ENROLL?” questions.
+- DGREG—This routine is called when the DG REGISTER PATIENT option is selected. It now asks the "DO YOU WANT TO ENROLL?" questions.
 - DPTLK—This is the patient lookup program. It has been changed to disallow the creation of a new patient for the following:
-- The use of double-quotes (“).
+- The use of double-quotes (").
 - The use of DG LOAD PATIENT DATA.
 - The use of DG ADMIT PATIENT.
 - EN1^DGEN—This existing API has been changed to use the DGENRYN variable to determine whether the patient should be enrolled.
@@ -2127,7 +2251,7 @@ Patch DG\*5.3\*997 contains modifications to VistA REE to separate patient regis
 - EDIT^DGENA1A—This API updates the new enrollment record. It has been changed to add the new PT APPLIED FOR ENROLLMENT (#.14) field.
 - EN^DG993BO—This routine will be used if there is a need to back out the patch.
 - DGENUPL2—This routine is modified to include ZEN segment Fields 16 to 19 in the DGENR array.
-- DGENUPL8—This routine is modified to include “REGISTRATION ONLY” status in current and previous enrollments.
+- DGENUPL8—This routine is modified to include "REGISTRATION ONLY" status in current and previous enrollments.
 - VAFHLZEN—Creation of ZEN segment is enhanced to populate new sequence numbers 16, 17, 18 and 19 with values of:
 - PT APPPLIED FOR ENROLLMENT?
 - REGISTRATION ONLY REASON
@@ -2343,13 +2467,13 @@ VS GUI Release 1.7.0 has been incremented to VS GUI Release 1.7.0.1. Patch SD\*5
 
 VS GUI Release 1.7.1: Patch SD\*5.3\*745 addressed multiple enhancements including:
 
-- Accept a flag to *not* reopen appointment request when flag is “2”.
+- Accept a flag to *not* reopen appointment request when flag is "2".
 - View the CPRS Consult tab details via VS GUI.
 - Display contact information on the Request Management Grid on VS GUI.
 - New background job to Disposition Open CPRS Return to Clinic (RTC) Orders Scheduled in VistA.
 - Update Patient Indicated Date (PID) when rescheduling an appointment that was cancelled by the patient or no-showed.
 
-This patch also corrected a SACC compliance issue of using “…” structure during parameter passing.
+This patch also corrected a SACC compliance issue of using "…" structure during parameter passing.
 
 | New SD Routines | Modified SD Routines |
 |-----------------|----------------------|
@@ -2784,7 +2908,7 @@ DGPPAPI
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This patch includes modifications and updates to Former OTH Patient Eligibility Change Report and Former OTH Patient Detail Reports to include patient’s Episodes of Care (Outpatient, Inpatient, and Prescriptions).
+This patch includes modifications and updates to Former OTH Patient Eligibility Change Report and Former OTH Patient Detail Reports to include patient's Episodes of Care (Outpatient, Inpatient, and Prescriptions).
 
 Additionally, this patch introduces a new report that would help identify veterans that registered for Presumptive Psychosis benefits.
 
@@ -2933,7 +3057,7 @@ DGPPOHUT
 
 This patch modifies routines DGREG and DGCOL to no longer the display the list of reasons, from the PATIENT REGISTRATION ONLY REASON (#408.43) file, before the SELF-REPORTED REGISTRATION ONLY REASON prompt in the DG REGISTER PATIENT and DG COLLATERAL PATIENT options.
 
-This patch also modifies routine DGEN1 to disable the Enroll Patient (EP) Action protocol DGEN PATIENT ENROLLMENT option. A message is displayed instructing the user to use the Enrollment System to complete the patient’s enrollment.
+This patch also modifies routine DGEN1 to disable the Enroll Patient (EP) Action protocol DGEN PATIENT ENROLLMENT option. A message is displayed instructing the user to use the Enrollment System to complete the patient's enrollment.
 
 In addition, the following modified routines are exported by patch DG\*5.3\*1027:
 
@@ -3228,7 +3352,7 @@ The patch adds or updates the following routines:
 
 Patch DG\*5.3\*1045 modifies the routine DGENUPL7 to not trigger an ORU-Z07 HL7 message when the ENROLLMENT STATUS (#.04) field in the PATIENT ENROLLMENT (#27.11) file is NOT ELIGIBLE;INELIGIBLE DATE and the SOURCE OF ENROLLMENT (#.03) field in the PATIENT ENROLLMENT (#27.11) file is VAMC.
 
-Routine DGEN is modified to retrieve the Ineligible Reason and set the Enrollment Status to 20 (NOT ELIGIBLE;INELIGIBLE DATE) if the Ineligible Date and Ineligible Reason are populated in the patient record. DGENA1A is modified to set the Enrollment Status to 20 for Registration Only Patients when the Ineligible Date is blank. DGENA6 is modified to set the Enrollment Status to “Registration Only” when the Ineligible Date is blank. DGREG is modified with logic to correctly create a patient enrollment record for Ineligible Date.
+Routine DGEN is modified to retrieve the Ineligible Reason and set the Enrollment Status to 20 (NOT ELIGIBLE;INELIGIBLE DATE) if the Ineligible Date and Ineligible Reason are populated in the patient record. DGENA1A is modified to set the Enrollment Status to 20 for Registration Only Patients when the Ineligible Date is blank. DGENA6 is modified to set the Enrollment Status to "Registration Only" when the Ineligible Date is blank. DGREG is modified with logic to correctly create a patient enrollment record for Ineligible Date.
 
 The consistency checker routine DGRPC is modified to set the Appointment Request fields to null if there is no Ineligible Date.
 
@@ -3268,11 +3392,11 @@ The patch adds or updates the following routines:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*1056 removes the word “permanent” from the following fields of the PATIENT file (#2): COUNTRY field (# .1173), TEMPORARY PHONE NUMBER field (# .1219), and CONFIDENTIAL ADDR COUNTRY field (# .14116).
+Patch DG\*5.3\*1056 removes the word "permanent" from the following fields of the PATIENT file (#2): COUNTRY field (# .1173), TEMPORARY PHONE NUMBER field (# .1219), and CONFIDENTIAL ADDR COUNTRY field (# .14116).
 
-DG\*5.3\*1056 updates the DG ADDRESS UPDATE entry in the OPTION file (#19) to replace “(P) permanent address” with “(M) mailing address”.
+DG\*5.3\*1056 updates the DG ADDRESS UPDATE entry in the OPTION file (#19) to replace "(P) permanent address" with "(M) mailing address".
 
-DG\*5.3\*1056 removes the word “permanent” from displays and prompts in the following routines: DGADDUT2, DGADDUTL, DGFFPLM1, DGREGCP1, DGRP1, DGRPCADD, DGRPD, DGRPE, DGRPH, DGRSTBAD.
+DG\*5.3\*1056 removes the word "permanent" from displays and prompts in the following routines: DGADDUT2, DGADDUTL, DGFFPLM1, DGREGCP1, DGRP1, DGRPCADD, DGRPD, DGRPE, DGRPH, DGRSTBAD.
 
 ### Patch SD\*5.3\*796 Routines
 
@@ -3341,7 +3465,7 @@ The patch updates the following routines:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch DG\*5.3\*1061 modifies ICR \#10061 for VADPT to include a new component “CAI” for downstream applications to retrieve the COMPACT Act Indicator. The indicator, returned in array VA(“CAI”), is “1” (COMPACT Act Eligible) if the patient is enrolled or if the patient record contains the COMPACT ACT ELIGIBLE eligibility.
+Patch DG\*5.3\*1061 modifies ICR \#10061 for VADPT to include a new component "CAI" for downstream applications to retrieve the COMPACT Act Indicator. The indicator, returned in array VA("CAI"), is "1" (COMPACT Act Eligible) if the patient is enrolled or if the patient record contains the COMPACT ACT ELIGIBLE eligibility.
 
 The patch also adds 'SPECIAL TX AUTHORITY CARE' and 'COMPACT ACT ELIGIBLE' to the MAS ELIGIBILITY CODE file (#8.1).
 
@@ -4116,7 +4240,7 @@ The following are the steps you may take to obtain information concerning the fi
 10. List File Attributes Option.
 11. Enter File \#number or range of File numbers.
 12. Select Listing Format: Standard.
-13. You see what files point to the selected file. To see what files to which the selected file points, look for fields that say: “POINTER TO”.
+13. You see what files point to the selected file. To see what files to which the selected file points, look for fields that say: "POINTER TO".
 
 ## Templates
 
@@ -4230,7 +4354,7 @@ VA FileMan function data elements that have multiple values (e.g., procedure co
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section provides a list of the options exported with the software, indicating distribution of menus to users. Any restrictions on menu distribution are noted. When the option’s availability is based on the level of system access requiring permissions the name of the type of access (e.g., security keys and/or roles) and authorization is included.
+This section provides a list of the options exported with the software, indicating distribution of menus to users. Any restrictions on menu distribution are noted. When the option's availability is based on the level of system access requiring permissions the name of the type of access (e.g., security keys and/or roles) and authorization is included.
 
 The following are the steps you may take to obtain information about menus, exported protocols, exported options, exported remote procedures, and exported HL7 applications concerning the PIMS package.
 
@@ -4593,8 +4717,8 @@ The user is asked for various sort criteria:
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDMHNS</td>
@@ -4664,16 +4788,16 @@ The user is asked for various sort criteria:
 <p>If the sort is by the by Mental Health Clinic Quick List (by one, or many) Check API (<strong>LOCKLIST^PXRMLOCF</strong>) to find the clinics that are associated with the reminder list(s) that were chosen.</p>
 <p>Check to see if the division/clinic/stop have been selected and if the clinic and stop code are a valid mental health pair.</p>
 <ul>
-<li><p>Set <strong>^TMP(“SDNSHOW”,$J</strong> with the valid choices.</p></li>
+<li><p>Set <strong>^TMP("SDNSHOW",$J</strong> with the valid choices.</p></li>
 </ul>
 <p>Find the patients in the date range that had a no show, no show auto rebook or no action taken appointment for a mental health clinic.</p>
 <ul>
-<li><p>Loop through the <strong>^TMP(“SDNSHOW”,$J</strong> global.</p></li>
+<li><p>Loop through the <strong>^TMP("SDNSHOW",$J</strong> global.</p></li>
 </ul>
-<p>Within that loop, check the Hospital Location “<strong>S</strong>” cross-reference to see if the patient has an appointment.</p>
-<p>In the date range <strong>^SC(clinic,”S”,date</strong>.</p>
+<p>Within that loop, check the Hospital Location "<strong>S</strong>" cross-reference to see if the patient has an appointment.</p>
+<p>In the date range <strong>^SC(clinic,"S",date</strong>.</p>
 <ul>
-<li><p>If there is a match, set up the <strong>^TMP(“SDNS”, SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
+<li><p>If there is a match, set up the <strong>^TMP("SDNS", SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
 </ul>
 <p>Call <strong>^SDMHAD1</strong> routine to print the report.</p></td>
 </tr>
@@ -4739,8 +4863,8 @@ This is the print routine for the High Risk Mental Health AD HOC No Show Report.
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDMHAD</td>
@@ -4800,7 +4924,7 @@ This is the print routine for the High Risk Mental Health AD HOC No Show Report.
 <td colspan="10"><strong>Modified Logic (Changes are in bold)</strong></td>
 </tr>
 <tr class="odd">
-<td colspan="10"><p>The code loops through the <strong>^TMP(“SDNS”, SORT ( clinic, reminder location or stop code)</strong> global.</p>
+<td colspan="10"><p>The code loops through the <strong>^TMP("SDNS", SORT ( clinic, reminder location or stop code)</strong> global.</p>
 <ul>
 <li><p>A header prints for each division (alphabetical), which includes the following information:</p></li>
 <li><p>The second line designates how the report is sorted and printed. This example sorts by clinic.</p></li>
@@ -4895,8 +5019,8 @@ The user is *not* asked any sort criteria; the report lists for the day before t
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDAMQ</td>
@@ -4961,23 +5085,23 @@ The user is *not* asked any sort criteria; the report lists for the day before t
 <p>Call is made to <strong>START^SDMHAD</strong>.</p>
 <p>Check to see if the division/clinic/stop have been selected and if the clinic and stop code are a valid mental health pair.</p>
 <ul>
-<li><p>Set <strong>^TMP(“SDNSHOW”,$J</strong> with the valid choices</p></li>
+<li><p>Set <strong>^TMP("SDNSHOW",$J</strong> with the valid choices</p></li>
 </ul>
 <p>Find the patients in the date range that had a no show appointment, no show auto rebook or no action taken for a mental health clinic</p>
 <ul>
-<li><p>Loop through the <strong>^TMP(“SDNSHOW”,$J</strong> global.</p></li>
+<li><p>Loop through the <strong>^TMP("SDNSHOW",$J</strong> global.</p></li>
 </ul>
-<p>Within that loop, check the Hospital Location “<strong>S</strong>” cross-reference to see if the patient has an appointment.</p>
-<p>In the date range <strong>^SC(clinic,”S”,date</strong>.</p>
+<p>Within that loop, check the Hospital Location "<strong>S</strong>" cross-reference to see if the patient has an appointment.</p>
+<p>In the date range <strong>^SC(clinic,"S",date</strong>.</p>
 <ul>
-<li><p>If there is a match, set up the <strong>^TMP(“SDNS”, SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
+<li><p>If there is a match, set up the <strong>^TMP("SDNS", SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
 </ul>
-<p>Call to <strong>^SDMHNS1</strong> routine to set up the <strong>^TMP(“SDNS”,$J, LINE NUMBER,0)</strong> global that hold the data for sending an email message to all persons in the <strong>SD MH NO SHOW NOTIFICATION</strong> email group.</p>
+<p>Call to <strong>^SDMHNS1</strong> routine to set up the <strong>^TMP("SDNS",$J, LINE NUMBER,0)</strong> global that hold the data for sending an email message to all persons in the <strong>SD MH NO SHOW NOTIFICATION</strong> email group.</p>
 <p>Variables are set up to send the data in a mail message:</p>
 <ul>
 <li><p><strong>SDGRP</strong> is set to the mail group number for <strong>SD MH NO SHOW NOTIFICATION</strong>.</p></li>
 <li><p><strong>XMSUB</strong> the subject of the email is set to <strong>MN NO SHOW REPORT MESSAGE</strong>.</p></li>
-<li><p><strong>XMTEXT</strong> is set to the global containing the data <strong>^TMP(“SDNS”,$J, LINE #,0)</strong>.</p></li>
+<li><p><strong>XMTEXT</strong> is set to the global containing the data <strong>^TMP("SDNS",$J, LINE #,0)</strong>.</p></li>
 </ul>
 <p>Call is made to set up and send the mail message <strong>D ^XMD</strong> the user can print out the email message to a printer for a hard copy through MailMan.</p>
 <p>The report is almost identical to the AD HOC report, except it has MailMan designation in the heading.</p></td>
@@ -5040,8 +5164,8 @@ The report is sent to members of the SD MH NO SHOW NOTIFICATION mail group.
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDMHNS</td>
@@ -5102,9 +5226,9 @@ The report is sent to members of the SD MH NO SHOW NOTIFICATION mail group.
 <td colspan="10"><strong>Modified Logic (Changes are in bold)</strong></td>
 </tr>
 <tr class="odd">
-<td colspan="10"><p>The code loops through the <strong>^TMP(“SDNS”, Clinic</strong>, global.</p>
+<td colspan="10"><p>The code loops through the <strong>^TMP("SDNS", Clinic</strong>, global.</p>
 <ul>
-<li><p>A header is set into the <strong>^TMP(“SDNS”,$J,LINE #,0)</strong> global for each division (alphabetical), which includes the following information:</p></li>
+<li><p>A header is set into the <strong>^TMP("SDNS",$J,LINE #,0)</strong> global for each division (alphabetical), which includes the following information:</p></li>
 <li><p>The second line designates how the report is sorted and printed. The background job only prints the report by clinic.</p></li>
 </ul>
 <p>MENTAL HEALTH NO SHOW REPORT NOV 10,2010@09:34 PAGE 1</p>
@@ -5112,7 +5236,7 @@ The report is sent to members of the SD MH NO SHOW NOTIFICATION mail group.
 <p>PATIENT PT ID EVENT D/T CLINIC STOP CODE</p>
 <p>*</p>
 <p>DIVISION: ANYSITE1</p>
-<p>For each patient listed, the following information, if available, is set into the <strong>^TMP(“SDNS”,$J,LINE #,0)</strong> global:</p>
+<p>For each patient listed, the following information, if available, is set into the <strong>^TMP("SDNS",$J,LINE #,0)</strong> global:</p>
 <ul>
 <li><p>Patient phone numbers for home, office, cell.</p></li>
 <li><p>Next of Kin information, contact, relationship to patient and address and phone numbers.</p></li>
@@ -5175,8 +5299,8 @@ The report is sent to members of the SD MH NO SHOW NOTIFICATION mail group.
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5"></td>
@@ -5302,8 +5426,8 @@ The EN^SDMHPRO routine is the front-end of the proactive background job report a
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDAMQ</td>
@@ -5367,23 +5491,23 @@ The EN^SDMHPRO routine is the front-end of the proactive background job report a
 <p>Call is made to <strong>START^SDMHPRO</strong>.</p>
 <p>Check to see if the clinics are mental health clinics in the Reminder location file.</p>
 <ul>
-<li><p>Set <strong>^TMP(“SDPRO”,$J</strong> with the valid choices.</p></li>
+<li><p>Set <strong>^TMP("SDPRO",$J</strong> with the valid choices.</p></li>
 </ul>
 <p>Find the patients in the date range that had an appointment for a mental health clinic.</p>
 <ul>
-<li><p>Loop through the <strong>^TMP(“SDPRO”,$J</strong> global.</p></li>
+<li><p>Loop through the <strong>^TMP("SDPRO",$J</strong> global.</p></li>
 </ul>
-<p>Within that loop, check the Hospital Location “<strong>S</strong>” cross-reference to see if the patient has an appointment.</p>
-<p>In the date range <strong>^SC(clinic,“S”,date</strong>.</p>
+<p>Within that loop, check the Hospital Location "<strong>S</strong>" cross-reference to see if the patient has an appointment.</p>
+<p>In the date range <strong>^SC(clinic,"S",date</strong>.</p>
 <ul>
-<li><p>If there is a match, set up the <strong>^TMP(“SDPRO1”, SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
+<li><p>If there is a match, set up the <strong>^TMP("SDPRO1", SORT ( clinic, reminder location or stop code)</strong> global.</p></li>
 </ul>
-<p>Call to <strong>^SDMHPRO1</strong> routine to set up the <strong>^TMP(“SDMHP”,$J, LINE NUMBER,0)</strong> global that holds the data for sending an email message to all persons in the <strong>SD MH NO SHOW NOTIFICATION</strong> email group.</p>
+<p>Call to <strong>^SDMHPRO1</strong> routine to set up the <strong>^TMP("SDMHP",$J, LINE NUMBER,0)</strong> global that holds the data for sending an email message to all persons in the <strong>SD MH NO SHOW NOTIFICATION</strong> email group.</p>
 <p>Variables are set up to send the data in a mail message:</p>
 <ul>
 <li><p><strong>SDGRP</strong> is set to the mail group number for <strong>SD MH NO SHOW NOTIFICATION</strong>.</p></li>
 <li><p><strong>XMSUB</strong> the subject of the email is set to <strong>MN NO SHOW REPORT MESSAGE #</strong>.</p></li>
-<li><p><strong>XMTEXT</strong> is set to the global containing the data <strong>^TMP(“SDNS”,$J, LINE #,0)</strong>.</p></li>
+<li><p><strong>XMTEXT</strong> is set to the global containing the data <strong>^TMP("SDNS",$J, LINE #,0)</strong>.</p></li>
 </ul>
 <p>Call is made to set up and send the mail message <strong>D ^XMD</strong> the user can print out the email message to a printer for a hard copy through MailMan.</p>
 <p>The report is identical to the AD HOC report, except it has MailMan designation in the heading.</p></td>
@@ -5437,8 +5561,8 @@ The ^SDMHPRO1 routine is called by the SDMHPRO routine and is the routine that p
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDMHPRO</td>
@@ -5501,7 +5625,7 @@ The ^SDMHPRO1 routine is called by the SDMHPRO routine and is the routine that p
 <td colspan="10"><strong>Modified Logic (Changes are in bold)</strong></td>
 </tr>
 <tr class="odd">
-<td colspan="10"><p>The code loops through the <strong>^TMP(“SDPRO1”</strong> global.</p>
+<td colspan="10"><p>The code loops through the <strong>^TMP("SDPRO1"</strong> global.</p>
 <ul>
 <li><p>A totals page prints out of the unique patients at the beginning of the report.</p></li>
 <li><p>A header prints for each division (alphabetical), which includes the following information:</p></li>
@@ -5595,8 +5719,8 @@ The EN^SDMHAP routine is the front-end of the Proactive Ad Hoc Report and sets u
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5"></td>
@@ -5677,16 +5801,16 @@ The EN^SDMHAP routine is the front-end of the Proactive Ad Hoc Report and sets u
 <p>If All clinics the user can choose all the clinics in the facility.</p>
 <p>If Mental Health clinics only, the user chooses only clinics that have stop codes located in the Reminder Location List VA-MH NO SHOW APPT CLINICS LL.</p>
 <ul>
-<li><p>Set <strong>^TMP( “SDPRO”,$J</strong> with the valid choices.</p></li>
+<li><p>Set <strong>^TMP( "SDPRO",$J</strong> with the valid choices.</p></li>
 </ul>
 <p>Find the patients in the date range with High Risk for Mental Health patient record flag that have an appointment.</p>
 <ul>
-<li><p>Loop through the <strong>^TMP(“SDPRO”,$J</strong> global.</p></li>
+<li><p>Loop through the <strong>^TMP("SDPRO",$J</strong> global.</p></li>
 </ul>
-<p>Within that loop, check the Hospital Location “<strong>S</strong>” cross-reference to see if the patient has an appointment.</p>
-<p>In the date range <strong>^SC(clinic,”S”,date</strong>.</p>
+<p>Within that loop, check the Hospital Location "<strong>S</strong>" cross-reference to see if the patient has an appointment.</p>
+<p>In the date range <strong>^SC(clinic,"S",date</strong>.</p>
 <ul>
-<li><p>If there is a match, set up the <strong>^TMP(“SDPRO1”, SORT by clinic</strong> global.</p></li>
+<li><p>If there is a match, set up the <strong>^TMP("SDPRO1", SORT by clinic</strong> global.</p></li>
 </ul>
 <p>Call <strong>^SDMHAP1</strong> routine to print the report.</p></td>
 </tr>
@@ -5739,8 +5863,8 @@ The EN^SDMHAP1 routine is called by the SDMHAP routine and is the routine that p
 </tr>
 <tr class="even">
 <td rowspan="2"><strong>Related Routines</strong></td>
-<td colspan="5"><strong>Routines “Called By”</strong></td>
-<td colspan="4"><strong>Routines “Called”</strong></td>
+<td colspan="5"><strong>Routines "Called By"</strong></td>
+<td colspan="4"><strong>Routines "Called"</strong></td>
 </tr>
 <tr class="odd">
 <td colspan="5">^SDMHAP</td>
@@ -5798,7 +5922,7 @@ The EN^SDMHAP1 routine is called by the SDMHAP routine and is the routine that p
 <td colspan="10"><strong>Modified Logic (Changes are in bold)</strong></td>
 </tr>
 <tr class="odd">
-<td colspan="10"><p>The code loops through the <strong>^TMP(“SDPRO1”</strong> global.</p>
+<td colspan="10"><p>The code loops through the <strong>^TMP("SDPRO1"</strong> global.</p>
 <ul>
 <li><p>A header prints for each division (alphabetical), which includes the following information:</p></li>
 <li><p>The second line designates how the report is sorted and printed. This example, sorts by clinic.</p></li>
@@ -5872,7 +5996,7 @@ The EN^SDMHAP1 routine is called by the SDMHAP routine and is the routine that p
 For more detailed information on or to see a list of VistA Scheduling (VS) Remote Procedure Calls (RPCs), refer to either of the following:
 
 - VS GUI Technical Manuals for any release. VS Technical Manuals can be found on the [Scheduling app on the VA Software Document Library](https://www.va.gov/vdl/application.asp?appid=100).
-- REMOTE PROCEDURE (#8994) file within any VistA environment. Searching for “SDEC” within the REMOTE PROCEDURE (#8994) file returns the list of RPCs used by VistA Scheduling (VS).
+- REMOTE PROCEDURE (#8994) file within any VistA environment. Searching for "SDEC" within the REMOTE PROCEDURE (#8994) file returns the list of RPCs used by VistA Scheduling (VS).
 
 # External/Internal Relations
 
@@ -6058,7 +6182,7 @@ Output Pointer to File 200^external value of the name.
 
 \$\$GETALL^SCAPMCA(PARM 1, PARM 2, PARM 3)
 
-This tag returns all information on a patient’s assignment. Please review the documentation in the SCAPMCA routine.
+This tag returns all information on a patient's assignment. Please review the documentation in the SCAPMCA routine.
 
 <span id="_Toc95464502" class="anchor"></span>Figure 7: INPTPR^SDUTL3—Routine Documentation
 
@@ -6485,8 +6609,8 @@ SUBSCRIBING PACKAGE: SCHEDULING                        �
 <td><p><strong>DGPFAPIU</strong></p>
 <p>(Increment 1)</p></td>
 <td><p>This routine provides support utilities and functions for the new Application Programming Interface calls.</p>
-<p>This procedure checks if the Patient Record Flag was active at any point during the specified date range. The procedure accepts a date range parameter, which specifies whether “<strong>A</strong>”ll dates or only a “<strong>S</strong>”pecified date range is to be checked.</p>
-<p>The PRF ASSIGNMENT HISTORY (#26.14) file was <em>not</em> designed for this type of date interaction, so the algorithm in this procedure has to make a number of assumptions when interpreting the dates and PRF actions. While there can only be one “<strong>New Assignment</strong>” entry, it is possible to have multiple “<strong>Continue</strong>”, “<strong>Inactivate</strong>”, and “<strong>Reactivate</strong>” action entries. In addition, the <strong>Entered In Error</strong> action can pose additional issues with determining a status during a specific date range.</p>
+<p>This procedure checks if the Patient Record Flag was active at any point during the specified date range. The procedure accepts a date range parameter, which specifies whether "<strong>A</strong>"ll dates or only a "<strong>S</strong>"pecified date range is to be checked.</p>
+<p>The PRF ASSIGNMENT HISTORY (#26.14) file was <em>not</em> designed for this type of date interaction, so the algorithm in this procedure has to make a number of assumptions when interpreting the dates and PRF actions. While there can only be one "<strong>New Assignment</strong>" entry, it is possible to have multiple "<strong>Continue</strong>", "<strong>Inactivate</strong>", and "<strong>Reactivate</strong>" action entries. In addition, the <strong>Entered In Error</strong> action can pose additional issues with determining a status during a specific date range.</p>
 <p><strong>REF:</strong> See Appendix B for examples of date range and PRF History status entries.</p></td>
 </tr>
 <tr class="even">
@@ -6511,7 +6635,7 @@ Input Variables
 - VAUTVB—Name of the subscripted variable to be returned.
 - VAUTNALL—Define this variable if you do not want the user to be given the ALL option.
 
-Other variables as required by a call to ^DIC (see *VA FileMan Developer’s Guide*).
+Other variables as required by a call to ^DIC (see *VA FileMan Developer's Guide*).
 
 Output Variables
 
@@ -8373,7 +8497,7 @@ Input
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAPTYP—This optional variable can be set to the internal number of a patient eligibility. The variable can be used to indicate the patient's type such as VA, Department of Defense (DOD), or Indian Health Service (IHS) through the eligibility. If this variable is *not* defined or the eligibility does *not* exist, the VA patient IDs are returned.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does not contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8382,10 +8506,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VADM(1) would be VADM("NM")\].
+- Alpha Subscripts" section \[e.g., VADM(1) would be VADM("NM")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VADM",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VADM",\$J,"NM")\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGDEM").
@@ -8440,7 +8564,7 @@ Input
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAPTYP—This optional variable can be set to the internal number of a patient eligibility. The variable can be used to indicate the patient's type such as VA, DOD, or IHS through the eligibility. If this variable is *not* defined or the eligibility does *not* exist, the VA patient IDs are returned.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8449,10 +8573,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VADEMO(1) would be VADEMO("NM")\].
+- Alpha Subscripts" section \[e.g., VADEMO(1) would be VADEMO("NM")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VADEMO",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VADEMO",\$J,"NM",1)\] stores the PREFERRED NAME.
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGDEM").
@@ -8507,7 +8631,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8516,10 +8640,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAEL(1) would be VAEL("EL")\].
+- Alpha Subscripts" section \[e.g., VAEL(1) would be VAEL("EL")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAEL",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAEL",\$J,"EL")\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGELG").
@@ -8559,7 +8683,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is not defined or does not contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8568,10 +8692,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAMB(1) would be VAMB("AA")\].
+- Alpha Subscripts" section \[e.g., VAMB(1) would be VAMB("AA")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAMB",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAMB",\$J,"AA")\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGMB").
@@ -8611,7 +8735,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8620,10 +8744,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VASV(1) would be VASV("VN")\].
+- Alpha Subscripts" section \[e.g., VASV(1) would be VASV("VN")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VASV",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VASV",\$J,"VN")\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGSVC").
@@ -8671,23 +8795,23 @@ Output
 - VASV(8,4)—If third episode, SERVICE ENTRY DATE in internal^external format (e.g., 2440609^JUN 9,1944).
 - VASV(8,5)—If third episode, SERVICE SEPARATION DATE in internal^external format (e.g., 2480101^JAN 1,1948).
 - VASV(8,6)—If third episode, SERVICE COMPONENT in internal code^external format.(e.g., R^REGULAR).
-- VASV(9)—If the CURRENT PH INDICATOR field is YES, a “1” is returned; otherwise, a “0” is returned (e.g., 0).
+- VASV(9)—If the CURRENT PH INDICATOR field is YES, a "1" is returned; otherwise, a "0" is returned (e.g., 0).
 - VASV(9,1)—If the CURRENT PH INDICATOR field is YES, CURRENT PURPLE HEART STATUS in internal^external format.(e.g., 2^IN PROCESS).
 - VASV(9,2)—If the CURRENT PH INDICATOR field is NO, CURRENT PURPLE HEART REMARKS in internal^external format (e.g., 5^VAMC).
 - VASV(10)—Is either 1 or 0, 1 if there is a value for Combat Vet End Date, 0 if not.
 - VASV(10,1)—Internal Combat Vet End Date ^external Combat Vet End Date (e.g., 3060101^JAN 1, 2006).
 - VASV(11)—The number of OIF conflict entries found for the Veteran in the SERVICE \[OEF OR OIF\] (#2.3215) SUB-FILE \[n = 1—Total number of OIF conflict entries\].
-- VASV(11,n,1)—SERVICE LOCATION (#2.3215; .01) internal code=1^external (e.g., 1^OIF). Where “*n*” is the number used to provide a unique number for each OIF or a conflict being returned.
-- VASV(11,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where “*n*” is the number used to provide a unique number for each OIF conflict being returned.
-- VASV(11,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where “*n*” is the number used to provide a unique number for each OIF conflict being returned.
+- VASV(11,n,1)—SERVICE LOCATION (#2.3215; .01) internal code=1^external (e.g., 1^OIF). Where "*n*" is the number used to provide a unique number for each OIF or a conflict being returned.
+- VASV(11,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where "*n*" is the number used to provide a unique number for each OIF conflict being returned.
+- VASV(11,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where "*n*" is the number used to provide a unique number for each OIF conflict being returned.
 - VASV(12)—The number of OEF conflict entries found for the Veteran in the SERVICE \[OEF OR OIF\] \#2.3215 SUB-FILE. \[n = 1—VASV(12)\].
-- VASV(12,n,1)—SERVICE LOCATION (#2.3215; .01) internal code = 2 ^external (e.g., 2^OEF). Where “*n*” is the number used to provide a unique number for each OEF conflict being returned.
-- VASV(12,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where “*n*” is the number used to provide a unique number for each OEF conflict being returned.
-- VASV(12,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where “*n*” is the number used to provide a unique number for each OEF conflict being returned.
+- VASV(12,n,1)—SERVICE LOCATION (#2.3215; .01) internal code = 2 ^external (e.g., 2^OEF). Where "*n*" is the number used to provide a unique number for each OEF conflict being returned.
+- VASV(12,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where "*n*" is the number used to provide a unique number for each OEF conflict being returned.
+- VASV(12,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where "*n*" is the number used to provide a unique number for each OEF conflict being returned.
 - VASV(13)—The number of UNKNOWN OEF/OIF conflict entries found for the Veteran in the SEVICE \[OEF OR OIF\] \#2.3215 SUB-FILE. \[n = 1—VASV(13)\].
-- VASV(13,n,1)—SERVICE LOCATION (#2.3215; .01) internal CODE = 3^external format (e.g., 3^UNKNOWN OEF/OIF). Where “*n*” is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
-- VASV(13,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where “*n*” is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
-- VASV(13,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where “*n*” is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
+- VASV(13,n,1)—SERVICE LOCATION (#2.3215; .01) internal CODE = 3^external format (e.g., 3^UNKNOWN OEF/OIF). Where "*n*" is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
+- VASV(13,n,2)—OEF/OIF FROM DATE (#2.3215; .02) internal format ^external format (e.g., 3060101^JAN 1, 2006). Where "*n*" is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
+- VASV(13,n,3)—OEF/OIF TO DATE (#2.3215; .03) internal format ^external format (e.g., 3060101^MAR 1, 2006). Where "*n*" is the number used to provide a unique number for each UNKNOWN OEF/OIF conflict being returned.
 - VASV(14)—If the PROJ 112/ SHAD field is populated, a "1" is returned; otherwise, a "0" is returned (e.g., 0).
 - VASV(14,1)—If the PROJ 112/SHAD field is populated, PROJ 112/SHAD in internal^external format (e.g., 1^YES).
 - VAERR—The error flag has one of the following values:
@@ -8706,7 +8830,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is not defined or does not contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8715,11 +8839,11 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAPA(1) would be VAPA("L1")\].
-- 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY(“VAPA”, \$J,1)\].
+- Alpha Subscripts" section \[e.g., VAPA(1) would be VAPA("L1")\].
+- 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAPA", \$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAPA",\$J,"L1")\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGADD").
 - VAPA("P")—This optional variable can be set to force the return of the patient's mailing address. The mailing address array is returned regardless of whether or not a temporary address is in effect \[e.g., VAPA("P")=""\].
@@ -8753,7 +8877,7 @@ Output
 - VAPA(20)—The start date for the Confidential Address in internal^external format (e.g., 3030324^MAR 24,2003).
 - VAPA(21)—The end date for the Confidential Address in internal^external format (e.g., 3030624^JUN 24,2003).
 - VAPA(22,N)—The Confidential Address Categories in internal^external format^status (n=internal value) \[e.g., VAPA(22,4)=4^MEDICAL RECORDS^Y\].
-- VAPA(23)—The Mailing or Temporary Province (if temp address is current and active, it’s temp).
+- VAPA(23)—The Mailing or Temporary Province (if temp address is current and active, it's temp).
 - VAPA(24)—The Mailing or Temporary Postal Code (if temp address is current and active, it's temp).
 - VAPA(25)—The Mailing or Temporary Country (if temp address is current and active, it's temp).
 - VAPA(26)—The Confidential Province.
@@ -8786,7 +8910,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8795,10 +8919,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAOA(1) would be VAOA("L1")\].
+- Alpha Subscripts" section \[e.g., VAOA(1) would be VAOA("L1")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAOA",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAOA,\$J,"L1"\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGOA").
@@ -8858,7 +8982,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8867,10 +8991,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAIN(1) would be VAIN("AN")\].
+- Alpha Subscripts" section \[e.g., VAIN(1) would be VAIN("AN")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAIN",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAIN,\$J,"AN"\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGIN").
@@ -8905,7 +9029,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -8914,10 +9038,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAIP(1) would be VAIP("MN")\].
+- Alpha Subscripts" section \[e.g., VAIP(1) would be VAIP("MN")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAIP",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAIP,\$J,"MN"\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGI5").
@@ -9011,7 +9135,7 @@ Input
 
 - DFN—This required variable is the internal entry number in the PATIENT (#2) file.
 - VAHOW—This optional variable can be set to a requested format for the output array. If this variable is *not* defined or does *not* contain one of the following values, the output array is returned with numeric subscripts:
-- 1—Return the output array with alpha subscripts; see “<u>Description</u>
+- 1—Return the output array with alpha subscripts; see "<u>Description</u>
 - <u>Returns</u> the Comprehensive Prevention, Access to Care, and Treatment (COMPACT) indicator for enrolled Veterans and non-enrolled Veterans.
 
 Input
@@ -9020,10 +9144,10 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
-- Alpha Subscripts” section \[e.g., VAPD(1) would be VAPD("BC")\].
+- Alpha Subscripts" section \[e.g., VAPD(1) would be VAPD("BC")\].
 - 2—Return the output in the ^UTILITY global with numeric subscripts \[e.g., ^UTILITY("VAPD",\$J,1)\].
 - 12—Return the output in the ^UTILITY global with alpha subscripts \[e.g., ^UTILITY("VAPD",\$J,"BC"\].
 - VAROOT—This optional variable can be set to a local variable or global name in which to return the output (e.g., VAROOT="DGPD").
@@ -9246,7 +9370,7 @@ Input
 
 Output
 
-- VACOM("CAI")—Returns the Veteran’s COMPACT eligibility status
+- VACOM("CAI")—Returns the Veteran's COMPACT eligibility status
 - 0—Veteran is not COMPACT eligible
 - 1—Veteran is COMPACT eligible
 
@@ -9267,7 +9391,7 @@ Output
 |                  | VADM(9)     | VADM("RP")        |
 |                  | VADM(10)    | VADM("MS")        |
 | DEMUPD^VADPT | VADEMO(1)   | VADEMO("NM")      |
-|                  | VADEMO(1,1) | VADEMO(“NM”,1)    |
+|                  | VADEMO(1,1) | VADEMO("NM",1)    |
 |                  | VADEMO(2)   | VADEMO("SS")      |
 |                  | VADEMO(3)   | VADEMO("DB")      |
 |                  | VADEMO(4)   | VADEMO("AG")      |
@@ -9277,8 +9401,8 @@ Output
 |                  | VADEMO(8)   | VADEMO("RA")      |
 |                  | VADEMO(9)   | VADEMO("RP")      |
 |                  | VADEMO(10)  | VADEMO("MS")      |
-|                  | VADEMO(11)  | VADEMO(“ET”)      |
-|                  | VADEMO(12)  | VADEMO(“RC”)      |
+|                  | VADEMO(11)  | VADEMO("ET")      |
+|                  | VADEMO(12)  | VADEMO("RC")      |
 |                  | VADEMO(13)  | VADEMO("PL")      |
 | ELIG^VADPT   | VAEL(1)     | VAEL("EL")        |
 |                  | VAEL(1,#)   | VAEL("EL",#)      |
@@ -9291,7 +9415,7 @@ Output
 |                  | VAEL(7)     | VAEL("CN")        |
 |                  | VAEL(8)     | VAEL("ES")        |
 |                  | VAEL(9)     | VAEL("MT")        |
-|                  | VAEL(10)    | VAEL(“OTH”)       |
+|                  | VAEL(10)    | VAEL("OTH")       |
 | MB^VADPT     | VAMB(1)     | VAMB("AA")        |
 |                  | VAMB(2)     | VAMB("HB")        |
 |                  | VAMB(3)     | VAMB("SS")        |
@@ -9317,18 +9441,18 @@ Output
 |                  | VASV(7,#)   | VASV("S2",#)      |
 |                  | VASV(8)     | VASV("S3")        |
 |                  | VASV(8,#)   | VASV("S3",#)      |
-|                  | VASV(9)     | VASV(“PH”)        |
-|                  | VASV(9,#)   | VASV(“PH”,#)      |
-|                  | VASV(10)    | VASV(“CV”)        |
-|                  | VASV(10,#)  | VASV(“CV”,#)      |
-|                  | VASV(11)    | VASV(“OIF”)       |
-|                  | VASV(11,#)  | VASV(“OIF”,#)     |
-|                  | VASV(12)    | VASV(“OEF”)       |
-|                  | VASV(12,#)  | VASV(“OEF”,#)     |
-|                  | VASV(13)    | VASV(“UNK”)       |
-|                  | VASV(13,#)  | VASV(“UNK”,#)     |
-|                  | VASV(14)    | VASV(“SHD”)       |
-|                  | VASV(14,#)  | VASV(“SHD”,#)     |
+|                  | VASV(9)     | VASV("PH")        |
+|                  | VASV(9,#)   | VASV("PH",#)      |
+|                  | VASV(10)    | VASV("CV")        |
+|                  | VASV(10,#)  | VASV("CV",#)      |
+|                  | VASV(11)    | VASV("OIF")       |
+|                  | VASV(11,#)  | VASV("OIF",#)     |
+|                  | VASV(12)    | VASV("OEF")       |
+|                  | VASV(12,#)  | VASV("OEF",#)     |
+|                  | VASV(13)    | VASV("UNK")       |
+|                  | VASV(13,#)  | VASV("UNK",#)     |
+|                  | VASV(14)    | VASV("SHD")       |
+|                  | VASV(14,#)  | VASV("SHD",#)     |
 | ADD^VADPT    | VAPA(1)     | VAPA("L1")        |
 |                  | VAPA(2)     | VAPA("L2")        |
 |                  | VAPA(3)     | VAPA("L3")        |
@@ -9340,34 +9464,34 @@ Output
 |                  | VAPA(9)     | VAPA("TS")        |
 |                  | VAPA(10)    | VAPA("TE")        |
 |                  | VAPA(11)    | VAPA("Z4")        |
-|                  | VAPA(12)    | VAPA(“CCA”)       |
-|                  | VAPA(13)    | VAPA(“CL1”)       |
-|                  | VAPA(14)    | VAPA(“CL2”)       |
-|                  | VAPA(15)    | VAPA(“CL3”)       |
-|                  | VAPA(16)    | VAPA(“CCI”)       |
-|                  | VAPA(17)    | VAPA(“CST”)       |
-|                  | VAPA(18)    | VAPA(“CZP”)       |
-|                  | VAPA(19)    | VAPA(“CCO”)       |
-|                  | VAPA(20)    | VAPA(“CCS”)       |
-|                  | VAPA(21)    | VAPA(“CCE”)       |
-|                  | VAPA(22)    | VAPA(“CTY”)       |
-|                  | VAPA(23)    | VAPA(“PR”)        |
-|                  | VAPA(24)    | VAPA(“PC”)        |
-|                  | VAPA(25)    | VAPA(“CT”)        |
-|                  | VAPA(26)    | VAPA(“CPR”)       |
-|                  | VAPA(27)    | VAPA(“CPC”)       |
-|                  | VAPA(28)    | VAPA(“CCT”)       |
-|                  | VAPA(29)    | VAPA(“CPN”)       |
-|                  | VAPA(30)    | VAPA(“RL1”)       |
-|                  | VAPA(31)    | VAPA(“RL2”)       |
-|                  | VAPA(32)    | VAPA(“RL3”)       |
-|                  | VAPA(33)    | VAPA(“RCI”)       |
-|                  | VAPA(34)    | VAPA(“RST”)       |
-|                  | VAPA(35)    | VAPA(“RZP”)       |
-|                  | VAPA(36)    | VAPA(“RCO”)       |
-|                  | VAPA(37)    | VAPA(“RCT”)       |
-|                  | VAPA(38)    | VAPA(“RPR”)       |
-|                  | VAPA(39)    | VAPA(“RPC”)       |
+|                  | VAPA(12)    | VAPA("CCA")       |
+|                  | VAPA(13)    | VAPA("CL1")       |
+|                  | VAPA(14)    | VAPA("CL2")       |
+|                  | VAPA(15)    | VAPA("CL3")       |
+|                  | VAPA(16)    | VAPA("CCI")       |
+|                  | VAPA(17)    | VAPA("CST")       |
+|                  | VAPA(18)    | VAPA("CZP")       |
+|                  | VAPA(19)    | VAPA("CCO")       |
+|                  | VAPA(20)    | VAPA("CCS")       |
+|                  | VAPA(21)    | VAPA("CCE")       |
+|                  | VAPA(22)    | VAPA("CTY")       |
+|                  | VAPA(23)    | VAPA("PR")        |
+|                  | VAPA(24)    | VAPA("PC")        |
+|                  | VAPA(25)    | VAPA("CT")        |
+|                  | VAPA(26)    | VAPA("CPR")       |
+|                  | VAPA(27)    | VAPA("CPC")       |
+|                  | VAPA(28)    | VAPA("CCT")       |
+|                  | VAPA(29)    | VAPA("CPN")       |
+|                  | VAPA(30)    | VAPA("RL1")       |
+|                  | VAPA(31)    | VAPA("RL2")       |
+|                  | VAPA(32)    | VAPA("RL3")       |
+|                  | VAPA(33)    | VAPA("RCI")       |
+|                  | VAPA(34)    | VAPA("RST")       |
+|                  | VAPA(35)    | VAPA("RZP")       |
+|                  | VAPA(36)    | VAPA("RCO")       |
+|                  | VAPA(37)    | VAPA("RCT")       |
+|                  | VAPA(38)    | VAPA("RPR")       |
+|                  | VAPA(39)    | VAPA("RPC")       |
 | OAD^VADPT    | VAOA(1)     | VAOA("L1")        |
 |                  | VAOA(2)     | VAOA("L2")        |
 |                  | VAOA(3)     | VAOA("L3")        |
@@ -9439,7 +9563,7 @@ Existing direct global references to Scheduling globals, as well as VA FileMan c
 
 1.  Remove—Eliminate uses of appointment data whenever possible. Access to appointment data over the network can be slower than direct access in VistA. For example, if the application displays patient appointments as a convenience feature, the display could be removed from the function because the user can get the same information directly using the Scheduler Graphical User Interface (GUI). Keeping the display in the application can become an inconvenience feature when the network is slow or unavailable. This strategy emphasizes application un-coupling in preparation for a future Clinical Context Object Workgroup (CCOW)-based application environment.
 36. Replace—If the appointment data are required to support the business processes of the application, one of the encapsulation APIs *must* be used to interface the application with the new Resource Scheduling System. The look and feel of the application remains the same although retrieval times may be slower:
-1.  Data Layer—To optimize an application process that uses appointments, it is important to call the API only once during process execution. In most cases, to achieve this it is necessary to use the API to create a data layer. The API is called once and stores the data in a temporary global. Business processing does *not* start until after all the required data are retrieved in the “data layer.”
+1.  Data Layer—To optimize an application process that uses appointments, it is important to call the API only once during process execution. In most cases, to achieve this it is necessary to use the API to create a data layer. The API is called once and stores the data in a temporary global. Business processing does *not* start until after all the required data are retrieved in the "data layer."
 2.  Error Handling—As the data is retrieved from a remote database, errors could occur that may be returned to applications; therefore, it is also important to design error handling. If this is implemented now, it is *not* necessary to add it later when the data is retrieved from the remote database.
 
 ## Special Features
@@ -9448,13 +9572,13 @@ Existing direct global references to Scheduling globals, as well as VA FileMan c
 
 This section describes the special features of the Scheduling Replacement API "SDAPI" that retrieves appointment information stored in Sub-files \#2.98, \#44.001, and \#44.003. Appointment data can be retrieved by patient(s), clinic(s), both or neither. Three other appointment fields are available for filtering.
 
-REF: For a complete list of available appointment filters, see “<u>Available Data Filters</u>.”
+REF: For a complete list of available appointment filters, see "<u>Available Data Filters</u>."
 
 The Scheduling Replacement API is an encapsulation API and has special features.
 
 - Flexibility—This API can be implemented now without re-programming later, because it retrieves the same information from either database (FM globals or SQL tables). Each field in <u>Table 66</u> has been assigned an independent identifying number that is used in the input parameter of the API.
 
-REF: For a more detailed list of the available data fields, see “<u>SDAPI—Data Fields</u>.”
+REF: For a more detailed list of the available data fields, see "<u>SDAPI—Data Fields</u>."
 
 | Number | Feature                                |
 |--------|----------------------------------------|
@@ -9517,17 +9641,17 @@ REF: For a more detailed list of the available data fields, see “<u>SDAPI—Da
 <tr class="odd">
 <td><strong>101</strong></td>
 <td><p>The API returns error code <strong>101</strong> when the network is too slow or is down. Applications that depend upon information stored in an external database <em>must</em> be re-programmed to handle this condition. Without network error handling, applications may either hang indefinitely or error out. At this point, there is one error code to indicate a network problem.</p>
-<p><strong>REF:</strong> For a complete list of all API error codes, see “<u>SDAPI—Error Codes</u>.”</p></td>
+<p><strong>REF:</strong> For a complete list of all API error codes, see "<u>SDAPI—Error Codes</u>."</p></td>
 </tr>
 <tr class="even">
 <td><strong>116</strong></td>
 <td><p>The API returns error code 116 when the data returned from the RSA database does <em>not</em> match the data on VistA. An example of this would be if the RSA returns an IEN that does <em>not</em> exist on VistA. Applications <em>must</em> be re-programmed to handle this condition.</p>
-<p><strong>REF:</strong> For a complete list of all API error codes, see “<u>SDAPI—Error Codes</u>.”</p></td>
+<p><strong>REF:</strong> For a complete list of all API error codes, see "<u>SDAPI—Error Codes</u>."</p></td>
 </tr>
 <tr class="odd">
 <td><strong>117</strong></td>
 <td><p>The API returns error code <strong>117</strong> when the other error codes do <em>not</em> apply. This error code incorporates any additional errors that may be included or returned in the future. Adding this error code prevents re-coding of current applications, as these new error codes are introduced.</p>
-<p><strong>REF:</strong> For a complete list of all API error codes, see “<u>SDAPI—Error Codes</u>.”</p></td>
+<p><strong>REF:</strong> For a complete list of all API error codes, see "<u>SDAPI—Error Codes</u>."</p></td>
 </tr>
 </tbody>
 </table>
@@ -9585,19 +9709,19 @@ S DGCNT=\$\$SDAPI^SDAMA301(.DGARRAY)
 
 ; if data is returned, process appointment data
 
-I DGCNT\>0 S DGPAT=0 F S DGPAT=\$O(^TMP(\$J,”SDAMA301”,DGCLN,DGPAT)
+I DGCNT\>0 S DGPAT=0 F S DGPAT=\$O(^TMP(\$J,"SDAMA301",DGCLN,DGPAT)
 
-Q:DGPAT=”” D
+Q:DGPAT="" D
 
 . S DGDATE=0 F S DGDATE=\$O(^TMP(\$J,"SDAMA301",DGCLN,DGPAT,DGDATE)
 
 Q:DGDATE="" D
 
-.. S DGLOAPPT=\$P(\$G(^TMP(\$J,”SDAMA301”,DGCLN,DGPAT,DGDATE)),U,5) ;length
+.. S DGLOAPPT=\$P(\$G(^TMP(\$J,"SDAMA301",DGCLN,DGPAT,DGDATE)),U,5) ;length
 
 of appt
 
-.. S DGPINFO=\$P(\$G(^TMP(\$J,”SDAMA301”,DGCLN,DGPAT,DGDATE)),U,4) ;patient
+.. S DGPINFO=\$P(\$G(^TMP(\$J,"SDAMA301",DGCLN,DGPAT,DGDATE)),U,4) ;patient
 
 DFN and Name
 
@@ -9611,7 +9735,7 @@ I DGCNT\<0 D
 
 . ;check error array for DATABASE IS UNAVAILABLE error
 
-. I \$D(^TMP(\$J,”SDAMA301,101)) D
+. I \$D(^TMP(\$J,"SDAMA301,101)) D
 
 .. process error as needed (calling application to determine how to
 
@@ -9619,7 +9743,7 @@ handle this)
 
 . ;check error array for DATA MISMATCH error
 
-. I \$D(^TMP(\$J,”SDAMA301,116)) D
+. I \$D(^TMP(\$J,"SDAMA301,116)) D
 
 .. process error as needed (calling application to determine how to
 
@@ -9627,7 +9751,7 @@ handle this)
 
 ;kill the temporary array
 
-I DGCNT'=0 K ^TMP(\$J,”SDAMA301”)
+I DGCNT'=0 K ^TMP(\$J,"SDAMA301")
 
 ## Application Programming Interface—SDAPI
 
@@ -9648,52 +9772,52 @@ This API returns filtered appointment information and should be called using an 
 Argument
 
 - ARRAY—An array, passed by value, that is defined and namespaced by the calling application, containing the following parameters:
-- Field List—Required, ARRAY("FLDS"). List of appointment field IDs requested, each ID separated by a semicolon or “ALL” to indicate all fields are being requested.
+- Field List—Required, ARRAY("FLDS"). List of appointment field IDs requested, each ID separated by a semicolon or "ALL" to indicate all fields are being requested.
 
-REF: For a complete list of available appointment fields and their associated IDs, see “<u>Table 69</u>.”  
+REF: For a complete list of available appointment fields and their associated IDs, see "<u>Table 69</u>."  
   
-For a description and valid values of this array entry, see “<u>Table 71</u>.”
+For a description and valid values of this array entry, see "<u>Table 71</u>."
 
 - Filters—Optional.
 
-REF: For a complete list of available appointment filters and their input array format, see “<u>Available Data Filters</u>.”
+REF: For a complete list of available appointment filters and their input array format, see "<u>Available Data Filters</u>."
 
 - Max Appts—Optional, ARRAY("MAX"). Maximum appointments requested.
 
-REF: For a description and valid values of this array entry, see “<u>Table 71</u>.”
+REF: For a description and valid values of this array entry, see "<u>Table 71</u>."
 
-- Sort—Optional, ARRAY(“SORT”). Allows the output to be sorted by patient DFN, instead of by Patient and Clinic IENs.
+- Sort—Optional, ARRAY("SORT"). Allows the output to be sorted by patient DFN, instead of by Patient and Clinic IENs.
 
-REF: For a description and valid values of this array entry, see “<u>Table 71</u>.”
+REF: For a description and valid values of this array entry, see "<u>Table 71</u>."
 
-- Purged—Optional, ARRAY(“PURGED”). Output includes *non*-canceled appointments that were purged from the Hospital Location file yet still exist on the PATIENT (#2) file.
+- Purged—Optional, ARRAY("PURGED"). Output includes *non*-canceled appointments that were purged from the Hospital Location file yet still exist on the PATIENT (#2) file.
 
-REF: For a description and valid values of this array entry, see “<u>Table 71</u>.”
+REF: For a description and valid values of this array entry, see "<u>Table 71</u>."
 
 If this optional array entry is passed into the API, there are two other conditions that *must* be met, else error 115 is generated:
 
 - ARRAY(4) *must* be populated.
 - Several fields are *not* available to request, because those fields are either located on the Hospital Location file, which was purged of the appointment, or are calculated using data from the Hospital Location file. Those fields are 5-9, 11, 22, 28, 30, 31, and 33.
 
-REF: For a description of those fields, see “<u>SDAPI—Data Fields</u>.”
+REF: For a description of those fields, see "<u>SDAPI—Data Fields</u>."
 
 Return Values
 
-From the extrinsic call, this API return “-1” if an error occurred, “0” if no appointment is found that matches the filter criteria, or account of the returned appointments. If no appointment is found that matches the filter criteria, the ^TMP(\$J,”SDAMA301”) global is *not* generated.
+From the extrinsic call, this API return "-1" if an error occurred, "0" if no appointment is found that matches the filter criteria, or account of the returned appointments. If no appointment is found that matches the filter criteria, the ^TMP(\$J,"SDAMA301") global is *not* generated.
 
 If appointments are found that match the filter criteria, Fields 1 through 5 and 7 through 26 of the appointments are returned in:
 
-^TMP(\$J,”SDAMA301”,SORT1,SORT2,APPT DATE/TIME)=field1^field2^field3^…
+^TMP(\$J,"SDAMA301",SORT1,SORT2,APPT DATE/TIME)=field1^field2^field3^…
 
 Where SORT1 and SORT2 are driven by the patient filter and defined in <u>Table 68</u>, and field1 is appointment data ID 1 (appt date/time); if requested; field2 is appointment data ID 2 (clinic IEN and name) if requested, etc.
 
-> **NOTE:** Piece 6 is always NULL, because if Field \#6 (APPOINTMENT COMMENTS) is requested, the comments appear on the subscript (“C”) of the global reference:
+> **NOTE:** Piece 6 is always NULL, because if Field \#6 (APPOINTMENT COMMENTS) is requested, the comments appear on the subscript ("C") of the global reference:
 
-^TMP(\$J,”SDAMA301”,SORT1,SORT2,APPT DATE/TIME,”C”)=field 6.
+^TMP(\$J,"SDAMA301",SORT1,SORT2,APPT DATE/TIME,"C")=field 6.
 
 Fields 28 through 33 are returned in:
 
-^TMP(\$J,”SDAMA301”,SORT1,SORT2,APPT DATE/TIME,0) = field28^field29^field30^…
+^TMP(\$J,"SDAMA301",SORT1,SORT2,APPT DATE/TIME,0) = field28^field29^field30^…
 
 | Patient Filter is... | Sort Values                               |
 |----------------------|-------------------------------------------|
@@ -9702,23 +9826,23 @@ Fields 28 through 33 are returned in:
 
 <span id="_Ref54706065" class="anchor"></span>Table 69: Available Appointment Data Fields
 
-In addition, there is another filter value that can be set to alter the output. If ARRAY(“SORT”)=“P”, then the output only includes the subscript patient DFN and *not* the clinic IEN, overriding the sort values described in <u>Table 68</u>.
+In addition, there is another filter value that can be set to alter the output. If ARRAY("SORT")="P", then the output only includes the subscript patient DFN and *not* the clinic IEN, overriding the sort values described in <u>Table 68</u>.
 
-^TMP(\$J,”SDAMA301”,DFN,APPT DATE/TIME)=field1^field2
+^TMP(\$J,"SDAMA301",DFN,APPT DATE/TIME)=field1^field2
 
-> **NOTE:** As mentioned above, Field \#6 is always NULL, and if Field \#6 (APPOINTMENT COMMENTS) is requested, the comments appear on the next subscript (“C”) of the global reference:
+> **NOTE:** As mentioned above, Field \#6 is always NULL, and if Field \#6 (APPOINTMENT COMMENTS) is requested, the comments appear on the next subscript ("C") of the global reference:
 
-^TMP(\$J,”SDAMA301”,DFN,APPT DATE/TIME,”C”)=field 6
+^TMP(\$J,"SDAMA301",DFN,APPT DATE/TIME,"C")=field 6
 
 If an error occurs, the error codes and messages are returned in:
 
-^TMP(\$J,”SDAMA301”,error code) = error message
+^TMP(\$J,"SDAMA301",error code) = error message
 
-REF: For a list of error codes and messages, see “<u>SDAPI—Error Codes</u>.”
+REF: For a list of error codes and messages, see "<u>SDAPI—Error Codes</u>."
 
 When processing has completed, kill the temporary array:
 
-^TMP(\$J,”SDAMA301”)REF: For constraints, see “<u>SDAPI—Constraints</u>.”
+^TMP(\$J,"SDAMA301")REF: For constraints, see "<u>SDAPI—Constraints</u>."
 
 ### SDAPI—Examples
 
@@ -9910,7 +10034,7 @@ I SDCOUNT'=0 K ^TMP(\$J,"SDAMA301")
 
 > **WARNING:** For the quickest performance, this API should be run with a patient and/or clinic filter. Omission of both filters results in a lengthy query (time and data).
 
-#### By Clinic with “Sort” Filter Defined
+#### By Clinic with "Sort" Filter Defined
 
 #### Example 1
 
@@ -9918,7 +10042,7 @@ Get all appointments for clinic 501 on 01/05/04. Get patient DFN, name, and appo
 
 > **NOTE:** The output is sorted first by patient, and then appointment date/time. Patient is the only sort, because the SORT filter is populated.
 
-<span id="_Toc95464513" class="anchor"></span>Figure 18: SDAPI Example—By Clinic with “Sort” Filter Defined: Get Patient DFN, Name, and Appointment Status
+<span id="_Toc95464513" class="anchor"></span>Figure 18: SDAPI Example—By Clinic with "Sort" Filter Defined: Get Patient DFN, Name, and Appointment Status
 
 N SDARRAY,SDCOUNT,SDDFN,SDDATE,SDAPPT,SDPAT,SDPATNAM,SDSTATUS
 
@@ -9964,9 +10088,9 @@ I SDCOUNT'=0 K ^TMP(\$J,"SDAMA301")
 
 Get all appointments for Clinic 501 on 01/05/04. Get patient DFN, name, and appointment comments.
 
-> **NOTE:** The output is sorted first by patient, and then appointment date/time; the comments appear on the next reference with the subscript “C”. Patient is the only sort, because the SORT filter is populated.
+> **NOTE:** The output is sorted first by patient, and then appointment date/time; the comments appear on the next reference with the subscript "C". Patient is the only sort, because the SORT filter is populated.
 
-<span id="_Toc95464514" class="anchor"></span>Figure 19: SDAPI Example—By Clinic with “Sort” Filter Defined: Get Patient DFN, Name, and Appointment Comments
+<span id="_Toc95464514" class="anchor"></span>Figure 19: SDAPI Example—By Clinic with "Sort" Filter Defined: Get Patient DFN, Name, and Appointment Comments
 
 N SDARRAY,SDCOUNT,SDDFN,SDDATE,SDAPPT,SDPAT,SDPATNAM,SDCMMNT
 
@@ -10185,14 +10309,14 @@ K ^SDDFN
 <td>free text</td>
 <td>Any comments associated with the appointment.</td>
 <td><p>PATIENT NEEDS WHEELCHAIR</p>
-<p><strong>NOTE:</strong> Comments shall be located on the “<strong>C</strong>” subscript.</p></td>
+<p><strong>NOTE:</strong> Comments shall be located on the "<strong>C</strong>" subscript.</p></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>OVERBOOK</td>
 <td>TEXT</td>
 <td>Y or N</td>
-<td>“Y” if appointment is an overbook, else “N”.</td>
+<td>"Y" if appointment is an overbook, else "N".</td>
 <td><p>Y</p>
 <p>N</p></td>
 </tr>
@@ -10261,7 +10385,7 @@ K ^SDDFN
 <td>WORKLOAD NON-COUNT</td>
 <td>TEXT</td>
 <td>Y or N</td>
-<td>“Y” if clinic is <em>non</em>-count, else “N”.</td>
+<td>"Y" if clinic is <em>non</em>-count, else "N".</td>
 <td><p>Y</p>
 <p>N</p></td>
 </tr>
@@ -10329,7 +10453,7 @@ K ^SDDFN
 <td>X-RAY FILMS</td>
 <td>TEXT</td>
 <td>Y or N</td>
-<td>“Y” if x-ray films are required at clinic, else “N”.</td>
+<td>"Y" if x-ray films are required at clinic, else "N".</td>
 <td><p>Y</p>
 <p>N</p></td>
 </tr>
@@ -10558,14 +10682,14 @@ The six fields listed in <u>Table 70</u> allow a filter. All six fields can be f
 <td>Field List (Required)</td>
 <td>ARRAY("FLDS")</td>
 <td><p>List of appointment field IDs, each separated by a semicolon. Order of fields is irrelevant.</p>
-<p><strong>REF:</strong> See “<u>Data Fields</u>” for the list of appointment field IDs.</p>
-<p>Or, if all fields are required, then set array to “<strong>ALL</strong>” (case is irrelevant).</p>
-<p>ARRAY ("FLDS") =“id1; id2; id3", etc.</p>
-<p>ARRAY(“FLDS”)=”ALL”</p></td>
+<p><strong>REF:</strong> See "<u>Data Fields</u>" for the list of appointment field IDs.</p>
+<p>Or, if all fields are required, then set array to "<strong>ALL</strong>" (case is irrelevant).</p>
+<p>ARRAY ("FLDS") ="id1; id2; id3", etc.</p>
+<p>ARRAY("FLDS")="ALL"</p></td>
 <td><p>ARRAY("FLDS")="1;2;3;6;7;14;20"</p>
 <p>ARRAY("FLDS")=1</p>
-<p>ARRAY("FLDS")=”ALL”</p>
-<p>ARRAY("FLDS")=”all”</p></td>
+<p>ARRAY("FLDS")="ALL"</p>
+<p>ARRAY("FLDS")="all"</p></td>
 </tr>
 <tr class="even">
 <td>Max Appointments (Optional)</td>
@@ -10573,25 +10697,25 @@ The six fields listed in <u>Table 70</u> allow a filter. All six fields can be f
 <td><p>Maximum number of appointments requested. It <em>must</em> be a whole number <em>not</em> equal to <strong>0</strong>.</p>
 <p>ARRAY("MAX")=value</p>
 <ul>
-<li><p>If value <strong>&gt; 0</strong> or value=“”, return first “<em>n</em>” appointments.</p></li>
-<li><p>If value <strong>&lt; 0</strong>, return last “<em>n</em>” appointments.</p></li>
+<li><p>If value <strong>&gt; 0</strong> or value="", return first "<em>n</em>" appointments.</p></li>
+<li><p>If value <strong>&lt; 0</strong>, return last "<em>n</em>" appointments.</p></li>
 </ul></td>
 <td><p>ARRAY("MAX")=1</p>
 <p>ARRAY("MAX")=-1</p></td>
 </tr>
 <tr class="odd">
 <td>Sort Appointments by Patient DFN (Optional)</td>
-<td>ARRAY(“SORT”)</td>
-<td><p>Allows the output to be sorted by patient, instead of by patient and clinic. It <em>must</em> be set to “<strong>P</strong>”.</p>
-<p>ARRAY(“SORT”)=value</p></td>
+<td>ARRAY("SORT")</td>
+<td><p>Allows the output to be sorted by patient, instead of by patient and clinic. It <em>must</em> be set to "<strong>P</strong>".</p>
+<p>ARRAY("SORT")=value</p></td>
 <td>ARRAY("SORT")="P"</td>
 </tr>
 <tr class="even">
 <td>Include Purged Appointments (Optional)</td>
-<td>ARRAY(“PURGED”)</td>
+<td>ARRAY("PURGED")</td>
 <td><p>Allows the user to receive <em>non</em>-canceled Appts that were purged from sub-file #44.003.</p>
-<p>ARRAY(“PURGED”)=1</p></td>
-<td>ARRAY(“PURGED”)=1</td>
+<p>ARRAY("PURGED")=1</p></td>
+<td>ARRAY("PURGED")=1</td>
 </tr>
 </tbody>
 </table>
@@ -10600,13 +10724,13 @@ The six fields listed in <u>Table 70</u> allow a filter. All six fields can be f
 
 The Field List array entry *must* be populated, or else error 115 is generated.
 
-REF: For a complete list of all API error codes, see “<u>SDAPI—Error Codes</u>.”
+REF: For a complete list of all API error codes, see "<u>SDAPI—Error Codes</u>."
 
-The Maximum Appointments array entry is best used to retrieve the next or last “*n*” appointments for one patient and/or one clinic, in conjunction with the appointment date/time filter.
+The Maximum Appointments array entry is best used to retrieve the next or last "*n*" appointments for one patient and/or one clinic, in conjunction with the appointment date/time filter.
 
 > **NOTE:** If the Maximum Appointment array entry is set to a valid value and more than one patient and/or more than one clinic are passed to the API, or if no patient and clinic is passed to the API, the error 115 is generated.
 
-REF: For a complete list of all API error codes, see “<u>SDAPI—Error Codes</u>.”
+REF: For a complete list of all API error codes, see "<u>SDAPI—Error Codes</u>."
 
 <span id="_Toc95464515" class="anchor"></span>Figure 20: Sample of Other Array Entries
 
@@ -10775,9 +10899,9 @@ S ARRAY(16)= DT\_";3041231" (all appts that have a Date Appointment Made date fr
 <td><ul>
 <li><p>List of appointment field IDs, each separated by a semicolon.</p></li>
 <li><p>Order of fields is irrelevant.</p></li>
-<li><p>Or, if all fields are required, then set array to “<strong>ALL</strong>” (case is irrelevant).</p></li>
+<li><p>Or, if all fields are required, then set array to "<strong>ALL</strong>" (case is irrelevant).</p></li>
 </ul>
-<p><strong>REF:</strong> For the list of appointment field IDs, see “<u>Data Fields</u>.”</p></td>
+<p><strong>REF:</strong> For the list of appointment field IDs, see "<u>Data Fields</u>."</p></td>
 </tr>
 </tbody>
 </table>
@@ -10794,18 +10918,18 @@ S ARRAY(16)= DT\_";3041231" (all appts that have a Date Appointment Made date fr
 <thead>
 <tr class="header">
 <th><p>ARRAY("FLDS")="id1;id2;id3", etc.</p>
-<p>ARRAY(“FLDS”)=”ALL” ARRAY("FLDS")="1;2;3;6;7;14;20"</p>
+<p>ARRAY("FLDS")="ALL" ARRAY("FLDS")="1;2;3;6;7;14;20"</p>
 <p>ARRAY("FLDS")=1</p>
-<p>ARRAY("FLDS")=”ALL”</p>
-<p>ARRAY("FLDS")=”all”</p>
+<p>ARRAY("FLDS")="ALL"</p>
+<p>ARRAY("FLDS")="all"</p>
 <p>Max Appointments - Optional ARRAY("MAX") Maximum number of appointments requested. Must be a whole number not equal to 0.</p>
 <p>ARRAY("MAX")=value</p>
-<p>If value &gt; 0 or value=”” return first “N” appointments.</p>
-<p>Else if value &lt; 0 return last “N” appointments.</p>
+<p>If value &gt; 0 or value="" return first "N" appointments.</p>
+<p>Else if value &lt; 0 return last "N" appointments.</p>
 <p>ARRAY("MAX")=1</p>
 <p>ARRAY("MAX")=-1</p>
-<p>Sort Appointments by Patient DFN – Optional ARRAY(“SORT”) Allows the output to be sorted by Patient, instead of by Patient and Clinic. Must be set to ‘P’.</p>
-<p>ARRAY(“SORT”)=value ARRAY("SORT")="P"</p></th>
+<p>Sort Appointments by Patient DFN – Optional ARRAY("SORT") Allows the output to be sorted by Patient, instead of by Patient and Clinic. Must be set to 'P'.</p>
+<p>ARRAY("SORT")=value ARRAY("SORT")="P"</p></th>
 </tr>
 </thead>
 <tbody>
@@ -10814,18 +10938,18 @@ S ARRAY(16)= DT\_";3041231" (all appts that have a Date Appointment Made date fr
 
 <span id="_Ref58232685" class="anchor"></span>Table 74: Error Codes
 
-- Include Purged Appointments (Optional): ARRAY(“PURGED”) allows the user to receive *non*-canceled appointments that were purged from Sub-file \#44.003.
+- Include Purged Appointments (Optional): ARRAY("PURGED") allows the user to receive *non*-canceled appointments that were purged from Sub-file \#44.003.
 
-  ARRAY(“PURGED”)=1 ARRAY(“PURGED”)=1
+  ARRAY("PURGED")=1 ARRAY("PURGED")=1
 - The Field List array entry *must* be populated, or else error 115 is generated.
 
-REF: For a complete list of error codes and messages, see “<u>SDAPI—Error Codes</u>.”
+REF: For a complete list of error codes and messages, see "<u>SDAPI—Error Codes</u>."
 
-- The Maximum Appointments array entry is best used to retrieve the next or last “*n*” appointments for one patient and/or one clinic, in conjunction with the appointment date/time filter.
+- The Maximum Appointments array entry is best used to retrieve the next or last "*n*" appointments for one patient and/or one clinic, in conjunction with the appointment date/time filter.
 
 > **NOTE:** If the Maximum Appointment array entry is set to a valid value and more than one patient and/or more than one clinic are passed to the API, or if no patient and clinic is passed to the API, the error 115 is generated.
 
-REF: For a complete list of error codes and messages, see “<u>SDAPI—Error Codes</u>.”
+REF: For a complete list of error codes and messages, see "<u>SDAPI—Error Codes</u>."
 
 ### SDAPI—Error Codes
 
@@ -10892,33 +11016,33 @@ Arguments
 - SDFIELDS: Field List (optional, each field number separated by a semi-colon).
 - SDAPSTAT: Appointment Status Filter (optional, each value separated by a semi-colon).  
     
-  For default and valid values, see “<u>Filters</u>.”
+  For default and valid values, see "<u>Filters</u>."
 - SDSTART: Start Date (optional, internal VA FileMan format).
 - SDEND: End Date (optional, internal VA FileMan format).
 - SDRESULT: Local variable to hold returned appointment Count (optional, passed by reference).
-- SDIOSTAT: Patient Status Filter (optional, see “<u>Filters</u>” for default and valid values).  
+- SDIOSTAT: Patient Status Filter (optional, see "<u>Filters</u>" for default and valid values).  
     
   Field List: A NULL value in this parameter results in ALL appointment data fields being returned.  
     
-  REF: For a list of the field numbers and corresponding data available in this API, see “<u>Data Fields</u>.”
+  REF: For a list of the field numbers and corresponding data available in this API, see "<u>Data Fields</u>."
 
 Return Values
 
 If no errors occur and appointments are found, SDRESULT contains the appointment count and the requested data is returned in:
 
-^TMP(\$J,”SDAMA201”,”GETAPPT”,x,y) = field y data
+^TMP(\$J,"SDAMA201","GETAPPT",x,y) = field y data
 
-Where “x” is an incremental appointment count (starting with 1), and “y” is the field number requested.
+Where "x" is an incremental appointment count (starting with 1), and "y" is the field number requested.
 
-If no errors occur and no appointments are found, then SDRESULT contains a value of 0 and the ^TMP(\$J,”SDAMA201”,”GETAPPT”,x,y) array is *not* generated.
+If no errors occur and no appointments are found, then SDRESULT contains a value of 0 and the ^TMP(\$J,"SDAMA201","GETAPPT",x,y) array is *not* generated.
 
-If an error occurs, SDRESULT is –1 and the error codes and messages is returned in ^TMP(\$J,”SDAMA201”,”GETAPPT”,”ERROR”,error code) = error message.
+If an error occurs, SDRESULT is –1 and the error codes and messages is returned in ^TMP(\$J,"SDAMA201","GETAPPT","ERROR",error code) = error message.
 
-REF: For a list of error codes and messages, see “<u>Error Codes</u>”.
+REF: For a list of error codes and messages, see "<u>Error Codes</u>".
 
 Other: When processing has completed, kill the temporary array:
 
-^TMP(\$J,”SDAMA201”,”GETAPPT”)
+^TMP(\$J,"SDAMA201","GETAPPT")
 
 ### GETAPPT Examples
 
@@ -10926,67 +11050,67 @@ Other: When processing has completed, kill the temporary array:
 
 1.  Retrieve scheduled/kept inpatient appointment date/time, clinic ID, appt status, comments, and patient status for patient 99 from 1/1/02 through 1/31/02:
 
-\>D GETAPPT^SDAMA201(99,”1;2;3;6;12”,”R”,3020101,3020131,.SDRESULT,”I”)\>ZW SDRESULT
+\>D GETAPPT^SDAMA201(99,"1;2;3;6;12","R",3020101,3020131,.SDRESULT,"I")\>ZW SDRESULT
 
 SDRESULT=3
 
-\>ZW ^TMP(\$J,”SDAMA201”,”GETAPPT”)
+\>ZW ^TMP(\$J,"SDAMA201","GETAPPT")
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,1)=3020101.10
+^TMP(1000,"SDAMA201","GETAPPT",1,1)=3020101.10
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,2)=130^TOM’S CLINIC
+^TMP(1000,"SDAMA201","GETAPPT",1,2)=130^TOM'S CLINIC
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,3)=”R”
+^TMP(1000,"SDAMA201","GETAPPT",1,3)="R"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,6)=”PATIENT REQUESTS A RIDE HOME”
+^TMP(1000,"SDAMA201","GETAPPT",1,6)="PATIENT REQUESTS A RIDE HOME"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,12)=”I”
+^TMP(1000,"SDAMA201","GETAPPT",1,12)="I"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,1)=3020115.08
+^TMP(1000,"SDAMA201","GETAPPT",2,1)=3020115.08
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,2)= 150^BOB’S CLINIC
+^TMP(1000,"SDAMA201","GETAPPT",2,2)= 150^BOB'S CLINIC
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,3)=”R”
+^TMP(1000,"SDAMA201","GETAPPT",2,3)="R"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,6)=
+^TMP(1000,"SDAMA201","GETAPPT",2,6)=
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,12)=”I”
+^TMP(1000,"SDAMA201","GETAPPT",2,12)="I"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,3,1)=3020115.09
+^TMP(1000,"SDAMA201","GETAPPT",3,1)=3020115.09
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,3,2)= 150^BOB’S CLINIC
+^TMP(1000,"SDAMA201","GETAPPT",3,2)= 150^BOB'S CLINIC
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,3,3)=”R”
+^TMP(1000,"SDAMA201","GETAPPT",3,3)="R"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,3,6)=”WHEELCHAIR REQUESTED”
+^TMP(1000,"SDAMA201","GETAPPT",3,6)="WHEELCHAIR REQUESTED"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,3,12)=”I”
+^TMP(1000,"SDAMA201","GETAPPT",3,12)="I"
 
 37. Retrieve inpatient and outpatient appointment date/time, clinic ID, appointment status, and comments for patient 99 from 1/1/02 at 8 a.m. through 1/31/02 for scheduled/kept appointments:
 
-\>D GETAPPT^SDAMA201(99,”1;2;3;6”,”R”,3020101.08,3020131,.SDRESULT)
+\>D GETAPPT^SDAMA201(99,"1;2;3;6","R",3020101.08,3020131,.SDRESULT)
 
 \>ZW SDRESULT
 
 SDRESULT=2
 
-\>ZW ^TMP(\$J,”SDAMA201”,”GETAPPT”)
+\>ZW ^TMP(\$J,"SDAMA201","GETAPPT")
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,1)=3020101.10
+^TMP(1000,"SDAMA201","GETAPPT",1,1)=3020101.10
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,2)=130^TOM’S CLINIC
+^TMP(1000,"SDAMA201","GETAPPT",1,2)=130^TOM'S CLINIC
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,3)=”R”
+^TMP(1000,"SDAMA201","GETAPPT",1,3)="R"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,1,6)=”PATIENT REQUESTS A RIDE HOME”
+^TMP(1000,"SDAMA201","GETAPPT",1,6)="PATIENT REQUESTS A RIDE HOME"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,1)=3020115.09
+^TMP(1000,"SDAMA201","GETAPPT",2,1)=3020115.09
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,2)= 150^BOB’S CLINIC
+^TMP(1000,"SDAMA201","GETAPPT",2,2)= 150^BOB'S CLINIC
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,3)=”R”
+^TMP(1000,"SDAMA201","GETAPPT",2,3)="R"
 
-^TMP(1000,”SDAMA201”,”GETAPPT”,2,6)=”WHEELCHAIR REQUESTED”
+^TMP(1000,"SDAMA201","GETAPPT",2,6)="WHEELCHAIR REQUESTED"
 
 ## Application Programming Interface—NEXTAPPT
 
@@ -11008,12 +11132,12 @@ Arguments
 
 - SDIEN: Patient IEN (required).
 - SDFIELDS: Field List (optional, each field number separated by a semi-colon).
-- SDAPSTAT: Appointment Status Filter (optional, each value separated by a semi-colon. See “<u>Filters</u>” for default and valid values).
-- SDIOSTAT: Patient Status Filter (optional, see “<u>Filters</u>” for default and valid values).  
+- SDAPSTAT: Appointment Status Filter (optional, each value separated by a semi-colon. See "<u>Filters</u>" for default and valid values).
+- SDIOSTAT: Patient Status Filter (optional, see "<u>Filters</u>" for default and valid values).  
     
   Field List: A NULL value in this parameter results in NO appointment data fields being returned.
 
-REF: For a list of the field numbers and corresponding data available in this API, see “<u>Data Fields</u>.”
+REF: For a list of the field numbers and corresponding data available in this API, see "<u>Data Fields</u>."
 
 Return Values
 
@@ -11023,21 +11147,21 @@ This API returns the following:
 - 0—If no future appointment is found.
 - 1—If a future appointment was found.
 
-If no future appointment is found, then the ^TMP(\$J,”SDAMA201”,”NEXTAPPT”,y) array is *not* generated.
+If no future appointment is found, then the ^TMP(\$J,"SDAMA201","NEXTAPPT",y) array is *not* generated.
 
 If the user enters an optional field list and a future appointment is found, the data for the next appointment is returned in:
 
-^TMP(\$J,”SDAMA201”,”NEXTAPPT”,y) = field y data
+^TMP(\$J,"SDAMA201","NEXTAPPT",y) = field y data
 
-Where “y” is the field number requested.
+Where "y" is the field number requested.
 
 If an error occurs, the error codes and messages are returned in:
 
-^TMP(\$J,”SDAMA201”,”NEXTAPPT”,”ERROR”,error code) = error messageREF: For a list of error codes and messages, see “<u>Error Codes</u>”.
+^TMP(\$J,"SDAMA201","NEXTAPPT","ERROR",error code) = error messageREF: For a list of error codes and messages, see "<u>Error Codes</u>".
 
 Other: When processing has completed, kill the temporary array:
 
-^TMP(\$J,”SDAMA201”,”NEXTAPPT”)
+^TMP(\$J,"SDAMA201","NEXTAPPT")
 
 NEXTAPPT Examples
 
@@ -11051,31 +11175,31 @@ No appointment data is returned from the above example, because no fields were p
 
 38. If Patient 99 has a future scheduled inpatient appointment, retrieve appointment date/time, clinic ID, appointment status, and patient status:
 
-I \$\$NEXTAPPT^SDAMA201(99,”1;2;3;12”,”R”,”I”) DS NEXTDATE=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,1))S CLINIEN=+\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,2))S APPTSTAT=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,3))S PATSTATS=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,12))
+I \$\$NEXTAPPT^SDAMA201(99,"1;2;3;12","R","I") DS NEXTDATE=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",1))S CLINIEN=+\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",2))S APPTSTAT=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",3))S PATSTATS=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",12))
 
-\>ZW ^TMP(\$J,”SDAMA201”,”NEXTAPPT”)
+\>ZW ^TMP(\$J,"SDAMA201","NEXTAPPT")
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,1)=3030115.10
+^TMP(1000,"SDAMA201","NEXTAPPT",1)=3030115.10
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,2)=130^SAM’S CLINIC
+^TMP(1000,"SDAMA201","NEXTAPPT",2)=130^SAM'S CLINIC
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,3)=R
+^TMP(1000,"SDAMA201","NEXTAPPT",3)=R
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,12)=”I”
+^TMP(1000,"SDAMA201","NEXTAPPT",12)="I"
 
 39. If Patient 111 has a future appointment (scheduled, cancelled, or no-show), retrieve appointment date/time, clinic ID, appointment status, and patient status:
 
-I \$\$NEXTAPPT^SDAMA201(111,”1;2;3;12”) DS NEXTDATE=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,1))S CLINIEN=+\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,2))S APPTSTAT=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,3))S PATSTATS=\$G(^TMP(\$J,”SDAMA201”,”NEXTAPPT”,12))
+I \$\$NEXTAPPT^SDAMA201(111,"1;2;3;12") DS NEXTDATE=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",1))S CLINIEN=+\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",2))S APPTSTAT=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",3))S PATSTATS=\$G(^TMP(\$J,"SDAMA201","NEXTAPPT",12))
 
-\>ZW ^TMP(\$J,”SDAMA201”,”NEXTAPPT”)
+\>ZW ^TMP(\$J,"SDAMA201","NEXTAPPT")
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,1)=3030130.10
+^TMP(1000,"SDAMA201","NEXTAPPT",1)=3030130.10
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,2)=130^SAM’S CLINIC
+^TMP(1000,"SDAMA201","NEXTAPPT",2)=130^SAM'S CLINIC
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,3)=C
+^TMP(1000,"SDAMA201","NEXTAPPT",3)=C
 
-^TMP(1000,”SDAMA201”,”NEXTAPPT”,12)=””
+^TMP(1000,"SDAMA201","NEXTAPPT",12)=""
 
 A cancelled appointment was returned above, because the appointment status filter was undefined, and it was the next appointment on the file. The patient status was returned with a value of NULL.
 
@@ -11095,74 +11219,74 @@ Description
 
 Returns requested clinic appointment information for a specific clinic ID. To use this API, subscribe to Integration Agreement \#3869.
 
-> **NOTE:** This API returns appointment information for “regular”, “no-show”, and “no action taken” appointments only; while the appointment data is located in VistA, cancelled appointments are *not* returned, because they are *not* retained on the Hospital Location sub-files (44.001, 44.003).
+> **NOTE:** This API returns appointment information for "regular", "no-show", and "no action taken" appointments only; while the appointment data is located in VistA, cancelled appointments are *not* returned, because they are *not* retained on the Hospital Location sub-files (44.001, 44.003).
 
 Arguments
 
 - SDIEN: Clinic IEN (required).
 - SDFIELDS: Field List (optional, each field number separated by a semi-colon).
-- SDAPSTAT: Appointment Status Filter (optional, each value separated by a semi-colon. See “Filters” for default and valid values).
+- SDAPSTAT: Appointment Status Filter (optional, each value separated by a semi-colon. See "Filters" for default and valid values).
 - SDSTART: Start Date/time (optional, internal VA FileMan format).
 - SDEND: End Date/time (optional, internal VA FileMan format).
 - SDRESULT: Local variable to hold returned appointment count (optional, passed by reference).
-- SDIOSTAT: Patient Status Filter (optional, see “<u>Filters</u>” for default and valid values).  
+- SDIOSTAT: Patient Status Filter (optional, see "<u>Filters</u>" for default and valid values).  
     
   Field List: A NULL value in this parameter results in ALL appointment data fields being returned.
 
-REF: For a list of the field numbers and corresponding data available in this API, see “<u>Data Fields</u>.”
+REF: For a list of the field numbers and corresponding data available in this API, see "<u>Data Fields</u>."
 
 Return Values
 
 If no errors occur and appointments are found, SDRESULT contains the appointment count and the data is returned in:
 
-^TMP(\$J,”SDAMA202”,”GETPLIST”,x,y) = field y data
+^TMP(\$J,"SDAMA202","GETPLIST",x,y) = field y data
 
-Where “x” is an incremental appointment count (starting with 1) and “y” is the field number requested.
+Where "x" is an incremental appointment count (starting with 1) and "y" is the field number requested.
 
-- If no errors occur and no appointments are found, then SDRESULT contains a value of 0 and the ^TMP(\$J,”SDAMA202”,”GETPLIST”,x,y) array is *not* be generated.
+- If no errors occur and no appointments are found, then SDRESULT contains a value of 0 and the ^TMP(\$J,"SDAMA202","GETPLIST",x,y) array is *not* be generated.
 - If an error occurs, SDRESULT is –1 and the error codes and messages are returned in:
 
-^TMP(\$J,”SDAMA202”,”GETPLIST”,”ERROR”,error code) = error messageREF: For a list of error codes and messages, see “<u>Error Codes</u>.”
+^TMP(\$J,"SDAMA202","GETPLIST","ERROR",error code) = error messageREF: For a list of error codes and messages, see "<u>Error Codes</u>."
 
 Other: When processing has completed, kill the temporary array:
 
-^TMP(\$J,”SDAMA202”,”GETPLIST”)
+^TMP(\$J,"SDAMA202","GETPLIST")
 
 GETPLIST Example
 
 Retrieve inpatient and outpatient appointment date/time, patient ID, and length of appointment for clinic 100 for 1/1/02 from 8 a.m. to 10 a.m.:
 
-\>D GETPLIST^SDAMA202(100,”1;4;5”,,3020101.08,3020101.1,.SDRESULT)
+\>D GETPLIST^SDAMA202(100,"1;4;5",,3020101.08,3020101.1,.SDRESULT)
 
 \>ZW SDRESULT
 
 SDRESULT=4
 
-\>ZW ^TMP(\$J,”SDAMA202”,”GETPLIST”)
+\>ZW ^TMP(\$J,"SDAMA202","GETPLIST")
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,1,1)=3020101.08
+^TMP(1000,"SDAMA202","GETPLIST",1,1)=3020101.08
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,1,4)=4564^SDPATIENT,ONE
+^TMP(1000,"SDAMA202","GETPLIST",1,4)=4564^SDPATIENT,ONE
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,1,5)=60
+^TMP(1000,"SDAMA202","GETPLIST",1,5)=60
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,2,1)=3020101.09
+^TMP(1000,"SDAMA202","GETPLIST",2,1)=3020101.09
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,2,4)=9007^SDPATIENT,TWO
+^TMP(1000,"SDAMA202","GETPLIST",2,4)=9007^SDPATIENT,TWO
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,2,5)=30
+^TMP(1000,"SDAMA202","GETPLIST",2,5)=30
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,3,1)=3020101.093
+^TMP(1000,"SDAMA202","GETPLIST",3,1)=3020101.093
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,3,4)=24389^SDPATIENT,THREE
+^TMP(1000,"SDAMA202","GETPLIST",3,4)=24389^SDPATIENT,THREE
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,3,5)=30
+^TMP(1000,"SDAMA202","GETPLIST",3,5)=30
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,4,1)=3020101.1
+^TMP(1000,"SDAMA202","GETPLIST",4,1)=3020101.1
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,4,4)=40374^SDPATIENT,FOUR
+^TMP(1000,"SDAMA202","GETPLIST",4,4)=40374^SDPATIENT,FOUR
 
-^TMP(1000,”SDAMA202”,”GETPLIST”,4,5)=30
+^TMP(1000,"SDAMA202","GETPLIST",4,5)=30
 
 ## Application Programming Interface—PATAPPT
 
@@ -11206,9 +11330,9 @@ ZW ^TMP(634,"SDAMA204","PATAPPT","ERROR")
 
 ^TMP(634,"SDAMA204","PATAPPT","ERROR",114)="INVALID PATIENT ID"
 
-See “<u>Error Codes</u>” for a list of error codes and messages.
+See "<u>Error Codes</u>" for a list of error codes and messages.
 
-This function does *not* remove the ^TMP node created when an error occurs. It is the calling program’s responsibility to delete the node.
+This function does *not* remove the ^TMP node created when an error occurs. It is the calling program's responsibility to delete the node.
 
 PATAPPT Examples
 
@@ -11257,7 +11381,7 @@ The following examples show the initialization of variable X with the value from
 | 108        | FACILITY ID IS REQUIRED                                                |
 | 109        | INVALID APPOINTMENT STATUS FILTER                                      |
 | 110        | ID MUST BE NUMERIC                                                     |
-| 111        | START DATE CAN’T BE AFTER END DATE                                     |
+| 111        | START DATE CAN'T BE AFTER END DATE                                     |
 | 112        | INVALID PATIENT STATUS FILTER                                          |
 | 113        | APPT STATUS AND PATIENT STATUS FILTER COMBINATION UNSUPPORTED IN VISTA |
 | 114        | INVALID PATIENT ID                                                     |
@@ -11309,7 +11433,7 @@ The following examples show the initialization of variable X with the value from
 <td>ID^name</td>
 <td>Clinic ID and name.</td>
 <td><p>150^CARDIOLOGY</p>
-<p>32^TOM’S CLINIC</p></td>
+<p>32^TOM'S CLINIC</p></td>
 </tr>
 <tr class="odd">
 <td>3</td>
@@ -11366,7 +11490,7 @@ The following examples show the initialization of variable X with the value from
 <td>OVERBOOK</td>
 <td>TEXT</td>
 <td>Y or N</td>
-<td>“<strong>Y</strong>” if appointment is an overbook else “<strong>N</strong>”.</td>
+<td>"<strong>Y</strong>" if appointment is an overbook else "<strong>N</strong>".</td>
 <td><p>Y</p>
 <p>N</p></td>
 </tr>
@@ -11416,7 +11540,7 @@ The following examples show the initialization of variable X with the value from
 <td>For future, scheduled appointments, the current status of the patient. For past, kept appointments, the status at the time of the appointment. For cancelled and no-show appointments, this is <strong>NULL</strong>.</td>
 <td><p>I</p>
 <p>O</p>
-<p>“”</p></td>
+<p>""</p></td>
 </tr>
 </tbody>
 </table>
@@ -11431,7 +11555,7 @@ The following examples show the initialization of variable X with the value from
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The SDAPSTAT filter parameter can be used if you want to screen on appointment status. If this parameter contains a value or set of values, then those appointments are returned in the resulting array set. Request more than one value in the filter by separating them with a semi-colon (i.e., SDAPSTAT=”R;NT”).
+The SDAPSTAT filter parameter can be used if you want to screen on appointment status. If this parameter contains a value or set of values, then those appointments are returned in the resulting array set. Request more than one value in the filter by separating them with a semi-colon (i.e., SDAPSTAT="R;NT").
 
 A NULL or undefined value results in all being returned.
 
@@ -11499,7 +11623,7 @@ The SDIOSTAT filter parameter can be used if you wish to retrieve only inpatient
 
 Due to the design of VistA, the PATIENT STATUS (#12; new field) of appointments that are Cancelled, No-Show, or No Action Taken, are *not* available. If the PATIENT STATUS field is requested, a NULL value is returned in the ^TMP output global for this field. Patient status is determined by analyzing the value of the STATUS (#3) field on the PATIENT (#2.98) subfile.
 
-Inpatient appointments contain an “I” in this field and are identified only if the field has *not* been changed (Cancelled, etc.). Therefore, if the user wishes to specifically request only inpatient appointments (using the Patient Status filter = “I”), then the Appointment Status filter *must* be set to “R”.
+Inpatient appointments contain an "I" in this field and are identified only if the field has *not* been changed (Cancelled, etc.). Therefore, if the user wishes to specifically request only inpatient appointments (using the Patient Status filter = "I"), then the Appointment Status filter *must* be set to "R".
 
 Any other value in the Appointment Status filter (including NULL or undefined) causes an error (#113) to be generated and returned in the ^TMP global. The same is true when specifically requesting outpatient appointments. To retrieve No-Show, Cancelled, or No Action Taken appointments, the Patient Status filter *must* be left NULL or undefined.
 
@@ -11625,7 +11749,7 @@ Declaration
 
 Description
 
-This API returns encounter date/time for a clinic IEN and patient DFN. If the patient does *not* have an encounter in the specified clinic today (or yesterday if current time is before 6 a.m.), then the patient’s scheduled appointment date/time for that clinic, today or in the future (or yesterday if current time is before 6 a.m.), is returned. This API should be called using an extrinsic call.
+This API returns encounter date/time for a clinic IEN and patient DFN. If the patient does *not* have an encounter in the specified clinic today (or yesterday if current time is before 6 a.m.), then the patient's scheduled appointment date/time for that clinic, today or in the future (or yesterday if current time is before 6 a.m.), is returned. This API should be called using an extrinsic call.
 
 Arguments
 
@@ -11677,14 +11801,14 @@ Configuring Bar Code Label Printers
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Veteran Identification Card (VIC) provided by the VIC Replacement project does *not* support embossing of protected health information. Instead, the Print Patient Label \[DG PRINT PATIENT LABEL\] option allows labels to be printed with the patient’s protected health information.
+The Veteran Identification Card (VIC) provided by the VIC Replacement project does *not* support embossing of protected health information. Instead, the Print Patient Label \[DG PRINT PATIENT LABEL\] option allows labels to be printed with the patient's protected health information.
 
 The labels contain the following (see <u>Figure 25</u>):
 
-- Patient’s name
+- Patient's name
 - Social security number
 - Date of birth
-- (Optional fourth line) Contains the patient’s inpatient location (ward and room#)
+- (Optional fourth line) Contains the patient's inpatient location (ward and room#)
 
 <span id="_Ref54771807" class="anchor"></span>Figure 25: Sample Label
 
@@ -11915,7 +12039,7 @@ ABBREVIATION: ST
 
 FULL NAME: START TEXT
 
-CONTROL CODE: W "\<STX\>”
+CONTROL CODE: W "\<STX\>"
 
 NUMBER: 4
 
@@ -11963,7 +12087,7 @@ ABBREVIATION: ST
 
 FULL NAME: START TEXT
 
-CONTROL CODE: W "\<STX\>”
+CONTROL CODE: W "\<STX\>"
 
 NUMBER: 4
 
@@ -11994,7 +12118,7 @@ This transmission has been stopped with Scheduling patch SD\*5.3\*640. This patc
 - Ambulatory Care Nightly Transmission to NPCDB \[SCDX AMBCAR NIGHTLY XMIT\].
 - Nightly job for PM data extract \[SDOQM PM NIGHTLY JOB\].
 - Schedule APM Performance Monitor Task \[SCRPW APM TASK JOB\].
-- Place the following options “out of order”:
+- Place the following options "out of order":
 - Ambulatory Care Nightly Transmission to NPCDB \[SCDX AMBCAR NIGHTLY XMIT\].
 - Retransmit Ambulatory Care Data by Date Range \[SCDX AMBCAR RETRANS BY DATE\].
 - Retransmit Selected Error Code \[SCDX AMBCAR RETRANS ERROR\].
@@ -12025,7 +12149,7 @@ In order to capture the most information, specific outpatient events generate me
 
 The mode for capturing data for outpatient events was chosen to capture as much of the data as possible.
 
-REF: For further information on the mode for capturing the outpatient events, see “<u>Data Capture and Transmission</u>.”
+REF: For further information on the mode for capturing the outpatient events, see "<u>Data Capture and Transmission</u>."
 
 ### Data Capture and Transmission
 
@@ -12432,7 +12556,7 @@ Any time any of the segments described in this section are included in a message
 <td></td>
 <td>Batch Receiving Facility</td>
 <td><p>When originating from facility: <strong>200</strong></p>
-<p>When originating from NPCDB: Station’s facility number</p></td>
+<p>When originating from NPCDB: Station's facility number</p></td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -12569,7 +12693,7 @@ Any time any of the segments described in this section are included in a message
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For information on the Patient Identification (PID) segment, see [Section 3.15, “PID-Patient Identification Segment” in the *MPI/PD HL7 Interface Specification* manual found on the VA Software Documentation Library (VDL)](http://www.va.gov/vdl/application.asp?appid=16).
+For information on the Patient Identification (PID) segment, see [Section 3.15, "PID-Patient Identification Segment" in the *MPI/PD HL7 Interface Specification* manual found on the VA Software Documentation Library (VDL)](http://www.va.gov/vdl/application.asp?appid=16).
 
 ### PD1—Patient Additional Demographic Segment
 
@@ -14313,25 +14437,25 @@ For information on the Patient Identification (PID) segment, see [Section 3.15, 
 <td></td>
 <td></td>
 <td><p>REGISTRATION ONLY REASON</p>
-<p>‘1’ - C&amp;P DISABILITY BENEFITS EXAM</p>
-<p>‘2’ - ACTIVE DUTY</p>
-<p>‘3’ - SERVICE CONNECTED ONLY</p>
-<p>‘4’ - EXPOSURE REGISTRY EXAM</p>
-<p>‘5’ - RESEARCH</p>
-<p>‘6’ - HUMANITARIAN/EMERGENCY</p>
-<p>‘7’ - EMPLOYEE</p>
-<p>‘8’ - BENEFICIARY</p>
-<p>‘9’ - OTHER THAN HONORABLE (OTH)</p>
-<p>‘10’ - MARRIAGE/FAMILY COUNSELING</p>
-<p>‘11’ - COLLATERAL (OTHER)</p>
-<p>‘12’ - ART/IVF</p>
-<p>‘13’ - NEWBORN</p>
-<p>‘14’ - LEGISLATIVE MANDATE</p>
-<p>‘15’ - OTHER</p>
-<p>‘16’ - NORTH CHICAGO ACTIVE DUTY</p>
-<p>‘17’ - UNANSWERED</p>
-<p>‘18’ - CAREGIVER</p>
-<p>‘19’ - VHA TRANSPLANT PROGRAM</p></td>
+<p>'1' - C&amp;P DISABILITY BENEFITS EXAM</p>
+<p>'2' - ACTIVE DUTY</p>
+<p>'3' - SERVICE CONNECTED ONLY</p>
+<p>'4' - EXPOSURE REGISTRY EXAM</p>
+<p>'5' - RESEARCH</p>
+<p>'6' - HUMANITARIAN/EMERGENCY</p>
+<p>'7' - EMPLOYEE</p>
+<p>'8' - BENEFICIARY</p>
+<p>'9' - OTHER THAN HONORABLE (OTH)</p>
+<p>'10' - MARRIAGE/FAMILY COUNSELING</p>
+<p>'11' - COLLATERAL (OTHER)</p>
+<p>'12' - ART/IVF</p>
+<p>'13' - NEWBORN</p>
+<p>'14' - LEGISLATIVE MANDATE</p>
+<p>'15' - OTHER</p>
+<p>'16' - NORTH CHICAGO ACTIVE DUTY</p>
+<p>'17' - UNANSWERED</p>
+<p>'18' - CAREGIVER</p>
+<p>'19' - VHA TRANSPLANT PROGRAM</p></td>
 </tr>
 <tr class="even">
 <td>18</td>
@@ -14351,11 +14475,11 @@ For information on the Patient Identification (PID) segment, see [Section 3.15, 
 <td></td>
 <td><p>SOURCE OF REGISTRATION</p>
 <p>Valid values:</p>
-<p>‘1’ - ‘VAMC’</p>
-<p>‘2’ - ‘HEC</p>
-<p>‘3’ - ‘HCA’</p>
-<p>‘4’ – CARMA</p>
-<p>‘5’ - OTHER</p></td>
+<p>'1' - 'VAMC'</p>
+<p>'2' - 'HEC</p>
+<p>'3' - 'HCA'</p>
+<p>'4' – CARMA</p>
+<p>'5' - OTHER</p></td>
 </tr>
 </tbody>
 </table>
@@ -14387,7 +14511,7 @@ The Outpatient Event Driver is triggered under the following circumstances:
 - When stop codes for an outpatient appointment are added or edited.
 - When a check out creates an occasion of service.
 
-Taking advantage of the outpatient event driver, this triggers an A08 message to be sent. The receiving system replaces any data that exists with the “new” data that is transmitted with this message.
+Taking advantage of the outpatient event driver, this triggers an A08 message to be sent. The receiving system replaces any data that exists with the "new" data that is transmitted with this message.
 
 | Code          | Description                                 |
 |---------------|---------------------------------------------|
@@ -14418,7 +14542,7 @@ Taking advantage of the outpatient event driver, this triggers an A08 message to
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a check out is deleted, this message instructs the receiver to delete the information for this patient’s visit.
+When a check out is deleted, this message instructs the receiver to delete the information for this patient's visit.
 
 | Code | Description                     |
 |------|---------------------------------|
@@ -14883,7 +15007,7 @@ CODE (#3) field in the RELIGION (#13) file. <u>Table 123</u> lists Table VA08—
 | 35    | ANGLICAN                     |
 | 36    | ANIMISM                      |
 | 37    | ATHEISM                      |
-| 38    | BABI & BAHA’I FAITHS         |
+| 38    | BABI & BAHA'I FAITHS         |
 | 39    | BON                          |
 | 40    | CAO DAI                      |
 | 41    | CELTICISM                    |
@@ -15384,7 +15508,7 @@ VistA Scheduling uses HL7 to send updated Return To Clinic (RTC) appointments fr
 | 35    | ANGLICAN                     |
 | 36    | ANIMISM                      |
 | 37    | ATHEISM                      |
-| 38    | BABI & BAHA’I FAITHS         |
+| 38    | BABI & BAHA'I FAITHS         |
 | 39    | BON                          |
 | 40    | CAO DAI                      |
 | 41    | CELTICISM                    |
@@ -15449,11 +15573,11 @@ VistA Scheduling uses HL7 to send updated Return To Clinic (RTC) appointments fr
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a Veteran’s ID Card (VIC) Image Capture workstation retrieves demographic data from VistA, a record is created in a VistA file to indicate that a VIC request is pending under the following exception conditions.
+When a Veteran's ID Card (VIC) Image Capture workstation retrieves demographic data from VistA, a record is created in a VistA file to indicate that a VIC request is pending under the following exception conditions.
 
 - The patient does *not* have a National Integrated Control Number (ICN).
-- The eligibility/enrollment information needed to determine the patient’s eligibility for a VIC is incomplete.
-- The current status of the Veteran’s claim for Purple Heart eligibility is either pending or in-process.
+- The eligibility/enrollment information needed to determine the patient's eligibility for a VIC is incomplete.
+- The current status of the Veteran's claim for Purple Heart eligibility is either pending or in-process.
 
 A Health Level 7 (HL7) message is used to notify the National Card Management Directory (NCMD) when these exceptions have been resolved.
 
@@ -15474,7 +15598,7 @@ The formats of these messages conform to the Version 2.4 HL7 Interface Standards
 The transmission of VIC requests from VistA to the NCMD assumes the following.
 
 - All VistA sites have installed VistA HL7 software and it is operational.
-- The Veteran’s demographics and digital photograph have been previously loaded into the NCMD.
+- The Veteran's demographics and digital photograph have been previously loaded into the NCMD.
 
 ## Message Content
 
@@ -15488,7 +15612,7 @@ The data sent in the HL7 messages is limited to the information that is required
 
 The following event trigger generates a General Order Message (ORM~O01).
 
-VistA re-evaluates a pending VIC card request and the associated patient has a nationally assigned ICN and the necessary eligibility/enrollment information needed to determine the patient’s VIC eligibility.
+VistA re-evaluates a pending VIC card request and the associated patient has a nationally assigned ICN and the necessary eligibility/enrollment information needed to determine the patient's VIC eligibility.
 
 > **NOTE:** Any modification made to the VistA database in *non*-standard ways, such as a direct global set by an application or by M code, is *not* captured.
 
@@ -15640,7 +15764,7 @@ This section describes the message control segments that are contained in messag
 <td></td>
 <td></td>
 <td>Receiving Facility</td>
-<td>Receiving station’s facility number from Institution field of HL Logical Link file.</td>
+<td>Receiving station's facility number from Institution field of HL Logical Link file.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -15838,7 +15962,7 @@ This section describes the message control segments that are contained in messag
 <td></td>
 <td></td>
 <td>Set ID - Patient ID</td>
-<td>Always set to “<strong>1</strong>”.</td>
+<td>Always set to "<strong>1</strong>".</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -15863,8 +15987,8 @@ This section describes the message control segments that are contained in messag
 <li><p>Component 1: ICN w/checksum</p></li>
 <li><p>Component 2: <strong>NULL</strong></p></li>
 <li><p>Component 3: <strong>NULL</strong></p></li>
-<li><p>Component 4: Assigning authority (subcomponent 1: “<strong>USVHA</strong>”, subcomponent 3: “<strong>L</strong>”</p></li>
-<li><p>Component 5: Type “<strong>NI</strong>”</p></li>
+<li><p>Component 4: Assigning authority (subcomponent 1: "<strong>USVHA</strong>", subcomponent 3: "<strong>L</strong>"</p></li>
+<li><p>Component 5: Type "<strong>NI</strong>"</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -16132,7 +16256,7 @@ This section describes the message control segments that are contained in messag
 | 10  | 120 | XCN |     |      |      | Entered By                | Not used.                                                      |
 | 11  | 120 | XCN |     |      |      | Verified By               | Not used.                                                      |
 | 12  | 120 | XCN |     |      |      | Ordering Provider         | Not used.                                                      |
-| 13  | 80  | PL  |     |      |      | Enterer’s Location        | Not used.                                                      |
+| 13  | 80  | PL  |     |      |      | Enterer's Location        | Not used.                                                      |
 | 14  | 40  | XTN |     | Y/2  |      | Call Back Phone Number    | Not used.                                                      |
 | 15  | 26  | TS  |     |      |      | Order Effective Date/Time | Not used.                                                      |
 | 16  | 200 | CE  |     |      |      | Order Control Code Reason | Not used.                                                      |
@@ -16150,7 +16274,7 @@ This section describes the message control segments that are contained in messag
 
 | SEQ | LEN | DT  | R/O | RP/# | TBL# | Element Name                | VistA Description                                          |
 |-----|-----|-----|-----|------|------|-----------------------------|------------------------------------------------------------|
-| 1   | 4   | SI  |     |      |      | Requisition Line Number     | Always set to “1”.                                     |
+| 1   | 4   | SI  |     |      |      | Requisition Line Number     | Always set to "1".                                     |
 | 2   | 60  | CE  | C   |      |      | Item Code – Internal        | Not used.                                                  |
 | 3   | 60  | CE  | C   |      |      | Item Code – External        | NCMD Card ID (#.01) field in the VIC REQUEST (#39.6) file. |
 | 4   | 60  | CE  | C   |      |      | Hospital Item Code          | Not used.                                                  |
@@ -16222,9 +16346,9 @@ This section describes the message control segments that are contained in messag
 <td>Y</td>
 <td></td>
 <td>Comment</td>
-<td><p><strong>1<sup>st</sup> repetition:</strong> String “<strong>POW:</strong>” followed by single character Prisoner of War indicator calculated from the PATIENT ELIGIBILITIES (#361) field of the PATIENT (#2) file and the current enrollment status derived from the supported call $$STATUS^DGENA.</p>
+<td><p><strong>1<sup>st</sup> repetition:</strong> String "<strong>POW:</strong>" followed by single character Prisoner of War indicator calculated from the PATIENT ELIGIBILITIES (#361) field of the PATIENT (#2) file and the current enrollment status derived from the supported call $$STATUS^DGENA.</p>
 <p>Example: <strong>POW:Y</strong></p>
-<p><strong>2<sup>nd</sup> repetition:</strong> String “<strong>PH:</strong>” followed by single character Purple Heart indicator calculated from CURRENT PH INDICATOR (#.531) and CURRENT PURPLE HEART STATUS (#.532) fields of the PATIENT (#2) file.</p>
+<p><strong>2<sup>nd</sup> repetition:</strong> String "<strong>PH:</strong>" followed by single character Purple Heart indicator calculated from CURRENT PH INDICATOR (#.531) and CURRENT PURPLE HEART STATUS (#.532) fields of the PATIENT (#2) file.</p>
 <p>Example: <strong>PH:N</strong></p></td>
 </tr>
 <tr class="even">
@@ -16726,7 +16850,7 @@ This section describes the message control segments that are contained in messag
 <td></td>
 <td></td>
 <td>Receiving Facility</td>
-<td>Receiving station’s facility number from Institution field of HL Logical Link file.</td>
+<td>Receiving station's facility number from Institution field of HL Logical Link file.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -16963,7 +17087,7 @@ This section describes the message control segments that are contained in messag
 <td></td>
 <td></td>
 <td>Receiving Facility</td>
-<td>Receiving station’s facility number from Institution field of HL Logical Link file.</td>
+<td>Receiving station's facility number from Institution field of HL Logical Link file.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -17144,7 +17268,7 @@ This section describes the message control segments that are contained in messag
 <td></td>
 <td></td>
 <td>Set ID - Patient ID</td>
-<td>Always set to “<strong>1</strong>”.</td>
+<td>Always set to "<strong>1</strong>".</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -17169,8 +17293,8 @@ This section describes the message control segments that are contained in messag
 <li><p>Component 1: ICN w/checksum</p></li>
 <li><p>Component 2: DFN</p></li>
 <li><p>Component 3: <strong>NULL</strong></p></li>
-<li><p>Component 4: Assigning authority (subcomponent 1: ‘USVHA’, subcomponent 3: “<strong>L</strong>”.</p></li>
-<li><p>Component 5: Type “<strong>NI</strong>”.</p></li>
+<li><p>Component 4: Assigning authority (subcomponent 1: 'USVHA', subcomponent 3: "<strong>L</strong>".</p></li>
+<li><p>Component 5: Type "<strong>NI</strong>".</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -17935,9 +18059,9 @@ The PID segment has patient identification information. <u>Table 159</u> lists t
 | 3   | 250 | CX  | R   | Y    |      | 106   | Patient Identifier List           | Patient ICN^^^USAVHA^NI~DFN.            |
 | 4   | 20  | CX  | B   | Y    |      | 107   | Alternate Patient ID - PID        | Not used.                               |
 | 5   | 250 | XPN | R   | Y    |      | 108   | Patient Name                      | Last Name^First Name^MI^^^^^L.          |
-| 6   | 250 | XPN | O   | Y    |      | 109   | Mother’s Maiden Name              | Not used.                               |
+| 6   | 250 | XPN | O   | Y    |      | 109   | Mother's Maiden Name              | Not used.                               |
 | 7   | 26  | TS  | O   |      |      | 110   | Date/Time of Birth                | Patient Date of Birth.                  |
-| 8   | 1   | IS  | O   |      | 1    | 111   | Administrative Sex                | Patient’s Gender.                       |
+| 8   | 1   | IS  | O   |      | 1    | 111   | Administrative Sex                | Patient's Gender.                       |
 | 9   | 250 | XPN | B   | Y    |      | 112   | Patient Alias                     | Not used.                               |
 | 10  | 250 | CE  | O   | Y    | 5    | 113   | Race                              | Not used.                               |
 | 11  | 250 | XAD | O   | Y    |      | 114   | Patient Address                   | Not used.                               |
@@ -18860,7 +18984,7 @@ Standardization of the VistA RACE (#10), MARITAL STATUS (#11), and RELIGION (#13
 - Healthcare quality
 - Efficiency
 
-Mapping tables serve as an interim solution to achieving VA’s ultimate goal of providing VA and its partner institutions with applications that can be used natively without the need for mapping tables. The use of a standard terminology also facilitates the ability to provide more automated decision support for patient care. Because the Demographics Domain contributes a substantial amount of valuable clinical data, the importance of having this data in a standard, structured, easily mineable format is imperative.
+Mapping tables serve as an interim solution to achieving VA's ultimate goal of providing VA and its partner institutions with applications that can be used natively without the need for mapping tables. The use of a standard terminology also facilitates the ability to provide more automated decision support for patient care. Because the Demographics Domain contributes a substantial amount of valuable clinical data, the importance of having this data in a standard, structured, easily mineable format is imperative.
 
 This product *shall* run on standard hardware platforms used by the Department of Veterans Affairs (VA) Healthcare facilities.
 
@@ -18882,7 +19006,7 @@ These new fields are set as a Multiple in order to accommodate the potential nee
 - Marital Status—MASTER MARITAL STATUS (#11.99)
 - Religion—MASTER RELIGION (#13.99)
 - The system includes new VistA menu options to provide a method of interactively associating local race, marital status, and religion file entries to the corresponding master file if they have *not* already been associated via the Master File Server (MFS).
-- The system includes new VistA reports to list the local race, marital status, and religion files’ associations to the corresponding master file.
+- The system includes new VistA reports to list the local race, marital status, and religion files' associations to the corresponding master file.
 - The entirety of the work within the scope of this effort has no impact on Graphic User Interfaces (GUI) within the VA network, and does *not* impact the workflow of clinicians.
 
 Refer to the following CTT &DM NDS documents for additional information:
@@ -18895,7 +19019,7 @@ Refer to the following CTT &DM NDS documents for additional information:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This patch implements demographics domain changes required by the Collaborative Terminology Tooling & Data Management (CTT & DM) Native Domain Standardization (NDS) project. This patch adds the following new “Master” files containing standard sets of concepts from the Health Level Seven (HL7) Standards Development Organization (SDO):
+This patch implements demographics domain changes required by the Collaborative Terminology Tooling & Data Management (CTT & DM) Native Domain Standardization (NDS) project. This patch adds the following new "Master" files containing standard sets of concepts from the Health Level Seven (HL7) Standards Development Organization (SDO):
 
 - RACE MASTER (#10.99)
 - MASTER MARITAL STATUS (#11.99)
@@ -18903,7 +19027,7 @@ This patch implements demographics domain changes required by the Collaborative 
 
 New fields have also been added to the RACE (#10), MARITAL STATUS (#11), and RELIGION (#13) files pointing to the corresponding master file for the purpose of interoperability, by allowing each VA concept (Race, Marital Status, Religion) to be associated with a standard, interoperable, concept.
 
-The RACE MASTER (#10.99), MASTER MARITAL STATUS (#11.99), and MASTER RELIGION (#13.99) files have been “locked down” to prevent local changes to the contents of the file; as each of these files contain entries representing the sets of concept names and codes from the respective Standards Development Organizations, and a VA Unique Identifier (VUID) identifying the standard SDO concept across the VHA enterprise.
+The RACE MASTER (#10.99), MASTER MARITAL STATUS (#11.99), and MASTER RELIGION (#13.99) files have been "locked down" to prevent local changes to the contents of the file; as each of these files contain entries representing the sets of concept names and codes from the respective Standards Development Organizations, and a VA Unique Identifier (VUID) identifying the standard SDO concept across the VHA enterprise.
 
 The Master File Association \[DGMF AMAIN\] and Master File Reports \[DGMF RMAIN\] VistA menu options are accessible via the following menu path:
 
@@ -19119,7 +19243,7 @@ Also, please refer to the following sites:
 </tr>
 <tr class="even">
 <td>Computerized Patient Record System (CPRS)</td>
-<td>An integrated, comprehensive suite of clinical applications in VistA that work together to create a longitudinal view of the Veteran’s Electronic Medical Record (EMR). CPRS capabilities include a Real Time Order Checking System, a Notification System to alert clinicians of clinically significant events, Consult/Request tracking and a Clinical Reminder System. CPRS provides access to most components of the patient chart.</td>
+<td>An integrated, comprehensive suite of clinical applications in VistA that work together to create a longitudinal view of the Veteran's Electronic Medical Record (EMR). CPRS capabilities include a Real Time Order Checking System, a Notification System to alert clinicians of clinically significant events, Consult/Request tracking and a Clinical Reminder System. CPRS provides access to most components of the patient chart.</td>
 </tr>
 <tr class="odd">
 <td>CPRS</td>
@@ -19172,7 +19296,7 @@ Also, please refer to the following sites:
 <tr class="odd">
 <td>Mental Health Treatment Coordinator (MHTC)</td>
 <td><p>The liaison between the patient and the mental health system at a VA site. There is only one Mental Health treatment coordinator per patient, and they are the key coordinator for behavioral health services care.</p>
-<p>For more information about the MH treatment coordinator’s responsibilities, see the VHA Handbook 1160.1, “Uniform Mental Health Services in VA Medical Centers for Clinics,” page 3-4.</p>
+<p>For more information about the MH treatment coordinator's responsibilities, see the VHA Handbook 1160.1, "Uniform Mental Health Services in VA Medical Centers for Clinics," page 3-4.</p>
 <p><strong>NOTE:</strong> In the handbook, the MHTC is called the Principal Mental Health Provider.</p></td>
 </tr>
 <tr class="even">
@@ -19415,7 +19539,7 @@ Also, please refer to the following sites:
 - Edit Outpatient Encounter
 - Enc. by DSS ID / DSS ID by Freq. (OP0, OP1, OP2)
 - Enc. by IP DSS ID / DSS ID by Freq. (IP0, IP1, IP2)
-- Encounter ‘Action Required’ Report
+- Encounter 'Action Required' Report
 - Encounter Activity Report
 - Encounters Transmitted with MT Status of U
 - Enrollment Review Date Entry

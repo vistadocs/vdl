@@ -8,41 +8,54 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: DICOM Gateway Installation GuideProperty of the US
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '68'
+- '79.2'
+- '770'
+- '771'
+- '772'
+- '2005.84'
+- '2005.85'
+- '2006.1'
+- '2006.5'
+- '2006.51'
+- '2006.52'
+- '2006.53'
+- '2006.57'
+- '2006.581'
+- '2006.582'
+- '2006.583'
+- '2006.5831'
+- '2006.584'
+- '2006.585'
+- '2006.586'
+- '2006.588'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - dicom
-  - gateway
-  - table
-  - contents
-  - vista
-  - imaging
-  - image
-  - installation
-  - application
-  - class
+menu_options: 2
 page_count: 0
 word_count: 30951
 section_count: 50
 table_count: 30
 figure_count: 0
 appendix_count: 9
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_DICOMig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_DICOMig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_DICOMig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_DICOMig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 VistA Imaging DICOM GatewayInstallation Guide

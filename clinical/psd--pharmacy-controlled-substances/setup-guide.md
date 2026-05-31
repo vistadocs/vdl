@@ -3,46 +3,43 @@ title: Controlled Substances Version 3 Package Security Guide (Updated PSD*3*82)
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: Package  (Updated PSD*3*82)
+doc_subject: Package (Updated PSD*3*82)
 app_code: PSD
-app_name: "Pharmacy: Controlled Substances"
+app_name: 'Pharmacy: Controlled Substances'
 section: CLI
 app_status: active
 pkg_ns: PSD
 patch_ver: 3
 patch_id: PSD*3
-group_key: "PSD:PSD:3"
-file_numbers: []
-security_keys: []
+group_key: PSD:PSD:3
+description: '- Revision History The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated'
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '19'
+security_keys:
+- PSD TECH ADV
+- PSDMGR
+- PSDRPH
+- PSJ PHARM TECH
+- PSJ RPHARM
 menu_options: 15
-description: ![](controlled-substances-version-3-package-security-guide-updated-psd-3-82/001.png)
-audience: 
-keywords: 
-  - strong
-  - class
-  - security
-  - tech
-  - naou
-  - package
-  - report
-  - pharmacy
-  - controlled
-  - table
 page_count: 0
 word_count: 1284
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_cssecuri_r0618.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_cssecuri_r0618.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=86"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_cssecuri_r0618.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_cssecuri_r0618.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
 ---
 
 ![](controlled-substances-version-3-package-security-guide-updated-psd-3-82/001.png)

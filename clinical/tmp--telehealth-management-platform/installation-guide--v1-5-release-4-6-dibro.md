@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 1.5
 patch_id: TMP*1.5
-group_key: "TMP:TMP:1.5"
-file_numbers: []
+group_key: TMP:TMP:1.5
+description: '> This document describes how to deploy and install the Telehealth Management Platform (TMP) Phase 2 release 4.6, as well as how to back-out the product and rollback to a previous version or data set. This document is a companion to the project charter and management plan for this effort. In cases w'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '2'
+- '2.98'
+- '44'
+- '8994'
 security_keys: []
 menu_options: 0
-description: > This document describes how to deploy and install the Telehealth Management Platform (TMP) Phase 2 release 4.6, as well as how to back-out the product and rollback to a previous version or data set. This document is a companion to the project charter and management plan for this effort. In cases w
-audience: 
-keywords: 
-  - table
-  - contents
-  - strong
-  - deployment
-  - team
-  - application
-  - class
-  - rollback
-  - installation
-  - procedure
 page_count: 0
 word_count: 2681
 section_count: 24
 table_count: 12
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_deployment_installation_rollback_backout_guide_tmp_4-6.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_deployment_installation_rollback_backout_guide_tmp_4-6.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_deployment_installation_rollback_backout_guide_tmp_4-6.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_deployment_installation_rollback_backout_guide_tmp_4-6.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 # Telehealth Management Platform (TMP) Phase 2 Release 4.6

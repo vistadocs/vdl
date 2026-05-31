@@ -5,50 +5,54 @@ doc_label: User Manual
 doc_layer: patch
 doc_subject: BCMA GUI
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*155
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: '- Revision History - - - - - - -'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '38.1'
+- '50'
+- '51.2'
+- '52.6'
+- '53.46'
+security_keys:
+- CPRS MED BUTTON
+- ORELSE
+- PSB INSTRUCTOR
+- PSB MANAGER
+- PSB NO WITNESS
+- PSB READ ONLY
+- PSB STUDENT
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI PHARM TECH
+- UNABLE TO SCAN
 menu_options: 12
-description: "--- date: <span id=\\"_MON_1288442367\\" class=\\"anchor\\"></span>![](psb-3-155-bcma-gui-user-manual/001.png) ---"
-audience: 
-keywords: 
-  - strong
-  - bcma
-  - class
-  - blockquote
-  - medication
-  - span
-  - patient
-  - style
-  - order
-  - table
 page_count: 0
-word_count: 140138
+word_count: 140125
 section_count: 1
 table_count: 31
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
-
----
-date: <span id="_MON_1288442367" class="anchor"></span>![](psb-3-155-bcma-gui-user-manual/001.png)
----
-
 BAR CODE MEDICATION ADMINISTRATION (BCMA)
 
 GUI USER MANUAL

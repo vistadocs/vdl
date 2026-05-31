@@ -3,7 +3,7 @@ title: Clinical Procedures Version 1 Implementation Guide
 doc_type: IG-IMP
 doc_label: Implementation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
@@ -11,38 +11,48 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1
-group_key: "MD:MD:1"
-file_numbers: []
-security_keys: []
+group_key: MD:MD:1
+description: 2Patch MD*1.0*9 released November 2007. Update Setting up HL7 Parameter for port 5000 with CACHE. February 2008
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '45.7'
+- '101'
+- '123.3'
+- '123.5'
+- '200'
+- '702.01'
+- '703.1'
+- '771'
+- '870'
+- '2005'
+- '2005.2'
+- '2006.03'
+- '2006.031'
+- '2006.5831'
+security_keys:
+- MD GUI MANAGER
+- MD MANAGER
+- ORMGR
+- PROVIDER
 menu_options: 3
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - procedures
-  - procedure
-  - table
-  - clinical
-  - contents
-  - class
-  - instrument
-  - device
-  - consult
-  - service
 page_count: 0
 word_count: 31137
 section_count: 45
 table_count: 44
 figure_count: 0
 appendix_count: 6
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_impg-revised.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_impg-revised.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_impg-revised.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_impg-revised.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-procedures-version-1-implementation-guide/001.png)

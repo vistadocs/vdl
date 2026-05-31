@@ -5,44 +5,51 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Install Guide
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 1
 patch_id: PSJ*1*317
-group_key: "PSJ:PSJ:1"
-file_numbers: []
+group_key: PSJ:PSJ:1
+description: '| Date | Version | Description | Author | |----------|---------|-----------------------------------------|------------------------------------| | 4/25/16 | 0.5 | Updated Back out and Rollback sections. | REDACTED | | 1/5/16 | 0.4 | Technical edit. | REDACTED | | 12/31/15 | 0.3 | Added Inbound...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '8'
+- '19'
+- '19.1'
+- '58.6'
+- '58.601'
+- '58.63'
+- '58.64'
+- '58.7'
+- '58.71'
+- '58.72'
+- '59.6'
+- '101'
+- '771'
+- '870'
+- '8989.5'
+- '8989.51'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - routine
-  - table
-  - contents
-  - pade
-  - before
-  - after
-  - routines
-  - patch
-  - back
-  - installation
 page_count: 0
 word_count: 3089
 section_count: 20
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2016
 revision_count: 5
 revision_newest: 4/25/16
 revision_oldest: 9/15/15
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p317_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p317_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p317_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p317_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 Inpatient Medications Pharmacy Interface Automation (PIA)

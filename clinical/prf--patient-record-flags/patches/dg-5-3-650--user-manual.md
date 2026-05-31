@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*650
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 3
+group_key: PRF:DG:5.3
 description: Patient record flags are used to alert VHA medical staff and employees of patients whose behavior and characteristics may pose a threat either to their safety, the safety of other patients, or compromise the delivery of quality health care. These flag assignments are displayed during the patient loo
-audience: 
-keywords: 
-  - flag
-  - patient
-  - record
-  - category
-  - assignment
-  - flags
-  - table
-  - report
-  - contents
-  - prfs
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers: []
+security_keys:
+- DGPF ASSIGNMENT
+- DGPF MANAGER
+menu_options: 3
 page_count: 0
 word_count: 5899
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-650-patient-record-flags-phase-iii-user-guide/001.png)

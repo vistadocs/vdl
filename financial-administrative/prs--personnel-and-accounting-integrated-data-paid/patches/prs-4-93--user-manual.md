@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4*93
-group_key: "PRS:PRS:4"
-file_numbers: []
-security_keys: []
+group_key: PRS:PRS:4
+description: '[Personnel and'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '458.7'
+security_keys:
+- PRSP EMP
 menu_options: 2
-description: - [Human Resources Personnel](#human-resources-personnel) - [New Options](#new-options) - [PT Physician Menu](#pt-physician-menu) - [Employee Menu](#employee-menu) - [Changed Options](#changed-options) - [New Options](#new-options-1) - [PT Physician with Memorandum Menu](#pt-physician-with-memorandu
-audience: 
-keywords: 
-  - time
-  - part
-  - physician
-  - memorandum
-  - physicians
-  - period
-  - manual
-  - leave
-  - table
-  - contents
 page_count: 0
 word_count: 7903
 section_count: 12
 table_count: 16
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p93_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p93_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p93_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p93_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 ![](prs-4-93-user-manual-part-time-physicians/001.png)

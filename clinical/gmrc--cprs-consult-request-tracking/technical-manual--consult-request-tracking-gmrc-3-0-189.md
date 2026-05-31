@@ -3,57 +3,53 @@ title: Consult/Request Tracking Technical Manual (GMRC*3.0*189)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
 pkg_ns: GMRC
 patch_ver: 3.0
 patch_id: GMRC*3.0
-group_key: "GMRC:GMRC:3.0"
-file_numbers: []
+group_key: GMRC:GMRC:3.0
+description: '''> NOTE: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '19'
+- '100'
+- '101'
+- '101.43'
+- '123'
+- '123.1'
+- '123.3'
+- '123.5'
+- '200'
+- '697.2'
+- '8925'
+- '8927'
+- '8930'
+- '8989.5'
 security_keys: []
 menu_options: 142
-description: "> NOTE: The revision history cycle begins once changes or enhancements are requested after the document has been baselined."
-audience: 
-keywords: 
-  - span
-  - href
-  - class
-  - even
-  - consult
-  - gmrc
-  - table
-  - consults
-  - style
-  - width
 page_count: 0
-word_count: 42863
+word_count: 42851
 section_count: 0
 table_count: 62
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/constm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/constm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/constm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/constm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk169094107" class="anchor"></span>
-
-  Consult/Request Tracking 3.0
-
-  Technical Manual
----
-
 ![](consult-request-tracking-technical-manual-gmrc-3-0-189/001.png)
 
 November 2024

@@ -1,21 +1,56 @@
 ---
-consolidated_title: "deployment, installation, back-out, rollback guide"
-app_code: ADT
+title: DG*5.3*964 Deployment, Installation, Back-out, Rollback Guide
 doc_type: DIBR
-master_source: "DG*5.3*964 Deployment, Installation, Back-out, Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Deployment, Installation, Back-out, Rollback Guide
+app_code: ADT
+app_name: Admission Discharge Transfer
+section: CLI
+app_status: active
+pkg_ns: DG
+patch_ver: 5.3
+patch_id: DG*5.3*964
+group_key: ADT:DG:5.3
+file_numbers:
+- '1.1'
+- '2'
+- '19.2'
+- '46.3'
+- '46.4'
+- '46.5'
+- '8989.51'
+security_keys:
+- DG SECURITY OFFICER
+- DIUSER
+menu_options: 0
+description: 03/06/2023 2.2 Removed server table from section 4.10.2 Configure VAS REST API Server. Added instructions to obtain VAS Export server information from the VistA Audit Solution (VAS) support team to section 4.10.2 Configure VAS REST API Server. VAS Support
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 6861
+section_count: 32
+table_count: 4
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: March 2023
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_p964_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_p964_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
+master_source: DG*5.3*964 Deployment, Installation, Back-out, Rollback Guide
 master_pub_date: March 2023
 consolidated_from: 4 versions
 prior_versions:
-  - "DG*5.3*1097 Deployment, Installation, Back-out, Rollback Guide"
-  - "DG*5.3*1108 Deployment, Installation, Back-out, Rollback Guide"
-  - "DG*5.3*1120 Deployment, Installation, Back-out, Rollback Guide"
----
-
----
-title: |
-  <span id="_top" class="anchor"></span>VistA Audit Solution (VAS) DG\*5.3\*964
-
-  Deployment, Installation, Back-out, and Rollback Guide
+- DG*5.3*1097 Deployment, Installation, Back-out, Rollback Guide
+- DG*5.3*1108 Deployment, Installation, Back-out, Rollback Guide
+- DG*5.3*1120 Deployment, Installation, Back-out, Rollback Guide
+consolidated_title: deployment, installation, back-out, rollback guide
 ---
 
 ![](dg-5-3-964-deployment-installation-back-out-rollback-guide/001.png)
@@ -252,7 +287,7 @@ The deployment and installation are scheduled to run for a period of thirty (30)
 
 This section discusses the locations that will receive the DG\*5.3\*964 patch deployment.
 
-The DG\*5.3\*964 patch must be manually installed or manually queued for installation at each VistA instance at which it is deployed, using the standard Kernel Installation and Distribution System (KIDS). The patch should be installed at all VA VistA instances running the VistA DG v.5.3 application and will update the Massachusetts General Hospital Utility Multi-Programming System (MUMPS) server software in each VistA instance’s Registration namespace.
+The DG\*5.3\*964 patch must be manually installed or manually queued for installation at each VistA instance at which it is deployed, using the standard Kernel Installation and Distribution System (KIDS). The patch should be installed at all VA VistA instances running the VistA DG v.5.3 application and will update the Massachusetts General Hospital Utility Multi-Programming System (MUMPS) server software in each VistA instance's Registration namespace.
 
 ### Deployment Topology (Targeted Architecture)
 
@@ -310,7 +345,7 @@ See Table 1: DIBRG Roles and Responsibilities for details about who is responsib
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Sites participating in IOC field testing will use the “Patch Tracking” message in Outlook to communicate with the VAS team, the developers, and product support personnel.
+Sites participating in IOC field testing will use the "Patch Tracking" message in Outlook to communicate with the VAS team, the developers, and product support personnel.
 
 #### Deployment / Installation / Back-out Checklist
 
@@ -390,19 +425,19 @@ This section provides step-by-step instructions for installing DG\*5.3\*964. Ins
 
 This patch may be installed with users on the system although it is recommended that it be installed during non-peak hours to minimize potential disruption to users. The VAS export defaults to 'Don't generate or send data' during installation, minimizing potential user disruption. This patch should take less than 5 minutes to install. If desired, you may queue this installation.
 
-Prior to installing DG\*5.3\*964, a backup patch should be created that can be re-installed in the event that a new patch must be backed out (see the “[Create a Local Patch Backup](#create-a-local-patch-backup)” section). Also, an organizer for the mail group used by the VAS background process to report errors should be identified and recorded in order to complete the post-installation steps (see the “[Identify Mail Group Organizer](#identify-mail-group-organizer)” section).
+Prior to installing DG\*5.3\*964, a backup patch should be created that can be re-installed in the event that a new patch must be backed out (see the "[Create a Local Patch Backup](#create-a-local-patch-backup)" section). Also, an organizer for the mail group used by the VAS background process to report errors should be identified and recorded in order to complete the post-installation steps (see the "[Identify Mail Group Organizer](#identify-mail-group-organizer)" section).
 
 #### Create a Local Patch Backup
 
 Perform the following procedure to create a Local Patch Backup:
 
-1)  From the KIDS Menu, select ‘Installation’
-2)  Select ‘Backup a Transport Global’
-3)  At the ‘INSTALL NAME:’ prompt, enter DG\*5.3\*964
-4)  At the ‘Backup Type: B//’ prompt, enter B for build
-5)  At the ‘Do you wish to secure this message?’ prompt, enter NO
-6)  At the ‘Send mail to:’ prompt, enter a recipient who can install the backup build if necessary
-7)  At the ‘And Send to:’ prompt(s), optionally enter additional build recipients. Press \<Enter\> to continue to the next prompt.
+1)  From the KIDS Menu, select 'Installation'
+2)  Select 'Backup a Transport Global'
+3)  At the 'INSTALL NAME:' prompt, enter DG\*5.3\*964
+4)  At the 'Backup Type: B//' prompt, enter B for build
+5)  At the 'Do you wish to secure this message?' prompt, enter NO
+6)  At the 'Send mail to:' prompt, enter a recipient who can install the backup build if necessary
+7)  At the 'And Send to:' prompt(s), optionally enter additional build recipients. Press \<Enter\> to continue to the next prompt.
 
 #### Identify Mail Group Organizer
 
@@ -413,10 +448,10 @@ Identify the appropriate organizer for the mail group stored in the REDACTED par
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Choose the PackMan message containing this build.
-2.  Choose the “INSTALL/CHECK MESSAGE PackMan” option to load the build.
-3.  From the Kernel Installation and Distribution System Menu, select the “Installation” Menu. From this menu,
-    1.  Select the “Verify Checksums in Transport Global” option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch name, DG\*5.3\*964.
-    2.  Select the “Backup a Transport Global” option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patchcondition. Subject: Backup of DG\*5.3\*964 on Jul 16, 2021 Replace. Select one of the following:
+2.  Choose the "INSTALL/CHECK MESSAGE PackMan" option to load the build.
+3.  From the Kernel Installation and Distribution System Menu, select the "Installation" Menu. From this menu,
+    1.  Select the "Verify Checksums in Transport Global" option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch name, DG\*5.3\*964.
+    2.  Select the "Backup a Transport Global" option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patchcondition. Subject: Backup of DG\*5.3\*964 on Jul 16, 2021 Replace. Select one of the following:
         1.  B Build (including Routines)
         2.  R Routines Only
         3.  Backup Type: B// Build (including Routines)
@@ -437,7 +472,7 @@ The web server REDACTED exported with DG\*5.3\*964 should be automatically point
 
 The mail group associated with the VAS export must be manually populated with the appropriate local member(s) and remote member (see Section 4.8.3.3 – Mail Group Update).
 
-The VAS export process includes a switch in the VAS STATUS (#.02) field in the DG VAS CONFIG (#46.5) file. The switch is set to “0-Don't generate or send data” by default during installation, and must be set to “1-Generate and send data” manually when the site is scheduled for activation. (see Section 4.8.3.3 – Activating the VAS Export).
+The VAS export process includes a switch in the VAS STATUS (#.02) field in the DG VAS CONFIG (#46.5) file. The switch is set to "0-Don't generate or send data" by default during installation, and must be set to "1-Generate and send data" manually when the site is scheduled for activation. (see Section 4.8.3.3 – Activating the VAS Export).
 
 #### VAS Export Server Configuration
 
@@ -449,11 +484,11 @@ After updating the VAS server, verify a successful connection to the VAS server 
 
 1\. Navigate to the Web Server Manager \[X REDACTED\] option.
 
-2\. At the “Select Action:” prompt, enter “CK” for Check Web Service Availability.
+2\. At the "Select Action:" prompt, enter "CK" for Check Web Service Availability.
 
-3\. At the “Select Web Server:” prompt, select the REDACTED server from the list.
+3\. At the "Select Web Server:" prompt, select the REDACTED server from the list.
 
-4\. The message “REDACTED is available” should display, indicating the web service is connected and available. If an error message is displayed indicating the service is not available, log a Service Now (SNOW) ticket with a comment requesting the ticket be forwarded to VistA Audit Solution Assignment Group.
+4\. The message "REDACTED is available" should display, indicating the web service is connected and available. If an error message is displayed indicating the service is not available, log a Service Now (SNOW) ticket with a comment requesting the ticket be forwarded to VistA Audit Solution Assignment Group.
 
 <u>Example – Check Web Service Connection</u>
 
@@ -461,7 +496,7 @@ After updating the VAS server, verify a successful connection to the VAS server 
 
 #### Mail Group Update
 
-Find the mail group used by the VAS in the Display VAS Parameters \[DG VAS DISPLAY\] option in the VistA Audit Solution (VAS) options \[DG VAS MENU\]. The mail group is displayed to the right of the label “DG VAS MONITOR GROUP:”
+Find the mail group used by the VAS in the Display VAS Parameters \[DG VAS DISPLAY\] option in the VistA Audit Solution (VAS) options \[DG VAS MENU\]. The mail group is displayed to the right of the label "DG VAS MONITOR GROUP:"
 
 <u>Example – Identify VAS Mail Group</u>
 
@@ -469,9 +504,9 @@ REDACTED
 
 Once the appropriate mail group is identified, use the Mail Group Edit \[REDACTED\] option in the Group/Distribution Management \[REDACTED\] menu in the Manage Mailman \[REDACTED\] menu to populate the following fields:
 
-- At the “ORGANIZER:” prompt, enter the mail group organizer identified in the pre-installation step.
-- At the “MEMBER:” prompt, enter the mail group organizer identified in the pre-installation step.
-- At the “REMOTE MEMBER;” prompt, enter REDACTED. This is the VAS Support Outlook mail group.
+- At the "ORGANIZER:" prompt, enter the mail group organizer identified in the pre-installation step.
+- At the "MEMBER:" prompt, enter the mail group organizer identified in the pre-installation step.
+- At the "REMOTE MEMBER;" prompt, enter REDACTED. This is the VAS Support Outlook mail group.
 
 <u>Example – Update VAS Mail Group</u>
 
@@ -491,7 +526,7 @@ Follow the steps below to activate the VAS server.
 
 1\. Navigate to the Modify VAS Parameters \[REDACTED\] option in the VistA Audit Solution (VAS) Options \[REDACTED\] menu in the Security Officer Menu \[REDACTED\].
 
-2\. At the “VAS STATUS:” prompt, enter the number 1 (one) to select “Generate and send data”.
+2\. At the "VAS STATUS:" prompt, enter the number 1 (one) to select "Generate and send data".
 
 <u>Example – Activate VAS Export</u>
 
@@ -501,7 +536,7 @@ REDACTED
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Following patch installation, the installation may be verified by using the “Install File Print” menu option in the “Utilities” submenu of the Kernel Installation & Distribution System (KIDS) option.
+Following patch installation, the installation may be verified by using the "Install File Print" menu option in the "Utilities" submenu of the Kernel Installation & Distribution System (KIDS) option.
 
 The existence of the VistA Audit Solution (VAS) options \[REDACTED\] menu in the Security Officer Menu \[REDACTED\] may also be used to verify successful installation.
 
@@ -535,7 +570,7 @@ A Cache system should be in this format:
 
 During installation, the REDACTED server is automatically populated. After installation, the value of the REDACTED server must be checked and updated if not accurate. The value of the REDACTED server may be checked using the Display VAS Parameters \[REDACTED\] option in the VistA Audit Solution (VAS) options \[REDACTED\]. The server value is displayed next to the REDACTED label.
 
-The correct server for a given production environment may be obtained from VAS support by submitting a Service NOW ticket. The ticket description should include the text “REDACTED” and should be assigned to Assignment Group “REDACTED”.
+The correct server for a given production environment may be obtained from VAS support by submitting a Service NOW ticket. The ticket description should include the text "REDACTED" and should be assigned to Assignment Group "REDACTED".
 
 After identifying the correct REDACTED server, the VAS export server may be updated using the Web Server Manager \[REDACTED\] option using the following steps:
 
@@ -544,8 +579,8 @@ After identifying the correct REDACTED server, the VAS export server may be upda
 3)  At the Select Web Server: prompt, select the ID number displayed next to the REDACTED entry.
 4)  At the NAME: prompt, accept the default REDACTED by pressing Enter.
 5)  At the SERVER: prompt, enter the correct server name.
-6)  At the PORT: prompt, enter caret “^” to exit the action.
-7)  At the Select Action: prompt, enter caret “^” to exit the option.
+6)  At the PORT: prompt, enter caret "^" to exit the action.
+7)  At the Select Action: prompt, enter caret "^" to exit the option.
 
 Example, Configuring the VAS REST API Server
 
@@ -573,7 +608,7 @@ The back-out strategy will follow VA guidelines and best practices as referenced
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-It is necessary to first determine if a wholesale back-out of the patch DG\*5.3\*964 is needed or if it would be better to correct by means of applying a new version of the patch (if prior to national release) or employing a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will require a subsequent patch after national release. If the back-out is post-release of patch DG\*5.3\*964, this patch should be assigned the status of “Entered in Error” in Forum’s NPM.
+It is necessary to first determine if a wholesale back-out of the patch DG\*5.3\*964 is needed or if it would be better to correct by means of applying a new version of the patch (if prior to national release) or employing a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will require a subsequent patch after national release. If the back-out is post-release of patch DG\*5.3\*964, this patch should be assigned the status of "Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -615,7 +650,7 @@ The Portfolio Director, VA Project Manager, and Business Owner have the authorit
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The back-out plan for VistA applications is complex and not a ‘one-size fits all’ solution. After national release, the general strategy is to repair the code with a follow-up patch. The VAS development team recommends sites log a ticket with the Enterprise Service Desk (ESD) if it is a nationally released patch.
+The back-out plan for VistA applications is complex and not a 'one-size fits all' solution. After national release, the general strategy is to repair the code with a follow-up patch. The VAS development team recommends sites log a ticket with the Enterprise Service Desk (ESD) if it is a nationally released patch.
 
 Prior to national release, backout may be performed by installing the backup of the build performed prior to installation, as well as manually removing the data dictionaries installed by the patch.
 
@@ -624,76 +659,76 @@ Steps – non-Data Dictionary backout:
 1)  Navigate to the Mailman menu.
 2)  Select the Mailman folder containing the patch backup created prior to install.
 3)  Select the message containing the patch backup created prior to install.
-4)  At the prompt “Enter message action:”, enter “X” for Xtract KIDS.
-5)  At the prompt “Select PackMan function:”, enter 6.
-6)  At the prompt, “OK to continue with Load?” enter “YES”.
-7)  At the prompt, “Want to Continue with Load?”, enter “YES”.
+4)  At the prompt "Enter message action:", enter "X" for Xtract KIDS.
+5)  At the prompt "Select PackMan function:", enter 6.
+6)  At the prompt, "OK to continue with Load?" enter "YES".
+7)  At the prompt, "Want to Continue with Load?", enter "YES".
 8)  Navigate to the Kernel Installation & Distribution System \[REDACTED\] menu.
 9)  Select the Installation menu.
 10) Select the Install Package(s) option.
-11) At the prompt “INSTALL NAME:”, enter DG\*5.3\*964b.
-12) At the prompt “Want KIDS to Rebuild Menu Trees Upon Completion of Install” enter “NO”.
-13) At the prompt, “Want KIDS to INHIBIT LOGONs during the install” enter “NO”.
-14) At the prompt, “Want to DISABLE Scheduled Options, Menu Options, and Protocols” enter “NO”.
-15) At the “DEVICE” prompt, select a device or accept the default, “HOME”.
+11) At the prompt "INSTALL NAME:", enter DG\*5.3\*964b.
+12) At the prompt "Want KIDS to Rebuild Menu Trees Upon Completion of Install" enter "NO".
+13) At the prompt, "Want KIDS to INHIBIT LOGONs during the install" enter "NO".
+14) At the prompt, "Want to DISABLE Scheduled Options, Menu Options, and Protocols" enter "NO".
+15) At the "DEVICE" prompt, select a device or accept the default, "HOME".
 
 Steps – Data Dictionary Backout:
 
 1)  Navigate to the VA FileMan \[REDACTED\] menu.
 2)  Select the Edit File option in the Utility Functions menu.
-3)  At the prompt “Modify what File:” enter “DG VAS QUEUE”.
-    1.  At the prompt “Do you want to use the screen-mode version?”, enter “YES”.
-    2.  At the prompt “NAME:”, enter “@”.
-    3.  If prompted “DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?”, enter “NO”.
-    4.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE ‘DG VAS QUEUE’ file, enter “Y”.
-4)  At the prompt “Modify what File:” enter “DG VAS EXPORT”.
-    1.  At the prompt “Do you want to use the screen-mode version?”, enter “YES”.
-    2.  At the prompt “NAME:”, enter “@”.
-    3.  If prompted “DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?”, enter “NO”.
-    4.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE ‘DG VAS EXPORT’ file, enter “Y”.
-5)  At the prompt “Modify what File:” enter “DG VAS CONFIG”.
-    1.  At the prompt “Do you want to use the screen-mode version?”, enter “YES”.
-    2.  At the prompt “NAME:”, enter “@”.
-    3.  If prompted “DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?”, enter “NO”.
-    4.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE ‘DG VAS CONFIG’ file, enter “Y”.
+3)  At the prompt "Modify what File:" enter "DG VAS QUEUE".
+    1.  At the prompt "Do you want to use the screen-mode version?", enter "YES".
+    2.  At the prompt "NAME:", enter "@".
+    3.  If prompted "DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?", enter "NO".
+    4.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE 'DG VAS QUEUE' file, enter "Y".
+4)  At the prompt "Modify what File:" enter "DG VAS EXPORT".
+    1.  At the prompt "Do you want to use the screen-mode version?", enter "YES".
+    2.  At the prompt "NAME:", enter "@".
+    3.  If prompted "DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?", enter "NO".
+    4.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE 'DG VAS EXPORT' file, enter "Y".
+5)  At the prompt "Modify what File:" enter "DG VAS CONFIG".
+    1.  At the prompt "Do you want to use the screen-mode version?", enter "YES".
+    2.  At the prompt "NAME:", enter "@".
+    3.  If prompted "DO YOU WANT JUST TO DELETE THE FILE CONTENTS, KEEP THE FILE DEFINITION?", enter "NO".
+    4.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE 'DG VAS CONFIG' file, enter "Y".
 
 Steps – backing out the Mail Group entry:
 
 1.  Navigate to the VA FileMan menu \[REDACTED\].
 2.  Select the ENTER OR EDIT FILE ENTRIES option.
-3.  At the prompt “Input to what File”, enter MAIL GROUP.
-4.  At the prompt “EDIT WHICH FIELD”, enter ALL.
-5.  At the prompt “MAIL GROUP NAME” enter REDACTED.
-6.  At the prompt “NAME” enter @.
-7.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE ' REDACTED ' MAIL GROUP” enter YES.
-8.  At the prompt “DO YOU WANT THOSE POINTERS UPDATED” enter YES.
-9.  At the prompt “CHOOSE 1) OR 2)” choose 1 to delete all pointers.
+3.  At the prompt "Input to what File", enter MAIL GROUP.
+4.  At the prompt "EDIT WHICH FIELD", enter ALL.
+5.  At the prompt "MAIL GROUP NAME" enter REDACTED.
+6.  At the prompt "NAME" enter @.
+7.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE ' REDACTED ' MAIL GROUP" enter YES.
+8.  At the prompt "DO YOU WANT THOSE POINTERS UPDATED" enter YES.
+9.  At the prompt "CHOOSE 1) OR 2)" choose 1 to delete all pointers.
 
 Steps – backing out the Web Server entry:
 
 1.  Navigate to the VA FileMan menu \[REDACTED\].
 2.  Select the ENTER OR EDIT FILE ENTRIES option.
-3.  At the prompt “Input to what File”, enter WEB SERVER.
-4.  At the prompt “EDIT WHICH FIELD”, enter ALL.
-5.  At the prompt “WEB SERVER NAME” enter REDACTED.
-6.  At the prompt “NAME” enter @.
-7.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE  
-    ‘REDACTED’ WEB SERVER?” enter YES.
-8.  At the prompt “DO YOU WANT THOSE POINTERS UPDATED” enter YES.
-9.  At the prompt “CHOOSE 1) OR 2)” choose 1 to delete all pointers.
+3.  At the prompt "Input to what File", enter WEB SERVER.
+4.  At the prompt "EDIT WHICH FIELD", enter ALL.
+5.  At the prompt "WEB SERVER NAME" enter REDACTED.
+6.  At the prompt "NAME" enter @.
+7.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE  
+    'REDACTED' WEB SERVER?" enter YES.
+8.  At the prompt "DO YOU WANT THOSE POINTERS UPDATED" enter YES.
+9.  At the prompt "CHOOSE 1) OR 2)" choose 1 to delete all pointers.
 
 Steps – backing out the Web Service entry:
 
 1.  Navigate to the VA FileMan menu \[REDACTED\].
 2.  Select the ENTER OR EDIT FILE ENTRIES option.
-3.  At the prompt “Input to what File”, enter WEB SERVICE.
-4.  At the prompt “EDIT WHICH FIELD”, enter ALL.
-5.  At the prompt “WEB SERVICE” enter REDACTED.
-6.  At the prompt “NAME” enter @.
-7.  At the prompt “SURE YOU WANT TO DELETE THE ENTIRE  
-    ‘REDACTED’ WEB SERVICE?” enter YES.
-8.  At the prompt “DO YOU WANT THOSE POINTERS UPDATED” enter YES.
-9.  At the prompt “CHOOSE 1) OR 2)” choose 1 to delete all pointers.
+3.  At the prompt "Input to what File", enter WEB SERVICE.
+4.  At the prompt "EDIT WHICH FIELD", enter ALL.
+5.  At the prompt "WEB SERVICE" enter REDACTED.
+6.  At the prompt "NAME" enter @.
+7.  At the prompt "SURE YOU WANT TO DELETE THE ENTIRE  
+    'REDACTED' WEB SERVICE?" enter YES.
+8.  At the prompt "DO YOU WANT THOSE POINTERS UPDATED" enter YES.
+9.  At the prompt "CHOOSE 1) OR 2)" choose 1 to delete all pointers.
 
 Example, patch restore from backup:
 
@@ -939,7 +974,7 @@ DELETE ALL POINTERS? Yes// (Yes)
 
 The DG\*5.3\*964 patch contains the following build components. After backing out the patch, none of the components listed below should be present except routine DGSEC, which remains but is restored to its pre-patch state.
 
-- A modification to the routine DGSEC to create an “INQUIRY” audit record in the external archive when a patient is selected within a VistA application.
+- A modification to the routine DGSEC to create an "INQUIRY" audit record in the external archive when a patient is selected within a VistA application.
 - New DG VAS QUEUE File (#46.3), which temporarily holds records to be sent to the external archive. Records are immediately deleted after being transmitted.
 - New DG VAS EXPORT File (#46.4), which keeps track of which VA FileMan AUDIT File (#1.1) records have been exported to the external archive.
 - New DG VAS CONFIG File (#46.5), which contains the settings related to the connection to the ElastiCache/Redis server when this patch is installed at each site. Three new fields are added with the \#46.5 file.
@@ -965,9 +1000,9 @@ The DG\*5.3\*964 patch contains the following build components. After backing ou
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-After backing out patch DG\*5.3\*964 by installing the local patch created during pre-install (see Section 4.1.3), successful back-out is confirmed by verification of BEFORE checksums listed in the patch description on NPM in FORUM. This may be accomplished using the ‘Calculate and Show Checksum Values’ option.
+After backing out patch DG\*5.3\*964 by installing the local patch created during pre-install (see Section 4.1.3), successful back-out is confirmed by verification of BEFORE checksums listed in the patch description on NPM in FORUM. This may be accomplished using the 'Calculate and Show Checksum Values' option.
 
-The checksums produced should match the numeric portion of the BEFORE checksums in the DG\*5.3\*964 patch description. For the routines that were new with DG\*5.3\*964, the BEFORE Checksums are ‘n/a’. If routine back-out was successful, the checksum will display as “Routine not in this UCI” in place of a checksum.
+The checksums produced should match the numeric portion of the BEFORE checksums in the DG\*5.3\*964 patch description. For the routines that were new with DG\*5.3\*964, the BEFORE Checksums are 'n/a'. If routine back-out was successful, the checksum will display as "Routine not in this UCI" in place of a checksum.
 
 ## Data Dictionaries
 
@@ -1016,19 +1051,19 @@ The rollback procedure consists of using the ^DIK VistA FileMan Application Prog
 Steps:
 
 1)  At the programmer prompt, type the line of code below and press \<Return\>.
-    1.  S X=”” F S X=\$O(^DGAUDIT(X)) Q:X=”” K ^DGAUDIT(X)
+    1.  S X="" F S X=\$O(^DGAUDIT(X)) Q:X="" K ^DGAUDIT(X)
 2)  At the programmer prompt, type the line of code below and press \<Return\>.
-    1.  S X=”” F S X=\$O(^DGAUDIT1(X)) Q:X=”” K ^DGAUDIT1(X)
+    1.  S X="" F S X=\$O(^DGAUDIT1(X)) Q:X="" K ^DGAUDIT1(X)
 3)  At the programmer prompt, type the line of code below and press \<Return\>.
-    1.  S X=”” F S X=\$O(^DGAUDIT2(X)) Q:X=”” K ^DGAUDIT2(X)
+    1.  S X="" F S X=\$O(^DGAUDIT2(X)) Q:X="" K ^DGAUDIT2(X)
 
 <u>Example, deleting data using FileMan ^DIK API:</u>
 
-VISTA\> S X=”” F S X=\$O(^DGAUDIT(X)) Q:X=”” K ^DGAUDIT(X)
+VISTA\> S X="" F S X=\$O(^DGAUDIT(X)) Q:X="" K ^DGAUDIT(X)
 
-VISTA\> S X=”” F S X=\$O(^DGAUDIT1(X)) Q:X=”” K ^DGAUDIT1(X)
+VISTA\> S X="" F S X=\$O(^DGAUDIT1(X)) Q:X="" K ^DGAUDIT1(X)
 
-VISTA\> S X=”” F S X=\$O(^DGAUDIT2(X)) Q:X=”” K ^DGAUDIT2(X)
+VISTA\> S X="" F S X=\$O(^DGAUDIT2(X)) Q:X="" K ^DGAUDIT2(X)
 
 ## Rollback Verification Procedure
 
@@ -1038,13 +1073,13 @@ The rollback verification may be performed by executing a Global List from the p
 
 Steps:
 
-1)  At the programmer prompt, type “D ^%G”.
-2)  At the prompt “Global ^”, enter “DGAUDIT”.
-    1.  “\[Global does not exist\]” should display
-3)  At the prompt “Global ^”, enter “DGAUDIT1”.
-    1.  “\[Global does not exist\]” should display
-4)  At the prompt, “Global ^”, enter “DGAUDIT2”.
-    1.  “\[Global does not exist\]” should display
+1)  At the programmer prompt, type "D ^%G".
+2)  At the prompt "Global ^", enter "DGAUDIT".
+    1.  "\[Global does not exist\]" should display
+3)  At the prompt "Global ^", enter "DGAUDIT1".
+    1.  "\[Global does not exist\]" should display
+4)  At the prompt, "Global ^", enter "DGAUDIT2".
+    1.  "\[Global does not exist\]" should display
 
 <u>Example, global list of deleted globals/rolled back data:</u>
 
@@ -1111,10 +1146,10 @@ _These sections appeared in earlier versions of this document but are not presen
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Choose the PackMan message containing this build.
-2.  Choose the “INSTALL/CHECK MESSAGE PackMan” option to load the build.
-3.  From the Kernel Installation and Distribution System Menu, select the “Installation” Menu. From this menu,
-    1.  Select the “Verify Checksums in Transport Global” option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch name, DG\*5.3\*1097.
-    2.  Select the “Backup a Transport Global” option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition. Select “B” for Build (including Routines) at the “Backup Type:” prompt.
+2.  Choose the "INSTALL/CHECK MESSAGE PackMan" option to load the build.
+3.  From the Kernel Installation and Distribution System Menu, select the "Installation" Menu. From this menu,
+    1.  Select the "Verify Checksums in Transport Global" option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch name, DG\*5.3\*1097.
+    2.  Select the "Backup a Transport Global" option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition. Select "B" for Build (including Routines) at the "Backup Type:" prompt.
     3.  You may also elect to use the following options:
         1.  Print Transport Global – This option will allow you to view the components of the KIDS build.
         2.  Compare Transport Global to Current System – This option will allow you to view all changes that will be made when this patch is installed. It compares all of the components of this patch, such as routines, DDs, templates, etc.
@@ -1130,10 +1165,10 @@ _These sections appeared in earlier versions of this document but are not presen
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Choose the PackMan message containing this build.
-2.  Choose the “INSTALL/CHECK MESSAGE PackMan” option to load the build.
-3.  From the Kernel Installation and Distribution System Menu, select the “Installation” Menu. From this menu,
-    1.  Select the “Verify Checksums in Transport Global” option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME, enter the patch name, DG\*5.3\*1108.
-    2.  Select the “Backup a Transport Global” option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition. Select “B” for Build (including Routines) at the “Backup Type:” prompt. See Section 4.8.1.1 for more details.
+2.  Choose the "INSTALL/CHECK MESSAGE PackMan" option to load the build.
+3.  From the Kernel Installation and Distribution System Menu, select the "Installation" Menu. From this menu,
+    1.  Select the "Verify Checksums in Transport Global" option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME, enter the patch name, DG\*5.3\*1108.
+    2.  Select the "Backup a Transport Global" option to create a backup message. You can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition. Select "B" for Build (including Routines) at the "Backup Type:" prompt. See Section 4.8.1.1 for more details.
     3.  You may also elect to use the following options:
         1.  Print Transport Global – This option will allow you to view the components of the KIDS build.
         2.  Compare Transport Global to Current System – This option will allow you to view all changes that will be made when this patch is installed. It compares all of the components of this patch, such as routines, DDs, templates, etc.

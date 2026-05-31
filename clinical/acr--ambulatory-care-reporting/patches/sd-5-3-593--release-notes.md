@@ -3,7 +3,7 @@ title: SD*5.3*593 ACR Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: SD
 patch_ver: 5.3
 patch_id: SD*5.3*593
-group_key: "ACR:SD:5.3"
-file_numbers: []
+group_key: ACR:SD:5.3
+description: '- Introduction - Purpose - Background - Scope of Changes - Documentation - Dependencies - ACRP Ad Hoc Report Option - [Report Perspective – Diagnosis...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '409.76'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - report
-  - date
-  - diagnosis
-  - table
-  - contents
-  - range
-  - selection
-  - code
-  - codes
-  - outpatient
 page_count: 0
 word_count: 2814
 section_count: 18
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_icd-10_rn_sd_5_3_593.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_icd-10_rn_sd_5_3_593.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_icd-10_rn_sd_5_3_593.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_icd-10_rn_sd_5_3_593.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation Project

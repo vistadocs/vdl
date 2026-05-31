@@ -8,41 +8,38 @@ app_code: PCMM
 app_name: Primary Care Management Module
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
+description: Primary Care ManagementModule (PCMM) – Mental Health Treatment Coordinator (MHTC)User
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '4'
+- '403.46'
+- '404.57'
+- '404.61'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - health
-  - team
-  - mental
-  - report
-  - pcmm
-  - patient
-  - mhtc
-  - table
-  - contents
-  - strong
 page_count: 0
 word_count: 7918
 section_count: 27
 table_count: 4
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmmhtcug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmmhtcug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmmhtcug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/pcmmmhtcug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 ![](pcmm-mental-health-treatment-coordinator-mhtc-user-manual/001.png)

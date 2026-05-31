@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3*891
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
+group_key: ADT:ADT:5.3
+description: The Copay Exemption Test Supervisor menu contains the options used in all aspects of Copay Testing. This includes adding, editing, deleting, viewing past Copay Tests and editing activity, and listing incomplete tests. The following is a brief description of the options contained in this menu.
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '408.31'
+security_keys:
+- DG DEPDELETE
+- DG MEANSTEST
+- DG MTDELETE
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 36%\\" /> <col style=\\"width: 25%\\" /> <col style=\\"width: 25%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><strong>Date</strong></th> <th><strong>Description (Patch # if applic.)</strong></th> <th><strong>Project Manager</strong></th> <"
-audience: 
-keywords: 
-  - test
-  - copay
-  - exemption
-  - veteran
-  - income
-  - dependent
-  - spouse
-  - date
-  - amount
-  - mark
 page_count: 0
 word_count: 3322
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_891_cets_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_891_cets_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_891_cets_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/dg_5_3_891_cets_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 PIMS V. 5.3 ADT Module User ManualCopay Exemption Test Supervisor Menu

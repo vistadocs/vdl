@@ -1,13 +1,122 @@
 ---
-consolidated_title: "technical manual"
-app_code: MD
+title: MD*1*23 Technical Manual (CP Flowsheets)
 doc_type: TM
-master_source: "MD*1*23 Technical Manual (CP Flowsheets)"
+doc_label: Technical Manual
+doc_layer: patch
+doc_subject: (CP Flowsheets)
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*23
+group_key: MD:MD:1
+file_numbers:
+- '01'
+- '1'
+- '2'
+- '3.8'
+- '4.2'
+- '5'
+- '7'
+- '40.8'
+- '42'
+- '44'
+- '45.7'
+- '101'
+- '123'
+- '200'
+- '405'
+- '405.4'
+- '690'
+- '697.2'
+- '702'
+- '702.001'
+- '702.01'
+- '702.09'
+- '703.1'
+- '703.9'
+- '703.92'
+- '704.001'
+- '704.002'
+- '704.004'
+- '704.005'
+- '704.006'
+- '704.007'
+- '704.008'
+- '704.101'
+- '704.102'
+- '704.103'
+- '704.104'
+- '704.105'
+- '704.106'
+- '704.107'
+- '704.108'
+- '704.109'
+- '704.11'
+- '704.111'
+- '704.1111'
+- '704.1112'
+- '704.112'
+- '704.1121'
+- '704.1122'
+- '704.1123'
+- '704.113'
+- '704.1131'
+- '704.115'
+- '704.116'
+- '704.1161'
+- '704.117'
+- '704.118'
+- '704.119'
+- '704.121'
+- '704.1211'
+- '704.1212'
+- '704.201'
+- '704.202'
+- '704.209'
+- '730'
+- '772'
+- '773'
+- '870'
+- '8925'
+- '8925.1'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+security_keys:
+- MD HL7 MANAGER
+- MD MANAGER
+- MD READ-ONLY
+- MD TRAINEE
+menu_options: 1
+description: '> Department of Veterans Affairs Office of Information & Technology Office of Enterprise'
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 30277
+section_count: 17
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: April 2004
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p23_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p23_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*23 Technical Manual (CP Flowsheets)
 master_pub_date: April 2004
 consolidated_from: 3 versions
 prior_versions:
-  - "MD*1*12 Technical Manual (CP Flowsheets)"
-  - "MD*1*16 Technical Manual (CP Flowsheets)"
+- MD*1*12 Technical Manual (CP Flowsheets)
+- MD*1*16 Technical Manual (CP Flowsheets)
+consolidated_title: technical manual
 ---
 
 > ![](md-1-23-technical-manual-cp-flowsheets/001.png)
@@ -209,8 +318,8 @@ prior_versions:
     - [Setup Instructions (Hypercare Device Settings for CP Manager)](#setup-instructions-hypercare-device-settings-for-cp-manager)
     - [Description:](#description-4)
 - [Glossary](#glossary)
-> 1CP (Clinical Procedures) is a conduit for passing final patient results, using Health Level 7 (HL7) messaging, between vendor clinical information systems (CIS) and Veterans Health Information Systems and Technology Architecture (VistA). The patient’s test result or report is displayed through the Computerized Patient Record System (CPRS). The report data is stored on the Imaging Redundant Array of Inexpensive Disks (RAID) and in some instances, discrete data is stored in the Medicine database.
-> CP provides features that can be used across clinical departments such as general medicine, cardiology, pulmonary, women’s health, neurology, and rehabilitation medicine.
+> 1CP (Clinical Procedures) is a conduit for passing final patient results, using Health Level 7 (HL7) messaging, between vendor clinical information systems (CIS) and Veterans Health Information Systems and Technology Architecture (VistA). The patient's test result or report is displayed through the Computerized Patient Record System (CPRS). The report data is stored on the Imaging Redundant Array of Inexpensive Disks (RAID) and in some instances, discrete data is stored in the Medicine database.
+> CP provides features that can be used across clinical departments such as general medicine, cardiology, pulmonary, women's health, neurology, and rehabilitation medicine.
 > 2Hemodialysis is a new module of the Clinical Procedures (CP) package that provides features specific to hemodialysis treatment. The Hemodialysis module allows you to collect hemodialysis treatment information from the medical device, and manually enter treatment data into the application.
 > Pre-dialysis vitals, information obtained during treatment, and post-dialysis vitals can be entered into the Hemodialysis data entry screens. A Treatment Summary is created and used to fill out Centers for Medicare & Medicaid Services (CMS)/End Stage Renal Disease (ESRD) forms.
 
@@ -291,7 +400,7 @@ Introduction
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> For implementation and maintenance issues, refer to “Chapter 1 – Introduction” of the *Clinical Procedures Implementation Guide*. For implementation and maintenance of Clinical Flowsheets, refer to the *Clinical Procedures (CP) Console Implementation Guide*.<sup>1</sup>
+> For implementation and maintenance issues, refer to "Chapter 1 – Introduction" of the *Clinical Procedures Implementation Guide*. For implementation and maintenance of Clinical Flowsheets, refer to the *Clinical Procedures (CP) Console Implementation Guide*.<sup>1</sup>
 
 > 1 Patch MD\*1.0\*16 January 2011 Added document reference.
 
@@ -691,14 +800,14 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>SSN</td>
 <td>702,.011</td>
 <td>Computed</td>
-<td><p>This field contains the computed value of the patient’s SSN from</p>
+<td><p>This field contains the computed value of the patient's SSN from</p>
 <p>the Patient (#2) file.</p></td>
 </tr>
 <tr class="odd">
 <td>DOB</td>
 <td>702,.012</td>
 <td>Computed</td>
-<td><p>This field contains the computed value of the patient’s date of birth</p>
+<td><p>This field contains the computed value of the patient's date of birth</p>
 <p>from the Patient (#2) file.</p></td>
 </tr>
 <tr class="even">
@@ -761,7 +870,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>702,.07</td>
 <td>Free Text 1-50 characters in length</td>
 <td><p>1This field contains the vstring.</p>
-<p>The vstring is in the following format: Visit Type_”;”_Visit Date/Time_”;”_Hospital Location (internal entry number of the</p>
+<p>The vstring is in the following format: Visit Type_";"_Visit Date/Time_";"_Hospital Location (internal entry number of the</p>
 <p>visit).</p></td>
 </tr>
 <tr class="odd">
@@ -769,7 +878,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>702,.08</td>
 <td>Free Text 1-80 characters in length</td>
 <td><p>Contains the message returned</p>
-<p>from the VistA Imaging API‟s for storing the images on the server.</p></td>
+<p>from the VistA Imaging API"s for storing the images on the server.</p></td>
 </tr>
 <tr class="even">
 <td>Transaction Status</td>
@@ -1319,7 +1428,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>702.09,.16</td>
 <td>Free Text 3-30 characters in length</td>
 <td><p>This is the name of the actual device where the device name can</p>
-<p>be „”SMC St Louis”.</p></td>
+<p>be ""SMC St Louis".</p></td>
 </tr>
 <tr class="even">
 <td>HL7 Universal Service ID</td>
@@ -1683,7 +1792,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 
 > 1 Patch MD\*1.0\*5 August 2006 CP Conversion File \#703.9 added.
 
-> 2 Patch MD\*1.0\*16 January 2011 Added “(multiple)” to Field Name.
+> 2 Patch MD\*1.0\*16 January 2011 Added "(multiple)" to Field Name.
 
 <table>
 <colgroup>
@@ -1762,7 +1871,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 </tbody>
 </table>
 
-> 1 Patch MD\*1.0\*16 January 2011 Added “(multiple)” to Field Name.
+> 1 Patch MD\*1.0\*16 January 2011 Added "(multiple)" to Field Name.
 
 <table>
 <colgroup>
@@ -1848,21 +1957,21 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>Access Points</td>
 <td>704.201,.1</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s access points for dialysis</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's access points for dialysis</p>
 <p>treatments.</p></td>
 </tr>
 <tr class="odd">
 <td>Access History</td>
 <td>704.201,.2</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s access history for dialysis</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's access history for dialysis</p>
 <p>treatments.</p></td>
 </tr>
 <tr class="even">
 <td>Infection History</td>
 <td>704.201,.3</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s infection history for</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's infection history for</p>
 <p>dialysis treatments.</p></td>
 </tr>
 </tbody>
@@ -2036,7 +2145,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td><p>Pointer to new</p>
 <p>person file (#200)</p></td>
 <td><p>If this setting is user specific, this</p>
-<p>field will contain that user’s DUZ.</p></td>
+<p>field will contain that user's DUZ.</p></td>
 </tr>
 <tr class="odd">
 <td>User</td>
@@ -2629,7 +2738,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 </blockquote></td>
 <td>704.007,.02</td>
 <td>FREE TEXT (1-30 CHAR)</td>
-<td>HELP-PROMPT: Answer must be 1-30 characters in length. This is the NAME of the work-shift. A sample could be "DAY”.</td>
+<td>HELP-PROMPT: Answer must be 1-30 characters in length. This is the NAME of the work-shift. A sample could be "DAY".</td>
 </tr>
 <tr class="odd">
 <td><blockquote>
@@ -2715,7 +2824,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 </blockquote></td>
 <td>704.008,.01</td>
 <td>FREE TEXT (38 CHAR)</td>
-<td>This field contains the schedule identifier. A sample ID could be "{E24290F6-31F4-C6F6- B310-E37C563FBD64}”.</td>
+<td>This field contains the schedule identifier. A sample ID could be "{E24290F6-31F4-C6F6- B310-E37C563FBD64}".</td>
 </tr>
 <tr class="even">
 <td><blockquote>
@@ -2723,7 +2832,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 </blockquote></td>
 <td>704.008,.02</td>
 <td>FREE TEXT (1-30 CHAR)</td>
-<td>This is the NAME of the schedule. A sample could be "TID/MEALS”.</td>
+<td>This is the NAME of the schedule. A sample could be "TID/MEALS".</td>
 </tr>
 <tr class="odd">
 <td><blockquote>
@@ -2752,7 +2861,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 </blockquote></td>
 <td>704.008,.05</td>
 <td>FREE TEXT (1-50 CHAR)</td>
-<td>This field is the text displayed within Clinical Flowsheets for the schedule. A sample DISPLAY NAME could be "3 times daily with meals”.</td>
+<td>This field is the text displayed within Clinical Flowsheets for the schedule. A sample DISPLAY NAME could be "3 times daily with meals".</td>
 </tr>
 <tr class="even">
 <td><blockquote>
@@ -5318,7 +5427,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 <td>704.117,.24</td>
 <td><p>FREE TEXT (1 –</p>
 <p>50 char)</p></td>
-<td>This is the version of the source (#.21) that generated this observation (#.01). A sample SOURCE VERSION could be “1.0".</td>
+<td>This is the version of the source (#.21) that generated this observation (#.01). A sample SOURCE VERSION could be "1.0".</td>
 </tr>
 <tr class="even">
 <td><blockquote>
@@ -6614,7 +6723,7 @@ MDWORSR ; HOIFO/NCA - Daily Schedule Studies;7/2/04 12:39 ;10/15/08 13:39
 
 > TMDRadioGroup = Class(TRadioGroup)
 
-> This field was designed specifically for the FileMan set of codes field. It loads the appropriate codes into the radio group and displays the “Stands For‟ portion of the codes while storing to the database the internal value of the code.
+> This field was designed specifically for the FileMan set of codes field. It loads the appropriate codes into the radio group and displays the "Stands For" portion of the codes while storing to the database the internal value of the code.
 
 > TMDCheckBox = Class(TCheckBox)
 
@@ -9250,7 +9359,7 @@ DEVICE TYPE: Single-threaded Server STATE: Listen
 
 > Set Maximum Log Entries allows the user to adjust the number of entries that are displayed in the log file. Once this value is reached, entries will be purged from the beginning of the log to keep the log file from growing too large. This value will take effect after the next polling operation so if the current poll value is 300 seconds it may take up to 5 minutes for the new value to be used. Allowable values are 100 to 10000 entries. When the CP Gateway is shut down, all entries are purged from the log file.
 
-> Note: Purging is also done daily while the CP Gateway is running. This purge deletes the raw data that comes across from the instrument. The CP Gateway keeps data for a specified number of days based on the entry in the system parameter “Days to keep Instrument Data”. Data older than this will be purged. The data to be deleted is already matched with a study. The fields purged are the Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the <sup>1</sup>CP RESULTS file (#703.1).
+> Note: Purging is also done daily while the CP Gateway is running. This purge deletes the raw data that comes across from the instrument. The CP Gateway keeps data for a specified number of days based on the entry in the system parameter "Days to keep Instrument Data". Data older than this will be purged. The data to be deleted is already matched with a study. The fields purged are the Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the <sup>1</sup>CP RESULTS file (#703.1).
 
 ![](md-1-23-technical-manual-cp-flowsheets/002.png)
 
@@ -9260,7 +9369,7 @@ DEVICE TYPE: Single-threaded Server STATE: Listen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> A CP Legacy background task cleans up observations (uuencoded or XML data) from instruments (monitors) that are not in a verified state and are older than the parameter setting (system parameter “Days to Keep Instrument Data”) for unverified observations in the CP Console. This cleanup is designed to run after data is processed, and deletes the unused data. It runs through the UPLOAD ITEM field in the CP RESULT REPORT file (#703.1) and purges unnecessary data from previous uploads.
+> A CP Legacy background task cleans up observations (uuencoded or XML data) from instruments (monitors) that are not in a verified state and are older than the parameter setting (system parameter "Days to Keep Instrument Data") for unverified observations in the CP Console. This cleanup is designed to run after data is processed, and deletes the unused data. It runs through the UPLOAD ITEM field in the CP RESULT REPORT file (#703.1) and purges unnecessary data from previous uploads.
 
 > 1 Patch MD\*1.0\*16 January 2011 File reference updated to national documentation standards. Added caption to figure. Added new Cleanup task.
 
@@ -10099,7 +10208,7 @@ DEVICE TYPE: Single-threaded Server STATE: Listen
 
 3.  Archiving/Purging.
 
-> 1Refer to the chapter on [<u>Archiving and Purging</u>](#archiving-and-purging) in this manual. Purging is available in the CPGateway. Refer to the “CP Gateway Configuration” chapter in the *Clinical Procedures Console Implementation Guide*.
+> 1Refer to the chapter on [<u>Archiving and Purging</u>](#archiving-and-purging) in this manual. Purging is available in the CPGateway. Refer to the "CP Gateway Configuration" chapter in the *Clinical Procedures Console Implementation Guide*.
 
 4.  Contingency Planning.
 
@@ -10117,7 +10226,7 @@ DEVICE TYPE: Single-threaded Server STATE: Listen
 
 7.  Menus.
 
-> There are no options of special note for the Information Security Officers (ISO‟s) to view.
+> There are no options of special note for the Information Security Officers (ISO"s) to view.
 
 8.  Security Keys.
 
@@ -11178,7 +11287,7 @@ Software Product Security
 > ![](md-1-23-technical-manual-cp-flowsheets/005.png) The Find Patient window opens. No patients are displayed.
 
 2.  Set search criteria (Last Name, ID, etc.) if any, and click on F1. A list of patients matching your search criteria appears.
-3.  Select the patient whose results you wish to send by clicking on their name. The selected patient’s name is highlighted.
+3.  Select the patient whose results you wish to send by clicking on their name. The selected patient's name is highlighted.
 4.  Click the F3 button to load the selected patients results data. The Vmax Program Manager screen reappears.
 5.  From the Vmax Program Manager screen click the Reports Button.
 
@@ -11441,7 +11550,7 @@ Software Product Security
 
 > Requirements:
 
-> This device uses B. Braun’s UPF Hemodialysis software.
+> This device uses B. Braun's UPF Hemodialysis software.
 
 > 1 Patch MD\*1.0\*6 May 2008 Added reference to CP web page for device setup. Added Hemodialysis vendor B. Braun.
 
@@ -11491,7 +11600,7 @@ Software Product Security
 
 > Requirements:
 
-> This device uses Fresenius’s Hypercare software.
+> This device uses Fresenius's Hypercare software.
 
 > 1 Patch MD\*1.0\*6 May 2008 Added Hemodialysis vendor Fresenius.
 
@@ -11542,7 +11651,7 @@ Software Product Security
 
 > Requirements:
 
-> This device uses Gambro’s Exalis software.
+> This device uses Gambro's Exalis software.
 
 > Setup Instructions:
 
@@ -11595,7 +11704,7 @@ Software Product Security
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > Access Code A unique sequence of characters known by and assigned only to the user, the system manager and/or designated alternate(s). The access code (in conjunction with the verify code) is used by the computer to identify authorized users.
-> Action A functional process that a clinician or clerk uses in the TIU computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.
+> Action A functional process that a clinician or clerk uses in the TIU computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.
 > 1ADP Automated Data Processing
 > ADP Coordinator/ADPAC/Application Coordinator Automated Data Processing Application Coordinator. The person responsible for implementing a set of computer programs (application package) developed to support a specific functional area such as clinical procedures, PIMS, etc.
 > ADT Advanced Data Type (InterSystems Cache). Also Admissions, Discharges, Transfers.
@@ -11603,7 +11712,7 @@ Software Product Security
 > 2API Application programming interface, an interface that a computer system, library or application provides in order to accept requests for services from other programs, and/or to allow data to be exchanged between them.
 > Application A system of computer programs and files that have been specifically developed to meet the requirements of a user or group of users.
 > Archive The process of moving data to some other storage medium, usually a magnetic tape, and deleting the information from active storage in order to free-up disk space on the system.
-> Assessment Assessment is the documentation of a clinician ‟s observations and interpretation of a patient’s clinical state based on a particular set of observations. The documentation is in the form of name-value pairs with values selected from a predetermined set, of name-value pairs in which the value is a number or set of numbers, or of free text.
+> Assessment Assessment is the documentation of a clinician "s observations and interpretation of a patient's clinical state based on a particular set of observations. The documentation is in the form of name-value pairs with values selected from a predetermined set, of name-value pairs in which the value is a number or set of numbers, or of free text.
 > ASU Authorization/Subscription Utility, an application that allows sites to associate users with user classes, allowing them to specify the level of authorization needed to sign or order specific document types and orderables. ASU is distributed with TIU in this version; eventually it will probably become independent, to be used by many VistA packages.
 > 1 Patch MD\*1.0\*16 January 2011 Glossary terms added.
 > 2 Patch MD\*1.0\*6 May 2008 Glossary term added.
@@ -11622,7 +11731,7 @@ Software Product Security
 > Boilerplate Text A pre-defined TIU template that can be filled in for Titles, Speeding up the entry process. TIU exports several Titles with boilerplate text which can be modified to meet specific needs; sites can also create their own.
 > 1BP Blood pressure
 > 2Broker Software which mediates between two objects, such as a client and a server or a repository and a requestor.
-> Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the “...” button to start a lookup).
+> Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the "..." button to start a lookup).
 > Bulletin A canned message that is automatically sent by MailMan to a user when something happens to the database.
 > 1 Patch MD\*1.0\*16 January 2011 Glossary term added.
 > 2 Patch MD\*1.0\*6 May 2008 Glossary term added.
@@ -11635,7 +11744,7 @@ Software Product Security
 > CDR Clinical Data Repository
 > CGI CliO Generic Interface
 > CIS Clinical Information System. An ICU Clinical Information System is any hardware/software system that works in concert to collect, store, display, and/or enable manipulation of potential, clinically relevant information. A CIS also acts as an HL7 Gateway. Vendors of monitors and other instruments used in an ICU provide the CIS. The primary distinguishing feature of this CIS is its ability to manually select a subset of all available data and send it to the EMR.
-> Class Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
+> Class Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
 > Clinical Flowsheets A patch to the Clinical Procedures package that allows the collection of discrete data from medical devices or a Clinical Information System. It is a complete HL7 standardized instrument interface developed and owned by the Department of Veterans
 > Clinical Reminders A system which allows caregivers to track and improve preventive healthcare and disease treatment for patients and to ensure timely clinical interventions.
 > CliO Clinical Observations database
@@ -11679,7 +11788,7 @@ Software Product Security
 > HFS Host File System
 > HIPAA Health Insurance Portability and Accountability Act
 > 2HL7 Health Level 7 messaging, a language which various healthcare systems use to interface with one another.
-> HL7 Gateway Hardware or software provided by a vendor that is able to receive information in a vendor ‟s proprietary format from one or more ICU monitors and other instruments, to translate the data into standardized HL7 message format, and to pass the messages to other systems.
+> HL7 Gateway Hardware or software provided by a vendor that is able to receive information in a vendor "s proprietary format from one or more ICU monitors and other instruments, to translate the data into standardized HL7 message format, and to pass the messages to other systems.
 > HR Heart rate
 > 1HSD&D Office of Information (OI), Health Systems Design & Development HSITES Health Systems Implementation, Training, Education and Support ICU Intensive Care Unit
 > IEN Internal Entry Number
@@ -11687,7 +11796,7 @@ Software Product Security
 > Instrument An instrument is a device used to perform a medical function on a patient. In Clinical Flowsheets instrument refers to ICU monitors, which are electronic devices that collect and/or display information concerning the physical state of a patient. Usually, the monitor attaches to a patient and takes readings over time without requiring intervention for each reading.
 > Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation.
 > Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application.
-> These individuals are „clinical update users‟ for a given consult service.
+> These individuals are "clinical update users" for a given consult service.
 > IRM Information Resource Management.
 > IRMS Information Resource Management Service.
 > JCAHO Joint Commission on Accreditation of Healthcare Organizations
@@ -12870,21 +12979,21 @@ TMP("TIUVIEW",\$J
 <td>Access Points</td>
 <td>704.201,.1</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s access points for dialysis</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's access points for dialysis</p>
 <p>treatments.</p></td>
 </tr>
 <tr class="odd">
 <td>Access History</td>
 <td>704.201,.2</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s access history for dialysis</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's access history for dialysis</p>
 <p>treatments.</p></td>
 </tr>
 <tr class="even">
 <td>Infection History</td>
 <td>704.201,.3</td>
 <td>Word Processing</td>
-<td><p>This field holds the XML in UUEncoded format for this patient’s infection history for</p>
+<td><p>This field holds the XML in UUEncoded format for this patient's infection history for</p>
 <p>dialysis treatments.</p></td>
 </tr>
 </tbody>
@@ -13059,7 +13168,7 @@ TMP("TIUVIEW",\$J
 <td><p>Pointer to new</p>
 <p>person file (#200)</p></td>
 <td><p>If this setting is user specific, this</p>
-<p>field will contain that user’s DUZ.</p></td>
+<p>field will contain that user's DUZ.</p></td>
 </tr>
 <tr class="odd">
 <td>User</td>
@@ -13420,7 +13529,7 @@ TMP("TIUVIEW",\$J
 <td>NAME</td>
 <td>704.007,.02</td>
 <td>FREE TEXT (1-30 CHAR)</td>
-<td>HELP-PROMPT: Answer must be 1-30 characters in length. This is the NAME of the work-shift. A sample could be "DAY”.</td>
+<td>HELP-PROMPT: Answer must be 1-30 characters in length. This is the NAME of the work-shift. A sample could be "DAY".</td>
 </tr>
 <tr class="odd">
 <td>START_TIME</td>
@@ -13490,13 +13599,13 @@ TMP("TIUVIEW",\$J
 <td>ID</td>
 <td>704.008,.01</td>
 <td>FREE TEXT (38 CHAR)</td>
-<td>This field contains the schedule identifier. A sample ID could be "{E24290F6-31F4-C6F6- B310-E37C563FBD64}”.</td>
+<td>This field contains the schedule identifier. A sample ID could be "{E24290F6-31F4-C6F6- B310-E37C563FBD64}".</td>
 </tr>
 <tr class="even">
 <td>NAME</td>
 <td>704.008,.02</td>
 <td>FREE TEXT (1-30 CHAR)</td>
-<td>This is the NAME of the schedule. A sample could be "TID/MEALS”.</td>
+<td>This is the NAME of the schedule. A sample could be "TID/MEALS".</td>
 </tr>
 <tr class="odd">
 <td>SCHEDULE_TYPE</td>
@@ -13519,7 +13628,7 @@ TMP("TIUVIEW",\$J
 <td>DISPLAY_NAME</td>
 <td>704.008,.05</td>
 <td>FREE TEXT (1-50 CHAR)</td>
-<td>This field is the text displayed within Clinical Flowsheets for the schedule. A sample DISPLAY NAME could be "3 times daily with meals”.</td>
+<td>This field is the text displayed within Clinical Flowsheets for the schedule. A sample DISPLAY NAME could be "3 times daily with meals".</td>
 </tr>
 <tr class="even">
 <td>ACTIVE</td>
@@ -15576,7 +15685,7 @@ TMP("TIUVIEW",\$J
 <td>704.117,.24</td>
 <td><p>FREE TEXT (1 –</p>
 <p>50 char)</p></td>
-<td>This is the version of the source (#.21) that generated this observation (#.01). A sample SOURCE VERSION could be “1.0".</td>
+<td>This is the version of the source (#.21) that generated this observation (#.01). A sample SOURCE VERSION could be "1.0".</td>
 </tr>
 <tr class="even">
 <td><p>ENTERED_DATE</p>

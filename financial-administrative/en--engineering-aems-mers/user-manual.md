@@ -3,7 +3,7 @@ title: EN Version 7 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EN
 app_name: Engineering (AEMS / MERS)
 section: FIN
@@ -11,38 +11,78 @@ app_status: active
 pkg_ns: EN
 patch_ver: 7
 patch_id: EN*7
-group_key: "EN:EN:7"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: - [## Introduction](#introduction) - [Related Manuals](#related-manuals) - [Functional Description](#functional-description) - [Orientation](#orientation) - [Standard Conventions](#standard-conventions) - [Menu Structure](#menu-structure) - [Package Management](#package-management) - [Special Menu O
-audience: 
-keywords: 
-  - equipment
-  - work
-  - project
-  - number
-  - order
-  - date
-  - edit
-  - code
-  - report
-  - engineering
+group_key: EN:EN:7
+description: '- ## Introduction - Related Manuals - Functional Description - Orientation - Standard Conventions - Menu Structure - Package Management - [Special Menu...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '7'
+- '11'
+- '20'
+- '26'
+- '33'
+- '34'
+- '35'
+- '49'
+- '60'
+- '64'
+- '158.7'
+- '158.8'
+- '158.9'
+- '176'
+- '200'
+- '420.8'
+- '691'
+- '6910'
+- '6910.3'
+- '6911'
+- '6912'
+- '6914'
+- '6914.4'
+- '6914.6'
+- '6914.7'
+- '6917'
+- '6925'
+- '6928'
+- '6928.3'
+- '7335.7'
+- '7336.6'
+- '7336.8'
+- '7336.9'
+security_keys:
+- EN IT ASSIGNMENT
+- EN IT INVENTORY
+- ENEDNX
+- ENEDPM
+- ENFACS
+- ENPLK001
+- ENPLK002
+- ENROOM
+- ENTER
+- SHIFT
+- TAB
+menu_options: 9
 page_count: 0
 word_count: 97394
 section_count: 16
 table_count: 144
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 2
 revision_newest: 06/11/97
 revision_oldest: 06/11/97
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/EN_7_0_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/EN_7_0_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=37"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/EN_7_0_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/EN_7_0_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=37
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

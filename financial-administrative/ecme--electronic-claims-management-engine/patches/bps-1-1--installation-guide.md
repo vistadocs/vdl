@@ -11,38 +11,42 @@ app_status: active
 pkg_ns: BPS
 patch_ver: 1
 patch_id: BPS*1*1
-group_key: "ECME:BPS:1"
-file_numbers: []
-security_keys: []
+group_key: ECME:BPS:1
+description: hipaa ncpdp connection for EDI Pharmacy (Active Release)INSTALLATION
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '11.01'
+- '12'
+- '32'
+- '50'
+- '52'
+- '52.01'
+- '52.25'
+- '59'
+- '81'
+- '900231'
+security_keys:
+- BPS MASTER
+- IBCNR E-PHARMACY SUPERVISO
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pharmacy
-  - ecme
-  - ncpdp
-  - installation
-  - link
-  - table
-  - contents
-  - hipaa
-  - site
-  - claims
 page_count: 0
 word_count: 5751
 section_count: 12
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=141"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)/ecme_hipaa_ncpdp_1_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=141
+audit_applied: '2026-05-31'
 ---
 
 > ![](bps-1-1-ecme-hipaa-ncpdp-installation-guide/001.png)

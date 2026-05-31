@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1*106
-group_key: "EAS:EAS:1"
-file_numbers: []
-security_keys: []
+group_key: EAS:EAS:1
+description: '- # Revision History - - # Introduction - Using the Software - Search for MT Anniversary Dates Option - [This option searches for 60-day MT anniversary dates by scanning the Annual...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3.5'
+- '4'
+- '27.02'
+- '408.31'
+- '713.1'
+- '713.2'
+security_keys:
+- EAS MTOVERRIDE
+- EAS MTSUPV
 menu_options: 0
-description: ![](eas-1-106-local-signed-means-test-application-rossio-22-user-manual/001.png)
-audience: 
-keywords: 
-  - letters
-  - date
-  - letter
-  - test
-  - print
-  - report
-  - means
-  - appendix
-  - table
-  - contents
 page_count: 0
 word_count: 10142
 section_count: 1
 table_count: 3
 figure_count: 0
 appendix_count: 17
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_p106_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-1-106-local-signed-means-test-application-rossio-22-user-manual/001.png)

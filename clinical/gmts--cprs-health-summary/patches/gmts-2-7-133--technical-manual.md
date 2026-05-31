@@ -5,55 +5,54 @@ doc_label: Technical Manual
 doc_layer: patch
 doc_subject: Health Summary
 app_code: GMTS
-app_name: "CPRS: Health Summary"
+app_name: 'CPRS: Health Summary'
 section: CLI
 app_status: active
 pkg_ns: GMTS
 patch_ver: 2.7
 patch_id: GMTS*2.7*133
-group_key: "GMTS:GMTS:2.7"
-file_numbers: 
-  - 2
-  - 142
-security_keys: []
-menu_options: 1
+group_key: GMTS:GMTS:2.7
 description: Version 2.7March 2020Department of Veterans Affairs (VA)Office of Information and Technology (OIT)
-audience: 
-keywords: 
-  - health
-  - summary
-  - gmts
-  - table
-  - contents
-  - patient
-  - site
-  - components
-  - date
-  - strong
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '45'
+- '59'
+- '60'
+- '71'
+- '101.24'
+- '120.51'
+- '142'
+- '142.1'
+- '142.5'
+- '142.98'
+- '142.99'
+- '394.71'
+- '8925.1'
+security_keys:
+- GMTS VIEW ONLY
+- GMTSMGR
+- LRSUPER
+- PROVIDER
+menu_options: 1
 page_count: 0
-word_count: 12981
+word_count: 12970
 section_count: 30
 table_count: 4
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=63"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/gmts_2_7_p133_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=63
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="TitlePage" class="anchor"></span>Health Summary
-
-  Technical Manual
----
-
 ![](gmts-2-7-133-health-summary-technical-manual/001.png)
 
 Version 2.7March 2020Department of Veterans Affairs (VA)Office of Information and Technology (OIT)

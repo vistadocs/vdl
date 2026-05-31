@@ -1,12 +1,48 @@
 ---
-consolidated_title: "claims tracking user guide"
-app_code: IB
+title: IB*2*568 Claims Tracking User Guide
 doc_type: UG
-master_source: "IB*2*568 Claims Tracking User Guide"
+doc_label: User Guide
+doc_layer: patch
+doc_subject: Claims Tracking
+app_code: IB
+app_name: Integrated Billing
+section: FIN
+app_status: active
+pkg_ns: IB
+patch_ver: 2
+patch_id: IB*2*568
+group_key: IB:IB:2
+file_numbers:
+- '36'
+security_keys:
+- IB PARAMETER EDIT
+- PROVIDER
+menu_options: 0
+description: Medical Care Collection Fund (MCCF) eBilling Compliance Phase
+audience: End users and package coordinators (ADPAC)
+keywords: []
+page_count: 0
+word_count: 25042
+section_count: 26
+table_count: 2
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: September 2016
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p568_ct_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p568_ct_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
+master_source: IB*2*568 Claims Tracking User Guide
 master_pub_date: September 2016
 consolidated_from: 2 versions
 prior_versions:
-  - "IB*2*796 Claims Tracking User Guide"
+- IB*2*796 Claims Tracking User Guide
+consolidated_title: claims tracking user guide
 ---
 
 Medical Care Collection Fund (MCCF) eBilling Compliance Phase 3
@@ -45,7 +81,7 @@ Revision History
 <td>May 2018</td>
 <td>3.0</td>
 <td><p>Updated for patch IB*2*568 which added new security key IB PARAMETER EDIT.</p>
-<p>Also added new menu option “Manually Add Prosthetics to Claims Tracking” to the Supervisor’s Menu (Claims Tracking)</p></td>
+<p>Also added new menu option "Manually Add Prosthetics to Claims Tracking" to the Supervisor's Menu (Claims Tracking)</p></td>
 <td><p>PM: REDACTED</p>
 <p>Tech Writer: REDACTED</p></td>
 </tr>
@@ -177,7 +213,7 @@ VistA users (UR/RUR nurses) have the ability to manage insurance reviews and hos
 
 VistA users (UR/RUR nurses) have the ability to request authorization for healthcare events such as admissions and clinic appointments for claims tracking events identified by the software. Authorization for care numbers are then added to the claims creation process so that authorization numbers are submitted to the third-party payers as part of the claims.
 
-The implementation of the electronic 278 transaction is intended to replace the manual processes that the sites’ Revenue Utilization Review (RUR) nurses use to obtain authorization numbers as well as the manual processes the billing personnel use to look up the authorization numbers and to add them to the healthcare claims.
+The implementation of the electronic 278 transaction is intended to replace the manual processes that the sites' Revenue Utilization Review (RUR) nurses use to obtain authorization numbers as well as the manual processes the billing personnel use to look up the authorization numbers and to add them to the healthcare claims.
 
 Claims Tracking works in conjunction with other VistA modules such as clinical, admission/discharge and transfer (ADT), pharmacy, accounts receivable (AR) and integrated billing (IB).
 
@@ -285,7 +321,7 @@ This functionality is designed to be used by the RUR nurses and the billing pers
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The request of authorization of health care services or events can be accomplished via the telephone and/or via some payers’ websites.
+The request of authorization of health care services or events can be accomplished via the telephone and/or via some payers' websites.
 
 Claims can be created manually if a biller has access to data from a patient care event.
 
@@ -301,15 +337,15 @@ There are no special requirements for logging on to or off of VistA associated w
 
 There are no specific problems or issues associated with the use of the Claims Tracking software.
 
-If there are no events being added automatically to the Claims Tracking software, contact your site’s Information Resource Management (IRM) to make sure the IB MT NIGHT COMP task is scheduled to run each night and make sure the site’s Claims Tracking parameters are set as desired by the RUR and billing personnel.
+If there are no events being added automatically to the Claims Tracking software, contact your site's Information Resource Management (IRM) to make sure the IB MT NIGHT COMP task is scheduled to run each night and make sure the site's Claims Tracking parameters are set as desired by the RUR and billing personnel.
 
-If there are no events being added automatically to the HCSR Worklist, contact your site’s IRM to make sure the IBT HCSR NIGHTLY PROCESS task is scheduled to run each night and make sure the site’s Claims Tracking parameters are set as desired by the RUR and billing personnel.
+If there are no events being added automatically to the HCSR Worklist, contact your site's IRM to make sure the IBT HCSR NIGHTLY PROCESS task is scheduled to run each night and make sure the site's Claims Tracking parameters are set as desired by the RUR and billing personnel.
 
 # Claims Tracking Master Menu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Claims Tracking module has a master menu that provides access to claims tracking for different groups of users. Each of the following menus is tailored to the expected users’ workflow:
+The Claims Tracking module has a master menu that provides access to claims tracking for different groups of users. Each of the following menus is tailored to the expected users' workflow:
 
 - Claims Tracking Master Menu
 
@@ -2603,7 +2639,7 @@ IB,PATIENT 22 XXXX 11-B MEDICI Ins. Review-URG ADM XX/XX/XX COMPLETE UR,NURSE AD
   
 Unscheduled Admissions w/Insurance
 
-You can print a list of patients who had active insurance on the date of their unscheduled admission. The report prints information about the number of reviews completed and the insurance companies’ actions.
+You can print a list of patients who had active insurance on the date of their unscheduled admission. The report prints information about the number of reviews completed and the insurance companies' actions.
 
 This report is formatted to print 132 columns.
 
@@ -3162,7 +3198,7 @@ Select Claims Tracking Menu for Billing \<TEST ACCOUNT\> Option:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option allows you to enter a patient’s name and then view all of the patient’s current Claims Tracking events.
+This option allows you to enter a patient's name and then view all of the patient's current Claims Tracking events.
 
 The following screens show the actions accessed through this option and the actions available on each subsequent screen:
 
@@ -3407,7 +3443,7 @@ Comment:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option provides the ability to enter a patient’s name and the Claims Tracking event which has been determined to be non-billable. This option also provides the ability for you to enter the following data:
+This option provides the ability to enter a patient's name and the Claims Tracking event which has been determined to be non-billable. This option also provides the ability for you to enter the following data:
 
 - REASON NOT BILLABLE:
 - EARLIEST AUTO BILL DATE: OCT 22,2014//
@@ -3487,9 +3523,9 @@ This menu was intended for those RUR Nurses who do Insurance reviews. Refer to t
 
 In addition to the above options, the Claims Tracking Menu (Insurance Reviews)… menu contains the Health Care Services Review (HCSR) 278 Response option. You can use this option to view an X12N Health Care Services – Request for Review and Response (278) response from the UMO.
 
-You can enter a patient’s name and the system will display a list of events. You can then select the event response you wish to view.
+You can enter a patient's name and the system will display a list of events. You can then select the event response you wish to view.
 
-When an X12N Health Care Services – Request for Review and Response (278) response with a final status is received by VistA, the patient’s entry on the HCSR Worklist is removed. To view the response or to take further action such as submitting an Appeal, you may use the Health Care Services Review (HCSR) 278 Response option or the HCSR Response WL action from within the HCSR Worklist.
+When an X12N Health Care Services – Request for Review and Response (278) response with a final status is received by VistA, the patient's entry on the HCSR Worklist is removed. To view the response or to take further action such as submitting an Appeal, you may use the Health Care Services Review (HCSR) 278 Response option or the HCSR Response WL action from within the HCSR Worklist.
 
 The following are final statuses:
 
@@ -3757,7 +3793,7 @@ Select Action: Next Screen//
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The X12N Health Care Services Review – Request for Review and Response transaction is an Electronic Data Interchange (EDI) standard for the transmission of standardized data for the request of care authorizations or certifications and for the responses to those requests. The messages from VistA to the Financial Services Center (FSC) in Austin, TX are Health Level Seven (HL7) messages. The HL7 messages received by FSC are converted to a HIPAA compliant format and sent to a Health Care Clearing House (HCCH). The HCCH then sends the transaction to the payer or the payer’s Utilization Management Organization. The UMO returns either a Pending notification to the VAMC or a response containing the authorization/certification number or denial of services or error condition. The 278 transactions from VistA are real-time transactions and are transmitted as soon as you trigger a request.
+The X12N Health Care Services Review – Request for Review and Response transaction is an Electronic Data Interchange (EDI) standard for the transmission of standardized data for the request of care authorizations or certifications and for the responses to those requests. The messages from VistA to the Financial Services Center (FSC) in Austin, TX are Health Level Seven (HL7) messages. The HL7 messages received by FSC are converted to a HIPAA compliant format and sent to a Health Care Clearing House (HCCH). The HCCH then sends the transaction to the payer or the payer's Utilization Management Organization. The UMO returns either a Pending notification to the VAMC or a response containing the authorization/certification number or denial of services or error condition. The 278 transactions from VistA are real-time transactions and are transmitted as soon as you trigger a request.
 
 Refer to the eBilling_Build 2 ICD for details of the message structures.
 
@@ -3901,7 +3937,7 @@ The following actions are available from the HCSR Worklist:
 - Expand Entry – This action allows you to select and expand an entry from the list.
 - Add Entry – This actions allows you to add an entry to the list
 - Next Review Date – This action allows you to delay a review until a specified future date or until an inpatient is discharged. Next Review Date is for inpatient entries only.
-- Add Comment – This action allows you to enter a free text comment. The comments can be viewed in Expanded Entry. The user’s name and the date and time are added to the comment automatically.
+- Add Comment – This action allows you to enter a free text comment. The comments can be viewed in Expanded Entry. The user's name and the date and time are added to the comment automatically.
 - Sort List – This action allows you to resort the worklist based on the following:
 - Oldest Entries First
 - Newest Entries First
@@ -3910,7 +3946,7 @@ The following actions are available from the HCSR Worklist:
 - Insurance Company Name
 - HCSR Response WL – This action allows you to view a list of entries with final 278 Responses.
 
-*Note:* When an X12N Health Care Services – Request for Review and Response (278) response with a final status is received by VistA, the patient’s entry on the HCSR Worklist is removed. To view the response or to take further action such as submitting an Appeal, you may use the either the stand-alone Health Care Services Review (HCSR) 278 Response option or this HCSR Response WL action.
+*Note:* When an X12N Health Care Services – Request for Review and Response (278) response with a final status is received by VistA, the patient's entry on the HCSR Worklist is removed. To view the response or to take further action such as submitting an Appeal, you may use the either the stand-alone Health Care Services Review (HCSR) 278 Response option or this HCSR Response WL action.
 
 The following are final statuses:
 
@@ -3920,10 +3956,10 @@ The following are final statuses:
 - C – Cancelled
 - CT – Contact payer
 - NA – No Action Required
-- Set ‘In Progress’ Mark – This action allows you to mark an entry as being worked by you. The software places a pound sign (#) before the patient’s name.
+- Set 'In Progress' Mark – This action allows you to mark an entry as being worked by you. The software places a pound sign (#) before the patient's name.
 
-  *Note:* If you start a 278 request and need to stop for some reason before you are done, the data you have entered will be saved and the entry will be automatically marked ‘In Progress’.
-- Remove “In Progress’ Mark – This action allows you to remove the ‘In Progress’ indicator.
+  *Note:* If you start a 278 request and need to stop for some reason before you are done, the data you have entered will be saved and the entry will be automatically marked 'In Progress'.
+- Remove "In Progress' Mark – This action allows you to remove the 'In Progress' indicator.
 - Refresh – this action allows you to rebuild the worklist without leaving the option.
 
 The HCSR Worklist provides an on screen legend which provides the following information:
@@ -3935,7 +3971,7 @@ The HCSR Worklist provides an on screen legend which provides the following info
 - -RespErr – This indicator means a 278 Request was sent and a 278 Response has been received which contains an error condition.
 - !Unable – This indicator means VistA was unable to send a 278 Request for some reason (example: missing required data).
 - +Pend - This indicator means a 278 Request was sent and a PENDING 278 Response has been received.
-- \*NextRev - This indicator means the entry on the worklist has been delayed either until a specific date or until the patient’s discharge date.
+- \*NextRev - This indicator means the entry on the worklist has been delayed either until a specific date or until the patient's discharge date.
 
   
 Sample Next Review Date Screen
@@ -4154,7 +4190,7 @@ SP Set 'In Progress' VR View Sent Request EX Exit
 
 Select Action: Next Screen//
 
-Sample Set ‘In Progress’ Mark Screen
+Sample Set 'In Progress' Mark Screen
 
 HCSR Worklist Oct 30, 2014@14:21:51 Page: 2 of 3
 
@@ -4204,7 +4240,7 @@ Select Action: Next Screen// sp Set 'In Progress' Mark
 
 Select Event Entry(s): (15-28): 13
 
-Sample Remove ‘In Progress” Mark Screen
+Sample Remove 'In Progress" Mark Screen
 
 HCSR Worklist Oct 30, 2014@14:47:22 Page: 2 of 3
 
@@ -4394,10 +4430,10 @@ The following actions are available from the HCSR Expanded Entry screen:
 
   Note: This action is currently disabled
 - View Pending Response – This actions allows you to view a Pending response from the UMO.
-- Add Comment - This action allows you to enter a free text comment. The comments can be viewed in Expanded Entry. The user’s name and the date and time are added to the comment automatically.
+- Add Comment - This action allows you to enter a free text comment. The comments can be viewed in Expanded Entry. The user's name and the date and time are added to the comment automatically.
 - Send 278 Inquiry – This action allows you to send a X12N Health Care Services Review – Inquiry and Response for a 278 request or inquiry with a Pending status. It also allows you to send a X12N Health Care Services Review – Inquiry and Response to cancel a 278 request or inquiry with a Pending status.
-- Set ‘In Progress’ Mark – This action allows you to mark an entry as being worked by you. The software places a pound sign (#) before the patient’s name.
-- Remove “In Progress’ Mark – This action allows you to remove the ‘In Progress’ indicator.
+- Set 'In Progress' Mark – This action allows you to mark an entry as being worked by you. The software places a pound sign (#) before the patient's name.
+- Remove "In Progress' Mark – This action allows you to remove the 'In Progress' indicator.
 - View Sent Request – This action allows you to view the request or inquiry that was sent to payer in X12 format
 
 Sample Send 278 Request Screens – Outpatient Brief

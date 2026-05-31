@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*61
-group_key: "RMPR:RMPR:3"
-file_numbers: []
+group_key: RMPR:RMPR:3
+description: '- ## Inventory Package (PIP) Implementation Guide - Information for IRM - [More Steps to Implement Patch'
+audience: ''
+keywords: []
+file_numbers:
+- '4.6'
+- '39'
+- '661.11'
+- '661.5'
+- '661.6'
+- '661.7'
+- '661.9'
 security_keys: []
 menu_options: 24
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><h5 id=\\"introduction\\">Introduction</h5></td> <td><blockquote> <p>The purpose of this Prosthetics Inventory Package (PIP) RMPR361 <em><strong>Implementation Guide</strong></em> is to prov"
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - table
-  - width
-  - colgroup
-  - style
-  - tbody
-  - print
-  - inventory
-  - location
 page_count: 0
 word_count: 8022
 section_count: 4
 table_count: 16
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_p61_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

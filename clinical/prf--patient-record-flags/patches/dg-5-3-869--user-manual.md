@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*869
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
+group_key: PRF:DG:5.3
+description: Patient Record Flags (PRF)User
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '26.15'
+- '40.8'
+security_keys:
+- AND
+- DGPF ASSIGNMENT
+- PROVIDER
 menu_options: 17
-description: 
-audience: 
-keywords: 
-  - flag
-  - patient
-  - record
-  - category
-  - report
-  - assignment
-  - table
-  - contents
-  - flags
-  - dgpf
 page_count: 0
 word_count: 16821
 section_count: 28
 table_count: 16
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patient_record_flags_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patient_record_flags_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patient_record_flags_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/patient_record_flags_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 Patient Record Flags (PRF)User GuidePatchesDG\*5.3\*892DG\*5.3\*869TIU\*1.0\*279DG\*5.3\*960DG\*5.3\*951

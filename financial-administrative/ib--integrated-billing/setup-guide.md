@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2
-group_key: "IB:IB:2"
+group_key: IB:IB:2
+description: '> Department of Veterans Affairs Decentralized Hospital Computer'
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XUMGR
 menu_options: 0
-description: - [General Security](#general-security) - [Legal Requirements](#legal-requirements) - [VA FileMan Access Codes](#va-fileman-access-codes) 1. Integrated Billing files may only be updated through distributed options. 2. Per VHA Directive 10-93-142 regarding security of software that affects financial
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - even
-  - style
-  - width
-  - claims
-  - table
-  - access
-  - billing
-  - tracking
 page_count: 0
 word_count: 3268
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 > Department of Veterans Affairs Decentralized Hospital Computer Program

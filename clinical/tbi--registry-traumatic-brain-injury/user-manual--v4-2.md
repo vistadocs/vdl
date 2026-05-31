@@ -3,55 +3,38 @@ title: TBI Version 4.2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall "create a 'Traumatic B
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall “create a ‘Traumatic B
-audience: 
-keywords: 
-  - class
-  - colspan
-  - span
-  - strong
-  - table
-  - contents
-  - even
-  - glos
-  - patient
-  - anchor
 page_count: 0
-word_count: 32677
+word_count: 32664
 section_count: 36
 table_count: 52
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbium.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbium.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbium.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbium.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Traumatic Brain Injury (TBI)
-
-  User Manual
----
-
 ![](tbi-version-4-2-user-manual/001.png)
 
 November 2015

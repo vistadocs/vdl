@@ -3,46 +3,37 @@ title: InterSystems Health Connect - HL7 Messaging Production Operations Manual 
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: plain
-doc_subject: InterSystems Health Connect - HL7 Messaging  (POM) - Master
+doc_subject: InterSystems Health Connect - HL7 Messaging (POM) - Master
 app_code: PRC
 app_name: IFCAP
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: PRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This Production Operations Manual (POM) describes how to maintain the components of the InterSystems Health Level Seven (HL7) Health Connect (HC) messaging system. It also describes how to troubleshoot problems that might occur with this system in production. The intended audience for this documen'
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: > This Production Operations Manual (POM) describes how to maintain the components of the InterSystems Health Level Seven (HL7) Health Connect (HC) messaging system. It also describes how to troubleshoot problems that might occur with this system in production. The intended audience for this documen
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - table
-  - contents
-  - style
-  - width
-  - span
-  - bookmark
-  - colspan
 page_count: 0
 word_count: 15329
 section_count: 20
 table_count: 0
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1999
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_hl7_messaging_pom-signed.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_hl7_messaging_pom-signed.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_hl7_messaging_pom-signed.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/hc_hl7_messaging_pom-signed.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 # InterSystems Health Connect – HL7 Messaging Production Operations Manual (POM)

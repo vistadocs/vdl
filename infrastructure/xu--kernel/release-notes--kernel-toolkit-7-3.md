@@ -3,7 +3,7 @@ title: Kernel Toolkit 7.3 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: XU
 patch_ver: 7.3
 patch_id: XU*7.3
-group_key: "XU:XU:7.3"
-file_numbers: []
+group_key: XU:XU:7.3
+description: '- Kernel Toolkit Version 7.3 Release Notes Decentralized Hospital Computer Program KERNEL TOOLKITRELEASE NOTES April 1995 Information Systems Center San'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '80'
+- '80.1'
 security_keys: []
 menu_options: 0
-description: - [Kernel Toolkit Version 7.3 Release Notes](#kernel-toolkit-version-73-release-notes) Decentralized Hospital Computer Program KERNEL TOOLKITRELEASE NOTES April 1995 Information Systems Center San Francisco
-audience: 
-keywords: 
-  - toolkit
-  - performance
-  - kernel
-  - monitor
-  - release
-  - look
-  - version
-  - notes
-  - files
-  - table
 page_count: 0
 word_count: 567
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

@@ -5,44 +5,51 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: (updated with GMPL*2*49)
 app_code: GMPL
-app_name: "CPRS: Problem List"
+app_name: 'CPRS: Problem List'
 section: CLI
 app_status: active
 pkg_ns: GMPL
 patch_ver: 2
 patch_id: GMPL*2
-group_key: "GMPL:GMPL:2"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: GMPL:GMPL:2
 description: The Problem List application is used to document and track a patient's problems. It provides the clinician with a current and historical view of the patient's health care problems across clinical specialties. It will allow each identified problem to be traced through the VistA health care system in
-audience: 
-keywords: 
-  - problem
-  - gmpl
-  - selection
-  - contents
-  - table
-  - snomed
-  - diagnosis
-  - view
-  - problems
-  - code
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '4'
+- '44'
+- '49'
+- '80'
+- '125'
+- '125.1'
+- '125.11'
+- '125.12'
+- '125.99'
+- '200'
+- '757.03'
+- '900001'
+security_keys:
+- GMPL ICD CODE
+- GMPL IMPRT UTIL
+- OREMAS
+- PROVIDER
+menu_options: 8
 page_count: 0
 word_count: 9677
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=64"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=64
+audit_applied: '2026-05-31'
 ---
 
 ![](problem-list-technical-manual-version-2-updated-with-gmpl-2-49/001.png)

@@ -5,44 +5,46 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Allergy and Alerts
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*253
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '> This document provides a brief description of new features of the Allergy and Alerts for Inpatient Medications V.5.0 project for patches PSJ\5\253 and PSJ\5\254.'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '7'
+- '51.1'
+- '53.1'
+- '55'
+- '62'
+- '100'
+- '100.05'
+- '130'
+- '132'
+- '153'
 security_keys: []
 menu_options: 0
-description: > This document provides a brief description of new features of the Allergy and Alerts for Inpatient Medications V.5.0 project for patches PSJ\5\253 and PSJ\5\254.
-audience: 
-keywords: 
-  - order
-  - table
-  - contents
-  - current
-  - provider
-  - inpatient
-  - interventions
-  - cprs
-  - drug
-  - overrides
 page_count: 0
 word_count: 790
 section_count: 5
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p253_p254_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p253_p254_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p253_p254_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p253_p254_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](psj-5-253-254-release-notes-allergy-and-alerts/001.png)

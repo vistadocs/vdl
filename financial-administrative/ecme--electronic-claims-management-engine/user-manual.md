@@ -3,7 +3,7 @@ title: ECME User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ECME
 app_name: Electronic Claims Management Engine
 section: FIN
@@ -11,49 +11,44 @@ app_status: archive
 pkg_ns: ECME
 patch_ver: 1.0
 patch_id: ECME*1.0
-group_key: "ECME:ECME:1.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - ecme
-  - claim
-  - claims
-  - report
-  - pharmacy
-  - date
-  - patient
-  - view
-  - status
-  - example
+group_key: ECME:ECME:1.0
+description: '''Table 1: List of Users with Suggested ECME Menus and Security'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '59'
+- '659'
+- '661'
+- '1213'
+- '1236'
+security_keys:
+- AND BPS USER
+- BPS MANAGER
+- BPS MASTER
+- BPS SUPERVISOR
+- BPS USER
+- BPSMENU
+- BPSUSER
+- PROVIDER
+- SOP
+menu_options: 2
 page_count: 0
-word_count: 42166
+word_count: 42157
 section_count: 33
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)_Archive/bps_1_0_p28_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)_Archive/bps_1_0_p28_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=252"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)_Archive/bps_1_0_p28_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/E_Claims_Man_Eng_(ECME)_Archive/bps_1_0_p28_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=252
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Electronic Claims Management Engine (ECME)
-
-  Version 1.0
-
-  User Manual
----
-
 ![](ecme-user-manual/001.png)
 
 May 2021

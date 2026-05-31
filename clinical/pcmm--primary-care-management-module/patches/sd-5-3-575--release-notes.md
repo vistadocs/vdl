@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: SD
 patch_ver: 5.3
 patch_id: SD*5.3*575
-group_key: "PCMM:SD:5.3"
-file_numbers: []
-security_keys: []
+group_key: PCMM:SD:5.3
+description: 'Date Description (Patch # if applicable) Project Manager Technical'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '403.46'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - mhtc
-  - health
-  - care
-  - mental
-  - pcmm
-  - primary
-  - patient
-  - table
-  - class
-  - contents
 page_count: 0
 word_count: 1868
 section_count: 2
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_575rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_575rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=95"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_575rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pri_Care_Mgmnt_Module_(PCMM)/sd_53_575rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=95
+audit_applied: '2026-05-31'
 ---
 
 ![](sd-5-3-575-display-of-mental-health-treatment-coordinator-mhtc-release-notes/001.png)

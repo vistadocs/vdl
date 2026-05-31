@@ -3,7 +3,7 @@ title: Veteran's Crisis Line Version 1 Developer Guide
 doc_type: DG
 doc_label: Developer Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: YS
 app_name: Mental Health
 section: CLI
@@ -11,46 +11,30 @@ app_status: active
 pkg_ns: YS
 patch_ver: 1
 patch_id: YS*1
-group_key: "YS:YS:1"
+group_key: YS:YS:1
+description: '| | | | | |------------|---------|-----------------|------------------------------------| | Date | Version | Description | Author | | 11/14/2014 | 1.0 | Initial version | REDACTED | | | | | | | | | |'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - developer
-  - guide
-  - crisis
-  - version
-  - line
-  - application
-  - veteran
-  - code
 page_count: 0
-word_count: 2106
+word_count: 2101
 section_count: 9
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2014
 revision_count: 1
 revision_newest: 11/14/2014
 revision_oldest: 11/14/2014
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_developer_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_developer_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_developer_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_developer_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-
-  Department of Veterans Affairs
----
-
 Enhancements to the Veterans Crisis Line Application (VCL)
 
 Developer Guide

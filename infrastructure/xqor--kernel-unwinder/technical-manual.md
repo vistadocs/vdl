@@ -3,52 +3,42 @@ title: XQOR Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: XQOR
 app_name: Kernel Unwinder
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: XQOR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| Date | Description | Author | |----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------| | 2/27/15 | Converted document to MS-Word 2007 format and incorporated...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '19'
+- '100.99'
+- '101'
+- '101.11'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - xqorm
-  - protocol
-  - entry
-  - table
-  - contents
-  - xqor
-  - point
-  - unwinder
-  - variables
-  - selections
+menu_options: 2
 page_count: 0
-word_count: 5169
+word_count: 5158
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1994
 revision_count: 1
 revision_newest: 2/27/15
 revision_oldest: 2/27/15
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqortm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqortm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=13"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqortm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Unwinder/xqortm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=13
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc412794669" class="anchor"></span>Kernel Unwinder Technical Manual
----
-
 ![](xqor-technical-manual/001.png)
 
 Office of Information and Technology (OI&T)

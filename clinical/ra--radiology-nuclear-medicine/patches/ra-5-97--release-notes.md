@@ -11,38 +11,33 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*97
-group_key: "RA:RA:5"
-file_numbers: []
+group_key: RA:RA:5
+description: Patch RA\5.0\97 exports ten diagnostic codes into the DIAGNOSTIC CODES file (#78.3); seven BI-RADS codes and three AAA codes. These codes are assigned internal record numbers (IENs) 1100-1106 and 1200-1202, respectively.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '73.2'
+- '74'
+- '78.3'
+- '757.01'
 security_keys: []
 menu_options: 0
-description: Patch RA\5.0\97 exports ten diagnostic codes into the DIAGNOSTIC CODES file (#78.3); seven BI-RADS codes and three AAA codes. These codes are assigned internal record numbers (IENs) 1100-1106 and 1200-1202, respectively.
-audience: 
-keywords: 
-  - diagnostic
-  - rads
-  - codes
-  - patch
-  - report
-  - code
-  - table
-  - contents
-  - category
-  - radiology
 page_count: 0
 word_count: 2527
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p97.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p97.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p97.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p97.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-97-release-note/001.png)

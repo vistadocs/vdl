@@ -3,7 +3,7 @@ title: Functional Independence Measurement (FIM) Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: FIM
 app_name: Functional Independence Measurement
 section: CLI
@@ -11,57 +11,30 @@ app_status: active
 pkg_ns: FIM
 patch_ver: 1
 patch_id: FIM*1
-group_key: "FIM:FIM:1"
+group_key: FIM:FIM:1
+description: The purpose of this guide is to provide instructions for installing the Functional Independence Measurement (FIM) Version 1.0.
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The purpose of this guide is to provide instructions for installing the Functional Independence Measurement (FIM) Version 1.0.
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - rmim
-  - software
-  - functional
-  - independence
-  - measurement
-  - server
-  - mail
 page_count: 0
-word_count: 2955
+word_count: 2921
 section_count: 17
 table_count: 18
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: May 2003
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 5
 revision_newest: 5/02/03
 revision_oldest: 2/26/2003
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=134"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=134
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ![](functional-independence-measurement-fim-version-1-installation-guide/001.png)
-
-  Functional Independence Measurement (FIM) Installation Guide
-
-  ![](functional-independence-measurement-fim-version-1-installation-guide/002.png)
-
-  Version 1.0
-
-  May 2003
-
-  Department of Veterans Affairs
-
-  VistA System Design and Development
----
-
 # Revision History
 
 

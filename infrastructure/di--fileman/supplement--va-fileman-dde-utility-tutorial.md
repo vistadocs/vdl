@@ -3,55 +3,51 @@ title: VA FileMan DDE Utility Tutorial
 doc_type: TRG
 doc_label: Training Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: DI
+patch_ver: null
+patch_id: null
+group_key: null
+description: Table details the revision history including the date, revision number, description of changes, and the
+audience: Trainers and end users during onboarding
+keywords: []
+file_numbers:
+- '1'
+- '1.5'
+- '4'
+- '5'
+- '16'
+- '19'
+- '44'
+- '200'
+- '200.02'
+security_keys:
+- ORES
+- PROVIDER
+- XUMGR
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - entity
-  - class
-  - step
-  - table
-  - contents
-  - exercise
-  - mark
-  - figure
-  - property
 page_count: 0
-word_count: 17649
+word_count: 17637
 section_count: 30
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/dde_tutorial.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/dde_tutorial.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/dde_tutorial.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/dde_tutorial.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk123800418" class="anchor"></span>VA FileMan DDE Utility
-
-  Tutorial
----
-
 ![](va-fileman-dde-utility-tutorial/001.png)
 
 April 2023

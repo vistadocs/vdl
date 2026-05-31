@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5*315
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- AR - Accounts Receivable Menu - BRIEF ACCOUNT PROFILE - Deposit management menu - Confirm Deposit from Bank - Process deposit - [FMS Utilities...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 5
-description: - [AR - Accounts Receivable Menu](#ar-accounts-receivable-menu) - [BRIEF ACCOUNT PROFILE](#brief-account-profile) - [Deposit management menu](#deposit-management-menu) - [Confirm Deposit from Bank](#confirm-deposit-from-bank) - [Process deposit](#process-deposit) - [FMS Utilities menu](#fms-utilitie
-audience: 
-keywords: 
-  - document
-  - table
-  - contents
-  - bill
-  - payment
-  - status
-  - number
-  - deposit
-  - date
-  - transaction
 page_count: 0
 word_count: 4321
 section_count: 28
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_2acc_rec.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_2acc_rec.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_2acc_rec.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p315_2acc_rec.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![](prca-4-5-315-ar-user-manual/001.png)

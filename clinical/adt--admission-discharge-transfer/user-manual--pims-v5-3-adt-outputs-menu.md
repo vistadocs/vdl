@@ -11,38 +11,44 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
+group_key: ADT:ADT:5.3
+description: '- PIMS V. 5.3 ADT Module User Manual ADT Outputs Menu Overview 10/10 Print ADT Third Party Output Menu > Patient Review Document > Review Document by Admission Range > Veteran Patient Insurance Information AMIS Reports Menu > AMIS 334-341...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '24'
+- '28'
+- '38.5'
+- '41.9'
+- '42'
+- '102'
+- '105'
+- '106'
+- '107'
+- '108'
+- '109'
+- '110'
 security_keys: []
 menu_options: 0
-description: - [PIMS V. 5.3 ADT Module User Manual ADT Outputs Menu](#pims-v-53-adt-module-user-manual-adt-outputs-menu) Overview 10/10 Print ADT Third Party Output Menu > Patient Review Document > Review Document by Admission Range > Veteran Patient Insurance Information AMIS Reports Menu > AMIS 334-341 Reports
-audience: 
-keywords: 
-  - report
-  - date
-  - patient
-  - patients
-  - disposition
-  - test
-  - whose
-  - amis
-  - means
-  - listing
 page_count: 0
 word_count: 11579
 section_count: 1
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 7
 revision_newest: 04/28/21
 revision_oldest: 11/18/04
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adto_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adto_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adto_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adto_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 # PIMS V. 5.3 ADT Module User Manual ADT Outputs Menu

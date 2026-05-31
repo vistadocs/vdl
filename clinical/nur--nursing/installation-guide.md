@@ -3,7 +3,7 @@ title: Nursing Version 4 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: NUR
 app_name: Nursing
 section: CLI
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4
-group_key: "NUR:NUR:4"
-file_numbers: []
+group_key: NUR:NUR:4
+description: '- Overview - Nursing V. 4.0 Installation - Example - Nursing Installation (Non-virgin install) - Post Initialization Tasks - File Security - In this...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '3'
+- '9'
+- '9.4'
+- '11.2'
+- '124.2'
+- '214'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - nurs
-  - colspan
-  - class
-  - nursing
-  - installation
-  - nursf
-  - even
-  - width
-  - amis
 page_count: 0
 word_count: 3424
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
 
 > ![](nursing-version-4-installation-guide/001.png)

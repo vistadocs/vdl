@@ -11,49 +11,34 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*405
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3
+description: 01/2024 OR*3.0*615 Added NSR 20080342 to the New Features list Added HITPS 393 Patient Safety Issues CPRS development team CPRS development
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '100'
+security_keys:
+- ORELSE
+- PROVIDER
+- YSCL AUTHORIZED
 menu_options: 21
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - order
-  - cprs
-  - patient
-  - table
-  - contents
-  - hitps
-  - orders
-  - medication
-  - safety
-  - issues
 page_count: 0
-word_count: 10838
+word_count: 10815
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_405_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk36805776" class="anchor"></span>Computerized Patient Record System GUI v32b
-
-  Release Notes
-
-  ![](or-3-405-release-notes-cprs-gui-32b/001.png)
----
-
 January 2024
 
 Office of Information and Technology (OI&T)

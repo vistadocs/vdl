@@ -3,7 +3,7 @@ title: IVM Version 2 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IVM
 app_name: Income Verification Match
 section: FIN
@@ -11,47 +11,125 @@ app_status: archive
 pkg_ns: IVM
 patch_ver: 2
 patch_id: IVM*2
-group_key: "IVM:IVM:2"
-file_numbers: 
-  - 2
-  - 4
-  - 101
-  - 301
-  - 350
-  - 389
-  - 392
-  - 771
-  - 772
-security_keys: []
+group_key: IVM:IVM:2
+description: 10/9/01 Added OBX segment to ORU~Z07 HL7 Message Definition in Appendix
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.01'
+- '1.02'
+- '1.03'
+- '1.1'
+- '2'
+- '2.01'
+- '2.02'
+- '2.03'
+- '2.0361'
+- '2.04'
+- '2.05'
+- '2.09'
+- '2.11'
+- '2.13'
+- '2.191'
+- '2.3721'
+- '3'
+- '4'
+- '5.12'
+- '5.13'
+- '6'
+- '8'
+- '8.1'
+- '10'
+- '13'
+- '17'
+- '21'
+- '22'
+- '25'
+- '25.01'
+- '27.02'
+- '27.11'
+- '27.16'
+- '28.11'
+- '29.11'
+- '31'
+- '33'
+- '33.01'
+- '33.03'
+- '33.1'
+- '33.11'
+- '35'
+- '36'
+- '50'
+- '57.4'
+- '60.08'
+- '75'
+- '101'
+- '102'
+- '200'
+- '301.5'
+- '301.6'
+- '301.61'
+- '301.7'
+- '313'
+- '350'
+- '354'
+- '355.3'
+- '355.33'
+- '389.9'
+- '391'
+- '392'
+- '392.2'
+- '393'
+- '394'
+- '395'
+- '396'
+- '397'
+- '397.1'
+- '398'
+- '398.1'
+- '398.2'
+- '399.39'
+- '404.51'
+- '408.11'
+- '408.12'
+- '408.13'
+- '408.21'
+- '408.22'
+- '408.31'
+- '408.32'
+- '408.43'
+- '771'
+- '772'
+- '991.01'
+- '994'
+- '1010.151'
+- '1010.1511'
+- '1010.152'
+- '1010.153'
+- '1010.154'
+- '1010.159'
+- '1901'
+- '3214'
+security_keys:
+- PROVIDER
 menu_options: 6
-description: 
-audience: 
-keywords: 
-  - class
-  - table
-  - strong
-  - even
-  - segment
-  - contents
-  - redacted
-  - patient
-  - style
-  - width
 page_count: 0
 word_count: 44186
 section_count: 119
 table_count: 99
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)_Archive/ivm_2_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)_Archive/ivm_2_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=265"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)_Archive/ivm_2_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)_Archive/ivm_2_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=265
+audit_applied: '2026-05-31'
 ---
 
 ![](ivm-version-2-technical-manual/001.png)

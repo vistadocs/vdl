@@ -8,53 +8,76 @@ app_code: PX
 app_name: Patient Care Encounter (PCE)
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 372
-  - 9000010
-  - 9999999
-security_keys: 
-  - PX EOC EDIT
-  - PXV IMM INVENTORY MGR
+pkg_ns: PX
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''03/2026 PX*1*246 Updated the following section: File Descriptions on 818 - Compact Act Episode of Care'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '3.8'
+- '4'
+- '8'
+- '9.4'
+- '40.7'
+- '44'
+- '60'
+- '80'
+- '81'
+- '81.3'
+- '100'
+- '101'
+- '150.9'
+- '200'
+- '201'
+- '357.69'
+- '372'
+- '375'
+- '391.91'
+- '409.1'
+- '757.01'
+- '757.5'
+- '811.1'
+- '815'
+- '818'
+- '839.7'
+- '920'
+- '920.1'
+- '920.2'
+- '920.3'
+- '920.4'
+- '920.5'
+- '8801'
+- '8802'
+- '8803'
+- '109720'
+- '295925'
+- '900000'
+- '900001'
+- '999999'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 20
-description: 
-audience: 
-keywords: 
-  - class
-  - encounter
-  - table
-  - patient
-  - visit
-  - date
-  - provider
-  - contents
-  - immunization
-  - format
 page_count: 0
-word_count: 39264
+word_count: 39257
 section_count: 70
 table_count: 8
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=82"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Patient Care Encounter (PCE)Technical Manual
----
-
 ![](patient-care-encounter-technical-manual/001.png)
 
 March 2026

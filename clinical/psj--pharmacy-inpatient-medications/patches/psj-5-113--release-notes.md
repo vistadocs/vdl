@@ -5,44 +5,37 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: IMR-Increment I
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*113
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '- (This page included for two-sided copying.) - # Introduction - Patch PSJ\5\113 – Order Entry Enhancements - [Patch PSS\1\143 – Order Entry Validation for Administration...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '5'
+- '51.1'
 security_keys: []
 menu_options: 0
-description: - [(This page included for two-sided copying.)](#this-page-included-for-two-sided-copying) - [# Introduction](#introduction) - [Patch PSJ\5\113 – Order Entry Enhancements](#patch-psj5113-order-entry-enhancements) - [Patch PSS\1\143 – Order Entry Validation for Administration Times](#patch-pss1143-or
-audience: 
-keywords: 
-  - schedule
-  - order
-  - administration
-  - validation
-  - times
-  - time
-  - table
-  - contents
-  - entered
-  - frequency
 page_count: 0
 word_count: 1472
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_113_pss_1_143_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_113_pss_1_143_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_113_pss_1_143_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_113_pss_1_143_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-113-release-notes-imr-increment-i/001.png)

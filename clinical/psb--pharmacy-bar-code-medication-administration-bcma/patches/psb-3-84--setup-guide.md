@@ -5,44 +5,35 @@ doc_label: Security Guide
 doc_layer: patch
 doc_subject: BCBU Version 3 Securing the Cache Cube for BCMA Backup
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: archive
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*84
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: Bar Code Medication Administration (BCMA) BCMA Backup System (BCBU) Securing the Cache Cube for BCMA Backup
+audience: ISSOs, security officers, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Bar Code Medication Administration (BCMA) BCMA Backup System (BCBU) Securing the Cache Cube for BCMA Backup
-audience: 
-keywords: 
-  - span
-  - class
-  - mark
-  - password
-  - portal
-  - management
-  - edit
-  - bcma
-  - backup
-  - authentication
 page_count: 0
 word_count: 724
 section_count: 1
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/psb_3_p84_bcbu_sg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/psb_3_p84_bcbu_sg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=387"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/psb_3_p84_bcbu_sg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/psb_3_p84_bcbu_sg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=387
+audit_applied: '2026-05-31'
 ---
 
 ![](psb-3-84-bcbu-version-3-securing-the-cache-cube-for-bcma-backup/001.png)

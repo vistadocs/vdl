@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
-security_keys: []
+group_key: PRC:PRC:5.1
+description: Integrated Funds Distribution, Control Point Monitoring, Accounting and
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '200'
+- '411'
+- '411.2'
+- '420.5'
+- '440'
+- '440.2'
+- '441'
+- '442'
+- '442.3'
+- '443.76'
+security_keys:
+- PF4
+- SUPER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - prompt
-  - table
-  - number
-  - vendor
-  - purchase
-  - style
-  - width
 page_count: 0
 word_count: 46002
 section_count: 38
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchasing_agent.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchasing_agent.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchasing_agent.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchasing_agent.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 Integrated Funds Distribution, Control Point Monitoring, Accounting and Procurement

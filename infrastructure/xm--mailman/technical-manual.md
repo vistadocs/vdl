@@ -3,7 +3,7 @@ title: MailMan Version 8 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XM
 app_name: MailMan
 section: INF
@@ -11,40 +11,135 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8
-group_key: "XM:XM:8"
-file_numbers: 
-  - 8930
-security_keys: 
-  - XUPROG
+group_key: XM:XM:8
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.12'
+- '2'
+- '3.4'
+- '3.51'
+- '3.519'
+- '3.6'
+- '3.62'
+- '3.7'
+- '3.73'
+- '3.8'
+- '3.811'
+- '3.813'
+- '3.816'
+- '3.8161'
+- '3.9'
+- '3.91'
+- '4'
+- '4.001'
+- '4.2'
+- '4.281'
+- '4.2995'
+- '4.2996'
+- '4.2997'
+- '4.2998'
+- '4.2999'
+- '4.3'
+- '4.301'
+- '4.303'
+- '4.304'
+- '4.4'
+- '4.5'
+- '4.501'
+- '4.6'
+- '5'
+- '5.1'
+- '6'
+- '8'
+- '8.14'
+- '8.22'
+- '8.23'
+- '8.24'
+- '8.31'
+- '9'
+- '9.4'
+- '9.72'
+- '9.74'
+- '9.76'
+- '9.7602'
+- '9.77'
+- '9.951'
+- '15.1'
+- '18.01'
+- '19'
+- '22'
+- '31'
+- '31.1'
+- '31.2'
+- '48'
+- '51'
+- '103'
+- '104'
+- '105'
+- '106'
+- '107'
+- '142'
+- '200'
+- '466.1'
+- '740'
+- '770'
+- '771'
+- '774.01'
+- '776.106'
+- '776.32'
+- '869.2'
+- '869.3'
+- '870'
+- '2005'
+- '2005.2'
+- '7000.1'
+- '7006'
+- '8930'
+- '8982'
+- '8986.095'
+- '8989.3'
+- '8989.5'
+- '8994.1'
+- '16100'
+- '18000'
+- '177100.71'
+- '405850'
+- '405850.02'
+- '405851'
+- '619066'
+- '619070'
+security_keys:
+- PF1
+- XM NO BROADCASTS
+- XM SUPER SEARCH
+- XMBLOB
+- XMMGR
+- XMNET
+- XMSTAR
+- XMSTAR LIMITED
+- XMTALK
+- XUPROG
+- XUPROGMODE
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - message
-  - mailman
-  - xmmgr
-  - routine
-  - messages
-  - mail
-  - strong
-  - even
 page_count: 0
 word_count: 47192
 section_count: 7
 table_count: 184
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_techman.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_techman.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_techman.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_techman.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](mailman-version-8-technical-manual/001.png)

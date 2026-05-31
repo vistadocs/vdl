@@ -11,47 +11,32 @@ app_status: active
 pkg_ns: DGBT
 patch_ver: 1
 patch_id: DGBT*1
-group_key: "DGBT:DGBT:1"
-file_numbers: []
+group_key: DGBT:DGBT:1
+description: June 2011 1.1 Copied BT Install Guide into the template
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '392.5'
+- '392.51'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - gateway
-  - server
-  - isapi
-  - application
-  - table
-  - contents
-  - module
-  - panel
-  - modules
-  - cspgateway
 page_count: 0
-word_count: 18044
+word_count: 18038
 section_count: 20
 table_count: 3
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=123"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=123
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Beneficiary Travel (BT) Dashboard
-
-  Version 1.0
----
-
 C3-C1 Conversion Project
 
 Installation Guide

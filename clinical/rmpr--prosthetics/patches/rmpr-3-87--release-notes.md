@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*87
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: Enter Product Informationfor Recall (ER)Release Notes Patch
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td>Introduction</td> <td><blockquote> <p>Announcing a new Prosthetics menu option with the release of Patch RMPR387. The <strong>Enter Product Information for Recall (ER)</strong> menu opti"
-audience: 
-keywords: 
-  - strong
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - blockquote
-  - number
-  - mark
-  - class
 page_count: 0
 word_count: 894
 section_count: 0
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_87_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_87_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_87_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_87_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ![](rmpr-3-87-enter-product-information-for-recall-release-notes/001.png)

@@ -3,46 +3,38 @@ title: Embedded Fragments Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EFR
-app_name: "Registry: Embedded Fragments"
+app_name: 'Registry: Embedded Fragments'
 section: CLI
 app_status: active
 pkg_ns: EFR
 patch_ver: 1
 patch_id: EFR*1
-group_key: "EFR:EFR:1"
+group_key: EFR:EFR:1
+description: The VHA is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7)[^1] that the VA shall "create an 'Embedded Fragment' Surveillance Center and Regi
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 10
-description: The [VHA](#Glos_VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7)[^1] that the [VA](#Glos_VA) shall “create an ‘Embedded Fragment’ Surveillance Center and Regi
-audience: 
-keywords: 
-  - class
-  - span
-  - colspan
-  - table
-  - fragments
-  - embedded
-  - manual
-  - version
-  - glos
-  - contents
 page_count: 0
 word_count: 48139
 section_count: 68
 table_count: 131
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg_Embedded Fragments_(EFR)/efr_incr5_um_062212_v1_1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg_Embedded Fragments_(EFR)/efr_incr5_um_062212_v1_1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=223"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg_Embedded Fragments_(EFR)/efr_incr5_um_062212_v1_1.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg_Embedded Fragments_(EFR)/efr_incr5_um_062212_v1_1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=223
+audit_applied: '2026-05-31'
 ---
 
 EMBEDDED FRAGMENT REGISTRY (EFR)Version 4.1

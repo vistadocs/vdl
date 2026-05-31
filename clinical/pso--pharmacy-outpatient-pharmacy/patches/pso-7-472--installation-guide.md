@@ -5,57 +5,40 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: CTT and DM NDS Meds DIBR
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*472
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '| Date | Version | Description | Author | |------------|---------|----------------------------------------------------------------|------------------------------------| | 04/2017 | 1.1 | Updates per Release Coordinator Request Date changed to April. | REDACTED | | 02/2017 | 1.0 | Delivery to...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.68'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - patch
-  - back
-  - deployment
-  - rollback
-  - procedure
-  - medications
-  - global
 page_count: 0
-word_count: 2394
+word_count: 2367
 section_count: 31
 table_count: 4
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 2
 revision_newest: 12/20/2016
 revision_oldest: 12/18/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso70_472ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso70_472ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso70_472ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso70_472ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Collaborative Terminology Tooling & Data Management (CTT & DM)
-
-  Native Domain Standardization (NDS) Medications
-
-  PSO_7_0_472 Deployment, Installation,
-
-  Back-Out, and Rollback Guide
----
-
 ![](pso-7-472-ctt-and-dm-nds-meds-dibr/001.png)
 
 April 2017

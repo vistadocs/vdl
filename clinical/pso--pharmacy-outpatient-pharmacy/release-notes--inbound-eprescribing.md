@@ -1,12 +1,46 @@
 ---
-consolidated_title: "inbound eprescribing release notes"
-app_code: PSO
+title: PSO*7*617 Inbound ePrescribing Release Notes
 doc_type: RN
-master_source: "PSO*7*617 Inbound ePrescribing Release Notes"
-master_pub_date: revision_count: 0
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: Inbound ePrescribing
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7*617
+group_key: PSO:PSO:7
+file_numbers: []
+security_keys:
+- PROVIDER
+menu_options: 0
+description: Inbound ePrescribing (IEP)CS Electronic Prescriptions (eRx) 5.0VistA Patch \#
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1117
+section_count: 3
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7*617 Inbound ePrescribing Release Notes
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "PSO*7*635 Inbound ePrescribing Release Notes"
+- PSO*7*635 Inbound ePrescribing Release Notes
+consolidated_title: inbound eprescribing release notes
 ---
 
 Outpatient Pharmacy
@@ -64,7 +98,7 @@ Below is a list of the changes made to the existing Outpatient Pharmacy eRx func
 4.  The Complete Orders from eRx \[PSO ERX FINISH\] option was modified to allow the processing of CS eRx prescriptions:
     1.  A new filter was added to allow the selection of CS, non-CS or Both types of records to display on the eRx Holding Queue.
     2.  When CS or Both is selected a new filter was added to allow the user to select the CS Schedule of the records to display on the eRx Holding Queue.
-    3.  CS eRx records will be identified in the eRx Holding Queue by a closing square bracked (\]) displayed right after the sequence \# of the eRx record. Also, once the user selects a CS eRx record it will display “EPCS DEA VALIDATED” in the header.
+    3.  CS eRx records will be identified in the eRx Holding Queue by a closing square bracked (\]) displayed right after the sequence \# of the eRx record. Also, once the user selects a CS eRx record it will display "EPCS DEA VALIDATED" in the header.
     4.  The SORT ENTRIES action was modified to allow the user to group CS and non-CS prescriptions after the sort field is selected.
     5.  DO NOT FIILL records will be clearly identified in the header section of the eRx Holding Queue.
     6.  The prescriber DEA# will be displayed along with the other prescriber information.
@@ -75,7 +109,7 @@ Below is a list of the changes made to the existing Outpatient Pharmacy eRx func
     11. A new Audit Log was introduced in the eRx Holding Queue to display all changes made to the any eRx records (CS or non-CS) for the following fields: PATIENT, PROVIDER, DRUG, QTY, DAYS SUPPLY, \# OF REFILLS, SIG, PROVIDER COMMENTS and PATIENT INSTRUCTIONS.
     12. When the user select the eRx Change Request (EC) action for a CS eRx record it will limit the to select P (Prior Authorization Required) or U (Prescriber Authorization) for the RX change message request code.
 5.  The Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] and Complete Orders from OERR \[PSO LMOE FINISH\] options were modified to allow the processing of CS eRx prescriptions:
-    1.  A new hidden action called ‘Un Accept eRx’ (UA) was added for Pending Orders to allow the user to removed it from the Pending Queue and place the eRx back in the eRx Holding Queue to be re-processed.
+    1.  A new hidden action called 'Un Accept eRx' (UA) was added for Pending Orders to allow the user to removed it from the Pending Queue and place the eRx back in the eRx Holding Queue to be re-processed.
     2.  When viewing a digitally signed eRx pending order the first line of the scrollable area will display the text "Processing Digitally Signed eRx Order" in reverse video.
     3.  For digitally signed eRx pending orders at the end of the scrollable area there will be a foot note that says: This prescription meets the requirements of the Drug Enforcement Administration (DEA) electronic prescribing for controlled substances rules (21 CFR Parts 1300,1304, 1306, & 1311).
     4.  A new hidden action called Jump to eRx (JE) to allow the user to jump to the corresponding eRx record in the eRx Holding Queue.
@@ -180,7 +214,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > EPRESCRIB-3408 NewRx coming with ObservationDateTime failure at hub generating RxRenewal Request
 
-> EPRESCRIB-3410 RxRenewal Request failing at hub because “IndicationForUse” segment is not sending in “Sig” segment
+> EPRESCRIB-3410 RxRenewal Request failing at hub because "IndicationForUse" segment is not sending in "Sig" segment
 
 > EPRESCRIB-3413 Quantity Unit of Measure fix for RxRenwal Request Medication Dispensed segment for 2017071 Messages
 
@@ -190,7 +224,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > EPRESCRIB-3439 When NewRx message is coming with the multiple
 
-> “OtherMedicationDate” Inbound job broke at hub, messages are not delivering to VistA
+> "OtherMedicationDate" Inbound job broke at hub, messages are not delivering to VistA
 
 > EPRESCRIB-3441 eRx Sig gets truncated in HQ summary details screen, PSO ERX DRUG VALIDATION summary details Screen and OP header section when the eRx is coming with the Sig without spaces
 

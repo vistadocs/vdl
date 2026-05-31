@@ -1,13 +1,49 @@
 ---
-consolidated_title: "user manual change pages"
-app_code: PSN
+title: PSN*4*169 User Manual Change Pages (Pre/Pre Release)
 doc_type: UM
-master_source: "PSN*4*169 User Manual Change Pages (Pre/Pre Release)"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Change Pages (Pre/Pre Release)
+app_code: PSN
+app_name: 'Pharmacy: National Drug File (NDF)'
+section: CLI
+app_status: archive
+pkg_ns: PSN
+patch_ver: 4
+patch_id: PSN*4*169
+group_key: PSN:PSN:4
+file_numbers:
+- '50'
+- '50.67'
+- '50.68'
+security_keys: []
+menu_options: 2
+description: '> The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages document, or replace it with the updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 2423
+section_count: 1
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: October 1998
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p169_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p169_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=389
+audit_applied: '2026-05-31'
+master_source: PSN*4*169 User Manual Change Pages (Pre/Pre Release)
 master_pub_date: October 1998
 consolidated_from: 3 versions
 prior_versions:
-  - "PSN*4*108 User Manual Change Pages"
-  - "PSN*4*296 User Manual Change Pages"
+- PSN*4*108 User Manual Change Pages
+- PSN*4*296 User Manual Change Pages
+consolidated_title: user manual change pages
 ---
 
 > ![](psn-4-169-user-manual-change-pages-pre-pre-release/001.png)
@@ -109,7 +145,7 @@ NATIONAL DRUG FILE (NDF)
 </blockquote></td>
 <td><ul>
 <li><p>Replaced the Title Page (and associated blank page) and the Revision History page (and associated blank page after it p. ii.)</p></li>
-<li><p>The <em>Print a PMI Sheet</em> option stated that a specific vendor supplied the information for these sheets and the verbiage was changed to a “commercial vendor”.</p></li>
+<li><p>The <em>Print a PMI Sheet</em> option stated that a specific vendor supplied the information for these sheets and the verbiage was changed to a "commercial vendor".</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -190,7 +226,7 @@ NATIONAL DRUG FILE (NDF)
 
 > Exclude Interaction check=Y, Override DF Exclude from Dosage Check =N
 
-> Note that the Exclude Drg-Drg Interaction Ck field only displays when set to ‘Yes.’ If a dosage form has been excluded from dosage checks that fact will be displayed next to the dosage form.
+> Note that the Exclude Drg-Drg Interaction Ck field only displays when set to 'Yes.' If a dosage form has been excluded from dosage checks that fact will be displayed next to the dosage form.
 
 <table>
 <colgroup>
@@ -233,7 +269,7 @@ NATIONAL DRUG FILE (NDF)
 </tbody>
 </table>
 
-> In this example, the Dosage Form of ‘Oil’ is excluded from dosage checks, but since the Override DF Exclude from Dosage Checks is set to ‘Yes’, dosage checks will be performed for the VA Product, ‘Cod Liver Oil.’
+> In this example, the Dosage Form of 'Oil' is excluded from dosage checks, but since the Override DF Exclude from Dosage Checks is set to 'Yes', dosage checks will be performed for the VA Product, 'Cod Liver Oil.'
 
 <table>
 <colgroup>
@@ -278,7 +314,7 @@ NATIONAL DRUG FILE (NDF)
 </tbody>
 </table>
 
-> Exclude Interaction check=not set, Override DF Exclude from Dosage Check =Y In this example, the Dosage Form of ‘Powder,Oral’ IS NOT excluded from dosage checks, but since the Override DF Excluded from Dosage Checks is set to ‘Yes’, dosage checks will not be performed for the VA Product , ‘Thick-It Powder’.
+> Exclude Interaction check=not set, Override DF Exclude from Dosage Check =Y In this example, the Dosage Form of 'Powder,Oral' IS NOT excluded from dosage checks, but since the Override DF Excluded from Dosage Checks is set to 'Yes', dosage checks will not be performed for the VA Product , 'Thick-It Powder'.
 
 <table>
 <colgroup>
@@ -518,7 +554,7 @@ NATIONAL DRUG FILE (NDF)
 
 > These medication information sheets can be provided to patients, explaining how and why to take a medication and the possible side effects. A commercial vendor supplies the information provided in the Patient Medication Information Sheets. This information is updated periodically to provide new medication information sheets and changes to existing sheets.
 
-> If the PMI Sheet does not print and the message “Drug is not linked to a valid Medication Information Sheet for language selected” is printed instead, the user should select another language and re-print the medication sheet. If this still does not work, then the user should contact the NDF Manager for further assistance.
+> If the PMI Sheet does not print and the message "Drug is not linked to a valid Medication Information Sheet for language selected" is printed instead, the user should select another language and re-print the medication sheet. If this still does not work, then the user should contact the NDF Manager for further assistance.
 
 # Example: Print a PMI Sheet
 
@@ -542,7 +578,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The more complete and accurate the NDC fields in the local DRUG file (#50), the more effective the automatic matching process.
 
-> It is important that you enter all National Drug Codes (NDCs) in the local DRUG file (#50) using Pharmacy Data Management’s (PDM) option *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] before the IRM staff installs this version of the software. The correct NDC format is
+> It is important that you enter all National Drug Codes (NDCs) in the local DRUG file (#50) using Pharmacy Data Management's (PDM) option *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] before the IRM staff installs this version of the software. The correct NDC format is
 
 <table>
 <colgroup>

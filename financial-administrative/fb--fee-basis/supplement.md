@@ -3,46 +3,55 @@ title: Fee Basis Annual Patch Manual
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: FB
 app_name: Fee Basis
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: FB
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''- Revision History - Contents - Abbreviations for Fee Basis Annual (or Quarterly) Updates: - Updating the GPCIs (File \#162.96 routine FBZFSGYY). -...'''
+audience: Production operations, release engineers
+keywords: []
+file_numbers:
+- '6'
+- '10'
+- '19'
+- '30'
+- '44'
+- '48'
+- '54'
+- '60'
+- '146'
+- '161.82'
+- '162.61'
+- '162.71'
+- '162.96'
+- '162.97'
+- '162.99'
+- '177'
+- '182'
+- '188'
 security_keys: []
 menu_options: 0
-description: "- [Revision History](#revision-history) - [Contents](#contents) - [Abbreviations for Fee Basis Annual (or Quarterly) Updates:](#abbreviations-for-fee-basis-annual-or-quarterly-updates) - [Updating the GPCIs (File \#162.96 routine FBZFSGYY).](#updating-the-gpcis-file-16296-routine-fbzfsgyy) - [Updati"
-audience: 
-keywords: 
-  - span
-  - class
-  - mark
-  - xtmp
-  - cptm
-  - year
-  - number
-  - gpci
-  - rbrvs
-  - fbzipa
 page_count: 0
 word_count: 9822
 section_count: 1
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_PM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_PM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_PM.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_PM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 ![](fee-basis-annual-patch-manual/001.png)

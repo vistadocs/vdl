@@ -11,44 +11,40 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4*43
-group_key: "NUR:NUR:4"
-file_numbers: []
+group_key: NUR:NUR:4
+description: '- Introduction - Patch Description and Installation Instructions - Patch Description - Installation Instructions - Enhancements - [Technical...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '6'
+- '19'
+- '211.4'
+- '211.414'
+- '211.415'
+- '211.416'
+- '211.82'
+- '212.8'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patch
-  - table
-  - contents
-  - nursing
-  - vanod
-  - span
-  - installation
-  - modified
-  - location
-  - unit
 page_count: 0
-word_count: 1117
+word_count: 1112
 section_count: 5
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p43_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p43_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p43_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p43_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
-
----
-title: PAID Enhancements for VANOD
----
-
 ####### RELEASE NOTES
 
 NUR\*4\*43

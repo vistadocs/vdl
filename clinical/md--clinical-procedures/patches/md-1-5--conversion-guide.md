@@ -3,7 +3,7 @@ title: MD*1*5 Conversion Guide
 doc_type: CVG
 doc_label: Conversion Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1*5
-group_key: "MD:MD:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - conversion
-  - procedure
-  - medicine
-  - report
-  - edit
-  - reports
-  - status
-  - table
-  - historical
-  - procedures
+group_key: MD:MD:1
+description: '| | | | | |----------|--------------|-----------------------|------------------------------------| | Date | Revision | Description | Author | | 08/2006 | 1.0 | CP Patch 5.0 released | REDACTED | | | | | | | | | | | | | | |'
+audience: ''
+keywords: []
+file_numbers:
+- '690'
+- '697.2'
+- '703.9'
+security_keys:
+- PROVIDER
+menu_options: 1
 page_count: 0
 word_count: 11816
 section_count: 8
 table_count: 60
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p5_cvt.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p5_cvt.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p5_cvt.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p5_cvt.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 ![](md-1-5-conversion-guide/001.png)

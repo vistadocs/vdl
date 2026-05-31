@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: VPFS
 patch_ver: 1.2
 patch_id: VPFS*1.2
-group_key: "VPFS:VPFS:1.2"
+group_key: VPFS:VPFS:1.2
+description: '> The purpose of the System Administration/Installation Guide is to provide step-by-step instructions for installing the various components for the Veterans Personal Finance System (VPFS).'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: > The purpose of the System Administration/Installation Guide is to provide step-by-step instructions for installing the various components for the Veterans Personal Finance System (VPFS).
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - vpfs
-  - class
-  - table
-  - contents
-  - installation
-  - application
-  - connection
-  - vistamigrate
-  - even
 page_count: 0
-word_count: 7873
+word_count: 7865
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_install_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_install_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=170"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_install_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/VPFS/vpfs_install_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=170
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Veterans Personal Finance System (VPFS)
-
-  Installation Guide
----
-
 Version 1.2.0
 
 ![](vpfs-version-1-2-install-guide/001.png)

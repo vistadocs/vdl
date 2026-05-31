@@ -3,7 +3,7 @@ title: Incomplete Records Tracking (IRT) Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: DGJ
 app_name: Incomplete Records Tracking (IRT)
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: DGJ
 patch_ver: 1
 patch_id: DGJ*1
-group_key: "DGJ:DGJ:1"
+group_key: DGJ:DGJ:1
+description: '- Introduction 1 - Orientation 3 - Incomplete Records Tracking Menu 5 - Glossary 19 - [The Incomplete Records Tracking (IRT) software is formerly a component of PIMS V. 5.3. With PIMS V. 5.3, it includes...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- DGJ CLERK SUPER
+- DGJ SUPER
+- DGJ TS UPDATE
 menu_options: 1
-description: - [Introduction 1](#introduction-1) - [Orientation 3](#orientation-3) - [Incomplete Records Tracking Menu 5](#incomplete-records-tracking-menu-5) - [Glossary 19](#glossary-19) - [The Incomplete Records Tracking (IRT) software is formerly a component of PIMS V. 5.3. With PIMS V. 5.3, it includes many
-audience: 
-keywords: 
-  - report
-  - reports
-  - physician
-  - date
-  - incomplete
-  - record
-  - deficiency
-  - days
-  - deficiencies
-  - number
 page_count: 0
 word_count: 4388
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=124"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Incomplete_Records_Tracking(IRT)/dgj1_0_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=124
+audit_applied: '2026-05-31'
 ---
 
 ![](incomplete-records-tracking-irt-version-1-user-manual/001.png)

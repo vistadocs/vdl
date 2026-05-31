@@ -8,53 +8,64 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 2005
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: Department of Veterans Affairs (VA)Office of Information and Technology (OIT) Revision
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '2.1'
+- '2.2'
+- '5'
+- '6'
+- '16'
+- '17'
+- '36'
+- '50'
+- '60'
+- '102'
+- '103'
+- '200'
+- '2005'
+- '2005.03'
+- '2005.1'
+- '2005.2'
+- '2005.86'
+- '2006.03'
+- '2006.031'
+- '2006.034'
+- '2006.041'
+- '2006.1'
+- '2006.8'
+- '2006.82'
+security_keys:
+- MAG DELETE
+- MAG PREFETCH
+- MAG SYSTEM
+- MAG WINDOWS
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - class
-  - table
-  - queue
-  - vista
-  - image
-  - purge
-  - contents
-  - imaging
-  - tier
-  - strong
 page_count: 0
-word_count: 42600
+word_count: 42585
 section_count: 63
 table_count: 20
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: December 2022
+has_toc: false
+is_stub: false
+pub_date: July 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_bp_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_bp_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_bp_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_bp_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  VistA ImagingBackground Processor User Manual
-
-  ![](vista-imaging-system-background-processor-user-manual/001.png)
-
-  December 2022
----
-
 Department of Veterans Affairs (VA)Office of Information and Technology (OIT)  
 Revision History
 

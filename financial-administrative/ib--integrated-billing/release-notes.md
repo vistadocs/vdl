@@ -1,2198 +1,4121 @@
 ---
-title: Integrated Billing Version 2 Release Notes
+title: IB*2*516 Release Notes
 doc_type: RN
 doc_label: Release Notes
-doc_layer: anchor
-doc_subject: 
+doc_layer: patch
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
 app_status: active
 pkg_ns: IB
 patch_ver: 2
-patch_id: IB*2
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
-menu_options: 1
-description: This release of Integrated Billing (IB) will substantially impact the way your medical center conducts business. Functionallity is included which will help you implement encounter forms in all clinics. You will be able to collect and store much more detailed information about insurance carriers and
-audience: 
-keywords: 
-  - insurance
-  - edit
-  - billing
-  - patient
-  - claims
-  - form
-  - tracking
-  - action
-  - print
-  - company
+patch_id: IB*2*516
+group_key: IB:IB:2
+file_numbers:
+- '1.01'
+- '1.02'
+- '1.03'
+- '1.04'
+- '1.05'
+- '2'
+- '2.312'
+- '2.3226'
+- '4.07'
+- '4.11'
+- '4.12'
+- '4.13'
+- '11.04'
+- '19'
+- '20'
+- '21'
+- '36'
+- '51'
+- '53'
+- '54'
+- '81'
+- '261'
+- '350.9'
+- '350.929'
+- '355.3'
+- '355.33'
+- '355.93'
+- '364.5'
+- '364.6'
+- '364.7'
+- '365'
+- '365.03'
+- '365.26'
+- '371'
+- '372'
+- '373'
+- '399'
+- '399.0304'
+- '399.040'
+- '399.041'
+- '399.047'
+- '471'
+- '472'
+- '473'
+security_keys:
+- PROVIDER
+menu_options: 0
+description: Electronic Data Interchange (EDI)New Standards and Operating Rules –VHA Provider-side Technical Compliance
+audience: System administrators, end users reviewing changes
+keywords: []
 page_count: 0
-word_count: 21581
-section_count: 24
-table_count: 9
+word_count: 11169
+section_count: 19
+table_count: 0
 figure_count: 0
-appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: February 1994
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib20rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p516_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p516_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
+master_source: IB*2*516 Release Notes
+master_pub_date: 'null'
+consolidated_from: 20 versions
+prior_versions:
+- IB*2*452 Release Notes
+- IB*2*458 Release Notes
+- IB*2*476 Release Notes
+- IB*2*488 Release Notes
+- IB*2*494 Release Notes
+- IB*2*499 Release Notes
+- IB*2*511 Release Notes
+- IB*2*519 Release Notes
+- IB*2*521 Release Notes
+- IB*2*525 Release Notes
+- IB*2*528 Release Notes
+- IB*2*534 Release Notes
+- IB*2*550 Release Notes
+- IB*2*614 Release Notes
+- IB*2*653 Release Notes
+- IB*2*685 Release Notes
+- IB*2*688 Release Notes
+- IB*2*697 Release Notes
+- IB*2*701 Release Notes
+consolidated_title: release notes
 ---
 
-Decentralized Hospital Computer Program
+![](ib-2-516-release-notes/001.png)
 
-integrated billingrelease notes
+Electronic Data Interchange (EDI)New Standards and Operating Rules –VHA Provider-side Technical Compliance RequirementsVA118-1001-1018
 
-February 1994
+####### eBilling Build 3
 
-Information Systems Center
+####### Integrated Billing (IB)
 
-Albany, New York
+####### RELEASE NOTES/ Installation Guide/ Rollback Plan
 
-o:\devpackg\ib_20\relnotes\ivv2_0rn.doc (printed 02/04/94)
+IB\*2\*516April 2015Table of Contents
 
-Table of Contents
+*(This page included for two-sided copying.)*<span id="_Toc354988659" class="anchor"></span>
 
-Introduction
-
-Executive Summary
-
-Section 1. Claims Tracking
-
-I. Functional Description
-
-II\. Changed Options
-
-Veterans with Insurance and Outpatient Visits
-
-Veterans with Insurance and Admissions
-
-Veterans with Insurance and Discharges
-
-III\. New Options
-
-Pending Review
-
-Claims Tracking Edit
-
-Single Patient Admission Sheet
-
-Insurance Review Edit
-
-Appeal/Denial Edit
-
-Inquire to Claims Tracking
-
-Supervisors Menu
-
-Manually Add OPT Encounters to Claims Tracking
-
-Manually Add Rx Refills to Claims Tracking
-
-Claims Tracking Parameter Edit
-
-Reports Menu (Claims Tracking)
-
-UR Activity Report
-
-Days Denied Report
-
-MCCR/UR Summary Report
-
-Review Worksheet Print
-
-Scheduled Admissions w/Insurance
-
-Pending Work Report
-
-Unscheduled Admission w/Insurance
-
-Print CT Summary for Billing
-
-Assign Reason Not Billable
-
-IV\. New or Changed Bulletins
-
-V. Implementation Guide
-
-VI\. General Comments
-
-Section 2. Encounter Form Utilities
-
-I. Functional Description
-
-II\. Changed Options
-
-III\. New Options
-
-Clinic Setup/Edit Forms
-
-Edit Clinic Setup Screen
-
-Section 2. Encounter Form Utilities, cont.
-
-Edit Form Screen
-
-Select Tool Kit Block Screen
-
-Edit Block Screen
-
-Edit Selection Group Screen
-
-Edit Selections Screen
-
-Copy CPT Check-off Sheet to Encounter Form
-
-Define Available Report (not Health Summaries)
-
-Define Available Health Summary
-
-Delete Unused Stuff
-
-Edit Clinic Reports
-
-Edit Division Reports
-
-Edit Encounter Forms
-
-Edit Marking Area (for selection lists)
-
-Edit Package Interface
-
-Edit Tool Kit
-
-Edit Tool Kit Blocks
-
-Edit Tool Kit Blocks Screen
-
-Edit Tool Kit Forms
-
-Tool Kit Forms Screen
-
-Encounter Form IRM Options
-
-Encounter Forms
-
-For Each Form List Clinic Use
-
-Import/Export Utility
-
-Import/Export Workspace Screen
-
-Print Blank Encounter Form
-
-Print Encounter Forms for Appointments
-
-Print Form w/Patient Data, No Appt
-
-Print Manager
-
-Print Options
-
-Report Clinic Setups
-
-IV\. New or Changed Bulletins
-
-V. Implementation Guide
-
-VI\. General Comments
-
-Getting Started
-
-Printer Considerations
-
-Lines Per Inch, Characters Per Line
-
-Boxes
-
-Underlining
-
-Emboldening
-
-Example Terminal Setup for a HP LaserJet IVSi Printer
-
-Section 3. Insurance Data Capture
-
-Overview
-
-I. Functional Description
-
-Insurance Company Changes
-
-Patient Insurance Policy Changes
-
-Group Plans
-
-Annual Benefits
-
-Benefits Used
-
-II\. Changed Options
-
-Insurance Company Edit
-
-III\. New Options
-
-Patient Insurance Menu
-
-Patient Insurance Info View/Edit
-
-List New not Verified Policies
-
-View Patient Insurance
-
-View Insurance Company
-
-Programmer APIs
-
-IV\. New or Changed Bulletins
-
-V. Implementation Guide
-
-VI\. General Comments
-
-Section 4. Patient Billing
-
-I. Functional Description
-
-II\. Changed Options
-
-Cancel/Edit/Add Patient Charges
-
-Outpatient Registration Events Report
-
-Billing Rates List
-
-Insurance Payment Trend Report
-
-Enter/Edit Billing Rates
-
-Fast Enter of New Billing Rates
-
-Find Billing Data to Archive
-
-III\. New Options
-
-List Deferred Billing Cases
-
-List Charges Awaiting New Copay Rate
-
-Release Charges Awaiting New Copay Rate
-
-List Special Inpatient Billing Cases
-
-Disposition Special Inpatient Billing Cases
-
-Flag Stop Codes/Dispositions/Clinics
-
-List Flagged Stop Codes/Dispositions/Clinics
-
-Rank Insurance Carriers By Amount Billed
-
-IV\. New or Changed Bulletins
-
-V. Implementation Guide
-
-VI\. General Comments
-
-Section 5. Third Party Billing
-
-I. Functional Description
-
-General Third Party Billing Changes
-
-HCFA 1500 Claim From
-
-Automated Biller
-
-II\. Changed Options
-
-UB-82 Menu
-
-Enter/Edit Billing Information
-
-III\. New Options
-
-Enter/Edit Automated Billing Parameters
-
-Print Auto Biller Results
-
-Delete Auto Biller Results
-
-UB-92 Test Pattern Print
-
-Employer Report
-
-IV\. New or Changed Bulletins
-
-V. Implementation Guide
-
-VI\. General Comments
-
-Introduction
-
-This release of Integrated Billing (IB) version 2.0 will introduce fundamental changes to the way MCCR-related tasks are done. This software introduces three new modules:
-
-Claims Tracking
-
-Encounter Form Utilities
-
-Insurance Data Capture
-
-There are also significant enhancements to the two previous modules: Patient Billing and Third Party Billing. IB has moved from a package with the sole purpose of identifying billable episodes of care and creating bills to a package which is responsible for the whole billing process through the passing of charges to Accounts Receivable (AR). IB v2.0 has added functionality to assist in
-
-Capturing patient data
-
-Tracking potentially billable episodes of care
-
-Completing utilization review (UR) tasks
-
-Capturing more complete insurance information
-
-IB v2.0 has been targeted for a much wider audience than previous versions.
-
-The Encounter Form Utilities module will be used by MAS ADPACs or clinic supervisors to create and print clinic-specific forms. Physicians will be using the forms and consequently be providing input into their creation.
-
-The Claims Tracking module will be used by UR nurses within MCCR and Quality Management (QM) to track episodes of care, do pre-certifications, do continued stay reviews, and complete other UR tasks.
-
-Insurance verifiers will use the Insurance Data Capture module to collect and store patient and insurance carrier-specific data.
-
-The billing clerks will see substantial changes to their jobs with the enhancements provided in the Patient Billing and Third Party Billing modules.
-
-IB version 2.0 is highly integrated with other DHCP packages.
-
-PIMS is a feeder of patient demographic and eligibility data to IB. PIMS also provides information to Claims Tracking, Third Party Billing and Patient Billing on each billable episode of care, both inpatient and outpatient.
-
-IB passes bills and/or charges to Accounts Receivable for the purpose of follow-up and collection.
-
-Prescription information is passed from Outpatient Pharmacy to Patient Billing for the purpose of billing Pharmacy Copayments.
-
-Prescription Refills are passed through Claims Tracking to Third Party Billing to be billed using the Automated Biller.
-
-The Encounter Form Utilities print data on the forms from the Allergy, PIMS and Problem List packages. The Print Manager, included with the Encounter Form Utilities, will also print out Health Summaries as well as documents from the Outpatient Pharmacy and PIMS packages.
-
-Means Test billing data may be transmitted between facilities using the PDX package.
-
-The new functionality seen in this software is the direct result of input and feedback received from field users. Task groups made up of representatives from the field were created under the auspices of the MCCR Systems Committee and MCCR EP. These groups had meetings and/or conference calls with the developers and VACO Program Office (MCCR, MAS, and MIRMO) officials on a regular basis to develop the initial specifications and answer questions that arose during the development cycle. The field representatives on these groups included physicians, UR nurses, MAS ADPACs, MCCR coordinators, and billing clerks. An additional group of users was assembled prior to alpha testing to conduct full usability and functional testing of the software. The input from each of the individuals on these groups was invaluable to the software developers. A full list of each task group and its members is provided in Appendix A to this document.
-
-The software developers would like to express sincere thanks to the seven alpha and beta test sites for installing and implementing this package. Special mention goes to VAMCs San Diego, CA and Buffalo, NY for their hospitality to the developers during site visits for software installation. Thanks also go to the remaining test sites: Augusta, GA; Hampton, VA; Leavenworth, KS; Pittsburgh (HD), PA; and Sioux Falls, SD. The willingness of these sites to test the software helps ensure that the released package meets the field users' needs.
-
-These release notes are presented in a different format from previous versions of Integrated Billing. The release notes have been divided into sections for each module. This will allow each section to be targeted specifically toward the users who will be using the module described. Each module will be presented in the following format:
-
-I. Functional description
-
-II\. Changed options
-
-III\. New options
-
-IV\. New or changed bulletins
-
-V. Implementation guidelines (when applicable)
-
-VI\. General Comments
-
-An Executive Summary, providing a short overview of the software, will also be provided for management to peruse. These release notes will concentrate on user functionality and not provide technical documentation. Descriptions of the files, fields, templates, routines and security keys will be provided in the Technical Manual.
-
-Please ensure that copies of these release notes are distributed to the appropriate users.
-
-# EXECUTIVE SUMMARY
+# Introduction
 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Table of Contents
 
-- [EXECUTIVE SUMMARY](#executive-summary)
-  - [Overview](#overview)
-    - [Claims Tracking](#claims-tracking)
-    - [Encounter Form Utilities](#encounter-form-utilities)
-  - [### Insurance Data Capture](#insurance-data-capture)
-  - [### Patient Billing](#patient-billing)
-  - [### Third Party Billing](#third-party-billing)
-- [Section 1. CLAIMS TRACKING](#section-1-claims-tracking)
-  - [I. Functional Description](#i-functional-description)
-  - [I. Functional Description](#i-functional-description-1)
-  - [I. Functional Description](#i-functional-description-2)
-  - [II. Changed Options](#ii-changed-options)
-  - [II. Changed Options](#ii-changed-options-1)
-  - [III. New Options](#iii-new-options)
-  - [III. New Options](#iii-new-options-1)
-    - [Actions](#actions)
-  - [<u> </u>III. New Options](#u-uiii-new-options)
-    - [Actions](#actions-1)
-  - [III. New Options](#iii-new-options-2)
-  - [<u> </u>III. New Options](#u-uiii-new-options-1)
-  - [<u> </u>III. New Options](#u-uiii-new-options-2)
-  - [<u> </u>III. New Options](#u-uiii-new-options-3)
-  - [<u> </u>III. New Options](#u-uiii-new-options-4)
-  - [<u> </u>III. New Options](#u-uiii-new-options-5)
-  - [III. New Options](#iii-new-options-3)
-  - [III. New Options](#iii-new-options-4)
-  - [III. New Options](#iii-new-options-5)
-  - [IV. New or Changed Bulletins](#iv-new-or-changed-bulletins)
-  - [V. Implementation Guide](#v-implementation-guide)
+- [Introduction](#introduction)
+  - [Documentation and Distribution](#documentation-and-distribution)
+- [Patch Description and Installation Instructions](#patch-description-and-installation-instructions)
+  - [Patch Description](#patch-description)
+  - [Pre/Post Installation Overview](#prepost-installation-overview)
+  - [Installation Instructions](#installation-instructions)
+- [Backout and Rollback Procedures](#backout-and-rollback-procedures)
+  - [Overview of Backout and Rollback Procedures](#overview-of-backout-and-rollback-procedures)
+  - [Backout Procedure](#backout-procedure)
+  - [Rollback Procedure](#rollback-procedure)
+- [Enhancements](#enhancements)
+  - [System Feature: Enter/Edit Billing Information](#system-feature-enteredit-billing-information)
+    - [Enter/Edit Billing Information- Revenue Codes \<100](#enteredit-billing-information-revenue-codes-100)
+    - [Enter/Edit Billing Information - Line Level NDC Codes to Non-Prescription Claims - Professional](#enteredit-billing-information-line-level-ndc-codes-to-non-prescription-claims-professional)
+    - [The IB System provides the ability for users to add a line level 5-4-2 format National Drug Code to a non-prescription procedure when creating a professional claim.](#the-ib-system-provides-the-ability-for-users-to-add-a-line-level-5-4-2-format-national-drug-code-to-a-non-prescription-procedure-when-creating-a-professional-claim)
+    - [Enter/Edit Billing Information- Line Level NDC Codes to Non-Prescription Claims – Institutional](#enteredit-billing-information-line-level-ndc-codes-to-non-prescription-claims-institutional)
+    - [Enter/Edit Billing Information- Line Level Description – 99 Procedure Codes – Professional](#enteredit-billing-information-line-level-description-99-procedure-codes-professional)
+    - [Enter/Edit Billing Information - Line Level Description - 99 Procedure Codes – Institutional](#enteredit-billing-information-line-level-description-99-procedure-codes-institutional)
+    - [Enter/Edit Billing Information - Line Level Description - NOC Procedure Codes – Professional](#enteredit-billing-information-line-level-description-noc-procedure-codes-professional)
+    - [Enter/Edit Billing Information - Line Level Description - NOC Procedure Codes – Institutional](#enteredit-billing-information-line-level-description-noc-procedure-codes-institutional)
+    - [Enter/Edit Billing Information - Fatal Error - Non-billable Providers – Professional](#enteredit-billing-information-fatal-error-non-billable-providers-professional)
+    - [Enter/Edit Billing Information - Fatal Error - Non-billable Providers – Institutional](#enteredit-billing-information-fatal-error-non-billable-providers-institutional)
+    - [Enter/Edit Billing Information - Screen – Non-billable Provider – Institutional](#enteredit-billing-information-screen-non-billable-provider-institutional)
+    - [Enter/Edit Billing Information - Screen – Non-billable Provider – Professional](#enteredit-billing-information-screen-non-billable-provider-professional)
+    - [Enter/Edit Billing Information - Fatal Error – Missing non-VA Lab or Facility NPI – Professional](#enteredit-billing-information-fatal-error-missing-non-va-lab-or-facility-npi-professional)
+    - [Enter/Edit Billing Information - Fatal Error – Missing non-VA Lab or Facility NPI – Institutional](#enteredit-billing-information-fatal-error-missing-non-va-lab-or-facility-npi-institutional)
+    - [Enter/Edit Billing Information - Warning – Missing Lab or Facility Taxonomy Code – Institutional](#enteredit-billing-information-warning-missing-lab-or-facility-taxonomy-code-institutional)
+    - [Enter/Edit Billing Information - Warning – Missing Lab or Facility Taxonomy Code – Professional](#enteredit-billing-information-warning-missing-lab-or-facility-taxonomy-code-professional)
+    - [Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – UB04 – TRICARE REIMB.](#enteredit-billing-information-print-tricare-specific-pay-to-provider-ub04-tricare-reimb)
+    - [Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – UB04 – UB04 – TRICARE](#enteredit-billing-information-print-tricare-specific-pay-to-provider-ub04-ub04-tricare)
+    - [Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – CMS 1500 – TRICARE REIMB.](#enteredit-billing-information-print-tricare-specific-pay-to-provider-cms-1500-tricare-reimb)
+    - [Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – CMS 1500 – TRICARE](#enteredit-billing-information-print-tricare-specific-pay-to-provider-cms-1500-tricare)
+    - [Enter/Edit Billing Information - Re-sequence Diagnoses/Maintain Pointers](#enteredit-billing-information-re-sequence-diagnosesmaintain-pointers)
+    - [Enter/Edit Billing Information - Value Code Help](#enteredit-billing-information-value-code-help)
+    - [Enter/Edit Billing Information - Value Code – External Code Lookup](#enteredit-billing-information-value-code-external-code-lookup)
+    - [Enter/Edit Billing Information - Occurrence Code Help](#enteredit-billing-information-occurrence-code-help)
+    - [Enter/Edit Billing Information - Occurrence Code – External Code Lookup](#enteredit-billing-information-occurrence-code-external-code-lookup)
+    - [Enter/Edit Billing Information - Condition Code Help](#enteredit-billing-information-condition-code-help)
+    - [Enter/Edit Billing Information - Condition Code – External Code Lookup](#enteredit-billing-information-condition-code-external-code-lookup)
+    - [Enter/Edit Billing Information - One-Time HPID – Professional](#enteredit-billing-information-one-time-hpid-professional)
+    - [Enter/Edit Billing Information - One-Time HPID – Institutional](#enteredit-billing-information-one-time-hpid-institutional)
+    - [Enter/Edit Billing Information - Line Level NDC Code Units to Non-Prescription Claims – Professional](#enteredit-billing-information-line-level-ndc-code-units-to-non-prescription-claims-professional)
+    - [Enter/Edit Billing Information - Line Level NDC Code Units to Non-Prescription Claims – Institutional](#enteredit-billing-information-line-level-ndc-code-units-to-non-prescription-claims-institutional)
+  - [System Feature: Insurance Company Editor](#system-feature-insurance-company-editor)
+    - [Insurance Company Editor - Federal Employee Plan – Help Description](#insurance-company-editor-federal-employee-plan-help-description)
+  - [System Feature: Billing Reports](#system-feature-billing-reports)
+    - [Billing Reports - Sort - Re-generate Unbilled Amounts Report – Division](#billing-reports-sort-re-generate-unbilled-amounts-report-division)
+    - [Billing Reports - Display - Re-generate Unbilled Amounts Report – Division](#billing-reports-display-re-generate-unbilled-amounts-report-division)
+    - [Billing Reports - Print - Re-generate Unbilled Amounts Report – Division](#billing-reports-print-re-generate-unbilled-amounts-report-division)
+    - [Billing Reports - Display new HIPAA Compliant Fields on IB Reports](#billing-reports-display-new-hipaa-compliant-fields-on-ib-reports)
+  - [System Feature: Third Party Joint Inquiry](#system-feature-third-party-joint-inquiry)
+    - [Third Party Joint Inquiry - TPJI Visual Indicator – Institutional](#third-party-joint-inquiry-tpji-visual-indicator-institutional)
+    - [Third Party Joint Inquiry - TPJI Visual Indicator – Professional](#third-party-joint-inquiry-tpji-visual-indicator-professional)
+    - [Third Party Joint Inquiry - Co-Payment Amount – TPJI](#third-party-joint-inquiry-co-payment-amount-tpji)
+  - [System Feature: COB Management Worklist](#system-feature-cob-management-worklist)
+    - [COB Management Worklist - Sort – COB Management Worklist – Division](#cob-management-worklist-sort-cob-management-worklist-division)
+    - [COB Management Worklist - Display – COB Management Worklist – Division](#cob-management-worklist-display-cob-management-worklist-division)
+    - [COB Management Worklist - Print – COB Management Worklist – Division](#cob-management-worklist-print-cob-management-worklist-division)
+  - [System Feature: Health Care Claim Transactions (837)](#system-feature-health-care-claim-transactions-837)
+    - [Health Care Claim Transactions (837) - Transmit HPID – Destination Payer – Institutional](#health-care-claim-transactions-837-transmit-hpid-destination-payer-institutional)
+    - [Health Care Claim Transactions (837) - Transmit HPID – Destination Payer – Professional](#health-care-claim-transactions-837-transmit-hpid-destination-payer-professional)
+    - [Health Care Claim Transactions (837) - Transmit HPID – Other Payer(s) – Institutional](#health-care-claim-transactions-837-transmit-hpid-other-payers-institutional)
+    - [Health Care Claim Transactions (837) - Transmit HPID – Other Payer(s) – Professional](#health-care-claim-transactions-837-transmit-hpid-other-payers-professional)
+    - [Health Care Claim Transactions (837) - Transmit Sole-Proprietorship NPI – Institutional](#health-care-claim-transactions-837-transmit-sole-proprietorship-npi-institutional)
+    - [Health Care Claim Transactions (837) - Transmit Sole-Proprietorship NPI – Professional](#health-care-claim-transactions-837-transmit-sole-proprietorship-npi-professional)
+    - [Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Institutional – TRICARE REIMB.](#health-care-claim-transactions-837-transmit-tricare-specific-pay-to-provider-institutional-tricare-reimb)
+    - [Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Institutional – TRICARE](#health-care-claim-transactions-837-transmit-tricare-specific-pay-to-provider-institutional-tricare)
+    - [Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Professional – TRICARE REIMB.](#health-care-claim-transactions-837-transmit-tricare-specific-pay-to-provider-professional-tricare-reimb)
+    - [Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Professional – TRICARE](#health-care-claim-transactions-837-transmit-tricare-specific-pay-to-provider-professional-tricare)
+    - [Health Care Claim Transactions (837) - Transmit NDC Code – non-RX – Institutional](#health-care-claim-transactions-837-transmit-ndc-code-non-rx-institutional)
+    - [Health Care Claim Transactions (837) - Transmit NDC Code – non-RX – Professional](#health-care-claim-transactions-837-transmit-ndc-code-non-rx-professional)
+    - [Health Care Claim Transactions (837) - Transmit NOC Procedures - Free Text Description – Institutional](#health-care-claim-transactions-837-transmit-noc-procedures-free-text-description-institutional)
+    - [Health Care Claim Transactions (837) - Transmit NOC Procedures – Free Text Description – Professional](#health-care-claim-transactions-837-transmit-noc-procedures-free-text-description-professional)
+    - [Health Care Claim Transactions (837) - Transmit NDC Code Units– non-RX – Institutional](#health-care-claim-transactions-837-transmit-ndc-code-units-non-rx-institutional)
+    - [Health Care Claim Transactions (837) - Transmit NDC Code Units – non-RX – Professional](#health-care-claim-transactions-837-transmit-ndc-code-units-non-rx-professional)
+    - [Health Care Claim Transactions (837) - Transmit Maximum 12 Procedures – Inpatient/Institutional](#health-care-claim-transactions-837-transmit-maximum-12-procedures-inpatientinstitutional)
+  - [System Feature: Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD)](#system-feature-copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd)
+    - [Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD - Prevent Correction of Secondary Claim](#copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd-crd-prevent-correction-of-secondary-claim)
+    - [Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD - Prevent Correction of Tertiary Claim](#copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd-crd-prevent-correction-of-tertiary-claim)
+    - [Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CLON – Copy Secondary/Tertiary Claim Data to New Secondary/Tertiary Claim](#copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd-clon-copy-secondarytertiary-claim-data-to-new-secondarytertiary-claim)
+    - [Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD – Copy Primary Claim Data to New Primary Claim](#copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd-crd-copy-primary-claim-data-to-new-primary-claim)
+    - [Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD – Prevent Correction of Claim in MRA Request Status](#copy-and-cancel-a-bill-cloncorrect-rejecteddenied-bill-crd-crd-prevent-correction-of-claim-in-mra-request-status)
+  - [System Feature: Provider ID Maintenance](#system-feature-provider-id-maintenance)
+    - [Provider ID Maintenance - Sole-Proprietorship Designation - non-VA Facility](#provider-id-maintenance-sole-proprietorship-designation-non-va-facility)
+    - [Provider ID Maintenance - Link non-VA Facility to Sole-Proprietor](#provider-id-maintenance-link-non-va-facility-to-sole-proprietor)
+    - [Provider ID Maintenance - Sole-Proprietorship non-VA Facility – NPI](#provider-id-maintenance-sole-proprietorship-non-va-facility-npi)
+  - [System Feature: MCCR Site Parameter Display/Edit](#system-feature-mccr-site-parameter-displayedit)
+    - [MCCR Site Parameter Display/Edit - Default TRICARE Pay-to Provider](#mccr-site-parameter-displayedit-default-tricare-pay-to-provider)
+    - [MCCR Site Parameter Display/Edit - Default TRICARE Pay-to Provider Associations](#mccr-site-parameter-displayedit-default-tricare-pay-to-provider-associations)
+    - [MCCR Site Parameter Display/Edit - Additional TRICARE Pay-to Providers](#mccr-site-parameter-displayedit-additional-tricare-pay-to-providers)
+    - [MCCR Site Parameter Display/Edit - Associate Division(s) with TRICARE Pay-to Provider](#mccr-site-parameter-displayedit-associate-divisions-with-tricare-pay-to-provider)
+    - [MCCR Site Parameter Display/Edit - Edit a TRICARE Pay-to Provider](#mccr-site-parameter-displayedit-edit-a-tricare-pay-to-provider)
+    - [MCCR Site Parameter Display/Edit - Delete a TRICARE Pay-to Provider](#mccr-site-parameter-displayedit-delete-a-tricare-pay-to-provider)
+    - [MCCR Site Parameter Display/Edit - Re-associate Divisions - Delete TRICARE Pay-to Provider](#mccr-site-parameter-displayedit-re-associate-divisions-delete-tricare-pay-to-provider)
+    - [MCCR Site Parameter Display/Edit - Re-associate Divisions - TRICARE Pay-to Provider Security Key](#mccr-site-parameter-displayedit-re-associate-divisions-tricare-pay-to-provider-security-key)
+    - [MCCR Site Parameter Display/Edit - Re-associate Divisions - Pay-to Provider Security Key](#mccr-site-parameter-displayedit-re-associate-divisions-pay-to-provider-security-key)
+  - [System Feature: View Cancelled Claim](#system-feature-view-cancelled-claim)
+    - [View Cancelled Claim - View Cancelled Claim](#view-cancelled-claim-view-cancelled-claim)
+  - [System Feature: Miscellaneous Existing Requirements](#system-feature-miscellaneous-existing-requirements)
+    - [Miscellaneous Existing Requirements - Correct - FEAT604 Transmit Property and Casualty Claim Number](#miscellaneous-existing-requirements-correct-feat604-transmit-property-and-casualty-claim-number)
+    - [Miscellaneous Existing Requirements - Delete – FEAT435 VAMC as Billing Provider](#miscellaneous-existing-requirements-delete-feat435-vamc-as-billing-provider)
+    - [Miscellaneous Existing Requirements - Change – FEAT102 EDI Parameter Report](#miscellaneous-existing-requirements-change-feat102-edi-parameter-report)
+    - [Miscellaneous Existing Requirements - Delete – FEAT443 Schedule Mailman Message/Payer Settings for Billing Provider/Service Facility](#miscellaneous-existing-requirements-delete-feat443-schedule-mailman-messagepayer-settings-for-billing-providerservice-facility)
+    - [Miscellaneous Existing Requirements - Delete – FEAT444 Default Schedule Mailman Message/Payer Settings for Billing Provider/Service Facility](#miscellaneous-existing-requirements-delete-feat444-default-schedule-mailman-messagepayer-settings-for-billing-providerservice-facility)
+    - [Miscellaneous Existing Requirements - Delete – FEAT445 Mailman Message with Payer Settings/Billing Provider/Service Facility](#miscellaneous-existing-requirements-delete-feat445-mailman-message-with-payer-settingsbilling-providerservice-facility)
+    - [Miscellaneous Existing Requirements - Delete – FEAT446 Mailman Message with Payer Settings/Billing Provider/Service Facility](#miscellaneous-existing-requirements-delete-feat446-mailman-message-with-payer-settingsbilling-providerservice-facility)
+    - [Miscellaneous Existing Requirements - Delete – FEAT573 Security Key for CopyCancel a Claim](#miscellaneous-existing-requirements-delete-feat573-security-key-for-copycancel-a-claim)
+This Integrated Billing (IB) patch is comprised of numerous enhancements and correction of existing issues in the Integrated Billing application. These enhancements are designed to improve revenue through the creation of HIPAA compliant claims. This patch will also remove some of the features that were introduce to support the transition from ASC X12N 4010 to ASC X12N 5010 as they are no longer needed. This patch will provide the ability to transmit the new national payer identification numbers (HPID/OEID) in claim transactions and view the Health Plan Identifier/Other Entity Identifier (HPID/OEID) in the Insurance Company Editor and on The EDI Parameter report.
+Some of the more significant things this patch will provide are the ability for billing personnel to do the following:
+- Add National Drug Codes and Units to a claim
+- Add Procedure Code descriptions to Not Otherwise Classified procedures on a claim
+- Define a Pay-to Provider to be used on TRICARE claims
+- View linked first-party claim information via TPJI
+- Sort the COB Management Worklist and Re-generate Unbilled Amounts Report by Division
+- Define non-VA facilities as sole-proprietorships
+- View the data associated with cancelled claims
+APPLICATION/VERSION PATCH
+---------------------------------------------------------------
+INTEGRATED BILLING (IB) V. 2.0 IB\*2\*516
+This patch (IB\*2\*516) is being released in the Kernel Installation and Distribution System (KIDS) distribution.
 
-## Overview
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-This release of Integrated Billing (IB) will substantially impact the way your medical center conducts business. Functionallity is included which will help you implement encounter forms in all clinics. You will be able to collect and store much more detailed information about insurance carriers and policies related to your patients. The Claims Tracking Module will allow you to track an episode of care from a scheduled admission to final disposition of a charge. An Automated Biller is introduced with this release which will automatically create inpatient and outpatient bills as well as bills for prescription refills. In addition to your MCCR unit, this package will impact your utilization review staff, clinicians and clinic clerks. IB v2.0 is highly integrated with other DHCP packages including PIMS, Accounts Receivable, Allergy, Problem List, Health Summary, Prosthetics and Outpatient Pharmacy.
-
-### Claims Tracking
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The Claims Tracking module provides functionality for the Utilization Review Nurse to do both Hospital Reviews, using Interqual Standards, and Insurance Reviews. It allows for the tracking of an episode of care from the scheduling of the event to the final disposition of the bill. This module is new in IB v2.0, and was added in response to multiple requests from users for functionality to track pre-certification reviews, continuing stay reviews, appeals and denials. Highlights of this module include the following:
-
-Events requiring insurance company reviews are tracked from the time of the actual event until payment is resolved.
-
-Random inpatient stays are selected for hospital reviews using the Interqual standards. Severity of Illness and Intensity of Service are recorded for each day of care.
-
-This module tracks inpatient stays, outpatient visits, prescription refills and prosthetics and acts as a feeder to the Automated Biller in the Third Party Billing module.
-
-An admission sheet, similar to those used in the private sector, is introduced in this release. This document may be placed in the front of the inpatient chart and used to document concurrent reviews.
-
-The ability to enter comments related to insurance company or other contacts is included throughout this module.
-
-### Encounter Form Utilities
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-IB v2.0 provides medical centers with the ability to create encounter forms for the purpose of collecting clinical data in the outpatient clinics. Forms can be formatted so as to best fit the needs of each clinic and Medical Center. Medical Centers have the ability to decide what types of data may be printed on the form and what data needs to be collected on the form. There is enough flexibility in the software to allow medical centers to meet their clinical and billing needs with the same form. The encounter form may be used as part of the clinical record. The software is designed to print forms for each scheduled appointment prior to the appointment. Highlights of this module include the following:
-
-A Form Generator is provided which will allow sites to design their own forms. This will allow sites to design forms similar to what they are already using.
-
-Forms may be designed to print with data already displayed for the patient, such as patient demographics, insurance information, allergies, and active problems.
-
-Through the use of blocks and selection lists, data such as procedures, diagnoses, problems, progress notes, and orders may be collected on the forms.
-
-A Tool Kit of previously designed forms and blocks is included to assist in the creation of forms so each user will not need to create forms from scratch.
-
-A Print Manager is included which allows all clinic-specific forms (routing sheets, health summaries, information profiles, and action profiles) to print with the encounter form for an appointment.
-
-An Import/Export Utility is included which will make it easier for sites to exchange forms that they have already created.
-
-## ### Insurance Data Capture
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The whole concept behind gathering insurance data for billing purposes has changed with IB v2.0. The responsibility for insurance collection has moved from MAS to MCCR with this release. Users will have the ability to store more detailed insurance information about insurance companies, group plans, and benefits. This data will ultimately help billing and collections more accurately estimate reimbursements from insurance carriers. Highlights of this module include the following:
-
-Multiple addresses, including main mailing, outpatient claims, inpatient claims, and appeals addresses may be stored for each insurance carrier.
-
-Tools are available to maintain and/or clean up the Insurance Company file (#36).
-
-Insurance company-specific billing parameters are available so bills will be able to reflect local insurance company requirements.
-
-Group plans may be established which will be pointed to by each patient with a policy attached to that plan. This will save the re-input of the same policy data for each patient.
-
-Annual benefits covered by a plan may be stored. This will be captured by year.
-
-Benefits used by a patient, such as deductibles and lifetime maximums, may be stored.
-
-## ### Patient Billing
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The Patient Billing module in IB v2.0 went through the fewest substantial changes of the five modules included in this release. This module is responsible for generating all charges that are directly billed to the patient. It was the original module in Integrated Billing, initially designed to create Pharmacy Copayment charges. Since then, Means Test Copayments and Per Diems have been added as well as CHAMPVA subsistence charges. Highlights of new functionality in this module include the following:
-
-This module is fully integrated with the Check Out functionality released in the PIMS v5.3 software package. Patients who claim exposure to Agent Orange and Environmental Contaminants and are treated for conditions not related to these conditions are now billed automatically.
-
-Specific stop codes or dispositions may be flagged so that they cannot be billed.
-
-Means Test billing data may now be transmitted between medical centers using the PDX v1.5 software package.
-
-This software will now handle the problems caused when billing rates are not received prior to the beginning of the new fiscal year.
-
-Subsistence charges for CHAMPVA patients will now be created automatically and passed to Accounts Receivable.
-
-## ### Third Party Billing
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-The Third Party Billing module includes changes in three main areas.
-
-Functionality to generate a UB-92 (which is replacing the UB-82) is included.
-
-Enhancements to the HCFA-1500 functionality were added.
-
-An Automated Biller has been created which will be able to automatically generate bills for inpatient stays, outpatient visits and prescription refills.
-
-Highlights of new functionality in this module include the following:
-
-The HCFA-1500 has been enhanced to include inpatient as well as outpatient claims so that professional fees can now be billed on this document.
-
-Through the use of a series of parameters, sites will be able to determine what type of events are automatically billed using the new Automated Biller.
-
-A list of bills created by the Automated Biller will be provided. Billing clerks will then be able to edit and authorize these bills.
-
-The ability to add Prescription Refills and Prosthetics Items to a bill.
-
-# Section 1. CLAIMS TRACKING
+## Documentation and Distribution
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## I. Functional Description
+Updated documentation describing the new functionality introduced by this
+
+patch is available.
+
+The preferred method is to FTP the files from
+
+REDACTED
+
+This transmits the files from the first available FTP server. Sites may
+
+also elect to retrieve software directly from a specific server as
+
+follows:
+
+Albany REDACTED REDACTED
+
+Hines REDACTED REDACTED
+
+Salt Lake City REDACTED REDACTED
+
+Documentation can also be found on the VA Software Documentation Library
+
+at: http://www.va.gov/vdl/
+
+File Description File Name FTP Mode
+
+-------------------------------------------------------------------------
+
+IB Release Notes/Installation Guide ib_2_0_p516_rn.pdf Binary
+
+EDI User Guide edi_user_guide_r0415.pdf Binary
+
+Integrated Billing (IB) V. 2.0
+
+Technical Manual ib_2_0_tm_r0415.pdf Binary
+
+*(This page included for two-sided copying.)*
+
+# Patch Description and Installation Instructions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Claims Tracking is a new module within the Integrated Billing Package that will provide the following six major areas of enhancement:
-
-> 1\. Provide the ability to track billing information about patient visits and services from the time of the event until payment
-
-> 2\. Track those cases where the insurance company requires reviews
-
-> 3\. Provide tracking of those cases requiring Utilization Review by the VACO QM office based on Interqual criteria
-
-> 4\. Track not only inpatient and outpatient visits, but also prescription refills, Prosthetics, and Fee Basis visits
-
-> 5\. Provide the feeding mechanism for automated bill preparation for third party bills
-
-> 6\. Introduce an Admission Sheet which may be placed in the front of an
-
-> inpatient chart and used to document concurrent reviews
-
-Entries to the Claims Tracking module are made automatically. An admission automatically triggers entry of a Claims Tracking record. A pending insurance review (MCCR) and/or hospital review (QM) are also automatically added, if appropriate. Entries for outpatient visits and prescription refills are added as part of the nightly background job, as these entries are not needed in the same time frame as the admission information. It is important that pre-certifications be done in the time frame required by the insurance carrier.
-
-One of the long-term goals of MCCR has been to provide the ability to track all visits and document why a claim for that visit or service was or was not processed. The Claims Tracking module can run in the following three modes:
-
-Off
-
-Tracking of only insurance cases
-
-Tracking of all cases, based on site parameters
-
-## I. Functional Description
+## Patch Description
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is a place to record reasons why visits were not billed. There is also a place to record the estimated collections. In a future release, we hope to be able to automate the estimated collection based on data in the new Insurance Data Capture module. Incorporating this information into existing reports will hopefully expedite manual billing, and will be used by the automated billing module.
+=============================================================================
 
-The MCCR/UR portion of the Claims Tracking module provides for tracking of cases that require reviews for insurance companies. The center of this functionality is the Pending Review option that provides the necessary tickler file to make sure reviewers are reminded of pending work in a timely fashion. Review information about approvals, denials, penalties, and appeals can be entered and tracked. Appeals and denials can be tracked either by patient or by insurance company. A number of reports are available that can provide valuable information to the clinical staff regarding appropriateness of care. Sites may find that by reducing the number of days of unnecessary care, which are reflected in MCCR by days denied by an insurance company, they may be able to reduce costs.
+Run Date: APR 23, 2015 Designation: IB\*2\*516
 
-The Quality Management portion of the Claims Tracking module has little to do with MCCR. It provides for data entry of Utilization Review criteria required by the Quality Management office. The REDACTED ISC is working with the REDACTED ISC to develop a national UR data base of this information. The initial roll-up of this data is tentatively scheduled for June, 1994.
+Package : INTEGRATED BILLING Priority : MANDATORY
 
-This version of Integrated Billing introduces automated third party bill preparation. The various types of visits and when the bills are prepared are controlled by site parameters. Only entries in the Claims Tracking module will be billed automatic-ally. Currently, this includes tracking of scheduled admissions, inpatient stays, outpatient encounters, and prescription refills. Bills that are given a reason of Not Billable will no longer appear on the lists of visits or admissions to bill, nor will bills automatically be prepared for these visits. While the Automated Biller will be discussed in greater detail in another section, it is important to note that the episodes of care being billed are from the Claims Tracking module.
+Version : 2 Status : RELEASED
 
-In non-VA hospitals, a form called an admission sheet or attestation sheet is commonly used at the front of inpatient charts. This version of IB introduces the admission sheet to the VA. It is intended to be a one-page document that provides basic demographic information, a workspace for concurrent review, and a place for early sign-off on the admission sheet as documentation to support billing prior to sign-off of the discharge summary. Many carriers request a copy of the admission sheet as additional documentation to be submitted with a claim. It is not intended to be a permanent part of the medical record but rather a temporary worksheet.
+=============================================================================
 
-## I. Functional Description
+Associated patches: (v)IB\*2\*66 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*68 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*93 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*139 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*370 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*404 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*431 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*437 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*448 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*451 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*458 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*476 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*488 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*494 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*497 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*506 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*515 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*519 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*521 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*526 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+(v)IB\*2\*533 \<\<= must be installed BEFORE \`IB\*2\*516'
+
+Subject: EBILLING - CLAIMS COMPLIANCE
+
+Category: ROUTINE
+
+OTHER
+
+DATA DICTIONARY
+
+INPUT TEMPLATE
+
+Description:
+
+===========
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Important Note: There is one \*\*MANDATORY\*\* pre-installation activity associated with this install.
+
+The IB Staff MUST empty the 837 extract/transmission queue PRIOR to the installation of this patch.
+
+Please reference instructions from the Pre/Post Installation Overview for further details.
+
+Additionally, the patch installation instructions include a menu rebuild to remove a deleted option. It is \*\*STRONGLY SUGGESTED\*\* that the rebuild of primary menu trees occurs during non-peak hours. The patch should either be installed during non-peak hours, or you may enter NO to the Rebuild Menus prompt if your system does this in a nightly TaskMan process.
+
+Important Note: After Initial Operating Capabilities (IOC) was completed, the ICD10 development team discovered a Severity Level 3 defect:
+
+The attending provider's name is not being automatically added to Billing screen 10, Section 3 when a bill is created by the AutoBiller and the provider has a valid National Provider Identifier (NPI). Note that the attending provider's name transmits when the biller manually adds it to the bill.
+
+This has been logged as Remedy ticket INC000001243424 and will be addressed in a future release.
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+This Integrated Billing (IB) patch introduces changes to VistA's Electronic Claims processing in order to meet the Committee on Operating Rules for Information Exchange (CORE) Operating Rules.
+
+Complete List of patch items:
+
+1.  Enter/Edit Billing Information \[IB EDIT BILLING INFO\]
+1)  Provide the ability for users to authorize a claim for Skilled Nursing Facility (SNF) with a revenue code(s) less than 100 (remove existing fatal error for codes outside the 100-999 range).
+2)  Provide the ability for users to add National Drug Codes to non-prescription claims.
+3)  Provide the ability for users to add a description to a claim with a procedure code that ends in 99 or contains the following in the code description:
+
+Not Otherwise Classified
+
+Not Otherwise
+
+Unlisted
+
+Not listed
+
+Unspecified
+
+Unclassified
+
+Not otherwise specified
+
+Non-specified
+
+Not elsewhere specified
+
+Not elsewhere
+
+Nos (Note: Include "nos ", "nos;", "nos,")
+
+Noc (Note: Include "noc ", "noc;", "noc,")
+
+4)  Prevent the ability to authorize claims with non-billable providers \[provider has no National Provider Identification Number (NPI)\] on the claim.
+5)  Prevent the ability to authorize a Fee Basis claim with a non-VA Lab or Facility that has no NPI.
+6)  Provide the ability to authorize a claim with Service Facility data that does not have a Lab or Facility Taxonomy Code without displaying a Warning (remove existing warning).
+7)  Provide the ability to print a TRICARE claim with a TRICARE-specific Pay-to Provider.
+8)  Provide the ability for users to re-sequence Diagnoses Codes (DX) after Procedures have been associated with the DX (Pointers) without breaking the association.
+9)  Provide the ability for users to view a list of the following Code sets by Code number when they enter ?? for Help on Billing Screen 4 and 5:
+
+Occurrence Codes
+
+Condition Codes
+
+Value Codes
+
+10) Provide the ability for users to lookup a Code from one of the following Code sets using the code number:
+
+Occurrence Codes
+
+Condition Codes
+
+Value Codes
+
+2.  Insurance Company Editor
+1)  Remove functionality that provides the ability for a site to set a parameter that forces all claims to a particular payer, to use the VAMC as the Billing Provider instead of the lowest enumerated Billing Provider.
+2)  Change the Plan Type description for the Plan Type = FI- FEP (Federal Employee Plan) to Do Not Use for BC/BS when users enter ?? for Help at a Plan Type field.
+3.  Reports
+1)  Add the display of the new Health Plan Identifier (HPID) and the Other Entity Identifier (OEID) to the Insurance Company EDI Parameter Report \[IBCN INSURANCE EDI REPORT\].
+2)  Remove the display of the Billing Provider override parameter from the Insurance Company EDI Parameter Report \[IBCN INSURANCE EDI REPORT\].
+3)  Provide the ability to display partial or complete new HIPAA compliant electronic 270/271 Health Care Eligibility Benefit Inquiry and Response fields on IB reports.
+4)  Provide the ability for users to sort and display the Re-Generate Unbilled Amounts Report \[IBT RE-GEN UNBILLED REPORT\] by Division.
+5)  Deleted Insurance Company Billing Provider Flag Rpt/Msg \[IBCN INS BILL PROV FLAG RPT\] which is no longer needed.
+4.  Third Party Joint Inquiry (TPJI) \[IBJ THIRD PARTY JOINT INQUIRY\]
+1)  Provide the ability for users to see that a claim in TPJI, Active and Inactive claim lists, is an Institutional or a Professional claim.
+2)  Provide the ability for users to view the Co-payment amount associated with a claim in TPJI
+5.  COB Management Worklist (CBW) \[IBCE COB MANAGEMENT\]
+1)  Provide the ability for users to sort and display the CBW by Division Transactions.
+6.  Transactions
+1)  Provide the ability to transmit the HPID in the Institutional/ Professional 837 claim transaction (Loops 2010BB and 2330B) - continue to transmit legacy primary and secondary IDs in the Institutional/Professional 837 claim transaction.
+2)  Provide the ability to transmit the same NPI (organizational) for a Service Facility and a Rendering Provider (individual) on an Institutional/Professional 837 claim transaction.
+3)  Remove monthly Mailman messages that notify CBO of how sites have the EDI Parameter for Billing Provider set.
+4)  Prevent an Institutional/Professional 837 claim transaction with a Y4 Property and Casualty Number Qualifier with no corresponding Property and Casualty Number.
+5)  Provide the ability to transmit the TRICARE Pay-to Provider on all claims with Rate Type equal to TRICARE and TRICARE REIMB. INS (Loop 2010AB).
+6)  Provide the ability to transmit a NDC code and units on a non-prescription 837 claim transaction.
+7.  Correct Rejected/Denied Bill (CRD) \[IB CORRECT REJECTED/DENIED\] and Copy and Cancel (CLON) \[IB COPY AND CANCEL\]
+1)  Remove the Security Key, IB CLON, from the OPTION (#19) File that locked the CLON option.
+2)  Remove the ability for users to CRD secondary/tertiary claims.
+3)  Provide the ability for as many fields as possible to be copied from an original claim to a copy.
+8.  View Cancelled Claim \[IB VIEW CANCEL BILL\]
+1)  A new option to provide the ability to see all the data that was in a cancelled claim.
+9.  Provider ID Maintenance \[IBCE PROVIDER MAINT\]
+1)  Provide the ability for users to define an Outside Facility that is a sole-proprietorship with an NPI number that is also used by the provider who is the sole-proprietor.
+10. MCCR Site Parameter Display/Edit \[IBJ MCCR SITE PARAMETERS\]
+1)  Provide the ability for users to define a Pay-to Provider to be used only on claims with a Rate Type equal to TRICARE or TRICARE REIMB. INS.
+2)  Lock the new Tricare Pay-to Provider functionality Printed CMS - 1500 and UB - 04 Forms with new security key, IB EDIT PAY-TO TC.
+3)  Lock the existing Pay-to Provider functionality Printed CMS - 1500 and UB - 04 Forms with new security key, IB EDIT PAY-TO.
+11. Printed CMS - 1500 and UB-04 Forms
+1)  Provide the ability to print an NDC code on a non-prescription claim.
+
+Patch Components
+
+================
+
+The following is a list of field modifications included in this patch:
+
+Files & Fields Associated:
+
+File Name (#) New/Modified/
+
+Sub-file Name (#) Field Name (Number) Deleted
+
+------------------- --------------------------------- -------------
+
+PATIENT (#2)
+
+INSURANCE TYPE sub-file (#2.312)
+
+NEW GROUP NAME (#20) Modified
+
+NEW GROUP NUMBER (#21) Modified
+
+INSURANCE COMPANY (#36) Modified
+
+SEND LAB OR FAC IDS FOR VAMC Modified
+
+(#4.07)
+
+USE VAMC AS BILL PROV ON 1500 Modified
+
+(#4.11)
+
+USE VAMC AS BILL PROV ON UB04 Modified
+
+(#4.12)
+
+USE BILL PROV VAMC ADDRESS Modified
+
+(#4.13)
+
+IB SITE PARAMETERS (#350.9) Modified
+
+DEFAULT TRICARE PAY-TO PROV New
+
+(#11.04)
+
+TRICARE PAY-TO PROVIDERS sub-file (#350.929) New
+
+TC FACILITY (#.01) New
+
+TC NAME (#.02) New
+
+TC FEDERAL TAX NUMBER (#.03) New
+
+TC TELEPHONE NUMBER (#.04) New
+
+TC PARENT PAY-TO PROVIDER (#.05) New
+
+TC STREET ADDRESS 1 (#1.01) New
+
+TC STREET ADDRESS 2 (#1.02) New
+
+TC CITY (#1.03) New
+
+TC STATE (#1.04) New
+
+TC ZIP (#1.05) New
+
+GROUP INSURANCE PLAN (#355.3) Modified
+
+ELECTRONIC PLAN TYPE (#.15) Modified
+
+IB NON/OTHER VA BILLING PROVIDER (#355.93) Modified
+
+SOLE PROPRIETORSHIP (#.17) New
+
+NON-VA PROVIDER (#.18) New
+
+IB DATA ELEMENT DEFINITION (#364.5) Modified
+
+Screen: I \$\$INCLUDE^IBY516PR(5,Y)
+
+IB FORM SKELETON DEFINITION (#364.6) Modified
+
+Screen: I \$\$INCLUDE^IBY516PR(6,Y)
+
+IB FORM FIELD CONTENT (#364.7) Modified
+
+Screen: I \$\$INCLUDE^IBY516PR(7,Y)
+
+BILL/CLAIMS (#399) Modified
+
+PRIMARY NODE 7 (#371) New
+
+SECONDARY NODE 7 (#372) New
+
+TERTIARY NODE 7 (#373) New
+
+PRIMARY INSURANCE HPID (#471) New
+
+SECONDARY INSURANCE HPID (#472) New
+
+TERTIARY INSURANCE HPID (#473) New
+
+PROPERTY/CASUALTY CLAIM NUMBER Modified
+
+(#261)
+
+CONDITION CODE sub-file (#399.040)
+
+CONDITION CODE (#.01) Modified
+
+OCCURRENCE CODE sub-file (#399.041)
+
+OCCURRENCE CODE (#.01) Modified
+
+VALUE CODE sub-file (#399.047)
+
+VALUE CODE (#.01) Modified
+
+PROCEDURES sub-file (#399.0304) Modified
+
+PROCEDURE DESCRIPTION (#51) New
+
+NDC (#53) New
+
+UNITS (#54) New
+
+Bulletins Associated:
+
+New/Modified/
+
+Bulletin Name Deleted
+
+------------- -------------
+
+N/A
+
+Dialogs Associated:
+
+New/Modified/
+
+Dialog Name Deleted
+
+----------- -------------
+
+N/A
+
+Forms Associated:
+
+New/Modified/
+
+Form Name File Name (Number) Deleted
+
+--------- ------------------ -------------
+
+N/A
+
+Functions Associated:
+
+New/Modified/
+
+Function Name Deleted
+
+------------- -------------
+
+N/A
+
+Help Frames Associated:
+
+New/Modified/
+
+Help Frame Name Deleted
+
+--------------- -------------
+
+N/A
+
+Mail Groups Associated:
+
+New/Modified/
+
+Mail Group Name Deleted
+
+--------------- -------------
+
+N/A
+
+Options Associated:
+
+New/Modified/
+
+Option Name Type Deleted
+
+----------- ---- -------------
+
+IB COPY AND CANCEL run routine Modified
+
+IB VIEW CANCEL BILL run routine New
+
+IBCN INS BILL PROV FLAG run routine Delete
+
+RPT
+
+Parameter Definitions:
+
+New/Modified/
+
+Parameter Name Deleted
+
+-------------- -------------
+
+N/A
+
+Parameter Template:
+
+New/Modified/
+
+Template Name Deleted
+
+------------- -------------
+
+N/A
+
+Protocols Associated:
+
+New/Modified/
+
+Protocol Name Deleted
+
+------------- -------------
+
+IBCEM CSA CANCEL/CLONE BILL New
+
+IBCEM CSA MSG MENU Modified
+
+IBJP IB PAY-TO DIVISION ADD Modified
+
+IBJP IB PAY-TO PROVIDER ADD Modified
+
+IBJP IB PAY-TO PROVIDER DEL Modified
+
+IBJP IB PAY-TO PROVIDER EDIT Modified
+
+IBJP IB PAY-TO PROVIDERS MENU Modified
+
+IBJP IB TRICARE PAY-TO ASSOCIATIONS MENU New
+
+IBJP IB TRICARE PAY-TO DIVISION ADD New
+
+IBJP IB TRICARE PAY-TO PROVIDER ADD New
+
+IBJP IB TRICARE PAY-TO PROVIDER DEL New
+
+IBJP IB TRICARE PAY-TO PROVIDER DIVISIONS New
+
+IBJP IB TRICARE PAY-TO PROVIDER EDIT New
+
+IBJP IB TRICARE PAY-TO PROVIDERS MENU New
+
+Security Keys Associated:
+
+New/Modified/
+
+Security Key Name Deleted
+
+----------------- -------------
+
+IB EDIT PAY-TO New
+
+IB EDIT PAY-TO TC New
+
+Templates, Input Associated:
+
+New/Modified/
+
+Template Name Type File Name (Number) Deleted
+
+------------- ---- ------------------ -------------
+
+IB SCREEN3 Input BILL/CLAIMS (#399) Modified
+
+IBEDIT INS CO1 Input INSURANCE COMPANY (#36) Modified
+
+Templates, List Associated:
+
+New/Modified/
+
+Template Name Type Deleted
+
+------------- ---- -------------
+
+IBJP IB PAY-TO List Modified
+
+ASSOCIATIONS
+
+IBJP IB PAY-TO List Modified
+
+PROVIDERS
+
+IBJP IB TRICARE List New
+
+PAY-TO ASSOCS
+
+IBJP IB TRICARE List New
+
+PAY-TO PROVS
+
+Templates, Print Associated:
+
+New/Modified/
+
+Template Name Type File Name (Number) Deleted
+
+------------- ---- ------------------ -------------
+
+IBNOTVER Print PATIENT (#2) Modified
+
+Templates, Sort Associated:
+
+New/Modified/
+
+Template Name Type File Name (Number) Deleted
+
+------------- ---- ------------------ -------------
+
+N/A
+
+Additional Information:
+
+N/A
+
+New Service Requests (NSRs)
+
+----------------------------
+
+\#20110503 Electronic Data Interchange (EDI) New Standards and Operating
+
+Rules (Veterans Health Administration) VHA Provider-Side TCRs.
+
+Patient Safety Issues (PSIs)
+
+-----------------------------
+
+N/A
+
+Remedy Ticket(s) & Overview
+
+---------------------------
+
+N/A
+
+Test Sites:
+
+----------
+
+REDACTED
+
+## Pre/Post Installation Overview
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There are four user menus for Claims Tracking, which are based on the type of user. There is a menu for individuals who need the full range of UR and billing portions of Claims Tracking. This is designed for use by MCCR supervisors and those personnel who do both Hospital (QM) and Insurance (MCCR) Reviews. There are two separate menus, one each for those sites that have separate personnel doing Hospital and MCCR Reviews. And finally, there is a Claims Tracking menu designed just for personnel in the Billing Unit to allow viewing of UR data as well as updating of billing information.
+Pre/Post Installation Overview
 
-The primary data display and data entry for Claims Tracking is done through a series of nine List Manager screens. Each screen is associated with a number of actions that can be taken on the data displayed on the screen. The following are the main screens:
+------------------------------
 
-> 1\. Claims Tracking data by patient
+\*\*\*\*Important Note: There is one \*\*MANDATORY\*\* pre-installation
 
-> 2\. Hospital (QM) Review data by visit
+activity associated with this install.
 
-> 3\. Insurance Review data by visit
+The IB Staff MUST empty the 837 extract/transmission queue PRIOR to the installation of this patch. \*\*\*
 
-> 4\. Appeals and associated denials by patient or by insurance company
+The site Information Resource Management (IRM) would coordinate with the Billing Department to insure that the 837 extract/transmission queue is empty. The Billing Department should be aware of the set of instructions to be executed. If not billing supervisor can be contacted. Once the Billing Department has completed the instruction, the Billing department is to inform IRM that the patch installation could proceed.
 
-> 5\. Pending Reviews (hospital and/or insurance depending on the menu)
+The instructions to empty the queue are as follows:
 
-The first four screens have an associated expanded display of items on the list. This series of screens form the primary display and data input for the Claims Tracking module.
+Select the option: TRANSMIT EDI BILLS - MANUAL \[IBCE 837 MANUAL
 
-## II. Changed Options
+TRANSMIT\]
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+What is the purpose of this option?
 
-Patients with Insurance and Outpatient Visits
+This option is used to by-pass the normal daily/nightly transmission
 
-This option has been changed to reflect the new Claims Tracking module. This report now "knows" about the Claims Tracking Module. When running the report you may choose to include or exclude those potentially billable episodes of care that have a Reason Not Billable entered in Claims Tracking. A new column has been added to print the Reason Not Billable if you choose to print by this option. A new parameter has been added that allows sites to let this report add data to the Claims Tracking module. This is the only automated way to add outpatient care prior to Check Out to Claims Tracking. If you choose to add data with this report, no events prior to the Claims Tracking Start Date specified in the parameters will be added. If this report is queued, it will stop if there is a user-initiated request to stop the task.
+queues if the need arises to get the claim to the payer quickly.
 
-## II. Changed Options
+When is this option used?
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+There are occasions when there is a need to transmit a claim(s)
 
-Patients with Insurance and Admission<u>s</u>
+immediately instead of waiting for the batching frequency as scheduled
 
-This option has been changed to reflect the new Claims Tracking module. This report now "knows" about the Claims Tracking Module. When running the report you may choose to include or exclude those potentially billable episodes of care that have a Reason Not Billable entered in Claims Tracking. A new column has been added to print the Reason Not Billable if you choose to print by this option. A new parameter has been added that allows sites to let this report add data to the Claims Tracking module. This is the only automated way to add prior inpatient care to Claims Tracking. If you choose to add data with this report, no events prior to the Claims Tracking Start Date specified in the parameters will be added. If this report is queued it will stop if there is a user-initiated request to stop the task.
+in the MCCR Site Parameter. This option will allow sending individual
 
-Patients with Insurance and Discharges
+claim(s) or all claims in a ready for extract status.
 
-This option has been changed to reflect the new Claims Tracking module. This report now "knows" about the Claims Tracking Module. When running this report you may choose to include or exclude those potentially billable episodes of care that have a Reason Not Billable entered in Claims Tracking. A new column has been added to print the Reason Not Billable if you choose to print by this option. A new parameter has been added that allows sites to let this report add data to the Claims Tracking module. This is the only automated way to add prior inpatient care to Claims Tracking. If you choose to add data with this report, no events prior to the Claims Tracking Start Date specified in the parameters will be added. If this report is queued, it will stop if there is a user-initiated request to stop the task.
+Upon selecting this option you will be prompted with the following:
 
-## III. New Options
+Select one of the following:
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+A Transmit (A)LL bills in READY FOR EXTRACT status
 
-There are four user menus exported with Claims Tracking. There are menus for
+S Transmit only (S)ELECTED bills
 
-Users who perform only insurance reviews
+You should select 'A' for ALL
 
-Users who perform only hospital reviews
+Once the Billing Department has completed the instruction, the Billing department is to inform IRM that the patch installation could proceed.
 
-Users who perform all types of reviews
+There are no other mandatory pre-installation activities associated with this package.
 
-Billing personnel (on the Billing Clerks menu and the Billing Supervisors Menu)
+\*\*\*\*Important Note: After IOC was completed, the ICD10 development team
 
-The Claims Tracking Menu for billing clerks contains only four options, allows input of only billing information into Claims Tracking, and provides billing-specific reports. This section will describe the comprehensive user menu with all the options and actions. The options and actions that act differently or do not appear on all menus will be so noted.
+discovered a Severity Level 3 defect:
 
-## III. New Options
+The attending provider's name is not being automatically added to Billing
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+screen 10, Section 3 when a bill is created by the AutoBiller and the provider has a valid NPI. Note that the attending provider's name transmits when the biller manually adds it to the bill.
 
-Pending Review \[IBT EDIT REVIEWS TO DO\]
+This has been logged as Remedy ticket INC000001243424 and will be addressed in a future release.
 
-This option will list all pending reviews that have a pending review date during the last seven days. The option is designed to be run the first thing every morning. You should print a Pending Review List sorted by either ward, patient, assignment or date, and go to the ward and perform your reviews. You can then come back to this option to perform all the necessary actions on the reviews or you may use the separate options. This option is available to individuals who do Insurance Reviews, Hospital Reviews or both. If the user performs both types of reviews, then a plus sign (+) will appear by the names of patients needing both type of reviews. Reviews are automatically made pending for the day they are added. See the discussions under the Insurance Reviews option and the Hospital Reviews option for a discussion on when reviews are automatically created.
+The pre-installation routine will delete unused Output Formatter entries.
 
-### Actions
+The pre and post installation routines will recompile the Input Templates
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+for the Billing Screens.
 
-> <u>Change Date</u> - This action allows you to change the beginning and ending date of the search for pending reviews. You can search farther into the past or into the future to find reviews that are pending.
-
-> <u>Claims Tracking Edit</u> - This action allows you to jump to the expanded Claims Tracking screen and perform all necessary edits to the entry in that file that is necessary. This may include the input of billing information, if it is known.
-
-> <u>Diagnosis Update</u> - This action allows input of ICD-9 diagnoses for the patient. Whether diagnoses are input on this screen or another screen they are available across the Claims Tracking module. You may enter an admitting diagnosis, primary (DXLS) diagnosis, secondary diagnosis and the onset of the diagnosis for this admission. For outpatient visits this information is stored with the outpatient encounter information.
-
-> <u>Insurance Reviews</u> - This action allows you to jump to the insurance reviews screen. For details see the Insurance Reviews option. Note that if you try to perform an insurance review on a pending Hospital Review, the software will automatically take you to the Hospital Review screen. This is not available on the Claims Tracking for Hospital Reviewers option.
-
-> <u>Print Worksheet</u> - This action allows you to print a generic worksheet for selected entries. The latest administrative data is printed on the worksheet, including patient name, ward, physicians, room-bed, etc.
-
-> <u>Procedure Update</u> - This action allows the input of ICD-9 procedures for the patient. You may input the procedure and the date. This is a separate procedure entry from the PTF module and is optional for use.
-
-## <u> </u>III. New Options
+## Installation Instructions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Pending Review \[IBT EDIT REVIEWS TO DO\]
+Installation Instructions
 
-### Actions
+-------------------------
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+\* You should install this patch during non-peak hours, when no \*
+
+\* Integrated Billing or Accounts Receivable users are on the \*
+
+\* system. \*
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+\*\*\*\*There are no options to disable.
+
+Install Time: Less than 10 minutes.
+
+1.  Choose the PackMan message containing this patch.
+2.  Choose the INSTALL/CHECK MESSAGE PackMan option.
+3.  From the Kernel Installation and Distribution System Menu, select the Installation Menu. From this menu, you may elect to use the following option. When prompted for the INSTALL enter the patch \#IB\*2.0\*516.
+1)  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD's or templates.
+2)  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (routines, DD's, templates, etc.).
+3)  Verify Checksums in Transport Global - This option will allow you to ensure the integrity of the routines that are in the transport global.
+4)  Print Transport Global - This option will allow you to view the components of the KIDS build.
+4.  From the Installation Menu, select the Install Package(s) option and choose the patch to install.
+5.  When prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? YES//' You may answer NO if your system does this in a nightly TaskMan process.
+6.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//' Answer NO
+7.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO// Answer NO
+8.  If prompted "Delay Install (Minutes): (0 - 60): 0// respond 0.
+
+Post-Installation Instructions
+
+------------------------------
+
+Routines IBY516PO and IBY516PR can be manually deleted by IT/IRM upon completion of the installation.
+
+New Security Keys IB EDIT PAY-TO and IB EDIT PAY-TO TC should be assigned
+
+to the Billing Supervisor.
+
+Routine Information:
+
+====================
+
+The second line of each of these routines now looks like:
+
+;;2.0;INTEGRATED BILLING;\*\*\[Patch List\]\*\*;21-MAR-94;Build 123
+
+The checksums below are new checksums, and can be checked with CHECK1^XTSUMBLD.
+
+Routine Name: IBATLM3A
+
+Before: B22313695 After: B24217228 \*\*115,516\*\*
+
+Routine Name: IBBFAPI
+
+Before: B43623282 After: B43892084 \*\*267,297,249,317,361,384,404,516\*\*
+
+Routine Name: IBCAPP2
+
+Before: B43298709 After: B49339546 \*\*432,447,516\*\*
+
+Routine Name: IBCBB11
+
+Before: B97720533 After: B95727608 \*\*51,343,363,371,395,392,401,
+
+384,400,436,432,516\*\*
+
+Routine Name: IBCBB7
+
+Before: B28157499 After: B28514446 \*\*51,137,240,447,488,516\*\*
+
+Routine Name: IBCC
+
+Before: B57603103 After: B65165308 \*\*2,19,77,80,51,142,137,161,
+
+199,241,155,276,320,358,433,
+
+432,447,516\*\*
+
+Routine Name: IBCCC
+
+Before: B20967189 After: B22970985 \*\*80,109,106,51,320,433,432,447,516\*\*
+
+Routine Name: IBCCC2
+
+Before:B108841715 After:B113680571 \*\*80,106,124,138,51,151,137,
+
+161,182,211,245,155,296,320,
+
+348,349,371,400,433,432,447,
+
+516\*\*
+
+Routine Name: IBCD3
+
+Before: B31598371 After: B32514703 \*\*14,55,52,91,106,125,51,148,
+
+160,137,210,245,260,405,384,
+
+516\*\*
+
+Routine Name: IBCECOB
+
+Before: B17969465 After: B27628888 \*\*137,155,288,432,488,516\*\*
+
+Routine Name: IBCECOB1
+
+Before:B112283735 After:B141608790 \*\*137,155,288,348,377,417,432,
+
+447,488,516\*\*
+
+Routine Name: IBCECOB2
+
+Before:B183092638 After:B183699434 \*\*137,155,433,432,447,488,516\*\*
+
+Routine Name: IBCECSA4
+
+Before: B60720503 After: B61845851 \*\*137,155,320,371,433,516\*\*
+
+Routine Name: IBCEF
+
+Before: B58449164 After: B64641917 \*\*52,80,51,137,288,296,361,371,
+
+447,516\*\*
+
+Routine Name: IBCEF11
+
+Before: B67207596 After: B80990662 \*\*51,137,155,309,335,348,349,
+
+371,432,447,473,516\*\*
+
+Routine Name: IBCEF21
+
+Before: B23776552 After: B23973664 \*\*51,296,371,389,448,516\*\*
+
+Routine Name: IBCEF22
+
+Before: B79219296 After: B90984490 \*\*51,137,135,155,309,349,389,
+
+432,488,516\*\*
+
+Routine Name: IBCEF3
+
+Before: B47162871 After: B47786755 \*\*52,84,121,51,152,210,155,348,
+
+349,389,488,516\*\*
+
+Routine Name: IBCEF31
+
+Before: B11345418 After: B14588723 \*\*155,296,349,400,432,488,516\*\*
+
+Routine Name: IBCEF72
+
+Before: B54190068 After: B57296289 \*\*232,320,349,432,516\*\*
+
+Routine Name: IBCEF73A
+
+Before: B55865498 After: B43076924 \*\*343,374,395,391,400,432,516\*\*
+
+Routine Name: IBCEF74A
+
+Before: B39969650 After: B39038241 \*\*320,343,349,395,400,432,516\*\*
+
+Routine Name: IBCEF76
+
+Before: B45722940 After: B48153213 \*\*320,349,400,432,516\*\*
+
+Routine Name: IBCEF77
+
+Before: B24927059 After: B27920356 \*\*232,280,155,290,291,320,348,
+
+349,516\*\*
+
+Routine Name: IBCEF78
+
+Before: B4445010 After: B7140538 \*\*371,516\*\*
+
+Routine Name: IBCEF79
+
+Before:B170462166 After:B118916763 \*\*400,419,432,516\*\*
+
+Routine Name: IBCEFP
+
+Before:B115077680 After:B115631357 \*\*432,447,473,516\*\*
+
+Routine Name: IBCEOB0
+
+Before: B90917821 After: B91995821 \*\*135,280,155,431,488,516\*\*
+
+Routine Name: IBCEOB01
+
+Before: B24417822 After: B25712240 \*\*377,516\*\*
+
+Routine Name: IBCEP8
+
+Before:B129710257 After:B134052747 \*\*51,137,232,288,320,343,374,
+
+377,391,400,436,432,476,516\*\*
+
+Routine Name: IBCEP81
+
+Before: B65647537 After: B67515820 \*\*343,391,400,476,516\*\*
+
+Routine Name: IBCEP82
+
+Before: B73798180 After: B72564022 \*\*343,374,377,391,516\*\*
+
+Routine Name: IBCEP8B
+
+Before: B34200270 After: B35610752 \*\*391,432,476,488,516\*\*
+
+Routine Name: IBCEPB
+
+Before: B10650639 After: B7598816 \*\*320,348,349,400,516\*\*
+
+Routine Name: IBCEQ1A
+
+Before: B62926268 After: B67430449 \*\*232,348,349,516\*\*
+
+Routine Name: IBCF21
+
+Before: B15664460 After: B16291620 \*\*8,80,51,488,516\*\*
+
+Routine Name: IBCF23A
+
+Before: B19444201 After: B20324273 \*\*51,432,516\*\*
+
+Routine Name: IBCF31
+
+Before: B19588940 After: B19880263 \*\*17,52,80,51,516\*\*
+
+Routine Name: IBCNBLE
+
+Before:B108261556 After:B108261560 \*\*82,231,184,251,371,416,435,
+
+452,497,519,516\*\*
+
+Routine Name: IBCNBLE1
+
+Before: B32174406 After: B32419797 \*\*184,271,416,435,467,516\*\*
+
+Routine Name: IBCNBLP
+
+Before: B25507553 After: B28291070 \*\*82,497,516\*\*
+
+Routine Name: IBCNBLP1
+
+Before: B31255881 After: B34470080 \*\*82,133,516\*\*
+
+Routine Name: IBCNEHLQ
+
+Before: B46752354 After: B49920378 \*\*184,271,300,361,416,438,467,
+
+497,533,516\*\*
+
+Routine Name: IBCNRP
+
+Before: B21440357 After: B23991821 \*\*251,516\*\*
+
+Routine Name: IBCNRP5
+
+Before: B56002389 After: B56117515 \*\*276,516\*\*
+
+Routine Name: IBCNRPM1
+
+Before: B6996620 After: B7640127 \*\*251,516\*\*
+
+Routine Name: IBCNRPMT
+
+Before: B4118434 After: B4159618 \*\*251,516\*\*
+
+Routine Name: IBCNRPS2
+
+Before: B22515799 After: B24644732 \*\*276,516\*\*
+
+Routine Name: IBCNRRP3
+
+Before: B55033574 After: B58110020 \*\*251,276,516\*\*
+
+Routine Name: IBCNS
+
+Before: B27665348 After: B28265165 \*\*28,43,80,82,133,399,516\*\*
+
+Routine Name: IBCNS1
+
+Before: B35071030 After: B42707809 \*\*28,60,52,85,107,51,137,240,
+
+371,516\*\*
+
+Routine Name: IBCNS2
+
+Before: B24154529 After: B29335309 \*\*28,43,80,51,137,155,488,516\*\*
+
+Routine Name: IBCNS3
+
+Before: B62573337 After: B60729122 \*\*287,399,416,516\*\*
+
+Routine Name: IBCNSBL1
+
+Before: B33740946 After: B37090504 \*\*6,28,82,249,276,516\*\*
+
+Routine Name: IBCNSC1
+
+Before: B90495985 After: B80307925 \*\*62,137,232,291,320,348,349,
+
+371,400,519,516\*\*
+
+Routine Name: IBCNSC3
+
+Before: B18009103 After: B18386728 \*\*28,46,68,516\*\*
+
+Routine Name: IBCNSC4
+
+Before: B18086570 After: B18719019 \*\*43,85,103,251,416,497,516\*\*
+
+Routine Name: IBCNSGE
+
+Before:B103633903 After: B98010090 \*\*296,400,521,516\*\*
+
+Routine Name: IBCNSGM
+
+Before: B42642306 After: B42739860 \*\*400,516\*\*
+
+Routine Name: IBCNSJ14
+
+Before: B9289898 After: B9400113 \*\*28,516\*\*
+
+Routine Name: IBCNSJ2
+
+Before: B21486680 After: B22855491 \*\*28,516\*\*
+
+Routine Name: IBCNSJ4
+
+Before: B28671454 After: B30114071 \*\*28,62,516\*\*
+
+Routine Name: IBCNSJ5
+
+Before: B19164548 After: B19961411 \*\*43,516\*\*
+
+Routine Name: IBCNSM2
+
+Before: B21029266 After: B21200856 \*\*28,103,139,516\*\*
+
+Routine Name: IBCNSM3
+
+Before: B14271242 After: B15749953 \*\*6,28,85,211,251,399,506,516\*\*
+
+Routine Name: IBCNSM31
+
+Before: B21224087 After: B21467883 \*\*6,28,68,413,497,516\*\*
+
+Routine Name: IBCNSM5
+
+Before: B21379064 After: B22650774 \*\*28,497,516\*\*
+
+Routine Name: IBCNSMM
+
+Before: B20650555 After: B21594622 \*\*103,133,184,516\*\*
+
+Routine Name: IBCNSP
+
+Before: B48468493 After: B49297563 \*\*6,28,43,52,85,251,363,371,
+
+416,497,516\*\*
+
+Routine Name: IBCNSP0
+
+Before: B37737467 After: B38008161 \*\*28,43,52,85,93,103,137,229,
+
+251,363,371,399,438,458,497,
+
+516\*\*
+
+Routine Name: IBCNSP11
+
+Before: B11695386 After: B11721673 \*\*28,43,85,103,137,251,399,516\*\*
+
+Routine Name: IBCNSUR
+
+Before: B24160231 After: B24287477 \*\*103,276,506,516\*\*
+
+Routine Name: IBCNSUR1
+
+Before: B56652391 After: B57694333 \*\*103,225,276,516\*\*
+
+Routine Name: IBCNSUX
+
+Before: B16195424 After: B16407219 \*\*103,516\*\*
+
+Routine Name: IBCNSUX1
+
+Before: B20036863 After: B20451867 \*\*103,133,516\*\*
+
+Routine Name: IBCOMA1
+
+Before: B29547296 After: B34536686 \*\*103,516\*\*
+
+Routine Name: IBCOMC2
+
+Before: B12700505 After: B12669229 \*\*103,153,516\*\*
+
+Routine Name: IBCONS1
+
+Before: B75219188 After: B79511698 \*\*66,80,137,516\*\*
+
+Routine Name: IBCOPP2
+
+Before: B19008544 After: B20749250 \*\*28,62,93,516\*\*
+
+Routine Name: IBCOPP3
+
+Before: B9597460 After: B10453963 \*\*28,516\*\*
+
+Routine Name: IBCRBC
+
+Before: B11588633 After: B13081185 \*\*52,80,106,51,137,245,370,516\*\*
+
+Routine Name: IBCSC3
+
+Before: B37249647 After: B37464352 \*\*8,43,52,80,82,51,137,232,320,
+
+377,516\*\*
+
+Routine Name: IBCSC4D
+
+Before: B61931126 After: B75384760 \*\*55,62,91,106,124,51,210,403,
+
+400,461,516\*\*
+
+Routine Name: IBCSCE1
+
+Before: B7420897 After: B7430380 \*\*516\*\*
+
+Routine Name: IBCU7
+
+Before: B77808645 After:B111564056 \*\*62,52,106,125,51,137,210,245,
+
+228,260,348,371,432,447,488,
+
+461,516\*\*
+
+Routine Name: IBCU74
+
+Before: B35879024 After: B36449231 \*\*228,260,339,432,516\*\*
+
+Routine Name: IBCVA0
+
+Before: B10445232 After: B10440495 \*\*52,361,371,516\*\*
+
+Routine Name: IBJDF51
+
+Before: B57886181 After: B58912743 \*\*123,185,240,356,452,516\*\*
+
+Routine Name: IBJPS
+
+Before: B3981041 After: B4384435 \*\*39,52,70,115,143,51,137,161,
+
+155,320,348,349,377,384,400,
+
+432,494,461,516\*\*
+
+Routine Name: IBJPS2
+
+Before: B41765087 After: B45274108 \*\*39,52,115,143,51,137,161,155,
+
+320,348,349,377,384,400,432,
+
+494,461,516\*\*
+
+Routine Name: IBJPS3
+
+Before: B89166752 After:B111722417 \*\*400,432,516\*\*
+
+Routine Name: IBJPS4
+
+Before: B28407182 After: B36439628 \*\*400,516\*\*
+
+Routine Name: IBJTCA1
+
+Before: B54215341 After: B59453492 \*\*39,80,106,137,223,276,363,
+
+384,432,452,473,497,521,516\*\*
+
+Routine Name: IBJTCA2
+
+Before: B23068552 After: B40902439 \*\*39,80,155,320,516\*\*
+
+Routine Name: IBJTLA1
+
+Before: B10714466 After: B11361045 \*\*39,80,61,51,153,137,183,276,
+
+451,516\*\*
+
+Routine Name: IBJTLB1
+
+Before: B11067077 After: B11794378 \*\*39,80,61,137,276,451,516\*\*
+
+Routine Name: IBJTU1
+
+Before: B7894877 After: B7959085 \*\*39,80,276,451,516\*\*
+
+Routine Name: IBJTU31
+
+Before: B7603119 After: B8926798 \*\*39,61,516\*\*
+
+Routine Name: IBNCPDP3
+
+Before: B84831779 After: B84489638 \*\*223,276,342,363,383,384,411,
+
+435,452,516\*\*
+
+Routine Name: IBNCPDP5
+
+Before: B80347970 After: B80792303 \*\*411,452,526,516\*\*
+
+Routine Name: IBNCPDS1
+
+Before: B10933965 After: B11865744 \*\*411,452,516\*\*
+
+Routine Name: IBNCPEV
+
+Before: B97561964 After:B102192248 \*\*342,363,383,384,411,435,452,
+
+521,516\*\*
+
+Routine Name: IBNCPEV1
+
+Before: B65821785 After: B67774383 \*\*342,339,363,411,435,452,516\*\*
+
+Routine Name: IBOTR3
+
+Before: B29774240 After: B31663645 \*\*42,80,100,118,128,133,447,516\*\*
+
+Routine Name: IBRBUL
+
+Before: B36492961 After: B39836566 \*\*70,95,121,153,195,347,452,516\*\*
+
+Routine Name: IBRFN3
+
+Before: B29612898 After: B30451954 \*\*61,133,210,309,389,516\*\*
+
+Routine Name: IBRFN4
+
+Before: B25630558 After: B27444633 \*\*301,305,389,516\*\*
+
+Routine Name: IBTOBI1
+
+Before: B18898112 After: B19861632 \*\*276,377,516\*\*
+
+Routine Name: IBTRCD0
+
+Before: B16113018 After: B16868309 \*\*458,516\*\*
+
+Routine Name: IBTUBO
+
+Before: B25696439 After: B35610159 \*\*19,31,32,91,123,159,192,235,
+
+248,155,516\*\*
+
+Routine Name: IBTUBO1
+
+Before: B47180115 After: B62446159 \*\*19,31,32,91,123,159,247,155,
+
+277,339,399,516\*\*
+
+Routine Name: IBTUBO2
+
+Before: B33667876 After: B49823798 \*\*19,31,32,91,123,159,192,155,
+
+309,347,437,516\*\*
+
+Routine Name: IBTUBO3
+
+Before: B23289291 After: B28228475 \*\*123,159,192,155,277,516\*\*
+
+Routine Name: IBTUBOA
+
+Before: B30890238 After: B37900623 \*\*19,31,32,91,123,159,192,155,
+
+276,516\*\*
+
+Routine Name: IBTUBUL
+
+Before: B21781134 After: B72452562 \*\*19,123,159,217,155,356,516\*\*
+
+Routine Name: IBVCB
+
+Before: n/a After:B123320263 \*\*516\*\*
+
+Routine Name: IBVCB1
+
+Before: n/a After:B135425175 \*\*516\*\*
+
+Routine Name: IBVCB2
+
+Before: n/a After:B110047132 \*\*516\*\*
+
+Routine Name: IBY516PO
+
+Before: n/a After: B4162987 \*\*516\*\*
+
+Routine Name: IBY516PR
+
+Before: n/a After: B10110091 \*\*516\*\*
+
+Routine list of preceding patches: 139, 370, 404, 437, 448, 451, 461, 506
+
+519, 521, 526, 533
+
+*(This page included for two-sided copying.)*
+
+# Backout and Rollback Procedures
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Provider Update</u> - This action allows you to input the admitting physician, attending physician, and care provider separate from the MAS information. The purpose is to provide a location to document the attending physician and to provide an alternate place to document actual physicians if the administrative record indicates teams or vice versa.
-
-> <u>Quick Edit</u> - This action allows you to quickly edit all information about the review without leaving the Pending Review option.
-
-> <u>Remove From List</u> - This action allows you to quickly remove the review from the Pending Review List by automatically deleting the Next Review Date. For Insurance Reviews, the field TRACK AS INSURANCE CLAIM is also asked. If this is set to NO, no further reviews will automatically be created for this visit.
-
-> <u>Show SC Conditions</u> - This action allows a quick look at the patient's eligibility, SC status, service-connected conditions, and percent of service connection for service-connected veterans.
-
-> <u>Change Status</u> - This action allows you to quickly change the status of a review. Only completed reviews are used in the report preparation. Only completed reviews are used by the MCCR NDB roll-up or the QM roll-up (which is tentatively scheduled for release in June, 1994).
-
-> <u>Hospital Reviews</u> - This action allows you to jump to the Hospital Reviews screen. For details see the Hospital Reviews option. Note that if you try to perform a Hospital Review on a pending Insurance Review, the software will automatically take you to the Insurance Review screen. This is not available on the Claims Tracking for Insurance Reviewers option.
-
-> <u>View/Edit Entry</u> - This action allows you to jump to either the expanded Insurance Review screen or the expanded Hospital Review screen, depending on the type of review.
-
-## III. New Options
+## Overview of Backout and Rollback Procedures
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Claims Tracking Edit \[IBT EDIT TRACKING ENTRY\]
+The rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA rollback is to repair the code with a follow-on patch. The development team recommends that sites log a Remedy ticket if it is a nationally released patch; otherwise, the site should contact the Product Support team directly for specific solutions to their unique problems.
 
-This option is the main gateway to all Claims Tracking functions (except pending reviews). Each visit, whether inpatient, outpatient, or prescription refill, has a unique entry where it is tracked to see if it is billable or not. Normally, only visits of insured patients are tracked; however, all visits may be tracked. You can edit information about anticipated revenues and required reviews with this option, and perform a number of maintenance and clinical update edits. Depending upon how you set your site parameters, admissions, outpatient visits, and prescription refills may automatically be added. If you are using the schedule options, then scheduled admissions will also be added. Upon installation, all current inpatients will automatically be loaded into Claims Tracking.
-
-> Actions
-
-> <u>Add Tracking Entry</u> - This action can be used to add an entry to be tracked if it was not automatically added. This will most commonly be used to add old visits or to add scheduled admissions if you are not using the scheduled admission package.
-
-> <u>Assign Case</u> - This action allows you to assign a visit to a reviewer. This is useful in sorting pending reviews by the reviewer to whom they are assigned. Insurance and hospital reviews can be assigned separately.
-
-> <u>Billing Info Edit</u> - This action allows you to edit the billing information about expected revenues and next auto bill date. This is useful for comparing expected revenues versus what was received.
-
-> <u>Change Date</u> - This action allows you to change the default date range for the list of visits. Normally only the past year's visits are displayed, including any current admission. If you wish to view or take action on a visit outside of the current year, use this action to select the correct date range. Note that for inpatient care, the admission date is used.
-
-> <u>Change Patient</u> - This action allows you to change the selected patient without having to leave the option and choose it again.
-
-> <u>Delete Tracking Entry</u> - This action allows you to delete a tracking entry. If for some reason an entry was mistakenly added, use this action to delete the entry. Normally, if there is associated data with a review, it is preferable to inactivate the entry rather than delete it.
-
-## <u> </u>III. New Options
+## Backout Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Claims Tracking Edit \[IBT EDIT TRACKING ENTRY\]
+During the VistA Installation Procedure of the KIDS build, the installer hopefully backed up the modified routines by the use of the 'Backup a Transport Global' action.  The installer can restore the routines using the MailMan message that were saved prior to installing the patch.  The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-on patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data.  This backout may need to include a database cleanup process.
 
-> Actions
+Please contact the Product Support team for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch.  If the installed patch that needs to be backed out includes a pre or post install routine please contact the product support team before attempting the backout.
 
-> <u>Appeals Edit</u> - This action allows you to jump to the Appeals and Denials screen. For details see the Appeals and Denials option. This is not available on the Claims Tracking for Hospital Reviews option. Only denials and penalties may be appealed.
+From the Kernel Installation and Distribution System Menu, select
 
-> <u>Insurance Reviews</u> - This action allows you to jump to the insurance reviews screen. For details see the Insurance Reviews option. This is not available on the Claims Tracking for Hospital Reviewers option.
+the Installation Menu.  From this menu, you may elect to use the
 
-> <u>Hospital Reviews</u> - This action allows you to jump to the hospital reviews screen. For details see the Hospital Reviews option. This is not available on the Claims Tracking for Insurance Reviewers option.
+following option. When prompted for the INSTALL enter the patch \#.
 
-> <u>Diagnosis Update</u> - This action allows input of ICD-9 diagnoses for the patient. Whether diagnoses are input on this screen or another screen, they are available across the Claims Tracking module. You may enter an admitting diagnosis, primary (DXLS) diagnosis, secondary diagnosis, and the onset of the diagnosis for this admission. For outpatient visits, this information is stored with the outpatient encounter information.
+    a. Backup a Transport Global - This option will create a backup
 
-> <u>Procedure Update</u> - This action allows the input of ICD-9 procedures for the patient. You may input the procedure and the date. This is a separate procedure entry from the PTF module and is optional for use.
+       message of any routines exported with this patch. It will not
 
-> <u>Provider Update</u> - This action allows you to input the admitting physician, attending physician, and care provider separate from the MAS information. The purpose is to provide a location to document the attending physician and to provide an alternate place to document actual physicians if the administrative record indicates teams or vice versa.
+       backup any other changes such as DD's or templates.
 
-> <u>Quick Edit</u> - This action allows you to edit nearly all of the fields in Claims Tracking, specify if there should be insurance or hospital reviews, add billing information, and assign the visit to a reviewer.
-
-> <u>Show SC Conditions</u> - This action allows a quick look at the patient's eligibility, SC status, service-connected conditions, and percent of service connection for service-connected veterans.
-
-## <u> </u>III. New Options
+## Rollback Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>View/Edit Episode</u> - This action allows you to jump to the expanded Claims Tracking screen where they can view much of the data on one visit and perform related actions.
+The rollback procedure for VistA patches is complicated and may require a follow-on patch to fully roll back to the pre-patch state. This is due to the possibility of Data Dictionary updates, Data updates, cross references, and transmissions from VistA to offsite data stores.
 
-Single Patient Admission Sheet \[IBT OUTPUT ONE ADMISSION SHEET\]
+Please contact the Product Support team for assistance if needed.
 
-This option allows you to print an admission sheet for one visit. The function of the admission sheet is to serve as a temporary cover sheet in the inpatient chart where reviewers and coders can make notes about the visit in summary form. If the facility chooses to have physicians sign the admission sheet it can then be used as documentation to prepare inpatient bills prior to the signing of the discharge summary.
+*(This page included for two-sided copying.)*
 
-Insurance Review Edit \[IBT EDIT COMMUNICATIONS\]
-
-This option is designed to allow the person doing reviews for insurance purposes to document the following events:
-
-Contact with the insurance company
-
-Action taken by the insurance company
-
-Relevant clinical information
-
-The need for further reviews
-
-An initial review is automatically created upon admission for all insured patients. If UR is not required for the patient, the review can be deleted, inactivated, or left in an Entered status. If reviews are performed, and contact with the insurance company is made, the information can be input into this module. Once a review or entry is complete, its status should be updated to COMPLETE so it will be used in reporting. If further reviews are required, the NEXT REVIEW DATE should contain the date the next review is required and it will then appear in the Pending Reviews option or the Pending Reviews List.
-
-> Actions
-
-> <u>Add Comment</u> - This action allows you to edit the word processing field in the Insurance Review to add or edit this information without having to edit other fields.
-
-> <u>Add Ins. Review</u> - This action will add a new review for the visit. The following are the default review types:
-
-> Pre-certification Review (if it is a scheduled admission and no previous review)
-
-> Urgent Admission review (if it is not a scheduled admission and no previous review)
-
-> Continued Stay Review (for follow-up reviews)
-
-## <u> </u>III. New Options
+# Enhancements
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Insurance Review Edit \[IBT EDIT COMMUNICATIONS\]
+The following features in VistA, Integrated Billing are affected by this effort:
 
-> Actions
-
-> <u>Appeals Edit</u> - This action allows you to jump to the Appeals and Denials screen to add/edit appeals. Only reviews where the action is either a denial or a penalty can be appealed. The denials and penalties can be edited on either the appeals screen or the insurance reviews screen. Appeals can only be edited on the appeals screen.
-
-> <u>Delete Insurance Review</u> - This action allows an insurance review to be deleted. If a review is automatically created, but the visit does not require reviews and follow-up with the insurance company, it can be deleted. Use care in exercising this action. It may be just as important to document that no review is required as it is to document the required reviews.
-
-> <u>Diagnosis Update</u> - This action allows input of ICD-9 diagnoses for the patient. Whether diagnoses are input on this screen or another screen they are available across the Claims Tracking module. You may enter an admitting diagnosis, primary (DXLS) diagnosis, secondary diagnosis and the onset of the diagnosis for this admission. For outpatient visits this information is stored with the outpatient encounter information.
-
-> <u>Procedure Update</u> - This action allows the input of ICD-9 procedures for the patient. You may input the procedure and the date. This is a separate procedure entry from the PTF module and is optional.
-
-> <u>Provider Update</u> - This action allows you to input the admitting physician, attending physician, and care provider separate from the MAS information. The purpose is to provide a location to document the attending physician and to provide an alternate place to document actual physicians if the administrative record indicates teams or vice versa.
-
-> <u>Quick Edit</u> - This action allows you to edit nearly all the fields in the insurance review. The type of review can be specified, along with the action of the insurance company, comments, the status of the review, and a follow-up date for the next review.
-
-> <u>Review Worksheet Print</u> - This action will print a worksheet for use in taking to the ward for writing notes prior to calling the insurance company and entering the review. Basic information is printed about the patient and the visit on the form. Note that the format is slightly different for 80 column and 132 column output.
-
-## <u> </u>III. New Options
+## System Feature: Enter/Edit Billing Information
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Insurance Review Edit \[IBT EDIT COMMUNICATIONS\]
-
-> Actions
-
-> <u>Show SC Conditions</u> - This action allows a quick look at the patient's eligibility, SC status, service-connected conditions, and percent of service connection for service-connected veterans.
-
-> <u>Status Change</u> - This action allows you to edit the status of a review. The choices are Inactive, Entered, Pending, and Complete. An inactive review disappears as though deleted. A review is given a status of Entered when it is created and updated to pending once data entry is started on the review. It should be changed to Complete once the review is complete. Note that this would support data entry by non-clinical users, and the status could be updated to Complete once the reviewer is satisfied with the entry.
-
-> <u>View/Edit Episode</u> - This action allows you to jump to the expanded Insurance Review screen where they can view much of the data on one review and perform related actions. The actions are similar to the actions on the Insurance Review List screen, however, there are some abbreviated input actions that allow editing of only a few fields.
-
-Appeal/Denial Edit \[IBT EDIT APPEALS/DENIALS\]
-
-This option is slightly different from most Claims Tracking options. You can select either a patient or an insurance company for whom you wish to list the appeals and denials. This option lists the denials, initial appeal, and subsequent appeals; then, penalties, initial appeal, and subsequent appeals. This can be used to track the appeals for either a patient or an insurance company. It is very similar to the Insurance Review option; however, if an appeal is approved or partially approved, the amount won on appeal is tracked.
-
-> Actions
-
-> <u>Add Appeal</u> - This action allows adding an appeal to a denial or penalty. The first appeal will be an initial appeal. All other appeals will be subsequent appeals. You may enter an administrative or clinical appeal. There is no limit to the number of appeals that may be entered.
-
-> <u>Delete Appeal/Denial</u> - This action allows deletion of appeals and denials. This was designed to be used in cases of erroneous entry.
-
-## <u> </u>III. New Options
+### Enter/Edit Billing Information- Revenue Codes \<100
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Appeal/Denial Edit \[IBT EDIT APPEALS/DENIALS\]
+The IB System provides the ability for users to authorize a claim with one or more revenue codes outside the 100-999 range.
 
-> Actions
-
-> <u>Diagnosis Update</u> - This action allows input of ICD-9 diagnoses for the patient. Whether diagnoses are input on this screen or another screen, they are available across the Claims Tracking module. You may enter an admitting diagnosis, primary (DXLS) diagnosis, secondary diagnosis, and the onset of the diagnosis for this admission. For outpatient visits, this information is stored with the outpatient encounter information.
-
-> <u>Procedure Update</u> - This action allows the input of ICD-9 procedures for the patient. You may input the procedure and the date. This is a separate procedure entry from the PTF module and is optional for use.
-
-> <u>Provider Update</u> - This action allows you to input the admitting physician, attending physician, and care provider separate from the MAS information. The purpose is to provide a location to document the attending physician and to provide an alternate place to document actual physicians if the administrative record indicates teams or vice versa.
-
-> <u>Insurance Company Edit</u> - This action allows editing of fields in the Insurance Company file (#36) that pertain to appeals address and phone numbers.
-
-> <u>Patient Insurance Edit</u> - This action allows editing of patient policy information. See the section on Insurance Data Capture for details.
-
-> <u>Quick Edit</u> - This action allows you to edit nearly all of the fields in the appeal or denial, add comments, maintain its status, and assign follow-up dates.
-
-> <u>Show SC Conditions</u> - This action allows a quick look at the patient's eligibility, SC status, service-connected conditions, and percent of service connection for service-connected veterans.
-
-> <u>View/Edit Episode</u> - This action allows you to jump to the expanded Appeal/Denial screen where you can view much of the data for one visit and perform related actions.
-
-Inquire to Claims Tracking \[IBT OUTPUT CLAIM INQUIRY\]
-
-This option will display or print stored information about a single visit. You can select a patient, list the Claims Tracking entries, and view the information. A brief display of the reviews performed is also provided. This display is less detailed than the Claims Tracking Summary for Billing option.
-
-## III. New Options
+### Enter/Edit Billing Information - Line Level NDC Codes to Non-Prescription Claims - Professional 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Supervisors Menu \[IBT SUPERVISORS MENU\]
-
-This option contains the options to edit the Claims Tracking site parameters and to manually add outpatient encounters and Rx Refills to Claims Tracking.
-
-Manually Add OPT. Encounters to Claims Tracking \[IBT SUP MANUALLY QUE ENCOUNTERS\]
-
-Outpatient Encounters that have been checked out are normally added during the IB nightly background job. Only primary outpatient encounters that have been checked out will be added in the first twenty days after the date of the encounter. The purpose of this option is to allow sites to search for outpatient encounters that were not checked out within twenty days and have them automatically added to Claims Tracking. If sites choose to run the automated bill preparation portion of IB v2.0, they will want to periodically run this report to insure that all outpatient care
-
-is billed. This option is automatically queued and a bulletin is sent upon completion.
-
-Manually Add Rx Refills to Claims Tracking \[IBT SUP MANUALLY QUE RX FILLS\]
-
-Rx refills are normally added during the IB nightly background job. Refills that have been released within ten days of the fill date are automatically added at night. The purpose of this option is to allow sites to search for refills that were not released within ten days and have them automatically added to Claims Tracking. If sites choose to run the automated bill preparation portion of IB v2.0, they will want to periodically run this report to insure that all outpatient care is billed. This option is automatically queued and a bulletin is sent upon completion.
-
-Claims Tracking Parameter Edit \[IBT EDIT TRACKING PARAMETERS\]
-
-This option allows editing of the Claims Tracking Parameters. There are a number of parameters designed to limit the automatic addition of information to Claims Tracking for sites that do not have sufficient computer resources to run this module. A site can set the earliest date for adding entries, or turn on or off Inpatient, Outpatient, and Rx Refill tracking separately. There are a number of parameters that also control the random sampling of admissions for Hospital Reviews.
-
-Reports Menu (Claims Tracking) \[IBT OUTPUT MENU\]
-
-This menu contains all the report options available in Claims Tracking.
-
-UR Activity Report \[IBT OUTPUT UR ACTIVITY REPORT\]
-
-This report is similar to the MCCR/UR summary report, however, it counts total activity during the period. It also provides a detailed listing of the Insurance Reviews done during the period, along with a summary report. The detailed listing can be sorted by patient, review date, or specialty.
-
-## III. New Options
+### The IB System provides the ability for users to add a line level 5-4-2 format National Drug Code to a non-prescription procedure when creating a professional claim.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Days Denied Report \[IBT OUTPUT DENIED DAYS REPORT\]
-
-This report can print a summary or detailed listing of denials by insurance companies. The report can be sorted by patient, attending, or service. The summary report shows the number of denials, the total days denied, the dollar amount of the denials, and the days won on appeal by service.
-
-MCCR/UR Summary Report \[IBT OUTPUT SUMMARY REPORT\]
-
-This report prints a summary of hospital activity by either admission or discharge and the number of reviews for the period. If sorting by discharge, only reviews for discharges for the period are counted. Included is a Penalty Report, a Days Approved Report, and a Days Denied Report, all by specialty.
-
-Review Worksheet Print \[IBT OUTPUT REVIEW WORKSHEET\]
-
-This option is similar to the Review Worksheet action on the Insurance Review screen. A worksheet for a current inpatient can be printed containing demographic data and information about current room/bed, ward, and provider.
-
-Scheduled Admissions w/Insurance \[IBT OUTPUT SCHED ADM W/INS\]
-
-This option prints a list of scheduled admissions in Claims Tracking for insured patients. This will produce a list of patients with past scheduled admissions and scheduled admissions up to three days into the future. This is not the same as the Scheduled Admission List from MAS, as it does not contain all scheduled admissions from MAS. Scheduled admissions are normally moved to Claims Tracking four days prior to the scheduled admission date so that reviews can be completed prior to admission. Included are the number and type of reviews performed and the insurance company actions.
-
-Pending Work Report \[IBT OUTPUT PENDING ITEMS\]
-
-This option will print a Pending Work List, similar to the Pending Reviews option. It can be sorted by due date, patient, ward, or assigned to, for either Insurance Review, Hospital Reviews, or both. This option will limit the number of reviews on the list to those reviews which meet the sort criteria rather than just sort the reviews. The output is formatted differently from the format if printing the reviews from the Pending Reviews option.
-
-Unscheduled Admission w/Insurance \[IBT OUTPUT UNSCHE ADM W/INS\]
-
-This option prints a list of unscheduled admissions in Claims Tracking for insured patients. In addition it prints information about the number of reviews completed and the insurance company actions.
-
-## III. New Options
+### Enter/Edit Billing Information- Line Level NDC Codes to Non-Prescription Claims – Institutional
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Print CT Summary for Billing \[IBT OUTPUT BILLING SHEET\]
+The IB System provides the ability for users to add a line level 5-4-2 format National Drug Code to a non-prescription procedure when creating an institutional claim.
 
-This option prints nearly all information about a visit that can be determined. Summary information from MAS or Pharmacy is printed about the visit, such as
-
-Summary information from Claims Tracking
-
-Information from all Hospital and Insurance Reviews (including comments)
-
-Diagnoses, procedures, and provider information from Claims Tracking
-
-This report is designed to provide as much detailed information about a visit as possible for use by billers when entering a claim, or when answering questions about a claim.
-
-Assign Reason Not Billable \[IBT EDIT REASON NOT BILLABLE\]
-
-This option provides functionality to flag a visit, inpatient, outpatient, or Rx refill as billable or non-billable. This is done by assigning a Reason Not Billable. If there is no Reason Not Billable assigned, the billing information can be entered into Claims Tracking for the visit. This option appears on the Claims Tracking for Billers menu and is a simplified edit of Claims Tracking information that is of interest to billing personnel.
-
-## IV. New or Changed Bulletins
+### Enter/Edit Billing Information- Line Level Description – 99 Procedure Codes – Professional
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There are no bulletins in claims tracking.
+The IB System provides the ability for users to add a line level, 1-80 character free text description to a procedure code that ends in 99 on a professional claim.
 
-## V. Implementation Guide
+### Enter/Edit Billing Information - Line Level Description - 99 Procedure Codes – Institutional
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Because Claims Tracking is a new module you will want to consider how you plan to implement this package. You will probably want to have a meeting with the IRM staff, MCCR Coordinator, the MAS ADPAC and Quality Management/UR supervisor. Discuss how each section plans to use this module. In particular, is MCCR planning on running automated billing, and if yes, for what types of bills. Does IRM have the disk space and capacity to support this. In this meeting you will want to review the Claims Tracking site parameters and discuss how they affect the package. (The recommended settings are shown in the user manual.) The claims tracking module has the ability to use a great deal of disk space and capacity if turned on to track all episodes. Generally you will not want to do this except for short periods of time.
+The IB System provides the ability for users to add a line level, 1-80 character free text description to a procedure code that ends in 99 on an institutional claim.
 
-Claims Tracking contains the data entry portion of the QM national roll-up of data and will determine the random sample cases for review. Most sites will be compelled to run this part of the inpatient tracking. If you plan to use the automated biller to do bill preparation for outpatient and prescription refill billing you will also want to turn on tracking of these portions of the claims tracking module for insurance cases. There are ways to automatically back load insurance cases into claims tracking. If you don't currently have the capacity or want to delay implementation you can still take advantage of this module at a later date. We suggest you initially turn on the inpatient claims tracking for insurance and UR cases to see how the system works and then to implement outpatient and prescription claims tracking for insurance cases after a few weeks and only if you plan to use those parts of the package.
+### Enter/Edit Billing Information - Line Level Description - NOC Procedure Codes – Professional
 
-The major of the data entry in Claims Tracking is oriented to the UR personnel. Expect that training may be an issue at your site. Many of our initial users were not experienced DHCP users and required assistance in basic data entry techniques prior to using the package. Using the module in a training account helped but be prepared to provide a few minutes to a several hours of support from an experienced user or trainer when using the package for the first time. If an entry doesn't come out right the first few times, remember that they can be deleted and re-entered if need be. (use the Print CT Summary for Billing prior to deleting so you can review what was done)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1\. Back loading the required QM reviews.
+The IB System provides the ability for users to add a line level, 1-80 character free text description to a procedure code (CPT/HCPCS) on a professional claim that contains the following text in the procedure's description (file 81, field 81.01,01):
 
-The Quality Management office is apparently mandating that the UR cases from the beginning of the fiscal year (fy-94) be input into claims tracking so that this information is available for the national roll-up expected to be released in June, 1994.
+- Not Otherwise Classified
+- Not Otherwise
+- Unlisted
+- Not listed
+- Unspecified
+- Unclassified
+- Not otherwise specified
+- Non-specified
+- Not elsewhere specified
+- Not elsewhere
+- Nos (Note: Include "nos ", "nos;", "nos,")
+- Noc (Note: Include "noc ", "noc;", "noc,")
 
-To input these prior cases use the option Claims Tracking Edit. Use the option Add Tracking Entry and enter the following information as indicated. If other prompts appear, enter nothing or accept the default answer.
+### Enter/Edit Billing Information - Line Level Description - NOC Procedure Codes – Institutional
 
-> Select Tracking Type: INPATIENT ADMISSION (don't select scheduled admission as that is for future scheduled admissions)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Admission Date: JAN 20, 1994 (enter any date that the patient was an inpatient and the system will find the correct admission date) Note you can enter dates that the patient was not an inpatient and this will cause you to lose the link to MAS type information.
+The IB System provides the ability for users to add a line level, 1-80 character free text description to a procedure code (CPT/HCPCS) on an institutional claim that contains the following text in the procedure's description (file 81, field 81.01,01):
 
-> Okay to Add Claims Tracking entry for Admission Date AUG 30,1993@07:44:18? NO// YES (notice that the computer found the correct admission date and time)
+- Not Otherwise Classified
+- Not Otherwise
+- Unlisted
+- Not listed
+- Unspecified
+- Unclassified
+- Not otherwise specified
+- Non-specified
+- Not elsewhere specified
+- Not elsewhere
+- Nos (Note: Include "nos ", "nos;", "nos,")
+- Noc (Note: Include "noc ", "noc;", "noc,")
 
-> ADMISSION TYPE: URGENT// (you can change this if you want, the default is urgent, type a Question mark for the choices.)
+### Enter/Edit Billing Information - Fatal Error - Non-billable Providers – Professional
 
-> TRACKED AS INSURANCE CLAIM?: NO// (accept the default answer here)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> REASON NOT BILLABLE: (if this appears and you don't know the answer, leave blank)
+The IB System prevents users from authorizing a professional claim that contains an individual provider who has no NPI number:
 
-> SPECIAL CONSENT ROI: (if this appears and you don't know the answer, leave blank)
+- Rendering
+- Supervising
+- Referring
 
-> TRACKED AS RANDOM SAMPLE?: YES (Enter Yes if this is a random case or No if not)
+### Enter/Edit Billing Information - Fatal Error - Non-billable Providers – Institutional
 
-> TRACKED AS SPECIAL CONDITION: COPD (If this case involved TURP, COPD, or CVD, enter which one it was or leave it blank if nothing. Note that a case can be both random and a special condition)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> TRACKED AS A LOCAL ADDITION?: NO (Enter Yes if you are doing UR on this case as a locally determined case to follow or No if not. If not answered No is assumed. Note that how you answered the previous two questions has no affect on this field)
+The IB System prevents users from authorizing an institutional claim that contains an individual provider who has no NPI number:
 
-> HOSPITAL REVIEWS ASSIGNED TO: (Enter the name of the user assigned this case for quality management reviews if you track cases by who did the review or leave blank.)
+- Attending
+- Operating
+- Other Operating
 
-> INS. REVIEWS ASSIGNED TO: (Enter the name of the user assigned this case for Insurance reviews if you track cases by who did the review or leave blank.)
+### Enter/Edit Billing Information - Screen – Non-billable Provider – Institutional
 
-Now use the action Hospital Reviews to go to the hospital Review Input screen. If you have your worksheets in front of you use the Add Next Review action to enter your reviews. An entry for every day of the review period is required. If the entry for succeeding days is exactly like the prior day say yes to the question is this exactly like the previous review until you are done. You can later edit any of these reviews. Remember to enter a next review date if you want this to later show up on your pending work report (or to do list). The status of each review must be Complete in order for the National roll-up to extract the data.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When done with entering reviews for this patient, return to the Claims Tracking Edit screen and use the action to Change Patient to select the next patient and repeat the sequence.
+The IB System automatically removes all individual providers who have no NPI number from an institutional claim.
 
-IV. ENCOUNTER FORM UTILITIES1. FUNCTIONAL DESCRIPTION
+### Enter/Edit Billing Information - Screen – Non-billable Provider – Professional
 
-An encounter form is a paper form designed specifically for an outpatient appointment. It is used both to display relevant patient data for use during the appointment, such as demographics, allergies, and problems, and to collect data about the appointment, such as procedures and tests performed. Its focus is primarily clinical but it has other purposes, such as collecting data necessary for billing.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Encounter Form Utilities are a set of options that allow encounter forms to be: designed, edited and assigned to clinics; printed for appointments with patient data; and printed with or without patient data for patients without an appointment.
+The IB System automatically removes all individual providers who have no NPI number from a professional claim.
 
-The Encounter Form Utilities will enable collection of outpatient clinical and administrative data. They will provide a more organized method of data collection which will be less obtrusive to the clinician and supporting clerical staff.
+### Enter/Edit Billing Information - Fatal Error – Missing non-VA Lab or Facility NPI – Professional
 
-Included with the utilities is a Print Manager that allows sites to define reports that should print along with the encounter forms. This should result in a considerable savings in time required to collate the various reports and forms printed for each appointment. Reports can be defined to print for entire divisions or for individual clinics. Also, at the division level conditions can be specified under which the reports should print, such as "for all appointments" or "only for the earliest appointment". Currently, the Routing Slip, Information Profile, Action Profile, and any Health Summary can be printed via the Print Manager. Others will be added, depending on demand by local sites. There is an option that local sites can use to add their own reports for use by the Print Manager.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Many sites already use encounter forms of their own design. For this reason, a "form generator" was created, rather than a set of pre-formatted encounter forms, so that sites can design forms similar to the ones they may already use. The form generator displays the form to a portion of the screen with a coordinate system drawn across the top and left side so that the position of its contents can be determined. Objects can then be created and placed on the form. Many actions are included that are meant to ease the burden of creating forms. For example, users can copy a form that someone else designed and then edit it, or they can copy a block from another form and place it on their own form. Users can move a single block on the form or shift entire groups of blocks. There are a variety of object types that can be created and placed on the form. Learning the terminology that was invented to describe these objects is the biggest hurdle to overcome before a site can successfully use the utilities to design their own forms.
+The IB System prevents users from authorizing a professional Fee Basis claim with a non-VA Facility that does not have an NPI.
 
-The encounter form interfaces with DHCP to display patient data. Currently data displayed on the encounter forms comes from just the PIMS, Allergies, and Problem List packages. Data that can be printed to the form includes patient demographic data and insurance data, patient allergies and problems. In the future, more interfaces will be added as they are requested by users. The utilities are designed to interface in a well-defined manner with other packages so that new interfaces can be easily added. There are options for use by local IRMs that enable them to easily add their own Package Interfaces.
+### Enter/Edit Billing Information - Fatal Error – Missing non-VA Lab or Facility NPI – Institutional
 
-So that sites don't have to spend a lot of time creating custom forms the utilities include a "tool kit" of forms and form components. In most cases the tool kit will meet the needs of the local sites, allowing them to avoid the time-consuming process of creating forms from scratch. There are options to allow IRM sites to edit the tool kit. There is also an Import/Export Utility that will enable sites to exchange forms and form components. It is important to note that after the tool kit is initially installed, additional forms, contained in Files 357-357.5 and 357.77-357.8, can only be installed through the import/export utility. Data for these files should not be transferred via DIFROM after the initial install.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-2. NEW OPTIONSClinic Setup/Edit Forms \[IBDF CLINIC SETUP/EDIT FORMS\]
+The IB System prevents users from authorizing an institutional Fee Basis claim with a non-VA Facility that does not have an NPI.
 
-This option allows the user to assign encounter forms to clinics and to edit encounter forms. A description of the screens and actions accessible from this option follows.
+### Enter/Edit Billing Information - Warning – Missing Lab or Facility Taxonomy Code – Institutional
 
-![](integrated-billing-version-2-release-notes/001.png)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Edit Clinic Setup Screen
+The IB System no longer provides a non-fatal warning message to users when an institutional claim contains a Lab or Facility which has no active taxonomy code.
 
-This screen displays a list of forms defined for the clinic. It provides the ability to assign forms to clinics and provides entry to the form generator for creating and editing form descriptions.
+### Enter/Edit Billing Information - Warning – Missing Lab or Facility Taxonomy Code – Professional
 
-Actions
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Change Clinic</u> - This action allows the clinic to be changed and changes the list of forms displayed to the screen accordingly.
+The IB System no longer provides a non-fatal warning message to users when a professional claim contains a Lab or Facility which has no active taxonomy code.
 
-<u>Add Form to Setup</u> - This action allows a form to be assigned to a clinic. The forms included in the tool kit cannot be assigned to a clinic, since they are templates that must remain unchanged. However, tool kit forms can be copied and the copy assigned to a clinic. Forms can be shared between clinics.
+### Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – UB04 – TRICARE REIMB.
 
-<u>Delete from Setup</u> - This action allows a form to be dropped from use for the clinic.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Delete Unused Form</u> - This action allows a form that is not in use by any clinic to be deleted completely.
+The IB System provides the ability for users to print the TRICARE-specific Pay-to Provider data on a UB04 when the rate type of the claim is TRICARE REIMB.
 
-<u>Copy Form</u> - This action allows any form, whether it is in the tool kit or in use by another clinic, to be copied. The form must be re-named.
+### Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – UB04 – UB04 – TRICARE
 
-<u>Create Blank Form</u> - This action allows a blank form to be created. The user must name the form, enter a description and the size of the form. It is used to create forms from scratch.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Print Sample Form</u> - This action is used to print a form without patient data.
+The IB System provides the ability for users to print the TRICARE-specific Pay-to Provider data on a UB04 when the rate type of the claim is TRICARE.
 
-<u>Form Name/Descr/Size</u> - This action allows the form's name, description and size to be edited.
+### Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – CMS 1500 – TRICARE REIMB.
 
-<u>Edit Form</u> - This action allows the user to view a form and edit its appearance and content. It takes the user to the "Edit Form" screen.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Recompile Form</u> - The need to use this action will rarely, if ever, occur. The action allows forms to be recompiled. Forms are automatically compiled each time they are edited. The compiled form prints using a small fraction of the computer resources as compared to printing the uncompiled version. When an uncompiled form is printed it is automatically compiled. You can use this action if you have reason to believe that the compiled version of the form does not match the actual form as entered through the Edit Form action. It is here as a safety feature only; its actual need is not anticipated.
+The IB System provides the ability for users to print the TRICARE-specific Pay-to Provider data on a CMS - 1500 when the rate type of the claim is TRICARE REIMB.
 
-Edit Form Screen
+### Enter/Edit Billing Information - Print – TRICARE-specific Pay-to Provider – CMS 1500 – TRICARE
 
-This screen displays the form as identically as possible to how it will appear on paper. It allows the contents of the form to be edited.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Actions
+The IB System provides the ability for users to print the TRICARE-specific Pay-to Provider data on a CMS - 1500 when the rate type of the claim is TRICARE.
 
-<u>Move Block</u> - This action allows a block to be selected and moved anywhere on the form. The top left-hand corner is used as the reference point for moving the block.
+### Enter/Edit Billing Information - Re-sequence Diagnoses/Maintain Pointers
 
-<u>Shift Blocks</u> - This action allows the user to specify a range of blocks to shift either up or down or to either side.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Block Size</u> - This action allows the size of the block to be changed, within the limits set by the size of the form. When sizing the block the user is asked for what line to move the bottom margin to, and to what column the right-hand margin should be moved.
+The IB System provides the ability for users to re-sequence a diagnosis code which has been associated with a procedure code(s) while maintaining the association (diagnoses pointers).
 
-<u>Form Header</u> - This action allows a sequence of header lines to be entered. A block is created and the header lines are automatically centered within the block in the sequence in which they are typed.
+### Enter/Edit Billing Information - Value Code Help
 
-<u>Add Tool Kit Block</u> - This action allows a tool kit block to be selected and places it at the desired position on the form. This action takes the user to the "Select Tool Kit Block" screen. The block header, description, and size can be edited.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>New Block</u> - This action is used to create a new, empty block.
+The IB System provides the ability for users to view the list of available Value Codes by NUBC code number when users enter ?? for Help.
 
-<u>Edit Block</u> - This action allows a block to be selected and its appearance and contents to be edited. This action takes the user to the "Edit Block" screen.
+### Enter/Edit Billing Information - Value Code – External Code Lookup
 
-<u>Delete Block</u> - This action allows a block to be selected for deletion. Everything in the block is also deleted.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Re Display Screen</u> - The user can use this action if he suspects the screen display of the form is not correct. It redraws the entire form.
+The IB System provides the ability for users to lookup a Value Code by NUBC code number.
 
-<u>Copy Other Form's Block</u> - This can be used to copy a block from any form into the user's form.
+### Enter/Edit Billing Information - Occurrence Code Help
 
-Select Tool Kit Block Screen
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This screen displays a list of the available tool kit blocks. It allows the user to select a tool kit block and view any of the tool kit blocks.
+The IB System provides the ability for users to view the list of available Occurrence Codes by NUBC code number when users enter ?? for Help.
 
-Actions
+### Enter/Edit Billing Information - Occurrence Code – External Code Lookup
 
-<u>Select Tool Kit Block</u> - This action allows the user to select one of the tool kit blocks from the displayed list.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>View Tool Kit Block</u> - This action allows the user to select one of the tool kit blocks and then displays the block.
+The IB System provides the ability for users to lookup a Occurrence Code by NUBC code number.
 
-Edit Block Screen
+### Enter/Edit Billing Information - Condition Code Help
 
-This screen displays the block as it will appear on paper as nearly as possible. It allows the user to edit the block's contents, appearance and description.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Actions
+The IB System provides the ability for users to view the list of available Condition Codes by NUBC code number when users enter ?? for Help.
 
-<u>Header/Descr/Outline</u> - This action allows the block header and description to be edited. Also, the outline around the block can be made to appear as a solid line or can be made invisible.
+### Enter/Edit Billing Information - Condition Code – External Code Lookup
 
-<u>Block Size</u> - This action is used to change the size of the block.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Selection List</u> - Selection lists are lists of diagnoses, procedures, problems, etc. that can be included on an encounter form. The appearance of the selection list can be changed, a new selection list can be created, an existing selection list can be deleted, or the list's contents can be altered. Choosing to edit the list's contents takes the user to the screen labeled "Edit Selection Group" in the diagram.
+The IB System provides the ability for users to lookup a Condition Code by NUBC code number.
 
-<u>Data Field</u> - Certain patient or clinic specific information may automatically be printed on the encounter forms. This action allows adding, editing, and deleting of these fields and their associated labels from blocks. Some data fields may have more than one data element (called subfields), such as SC Conditions, which have a name and a percentage. If the data field is a multiple, the ITEM NUMBER will specify the order and number limit that can appear on the form.
+### Enter/Edit Billing Information - One-Time HPID – Professional
 
-<u>Straight Line</u> - This action allows lines, either horizontal or vertical, to be added to the block, deleted, or edited. Horizontal lines use underlining, which can be handy.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Text Area</u> - This action allows text areas to be added, deleted, or edited. A text area is a rectangular area within the block which contains text. The text is automatically formatted to fit within the defined area.
+The IB System provides the ability for users to enter a one-time (the ID will not be stored in the Insurance Company file) Health Plan Identifier for the following payers when present on a professional claim:
 
-<u>Shift Contents</u> - This action allows the user to shift the position of the contents of the block. The direction and degree of movement can be specified, as well as the type of object to be shifted, and a range within which to act.
+- Primary
+- Secondary
+- Tertiary
 
-Edit Selection Group Screen
+### Enter/Edit Billing Information - One-Time HPID – Institutional
 
-This screen displays the selection groups defined for the selection list, with the header text and the print orders. A selection group is a named collection of items on the list with a header and a defined print order. A selection list is made up of one or more selection groups. The user is allowed to edit the contents of the list. To edit individual selections, a group must be selected.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Actions
+The IB System provides the ability for users to enter a one-time (the ID will not be stored in the Insurance Company file) Health Plan Identifier for the following payer(s) when present on an institutional claim:
 
-<u>Add Group</u> - This action allows a new group to be added. The header text and print order must be entered. A group named BLANK is special in that its header alone will not display to the form, i.e., its selections will be grouped together but won't appear under a header.
+- Primary
+- Secondary
+- Tertiary
 
-<u>Delete Group</u> - A group can be selected for deletion from the form. All of the group's selections are also deleted.
+### Enter/Edit Billing Information - Line Level NDC Code Units to Non-Prescription Claims – Professional
 
-<u>Group Header/Order</u> - This action allows the header text and print order to be edited.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Group's Contents</u> - This action allows the contents of the group to be edited. Choosing this action takes the user to the screen labeled "Edit Selections" in the diagram.
+The IB System provides the ability for users to add a line level number of units for each National Drug Code on a non-prescription procedure when creating a professional claim.
 
-Edit Selections Screen
+### Enter/Edit Billing Information - Line Level NDC Code Units to Non-Prescription Claims – Institutional
 
-This screen displays the selections appearing under the group. A selection is just one item on the list, usually selected from a table, such as the table of ICD-9 Diagnosis Codes. The user can edit selections on the list.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Actions
+The IB System provides the ability for users to add a line level number of units for each National Drug Code on a non-prescription procedure when creating an institutional claim.
 
-<u>Add Selection</u> - This action allows a new selection to be added to the group.
+## System Feature: Insurance Company Editor
 
-<u>Delete Selection</u> - This action allows a selection to be deleted.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Edit Selection</u> - This action allows the text appearing on the form to be edited and the print order changed.
+### Insurance Company Editor - Federal Employee Plan – Help Description
 
-Copy CPT Check-off Sheet to Encounter Form \[IBDF COPY CPTS TO FORM\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option requests the user to select a CPT Check-off Sheet and Encounter Form. The Check-off Sheet's CPT codes are then copied to the Encounter Form.
+The IB System displays the following description for the Plan Type of FEP when users enter ?? for Help at the Electronic Plan Type field in Change Plan Info under View/Edit Plan:
 
-Define Available Report (not Health Summaries) \[IBDF DEFINE AVAILABLE REPORT\]
+- Do Not Use for BC/BS
 
-This option is used to make reports, other than Health Summaries, available for use by the Print Manager. The user is asked to enter the entry point in the program that prints the report, and is allowed to specify entry and exit actions, required variables, etc. This option is meant for use by a programmer.
+## System Feature: Billing Reports
 
-Define Available Health Summary \[IBDF DEFINE AVLABLE HLTH SMRY\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option allows a Health Summary to be made available for use by the Print Manager. The Health Summary must have already been created through the Health Summary package. This option can be used by the non-programmer.
+### Billing Reports - Sort - Re-generate Unbilled Amounts Report – Division
 
-Delete Unused Stuff \[IBDF DELETE UNUSED BLOCKS\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option can be used to delete form blocks and compiled forms that are no longer in use. The utilities do this automatically, so this option need be used only very rarely, if ever.
+The IB System provides the ability for users to sort the Re-generate Unbilled Amounts Report by Division.
 
-Edit Clinic Reports \[IBDF EDIT CLINIC REPORTS\]
+### Billing Reports - Display - Re-generate Unbilled Amounts Report – Division
 
-This option is used to select encounter forms and reports that should print for the clinic. It can also be used to specify reports that should not print; this will override what is defined to print for the division.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Edit Division Reports \[IBDF EDIT DIVISION REPORTS\]
+The IB System provides the ability for users to display the Re-generate Unbilled Amounts Report by Division.
 
-This option is used to select reports that should print for the entire division. Print conditions can be specified.
+### Billing Reports - Print - Re-generate Unbilled Amounts Report – Division
 
-Edit Encounter Forms \[IBDF EDIT ENCOUNTER FORMS\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This menu contains the options that can be used to edit encounter forms other than those in the tool kit.
+The IB System provides the ability for users to print the Re-generate Unbilled Amounts Report by Division.
 
-Edit Marking Area (for selection lists) \[IBDF EDIT MARKING AREA\]
+### Billing Reports - Display new HIPAA Compliant Fields on IB Reports
 
-This option can be used by the local sites to create their own Marking Areas to supplement those that come with the tool kit. Marking Areas are the areas on a selection list that are used for writing in to indicate choices.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Edit Package Interface \[IBDF EDIT PACKAGE INTERFACE\]
+The IB System retrieves the data for existing report fields on existing reports from the following new HIPAA length compliant fields:
 
-This option allows package interfaces for selection routines and output routines to be created and edited. By creating their own Package Interfaces the local sites can display data to their forms that is not provided for in the tool kit. Care must be taken not to delete Package Interfaces that are in use.
+- Sub-file 2.312
+  - SUBSCRIBER ID – Maximum 80 A/N – 2.312, 7.02
+  - NAME OF INSURED – Maximum 130 A/N – 2.312, 7.01
+- Sub-file 2.3226
+  - COMMUNICATION NUMBER – Maximum 245 A/N – 2.3226, 1
+- Sub-file 355.3
+  - GROUP NAME – Maximum 80 A/N – 355.3, 2.01
+  - GROUP NUMBER – Maximum 55 A/N – 355, 2.02
+- Sub-file 355.33
+  - GROUP NAME – Maximum 80 A/N – 355.33, 90.01
+  - GROUP NUMBER – Maximum 55 A/N – 355.33, 90.02
+  - SUBSCRIBER ID – Maximum 80 A/N – 355.33, 90.03
+  - NAME OF INSURED – Maximum 130 A/N – 355.33, 91.01
+- Sub-file 365
+  - NAME OF INSURED – Maximum 130 A/N – 365, 13.01
+  - SUBSCRIBER ID – Maximum 80 A/N – 365, 13.02
+  - GROUP NAME – Maximum 80 A/N – 365, 14.01
+  - GROUP NUMBER – Maximum 55 A/N – 365, 14.02
+- Sub-file 365.03
+  - COMMUNICATION NUMBER 1 – Maximum 245 A/N – 365.03, 1
+  - COMMUNICATION NUMBER 2 – Maximum 245 A/N – 365.03, 2
+  - COMMUNICATION NUMBER 3 – Maximum 245 A/N – 365.03, 3
+- Sub-file 365.26
+  - COMMUNICATION NUMBER – Maximum 245 A/N – 365.26, 1.01
 
-Edit Tool Kit \[IBDF EDIT TOOL KIT\]
+## System Feature: Third Party Joint Inquiry
 
-This menu contains the options that allow the user to edit forms and blocks contained in the tool kit.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Edit Tool Kit Blocks \[IBDF EDIT TOOL KIT BLOCKS\]
+### Third Party Joint Inquiry - TPJI Visual Indicator – Institutional
 
-This option is used to edit, create, and delete tool kit blocks. Following is a description of the screens and actions accessible through this option.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Edit Tool Kit Blocks Screen
+The IB System displays a visual indicator for each institutional claim on a claim list identifying the claim as institutional, when users access one of the following list in TPJI:
 
-> This screen displays a list of all the tool kit blocks. The user is allowed to edit, create and delete tool kit blocks.
+- Inactive Bills
+- Third Party Active Bills
 
-> Actions
+> **NOTE:** Maintains the current Inpatient/Outpatient indicator
 
-> <u>Edit Block</u> - This action can be used to select a block from the list and then edit it. It takes the user to the Edit Block screen, which is described under the Clinic Setup/Edit Forms option.
+### Third Party Joint Inquiry - TPJI Visual Indicator – Professional
 
-> <u>New Block</u> - This action is used to create a new, empty block.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Delete Block</u> -This action is used to delete a tool kit block.
+The IB System displays a visual indicator for each professional claim on a claim list identifying the claim as professional, when users access one of the following lists in TPJI:
 
-> <u>Copy Block</u> - This action is used to copy a block from any form and make it a tool kit block.
+- Inactive Bills
+- Third Party Active Bills
 
-> <u>Change TK Order</u> - This action allows user to change the order of the tool kit blocks on the list.
+> **NOTE:** Maintains the current Inpatient/Outpatient indicator
 
-Edit Tool Kit Forms \[IBDF EDIT TOOL KIT FORMS\]
+### Third Party Joint Inquiry - Co-Payment Amount – TPJI
 
-This option allows tool kit forms to be edited, created, deleted. The screens and actions that are accessible from this option follow.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Tool Kit Forms Screen
+The IB System provides the ability for users to view the co-payment amount when one is associated with a claim in TPJI.
 
-> This screen displays a list of all the tool kit forms. Tool kit forms can be created, edited, and deleted.
+## System Feature: COB Management Worklist
 
-> Actions
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Form Name/Descr/Size</u> - This action allows the user to edit the name of the form, its description, and size.
+### COB Management Worklist - Sort – COB Management Worklist – Division
 
-> <u>Delete Form</u> - This is used to delete a form from the tool kit.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Copy Form</u> - This action is used to copy any form and make it part of the tool kit.
+The IB System provides the ability for users to sort the COB Management Worklist by Division.
 
-> <u>Create Blank Form</u> - This action is used to create a new form for the tool kit from scratch.
+### COB Management Worklist - Display – COB Management Worklist – Division
 
-> <u>Edit Form</u> - This action is used to get to the Edit Form screen, which is described under the Clinic Setup/Edit Form option.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Print Sample Form</u> - This is used to print any encounter form without patient data.
+The IB System provides the ability for users to display the COB Management Worklist by Division.
 
-Encounter Form IRM Options \[IBDF IRM OPTIONS\]
+### COB Management Worklist - Print – COB Management Worklist – Division
 
-The basic intent of this menu is to contain the options that should only be available to MUMPS programmers.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Encounter Forms \[IBDF ENCOUNTER FORM\]
+The IB System provides the ability for users to print the COB Management Worklist by Division.
 
-This menu contains all of the Encounter Form Utilities options.
+## System Feature: Health Care Claim Transactions (837)
 
-For Each Form List Clinic Use \[IBDF LIST CLINICS USING FORMS\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For each encounter form this report lists the clinics using it.
+### Health Care Claim Transactions (837) - Transmit HPID – Destination Payer – Institutional
 
-Import/Export Utility \[IBDF IMPORT/EXPORT UTILITY\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option allows forms and blocks to be transferred between sites. It utilizes a set of files in the 358 number range that serve as a workspace. To export, it invokes ^DIFROM and to import, it executes the Inits received from the other site. ^DIFROM is used only to affect the workspace. The user can move forms into and out of the workspace. Following are the screens and actions that are accessible from this option.
+The IB System provides the ability to transmit the Health Plan Identifier for the destination payer in an institutional X12N 5010 Health Care Claim (837) transaction to FSC..
 
-> Import/Export Workspace Screen
+### Health Care Claim Transactions (837) - Transmit HPID – Destination Payer – Professional
 
-> This screen displays a list of the forms and tool kit blocks that are in the workspace. The workspace serves as a staging area where material can be either imported or exported.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Actions
+The IB System provides the ability to transmit the Health Plan Identifier for the destination payer in a professional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> <u>Help</u> - This action provides a description and step-by-step instructions of the import/export process.
+### Health Care Claim Transactions (837) - Transmit HPID – Other Payer(s) – Institutional
 
-> <u>List Forms/List Tool Kit Blocks</u> - These two actions are used to toggle back and forth between the display of the forms in the workspace and the tool kit blocks in the workspace.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Import Entry</u> - This is used to select a form or tool kit block from the workspace and make it into a real form or tool kit block that can be used.
+The IB System provides the ability to transmit the Health Plan Identifier for the other payer(s) in an institutional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> <u>Delete Entry</u> - This is used to delete a form or tool kit block from the workspace.
+### Health Care Claim Transactions (837) - Transmit HPID – Other Payer(s) – Professional
 
-> <u>Add Entry</u> - This is used to select a form or block and bring it into the workspace. Blocks selected are always made into tool kit blocks.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>View Imp/Exp Notes</u> - When exporting a form or block a description of the exported object should always be included. This action allows the description to be viewed.
+The IB System provides the ability to transmit the Health Plan Identifier for the other payer(s) in a professional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> <u>Edit Imp/Exp Notes</u> - This action allows notes to be added and edited for each entry in the workspace. The notes are meant for the receiving site when exporting forms.
+### Health Care Claim Transactions (837) - Transmit Sole-Proprietorship NPI – Institutional
 
-> <u>DIFROM</u> - This action executes ^DIFROM, using a package entry that was created for use by the Import/Export Utility. It creates Inits for all the entries in the workspace.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Run Inits</u> - This action executes the Inits, usually named ^IBDEINIT, received from another site and produced using the Import/Export Utility. Executing the Inits fills the workspace, but does not actually result in forms or blocks that can be used. The workspace only serves as a staging area where forms can be imported or exported from.
+The IB System provides the ability to transmit the same NPI for an individual provider and a non-VA lab or Facility in an institutional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> <u>Clear Work Space</u> -This action clears the workspace.
+### Health Care Claim Transactions (837) - Transmit Sole-Proprietorship NPI – Professional
 
-Print Blank Encounter Form \[IBDF PRINT BLNK ENCOUNTER FORM\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option allows the user to select a clinic, and if an encounter form is defined to print without patient data for that clinic the form will be printed.
+The IB System provides the ability to transmit the same NPI for an individual provider and a non-VA lab or Facility in a professional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-Print Encounter Forms for Appointments \[IBDF PRINT ENCOUNTER FORMS\]
+### Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Institutional – TRICARE REIMB.
 
-This option is the principal means of printing encounter forms. The user is asked to specify appointments for a particular date, either by division, clinic, or patient. For each appointment, the encounter forms specified in the clinic setup are printed, complete with patient data. The reports specified for the clinic and division are also printed. Sorting is either by division/terminal digits or by division/clinic/patient. The option allows the user to specify that only add-ons should be printed. It also allows the user to specify that printing should begin somewhere in the middle of the job. That will come in useful, for example, if a job terminates part way through due to equipment failure.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Print Form w/Patient Data, No Appt \[IBDF PRNT FORM W/DATA NO APPT\]
+The IB System provides the ability to transmit the following TRICARE-specific Pay-to-Provider data in an institutional X12N 5010 Health Care Claim (837) transaction to FSC when the claim has a rate type of TRICARE REIMB.:
 
-Allows an encounter form to be printed with patient data, but does not ask that an appointment be selected. It uses the current time as the appointment time. The user is allowed either to choose the form to print or to invoke the Print Manager.
+- NM101 – 87 - Required
+- NM102 – Non-Person Entity - Required
+- N301 – Pay-To Address Line - Required
+- N302 – Pay-To Address Line - Situational
+- N401 – Pay-To Address City – Required
+- N402 – Pay-To Address State Code – Required in USA
+- N403 – Pay-To Address Postal Zone or ZIP Code – Required in USA
 
-Print Manager \[IBDF PRINT MANAGER\]
+### Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Institutional – TRICARE
 
-This menu contains all of the options pertaining to the Print Manager. The Print Manager is used to specify what encounter forms and reports should print for which clinics and divisions.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Print Options \[IBDF PRINT OPTIONS\]
+The IB System provides the ability to transmit the following TRICARE-specific Pay-to-Provider data for an institutional X12N 5010 Health Care Claim (837) transaction to FSC when the claim has a rate type of TRICARE:
 
-This menu contains all of the options for printing encounter forms.
+- NM101 – 87 - Required
+- NM102 – Non-Person Entity - Required
+- N301 – Pay-To Address Line - Required
+- N302 – Pay-To Address Line - Situational
+- N401 – Pay-To Address City – Required
+- N402 – Pay-To Address State Code – Required in USA
+- N403 – Pay-To Address Postal Zone or ZIP Code – Required in USA
 
-Report Clinic Setups \[IBDF REPORT CLINIC SETUPS\]
+### Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Professional – TRICARE REIMB.
 
-This option reports on each clinic setup, listing the encounter forms and other reports defined for use by the clinic.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3. IMPLEMENTATION GUIDELINES
+The IB System provides the ability to transmit the following TRICARE-specific Pay-to-Provider data in a professional X12N 5010 Health Care Claim (837) transaction to FSC when the claim has a rate type of TRICARE REIMB.:
 
-The purpose of these Implementation Guidelines is to provide a general format for the process of implementing the Encounter Form at your facility. Forethought and a study of the needs in your outpatient clinical areas are key ingredients to successful setup and use of this module's functionality. Included in this portion are descriptions of computer and non-computer-related steps one should consider. This guide is intended as a general overview of the implementation process and is not meant as a literal mandate in regard to steps taken.
+- NM101 – 87 - Required
+- NM102 – Non-Person Entity - Required
+- N301 – Pay-To Address Line - Required
+- N302 – Pay-To Address Line - Situational
+- N401 – Pay-To Address City – Required
+- N402 – Pay-To Address State Code – Required in USA
+- N403 – Pay-To Address Postal Zone or ZIP Code – Required in USA
 
-GENERAL STEPS FOR IMPLEMENTATION
+### Health Care Claim Transactions (837) - Transmit TRICARE-specific Pay-to Provider – Professional – TRICARE
 
-1\. *Begin by forming a committee.* It may be a good idea to include a member or two from each of the clinical services whose members attend clinics as well as the Chief of Ambulatory Care, MAS clinic supervisor or designee. Physician participation and input is important, as it will affect acceptability by clinicians. Educate members of the committee regarding the module's capabilities and the end results (examples of encounter forms). Ask each clinical member to educate fellow clinicians about the Encounter Form, including the input needed from clinicians re: the set-up, and the consequent benefits (improved communications between clinician and administration, tailored forms which will provide administrative and clinical data needed by clinician, increased efficiency for progress notes and DHCP entry of CPT codes and Diagnoses, functionality in conjunction with the Problem List clinical DHCP package, et cetera). Administrative members can educate peers or subordinates about their role in the use of Encounter Forms as well.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-2\. *Create an Implementation Plan.* The plan need not be a formal paper or study. Outline each of the individual tasks which need to be completed in the necessary order. It may be a good idea to have a number of committee members involved in the completion of these steps. Gain consensus and approval of Clinical, Administrative and Executive Management. If steps are documented, however, they can be followed step by step and checked off.
+The IB System provides the ability to transmit the following TRICARE-specific Pay-to-Provider data in a professional X12N 5010 Health Care Claim (837) transaction to FSC when the claim has a rate type of TRICARE:
 
-3\. *Execute the Implementation Plan.* A sample of general tasks is provided below:
+- NM101 – 87 - Required
+- NM102 – Non-Person Entity - Required
+- N301 – Pay-To Address Line - Required
+- N302 – Pay-To Address Line - Situational
+- N401 – Pay-To Address City – Required
+- N402 – Pay-To Address State Code – Required in USA
+- N403 – Pay-To Address Postal Zone or ZIP Code – Required in USA
 
-> A. Create one or two general encounter forms for examples and for clinician review. You may also copy and/or print the forms in the Tool Kit as a beginning. Another alternative is to get copies from other facilities who have already created forms. Forms can be imported and exported via the utility option in the Encounter Form IRM Options Menu.
+### Health Care Claim Transactions (837) - Transmit NDC Code – non-RX – Institutional
 
-> B. Organize appointments with clinicians for their input. Collect all needed data for the forms as explained below. It may be wise to interview all members according to their particular subspecialty, such as Dermatology or General Surgery. Standardize the questions you will ask. Questions can be: (1) What kind of administrative information do you need, such as a list of SC Disabilities, etc.? Here, an example of administrative data displayed by a Tool Kit form may be all they require. (2) What particular diagnoses do you treat in your clinic? It is suggested that a list of diagnoses or a small ICD-9 code book be available during this portion of the interview to aid in pinpointing specific diagnoses. (3) What particular treatment do you provide (in the form of CPT Codes). Again, a CPT code list or book may help. We strongly suggest running the option *Most Commonly used Outpatient CPT Codes* for the clinics in question. The output will provide a list of CPT codes entered for each clinic for a user-specified date range. This will be very useful in identifying those CPT codes which should be listed on the form for the clinic. If your site has utilized the CPT Check-Off Sheets included in Integrated Billing version 1.5, you may use the option *Copy CPT Check-off Sheet to Encounter Form,* which will allow the user to copy all CPT information on a Check-Off sheet and upload it to a CPT code graphics box previously placed into the form. CPT codes should be updated in all of the Check-Off Sheets first by using the *Delete/List Inactive Codes on Check-off Sheets* option (in the Ambulatory Surgery Maintenance Menu) before uploading to the Encounter Form. This step will save considerable time and effort.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> C. Create forms for Clinicians and give them copies to review. Make any necessary changes. You may also wish to create versions of the form with an area for imprinting the patient's data card with the embosser. *Tip*: Copy the Clinic's Basic form and modify the copy to include the space for the card imprint. The area for the ID Card imprint is included as a Tool Kit block. You may also get copies from other facilities who have already created forms. As mentioned before, forms can be imported and exported via the utility option in the Encounter Form IRM Options Menu.
+The IB System provides the ability to transmit the following line level 5-4-2 format NDC in an institutional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2410):
 
-> D. Identify Health Summary reports used by your clinicians. You will be able to identify them for the Print Manager functionality by using the *Define Available Health Summary* option and then include them in the printout setup by using either of the *Edit Division Reports* (re: a default Health Summary for the division) or the *Edit Clinic Reports* option (to set Health Summaries for specific clinics.)
+- LIN02 – N4 – Required
+- LIN03 – National Drug Code – Required
 
-4\. *Implementing Form Usage.* It may be a good idea to introduce the Encounter Forms for a portion of your clinics at one time. For example, a site could first implement forms for all surgical clinics at one location. There are a number of issues to decide upon before actually printing the forms. Some of these may be:
+### Health Care Claim Transactions (837) - Transmit NDC Code – non-RX – Professional
 
-> A. Where will the forms be printed and how will they be distributed? Your committee members must decide if they will be printed at night in one location and how they will be distributed. It may be feasible to have them print near the site's file room. Due to the availability of the Print Manager functionality, your site can designate other forms, such as the Routing Slip, Pharmacy Action or Information Profile, and any identified Health Summary reports to print in terminal digit or alphabetical (clinic then patient) order. This way, the printouts can easily be integrated with patient record pull lists and attached to the patient's record during the chart pull process.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> B. After Encounter Forms are filled out by the clinician and used by the clerk to input information, where do they go? Your committee should decide whether to include them in the patient's chart, send to billing, etc. Input from MAS and MCCR is necessary at this step.
+The IB System provides the ability to transmit the following line level 5-4-2 format NDC in a professional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2410):
 
-> C. Data Validation considerations. Will your facility implement a "checks & balances" function to insure information from the sheet is entered correctly in the system? You may wish to include the Appointment Status tool kit block on your forms as part of this requirement. Clerks can then check off whether the appointment was rescheduled, cancelled, "No-showed" or checked out.
+- LIN02 – N4 – Required
+- LIN03 – National Drug Code – Required
 
-> D. Training. How will you train involved personnel in the use of the Encounter Form? Also, training for different users may be a good idea. An example is an involved clinician providing a training session to other clinicians on the use of and need for the Encounter Form.
+### Health Care Claim Transactions (837) - Transmit NOC Procedures - Free Text Description – Institutional
 
-> E. "Local" Customs. Local conventions on the use of the form should be decided upon. For example, how will the clerks identify a no-show or a canceled appointment on the form?
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> F. Non-compliance. Who will address lack of use of the form (if this is an issue). How will it be handled? Will a Clinical Manager, such as the Chief of Staff or Clinical Service Chief, become involved? Approval and endorsement from Hospital Management will lower the likelihood of problems.
+The IB System provides the ability to transmit a line level 1-80 A/N procedure description in an institutional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2400):
 
-5\. *Monitor the process* and make improvements where you find problems. Keep the committee intact and informed until the process has been completed and is running smoothly at the facility.
+- SV202-7 – Description - Situational
 
-4. GENERAL COMMENTSGetting Started
+### Health Care Claim Transactions (837) - Transmit NOC Procedures – Free Text Description – Professional
 
-There are steps that the local site must take before encounter forms can be used.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-First, forms must be designed and assigned to the clinics. Forms can be shared between clinics, but it is then important to control who has responsibility for editing the shared forms. One important aspect of designing encounter forms is determining what codes should go on the form. Many encounter forms will have lists of CPT codes, diagnosis codes, or problems. Because space on an encounter form is at a premium, careful analysis is required to determine the codes most commonly used by the clinic before entering codes to the form. For CPT codes, there is an option, "Most Commonly Used Outpatient CPT Codes", that can be used to determine a clinic's most commonly used codes.
+The IB System provides the ability to transmit a line level 1-80 A/N procedure description in a professional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2400):
 
-Procedures for printing the encounter forms must be determined. Some of the questions that must be answered are what printers to use, can the printers be loaded with enough paper, how many days in advance should the forms be printed, what time of day to run the print job, should the printers be watched, and what to do if there are printer problems. It is expected that most printing of forms will be done in batch at night for entire divisions, and that forms will be printed several days in advance with only the add-ons printed the night before.
+- SV101-7 – Description – Situational
 
-Then there are questions concerning what to do with the encounter forms - how will the completed encounter forms be routed, who will input the data, etc. It is expected that much of the collected data will be input through Check-out that is part of PIMS 5.3.
+### Health Care Claim Transactions (837) - Transmit NDC Code Units– non-RX – Institutional
 
-The Print Manager that comes with the Encounter Form Utilities is expected to be very useful to the local sites. Sites must decide what reports should be printed. The Print Manager allows these reports to be specified along with the encounter forms. The fastest way to define the reports is at the division level, rather than at the clinic level. Individual clinics can override reports defined to print at the division level.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Printer ConsiderationsLines Per Inch, Characters Per Line
+The IB System provides the ability to transmit the following line level NDC unit count in an institutional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2410):
 
-It is highly recommended that each site standardize on the number of lines per page and the number of characters per line that all encounter forms will use. This is because different kinds of forms may be printed for a single print job because it could cover multiple clinics. Since only one device may be selected each time the option is used, unless all forms printed are defined to have the same number of lines per page and characters per line, some of the forms will be printed improperly. During development of the utilities, 80 lines per page, with 132 characters per line was found to be a good choice. Another reason that 132 characters per line is a good choice is that some of the reports that can be printed through the Print Manager require it.
+- CTP04 – National Drug Unit Count – Required
+- CTP05 - 1 - Code Qualifier – UN (Units) – Required
 
-Boxes
+### Health Care Claim Transactions (837) - Transmit NDC Code Units – non-RX – Professional
 
-The utilities allow boxes to be drawn around blocks. Defining these terminal attributes will improve the appearance of the boxes drawn:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-XY CRT
+The IB System provides the ability to transmit the following line level NDC unit count in a professional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2410):
 
-> TOP LEFT CORNER
+- CTP04 – National Drug Unit Count – Required
+- CTP05 - 1 - Code Qualifier – UN (Units) – Required
 
-> BOTTOM LEFT CORNER
+### Health Care Claim Transactions (837) - Transmit Maximum 12 Procedures – Inpatient/Institutional
 
-> TOP RIGHT CORNER
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> BOTTOM RIGHT CORNER
+The IB System provides the ability to transmit a maximum of 12 procedure codes in an inpatient, institutional X12N 5010 Health Care Claim (837) transaction to FSC (Loop 2300 – HI01-2).
 
-> VERTICAL LINE
+## System Feature: Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD)
 
-> HORIZONTAL LINE
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> GRAPHICS OFF
+### Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD - Prevent Correction of Secondary Claim
 
-> GRAPHICS ON
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> **NOTE:** Boxes printed with a gap between each vertical line are an indication that either the lines per inch or the font point size should be increased.
+The IB System prevents users from copying rejected/denied secondary claims using the Correct Rejected/Denied Bill option (CRD).
 
-Underlining
+### Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD - Prevent Correction of Tertiary Claim
 
-The utilities have the ability to underline text. These terminal attributes might be used if defined:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> UNDERLINE ON
+The IB System prevents users from copying rejected/denied tertiary claims using the Correct Rejected/Denied Bill option (CRD).
 
-> UNDERLINE OFF
+### Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CLON – Copy Secondary/Tertiary Claim Data to New Secondary/Tertiary Claim
 
-Emboldening
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The utilities have the ability to embolden text if these terminal attributes are defined:
+The IB System provides the ability for users to copy data from an original secondary/tertiary claim, including COB data from the electronic EOB(s) to a new claim using the Copy and Cancel a Bill (CLON) option.
 
-> HIGH INTENSITY (BOLD)
+### Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD – Copy Primary Claim Data to New Primary Claim
 
-> NORMAL INTENSITY (RESET)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> **NOTE:** On the HP LaserJet IIISi that the utilities were developed on, using the terminal setup shown at the end of this section, emboldening did not work! That is because there was no bold font available that had all of the other requested characteristics.
+The IB System provides the ability for users to copy data from an original primary claim to a new claim using the Correct Rejected/Denied Bill (CRD) option.
 
-Example Terminal Setup for a HP LaserJet IVSi printer
+### Copy and Cancel a Bill (CLON)/Correct Rejected/Denied Bill (CRD) - CRD – Prevent Correction of Claim in MRA Request Status
 
-|                          |                                                  |
-|--------------------------|--------------------------------------------------|
-| XY CRT                   | W \$C(27)\_"@a"\_DX\_"C"\_\$C(27)\_"@a"\_DY\_"R" |
-| FORM FEED                | \#                                               |
-| PAGE LENGTH              | 80                                               |
-| BACK SPACE               | \$C(8)                                           |
-| OPEN EXECUTE             | W \$C(27),"E",\$C(27),"(s16.7H",\*27,"&l8D"      |
-| CLOSE EXECUTE            | W \$C(27),"E"                                    |
-| UNDERLINE ON             | \$C(27)\_"&dD"                                   |
-| UNDERLINE OFF            | \$C(27)\_"&d@"                                   |
-| HIGH INTENSITY (BOLD)    | \$C(27)\_"(s3B"                                  |
-| RIGHT MARGIN             | 132                                              |
-| NORMAL INTENSITY (RESET) | \$C(27)\_"(s0B"                                  |
-| GRAPHICS ON              | \$C(27)\_"(10U"                                  |
-| GRAPHICS OFF             | \$C(27)\_"(8U"                                   |
-| TOP LEFT CORNER          | \$C(218)                                         |
-| BOTTOM LEFT CORNER       | \$C(192)                                         |
-| TOP RIGHT CORNER         | \$C(191)                                         |
-| BOTTOM RIGHT CORNER      | \$C(217)                                         |
-| VERTICAL LINE            | \$C(179)                                         |
-| HORIZONTAL LINE          | \$C(196)                                         |
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-REDACTED ISC *Form Header - occupies a block. In*
+The IB System prevents users from copying an MRA claim in an MRA Request status using the Correct Rejected/Denied Bill option (CRD).
 
-Troy, NY t*his example, it has an invisible outline.*
+## System Feature: Provider ID Maintenance
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 43%" />
-<col style="width: 30%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><em><strong>Block - with a solid outline and no block header.</strong></em></p>
-<p><em><strong>Contains Data Fields.</strong></em></p>
-<p><em><strong>Label &gt;&gt;</strong></em></p>
-<p><em><strong>Data &gt;&gt;</strong></em></p></td>
-<td><p>Patient Name: IBpatient, One</p>
-<p>DOB: JAN 1,1945 PID: 00045-6789</p>
-<p><u>SC Conditions:</u></p>
-<p>OSTEOMYELITIS 10%</p></td>
-<td><em><strong>&lt;&lt; Data field with two subfields</strong></em></td>
-</tr>
-</tbody>
-</table>
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-*Subcolumn containinga Marking Area*\\
+### Provider ID Maintenance - Sole-Proprietorship Designation - non-VA Facility
 
-|                              |     |                       |              |     |       |     |     |     |     |     |                                 |
-|------------------------------|-----|-----------------------|--------------|-----|-------|-----|-----|-----|-----|-----|---------------------------------|
-| *Subcolumn Headers \>\>* |     | VISIT (mark one only) |              |     | CODE  |     |     | X   |     |     |                                 |
-| *Group Header \>\>*      |     | NEW PATIENT           |              |     |       |     |     |     |     |     |                                 |
-|                              |     | Brief Exam            | (1-10 min)   |     | 90000 |     |     |     |     |     | *Selection List -*          |
-| *Group's*                |     | Limited Exam          | (11-20 min)  |     | 90010 |     |     |     |     |     | *contains one column*       |
-| *Selections* \>\>        |     | Intermediate Exam     | (21-30 min)  |     | 90015 |     |     |     |     |     | *of selections. The column* |
-|                              |     | Extended Exam         | (31-45 min)  |     | 90017 |     |     |     |     |     | *has three subcolumns.*     |
-|                              |     | Comprehensive Exam    | (46-60+ min) |     | 90020 |     |     |     |     |     |                                 |
-|                              |     | ESTABLISHED PATIENT   |              |     |       |     |     |     |     |     |                                 |
-|                              |     | Brief Exam            | (11-20 min)  |     | 90040 |     |     |     |     |     |                                 |
-|                              |     | Limited Exam          | (11-20 min)  |     | 90050 |     |     |     |     |     |                                 |
-|                              |     | Intermediate Exam     | (21-30 min)  |     | 90060 |     |     |     |     |     |                                 |
-| *Subcolumn*              |     | Extended Exam         | (31-45 min)  |     | 90070 |     |     |     |     |     |                                 |
-| *containing TEXT* \>\>   |     | Comprehensive Exam    | (46-60+ min) |     | 90080 |     |     |     |     |     |                                 |
-|                              |     |                       |              |     |       |     |     |     |     |     |                                 |
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-|                                   |     |                                       |           |     |     |     |     |      |           |     |     |
-|-----------------------------------|-----|---------------------------------------|-----------|-----|-----|-----|-----|------|-----------|-----|-----|
-| *Block Header -*              |     |                                       |           |     |     |     |     |      |           |     |     |
-| *centered and underlined\>\>* |     | PLEASE CHECK OFF CPT CODES THAT APPLY |           |     |     |     |     |      |           |     |     |
-|                                   |     |                                       |           |     |     |     |     |      |           |     |     |
-|                                   |     | CODE                                  | PROCEDURE | X   |     |     |     | CODE | PROCEDURE | X   |     |
-| *This Selection List has two* |     |                                       |           |     |     |     |     |      |           |     |     |
-| *columns. Each column*        |     |                                       |           |     |     |     |     |      |           |     |     |
-| *has three subcolumns.*       |     |                                       |           |     |     |     |     |      |           |     |     |
-|                                   |     |                                       |           |     |     |     |     |      |           |     |     |
+The IB System provides the ability for users to designate a non-VA Facility as a sole-proprietorship.
 
-*Block Header -*
+### Provider ID Maintenance - Link non-VA Facility to Sole-Proprietor
 
-<table>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 0%" />
-<col style="width: 2%" />
-<col style="width: 23%" />
-<col style="width: 49%" />
-<col style="width: 0%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><em><strong>underlined, not centered &gt;&gt;</strong></em></td>
-<td></td>
-<td colspan="3">TEST SAMPLE BLOCK</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td colspan="3"></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><em><strong>Form Lines -</strong></em></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><em><strong>(Horizontal &amp; Vertical)&gt;&gt;</strong></em></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>RELEASE OF INFORMATION: I authorize any</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>holder of medical information about me</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>to release to the Health Care Financing</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>Administration (Medicare), and its</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>agents any information needed to</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><em><strong>Text Area &gt;&gt;</strong></em></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>determine these benefits or the</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>benefits payable for related services.</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>I authorize any holder of medical</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>information about me to release to any</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"><blockquote>
-<p>insurance company ..........</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-V. INSURANCE DATA CAPTURE1. FUNCTIONAL DESCRIPTION
+The IB System provides the ability for users to link a non-VA Facility that is a sole-proprietorship to an individual provider.
 
-There have been a number of requests for enhancements to insurance data capture for several years. To accomplish this, conceptual changes in the way insurance data is captured and stored were needed. Changes will be made to the insurance data stored in the patient file. Specifically, data elements which are related to an insurance group plan have been moved. This data may be shared by many patients. (An example of a group plan is General Motors' Retirees' plan. All retirees of GM get the same coverage.)
+### Provider ID Maintenance - Sole-Proprietorship non-VA Facility – NPI
 
-Users have asked for the ability to store more detailed information about insurance companies, group plans and benefits. IB v2.0 provides at least five new files to store this data, and many new fields in the patient file and the insurance company file. There is no requirement that this information be added.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The data input from screen 5 of Registration and Load Edit are being streamlined with this release. There are stand-alone options to update the insurance company and patient insurance information and there are view-only options that mirror the data input options. Additionally, there are tools provided to help clean up files containing duplicate and/or inactive insurance companies.
+The IB System provides the ability for users to enter an NPI number for a non-VA Facility that is defined as a sole-proprietorship that has previously been entered for an individual provider.
 
-This module is radically different from what you now have. Currently you have two main components to insurance information, insurance company information and patient policy information. IB v2.0 will have five main components to insurance information. You will still have insurance company information which is greatly enhanced and will be discussed later. We are dividing the current patient policy information into two components. We are leaving the information specific to that patient's policy in the Patient file but we are moving information specific to the group plan to a new file. This then allows us to add the two new components, Annual Benefits and Benefits Used.
+## System Feature: MCCR Site Parameter Display/Edit
 
-Many patients have identical policies providing identical benefits from the same group plan. The goal was to input this data once and then have it be known to all patients who belong to the same group plan.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Future releases of IB will include enhancements to the Insurance Data Capture module. It is our goal that once we know this information, we can accurately estimate the dollar amount we can expect to receive for any episode of care. If we know the type of care and compute the billing charges, the benefits available, and the benefits used to date we can attempt to compute what we should receive. This will tie in closely to an MCCR/UR module we call Claims Tracking that will also be released with IB v2.0.
+### MCCR Site Parameter Display/Edit - Default TRICARE Pay-to Provider
 
-Insurance Company Changes
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is a great deal of new functionality in the Insurance Company module. First there is a new Insurance Company Edit option. You will use this option to enter and store all of the addresses and phone numbers used by an insurance company--addresses for inpatient claims, outpatient claims, appeals, pre-certifications and inquiries. In addition, it is possible to specify that one company performs functions (such as pre-certifications or outpatient claims) for another company. The addresses supplied here are then automatically used in the billing module. If you don't enter data in these special address fields, bills will continue to use the original "main" address of the company performing the function. Additionally, both a comments field and a field for synonyms (alternative names for the same insurance carrier) have been added to the Insurance Company file.
+The IB System provides the ability for users to define a default Pay-to Provider for TRICARE claims with the following data:
 
-IB v2.0 provides you with tools to manage duplicate entries in your Insurance Company file. There is a new report that shows patients with policies associated with INACTIVE insurance companies. You may use the new Insurance Company Edit option to inactivate insurance companies (provided you hold a new key, IB INSURANCE SUPERVISOR). One reason to inactivate an insurance company is that it is already in the Insurance Company file, but under a synonym. When inactivating a company you may print a list of its patients and (optionally) merge these patients to a new company. Because the new data structures are a little complex, we do the whole thing auto-magically for you. You may also specify synonyms for insurance companies. With these two tools you should be able to inactivate duplicate-named companies and reduce potential new duplicates, as well as clean up old problems.
+- Pay-to Provider from the Institution file
+- Pay-to Provider Name – default from Institution file
+- Pay-to Provider Address Line 1 – default from Institution file
+- Pay-to Provider Address Line 2 – default from Institution file
+- Pay-to Provider City – default from Institution file
+- Pay-to Provider State – default from Institution file
+- Pay-to Provider Zip Code – default from Institution file
+- Pay-to Provider Phone Number:
+- Pay-to Provider Federal Tax ID Number
+- Default Flag
 
-Unwanted insurance company entries should be inactivated rather than deleted. It will not be possible to delete an insurance company unless you are a holder of the new key, IB INSURANCE SUPERVISOR and all patients with policies with this company have been merged to another company. Because of the new MCCR NDB reports it is important to keep old entries that have claims associated with them as this may be reported nationally.
+### MCCR Site Parameter Display/Edit - Default TRICARE Pay-to Provider Associations
 
-Patient Insurance Policy Changes
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The agent information currently stored in the Patient file is being flagged as obsolete as well as the Group Name and Group Number fields in the Patient file, which are moving to the new Group Plan file. A separate message is being sent as formal notification to the IRM services. If you currently use any data in these fields and anticipate continued need you will need to work with your local IRM to make sure they save this data.
+The IB System automatically associates all divisions of the VAMC with the default TRICARE Pay-to Provider.
 
-There is a lot of new functionality being added to the patient policy information. We are now automatically capturing the user and date the information is entered and last edited. There is a separate action to verify the insurance and record the date and the user performing the verification. We have added a field to specify if the policy is the primary, secondary, or tertiary policy for this patient. We have added the ability to specify that the policy should be sent to the patient's employer and to put in the specific address it should be sent to for those patients whose employers pre-process claims for the insurance carrier. Deleting policies will not be allowed if that patient has any un-canceled bills associated with the same insurance company.
+### MCCR Site Parameter Display/Edit - Additional TRICARE Pay-to Providers
 
-One of the major new components is the addition of a bulletin that is sent every time a new policy is added for a patient and the patient has current or previous episodes of care (in the past two years) which may be billable. The bulletin will list the policy added, any previous policies, what is potentially billable inpatient and outpatient care, and who added the policy and when, and the option used. This is intended to help us bill for care when the policy is identified after the care was provided.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Group Plans
+The IB System provides the ability for users to define additional non-default Pay-to Providers for TRICARE claims with the following data:
 
-This new functionality is being called Group Plans to differentiate it from the term "policy". Each patient policy will point to a group plan. If the plan is an individual plan then only that patient may have that plan. This is where the new group number and group name will be stored. It is important to realize that editing this information may affect many more patients than just one. It is also possible to store whether pre-certification, and Utilization Review are required for this plan. For each plan, you may indicate its type, e.g., is it a major medical plan, Medicare supplemental, etc., whether the plan requires UR, and whether it requires pre-certification. This information is used by the Claims Tracking module also scheduled for release with IB v2.0.
+- Pay-to Provider from the Institution file
+- Pay-to Provider Name – default from Institution file
+- Pay-to Provider Address Line 1 – default from Institution file
+- Pay-to Provider Address Line 2 – default from Institution file
+- Pay-to Provider City – default from Institution file
+- Pay-to Provider State – default from Institution file
+- Pay-to Provider Zip Code – default from Institution file
+- Pay-to Provider Phone Number:
+- Pay-to Provider Federal Tax ID Number
+- Default Flag
 
-The ability to add comments is being greatly expanded. Brief comments may be added about a policy in the patient file. Long comments may be added about the group plan that can then be seen when editing the policy information for all patients with that plan. Comments may also be added when calling for insurance verification of inpatient care along with updating fields about who was contacted, any pre-certification or authorization number, etc. This information is then available to the person doing MCCR/UR reviews.
+### MCCR Site Parameter Display/Edit - Associate Division(s) with TRICARE Pay-to Provider
 
-Annual Benefits
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The ability to store the benefits that a plan covers by year has been added. The year will usually be a calendar year but may start on any date. There are many fields to enter the amount or percent of coverage for specific types of care (inpatient, outpatient, mental health, substance abuse, etc.). Once this data is entered for a year it will be available for all patients covered by the same group plan. This functionality will help those of you who have to call for insurance verification. There will be an up-front cost to gathering and storing this data but once captured it will be of great benefit. Entry of any or all information in this file is strictly a local decision.
+The IB System provides the ability for users to re-associate one or more divisions of the medical center with additional non-default Pay-to Providers for TRICARE claims.
 
-Benefits Used
+### MCCR Site Parameter Display/Edit - Edit a TRICARE Pay-to Provider
 
-As part of insurance verification, such questions as whether the patient has any remaining coverage for the type of care the patient is receiving in your medical center may be asked. This is especially true for mental health and rehabilitative services. A place is now provided to record this information. You may enter the benefits used, e.g., has the patient met any applicable deductible, how much has been paid on an annual or lifetime maximum, etc. This information should be of great help when determining if the amount received from a carrier matches the expected receivable.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-2. CHANGED OPTIONSInsurance Company Edit \[IBCN INSURANCE CO EDIT\]
+The IB System provides the ability for users to edit a TRICARE Pay-to Provider.
 
-The Insurance Company Edit option has changed both in functionality and appearance. The option now uses the List Manager screens as does much of Integrated Billing. The functionality has been expanded to handle a number of different addresses, to provide for synonyms and comments, and to add tools to merge companies. When editing an insurance company the following actions are available:
+### MCCR Site Parameter Display/Edit - Delete a TRICARE Pay-to Provider
 
-Actions
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Billing Parameters</u> - This action allows editing of fields that are used by the billing module.
+The IB System provides the ability for users to delete a TRICARE Pay-to Provider.
 
-<u>(In)Activate Company</u> - This action allows users to inactivate an active company or activate an inactive company. When inactivating a company a warning will be given if there are patients covered by this company. If so, then the user will be allowed to print a list of the patients and to repoint, or merge the patients into another (active) insurance company entry. Use the new option List Inactive Ins. Co. Covering Patients to get a list of these companies. Then choose the action (In)Activate Company and accept the inactive status and you can then list the patients and merge companies if you choose to. When patients are repointed, no plan or policy data from the inactive company entry is lost. Rather, this information is inherited by the insurance company entry to which the patients have been repointed.
+### MCCR Site Parameter Display/Edit - Re-associate Divisions - Delete TRICARE Pay-to Provider
 
-<u>Main Mailing Address</u> - It is now possible to specify a number of new specific addresses for each insurance company. The old address fields are now referred to as the Main Mailing Address. This action allows editing of this address. Billing will automatically use the main mailing address unless a separate address has been specified for claims, appeals, or inquiries.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Inpt Claims Office</u> - This action allows the user to specify a separate address and phone for inpatient claims. There are two ways to specify Inpt Claims addresses. First you can specify that another company processes inpatient claims for the original company. If you specify the company then the inpatient claims address or main mailing address of the entry that is specified will be used. Alternatively a user can complete the address and phone number fields for a separate address for the original company.
+The IB System automatically re-associates all divisions associated with a deleted TRICARE Pay-to Provider with the default provider.
 
-<u>Opt Claims Office</u> - This action allows the user to specify a separate address and phone for outpatient claims. There are two ways to specify Opt. Claims addresses. First you can specify that another company processes outpatient claims for the original company. If you specify the company then the outpatient claims address or main mailing address of the entry that is specified will be used. Alternatively a user can complete the address and phone number fields for a separate address for the original company.
+### MCCR Site Parameter Display/Edit - Re-associate Divisions - TRICARE Pay-to Provider Security Key
 
-<u>Prescr Claims Office -</u> This action allows the user to specify a separate address and phone for prescription claims. There are two ways to specify Prescr Claims addresses. First you can specify that another company processes prescription claims for the original company. If you specify the company then the prescription claims address or main mailing address of the entry that is specified will be used. Alternatively a user can complete the address and phone number fields for a separate address for the original company.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Appeals Office</u> - This action allows the user to specify a separate address and phone for sending appeals. There are two ways to do this, and they are analogous to the two ways to specify Claims Office addresses (see above).
+The IB System provides a Security Key to allow users to access the capability to define TRICARE Pay-to Provider(s).
 
-<u>Inquiry Office</u> - This action allows the user to specify a separate address and phone for insurance verification. There are two ways to do this, and they are analogous to the two ways to specify Claims Office addresses.
+### MCCR Site Parameter Display/Edit - Re-associate Divisions - Pay-to Provider Security Key
 
-<u>Remarks</u> - This action allows the user to add comments about the insurance company screen.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Synonyms</u> - This action allows the user to specify synonyms for this company. Part of the problem with duplicate insurance companies is that previously there was no way to assign multiple names to the same company. For example, there are several common abbreviations for Blue Cross Blue Shield, such as BCBS, BC/BS, BC-BS, all which may appear as unique entries in your data base, thus creating duplicates. When merging companies, make sure you add the common synonyms so that it is easy to retrieve the correct company for the personnel adding policies.
+The IB System provides a Security Key to allow users to access the capability to define Pay-to Provider(s).
 
-<u>Edit All</u> - This action allows editing of all the fields in the Insurance Company file.
+## System Feature: View Cancelled Claim
 
-<u>Change Insurance Company</u> - This action allows selecting a new insurance company to edit without having to leave the option or action.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Exit</u> - This action allows leaving the option as does the hidden action Quit.
+### View Cancelled Claim - View Cancelled Claim
 
-3. NEW OPTIONSPatient Insurance Menu \[IBCN INSURANCE MGMT MENU\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This menu contains the Insurance Company Edit option, the Patient Insurance Info View/Edit option, the two new reports and the two view-only options. It is designed as a supervisor's menu where all insurance-related options are logically located. Normally one or two of the edit or view options will be placed on menus for the necessary users.
+The IB System provides the ability for users to view the non-computed data stored in the Bill/Claim file (file 399) for a Cancelled claim.
 
-Patient Insurance Info View/Edit \[IBCN PATIENT INSURANCE\]
+## System Feature: Miscellaneous Existing Requirements
 
-This new option allows editing or viewing of all patient policy and plan information. It consists of one list screen and three display screens. Upon selecting a patient the user is given a list of the patient's policies and may take a number of actions on these. Three of the actions involve moving to the three display screens that in turn have their own set of actions that may be taken. There is the Expanded Policy View screen where the user can add/edit the policy and plan information and view comments, user information, etc. There is the Annual Benefits screen where the benefits that are provided by the plan for a year can be entered. An annual benefit year may begin on any date and for any plan there may be more than one annual benefit year, but they must all be at least one year apart. And finally there is the Benefits Used screen where the user can enter the benefits that a patient has used against a policy. There must be an annual benefit year for the corresponding plan entered on the Annual Benefits screen before you can enter the benefits used.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Main List Screen (Patient Insurance Info View/Edit)
+### Miscellaneous Existing Requirements - *Correct* - FEAT604 Transmit Property and Casualty Claim Number 
 
-This screen lists all of the insurance policies for the patient selected.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Actions
+The IB system transmits the following data with a Professional 837 claim transmission only when a Property/Casualty Claim Number is present on a claim (2010CA REF01, REF02):
 
-<u>Add Policy</u> - This action is used to add a new policy for the patient. A new plan can be created during this action or a previously created plan can be selected.
+- Y4 - Agency Claim Number Qualifier
+- Property Casualty Claim Number
 
-<u>Delete Policy</u> - This action is used to delete a patient's policy. A policy cannot be deleted if there is a bill for that insurance company for that patient on file. The user must also hold the new key IB INSURANCE SUPERVISOR.
+### Miscellaneous Existing Requirements - *Delete* – FEAT435 VAMC as Billing Provider
 
-<u>Annual Benefits</u> - This action takes the user to the Annual Benefits screen. See actions below. This is a display, edit screen where a number of possible benefits may be entered.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Policy Edit View</u> - This action takes the user to the expanded view screen for the plan and policy. Information can be edited and viewed, including the addition of comments, user information, contacts, etc. that is not available on the main list screen.
+The VistA IB system provides the ability for authorized users to designate by insurance company and form type, that the Billing Provider will always be the main facility (VAMC) on claims to the payer.
 
-<u>Fast Edit All</u> - This action allows the user to quickly edit the most common information about a policy.
+### Miscellaneous Existing Requirements - *Change* – FEAT102 EDI Parameter Report
 
-<u>Benefits Used</u> - This action takes the user to the Benefits Used screen. See actions below. This is a display, edit screen where a number of commonly used benefits can be entered for the patient for a specific policy/year.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Verify Coverage</u> - This action allows the user to flag the insurance policy as verified. This can be used in conjunction with the new option of New Not Verified Policies to ensure that a contact has been made with the insurance company to verify the insurance. The date and user are automatically stored.
+The Vista system provides the ability for users to view a report which includes the contents of the following fields in the Insurance Company file for all active entries:
 
-<u>Personal Riders</u> - This action allows the user to edit personal riders.
+- Insurance Company Name; and
+- Insurance Company Address (Line 1, City and State); and
+- Electronic Type; and
+- Type of Coverage; and
+- Electronic Transmit?; and
+- Inst Electronic Bill ID; and
+- Prof Electronic Bill ID; and
+- Inst Use VAMC as Billing Provider - Delete
+- Prof Use VAMC as Billing Provider – Delete
+- HPID(s) - Add
+- OEID(s) – Add
 
-<u>Change Patient</u> - This action allows the user to select a new patient without exiting the option or action.
+### Miscellaneous Existing Requirements - *Delete* – FEAT443 Schedule Mailman Message/Payer Settings for Billing Provider/Service Facility
 
-<u>Worksheet Print</u> - This action allows the user to print a worksheet to collect insurance information on by hand when contacting an insurance company.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Print Insurance Coverage</u> - This action produces a report whose format is similar to that of Worksheet Print, but it will print the past two years' coverage for the patient's policy.
+The Vista system provides the ability for users to schedule the task to generate the mailman message that reports a site's settings in the Insurance Company Editor for the Billing Provider/Service Facility parameters.
 
-<u>Exit</u> - This action allows the user to quickly return to the menu.
+### Miscellaneous Existing Requirements - *Delete* – FEAT444 Default Schedule Mailman Message/Payer Settings for Billing Provider/Service Facility
 
-Policy Edit/View Screen
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This screen displays policy and plan information for whichever of the patient's policies that was selected.
+The Vista system automatically sets the default frequency for the task to generate the mailman message that reports a site's settings in the Insurance Company Editor for the Billing Provider/Service Facility parameters, upon installation of the patch, to one time per month.
 
-Actions
+### Miscellaneous Existing Requirements - *Delete* – FEAT445 Mailman Message with Payer Settings/Billing Provider/Service Facility
 
-<u>Change Plan Information</u> - This action allows the user to edit a few fields about the group plan.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>UR Information</u> - This action allows the user to edit four group plan fields related to Utilization Review.
+The Vista IB system generates a mailman message that reports a site's settings in the Insurance Company Editor for the Billing Provider/Service Facility parameters, when at least one of the Always use main VAMC as Billing Provider parameters is set to 'Yes', which includes the following data:
 
-<u>Effective Dates</u> - This action allows the user to edit the effective and expiration dates of the policy.
+- Insurance Company Name; and
+- Insurance Company Address; and
+- Date of Report; and
+- Station ID; and
+- Electronic Transmit; and
+- Inst Electronic Bill ID; and
+- Prof Electronic Bill ID; and
+- Inst Use VAMC as Billing Provider; and
+- Prof Use VAMC as Billing Provider.
 
-<u>Subscriber Update</u> - This action allows the user to edit the subscriber information about the policy.
+### Miscellaneous Existing Requirements - *Delete* – FEAT446 Mailman Message with Payer Settings/Billing Provider/Service Facility
 
-<u>Insurance Contact Information</u> - This action allows the user to enter the name of a contact with the insurance company. If the patient is a current inpatient this will automatically create an Insurance Review in the Claims Tracking module that is linked to the admission and the information and comments will be available to the person performing the insurance review.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Employer Info</u>. - This action allows the user to specify that the employer pre-processes the claim for the carrier and to enter an address for the claim to be sent to. This address will automatically be used by the billing module.
+The Vista IB system generates an mailman message that reports a site's settings in the Insurance Company Editor for the Billing Provider/Service Facility parameters, when both of the Always use main VAMC as Billing Provider parameters is set to 'No', which includes the following data:
 
-<u>Add Comment</u> - This action allows the user to enter a brief comment about the patient's policy and an unlimited comment about the group plan.
+- Date of Report; and
+- Station ID
 
-<u>Fast Edit All</u> - This action allows the user to edit all the common information about the plan and policy.
+### Miscellaneous Existing Requirements - *Delete* – FEAT573 Security Key for Copy_Cancel a Claim
 
-<u>Annual Benefits</u> - This action takes the user to the Annual Benefits screen. See actions below. This is a display, edit screen where a number of possible benefits may be entered.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Benefits Used</u> - This action takes the user to the Benefits Used screen. See actions below. This is a display, edit screen where a number of commonly used benefits can be entered for the patient for a specific policy/year.
+The IB system provides the ability for authorized users to assign a security key to a user which will allow them to use the existing Clon – Copy/Cancel a Claim option \[IB COPY AND CANCEL\].
 
-<u>Verify Coverage</u> - This action allows the user to flag the insurance policy as verified. This can be used in conjunction with the new option of New Unverified policies to ensure that a contact has been made with the insurance company to verify the insurance. The date and user are automatically stored.
+### ### ### ### ### ### ##
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Exit</u> - This action allows the user to quickly return to the menu.
+---
 
-Annual Benefits Screen
+## Appendix: Unique Sections from Prior Versions
 
-This screen displays the benefits provided by a particular plan for the benefit year that is selected.
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-Actions
+### From: IB*2*528 Release Notes
 
-<u>Policy Info</u> - This action allows the user to quickly edit general plan benefits.
+## Documentation Retrieval
 
-<u>Inpatient</u> - This action allows the user to edit inpatient benefits.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Outpatient</u> - This action allows the user to edit outpatient benefits.
+Software being released as a host file and/or documentation describing the new functionality introduced by this patch are available.
 
-<u>Mental Health</u> - This action allows the user to edit mental health benefits.
+The preferred method is to retrieve files from download.vista.med.va.gov. This transmits the files from the first available server. Sites may also elect to retrieve files directly from a specific server. Sites may retrieve the software and/or documentation directly using Secure Transfer Protocol (SFTP) from the ANONYMOUS.SOFTWARE directory at the following OI Field Offices:
 
-<u>Home Health</u> - This action allows the user to edit home health benefits.
+Albany <span class="mark">REDACTED</span>
 
-<u>Hospice</u> - This action allows the user to edit hospice benefits.
+Hines <span class="mark">REDACTED</span>
 
-<u>Rehab</u> - This action allows the user to edit rehab service benefits.
+Salt Lake City <span class="mark">REDACTED</span>
 
-<u>IV Mgmt</u>. - This action allows the user to edit IV management benefits.
+Documentation can also be found on the VA Software Documentation Library at: http://www4.va.gov/vdl/
 
-<u>Edit All</u> - This action allows the user to edit all benefit fields.
+The documentation will be in the form of Adobe Acrobat files.
 
-<u>Change Year</u> - This action allows the user to edit the plan benefits for a different benefit year.
+File Description File Name FTP Mode
 
-<u>Exit</u> - This action allows the user to quickly return to the menu.
+-------------------------------------------------------------------------------------------------------------------------
 
-Benefits Used Screen
+Integrated Billing User Manual IB_2_0_UM.PDF (binary)
 
-This screen displays the benefits that a patient has used against one of the benefit years of one of their policies.
+Integrated Billing Technical Manual/ IB_2_0_TM.PDF (binary)
 
-Actions
+Security Guide
 
-<u>Policy Info</u> - This action allows the user to edit general benefits that have been used, such as has the deductible been met for the year.
+Integrated Billing Release Notes IB_2_0_P528_RN.PDF (binary)
 
-<u>Opt Deductible</u> - This action allows the user to enter the outpatient benefits that have been used.
+Electronic Insurance Verification (eIV) IB_2_0_EIV_TM.PDF (binary)
 
-<u>Inpt Deductible</u> - This action allows the user to enter the inpatient benefits that have been used.
+Technical Manual/Security Guide
 
-<u>Add Comment</u> - This action allows the user to enter comments about the benefits used.
+Electronic Insurance Verification (eIV) User Manual IB_2_0_EIV_UG.PDF (binary)
 
-<u>Change Year</u> - This action allows the user to edit the benefits used for a different benefit year.
+## Technical Modifications
 
-<u>Edit All</u> - This action allows the user to edit all benefits used fields.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Exit</u> - This action allows the user to quickly return to the menu.
+### SSVI - Data Source/Location
 
-List Inactive Ins. Co. Covering Patients \[IBCN LIST INACTIVE INS W/PAT\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option will print a list of insurance companies that are currently inactive yet there are patients that still have policies with these companies. This situation is created when duplicate-named insurance companies are inactivated. Use the (In)activate Company action available through the Insurance Company Edit option to list the patients by company and to merge them to another company if appropriate.
+The updated insurance information will reside in the site's existing VistA database where the patient has been seen and optionally transferred to those subscribing VA sites via Remote Query. Those subscribing sites will receive then store the updated information within their VA VistA database until processed.
 
-List New not Verified Policies \[IBCN LIST NEW NOT VER\]
+Three files have been created. IB INSURANCE CONSISTENCY ELEMENTS (#366.2) contains the fields or categories to be checked for inconsistencies following an editing session of the insurance edit option information. IB INSURANCE INCONSISTENT DATA (#366.1) is a storage area for all the fields or categories that have been recently found to be inconsistent. IB SSVI PIN/HL7 PIVOT (#366) is a storage area for all the remote query transaction information.
 
-This option will print a list of policies added in the selected date range but that have not been verified in the past 365 days. Generally this report is run to find policies added to a patient's record that have not been verified by the person assigned that responsibility. Because policies are generally identified by MAS during registration, this was designed to help sites identify cases added that may still need to have additional data collected.
+The project will allow the processing/sending of updated patient insurance information via Remote Query messaging. The user will set a flag to have the option of transmitting any updated patient insurance information.
+
+\*\*\*Note:
+
+The newly added software application System Sharing Verified Insurance (SSVI) Parameter in the eIV Site Parameters is set to OFF during the install. DO NOT TURN SSVI ON. This patch will install all necessary source code, data dictionaries, options, templates etc. for the SSVI application, however, this feature should be set to OFF so as to not initiate the SSVI feature. This feature will be modified in future IB projects with instructions on how to use this newly added feature.
+
+\*\*\*Note:
+
+The newly added software application Consistency Checker source code that uses the options Patient Insurance Info View/Edit (PI)--\> Verify Coverage (VC) is now disabled ('commented out') so as to not use the "Consistency Checker" source code to verify coverage. This feature will be modified within future IB projects with instructions on how to use this newly added Consistency Checker feature in conjunction with the SSVI feature. DO NOT ENABLE THE SSVI UTILITY.
+
+### Eligibility Benefits and Claims Screens
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Eligibility Benefits and Claims Status Data Content and Infrastructure (Phase 2, Iteration 2) project task will create enhancements to the VA VistA system utilizing the IB Version 2.0 software application.
+
+Enhancements will include the creation/modifications of existing Insurance screens/menus/options/templates/files.
+
+1.  A newly created Subscriber screen will display a side-by-side comparison of the Insurance Verification Processor buffer information against the patient's Subscriber information found in sub-file (#2.312) Insurance Type File of the Patient File (#2).
+2.  A newly created Annual Benefits screen will allow the user to View/Edit/Save the patient annual benefits found within file (#355.4) Annual Benefits File.
+3.  A newly created Coverage Limitations screen will allow the user to View/Edit/Save the patient coverage limitations data found within file (#355.32) Plan Coverage Limitations File.
+4.  Standardization of certain insurance subscriber display field names from "Insured (Person)" or "Patient" to "Subscriber".
+
+### Security Key Updates
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Updates will be made to IB Insurance security keys.
+
+1.  The post-install routine for this patch will rename the IBCNE IIV AUTOMATCH security key to IBCNE EIV MAINTENANCE and assign it as appropriate.
+2.  The renamed IBCNE EIV MAINTENANCE key will be assigned to the IBCNE PAYER MAINTENANCE MENU and its options IBCNE PAYER EDIT and IBCNE PAYER LINK, replacing the IB INSURANCE SUPERVISOR lock on these options.
+3.  The renamed IBCNE EIV MAINTENANCE key will be assigned to the IBCNSC INS CO PAYER protocol, i.e., the Payer Action (PA) on the IBCN INSURANCE CO EDIT option.
+
+### Eligibility Benefits and Claims Patient Policy Information Screen – Comments
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Enhancements made to the patient policy comments displayed in the Patient Policy Screens.
+
+Option: Patient Insurance Info/Edit (PI)
+
+Software modifications made to the VP View Policy action located on the
+
+Patient Policy Information screen include:
+
+1.  Retrieval of comment data from the new COMMENT - SUBSCRIBER POLICY multiple (2.312, 1.18).
+2.  Display of comments in Comment -- Patient Policy region.
+
+Affected Options:
+
+Patient Insurance Info/Edit \[IBCN PATIENT INSURANCE\]
+
+Third Party Joint Inquiry \[IBJ THIRD PARTY JOINT INQUIRY\]
 
 View Patient Insurance \[IBCN VIEW PATIENT INSURANCE\]
 
-This option is very similar to the Patient Insurance Info View/Edit option, however, no editing of insurance data is allowed. This option can be assigned to users who need read access to this information but have no need to update the information.
+Claims Tracking Edit \[IBT EDIT BI TRACKING ENTRY\]
 
-View Insurance Company \[IBCN VIEW INSURANCE CO\]
+Software modifications made to the AC Add Comment action on the Patient Policy Information screen include:
 
-This option is very similar to the Insurance Company Edit option, however, no editing of insurance company data is allowed. This option can be assigned to users who need read access to this information but have no need to update the information.
+1.  Provides the capability for the user to enter up to 250 characters of comments
+2.  Provides the capability for the user to edit previously entered comments entered on the same day
+3.  The user-entered comments, the date/time that the comment was entered/edited, and the user ID (DUZ) gets stored in the respective fields of the COMMENT - SUBSCRIBER POLICY multiple (2.312, 1.18):
 
-4. IMPLEMENTATION GUIDELINES
+> COMMENT DATE/TIME (2.342,.01)
 
-There are a number of tools in the insurance module to identify duplicate insurance company file entries and to resolve these problems. It may also be helpful to review the process of how insurance information is collected at your facility. This module was designed so that as little information as possible would be collected during registration and that the complete information was collected by a separate employee who was knowledgeable about insurance information who contacted the insurance company.
+> LAST EDITED BY (2.342,.02)
 
-1\. Prior to installation
+> COMMENT (2.342,.03)
 
-You may want to review how the Group Number and Group Name fields in the Insurance Type multiple of the patient file are entered. These will be used to create the new group plan file. A new group plan will be created for every unique group plan entry for each insurance company. If possible you may want to consolidate similar but unique names.
+4.  Due to the authorized usage of the existing COMMENT PATIENT POLICY field (2.312, 1.08) by other applications (ICRs), the old comment field and the new comment multiple are to be populated until the IA subscribers have made the necessary changes to their applications to reference the new fields at the 2.312, 1.18 multiple. To that end the following DD definitions were made:
+1.  Trigger cross-reference was defined to the COMMENT field (2.342, .03) that will populate the COMMENT PATIENT POLICY field (2.312, 1.08) when data is entered/edited at the COMMENT field (2.342, .03).
+2.  Mumps cross-reference was defined to the COMMENT PATIENT POLICY field (2.312, 1.08) that will populate the fields at the COMMENT SUBCRIBER POLICY multiple only when both the old and the new comment field is different.
 
-You may want to print a list of all active and inactive insurance companies along with their addresses. There are a number of new insurance company address fields. Determine which insurance company entries can be inactivated and merged into another (active) insurance company entry. (Note: do not delete the old entries, they must be inactivated at this time.)
+Affected Options:
 
-Determine which users should have access to the new Insurance options. There are options that allow for view-only access to both the insurance company information and patient insurance information as well as data entry. Limiting the ability of certain individuals to add/edit/delete information may improve the quality of your insurance information. Having accurate and detailed insurance information can improve your collections by focusing your efforts on cases that are reimbursable.
+Patient Insurance Info/Edit \[IBCN PATIENT INSURANCE\]
 
-Many sites enter medicare and medicaide policy information as an insurance policy. If the entry in the insurance company file for medicare and medicaide exist, we recommend that the field Will Reimburse? be answered NO. This will prevent the software from treating this as a billable insurance company entry. If this is answered other than no, this could have a significant impact on the Claims Tracking module.
+Third Party Joint Inquiry \[IBJ THIRD PARTY JOINT INQUIRY\]
 
-2\. After Installation:
+View Patient Insurance \[IBCN VIEW PATIENT INSURANCE\]
 
-First run the option List Inactive Ins. Co. Covering Patients. This option will list companies that are currently covering patients but this information is considered non-billable by the insurance and billing software. In the Insurance Co. Enter/Edit option is an action to activate and inactivate an insurance company. Use this action for the inactive insurance companies and it will allow you to print a list of the patients covered under this company. If you wish to merge the patients to another company you may do so at this or a later time.
+Claims Tracking Edit \[IBT EDIT BI TRACKING ENTRY\]
 
-If you found in your list of insurance companies that you have many similar entries to handle different inpatient, outpatient or prescription address information you may want to combine these entries into one. Choose the entry you wish to update and enter the complete information. Then go back and inactivate the companies you no longer wish to use and use the feature that lets you merge (repoint) the patients to the updated company entry. If you found many similar entries with the same name but entered slightly differently then you may want to consider entering those names as synonyms for the updated company.
+### Reports
 
-The option List New not Verified Policies can be run periodically to list new policies that have been added since a specific date and have not be verified by your insurance staff. Updating this information can help you maintain the patient insurance information in top shape and allow your MCCR staff to concentrate on billing for covered care. This may foster good communication with your insurance carriers and ultimately improve your rates of collection
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-5. NEW OR CHANGED BULLETINS
+Several new reports will be added to the IB menus and existing reports will be updated.
 
-There is one new bulletin in the insurance module. A bulletin is generated whenever a new billable insurance policy is added for a patient and the patient has billable inpatient episodes or scheduled outpatient visits within the effective dates of the policy (going back to the beginning of the prior calendar year). The bulletin lists the new policy, any other policies, potentially billable inpatient stays and scheduled outpatient visits.
+1.  A new report will be created to capture Group Plans without annual benefits for a requested year.
+2.  An audit report will be created to monitor changes to four IB insurance-related files.
+3.  A new report will be created to capture outgoing and incoming HL7 messages between VistA and the Financial Services Center (FSC).
+4.  Two new fields, "FSC Trusted?" and "Number of Active Groups", will be added to the eIV Payer Link Report. (The "HPID/OEID" field was added in IB\*2.0\*521.)
+5.  A new submenu will be created to display all insurance-related reports under one menu.
+6.  IB reports will be enhanced to enable output to Excel spreadsheets.
 
-6. GENERAL COMMENTSProgrammer API's
+## Issue Resolutions
 
-A number of Programmer API's are now available to retrieve insurance information and to display patients policies. It is requested that developers not directly access insurance information but rather use the provided interface calls so that we do not limit our future development plans. Specific information on using the programmer API's can be found in the IB v2.0 Technical Manual.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-(please move the following details on the API's to the technical manual.)
+### New Service Requests (NSRs)
 
-\$\$INSURED^IBCNS1(dfn, date) - This extrinsic function will return a 1 if the patient is insured for the specified date and 0 if the patient is not insured. Input of date is optional, the default is today. No other data is returned. For billing purposes, we only consider a patient insured if he has an entry in the Insurance Type sub-file that meets four conditions: the insurance company is active, the insurance company will reimburse the government (many sites track Medicare coverage of patients, the entry in the Insurance Company file should be set to not reimburse), the effective date is before the date of care, and the expiration date is after the date of care (we treat no entry in the effective date and expiration date fields as from the beginning of time to the end of time). You might find a reference something like this
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> I \$\$INSURED^IBCNS1(DFN,+\$G(^DGPM(+DGPMCA,0))) D BILL...
+This patch is associated with the following NSRs:
 
-DISP^IBCNS - This tag can be called to do the standard insurance display. This display is used extensively in registration and billing. The variable DFN must be defined to the current patient. Using this display will keep your displays current when we update them or make other data dictionary changes.
+- 180833
+- 20110215
+- 20120118
 
-ALL^IBCNS1(dfn, variable, active, date)
+### Remedy Tickets
 
-This function will return all insurance data in the array of your choice. Input the patient internal entry number and the variable you want the data returned in. Optionally you can ask for only active insurance information by putting any true value (non-zero) in the third parameter and a date for the insurance to be active on in the fourth parameter (the default is today). If the value of the third parameter is 2 then insurance companies that do not reimburse the VA will be included. This is primarily to retrieve Medicare policies when it is desirable to include them in active policies such as when printing insurance information on encounter forms.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-It will return the 0, 1, and 2 nodes for each entry in the Insurance Type sub-file and the 0 node from the Group Plan file (355.3) in a 2 dimensional array, Array(x, node). The array element Array(0) will be defined to the count of entries. In Array (x, node) x will be the internal entry in the Insurance Type sub-file and node will be 0,1,2 or 355.3. The group name and number fields have been moved to the Group Plan file (355.3), but since many programmers are used to looking for this data on the 0th node from the Insurance Type sub-file we put the current value from 355.3 back into the respective pieces of the 0th node. The code for this call looks something like this:
+There are no Remedy Tickets associated with this patch.
 
-> K IBINS
+### From: IB*2*488 Release Notes
 
-> D ALL^IBCNS1(DFN,"IBINS",1,IBDT) I \$G(IBINS(0)) D LIST
+### Enter/Edit Billing Information - Remove Force Print at HCCH – Institutional
 
-See below for additional information that may be useful.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A new field SOURCE OF DATA has been added to the Insurance Type sub-file of the Patient file. If you are involved in a project to identify insurance from any other means than by conventional contact of the patient or the patient's employer, e.g., electronic requests for information, this field should be updated appropriately. The changes to the MCCR national data base will be using this information in determining the cost effectiveness of these and other initiatives.
+The IB System no longer provides the ability for users to add the value equal to Force Clearing House Print to an institutional electronic claim that forces the claim to be printed at the HCCH.
 
-IBCN NEW INSURANCE EVENTS Event Driver. We have added an event driver that is executed every time that a new insurance policy for a patient is added. The IVM team will be using this event driver in the future. We created it so that there was a single point where adding of all new insurance policies is known. We use this to trigger a bulletin whenever a new policy is added that has current or past (two years) potentially billable care. We do not execute this for edits or deletions as we have no current need. This could be done if requested.
+### Enter/Edit Billing Information - Remove Force Print at HCCH – Professional
 
-We have at least one integration agreement to use calls in routine DGCRNS. This routine will continue to be exported and supported with IB v2 but will be discontinued with the first release 18 months after IB v2 is released. Developers can easily convert to the same functionality as it appears in routine IBCNS (almost exactly the same functionality, just moved to the IB namespace) or convert to the more reliable calls listed above. There is a logic problem with the calls to DGCRNS and IBCNS that return the insurance arrays that may cause a second policy with the same company to fail to be contained in the array or list.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-  
-VI. PATIENT BILLING1. FUNCTIONAL DESCRIPTION
+The IB System no longer provides the ability for users to add the value equal to Force Clearing House Print to a professional electronic claim that forces the claim to be printed at the HCCH.
 
-The Integrated Billing Patient Billing module encompasses all software systems which generate charges which are directly billed to the patient. These systems currently include the Pharmacy Copay and the Automated Means Test billing modules.
+### Enter/Edit Billing Information - Fatal Error for PRNT Values – Institutional
 
-This release provides many enhancements to the Patient Billing module, focusing primarily on Means Test billing. Full integration is achieved with the Check Out functionality in PIMS v5.3, incorporating legislative changes released over the past year which restrict billing for veterans who have claimed exposure to Agent Orange and Environmental Contaminants. Additionally, outpatient encounters recorded in Scheduling as registrations or "stand-alone" stop codes are now billed automatically. The implementation of this functionality allows sites to flag specific stop codes or dispositions which should not be billed.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Cancel/Edit/Add Patient Charges option has been re-worked extensively. The user interface has been re-designed, the ordering of prompts has been improved, and new functionality has been introduced.
+The IB System prevents users from Authorizing an Institutional claim with a Primary Payer ID equal to one of the following:
 
-Many requests for improvements in the Means Test billing module which have been received from the field have been incorporated into this release:
+- HPRNT
+- SPRNT
+- IPRNT
+- PPRNT
 
-The bulletins generated when patient movement or Means Test data is changed have been improved. These bulletins will now be generated only when Means Test charges might actually be affected. Additional information has been added to the bulletins to aid in the decision-making process. Sites now have the ability to suppress the bulletins generated for patients who have active health insurance.
+### Enter/Edit Billing Information - Fatal Error for PRNT Values – Professional
 
-Means Test billing data may now be transmitted between facilities to assist in the preparation of bills for inpatients who transfer between facilities. This functionality works in conjunction with the PDX v1.5 software package.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Sites routinely experience problems at the beginning of each fiscal year when the new outpatient copayment rate is not available. When the new rate is released to the field, outpatient copayment charges billed since the beginning of the fiscal year require manual editing. In this version, these charges will not be automatically billed to the patient if the effective date of the copayment rate is over one year old. The charges will be held in billing, and once the new rate is entered, all of the charges held up in billing will be passed to the Accounts Receivable package.
+The IB System prevents users from Authorizing a professional claim with a Primary Payer ID equal to one of the following:
 
-This release will also support the enhanced patient statement which is being introduced in Accounts Receivable v4.0. The new statement will provide detailed information for billed prescriptions, outpatient visits, and admissions.
+- SPRNT
+- HPRNT
+- IPRNT
+- PPRNT
 
-Direct billing to CHAMPVA patients is also supported in this release. CHAMPVA inpatients are required to pay a \$9.30 daily subsistence charge, which is not to exceed \$25.00 for an admission. This functionality is being released with software support from the Accounts Receivable package.
+### Enter/Edit Billing Information - Fatal Error for No Procedures – Professional
 
-2. CHANGED OPTIONSCancel/Edit/Add Patient Charges \[IB CANCEL/EDIT/ADD CHARGES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option is used primarily to add, cancel, and edit Means Test charges. Many cosmetic, technical, procedural, and functional changes have been made to this option. The charges list has been modified. The user interface has been changed consistently for all actions. The display of billing clock information has been enhanced.
+The IB System prevents users from Authorizing a professional claim that contains no Procedure Codes.
 
-Actions
+### Enter/Edit Billing Information - Fatal Error for No Procedures – Institutional
 
-<u>Add a Charge</u> - The ordering of prompts has been modified. The entry of per diem and inpatient copayment charges has been simplified. CHAMPVA charges may be added. Charges added for deferred or special inpatient billing cases are recognized, and deferred and special inpatient billing cases are automatically dispositioned.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Cancel a Charge</u> - Many new cancellation reasons have been added. The cancellation logic has been improved. Deferred billing cases are recognized and dispositioned.
+The IB System prevents users from Authorizing an outpatient, institutional claim that contains no Procedure Codes.
 
-<u>Edit a Charge</u> - The edit procedure has been simplified. The dialogue has been separated from processing. The edit logic is improved.
+## System Feature: Provider Maintenance 
 
-<u>Pass a Charge</u> - Deferred billing cases are recognized and dispositioned.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Update Claim Date</u> - This action is used to enter, for a deferred billing case, the date on which the veteran submitted his claim for a service-connected disability. Entry of the date extends the deferment of the charge to 180 days.
+### Provider Maintenance - Outside Facility ZIP Code
 
-<u>Extend Adjudication</u> - Often the claim for service connection cannot be adjudicated within 180 days. This action is used to extend the deferment of the charge to 360 days.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<u>Update Event</u> - This new List Manager application allows the user to manage the event records created in conjunction with inpatient charges.
+The IB System provides the ability for users to enter ONLY a 9 - 10 character value for the ZIP Code in Non-VA FacilityLab/Facility InfoZip Code (999999999/99999-9999).
 
-<u>Change Status</u> - This action is used if the status of the event record must be changed from open to closed, or vice versa.
+### Provider Maintenance - Outside Facility Address Line 1
 
-<u>Last Calc Date</u> - This action is used to change the date that charges were last calculated for an admission.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Outpatient Registration Events Report \[IB OUTPUT EVENTS REPORT\]
+The IB System provides the ability for users to enter ONLY a physical street address value (no Post Office Box) for the first line of the street address in Non-VA FacilityLab/Facility InfoStreet Address.
 
-This report has been enhanced to display whether the outpatient encounters listed on the report were related to claimed exposures, if those classification questions were answered at Check Out. Also, patients with active insurance, or who have claimed exposures, are flagged on the report. If the report has been queued, it may be stopped by the user.
+## System Feature: Insurance Company Entry/Edit
 
-3. NEW OPTIONSList Deferred Billing Cases \[IB MT LIST DEFERRED CASES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Charges billed to veterans whose care was related to exposure to Environmental Contaminants need to be deferred, pending adjudication of the veteran's claim for a service-connected disability. The charges which are created, and thus deferred, are filed as deferred billing cases. This report lists all deferred billing cases, and the final case disposition, for a site.
+### Insurance Company Entry/Edit - Payer Primary ID – Institutional
 
-List Charges Awaiting New Copay Rate \[IB MT LIST HELD (RATE) CHARGES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This report may be used to generate a list of all charges which are being held in billing, awaiting the entry of the new Means Test outpatient copay rate.
+The IB System prevents users from defining the Inst Payer Primary ID as one of the following:
 
-Release Charges Awaiting New Copay Rate \[IB MT REL HELD (RATE) CHARGES\]
+- HPRNT
+- SPRNT
+- IPRNT
+- PPRNT
 
-If charges are being held in billing, awaiting entry of the new Means Test outpatient copay rate, and the new rate is entered, all of the charges being held need to be passed to Accounts Receivable. This option recognizes if there are held charges which need to be billed, and allows the user to queue a job to bill all charges on hold awaiting the new rate.
+### Insurance Company Entry/Edit - Payer Primary ID – Professional
 
-List Special Inpatient Billing Cases \[IB MT LIST SPECIAL CASES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If a Category C inpatient has claimed exposure to Agent Orange or Environmental Contaminants, there is no reliable and timely way to determine, electronically, whether the admission was related to the claimed exposure. These admissions are stored as special inpatient billing cases. This option lists all special inpatient billing cases, with the final billing disposition, for a site.
+The IB System prevents users from defining the Prof Payer Primary ID as one of the following:
 
-Disposition Special Inpatient Billing Cases \[IB MT DISP SPECIAL CASES\]
+- SPRNT
+- HPRNT
+- IPRNT
+- PPRNT
 
-Special inpatient billing cases are not billed automatically. Once the case has been determined to be billable or non-billable, action must be taken to disposition the special inpatient billing case. If the case is not to be billed, this option is used to enter the
+### Insurance Company Entry/Edit - Value for EDI – Transmit? – New Ins. Co.
 
-reason for not billing.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Flag Stop Codes/Dispositions/Clinics \[IB MT FLAG OPT PARAMS\]
+The IB System sets the value for the Transmit Electronically field (File 36, field 3.01) equal to YES – LIVE when users create a new Insurance Company in File 36.
 
-Outpatient Encounters which are recorded in the Scheduling package as either registrations or 'stand-alone' stop codes will be billed automatically as those events are checked out. This option is used to flag (or unflag) stop codes and dispositions which should not be billed. The option may also be used to flag clinics where Means Test billing is not appropriate.
+## System Feature: MRA Management Worklist (MRW)
 
-List Flagged Stop Codes/Dispositions/Clinics \[IB MT LIST FLAGGED PARAMS\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option is used to generate a list of all stop codes, dispositions, and clinics which have been flagged as not being billable for Means Test billing.
+### MRA Management Worklist (MRW) - Display Message Storage Errors in MRW
 
-4. IMPLEMENTATION GUIDELINES
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-There is no preparation required by the facility to use the Patient Billing module of Integrated Billing version 2.0. However, the following guidelines are suggested:
+The IB System displays Medicare-equivalent Remittance Advice (MRA) message storage errors for Medicare claims in the MRA Management Worklist in a human readable format.
 
-Make a list of all stop codes, dispositions, and clinics where the billing of the Means Test outpatient copayment is not desired. These values may easily be entered into the system (utilizing the option Flag Stop Codes/Dispositions/Clinics) from the list.
+### Third Party Joint Inquiry (TPJI) - Display Message Storage Errors in TPJI
 
-Decide whether you would like to suppress the generation of bulletins for insured patients who have been billed Means Test copayments. If you wish to suppress these bulletins, update the parameter 'Suppress MT Ins Bulletin' using the option MCCR Site Parameter Enter/Edit.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-5. NEW OR CHANGED BULLETINS
+The IB System displays X12N 5010 Health Care Claim Payment/Advice (835) message storage errors for non-Medicare and Medicare claims in TPJI in a human readable format.
 
-There are several new and changed bulletins in the Patient Billing module. Please note that the members of the current Category C Billing mailgroup (IB CAT C) are the recipients of all of these bulletins, with the exception of the bulletin generated after the tasked job to bill copayment charges awaiting the new copay rate is completed.
+## System Feature: CMS – 1500 Printed Claim Form
 
-New Bulletins:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Special Inpatient Admission</u> - When a Category C veteran who has claimed exposure to Agent Orange, Ionizing Radiation, or Environmental Contaminants is admitted, a bulletin is generated to explain that a special inpatient billing case has automatically been generated for the patient.
+### CMS – 1500 Printed Claim Form - Obsolete CMS – 1500 Data Elements
 
-> <u>Special Inpatient Discharge</u> - When a Category C veteran who has claimed exposure to Agent Orange, Ionizing Radiation, or Environmental Contaminants is discharged, a bulletin is generated to explain that the user must decide whether or not to bill the patient within 45 days.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> <u>Disposition Special Inpatient Billing Case</u> - If a special inpatient billing case has not been dispositioned within 45 days from the discharge date, a reminder to disposition the case is generated.
+The IB System no longer prints the following information on a locally printed CMS – 1500 claim form:
 
-> <u>Deferred Billing Case</u> - When a Category C veteran, who has claimed exposure to Environmental Contaminants, receives care which is related to the claimed exposure, the Means Test copayment charge is deferred and a deferred billing case is automatically generated. A bulletin is generated which explains that the veteran must file a claim for service connection within 60 days.
+- Box 8
 
-> <u>Disposition Deferred Billing Case</u> - If veteran has filed a claim for service connection, but the case has not been dispositioned after 180 days, a reminder is sent to either extend the adjuducation period an additional 180 days or to disposition the case.
+> o Patient Marital Status
 
-> <u>Bill Deferred Billing Case</u> - If a claim date has not been filed within 60 days, or if the claim has not been adjudicated within 360 days, the deferred charge will automatically be billed to the patient. A bulletin is generated which explains this action and lists the case disposition code which was selected by the system.
+> o Patient Employment
 
-> <u>Billing of Stop Codes Exempt from Classification</u> - There are a series of stop codes which are exempt from the classification questions in the Check Out process. If one of these stop codes is filed for a Category C veteran who has claimed exposure, there is not enough information available to determine if the patient should be billed. The system will bill the patient, and then issue a bulletin advising the user to check the patient's medical record to determine if the patient's care was actually related to the claimed exposure. If the care was related to the claimed exposure, the charge should be cancelled using the option Cancel/Edit/Add patient Charges.
+> o Patient Student Status
 
-> <u>Billing of Charges Awaiting New Copay Rate</u> - If the new Means Test outpatient copay rate is being added, and there are copay charges on hold awaiting the new rate, the user may queue a job which will automatically bill all of the charges awaiting the new rate (the user may also queue this job using the option Release Charges Awaiting New Copay Rate). When the queued job is completed, a bulletin is sent to the user (and not to the Category C Billing mailgroup) which contains the job start and end date/times, and the number of charges passed to the Accounts Receivable module.
+- Box 9
 
-> <u>CHAMPVA Admission</u> - A bulletin is generated when a CHAMPVA patient is admitted. The bulletin explains that the inpatient subsistence charge, which is billed directly to the patient, will be automatically generated when the patient is discharged.
+> o 9b – Other Insured's DOB
 
-> <u>Edited/Deleted CHAMPVA Discharge</u> - If a discharge for a CHAMPVA patient is either edited or deleted, the subsistence charge may need to be edited. This bulletin alerts the user to check the subsistence charge which was billed and determine if it needs to be edited or deleted.
+> o 9b – Other Insured's Gender
 
-> <u>Error in Billing/Cancelling CHAMPVA Subsistence Charge</u> - The system will generate an error bulletin if a logical error (system cannot determine the billable rate, etc.) occurs while creating or cancelling a CHAMPVA subsistence charge.
+> o 9c – Employer's Name
 
-Changed Bulletins:
+> o 9c – School Name
 
-> <u>Changes in Patient Movements</u> - This existing bulletin has been changed so that it will only be generated if either a patient movement date or billable bedsection (derived from the Facility Treating Specialty) has been changed, and the patient has previously been billed for the admission. The actual changes to the movement date and bedsection are included in the bulletin.
+- Box 11
 
-> <u>Changes in Means Tests</u> - If a change in a patient's Means Test places the patient in Category C, and the patient has received care since the effective date of the Means Test, a bulletin will be generated which lists the episodes of care which may potentially be billed. If a change in a patient's Means Test removes a patient from Category C, and the patient has been billed Means Test charges since the effective date of the Means Test, a bulletin is generated which lists the charges which may need to be cancelled. If a Category C patient is billed the outpatient copayment charge on the current date, and later on in the day takes a new Means Test which places the patient outside of Category C, the copay charge is automatically cancelled. The bulletin which is generated will state that the listed charge has been cancelled.
+> o 11b – Employer's Name
 
-> <u>Means Test Charge Billed to Insured Patient</u> - This bulletin has not been changed, but the site may elect to suppress the generation of this bulletin. This may be done by changing the parameter Suppress MT Ins Bulletin in the option MCCR Site Parameter Enter/Edit.
+> o 11b – School Name
 
-6. GENERAL COMMENTSVII. THIRD PARTY BILLING1. FUNCTIONAL DESCRIPTION
+- Box 19
 
-The Third Party Billing Module of Integrated Billing contains the functionality to create bills for insurance companies and other third party payer's. The IB v2.0 release includes enhancements to the previously existing functionality. The HCFA 1500 has undergone major modifications. And there is new functionality that, in conjunction with the Claims Tracking module, will automatically create bills.
+> o EPSDT Flag
 
-GENERAL THIRD PARTY BILLING CHANGES
+> o Attending Not Hospice Employee
 
-The length of stay and charge calculations have been modified to count the admission date rather than the discharge date, to be consistent with patient billing. This calculation has also been changed to calculate inpatient interim bills differently. Previously, interim bills had to be overlapped for the correct number of days to be counted. However because bills could not cross the fiscal or calendar year interim bills covering those date ranges could not be overlapped, resulting in the automatic calculation of Length of Stay and the number of days charged being inaccurate. To correct these problems caused by being unable to overlap certain bills the new length of stay calculation counts each day on inpatient interim first and interim continuous bills. Therefore, inpatient interim bills should no longer be overlapped, the beginning of each bill should be one day after the end date of the last bill.
+> o Homebound Indicator
 
-The UB-82 claim form had 5 form locators for Diagnosis. This has been expanded to 9 form locators on the UB-92. This expanded functionality was not provided by IB v1.5 patch 19 when the UB-92 was first released, however this capability is provided in v2.0. Also added is the ability to enter a print order for each diagnosis, similar to the print order for procedures. Therefore the user will no longer need to rearrange the position of the diagnoses, only the print order. The principle diagnosis should always be the diagnosis with the lowest print order.
+> o Special Program Indicator
 
-CHAMPVA has been added as new Rate Type. This will allow CHAMPVA bills to be created and passed to Accounts Receivable.
+> o Date Last Seen
 
-Both Prescription Refill's and Prosthetic items have been added to the enter/edit and print bill functions. On the UB-92 these items will be printed as free text in the revenue code block, as additional procedures have been. Since the space available on the HCFA 1500 form is limited an addendum sheet has been added to print the relevant information for all prescription refills and prosthetic items on a bill. Several parameters have been defined to help in the creation of the Prescription Refill bills, these are listed under 4. Implementation Guidelines.
+- Box 30 – Balance Due
 
-A new option has been added to print bills in a user specified order. Bills that have been authorized but not yet printed may be printed in order of their mailing address zip code, insurance company name and/or the patients name.
+### CMS – 1500 Printed Claim Form - New/Changed CMS – 1500 Data Elements
 
-Functionality has been added to allow the enter and edit of Occurrence Spans and a limited number of Value Codes for the UB-92.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Additional entries have been made to the following lists:
+The IB System prints the following data on a locally printed CMS – 1500 claim form when available on a professional claim:
 
-o Discharge Status
+- Box 10
+  - 10d – NUCC designated Claim Condition Codes
+- Box 11
+  - 11b – Other Claim ID = Qualifier Y4 and Property and Casualty Number
+- Box 14 – Date Qualifier
+  - 484 Last Menstrual Period (LMP), or
+  - 431 Onset of Current Symptoms or Illness if no date for LMP
+- Box 15 – Date Qualifier
+  - 439 Accident (Occurrence Codes)
+  - 455 Last X-ray (Chiropractic Claim)
+  - 453 Acute Manifestation of Chronic Condition (Chiropractic Claims)
+  - 471 Prescription (RX Claims)
+  - Initial Treatment (Occurrence Code – PT/OT/Speech/Home IV/Cardiac Rehab)
+  - Latest Visit or Consultation
+- Box 17 – Provider Qualifier
+  - DN – Referring Provider
+  - DQ – Supervising Provider
+- Box 19 – Rate Type = Worker's Comp.:
+  - PWK
+  - Report Type Code
+  - Transmission Type Code
+  - Attachment Control Number
+- Box 19 – Rate Type not equal to Worker's Comp.
+  - Free Text – Maximum 71 characters
+- Box 21
+  - 21A-L – Up to 12 Diagnoses Codes
+  - ICD Version Indicator
+- Box 24E
+  - Diagnoses Pointers will be A-L values
 
-o Rate Type
+### Health Care Claim Transactions (837) - 12 Diagnoses (DXs) – Professional Claim
 
-o Revenue Codes
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-HCFA 1500 CLAIM FORM
+The IB System provides the ability to transmit 1-12 diagnostic codes (DC1 – DC12) on a professional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-The HCFA 1500 functionality has changed significantly in IB v2.0. The form has been expanded to include inpatient as well as outpatient claims so that inpatient professional fees can now the billed on the HCFA 1500. The form has been expanded to allow for multiple pages. Therefore, there is no longer a maximum number of procedures allowed. The version of the printed form in use at most sites contains a series of black bars where the mailing address was being printed, therefore a new site parameter, HCFA 1500 ADDRESS COLUMN, will allow specification of the column that the mailing address should begin printing on.
+### Health Care Claim Transactions (837) - Service Line Charge Amount
 
-The Place of Service and Type of Service have been changed so that they can be entered for each procedure rather than having one of each for each bill. Also, the number of ASSOCIATED DIAGNOSIS for each procedure has been expanded from one to four.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Visit CPT has been removed. This was being used to specify which CPT procedure the outpatient charge would be associated with. The new version has been expanded to allow any revenue code to be entered and the charge functionality is now the same as that for the UB forms. However, the HCFA 1500 form does not allow for revenue codes, each charge must be associated with a CPT procedure. To facilitate coordination between CPT procedures and revenue codes PROCEDURE and DIVISION have been added to all revenue codes being added to a HCFA 1500. If this is entered then the revenue code charge will be associated with that procedure on the printed form. The following rules are used to coordinate the expanded functionality of revenue codes and charges associated with procedures as required in block 24:
+The IB System provides the ability to transmit a Service Line Charge Amt (INS, Piece 9) with a maximum length equal to 18 numeric in an institutional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> The procedures entered on screens 4 and 5 are printed first in order of their Print Order.
+### Health Care Claim Transactions (837) - Service Line Non-Covered Charge Amount
 
-> If a revenue code procedure and division matches one of the CPT procedures from screens 4/5 then the charge associated with that revenue code is printed in the same line item on the bill as the procedure.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the revenue code does not have an associated procedure then its charge is printed on the first available CPT line item, i.e. on the line of the first procedure that does not already have a charge.
+The IB System provides the ability to transmit a Service Line Non-Covered Charge Amt (INS, Piece 12) with a maximum length equal to 18 numeric in an institutional X12N 5010 Health Care Claim (837) transaction to FSC.
 
-> If the revenue code does have a procedure but that procedure does not match any CPT procedure entered on screens 4/5 then the line item is printed after all procedures entered on screens 4/5 have been printed, regardless of their print order, with the revenue code procedure (in block 24d) and charge.
+### Health Care Claim Transactions (837) - Transmit Workman's Compensation Claims – Institutional
 
-> If the revenue code does not have an associated procedure and the charge cannot be matched with any procedure from screens 4/5 then the line item will be printed after all CPT procedures have been printed with block 24d containing the revenue code name and bedsection.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Please note that to match procedures and revenue codes the number of units must also match. If only one procedure is entered on screen 4/5 but the revenue code has 5 units then one unit of the charge will be printed with the procedure and the other 4 units of charge will be printed with the revenue code and bedsection in block 24d.
+The IB System provides the ability to transmit an institutional claim with a Rate Type equal to Worker's Comp. to FSC in an X12N 5010 Health Care Claim (837) transaction.
 
-Offsets are now allowed and will be printed after all charges and procedures.
+### Health Care Claim Transactions (837) - Transmit Workman's Compensation Claims – Professional
 
-A Bill Addendum sheet has been provided to list all rx refills and prosthetic items and their associated information since not all required information can fit on the HCFA 1500 form. This sheet may be printed for each HCFA 1500 that has prescription refills or prosthetic items.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-AUTOMATED BILLER
+The IB System provides the ability to transmit a professional claim with a Rate Type equal to Worker's Comp. to FSC in an X12N 5010 Health Care Claim (837) transaction.
 
-The new functionality of the Automated Bill for Integrated Billing v2.0 builds on the previously existing third party functionality and the new Claims Tracking Module. If the new Claims Tracking module in IB v2.0 is being used for the tracking of inpatient admissions, outpatient visits or prescription refills for veteran patients with insurance then these records can be used to automatically create reimbursable insurance bills. The status of these bills will be ENTERED/NOT REVIEWED and should be processed as any other bills with that status.
+### Health Care Claim Transactions (837) - Assignment Code – Institutional
 
-There are a variety of parameters that allow each site to control what type of event is automatically billed and when:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The AUTO BILLER FREQUENCY parameter is used to determine how often and if the auto biller will run. This is the number of days between each successive executions of the auto biller. Using this parameter a site may specify that the auto biller runs every night or once a week, etc. This should be set to zero (or left blank as it is released) if the auto biller should never run.
+The IB System transmits an Assignment Code with the value of A in all institutional X12N 5010 Health Care Claim (837) transactions to FSC.
 
-> The AUTOMATE BILLING parameter controls the amount of user interaction required for automatic bill creation. Bills will be automatically created only for those Claims Tracking events that have an EARLIEST AUTO BILL DATE. The setting of the EARLIEST AUTO BILL DATE for an entry may be accomplished automatically when the entry is created in Claims Tracking if the AUTOMATE BILLING parameter is set. This can be set for each type of event in Claims Tracking that can be automatically billed, currently this is limited to inpatient admissions, outpatient visits and prescription refills. If this site parameter is not set to yes then the auto biller can still be used, however the user must specifically set EARLIEST AUTO BILL DATE for any events that the auto biller should create a bill for.
+### Health Care Claim Transactions (837) - Assignment Code – Professional
 
-> The BILLING CYCLE parameter controls the maximum number of days allowed to be billed on a single bill. This can also be specified for each type of event in Claims Tracking that can be automatically billed, currently this is limited to inpatient admissions, outpatient visits and prescription refills. For inpatient bills this is the maximum length of stay for each bill, interim or admit through discharge. If the patient is discharged then the bills date range may be less than the billing cycle. For outpatient visits this is the maximum number of visits dates allowed on a bill. For example if the outpatient billing cycle is set to 3 then the bill may have a date range of 3 days with three outpatient visits dates. However, if the patient had only one visit within the three consecutive day period then the bill will have a date range of one day and only the single outpatient visit date.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> An additional parameter, DAYS DELAY, controls the minimum number of days after certain events occur that a bill may be created. This parameter is used at two different points to determine if a bill should be created. The first time is when the Claims Tracking entry is first created. If the AUTOMATE BILLING parameter is set to Yes, then when the Claims Tracking entry is first created the EARLIEST AUTO BILL DATE will be set to the current date plus the number of days delay. Therefore, the earliest possible date a bill can be created for an event is days delay after entry into Claims Tracking. After that date the auto biller will continuously test the event to see if it is ready to be billed. The second time this parameter is used is when the auto biller is trying to set up a date range for the events bill. In this case DAYS DELAY is added to the BILLING CYCLE to determine if the correct amount of time has elapsed for the bill to be created. Therefore, a bill will not be created until DAYS DELAY after the BILLING CYCLE. For example if DAYS DELAY is 3 and BILLING CYCLE is 10, then a bill will not be created for at least 13 days after the initial entry was created in Claims Tracking.
+The IB System transmits an Assignment Code with the value of A in all professional X12N 5010 Health Care Claim (837) transactions to FSC.
 
-> Inpatient admissions are handled slightly differently. The auto biller can not create a bill for an inpatient stay until after the PTF record for that stay is closed. Also, if the patient is discharged the auto biller will not wait until the end of the BILLING CYCLE to try to create a bill. Therefore, the number of DAYS DELAY for an inpatient admission is the minimum number of days after discharge or the end of the BILLING CYCLE that the auto biller will begin checking the PTF status and try to create a bill.
+### Health Care Claim Transactions (837) - Diagnoses Pointers – Professional
 
-> This delay is setup to allow time between the date the event actually occurred until a bill is created for any pre-processing of events that need to be done, such as insurance verification. This will also accommodate any delays such as late entry of events or information. For example, if outpatient visits are generally not coded for 5 days then the days delay should be at least 5.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The automatic biller searches through the Claims Tracking file for entries that have a EARLIEST AUTO BILL DATE not greater than the current date. Any entry with this field not set will not be automatically billed, whether the event is billable or not. If the EARLIEST AUTO BILL DATE is set for the event by the system it will be set to the date the event was entered into Claims Tracking plus the number of DAYS DELAY. This date will be the first date on which the auto biller will attempt to create a bill for the event. Which events are automatically billed can be manually specified by using the Claims Tracking module and entering or deleting the EARLIEST AUTO BILL DATE for the event.
+The IB System provides the ability to transmit 2 A/N diagnoses pointers with diagnoses on a professional claim to FSC in an X12N 5010 Health Care Claim (837) transaction.
 
-When the auto biller runs it will first attempt to create a bill for any event with an EARLIEST AUTO BILL DATE not greater than the current date. The results of the execution of the auto biller are listed in the AUTOMATED BILLER ERRORS/COMMENTS report. For Claims Tracking events this report will list either the reason no bill was created or the bill number and possibly comments on the bill.
+## System Features: Miscellaneous Existing Requirements 
 
-The auto biller checks a variety of data elements concerning an event before a bill is created. The auto biller will only attempt to create reimbursable insurance bills, so the patient must be a veteran with active insurance. Also, the disposition prior to the event date is checked and if NEED WAS RELATED TO AN ACCIDENT or the NEED WAS RELATED TO OCCUPATION then the event may be either Tort Feasor or Workers Comp and the auto biller will not create a bill. Also, since dental is usually billed separately any event with a dental clinic stop will be excluded.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The auto biller also checks to ensure that the event has not already been billed. For outpatient bills it will not set up a bill for an outpatient visit already defined for another uncancelled bill. For inpatients it checks to see if the event is already on another bill, if that bill is a final bill (either interim-last or admit through discharge) then another bill will not be created. If the inpatient event does not have a final bill then the auto biller will create the new bill with a beginning date immediately after the ending date of the already existing bill.
+### Miscellaneous Existing Requirements – *Correct -* FEAT765 Functional Requirement: Transmit Revenue/Procedure Codes with Zero Charge Amount
 
-A comment of explanation will be added to the AUTOMATED BILLER ERRORS/COMMENTS report for the event in any of the previous cases and no bill will be created.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If a bill was successfully created then the bill number will be entered into INITIAL BILL NUMBER (if that does not already have a bill) and the EARLIEST AUTO BILL DATE will be deleted (if the bill was a final bill) for the Claims Tracking Entry for the event. Once a bill has been set-up the auto biller continues and attempts to gather as much information as is available. For inpatients, diagnosis and procedures are gathered from the PTF record. Procedures are added for outpatient visits. Additional comments are added to the AUTOMATED BILLER ERRORS/COMMENTS report for the event if the visit is for an SC condition or if any of the movements are for SC conditions or non-billable bedsections.
+The IB System transmits Revenue/Procedure codes which generate zero charge amounts in 837 Health Care Claim Transmissions (PRF, Piece 5 and INS, Piece 9).
 
-Entries are removed from the AUTOMATED BILLER ERRORS/COMMENTS report in two ways. If a bill was created for the event then when that bill is either authorized or canceled then the bills entry is removed from the report. If no bill was created then the option Delete Auto Biller Results must be used to delete the entry.
+### Miscellaneous Existing Requirements – *Delete* – FEAT 602 Functional Requirement: Transmit Service Facility Contact Data 
 
-2. CHANGED OPTIONSCopy and Cancel \[IB COPY AND CANCEL\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Updated to copy the new data fields that can be entered using the Enter/Edit billing Information option from the old bill to the new bill. Also, when a bill that was created by the automatic biller is cancelled the automatic biller comments entry will be deleted from the Automated Biller Errors/Comments report.
+The IB system transmits the following data with a Professional 837 claim transmission when an Service Facility Communication Number is present on a claim (2310C PER01, PER03):
 
-Enter/Edit Billing Information \[IB EDIT BILLING INFO\]
+- Contact Function Code: IC Information Contact
+- Communication Number Qualifier: TE Telephone
+- Communication Number: Telephone
+- Communication Number Qualifier: EX Telephone Extension
+- Communication Number: Extension Number
 
-This has been changed to reflect changes to Diagnosis, HCFA 1500, and Insurance Data Capture.
+\*\*\*NOTE\*\*\* We will continue to transmit the Property and Casualty data entered on Billing Screen 8. The above fields will be relabeled as Property and Casualty data but will not be transmitted in the Service Facility loop.
 
-Screen 3 - has been modified so that the form type will only be displayed and be editable if the site has multiple form types available to the user. Note that in this instance the UB-82 and the UB-92 are considered a single form so that for a site to have multiple forms they would be using one of the UB forms and the HCFA 1500. This is the same functionality initially released with IB v1.5 however it was modified by IB v1.5 patch 19 so that the transition between the UB-82 and the UB-92 would be visible to the user. However, that transition should be almost complete and the type of UB form is not controlled on screen 3 in any case so it was removed unless there was the possibility of using the HCFA 1500.
+###
 
-Screen 3 - The enter and edit of insurance information on screen 3 has also changed to conform with the new insurance module information.
+### From: IB*2*519 Release Notes
 
-Screen 4 of the HCFA 1500 - Included add/edit of Occurrence Code State.
+## System Feature: HL7 Messages Inbound
 
-Screens 4 and 5 - The enter and edit of diagnosis on Screens 4 and 5 has been modified so that more than 5 diagnosis can be entered, however only 5 will be displayed on the screen. Also added was the ability to enter a print order for each diagnosis, similar to the print order for procedures.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The addition of Prosthetic items to both inpatient and outpatient bills being edited has been added.
+### HL7 Messages Inbound – Maintain the Insurance Company Name in the Insurance Company file (#36) 
 
-Occurrence Spans have been added as a subset of Occurrence Codes. If an Occurrence Span is picked for entry the Date will be consider the beginning date and then End Date will be asked. A limited number of Value Codes have been defined and can be added to a bill on these screens.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Screens 4 and 5 of HCFA 1500 - Place of Service and Type of Service have been added so that they are now entered for each procedure and there is no longer a maximum number of procedures that can be entered. Associated Diagnosis has been expanded to four diagnosis.
+The insurance company name in the Insurance Company File (#36) is NOT updated using the data from the NIF.
 
-Screen 5 - Prescription Refills can now be add to outpatient bills. The Number of Days Supply, Quantity and NDC Number may be added to each prescription refill for printing on the bill if required by the primary insurer.
+### HL7 Messages Inbound – The HPID/OEID Field to Be Viewable Only in the Insurance Company file (#36)
 
-Screen 6 - Modified the length of stay and charge calculation to count the admission date rather than the discharge date. Also, modified inpatient interim-continuous and interim-last bills to add every day of the bills date range to the charge calculation. Interim inpatient bills should no longer be overlapped.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Screen 6 and 7 of the UB-92 - Replaced BC/BS Provider \# with the more generic Provider \#. This should be the provider number associated with the primary insurance carrier and will be printed in block 51A of the UB-92. The UB-92 does not have a specific field for the BC/BS provider number as the UB-82 did.
+The HPID/OEID field is viewable but non-editable in VistA in the Insurance Company file (#36). Any changes to HPID/OEID are made in the NIF so that they may be distributed to all VAMCs.
 
-Screen 6 and 7 of HCFA 1500 - The Visit CPT has been removed. Revenue codes and their corresponding data can now be added. The charge functionality is now the same as that for the UB forms. Offsets are now allowed. Also, CPT procedure and division may now be entered for each revenue code.
+### HL7 Messages Inbound – Store the HPID in the Insurance Company file (#36)
 
-Screen 8 of the UB-92 - Admitting Diagnosis has been changed from a free text entry to an actual ICD-9 diagnosis code. The enter and edit of UB-92 Unlabled Form Locators 2, 11, 31, 37, 56, 57, and 78 have been added to this screen.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Screen 8 of the HCFA 1500 - Enter and edit of Block 31 has been added. Place of Service, Type of Service and Bill Remarks have been removed from this screen.
+The system stores the HPID in the Insurance Company file (#36). The HPID is a 10-digit, all-numeric identifier which follows the ISO (International Organization for Standardization) Standard 7812 format with a Luhn check-digit as the tenth digit. The start digit of the HPID signals whether the identifier has been provided to a health plan or to an "other entity". If the start digit is a seven (7) then it identifies a health plan, a six (6) indicates an "other entity".
 
-Insurance Payment Trend Report \[IB OUTPUT TREND REPORT\]
+### HL7 Messages Inbound – Store the Other Entity Identifier (OEID) in the Insurance Company file (#36)
 
-An additional column has been added to this report to reflect the actual amount of the bill that is pending collection. If the report is queued, it may be stopped by the user.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Print Bill \[IB PRINT BILL\]
+The system stores the Other Entity Identifier (OEID) in the Insurance Company file (#36). The OEID serves as the identifier for entities that are not health plans, healthcare providers, or individuals (persons) who are not eligible for the HPID or National Provider Identifier (NPI), yet they need to be identified in standard transactions and for other lawful purposes. The Other Entity Identifier begins with a six (6).
 
-Modified to display during the review and print all new data elements that can be added to a bill. When printing a HCFA 1500 with prescription refills or prosthetic items the Bill Addendum sheet will automatically be printed if a device has been selected for it. Also, when a bill that was created by the automatic biller is printed the automatic biller comments entry will be deleted from the Automated Biller Errors/Comments report.
+### HL7 Messages Inbound – Distinguish Between HPID and OEID
 
-Third Party Billing Menu \[IB UB-82 MENU\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The name of this menu has been changed to Third Party Billing Menu \[IB THIRD PARTY BILLING MENU\].
+The system maintains a field to distinguish between an HPID identifier and an OEID identifier. <u>Note</u>: HPID is used for patient specific health plan product or benefit plan; OEID is used for organizations that perform the health plan function or other entity that performs certain administrative or contracting functions on behalf of the health plan.
 
-Several new options have been added to this menu:
+### HL7 Messages Inbound – Ability to Define the HPID as Either a Controlling Health Plan (CHP) or Subhealth Plan (SHP)
 
-o Delete Auto Biller Results \[IB CLEAN AUTO BILLER LIST\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-o Print Authorized Bills \[IB BATCH PRINT BILLS\]
+The system defines the VistA Insurance Company file (#36) entry as either the Controlling Health Plan (CHP) or Subhealth Plan (SHP).
 
-o Print Auto Biller Results \[IB OUTPUT AUTO BILLER\]
+<u>Note:</u> CHP is a health plan that controls its own business activities, actions, or policies. Can have 0 to many subhealth plans associated to it. SHP is a health plan whose business activities, actions, or policies are directed by a CHP.
 
-o Print Bill Addendum Sheet \[IB PRINT BILL ADDENDUM\]
+### HL7 Messages Inbound – Associate the Legacy Identifiers to the New HPID/ OEID
 
-3. NEW OPTIONSDelete Auto Biller Results \[IB CLEAN AUTO BILLER LIST\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Deletes entries from the AUTOMATED BILLER ERRORS/COMMENTS report for any entry not associated with a bill, before a given date. This option has been added to the Third Party Billing Menu \[IB THIRD PARTY BILLING MENU\]
+The system associates the new HPID/OEID data element with the legacy identifiers representing a given health plan so there will be a linkage between old and new.
 
-Employer Report \[IB OUTPUT EMPLOYER REPORT\]
+<u>Note</u>: A HPID/OEID may be linked to more than one legacy ID and there may be multiple HPID/OEID entries linked to a single legacy ID.
 
-This report searches for all events (either inpatient admissions or outpatient visits) for non-deceased, non-insured patients within a time frame specified by the user. Only if the patient or patient's spouse is employed or has an employer listed then the patient is added. The report is sorted by employer name and lists the employer address as well as various information on the patient and employed person. This report has been added to the Patient Billing Reports Menu \[IB OUTPUT PATIENT REPORT MENU\].
+### HL7 Messages Inbound – Retain Patient Policy Functionality with Respect to the Patient File (#2)
 
-Enter/Edit Automated Billing Parameters \[IB AUTO BILLER PARAMS\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This option has been added to the MCCR System Definition Menu \[IB SYSTEM DEFINITION MENU\] and is used to enter or edit the parameters controlling the execution of the Automated Biller.
+The system retains the functionality to associate patients to their policies, and maintain the necessary information on electronic transmissions so that FSC retains the ability to route files to the correct payer system.
 
-Print Authorized Bills \[IB BATCH PRINT BILLS\]
+### HL7 Messages Inbound – Maintain the Existing EDI Professional and EDI Institutional Legacy 20-Byte Fields
 
-Prints all authorized bills in a user specified order. This option has been added to the Third Party Billing Menu \[IB THIRD PARTY BILLING MENU\] If a HCFA 1500 with prescription refills or prosthetic items is printed in the batch then the Bill Addendum sheet will automatically be printed if a device has been selected for it. Also, if a bill that was created by the automatic biller is printed the automatic biller comments entry will be deleted from the Automated Biller Errors/Comments report.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Print Auto Biller Results \[IB OUTPUT AUTO BILLER\]
+The system provides the ability for VistA to maintain the existing (legacy) 20 byte data field, for the EDI Professional and the EDI Institutional.
 
-Prints the AUTOMATED BILLER ERRORS/COMMENTS report with the results of the execution of the automated biller, sorted by date. This option has been added to the Third Party Billing Menu \[IB THIRD PARTY BILLING MENU\]
+<u>Note:</u> Fields are as follows: File \#36, field \#3.02 EDI ID NUMBER-PROF and File \#36 field \#3.04 EDI ID NUMBER-INST.
 
-Print Bill Addendum Sheet \[IB PRINT BILL ADDENDUM\]
+### HL7 Messages Inbound – Continue to Store the Legacy Electronic Payer ID
 
-Prints a Bill Addendum sheets that may accompany HCFA 1500 bills with rx refills or prosthetic items. This sheet will itemize the refills and prosthetic items on a bill with information that is not possible to fit on the HCFA 1500 form itself. This option has been added to the Third Party Billing Menu \[IB THIRD PARTY BILLING MENU\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Rank Insurance Carriers By Amount Billed \[IB OUTPUT RANK CARRIERS\]
+The system provides the ability for VistA to continue to store the legacy electronic Payer ID.
 
-This report ranks, for all claims within a specified date range, insurance carriers by the total amount billed to each carrier. The user may transmit the report to the MCCR Program Office.
+### HL7 Messages Inbound – Load the HPID/OEID into the local Insurance Company File (#36) 
 
-4. IMPLEMENTATION GUIDELINES
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If your site wishes to use the Automated Biller, enter the values appropriate to your site for the following site parameters that control the execution of the automated biller, using the Enter/Edit Automated Billing Parameters \[IB AUTO BILLER PARAMS\] option:
+The system loads the HPID into the local Insurance Company file (#36) based on the INSID from the original seeding of the NIF from VistA.
 
-> AUTO BILLER FREQUENCY: Enter the number of days between each execution of the automated biller. For example, enter 7 if you want bills created only once a week.
+<u>Note:</u> INSID is a unique insurance company ID from VistA. It is a combination of the site's number and the internal record number in file \#36.
 
-> The following parameters may be entered for both inpatient admissions, outpatient visits, and prescription refills:
+### HL7 Messages Inbound – Receive and Process a HPID/OEID from FSC
 
-> AUTOMATE BILLING: Enter 'Y'es bills if should be automatically created for possibly billable events with no user interaction. Otherwise, leave this blank if your site prefers each event to be manually checked before a bill is created by the auto biller.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> BILLING CYCLE: For each type of event, enter the maximum date range of a bill. If this is left blank then the date range will default to the entire month in which the event took place or for inpatient interim bills this will be the next month after the last interim bill.
+The system provides the ability for VistA to receive and process HPID/OEID into file \#36 upon receipt of an update from FSC based on changes to the NIF. An INSID consisting of a site ID and IEN is used so that updates are only stored at sites with systems already containing a given payer.
 
-> DAYS DELAY: Enter the number of days after the end of the BILLING CYCLE that the bill should be created.
+### HL7 Messages Inbound – Modify the Insurance Company View Screen to Include the HPID/OEID
 
-The following parameters may be used by sites to control prescription refill billing data and charge calculation. If your site plans to implement Prescription Refill billing then enter the appropriate values using the MCCR Site Parameter Enter/Edit option \[IB MCCR PARAMETER EDIT\]:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> DEFAULT RX REFILL REV CODE used for the revenue code that should be used for most prescription refill bills. If this revenue code is defined then charges will automatically be added to the bill with this revenue code for every prescription refill added to the bill. This site parameter may be overridden by the Insurance Company file parameter PRESCRIPTION REFILL REV. CODE. If left blank .
+The Insurance Company View Screen includes the HPID/OEID. This field is view only.
 
-> DEFAULT RX REFILL DX if applicable, enter a diagnosis code that should be added to every prescription refill bill.
+## System Feature: HL7 Messages Outbound
 
-> DEFAULT RX REFILL CPT if applicable, enter a CPT code that should be added to every prescription refill bill.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Other new site parameters that may need to be set using the MCCR Site Parameter Enter/Edit option \[IB MCCR PARAMETER EDIT\]:
+### HL7 Messages Outbound - Allow Messages to be Exchanged between VistA and the NIF
 
-> HCFA 1500 ADDRESS COLUMN for the HCFA 1500, enter the column number that the mailing address should begin printing on for it to show in the envelope window, if it does not already print in the appropriate place.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> UB-92 ADDRESS COLUMN for the UB-92, enter the column number that the mailing address should begin printing on for it to show in the envelope window, if it does not already print in the appropriate place.
+The system provides the ability for VistA to use an interface to send and receive messages to/from the NIF, regardless of who initiates the message.
 
-If the Bill Addendum sheet should be automatically printed for every HCFA 1500 with prescription refills or prosthetic items then the DEFAULT PRINTER (BILLING) must be set for the BILL ADDENDUM form type to the appropriate device using the Select Default Device for Forms option \[IB SITE DEVICE SETUP\].
+<u>Note:</u> VistA receives and stores a NIFID (National Insurance File ID).
 
-If certain Insurance Companies require a specific revenue code to be used for Rx Refills that is different than the DEFAULT RX REFILL REV CODE then use the option Insurance Company Entry/Edit \[DG INSURANCE COMPANY EDIT\] to enter the required revenue code in PRESCRIPTION REFILL REV. CODE.
+### HL7 Messages Outbound - Send Updates to the NIF for New Group/Plans Entered in VistA
 
-5. NEW OR CHANGED BULLETINS6. GENERAL COMMENTS  
-VIII. MISCELLANEOUS CHANGESCHANGED OPTIONSBilling Rates List \[IB LIST OF BILLING RATES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This output has been modified to include the new CHAMPVA inpatient subsistence rates and limits.
+The system provides the ability for VistA to use an interface to send a message containing insurance company information to the NIF, when a new Group/Plan is entered into VistA, and it is a new Insurance Company.
 
-Enter/Edit Billing Rates \[IB BILLING RATES FILE\]
+<u>Note:</u> VistA receives and stores a NIFID.
 
-This option has been modified to allow the entry of the CHAMPVA inpatient subsistence rate and limit. If a new Means Test outpatient copayment rate is entered, and there are charges on hold, awaiting the new rate, the user may queue a job to bill all the charges on hold.
+### HL7 Messages Outbound - Send Updates to the NIF for Insurance Companies Modified in VistA
 
-Fast Enter of New Billing Rates \[IB FAST ENTER BILLING RATES\]
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If a new Means Test outpatient copayment rate is entered, and there are charges on hold, awaiting the new rate, the user may queue a job to bill all the charges on hold.
+The system provides the ability for VistA to use an interface to send a message containing insurance company information to the NIF, when a VistA/NIF exchanged field associated with an insurance company is modified in VistA.
 
-Find Billing Data to Archive \[IB PURGE/FIND BILLING DATA\]
+## System Feature: Data Extract
 
-Instead of archiving exclusively by fiscal year, the user may archive and purge up through a specified date. Interim claims may only be archived and purged if the final claim may be archived and purged.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-MCCR Site Parameter Enter/Edit \[IB MCCR PARAMETER EDIT\]
+### Data Extract - Create Data Extract Files from Each VAMC to FSC for Initial Seeding of NIF
 
-This option has been updated so that the following parameters may be entered:
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-o Default Rx Refill Rev Code
+Data extracts are created from each VAMC's VistA system using data from the Insurance Company (#36) file and sent to the FSC for initial seeding of the NIF. VistA only sends active insurance companies.
 
-o Default Rx Refill Dx
+### From: IB*2*458 Release Notes
 
-o Default Rx Refill CPT
+## CLAIMS TRACKING DENIAL REASONS
 
-o HCFA 1500 Address Column
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-o Suppress Means Test Insurance Bulletins (Yes/No)
+An Insurance Review that results in a Denial is assigned a reason for that denial from a standard set of reasons. New entries are being added to this standard set of Insurance Review Denial Reasons.
 
-o UB-92 Address Column
+| New CLAIMS TRACKING DENIAL REASONS (#356.21): |          |
+|-----------------------------------------------|----------|
+| DELAY IN TREATMENT/SERVICE                    | DELAY TX |
+| OBSERVATION IS MORE APPROPRIATE               | OBS      |
+| ALTERNATE LEVEL OF CARE IS MORE APPROPRIATE   | ALT LOC  |
 
-MCCR System Definition Menu \[IB SYSTEM DEFINITION MENU\]
+## CLAIMS TRACKING REVIEW TYPES
 
-The new option Enter/Edit Automated Billing Parameters \[IB AUTO BILLER PARAMS\] has been added.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patient Billing Reports Menu \[IB OUTPUT PATIENT REPORT MENU\]
+Each Insurance Review is assigned a Type identifying both the type of care and the type of review. New entries are being added to the standard set of Insurance Review Types.
 
-The option UB-82 Test Pattern Print \[IB UB-82 TEST PATTERN PRINT\] has been removed from this menu.
+| New CLAIMS TRACKING REVIEW TYPE (#356.11): |     |            |
+|--------------------------------------------|-----|------------|
+| SNF/NHCU REVIEW                            | 25  | SNF/NHCU   |
+| INPT RETROSPECTIVE REVIEW                  | 35  | RETRO INPT |
+| OPT RETROSPECTIVE REVIEW                   | 55  | RETRO OPT  |
 
-The new option Employer Report \[IB OUTPUT EMPLOYER REPORT\] has been added to this menu.
+<u>Display and Edit with New Review Types:</u>
+
+The Insurance Review Types are used as controls when processing the fields of an Insurance Review to determine the data related to that review. For example the fields displayed and editable for a URGENT/EMERGENT ADMIT REVIEW are different than the fields displayed and editable for an OUTPATIENT TREATMENT review. The new Review Types will manage review data in the same way as existing similar Review Types:
+
+SNF/NHCU REVIEW processed same as a URGENT/EMERGENT ADMIT REVIEW
+
+INPT RETROSPECTIVE REVIEW processed same as a URGENT/EMERGENT ADMIT REVIEW
+
+OPT RETROSPECTIVE REVIEW processed same as a OUTPATIENT TREATMENT Review
+
+## CLAIMS TRACKING REASONS NOT BILLABLE
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Each event in Claims Tracking may be assigned a Reason Not Billable to indicate the event is not billable and why. The standard list of Reasons Not Billable is being updated, one entry is changed and several added.
+
+<u>Update CLAIMS TRACKING NON-BILLABLE REASONS (#356.8):</u>
+
+The name of one Reason Not Billable is being changed.
+
+NPI/TAXONOMY ISSUES changed to NPI/TAXONOMY/PPN ISSUES
+
+<u>New CLAIMS TRACKING NON-BILLABLE REASONS (#356.8):</u>
+
+| New CLAIMS TRACKING NON-BILLABLE REASONS (#356.8): |      |           |                 |
+|----------------------------------------------------|------|-----------|-----------------|
+| NAME                                               | CODE | ECME FLAG | ECME PAPER FLAG |
+| APPT CANCELLED/PT NOT SEEN                         | MC20 |           |                 |
+| SEEN BY PROVIDER ON SAME DAY                       | MC21 |           |                 |
+| NON-BILLABLE DME/PROSTHETIC                        | MC22 |           |                 |
+| NON-BILLABLE PROCEDURE                             | MC23 |           |                 |
+| EMPLOYEE HEALTH                                    | MC24 | Yes       | No              |
+| ENCOUNTER DURING INPT STAY                         | MC25 |           |                 |
+| NO PROSTHETIC COVERAGE                             | CV22 |           |                 |
+| NON-COVERED DIAGNOSIS                              | CV23 |           |                 |
+| NON-COVERED ROUTINE CARE                           | CV24 |           |                 |
+| HDHP PLAN NOT BILLED                               | CV25 | Yes       | No              |
+| NOT RELATED TO WC/TORT/NF                          | CV26 |           |                 |
+| TRICARE PT SEEN AS VETERAN                         | CV27 | Yes       | No              |
+| COMBINED CHARGES                                   | BL08 |           |                 |
+| UNBUNDLED SERVICE                                  | BL09 |           |                 |
+
+## CLAIMS TRACKING INSURANCE REVIEW CALL REFERENCE AND AUTHORIZATION NUMBER
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The INSURANCE REVIEW file CALL REFERENCE NUMBER (#356.2, .09) and AUTHORIZATION NUMBER (#356.2, .28) fields are both being expanded to 35 characters.
+
+<u>Fields Moved:</u>
+
+Due to the additional length required these fields have been moved in the INSURANCE REVIEW file (#356.2). Two new fields are being added as replacements and the two existing fields inactivated:
+
+INSURANCE REVIEW (#356.2) file:
+
+- \#.09 CALL REFERENCE NUMBER (15chr) moved to \#2.01 CALL REFERENCE NUMBER (35chr)
+- \#.28 AUTHORIZATION NUMBER (18chr) moved to \#2.02 AUTHORIZATION NUMBER (35chr)
+
+<u>Data Copied:</u>
+
+The data in the inactivated fields will be moved to the new fields so there should be no change from the user perspective except the expanded number of characters available.
+
+<u>Data Display:</u>
+
+These two fields are displayed on several Claims Tracking screens and reports. If the number of characters available is too short to display the full extended length then the data will be truncated. A '\*' will be appended to the end of the data to indicate the full data is not displayed. See Example Screens Section.
+
+<u>Call Reference Number as Default:</u>
+
+When a new Insurance Review is created and a Call Reference Number is entered then it is used as the default value for the Authorization Number. This default has been removed. Now when the Authorization Number is presented the Authorization Number of a previous Insurance Review for the event will be used as the default. If there was no previous Insurance Review Authorization Number then no default will be presented.
+
+## CLAIMS TRACKING RELEASE OF INFORMATION SPECIAL CONSENT
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Release of Information (ROI) function within Claims Tracking has been enhanced to include records of the ROI consents received and the sensitive condition they cover.
+
+Currently each event in Claims Tracking may be assigned a Special Consent ROI: Not Required, Obtained, Required, and Refused. This indicates if that specific event may be related to a sensitive condition requiring a Release of Information consent form from the patient. The new option will now allow entry of a record indicating a consent form has been received for a specific sensitive condition.
+
+<u>New CLAIMS TRACKING ROI CONSENT (#356.26) file:</u>
+
+A new file has been created for records of Release of Information obtained from a patient with the following. Note that each sensitive condition will have its own record.
+
+- PATIENT the consent was received from.
+- SENSITIVE CONDITION the consent for release covers. Includes the four standard sensitive conditions requiring ROI:
+  - DRUG ABUSE
+  - ALCOHOLISM/ALCOHOL ABUSE
+  - TESTING FOR OR INFECTION WITH HIV
+  - SICKLE CELL ANEMIA
+- The EFFECTIVE DATE when the consent for release begins.
+- The EXPIRATION DATE when the consent for release ends.
+- A REVOKED flag indicating the patient revoked the consent. In this case the Expiration date is updated to the date the revocation becomes effective. A consent may be revoked but will be active for the date range assigned.
+- COMMENTS associated with ROI, this is intended primarily for entry of the Insurance the release consent covers.
+
+<u>View Patient ROI Special Consent Records:</u>
+
+A new screen has been added to display and manage the ROI consent records. This screen has been added as an action on the main Claims Tracking Editor screen: ROI Consent (RO). See Example Screens Section.
+
+The ROI Special Consent screen will display all ROI consents entered for the Patient. The display order is currently active ROIs first then in reverse effective date order. Most recent active ROIs will be at the top. The Patient, effective date, expiration date and sensitive condition are all displayed. In addition, a flag will indicate which consents are currently active, inactive or inactive/revoked. The comments are displayed; however due to space limitations these are truncated. Use the '\>' to shift the view to the right to see the entire comment field, '\<' shift the view back to the left.
+
+Option: Claims Tracking Edit \[IBT EDIT TRACKING ENTRY\], ROI Consent (RO)
+
+<u>Add/Edit ROI Special Consent Records for a Patient:</u>
+
+Actions associated with the new Claims Tracking Editor screen for ROI Special Consent:
+
+- Add ROI Consent (AR) will allow new entries to be added.
+- Edit ROI (ER) will allow edit of existing entries.
+- Revoke ROI (RV) will allow an ROI consent to be flagged as revoked by the patient. The Expiration date must be updated to the date the revocation takes effect.
+- Delete ROI (DR) will allow a ROI record to be deleted. This should only be used if the record was entered in error. Old records that expired should remain.
+
+Users must be assigned the new IB ROI EDIT Security Key to perform any of these actions or to modify the ROI records.
+
+Security Key: IB ROI EDIT (new)
+
+<u>Updates to Claims Tracking Displays for ROI:</u>
+
+Several Claims Tracking screens and reports have been updated to show indicators of the patients active ROI consent, if any.
+
+The main Claims Tracking Editor screen is the list of a patient's events within a timeframe. This screen has been modified in two ways:
+
+- Header of this screen will show indicators of the patient's sensitive conditions that have currently active consents, if any: ROI: AHS
+- Each event in the list displays the Special Consent ROI field associated with that event (Not Required, Obtained, Required, Refused). If the Special Consent ROI is Obtained then indicators of the sensitive conditions that have active consents on the date of the event will be appended to the field: OBTAIN(AS)
+
+Several other screens will have the following change to the header depending on the type of screen display:
+
+- Headers of screens that display lists of a patient's events will show indicators of the patient's sensitive conditions that have currently active consents, if any: ROI: AHS.
+- Headers of screens that display the extended data of a particular event and have Special Consent ROI set to Obtained will have indicators of the sensitive conditions that have consents active on the date of the event appended: ROI: OBTAINED (AS).
+
+<u>ROI Expired Consent Report:</u>
+
+A new report will list the ROI Special Consents that will expire within a user specified date range. This report has been added to the Management Reports (Billing) Menu.
+
+Option: ROI Expired Consent \[IB OUTPUT ROI EXPIRED\] (new)
+
+Menu: Management Reports (Billing) Menu \[IB OUTPUT MANAGEMENT REPORTS\]
+
+## DAYS DENIED REPORT
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Days Denied report lists Inpatient stays that have a Denial Insurance Review. Significant updates have been made to the Days Denied Report:
+
+- The charges displayed as the Amount Denied has been update to the current active charges, Reasonable Charges.
+- Social Security Number has been removed and replaced with the last 4.
+- The Inpatient Admission's Service is added to each denied stay in the detail section. This is the Service the patient was in at either the admission, if that date is included in the report, or the Service the patient was in on the begin date of the report. This Service is used to provide the summary.
+- The Amount Denied has been added to each denied stay in the detail section. This amount is either:
+  - if entire admission was denied and the entire stay is within the date range of the report then the Amount Denied is the full charge of the Admission
+  - if only a partial denial then the Amount Denied is an average charge based on the full charge and the number of denied days on the report
+- Inpatient stays of one day will now be included on the report.
+- Events in Claims Tracking not linked to an actual clinical event will now be included on the report. Entries are sometimes manually created so Insurance Reviews can be completed before the event is automatically entered into Claims Tracking. The data on these types of entries will be limited as there is no source clinical event, for example there will be no service or amount displayed.
+- Detail and Summary sections are added for other types of care than Inpatient. Any Outpatient, Prescriptions or Prosthetics assigned a denial will be included on the report.
+
+Option: Days Denied Report \[IBT OUTPUT DENIED DAYS REPORT\]
+
+## REASONS NOT BILLABLE REPORT
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+An estimated charge for an Inpatient admission is included on the Reasons Not Billable report. Errors were identified in the Reasonable Charges Inpatient Facility charge calculation and have been corrected:
+
+- Every Inpatient stay was assumed to have been a DRG charge. This is updated so Nursing Home Care Treating Specialties will be properly charged the Skilled Nursing per diem.
+- Observation care will not be identified with and charged a DRG charge.
+- The Inpatient DRG calculation did not recognize the difference between ICU and Non-ICU care and added both DRG charges to the final amount. This is updated so each type will be identified and charged only the corresponding DRG amount.
+
+Option: Reasons Not Billable Report \[IBJD REASONS NOT BILLABLE\]
+
+## BILL/CLAIMS ENTRY OF REASON NOT BILLABLE (?RNB)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+There are cases where an event may only be partially billed and therefore will require both a bill and a Reason Not Billable. To assist processing these types of events a new Help action has been added to Enter/Edit a Bill option. The '?RNB' action will present the Claims Tracking entries related to the bill and allow a Reason Not Billable to be entered. The Reason Not Billable should only be entered if the event is not fully billed.
+
+Option: Enter/Edit Billing Information \[IB EDIT BILLING INFO\]
+
+## UPDATE FIELD
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The INSURANCE REVIEW (#356.2) FINAL OUTCOME OF APPEAL (#.29) field contained a misspelling. This has been corrected (PARITIAL corrected to PARTIAL) and Help Text was added to the field.
+
+## CHARGE MASTER UPLOAD EXPAND DIVISION CHARACTERS
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+A list of sites is included with each version of Reasonable Charges released. This site number was limited to 5 characters. Actual division numbers are allowed 7 characters. Therefore the Charge Master Upload has been modified to allow 7 character site numbers.
+
+Option: Load Host File into Charge Master \[IBCR HOST FILE LOAD\]
+
+## CHARGE MASTER REASONABLE CHARGES FACILITY TYPE DESIGNATION
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Each VA division is identified as a particular Facility Type for Reasonable Charges, either Provider Based or Non-Provider Based. This designation determines the charges loaded and available for use for that division.
+
+Non-Provider Based Freestanding Charges include Professional charges only.
+
+Provider Base Charges include Institutional and Professional charges for Inpatient, SNF and Outpatient care.
+
+There is the potential that a particular division's Facility Type may change which would require a complete new set of Reasonable Charges to be loaded for the new type. Previously this was only possible when a new version was released.
+
+A new option is added to allow a site's Facility Type to be changed at any time so it is no longer dependent on a version release. The current versions Reasonable Charges are inactivated and a new set loaded for the new Facility Type effective on a specified date.
+
+\>\>\> CBO must approve any Facility Type change.
+
+Option: RC Change Facility Type \[IBCR RC FACILITY TYPE\] (new)
+
+Menu: Charge Master IRM Menu \[IBCR CHARGE MASTER IRM MENU\] (link)
+
+### From: IB*2*494 Release Notes
+
+## Documentation Distribution
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Updated documentation describing the new functionality introduced by this
+
+patch is available.
+
+The preferred method is to FTP the files from REDACTED
+
+This transmits the files from the first available FTP server. Sites may
+
+also elect to retrieve software directly from a specific server as follows:
+
+Albany REDACTED REDACTED
+
+Hines REDACTED REDACTED
+
+Salt Lake City REDACTED REDACTED
+
+The documentation will be in the form of Adobe Acrobat files.
+
+Documentation can also be found on the VA Software Documentation Library at:
+
+http://www.va.gov/vdl/
+
+Title File Name FTP Mode
+
+--------------------------------------------------------------------
+
+IB Release Notes/ IB_2_0_P494_RN.PDF Binary
+
+Installation Guide (IB\*2.0\*494)
+
+*(This page included for two-sided copying.)*
+
+## Functional Specifications for Integrated Billing (IB)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Nightly Report for FSC
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Remove Nightly TaskMan Job
+
+The system no longer produced a download to send to FSC via option ePharmacy Shared Matches Report – TaskMan.
+
+The job was removed from the Task Manager schedule. The feature components, including code, were removed from the system.
+
+The original components were contained in patch IB\*2\*322 which was available in Attachment A of the Requirements Specification Document.
+
+This requirement pertains to decommissioned functionality.
+
+### View Insurance
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Remove "e-Pharmacy" from Insurance Company Enter/Edit
+
+The "EI Insurance Company Entry/Edit" option no longer displayed "e-Pharmacy" on the Payer Information line.
+
+The comma following e-IV was removed.
+
+This requirement pertains to decommissioned functionality.
+
+Payer Information: e-IV, e-Pharmacy
+
+Payer Name:
+
+VA National ID: CMS National ID:
+
+#### Remove the E-PHARM Payer Application Section
+
+The "EI Insurance Company Entry/Edit" option no longer displayed a Payer Application section of E-PHARM.
+
+This requirement pertains to decommissioned functionality.
+
+Before the enhancement:
+
+Payer Information: e-IV, e-Pharmacy
+
+Payer Name: EPHARM INSURANCE
+
+VA National ID: XX999 CMS National ID:
+
+Payer Application: E-PHARM FSC Auto-Update: NO
+
+National Active: YES Deactivated: NO
+
+Local Active: YES
+
+Payer Application: eIV FSC Auto-Update: NO
+
+National Active: YES Deactivated: NO
+
+Local Active: YES
+
+After the enhancement:
+
+Payer Information: e-IV
+
+Payer Name: EPHARM INSURANCE
+
+VA National ID: XX999 CMS National ID:
+
+Payer Application: eIV FSC Auto-Update: NO
+
+National Active: YES Deactivated: NO
+
+Local Active: YES
+
+### TPJI ECME Claim Information
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Display Cancelled Bill Information
+
+The ECME Claim Information Screen displayed information for cancelled bills.
+
+From option IBJ Third Party Joint Inquiry, action RX ECME Information displayed an additional line with information on cancelled bills above Payment Information. The reason was displayed next to the status. If a claim reversal did not exist, the screen did not display the additional line. In the header of the screen, an additional line that shows the AR status, original amount, and balance due was displayed.
+
+ECME Claim Information        Jan 28, 2013@10:06:53          Page:   1 of    2
+
+K300004e   OPTRICARE,ONE  O4789          DOB: 10/18/63   Subsc ID: SI9844532  
+
+AR Status: CANCELLATION             Orig Amt: 13.77      Balance Due: 0.00    
+
+IB Status: CANCELLED (01/18/13)  Reason: ECME PRESCRIPTION REVERSED Payment Information
+
+Ingredient Cost Paid: 55.70
+
+Dispensing Fee Paid: 12.50
+
+Patient Resp (Ins): (10.00)
+
+Expected Payment Amount: 68.32
+
+### Miscellaneous Decommissioned Functionality
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Remove Options from IBCNR E-PHARMACY Menu
+
+The IBCNR E-PHARMACY Menu no longer contained options for the following:
+
+> EHNF Edit HIPAA NCPDP FLAG
+
+> ENP Edit NCPDP PROCESSOR APPLICATION Subfile
+
+> EPAY Edit PAYER APPLICATION Subfile
+
+> EPBM Edit PBM APPLICATION Subfile
+
+> NON Drugs Non-Covered Report
+
+The data remained on the system for all options except "NON Drugs Non-Covered Report". The data for the Drugs Non-Covered Report is addressed in subsequent requirements.
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove Drugs Non-Covered Report
+
+The system no longer contained the IB Drugs Non-Covered Report.
+
+The option was removed from the system.
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove Drugs Non-Covered Recheck Period from Display
+
+Section 12 of the IB Site Parameters option did not contain a field for "Drug Non-Covered Recheck Period."
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove Non-Covered Reject Codes from display
+
+Section 12 of the IB Site Parameters option did not contain a field for "Non-Covered Reject Codes".
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove DRUG NON-COVERED RECHECK PERIOD field
+
+File IB SITE PARAMETERS FILE (350.9) no longer contained field DRUG NON-COVERED RECHECK PERIOD (11.02).
+
+The data was removed and the field was deleted.
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove NON-COVERED REJECT CODES field
+
+File IB SITE PARAMETERS FILE (350.9) no longer contained field NON-COVERED REJECT CODES (11) in subfile 350.912.
+
+The data was removed and the field was deleted and subfile.
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove file IB NDC NON-COVERED BY PLAN
+
+File IB NDC NON-COVERED BY PLAN (366.16) was removed from VistA.
+
+Remove the data and delete the data dictionary and all associated fields. This requirement pertains to decommissioned functionality.
+
+#### Remove reference to IB NDC NON-COVERED BY PLAN
+
+The VistA system no longer referenced file IB NDC NON-COVERED BY PLAN (366.16).
+
+IB Billing Determination was modified so that there was no check to see if the drug/plan was stored in file 366.16. (Note: the call to \$\$CHCK^IBNCDNC was removed.)
+
+This requirement pertains to decommissioned functionality.
+
+#### Modify DBIA# 5185
+
+The ECME system no longer referenced DBIA# 5185 to allow access to Integrated Billing data for file IB NDC NON-COVERED BY PLAN (366.16).
+
+The routine that referenced the DBIA (IBNCDNC) was removed.
+
+This requirement pertains to decommissioned functionality.
+
+#### Remove Decommissioned Routines
+
+The VistA system no longer contained routines for the Drugs Non-Covered functionality.
+
+The functionality was decommissioned and corresponding data were removed. Routines IBNCDNC and IBNCDNC1 were removed.
+
+This requirement pertains to decommissioned functionality.
+
+### Old TRICARE Processes
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Remove Old TRICARE Process
+
+The system no longer contained the components distributed for the old TRICARE Process.
+
+Prior to the ePharmacy project for electronically billable TRICARE claims, there were TRICARE processes in place to handle billing. The ePharmacy TRICARE project did not follow the same design as the original TRICARE process, and that original software was retired. The associated data remained on the system. The original components were contained in patch IB\*2\*52, which is available for reference in Attachment B of the Requirements Specification Document.
+
+This requirement pertains to decommissioned functionality.
+
+### From: IB*2*452 Release Notes
+
+### IB Billing Determination API
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+1.  Add IB support for CHAMPVA ePharmacy insurance and CHAMPVA patient eligibility, and process CHAMPVA ePharmacy prescriptions using the CHAMPVA rate type.
+
+### New Reason Not Billable
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+2.  Add a new Claims Tracking Reason Not Billable (RNB) for CHAMPVA, inpatient prescriptions.
+
+### Changes to ECME Billing Events Report
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+3.  Enhance the ECME Billing Events Report option \[IB ECME BILLING EVENTS\] as follows:
+- Add patient eligibility (VETERAN, TRICARE, CHAMPVA)
+- Display the NCPDP quantity and units when available and also the Billed quantity and units
+- Display a breakout of all fees and costs associated with each prescription
+- Display a breakout of the payer-reported amounts paid in the ECME response for each prescription
+
+### Bill Creation for Duplicate ECME Response
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+4.  Create a bill in IB and AR when a DUPLICATE ECME response is received and only when a non-cancelled bill with the same Rx#, fill#, and payer sequence doesn't already exist.
+
+### Inclusion of ECME# in Existing Displays
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+5.  Add the display of the ECME# to several existing reports, screens, and MailMan messages that currently only show the Rx#.
+
+### New Fields and Prompts in Existing Options
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+6.  Add fields and prompts for the Pharmacy Relationship Code and for the Pharmacy Person Code in both the Process Insurance Buffer \[IBCN INSURANCE BUFFER PROCESS\] option and in the Patient Insurance Info View/Edit \[IBCN PATIENT INSURANCE\] option.
+
+### New Claims Tracking Reason Not Billable
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+7.  Add a new Claims Tracking Reason Not Billable (RNB) for Auto-Reversals for Inpatient Prescriptions. Previous to this patch, the RNB for this situation was being filed by the system as OTHER.
+
+### New Service Requests (NSR)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> This patch addresses the following New Service Request (NSR):
+
+> -------------------------------------------------
+
+> Request Name: ePharmacy Claims Phase 6 (FY10)
+
+> Request ID: 20090215
+
+### Remedy Tickets
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> There are no Remedy Tickets associated with this patch.
+
+### From: IB*2*525 Release Notes
+
+### Tracking HPID Field Edits
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Patch IB\*2.0\*525 (HPID Build 3) contains the changes made to the BILL/CLAIMS File (#399) to track changes to the claim-level HPID Fields \#471, \#472, and \#473.
+
+### Manually Added HPIDs to Billing Claim Report
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Patch IB\*2.0\*525 (HPID Build 3) implements a menu option that runs an ad-hoc report listing Authorized claims that have had claim-level HPIDs added within a selected date range.
+
+### From: IB*2*550 Release Notes
+
+## System Feature: ROI Expiration Date
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Patient Release of Information \[IBCNR RELEASE OF INFORMATION\] action allows the user to enter any date for the expiration date. However, the expiration date cannot be earlier than the effective date. There is also a new ROI Expiration Report \[IBCNR ROI EXPIRATION REPORT\] available to users and is sorted by expiration date in reverse chronological order.
+
+## System Feature: TRICARE Copay
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The system does not create a TRICARE copay for a prescription if a TRICARE copay already exists.
+
+## System Feature: Display VA Plan ID
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Several options display the VA Plan ID instead of the Pharmacy Plan: Group Plan Worksheet Report \[IBCNR GROUP PLAN WORKSHEET\], Match Multiple Group Plans \[IBCNR GROUP PLAN MATCH\], and Match Group Plan to a Pharmacy \[IBCNR PLAN MATCH\].
+
+## System Feature: Billing Determination
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+IB Billing Determination uses the ePharmacy Billable fields to assess billable status and the Sensitive Diagnosis Drug field to assess sensitive diagnosis instead of using the DEA, Special HDLG field.
+
+## System Feature: Date of Service
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The back billing processes uses the same date of service algorithm used in outpatient pharmacy.
+
+## System Feature: Billing Event Log
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The IB Billing Event Log contains new drug file fields in the finish event for billing events that do not generate a claim because of non-billable determination.
+
+### From: IB*2*521 Release Notes
+
+## System Feature: EDI Transactions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### EDI Transactions – Validate the HPID/OEID and Health Plan Name
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The software provides the ability to validate the HPID/OEID and health plan name against the NIF.
+
+### EDI Transactions – Ensure the Legacy ID and HPID/OEID are Shared with Interfacing Systems 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The legacy ID and HPID/OEID are shared with systems that interface with VistA. The systems to be interfaced include but are not limited to: FSC (Financial Services Center) preprocessors, EEOB and Payment Healthcare Resolution Application (EPHRA), Health Care Clearinghouses and Medicare Administrative Contractors[^1].
+
+## System Feature: Reports/Screens
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Reports/Screens - Modify the following eBilling Reports to Include the HPID/OEID
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Modifications are made to the current Insurance Company EDI Parameter Report (EPR report) to display both the Payer ID and the HPID/OEID ID on this report.
+
+### Reports/Screens - Modify the following eInsurance Reports to Include the HPID/OEID 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The following eInsurance reports include the HPID/OEID ID:
+
+- Insurance Company EDI Parameter Report \[IBCN INSURANCE EDI REPORT\]
+- eIV Payer Link Report \[IBCNE IIV PAYER LINK REPORT\]
+
+[^1]: The legacy Payer IDs for the 837 is the EDI Professional ID and the EDI Institutional ID. The legacy Payer ID for the 835 (Electronic Remittance Advice/Electronic Funds Transfer) is the TIN (Tax ID).
+
+### From: IB*2*499 Release Notes
+
+## New Features and Fixed Previous Issues
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This enhancement encompasses modifications to Fee Basis, Registration, and Integrated Billing to facilitate the registration and authorization of newborns. Table 1 lists all of the New Features added by this enhancement.
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 88%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Number</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td colspan="2">FB*3.5*146</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Removes restrictions preventing the entry of a patient less than one year of age.</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Internal checks use the date of birth instead of age</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Adds reject code C166 to deny claims exceeding the 7 day authorization</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td><p>"NON-VA FOR FEMALE VET+NEWBORN 17.38" was added to the</p>
+<p>VA ADMITTING REGULATION file (#43.4). This new Admitting Regulation is available when editing the 7078.</p></td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Fee Authorization dates associated with Newborns have checks in place to not allow Authorization dates that fall outside the accepted range of Newborn Authorization. The range is DOB to DOB+7; the system will warn the user and not accept an Authorization date that falls outside the appropriate range for a Newborn.</td>
+</tr>
+<tr class="odd">
+<td colspan="2">DG*5.3*867</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><p>A new Patient Type of NEWBORN OF VET has been added to the</p>
+<p>TYPE OF PATIENT file (#391). This new selection will be available on Registration screen &lt;7&gt;.</p></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>A sponsor is required for all Newborns determined by having the DOB less than one (1) year from the present date. An inconsistency check has been added to check the presence of a sponsor. If an inconsistency is found, the inconsistency check will prompt the user to return to Screen &lt;15&gt; in registration to enter a Sponsor.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><p>All Sponsors for Newborns must be listed as eligible for care. An inconsistency check will check the status of the Sponsors Eligibility. The check will trigger if the Sponsor has no Eligibility status. The inconsistency check will return error <strong>313 Newborn Requires Sponsor</strong> (if you try to enter a newborn without a sponsor, you will get a 313 check message at the end of the registration) or error <strong>314 Newborn Needs Eligible Sponsor</strong> (adds ability to issue a standard authorization for pre-authorized medical care for newborn coverage through midnight of the 7th day past date of birth).</p>
+<p>All other statuses (i.e. Pending Verification, Verified, and Pending Re-verification) are acceptable.</p></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><p>The following default values were added when entering a Newborn:</p>
+<p>PATIENT DATA, SCREEN &lt;2&gt; – "Marital" field is defaulted to "NEVER MARRIED."</p>
+<p>APPLICANT/SPOUSE EMPLOYMENT DATA, SCREEN &lt;4&gt; - "Status" field is defaulted to "NOT EMPLOYED."</p>
+<p>FAMILY DEMOGRAPHIC DATA, SCREEN &lt;8&gt; - "Married Last Year" field is defaulted to "NO."</p></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>When a Veteran Mother of a Sponsored Newborn is reviewed in the Registration screens, Screen &lt;15&gt; will display the Newborn(s), with the additional header of "Sponsored Newborn".</td>
+</tr>
+<tr class="odd">
+<td colspan="2">IB*2.0*499</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>The FAMILY PREFIX "NB Newborn of Vet" has been added to the Help text in the Family Prefix field (#.03) in the SPONSOR RELATIONSHIP file (#355.81).</td>
+</tr>
+</tbody>
+</table>
+
+## Operation Changes
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Although sites are required to use FBCS to process claims, Newborn claim can ONLY be processed by VistA at this time. FBCS can NOT be used to process Newborn claims. Refer to the instructions in the Care for Newborn of Women Veterans located at REDACTED for processing Newborn claims.
+
+## Security Considerations
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This enhancement involves no new security changes.
+
+## Database Impact
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch bundle required the following modifications to Central Fee's system:
+
+- 29 defined as the new Purpose of Visit (POV) Code for Inpatient Newborn Care
+- 66 defined as the new POV Code for Outpatient Newborn Care
+- Acceptance of short term authorization for Newborn patients with POV codes 29 and 66
+- The inclusion of the new POV codes for Newborn Care on the following Central Fee reports:
+  - Report 60002 -- Fee Basis Payment Analysis
+  - Report 70001 -- Cost Analysis of Fee Basis Vouchers by Veterans and by Average Monthly Cost Range
+  - Report 70007 -- Fee Veterans -- Costs By Facility, State, County, and POV
+  - Report 70008 -- Fee Veterans -- Costs By VISN, Nation, and POV
+
+## Infrastructure Impact
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This enhancement involves no new hardware or the interfacing of any hardware.
+
+## Other Dependencies
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+There are no other dependencies for this enhancement.
+
+## Documentation Updated/Created
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch bundle updated the Fee Basis User Manual (fb3_5_um) and PIMS ADT Registration User Manual (dg_5_3_reg_um). Additionally, the document Care for Newborn of Woman Veterans, located REDACTED has been created.
+
+## Existing Issues and Workarounds
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+VistA MUST BE USED for this process. DO NOT use FBCS. Until FBCS can process Newborn claims, follow your local facility's VistA procedures. Refer to the instructions in the Care for Newborn Women of Veterans located at REDACTED for processing Newborn claims.
+
+### From: IB*2*534 Release Notes
+
+## Routine Information
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> The second line of each of these routines now looks like:
+
+> ;;2.0;INTEGRATED BILLING;\*\*\[Patch List\]\*\*;21-MAR-94;Build 18
+
+> The checksums below are new checksums, and can be checked with CHECK1^XTSUMBLD.
+
+> Routine Name: IB534PST
+
+> Before: n/a After: B14543577 \*\*534\*\* Routine Name: IBNCPDP1
+
+> Before:B191529259 After:B164054794 \*\*223,276,339,363,383,405,384,
+
+> 411,434,437,435,455,452,473,
+
+> 494,534\*\*
+
+> Routine Name: IBNCPDPU
+
+> Before:B122718985 After:B125879968 \*\*223,276,347,383,405,384,437,
+
+> 435,452,511,534\*\*
+
+> Routine Name: IBNCPEV3
+
+> Before: n/a After: B30560136 \*\*534\*\* Routine Name: IBNCPLOG
+
+> Before: B76075004 After: B83304395 \*\*342,339,363,383,411,435,452,534\*\*
+
+> Routine list of preceding patches: 494, 511
+
+### Background Logic Change to Billing Rules for Inpatient Claims
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### In order to allow all discharge medications to be billed, the billing rules for inpatient prescriptions were modified so that all inpatient prescriptions will be billed to the third party payer. Note that the inpatient auto reversal process of the BPS Nightly Background Job will continue to reverse inpatient claims if the patients are still in an inpatient status five days after the prescription fill date.
+
+### Background Logic Change to Billing Rules Exception Processing for TRICARE/CHAMPVA Patients with Environmental Indicators
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### The billing rules for processing claims with Environmental Indicators were changed:
+
+#### TRICARE/CHAMPVA claims with Environmental Indicators are filled but not billed to the third party insurance.
+
+#### Active Duty prescriptions are flagged for Environmental Indicators for patients whose Eligibility is TRICARE are filled and billed to TRICARE.
+
+### IB Routines and Databases Modified to Support the New ECME Non- Billable Status Report Option
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+#### Integrated Billing routines and databases were modified to support the new ECME Non-Billable Status Report \[BPS RPT NON-BILLABLE REPORT\] option. Please see the BPS\*1.0\*19 patch description for more information on this new report.
+
+### From: IB*2*688 Release Notes
+
+## Purpose
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+These release notes cover the changes to implement reports that would help billing users to identify patients that were treated under OTH authority and PP. This is to provide details about eligibility changes and VA care provided to these patients.
+
+## Audience
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This document targets billing users and administrators that review Former Service Member's and and PP episodes of care and released prescription details to determine if potential back-billing is necessary.
+
+## New Features and Functions Added
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The following are the features and functions added by IB\*2.0\*688:
+
+- Added new Presumptive Psychosis Reconciliation Report \[DG PRESUMP. PSYCH. RECON RPT\] menu option to Consolidated Patient Account Center (CPAC) Facility Revenue Billing Menu \[KPA FACILITY REVENUE BILLING\].
+
+> \* BEGIN SCREEN CAPTURE \*
+
+Select OPTION NAME: KPA FACILITY REVENUE BILLING CPAC Facility
+
+Revenue Billing Menu
+
+PPR Presumptive Psychosis Reconciliation Report
+
+Automated Means Test Billing Menu ...
+
+> Claims Status Awaiting Resolution
+
+> \* END SCREEN CAPTURE \*
+
+- Added new API "EN^IBEFSMUT" to the Integrated Billing application.
+
+Listed below are the details on accessing this entry point and the data that should be returned.
+
+ROUTINE: IBEFSMUT
+
+COMPONENT: EN(DFN,BEGDT,ENDDT,LIST)
+
+VARIABLES: Both DFN
+
+Internal entry number from the PATIENT file (#2)
+
+\[required\]
+
+VARIABLES: Input BEGDT
+
+EVENT DATE Beginning Date \[required\]
+
+VARIABLES: Input ENDDT
+
+EVENT DATE Ending Date \[required\]
+
+VARIABLES: Both LIST
+
+Subscript name used in the ^TMP global \[required\]
+
+EN^IBEFSMUT(DFN,BEGDT,ENDDT,LIST)
+
+Input:
+
+DFN
+
+BEGDT
+
+ENDDT
+
+LIST
+
+FILE \#350 OUTPUT:
+
+^TMP(\$J,LIST,FILENO,DFN,0)=Total entries or -1^NO
+
+DATA FOUND
+
+^TMP(\$J,LIST,FILENO,DATE,DFN,RECCNT)=ACTION
+
+TYPE^BILLING GROUP^IEN^BILL NUMBER^RESULTING
+
+FROM^TOTAL CHARGE^STATUS^INSTITUTION^CLINIC
+
+STOP^USER LAST UPDATING
+
+Where:
+
+LIST = Subscript name used in the ^TMP global
+
+FILENO = File \#350, this is to distinguish where
+
+records coming from
+
+DATE = Event Date (I:350,.17)
+
+DFN = IEN from the PATIENT File(#2)
+
+RECCNT = Record counter
+
+1^2^3^4^5^6^7^8^9^10, where:
+
+1 = ACTION TYPE (E;350,.03)
+
+2 = BILLING GROUP (I;350.1,.11)
+
+> **NOTE:** NULL is returned if there is no BILLING
+
+GROUP
+
+3 = IEN from INTEGRATED BILLING file (#350)
+
+4 = AR BILL NUMBER (E;350,.11)
+
+> **NOTE:** NULL is returned if there is no AR BILL
+
+NUMBER
+
+5 = RESULTING FROM (I;350,.04)
+
+> **NOTE:** If RESULTING FROM 2ND ^ piece ":"=350,
+
+the format will be:
+
+RESULTING FROM;DATE BILLED FROM(I;350,.14):
+
+COPAYMENT TIER (I;350,.22)
+
+6 = TOTAL CHARGE (E;350,.07)
+
+7 = STATUS (E;350,.05)
+
+8 = INSTITUTION (IE;350,.13)
+
+9 = CLINIC STOP(IE;350,.2)
+
+> **NOTE:** NULL is returned if there is no CLINIC
+
+STOP
+
+10 = USER LAST UPDATING (E;350,13)
+
+FILE \#399 OUTPUT:
+
+^TMP(\$J,LIST,FILENO,DFN,0)=Total entries or -1^NO
+
+DATA FOUND
+
+^TMP(\$J,LIST,FILENO,DATE,DFN,RECCNT)=RATE
+
+TYPE^IEN^RATE TYPE NAME^IEN^BILL NUMBER^RESULTING
+
+FROM^CHARGES^STATUS
+
+Where:
+
+LIST = Subscript name used in the ^TMP global
+
+FILENO = File \#399, this is to distinguish where
+
+the records coming from
+
+DATE = Event Date (399,.03)
+
+DFN = IEN from the PATIENT File (#2)
+
+RECCNT = Record Counter
+
+1^2^3^4^5^6^7^8^9^10, where
+
+1 = BILL CLASSIFICATION (I;399,.05)
+
+2 = RATE TYPE NAME (E;399,.07)
+
+3 = IEN from BILL/CLAIMS file (#399)
+
+4 = BILL NUMBER (E;399,.01)
+
+5 = RESULTING FROM, will be in the format of:
+
+If inpatient bill, the format will be:
+
+BILL TYPE:BILL CLASSIFICATION(E;399,.05)
+
+> **NOTE:** BILL TYPE=1 if inpatient bill
+
+BILL TYPE=0 if outpatient bill
+
+BILL TYPE=3 if Rx bill
+
+If outpatient bill, the format will be:
+
+TYPE (I;399.042,.1):BILL
+
+CLASSIFICATION(E;399,.05):BILL TYPE
+
+If Rx bill, the format will be:
+
+BILL TYPE:BEDSECTION(E;399.042,.05):RXIEN
+
+(I;362.4,.05):
+
+RXNUMBER (E;362.4,.01):RXFILL
+
+NUMBER(I;362.4,.1):RXSTATUS(52,100)
+
+6 = CHARGES
+
+> **NOTE:** If inpatient bill, CHARGES will be extracted
+
+in 399,201
+
+If outpatient/Rx bill, CHARGES will be
+
+extracted in 399.042,.04
+
+7 = STATUS (E;399,.13)
+
+8 = DIVISION(I;399,.22)
+
+9 = ENTERED/EDITED BY (E;399,2)
+
+10 = PTFIEN (I;399,.08)
+
+> **NOTE:** If inpatient bill, this ^piece contain
+
+the PTF ENTRY NUMBER
+
+If outpatient bill, this ^piece contain
+
+the outpatient
+
+encounter IEN
+
+Otherwise, NULL is returned.
+
+## Enhancements and Modifications to Existing
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+None at this time.
+
+## Known Issues
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+None at this time.
+
+## Product Documentation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The following documents are located at the VA Software Document Library and apply to this release:
+
+- Deployment, Installation, Back-out, and Rollback Guide
+- Integrated Billing V. 2.0 User Manual
+
+### From: IB*2*476 Release Notes
+
+### IB\*2.0\*476
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### December 2012
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Version 1.3 Department of Veterans Affairs
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Office of Information and Technology (OIT) Product Development
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+### Revision History
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 11%" />
+<col style="width: 44%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><blockquote>
+<p><strong>Date</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Version</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Description</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Author</strong></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p>July 2012</p>
+</blockquote></td>
+<td><blockquote>
+<p>1.0</p>
+</blockquote></td>
+<td><blockquote>
+<p>Initial document creation</p>
+</blockquote></td>
+<td><blockquote>
+<p>REDACTED</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>November 2012</p>
+</blockquote></td>
+<td><blockquote>
+<p>1.1&amp;1.2</p>
+</blockquote></td>
+<td><blockquote>
+<p>Updated overview</p>
+</blockquote></td>
+<td><blockquote>
+<p>REDACTED</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>December 2012</p>
+</blockquote></td>
+<td><blockquote>
+<p>1.3</p>
+</blockquote></td>
+<td><blockquote>
+<p>Updated from patch return</p>
+</blockquote></td>
+<td><blockquote>
+<p>REDACTED</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+> ii Integrated Billing IB\*2.0\*476 Release Notes December 2012
+
+## Modified input transform routines.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> The input transforms on two fields in the IB NON/OTHER VA BILLING PROVIDER FILE (#355.93) file were modified to allow the Fee Basis Payment to IB \[FB PAID TO IB\] background job make updates to the fields:
+
+> PRVFMT^IBCEP8 was modified for the NAME (#.01) field NPIUSED^IBCEP81 was modified for the NPI (#41.01) field
+
+## A new API was created to be used by Fee Basis for automating IB provider edits.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> A new routine IBCEP8C contains the API EPFBAPI that is called by the Fee Basis Payment to IB \[FB PAID TO IB\] background job to add/edit IB providers. Supporting functions include a lookup of existing records in the IB NON/OTHER VA BILLING PROVIDER FILE (#355.93) file using the NPI provided by Fee Basis records. Other functions include the ability to compare and update a matched record when required, and functions to create a new entry. The new field (#50) DATE/TIME LAST FB UPDATE is edited during the automated process to allow tracking and reporting of IB providers edited by Fee Basis.
+
+## Allow IB users to turn off automated edits to specific IB Non-VA Providers.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> Routines IBCEP8 and IBCEP8B have been modified to display and update a new multiple valued field, DATE/TIME ALLOW FB UPDATE (#51) in the IB NON/OTHER VA BILLING
+
+> PROVIDER FILE (#355.93) file. A new routine, IBCEP8C1 provides supporting code for this functionality. The new field allows an IB user to 'allow' or 'disallow' automated updates from Fee Basis. The modified routines are accessed by the IB Non-VA Provider ID Maintenance screens in IB.
+
+## Provide tracking and audit reports for the Fee Basis to IB Provider automation.
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> A new menu option, IB Provider From FB Reports Menu \[IB PROVIDER FROM FB RPTS MENU\] has been created that contain two new reporting options that provide tools to locate and display information about records modified or created by the FB PAID TO IB interface for a date range. This menu is not available on any existing IB menus, but could be added to a menu or secondary menu for an IB user or supervisor. The report options available on this menu are:
+
+> Non-VA Provider From FB Summary Report \[IB PROVIDER FROM FB SUMMARY\] Non-VA Provider From FB Detail Report \[IB PROVIDER FROM FB DETAIL\]
+
+> 2 Integrated Billing IB\*2.0\*476 Release Notes December 2012

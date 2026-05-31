@@ -3,7 +3,7 @@ title: AICS Version 3 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: IBD
 patch_ver: 3
 patch_id: IBD*3
-group_key: "IBD:IBD:3"
-file_numbers: []
-security_keys: []
+group_key: IBD:IBD:3
+description: '- Critical Elements of a Scannable Form - [New'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '11'
+- '13'
+- '357.09'
+- '357.1'
+- '359.3'
+- '409.95'
+security_keys:
+- IBD MANAGER
 menu_options: 0
-description: - [Critical Elements of a Scannable Form](#critical-elements-of-a-scannable-form) - [New Options](#new-options) ![](aics-version-3-release-notes/001.png) aUTOMATED iNFORMATIONCOLLECTION SYSTEMAICSRELEASE NOTES April 1997 Health Systems Design & Development (HSD&D) Table of Contents I. Introduction 1
-audience: 
-keywords: 
-  - form
-  - aics
-  - paper
-  - keyboard
-  - workstation
-  - forms
-  - scanner
-  - scanning
-  - software
-  - image
 page_count: 0
 word_count: 7569
 section_count: 1
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0rl.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0rl.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0rl.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0rl.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

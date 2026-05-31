@@ -3,60 +3,38 @@ title: National Clozapine Registry Deployment, Installation, Back-out, and Rollb
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: NCR
-app_name: "Registry: National Clozapine Coordination"
+app_name: 'Registry: National Clozapine Coordination'
 section: CLI
 app_status: active
 pkg_ns: NCR
 patch_ver: 5.01
 patch_id: NCR*5.01
-group_key: "NCR:NCR:5.01"
+group_key: NCR:NCR:5.01
+description: This document describes how to deploy and install the National Clozapine Registry (NCR) VistA patch YS\5.01\277, as well as how to back-out the product and rollback to a previous version or data set.
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: This document describes how to deploy and install the National Clozapine Registry (NCR) VistA patch YS\5.01\277, as well as how to back-out the product and rollback to a previous version or data set.
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - installation
-  - rollback
-  - deployment
-  - patch
-  - procedure
-  - class
-  - span
 page_count: 0
-word_count: 2703
+word_count: 2687
 section_count: 33
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=236"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=236
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  National Clozapine Registry
-
-  VistA Mental Health Package
-
-  Deployment, Installation, Back-out,  
-  and Rollback Guide
-
-  YS\*5.01\*227
----
-
 ![](national-clozapine-registry-deployment-installation-back-out-and-rollback-guide-/001.png)
 
 # April 2024

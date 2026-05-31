@@ -11,47 +11,35 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*588
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - cprs
-  - contents
-  - installation
-  - back
-  - rollback
-  - chart
-  - procedure
-  - deployment
-  - vista
+group_key: CPRS:OR:3.0
+description: This document describes the Deployment, Installation, Back-out, and Rollback Plan for new products going into the VA Enterprise. The plan includes information about system support, issue tracking, escalation processes, and roles and responsibilities involved in all those activities. Its purpose is...
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '3'
+- '19'
+- '100'
+security_keys:
+- OR CPRS TESTER
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 4203
+word_count: 4184
 section_count: 34
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_588_dibr_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_588_dibr_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_588_dibr_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_588_dibr_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>CPRS v32c (OR\*3.0\*588)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBOR)
----
-
 ![](or-3-0-588-cprs-v32c-deployment-installation-back-out-and-rollback-guide/001.png)
 
 October 2023

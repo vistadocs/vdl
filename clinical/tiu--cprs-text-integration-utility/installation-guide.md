@@ -5,44 +5,37 @@ doc_label: Installation Guide
 doc_layer: plain
 doc_subject: TIU/ASU
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: TIU
+patch_ver: null
+patch_id: null
+group_key: null
 description: TEXT INTEGRATION UTILITIES (TIU)&AUTHORIZATION/SUBSCRIPTION UTILITY (ASU)INSTALLATION GUIDE
-audience: 
-keywords: 
-  - strong
-  - class
-  - table
-  - template
-  - install
-  - filed
-  - notes
-  - installation
-  - print
-  - style
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '8925'
+security_keys:
+- CLINICIAN
+menu_options: 1
 page_count: 0
 word_count: 6774
 section_count: 6
 table_count: 20
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 ![](tiu-asu-installation-guide/001.png)

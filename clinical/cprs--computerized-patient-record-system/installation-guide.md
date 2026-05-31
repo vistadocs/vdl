@@ -3,46 +3,55 @@ title: CPRS Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: OR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| | | | | | |----------|-------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------|------------------------------------| | Date | Page | Change | Project Manager | Technical Writer | |...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.2'
+- '3.54'
+- '53.1'
+- '55'
+- '60'
+- '69.9'
+- '100'
+- '100.9'
+- '101'
+- '120.84'
+- '123.5'
+- '124'
+- '200'
+security_keys:
+- CLINICIAN
+- ORELSE
+- OREMAS
+- ORES
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - cprs
-  - orders
-  - contents
-  - install
-  - table
-  - cmop
-  - consults
-  - installation
-  - date
 page_count: 0
 word_count: 20156
 section_count: 32
 table_count: 21
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2007
 revision_count: 17
 revision_newest: 4/30/07
 revision_oldest: 10/14/98
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/cprsig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 ![](cprs-installation-guide/001.png)

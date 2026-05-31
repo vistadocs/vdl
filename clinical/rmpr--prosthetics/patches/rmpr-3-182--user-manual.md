@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*182
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual
-audience: 
-keywords: 
-  - href
-  - suspense
-  - mark
-  - rmpr
-  - class
-  - style
-  - width
-  - record
-  - redacted
-  - processing
+menu_options: 1
 page_count: 0
 word_count: 359
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_182.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_182.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_182.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_182.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsPROSTHETICS ELECTRONIC ORDER / SUSPENSE PROCESSINGUser Manual

@@ -3,7 +3,7 @@ title: IVM Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IVM
 app_name: Income Verification Match
 section: FIN
@@ -11,38 +11,41 @@ app_status: active
 pkg_ns: IVM
 patch_ver: 2
 patch_id: IVM*2
-group_key: "IVM:IVM:2"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: IVM:IVM:2
 description: This package contains all of the routines, files, and options necessary to support the Means Test verification process in conjunction with the IVM Center. Also included in this package are all required modifications to Patient Information Management System (PIMS) and Integrated Billing (IB) that are
-audience: 
-keywords: 
-  - ivmin
-  - filed
-  - installation
-  - protocol
-  - blockquote
-  - upload
-  - routine
-  - ibamtv
-  - ivmld
-  - test
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '2.0'
+- '301.9'
+- '350'
+- '350.21'
+- '408.31'
+- '408.34'
+- '408.42'
+- '771'
+- '771.3'
+security_keys:
+- IVM SYS
+- IVM UPLOAD
+menu_options: 1
 page_count: 0
 word_count: 2348
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=44"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=44
+audit_applied: '2026-05-31'
 ---
 
 ![](ivm-version-2-installation-guide/001.png)

@@ -11,38 +11,36 @@ app_status: archive
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
+group_key: ADT:ADT:5.3
+description: The PIMS User Manual is divided into modules, ADT and Scheduling. The PIMS ADT User Manual provides instructional guidance to a broad range of users within VA medical facilities in daily use of the Admission-Discharge-Transfer (ADT) Module of the PIMS software.
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '27.11'
+- '29.11'
+- '39.1'
+- '39.3'
+- '43'
+- '100.21'
 security_keys: []
 menu_options: 0
-description: The PIMS User Manual is divided into modules, ADT and Scheduling. The PIMS ADT User Manual provides instructional guidance to a broad range of users within VA medical facilities in daily use of the Admission-Discharge-Transfer (ADT) Module of the PIMS software.
-audience: 
-keywords: 
-  - patient
-  - enrollment
-  - table
-  - report
-  - test
-  - status
-  - code
-  - date
-  - class
-  - manual
 page_count: 0
 word_count: 12928
 section_count: 23
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adtbe_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adtbe_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adtbe_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adtbe_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

@@ -5,44 +5,55 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: (PSS*1*262)
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 3.0
 patch_id: PSS*3.0*262
-group_key: "PSS:PSS:3.0"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:3.0
+description: PSJ\*5\*447, PSO\*7\*737, and OR\*3\*626 (MOCHA 3.0 PGX Combined Build
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '6'
+- '18.02'
+- '18.12'
+- '46'
+- '47'
+- '50'
+- '50.416'
+- '50.68'
+- '51.26'
+- '51.263'
+- '51.28'
+- '51.29'
+- '59.7'
+- '100.05'
+- '100.3'
+- '100.8'
+- '103'
+security_keys:
+- PSJI MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - check
-  - table
-  - pharmacogenomic
-  - contents
-  - drug
-  - interaction
-  - checks
-  - phenotype
-  - pharmacy
 page_count: 0
 word_count: 2974
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_0_P262_RN.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_0_P262_RN.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_0_P262_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_0_P262_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](mocha-version-3-0-release-notes-pss-1-262/001.png)

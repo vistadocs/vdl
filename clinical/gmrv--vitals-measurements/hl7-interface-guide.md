@@ -8,41 +8,32 @@ app_code: GMRV
 app_name: Vitals/Measurements
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: GMRV
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| | | | |------------|----------------------------------|------------------------------------| | Date | Description | Author | | 6/8/2005 | Created interface specifications | REDACTED | | 6/13/2005 | Edited content | REDACTED | | 6/27/2005 | Minor content modification | REDACTED | | 10/18/2005 |...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vendor
-  - table
-  - contents
-  - vitals
-  - software
-  - result
-  - monitor
-  - requirements
-  - units
-  - application
 page_count: 0
 word_count: 2476
 section_count: 13
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2005
 revision_count: 4
 revision_newest: 10/18/2005
 revision_oldest: 6/8/2005
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/portable_vitals_monitor_interface_specs.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/portable_vitals_monitor_interface_specs.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=107"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/portable_vitals_monitor_interface_specs.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/portable_vitals_monitor_interface_specs.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
 ---
 
 ![](portable-vital-signs-monitors-interface-specifications/001.png)

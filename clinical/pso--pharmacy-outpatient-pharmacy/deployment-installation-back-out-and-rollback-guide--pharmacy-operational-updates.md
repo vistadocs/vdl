@@ -1,23 +1,49 @@
 ---
-consolidated_title: "pharmacy operational updates deployment, installation, back-out, and rollback guide"
-app_code: PSO
+title: PSO*7*684 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide
 doc_type: DIBR
-master_source: "PSO*7*684 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Pharmacy Operational Updates
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7*684
+group_key: PSO:PSO:7
+file_numbers: []
+security_keys:
+- XUPROG
+- XUPROGMODE
+menu_options: 0
+description: '| Date | Version | Description | Author | |------------|-------------|-----------------|----------------------| | 07/25/2022 | 1.0 | Initial Version | Liberty IT Solutions'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2942
+section_count: 30
+table_count: 6
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: August 2022
+revision_count: 1
+revision_newest: 07/25/2022
+revision_oldest: 07/25/2022
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p684_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p684_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7*684 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide
 master_pub_date: August 2022
 consolidated_from: 4 versions
 prior_versions:
-  - "PSO*7.0*667 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide"
-  - "PSO*7*676 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide"
-  - "PSO*7*701 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Operational Updates (POU)
-
-  PSO\*7.0\*684
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- PSO*7.0*667 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide
+- PSO*7*676 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide
+- PSO*7*701 Pharmacy Operational Updates Deployment, Installation, Back-out, and Rollback Guide
+consolidated_title: pharmacy operational updates deployment, installation, back-out, and rollback guide
 ---
 
 ![](pso-7-684-pharmacy-operational-updates-deployment-installation-back-out-and-roll/001.png)
@@ -86,7 +112,7 @@ Table of Contents
   - [Authority for Rollback](#authority-for-rollback)
   - [Rollback Procedure](#rollback-procedure-1)
   - [Rollback Verification Procedure](#rollback-verification-procedure)
-This document describes how to install the Pharmacy Operational Updates (POU) project’s VistA Patch PSO\*7.0\*684, as well as how to back-out the patch and rollback to a previous version or data set. This patch, in conjunction with Outpatient Pharmacy patch PSO\*7.0\*684, implements enhancements to VistA Drug Enforcement Agency (DEA) functionality. This patch primarily contains updates to data dictionaries that store DEA related information.
+This document describes how to install the Pharmacy Operational Updates (POU) project's VistA Patch PSO\*7.0\*684, as well as how to back-out the patch and rollback to a previous version or data set. This patch, in conjunction with Outpatient Pharmacy patch PSO\*7.0\*684, implements enhancements to VistA Drug Enforcement Agency (DEA) functionality. This patch primarily contains updates to data dictionaries that store DEA related information.
 
 ## Purpose
 
@@ -132,7 +158,7 @@ Table 3: Deployment/Installation/Back-Out Checklist
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The deployment is planned as a national general availability release. The scheduling of test/mirror installs, testing, and the deployment to production will be at the sites’ discretion.
+The deployment is planned as a national general availability release. The scheduling of test/mirror installs, testing, and the deployment to production will be at the sites' discretion.
 
 A National Release is planned after testing has been successfully completed at initial operating capability (IOC) test sites.
 
@@ -231,7 +257,7 @@ This product is a VistA patch. The only pre-installation and system requirements
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This product is a VistA patch. Sites should install patches into the test/mirror/pre-prod accounts before the production account as is the normal VistA patch installation standard convention. When installing any VistA patch, sites should utilize the option “Backup a Transport Global” in order to create a backup message of any routines exported with this patch. Post-installation checksums are found in the Patch Description and in Forum NPM.
+This product is a VistA patch. Sites should install patches into the test/mirror/pre-prod accounts before the production account as is the normal VistA patch installation standard convention. When installing any VistA patch, sites should utilize the option "Backup a Transport Global" in order to create a backup message of any routines exported with this patch. Post-installation checksums are found in the Patch Description and in Forum NPM.
 
 ## Download and Extract Files
 
@@ -261,7 +287,7 @@ Cron scripts are not applicable for this VistA patch.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option “Kernel Installation & Distribution System” \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill*.*
+To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option "Kernel Installation & Distribution System" \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill*.*
 
 ## Installation Procedure
 
@@ -342,7 +368,7 @@ Back-Out pertains to a return to the last known good operational state of the so
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Prior to installing the updated KIDS package, the site/region should have saved a backup of the routines in a mail message using the Backup a Transport Global \[XPD BACKUP\] menu option. The message containing the backed-up routines can be loaded with the “Xtract PackMan” function at the Message Action prompt. The PackMan function INSTALL/CHECK MESSAGE is then used to install the backed-up routines onto the VistA system.
+Prior to installing the updated KIDS package, the site/region should have saved a backup of the routines in a mail message using the Backup a Transport Global \[XPD BACKUP\] menu option. The message containing the backed-up routines can be loaded with the "Xtract PackMan" function at the Message Action prompt. The PackMan function INSTALL/CHECK MESSAGE is then used to install the backed-up routines onto the VistA system.
 
 The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
 
@@ -354,7 +380,7 @@ Although it is unlikely due to care in collecting approved requirements, Softwar
 
 It is necessary to determine if a back-out of the patch PSO\*7.0\*684 is needed, or if issues may be adequately addressed via a new version of the patch (if prior to National Release) or through a subsequent patch (if after National Release).
 
-A back-out of the patch will require a new test version (if prior to National Release) or a subsequent patch (if after National Release). If the back-out is post-release of patch PSO\*7.0\*684, patch PSO\*7.0\*684 should be assigned status of “Entered in Error” in Forum’s NPM.
+A back-out of the patch will require a new test version (if prior to National Release) or a subsequent patch (if after National Release). If the back-out is post-release of patch PSO\*7.0\*684, patch PSO\*7.0\*684 should be assigned status of "Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -386,7 +412,7 @@ Any back-out decision should be a joint decision of the Business Owner (or their
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The back-out plan for VistA applications is complex and not a “one size fits all” solution. The general strategy for a VistA back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a Nationally Released patch.
+The back-out plan for VistA applications is complex and not a "one size fits all" solution. The general strategy for a VistA back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a Nationally Released patch.
 
 If it is prior to National Release, the site will be already working directly with the development team and should contact that team. The development team members will have been identified in the Initial Operating Capability (IOC) Memorandum of Understanding (MOU). As discussed in section 5.2, it is likely that the development team can quickly address via a new software version. If the site is unsure whom to contact, they may log a ticket or contact Health Product Support - Management Systems Team.
 
@@ -409,7 +435,7 @@ Patch PSO\*7.0\*684 installs the following options:
 |--------------------------|----------------------|------------------|
 | PSO DEA MIGRATION REPORT | DEA Migration Report | New              |
 
-While the VistA KIDS installation procedure allows the installer to back up the modified routines using the ‘Backup a Transport Global’ action, the back-out procedure for global, data dictionary and other VistA components is more complex and requires issuance of a follow-up patch to ensure all components are properly removed and/or restored. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. Please contact the EPMO team for assistance since this installed patch contains components in addition to routines.
+While the VistA KIDS installation procedure allows the installer to back up the modified routines using the 'Backup a Transport Global' action, the back-out procedure for global, data dictionary and other VistA components is more complex and requires issuance of a follow-up patch to ensure all components are properly removed and/or restored. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. Please contact the EPMO team for assistance since this installed patch contains components in addition to routines.
 
 ## Back-out Verification Procedure
 

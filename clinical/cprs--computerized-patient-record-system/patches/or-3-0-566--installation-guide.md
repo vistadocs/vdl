@@ -11,47 +11,33 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*566
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3.0
+description: '''8/13/2021 0.14 19 OR*3*566 (Informational Patch): In the Configure Exception Parameters section, removed the CPRS parameters (OR CPRS EXCEPTION EMAIL, OR CPRS EXCEPTION LOGGER, OR CPRS EXCEPTION PURGE) and replaced them with PRT parameters. CPRS Development'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '100'
+security_keys:
+- OR PRT ACCESS
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - provider
-  - install
-  - tool
-  - role
-  - back
-  - task
-  - test
 page_count: 0
-word_count: 6847
+word_count: 6828
 section_count: 34
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_566_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_566_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_566_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_0_566_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk527034419" class="anchor"></span>Provider Role Tool (PRT)
-
-  Deployment, Installation, Back-Out, and Rollback Guide (OR\*3\*566)  
----
-
 ![](or-3-0-566-provider-role-tool-installation-guide/001.png)
 
 August 2021

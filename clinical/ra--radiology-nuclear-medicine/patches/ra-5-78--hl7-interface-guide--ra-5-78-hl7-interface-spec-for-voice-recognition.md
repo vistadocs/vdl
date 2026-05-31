@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*78
-group_key: "RA:RA:5"
-file_numbers: []
+group_key: RA:RA:5
+description: Radiology/Nuclear Medicine V. 5 Health Level 7 (HL7) Interface Specifications for Voice Recognition Dictation Systems
+audience: ''
+keywords: []
+file_numbers:
+- '78.3'
 security_keys: []
 menu_options: 0
-description: Radiology/Nuclear Medicine V. 5 Health Level 7 (HL7) Interface Specifications for Voice Recognition Dictation Systems
-audience: 
-keywords: 
-  - message
-  - table
-  - contents
-  - segment
-  - definition
-  - report
-  - order
-  - time
-  - class
-  - observation
 page_count: 0
 word_count: 7374
 section_count: 11
 table_count: 28
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1999
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is_vr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is_vr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=98"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is_vr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med/ra5_0hl7is_vr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=98
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-78-hl7-interface-spec-for-voice-recognition/001.png)

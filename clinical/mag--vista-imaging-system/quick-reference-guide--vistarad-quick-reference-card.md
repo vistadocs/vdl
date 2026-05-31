@@ -3,52 +3,38 @@ title: VistARad Quick Reference Card
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Manager Basics - Opening an Exam - What if... - Types of Exam Lists - Keyboard Shortcuts - Exam Display - Using ReadList - Viewport Controls...'
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "--- title: \\"VistARad Quick Reference <img src=\\\"/tmp/tmpunkishwd/raw-images/media/image1.jpeg\\\" style=\\\"width:0.70871in;height:0.40084in\\\" alt=\\\"Sheet.82\\\" />\\" ---"
-audience: 
-keywords: 
-  - contents
-  - table
-  - exam
-  - vistarad
-  - quick
-  - reference
-  - card
-  - image
-  - readlist
-  - thumbnail
 page_count: 0
-word_count: 719
+word_count: 699
 section_count: 10
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_quick_reference_card.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_quick_reference_card.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_quick_reference_card.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_quick_reference_card.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
-
----
-title: "VistARad Quick Reference <img src=\"/tmp/tmpunkishwd/raw-images/media/image1.jpeg\" style=\"width:0.70871in;height:0.40084in\" alt=\"Sheet.82\" />"
----
-
 # Manager Basics
 
 

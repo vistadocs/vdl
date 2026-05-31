@@ -5,44 +5,35 @@ doc_label: Installation Guide
 doc_layer: anchor
 doc_subject: Install Guide
 app_code: PREM
-app_name: "Pharmacy: Medication Order Check Healthcare Application (MOCHA)"
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
 section: GUI
 app_status: active
 pkg_ns: PREM
 patch_ver: 1.1.01
 patch_id: PREM*1.1.01
-group_key: "PREM:PREM:1.1.01"
+group_key: PREM:PREM:1.1.01
+description: Medication Order Check Healthcare Application (MOCHA)
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [# Purpose](#purpose) - [Un-Deploy Old MOCHA Server Build](#un-deploy-old-mocha-server-build) - [Deploy New MOCHA Server Build](#deploy-new-mocha-server-build) - [Backout Plan](#backout-plan) The purpose of this Install guide is to provide instructions for the deployment of the PRE MOCHA Server ap
-audience: 
-keywords: 
-  - mocha
-  - server
-  - figure
-  - install
-  - deployment
-  - weblogic
-  - console
-  - panel
-  - application
-  - guide
 page_count: 0
 word_count: 1535
 section_count: 1
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2013
 revision_count: 5
 revision_newest: 09/12/2013
 revision_oldest: 03/01/2012
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_1_1_p1_mocha_server_v1-1-01_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_1_1_p1_mocha_server_v1-1-01_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=201"
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_1_1_p1_mocha_server_v1-1-01_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/prem_1_1_p1_mocha_server_v1-1-01_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
 ---
 
 Pharmacy Reengineering

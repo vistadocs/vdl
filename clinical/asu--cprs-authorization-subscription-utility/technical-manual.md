@@ -3,46 +3,46 @@ title: ASU Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: ASU
-app_name: "CPRS: Authorization Subscription Utility"
+app_name: 'CPRS: Authorization Subscription Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: USR
+patch_ver: null
+patch_id: null
+group_key: null
+description: Implementation & Maintenance
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '200'
+- '8925.1'
+- '8930'
+- '8930.1'
+- '8930.2'
+- '8930.4'
+- '8930.6'
+- '8930.8'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - class
-  - contents
-  - blockquote
-  - classes
-  - style
-  - width
-  - membership
-  - access
-  - exported
 page_count: 0
 word_count: 1608
 section_count: 9
 table_count: 7
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asutm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asutm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=58"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asutm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asutm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=58
+audit_applied: '2026-05-31'
 ---
 
 ![](asu-technical-manual/001.png)

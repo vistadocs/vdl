@@ -1,13 +1,48 @@
 ---
-consolidated_title: "release notes cprs gui"
-app_code: CPRS
+title: OR*3*296 Release Notes CPRS GUI 27.9
 doc_type: RN
-master_source: "OR*3*296 Release Notes CPRS GUI 27.9"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: CPRS GUI 27.9
+app_code: CPRS
+app_name: Computerized Patient Record System
+section: CLI
+app_status: active
+pkg_ns: OR
+patch_ver: 3
+patch_id: OR*3*296
+group_key: CPRS:OR:3
+file_numbers: []
+security_keys:
+- ORES
+- PROVIDER
+menu_options: 2
+description: '''Below is a list of patches that you must verify are properly installed on your system before OR\\3.0\\296 can be installed:'''
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 8135
+section_count: 0
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: August 2009
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_296rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
+master_source: OR*3*296 Release Notes CPRS GUI 27.9
 master_pub_date: August 2009
 consolidated_from: 3 versions
 prior_versions:
-  - "OR*3*270 Release Notes CPRS GUI Version 26"
-  - "OR*3*312 Release Notes CPRS GUI"
+- OR*3*270 Release Notes CPRS GUI Version 26
+- OR*3*312 Release Notes CPRS GUI
+consolidated_title: release notes cprs gui
 ---
 
 ![](or-3-296-release-notes-cprs-gui-27-9/001.png)
@@ -50,11 +85,11 @@ In CPRS v.26, if you asked to view microbiology results on the Labs tab, you vie
 
 Resolution: Developers changed the maximum back to 100 for both Labs and Reports tabs.
 
-- PSPO 1082: IV Orders Were Coming across Differently in Pharmacy Package – Previously, when a user entered “IN” in Infusion Order dialog’s Type filed, CPRS correctly displayed “Intermittent”, but when a pharmacy user finished the order, the Intravenous (IV) order defaulted to “Admixture”, which was incorrect.
+- PSPO 1082: IV Orders Were Coming across Differently in Pharmacy Package – Previously, when a user entered "IN" in Infusion Order dialog's Type filed, CPRS correctly displayed "Intermittent", but when a pharmacy user finished the order, the Intravenous (IV) order defaulted to "Admixture", which was incorrect.
 
-Resolution: Developers corrected the problem. Now, when a user enters the “IN”, it correctly defaults in the dialog, and when finished in Pharmacy, the IV is a “Piggyback”, which is correct.
+Resolution: Developers corrected the problem. Now, when a user enters the "IN", it correctly defaults in the dialog, and when finished in Pharmacy, the IV is a "Piggyback", which is correct.
 
-- PSPO 1097: Remove CR from “Reason for Study” Field (Remedy 276791, 277509, 277788, 278589, 296988) – CPRS did not strip out carriage returns from the text included in the new “Reason for Study” field. This generally occurs when users copy text and paste it into the “Reason for Study” field. The consequence is that CPRS passes the data to the Radiology application and Radiology passes the data to PowerScribe with a carriage return, causing PowerScribe to experience an order processing error. 
+- PSPO 1097: Remove CR from "Reason for Study" Field (Remedy 276791, 277509, 277788, 278589, 296988) – CPRS did not strip out carriage returns from the text included in the new "Reason for Study" field. This generally occurs when users copy text and paste it into the "Reason for Study" field. The consequence is that CPRS passes the data to the Radiology application and Radiology passes the data to PowerScribe with a carriage return, causing PowerScribe to experience an order processing error. 
 
 Resolution: This problem will be resolved in two steps:
 
@@ -62,7 +97,7 @@ Resolution: This problem will be resolved in two steps:
 
 2\) OR\*3\*296 (CPRS GUI v27.90) will correct the source of the problem by removing any carriage returns from the text entered through the CPRS GUI. The CPRS GUI modification will resolve the problem before the data is stored or passed.
 
-- PSPO 1209: EDIT/RESUBMIT “New Comments” Stored as One Long String in the GMR(123 Node – Previously, when a user cancelled/denied a consult and added a comment using the Edit/Resubmit button, the comment was stored as a single long comment. Because it was a single long comment, the text displayed inappropriately as a long line that went off the dialog without wrapping. The way it was stored also caused problems with Health Level 7 (HL7) transmissions.
+- PSPO 1209: EDIT/RESUBMIT "New Comments" Stored as One Long String in the GMR(123 Node – Previously, when a user cancelled/denied a consult and added a comment using the Edit/Resubmit button, the comment was stored as a single long comment. Because it was a single long comment, the text displayed inappropriately as a long line that went off the dialog without wrapping. The way it was stored also caused problems with Health Level 7 (HL7) transmissions.
 
 Resolution: Developers changed the way the comments were stored. The comment should now wrap appropriately in the display and should not cause problems with HL7 transmissions for Inter-Facility Consults.
 
@@ -80,7 +115,7 @@ Resolution: Developers made several changes to resolve these issues.
 
 <span id="_Toc238977908" class="anchor"></span>Known Issue
 
-- Remedy 337505: NCHC--Consult “Reason for Request” Scrollbar Limitation ­– Northern California Health Care System reported a problem with the Consult/Procedure dialog, specifically the reason for request field. The reported issue was the scrollbar did not expand properly when text or number of lines filled the reason for request field, resulting in no visibility of text being typed in text field.  This limitation does not exist during the display of the Reason for Request field.
+- Remedy 337505: NCHC--Consult "Reason for Request" Scrollbar Limitation ­– Northern California Health Care System reported a problem with the Consult/Procedure dialog, specifically the reason for request field. The reported issue was the scrollbar did not expand properly when text or number of lines filled the reason for request field, resulting in no visibility of text being typed in text field.  This limitation does not exist during the display of the Reason for Request field.
 
 Workaround:
 
@@ -135,8 +170,8 @@ CPRS has new Combat Veteran (CV) markers to help users recognize that a veteran 
 -   
   SF-513 Form: Several changes were made to this form:
 - At the top of the page on the SF-513, the Combat Veteran marker displays with the demographic information.
-- The patient’s name was moved to the top of this form.
-- When printed, the patient’s identifying information will be printed at the top of each page.
+- The patient's name was moved to the top of this form.
+- When printed, the patient's identifying information will be printed at the top of each page.
 - When printed, a page number will be printed at the bottom of each page.
 
 ![](or-3-296-release-notes-cprs-gui-27-9/006.png)
@@ -155,9 +190,9 @@ Resolution: Developers fixed this problem and CPRS should refresh correctly now.
 
 <span id="_Toc238977914" class="anchor"></span>CPRS Splash Screen
 
-- 508 Email Address on the CPRS Splash Screen – Previously, the CPRS splash screen, the one that displays after the user launches CPRS and before the Patient Selection screen appears, had the 508 team’s email address.
+- 508 Email Address on the CPRS Splash Screen – Previously, the CPRS splash screen, the one that displays after the user launches CPRS and before the Patient Selection screen appears, had the 508 team's email address.
 
-Resolution: CPRS developers replaced the 508 team’s email with information on entering a Remedy Ticket if any issues are encountered:
+Resolution: CPRS developers replaced the 508 team's email with information on entering a Remedy Ticket if any issues are encountered:
 
 ![](or-3-296-release-notes-cprs-gui-27-9/007.png)
 
@@ -186,9 +221,9 @@ Resolution: CPRS now highlights the searched item in the note text.
 - Encounter Form Data from Patient A Displays on Patient B – Previously, new encounter information was carrying over to another patient encounter form incorrectly under the following circumstances:
 - A provider was entering encounter information, for two patients with the same appointment date/time.
 - The provider was entering encounter data for an appointment—not editing a note.
-- No notes were showing on the patient’s notes tab.
+- No notes were showing on the patient's notes tab.
 
-Resolution: Developers changed CPRS to prevent the previous patient’s encounter data from carrying over to the second patient’s chart.
+Resolution: Developers changed CPRS to prevent the previous patient's encounter data from carrying over to the second patient's chart.
 
 <span id="_Toc238977919" class="anchor"></span>Encounter Location Switching Form
 
@@ -208,7 +243,7 @@ Resolution: To address the possibility of too heavy a load on the system, develo
 
 <span id="_Toc238977921" class="anchor"></span>Labs Tab
 
-- Remote Data Tabs on the Labs Tab Not Displaying – On the Labs tab, CPRS displays some remote data—using a tab for each location. This was not functioning correctly. (This item is duplicated under the heading “Remote Data”.)
+- Remote Data Tabs on the Labs Tab Not Displaying – On the Labs tab, CPRS displays some remote data—using a tab for each location. This was not functioning correctly. (This item is duplicated under the heading "Remote Data".)
 
 Resolution: Developers corrected this problem, and the tabs will now display for remote data when appropriate.
 
@@ -223,11 +258,11 @@ In CPRS v.26, if you asked to view microbiology results on the lab tab you viewe
 
 Resolution: Developers ensured that the changed value stays.
 
-- CANNOT FOCUS A DISABLED WINDOW and “Lab Result” Item Selection Missing (Remedy 274661) – There are some reports on the Labs tab that do not retrieve remote data, only local data  These include Selected Tests By Date, Worksheet and Graph. These reports were incorrectly being evoked when the user added or subtracted remote sites from on the Remote site list, and sometimes CPRS displayed the error “Cannot Focus on a disabled window”.
+- CANNOT FOCUS A DISABLED WINDOW and "Lab Result" Item Selection Missing (Remedy 274661) – There are some reports on the Labs tab that do not retrieve remote data, only local data  These include Selected Tests By Date, Worksheet and Graph. These reports were incorrectly being evoked when the user added or subtracted remote sites from on the Remote site list, and sometimes CPRS displayed the error "Cannot Focus on a disabled window".
 
 Resolution: Developers corrected this problem.
 
-- Most Recent Labs Data Disappearing – When a user brought up the Labs tab with the Most Recent Labs option, the data displayed correctly. If, however, the user tried another option, such as “Selected Test by Date”, but before the data was displayed, the user canceled, the appropriate data from the Most Recent Labs option did not display. The user could see older results, but not the most recent.
+- Most Recent Labs Data Disappearing – When a user brought up the Labs tab with the Most Recent Labs option, the data displayed correctly. If, however, the user tried another option, such as "Selected Test by Date", but before the data was displayed, the user canceled, the appropriate data from the Most Recent Labs option did not display. The user could see older results, but not the most recent.
 
 Resolution: This problem occurred when a user cancelled out of a test selection screen on the Selected Tests report because the previous report was activated but not reselected. Developers changed CPRS to reselect the report, thus repopulating the report screen with the correct data.
 
@@ -237,11 +272,11 @@ Resolution: This problem occurred when a user cancelled out of a test selection 
 
 Resolution: Developers corrected the errors in the text.
 
-- OR MEDICATION QO CHECKER--Report w/o Ancestors Is Empty (Remedy 273607, 273794) – There was some confusion over use of the term “ancestor” in this quick order (QO) report. It was used in different ways in this report and with another option, ORCM SEARCH/REPLACE.
+- OR MEDICATION QO CHECKER--Report w/o Ancestors Is Empty (Remedy 273607, 273794) – There was some confusion over use of the term "ancestor" in this quick order (QO) report. It was used in different ways in this report and with another option, ORCM SEARCH/REPLACE.
 
 Resolution: The description of this option was rewritten to better define what the report shows.
 
-- Quick Order Prompt (Auto-accept this order?) Is Appearing Erratically – Previously, the quick order editor displayed the prompt “Auto-accept this order?” erratically.
+- Quick Order Prompt (Auto-accept this order?) Is Appearing Erratically – Previously, the quick order editor displayed the prompt "Auto-accept this order?" erratically.
 
 Resolution: For IV medication quick orders, CPRS now checks whether the auto-accept prompt should display based on whether the quick order provides all the information to complete the order. If the user creating or editing the quick order has defined all the necessary information, then the quick order editor displays the auto-accept prompt. If the quick order will need additional user interaction, the quick order cannot be auto-accepted and the prompt will not display.
 
@@ -257,28 +292,28 @@ Resolution: Developers corrected this problem and CPRS will now remove the surro
 
 <span id="_Toc238977924" class="anchor"></span>Orders
 
-- \<UNDEFINED\>INF+6^ORCDPSIV (Remedy 274902) – Previously, if the user entered text into the Infusion dialog’s Infuse Over Time field when setting up a VistA quick order, the user would get this error: \<UNDEFINED\>INF+6^ORCDPSIV.
+- \<UNDEFINED\>INF+6^ORCDPSIV (Remedy 274902) – Previously, if the user entered text into the Infusion dialog's Infuse Over Time field when setting up a VistA quick order, the user would get this error: \<UNDEFINED\>INF+6^ORCDPSIV.
 
 Resolution: Developers changed CPRS so that the Infuse Over Time field only accepts numbers—preventing this error.
 
-- Type “IN” for IV Type (Infusion Dialog), Order Is Filed as Continuous – Previously, if a user was trying to select the IV Type of Intermittent and the user typed “IN”, CPRS selected the Continuous type instead of the Intermittent type.
+- Type "IN" for IV Type (Infusion Dialog), Order Is Filed as Continuous – Previously, if a user was trying to select the IV Type of Intermittent and the user typed "IN", CPRS selected the Continuous type instead of the Intermittent type.
 
 Resolution: Developers corrected CPRS to select the appropriate item when the user types the letters.
 
 -   
-  When Entering an Intermittent Infusion Order with Schedule Type Prompt, OTHER, No Scheduling Box Is Displayed (Remedy 273911) – Previously, if the user entered an Intermittent IV type order, and typed “other” or some variant, the Day of Week Schedule Builder did not display. It worked correctly if the user selected other using the mouse.
+  When Entering an Intermittent Infusion Order with Schedule Type Prompt, OTHER, No Scheduling Box Is Displayed (Remedy 273911) – Previously, if the user entered an Intermittent IV type order, and typed "other" or some variant, the Day of Week Schedule Builder did not display. It worked correctly if the user selected other using the mouse.
 
-Resolution: Developers corrected CPRS and users can either type the letters or use the mouse to select “Other”.
+Resolution: Developers corrected CPRS and users can either type the letters or use the mouse to select "Other".
 
-- When an Intermittent IV QO Does Not Have “Infuse Over Time” Defined, but Is Set-Up to Be Verified, the Verify Order (Accept/Edit/Cancel) Form Does NOT Display – If a user selected a quick order for an intermittent IV, and the quick order is set to have the user verify the order, the Verify Order (Accept/Edit/Cancel) form does not display as it should. The form should display and give the user the chance to edit or not, but CPRS incorrectly put the user directly into the dialog to edit the order.
+- When an Intermittent IV QO Does Not Have "Infuse Over Time" Defined, but Is Set-Up to Be Verified, the Verify Order (Accept/Edit/Cancel) Form Does NOT Display – If a user selected a quick order for an intermittent IV, and the quick order is set to have the user verify the order, the Verify Order (Accept/Edit/Cancel) form does not display as it should. The form should display and give the user the chance to edit or not, but CPRS incorrectly put the user directly into the dialog to edit the order.
 
 Resolution: Developers corrected this problem, and the Verify Order form displays so that the user can choose what to do.
 
-- Infusion Order Dialog: Typing in OTHER in Schedule Box, Select OTHER Using Arrow Keys, Drop Down Box Remains On Screen – Previously, if the user typed in the first few letters of the word “other” in the Schedule field and then used the arrow keys to select OTHER, the display was not updated correctly. Part of the drop-down box remained displayed on the dialog and covered some of the times so that the user could not select them.
+- Infusion Order Dialog: Typing in OTHER in Schedule Box, Select OTHER Using Arrow Keys, Drop Down Box Remains On Screen – Previously, if the user typed in the first few letters of the word "other" in the Schedule field and then used the arrow keys to select OTHER, the display was not updated correctly. Part of the drop-down box remained displayed on the dialog and covered some of the times so that the user could not select them.
 
 Resolution: Developers corrected this problem: The dialog will now behave appropriately.
 
-- Launch the DOW Schedule Builder by Typing OTHER, the Admin Time Is Not Updated – Previously, if the user launched the Day-of Week schedule builder by typing “other”, the administration time was not updated. If the user entered other by selecting it with the mouse, the administration time was updated.
+- Launch the DOW Schedule Builder by Typing OTHER, the Admin Time Is Not Updated – Previously, if the user launched the Day-of Week schedule builder by typing "other", the administration time was not updated. If the user entered other by selecting it with the mouse, the administration time was updated.
 
 Resolution: Developers corrected this problem and the administration time will update appropriately.
 
@@ -297,7 +332,7 @@ Resolution: Developers changed this option to include the prompt and the followi
 
 > The option generates two reports (printed to an e-mail message sent to the originator of the report) of Quick Orders that should be evaluated due to the addition of three new fields in CPRS 27: Route, IV Type and Schedule. One report includes QOs that are contained in an order menu, order set or a reminder dialog. The other report includes QOs that are stand alone and not included in another entry.
 
-- ConvertIV Inpatient QO to Infusion QO Has aTypo – There was a typographical error in the text for the conversion utility. The word “move” should have been “moved”.
+- ConvertIV Inpatient QO to Infusion QO Has aTypo – There was a typographical error in the text for the conversion utility. The word "move" should have been "moved".
 
 Resolution: Developers corrected the spelling error.
 
@@ -316,7 +351,7 @@ Resolution: When switching the IV Type from either continuous to intermittent or
 
 - Schedule Functionality different between Infusion Order Dialog and Medication Order Dialog – Previously, on the Inpatient Medication order dialog, if the user entered a free-text schedule, CPRS would auto-match even if the letters entered did not uniquely identify a schedule.
 
-Resolution: Developers changed the Inpatient Medication order dialog’s Schedule field will not auto-match unless enough characters have been entered to uniquely identify a schedule.
+Resolution: Developers changed the Inpatient Medication order dialog's Schedule field will not auto-match unless enough characters have been entered to uniquely identify a schedule.
 
 - \<Enter\> Key Will Not Default to Activate the Accept Button on IV, Outpatient, Unit Dose, and Non-VA Meds Dialogs – Previously, if on the IV, Outpatient, Unit Dose, and Non-VA Meds dialogs, the user pressed the \<Enter\> key, it was the same as selecting the item that had focus and pressing the Accept button. The order might be accepted with unintentional or inaccurate items selected.
 
@@ -326,7 +361,7 @@ Resolution: Developers changed these dialogs so that the \<Enter\> key will work
 
 Resolution: Developers changed CPRS so that administration times for a PRN schedule do not display—even if the schedule has administration times defined.
 
-- Changed Order Display Includes a Schedule of PRN and a Check in the PRN Checkbox, Plus PRN Only Schedule for Inpt. Med Displays “Expected First Dose” – Previously, when a user changed a PRN order that only had the PRN checkbox checked in the initial order, the order dialog would display with PRN in the schedule field and the PRN checkbox would be checked. Also, if the user unchecked the PRN checkbox and if a PRN schedule was not set-up in the ADMINISTRATION SCHEDULE file, file \#51.1, the Expected First Dose value would still display in the order dialog incorrectly.
+- Changed Order Display Includes a Schedule of PRN and a Check in the PRN Checkbox, Plus PRN Only Schedule for Inpt. Med Displays "Expected First Dose" – Previously, when a user changed a PRN order that only had the PRN checkbox checked in the initial order, the order dialog would display with PRN in the schedule field and the PRN checkbox would be checked. Also, if the user unchecked the PRN checkbox and if a PRN schedule was not set-up in the ADMINISTRATION SCHEDULE file, file \#51.1, the Expected First Dose value would still display in the order dialog incorrectly.
 
 Resolution: Developers changed CPRS to only check the PRN checkbox for a changed order in the above scenario if a PRN schedule is not defined. This change also fixes the problem with the Expected First Dose value appearing incorrectly.
 
@@ -370,9 +405,9 @@ Resolution: Developers corrected this problem.
 
 - Pass a Null Value to Problem List for Edited Problem List Entries with a PRIORITY of UKNOWN—Entered via Problems Tab – A problem was introduced with OR\*3.0\*243 that allowed a null value, which should not have been allowed, to be passed to the Problem List package when a user entered a problem with a priority of UNKNOWN on the Problems tab. This null value caused some reminders to not be displayed that would be related to the problem
 
-Resolution: Two patches fixed this error: GMPL\*2.0\*37 and this patch, OR\*3.0\*296. The first patch went through and corrected null entries that were in the sites’ databases. Patch OR\*3.0\*296, CPRS GUI v.27.90, prevents the null value from being set or passed to the Problem List package.
+Resolution: Two patches fixed this error: GMPL\*2.0\*37 and this patch, OR\*3.0\*296. The first patch went through and corrected null entries that were in the sites' databases. Patch OR\*3.0\*296, CPRS GUI v.27.90, prevents the null value from being set or passed to the Problem List package.
 
-- New Problems with Priority of Unknown Creates Bad Data – In CPRS v.27, a change was made that created an error: If a user entered a new problem and left the priority as “unknown”, CPRS sent incorrect data to the problem list application. The Reminders Index then used the Problem List as a source, and the bad data meant that some reminders were not correctly evaluated.
+- New Problems with Priority of Unknown Creates Bad Data – In CPRS v.27, a change was made that created an error: If a user entered a new problem and left the priority as "unknown", CPRS sent incorrect data to the problem list application. The Reminders Index then used the Problem List as a source, and the bad data meant that some reminders were not correctly evaluated.
 
 Resolution: Developer corrected the problem list so that it now sends the correct data. A separate Problem List patch will correct the incorrect data.
 
@@ -380,7 +415,7 @@ Resolution: Developer corrected the problem list so that it now sends the correc
 
 - Remote Procedure ORWCV POLL is not registered to the option YSBROKER1 (Remedy276139) – In CPRS v.27, when processing a Mental Health test from a Clinical Reminder dialog, the following error occurs sporadically:
 
-“Remote Procedure ORWCV POLL is not registered to the option YS BROKER1.”
+"Remote Procedure ORWCV POLL is not registered to the option YS BROKER1."
 
 Resolution: OWCV POLL RPC is a background job that CPRS checks every couple of seconds for the cover sheet data. This error occurs if a Mental Health test is accessed while this background job is processing. Developers modified CPRS to pause in checking the OWCV POLL job while the Mental Health DLL is open.
 
@@ -392,7 +427,7 @@ Resolution: Developers changed CPRS to begin the Reminders evaluation again if i
 
 <span id="_Toc238977927" class="anchor"></span>Remote Data
 
-- Remote Data Tabs on the Labs Tab Not Displaying – On the Labs tab, CPRS displays some remote data using tab for each location. This was not functioning correctly. (This item is duplicated under the heading “Labs Tab”.)
+- Remote Data Tabs on the Labs Tab Not Displaying – On the Labs tab, CPRS displays some remote data using tab for each location. This was not functioning correctly. (This item is duplicated under the heading "Labs Tab".)
 
 Resolution: Developers corrected this problem, and the tabs will now display for remote data when appropriate.
 
@@ -400,21 +435,21 @@ Resolution: Developers corrected this problem, and the tabs will now display for
 
 Resolution: Developers corrected this, and on one tab will display for remote sites, as it should.
 
-- Inconsistent HDR Report Messages – The message that CPRS displays when the parameter to use the Health Data Repository (HDR) is set to YES reads: “You must use VistaWeb to view this report.” When the parameter is set to NO, the message reads: “The HDR is currently inactive. Unable to retrieve HDR data at this time.” It does not mention to use VistaWeb to view this data, which was inconsistent and confusing.
+- Inconsistent HDR Report Messages – The message that CPRS displays when the parameter to use the Health Data Repository (HDR) is set to YES reads: "You must use VistaWeb to view this report." When the parameter is set to NO, the message reads: "The HDR is currently inactive. Unable to retrieve HDR data at this time." It does not mention to use VistaWeb to view this data, which was inconsistent and confusing.
 
 Resolution: Developers changed the message logic/text to make more sense. CPRS will not display the message if HDR is turned on.
 
-- HDR Report Data Is Retrieved Contrary to Message – Previously, if a user selected an HDR Report, CPRS displayed a message that the user “must use VistaWeb” to view the report, but after a short time, CPRS did display the data.
+- HDR Report Data Is Retrieved Contrary to Message – Previously, if a user selected an HDR Report, CPRS displayed a message that the user "must use VistaWeb" to view the report, but after a short time, CPRS did display the data.
 
-Resolution: Developers changed CPRS so that the “view VistaWeb” message only pops up when the HDR parameter is turned off.
+Resolution: Developers changed CPRS so that the "view VistaWeb" message only pops up when the HDR parameter is turned off.
 
 - HDR Site Cannot Be Unchecked while HDR Report Is Selected – Previously, when a user selected an HDR report and then tried to uncheck the HDR item, CPRS displayed a message about viewing the report using VistaWeb and the HDR item would be rechecked. To uncheck HDR, the user had to select a non-HDR report.
 
 Resolution: Developers disabled the automatic rechecking of the HDR site disabled.
 
-- HDR Included in All Available Sites Option Even when Turned Off – When a user selected an HDR report and the HDR was not available in CPRS, CPRS displayed the message: “The HDR is currently inactive. Unable to retrieve HDR data at this time.” Then, if the user checked or unchecked All Available Sites, CPRS displayed this message again. (It did not matter which tab the user was on when the user checked or unchecked All Available Sites as long as an HDR report was selected on the Reports Tab—CPRS still displayed the message.) This behavior seems to indicate the HDR site is being checked/unchecked with the All Available Sites option, even though it does not appear on the list.
+- HDR Included in All Available Sites Option Even when Turned Off – When a user selected an HDR report and the HDR was not available in CPRS, CPRS displayed the message: "The HDR is currently inactive. Unable to retrieve HDR data at this time." Then, if the user checked or unchecked All Available Sites, CPRS displayed this message again. (It did not matter which tab the user was on when the user checked or unchecked All Available Sites as long as an HDR report was selected on the Reports Tab—CPRS still displayed the message.) This behavior seems to indicate the HDR site is being checked/unchecked with the All Available Sites option, even though it does not appear on the list.
 
-Resolution: The text of the message has been changed to be more clear: “The HDR is currently inactive in CPRS. You must use VistaWeb to view this report.” Also, the message should only appear when the user is on the Reports tab.
+Resolution: The text of the message has been changed to be more clear: "The HDR is currently inactive in CPRS. You must use VistaWeb to view this report." Also, the message should only appear when the user is on the Reports tab.
 
 - Remote Data Showing Multiple Tabs (Remedy 282075, 276181) – In CPRS, if you accessed Remote Data on the Reports tab and selected multiple hospitals, CPRS displays two tabs with the same data for some hospitals.
 
@@ -436,7 +471,7 @@ Resolution: Developers changed the maximum back to 100.
 
 <span id="_Toc238977929" class="anchor"></span>Templates
 
-- Number Templates Not Working Properly (Remedy 276520, 276117, 276757) – When CPRS v.27 was created, something changed so that sometimes number fields in templates were not working correctly. In some cases, the number field worked like a free-text field with a default value, but users could not change the value. In other cases, if the field had a “spinner” (an up and down arrow next to the field), the arrows became hidden and therefore unreachable with the mouse, but the Up and Down arrow keys on the keyboard did work.
+- Number Templates Not Working Properly (Remedy 276520, 276117, 276757) – When CPRS v.27 was created, something changed so that sometimes number fields in templates were not working correctly. In some cases, the number field worked like a free-text field with a default value, but users could not change the value. In other cases, if the field had a "spinner" (an up and down arrow next to the field), the arrows became hidden and therefore unreachable with the mouse, but the Up and Down arrow keys on the keyboard did work.
 
 Resolution: Developers corrected this problem.
 
@@ -450,9 +485,9 @@ Resolution: CPRS now allows the user to type in characters to select the appropr
 
 > **NOTE:** CPRS users will not see the VistA Blood Establishment Computer Software (VBECS) dialog and related changes until the VBECS product and associated patches are nationally released. However, these changes are in CPRS and so they are documented here.
 
-- “Lab Results Available” Label Sometimes Misleading – In the Blood Components and Diagnostic Test Orders dialog, one of the tabs is labeled “Lab Results”. However, when data is available the tab name changes to “Lab Results Available”. The label on the tab was displaying incorrectly at times when there was no data.
+- "Lab Results Available" Label Sometimes Misleading – In the Blood Components and Diagnostic Test Orders dialog, one of the tabs is labeled "Lab Results". However, when data is available the tab name changes to "Lab Results Available". The label on the tab was displaying incorrectly at times when there was no data.
 
-Resolution: Developers corrected this problem and the tab should be labeled “Lab Results Available” only when there is some data.
+Resolution: Developers corrected this problem and the tab should be labeled "Lab Results Available" only when there is some data.
 
 - CPRS Allows Free Text in Blood Component Field
 
@@ -466,11 +501,11 @@ Resolution: Developers changed CPRS to correctly retrieve and send the Urgency. 
 
 Resolution: Developers corrected this problem.
 
-- CPRS Inappropriately Displays “Duplicate Order” Warning – When a user would try to change a VBECS order, CPRS displayed the warning that it was a duplicate order.
+- CPRS Inappropriately Displays "Duplicate Order" Warning – When a user would try to change a VBECS order, CPRS displayed the warning that it was a duplicate order.
 
 Resolution: Developers corrected this problem.
 
-- CPRS Remote Data to Look Up Blood Bank Report Requires Selecting “All Available Sites” – Previously, if the user was trying to get remote data from the Blood Bank report, the user had to select “All Available Sites”.
+- CPRS Remote Data to Look Up Blood Bank Report Requires Selecting "All Available Sites" – Previously, if the user was trying to get remote data from the Blood Bank report, the user had to select "All Available Sites".
 
 Resolution: Developers corrected CPRS so that the user can select only those sites from which the user wants to view data.
 
@@ -499,7 +534,7 @@ Resolution: Developers corrected the disparity between the Collection Type in th
 
 Resolution: Developers corrected the disparity between the Urgency in the CPRS-VBECS orders and lab orders. They should now be consistent.
 
-- VBECS Quick Order for “RBC Only” Does Not Require T&S even When There Is No Specimen in Lab – Previously, if the user placed a quick order for red blood cells and the Type and Screen test was not included in the order, CPRS did not prompt the user to order one when it should have. If the patient did not have a valid specimen in the lab, CPRS should have prompted the user that a Type and Screen was required. The order could therefore be sent to VBECS without the required test.
+- VBECS Quick Order for "RBC Only" Does Not Require T&S even When There Is No Specimen in Lab – Previously, if the user placed a quick order for red blood cells and the Type and Screen test was not included in the order, CPRS did not prompt the user to order one when it should have. If the patient did not have a valid specimen in the lab, CPRS should have prompted the user that a Type and Screen was required. The order could therefore be sent to VBECS without the required test.
 
 Resolution: CPRS should now prompt for Type and Screen test when one is required.
 
@@ -517,6 +552,6 @@ Resolution: Developers changed CPRS so that when a quick order is selected, CPRS
 
 <span id="_Toc238977932" class="anchor"></span>Vitals Lite
 
-- User Kicked Out of CPRS when Vitals Lite Opened (Remedy 287515, 287532, 287536, 287764, 287766, 288230) – Previously, when a user had logged in to CPRS and while the Cover Sheet was loading, the user launched the Vitals Lite application and entered vitals. Then, the user closed Vitals Lite, later reopened it, and closed it again. At that point, CPRS inappropriately closed. One user even reported that when she opened the chart after it closed, CPRS displayed a different patient’s chart.
+- User Kicked Out of CPRS when Vitals Lite Opened (Remedy 287515, 287532, 287536, 287764, 287766, 288230) – Previously, when a user had logged in to CPRS and while the Cover Sheet was loading, the user launched the Vitals Lite application and entered vitals. Then, the user closed Vitals Lite, later reopened it, and closed it again. At that point, CPRS inappropriately closed. One user even reported that when she opened the chart after it closed, CPRS displayed a different patient's chart.
 
 Resolution: Developers found that the problem seemed to be when users double-clicked when launching Vitals Lite. Developers corrected the problem and a double-click will no longer cause this problem.

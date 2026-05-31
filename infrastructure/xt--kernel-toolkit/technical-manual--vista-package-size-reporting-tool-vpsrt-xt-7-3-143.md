@@ -3,7 +3,7 @@ title: VistA Package Size Reporting Tool (VPSRT) Technical Manual (XT*7.3*143)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XT
 app_name: Kernel Toolkit
 section: INF
@@ -11,49 +11,37 @@ app_status: active
 pkg_ns: XT
 patch_ver: 7.3
 patch_id: XT*7.3
-group_key: "XT:XT:7.3"
-file_numbers: []
-security_keys: []
+group_key: XT:XT:7.3
+description: '| Date | Revision | Description | Author |...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '9.4'
+- '19'
+- '101'
+- '221'
+security_keys:
+- PF1
+- XTVS EDITOR
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - strong
-  - package
-  - action
-  - vista
-  - table
-  - xtvs
-  - blockquote
-  - size
-  - contents
-  - vpsrt
 page_count: 0
-word_count: 9466
+word_count: 9446
 section_count: 26
 table_count: 9
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2021
 revision_count: 1
 revision_newest: 04/19/2021
 revision_oldest: 04/19/2021
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_tm_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_tm_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_tm_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xtvs_vpsrt_tm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Package Size Reporting Tool (VPSRT)
-
-  Kernel Toolkit Patch XT\*7.3\*143
-
-  Technical Manual (REDACTED)
----
-
 ![](vista-package-size-reporting-tool-vpsrt-technical-manual-xt-7-3-143/001.png)
 
 April 2021

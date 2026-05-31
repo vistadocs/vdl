@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 1.5
 patch_id: TMP*1.5
-group_key: "TMP:TMP:1.5"
+group_key: TMP:TMP:1.5
+description: '| Functional Area | Function | For User/System Admin | Description | Parent Menu in Application |...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 13%\\" /> <col style=\\"width: 12%\\" /> <col style=\\"width: 26%\\" /> <col style=\\"width: 47%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><strong><u>Functional Area</u></strong></th> <th><strong><u>Function</u></strong></th> <th><strong><u>Feature</u></strong></th> <"
-audience: 
-keywords: 
-  - class
-  - scheduling
-  - management
-  - telehealth
-  - even
-  - appointment
-  - vista
-  - appointments
-  - notifications
-  - resource
 page_count: 0
 word_count: 2277
 section_count: 0
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-6_rs.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-6_rs.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-6_rs.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-6_rs.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 <u>Menu Functions</u>

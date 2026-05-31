@@ -5,57 +5,117 @@ doc_label: Technical Manual
 doc_layer: anchor
 doc_subject: Security7 Guide (Updated PSO*7.0*701)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7
-group_key: "PSO:PSO:7"
-file_numbers: 
-  - 52
-  - 59
-security_keys: []
+group_key: PSO:PSO:7
+description: 10/2022 PSO*7*701 Updated Menu Text of option PSO EPCS PSDRPH
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '3'
+- '3.2'
+- '3.5'
+- '4'
+- '5'
+- '6.5'
+- '7'
+- '8'
+- '9'
+- '10.2'
+- '11'
+- '17'
+- '18.02'
+- '18.12'
+- '27'
+- '31'
+- '32'
+- '43'
+- '48'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.606'
+- '50.68'
+- '50.9'
+- '52'
+- '52.09'
+- '52.1'
+- '52.2'
+- '52.3'
+- '52.4'
+- '52.41'
+- '52.444'
+- '52.45'
+- '52.46'
+- '52.47'
+- '52.48'
+- '52.49'
+- '52.5'
+- '52.53'
+- '52.8'
+- '52.87'
+- '53.2'
+- '53.21'
+- '55'
+- '58.4'
+- '58.41'
+- '58.42'
+- '59'
+- '59.7'
+- '59.747'
+- '60'
+- '61'
+- '82'
+- '100'
+- '101'
+- '102.1'
+- '105.1'
+- '107.2'
+- '109'
+- '114'
+- '116'
+- '123'
+- '124'
+- '200'
+- '771'
+- '870'
+- '1008'
+- '3001'
+- '8991.6'
+- '8991.7'
+- '8991.8'
+- '8991.9'
+security_keys:
+- PROVIDER
+- PSDRPH
+- PSO TECH ADV
+- PSORPH
 menu_options: 15
-description: 
-audience: 
-keywords: 
-  - class
-  - pharmacy
-  - even
-  - strong
-  - table
-  - code
-  - number
-  - contents
-  - outpatient
-  - patient
 page_count: 0
-word_count: 48679
+word_count: 48670
 section_count: 76
 table_count: 45
 figure_count: 0
 appendix_count: 9
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 1997
 revision_count: 3
 revision_newest: 2/13/2007
 revision_oldest: 12/1/2006
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tmsg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tmsg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tmsg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_tmsg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Outpatient Pharmacy (PSO)
-
-  Version 7.0
-
-  Technical Manual / Security Guide
----
-
 ![](outpatient-pharmacy-version-7-technical-manual-security7-guide-updated-pso-7-0-7/001.png)
 
 December 1997  

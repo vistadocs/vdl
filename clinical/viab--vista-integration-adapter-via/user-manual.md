@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: VIAB
 patch_ver: 1
 patch_id: VIAB*1
-group_key: "VIAB:VIAB:1"
+group_key: VIAB:VIAB:1
+description: '| Date | Revision | Description | Author | |----------|----------|---------------------|----------| | 06/28/16 | 1.0 | Initial VIP Version | Engility'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - application
-  - document
-  - span
-  - guide
-  - services
-  - class
-  - service
-  - vista
 page_count: 0
-word_count: 3246
+word_count: 3233
 section_count: 15
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2016
 revision_count: 1
 revision_newest: 06/28/16
 revision_oldest: 06/28/16
-docx_url: "https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/via_vip_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/via_vip_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=221"
+docx_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/via_vip_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/VistA_Integration_Adapter_(VIA)/via_vip_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=221
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Integration Adapter (VIA)
-
-  1.0
-
-  User Guide
----
-
 ![](vista-integration-adapter-viab-version-1-vip-user-guide/001.png)
 
 June 2016

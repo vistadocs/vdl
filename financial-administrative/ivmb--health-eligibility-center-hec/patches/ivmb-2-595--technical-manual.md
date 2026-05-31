@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*595
-group_key: "IVMB:IVMB:2"
-file_numbers: []
-security_keys: []
+group_key: IVMB:IVMB:2
+description: '- Introduction - Overview - Purpose - Related Manuals - Implementation and Maintenance - Implementation - Maintenance - Files - File List -...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '5'
+security_keys:
+- IVMD MGT RPT
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - ivmb
-  - patch
-  - routines
-  - security
-  - exported
-  - files
-  - external
-  - archiving
 page_count: 0
 word_count: 1682
 section_count: 21
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p595_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p595_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p595_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ivmb_2_p595_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 ![](ivmb-2-595-military-sexual-trauma-mst-technical-manual/001.png)

@@ -8,41 +8,42 @@ app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
 description: Scheduling V. 5.3Ambulatory Care Reporting Project (ACRP)Incomplete Encounter Management Module (IEMM) Release NotesPatches SD\5.3\66, DG\5.3\139, PX\1.0\41January 1998Technical Release Notes
-audience: 
-keywords: 
-  - sceni
-  - encounter
-  - error
-  - edit
-  - iemm
-  - incomplete
-  - errors
-  - report
-  - outpatient
-  - bulletin
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '21'
+- '30'
+- '31'
+- '41'
+- '101'
+- '409.75'
+- '409.76'
+security_keys:
+- MEANS TEST EDIT
+- SCENI ENCOUNTER EDIT
+- SCENI IEMM EDIT
+menu_options: 0
 page_count: 0
 word_count: 1773
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 Scheduling V. 5.3Ambulatory Care Reporting Project (ACRP)Incomplete Encounter Management Module (IEMM) Release NotesPatches SD\*5.3\*66, DG\*5.3\*139, PX\*1.0\*41January 1998Technical Release Notes

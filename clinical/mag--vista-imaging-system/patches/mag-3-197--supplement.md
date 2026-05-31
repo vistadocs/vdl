@@ -3,7 +3,7 @@ title: MAG*3*197 Production Operations Manual
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: MAG
 patch_ver: 3
 patch_id: MAG*3*197
-group_key: "MAG:MAG:3"
+group_key: MAG:MAG:3
+description: '> This document explains how to maintain and administer the Veterans Health Information Systems and Technology Architecture (VistA) Imaging Exchange (VIX) service. The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently the VIX''s primary pur'
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > This document explains how to maintain and administer the Veterans Health Information Systems and Technology Architecture (VistA) Imaging Exchange (VIX) service. The VIX is used to facilitate data sharing and exchange across organizational and functional boundaries. Currently the VIX’s primary pur
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - procedures
-  - errors
-  - back
-  - application
-  - routine
-  - security
-  - restore
-  - capacity
 page_count: 0
 word_count: 1269
 section_count: 14
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 8
 revision_newest: 4/5/2018
 revision_oldest: 9/23/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_production_operations_manual_05022018.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_production_operations_manual_05022018.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_production_operations_manual_05022018.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p197_production_operations_manual_05022018.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
 
 # Image Viewer Version 2.0

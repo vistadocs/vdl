@@ -5,45 +5,55 @@ doc_label: User Guide
 doc_layer: anchor
 doc_subject: EPI Technical and
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: EPI
 patch_ver: 5.2
 patch_id: EPI*5.2
-group_key: "EPI:EPI:5.2"
-file_numbers: 
-  - 69
+group_key: EPI:EPI:5.2
+description: Under the auspices of the Program Office for Infectious Diseases VAHQ the Laboratory Emerging Pathogens Initiative (EPI) software package is to allow the Department of Veterans Affairs (DVA) to track Emerging Pathogens on the national level without the necessity for additional local data entry. Usin
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '01'
+- '1'
+- '3'
+- '3.8'
+- '12'
+- '45'
+- '60'
+- '61'
+- '61.2'
+- '62.06'
+- '62.6'
+- '63'
+- '64'
+- '69.4'
+- '69.5'
+- '80'
+- '80.4'
+- '101'
+- '695'
+- '771'
 security_keys: []
 menu_options: 0
-description: Under the auspices of the Program Office for Infectious Diseases VAHQ the Laboratory Emerging Pathogens Initiative (EPI) software package is to allow the Department of Veterans Affairs (DVA) to track Emerging Pathogens on the national level without the necessity for additional local data entry. Usin
-audience: 
-keywords: 
-  - emerging
-  - table
-  - blockquote
-  - class
-  - pathogens
-  - contents
-  - pathogen
-  - site
-  - reference
-  - description
 page_count: 0
 word_count: 23538
 section_count: 39
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_tech_user_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_tech_user_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_tech_user_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_tech_user_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
 
 LaboratoryEmerging Pathogens Initiative (EPI)Version 5.2Technical and User Guide

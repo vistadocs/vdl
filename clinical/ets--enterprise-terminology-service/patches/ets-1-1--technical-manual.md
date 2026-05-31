@@ -3,7 +3,7 @@ title: ETS*1*1 Technical Manual/Security Guide
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: ETS
 app_name: Enterprise Terminology Service
 section: CLI
@@ -11,49 +11,32 @@ app_status: active
 pkg_ns: ETS
 patch_ver: 1
 patch_id: ETS*1*1
-group_key: "ETS:ETS:1"
-file_numbers: []
+group_key: ETS:ETS:1
+description: May 2017 1.1 The following sections were updated for
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '4'
+- '129.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vuid
-  - table
-  - vandf
-  - contents
-  - etslnc
-  - span
-  - loinc
-  - access
-  - code
-  - result
 page_count: 0
-word_count: 7450
+word_count: 7433
 section_count: 21
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Terminology_Service_(ETS)/ets_1_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Terminology_Service_(ETS)/ets_1_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=226"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Terminology_Service_(ETS)/ets_1_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Terminology_Service_(ETS)/ets_1_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=226
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Enterprise Terminology Service (ETS)
-
-  Package Version 1.0
-
-  Technical Manual / Security Guide
----
-
 ![](ets-1-1-technical-manual-security-guide/001.png)
 
 June 2017

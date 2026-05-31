@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 5
+group_key: ADT:ADT:5.3
 description: The Scheduling module of the PIMS Package is designed to assist in the set-up of clinics, scheduling of patients for clinic appointments, and the collection of an assortment of related workload data for reporting purposes. The Scheduling Outputs functionality provides the end-users with tools that p
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - report
-  - clinic
-  - health
-  - mental
-  - show
-  - high
-  - risk
-  - patient
-  - table
-  - class
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '10'
+- '44'
+security_keys:
+- PROVIDER
+menu_options: 5
 page_count: 0
 word_count: 14308
 section_count: 17
 table_count: 13
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsschoutput.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsschoutput.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsschoutput.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Scheduling_Archive/pimsschoutput.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 ![](pims-version-5-3-user-manual-outputs-menu/001.png)

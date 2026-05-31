@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 5.0.4.1
 patch_id: TMP*5.0.4.1
-group_key: "TMP:TMP:5.0.4.1"
+group_key: TMP:TMP:5.0.4.1
+description: '| Date | Version | Description | Author | |--------------------|---------|----------------------------------------------------------------------------------------------|--------| | April 29, 2022 | 7.1 | Renamed release 4.9.0.10 to \ | | | Jan 11, 2021 | 7.0 | Added URL to CRM code and deployment...'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - deployment
-  - mark
-  - blockquote
-  - installation
-  - class
-  - rollback
-  - team
-  - span
 page_count: 0
 word_count: 3262
 section_count: 20
 table_count: 12
 figure_count: 2
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_5_0_4_1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_5_0_4_1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_5_0_4_1.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_dibrg_5_0_4_1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
 
 Telehealth Management Platform

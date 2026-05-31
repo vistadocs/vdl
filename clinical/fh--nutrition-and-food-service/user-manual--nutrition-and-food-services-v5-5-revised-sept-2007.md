@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5
-group_key: "FH:FH:5.5"
-file_numbers: []
-security_keys: []
+group_key: FH:FH:5.5
+description: Reports and ordering options and *ALG appears on labels to indicate patient has a food
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '100'
+- '111'
+- '112.6'
+- '115'
+- '119.9'
+- '200'
+security_keys:
+- CLINICIAN
 menu_options: 146
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - blockquote
-  - class
-  - even
-  - colspan
-  - style
-  - width
-  - strong
-  - table
-  - colgroup
-  - thead
 page_count: 0
 word_count: 54969
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5p8um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 > ![](nutrition-food-services-version-5-5-user-manual-revised-sept-2007/001.png)

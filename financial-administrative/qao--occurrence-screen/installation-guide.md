@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: QAO
 patch_ver: 3
 patch_id: QAO*3
-group_key: "QAO:QAO:3"
-file_numbers: []
-security_keys: []
+group_key: QAO:QAO:3
+description: Occurrence Screen V. 3.0Release Notes & Installation GuideSeptember
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1.5'
+- '3.0'
+- '513.72'
+- '740.1'
+- '741.3'
+- '741.99'
+security_keys:
+- PROVIDER
+- QAOSCLIN
 menu_options: 0
-description: - [# Release Notes](#release-notes) - [Auto Enroll Changes](#auto-enroll-changes) - [Report Changes](#report-changes) - [Edit Changes](#edit-changes) - [Miscellaneous Changes](#miscellaneous-changes) - [Menu/Option Name Changes](#menuoption-name-changes) - [# Installation Guide](#installation-guide)
-audience: 
-keywords: 
-  - filed
-  - occurrence
-  - referral
-  - code
-  - reason
-  - review
-  - clinical
-  - qaos
-  - reviewer
-  - installation
 page_count: 0
 word_count: 4730
 section_count: 9
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 3/9/09
 revision_oldest: 3/9/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocigrn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocigrn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=49"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocigrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocigrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=49
+audit_applied: '2026-05-31'
 ---
 
 ![](occurrence-screen-version-3-release-notes-installation-guide/001.png)

@@ -3,7 +3,7 @@ title: Fee Basis Version 3.5 Technical Manual/Security Guide (1995)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: FB
 app_name: Fee Basis
 section: FIN
@@ -11,40 +11,135 @@ app_status: active
 pkg_ns: FB
 patch_ver: 3.5
 patch_id: FB*3.5
-group_key: "FB:FB:3.5"
-file_numbers: 
-  - 2
-  - 162
-security_keys: []
+group_key: FB:FB:3.5
+description: Version 3.5January 1995Revised January 2018Office of Information and Technology (OI&T)Product
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.5'
+- '2'
+- '3'
+- '3.5'
+- '5'
+- '5.1'
+- '6'
+- '7'
+- '8'
+- '9'
+- '9.4'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '19.6'
+- '21'
+- '24'
+- '24.5'
+- '33'
+- '34'
+- '35'
+- '36'
+- '37'
+- '38'
+- '39'
+- '40'
+- '41'
+- '41.01'
+- '42'
+- '43'
+- '44'
+- '45'
+- '45.83'
+- '45.84'
+- '46'
+- '47'
+- '48'
+- '49'
+- '50'
+- '51'
+- '52'
+- '53'
+- '54'
+- '55'
+- '56'
+- '57'
+- '58'
+- '59'
+- '60'
+- '61'
+- '62'
+- '63'
+- '64'
+- '65'
+- '66'
+- '67'
+- '68'
+- '69'
+- '70'
+- '71'
+- '72'
+- '73'
+- '74'
+- '75'
+- '76'
+- '77'
+- '78'
+- '79'
+- '80'
+- '81'
+- '82'
+- '83'
+- '85'
+- '86'
+- '87'
+- '88'
+- '100'
+- '102'
+- '103'
+- '161'
+- '161.2'
+- '161.4'
+- '161.7'
+- '161.9'
+- '161.91'
+- '161.93'
+- '161.95'
+- '161.99'
+- '162'
+- '162.1'
+- '162.2'
+- '162.5'
+- '162.7'
+- '162.8'
+- '162.93'
+- '200'
+- '335.93'
+- '353.1'
+- '353.2'
+- '355.93'
+- '392.4'
+security_keys:
+- PROVIDER
+- XUSPF200
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - colspan
-  - class
-  - even
-  - basis
-  - style
-  - width
-  - strong
-  - table
-  - fbaa
 page_count: 0
 word_count: 36927
 section_count: 21
 table_count: 5
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_3_5_TM_R1217.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_3_5_TM_R1217.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_3_5_TM_R1217.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/FB_3_5_TM_R1217.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsFee BasisTechnical Manual

@@ -1,25 +1,47 @@
 ---
-consolidated_title: "ar installation guide"
-app_code: PRCA
+title: PRCA*4.5*341 AR Installation Guide
 doc_type: IG
-master_source: "PRCA*4.5*341 AR Installation Guide"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: AR
+app_code: PRCA
+app_name: Accounts Receivable (AR)
+section: FIN
+app_status: active
+pkg_ns: PRCA
+patch_ver: 4.5
+patch_id: PRCA*4.5*341
+group_key: PRCA:PRCA:4.5
+file_numbers: []
+security_keys:
+- XUPROG
+- XUPROGMODE
+menu_options: 0
+description: '| Date | Version | Description | Author | |-----------|-------------|---------------------------|------------| | 7/17/2018 | 1.0 | Initial Document Creation | REDACTED'
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 2835
+section_count: 32
+table_count: 4
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: August 2018
+revision_count: 1
+revision_newest: 7/17/2018
+revision_oldest: 7/17/2018
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p341_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/prca_4_5_p341_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
+master_source: PRCA*4.5*341 AR Installation Guide
 master_pub_date: August 2018
 consolidated_from: 2 versions
 prior_versions:
-  - "PRCA*4.5*310 AR Installation Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Health Administration Product Enhancements (HAPE) FY16 Revenue Enhancements Maintenance
-
-  Correct 5B Record for Cross-Servicing
-
-  Accounts Receivable
-
-  PRCA\*4.5\*341
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- PRCA*4.5*310 AR Installation Guide
+consolidated_title: ar installation guide
 ---
 
 ![](prca-4-5-341-ar-installation-guide/001.png)
@@ -224,7 +246,7 @@ This product is a VistA patch. The only requirement is that patch PRCA\*4.5\*339
 
 Sites should install patches into the test/mirror/pre-prod accounts before the production account as is the normal VistA patch installation standard convention.
 
-When installing any VistA patch, sites should utilize the option “Backup a Transport Global” in order to create a backup message of any routines exported with this patch. This step is important to make any routine rollback in a simple and efficient manner.
+When installing any VistA patch, sites should utilize the option "Backup a Transport Global" in order to create a backup message of any routines exported with this patch. This step is important to make any routine rollback in a simple and efficient manner.
 
 Post-installation checksums are found in the patch description and in Forum NPM.
 
@@ -256,7 +278,7 @@ N/A for this VistA patch.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option “Kernel Installation & Distribution System” \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
+To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option "Kernel Installation & Distribution System" \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
 
 ## Installation Procedure
 
@@ -340,15 +362,15 @@ Back-Out pertains to a return to the last known good operational state of the so
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The back-out plan for VistA applications is complex and is not able to be a “one size fits all” strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
+The back-out plan for VistA applications is complex and is not able to be a "one size fits all" strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch; otherwise, the site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
 
-Although it is unlikely due to care in collecting approved requirements, SQA/PBM review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after National Release to the Field. The strategy would depend on during which of these stages the decision is made. If during Site Production Testing, unless the patch produces catastrophic problems, the normal VistA response would be for a new version of the test patch correcting defects to be produced, retested and upon successfully passing development team testing would be resubmitted to the site for testing. This project, however, has prepared a set of back-out patch instructions if necessary, as in the case that the project is canceled or the implemented design is found to be so wrong and detrimental to the site’s delivery of services to veterans that the software must be removed. If the defects were not discovered until after national release but during the 30 days support period, a new patch will be entered into the National Patch Module on Forum and go through all the necessary milestone reviews etc. as an emergency patch. After 30 days, the VistA Maintenance Program would produce the new patch, either to correct the defective components or to back-out.
+Although it is unlikely due to care in collecting approved requirements, SQA/PBM review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after National Release to the Field. The strategy would depend on during which of these stages the decision is made. If during Site Production Testing, unless the patch produces catastrophic problems, the normal VistA response would be for a new version of the test patch correcting defects to be produced, retested and upon successfully passing development team testing would be resubmitted to the site for testing. This project, however, has prepared a set of back-out patch instructions if necessary, as in the case that the project is canceled or the implemented design is found to be so wrong and detrimental to the site's delivery of services to veterans that the software must be removed. If the defects were not discovered until after national release but during the 30 days support period, a new patch will be entered into the National Patch Module on Forum and go through all the necessary milestone reviews etc. as an emergency patch. After 30 days, the VistA Maintenance Program would produce the new patch, either to correct the defective components or to back-out.
 
 ## Back-Out Considerations
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-It is necessary to determine if a wholesale back-out of the patch PRCA\*4.5\*341 is needed or if a better course of action is to correct through a new version of the patch (if prior to national release) or through a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will still require a new version (if prior to national release) or a subsequent patch (after national release). If the back-out is post-release of patch PRCA\*4.5\*341, this patch should be assigned status of “Entered in Error” in Forum’s NPM.
+It is necessary to determine if a wholesale back-out of the patch PRCA\*4.5\*341 is needed or if a better course of action is to correct through a new version of the patch (if prior to national release) or through a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patch will still require a new version (if prior to national release) or a subsequent patch (after national release). If the back-out is post-release of patch PRCA\*4.5\*341, this patch should be assigned status of "Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -389,7 +411,7 @@ Back-out authorization will be determined by a consensus consisting of the follo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA Installation Procedure of the KIDS build, the installer can back up the modified routines using the ‘Backup a Transport Global’ action. The installer can restore the routines using the MailMan message that were saved prior to installing the patch. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data. This back-out may need to include a database cleanup process.
+During the VistA Installation Procedure of the KIDS build, the installer can back up the modified routines using the 'Backup a Transport Global' action. The installer can restore the routines using the MailMan message that were saved prior to installing the patch. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with restoration of the data. This back-out may need to include a database cleanup process.
 
 Please contact the EPMO for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to back-out the patch. If the installed patch that needs to be backed out includes a pre or post install routine please contact the EPMO before attempting the back-out.
 
@@ -461,7 +483,7 @@ Template Revision History
 |---------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | March 2016    | 2.2     | Changed the title from Installation, Back-Out, and Rollback Guide to Deployment and Installation Guide, with the understanding that Back-Out and Rollback belong with Installation.                                                      | VIP Team                               |
 | February 2016 | 2.1     | Changed title from Installation, Back-Out, and Rollback Plan to Installation, Back-Out, and Rollback Guide as recommended by OI&T Documentation Standards Committee                                                                      | OI&T Documentation Standards Committee |
-| December 2015 | 2.0     | The OI&T Documentation Standards Committee merged the existing *“Installation, Back-Out, Rollback Plan”* template with the content requirements in the OI&T End-user Documentation Standards for a more comprehensive Installation Plan. | OI&T Documentation Standards Committee |
+| December 2015 | 2.0     | The OI&T Documentation Standards Committee merged the existing *"Installation, Back-Out, Rollback Plan"* template with the content requirements in the OI&T End-user Documentation Standards for a more comprehensive Installation Plan. | OI&T Documentation Standards Committee |
 | February 2015 | 1.0     | Initial Draft                                                                                                                                                                                                                            | Lifecycle and Release Management       |
 
 ---
@@ -534,7 +556,7 @@ Installation Guide prca_4_5_p310_ig.pdf Binary
 
 Technical/Security Manual prca_4_5_p310_tm.pdf Binary
 
-\*User manual did not change so it wasn’t included.
+\*User manual did not change so it wasn't included.
 
 ## Prerequisites
 
@@ -569,11 +591,11 @@ Users should not use the application while the patch is being installed. Once th
 2.  Next, from the Kernel Installation and Distribution System Menu, users may elect to use the following options. When prompted for the INSTALL name enter the patch PRCA\*4.5\*310:
 1.  Verify Checksums in Transport Global - This option will allow you to ensure the integrity of the routines that are in the transport global.
 2.  Print Transport Global – This option allows the user to print the Transport Global Report
-3.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (routines, DD’s, templates, etc.).
-4.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD’s or templates.
+3.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all components of this patch (routines, DD's, templates, etc.).
+4.  Backup a Transport Global - This option will create a backup message of any routines exported with this patch. It will not backup any other changes such as DD's or templates.
 3.  From the Installation Menu, select the Install Package(s) option and enter PRCA\*4.5\*310.
-4.  If prompted ‘Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//’ answer NO and press enter.
-5.  When prompted ‘Want KIDS to INHIBIT LOGONs during the install? YES//’ answer NO and press enter.
+4.  If prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//' answer NO and press enter.
+5.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? YES//' answer NO and press enter.
 6.  When prompted 'Want to DISABLE Scheduled Options, Menu Options. and Protocols? NO//' answer YES and press enter.
 
     Mark the following options as Out of Order:
@@ -585,7 +607,7 @@ Users should not use the application while the patch is being installed. Once th
     Bad Debt Report \[PRCA NR BAD DEBT ACCR. REPRT\]
 
     Deposit Reconciliation Report \[PRCA DEPOSIT RECON REPORT\]
-7.  If prompted ‘Delay Install (Minutes): (0 – 60): 0//’ respond 0 and press enter.
+7.  If prompted 'Delay Install (Minutes): (0 – 60): 0//' respond 0 and press enter.
 8.  There are no installation routines to delete.
 
 ## Routine Information 

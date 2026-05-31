@@ -8,52 +8,36 @@ app_code: AMT
 app_name: Anticoagulation Management Tool
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: AMT
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| Date | Description of Change | Authors | |------------|---------------------------------------------|------------------------------------| | Feb 2018 | Patch OR\*3.0\*447 – 2FA implementation | redacted | | April 2015 | Patch OR\*3.0\*391 – Updated new parameters | redacted | | Mar 2010 | Initial...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '100.21'
+- '103'
+security_keys:
+- PROVIDER
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - oram
-  - anticoagulation
-  - class
-  - patient
-  - routine
-  - routines
-  - management
-  - indication
 page_count: 0
-word_count: 3002
+word_count: 2988
 section_count: 6
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramtm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramtm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=188"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramtm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramtm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=188
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Anticoagulation Management Tool
-
-  Technical Manual
-
-  (Patch OR\*3.0\*447)
----
-
 ![](anticoagulation-management-tool-technical-manual/001.png)
 
 Initial Release: March 2010

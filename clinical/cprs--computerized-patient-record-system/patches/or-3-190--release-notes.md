@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*190
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '''- GMTS\\2.7\\65—requires: - PSO\\7.0\\132 - PSJ\\5.0\\107 - PSS\\1.0\\69 - OR\\3.0\\127 - OR\\3.0\\163 - OR\\3.0\\164 - OR\\3.0\\176 - OR\\3.0\\178 - OR\\3.0\\183 - OR\\3.0\\186 - OR\\3.0\\187 - OR\\3.0\\196 - TIU\\1.0\\183'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- OREMAS
 menu_options: 0
-description: "- GMTS\2.7\65—requires: - PSO\7.0\132 - PSJ\5.0\107 - PSS\1.0\69 - OR\3.0\127 - OR\3.0\163 - OR\3.0\164 - OR\3.0\176 - OR\3.0\178 - OR\3.0\183 - OR\3.0\186 - OR\3.0\187 - OR\3.0\196 - TIU\1.0\183"
-audience: 
-keywords: 
-  - cprs
-  - order
-  - orders
-  - nois
-  - patient
-  - dialog
-  - medication
-  - button
-  - corrected
-  - developers
 page_count: 0
 word_count: 5632
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_190rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 RELEASE NOTESFORCPRS GUI VERSION 24PATCH# OR\*3.0\*190

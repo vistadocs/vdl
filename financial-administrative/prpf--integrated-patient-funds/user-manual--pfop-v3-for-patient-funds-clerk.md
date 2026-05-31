@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: PRPF
 patch_ver: 3
 patch_id: PRPF*3
-group_key: "PRPF:PRPF:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PRPF:PRPF:3
 description: The PFOP system is a computerized program that manages the private finances of Department of Veterans Affairs patients. The material to be stored in this system is the same information you have probably recorded on VA Form 10-1083, the Patient Account Card. Once installed, the PFOP system will accep
-audience: 
-keywords: 
-  - patient
-  - your
-  - funds
-  - ipfpatient
-  - transaction
-  - account
-  - table
-  - contents
-  - prompt
-  - bath
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '470'
+security_keys:
+- PROVIDER
+- PRPF CLERK
+- RETURN
+menu_options: 0
 page_count: 0
 word_count: 12852
 section_count: 14
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/pfop_clerks.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/pfop_clerks.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=46"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/pfop_clerks.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Patient_Funds/pfop_clerks.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=46
+audit_applied: '2026-05-31'
 ---
 
 ![](pfop-version-3-user-manual-for-patient-funds-clerk/001.png)

@@ -3,7 +3,7 @@ title: Kernel Toolkit 7.3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,38 +11,47 @@ app_status: active
 pkg_ns: XU
 patch_ver: 7.3
 patch_id: XU*7.3
-group_key: "XU:XU:7.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: XU:XU:7.3
 description: The purpose of this guide is to provide instructions for installing Kernel Toolkit (also referred to as "Toolkit") Version 7.3.
-audience: 
-keywords: 
-  - filed
-  - strong
-  - table
-  - xtini
-  - taskman
-  - routine
-  - routines
-  - contents
-  - blockquote
-  - manager
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '0'
+- '1.2'
+- '3.05'
+- '3.07'
+- '3.5'
+- '6'
+- '7'
+- '7.3'
+- '14.5'
+- '14.6'
+- '14.7'
+- '15.1'
+- '40'
+- '8986.095'
+- '8986.4'
+- '8986.5'
+- '8986.51'
+security_keys:
+- XUMGR
+menu_options: 4
 page_count: 0
 word_count: 10793
 section_count: 4
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/ktk_7_3ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

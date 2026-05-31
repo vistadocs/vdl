@@ -3,7 +3,7 @@ title: XOBW*1*4 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: XOBW
 app_name: HealtheVet Web Services Client (HWSC)
 section: GUI
@@ -11,48 +11,30 @@ app_status: active
 pkg_ns: XOBW
 patch_ver: 1
 patch_id: XOBW*1*4
-group_key: "XOBW:XOBW:1"
+group_key: XOBW:XOBW:1
+description: HealtheVet Web Services Client (HWSC) Patch XOBW\1.0\4 enables the use of Transport Layer Security/Secure Socket Layer (TLS/SSL) on OpenVMS systems.
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: HealtheVet Web Services Client (HWSC) Patch XOBW\1.0\4 enables the use of Transport Layer Security/Secure Socket Layer (TLS/SSL) on OpenVMS systems.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - patch
-  - hwsc
-  - client
-  - healthevet
-  - xobw
-  - services
-  - configuration
-  - applications
 page_count: 0
-word_count: 1165
+word_count: 1145
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=180"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/HealtheVet_Web_Services_Client/xobw_1_0_p4_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=180
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>HealtheVet Web Services Client <span class="smallcaps">(HWSC)</span> 1.0  
-  Patch XOBW\*1.0\*4
-
-  Release Notes
----
-
 ![](xobw-1-4-release-notes/001.png)
 
 October 2016

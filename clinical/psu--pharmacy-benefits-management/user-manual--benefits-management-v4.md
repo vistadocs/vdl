@@ -3,58 +3,144 @@ title: Benefits Management Version 4 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
 pkg_ns: PSU
 patch_ver: 4
 patch_id: PSU*4
-group_key: "PSU:PSU:4"
-file_numbers: 
-  - 50
-  - 58
-  - 442
-security_keys: []
+group_key: PSU:PSU:4
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '1.2'
+- '2'
+- '3'
+- '3.1'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '14.5'
+- '15'
+- '16'
+- '17'
+- '18'
+- '21'
+- '22'
+- '26'
+- '26.1'
+- '27'
+- '27.11'
+- '31'
+- '34'
+- '38'
+- '40.8'
+- '41'
+- '44'
+- '45'
+- '49'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.607'
+- '50.68'
+- '51'
+- '51.2'
+- '51.5'
+- '52'
+- '52.6'
+- '52.7'
+- '53'
+- '53.6'
+- '55'
+- '55.01'
+- '55.06'
+- '58.111'
+- '58.5'
+- '58.8'
+- '58.81'
+- '58.811'
+- '59'
+- '59.7'
+- '59.9'
+- '60'
+- '60.01'
+- '60.1'
+- '60.11'
+- '61'
+- '62'
+- '63'
+- '63.04'
+- '70'
+- '71'
+- '80'
+- '80.1'
+- '81'
+- '90'
+- '95.3'
+- '99'
+- '100'
+- '104'
+- '105'
+- '111'
+- '113'
+- '115'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.8'
+- '120.82'
+- '120.85'
+- '200'
+- '301'
+- '302'
+- '400'
+- '403'
+- '441'
+- '442'
+- '445'
+- '991.01'
+- '991.02'
+- '1201'
+- '8932.1'
+- '15002'
+- '900001'
+- '999999'
+security_keys:
+- PROVIDER
+- PSA ORDERS
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - patient
-  - strong
-  - example
-  - pharmacy
-  - drug
-  - table
-  - message
-  - even
-  - statistics
 page_count: 0
-word_count: 29843
+word_count: 29830
 section_count: 21
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_um_r0714.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_um_r0714.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_um_r0714.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_um_r0714.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Pharmacy Benefits Management (PBM)
-
-  User Manual
----
-
 ![](benefits-management-version-4-user-manual/001.png)
 
 Software Version 4.0

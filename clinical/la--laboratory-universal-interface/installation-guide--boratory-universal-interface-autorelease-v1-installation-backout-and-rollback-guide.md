@@ -1,57 +1,53 @@
 ---
-title: "Laboratory: Universal Interface AutoRelease Version 1 Installation Backout and Rollback Guide"
+title: '''Laboratory: Universal Interface AutoRelease Version 1 Installation Backout and Rollback Guide'''
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
 doc_subject: Installation Backout and Rollback Guide
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: []
-security_keys: []
+patch_id: 'null'
+group_key: LA::1
+description: '| Date | Version | Description | Author | |------------|---------|-------------------------------------------------------------------------|------------------------------------| | 6/28/2016 | 1.4 | Peer reviewed; removed blue instructional text. | REDACTED | | 6/25/2016 | 1.3 | Update and...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '2.3'
+- '2.4'
+- '62.4'
+- '62.48'
+- '68.2'
+- '93'
+- '94'
+- '99'
+- '200'
+security_keys:
+- LRLAB
+- LRSUPER
+- LRVERIFY
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - auto
-  - table
-  - contents
-  - release
-  - mark
-  - class
-  - installation
-  - install
-  - interface
 page_count: 0
-word_count: 4862
+word_count: 4844
 section_count: 30
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2016
 revision_count: 5
 revision_newest: 6/28/2016
 revision_oldest: 10/29/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease_1_0_installationguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease_1_0_installationguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease_1_0_installationguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/labautorelease_1_0_installationguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>VistA Laboratory Enhancements - Auto Verification
-
-  Installation, Back-out, and Rollback Plan
----
-
 ![](laboratory-universal-interface-autorelease-version-1-installation-backout-and-ro/001.png)
 
 June 2016

@@ -1,7 +1,7 @@
 ---
 title: Occurrence Screen Version 3 ADPAC Guide
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: ADPAC Guide
 app_code: QAO
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: QAO
 patch_ver: 3
 patch_id: QAO*3
-group_key: "QAO:QAO:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: QAO:QAO:3
 description: For this portion of the manual, you should be at a terminal that can access Occurrence Screen V. 3.0 in a test account. This exercise demonstrates how to validate data and test the validity of documentation. It should also provide some insight as to the information that you should convey to the user
-audience: 
-keywords: 
-  - occurrence
-  - review
-  - peer
-  - auto
-  - contents
-  - table
-  - clinical
-  - service
-  - report
-  - enrollment
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '741'
+- '741.3'
+- '741.99'
+security_keys:
+- QAOSCLIN
+menu_options: 0
 page_count: 0
 word_count: 7407
 section_count: 18
 table_count: 57
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 1
 revision_newest: 3/9/09
 revision_oldest: 3/9/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocadp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocadp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=49"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocadp.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/ocadp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=49
+audit_applied: '2026-05-31'
 ---
 
 ![](occurrence-screen-version-3-adpac-guide/001.png)

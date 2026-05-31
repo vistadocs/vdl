@@ -11,51 +11,32 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*406
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '| Date | Version | Description | Author | |----------------|---------|-------------------------------------------------------------------------------------|-------------------------------------------| | September 2015 | 1.0 | Baseline document, created for ICD-10 PTF Modifications project patch...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '101.24'
+- '142.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - patch
-  - associated
-  - codes
-  - health
-  - summary
-  - reports
-  - fields
-  - templates
 page_count: 0
-word_count: 1903
+word_count: 1889
 section_count: 18
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_406_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_406_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_406_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_406_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ICD-10 PTF Modifications
-
-  CPRS: Order Entry/Results Reporting (OE/RR)
-
-  OR\*3.0\*406
-
-  Release Notes
----
-
 ![](or-3-406-icd-10-ptf-modifications-release-notes/001.png)
 
 September 2015

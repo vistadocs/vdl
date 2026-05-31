@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*702
-group_key: "XU:XU:8"
+group_key: XU:XU:8
+description: '- Kernel 8.0; Patch XU\8.0\702 - Quick Reference Guide - Prerequisites - New User Signon Processes - Link My Account - Technical Support -...'
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: - [Kernel 8.0; Patch XU\8.0\702](#kernel-80-patch-xu80702) - [Quick Reference Guide](#quick-reference-guide) - [Prerequisites](#prerequisites) - [New User Signon Processes](#new-user-signon-processes) - [Link My Account](#link-my-account) - [Technical Support](#technical-support) - [References](#ref
-audience: 
-keywords: 
-  - link
-  - account
-  - your
-  - vista
-  - table
-  - contents
-  - support
-  - verify
-  - site
-  - guide
 page_count: 0
 word_count: 1160
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_qr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_qr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_qr.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_702_qr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 # Kernel 8.0; Patch XU\*8.0\*702

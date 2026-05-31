@@ -1,14 +1,62 @@
 ---
-consolidated_title: "tmp vista technical manual"
-app_code: TMP
+title: TMP Version 4.0 Release 4.9.0.8 VistA Technical Manual
 doc_type: TM
-master_source: "TMP Version 4.0 Release 4.9.0.8 VistA Technical Manual"
+doc_label: Technical Manual
+doc_layer: anchor
+doc_subject: Release 4.9.0.8 VistA
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 4.0
+patch_id: TMP*4.0
+group_key: TMP:TMP:4.0
+file_numbers:
+- '2'
+- '7'
+- '8'
+- '9'
+- '9.5'
+- '40.6'
+- '40.7'
+- '44'
+- '400.03'
+- '1521'
+- '1918'
+- '2504'
+- '2505'
+- '2506'
+security_keys:
+- PROVIDER
+menu_options: 2
+description: Department of Veterans AffairsTelehealth Management Platform (TMP) Technical
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 3754
+section_count: 8
+table_count: 20
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: November 2021
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v04.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_vista_technical_manual_v04.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 4.0 Release 4.9.0.8 VistA Technical Manual
 master_pub_date: November 2021
 consolidated_from: 4 versions
 prior_versions:
-  - "TMP Version 2.0 Release 4.8 VistA Technical Manual"
-  - "TMP Version 3.0 Release 4.9.0.6 VistA Technical Manual"
-  - "TMP Version 6.0 Release 4.9.0.9 VistA Technical Manual"
+- TMP Version 2.0 Release 4.8 VistA Technical Manual
+- TMP Version 3.0 Release 4.9.0.6 VistA Technical Manual
+- TMP Version 6.0 Release 4.9.0.9 VistA Technical Manual
+consolidated_title: tmp vista technical manual
 ---
 
 Department of Veterans AffairsTelehealth Management Platform (TMP) Technical Manual  
@@ -47,8 +95,8 @@ November 2021Version 1.1Revision History
 The Telehealth Management Program (TMP) integrates with Veterans Health Information Systems and Technology Architecture (VistA) to schedule, cancel or update appointments in support of Telehealth services provided by the VA. When an appointment is made or canceled on TMP, a message is sent to VistA to update the VistA files with the appointment information. This information is then viewable in VistA Scheduling Options, Computerized Patient Record System (CPRS), Vista Scheduling Enhancements (VSE) and other applications. The integration with VistA is bi-directional and so Telehealth related appointments scheduled directly on VistA are also transmitted to TMP. The following is a diagram of the integration interfaces.
 ![](tmp-version-4-0-release-4-9-0-8-vista-technical-manual/002.png)
 These interfaces use the Health Level 7 (HL7) international standard for communication of clinical and administrative health related data.
-- The TMP – VistA interface uses the VistA HL7 and VistA HL7 Optimized (HLO) applications to send and receive HL7 messages on the VistA system. In addition to this guide, please refer to the VistA HL7 SITE MANAGER AND DEVELOPERS’ MANUAL and the HLO SYSTEM MANAGER MANUAL for information specific to these interfaces.
-- The TMP messaging system includes the TMP application, a HealthConnect Ensemble Production and VistA. The HealthConnect Ensemble Production is maintained by the VA’s HealthShare Team. TMP doesn’t have a direct HL7 interface. TMP uses JavaScript Option Notation format (JSON) to exchange messages. However, VistA is not capable of receiving JSON messages directly. VistA relies on the HL7 messaging to do the translation and communication with TMP.
+- The TMP – VistA interface uses the VistA HL7 and VistA HL7 Optimized (HLO) applications to send and receive HL7 messages on the VistA system. In addition to this guide, please refer to the VistA HL7 SITE MANAGER AND DEVELOPERS' MANUAL and the HLO SYSTEM MANAGER MANUAL for information specific to these interfaces.
+- The TMP messaging system includes the TMP application, a HealthConnect Ensemble Production and VistA. The HealthConnect Ensemble Production is maintained by the VA's HealthShare Team. TMP doesn't have a direct HL7 interface. TMP uses JavaScript Option Notation format (JSON) to exchange messages. However, VistA is not capable of receiving JSON messages directly. VistA relies on the HL7 messaging to do the translation and communication with TMP.
 - TMP deploys an InterSystems HealthConnect Ensemble production (HC) that acts as a message transformation and routing system. TMP sends a JSON message to the TMP HC server. HC transforms the JSON to the appropriate HL7 message structure and routes the message to the correct VistA system. VistA responds by sending the appropriate HL7 message to HC where HC transforms the HL7 message to JSON and posts the response on the TMP Rest End Point.
 
 # HL7 Interface
@@ -60,7 +108,7 @@ The HL7 messages formats used in the integration conform to the HL7 Version 2.4 
 - Message Type - Schedule Information Unsolicited (SIU)
 - Message Structures - S12 for Schedule an appointment and an S15 for Cancel an appointment.
 
-Additionally, TMP initiates an <u>HL7 query</u> to retrieve a patient’s list of consults and Return To Clinic (RTC) orders that are housed in VistA. These two lists are used by the schedulers to schedule appointments associated with specific consults and RTC orders.
+Additionally, TMP initiates an <u>HL7 query</u> to retrieve a patient's list of consults and Return To Clinic (RTC) orders that are housed in VistA. These two lists are used by the schedulers to schedule appointments associated with specific consults and RTC orders.
 
 VistA will also send out real time update messages to TMP to update TMP when appointments are scheduled or canceled for a tele health clinic. Tele health clinics are identified by either the Stop Code or the Credit Stop Code fields in the VistA Hospital Location file (#44). All real time update messages for make or cancel appointments use the same S12 and S15 message structure.
 
@@ -135,7 +183,7 @@ The following are the HL7 messages used in the communications:
 
 All scheduling messages used by TMP and VistA use the same structures for make and cancel appointments. The difference between make and cancel appointments is the message type on the MSH segment. Make appointments will be a SIU-S12 message and cancel appointments will be a SIU-S15 message.
 
-In addition, Notification of Blocked Schedule Timeslot(s) and Notification of Opened (“un-blocked”) schedule time slot(s) are sent as SIU-S12 records. These records are differentiated by the ID information contained in field 25. The fields are used according to the definitions for S23 and S24 records.
+In addition, Notification of Blocked Schedule Timeslot(s) and Notification of Opened ("un-blocked") schedule time slot(s) are sent as SIU-S12 records. These records are differentiated by the ID information contained in field 25. The fields are used according to the definitions for S23 and S24 records.
 
 The SCH segment contains general information about the scheduled appointment.
 
@@ -180,9 +228,9 @@ The PID segment has patient identification information.
 | 3   | 250 | CX  | R   | Y      |        | 106   | Patient Identifier List           | Patient ICN^^^USAVHA^NI~DFN             |
 | 4   | 20  | CX  | B   | Y      |        | 107   | Alternate Patient ID - PID        |  Not used                               |
 | 5   | 250 | XPN | R   | Y      |        | 108   | Patient Name                      | Last Name^First Name^MI^^^^^L           |
-| 6   | 250 | XPN | O   | Y      |        | 109   | Mother’s Maiden Name              |  Not used                               |
+| 6   | 250 | XPN | O   | Y      |        | 109   | Mother's Maiden Name              |  Not used                               |
 | 7   | 26  | TS  | O   |        |        | 110   | Date/Time of Birth                |  Patient Date of Birth                  |
-| 8   | 1   | IS  | O   |        | 1      | 111   | Administrative Sex                |  Patient’s Gender                       |
+| 8   | 1   | IS  | O   |        | 1      | 111   | Administrative Sex                |  Patient's Gender                       |
 | 9   | 250 | XPN | B   | Y      |        | 112   | Patient Alias                     |  Not used                               |
 | 10  | 250 | CE  | O   | Y      | 5      | 113   | Race                              |  Not used                               |
 | 11  | 250 | XAD | O   | Y      |        | 114   | Patient Address                   |  Not used                               |
@@ -1048,7 +1096,7 @@ TMP has also added a new style cross reference to the Hospital Location File (#4
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-TMP added a field to the HOSPITAL LOCATION FILE (#44) in the APPOINTMENT Sub File (#400.03) to store the Uniform Resource Locator (URL) for the Veteran’s Video Call. The capture below shows just the field description, not the full data dictionary for the APPOINTMENT Sub File.
+TMP added a field to the HOSPITAL LOCATION FILE (#44) in the APPOINTMENT Sub File (#400.03) to store the Uniform Resource Locator (URL) for the Veteran's Video Call. The capture below shows just the field description, not the full data dictionary for the APPOINTMENT Sub File.
 
 Using FileMan:
 

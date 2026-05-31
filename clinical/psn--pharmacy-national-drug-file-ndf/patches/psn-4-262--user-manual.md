@@ -5,44 +5,40 @@ doc_label: User Manual
 doc_layer: patch
 doc_subject: Change Pages
 app_code: PSN
-app_name: "Pharmacy: National Drug File (NDF)"
+app_name: 'Pharmacy: National Drug File (NDF)'
 section: CLI
 app_status: archive
 pkg_ns: PSN
 patch_ver: 4
 patch_id: PSN*4*262
-group_key: "PSN:PSN:4"
-file_numbers: []
+group_key: PSN:PSN:4
+description: '> The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages document, or replace it with the updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '11'
+- '25'
+- '38'
+- '50.67'
+- '50.68'
 security_keys: []
 menu_options: 3
-description: > The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages document, or replace it with the updated manual.
-audience: 
-keywords: 
-  - strong
-  - table
-  - class
-  - blockquote
-  - guide
-  - example
-  - contents
-  - medication
-  - product
-  - drug
 page_count: 0
 word_count: 4354
 section_count: 23
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p262_p263_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p262_p263_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=389"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p262_p263_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_p262_p263_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=389
+audit_applied: '2026-05-31'
 ---
 
 > ![](psn-4-262-263-user-manual-change-pages/001.png)

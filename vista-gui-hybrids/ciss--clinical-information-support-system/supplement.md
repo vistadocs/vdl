@@ -3,7 +3,7 @@ title: Clinical Information Support System Production Operations Manual (POM) Ve
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CISS
 app_name: Clinical Information Support System
 section: GUI
@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: CISS
 patch_ver: 1.4
 patch_id: CISS*1.4
-group_key: "CISS:CISS:1.4"
+group_key: CISS:CISS:1.4
+description: '> Clinical Information Support System Occupational Health Record-Keeping'
+audience: Production operations, release engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - server
-  - blockquote
-  - database
-  - support
-  - operations
-  - weblogic
-  - application
-  - class
 page_count: 0
 word_count: 5922
 section_count: 34
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 6
 revision_newest: 9/12/11
 revision_oldest: 7/29/11
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Clin_Info_Support_Sys_Archive/ciss1_4om.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Clin_Info_Support_Sys_Archive/ciss1_4om.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=278"
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Clin_Info_Support_Sys_Archive/ciss1_4om.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Clin_Info_Support_Sys_Archive/ciss1_4om.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=278
+audit_applied: '2026-05-31'
 ---
 
 > Clinical Information Support System Occupational Health Record-Keeping System

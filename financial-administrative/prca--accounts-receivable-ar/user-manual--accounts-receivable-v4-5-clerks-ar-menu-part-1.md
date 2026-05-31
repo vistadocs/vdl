@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- Clerk''s AR Menu - ## ## Audit/Set up a New Accounts Receivable - Audit an Electronic Bill - Set up and Audit New Accounts Receivable - [Amended Bill...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Clerk's AR Menu](#clerks-ar-menu) - [## ## Audit/Set up a New Accounts Receivable](#auditset-up-a-new-accounts-receivable) - [Audit an Electronic Bill](#audit-an-electronic-bill) - [Set up and Audit New Accounts Receivable](#set-up-and-audit-new-accounts-receivable) - [Amended Bill Audit](#amende
-audience: 
-keywords: 
-  - bill
-  - plan
-  - repayment
-  - date
-  - accounts
-  - active
-  - status
-  - receivable
-  - debtor
-  - amount
 page_count: 0
 word_count: 9314
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_5clerk1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_5clerk1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=244"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_5clerk1.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)_Archive/prca_4_5_5clerk1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=244
+audit_applied: '2026-05-31'
 ---
 
 ![](accounts-receivable-version-4-5-user-manual-clerk-s-ar-menu-part-1/001.png)

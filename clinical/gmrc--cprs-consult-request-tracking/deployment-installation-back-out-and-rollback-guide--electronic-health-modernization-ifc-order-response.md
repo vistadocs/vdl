@@ -1,372 +1,466 @@
 ---
-consolidated_title: "electronic health modernization ifc order response () deployment, installation, back-out, and rollback guide"
-app_code: GMRC
+title: Electronic Health Modernization IFC Order Response (GMRC*3.0*184) Deployment, Installation, Back-Out, and Rollback Guide
 doc_type: DIBR
-master_source: "Electronic Health Modernization  IFC Order Response (GMRC*3.0*184) Deployment, Installation, Back-Out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: null
+app_code: GMRC
+app_name: 'CPRS: Consult/Request Tracking'
+section: CLI
+app_status: active
+pkg_ns: GMRC
+patch_ver: 3.0
+patch_id: GMRC*3.0*184
+group_key: GMRC:GMRC:3.0
+file_numbers:
+- '123'
+security_keys:
+- XUPROG
+- XUPROGMODE
+menu_options: 0
+description: '| Date | Version | Description | Author | |------------|---------|------------------------|----------| | 10/27/2022 | 1.1 | Updated section 5.2.2. | W. Chave | | 02/02/2022 | 1.0 | Initial draft | W. Chave'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2520
+section_count: 31
+table_count: 2
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: October 2022
+revision_count: 2
+revision_newest: 10/27/2022
+revision_oldest: 02/02/2022
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_184_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_184_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
+master_source: Electronic Health Modernization IFC Order Response (GMRC*3.0*184) Deployment, Installation, Back-Out, and Rollback Guide
 master_pub_date: October 2022
 consolidated_from: 2 versions
 prior_versions:
-  - "Electronic Health Modernization IFC Order Response (GMRC*3.0*185) Deployment, Installation, Back-Out, and Rollback Guide"
+- Electronic Health Modernization IFC Order Response (GMRC*3.0*185) Deployment, Installation, Back-Out, and Rollback Guide
+consolidated_title: electronic health modernization ifc order response () deployment, installation, back-out, and rollback guide
 ---
 
 Electronic Health Modernization
 
-IFC Order Response (GMRC*3.0*184)
+IFC Order Response (GMRC\*3.0\*184)
 
 Deployment, Installation, Back-Out, and Rollback Guide
 
-<!-- image -->
+![](electronic-health-modernization-ifc-order-response-gmrc-3-0-184-deployment-insta/001.png)
 
 October 2022
 
-
 Office of Information and Technology
 
-**Revision History**
+Revision History
 
-| Date       |   Version | Description            | Author   |
-|------------|-----------|------------------------|----------|
-| 10/27/2022 |       1.1 | Updated section 5.2.2. | W. Chave |
-| 02/02/2022 |       1   | Initial draft          | W. Chave |
+| Date       | Version | Description            | Author   |
+|------------|---------|------------------------|----------|
+| 10/27/2022 | 1.1     | Updated section 5.2.2. | W. Chave |
+| 02/02/2022 | 1.0     | Initial draft          | W. Chave |
 
-**Artifact Rationale**
+<span id="_Ref12518168" class="anchor"></span>Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibilities
+
+Artifact Rationale
 
 This document describes the Deployment, Installation, Back-out, and Rollback (DIBR) Guide for new products going into the Department of Veterans Affairs (VA) Enterprise. The plan includes information about system support, issue tracking, escalation processes, and roles and responsibilities involved in all those activities. Its purpose is to provide clients, stakeholders, and support personnel with a smooth transition to the new product or software, and should be structured appropriately, to reflect particulars of these procedures at a single location or at multiple locations.
 
-Per the Veteran-focused Integrated Process (VIP) Guide, the DIBR Guide is required to be completed prior to Critical Decision Point #2 (CD #2), with the expectation that it will be updated throughout the lifecycle of the project for each build, as needed.
+Per the Veteran-focused Integrated Process (VIP) Guide, the DIBR Guide is required to be completed prior to Critical Decision Point \#2 (CD \#2), with the expectation that it will be updated throughout the lifecycle of the project for each build, as needed.
 
 Table of Contents
 
-1.	Introduction	1
+# Introduction
 
-Purpose	1
 
-Dependencies	1
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Constraints	1
+## Table of Contents
 
-2.	Roles and Responsibilities	1
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Dependencies](#dependencies)
+  - [Constraints](#constraints)
+- [Roles and Responsibilities](#roles-and-responsibilities)
+- [Deployment](#deployment)
+  - [Timeline](#timeline)
+  - [Site Readiness Assessment](#site-readiness-assessment)
+    - [Deployment Topology (Targeted Architecture)](#deployment-topology-targeted-architecture)
+    - [Site Information (Locations, Deployment Recipients)](#site-information-locations-deployment-recipients)
+    - [Site Preparation](#site-preparation)
+  - [Resources](#resources)
+  - [Hardware](#hardware)
+  - [Software](#software)
+  - [Communications](#communications)
+    - [Deployment/Installation/Back-Out Checklist](#deploymentinstallationback-out-checklist)
+- [Installation](#installation)
+  - [Pre-installation and System Requirements](#pre-installation-and-system-requirements)
+  - [Platform Installation and Preparation](#platform-installation-and-preparation)
+  - [Download and Extract Files](#download-and-extract-files)
+  - [Database Creation](#database-creation)
+  - [Installation Scripts](#installation-scripts)
+  - [Cron Scripts](#cron-scripts)
+  - [Access Requirements and Skills Needed for the Installation](#access-requirements-and-skills-needed-for-the-installation)
+  - [Installation Procedure](#installation-procedure)
+  - [Installation Verification Procedure](#installation-verification-procedure)
+- [Back-Out Procedure](#back-out-procedure)
+  - [Back-Out Strategy](#back-out-strategy)
+  - [Back-Out Considerations](#back-out-considerations)
+    - [Load Testing](#load-testing)
+    - [User Acceptance Testing](#user-acceptance-testing)
+  - [Back-Out Criteria](#back-out-criteria)
+  - [Back-Out Risks](#back-out-risks)
+  - [Authority for Back-Out](#authority-for-back-out)
+  - [Back-Out Procedure](#back-out-procedure-1)
+  - [Back-out Verification Procedure](#back-out-verification-procedure)
+- [Rollback Procedure](#rollback-procedure)
+  - [Rollback Considerations](#rollback-considerations)
+  - [Rollback Risks](#rollback-risks)
+  - [Authority for Rollback](#authority-for-rollback)
+  - [Rollback Procedure](#rollback-procedure-1)
+  - [Rollback Verification Procedure](#rollback-verification-procedure)
+This document is intended to guide the VA Medical Center (VAMC) Information Resources Management (IRM) Specialist or VA Testing Center engineer in the installation of the IFC Response patch (GMRC\*3.0\*184). The patch is a component of the Consult/Request Tracking (GMRC) Package.
 
-3.	Deployment	2
+## Purpose
 
-3.1 Timeline	2
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-3.2	Site Readiness Assessment	2
+The purpose of this document is to describe how, when, where, and to whom the IFC Response patch (GMRC\*3.0\*184) is deployed and installed, as well as how it is to be backed out and rolled back, if necessary. The document also identifies resources, communications plan, and rollout schedule. Specific instructions for installation, back-out, and rollback are included in this document.
 
-3.2.1 Deployment Topology (Targeted Architecture)	2
+## Dependencies
 
-3.2.2 Site Information (Locations, Deployment Recipients)	2
-
-3.2.3 Site Preparation	2
-
-3.3. Resources	2
-
-3.4. Hardware	3
-
-3.5. Software	3
-
-3.6 Communications	3
-
-3.6.1 Deployment/Installation/Back-Out Checklist	3
-
-4.	Installation	3
-
-4.1.	Pre-installation and System Requirements	3
-
-4.2.	Platform Installation and Preparation	3
-
-4.3.	Download and Extract Files	4
-
-4.4.	Database Creation	4
-
-4.5.	Installation Scripts	4
-
-4.6.	Cron Scripts	4
-
-4.7.	Access Requirements and Skills Needed for the Installation	4
-
-4.8.	Installation Procedure	4
-
-4.9.	Installation Verification Procedure	5
-
-5.	Back-Out Procedure	5
-
-5.1. Back-Out Strategy	5
-
-5.2. Back-Out Considerations	6
-
-5.2.1 Load Testing	6
-
-5.2.2 User Acceptance Testing	6
-
-5.3. Back-Out Criteria	6
-
-5.4. Back-Out Risks	6
-
-5.5. Authority for Back-Out	6
-
-5.6. Back-Out Procedure	6
-
-5.7. Back-out Verification Procedure	7
-
-6.	Rollback Procedure	7
-
-6.1. Rollback Considerations	7
-
-6.2. Rollback Risks	7
-
-6.3. Authority for Rollback	7
-
-6.4. Rollback Procedure	7
-
-6.5. Rollback Verification Procedure	7
-
-Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibilities	1
-
-Table 2: Deployment/Installation/Back-Out Checklist	3
-
-## Introduction
-
-This document is intended to guide the VA Medical Center (VAMC) Information Resources Management (IRM) Specialist or VA Testing Center engineer in the installation of the IFC Response patch (GMRC*3.0*184).   The patch is a component of the Consult/Request Tracking (GMRC) Package.
-
-### Purpose
-
-The purpose of this document is to describe how, when, where, and to whom the IFC Response patch (GMRC*3.0*184) is deployed and installed, as well as how it is to be backed out and rolled back, if necessary. The document also identifies resources, communications plan, and rollout schedule. Specific instructions for installation, back-out, and rollback are included in this document.
-
-### Dependencies
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 There are no dependencies for this patch.
 
-### Constraints
+## Constraints
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 There are no constraints for this patch.
 
-## Roles and Responsibilities
+# Roles and Responsibilities
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The deployment, installation, back-out, and rollback roles and responsibilities are shown in Table 1.
 
-Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibilities
+<table>
+<caption><p><span id="_Toc2267867" class="anchor"></span>Table 2: Deployment/Installation/Back-Out Checklist</p></caption>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 18%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Team</th>
+<th>Phase / Role</th>
+<th>Tasks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>OEHRM Deployment Team, VistA Team</td>
+<td>Deployment</td>
+<td>Plan and schedule deployment</td>
+</tr>
+<tr class="even">
+<td>OEHRM Deployment Team, VistA Team</td>
+<td>Deployment</td>
+<td>Determine and document the roles and responsibilities of those involved in the deployment.</td>
+</tr>
+<tr class="odd">
+<td>OEHRM Deployment Team, VistA Team</td>
+<td>Deployment</td>
+<td>Test for operational readiness</td>
+</tr>
+<tr class="even">
+<td>OEHRM Deployment Team, VistA Team</td>
+<td>Deployment</td>
+<td>Execute deployment</td>
+</tr>
+<tr class="odd">
+<td>Site-specific Regional IT Team</td>
+<td>Installation</td>
+<td>Plan and schedule installation</td>
+</tr>
+<tr class="even">
+<td>Site-specific Regional IT Team</td>
+<td>Installation</td>
+<td>Ensure authority to operate and that certificate authority security documentation is in place</td>
+</tr>
+<tr class="odd">
+<td>Site-specific Regional IT Team</td>
+<td>Back-out</td>
+<td>Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out)</td>
+</tr>
+<tr class="even">
+<td><p>OEHRM Deployment Team, VistA Team</p>
+<p>Product Development Team during warranty period, afterwards (software only) Tier 1, Tier 2, Tier 3 / VistA Maintenance</p></td>
+<td>Post Deployment</td>
+<td>Hardware, Software and System Support</td>
+</tr>
+</tbody>
+</table>
 
-| Team                                                                                                                                                      | Phase / Role    | Tasks                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------|
-| OEHRM Deployment Team, VistA Team                                                                                                                         | Deployment      | Plan and schedule deployment                                                                                        |
-| OEHRM Deployment Team, VistA Team                                                                                                                         | Deployment      | Determine and document the roles and responsibilities of those involved in the deployment.                          |
-| OEHRM Deployment Team, VistA Team                                                                                                                         | Deployment      | Test for operational readiness                                                                                      |
-| OEHRM Deployment Team, VistA Team                                                                                                                         | Deployment      | Execute deployment                                                                                                  |
-| Site-specific Regional IT Team                                                                                                                            | Installation    | Plan and schedule installation                                                                                      |
-| Site-specific Regional IT Team                                                                                                                            | Installation    | Ensure authority to operate and that certificate authority security documentation is in place                       |
-| Site-specific Regional IT Team                                                                                                                            | Back-out        | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out) |
-| OEHRM Deployment Team, VistA Team  Product Development Team during warranty period, afterwards (software only) Tier 1, Tier 2, Tier 3 / VistA Maintenance | Post Deployment | Hardware, Software and System Support                                                                               |
+<span id="_Toc2267867" class="anchor"></span>Table 2: Deployment/Installation/Back-Out Checklist
 
-## Deployment
+# Deployment 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The patch will be released nationally subject to the standard patching procedures.
 
-### 3.1 Timeline
+## Timeline
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 TBD
 
-### Site Readiness Assessment
+## Site Readiness Assessment
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A
 
-#### Deployment Topology (Targeted Architecture)
+### Deployment Topology (Targeted Architecture)
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A
 
-#### Site Information (Locations, Deployment Recipients)
+### Site Information (Locations, Deployment Recipients) 
 
-The patch will be deployed to all Veterans Health Information Systems and Technology Architecture (VISTA) production instances.  The IOC test sites are TBD.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-#### Site Preparation
+The patch will be deployed to all Veterans Health Information Systems and Technology Architecture (VISTA) production instances. The IOC test sites are TBD.
+
+### Site Preparation 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A
 
-### 3.3. Resources
+## Resources
 
-The IFC Response patch does not require any special or specific resources at a VistA system.  The patch adds new fields to the REQUEST/CONSULTATION file (#123).  This will have no measurable impact on database size.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### 3.4. Hardware
+The IFC Response patch does not require any special or specific resources at a VistA system. The patch adds new fields to the REQUEST/CONSULTATION file (#123). This will have no measurable impact on database size.
+
+## Hardware
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 There is no specific hardware required other than that which already hosts the VistA system. This is a software enhancement that will not require additional hardware.
 
-### 3.5. Software
+## Software 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 There is no specific software required other than that which already hosts the VistA system.
 
-### 3.6 Communications
+## Communications 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The patch changes the content of selected HL7 messages but does not impact the manner that these messages are sent or received.
 
-#### Deployment/Installation/Back-Out Checklist
+### Deployment/Installation/Back-Out Checklist
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The Release Management team will deploy the Image Migration patch.
 
-Table 2: Deployment/Installation/Back-Out Checklist
+| Activity | Day | Time | Individual who completed task |
+|----------|-----|------|-------------------------------|
+| Deploy   | TBD | TBD  | TBD                           |
+| Install  | TBD | TBD  | TBD                           |
+| Back-Out | TBD | TBD  | TBD                           |
 
-| Activity   | Day   | Time   | Individual who completed task   |
-|------------|-------|--------|---------------------------------|
-| Deploy     | TBD   | TBD    | TBD                             |
-| Install    | TBD   | TBD    | TBD                             |
-| Back-Out   | TBD   | TBD    | TBD                             |
+# Installation
 
-## Installation
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The software for this patch is being released in a PackMan message named GMRC*3.0*184.  There are no pre- or post-installation actions required of the installer.
+The software for this patch is being released in a PackMan message named GMRC\*3.0\*184. There are no pre- or post-installation actions required of the installer.
 
-### Pre-installation and System Requirements
+## Pre-installation and System Requirements
 
-The patches listed below are required builds for the IFC Response patch.  They are installed at all production sites.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1. GMRC*3.0*58
-2. GMRC*3.0*154
-3. GMRC*3.0*176
-### Platform Installation and Preparation
+The patches listed below are required builds for the IFC Response patch. They are installed at all production sites.
+
+1.  GMRC\*3.0\*58
+2.  GMRC\*3.0\*154
+3.  GMRC\*3.0\*176
+
+## Platform Installation and Preparation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 This product is a VistA patch. Sites should install patches into the test/mirror/pre-prod accounts before the production account as is the normal VistA patch installation standard convention.
 
-When installing any VistA patch, sites should utilize the option “Backup a Transport Global” to create a backup message of any routines exported with this patch.
+When installing any VistA patch, sites should utilize the option "Backup a Transport Global" to create a backup message of any routines exported with this patch.
 
-### Download and Extract Files
+## Download and Extract Files
 
-N/A.
-
-### Database Creation
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-### Installation Scripts
+## Database Creation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-### Cron Scripts
+## Installation Scripts
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-### Access Requirements and Skills Needed for the Installation
+## Cron Scripts
 
-To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option, “Kernel Installation &amp; Distribution System” [XPD MAIN] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Installation Procedure
+N/A.
 
-This patch may be installed with users on the system although it is recommended that it be installed during non-peak hours to minimize potential disruption to users.  This patch should take less than 5 minutes to install.
+## Access Requirements and Skills Needed for the Installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To install this VistA patch, the patch installer must be an active user on the VistA system and have access to the VistA menu option, "Kernel Installation & Distribution System" \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE. Knowledge on how to install VistA patches using the items on this menu option is also a required skill.
+
+## Installation Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch may be installed with users on the system although it is recommended that it be installed during non-peak hours to minimize potential disruption to users. This patch should take less than 5 minutes to install.
 
 Installation Instructions:
 
-1. Choose the PackMan message containing this build. Then select the INSTALL/CHECK MESSAGE PackMan option to load the build.
+1.  Choose the PackMan message containing this build. Then select the INSTALL/CHECK MESSAGE PackMan option to load the build.
+2.  From the Kernel Installation and Distribution System Menu, select the Installation Menu. From this menu,
+    1.  Select the Verify Checksums in Transport Global option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch or build name GMRC\*3.0\*184.
+    2.  Select the Backup a Transport Global option to create a backup message. You must use this option for each patch contained in the Host File. For each patch you can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition.
+    3.  You may also elect to use the following options:
+        1.  Print Transport Global - This option will allow you to view the components of the KIDS build.
+        2.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all the components of this patch, such as routines, DDs, templates, etc.
+    4.  Select the Install Package(s) option and choose the patch to install.
+1.  If prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//', answer YES.
+2.  When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//', answer NO.
+3.  When prompted 'Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//', answer NO.
 
-1. From the Kernel Installation and Distribution System Menu, select the Installation Menu.  From this menu,
+## Installation Verification Procedure
 
-- 0.1. Select the Verify Checksums in Transport Global option to confirm the integrity of the routines that are in the transport global. When prompted for the INSTALL NAME enter the patch or build name GMRC*3.0*184.
-
-- 0.1. Select the Backup a Transport Global option to create a backup message. You must use this option for each patch contained in the Host File.  For each patch you       can specify what to backup, the entire Build or just Routines. The backup message can be used to restore just the routines or everything that will restore your system to pre-patch condition.
-
-- 0.1. You may also elect to use the following options:
-
-- 0.0.1. Print Transport Global - This option will allow you to view the components of the KIDS build.
-
-- 0.0.1. Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed.  It compares all the components of this patch, such as routines, DDs, templates, etc.
-
-- 0.1. Select the Install Package(s) option and choose the patch to install.
-
-1. If prompted 'Want KIDS to Rebuild Menu Trees Upon Completion of Install? NO//', answer YES.
-
-1. When prompted 'Want KIDS to INHIBIT LOGONs during the install? NO//', answer NO.
-
-1. When prompted ‘Want to DISABLE Scheduled Options, Menu Options, and Protocols? NO//’, answer NO.
-
-### Installation Verification Procedure
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Verify completed installation by checking that the build components as listed in the patch description have been correctly installed onto the target VistA system.
 
-## Back-Out Procedure
+# Back-Out Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Back-Out procedures pertain to a return to the last known good operational state of the software and appropriate platform settings.
 
-### 5.1. Back-Out Strategy
+## Back-Out Strategy
 
-The Back-Out Strategy for VistA applications is complex and is not able to be a “one size fits all” strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Although it is unlikely due to care in collecting approved requirements, software quality analyst (SQA) review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after Release to the Field. The strategy would depend on during which of these stages the decision is made. If the decision is made during Site Production Testing, the normal VistA response would be for a new version of the test patch to be produced to correct defects, unless the patch produces catastrophic problems. The test patch would be retested and upon successfully passing development team testing would be resubmitted to the site for testing.  If the defects were not discovered until after release, OEHRM would produce the new patch, either to correct the defective components or to back-out.
+The Back-Out Strategy for VistA applications is complex and is not able to be a "one size fits all" strategy. The general strategy for VistA software back-out is to repair the code with a follow-up patch. The site should contact the Enterprise Program Management Office (EPMO) directly for specific solutions to their unique problems. 
 
-### 5.2. Back-Out Considerations
+Although it is unlikely due to care in collecting approved requirements, software quality analyst (SQA) review and multiple testing stages (Primary Developer, Secondary Developer, and Component Integration Testing) a back-out decision due to major issues with this patch could occur during site Mirror Testing, Site Production Testing or after Release to the Field. The strategy would depend on during which of these stages the decision is made. If the decision is made during Site Production Testing, the normal VistA response would be for a new version of the test patch to be produced to correct defects, unless the patch produces catastrophic problems. The test patch would be retested and upon successfully passing development team testing would be resubmitted to the site for testing.  If the defects were not discovered until after release, OEHRM would produce the new patch, either to correct the defective components or to back-out. 
 
-It is necessary to determine if a wholesale back-out of the patch GMRC*3.0*184 is needed or if correcting through a new version of the patch is a better course of action. A wholesale back-out of the patch will still require a new version.
+## Back-Out Considerations
 
-#### Load Testing
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+It is necessary to determine if a wholesale back-out of the patch GMRC\*3.0\*184 is needed or if correcting through a new version of the patch is a better course of action. A wholesale back-out of the patch will still require a new version.
+
+### Load Testing
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-#### User Acceptance Testing
+### User Acceptance Testing
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-### 5.3. Back-Out Criteria
+## Back-Out Criteria
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The decision to back-out this VistA patch will be made by the Business Sponsor, OEHRM VA Leadership, VA OIT IT Program Manager, and the Development Team. Criteria will be determined based on separate and unique factors and will be evaluated upon post-patch installation use of the product.
 
-### 5.4. Back-Out Risks
+## Back-Out Risks
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 N/A.
 
-### 5.5. Authority for Back-Out
+## Authority for Back-Out
 
-Based on authority provided by the Business Sponsor, OEHRM VA Leadership and VA OIT IT Program Manager, GMRC*3.0*184 can be backed out in accordance to their approval.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### 5.6. Back-Out Procedure
+Based on authority provided by the Business Sponsor, OEHRM VA Leadership and VA OIT IT Program Manager, GMRC\*3.0\*184 can be backed out in accordance to their approval.
 
-***WARNING: Use caution in performing these steps. Deletions cannot be undone!***
+## Back-Out Procedure
 
-***There is no harm in leaving the build installed. As long as no other application calls the new API, then the routine will never be run.***
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Removing patch GMRC*3.0*184 from a site can be done by installing the backup created during patch installation.
+*WARNING: Use caution in performing these steps. Deletions cannot be undone!There is no harm in leaving the build installed. As long as no other application calls the new API, then the routine will never be run.  
+*
 
-### 5.7. Back-out Verification Procedure
+Removing patch GMRC\*3.0\*184 from a site can be done by installing the backup created during patch installation.
 
-The routines listed in the patch description can be checked to see that 184 is not present in line 2 of each routine.  The fields added to file #123 can be checked to see that they are not present using FileMan to list the data dictionary.
+## Back-out Verification Procedure
 
-## Rollback Procedure
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The routines listed in the patch description can be checked to see that 184 is not present in line 2 of each routine. The fields added to file \#123 can be checked to see that they are not present using FileMan to list the data dictionary.
+
+# Rollback Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Rollback pertains to data associated with this patch.
 
-### 6.1. Rollback Considerations
+## Rollback Considerations
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 This patch does not supply or convert any data.
 
 The decision to rollback this VistA patch will be made by the Business Sponsor, Office of Electronic Health Record Modernization (OEHRM) VA Leadership, VA OIT IT Program Manager, and the Development Team. Criteria will be determined based on separate and unique factors and will be evaluated upon post-patch installation use of the product.
 
-### 6.2. Rollback Risks
+## Rollback Risks
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Rollback risks include being able to restore the database to how it looked before this patch was installed without introducing database corruption.
 
-### 6.3. Authority for Rollback
+## Authority for Rollback
 
-Based on authority provided by the Business Sponsor, OEHRM VA Leadership and VA OIT IT Program Manager, VistA patch GMRC*3.0*184 can be rolled back in accordance to their approval.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### 6.4. Rollback Procedure
+Based on authority provided by the Business Sponsor, OEHRM VA Leadership and VA OIT IT Program Manager, VistA patch GMRC\*3.0\*184 can be rolled back in accordance to their approval.
+
+## Rollback Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 A new patch to fix the problems should be developed.
 
-### 6.5. Rollback Verification Procedure
+## Rollback Verification Procedure
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Verify that all the above data components have been removed from the system as described in the previous section.
-
----
-
-## Appendix: Unique Sections from Prior Versions
-
-_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
-
-### From: Electronic Health Modernization IFC Order Response (GMRC*3.0*185) Deployment, Installation, Back-Out, and Rollback Guide
-
-### 5.1. Back-Out Procedure
-
-***WARNING: Use caution in performing these steps. Deletions cannot be undone!***
-
-***There is no harm in leaving the build installed. As long as no other application calls the new API, then the routine will never be run.***
-
-Removing patch GMRC*3.0*185 from a site can be done by installing the backup created during patch installation.  Backing out the patch should not be performed until the data is rolled back.
-
-### 6.2. Authority for Rollback
-
-Based on authority provided by the Business Sponsor, EHRM IO VA Leadership and VA OIT IT Program Manager, VistA patch GMRC*3.0*185 can be rolled back in accordance with their approval.

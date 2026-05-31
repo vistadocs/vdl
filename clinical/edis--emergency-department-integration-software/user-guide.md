@@ -1,19 +1,51 @@
 ---
-consolidated_title: "emergency department integration software user guide"
-app_code: EDIS
+title: Emergency Department Integration Software User Guide (file name contains _r)
 doc_type: UG
-master_source: "Emergency Department Integration Software User Guide (file name contains _r)"
+doc_label: User Guide
+doc_layer: anchor
+doc_subject: Emergency Department Integration Software (file name contains _r)
+app_code: EDIS
+app_name: Emergency Department Integration Software
+section: CLI
+app_status: archive
+pkg_ns: EDIS
+patch_ver: 2.2
+patch_id: EDIS*2.2
+group_key: EDIS:EDIS:2.2
+file_numbers:
+- '2'
+- '230'
+security_keys:
+- EDPR EXPORT
+- EDPR PROVIDER
+- EDPR XREF
+- PROVIDER
+menu_options: 1
+description: Section 9, Updated Waiting Room Display Board with new image and updated metrics
+audience: End users and package coordinators (ADPAC)
+keywords: []
+page_count: 0
+word_count: 18616
+section_count: 40
+table_count: 1
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: April 2025
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_ug_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_ug_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
+master_source: Emergency Department Integration Software User Guide (file name contains _r)
 master_pub_date: April 2025
 consolidated_from: 2 versions
 prior_versions:
-  - "Emergency Department Integration Software User Guide"
----
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Emergency Department Integration Software (EDIS)
-
-  User Guide
+- Emergency Department Integration Software User Guide
+consolidated_title: emergency department integration software user guide
 ---
 
 ![](emergency-department-integration-software-user-guide-file-name-contains-r/001.png)
@@ -79,7 +111,7 @@ Revision History
 <td><p>EDP*2.0*24:</p>
 <ul>
 <li><p>Section 2.3 new EDIS Home Page image added</p></li>
-<li><p>Added sub-section 2.3.2 “Restore”</p></li>
+<li><p>Added sub-section 2.3.2 "Restore"</p></li>
 <li><p>Section 2.3.7.4 parameters added for Metrics Text, Footer Text, Updates Text</p></li>
 <li><p>Section 4 Text removed "This view also allows a user to restore a patient to the board who was removed in error"</p></li>
 <li><p>Section 8.2.2 added Admittance Delay</p></li>
@@ -101,8 +133,8 @@ Revision History
 <p>Added to Section 2.2 Note referencing Log In</p>
 <p>Added to Section 2.5.3.1 2<sup>nd</sup> Bullet "Check in Ms. Jones"</p>
 <p>Added to Section 2.4 1<sup>st</sup> Bullet "when the patient is checked in"</p>
-<p>Removed Note referencing parameter “EDPF SCHEDULING TRIGGER” in Section 2.4.</p>
-<p>Removed the first paragraph reference to parameter “EDPF SCHEDULING TRIGGER” in Section 2.5.3.1.</p>
+<p>Removed Note referencing parameter "EDPF SCHEDULING TRIGGER" in Section 2.4.</p>
+<p>Removed the first paragraph reference to parameter "EDPF SCHEDULING TRIGGER" in Section 2.5.3.1.</p>
 <ul>
 <li><p>Updated the Title page, Revision History, Table of Contents, List of Tables, List of Figures, and Footers</p></li>
 </ul></td>
@@ -114,9 +146,9 @@ Revision History
 <td><p>EDP*2.0*22:</p>
 <p>Patient Demographics is now read-only.</p>
 <ul>
-<li><p>Removed “or update” from, <em>view or update patient demographic information</em> in section <strong><u>2.3.1.1</u></strong></p></li>
-<li><p>Removed “or update” from, <em>view or update patient demographic information</em> in section <strong>3.3</strong></p></li>
-<li><p>Removed “or update” and “or edited” from the title and body of section <strong><u>3.3.2</u></strong></p></li>
+<li><p>Removed "or update" from, <em>view or update patient demographic information</em> in section <strong><u>2.3.1.1</u></strong></p></li>
+<li><p>Removed "or update" from, <em>view or update patient demographic information</em> in section <strong>3.3</strong></p></li>
+<li><p>Removed "or update" and "or edited" from the title and body of section <strong><u>3.3.2</u></strong></p></li>
 </ul>
 <ul>
 <li><p>Updated the Title page, Revision History, Table of Contents, List of Tables, List of Figures, and Footers</p></li>
@@ -578,7 +610,7 @@ List of Figures
   - [Selections Sub View](#selections-sub-view)
     - [Adding Status, Disposition, Delay Reason, and Source Selections](#adding-status-disposition-delay-reason-and-source-selections)
 - [Waiting Room Display Board](#waiting-room-display-board)
-The fundamental mission of Department of Veterans Affairs (VA), Office of Information & Technology (OIT), Emergency Department Integration Software (EDIS) Program Services is to provide Veterans the benefits they have earned throughout their military service to the United States. OIT accomplishes its mission by delivering high-quality, client-centered, effective and efficient Information Technology (IT) services to those responsible for providing care to the Veterans at the point-of-care as well as throughout all the points of the Veterans’ health care in an effective, timely and compassionate manner. VA depends on Information Management/Information Technology (IM/IT) systems to meet mission goals.
+The fundamental mission of Department of Veterans Affairs (VA), Office of Information & Technology (OIT), Emergency Department Integration Software (EDIS) Program Services is to provide Veterans the benefits they have earned throughout their military service to the United States. OIT accomplishes its mission by delivering high-quality, client-centered, effective and efficient Information Technology (IT) services to those responsible for providing care to the Veterans at the point-of-care as well as throughout all the points of the Veterans' health care in an effective, timely and compassionate manner. VA depends on Information Management/Information Technology (IM/IT) systems to meet mission goals.
 The Veterans Health Administration (VHA) Health Workflow System (HWS) initiative is a single initiative whose mission is to expand health care access for Veterans, including women and rural populations. Multiple programs and projects have been assigned as part of the HWS Initiative, including EDIS.
 The system is an extension to Veterans Health Information Systems and Technology Architecture / Computerized Patient Record System (VistA/CPRS) for tracking and managing the delivery of care to patients in an Emergency Department (ED). Capabilities of the system include the recording and tracking of ED patients during incidents of care, displaying the current state of care delivery, and reports and data extracts on the delivery of care. The system can be configured to the specifics of different VHA emergency departments.
 
@@ -594,8 +626,8 @@ This guide walks through the process of performing the following tasks:
 4.  Create emergency department encounters in the Computerized Patient Record System (CPRS) Patient Care Encounters (PCE) package (if not using Appointment Manager).
 5.  Update patient information as patients progress through the emergency-care process
 6.  View the display board.
-7.  Enter patients’ dispositions in EDIS.
-8.  Enter patients’ discharge diagnoses in EDIS and CPRS.
+7.  Enter patients' dispositions in EDIS.
+8.  Enter patients' discharge diagnoses in EDIS and CPRS.
 9.  Remove patients from the display board (this task incorporates disposing patients, which supports discharge and admit processes).
 10. Make site and shift relevant staff assignments.
 11. Edit visit-related information, including vital signs.
@@ -612,7 +644,7 @@ This guide supports the use of assistive reading devices. EDIS uses a graphical 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-EDIS provides role-based access to the specific functionality sets that are available through its views. If the application does not display in its main navigation page, one or more of the views this guide describes, a user’s current role may not be compatible with functionality that the views include. Please contact the information resource management (IRM) or clinical application coordinator (CAC) staff with questions about roles. Please see *Emergency Department Integration Software Technical Manual* for information about configuring role-based access to application functionality.
+EDIS provides role-based access to the specific functionality sets that are available through its views. If the application does not display in its main navigation page, one or more of the views this guide describes, a user's current role may not be compatible with functionality that the views include. Please contact the information resource management (IRM) or clinical application coordinator (CAC) staff with questions about roles. Please see *Emergency Department Integration Software Technical Manual* for information about configuring role-based access to application functionality.
 
 ## Document Conventions
 
@@ -686,7 +718,7 @@ The EDIS technical working group (TWG) offers the following definitions for the 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 - Obtain Accepting Physician: The delay was caused by the inability to find an accepting physician to admit the patient. This selection includes the elapsed time between determining the patient's need for admission and obtaining an accepting physician.
-- Admit Physician Writing Dispo: The delay resulted from the physician's failure to write the patient’s admit or discharge order. This selection includes the elapsed time between when the patient was ready for his or her disposition and when the physician wrote the order to admit or discharge the patient.
+- Admit Physician Writing Dispo: The delay resulted from the physician's failure to write the patient's admit or discharge order. This selection includes the elapsed time between when the patient was ready for his or her disposition and when the physician wrote the order to admit or discharge the patient.
 - Admitting Physician Evaluation: The delay was related to the admitting physician's evaluation and confirmation of the patient's disposition. For this selection, delay time begins when the physician sees the patient and ends when:
   - H&P is done
   - Ancillary studies that are necessary for disposing the patient are done and resulted
@@ -733,7 +765,7 @@ The EDIS technical working group (TWG) offers the following definitions for the 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-EDIS v2.2 should be accessible through a shortcut on the user’s desktop, a shared network folder, or on the CPRS Tools menu. Contact the IRM or CAC staff for assistance with shortcuts.
+EDIS v2.2 should be accessible through a shortcut on the user's desktop, a shared network folder, or on the CPRS Tools menu. Contact the IRM or CAC staff for assistance with shortcuts.
 
 A Pre-Production version of EDIS is also available. Please contact IRM or CAC staff for assistance.
 
@@ -759,7 +791,7 @@ To create desktop shortcuts to EDIS:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When logging into EDIS, the application will prompt the user to use their PIV credentials. If a user’s PIV is associated with more than one site, a list of institutions will be displayed. Select the correct institution to proceed.
+When logging into EDIS, the application will prompt the user to use their PIV credentials. If a user's PIV is associated with more than one site, a list of institutions will be displayed. Select the correct institution to proceed.
 
 > **NOTE:** As of EDIS v2.2.47, the user will no longer be able to routinely log in with their Access and Verify codes. The user will need to link their PIV card to their VistA instance.
 
@@ -831,15 +863,15 @@ The Restore view enables users to restore a patient to the board that was previo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Edit Closed view enables users to edit patients’ information after their emergency department visits have ended.
+The Edit Closed view enables users to edit patients' information after their emergency department visits have ended.
 
-This view enables users to change a patient’s complaint, status/responsibility elements, and the patients’ dispositions and diagnoses. Diagnoses shall be entered in the form of International Classification of Diseases, Tenth Revision, Clinical Modifications (ICD-10-CM) or free-text, if the EDIS parameter is set to allow free-text entries for diagnosis. If patients’ stays have exceeded the national emergency department visit limit (currently six hours), the application may require users to select a reason for delay. If it does, this view will include a list of reasons from which can be chosen.
+This view enables users to change a patient's complaint, status/responsibility elements, and the patients' dispositions and diagnoses. Diagnoses shall be entered in the form of International Classification of Diseases, Tenth Revision, Clinical Modifications (ICD-10-CM) or free-text, if the EDIS parameter is set to allow free-text entries for diagnosis. If patients' stays have exceeded the national emergency department visit limit (currently six hours), the application may require users to select a reason for delay. If it does, this view will include a list of reasons from which can be chosen.
 
 ### Display Board
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Display Board view is a PC-based version of the site’s main electronic whiteboard (big-board) display. Multiple big-board displays can be configured for the site. However, only the site’s main display board can be viewed using the PC-based Display Board view.
+The Display Board view is a PC-based version of the site's main electronic whiteboard (big-board) display. Multiple big-board displays can be configured for the site. However, only the site's main display board can be viewed using the PC-based Display Board view.
 
 ### Assign Staff
 
@@ -906,7 +938,7 @@ Users can successfully integrate CPRS with EDIS in one of two ways:
 - Create an unscheduled appointment in Appointment Manager; when the patient is checked in to a clinic location the site has specified in the EDPF LOCATION parameter, EDIS adds the patient to the EDIS Active Patients list.
 - Add a patient to the application then have the provider assign themselves to the patient for an encounter to be created through EDIS, using Patient Care Encounter (PCE).
 
-Each method has strengths and weaknesses. As is the case for any patient-scheduling system, less-than-optimal practices can lead to duplicated encounters. Sections 2.5 Using EDIS with Appointment Manager and 2.6 Using EDIS with PCE provide information that may help users choose the method that’s best for the user’s location. Please read these two sections carefully.
+Each method has strengths and weaknesses. As is the case for any patient-scheduling system, less-than-optimal practices can lead to duplicated encounters. Sections 2.5 Using EDIS with Appointment Manager and 2.6 Using EDIS with PCE provide information that may help users choose the method that's best for the user's location. Please read these two sections carefully.
 
 ## Using EDIS with Appointment Manager
 
@@ -932,15 +964,15 @@ Successful CPRS and EDIS integration using this method requires intensive (recom
 
 #### Add Patients to Appointment Management First:
 
-When a patient presents to the emergency department for evaluation, a member of the site’s administrative staff immediately creates an appointment for the patient in Appointment Manager. A patient is added to the board at CHECK IN. This creates a selectable visit in CPRS and adds the patient to EDIS. The triage nurse must subsequently add additional data to EDIS.
+When a patient presents to the emergency department for evaluation, a member of the site's administrative staff immediately creates an appointment for the patient in Appointment Manager. A patient is added to the board at CHECK IN. This creates a selectable visit in CPRS and adds the patient to EDIS. The triage nurse must subsequently add additional data to EDIS.
 
 Example:
 
 - Ms. Jones arrives at 11:30.
 - At 11:32, a member of the ED staff uses Appointment Manager to create an appointment and check in Ms. Jones.
 - EDIS automatically displays Ms. Jones in the Active Patients table.
-- The triage nurse sees Ms. Jones at 11:35 and completes her EDIS triage information; the nurse then opens CPRS and writes a triage note under the visit in CPRS that corresponds to Ms. Jones’s emergency department appointment.
-- The emergency department provider selects this same encounter in CPRS when he or she writes notes or orders related to Ms. Jones’s emergency department care.
+- The triage nurse sees Ms. Jones at 11:35 and completes her EDIS triage information; the nurse then opens CPRS and writes a triage note under the visit in CPRS that corresponds to Ms. Jones's emergency department appointment.
+- The emergency department provider selects this same encounter in CPRS when he or she writes notes or orders related to Ms. Jones's emergency department care.
 
 #### Why This Is a Best Practice
 
@@ -988,22 +1020,22 @@ Sites that switch from using Appointment Manager to PCE, will impact their users
 
 When a patient is sent to the emergency department for evaluation, someone notifies the triage nurse and adds the patient to EDIS. The attending provider must assign himself or herself to the patient in EDIS. Assigning a provider in EDIS creates an unscheduled encounter in CPRS. Providers and nurses can subsequently write notes and orders under this encounter.
 
-Although assigning a nurse in EDIS can also generate an encounter in CPRS, it doesn’t always. Nurse assignments generate selectable encounters in CPRS only if the hospital configures nurses with an active person class in the VistA New Person file. Some sites do not allow this practice. In addition, using nursing assignments to create PCE encounters makes nurses primary providers in EDIS-generated encounters. Primary providers must change these placeholder assignments for encounters other than nursing-only encounters. To do this, primary providers should select Yes when CPRS prompts them to identify themselves as primary providers for encounters they are signing.
+Although assigning a nurse in EDIS can also generate an encounter in CPRS, it doesn't always. Nurse assignments generate selectable encounters in CPRS only if the hospital configures nurses with an active person class in the VistA New Person file. Some sites do not allow this practice. In addition, using nursing assignments to create PCE encounters makes nurses primary providers in EDIS-generated encounters. Primary providers must change these placeholder assignments for encounters other than nursing-only encounters. To do this, primary providers should select Yes when CPRS prompts them to identify themselves as primary providers for encounters they are signing.
 
 Example 1:
 
-- At 11:31, a member of the administrative staff or a triage nurse adds Mr. Jones to EDIS and Dr. Smith assigns himself or herself as Mr. Jones’s provider.
+- At 11:31, a member of the administrative staff or a triage nurse adds Mr. Jones to EDIS and Dr. Smith assigns himself or herself as Mr. Jones's provider.
 - This creates an 11:31 encounter for Mr. Jones in CPRS.
-- The triage nurse opens CPRS, enters Mr. Jones’s chart, starts note, and selects the emergency department encounter that already appears in CPRS.
+- The triage nurse opens CPRS, enters Mr. Jones's chart, starts note, and selects the emergency department encounter that already appears in CPRS.
 - The triage nurse writes and signs the note.
-- Mr. Jones’s provider writes a note or orders, also selecting the encounter that EDIS already created in CPRS.
+- Mr. Jones's provider writes a note or orders, also selecting the encounter that EDIS already created in CPRS.
 
 In this example, if the initially assigned provider is not the primary provider for the encounter, the primary provider must select himself or herself when he or she signs the note. The primary provider must also assign himself or herself in EDIS.
 
 Example 2:
 
 - At 11:31, an LPN adds Mr. Jones to EDIS.
-- Mr. Jones’s triage nurse has an active person class in the VistA New Person file and opens a PCE encounter for Mr. Jones’s visit in CPRS as a provider.
+- Mr. Jones's triage nurse has an active person class in the VistA New Person file and opens a PCE encounter for Mr. Jones's visit in CPRS as a provider.
 - A provider sees Mr. Jones; the provider adds his or her name in EDIS.
 - When the provider is signing the encounter in CPRS, the provider identifies himself or herself as the primary provider for the encounter.
 
@@ -1077,7 +1109,7 @@ EDIS displays an advisory when users attempt to add patients who are already act
 
 #### Multiple Patient Icon
 
-The application alerts users to the possibility of confusing patients’ identities by displaying an icon when two or more patients share the same last name or at least two consecutive ending digits of their social security numbers.
+The application alerts users to the possibility of confusing patients' identities by displaying an icon when two or more patients share the same last name or at least two consecutive ending digits of their social security numbers.
 
 <span id="_Toc196383169" class="anchor"></span>Figure 6: Duplicate Selection Icon on Board
 
@@ -1089,7 +1121,7 @@ The application alerts users to the possibility of confusing patients’ identit
 
 EDIS automatically adds patients when users use the VistA Scheduling (Appointment Manager) package to create an emergency department appointment for patients. Utilizing Appointment Manager is the preferred way to enter new patients into EDIS.
 
-The EDPF LOCATION parameter, which holds the site’s emergency department location or locations, controls this functionality. Parameter settings ensure that only emergency department check-ins and appointments add patients to EDIS.
+The EDPF LOCATION parameter, which holds the site's emergency department location or locations, controls this functionality. Parameter settings ensure that only emergency department check-ins and appointments add patients to EDIS.
 
 From the CPE view, users can create an encounter in CPRS and add patients to the application after the provider assigns himself or herself.
 
@@ -1097,11 +1129,11 @@ From the CPE view, users can create an encounter in CPRS and add patients to the
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a provider (or a nurse who has an active person class in the New Person file) assigns himself or herself to a patient, EDIS automatically creates a PCE encounter in CPRS. This will happen unless EDIS has already created an encounter for this particular emergency department episode of care (through Appointment Manager, for example) or the provider does not have an active person class in the VistA New Person file. To reduce the possibility of creating duplicate PCE encounters in CPRS, EDIS checks back one hour for PCE encounter entries associated with the emergency department location the site’s IT staff has specified.
+When a provider (or a nurse who has an active person class in the New Person file) assigns himself or herself to a patient, EDIS automatically creates a PCE encounter in CPRS. This will happen unless EDIS has already created an encounter for this particular emergency department episode of care (through Appointment Manager, for example) or the provider does not have an active person class in the VistA New Person file. To reduce the possibility of creating duplicate PCE encounters in CPRS, EDIS checks back one hour for PCE encounter entries associated with the emergency department location the site's IT staff has specified.
 
 > **NOTE:** EDPF LOCATION parameter settings and, if applicable, Clinic list selections determine the location EDIS uses to create encounters.
 
-The application creates only one PCE encounter in CPRS for each emergency department episode of care (or encounter). Users can avoid creating duplicate encounters for the same episode of care by selecting the encounter that EDIS creates when users’ complete patients’ emergency department encounters in CPRS.
+The application creates only one PCE encounter in CPRS for each emergency department episode of care (or encounter). Users can avoid creating duplicate encounters for the same episode of care by selecting the encounter that EDIS creates when users' complete patients' emergency department encounters in CPRS.
 
 ## Add Patients to EDIS from the CPE View
 
@@ -1125,10 +1157,10 @@ Select + New Patient in the upper right corner above the table. The application 
 
 To search for a patient in VistA:
 
-1.  If necessary, then select the Search for Patient in VistA option (this is the application's default selection; in most cases, a user won’t need to manually select this option).
+1.  If necessary, then select the Search for Patient in VistA option (this is the application's default selection; in most cases, a user won't need to manually select this option).
 2.  Search for a patient in the Patient Name field using the following formats:
 
-> **NOTE:** Use an underscore to denote spaces in names. For example, if the patient’s name is O Hara, enter O_Hara.
+> **NOTE:** Use an underscore to denote spaces in names. For example, if the patient's name is O Hara, enter O_Hara.
 
 1.  Last name,First name (no spaces)
 2.  Last name
@@ -1229,13 +1261,13 @@ To view patient demographic information:
 ![](emergency-department-integration-software-user-guide-file-name-contains-r/010.png)
 
 2.  Select the gray Exclamation icon next to the patient's name. The application displays the Patient Demographics pop-up.
-3.  View the patient’s information.
+3.  View the patient's information.
 
 ### Change the Patient Status
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To change a patient’s status:
+To change a patient's status:
 
 1.  In the Status column, select the cell to be viewed or edited. The application displays the Status for pop-up.
 2.  Select a status (see section 1.7.1 Statuses for national status descriptions).
@@ -1420,7 +1452,7 @@ The Disposition drop-down menu enables users to:
   - The patient's stay has exceeded the site-determined limit.
   - The patient is not in an observation ward.
 
-> **NOTE:** If the site requires a reason for delay and the patient’s stay has exceeded the site's maximum number of minutes, then the application will require a user to enter a delay reason before it allows the user to remove the patient from the display board.
+> **NOTE:** If the site requires a reason for delay and the patient's stay has exceeded the site's maximum number of minutes, then the application will require a user to enter a delay reason before it allows the user to remove the patient from the display board.
 
 - Select a Diagnosis Code (or enter a free-text diagnosis if the site allows it).
 
@@ -1502,7 +1534,7 @@ To remove patients:
 
 Use the Save & Remove from Board option to save changes and remove patients from the display board.
 
-This option is available only after users have entered a clinic and all disposition information required by the user's site. If a user hasn't entered a provider, a complaint, and acuity, the application alerts them to do so before it allows them to save the changes and remove the patient from the board. This happens unless the patient’s disposition is one of the following:
+This option is available only after users have entered a clinic and all disposition information required by the user's site. If a user hasn't entered a provider, a complaint, and acuity, the application alerts them to do so before it allows them to save the changes and remove the patient from the board. This happens unless the patient's disposition is one of the following:
 
 - Patient Name Entered in Error
 - Left Without Being Treated / Seen
@@ -1548,7 +1580,7 @@ To edit patients:
     4.  Beginning letter of a last name followed by the last four digits of their SSN (X9999)
     5.  Entire SSN (999999999)
     6.  A date (mm/dd/yy)
-    7.  The word today (for a list of today’s visits)
+    7.  The word today (for a list of today's visits)
     8.  t-n (where t represents today, and n represents the number of days prior to today)
 2.  Select Search. EDIS lists matches in the table.
 3.  Select a patient. The Edit Closed pane displays on the right side of the screen. Select Complaint, EC Status/Responsibility, or EC Disposition to collapse or expand each drop-down menu respectively.
@@ -1626,7 +1658,7 @@ To resize columns in the Display Board view:
 To sort columns in the Display Board view:
 
 - Select a column header to sort the column's contents in descending order.
-- Select the column header again to sort the column’s contents in ascending order.
+- Select the column header again to sort the column's contents in ascending order.
 
 > **NOTE:** Sorting information within columns in the PC-based Display Board view does not cause EDIS to similarly sort information in the large electronic (LCD) whiteboard display columns. EDIS first sorts large display columns by the order of the rooms and areas listed in the Room / Areas sub view, then secondly by the order of patients' acuities.
 
@@ -1783,7 +1815,7 @@ The standard reports are:
 
 ![](emergency-department-integration-software-user-guide-file-name-contains-r/020.png)
 
-This report displays patient’s activity from the timeframe specified from the date range. The Activity report lists the following information below:
+This report displays patient's activity from the timeframe specified from the date range. The Activity report lists the following information below:
 
 - IEN
 - Time In
@@ -1822,7 +1854,7 @@ This report displays statistics that measure patient workload for each acuity le
 - Admission Decision (VA facilities)
 - Admission Delay (VA facilities)
 
-Also, if the site’s process results in a number of patients who have been removed from the board using the Patient Name Entered in Error selection, then correct the report’s total number of patients by subtracting the number of patients who were entered in error.
+Also, if the site's process results in a number of patients who have been removed from the board using the Patient Name Entered in Error selection, then correct the report's total number of patients by subtracting the number of patients who were entered in error.
 
 ### Delay Report
 
@@ -1862,7 +1894,7 @@ This report presents average visit and decision-to-admit times (and other import
 - All visits that resulted in VA-facility admissions
 - All visits that did not result in VA-facility admissions
 
-This report also presents acuity-based tallies for each applicable reason for delay. Again, if the site’s process results in a number of patients who have been removed from the board using the Patient Name Entered in Error selection, then subtract this number from the report’s total number of visits and from visits that didn’t result in VA-facility admissions.
+This report also presents acuity-based tallies for each applicable reason for delay. Again, if the site's process results in a number of patients who have been removed from the board using the Patient Name Entered in Error selection, then subtract this number from the report's total number of visits and from visits that didn't result in VA-facility admissions.
 
 > **NOTE:** EDIS does not include, in its Delay and Delay Summary reports, patients whose emergency department visits are not yet closed regardless of the number of hours their visits have consumed.
 
@@ -1874,7 +1906,7 @@ This report also presents acuity-based tallies for each applicable reason for de
 
 ![](emergency-department-integration-software-user-guide-file-name-contains-r/024.png)
 
-This report identifies patients and staff who may have been in the emergency department when a contagious patient was present for treatment. To run the report, users enter the internal entry number (IEN) from the contagious patient’s Visit file (ED LOG file (#230)). EDIS then uses information in this file to compile lists of all patients and staff that were in the emergency department during the time of the contagious patient’s visit. ICD and ICD Type column headings have been added to this report.
+This report identifies patients and staff who may have been in the emergency department when a contagious patient was present for treatment. To run the report, users enter the internal entry number (IEN) from the contagious patient's Visit file (ED LOG file (#230)). EDIS then uses information in this file to compile lists of all patients and staff that were in the emergency department during the time of the contagious patient's visit. ICD and ICD Type column headings have been added to this report.
 
 ### Missed Opportunities Report
 
@@ -1897,7 +1929,7 @@ This report displays the following information about patients whose dispositions
 - Disposition
 - Admission Decision (Adm Dec)
 
-If the site assigns a nurse to left-without-being-seen (LWBS) callbacks, the nurse must either have access to the xRef report or the application’s Edit Closed view (to search for LWBS patients by Time In values).
+If the site assigns a nurse to left-without-being-seen (LWBS) callbacks, the nurse must either have access to the xRef report or the application's Edit Closed view (to search for LWBS patients by Time In values).
 
 ### Orders by Acuity
 
@@ -2167,7 +2199,7 @@ Editable information includes:
 - Identify information upon which users want to base colors in display-board rows
 - Reposition and resize display-board columns
 - Select optimal display sizes
-- Configure the display’s font size and scroll-delay time
+- Configure the display's font size and scroll-delay time
 - Compress (squish) all data rows into a single, no-scroll view (if possible)
 
 ### Add a New Display Board
@@ -2201,7 +2233,7 @@ The columns that are populated in the new board:
 - Disposition: Dispositions users have entered via the CPE view
 - Visit Created: Checkmarks that indicate EDIS has created visits for patients in CPRS or blank spaces that indicate EDIS has not created visits
 - Minutes at Location: The number of minutes patients have been assigned to their present locations
-- Admittance Delay: The elapsed time in minutes between the patient’s time-out value (the time user removed patient from EDIS) and the time the patient’s first admitting disposition (a disposition flagged "VA") is assigned
+- Admittance Delay: The elapsed time in minutes between the patient's time-out value (the time user removed patient from EDIS) and the time the patient's first admitting disposition (a disposition flagged "VA") is assigned
 
 #### Remove Columns
 

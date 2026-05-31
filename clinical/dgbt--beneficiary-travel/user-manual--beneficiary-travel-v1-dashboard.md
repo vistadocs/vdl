@@ -1,5 +1,5 @@
 ---
-title: Beneficiary Travel  Version 1 Dashboard User Manual
+title: Beneficiary Travel Version 1 Dashboard User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: DGBT
 patch_ver: 1
 patch_id: DGBT*1
-group_key: "DGBT:DGBT:1"
-file_numbers: []
+group_key: DGBT:DGBT:1
+description: '> Department of Veterans Affairs Office of Information and Technology'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '392'
+- '392.5'
 security_keys: []
 menu_options: 4
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - table
-  - dashboard
-  - contents
-  - strong
-  - mark
-  - travel
-  - address
-  - beneficiary
 page_count: 0
 word_count: 3797
 section_count: 9
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=123"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Beneficiary_Travel/dgbt1_0_dash_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=123
+audit_applied: '2026-05-31'
 ---
 
 > Beneficiary Travel (BT) Dashboard Version 1.0

@@ -8,42 +8,81 @@ app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 200
-security_keys: []
+pkg_ns: RA
+patch_ver: null
+patch_id: null
+group_key: null
+description: 3.6.3.9.1 PID-13.1-\[NNN\] \[(999)\]999-9999 \[X99999\] \[B99999\] \[C any text\] 35
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '3'
+- '4'
+- '6'
+- '7'
+- 09
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '19'
+- '23'
+- '25'
+- '29'
+- '42'
+- '44'
+- '49'
+- '70'
+- '70.02'
+- '70.03'
+- '71'
+- '72'
+- '73.1'
+- '74'
+- '75.1'
+- '75.1125'
+- '79'
+- '79.1'
+- '79.2'
+- '81'
+- '99'
+- '101'
+- '120.8'
+- '200'
+- '217'
+- '405'
+- '771'
+- '771.5'
+- '772'
+- '773'
+- '991.01'
+- '2006.15'
+- '3431'
+- '8989.3'
+security_keys:
+- CLINICIAN
+- PROVIDER
 menu_options: 7
-description: "<table> <colgroup> <col style=\\"width: 19%\\" /> <col style=\\"width: 10%\\" /> <col style=\\"width: 60%\\" /> <col style=\\"width: 9%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>Version</th> <th>Change</th> <th>Page</th> </tr> </thead> <tbody> <tr class=\\"odd\\"> <td>December 1999</td> <td>1.0</t"
-audience: 
-keywords: 
-  - table
-  - class
-  - segment
-  - contents
-  - message
-  - fields
-  - vista
-  - number
-  - order
-  - component
 page_count: 0
 word_count: 22320
 section_count: 32
 table_count: 110
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0hl7is_p158.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0hl7is_p158.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0hl7is_p158.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0hl7is_p158.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra5-158-hl7-interface-specification/001.png)

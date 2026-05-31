@@ -3,7 +3,7 @@ title: Kernel 8.0 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
+group_key: XU:XU:8.0
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4.3'
+- '19'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - kernel
-  - table
-  - contents
-  - software
-  - kids
-  - entry
-  - alerts
-  - device
-  - alert
-  - blockquote
 page_count: 0
 word_count: 3254
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ![](kernel-8-0-release-notes/001.png)

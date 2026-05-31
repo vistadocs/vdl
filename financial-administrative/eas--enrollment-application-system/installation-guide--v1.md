@@ -3,7 +3,7 @@ title: EAS Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EAS
 app_name: Enrollment Application System
 section: FIN
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1
-group_key: "EAS:EAS:1"
-file_numbers: []
+group_key: EAS:EAS:1
+description: This package contains all the routines, files, and options necessary to support the Enrollment Application System v.1.0 package, which represents Phase II of the Enrollment 10-10EZ initiative.
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '9.4'
+- '711'
+- '712'
 security_keys: []
 menu_options: 0
-description: This package contains all the routines, files, and options necessary to support the Enrollment Application System v.1.0 package, which represents Phase II of the Enrollment 10-10EZ initiative.
-audience: 
-keywords: 
-  - installation
-  - install
-  - distribution
-  - global
-  - package
-  - transport
-  - table
-  - contents
-  - installing
-  - want
 page_count: 0
 word_count: 1019
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-version-1-installation-guide/001.png)

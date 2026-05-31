@@ -3,7 +3,7 @@ title: OR*3*0*626 MOCHA Version 3.0 Combined Build Deployment, Installation, Bac
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: CPRS
 app_name: Computerized Patient Record System
 section: CLI
@@ -11,47 +11,50 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*0
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - install
-  - installation
-  - build
-  - patch
-  - back
-  - order
-  - distribution
-  - mocha
+group_key: CPRS:OR:3
+description: National Drug File PSN\*4.0\*576Pharmacy Data Management
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '5'
+- '6'
+- '11'
+- '18.02'
+- '18.12'
+- '46'
+- '47'
+- '50'
+- '50.416'
+- '50.68'
+- '51.26'
+- '51.28'
+- '51.29'
+- '59.7'
+- '100.8'
+- '103'
+security_keys:
+- PSJI MGR
+- XUPROG
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 7480
+word_count: 7459
 section_count: 32
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_3_0_626_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>MOCHA 3.0 Pharmacogenomics (PGx) Order Checks Combined Build
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](or-3-0-626-mocha-version-3-0-combined-build-deployment-installation-back-out-rol/001.png)
 
 National Drug File PSN\*4.0\*576Pharmacy Data Management PSS\*1.0\*262

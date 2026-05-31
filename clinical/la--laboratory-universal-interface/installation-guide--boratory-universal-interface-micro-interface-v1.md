@@ -1,48 +1,41 @@
 ---
-title: "Laboratory: Universal Interface Micro Interface Version 1 Installation Guide"
+title: '''Laboratory: Universal Interface Micro Interface Version 1 Installation Guide'''
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
-pkg_ns: 
+pkg_ns: LA
 patch_ver: 1
-patch_id: 
-group_key: "LA::1"
-file_numbers: []
-security_keys: []
+patch_id: null
+group_key: LA::1
+description: '| Date | Document Version | Description | Author / Team Role |...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '62.4'
+security_keys:
+- LRVERIFY
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - test
-  - strong
-  - table
-  - contents
-  - culture
-  - installation
-  - build
-  - accession
-  - code
-  - instrument
 page_count: 0
 word_count: 6907
 section_count: 25
 table_count: 2
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2017
 revision_count: 23
 revision_newest: 02/02/2017
 revision_oldest: 03/02/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_install_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_install_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_install_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/lab_micro_interface_release_1_0_install_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 VistA Lab Enhancements – Microbiology

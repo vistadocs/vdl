@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: TaskMan User Guide"
+title: '''Kernel 8.0 Systems Management: TaskMan User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: TaskMan"
+doc_subject: '''Systems Management: TaskMan'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,48 +11,86 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: 
-  - 14
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '1.9'
+- '2'
+- '3'
+- '3.075'
+- '3.5'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '14.4'
+- '14.5'
+- '14.6'
+- '14.7'
+- '14.8'
+- '15'
+- '16'
+- '19'
+- '19.2'
+- '21'
+- '22'
+- '25'
+- '26'
+- '31'
+- '32'
+- '33'
+- '41'
+- '42'
+- '51'
+- '52'
+- '53'
+- '54'
+- '59.1'
+- '59.8'
+- '71'
+- '72'
+- '73'
+- '81'
+- '82'
+- '83'
+- '84'
+- '85'
+- '86'
+- '87'
+- '88'
+- '200'
+- '209'
+- '8989.3'
+security_keys:
+- ZTMQ
 menu_options: 6
-description: 
-audience: 
-keywords: 
-  - taskman
-  - task
-  - tasks
-  - strong
-  - manager
-  - table
-  - volume
-  - span
-  - class
-  - xutm
 page_count: 0
-word_count: 25987
+word_count: 25980
 section_count: 19
 table_count: 7
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_taskman_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_taskman_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_taskman_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_taskman_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  TaskMan User Guide
----
-
 ![](kernel-8-0-systems-management-taskman-user-guide/001.png)
 
 August 2025

@@ -3,57 +3,39 @@ title: Inbound ePrescribing User Manual (Unit 6) PSO*7*617 and PSO*7*670
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Inbound ePrescribing  (Unit 6) PSO*7*617 and PSO*7*670
+doc_subject: Inbound ePrescribing (Unit 6) PSO*7*617 and PSO*7*670
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0*617
-group_key: "PSO:PSO:7.0"
+group_key: PSO:PSO:7.0
+description: This table displays the revision history providing the date, version number and description details.
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: "--- title: | <span id=\\"_Hlk52202211\\" class=\\"anchor\\"></span>Pharmacy Reengineering (PRE)"
-audience: 
-keywords: 
-  - cancelrx
-  - request
-  - span
-  - holding
-  - queue
-  - status
-  - response
-  - class
-  - table
-  - manual
 page_count: 0
-word_count: 6377
+word_count: 6362
 section_count: 9
 table_count: 15
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__6.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__6.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__6.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_um__6.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk52202211" class="anchor"></span>Pharmacy Reengineering (PRE)
-
-  Inbound ePrescribing (IEP) 5.0
-
-  User Guide
----
-
 ![](inbound-eprescribing-user-manual-unit-6-pso-7-617-and-pso-7-670/001.png)
 
 November 2021

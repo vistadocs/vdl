@@ -8,41 +8,40 @@ app_code: AMT
 app_name: Anticoagulation Management Tool
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: AMT
+patch_ver: null
+patch_id: null
+group_key: null
 description: This tool was developed at the Portland VA Medical Center to help simplify the complex, time consuming processes required to manage outpatients on anticoagulation medication.
-audience: 
-keywords: 
-  - anticoagulation
-  - clinic
-  - table
-  - contents
-  - parameters
-  - team
-  - management
-  - visit
-  - installation
-  - anticoag
+audience: ''
+keywords: []
+file_numbers:
+- '40.7'
+- '44'
+- '200'
+- '754'
+- '8925.1'
+- '8989.3'
+security_keys:
+- ORMGR
+- PROVIDER
+menu_options: 3
 page_count: 0
 word_count: 10634
 section_count: 10
 table_count: 8
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/oramig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/oramig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=188"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/oramig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/oramig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=188
+audit_applied: '2026-05-31'
 ---
 
 # Anticoagulation Management Tool Installation/Implementation Guide (Patch OR\*3.0\*617)

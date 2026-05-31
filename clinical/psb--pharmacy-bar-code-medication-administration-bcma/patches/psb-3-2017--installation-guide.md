@@ -3,57 +3,38 @@ title: BCBU Cache Version 3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: archive
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*2017
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '| Date | Revision | Description | Author | |---------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------| |...'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - cache
-  - contents
-  - routine
-  - bcbu
-  - installation
-  - vista
-  - cach
-  - namespace
-  - global
 page_count: 0
-word_count: 2229
+word_count: 2215
 section_count: 8
 table_count: 3
 figure_count: 5
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/bcbu_cache_2017_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/bcbu_cache_2017_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=387"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/bcbu_cache_2017_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)_Archive/bcbu_cache_2017_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=387
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Bar Code Medication Administration (BCMA)
-
-  BCMA Backup System (BCBU)
-
-  InterSystems Caché Installation Setup
----
-
 ![](bcbu-cache-version-3-installation-guide/001.png)
 
 December 2019

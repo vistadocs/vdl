@@ -11,44 +11,31 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '> This training guide shows how to use the Agent Cashier options released in Accounts Receivable patch PRCA\4.5\114. This patch supports the First Party Lockbox initiative.'
+audience: Trainers and end users during onboarding
+keywords: []
 file_numbers: []
-security_keys: []
-menu_options: 0
-description: > This training guide shows how to use the Agent Cashier options released in Accounts Receivable patch PRCA\4.5\114. This patch supports the First Party Lockbox initiative.
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - colspan
-  - payment
-  - table
-  - width
-  - style
-  - colgroup
-  - thead
+security_keys:
+- PROVIDER
+menu_options: 3
 page_count: 0
-word_count: 13839
+word_count: 13835
 section_count: 16
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/lockboxtrainingguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/lockboxtrainingguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/lockboxtrainingguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/lockboxtrainingguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
-
----
-title: Lockbox Training Guide
----
-
 ![](accounts-receivable-version-4-5-lockbox-training-guide/001.png)
 
 > Department of Veterans Affairs

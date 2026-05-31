@@ -5,44 +5,40 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: and OR*3*429 Problem Selection List Enhancements
 app_code: GMPL
-app_name: "CPRS: Problem List"
+app_name: 'CPRS: Problem List'
 section: CLI
 app_status: active
 pkg_ns: GMPL
 patch_ver: 2
 patch_id: GMPL*2*49
-group_key: "GMPL:GMPL:2"
-file_numbers: []
-security_keys: []
+group_key: GMPL:GMPL:2
+description: Problem Selection List Enhancements(Patches OR\*3.0\*429 and
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '125'
+- '125.11'
+security_keys:
+- GMPL IMPRT UTIL
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - selection
-  - table
-  - contents
-  - problem
-  - installation
-  - back
-  - gmpl
-  - rollback
-  - enhancements
-  - deployment
 page_count: 0
 word_count: 5154
 section_count: 30
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: 2017-12-04
 revision_count: 2
 revision_newest: 2017-12-04
 revision_oldest: 2017-07-05
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=64"
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Problem_List/gmpl_2_0_49_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=64
+audit_applied: '2026-05-31'
 ---
 
 Problem Selection List Enhancements(Patches OR\*3.0\*429 and GMPL\*2.0\*49)

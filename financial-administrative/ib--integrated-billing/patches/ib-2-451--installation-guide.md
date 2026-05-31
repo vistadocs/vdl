@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*451
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '| Date | Version | Description | Project Manager | Technical Writer | |--------------|---------|-------------|-----------------|------------------| | January 2012 | 1.0 | Initial | REDACTED | REDACTED'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '361.1'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - changes
-  - installation
-  - party
-  - third
-  - options
-  - patch
-  - joint
-  - inquiry
+menu_options: 1
 page_count: 0
 word_count: 1305
 section_count: 10
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p451_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p451_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p451_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_0_p451_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 ePayments II

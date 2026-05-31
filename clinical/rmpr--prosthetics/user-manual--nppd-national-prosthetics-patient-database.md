@@ -3,46 +3,38 @@ title: NPPD (National Prosthetics Patient Database) User Manual (Updated RMPR*3*
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: NPPD (National Prosthetics Patient Database)  (Updated RMPR*3*168)
+doc_subject: NPPD (National Prosthetics Patient Database) (Updated RMPR*3*168)
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: RMPR
+patch_ver: null
+patch_id: null
+group_key: null
+description: NATIONAL PROSTHETICS PATIENT DATABASE (NPPD)"A Clinical Review of the Quality and Effectiveness of the Prosthetics Program"User Manual
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '660'
 security_keys: []
 menu_options: 0
-description: NATIONAL PROSTHETICS PATIENT DATABASE (NPPD)"A Clinical Review of the Quality and Effectiveness of the Prosthetics Program"User Manual
-audience: 
-keywords: 
-  - class
-  - blockquote
-  - nppd
-  - strong
-  - hcpcs
-  - table
-  - style
-  - width
-  - span
-  - code
 page_count: 0
 word_count: 1939
 section_count: 1
 table_count: 6
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_nppdum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_nppdum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_nppdum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_nppdum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 NATIONAL PROSTHETICS PATIENT DATABASE (NPPD)"A Clinical Review of the Quality and Effectiveness of the Prosthetics Program"User Manual

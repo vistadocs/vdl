@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Java-FDA Medication Guides On-Demand Viewing Project
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*343
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '- Department of Veterans Affairs Product Development - Introduction - Project Enhancements - [NDF, Pharmacy Data Management and Outpatient Pharmacy...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50.68'
+- '59.7'
+- '100'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - updates
-  - pharmacy
-  - medication
-  - guide
-  - guides
-  - project
-  - management
-  - outpatient
 page_count: 0
 word_count: 234
 section_count: 6
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/phar_fda_med_guide_rel2_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/phar_fda_med_guide_rel2_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/phar_fda_med_guide_rel2_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/phar_fda_med_guide_rel2_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-343-java-fda-medication-guides-on-demand-viewing-project-release-notes/001.png)

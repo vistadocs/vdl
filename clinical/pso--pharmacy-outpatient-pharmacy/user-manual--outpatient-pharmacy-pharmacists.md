@@ -1,21 +1,95 @@
 ---
-consolidated_title: "outpatient pharmacy pharmacist's user manual"
-app_code: PSO
+title: Outpatient Pharmacy Version 7 Pharmacist's User Manual (updated *7.0*685)
 doc_type: UM
-master_source: "Outpatient Pharmacy Version 7 Pharmacist's User Manual (updated *7.0*685)"
+doc_label: User Manual
+doc_layer: anchor
+doc_subject: Pharmacist's (updated *7.0*685)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: archive
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7
+group_key: PSO:PSO:7
+file_numbers:
+- '2'
+- '3'
+- '3.5'
+- '4.2'
+- '45.1'
+- '45.2'
+- '45.3'
+- '50'
+- '50.0'
+- '50.6'
+- '50.68'
+- '50.7'
+- '51'
+- '51.1'
+- '51.2'
+- '52'
+- '52.09'
+- '52.444'
+- '52.5'
+- '52.86'
+- '53'
+- '59'
+- '59.7'
+- '100.05'
+- '101'
+- '120.8'
+- '120.82'
+- '135'
+- '200'
+- '391.91'
+- '404.51'
+- '2030'
+- '2035'
+- '3001'
+- '900231'
+security_keys:
+- CHAMPVA MGR
+- DIUSER
+- EPHARMACY SITE MANAGER
+- GMRA-ALLERGY VERIFY
+- PROVIDER
+- PSDMGR
+- PSDRPH
+- PSO ADDRESS UPDATE
+- PSO COPAY
+- PSO TECH ADV
+- PSO TRICARE
+- PSO TRICARE MGR
+- PSOLOCKCLOZ
+- PSORPH
+- SITE MANAGER
+menu_options: 8
+description: In CPRS, Order Checks occur by evaluating a requested order against existing patient data. Most order checks are processed via the CPRS Expert System. A few are processed within the Pharmacy, Allergy Tracking System, and Order Entry packages. Order Checks are a real-time process that occurs during t
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 114405
+section_count: 77
+table_count: 11
+figure_count: 0
+appendix_count: 3
+has_toc: false
+is_stub: false
+pub_date: December 2007
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_pharm_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_pharm_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
+master_source: Outpatient Pharmacy Version 7 Pharmacist's User Manual (updated *7.0*685)
 master_pub_date: December 2007
 consolidated_from: 2 versions
 prior_versions:
-  - "Outpatient Pharmacy Version 7 Pharmacist's User Manual (updated PSO*7.0*770)"
----
-
----
-title: |
-  <span id="_Toc82184093" class="anchor"></span>Outpatient Pharmacy (PSO)
-
-  <span id="_Toc82184094" class="anchor"></span>Version 7.0
-
-  <span id="_Toc82184095" class="anchor"></span>Pharmacist’s User Manual
+- Outpatient Pharmacy Version 7 Pharmacist's User Manual (updated PSO*7.0*770)
+consolidated_title: outpatient pharmacy pharmacist's user manual
 ---
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/001.png)
@@ -31,7 +105,7 @@ Revision History
 
 When updates occur, the Title Page lists the new revised date and this page describes the changes. Bookmarks link the described content changes to its place within manual. There are no bookmarks for format updates. Page numbers change with each update; therefore, they are not included as a reference in the Revision History.
 
-See the unredacted version in SOFTWARE to view REDACTED information that isn’t personally identifying.
+See the unredacted version in SOFTWARE to view REDACTED information that isn't personally identifying.
 
 <table>
 <caption><p><span id="_Toc103938479" class="anchor"></span>Table : Conventions</p></caption>
@@ -54,7 +128,7 @@ See the unredacted version in SOFTWARE to view REDACTED information that isn’t
 <td><ul>
 <li><p>Updated the link to the <a href="#PSO_685_FDAMedGuides_Link">FDA Med Guides</a></p></li>
 <li><p>Removed the third paragraph in the <strong><u>Displaying an FDA Medication Guide</u></strong> section since the guides will not be displayed but can be navigated to by using the URL in the screen prompt</p></li>
-<li><p>Updated paragraph 1 with, “the ability to display individual” and removed the word “new” from paragraph 2 in the <strong><u>Displaying an FDA Medication Guide</u></strong> section</p></li>
+<li><p>Updated paragraph 1 with, "the ability to display individual" and removed the word "new" from paragraph 2 in the <strong><u>Displaying an FDA Medication Guide</u></strong> section</p></li>
 <li><p>Replaced the existing 3 examples with 3 new examples <strong><u>When a VA Product has a Medication Guide Associated</u></strong> and <strong><u>When a VA Product does not have a Medication Guide Associated</u></strong> and <strong><u>When a Drug is not matched to National Drug File</u></strong></p></li>
 <li><p>Updated the Title page, Revision History, Table of Contents, List of Figures, List of Tables, and Footers</p></li>
 </ul>
@@ -99,7 +173,7 @@ See the unredacted version in SOFTWARE to view REDACTED information that isn’t
 <td>PSO*7*561</td>
 <td><ul>
 <li><p>Added new section for <a href="#p357">3</a> to the ePharmacy Menu.</p></li>
-<li><p><a href="#PSO_PNDLBL_End">Updated section ¾ Days Supply Hold to include the Hidden Action “BY” Bypass 3/4 Day Supply.</a></p></li>
+<li><p><a href="#PSO_PNDLBL_End">Updated section ¾ Days Supply Hold to include the Hidden Action "BY" Bypass 3/4 Day Supply.</a></p></li>
 <li><p>Updated scenario when <a href="#p348">TRICARE or CHAMPVA patient does not have an active insurance policy on file</a> and corresponding screen displays.</p></li>
 <li><p>Updated Title Page date, footers, Table of Contents</p></li>
 </ul>
@@ -161,7 +235,7 @@ See the unredacted version in SOFTWARE to view REDACTED information that isn’t
 <td>Updated title page<br />
 Updated footers throughout<br />
 Updated Revision History<br />
-Updated note in section “Entering a New Order” referencing Chapter 9 in Manager’s User Manual for new clozapine orders<br />
+Updated note in section "Entering a New Order" referencing Chapter 9 in Manager's User Manual for new clozapine orders<br />
 REDACTED</td>
 </tr>
 <tr class="odd">
@@ -169,7 +243,7 @@ REDACTED</td>
 <td>PSO*7*532</td>
 <td><p>Update System Message under Use Case: Dispense Order from another VA Pharmacy Location.</p>
 <p>Updated the OneVA Pharmacy System Not Responding Message</p>
-<p>Replaced “Steps to Turn On ONEVA PHARMACY FLAG (#101)” with “Pharmacy System Parameters Edit”</p>
+<p>Replaced "Steps to Turn On ONEVA PHARMACY FLAG (#101)" with "Pharmacy System Parameters Edit"</p>
 <p>Updated references of ONEVA PHARMACY FLAG (#3001) to (#101) throughout.</p>
 <p>Updated references of Outpatient Site file (#59) to PHARMACY SYSTEM File (#59.7) throughout.</p>
 <p>REDACTED</p></td>
@@ -177,7 +251,7 @@ REDACTED</td>
 <tr class="even">
 <td>12/2018</td>
 <td>PSO*7*522</td>
-<td>Added ‘Sending Drug File (#50) Data” subsection to “Using the Software” section. (REDACTED) Pg 438</td>
+<td>Added 'Sending Drug File (#50) Data" subsection to "Using the Software" section. (REDACTED) Pg 438</td>
 </tr>
 <tr class="odd">
 <td>01/2019</td>
@@ -272,7 +346,7 @@ REDACTED</td>
 <tr class="even">
 <td>09/2017</td>
 <td>PSO*7*422</td>
-<td><p>Removed “Do You want to Edit the SIG?”</p>
+<td><p>Removed "Do You want to Edit the SIG?"</p>
 <p>REDACTED</p></td>
 </tr>
 <tr class="odd">
@@ -304,7 +378,7 @@ REDACTED</td>
 <p>Updated Table of Contents</p>
 <p>Updated Using the Copy Action section</p>
 <p>Updated Holding and Unholding a Prescription section</p>
-<p>Updated examples to read “Veteran Prescription”</p>
+<p>Updated examples to read "Veteran Prescription"</p>
 <p>Updated [PSO LM BACKDOOR ORDERS]</p>
 <p>Updated [BPS RPT VIEW ECME RX]</p>
 <p>Updated [PSO EPHARMACY MENU]</p>
@@ -665,7 +739,7 @@ List of Tables
   - [Signature Log Reprint](#signature-log-reprint)
   - [View Prescription](#view-prescription)
   - [Restrictions to Providers on Controlled Substances Orders](#restrictions-to-providers-on-controlled-substances-orders)
-- [Chapter 24: Updating a Patient’s Record](#chapter-24-updating-a-patients-record)
+- [Chapter 24: Updating a Patient's Record](#chapter-24-updating-a-patients-record)
 - [Update Patient Record](#update-patient-record)
 - [Chapter 25: Verifying Prescriptions](#chapter-25-verifying-prescriptions)
 - [Verification](#verification)
@@ -747,8 +821,8 @@ The Outpatient Pharmacy (OP) software provides a way to manage the medication re
 The primary benefits to the veteran are the assurance that he or she is receiving the proper medication and the convenience of obtaining refills easily. The clinicians and pharmacists responsible for patient care benefit from a complete, accurate, and current medication profile available at any time to permit professional evaluation of treatment plans. Utilization, cost, and workload reports provide management cost controlling tools while maintaining the highest level of patient care.
 The OneVA Pharmacy project (patch PSO\*7\*454 - December 2016) provided Pharmacists the capability to dispense prescriptions that originated in other VistA host sites. The OneVA Pharmacy User Manual and Installation Guide describe the site parameter required to use this functionality.
 The OneVA Pharmacy patch, PSO\*7\*479, provided Pharmacists the ability to request a reprint of the label when no error messages is returned when retrieving the label information from the host system.
-The OneVA Pharmacy patch PSO\*7\*497 provides Pharmacists new functionality to fix the auto-suspend defect, remedy current OneVA Pharmacy functionality to limit refill permissions to only those personnel who have the correct key(s), block prescriptions that contain a trade name in the “TRADE NAME”, identify titration prescriptions at the host site and to disallow refills of such titration prescriptions at the dispensing site.
-The OneVA Pharmacy patch, PSO\*7\*479 requires the patch PSS\*1\*212 which delivers the ‘ONEVA PHARMACY FLAG (#101)’ in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG (#101)’ set to the 'on' state.
+The OneVA Pharmacy patch PSO\*7\*497 provides Pharmacists new functionality to fix the auto-suspend defect, remedy current OneVA Pharmacy functionality to limit refill permissions to only those personnel who have the correct key(s), block prescriptions that contain a trade name in the "TRADE NAME", identify titration prescriptions at the host site and to disallow refills of such titration prescriptions at the dispensing site.
+The OneVA Pharmacy patch, PSO\*7\*479 requires the patch PSS\*1\*212 which delivers the 'ONEVA PHARMACY FLAG (#101)' in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG (#101)' set to the 'on' state.
 The OneVA pharmacy flag can be turned on/off using the Pharmacy System Parameters Edit \[PSS SYS EDIT\] option:
 Select OPTION NAME: PSS SYS EDIT Pharmacy System Parameters Edit
 Pharmacy System Parameters Edit
@@ -764,7 +838,7 @@ ONEVA PHARMACY FLAG: ON// \<- The flag can be turned on/off here.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This *Outpatient Pharmacy V. 7.0 Manager’s User Manual* includes documentation conventions, also known as notations, which are used consistently throughout this manual. Each convention is outlined below.
+This *Outpatient Pharmacy V. 7.0 Manager's User Manual* includes documentation conventions, also known as notations, which are used consistently throughout this manual. Each convention is outlined below.
 
 <table>
 <caption><p><span id="Page_4" class="anchor"></span>Table : Outpatient List Manager</p></caption>
@@ -785,7 +859,7 @@ This *Outpatient Pharmacy V. 7.0 Manager’s User Manual* includes documentation
 </tr>
 <tr class="even">
 <td>Screen prompts are denoted with quotation marks around them.</td>
-<td>The “Dosage:” prompt displays next.</td>
+<td>The "Dosage:" prompt displays next.</td>
 </tr>
 <tr class="odd">
 <td>Responses in bold face indicate user input.</td>
@@ -827,9 +901,9 @@ The following manuals are located on the [VistA Documentation Library (VDL)](htt
 Main Package Documentation:
 
 - *Outpatient Pharmacy V. 7.0 Release Notes*
-- *Outpatient Pharmacy V. 7.0 Manager’s User Manual*
-- *Outpatient Pharmacy V. 7.0 Pharmacist’s User Manual*
-- *Outpatient Pharmacy V. 7.0 Technician’s User Manual*
+- *Outpatient Pharmacy V. 7.0 Manager's User Manual*
+- *Outpatient Pharmacy V. 7.0 Pharmacist's User Manual*
+- *Outpatient Pharmacy V. 7.0 Technician's User Manual*
 - *Outpatient Pharmacy V. 7.0 User Manual – Supplemental*
 - *Outpatient Pharmacy V. 7.0 Technical Manual/Security Guide*
 - *Dosing Order Check User Manual*
@@ -840,7 +914,7 @@ Main Package Documentation:
 
 Additional Documentation:
 
-Additional documentation related to specific projects is also located on the VDL. For example, there may be several different Release Notes documents, which apply to specific projects. Also, there may be several sets of “Change Page” documents, which apply to changes made only for a specific package patch.
+Additional documentation related to specific projects is also located on the VDL. For example, there may be several different Release Notes documents, which apply to specific projects. Also, there may be several sets of "Change Page" documents, which apply to changes made only for a specific package patch.
 
 # Chapter 2: List Manager
 
@@ -848,7 +922,7 @@ Additional documentation related to specific projects is also located on the VDL
 
 The screen displayed when processing an order has changed dramatically from the previous version of Outpatient Pharmacy (e.g., v. 6.0). The new screen was designed using List Manager.
 
-This new screen gives more information and easier accessibility to vital reports and areas of a patient’s chart.
+This new screen gives more information and easier accessibility to vital reports and areas of a patient's chart.
 
 Please take the time to read over the explanation of the screen and the actions that can now be executed at the touch of a key. This type of preparation before attempting to use List Manager will reduce the time and effort needed to become skilled in order processing with this new version of <span id="P4_outPat_List_Manger" class="anchor"></span>List Manager.
 
@@ -859,7 +933,7 @@ Please take the time to read over the explanation of the screen and the actions 
 | <span id="P4_Table" class="anchor"></span>Position                          | Description                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Screen title                                                                | The screen title changes according to what type of information List Manager is displaying (e.g., Patient Information, Medication Profile, New OP Order (ROUTINE), etc.).                                                                                                                                                                                                                                     |
-| Allergy indicator                                                           | This indicator displays when there has been information entered into the ALLERGY field for the patient. The indicator displays “NO ALLERGY ASSESSMENT” if there is no allergy assessment for the patient.                                                                                                                                                                                                    |
+| Allergy indicator                                                           | This indicator displays when there has been information entered into the ALLERGY field for the patient. The indicator displays "NO ALLERGY ASSESSMENT" if there is no allergy assessment for the patient.                                                                                                                                                                                                    |
 | <span id="P5_Indic_Def" class="anchor"></span>Pregnancy/Lactation Indicator | This indicator displays a P when the patient is pregnant and a L when the patient is lactating. The indicator does not display if the patient is not pregnant and is not lactating.                                                                                                                                                                                                                          |
 | Header area                                                                 | <span id="LM_Header" class="anchor"></span>The header area is a "fixed" (non-scrollable) area that displays patient information, including patient demographic information and Clinical Alerts.                                                                                                                                                                                                              |
 | List area                                                                   | (scrolling region) This area scrolls (like the previous version) and displays the information on which action can be taken.                                                                                                                                                                                                                                                                                  |
@@ -894,7 +968,7 @@ The Status column may also reflect the type of Discontinue action performed on t
 - DC Discontinued via backdoor Pharmacy
 - DD Discontinued due to death
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/008.png)A “B” will be appended to the above statuses if the Bad Address Indicator was set and there was no active temporary address at the time of the last label activity.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/008.png)A "B" will be appended to the above statuses if the Bad Address Indicator was set and there was no active temporary address at the time of the last label activity.
 
 <table>
 <caption><p><span id="_Toc103938482" class="anchor"></span>Table : Actions</p></caption>
@@ -915,20 +989,20 @@ The Status column may also reflect the type of Discontinue action performed on t
 <blockquote>
 <p>&gt; Drug for the prescription is marked for CMOP.</p>
 <p>T Displayed when the last fill is either in a Transmitted or Retransmitted.</p>
-<p>CMOP state. (This indicator can overwrite the “&gt;” indicator.</p>
+<p>CMOP state. (This indicator can overwrite the "&gt;" indicator.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td>Copay Indicator:</td>
-<td>A “$” displayed to the right of the prescription number indicates the prescription is copay eligible.</td>
+<td>A "$" displayed to the right of the prescription number indicates the prescription is copay eligible.</td>
 </tr>
 <tr class="odd">
 <td>ePharmacy Indicator:</td>
-<td>An ‘e’ displayed to the right of the prescription number indicates that the prescription is electronic third-party billable.</td>
+<td>An 'e' displayed to the right of the prescription number indicates that the prescription is electronic third-party billable.</td>
 </tr>
 <tr class="even">
 <td>Return to Stock Indicator:</td>
-<td>An “R” displayed to the right of the Last Fill Date indicates the last fill was returned to stock.</td>
+<td>An "R" displayed to the right of the Last Fill Date indicates the last fill was returned to stock.</td>
 </tr>
 <tr class="odd">
 <td>Pending Orders:</td>
@@ -940,7 +1014,7 @@ The Status column may also reflect the type of Discontinue action performed on t
 </tr>
 <tr class="odd">
 <td>Orders:</td>
-<td>Prescribed by providers outside the VA, and medications prescribed by the VA, but purchased by the patient at an outside pharmacy are displayed here. Non-VA Meds orders cannot be placed or updated in Outpatient Pharmacy. The user can input information about a patient’s use of Non-VA Meds only through CPRS. However, the user can use either CPRS or Outpatient Pharmacy menu options to view Non-VA Meds data in a patient’s medical records.</td>
+<td>Prescribed by providers outside the VA, and medications prescribed by the VA, but purchased by the patient at an outside pharmacy are displayed here. Non-VA Meds orders cannot be placed or updated in Outpatient Pharmacy. The user can input information about a patient's use of Non-VA Meds only through CPRS. However, the user can use either CPRS or Outpatient Pharmacy menu options to view Non-VA Meds data in a patient's medical records.</td>
 </tr>
 <tr class="even">
 <td>Third Party Rejects</td>
@@ -1069,7 +1143,7 @@ The following hidden actions appear on the Medication Profile screen and can onl
 </tr>
 <tr class="odd">
 <td>Check Interactions [CK]</td>
-<td>Allows a user to perform order checks against the patient’s active medication profile with or without a Prospective drug.</td>
+<td>Allows a user to perform order checks against the patient's active medication profile with or without a Prospective drug.</td>
 </tr>
 <tr class="even">
 <td>DIN</td>
@@ -1181,7 +1255,7 @@ ISSUE LAST REF DAY
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-These Outpatient Pharmacy actions are referred to as “speed actions” and appear on the Medication Profile screen. These actions can be applied to one or more orders at a time.
+These Outpatient Pharmacy actions are referred to as "speed actions" and appear on the Medication Profile screen. These actions can be applied to one or more orders at a time.
 
 | Action                       | Description                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -1195,7 +1269,7 @@ These Outpatient Pharmacy actions are referred to as “speed actions” and app
 | Inpat. Profile \[IP\]        | Action taken to view an Inpatient Profile.                                                          |
 | CM                           | Action taken to manually queue to CMOP.                                                             |
 | Fill/Rel Date Disply \[RDD\] | Switch between displaying the FILL DATE column and the LAST RELD column.                            |
-| Display Remote \[DR\]        | Action taken to display a patient’s remote prescriptions.                                           |
+| Display Remote \[DR\]        | Action taken to display a patient's remote prescriptions.                                           |
 
 <span id="_Toc103938485" class="anchor"></span>Table : Other Outpatient ListMan Actions
 
@@ -1218,7 +1292,7 @@ These Outpatient Pharmacy actions are referred to as “speed actions” and app
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 <table>
-<caption><p><span id="_Toc103938487" class="anchor"></span>Table :Status of Patient’s Order</p></caption>
+<caption><p><span id="_Toc103938487" class="anchor"></span>Table :Status of Patient's Order</p></caption>
 <colgroup>
 <col style="width: 32%" />
 <col style="width: 67%" />
@@ -1248,38 +1322,38 @@ These Outpatient Pharmacy actions are referred to as “speed actions” and app
 </tr>
 <tr class="odd">
 <td>Exit Patient List [EX]</td>
-<td>Exit patient’s Patient Information screen so that a new patient can be selected.</td>
+<td>Exit patient's Patient Information screen so that a new patient can be selected.</td>
 </tr>
 <tr class="even">
 <td>Refill Rx from Another VA Pharmacy (RF)</td>
-<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the RF action item on the new ‘REMOTE OP Medications’ profile. The RF action item allows the Pharmacist to refill a prescription order that originated from another VA Pharmacy location.</p>
+<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the RF action item on the new 'REMOTE OP Medications' profile. The RF action item allows the Pharmacist to refill a prescription order that originated from another VA Pharmacy location.</p>
 <p>![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/009.png) Note: For additional information regarding OneVA Pharmacy RF processing, please see Appendix A, OneVA Pharmacy User Manual.</p></td>
 </tr>
 <tr class="odd">
 <td>Partial from Another VA Pharmacy (PR)</td>
-<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the PR action item on the new ‘REMOTE OP Medications’ profile. The PR action item allows the Pharmacist to partial a prescription order that originated from another VA Pharmacy location.</p>
+<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the PR action item on the new 'REMOTE OP Medications' profile. The PR action item allows the Pharmacist to partial a prescription order that originated from another VA Pharmacy location.</p>
 <p>![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/010.png) Note: For additional information regarding OneVA Pharmacy PR processing, please see Appendix A, OneVA Pharmacy User Manual.</p></td>
 </tr>
 <tr class="even">
 <td><span id="P12_Preg_Lat" class="anchor"></span>Preg/Lact Display [PL]</td>
-<td>Displays a detailed listing of the patient’s current pregnant and current breastfeeding/lactating episodes.</td>
+<td>Displays a detailed listing of the patient's current pregnant and current breastfeeding/lactating episodes.</td>
 </tr>
 </tbody>
 </table>
 
-<span id="_Toc103938487" class="anchor"></span>Table :Status of Patient’s Order
+<span id="_Toc103938487" class="anchor"></span>Table :Status of Patient's Order
 
 ## Patient Demographics
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patient demographic information and Clinical Alerts display in the List Manager header area when using certain Pharmacy options. The heading “Extended Patient Demographics” immediately precedes the demographic details to orient users and preserve a logical flow.
+Patient demographic information and Clinical Alerts display in the List Manager header area when using certain Pharmacy options. The heading "Extended Patient Demographics" immediately precedes the demographic details to orient users and preserve a logical flow.
 
-The extended demographics are derived from existing patient information and include such details as date of birth, weight, height, and gender, as well as information about the patient’s primary care team and/or physician, physician contact numbers (office phone/pager), clinician remarks, and assigned or recent facility where care is received.
+The extended demographics are derived from existing patient information and include such details as date of birth, weight, height, and gender, as well as information about the patient's primary care team and/or physician, physician contact numbers (office phone/pager), clinician remarks, and assigned or recent facility where care is received.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/011.png)Note: The Assigned or Most Recent Facility is derived from information in the patient’s profile. If the patient has a Primary Care (PC) team, the assigned facility is the one where PC team members practice. If the patient does not have a PC team, the current facility is derived from the visit history; usually, the facility where care was received most recently becomes the patient’s assigned facility. If the patient has no PC team and no recent visits, the Assigned or Most Recent Facility field is blank.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/011.png)Note: The Assigned or Most Recent Facility is derived from information in the patient's profile. If the patient has a Primary Care (PC) team, the assigned facility is the one where PC team members practice. If the patient does not have a PC team, the current facility is derived from the visit history; usually, the facility where care was received most recently becomes the patient's assigned facility. If the patient has no PC team and no recent visits, the Assigned or Most Recent Facility field is blank.
 
-Clinical Alerts are used to convey important patient care information, such as drug interactions or the patient’s participation in clinical trials. Use the Clinical Alert Enter/Edit \[PSO CLINICAL ALERT ENTER/EDIT\] option to add, edit, or delete Clinical Alerts from a patient’s record. For more information about using Clinical Alerts, refer to the *Outpatient Pharmacy (PSO) Manager’s User Manual*.
+Clinical Alerts are used to convey important patient care information, such as drug interactions or the patient's participation in clinical trials. Use the Clinical Alert Enter/Edit \[PSO CLINICAL ALERT ENTER/EDIT\] option to add, edit, or delete Clinical Alerts from a patient's record. For more information about using Clinical Alerts, refer to the *Outpatient Pharmacy (PSO) Manager's User Manual*.
 
 Patient demographics and any Clinical Alerts are prominently displayed in the [List Manager header area](#LM_Header) when using any of the following Outpatient Pharmacy options:
 
@@ -1288,7 +1362,7 @@ Patient demographics and any Clinical Alerts are prominently displayed in the [L
 - Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]
 - Complete Orders from OERR \[PSO LMOE FINISH\]
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/012.png)If Extended Patient Demographics and Clinical Alerts cannot be displayed on a single page, the prompt “Type \<Enter\> to continue or ‘^’ to exit Clinical Alerts:” displays. Demographics and Clinical Alerts remain displayed until the Enter key is pressed, giving the user time to review the information before scrolling to the next page.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/012.png)If Extended Patient Demographics and Clinical Alerts cannot be displayed on a single page, the prompt "Type \<Enter\> to continue or '^' to exit Clinical Alerts:" displays. Demographics and Clinical Alerts remain displayed until the Enter key is pressed, giving the user time to review the information before scrolling to the next page.
 
 <span id="P13_Pat_Dem" class="anchor"></span>Example: Patient Demographics and Clinical Alerts displayed in the List Manager Header
 
@@ -1322,7 +1396,7 @@ AUG 16, 2017@08:53:38 ENROLLED IN CLINICAL TRIAL
 
 OCT 06, 2017@11:54:32 REMOVED FROM CLINICAL TRIAL – ELEVATED BP
 
-Type \<Enter\> to continue or ‘^’ to exit Clinical Alerts:
+Type \<Enter\> to continue or '^' to exit Clinical Alerts:
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/013.png)The Primary Care Team Phone number comes from the PHONE field in the TEAM file (#404.51).
 
@@ -1408,24 +1482,24 @@ This chapter describes the options available on the *Bingo Board User* menu.
 
 \[PSO BINGO USER\]
 
-The *Bingo Board User* menu enables use of the bingo board display. The options on this menu allow a patient’s name or a number to be displayed, entered, or removed from the bingo board display located in the pharmacy area.
+The *Bingo Board User* menu enables use of the bingo board display. The options on this menu allow a patient's name or a number to be displayed, entered, or removed from the bingo board display located in the pharmacy area.
 
-When the routing for an order is set to “Window”, the entering of prescription orders stores information in the bingo board PATIENT NOTIFICATION (Rx READY) file. For new, renew, pull early from suspense, refill orders, barcode refill/renew, and finish process for orders entered via CPRS, the date and time is captured when the order is stored in this file. The same occurs for partials, except the time is captured when a prescription number is entered.
+When the routing for an order is set to "Window", the entering of prescription orders stores information in the bingo board PATIENT NOTIFICATION (Rx READY) file. For new, renew, pull early from suspense, refill orders, barcode refill/renew, and finish process for orders entered via CPRS, the date and time is captured when the order is stored in this file. The same occurs for partials, except the time is captured when a prescription number is entered.
 
 Releasing the prescription places the name or ticket number of the patient on the bingo board monitor if a display group exists and stores data in the WAITING TIME file. The options on this menu are used to manually enter, display, or remove a patients name or number from the monitor.
 
 The following options are available on the *Bingo Board User* menu:
 
 - *Enter New Patient*
-- *Display Patient’s Name on Monitor*
-- *Remove Patient’s Name from Monitor*
-- *Status of Patient’s Order*
+- *Display Patient's Name on Monitor*
+- *Remove Patient's Name from Monitor*
+- *Status of Patient's Order*
 
 ## Enter New Patient
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Use this option to manually enter the name of a new patient on the bingo board. Each prescription number for the patient’s order must also be entered.
+Use this option to manually enter the name of a new patient on the bingo board. Each prescription number for the patient's order must also be entered.
 
 A "Ticket \#" prompt displays if ticket number was chosen as the method of display in the *Enter/Edit Display* option on the *Bingo Board Manager* menu. Enter the ticket number and at the next prompt enter each of the prescription numbers for that patient.
 
@@ -1433,7 +1507,7 @@ A "Ticket \#" prompt displays if ticket number was chosen as the method of displ
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Use this option to begin displaying the name or number of a patient whose prescription is ready. The message, "PRESCRIPTIONS ARE READY FOR:" appears as fixed text on the display screen. This option displays the following reminder for ECME billable prescriptions: “\*\*\* This Pharmacy Rx requires a patient signature! \*\*\*”
+Use this option to begin displaying the name or number of a patient whose prescription is ready. The message, "PRESCRIPTIONS ARE READY FOR:" appears as fixed text on the display screen. This option displays the following reminder for ECME billable prescriptions: "\*\*\* This Pharmacy Rx requires a patient signature! \*\*\*"
 
 ## Remove Patient's Name from Monitor
 
@@ -1443,7 +1517,7 @@ Use this option to begin displaying the name or number of a patient whose prescr
 
 After the patient picks up the prescription, remove the name or ticket number from the display either manually or through the barcode reader.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/014.png)It is recommended that a patient’s name be removed from the monitor as soon as the prescription is picked up.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/014.png)It is recommended that a patient's name be removed from the monitor as soon as the prescription is picked up.
 
 ## Status of Patient's Order
 
@@ -1795,9 +1869,9 @@ Edit a DUE Answer Sheet entry using this option. Ordinarily, the sequence number
 
 \[PSOD DUE BUILD QUESTIONNAIRE\]
 
-To create a questionnaire, first select one or more drugs being evaluated. After selecting the drugs, create a set of questions to be used on the questionnaire. These questions do not have to be added to the DUE QUESTION file since they are being added through this option. The questionnaire must be marked as “Active” and “Active for Profiles” for the Answer Sheet to automatically print with the Action Profiles. A summary can be printed for the questionnaire using the *DUE Report* option. For this reason, when creating a questionnaire, the user should strive to make each question a yes, no, or unknown type question. Questions having a free text or numeric type answer are ignored in the summary.
+To create a questionnaire, first select one or more drugs being evaluated. After selecting the drugs, create a set of questions to be used on the questionnaire. These questions do not have to be added to the DUE QUESTION file since they are being added through this option. The questionnaire must be marked as "Active" and "Active for Profiles" for the Answer Sheet to automatically print with the Action Profiles. A summary can be printed for the questionnaire using the *DUE Report* option. For this reason, when creating a questionnaire, the user should strive to make each question a yes, no, or unknown type question. Questions having a free text or numeric type answer are ignored in the summary.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/016.png)The PRINT DUE QUESTIONNAIRE site parameter needs to be set to “YES” for the questionnaire to print with the Action Profile.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/016.png)The PRINT DUE QUESTIONNAIRE site parameter needs to be set to "YES" for the questionnaire to print with the Action Profile.
 
 ## Batch Print Questionnaires
 
@@ -2064,7 +2138,7 @@ This chapter describes the Medication Profile, its different formats, and how it
 
 \[PSO P\]
 
-The Medication Profile displays a profile of all prescriptions on file for a particular patient. The profile display includes ‘local’ and all Non-VA Med orders. Effective with the OneVA Pharmacy (patch PSO\*7\*454 – December 2016), the Medication Profile displays all active medications from other facilities. The medications are retrieved from the Health Data Repository/Clinical Data Service (HDR/CDS) Repository and are displayed below the ‘local’ or ‘Non-VA Med’ orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status. The user may view this information directly on the screen or request it to be printed. The medication profile is available in two formats: short or long.
+The Medication Profile displays a profile of all prescriptions on file for a particular patient. The profile display includes 'local' and all Non-VA Med orders. Effective with the OneVA Pharmacy (patch PSO\*7\*454 – December 2016), the Medication Profile displays all active medications from other facilities. The medications are retrieved from the Health Data Repository/Clinical Data Service (HDR/CDS) Repository and are displayed below the 'local' or 'Non-VA Med' orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status. The user may view this information directly on the screen or request it to be printed. The medication profile is available in two formats: short or long.
 
 Patient demographics and Clinical Alerts display in the header area when using this option. Refer to [Patient Demographics and Clinical Alerts](#patient-demographics) for more information.
 
@@ -2118,7 +2192,7 @@ The short format displays the status in an abbreviated form. The following is an
 
 > R Returned to stock prescription (next to last fill date)
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/019.png)For the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is displayed in the Status column: “(Temp address from XXX 99,9999 till (no end date))”.\\
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/019.png)For the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is displayed in the Status column: "(Temp address from XXX 99,9999 till (no end date))".\\
 
 <span id="_Toc103938409" class="anchor"></span>Figure : Medication Profile Short format
 
@@ -2130,11 +2204,11 @@ The short format displays the status in an abbreviated form. The following is an
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Effective with the OneVA Pharmacy patch PSO\*7\*454 – December 2016, the Medication Profile displays all active medications from other facilities. The medications are retrieved from the Health Data Repository/Clinical Data Service (HDR/CDS) Repository and are displayed below the ‘local’ or ‘Non-VA Med’ orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
+Effective with the OneVA Pharmacy patch PSO\*7\*454 – December 2016, the Medication Profile displays all active medications from other facilities. The medications are retrieved from the Health Data Repository/Clinical Data Service (HDR/CDS) Repository and are displayed below the 'local' or 'Non-VA Med' orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/022.png)Note: For additional information regarding OneVA Pharmacy processing, please see Appendix A, OneVA Pharmacy User Manual.
 
-The example shown below displays three pages of a test patient’s Medication Profile, displaying the ‘local’ prescription orders followed by prescription orders that originated at other facilities.
+The example shown below displays three pages of a test patient's Medication Profile, displaying the 'local' prescription orders followed by prescription orders that originated at other facilities.
 
 Medication Profile Jul 28, 2016@05:20:23 Page: 1 of 3
 
@@ -2272,9 +2346,9 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new view, ‘REMOTE OP Medications’, which displays the details of the remote prescription order. When selecting a OneVA Pharmacy prescription order from the Medication Profile screen, the new ‘REMOTE OP Medications’ page display as shown in the example below.
+The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new view, 'REMOTE OP Medications', which displays the details of the remote prescription order. When selecting a OneVA Pharmacy prescription order from the Medication Profile screen, the new 'REMOTE OP Medications' page display as shown in the example below.
 
-The OneVA Pharmacy patch PSO\*7\*497 updates the ‘REMOTE OP Medications’ display and introduces the new view for prescription orders that originated from other VA Pharmacy locations, the dispensing Pharmacy only has two actions available. They are:
+The OneVA Pharmacy patch PSO\*7\*497 updates the 'REMOTE OP Medications' display and introduces the new view for prescription orders that originated from other VA Pharmacy locations, the dispensing Pharmacy only has two actions available. They are:
 
 - RF Refill Rx from Another VA Pharmacy
 - PR Partial Fill Rx from Another VA Pharmacy
@@ -2343,51 +2417,51 @@ The OneVA Pharmacy patch contains specific business rules to prevent refill and/
 
 > Cannot refill Rx# xxxxxxx. Next possible fill date is MM/DD/YYYY
 
-- Patient’s prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is ‘discontinued’, ‘expired’, is on ‘hold’, or ‘suspended’.
+- Patient's prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is 'discontinued', 'expired', is on 'hold', or 'suspended'.
 
 > Only 'ACTIVE' remote prescriptions may be refilled at this time.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills. Note: Partial fills are allowed.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills. Note: Partial fills are allowed.
 
 > Unable to complete transaction. Cannot refill Rx \# xxxxxxx. No refills left.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
 
 > This is a controlled substance. Cannot refill Rx \# xxxxxxx.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
 
 > Unable to complete transaction.  Rx \#xxxxxxx cannot be refilled.
 
 > The associated drug is considered a controlled substance at the host facility.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
 
 > Matched Drug \<DRUG NAME\> is inactive. Cannot refill.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
 
 > No local match could be found for \<DRUG NAME\>
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product ID.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product ID.
 
 > Missing VA Product ID. Rx \#xxxxxxx cannot be refilled.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription has a trade name.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription has a trade name.
 
 > This prescription cannot be refilled or partial filled because it has a value entered in the Rx trade name field.  Please follow local policy for obtaining a new prescription.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription type is Titration.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription type is Titration.
 
 > Cannot refill prescription - type is Titration. You may request a partial fill.
 
-- Patient’s prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
+- Patient's prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
 
 > Unable to complete transaction.
 
 > Cannot refill Rx# XXXXXX. Next possible fill date is 11/9/2017
 
-OneVA Pharmacy patch PSO\*7\*479 modifies routine PSORRX2 to add the following text if no error message is returned when retrieving the label information from the host system. The following text is displayed just prior to the Label Device: ‘ prompt:
+OneVA Pharmacy patch PSO\*7\*479 modifies routine PSORRX2 to add the following text if no error message is returned when retrieving the label information from the host system. The following text is displayed just prior to the Label Device: ' prompt:
 
 For a refill:
 
@@ -2421,7 +2495,7 @@ DEVICE:
 
 The long format displays all information contained on the short format as well as the following additional fields:
 
-- physician’s name
+- physician's name
 - fill date
 - dates of refills/partial fills
 - whether the prescription was filled at the pharmacy window or by mail
@@ -2529,7 +2603,7 @@ Statement of Explanation: Non-VA medication recommended by VA provider
 
 Patient wants to buy from Non-VA pharmacy
 
-<span id="P30_WomHealth" class="anchor"></span>For patients whose birth sex is female, a line with the label, Women’s Health, will appear. It indicates if the patient is pregnant and/or lactating. If the patient is neither pregnant nor lactating, the label will appear with nothing after it. For patients whose birth sex is male, this line does not appear. An example of the Women’s Health label is listed below:
+<span id="P30_WomHealth" class="anchor"></span>For patients whose birth sex is female, a line with the label, Women's Health, will appear. It indicates if the patient is pregnant and/or lactating. If the patient is neither pregnant nor lactating, the label will appear with nothing after it. For patients whose birth sex is male, this line does not appear. An example of the Women's Health label is listed below:
 
 WOMEN'S HEALTH: Pregnant (Expected Due Date: Sep 19, 2021)
 
@@ -2539,7 +2613,7 @@ The Intervention menu hidden action has been included in the Patient Information
 - Complete Orders from OERR \[PSO LMOE FINISH\]
 - Edit Prescriptions \[PSO RXEDIT\]
 
-See “Using The Pharmacy Intervention Menu” for more details. Medication Profile and Refill \[PSO HRC PROFILE/REFILL\]
+See "Using The Pharmacy Intervention Menu" for more details. Medication Profile and Refill \[PSO HRC PROFILE/REFILL\]
 
 This option was originally requested by the Health Resource Center (HRC) to provide a new standalone option similar to that of the ePharmacy Medication Profile (View Only) \[PSO PMP\] option for the Compensation and Pension Record Interchange (CAPRI) system. It allows users to view a medication profile as well as refill prescriptions for a specific patient.
 
@@ -2615,7 +2689,7 @@ The *CV (Change View)* action allows the user to change some characteristics of 
 
 Example 2: Change View action
 
-Enter CV at the “Select” prompt to change the view preferences.
+Enter CV at the "Select" prompt to change the view preferences.
 
 OPPROVIDER,ONE's current default view (ALBANY):
 
@@ -2653,7 +2727,7 @@ Saving...OK!
 
 Example 3: Patient Information action
 
-Enter PI at the “Select” prompt to view patient information.
+Enter PI at the "Select" prompt to view patient information.
 
 Patient Information Jul 12, 2011@13:28:53 Page: 1 of 2
 
@@ -2699,7 +2773,7 @@ Select Action: Next Screen//
 
 Example 4: Medication Profile with SIG expanded
 
-Enter SIG at the “Select” prompt to show/hide the Rx SIG.
+Enter SIG at the "Select" prompt to show/hide the Rx SIG.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -2859,7 +2933,7 @@ Select Action: Next Screen//
 
 Example 6: Group By Status action
 
-Enter GS at the “Select” prompt to group/ungroup list by Rx status.
+Enter GS at the "Select" prompt to group/ungroup list by Rx status.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -2931,7 +3005,7 @@ Select: Quit//
 
 Example 7: Refill action
 
-Enter RF at the “Select” prompt to request a refill for one or more prescriptions as shown below. This action is also available after selecting a specific prescription.
+Enter RF at the "Select" prompt to request a refill for one or more prescriptions as shown below. This action is also available after selecting a specific prescription.
 
 Enter ?? for more actions
 
@@ -2977,7 +3051,7 @@ This chapter describes the tools available to perform Medication Reconciliation 
 
 The Medication Reconciliation functions may be performed via the use of four tools. The tools utilize Health Summary components and Text Integrated Utility (TUI) data objects to create a list of current medications. These Medication Reconciliation tools also leverage the Remote Data Interoperability (RDI) software to include medication data from other sites.
 
-Tool 1 is a Medication Reconciliation Profile health summary component. This report creates an alphabetical list of outpatient prescriptions, unit dose medications, documented non-VA medications, and remote VA medications. This summary can be used at transition points in a patient’s care, (admission, discharge, etc.) to identify medications that need to be continued, new items to be ordered, old items to be discontinued, or orders that need to be changed.
+Tool 1 is a Medication Reconciliation Profile health summary component. This report creates an alphabetical list of outpatient prescriptions, unit dose medications, documented non-VA medications, and remote VA medications. This summary can be used at transition points in a patient's care, (admission, discharge, etc.) to identify medications that need to be continued, new items to be ordered, old items to be discontinued, or orders that need to be changed.
 
 Tool 2 is a Medication Worksheet component. This report provides a grid-formatted list of active and pending medications suitable for giving to a patient at a clinic visit or upon discharge from the hospital.
 
@@ -2985,7 +3059,7 @@ Tool 3 is a TIU data object provided as an alternative to the Medication Chart h
 
 Tool 4 is a series of TIU data objects and health summary components that retrieve remote active medications and remote allergy/ADR data.
 
-For a complete list of functionality, please refer to Medication Reconciliation Tools Implementation Guide. Upon completion of the steps listed in the Implementation Guide, users will be able to retrieve reports useful for Medication Reconciliation by selecting the newly created Health Summaries on the CPRS Reports tab or by using the newly created TIU templates and objects from the CPRS Notes Tab’s Templates Drawer and/or any progress note titles in which they have been embedded.
+For a complete list of functionality, please refer to Medication Reconciliation Tools Implementation Guide. Upon completion of the steps listed in the Implementation Guide, users will be able to retrieve reports useful for Medication Reconciliation by selecting the newly created Health Summaries on the CPRS Reports tab or by using the newly created TIU templates and objects from the CPRS Notes Tab's Templates Drawer and/or any progress note titles in which they have been embedded.
 
 # Chapter 13: Using the Pharmacy Intervention Menu
 
@@ -3069,15 +3143,15 @@ This chapter describes the *Print from Suspense File* option used for printing s
 
 \[PSO PNDLBL\]
 
-This option allows the user to print labels from the RX SUSPENSE file. First, enter the “Print Through” date. Any prescriptions with a suspense date on or before the date entered will print. Additionally, if a patient has at least one prescription on or before the date entered, any other prescriptions for that patient that are in suspense for the specified number of days defined in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be pulled from suspense and printed.
+This option allows the user to print labels from the RX SUSPENSE file. First, enter the "Print Through" date. Any prescriptions with a suspense date on or before the date entered will print. Additionally, if a patient has at least one prescription on or before the date entered, any other prescriptions for that patient that are in suspense for the specified number of days defined in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be pulled from suspense and printed.
 
-For example, if today’s date is entered and Patient A has a prescription to be printed through today, all of Patient A's prescriptions for today plus the number of days set in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be printed. If there are no prescriptions for Patient A through today, no labels will print.
+For example, if today's date is entered and Patient A has a prescription to be printed through today, all of Patient A's prescriptions for today plus the number of days set in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be printed. If there are no prescriptions for Patient A through today, no labels will print.
 
 Labels can be sorted by the patient name, the SSN, or the DEA Special Handling code. If sorted by DEA, the labels must then sort by patient name or SSN. Sorting by DEA will send the labels to the printer in three groups:
 
-- First group – will contain all the prescriptions with drugs that contain an “A” (narcotics and alcoholics) or a “C“ (controlled substances-non narcotic) in the DEA Special Handling field.
-- Second group – will contain all the prescriptions with drugs containing an “S” (supply) in the DEA Special Handling field.
-- Third group – will contain all others. If a patient has suspended prescriptions in more than one group, that patient’s labels will not print consecutively.
+- First group – will contain all the prescriptions with drugs that contain an "A" (narcotics and alcoholics) or a "C" (controlled substances-non narcotic) in the DEA Special Handling field.
+- Second group – will contain all the prescriptions with drugs containing an "S" (supply) in the DEA Special Handling field.
+- Third group – will contain all others. If a patient has suspended prescriptions in more than one group, that patient's labels will not print consecutively.
 
 Only one job is tasked for all of the prescriptions in the batch; therefore, if the job is queued by mistake, only one tasked job must be undone. Any prescription that is put in suspense for the "Print Through Date" between the times the job was queued until the time it actually runs will be included in the job.
 
@@ -3099,31 +3173,31 @@ Print from Suspense by Category
 
 Suspended prescription labels can be printed by category when using the Print from Suspense File \[PSO PNDLBL\] option.
 
-The new prompt “Select Print Category: (A/N/C/S/R/D/V/E): ALL//” allows users to specify the prescription labels to be printed from the RX SUSPENSE file (#52.5) by selecting from the categories All (A), Non-Controlled Drugs (N), Controlled Substances (C), Supplies (S), Refrigerated Items (R), Drugs (D), and VA Classifications (V). To leave the prompt without choosing a print category, select Exit (E). Typing “?” at the prompt displays help text describing the available print categories.
+The new prompt "Select Print Category: (A/N/C/S/R/D/V/E): ALL//" allows users to specify the prescription labels to be printed from the RX SUSPENSE file (#52.5) by selecting from the categories All (A), Non-Controlled Drugs (N), Controlled Substances (C), Supplies (S), Refrigerated Items (R), Drugs (D), and VA Classifications (V). To leave the prompt without choosing a print category, select Exit (E). Typing "?" at the prompt displays help text describing the available print categories.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/030.png)Note: Refrigerated Items are designated by the presence of a “Q” in the DEA Special Handling field (#3) of the Drug File (#50).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/030.png)Note: Refrigerated Items are designated by the presence of a "Q" in the DEA Special Handling field (#3) of the Drug File (#50).
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/031.png)Important: To ensure that all suspended prescriptions have been printed when printing from the suspense file by a category other than “ALL,” either run Print from Suspense by Category “ALL” after printing other categories, or print the Log of Suspended Rx’s by Day (this Division) using the VistA option \[PSO PNDLOG\]. This step ensures that no prescriptions are unintentionally left on suspense.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/031.png)Important: To ensure that all suspended prescriptions have been printed when printing from the suspense file by a category other than "ALL," either run Print from Suspense by Category "ALL" after printing other categories, or print the Log of Suspended Rx's by Day (this Division) using the VistA option \[PSO PNDLOG\]. This step ensures that no prescriptions are unintentionally left on suspense.
 
 Example: Print from Suspense by Category Prompt and Help Text
 
-Select Print Category: (A/N/C/S/R/D/V/E): ALL//” ?
+Select Print Category: (A/N/C/S/R/D/V/E): ALL//" ?
 
-Enter ‘A’ ALL Prescriptions on Suspense for the Division
+Enter 'A' ALL Prescriptions on Suspense for the Division
 
-‘N’ Non-Controlled RX or OTCs (Special Handling Code 6 or 9)
+'N' Non-Controlled RX or OTCs (Special Handling Code 6 or 9)
 
-‘C’ Controlled Substance Prescriptions (DEA 1, 2, 3, 4, 5)
+'C' Controlled Substance Prescriptions (DEA 1, 2, 3, 4, 5)
 
-‘S’ Supply Prescriptions (Special Handling Code ‘S’)
+'S' Supply Prescriptions (Special Handling Code 'S')
 
-‘R’ Refrigerated Prescriptions (Special Handling Code ‘Q’)
+'R' Refrigerated Prescriptions (Special Handling Code 'Q')
 
-‘D’ Prescriptions by Selected Drugs
+'D' Prescriptions by Selected Drugs
 
-‘V’ Prescriptions by Selected VA Classifications
+'V' Prescriptions by Selected VA Classifications
 
-Or ‘E’ or ‘^’ to Exit
+Or 'E' or '^' to Exit
 
 Select one of the following:
 
@@ -3156,7 +3230,7 @@ The following example shows both a summary and the full expanded path with avail
 
 Without help text:
 
-Select Print Category: (A/N/C/S/R/D/V/E): ALL//” n Non-Controlled Drugs
+Select Print Category: (A/N/C/S/R/D/V/E): ALL//" n Non-Controlled Drugs
 
 Non-Controlled Drugs: Include// Non-Controlled Drugs
 
@@ -3172,16 +3246,16 @@ Print Suspended 'Non-Controlled Drugs' selections? NO// YES
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “N” to select Non-Controlled Drugs and then follow the subsequent prompts:
-    1.  The “Non-Controlled Drugs: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "N" to select Non-Controlled Drugs and then follow the subsequent prompts:
+    1.  The "Non-Controlled Drugs: Include//" prompt displays. Type "?" to display the help text:
 - Select one of the following:
 - Include Non-Controlled Drugs
 - Exclude Non-Controlled Drugs
-  1.  Type “Include” or press Return to accept the default value “Include.”
+  1.  Type "Include" or press Return to accept the default value "Include."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/032.png)Note: All subsequent prompts shown below further refine the selection of “Include Non-Controlled Drugs.” For an example of Exclude functionality, refer to the example [<u>Excluding Non-Controlled Drugs</u>](#Example_NC_Exclude).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/032.png)Note: All subsequent prompts shown below further refine the selection of "Include Non-Controlled Drugs." For an example of Exclude functionality, refer to the example [<u>Excluding Non-Controlled Drugs</u>](#Example_NC_Exclude).
 
-2.  The “Include: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+2.  The "Include: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
 - Select one of the following:
 
 > M Mail
@@ -3190,11 +3264,11 @@ With expanded help text:
 
 > B Both Mail and Window
 
-1.  To accept the default value, type “Both” or press Return.
-2.  The “Include the following: (Rx/OTC/Both): Both//” prompt displays. This selection refines the labels to print by drug type. Type “?” to display the help text:
-- Enter ‘RX’ Prescriptions for Legend Drugs (Special Handling Code 6)
-- ‘OTC’ Prescriptions for OTC Drugs (Special Handling Code 9)
-- ‘Both’ Prescriptions for BOTH Legend and OTC Drugs
+1.  To accept the default value, type "Both" or press Return.
+2.  The "Include the following: (Rx/OTC/Both): Both//" prompt displays. This selection refines the labels to print by drug type. Type "?" to display the help text:
+- Enter 'RX' Prescriptions for Legend Drugs (Special Handling Code 6)
+- 'OTC' Prescriptions for OTC Drugs (Special Handling Code 9)
+- 'Both' Prescriptions for BOTH Legend and OTC Drugs
 - Select one of the following:
 
 > Rx Rx
@@ -3203,17 +3277,17 @@ With expanded help text:
 
 > Both Both RX and OTC
 
-1.  To accept the default value, type “Both” or press Return.
-2.  The “Include Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘NO’ to EXCLUDE refrigerated Non-Controlled Drugs from printing.”
+1.  To accept the default value, type "Both" or press Return.
+2.  The "Include Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'NO' to EXCLUDE refrigerated Non-Controlled Drugs from printing."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/033.png)Note: Drug File entries with a DEA Special Handling Code of “Q” will NOT print from Suspense using this category (absent the additional codes “6” or “9” and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of “Q” only, use the Refrigerated Category.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/033.png)Note: Drug File entries with a DEA Special Handling Code of "Q" will NOT print from Suspense using this category (absent the additional codes "6" or "9" and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of "Q" only, use the Refrigerated Category.
 
-1.  The “Include Supplies? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘NO’ to EXCLUDE Non-Controlled supplies from printing.”
-- “Enter ‘YES’ to print Non-Controlled supplies.”
+1.  The "Include Supplies? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'NO' to EXCLUDE Non-Controlled supplies from printing."
+- "Enter 'YES' to print Non-Controlled supplies."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/034.png)Note: Drug File entries with a DEA Special Handling Code of “S” will NOT print from Suspense using this category (absent the additional codes “6” or “9” and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of “S” only, use the Supply Category.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/034.png)Note: Drug File entries with a DEA Special Handling Code of "S" will NOT print from Suspense using this category (absent the additional codes "6" or "9" and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of "S" only, use the Supply Category.
 
 <span id="Example_NC_Exclude" class="anchor"></span>Example: Print from Suspense by Category (Exclude Non-Controlled Drugs)
 
@@ -3237,16 +3311,16 @@ Print Suspended 'Non-Controlled Drugs' selections? NO// YES
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “N” to select Non-Controlled Drugs and then follow the subsequent prompts:
-1.  The “Non-Controlled Drugs: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "N" to select Non-Controlled Drugs and then follow the subsequent prompts:
+1.  The "Non-Controlled Drugs: Include//" prompt displays. Type "?" to display the help text:
 - Select one of the following:
 - Include Non-Controlled Drugs
 - Exclude Non-Controlled Drugs
-2.  Type “Exclude” to exclude Non-Controlled Drug labels from printing.
+2.  Type "Exclude" to exclude Non-Controlled Drug labels from printing.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/035.png)Note: All subsequent prompts shown below further refine the selection of “Exclude Non-Controlled Drugs.” For an example of Include functionality, refer to the example [Including Non-Controlled Drugs](#Example_NC_Include).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/035.png)Note: All subsequent prompts shown below further refine the selection of "Exclude Non-Controlled Drugs." For an example of Include functionality, refer to the example [Including Non-Controlled Drugs](#Example_NC_Include).
 
-3.  The “Exclude: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+3.  The "Exclude: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
 - Select one of the following:
 
 > M Mail
@@ -3255,14 +3329,14 @@ With expanded help text:
 
 > B Both Mail and Window
 
-4.  To accept the default value, type “Both” or press Return.
+4.  To accept the default value, type "Both" or press Return.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/036.png)Note: A “Both” response will exclude both Mail and Window Non-Controlled prescriptions from printing. A “Mail” response will ONLY exclude Mail Non-Controlled prescriptions from printing. A “Window” response will ONLY exclude Window Non-Controlled prescriptions from printing.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/036.png)Note: A "Both" response will exclude both Mail and Window Non-Controlled prescriptions from printing. A "Mail" response will ONLY exclude Mail Non-Controlled prescriptions from printing. A "Window" response will ONLY exclude Window Non-Controlled prescriptions from printing.
 
-5.  The “Exclude the following: (Rx/OTC/Both): Both//” prompt displays. This selection refines the labels to print by drug type. Type “?” to display the help text:
-- Enter ‘RX’ Prescriptions for Legend Drugs (Special Handling Code 6)
-- ‘OTC’ Prescriptions for OTC Drugs (Special Handling Code 9)
-- ‘Both’ Prescriptions for BOTH Legend and OTC Drugs
+5.  The "Exclude the following: (Rx/OTC/Both): Both//" prompt displays. This selection refines the labels to print by drug type. Type "?" to display the help text:
+- Enter 'RX' Prescriptions for Legend Drugs (Special Handling Code 6)
+- 'OTC' Prescriptions for OTC Drugs (Special Handling Code 9)
+- 'Both' Prescriptions for BOTH Legend and OTC Drugs
 - Select one of the following:
 
 > Rx Rx
@@ -3271,25 +3345,25 @@ With expanded help text:
 
 > Both Both RX and OTC
 
-6.  To accept the default value, type “Both” or press Return.
+6.  To accept the default value, type "Both" or press Return.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/037.png)Note: A “Both” response will exclude both Rx and OTC Non-Controlled prescriptions from printing. An “Rx” response will ONLY exclude Non-Controlled prescriptions from printing. An “OTC” response will ONLY exclude Non-Controlled OTCs from printing.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/037.png)Note: A "Both" response will exclude both Rx and OTC Non-Controlled prescriptions from printing. An "Rx" response will ONLY exclude Non-Controlled prescriptions from printing. An "OTC" response will ONLY exclude Non-Controlled OTCs from printing.
 
-7.  The “Exclude Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘YES’ to EXCLUDE refrigerated Non-Controlled Drugs from printing.”
-- “Enter ‘NO’ to print refrigerated Non-Controlled Drugs in addition to the other categories.”
+7.  The "Exclude Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'YES' to EXCLUDE refrigerated Non-Controlled Drugs from printing."
+- "Enter 'NO' to print refrigerated Non-Controlled Drugs in addition to the other categories."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/038.png)Note: A ‘YES’ response excludes refrigerated Non-Controlled Drug labels for printing. All Non-Controlled Drugs, including refrigerated items, are excluded.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/038.png)Note: A 'YES' response excludes refrigerated Non-Controlled Drug labels for printing. All Non-Controlled Drugs, including refrigerated items, are excluded.
 
-> A “NO’ response includes refrigerated Non-Controlled Drug labels for printing, but non-refrigerated Non-Controlled Drugs labels will remain excluded.
+> A "NO' response includes refrigerated Non-Controlled Drug labels for printing, but non-refrigerated Non-Controlled Drugs labels will remain excluded.
 
-8.  The “Exclude Supplies? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘YES’ to EXCLUDE Non-Controlled supplies from printing.”
-- “Enter ‘NO’ to print Non-Controlled supplies in addition to the other categories.”
+8.  The "Exclude Supplies? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'YES' to EXCLUDE Non-Controlled supplies from printing."
+- "Enter 'NO' to print Non-Controlled supplies in addition to the other categories."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/039.png)Note: A ‘YES’ response excludes Non-Controlled Supplies labels from printing.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/039.png)Note: A 'YES' response excludes Non-Controlled Supplies labels from printing.
 
-A ‘NO’ response includes Non-Controlled Supplies labels for printing. Non-Controlled Drugs remain excluded.<span id="Example_PFS_Include_CS" class="anchor"></span>
+A 'NO' response includes Non-Controlled Supplies labels for printing. Non-Controlled Drugs remain excluded.<span id="Example_PFS_Include_CS" class="anchor"></span>
 
 Example: Print from Suspense by Category (Include Controlled Substances)
 
@@ -3311,15 +3385,15 @@ Print Suspended 'Controlled Substances' selections? NO//
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “C” to select “Controlled Substances” and follow the subsequent prompts.
-1.  The “Controlled Substances: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "C" to select "Controlled Substances" and follow the subsequent prompts.
+1.  The "Controlled Substances: Include//" prompt displays. Type "?" to display the help text:
 - Select one of the following:
 - Include Controlled Substances
 - Exclude Controlled Substances
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/040.png)Note: All subsequent prompts further refine the selection of “Include Controlled Substances.” For an example of Exclude functionality for Controlled Substances, refer to the example [Excluding Controlled Substances](#Example_CS_Exclude).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/040.png)Note: All subsequent prompts further refine the selection of "Include Controlled Substances." For an example of Exclude functionality for Controlled Substances, refer to the example [Excluding Controlled Substances](#Example_CS_Exclude).
 
-2.  The “Include: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+2.  The "Include: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
 - Select one of the following:
 
 > M Mail
@@ -3328,18 +3402,18 @@ With expanded help text:
 
 > B Both Mail and Window
 
-3.  To accept the default value, type “Both” or press Return.
-4.  The “Enter a list or range of CS Federal Schedules to INCLUDE (1-5): 1-5//” prompt displays. Type “?” to display the help text:
+3.  To accept the default value, type "Both" or press Return.
+4.  The "Enter a list or range of CS Federal Schedules to INCLUDE (1-5): 1-5//" prompt displays. Type "?" to display the help text:
 - This response must be a list or range, e.g., 2,4 or 3-5.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/041.png)Note: Controlled Substances are specified by typing a range, for example “1-5.” Labels for all Controlled Substances with a schedule number included in this range will print.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/041.png)Note: Controlled Substances are specified by typing a range, for example "1-5." Labels for all Controlled Substances with a schedule number included in this range will print.
 
-> Schedule numbers can also be specified in a list. For example, typing “1,3,5” at this prompt will include Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
+> Schedule numbers can also be specified in a list. For example, typing "1,3,5" at this prompt will include Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
 
-5.  To accept the default value, type “1-5” or press Return.
-6.  The “Include Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘NO’ to EXCLUDE refrigerated Controlled Substances of the selected range from printing.”
-- “Enter ‘YES’ to print refrigerated Controlled Substances of the selected range.”
+5.  To accept the default value, type "1-5" or press Return.
+6.  The "Include Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'NO' to EXCLUDE refrigerated Controlled Substances of the selected range from printing."
+- "Enter 'YES' to print refrigerated Controlled Substances of the selected range."
 
 There are no supplies associated with Controlled Substances.
 
@@ -3363,15 +3437,15 @@ Print Suspended 'Controlled Substances' selections? NO//
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “C” to select “Controlled Substances” and follow the subsequent prompts:
-1.  The “Controlled Substances: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "C" to select "Controlled Substances" and follow the subsequent prompts:
+1.  The "Controlled Substances: Include//" prompt displays. Type "?" to display the help text:
 - Select one of the following:
 - Include Controlled Substances
 - Exclude Controlled Substances
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/042.png)Note: All subsequent prompts further refine the selection of “Exclude Controlled Substances.” For an example of Include functionality for Controlled Substances, refer to the example [Including Controlled Substances](#Example_PFS_Include_CS).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/042.png)Note: All subsequent prompts further refine the selection of "Exclude Controlled Substances." For an example of Include functionality for Controlled Substances, refer to the example [Including Controlled Substances](#Example_PFS_Include_CS).
 
-2.  The “Exclude: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+2.  The "Exclude: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
 - Select one of the following:
 
 > M Mail
@@ -3380,25 +3454,25 @@ With expanded help text:
 
 > B Both Mail and Window
 
-3.  To accept the default value, type “Both” or press Return.
+3.  To accept the default value, type "Both" or press Return.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/043.png)Note: A “Both” response will exclude both Mail and Window Controlled Substance prescriptions from printing. A “Mail” response will ONLY exclude Mail Controlled Substances from printing. A “Window” response will ONLY exclude Window Controlled Substances from printing.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/043.png)Note: A "Both" response will exclude both Mail and Window Controlled Substance prescriptions from printing. A "Mail" response will ONLY exclude Mail Controlled Substances from printing. A "Window" response will ONLY exclude Window Controlled Substances from printing.
 
-4.  The “Enter a list or range of CS Federal Schedules to EXCLUDE (1-5): 1-5//” prompt displays. Type “?” to display the help text:
-- “This response must be a list or range, e.g., 2,4 or 3-5.”
+4.  The "Enter a list or range of CS Federal Schedules to EXCLUDE (1-5): 1-5//" prompt displays. Type "?" to display the help text:
+- "This response must be a list or range, e.g., 2,4 or 3-5."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/044.png)Note: Controlled Substances are specified by typing a range, for example “1-5.” Labels for all Controlled Substances with a schedule number included in this range will be excluded from printing.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/044.png)Note: Controlled Substances are specified by typing a range, for example "1-5." Labels for all Controlled Substances with a schedule number included in this range will be excluded from printing.
 
-Schedule numbers can also be specified in a list. For example, typing “1,3,5” at this prompt will exclude Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
+Schedule numbers can also be specified in a list. For example, typing "1,3,5" at this prompt will exclude Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
 
-5.  To accept the default value, type “1-5” or press Return.
-6.  The “Exclude Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-- “Enter ‘YES’ to EXCLUDE refrigerated Controlled Substances of the selected range from printing.”
-- “Enter ‘NO’ to print refrigerated Controlled Substances of the selected range in addition to the other categories.”
+5.  To accept the default value, type "1-5" or press Return.
+6.  The "Exclude Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+- "Enter 'YES' to EXCLUDE refrigerated Controlled Substances of the selected range from printing."
+- "Enter 'NO' to print refrigerated Controlled Substances of the selected range in addition to the other categories."
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/045.png)Note: A ‘YES’ response excludes refrigerated Controlled Substance drug labels from printing. No Controlled Substances labels in the selected range will print (refrigerated or non-refrigerated).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/045.png)Note: A 'YES' response excludes refrigerated Controlled Substance drug labels from printing. No Controlled Substances labels in the selected range will print (refrigerated or non-refrigerated).
 
-> A ‘NO’ response includes refrigerated Controlled Substances in the selected range when printing. Labels for non-refrigerated Controlled Substances remain excluded and do not print.
+> A 'NO' response includes refrigerated Controlled Substances in the selected range when printing. Labels for non-refrigerated Controlled Substances remain excluded and do not print.
 
 There are no supplies associated with Controlled Substances.<span id="PSO_PNDLBL_End" class="anchor"></span>
 
@@ -3416,9 +3490,9 @@ Comments: 3/4 of Days Supply SUSPENSE HOLD until 6/20/08.
 
 - To fill the prescription earlier, users may pull these types of prescriptions early from suspense.
 
-The 3/4 days supply processing can be bypassed for billable prescriptions with third party insurance by using the hidden action “BY” on the Outpatient Medications Screen or selecting option “BY” on the ePharmacy Menu. Refer to Chapter 23,“Bypass 3/4 Supply” in this document for the ePharmacy Menu option “BY”. The user will have the ability to undo the Bypass from the Outpatient Medications Screen.
+The 3/4 days supply processing can be bypassed for billable prescriptions with third party insurance by using the hidden action "BY" on the Outpatient Medications Screen or selecting option "BY" on the ePharmacy Menu. Refer to Chapter 23,"Bypass 3/4 Supply" in this document for the ePharmacy Menu option "BY". The user will have the ability to undo the Bypass from the Outpatient Medications Screen.
 
-> Example of the Bypass set to “NO” on the Outpatient Medications Screen. If the user continues, the Bypass will be set to “YES”:
+> Example of the Bypass set to "NO" on the Outpatient Medications Screen. If the user continues, the Bypass will be set to "YES":
 
 Select Action: Next Screen// BY BY
 
@@ -3430,7 +3504,7 @@ Supply logic will be bypassed when the RX is sent to CMOP.
 
 Continue? Yes//
 
-> Example of the Bypass set to “YES” on the Outpatient Medications Screen. If the user continues, the Bypass will be set to “NO”, undoing the Bypass:
+> Example of the Bypass set to "YES" on the Outpatient Medications Screen. If the user continues, the Bypass will be set to "NO", undoing the Bypass:
 
 Select Action: Next Screen// BY BY
 
@@ -3468,7 +3542,7 @@ Comments: Bypass 3/4 Day Supply set to YES
 
 Comments: 3/4 Day Supply logic bypassed during CMOP processing
 
-- If the Bypass value has been set to “YES” for a prescription and the user performs the action CSD (Change Suspense Date), the following alert will display:
+- If the Bypass value has been set to "YES" for a prescription and the user performs the action CSD (Change Suspense Date), the following alert will display:
 
 Currently Bypass 3/4 Day Supply is set to YES. If you continue, the prescription fill will transmit to CMOP on the new Suspense Date entered.
 
@@ -3501,7 +3575,7 @@ This chapter describes the display of Allergy Order Checks functionality that ap
 
 The following changes have been made to the existing allergy order checks:
 
-1.  In Backdoor Pharmacy, the system will require the pharmacist to complete an Intervention if the severity value equals ‘Severe’ before allowing the pharmacist to continue with the order. The intervention functionality will be similar to the Critical Drug-Drug Interactions in backdoor pharmacy today.
+1.  In Backdoor Pharmacy, the system will require the pharmacist to complete an Intervention if the severity value equals 'Severe' before allowing the pharmacist to continue with the order. The intervention functionality will be similar to the Critical Drug-Drug Interactions in backdoor pharmacy today.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/046.png)Note: Severity for an allergy can ONLY be entered for (O)bserved and NOT (H)istorical Allergy/Adverse Reactions. The user MUST HOLD the GMRA-ALLERGY VERIFY key and complete an observed reaction report to enter MECHANISM and SEVERITY for Observed Allergies/Adverse Reactions.
 
@@ -3595,7 +3669,7 @@ Do you want to Intervene? YES// n  NO
 
 With a SEVERE reaction, an intervention is required!
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/047.png)Note: “With a severe reaction, an intervention is required”
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/047.png)Note: "With a severe reaction, an intervention is required"
 
 Severe with Intervention:
 
@@ -4085,9 +4159,9 @@ Using this option, information for medications that have been marked as a drug/d
 
 This section describes the Drug/Drug Interaction enhancements made to the Outpatient Pharmacy application included in PSO\*7\*251 and Maximum Single Dose Check enhancement in PSO\*7\*372.
 
-Legacy VistA Drug/Drug Interactions have been enhanced to utilize First DataBank’s (FDB) Drug Information Framework (DIF) business rules, APIs, and database to provide more clinically relevant Drug Interaction information. No changes have been made to the existing user actions for critical or significant Drug Interactions. The pharmacist will have to log an intervention for local, pending and remote critical interactions and have the option of logging an intervention for local, and remote significant interactions. No action is required for Non-VA medications orders.
+Legacy VistA Drug/Drug Interactions have been enhanced to utilize First DataBank's (FDB) Drug Information Framework (DIF) business rules, APIs, and database to provide more clinically relevant Drug Interaction information. No changes have been made to the existing user actions for critical or significant Drug Interactions. The pharmacist will have to log an intervention for local, pending and remote critical interactions and have the option of logging an intervention for local, and remote significant interactions. No action is required for Non-VA medications orders.
 
-FDB custom Drug Interaction tables will be used to store custom changes to FDB standard reference Drug Interaction tables. FDB Drug Interactions that are designated as critical in VistA will have their severity level modified to ‘1’. All FDB Drug Interactions that are designated as significant in VistA will have their severity level modified to ‘2’. Any Drug Interaction in VistA that is not in FDB will be added to the FDB custom tables. For these interactions a custom monograph will be created with a clinical effects section.
+FDB custom Drug Interaction tables will be used to store custom changes to FDB standard reference Drug Interaction tables. FDB Drug Interactions that are designated as critical in VistA will have their severity level modified to '1'. All FDB Drug Interactions that are designated as significant in VistA will have their severity level modified to '2'. Any Drug Interaction in VistA that is not in FDB will be added to the FDB custom tables. For these interactions a custom monograph will be created with a clinical effects section.
 
 The following Outpatient Pharmacy order entry processes have been enhanced:
 
@@ -4279,7 +4353,7 @@ Copyright \<Insert Current Year\> First DataBank, Inc.
 
 Following the drug interaction monograph prompts, when a critical or significant drug interaction is generated with a local, pending, Non-VA med or remote medication order, users not holding a PSORPH key shall be presented with the next prompt in the current order entry dialog. They shall not be shown any intervention prompts or dialog.
 
-Following the Drug Interaction monograph prompts, when a significant Drug Interaction is generated with a local, pending, or remote medication order, the user will be presented with ‘Do you want to intervene?’ prompt for the following processes:
+Following the Drug Interaction monograph prompts, when a significant Drug Interaction is generated with a local, pending, or remote medication order, the user will be presented with 'Do you want to intervene?' prompt for the following processes:
 
 - New order entry via backdoor pharmacy options
 - Finishing a pending order
@@ -8129,7 +8203,7 @@ This section describes enhancements to the existing VistA Duplicate Class order 
 
 The current VistA Duplicate Class checks have been enhanced using the FDB business rules and database, as well as the FDB Enhanced Therapeutic Classification (ETC) system. The Duplicate Class check will now be referred to as the Duplicate Therapy order check. This order check will continue to be performed against active, pending, non-verified orders on hold (initiated through pharmacy or CPRS), expired and discontinued orders. The timeframe for inclusion of expired orders is determined by the display rules on the medication profile. The timeframe for inclusion of locally discontinued orders is determined by the following formula: Discontinued Date (Cancel Date) + Days Supply + 7. This check will be performed on active Non-VA Medication orders.
 
-No changes have been made to the existing user actions for Duplicate Therapy order checks. Users will continue to have the ability to discontinue the order. The existing order will only be discontinued upon acceptance of the order being processed. No discontinue actions can be performed on remote outpatient orders, Non-VA medications, discontinued, and expired orders or orders placed on provider hold through CPRS. If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, no discontinue action is allowed on any duplicate class order.
+No changes have been made to the existing user actions for Duplicate Therapy order checks. Users will continue to have the ability to discontinue the order. The existing order will only be discontinued upon acceptance of the order being processed. No discontinue actions can be performed on remote outpatient orders, Non-VA medications, discontinued, and expired orders or orders placed on provider hold through CPRS. If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', no discontinue action is allowed on any duplicate class order.
 
 Any remote Outpatient order (from another VAMC or Department of Defense (DoD) facility) using data from Health Data Repository Historical (HDR-Hx) or Health Data Repository- Interim Messaging Solution (HDR-IMS) that has been expired for 120 days or less will be included in the list of medications to be checked.
 
@@ -8223,7 +8297,7 @@ Class(es)Involved in Therapeutic Duplication(s): Peptic Ulcer Agents, Histamine-
 
 ===============================================================================
 
-If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, the following information is shown for the duplicate therapy warning:
+If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', the following information is shown for the duplicate therapy warning:
 
 ================================================================================
 
@@ -8247,9 +8321,9 @@ If there is more than one remote, local, pending or Non-VA med order involved in
 
 If the same drugs are involved in multiple therapeutic duplications, a single therapeutic duplication warning will be displayed and multiple therapeutic classes will be listed.
 
-If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, no discontinue action prompt will be presented.
+If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', no discontinue action prompt will be presented.
 
-After all the therapeutic duplication warnings are displayed and if the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘Yes’, the user will be asked if they want to discontinue any of the orders.
+After all the therapeutic duplication warnings are displayed and if the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'Yes', the user will be asked if they want to discontinue any of the orders.
 
 See Examples:
 
@@ -8263,7 +8337,7 @@ The system will display the following information for the numbered list of order
 
 - Prescription number (if applicable)
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Indicate if the order is pending (with text ‘Pending Order’)
+- Indicate if the order is pending (with text 'Pending Order')
 
 See example below:
 
@@ -8294,9 +8368,9 @@ If the user fails to accept the order that is being processed or exits before ac
 The message displayed to the user shall contain:
 
 - Indicate that discontinuance was for Duplicate Therapy
-- The prescription number or text ‘Pending order’ if order status is pending.
+- The prescription number or text 'Pending order' if order status is pending.
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Ending with text ‘NOT Discontinued.’
+- Ending with text 'NOT Discontinued.'
 
 See examples below:
 
@@ -8309,9 +8383,9 @@ Once the order being processed is accepted and there were orders selected for di
 The message displayed to the user shall contain:
 
 - Indicate that discontinuance was for Duplicate Therapy
-- The prescription number or text ‘Pending order’ if order status is pending.
+- The prescription number or text 'Pending order' if order status is pending.
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Ending with text ‘has been discontinued.’
+- Ending with text 'has been discontinued.'
 
 See examples below:
 
@@ -8583,7 +8657,7 @@ Is this correct? YES//
 
 Another New Order for PSOPATIENT,ONE? YES//
 
-Example: Finishing Pending Order – Therapeutic Duplication with Non-Verified and Active orders. One drug is involved in both therapeutic duplications. One duplication allowance value is greater than ‘0’.
+Example: Finishing Pending Order – Therapeutic Duplication with Non-Verified and Active orders. One drug is involved in both therapeutic duplications. One duplication allowance value is greater than '0'.
 
 -------------------------------------ACTIVE----------------------------------
 
@@ -9653,7 +9727,7 @@ This chapter describes the option for pulling prescriptions early from the SUSPE
 
 This option is used to pull a specific prescription or all prescriptions for a patient early. If a prescription is pulled early using this option, it will not be associated with any printed batch. A label cannot be reprinted with the *Reprint Batches from Suspense* option if the prescription has been pulled early suspense. In addition, Method of Pickup can be edited. Also, there is no longer a "DELETE FROM SUSPENSE PROMPT." That prompt has been changed to "Pull Rx(s) and delete from Suspense." Yes must be answered to this prompt to pull the prescriptions, and they will always be deleted from suspense. Since prescriptions that are pulled early from suspense do not belong to any printed batch and cannot be reprinted from suspense, there is no reason to leave them in suspense.
 
-If the Label Log indicates that a Label has already printed for this prescription and fill, then the user is asked whether to continue. If the user chooses “No”, the label will not print. In addition, the prescription shall be removed from Suspense unless the suspense queue indicates that a user has previously requested a reprint of the suspended prescription. If the user chooses “Yes”, the prescription shall continue and will print the label. In the example below, the label will not print but the Prescription will be left on Suspense.
+If the Label Log indicates that a Label has already printed for this prescription and fill, then the user is asked whether to continue. If the user chooses "No", the label will not print. In addition, the prescription shall be removed from Suspense unless the suspense queue indicates that a user has previously requested a reprint of the suspended prescription. If the user chooses "Yes", the prescription shall continue and will print the label. In the example below, the label will not print but the Prescription will be left on Suspense.
 
 Label for Rx#1###### Fill#0 has already been printed
 
@@ -9663,9 +9737,9 @@ Reprint Flag is on. Prescription left on suspense.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/052.png)If the prescription being pulled from suspense has an FDA Medication Guide associated, the user will be required to enter a valid FDA Medication Guide printer.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/053.png)If the routing is changed to “Window” when pulling from suspense early, and the bingo board is being used, those prescriptions will be sent to the bingo board.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/053.png)If the routing is changed to "Window" when pulling from suspense early, and the bingo board is being used, those prescriptions will be sent to the bingo board.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/054.png)If the patient has remote prescriptions, then the text “THIS PATIENT HAS PRESCRIPTIONS AT OTHER FACILITIES” will appear on the report as shown in the following example.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/054.png)If the patient has remote prescriptions, then the text "THIS PATIENT HAS PRESCRIPTIONS AT OTHER FACILITIES" will appear on the report as shown in the following example.
 
 PRESCRIPTION PROFILE AS OF 12/30/2008
 
@@ -9722,13 +9796,13 @@ The copay status of a prescription is re-evaluated whenever a fill is released. 
 
 3.  The copay status of the prescription is automatically reset, an entry is placed in the copay activity log, and a MailMan message is generated detailing missing information required for user follow up.
 
-> Example: The drug for which the prescription is written is no longer marked for investigational use. The copay status of the prescription is reset from No Copayment to Copay. The patient has been documented as being exposed to Southwest Asia Conditions during Persian Gulf War service since the last fill. A MailMan message will be generated informing the user that the ‘Is this Rx for treatment related to service in SW Asia?’ question must be addressed and documented using the *Reset Copay Status/Cancel Charges* option.
+> Example: The drug for which the prescription is written is no longer marked for investigational use. The copay status of the prescription is reset from No Copayment to Copay. The patient has been documented as being exposed to Southwest Asia Conditions during Persian Gulf War service since the last fill. A MailMan message will be generated informing the user that the 'Is this Rx for treatment related to service in SW Asia?' question must be addressed and documented using the *Reset Copay Status/Cancel Charges* option.
 
 4.  A MailMan message is generated detailing missing information required for user follow-up.
 
-> Example: A veteran is documented as having Agent Orange exposure. Refill \#2 for a prescription entered into the system before the new medication copay exemptions took effect on January 1, 2002 is released. The prescription is copay eligible. A MailMan message will be generated informing recipients that the ‘Is this Rx for treatment of Vietnam-Era Herbicide (Agent Orange) exposure?’ question must be addressed. The copay status of the Rx may change based on the response entered using the *Reset Copay Status/Cancel Charges* option.
+> Example: A veteran is documented as having Agent Orange exposure. Refill \#2 for a prescription entered into the system before the new medication copay exemptions took effect on January 1, 2002 is released. The prescription is copay eligible. A MailMan message will be generated informing recipients that the 'Is this Rx for treatment of Vietnam-Era Herbicide (Agent Orange) exposure?' question must be addressed. The copay status of the Rx may change based on the response entered using the *Reset Copay Status/Cancel Charges* option.
 
-If a MailMan message is generated at the time a prescription fill is released, the recipients of the message will be the provider of record, the pharmacy user who finished the order, and holders of the PSO COPAY key. The message lists the patient name, prescription number, and medication ordered, current copay status, and applicable copay exemption questions that need addressing to determine the prescription’s copay status. The *Reset Copay Status/Cancel Charges* option must be used to enter the responses to the medication copay exemption questions listed in the MailMan message. If responses are not entered for the applicable medication copay exemption questions, any subsequent refills when released for this prescription and possibly other prescriptions for this patient will continue to generate the same MailMan message.
+If a MailMan message is generated at the time a prescription fill is released, the recipients of the message will be the provider of record, the pharmacy user who finished the order, and holders of the PSO COPAY key. The message lists the patient name, prescription number, and medication ordered, current copay status, and applicable copay exemption questions that need addressing to determine the prescription's copay status. The *Reset Copay Status/Cancel Charges* option must be used to enter the responses to the medication copay exemption questions listed in the MailMan message. If responses are not entered for the applicable medication copay exemption questions, any subsequent refills when released for this prescription and possibly other prescriptions for this patient will continue to generate the same MailMan message.
 
 Example: MailMan Message
 
@@ -9806,7 +9880,7 @@ reimbursable by third party insurance.
 
 Enter message action (in IN basket): Ignore//
 
-An annual copayment cap is applied to patients in specific priority enrollment groups. Once a patient reaches the annual copayment cap, no further medication copay charges will be billed for the calendar year. An entry to that effect is made to the Copay Activity Log. The ‘\$’ indicator remains next to the prescription number to indicate that the prescription is still copay eligible.
+An annual copayment cap is applied to patients in specific priority enrollment groups. Once a patient reaches the annual copayment cap, no further medication copay charges will be billed for the calendar year. An entry to that effect is made to the Copay Activity Log. The '\$' indicator remains next to the prescription number to indicate that the prescription is still copay eligible.
 
 Integrated Billing software keeps track of all prescription fills not billed due to the annual cap.
 
@@ -9822,7 +9896,7 @@ Copay Activity Log:
 
 Comment: NO BILLING FOR THIS FILL
 
-If for whatever reason (e.g. prescription fill is returned to stock and copay charges cancelled), a patient falls below the annual copayment cap, the Integrated Billing package can initiate copay charges to bring the patient back up to the annual copayment cap. Integrated billing software will go back and bill a copay charge for those fills previously not charged due to the annual cap, bringing the patient’s total copayment up to the cap. Whenever this occurs an entry will be placed in the copay activity log.
+If for whatever reason (e.g. prescription fill is returned to stock and copay charges cancelled), a patient falls below the annual copayment cap, the Integrated Billing package can initiate copay charges to bring the patient back up to the annual copayment cap. Integrated billing software will go back and bill a copay charge for those fills previously not charged due to the annual cap, bringing the patient's total copayment up to the cap. Whenever this occurs an entry will be placed in the copay activity log.
 
 Example: Copay Activity Log With IB-Initiated Charge
 
@@ -9995,7 +10069,7 @@ Press Return to Continue:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-With Patch PSO\*7\*385, the release function in the *Patient Prescription Processing* option has been modified to display a message to the user when an ECME-billable prescription is being released as a window fill. This message will alert the user that the patient’s signature must be obtained. The user is not required to press \<Enter\> to continue or respond to the alert in any other manner.
+With Patch PSO\*7\*385, the release function in the *Patient Prescription Processing* option has been modified to display a message to the user when an ECME-billable prescription is being released as a window fill. This message will alert the user that the patient's signature must be obtained. The user is not required to press \<Enter\> to continue or respond to the alert in any other manner.
 
 Example: Releasing an ePharmacy Window Fill
 
@@ -10116,7 +10190,7 @@ This option is used when a prescription has been released, but has been refused,
 
 A prescription can only be returned to stock if the prescription status is Active, Discontinued, or Expired. If the prescription is not released, there is no need to return it to stock. This function increases the inventory so that a more current level is maintained by the Outpatient Pharmacy package and removes the copay charge if it is applicable to the prescription. It is highly recommended that this option be used.
 
-When an ePharmacy prescription is returned to stock, the software checks if the it has a PAYABLE claim, if so, a request is sent to ECME to electronically reverse the claim with the third party payer. Also, if the prescription contains any unresolved DUR or REFILL TOO SOON reject, it will be marked resolved with the reason ‘Prescription Returned To Stock’.
+When an ePharmacy prescription is returned to stock, the software checks if the it has a PAYABLE claim, if so, a request is sent to ECME to electronically reverse the claim with the third party payer. Also, if the prescription contains any unresolved DUR or REFILL TOO SOON reject, it will be marked resolved with the reason 'Prescription Returned To Stock'.
 
 If a copay charge is removed by returning a prescription fill to stock, an entry will be placed in the copay activity log documenting the action.
 
@@ -10509,17 +10583,17 @@ Was treatment for a Service Connected condition? NO//
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/058.png)Note: For information regarding OneVA Pharmacy processing, please see Appendix A, OneVA Pharmacy User Manual.
 
-OneVA Pharmacy patch PSO\*7\*454 introduces new messaging to query the Health Data Repository/Clinical Data Services (HDR/CDS) Repository for prescriptions from other VA Pharmacy locations and displays them in the Medications Profile view. The new query will only execute if the patient has been treated at more than one VA Medical Center. The query retrieves all prescriptions associated with the patient from the repository, which requires additional time. To execute the HDR/CDS Repository query, the user must answer ‘YES’ to the ‘Would you like to query prescriptions from other OneVA Pharmacy locations?’ prompt. When the user responds ‘YES’ to the OneVA Pharmacy prompt, the system displays the OneVA Pharmacy Query Message.
+OneVA Pharmacy patch PSO\*7\*454 introduces new messaging to query the Health Data Repository/Clinical Data Services (HDR/CDS) Repository for prescriptions from other VA Pharmacy locations and displays them in the Medications Profile view. The new query will only execute if the patient has been treated at more than one VA Medical Center. The query retrieves all prescriptions associated with the patient from the repository, which requires additional time. To execute the HDR/CDS Repository query, the user must answer 'YES' to the 'Would you like to query prescriptions from other OneVA Pharmacy locations?' prompt. When the user responds 'YES' to the OneVA Pharmacy prompt, the system displays the OneVA Pharmacy Query Message.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/059.png)The OneVA Pharmacy’s feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the ‘TREATING FACILITY LIST file (#391.91)’.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/059.png)The OneVA Pharmacy's feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the 'TREATING FACILITY LIST file (#391.91)'.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/060.png)The system identifies and queries the HDR/CDS Repository for all the prescriptions that are active, suspended, on hold, expired (within 120 days), or discontinued (within 120 days).
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/061.png)If the query connection to the HDR/CDS Repository fails, a message will display stating ‘The system is down or not responding. Could not query prescriptions at other VA Pharmacy locations. The user should press return to continue and contact local support if this problem persists.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/061.png)If the query connection to the HDR/CDS Repository fails, a message will display stating 'The system is down or not responding. Could not query prescriptions at other VA Pharmacy locations. The user should press return to continue and contact local support if this problem persists.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/062.png)When the system is down message displays, the VistA session will continue to display the local/dispensing sites prescriptions on the Medication Profile view. There will be no indication if a patient is registered or has prescriptions on other sites (i.e., remote site/OneVA Pharmacy prescriptions will not display on the Medication Profile view.)
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/063.png)If the patient does not have any prescription records from other VA Pharmacy locations, matching the search criteria, a message will display stating the “Patient found with no prescription records matching search criteria.”
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/063.png)If the patient does not have any prescription records from other VA Pharmacy locations, matching the search criteria, a message will display stating the "Patient found with no prescription records matching search criteria."
 
 Example: OneVA Pharmacy Processing
 
@@ -10561,7 +10635,7 @@ IBUPROFEN 800MG TABVerified AllergiesDRUG WARNING:------------------DO NOT DRINK
 
 CETIRIZINE HCL 10MG TABVerified AllergiesDRUG WARNING:-------------------MAY CAUSE DROWSINESS-Alcohol may intensify thiseffect. Non-Verified AllergiesUSE CARE when driving or----------------------when operating dangerous machinery.DO NOT DRINK ALCOHOLIC BEVERAGES Verified Adverse Reactionswhen taking this medication. --------------------------Non-Verified Adverse Reactions------------------------------PSOPATIENT,SIX JUL 27,2016Pharmacy Service (###)ANYTOWNP.O. BOX XXXANYTOWN, OH XXXXX-XXXXUse the label above to mail the computercopies back to us. Apply enough postageto your envelope to ensure delivery.The VA Notice of Privacy Practices, IB 10-163, which outlines your privacyrights, is available online at http://www.va.gov/Health/ or you may obtaina copy by writing the VHA Privacy Office (19F2), REDACTED,Washington, DC 20420.Partial complete for RX \#\#######.Press RETURN to continue:Updating prescription order list...<u>Medication Profile Jul 27, 2016@10:31:11 Page: 1 of 1</u>PSOPATIENT,SIX \<NO ALLERGY ASSESSMENT\>PID: REDACTED Ht(cm): \_\_\_\_\_\_\_ (\_\_\_\_\_\_)DOB: REDACTED Wt(kg): \_\_\_\_\_\_\_ (\_\_\_\_\_\_)SEX: FEFEMALECrCL: \<Not Found\> BSA (m2): \_\_\_\_\_\_\_ISSUE LAST REF DAY\# RX \# DRUG QTY ST DATE FILL REM SUP\<No local prescriptions found.\>-------------------------DAYTSHR TEST LAB (\###) ACTIVE--------------------------1 \####### CETIRIZINE HCL 10MG TAB 30 A 05-21 07-07 7 302 \####### HYDRALAZINE HCL 25MG TAB 60 A 05-11 05-11 5 603 \####### IBUPROFEN 800MG TAB 60 A 05-31 07-27 10 30Enter ?? for more actionsPU Patient Record Update NO New OrderPI Patient Information SO Select OrderSelect Action: Quit//<u>Medication Profile Jul 28, 2016@05:20:23 Page: 1 of 3</u>PSOPATIENT,SIX \<NO ALLERGY ASSESSMENT\>PID: REDACTED Ht(cm): \_\_\_\_\_\_\_ (\_\_\_\_\_\_)DOB: REDACTED Wt(kg): \_\_\_\_\_\_\_ (\_\_\_\_\_\_)SEX: FEMALECrCL: \<Not Found\> BSA (m2): \_\_\_\_\_\_\_ISSUE LAST REF DAY\# RX \# DRUG QTY ST DATE FILL REM SUP-------------------------------------ACTIVE-------------------------------------1 \######## FLUTICAS 100/SALMETEROL 50 INHL DISK 60 E\> 06-01 02-02 11 45Qty: 22 \######## NIACIN 250MG TAB 270 S\> 06-08 08-27 2 903 \######## RAMIPRIL 5MG CAP 30 A\> 05-31 05-31 8 30----------------------------------DISCONTINUED----------------------------------4 \######## HYDROCHLOROTHIAZIDE 25MG TAB 60 DC\>02-01 02-02 5 60--------------------------------------HOLD--------------------------------------5 \######## LISINOPRIL 2.5MG TAB 90 H\> 03-10 - 3 90------------------------------DAYTON (552) ACTIVE-------------------------------+ Enter ?? for more actionsPU Patient Record Update NO New OrderPI Patient Information SO Select Order
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/064.png) Note: Patient’s prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/064.png) Note: Patient's prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
 
 > Unable to complete transaction.
 
@@ -11596,24 +11670,24 @@ The CPRS Auto Refill field can be updated using the *Pharmacy Systems Parameter 
 
 If the auto refill process fails, the order will not be processed and will require manual refilling. A MailMan message will be sent to the holders of the PSOAUTRF key describing the reason for not filling the auto refill. All of the refill activity, manual or automatic, is recorded in the Activity Log entry notes.
 
-With Patch PSO\*7\*233, when a name is selected, if the patient’s address is flagged with a Bad Address Indicator, a warning message is displayed. If the user has proper authorization (i.e., the PSO SITE parameter “EDIT PATIENT DATA” is set to Yes or the user holds the new PSO ADDRESS UPDATE security key), a prompt appears asking if the user wants to update the address. Also, for the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is now displayed: “(Temp address from XXX 99,9999 till (no end date))”.
+With Patch PSO\*7\*233, when a name is selected, if the patient's address is flagged with a Bad Address Indicator, a warning message is displayed. If the user has proper authorization (i.e., the PSO SITE parameter "EDIT PATIENT DATA" is set to Yes or the user holds the new PSO ADDRESS UPDATE security key), a prompt appears asking if the user wants to update the address. Also, for the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is now displayed: "(Temp address from XXX 99,9999 till (no end date))".
 
 Following the installation of patches PSO\*7\*207 and OR\*3\*238 (Remote Data Interoperability (RDI) trigger patch), order checks will be made using additional data from the Health Data Repository Interim Messaging Solution (HDR-IMS) and the HDR-Historical (HDR-Hx). This will contain both Outpatient orders from other VAMCs as well as from Department of Defense (DoD) facilities, if available. All remote prescription statuses will be included in order checking for a new order being processed from within backdoor outpatient pharmacy and for new orders being placed by CPRS or by Inpatient Medications. Any remote Outpatient order that has been expired or discontinued for 30 days or less will be included in the list of medications to be checked.
 
-The check for remote data availability is performed upon entering the patient’s profile, rather than on each order, to ensure that both remote data and local data are used for order checking.
+The check for remote data availability is performed upon entering the patient's profile, rather than on each order, to ensure that both remote data and local data are used for order checking.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/065.png)Once the above patches have been installed, a new comment for remote order checks,  
 "Now doing remote order checks. Please wait..." has been added to the screen. The previous comment, "Now doing order checks. Please wait… " is replaced by: "Now doing drug interaction and allergy checks. Please wait..."
 
 The following will not be included in order checks (after patch PSO\*7\*243):
 
-- Prescriptions with a status of “DELETED” in the STATUS field in the PRESCRIPTION file from a remote facility.
+- Prescriptions with a status of "DELETED" in the STATUS field in the PRESCRIPTION file from a remote facility.
 - Prescriptions with a missing expiration date, unless the ISSUE DATE field of the PRESCRIPTION file is within the past year.
 
 Remote order checking added (after patch PSO\*7\*243):
 
 - For drug class when orders are placed for locally defined drugs.
-- Allergy Analgesic class order checks only match against the specific 5-character class if the class begins with “CN10”.
+- Allergy Analgesic class order checks only match against the specific 5-character class if the class begins with "CN10".
 
 If for any reason remote order checks cannot be performed, the following message displays:
 
@@ -11667,7 +11741,7 @@ ISSUE LAST REF DAY
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/067.png)Note: A prescription can be unmarked as Titration/Maintenance by invoking the same TM action on an already marked prescription.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/068.png)Note: With the release of PSO\*7\*505, the ‘Titration and Maintenance’ functionality is blocked for all controlled substance prescriptions.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/068.png)Note: With the release of PSO\*7\*505, the 'Titration and Maintenance' functionality is blocked for all controlled substance prescriptions.
 
 There is also a new hidden action in the Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\] option called TR (Convert Titration Rx). This action populates the MAINTENANCE DOSE RX (#45.2) field in the PRESCRIPTION File (#52). When a titration to maintenance prescription needs to be refilled so the patient can continue on the Maintenance Dose, this option allows users to create a new prescription with the maintenance dose only. The process works similar to copying an existing prescription; however, it can only be used on prescriptions with the following characteristics:
 
@@ -11745,13 +11819,13 @@ Select PATIENT NAME: OPPATIENT16,ONE OPPATIENT16,ONE 4-3-41 \#########
 
 YES SC VETERAN
 
-Patient is enrolled to receive ScripTalk ‘talking’ prescription labels.
+Patient is enrolled to receive ScripTalk 'talking' prescription labels.
 
 Eligibility: SC
 
 RX PATIENT STATUS: SERVICE CONNECTED// \<Enter\>
 
-A detailed explanation of the different parts of the screen can be found under “List Manager Options” at the beginning of this manual. The Patient Information screen displays the information on two pages. Only the second screen is shown in this example.
+A detailed explanation of the different parts of the screen can be found under "List Manager Options" at the beginning of this manual. The Patient Information screen displays the information on two pages. Only the second screen is shown in this example.
 
 Example: Entering a New Order (continued)
 
@@ -11781,7 +11855,7 @@ DD Detailed Allergy/ADR List EX Exit Patient List
 
 Select Action: Quit// \<Enter\>
 
-Although the default option is “Quit” at the "Select Action" prompt, pressing the Enter key here quits the Patient Information screen and displays the Medication Profile. This Medication Profile includes any Non-VA Med orders documented via the CPRS GUI application.
+Although the default option is "Quit" at the "Select Action" prompt, pressing the Enter key here quits the Patient Information screen and displays the Medication Profile. This Medication Profile includes any Non-VA Med orders documented via the CPRS GUI application.
 
 Medication Profile May 22, 2001 10:44:56 Page: 1 of 1
 
@@ -11837,7 +11911,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-If a double question mark (??) is entered at the above “Select Action” prompt, the following hidden actions display in the action area.
+If a double question mark (??) is entered at the above "Select Action" prompt, the following hidden actions display in the action area.
 
 The following actions are also available:
 
@@ -11947,9 +12021,9 @@ Press Return to continue:
 
 Discontinue Rx \######## ACETAMINOPHEN 500MG TAB Y/N ?
 
-The system checks the medication selected for any duplicate drugs or classes, interactions, or allergies that are noted in the patient’s local and remote record. This also includes any local Non-VA Meds. See the following example of local and remote order checking.
+The system checks the medication selected for any duplicate drugs or classes, interactions, or allergies that are noted in the patient's local and remote record. This also includes any local Non-VA Meds. See the following example of local and remote order checking.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/069.png)If the new order is for Clozapine, there are additional restrictions for filling a prescription. See Chapter 9: Controlling the Dispensing of Clozapine” in the Outpatient Pharmacy Manager’s Manual for more information.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/069.png)If the new order is for Clozapine, there are additional restrictions for filling a prescription. See Chapter 9: Controlling the Dispensing of Clozapine" in the Outpatient Pharmacy Manager's Manual for more information.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/070.png)Note: More than one ingredient and more than one VA Drug Class may be associated with an Allergy/ADR.
 
@@ -11981,7 +12055,7 @@ If the user chooses to intervene after the Allergy/ADR warning is displayed, the
 
 If the user chooses not to intervene after the Allergy/ADR warning is displayed, the order entry dialog will start.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/071.png)Note: If the Severity is ‘Severe’, an intervention is REQUIRED.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/071.png)Note: If the Severity is 'Severe', an intervention is REQUIRED.
 
 Example: Remote Allergy/ADR – New Order Entry Backdoor – Both Ingredient and Drug Class defined for Allergy/ADR
 
@@ -12481,7 +12555,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-If a new order is rejected due to a Drug Utilization Review (DUR) ), Reject Resolution Required, or Refill Too Soon, the prescription will be marked as “REJECTED”, and the user will have the opportunity to resolve before continuing.
+If a new order is rejected due to a Drug Utilization Review (DUR) ), Reject Resolution Required, or Refill Too Soon, the prescription will be marked as "REJECTED", and the user will have the opportunity to resolve before continuing.
 
 The following example shows a sample ECME transmission rejection, and how to resolve the rejection error.
 
@@ -12537,7 +12611,7 @@ Q (Q)UIT - SEND TO WORKLIST (REQUIRES INTERVENTION)
 
 (O)verride,(I)gnore,(Q)uit: Q// O OVERRIDE
 
-When a claim is rejected, typically the Payer provides a “Reason for Service Code”, which displays on the reject as “Reason”. The user can use this reason to then select which code is entered for “Professional Service Code” and “Result of Service Code”. To see a list of service codes, enter ? at the specified prompt.
+When a claim is rejected, typically the Payer provides a "Reason for Service Code", which displays on the reject as "Reason". The user can use this reason to then select which code is entered for "Professional Service Code" and "Result of Service Code". To see a list of service codes, enter ? at the specified prompt.
 
 Reason for Service Code : ER - OVERUSE
 
@@ -12641,7 +12715,7 @@ Q (Q)UIT - SEND TO WORKLIST (REQUIRES INTERVENTION)
 
 Example: Handling a TRICARE Rejected New Order for ePharmacy Billing
 
-Rejected TRICARE claims will be denoted with “TRICARE” during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the “Is this correct? YES//” prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A TRICARE rejection may not be (I)gnored.
+Rejected TRICARE claims will be denoted with "TRICARE" during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the "Is this correct? YES//" prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A TRICARE rejection may not be (I)gnored.
 
 TRICARE Prescription \###### submitted to ECME for claim generation.
 
@@ -13025,7 +13099,7 @@ Comments: TRICARE-Inactive ECME TRICARE
 
 Example: Handling a CHAMPVA Rejected New Order for ePharmacy Billing
 
-Rejected CHAMPVA claims will be denoted with “CHAMPVA” during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the “Is this correct? YES//” prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A CHAMPVA rejection may not be (I)gnored.
+Rejected CHAMPVA claims will be denoted with "CHAMPVA" during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the "Is this correct? YES//" prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A CHAMPVA rejection may not be (I)gnored.
 
 CHAMPVA Prescription \###### submitted to ECME for claim generation.
 
@@ -13403,7 +13477,7 @@ ECME Log:
 
 Comments: CHAMPVA -Inactive ECME CHAMPVA
 
-#### Displaying a Patient’s Remote Prescriptions
+#### Displaying a Patient's Remote Prescriptions
 
 If a patient has prescriptions at another location, when the user selects the patient to enter a new order from Patient Prescription Processing, the following message appears.
 
@@ -13411,7 +13485,7 @@ REMOTE PRESCRIPTIONS AVAILABLE!
 
 Display Remote Data? N//
 
-If the user responds NO, then the normal procedure occurs for entering prescriptions. If the user responds YES, the “Remote Facilities Visited” screen appears such as the following example.
+If the user responds NO, then the normal procedure occurs for entering prescriptions. If the user responds YES, the "Remote Facilities Visited" screen appears such as the following example.
 
 Remote Facilities Visited Dec 30, 2008@17:26:47 Page: 1 of 1
 
@@ -13427,7 +13501,7 @@ DR Display Remote Pharmacy Data DB Display Both Pharmacy Data
 
 Action:Quit//DR
 
-To display the prescriptions at the remote pharmacy location, enter DR at the “Action” prompt. The “Medication Profile – Remote” screen appears such as the following example.
+To display the prescriptions at the remote pharmacy location, enter DR at the "Action" prompt. The "Medication Profile – Remote" screen appears such as the following example.
 
 Medication Profile - Remote Dec 30, 2008@17:29:43 Page: 1 of 2
 
@@ -14240,7 +14314,7 @@ or check later to see if the label has been printed.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Clinic orders are created via CPRS generally using the Meds Inpatient tab or the IV Fluids tab. Drug orders that have a clinic and an appointment date and time are considered clinic orders. The clinic must be defined with ‘ADMINISTER INPATIENT MEDS?’ prompt answered YES under the SETUP A CLINIC \[SDBUILD\] option in the Scheduling package. Defining the clinic in this manner ensures that an appointment date and time are defined.  Orders placed via backdoor inpatient medications are not  considered clinic orders.
+Clinic orders are created via CPRS generally using the Meds Inpatient tab or the IV Fluids tab. Drug orders that have a clinic and an appointment date and time are considered clinic orders. The clinic must be defined with 'ADMINISTER INPATIENT MEDS?' prompt answered YES under the SETUP A CLINIC \[SDBUILD\] option in the Scheduling package. Defining the clinic in this manner ensures that an appointment date and time are defined.  Orders placed via backdoor inpatient medications are not  considered clinic orders.
 
 MOCHA 1 Enhancement 1 adds drug interaction and therapeutic duplication order checks for clinic orders to Outpatient Pharmacy. Previously Inpatient Medications package performed order checks on active, pending, and non-verified clinic orders. With the MOCHA 1 Enhancement 1, Inpatient medications will perform enhanced order checks for recently discontinued and expired inpatient medications clinic orders.
 
@@ -14249,9 +14323,9 @@ For both packages, the system will display clinic orders in a standard format to
 Discontinued/expired orders must have a stop date within the last 90 days to be evaluated during enhanced order checks. For pending clinic orders, a variety of start and stop dates are available based on the information that the provider enters during initial order entry. The following are the scenarios that drive which dates will be displayed for the clinic order:
 
 - If there are start/stop dates defined, they are displayed.
-- If there are no stop/start dates defined, the ‘requested start/stop dates’ will be displayed with the word “Requested” prior to the start/stop date header.
-- If there are no requested start/stop dates defined, the order date will be displayed and the start/stop date headers will be displayed with “\*\*\*\*\*\*\*\*” for the date.
-- If there is either a requested start date or a requested stop date, the available date will be displayed and “\*\*\*\*\*\*\*\*” will be displayed for the undefined date.
+- If there are no stop/start dates defined, the 'requested start/stop dates' will be displayed with the word "Requested" prior to the start/stop date header.
+- If there are no requested start/stop dates defined, the order date will be displayed and the start/stop date headers will be displayed with "\*\*\*\*\*\*\*\*" for the date.
+- If there is either a requested start date or a requested stop date, the available date will be displayed and "\*\*\*\*\*\*\*\*" will be displayed for the undefined date.
 
 Unit Dose Clinic Order Check Example:
 
@@ -14375,7 +14449,7 @@ There are 5 Available Dosage(s):
        2. 20MG
        3. 40MG
 
-Enter RETURN to view additional dosages or ‘^’ to exit list of dosages:
+Enter RETURN to view additional dosages or '^' to exit list of dosages:
 
 -----------------------------\<Page Break\>------------------------------------
 
@@ -14400,7 +14474,7 @@ Dosage Ordered: 500MG
 
 With PSO\*7\*525, if there is no default Medication Route defined for the Orderable Item, the user is prompted to enter a route. Please see section [Medication Route Prompt](#medication-route-prompt) for a detailed description of the Medication Route lookup functionality . The Route is not required to complete a prescription. If the abbreviation entered is found in the MEDICATION ROUTES file, the entry will be expanded in the Sig based on the OUTPATIENT EXPANSION field.
 
-A default schedule associated with the Orderable Item of the drug ordered is displayed at the “Schedule:” prompt. The default can be accepted or a different free text schedule can be entered. Free text entries cannot contain more than two spaces or be more than twenty characters long. Entries will be compared against a list of common abbreviations, first in the ADMINISTRATION SCHEDULE file and then in the MEDICATION INSTRUCTION file, and expanded if the entry matches. Any entry not found in the list of common abbreviations will be displayed in the Sig as entered.
+A default schedule associated with the Orderable Item of the drug ordered is displayed at the "Schedule:" prompt. The default can be accepted or a different free text schedule can be entered. Free text entries cannot contain more than two spaces or be more than twenty characters long. Entries will be compared against a list of common abbreviations, first in the ADMINISTRATION SCHEDULE file and then in the MEDICATION INSTRUCTION file, and expanded if the entry matches. Any entry not found in the list of common abbreviations will be displayed in the Sig as entered.
 
 With patch PSO\*7\*402, the user will be informed from which file the schedule selection is made and if the value entered will be considered as free text. The NAME, OLD SCHEDULE NAME(S) fields will be used for lookup from the ADMNISTRATION SCHEDULE file. The NAME, SYNONYM, and OLD MED INSTRUCTION NAME(S) fields will be used for lookup from the MEDICATION INSTRUCTION file. The user will first be presented with selections from the ADMINISTRATION SCHEDULE file based on the value entered at the schedule prompt. If the user selects an entry, the lookup is complete. If the user chooses not to select a value from the ADMINISTRATION SCHEDULE file, the software displays selections from the MEDICATION INSTRUCTION file. If a selection is made, the lookup is complete. If the user chooses not to select a value, the software informs the user that the value as entered will be accepted at the schedule prompt as a free text entry. Patch PSO\*7\*507 introduces the ability for users to view if an Administration Schedule is Inactive.
 
@@ -14440,7 +14514,7 @@ AP BIDAP TWICE A DAY IN MORNING AND EVENING
 
 ...OK? Yes// N (No)
 
-The LIMITED DURATION field is used only when a medication should be taken for a limited period of time. Days are assumed for numeric entries. The user should follow the number with an “H” to specify hours or an “M” to specify minutes.
+The LIMITED DURATION field is used only when a medication should be taken for a limited period of time. Days are assumed for numeric entries. The user should follow the number with an "H" to specify hours or an "M" to specify minutes.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/072.png)Do not use the LIMITED DURATION field for Days Supply.
 
@@ -14448,7 +14522,7 @@ Example: Entering a New Order (continued)
 
 LIMITED DURATION (IN DAYS, HOURS OR MINUTES): 10 (DAYS)
 
-The CONJUCTION field is used to join dosing sequences in complex orders. Entries are limited to AND or THEN. AND is used for concurrent doses, such as “Take 1 tablet every morning AND take 2 tablets at bedtime.” THEN is used for consecutive doses, such as “Take 2 tablets daily for one week THEN take 1 tablet for five days.” See Chapter 2 in the *User Manual - Supplemental* for examples.
+The CONJUCTION field is used to join dosing sequences in complex orders. Entries are limited to AND or THEN. AND is used for concurrent doses, such as "Take 1 tablet every morning AND take 2 tablets at bedtime." THEN is used for consecutive doses, such as "Take 2 tablets daily for one week THEN take 1 tablet for five days." See Chapter 2 in the *User Manual - Supplemental* for examples.
 
 CONJUNCTION: \<Enter\>
 
@@ -14460,7 +14534,7 @@ PATIENT INSTRUCTIONS: WF WITH FOOD
 
 OTHER PATIENT INSTRUCTIONS: WF CON ALIMENTO
 
-Two optional fields, OTHER LANGUAGE PREFERENCE and PMI LANGUAGE PREFERENCE in the PHARMACY PATIENT file, store if a patient has another language preference and if the patient’s PMI sheets should print in English or Spanish at the CMOP. The CMOP functionality was requested for future CMOP use. When printing locally from Outpatient Pharmacy this parameter is not used. These fields are accessed through the *Update Patient Record* option and the protocol Patient Record Update \[PSO PATIENT RECORD UPDATE\]. If the other language preference is indicated for a patient, the user will be prompted to enter OTHER PATIENT INSTRUCTIONS after selecting the PATIENT INSTRUCTIONS field to enter/edit. If a quick code is entered at the OTHER PATIENT INSTRUCTIONS prompt, the expansion entered at the OTHER PATIENT INSTRUCTIONS EXPANSIONS will print on the prescription label.
+Two optional fields, OTHER LANGUAGE PREFERENCE and PMI LANGUAGE PREFERENCE in the PHARMACY PATIENT file, store if a patient has another language preference and if the patient's PMI sheets should print in English or Spanish at the CMOP. The CMOP functionality was requested for future CMOP use. When printing locally from Outpatient Pharmacy this parameter is not used. These fields are accessed through the *Update Patient Record* option and the protocol Patient Record Update \[PSO PATIENT RECORD UPDATE\]. If the other language preference is indicated for a patient, the user will be prompted to enter OTHER PATIENT INSTRUCTIONS after selecting the PATIENT INSTRUCTIONS field to enter/edit. If a quick code is entered at the OTHER PATIENT INSTRUCTIONS prompt, the expansion entered at the OTHER PATIENT INSTRUCTIONS EXPANSIONS will print on the prescription label.
 
 A default value for Days Supply based on patient status is displayed. A default quantity is calculated when possible. See Chapter 2 in the *User Manual - Supplemental* for more information on QUANTITY calculations.
 
@@ -14493,7 +14567,7 @@ WAS THE PATIENT COUNSELED: NO// Y YES
 
 WAS COUNSELING UNDERSTOOD: NO// Y YES
 
-An option to add a progress note has been added. If “Yes” is entered at this prompt, the progress note entry will begin after the order information has been displayed and confirmed. The order is redisplayed, along with information on any service-connected disabilities on record.
+An option to add a progress note has been added. If "Yes" is entered at this prompt, the progress note entry will begin after the order information has been displayed and confirmed. The order is redisplayed, along with information on any service-connected disabilities on record.
 
 Do you want to enter a Progress Note? No// \<Enter\>
 
@@ -14888,7 +14962,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit// 1
 
-Press \<Enter\> twice to scroll to page 3 of the Medication Profile. Notice that a new field displays on the profile: DAW Code. DAW stands for “Dispense as Written “and refers to a set of ten NCPDP codes (0-9) that tells third party payers why a brand or generic product was selected to fill a prescription. When a new prescription is entered for a specific drug, the DAW code from the drug is stored in the PRESCRIPTION file (#52) for each fill. This field is solely being used for electronic billing purposes. It communicates to the third party payer that a drug has a special characteristic, which may prevent the payer from rejecting the claim. The available codes include:
+Press \<Enter\> twice to scroll to page 3 of the Medication Profile. Notice that a new field displays on the profile: DAW Code. DAW stands for "Dispense as Written "and refers to a set of ten NCPDP codes (0-9) that tells third party payers why a brand or generic product was selected to fill a prescription. When a new prescription is entered for a specific drug, the DAW code from the drug is stored in the PRESCRIPTION file (#52) for each fill. This field is solely being used for electronic billing purposes. It communicates to the third party payer that a drug has a special characteristic, which may prevent the payer from rejecting the claim. The available codes include:
 
 | Code | Description                                                    |
 |------|----------------------------------------------------------------|
@@ -15086,7 +15160,7 @@ E PAYABLE × This status refers to the newly created prescription
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a double question mark (??) is entered at the “Select Action" prompt above, the hidden actions below will display in the action area.
+When a double question mark (??) is entered at the "Select Action" prompt above, the hidden actions below will display in the action area.
 
 The following actions are also available:
 
@@ -15114,7 +15188,7 @@ IP Inpat. Profile (OP) \> Shift View to Right
 
 OTH Other OP Actions ADPL Auto Display(On/Off)
 
-> ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/075.png)If the order utilizes the EXCEPT conjunction, copy will no longer be allowed. The message bar will display: Cannot COPY. Invalid ‘except’ conjunction!
+> ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/075.png)If the order utilizes the EXCEPT conjunction, copy will no longer be allowed. The message bar will display: Cannot COPY. Invalid 'except' conjunction!
 
 Copy is a hidden action used to create a new order exactly like the original order. Any field of the new order can be edited. This action does not affect the status of the original order but the duplicate order checks will occur.
 
@@ -15204,7 +15278,7 @@ ED Edit RF (Refill) RN Renew
 
 Select Action: Next Screen//CO CO
 
-After “CO” is entered, the heading on the screen changes to “New OP Order (COPY)” and the available actions are limited to “Accept” or “Edit”.
+After "CO" is entered, the heading on the screen changes to "New OP Order (COPY)" and the available actions are limited to "Accept" or "Edit".
 
 Example: Using the Copy Action (continued)
 
@@ -15480,7 +15554,7 @@ ED Edit RF Refill RN Renew
 
 Select Action: Next Screen// CO CO
 
-Once “Copy” is entered, the heading on the screen changes to “New OP Order (COPY)” and the available actions are limited to “Edit” or “Accept.”
+Once "Copy" is entered, the heading on the screen changes to "New OP Order (COPY)" and the available actions are limited to "Edit" or "Accept."
 
 New OP Order (COPY) Nov 04, 2005@09:24:17 Page: 1 of 2
 
@@ -15696,7 +15770,7 @@ Reversal Accepted
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If a double question mark (??) is entered at the “Select Action” prompt, the hidden actions on the following page will display in the action area.
+If a double question mark (??) is entered at the "Select Action" prompt, the hidden actions on the following page will display in the action area.
 
 The following actions are also available:
 
@@ -15879,7 +15953,7 @@ Users with only the PSO TECH ADV security key can unhold for the following reaso
 
 98 OTHER/TECH (NON-CLINICAL)
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/078.png)If a user does not have a PSORPH security key and tries to unhold a prescription, the message “The HOLD can only be removed by a pharmacist” is displayed.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/078.png)If a user does not have a PSORPH security key and tries to unhold a prescription, the message "The HOLD can only be removed by a pharmacist" is displayed.
 
 Each time a user holds or unholds a prescription, an entry is created in the Activity Log. These entries include HOLD COMMENTS and the HOLD REASON when a prescription is placed on HOLD and UNHOLD COMMENTS when the prescription is removed from HOLD. Again, HOLD reasons 98 and 99 require the user to enter a HOLD comment.
 
@@ -16339,7 +16413,7 @@ Select Action: Quit// SO Select Order
 
 Select Orders by number: (1-2): 2
 
-From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a “REASON FOR FLAG”, alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
+From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a "REASON FOR FLAG", alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
 
 Example: Flagging an Order
 
@@ -16349,7 +16423,7 @@ Send alert to: PSOUSER,ONE// BIRMINGHAM ALABAMA OP PHARMACIST
 
 ... order flagged.
 
-When an order is flagged, “FL-” is placed in front of “Pending OP Orders” in the upper left corner, and the flagged reason is listed below the patient identifying information.
+When an order is flagged, "FL-" is placed in front of "Pending OP Orders" in the upper left corner, and the flagged reason is listed below the patient identifying information.
 
 Example: A Flagged New Pending Order
 
@@ -16453,7 +16527,7 @@ BY Bypass ED Edit
 
 Select Item(s): Next Screen//
 
-To unflag an order, enter FL at the “Select Item(s)” prompt, and then enter your “COMMENTS”. When you press \<Enter\>, the order is no longer flagged.
+To unflag an order, enter FL at the "Select Item(s)" prompt, and then enter your "COMMENTS". When you press \<Enter\>, the order is no longer flagged.
 
 Example: Unflagging an Order
 
@@ -16587,7 +16661,7 @@ Select Item(s): Next Screen// Prescription Renew Jun 12, 2012@14:02:1
 
 After pending orders have been unflagged, they can be processed.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/082.png)If you attempt to process a flagged order and are a user with a PSORPH security key, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged. Users with only the PSO TECH ADV security key cannot unflag an order and will receive the following message when selecting the Accept (AC) action:
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/082.png)If you attempt to process a flagged order and are a user with a PSORPH security key, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged. Users with only the PSO TECH ADV security key cannot unflag an order and will receive the following message when selecting the Accept (AC) action:
 
 \+ Enter ?? for more actions
 
@@ -16605,13 +16679,13 @@ Enter RETURN to continue:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-PSO\*7\*525 added a medication route “short list” and “long list” for selection of a medication route during the order finishing and order entry process. The short list includes only the routes associated with the dosage form for the selected medication in the PHARMACY ORDERABLE ITEM file (#50.7). When entering an outpatient prescription, entering “?” at the Medication Route prompt will display the short list of routes. Entering “??” at the Medication Route prompt will display the long list of routes. The system will allow either partial matches for routes that are found in the short list, or exact full-text matches or abbreviation matches for other routes in the MEDICATION ROUTES file (#51.2).
+PSO\*7\*525 added a medication route "short list" and "long list" for selection of a medication route during the order finishing and order entry process. The short list includes only the routes associated with the dosage form for the selected medication in the PHARMACY ORDERABLE ITEM file (#50.7). When entering an outpatient prescription, entering "?" at the Medication Route prompt will display the short list of routes. Entering "??" at the Medication Route prompt will display the long list of routes. The system will allow either partial matches for routes that are found in the short list, or exact full-text matches or abbreviation matches for other routes in the MEDICATION ROUTES file (#51.2).
 
 Prescriptions may be entered without medication route, such as prescriptions for supplies.
 
 Prior to PSO\*7\*525 if no default med route was defined, the system set the med route to PO or ORAL. This patch removes that automatic PO or ORAL default and leaves the route blank if the prompt is unanswered.
 
-If a route entered does not match any of the defined medication routes, then “??” displays.
+If a route entered does not match any of the defined medication routes, then "??" displays.
 
 Example: Short List for Route
 
@@ -16810,11 +16884,11 @@ Process internet refills for all divisions? NO// \<Enter\> O
 
 Users can process refills for their division or all divisions within a site. However, sites can set parameters in the PHARMACY SYSTEM file for the INTERDIVISIONAL PROCESSING and DIVISION PROMPT ASKED fields that control responses to user input on the Internet Refills Screen. Note that site control parameters override any entries made by the user in the Process Internet Refills screen.
 
-If the INTERDIVISIONAL PROCESSING parameter is set to No, regardless of the user’s input at the “Process internet refills for all divisions?” prompt, only the refills for the user’s division will be filled.
+If the INTERDIVISIONAL PROCESSING parameter is set to No, regardless of the user's input at the "Process internet refills for all divisions?" prompt, only the refills for the user's division will be filled.
 
 If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to No, then the refill orders are processed for all divisions without any additional user input.
 
-If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to Yes, refills for the user’s division will be processed without any additional input. If unprocessed refills outside the user’s division exist, the “Continue?” prompt displays, allowing the user to confirm each refill, as shown in the example below.
+If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to Yes, refills for the user's division will be processed without any additional input. If unprocessed refills outside the user's division exist, the "Continue?" prompt displays, allowing the user to confirm each refill, as shown in the example below.
 
 Example: Process Internet Refills for all Divisions?
 
@@ -16826,11 +16900,11 @@ Qty: 60 Sig: TAKE ONE TABLET BY MOUTH TWICE A DAY
 
 Rx \# \########## is for (ANYTOWN) division.
 
-Continue? N// Y YES × This refill is outside the user’s division.
+Continue? N// Y YES × This refill is outside the user's division.
 
-If the user enters Yes at the “Continue?” prompt, the refill will be processed.
+If the user enters Yes at the "Continue?" prompt, the refill will be processed.
 
-If the user enters No at the “Continue?” prompt, the refill will not process at this time, and the refill request will remain in the PRESCRIPTION REFILL REQUEST file. These refill requests may be processed later by a user in the same division, or any division, depending on the PHARMACY SYSTEM file parameters.
+If the user enters No at the "Continue?" prompt, the refill will not process at this time, and the refill request will remain in the PRESCRIPTION REFILL REQUEST file. These refill requests may be processed later by a user in the same division, or any division, depending on the PHARMACY SYSTEM file parameters.
 
 Refills processed successfully are flagged as FILLED in the RESULTS field of the PRESCRIPTION REFILL REQUEST file. Refills not processed due to conditions such as: Rx Expired, Discontinued, On Hold, Deleted, are flagged as NOT FILLED in the RESULTS field of PRESCRIPTION REFILL REQUEST file.
 
@@ -16844,15 +16918,15 @@ When a clinician has created an order for a patient, the pharmacist then complet
 
 Patient demographics and Clinical Alerts display in the header area when using this option. Refer to [Patient Demographics and Clinical Alerts](#patient-demographics) for more information.
 
-Patch PSO\*7\*505 adds new sort selection ‘SU’, enabling users to select supply item orders separately. This patch also adds new sort selections under the ‘CS’ controlled substances sort. Users may now choose NON-CS+SCHEDUELS III-V, or NON-CS ONLY orders.
+Patch PSO\*7\*505 adds new sort selection 'SU', enabling users to select supply item orders separately. This patch also adds new sort selections under the 'CS' controlled substances sort. Users may now choose NON-CS+SCHEDUELS III-V, or NON-CS ONLY orders.
 
-PSO\*7\*505 also introduces a new secondary sort feature, allowing users to further sort the list of orders that will be presented in option Complete Orders from OERR. After a user has selected a primary sort filter, a prompt will appear asking if the user would like to select a secondary sort filter. If the user answers yes, a new prompt appears for the user to again select from the list of sort selections. This secondary list does not include the item selected as the primary sort filter. For example, if the user chooses to first sort by ‘PA’ (Patient), the ‘PA’ (Patient) sort item will not appear in the secondary list.
+PSO\*7\*505 also introduces a new secondary sort feature, allowing users to further sort the list of orders that will be presented in option Complete Orders from OERR. After a user has selected a primary sort filter, a prompt will appear asking if the user would like to select a secondary sort filter. If the user answers yes, a new prompt appears for the user to again select from the list of sort selections. This secondary list does not include the item selected as the primary sort filter. For example, if the user chooses to first sort by 'PA' (Patient), the 'PA' (Patient) sort item will not appear in the secondary list.
 
 The user may select orders by patient, route, priority, clinic, flag, supply items, or controlled substances. If Clinic is selected, the user may then choose to select by Clinic or Clinic Sort Group. In any sort, orders are completed on a first-in/first-out basis by patient. Clinic Sort Groups can be added or edited in the *Enter/Edit Clinic Sort Groups* option, found under the *Maintenance (Outpatient Pharmacy)* menu option. Orders entered before implementation of patch PSO\*7\*46 (Pharmacy Ordering Enhancements (POE)) must have the fields used to build the Sig filled in before processing can be completed.
 
-If a temporary address has no end date, the following text is now displayed: “(Temp address from XXX 99,9999 till (no end date))”.
+If a temporary address has no end date, the following text is now displayed: "(Temp address from XXX 99,9999 till (no end date))".
 
-For ePharmacy orders, after an order is finished, the billing data is sent to the Electronic Claims Management Engine (ECME). ECME sends a message back to Outpatient Pharmacy displaying the status of the claim. For an example, see “Finishing an ePharmacy Order” in this section.
+For ePharmacy orders, after an order is finished, the billing data is sent to the Electronic Claims Management Engine (ECME). ECME sends a message back to Outpatient Pharmacy displaying the status of the claim. For an example, see "Finishing an ePharmacy Order" in this section.
 
 Example: Finishing an Order from OERR
 
@@ -16910,9 +16984,9 @@ YES SC VETERAN
 
 Do you want to see Medication Profile? Yes//
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/086.png)The user may enter a question mark at the “Select Patient” prompt to view a list of patients with pending orders. A single patient may be selected for processing, or pending orders for all patients may be processed in sequence by the time of each order’s entry into the system.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/086.png)The user may enter a question mark at the "Select Patient" prompt to view a list of patients with pending orders. A single patient may be selected for processing, or pending orders for all patients may be processed in sequence by the time of each order's entry into the system.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/087.png)Flagged orders will not be processed. They are not a part of any pending orders. To process flagged orders, you should enter FL at the “Select By” prompt. This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/087.png)Flagged orders will not be processed. They are not a part of any pending orders. To process flagged orders, you should enter FL at the "Select By" prompt. This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/088.png)After selecting a primary sort filter, the user will be asked if they wish to select a secondary sort filter. The filter chosen in as the primary filter will not appear in the secondary filter list.
 
@@ -16962,15 +17036,15 @@ E EXIT
 
 Select another filter: (RT/PR/CL/FL/CS/SU/C/E): ROUTE//
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/089.png)If the user answers YES to “Do you want to see Medication Profile?” and the patient has remote prescription(s), the following prompt appears.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/089.png)If the user answers YES to "Do you want to see Medication Profile?" and the patient has remote prescription(s), the following prompt appears.
 
 REMOTE PRESCRIPTIONS AVAILABLE!
 
 Display Remote Data? N//
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/090.png)If the user answers YES to “Display Remote Data?” then the “Remote Facilities Visited” screen appears, allowing the user to see what facilities the patient has prescriptions at and what those prescriptions are.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/090.png)If the user answers YES to "Display Remote Data?" then the "Remote Facilities Visited" screen appears, allowing the user to see what facilities the patient has prescriptions at and what those prescriptions are.
 
-After the user answers the medication profile prompt, a warning displays if no allergy assessment has been made. The patient’s eligibility and RX patient status also displays.
+After the user answers the medication profile prompt, a warning displays if no allergy assessment has been made. The patient's eligibility and RX patient status also displays.
 
 Example: Finishing an Order from OERR (continued)
 
@@ -17034,11 +17108,11 @@ ED Edit FN Finish
 
 Select Item(s): Next Screen//// FN Finish
 
-After “Finish” is selected, the user is prompted to fill in any information missing from fields needed to complete the order.
+After "Finish" is selected, the user is prompted to fill in any information missing from fields needed to complete the order.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/091.png)If you attempt to process a flagged order, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/091.png)If you attempt to process a flagged order, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/092.png)If an order is sent from OERR without a Dispense Drug selected, and there is only one Dispense Drug tied to the Orderable Item, that drug will be inserted in the DRUG field (#2 on the screen). If there is more than one Dispense Drug tied to the Orderable Item, a “No Dispense Drug Selected” message will display in the DRUG field (#2 on the screen) and a Dispense Drug must be selected to complete/finish the order.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/092.png)If an order is sent from OERR without a Dispense Drug selected, and there is only one Dispense Drug tied to the Orderable Item, that drug will be inserted in the DRUG field (#2 on the screen). If there is more than one Dispense Drug tied to the Orderable Item, a "No Dispense Drug Selected" message will display in the DRUG field (#2 on the screen) and a Dispense Drug must be selected to complete/finish the order.
 
 The following Drug are available for selection:
 
@@ -17112,7 +17186,7 @@ Press Return to Continue:
 
 Flagging a pending order allows you to prevent an order from processing and attach a note known as a flag to the pending order. Flag/Unflag functionality is only available for Pending new orders and Pending renewals; only holders of the PSORPH security key can flag or unflag an order.
 
-Flagged orders will not be processed. They are not a part of any pending orders. When you have flagged orders to process from the *Complete Orders from OERR* option, you should enter FL at the “Select By” prompt (shown in the following example). This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
+Flagged orders will not be processed. They are not a part of any pending orders. When you have flagged orders to process from the *Complete Orders from OERR* option, you should enter FL at the "Select By" prompt (shown in the following example). This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
 
 The following provides examples of how to flag and unflag pending orders from a medication profile within the *Complete Orders from OERR* option.
 
@@ -17168,7 +17242,7 @@ Select By: (PA/RT/PR/CL/FL/E): PATIENT// FL\<Enter\>
 
 Do you want to see Medication Profile? Yes// \<Enter\>
 
-After answering the “Medication Profile” prompt, a warning displays if no allergy assessment has been made. The patient’s eligibility and RX patient status also displays.
+After answering the "Medication Profile" prompt, a warning displays if no allergy assessment has been made. The patient's eligibility and RX patient status also displays.
 
 OPPATIENT16,ONE 4-3-41 \#########
 
@@ -17220,7 +17294,7 @@ Select Action: Quit// SO Select Order
 
 Select Orders by number: (1-2): 2
 
-From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a “REASON FOR FLAG”, alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
+From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a "REASON FOR FLAG", alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
 
 Example: Flagging an Order
 
@@ -17230,7 +17304,7 @@ Send alert to: PSOUSER,ONE// ANYTOWN ALABAMA OP PHARMACIST
 
 ... order flagged.
 
-When an order is flagged, “FL-” is placed in front of “Pending OP Orders” in the upper left corner, and the flagged reason is listed below the patient identifying information.
+When an order is flagged, "FL-" is placed in front of "Pending OP Orders" in the upper left corner, and the flagged reason is listed below the patient identifying information.
 
 Example: A Flagged Order
 
@@ -17284,7 +17358,7 @@ ED Edit FN Finish
 
 Select Item(s): Next Screen// FL Flag/Unflag
 
-To unflag an order, enter FL at the “Select Item(s)” prompt, and then enter your “COMMENTS”. When you press \<Enter\>, the order is no longer flagged.
+To unflag an order, enter FL at the "Select Item(s)" prompt, and then enter your "COMMENTS". When you press \<Enter\>, the order is no longer flagged.
 
 Example: Unflagging an Order
 
@@ -17354,17 +17428,17 @@ Select Item(s): Next Screen//
 
 After pending orders have been unflagged, they can be processed.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/095.png)If you attempt to process a flagged order, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/095.png)If you attempt to process a flagged order, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
 
 ### Changes to Finishing Pending Orders Process - Digitally Signed Orders Only
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Digitally signed orders will be identifiable by the “Digitally Signed Order’ message in reverse video on the message bar.
+Digitally signed orders will be identifiable by the "Digitally Signed Order' message in reverse video on the message bar.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/096.png)If the terminal in use is set up as a VT-100, there may be problems with this message display and the “Processing Digitally Signed Order” message. Updating the VistA terminal session to use VT-320 will avoid this problem.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/096.png)If the terminal in use is set up as a VT-100, there may be problems with this message display and the "Processing Digitally Signed Order" message. Updating the VistA terminal session to use VT-320 will avoid this problem.
 
-The provider’s PIV/PKI certificate is re-validated when accessing a digitally signed order. If the validation check is unsuccessful, an error code is sent to the pharmacist and an entry is made in the Rx Activity Log. The error code type will result in either the order being automatically rejected/discontinued or the pharmacist being given the choice to finish, bypass, or discontinue the order. Digitally signed prescriptions that have been discontinued cannot be reinstated. The Speed Discontinuation functionality will no longer delete unverified prescriptions.
+The provider's PIV/PKI certificate is re-validated when accessing a digitally signed order. If the validation check is unsuccessful, an error code is sent to the pharmacist and an entry is made in the Rx Activity Log. The error code type will result in either the order being automatically rejected/discontinued or the pharmacist being given the choice to finish, bypass, or discontinue the order. Digitally signed prescriptions that have been discontinued cannot be reinstated. The Speed Discontinuation functionality will no longer delete unverified prescriptions.
 
 ### Finishing an Order from OERR with Multiple Institutions
 
@@ -17552,7 +17626,7 @@ Copay Activity Log:
 
 ======================================================================
 
-There’s NO Copay activity to report
+There's NO Copay activity to report
 
 ECME Log:
 
@@ -17852,7 +17926,7 @@ When a prescription is discontinued, the software checks for any unresolved ECME
 
 When an ePharmacy prescription is discontinued, the software checks for any unreleased fills with a PAYABLE claim. If found, a reversal request is sent to ECME, which forwards it on to the third party payer.
 
-When a pending renewal order is discontinued, Outpatient Pharmacy verifies if there is an active prescription for the same drug. If an active prescription is found, you are prompted with “There is an active Rx for this pending order, Discontinue both (Y/N)?” If you respond YES, both the pending order and the active order are discontinued. If you respond NO, only the pending order is discontinued and the active order is not discontinued.
+When a pending renewal order is discontinued, Outpatient Pharmacy verifies if there is an active prescription for the same drug. If an active prescription is found, you are prompted with "There is an active Rx for this pending order, Discontinue both (Y/N)?" If you respond YES, both the pending order and the active order are discontinued. If you respond NO, only the pending order is discontinued and the active order is not discontinued.
 
 ## Edit Prescriptions
 
@@ -17860,9 +17934,9 @@ When a pending renewal order is discontinued, Outpatient Pharmacy verifies if th
 
 \[PSO EXEDIT\]
 
-This option allows changes to be made to entered orders. Newly entered orders can be edited before release by typing in the corresponding field number. Previously entered orders can be edited by entering the prescription number, then specifying the field to be edited. An asterisk or star (\*) is shown in front of each field that will create a new order if it is changed. See the section “Editing an Order” for an example.
+This option allows changes to be made to entered orders. Newly entered orders can be edited before release by typing in the corresponding field number. Previously entered orders can be edited by entering the prescription number, then specifying the field to be edited. An asterisk or star (\*) is shown in front of each field that will create a new order if it is changed. See the section "Editing an Order" for an example.
 
-When editing fields preceded by an asterisk (\*) in an ePharmacy order (or electronically third party billable prescription), upon acceptance of the edited order the original prescription will be discontinued and a new order created. If the latest fill of the original order has not been released, the claim for that fill will be reversed. A new claim is created for the new prescription. See “Editing an ePharmacy Order” for an example of editing ePharmacy orders.
+When editing fields preceded by an asterisk (\*) in an ePharmacy order (or electronically third party billable prescription), upon acceptance of the edited order the original prescription will be discontinued and a new order created. If the latest fill of the original order has not been released, the claim for that fill will be reversed. A new claim is created for the new prescription. See "Editing an ePharmacy Order" for an example of editing ePharmacy orders.
 
 MAXIMUM DAYS SUPPLY
 
@@ -18224,7 +18298,7 @@ DAYS SUPPLY: (1-365): 90//
 <th>VA Product File</th>
 <th>Local Drug File</th>
 <th>Outpatient Pharmacy<br />
-‘Days Supply’ Prompt</th>
+'Days Supply' Prompt</th>
 </tr>
 </thead>
 <tbody>
@@ -18275,7 +18349,7 @@ The above table displays the MAXIMUM DAYS SUPPLY for files 50.68 and 50, and the
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/098.png)When entering a MAXIMUM DAYS SUPPLY value using the *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\], and the value is greater than the VA Product File value, the following message displays to the user:
 
-> *“Cannot be greater than NDF Maximum Days Supply: \<value\>”*
+> *"Cannot be greater than NDF Maximum Days Supply: \<value\>"*
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/099.png)The MAXIMUM DAYS SUPPLY value in the Local Drug File (#50) should not exceed the MAXIMUM DAYS SUPPLY value in the VA Product File (#50.68).
 
@@ -18290,7 +18364,7 @@ For ePharmacy prescriptions, the DAW/NDC field for discontinued and expired orde
 - 14 - DISCONTINUED BY PROVIDER
 - 15 - DISCONTINUED (EDIT)
 
-These are additional status results from the prescription being discontinued from CPRS. For status 14 - DISCONTINUED BY PROVIDER, the user can choose to discontinue the prescription in CPRS by selecting “Requesting Physician Cancelled” for the reason.
+These are additional status results from the prescription being discontinued from CPRS. For status 14 - DISCONTINUED BY PROVIDER, the user can choose to discontinue the prescription in CPRS by selecting "Requesting Physician Cancelled" for the reason.
 
 The following is an example of the activity log entry stored on the prescription for this type of discontinue:
 
@@ -18733,7 +18807,7 @@ The following menu items allow the user to perform ePharmacy specific functions 
 
 DURs can occur when a third party determines there are safety issues involved with an Rx claim submission, and they can be due to high dose, drug interaction, and excessive utilization. The third party payer returns an NCPDP rejection code of 88 <span id="p251" class="anchor"></span>or 943 to indicate a DUR.
 
-Refill Too Soon rejections happen when a third party payer determines that a prescription is being processed too early compared to the last time the prescription was filled. This can occur for several reasons, including third party payer’s policy differs from VA policy, patient receiving medication at another pharmacy, or the provider may have increased the dosage or frequency of the medication. The third party payer returns an NCPDP rejection code of 79 to indicate a Refill Too Soon.
+Refill Too Soon rejections happen when a third party payer determines that a prescription is being processed too early compared to the last time the prescription was filled. This can occur for several reasons, including third party payer's policy differs from VA policy, patient receiving medication at another pharmacy, or the provider may have increased the dosage or frequency of the medication. The third party payer returns an NCPDP rejection code of 79 to indicate a Refill Too Soon.
 
 Prescriptions rejected as DUR, Reject Resolution Required, and Refill Too Soon are moved to the REFILL TOO SOON/DUR REJECT RESOLUTION REQUIRED (Third Party) section of the Medication Profile. Prescriptions rejected as Reject Resolution Required, TRICARE and CHAMPVA are displayed in the OTHER REJECTS PENDING RESOLUTION section of the Medication Profile. The user must resolve a rejected prescription before other actions such as release, label print, renew, and refill, among others, can be performed on it. Actions may still be taken on these prescriptions through CPRS.
 
@@ -18852,7 +18926,7 @@ TOTAL: 2 Patients.
 
 \[PSO PMP\]
 
-Although the name indicates “ePharmacy Medication Profile”, this option can be used to list the medication profile for any patient on file. It will be used mostly by ePharmacy users for claims research purposes. This functionality is also available from the Reject Worklist through the Medication Profile (MP) action.
+Although the name indicates "ePharmacy Medication Profile", this option can be used to list the medication profile for any patient on file. It will be used mostly by ePharmacy users for claims research purposes. This functionality is also available from the Reject Worklist through the Medication Profile (MP) action.
 
 Example 1: Medication Profile with default view
 
@@ -18920,13 +18994,13 @@ The following options are available as Hidden Menu actions on this screen.
 - RX - Sort by Prescription ID - Sort by Issue Date
 - RDD - Switch between LAST FILL and LAST RELD (release date)
 
-After selecting a prescription on this screen, the *REJ* option is available on the “RX View” screen’s hidden menu. This action displays third party reject information for the prescriptions with third party rejects.
+After selecting a prescription on this screen, the *REJ* option is available on the "RX View" screen's hidden menu. This action displays third party reject information for the prescriptions with third party rejects.
 
 The *CV (Change View)* option allows the user to change some characteristics of the screen above. The user can also save and/or delete preferences, which will be used every time the user runs the *Medication Profile* option or invokes it from the Reject Worklist. The users can have one set of preferences for each Division defined.
 
 Example 2: Change View action
 
-Enter CV at the “Select:” prompt to change the view preferences.
+Enter CV at the "Select:" prompt to change the view preferences.
 
 OPPROVIDER,ONE's current default view (ALBANY):
 
@@ -18964,7 +19038,7 @@ Saving...OK!
 
 Example 3: Display SIG action
 
-Enter SIG at the “Select:” prompt to toggle the Sig display on or off.
+Enter SIG at the "Select:" prompt to toggle the Sig display on or off.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -19492,7 +19566,7 @@ END REJECT DATE: T// \<Enter\> (JUN 07, 2007)
 
 - (P)ATIENT: Selects a single patient, multiple patients, or all patients.
 - (D)RUG: Selects a single drug, multiple drugs, or all drugs.
-- (R)x: Selects single or multiple prescription numbers, or ECME number preceded by “E”.
+- (R)x: Selects single or multiple prescription numbers, or ECME number preceded by "E".
 - (I)NSURANCE: Selects a single insurance, multiple insurances, or all insurances.
 - (C) REJECT CODE: Selects a single reject code, multiple reject codes, or all reject codes.
 
@@ -19585,7 +19659,7 @@ Select: Quit//
 The following options are available on the screen above:
 
 - DR – Sorts the list by the drug name.
-- PA – Sorts the list by the patient’s last name.
+- PA – Sorts the list by the patient's last name.
 - RE – Sorts the list by the reject reason.
 - RF – Refreshes the screen. (This selection retrieves DUR/ REFILL TOO SOON rejects that happened after the screen was originally populated.)
 - RX – Sorts the list by Prescription number.
@@ -19597,7 +19671,7 @@ The following hidden actions are also available (excluding standard ListManager 
 - CVA (Show/Hide CHAMPVA) – Toggle that indicates whether to display or hide CHAMPVA rejections.
 - PSX (Print to Excel) – Allows the current display list of rejection to output in a format that can easily be imported into a spreadsheet.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/103.png)The following two sets of characters denote the order by which the list is being sorted: \[^\] for ascending and \[v\] for descending. The order inverts every time the user selects the same column by which the list is already ordered . Thus, if the list is currently ordered by Patient in ascending order (\[^\]) and the user types “PA”, the list will be re-sorted in descending order and the order indicator will change to (\[v\]).
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/103.png)The following two sets of characters denote the order by which the list is being sorted: \[^\] for ascending and \[v\] for descending. The order inverts every time the user selects the same column by which the list is already ordered . Thus, if the list is currently ordered by Patient in ascending order (\[^\]) and the user types "PA", the list will be re-sorted in descending order and the order indicator will change to (\[v\]).
 
 The user selects a specific record to display all relevant information about the prescription and the claim submitted to the payer.
 
@@ -19658,7 +19732,7 @@ Select: Next Screen// IGN Ignore Reject
 These options are available on the screen above:
 
 - VW (View RX) – Takes the user to the *View Prescription* option to review details for that prescription.
-- MP (Medication Profile) – Invokes the patient’s list of medication.
+- MP (Medication Profile) – Invokes the patient's list of medication.
 - IGN (Ignore Reject) – Allows the user to close or resolve the DUR/REFILL TOO SOON/REJECT RESOLUTION REQUIRED Reject without resubmission to the payer. The user will be required to enter a free-text comment and his/her electronic signature. Comments from Ignored rejects will be displayed in the ECME Reject Log (Activity Log), including when a TRICARE or CHAMPVA non-billable prescription with open pseudo-rejection codes of eT or eC is ignored from the Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action.
 - RES (Resubmit Claim) – Allows the user to re-submit the claim to the payer. This will automatically mark the reject resolved. The RES action can be used to submit a claim for TRICARE and CHAMPVA non-billable prescriptions with open pseudo-rejection codes of eT and eC. The Reject Information screen only displays the RESUBMISSION indicator if the claim was resubmitted from the ECME User Screen.
 - OVR (Submit Override Codes) – Allows the user to re-submit the claim by entering NCPDP override codes, which shall trigger a new claim submission be sent to the payer.
@@ -19827,7 +19901,7 @@ PA Sort by Patient RF Screen Refresh GI Group by Insurance
 The following options are available on the screen above:
 
 - DR – Sorts the list by the drug name.
-- PA – Sorts the list by the patient’s last name.
+- PA – Sorts the list by the patient's last name.
 - RE – Sorts the list by the reject reason.
 - RF – Refreshes the screen. (This selection retrieves DUR/ REFILL TOO SOON rejects that happened after the screen was originally populated.)
 - RX – Sorts the list by Prescription number.
@@ -19892,7 +19966,7 @@ Select: Quit// OVR Submit Override Codes
 These options are available on the screen above:
 
 - VW (View Rx) – Takes the user to the View Prescription option to review details for that prescription.
-- MP (Medication Profile) – Invokes the patient’s list of medication.
+- MP (Medication Profile) – Invokes the patient's list of medication.
 - IGN (Ignore Reject) – Allows the user to close or resolve the DUR/REFILL TOO SOON Reject or the Reject Resolution Required Reject without resubmission to the payer. The user will be required to enter a free-text comment and his/her electronic signature. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action.
 - RES (Resubmit Claim) – Allows the user to re-submit the claim to the payer. This will automatically mark the reject resolved. The RES action can be used to submit a claim for TRICARE and CHAMPVA non-billable prescriptions with open pseudo-rejection codes of eT and eC. The Reject Information screen only displays the RESUBMISSION indicator if the claim was resubmitted from the ECME User Screen.
 - OVR (Submit Override Codes) – Allows the user to re-submit the claim by entering NCPDP override codes, which shall trigger a new claim submission be sent to the payer. This option is active for DUR rejects only.
@@ -19911,9 +19985,9 @@ Hidden Actions:
 - SMA (Submit Multiple Actions) – Allows the user to resubmit a claim with multiple actions.
 - ECS (Edit Claim Submitted) – Allows the user to resubmit a claim with specified NCPDP fields. The user may select a date of service if the prescription is released. The action is available if the claim response was rejected or payable.
 
-When a claim is rejected, typically the Payer returns a “Reason for Service Code”, which becomes the default for the “Reason for Service Code” prompt. The user can use this reason to then select which code is entered for “Professional Service Code” and “Result of Service Code”.
+When a claim is rejected, typically the Payer returns a "Reason for Service Code", which becomes the default for the "Reason for Service Code" prompt. The user can use this reason to then select which code is entered for "Professional Service Code" and "Result of Service Code".
 
-<span id="p270" class="anchor"></span>Available codes for “Professional Service Code” include:
+<span id="p270" class="anchor"></span>Available codes for "Professional Service Code" include:
 
 > <u>Code Description</u>
 
@@ -19969,7 +20043,7 @@ When a claim is rejected, typically the Payer returns a “Reason for Service Co
 
 > ZZ OTHER ACKNOWLEDGEMENT
 
-Available codes for “Result of Service Code” include:
+Available codes for "Result of Service Code" include:
 
 > <u>Code Description</u>
 
@@ -20053,7 +20127,7 @@ Available codes for “Result of Service Code” include:
 
 > 4Q DISPENSE, SEX ASSIGNED AT BIRTH IS INTERSEX
 
-Available codes for “Reason for Service Code” include:
+Available codes for "Reason for Service Code" include:
 
 > <u>Code Description</u>
 
@@ -21353,7 +21427,7 @@ PA Sort by Patient RF Screen Refresh GI Group by Insurance
 
 Select: Quit//
 
-When GI - Group by Insurance action is toggled ON, the headers "TRICARE" and “CHAMPVA” display, and these "TRICARE" and “CHAMPVA” sections sort alphabetically within RTS/DUR insurances. These TRICARE/CHAMPVA sections are separate from the Non-DUR/RTS section that displays at the end of the listing.
+When GI - Group by Insurance action is toggled ON, the headers "TRICARE" and "CHAMPVA" display, and these "TRICARE" and "CHAMPVA" sections sort alphabetically within RTS/DUR insurances. These TRICARE/CHAMPVA sections are separate from the Non-DUR/RTS section that displays at the end of the listing.
 
 Example with GI action toggled on:
 
@@ -21532,7 +21606,7 @@ Processing of TRICARE and CHAMPVA Rejections – TRICARE/CHAMPVA Eligible Bypass
 - A bypass function is provided to allow continued processing of prescriptions for TRICARE and CHAMPVA eligible inpatients who have Environmental Indicators at the time the prescription is issued.
 - Whenever an TRICARE or CHAMPVA inpatient prescription is auto-reversed by the ECME NIGHTLY BACKGROUND JOB, the prescription will be recorded to the TRICARE CHAMPVA Override Report as payment will not be received for this prescription
 
-In the following example a TRICARE patient has Military Sexual Trauma The system displays the Non-Billable Reason “MILITARY SEXUAL TRAUMA” on the screen.
+In the following example a TRICARE patient has Military Sexual Trauma The system displays the Non-Billable Reason "MILITARY SEXUAL TRAUMA" on the screen.
 
 ISSUE DATE: JAN 27,2015// (JAN 27, 2015)
 
@@ -21564,7 +21638,7 @@ MILITARY SEXUAL TRAUMA
 
 Another New Order for OPTRICARE,TWO? YES//
 
-The following is a sample of the View Prescription ECME Log update. The Non-Billable Reason “MILITARY SEXUAL TRAUMA” is now displayed on the View Prescription ECME Log. This allows the system to record why a TRICARE prescription was allowed to be bypassed.
+The following is a sample of the View Prescription ECME Log update. The Non-Billable Reason "MILITARY SEXUAL TRAUMA" is now displayed on the View Prescription ECME Log. This allows the system to record why a TRICARE prescription was allowed to be bypassed.
 
 Example: View Prescription ECME Log entry: TRICARE INPATIENT/DISCHARGE
 
@@ -21595,8 +21669,8 @@ In a similar situation where a prescription is issued to a CHAMPVA patient with 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 - An override function is provided to allow continued processing of prescriptions for TRICARE or CHAMPVA eligible outpatients when a rejected response is received from the TRICARE or CHAMPVA payer/PBM.
-- The Reject Action prompt will default to “Quit”. If the Q (Quit) action is selected, the rejected claim will go to the TRICARE or CHAMPVA section, as appropriate, of the Pharmacy Third Party Payer Rejects – Worklist. If the D (Discontinue) action is selected, the next prompt “Nature of Order” will default to “Service Reject”. The I (Ignore) action is available if the user holds the “PSO TRICARE/CHAMPVA” security key and if selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action.
-- The Reject Action prompt will be updated to a default of “Quit”.
+- The Reject Action prompt will default to "Quit". If the Q (Quit) action is selected, the rejected claim will go to the TRICARE or CHAMPVA section, as appropriate, of the Pharmacy Third Party Payer Rejects – Worklist. If the D (Discontinue) action is selected, the next prompt "Nature of Order" will default to "Service Reject". The I (Ignore) action is available if the user holds the "PSO TRICARE/CHAMPVA" security key and if selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action.
+- The Reject Action prompt will be updated to a default of "Quit".
 
 Example of Reject Notification Screen Non-DUR/RTS with the default action of D (Discontinue)
 
@@ -21688,7 +21762,7 @@ Gross Amount Due is \$67.29. Do you want to continue (Y/N)? NO// y YES
 
 You are bypassing claims processing. Do you wish to continue? NO// y YES
 
-- For Non-Billable TRICARE or CHAMPVA rejects, a Non-Billable Notification Screen is provided to allow continued processing of prescriptions. The Reject Action prompt will default to “Discontinue”. If the action D (Discontinue) is selected, the prompt “Nature of Order” will default to “Service Reject”. The I (Ignore) action is available if the user holds the “PSO TRICARE/CHAMPVA” security key and if it is selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action. If the action Q (Quit) is selected, the Non-Billable TRICARE or CHAMPVA eligible prescription will go to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code “eT” with reject description “TRICARE-NON BILLABLE” or Reject Code “eC” with reject description “CHAMPVA-NON BILLABLE.” (The reject codes “eT” and “eC” are for use internal to the VistA system only and have no relation to any NCPDP reject code listing.) The new entry will be displayed in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
+- For Non-Billable TRICARE or CHAMPVA rejects, a Non-Billable Notification Screen is provided to allow continued processing of prescriptions. The Reject Action prompt will default to "Discontinue". If the action D (Discontinue) is selected, the prompt "Nature of Order" will default to "Service Reject". The I (Ignore) action is available if the user holds the "PSO TRICARE/CHAMPVA" security key and if it is selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action. If the action Q (Quit) is selected, the Non-Billable TRICARE or CHAMPVA eligible prescription will go to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code "eT" with reject description "TRICARE-NON BILLABLE" or Reject Code "eC" with reject description "CHAMPVA-NON BILLABLE." (The reject codes "eT" and "eC" are for use internal to the VistA system only and have no relation to any NCPDP reject code listing.) The new entry will be displayed in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
 
 In the following example a TRICARE Active Duty patient with Outpatient status submits an OTC, Non-Billable drug or supplies prescription for dispensing. The pharmacist will have the option of Discontinuing the Rx, Ignoring the Rx or Quitting. Discontinue is the option displayed below.
 
@@ -21730,7 +21804,7 @@ Nature of Order: SERVICE REJECT//
 
 Requesting PROVIDER: VHAPROVIDER,ONE 111 PHYSICIAN
 
-In the following example, a TRICARE Active Duty patient with Outpatient status submitted an OTC, Non-Billable drug or Supplies prescription for dispensing. The pharmacist selected the Quit option to send the prescription to the worklist for further review. The Non-Billable drug is displayed on the Pharmacy Third Party Payer Rejects – Worklist with a reason code “eT”.
+In the following example, a TRICARE Active Duty patient with Outpatient status submitted an OTC, Non-Billable drug or Supplies prescription for dispensing. The pharmacist selected the Quit option to send the prescription to the worklist for further review. The Non-Billable drug is displayed on the Pharmacy Third Party Payer Rejects – Worklist with a reason code "eT".
 
 Example of Pharmacy Third Party Payer Rejects – Worklist
 
@@ -21785,11 +21859,11 @@ Select: Next Screen//
 - The Non-Billable TRICARE prescriptions will appear on the Reject Information screen shown in the example below once the TRICARE Non-Billable claim has been selected from the Pharmacy Third Party Payer Rejects – Worklist. The screen will display:
 - ECME# field – will be blank.
 - Insurance Information – will be blank.
-- Reject code section will have the reject code eT and status will state “NO CLAIM SUBMITTED”.
+- Reject code section will have the reject code eT and status will state "NO CLAIM SUBMITTED".
 - Available Actions will be DC – Discontinue Rx, VW -View Rx, MP – Medication Profile, FIL – Fill Rx and IGN Ignore Reject (FIL and IGN will require PSO TRICARE/CHAMPVA Security key).
 - Available Hidden Actions will be COM – Add Comments, ED – Edit Rx, VER – View ePharmacy Rx and all other standard List Manager hidden actions.
-- If the action DC is chosen, the system will discontinue the prescription and the prompt “Nature of Order” will default to “SERVICE REJECT”.
-- The following actions will *<u>not</u>* be selectable when processing a TRICARE or CHAMPVA eligible Non-Billable reject: Change Suspense Date (CSD)/Submit Override Codes (OVR)/Submit Clarif Code (CLA)/Submit Prior Auth (PA)/Suspense Date Calculation (SDC)/Submit Mult Actions (SMA). If selected for a TRICARE reject, an error message will appear: “\[action\] not allowed for TRICARE Non-Billable claim”. If selected for a CHAMPVA reject, an error message will appear: “\[action\] not allowed for CHAMPVA Non-Billable claim”. The only actions available are to Discontinue, Fill the prescription, View prescription, Resubmit Claim or Medication Profile.
+- If the action DC is chosen, the system will discontinue the prescription and the prompt "Nature of Order" will default to "SERVICE REJECT".
+- The following actions will *<u>not</u>* be selectable when processing a TRICARE or CHAMPVA eligible Non-Billable reject: Change Suspense Date (CSD)/Submit Override Codes (OVR)/Submit Clarif Code (CLA)/Submit Prior Auth (PA)/Suspense Date Calculation (SDC)/Submit Mult Actions (SMA). If selected for a TRICARE reject, an error message will appear: "\[action\] not allowed for TRICARE Non-Billable claim". If selected for a CHAMPVA reject, an error message will appear: "\[action\] not allowed for CHAMPVA Non-Billable claim". The only actions available are to Discontinue, Fill the prescription, View prescription, Resubmit Claim or Medication Profile.
 
 Example of Non-Billable Reject Information Screen
 
@@ -21891,9 +21965,9 @@ Select Item(s): Next Screen//
 
 <span id="p348" class="anchor"></span>TRICARE/CHAMPVA Without an Active Insurance Policy
 
-- For TRICARE or CHAMPVA rejects without an active TRICARE or CHAMPVA insurance policy on file, a reason of ‘Not Billable’ will be displayed on the Reject Notification Screen. The Reject Action prompt will default to Q (Quit) and reject sent to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code “eT” with reject description “TRICARE-NON BILLABLE” or Reject Code “eC” with reject description “CHAMPVA-NON BILLABLE. The new entry will display in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
+- For TRICARE or CHAMPVA rejects without an active TRICARE or CHAMPVA insurance policy on file, a reason of 'Not Billable' will be displayed on the Reject Notification Screen. The Reject Action prompt will default to Q (Quit) and reject sent to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code "eT" with reject description "TRICARE-NON BILLABLE" or Reject Code "eC" with reject description "CHAMPVA-NON BILLABLE. The new entry will display in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
 
-In the following example, a prescription is processed for a TRICARE patient without an active TRICARE insurance policy on file. The Reject Action prompt defaulted to Q (Quit) and the prescription will be sent to the Pharmacy Third Party Payer Rejects – Worklist with an internal reason code “eT”.
+In the following example, a prescription is processed for a TRICARE patient without an active TRICARE insurance policy on file. The Reject Action prompt defaulted to Q (Quit) and the prescription will be sent to the Pharmacy Third Party Payer Rejects – Worklist with an internal reason code "eT".
 
 Example of TRICARE reject due to an active TRICARE insurance policy is not on file
 
@@ -21931,7 +22005,7 @@ Reject Information Screen – Electronic Signature and TRICARE/CHAMPVA Justifica
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/106.png) This action requires the security key PSO TRICARE/CHAMPVA.
 
-A user must hold the “PSO TRICARE/CHAMPVA” security key to perform the Fill Rx (FIL) and Ignore Reject (IGN) actions on the Third Party Payer Rejects – Worklist and the “Ignore” action on the TRICARE or CHAMPVA Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action. If the user holds the security key “PSO TRICARE/CHAMPVA”, the prompt will display: “You are bypassing claims processing. Do you wish to continue?” If the user enters (No=Default), the user will return to the reject notification screen. If the user selects Yes to continue, the system will mimic the current Ignore action/functionality and allow processing of the prescription. The user will be prompted to enter their electronic signature code and asked to enter data into the TRICARE Justification or CHAMPVA Justification field, which is required. The user will be allowed to “^” out of the process. If the user opts to “^” out of the process, they will be taken back to the Reject Information screen prompt.
+A user must hold the "PSO TRICARE/CHAMPVA" security key to perform the Fill Rx (FIL) and Ignore Reject (IGN) actions on the Third Party Payer Rejects – Worklist and the "Ignore" action on the TRICARE or CHAMPVA Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action. If the user holds the security key "PSO TRICARE/CHAMPVA", the prompt will display: "You are bypassing claims processing. Do you wish to continue?" If the user enters (No=Default), the user will return to the reject notification screen. If the user selects Yes to continue, the system will mimic the current Ignore action/functionality and allow processing of the prescription. The user will be prompted to enter their electronic signature code and asked to enter data into the TRICARE Justification or CHAMPVA Justification field, which is required. The user will be allowed to "^" out of the process. If the user opts to "^" out of the process, they will be taken back to the Reject Information screen prompt.
 
 In the following example a TRICARE patient with Outpatient status submits a prescription for processing and a rejected response is received from the TRICARE payer/PBM. The pharmacist initially sends the prescription to the Third Party Payer Rejects – Worklist then later decides to finish processing the prescription and chooses the FIL action.
 
@@ -21991,7 +22065,7 @@ Enter your Current Signature Code: SIGNATURE VERIFIED
 
 TRICARE Justification: Patient required medication
 
-- If the user does not hold the security key “PSO TRICARE/CHAMPVA”, an on screen alert to the user will display “Action Requires \<PSO TRICARE/CHAMPVA\> security key” as displayed in the below example. The user will need to press any key to return to the Reject Information screen.
+- If the user does not hold the security key "PSO TRICARE/CHAMPVA", an on screen alert to the user will display "Action Requires \<PSO TRICARE/CHAMPVA\> security key" as displayed in the below example. The user will need to press any key to return to the Reject Information screen.
 
 Example of Reject Information Screen – Security Key – ALERT
 
@@ -22107,7 +22181,7 @@ Select LABEL PRINTER: HOME// UCX/TELNET Right Margin: 80//
 
 \[PSO REJECTS WORKLIST\]
 
-Rejects under the OTHER REJECTS section of the screen contain non-clinical rejects and are resolved in the same manner as DUR/RTS rejects. The comments section denotes whether the reject was transferred automatically as is the case in the example below or “Transferred by OPECC” will denote those rejects where the OPECC manually transferred them to pharmacy for resolution.
+Rejects under the OTHER REJECTS section of the screen contain non-clinical rejects and are resolved in the same manner as DUR/RTS rejects. The comments section denotes whether the reject was transferred automatically as is the case in the example below or "Transferred by OPECC" will denote those rejects where the OPECC manually transferred them to pharmacy for resolution.
 
 The following example shows the user selecting to resolve sequence 16 from the Third Party Payer Rejects - Worklist option shown above. The user selects ED to edit the DAW code for the prescription, then resubmits the claim afterward. Since the claim was payable, both the RTS reject in sequence 13 and the DAW reject in sequence 16 were marked resolved. Also both are removed from the worklist after submission. The user then proceeds to Patient Prescription Processing option to view the ECME logs which show that claim resubmission was payable and that both rejects have been resolved.
 
@@ -22627,7 +22701,7 @@ The *View ePharmacy Rx* option allows you to view information for one prescripti
 
 The Bypass 3/4 Day Supply option allows you to enter one or more prescriptions to bypass the 3/4 days supply processing. This option applies to the most current fill for billable prescriptions with third party insurance and the prescription must be on the CMOP Suspense Queue.
 
-- The 3/4 Day Supply bypass will take precedence over a date entered into the Change Suspense Date from the Worklist. If the suspense date is in the future, suspense date will be changed to current date at the time the user sets the Bypass to “YES”.
+- The 3/4 Day Supply bypass will take precedence over a date entered into the Change Suspense Date from the Worklist. If the suspense date is in the future, suspense date will be changed to current date at the time the user sets the Bypass to "YES".
 - Similar to functionality on other ePharmacy screens, entering a prescription twice will remove it from the list. If an invalid prescription is entered, ?? will be displayed.
 
 Example: Option BY Bypass 3/4 Day Supply
@@ -23007,7 +23081,7 @@ Days Supply: 5
 
 -------------------------------------------------------------------------------
 
-In the above example, the line “Processing Status: Transmitted to CMOP on 11/27/09” is bold.
+In the above example, the line "Processing Status: Transmitted to CMOP on 11/27/09" is bold.
 
 ## List One Patient's Archived Rx's
 
@@ -23045,7 +23119,7 @@ Multi-Rx form queued to print
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/109.png)Note: To account for copay billing, insurance billing, and subsequent refill capabilities all sites are asked to print to an OneVA Pharmacy Reports and manually release prescriptions filled by other stations. Recommended frequency of printing report is no less than weekly.
 
-The OneVA Pharmacy OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new menu option for retrieving the OneVA Pharmacy Prescription Reports. The ‘ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]’ menu is located on the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu.
+The OneVA Pharmacy OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new menu option for retrieving the OneVA Pharmacy Prescription Reports. The 'ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]' menu is located on the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu.
 
 There are three new reports available on the menu with self-describing titles. They are:
 
@@ -23637,11 +23711,11 @@ When placing an order for a CS Detoxification drug, the software will now check 
 
 Prior to PSO\*7\*391, the default days supply for all drugs was based on Patient Rx Status. PSO\*7\*391 changes the default for CS schedule II drugs to be set to 30 (or to the current Patient Rx Status if lower than 30). The Integration Control Registration \#3278 that returns day supply (DSUP^PSOSIGDS) is modified to return 30 for CS schedule II drugs.
 
-# Chapter 24: Updating a Patient’s Record
+# Chapter 24: Updating a Patient's Record
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This chapter describes the option used for updating a patient’s record.
+This chapter describes the option used for updating a patient's record.
 
 # Update Patient Record
 
@@ -23649,7 +23723,7 @@ This chapter describes the option used for updating a patient’s record.
 
 \[PSO PAT\]
 
-Use this option to update the patient information currently in the computer. Patient records can also be updated while being viewed by using the *Patient Record Update* screen action. If implementing Other Language Modifications, use either to set a patient’s other language preference.
+Use this option to update the patient information currently in the computer. Patient records can also be updated while being viewed by using the *Patient Record Update* screen action. If implementing Other Language Modifications, use either to set a patient's other language preference.
 
 In support of Registration patch DG\*5.3\*522, the Outpatient Pharmacy software provides for the automatic population of city, state, and county based on entry of a zip code.
 
@@ -23687,7 +23761,7 @@ ALLERGIES:
 
 ADVERSE REACTIONS:
 
-If the PSO site parameter is set to allow editing of patient data, this prompt, “Do you want to update the Permanent address/phone? //N”, is displayed. If the user enters “NO”, then the software will not allow the user to update the permanent address and Bad Address Indicator fields.
+If the PSO site parameter is set to allow editing of patient data, this prompt, "Do you want to update the Permanent address/phone? //N", is displayed. If the user enters "NO", then the software will not allow the user to update the permanent address and Bad Address Indicator fields.
 
 Do you want to update the address/phone? N// Y YES
 
@@ -23731,7 +23805,7 @@ Are you sure that you want to save the above changes? YES
 
 Change saved.
 
-Changes to the permanent address/Bad Address Indicator will not be saved until the prompt “Are you sure that you want to save the above changes?” is answered YES.
+Changes to the permanent address/Bad Address Indicator will not be saved until the prompt "Are you sure that you want to save the above changes?" is answered YES.
 
 Press ENTER to continue:
 
@@ -23809,7 +23883,7 @@ A pharmacist may choose to verify all entries made by a particular technician ra
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/110.png)Prescriptions in a non-verified status cannot be canceled, edited, or deleted through the usual options. If a non-verified prescription is auto canceled on admission, it can be reinstated, but it returns to the non-verified status.
 
-When the VERIFICATION outpatient site parameter is set to ‘No’, a user who does not hold the PSORPH key will not be allowed to finish a pending order.
+When the VERIFICATION outpatient site parameter is set to 'No', a user who does not hold the PSORPH key will not be allowed to finish a pending order.
 
 The *Patient Prescription Processing* \[PSO LM BACKDOOR ORDERS\] and *Complete Orders from OERR* \[PSO LMOE FINISH\] options have been modified to incorporate the above functionality.
 
@@ -24061,11 +24135,11 @@ Order Checks review existing data and current events to produce a relevant messa
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the ^XTMP(“OCXCACHE” global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
+Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the ^XTMP("OCXCACHE" global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
 
 For example, before data caching was implemented, if an order check took 3 seconds to retrieve data from other VISTA packages, and there were 12 order checks, clinicians might wait 36 seconds to sign orders. With data caching, the first order check might take 3 seconds to retrieve the data, but subsequent order checks could use the cache and might take only .03 seconds each. That would be 3.33 seconds compared to 36 seconds. The numbers in this example are for illustration only and do not reflect real system speed. However, data caching should speed up order checks.
 
-To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP(“OCXCACHE” global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer’s prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
+To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP("OCXCACHE" global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer's prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
 
 ## Hash Counts and DEA Certification
 
@@ -24217,13 +24291,13 @@ Three Levels of Error Messages
 </tr>
 <tr class="even">
 <td>System</td>
-<td>“Signatured Failed- Order Auto Discontinued”.</td>
+<td>"Signatured Failed- Order Auto Discontinued".</td>
 <td>Hash Mismatch</td>
 <td>Original digitally signed CS order placed in CPRS is checked to ensure data fields are not altered from the time the order is signed in CPRS and later selected for processing in backdoor pharmacy.</td>
 </tr>
 <tr class="odd">
 <td>System</td>
-<td>“Rx processed: PIV Card Cert Expired - NO ACTION REQ”</td>
+<td>"Rx processed: PIV Card Cert Expired - NO ACTION REQ"</td>
 <td>Validity of the PIV card certificate.</td>
 <td>Kernel API check for the validity of the PIV card certificate. If certificate is revoked or expired, the API will return the appropriate error code.</td>
 </tr>
@@ -24277,7 +24351,7 @@ Medication Guides are paper handouts that come with many prescription medicines.
 
 The system provides users with the location of the FDA Medication Guide for a specific prescription when one is available.
 
-Outpatient Pharmacy provides an option under the OTH hidden action within the Patient Prescription Processing \[PSO LM BACKDOOR\] option, aka ‘Backdoor Pharmacy’, allowing users to retrieve the Medication Guide associated with a prescription similar to the reprint of the PMI. Users may retrieve an FDA Mediation Guide for a specific prescription by invoking the OTH (Other OP Actions) hidden action and selecting the action, MG Display FDA Medication Guide.
+Outpatient Pharmacy provides an option under the OTH hidden action within the Patient Prescription Processing \[PSO LM BACKDOOR\] option, aka 'Backdoor Pharmacy', allowing users to retrieve the Medication Guide associated with a prescription similar to the reprint of the PMI. Users may retrieve an FDA Mediation Guide for a specific prescription by invoking the OTH (Other OP Actions) hidden action and selecting the action, MG Display FDA Medication Guide.
 
 When a VA Product has a Medication Guide Associated:
 
@@ -24399,7 +24473,7 @@ The Outpatient Pharmacy application automatically prints an FDA Medication Guide
 
 When an FDA medication guide is sent to the printer, information is included in the footer of the document to identify the Patient, the Rx# and the date it was printed.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/113.png)The system indicates when an associated medication guide exists on the prescription label printout. The printout contains the following statement on the same line where Additional Warnings appear: “Read FDA MED Guide.”
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/113.png)The system indicates when an associated medication guide exists on the prescription label printout. The printout contains the following statement on the same line where Additional Warnings appear: "Read FDA MED Guide."
 
 ### Site Parameters
 
@@ -24571,7 +24645,7 @@ Select FDA MED GUIDE PRINTER:
 
 \[PSO LM BACKDOOR ORDERS\]
 
-The system allows the user to reprint the associated FDA Medication Guide for a given prescription fill (or the latest FDA Medication Guide available for the medication on the prescription when reprinting a prescription label) and for prescription fills sent to CMOP by invoking the RM action under the OTH (Other OP Actions) after selecting a specific prescription in Backdoor Pharmacy, as seen below. The system prompts the user whether to reprint a medication guide, if an FDA Medication Guide is associated with a Prescription, when reprinting a label. The Default is set to ‘NO’.
+The system allows the user to reprint the associated FDA Medication Guide for a given prescription fill (or the latest FDA Medication Guide available for the medication on the prescription when reprinting a prescription label) and for prescription fills sent to CMOP by invoking the RM action under the OTH (Other OP Actions) after selecting a specific prescription in Backdoor Pharmacy, as seen below. The system prompts the user whether to reprint a medication guide, if an FDA Medication Guide is associated with a Prescription, when reprinting a label. The Default is set to 'NO'.
 
 Example 4: Drug Not matched to National Drug File
 
@@ -24819,7 +24893,7 @@ Automated-dispensing systems such as Optfill also perform the prescription label
 
 To turn the FDA Medication Guide automatic printing functionality OFF or to not turn it ON for a specific pharmacy division, make sure the FDA MED GUIDE PRINT SERVER URL field has no value. This field can be edited via the Site Parameter Enter/Edit \[PSO SITE PARAMETERS\] option, as shown below.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/114.png)Whether the functionality is being turned ON or OFF, the prescription label printed from VistA will still include the note “Read FDA Med Guide” when one is associated with the medication being dispensed.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/114.png)Whether the functionality is being turned ON or OFF, the prescription label printed from VistA will still include the note "Read FDA Med Guide" when one is associated with the medication being dispensed.
 
 Example 10: Updating the FDA Med Guide Print Server URL Field
 
@@ -24901,7 +24975,7 @@ FDA MED GUIDE PRINT SERVER URL: × Make sure this field is blank (no value).
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A security key is a unique entry in the Security Key file (^DIC(19.1,) which may prevent access to a specific option or action by including the key as part of the option’s entry in the Option file (^DIC(19,). Only users entered in the Holder field of the Security Key file may access the option or action.
+A security key is a unique entry in the Security Key file (^DIC(19.1,) which may prevent access to a specific option or action by including the key as part of the option's entry in the Option file (^DIC(19,). Only users entered in the Holder field of the Security Key file may access the option or action.
 
 ## Security Keys
 
@@ -24935,7 +25009,7 @@ PSO\*7\*421 added the PSO EPHARMACY SITE MANAGER security key for use of changin
 
 Revision History
 
-Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <table>
 <caption><p><span id="_Toc466980799" class="anchor"></span>Table 17: OneVA Pharmacy Support Entities</p></caption>
@@ -24980,7 +25054,7 @@ Each time this manual is updated, the Title Page lists the new revised date and 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The purpose of the OneVA Pharmacy User Manual is to describe the new capability that will allow a Pharmacist from any VA Pharmacy location to refill or partial a patient’s prescription that originated from another VA Pharmacy location, contingent on the host site status where the prescription originated.
+The purpose of the OneVA Pharmacy User Manual is to describe the new capability that will allow a Pharmacist from any VA Pharmacy location to refill or partial a patient's prescription that originated from another VA Pharmacy location, contingent on the host site status where the prescription originated.
 
 In addition, this User Manual will provide instructions on how to obtain the details of the prescriptions dispensed by another VA Pharmacy location by introducing the new OneVA Pharmacy report menu.
 
@@ -24994,20 +25068,20 @@ Lastly, Frequently Asked Questions (FAQs) are addressed regarding the new OneVA 
 
 The OneVA Pharmacy User Manual contains the following sections:
 
-- ‘Introduction’ section that includes the assumed experience and skill level a user will have in order to use the software patch and provides the specifics related to the support of the software. This section also lists the references, resources, documentation conventions, disclaimers, and the organization of the manual.
-- ‘System Summary’ section that includes the system configuration steps necessary to turn on the OneVA Pharmacy software and the data flow diagrams for the View Orders, Dispense Order from another VA Pharmacy Location, and OneVA Pharmacy Prescription Report Use Cases. This section also lists specific messages for the user regarding continuity of operation.
-- ‘Getting Started’ section provides the overview of logging into the system, introduces the system menu, and lists the caveats and exceptions for this software patch.
-- ‘Using the Software’ section provides the detailed steps for using the OneVA Pharmacy capability within both the ‘PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]’ and the ‘ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]’ menus.
-- ‘Troubleshooting’ section includes common system messages and actions to take if a significant error occurs.
-- ‘Acronyms and Abbreviation’ section lists all acronyms and abbreviations used throughout this document.
-- ‘Appendix’ details the Frequently Asked Questions (FAQs) associated with the new capabilities and provides the programs limitations.
+- 'Introduction' section that includes the assumed experience and skill level a user will have in order to use the software patch and provides the specifics related to the support of the software. This section also lists the references, resources, documentation conventions, disclaimers, and the organization of the manual.
+- 'System Summary' section that includes the system configuration steps necessary to turn on the OneVA Pharmacy software and the data flow diagrams for the View Orders, Dispense Order from another VA Pharmacy Location, and OneVA Pharmacy Prescription Report Use Cases. This section also lists specific messages for the user regarding continuity of operation.
+- 'Getting Started' section provides the overview of logging into the system, introduces the system menu, and lists the caveats and exceptions for this software patch.
+- 'Using the Software' section provides the detailed steps for using the OneVA Pharmacy capability within both the 'PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]' and the 'ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]' menus.
+- 'Troubleshooting' section includes common system messages and actions to take if a significant error occurs.
+- 'Acronyms and Abbreviation' section lists all acronyms and abbreviations used throughout this document.
+- 'Appendix' details the Frequently Asked Questions (FAQs) associated with the new capabilities and provides the programs limitations.
 
 #### Assumptions
 
 The OneVA Pharmacy User Manual assumes the user has the following experience/skills:
 
 - User has basic knowledge of the Veterans Health Information Systems and Technology Architecture (VistA) system (such as the use of commands, menu options, and navigation tools).
-- User has access to the ‘Rx (PRESCRIPTIONS) \[PSO RX\]’ menu within VistA and holds appropriate security keys for their user role, such as PSORPH, to identify the user as a Pharmacist.
+- User has access to the 'Rx (PRESCRIPTIONS) \[PSO RX\]' menu within VistA and holds appropriate security keys for their user role, such as PSORPH, to identify the user as a Pharmacist.
 - User has completed any prerequisite training.
 
 #### Coordination
@@ -25083,7 +25157,7 @@ OneVA Pharmacy software provides the Department of Veterans Health Administratio
 
 OneVA Pharmacy software provides a foundation to build and extend new capabilities to the Veteran.
 
-Patch PSO\*7.0\*454 is being released to enhance VistA’s “Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]” menu (found within the VistA Pharmacy Outpatient Pharmacy package). The OneVA Pharmacy patch will allow the Pharmacist to query for and refill patient’s active and refillable prescriptions from other VA Pharmacy VistA instances.
+Patch PSO\*7.0\*454 is being released to enhance VistA's "Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]" menu (found within the VistA Pharmacy Outpatient Pharmacy package). The OneVA Pharmacy patch will allow the Pharmacist to query for and refill patient's active and refillable prescriptions from other VA Pharmacy VistA instances.
 
 The overall OneVA Pharmacy software design has several components. They are:
 
@@ -25092,11 +25166,11 @@ The overall OneVA Pharmacy software design has several components. They are:
 3.  Enterprise Messaging Infrastructure (eMI) Enterprise Service Bus (ESB)
 4.  Health Data Repository/Clinical Data Service (HDR/CDS) Repository
 
-VistA is the user interface where a pharmacist uses the “Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]” menu (found within the VistA Pharmacy Outpatient Pharmacy package) to query for and refill patient’s active and refillable prescriptions from other VA Pharmacy VistA instances. Patch PSO\*7.0\*454 uses Health Level 7 (HL7) messaging to query and receive remote prescription details to and from the Health Data Repository/Clinical Data Services (HDR/CDS) Oracle Repository.
+VistA is the user interface where a pharmacist uses the "Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]" menu (found within the VistA Pharmacy Outpatient Pharmacy package) to query for and refill patient's active and refillable prescriptions from other VA Pharmacy VistA instances. Patch PSO\*7.0\*454 uses Health Level 7 (HL7) messaging to query and receive remote prescription details to and from the Health Data Repository/Clinical Data Services (HDR/CDS) Oracle Repository.
 
-The VistA instance where the Veteran is requesting the refill or partial is considered the ‘dispensing’ VistA instance. This patch allows a Pharmacist, using a ‘dispensing’ VistA instance, to refill or partial prescription that originated from another VA Pharmacy VistA instance and print a prescription label. The VA Pharmacy VistA instance where the prescription originated and currently exists is the ‘host’ VistA instance. The host VistA instance is where the update to the prescription record is made once the fill is processed. The label data elements are extracted from the host VistA instance and returned to the dispensing site via HL7 creating the OneVA Pharmacy label. The bar code on the label will be valid at the host site but not at the dispensing site.
+The VistA instance where the Veteran is requesting the refill or partial is considered the 'dispensing' VistA instance. This patch allows a Pharmacist, using a 'dispensing' VistA instance, to refill or partial prescription that originated from another VA Pharmacy VistA instance and print a prescription label. The VA Pharmacy VistA instance where the prescription originated and currently exists is the 'host' VistA instance. The host VistA instance is where the update to the prescription record is made once the fill is processed. The label data elements are extracted from the host VistA instance and returned to the dispensing site via HL7 creating the OneVA Pharmacy label. The bar code on the label will be valid at the host site but not at the dispensing site.
 
-The OneVA Pharmacy patch sends the HL7 query message through the Enterprise Service Bus (ESB) Enterprise Messaging Services (eMI). eMI executes a Web Service call to query the HDR/CDS Repository for specific medication information obtained from all VA Pharmacy’s VistA sites. The eMI configuration contains filtering processes that applies specific business rules against the HDR/CDS Web Service call to return the appropriate prescriptions to the dispensing VistA. VistA and eMI communicate using HL7 v2.5.1 over Minimal Layer Protocol (MLLP). Communication to the HDR/CDS Repository takes place via Simple Object Access Protocol (SOAP) Web Services.
+The OneVA Pharmacy patch sends the HL7 query message through the Enterprise Service Bus (ESB) Enterprise Messaging Services (eMI). eMI executes a Web Service call to query the HDR/CDS Repository for specific medication information obtained from all VA Pharmacy's VistA sites. The eMI configuration contains filtering processes that applies specific business rules against the HDR/CDS Web Service call to return the appropriate prescriptions to the dispensing VistA. VistA and eMI communicate using HL7 v2.5.1 over Minimal Layer Protocol (MLLP). Communication to the HDR/CDS Repository takes place via Simple Object Access Protocol (SOAP) Web Services.
 
 The medication data elements return to the dispensing site via HL7 messaging. Once the prescriptions arrive at the dispensing site, they display below any 'local' prescriptions on the Medication Profile view. The prescriptions displayed to the Pharmacist sort by VA Pharmacy site and status. The dispensing Pharmacist can view the remote prescriptions and select one to refill or partially fill. For label printing, VistA triggers the HL7 message stream that executes during the refill or partial fill prescription processes. The host label data elements are returned to the dispensing site within the HL7 segment. The event triggers the Pharmacist to select the dispensing sites printing device to print a host label.
 
@@ -25104,25 +25178,25 @@ The medication data elements return to the dispensing site via HL7 messaging. On
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To use OneVA Pharmacy, the user turns on the ‘ONEVA PHARMACY FLAG (#101)’. The 'ONEVA PHARMACY FLAG (#101)’ is located on the ‘PHARMACY SYSTEM File (#59.7)’ file. This field will allow each division to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field by using ‘FILEMAN \[FM\]’ and editing the 'ONEVA PHARMACY FLAG (#101)’ field. The software patch delivers the ‘ONEVA PHARMACY FLAG (#101)’ in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG (#101)’ set to the 'on' state.
+To use OneVA Pharmacy, the user turns on the 'ONEVA PHARMACY FLAG (#101)'. The 'ONEVA PHARMACY FLAG (#101)' is located on the 'PHARMACY SYSTEM File (#59.7)' file. This field will allow each division to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field by using 'FILEMAN \[FM\]' and editing the 'ONEVA PHARMACY FLAG (#101)' field. The software patch delivers the 'ONEVA PHARMACY FLAG (#101)' in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG (#101)' set to the 'on' state.
 
 ### Host Site OneVA Pharmacy Flag Not Set On Message
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If the ‘ONEVA PHARMACY FLAG (#101)’ is not set to the ‘on’ state at the host site, the dispensing site will receive the following message:
+If the 'ONEVA PHARMACY FLAG (#101)' is not set to the 'on' state at the host site, the dispensing site will receive the following message:
 
-The OneVA Pharmacy flag is turned ‘OFF’ at this facility. Unable to process refill/partial fill requests. Queries will NOT be made to other VA Pharmacy locations.
+The OneVA Pharmacy flag is turned 'OFF' at this facility. Unable to process refill/partial fill requests. Queries will NOT be made to other VA Pharmacy locations.
 
 ### Pharmacy System Parameters Edit
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/118.png)DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the “off” position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/118.png)DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the "off" position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.
 
-To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the ‘VA FILEMAN \[DIUSER\]’ utility and perform the following steps.
+To turn on the 'ONEVA PHARMACY FLAG (#101)' for all the divisions, use the 'VA FILEMAN \[DIUSER\]' utility and perform the following steps.
 
-To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the ‘VA FILEMAN \[DIUSER\]’ utility and perform the following steps.
+To turn on the 'ONEVA PHARMACY FLAG (#101)' for all the divisions, use the 'VA FILEMAN \[DIUSER\]' utility and perform the following steps.
 
 1.  Sign-in to the VistA system and select the menu option: VA FILEMAN \[DIUSER\].
 
@@ -25148,23 +25222,23 @@ To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the �
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/122.png)
 
-> The system displays the option name and the prompt for the ‘INPUT TO WHAT FILE’, as displayed in the following image.
+> The system displays the option name and the prompt for the 'INPUT TO WHAT FILE', as displayed in the following image.
 
 <span id="_Toc103938416" class="anchor"></span>Figure : OneVA Pharmacy Flag: Input to What File Prompt
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/123.png)
 
-4.  Enter \<59\> for the ‘PHARMACY SYSTEM File (#59.7)’ file and press \<ENTER\>.
+4.  Enter \<59\> for the 'PHARMACY SYSTEM File (#59.7)' file and press \<ENTER\>.
 
-> The system displays the option name and the prompt for the ‘EDIT WHICH FILE’, as displayed in the following image.
+> The system displays the option name and the prompt for the 'EDIT WHICH FILE', as displayed in the following image.
 
 <span id="_Toc103938417" class="anchor"></span>Figure : OneVA Pharmacy Flag: Edit Which Filed Prompt
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/124.png)
 
-5.  Enter \<3001\> for the ‘ONEVA PHARMACY FLAG (#101)’ field and press \<ENTER\>.
+5.  Enter \<3001\> for the 'ONEVA PHARMACY FLAG (#101)' field and press \<ENTER\>.
 
-> The system displays the option name and the prompt for the ‘THEN EDIT FIELD’, as displayed in the following image.
+> The system displays the option name and the prompt for the 'THEN EDIT FIELD', as displayed in the following image.
 
 <span id="_Toc103938418" class="anchor"></span>Figure : OneVA Pharmacy Flag: Then Edit Field Prompt
 
@@ -25172,7 +25246,7 @@ To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the �
 
 6.  Press \<ENTER\>.
 
-> The system displays the option name and the prompt for the specific ‘OUTPATIENT SITE NAME’, as displayed in the following image.
+> The system displays the option name and the prompt for the specific 'OUTPATIENT SITE NAME', as displayed in the following image.
 
 <span id="_Toc103938419" class="anchor"></span>Figure : OneVA Pharmacy Flag: Select OUTPATIENT SITE NAME Prompt
 
@@ -25184,7 +25258,7 @@ To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the �
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/127.png)
 
-> The system displays the option name and the prompt for the specific ‘EDIT ENTRIES BY: NAME//’, as displayed in the following image.
+> The system displays the option name and the prompt for the specific 'EDIT ENTRIES BY: NAME//', as displayed in the following image.
 
 <span id="_Toc103938421" class="anchor"></span>Figure : OneVA Pharmacy Flag: Edit Entries by: NAME// Prompt
 
@@ -25192,13 +25266,13 @@ To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the �
 
 8.  Press \<ENTER\>.
 
-> The system displays the option name and the prompt for the specific ‘START WITH NAME: FIRST//’, as displayed in the following image.
+> The system displays the option name and the prompt for the specific 'START WITH NAME: FIRST//', as displayed in the following image.
 
 <span id="_Toc103938422" class="anchor"></span>Figure : OneVA Pharmacy Flag: Start with Name Prompt
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/129.png)
 
-> The ‘^LOOP’ command causes the system to display each division, one by one, allowing the user to set the ‘ON’ option for the ‘ONEVA PHARMACY FLAG’ for each division. After pressing the return key, the next division will display until the ‘LOOP ENDED!’ message displays.
+> The '^LOOP' command causes the system to display each division, one by one, allowing the user to set the 'ON' option for the 'ONEVA PHARMACY FLAG' for each division. After pressing the return key, the next division will display until the 'LOOP ENDED!' message displays.
 
 9.  Enter \<ON\> for each division press \<ENTER\> as displayed in the example for a test VistA instance in the following image.
 
@@ -25214,11 +25288,11 @@ To turn on the ‘ONEVA PHARMACY FLAG (#101)’ for all the divisions, use the �
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When the Pharmacist enters a request to display the Medication Profile view from a dispensing VistA instance, a query message is sent to eMI. eMI will harvest the necessary information to send a request to the HDR/CDS Repository for the patient’s prescriptions. The response is transformed into another message that contains the patient’s prescription data. The patient’s prescription data is returned to the dispensing VistA instance and displayed on the Medication Profile screen on VistA. This process is refered to as the OneVA Pharmacy View Orders Use Case.
+When the Pharmacist enters a request to display the Medication Profile view from a dispensing VistA instance, a query message is sent to eMI. eMI will harvest the necessary information to send a request to the HDR/CDS Repository for the patient's prescriptions. The response is transformed into another message that contains the patient's prescription data. The patient's prescription data is returned to the dispensing VistA instance and displayed on the Medication Profile screen on VistA. This process is refered to as the OneVA Pharmacy View Orders Use Case.
 
-The ‘View Orders’ Use Case describes the process for users to view all of a patient’s active, suspended, on hold, discontinued, or expired prescription orders. This process allows a user to view prescription order information in one place whether the order originated from a dispensing or host VistA instance.
+The 'View Orders' Use Case describes the process for users to view all of a patient's active, suspended, on hold, discontinued, or expired prescription orders. This process allows a user to view prescription order information in one place whether the order originated from a dispensing or host VistA instance.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/131.png) The OneVA Pharmacy’s feature to query the HDR/CDS Repository (step 2 in the flow of events) will not execute if the patient has not been treated at more than one VA Medical Center.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/131.png) The OneVA Pharmacy's feature to query the HDR/CDS Repository (step 2 in the flow of events) will not execute if the patient has not been treated at more than one VA Medical Center.
 
 Actors
 
@@ -25231,13 +25305,13 @@ Pre-Conditions
 
 - Patient must have an Integration Control Number (ICN)
 - Patient must have information populated in the system
-- User must have accessed the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.).
+- User must have accessed the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.).
 
 Flow of Events
 
 1.  User enters the Medication Profile view.
 2.  The dispensing VistA instance will retrieve the prescriptions from HDR/CDS Repository.
-3.  The dispensing VistA instance will send a request via the eMI ESB to the HDR/CDS Repository with the patient identifiers to retrieve the prescriptions with a status of ‘Suspended’, ‘Active’, ‘Hold’, “Discontinued (within the past 120 days)” or “Expired (within the past 120 days)” from all previous treatment facilities *excluding* local facility.
+3.  The dispensing VistA instance will send a request via the eMI ESB to the HDR/CDS Repository with the patient identifiers to retrieve the prescriptions with a status of 'Suspended', 'Active', 'Hold', "Discontinued (within the past 120 days)" or "Expired (within the past 120 days)" from all previous treatment facilities *excluding* local facility.
 4.  The eMI ESB will exclude the Clinical Data Health Care Repository/Department of Defense (CHDR/DoD) prescriptions that are available in the HDR/CDS Repository for active dual patients.
 
 Exceptions
@@ -25265,9 +25339,9 @@ System Message
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a Pharmacist selects a prescription from the Medication Profile screen on a dispensing VistA instance (to refill a prescription for a Veteran visiting this location), an HL7 ‘Pharmacy Treatment Dispense’ message transmits via eMI. eMI will receive the request, determine the destination facility, and forward the message to the host VistA instance. The host VistA instance will process the message, decrement the number of refills remaining, update the last fill date, and if a partial request, update the partial information. The host VistA will create an HL7 message (Prescription Refill/Partial Services Response) which contains the prescription label information. eMI will route the HL7 message back to the dispensing VistA instance, displaying the completion of the transaction to the Pharmacist on the screen. The Medication Profile view refreshes by executing the View Order Use Case again. The refilling or partial filling of a prescription order is referred to as the OneVA Pharmacy Dispense Order from another VA Pharmacy Location Use Case.
+When a Pharmacist selects a prescription from the Medication Profile screen on a dispensing VistA instance (to refill a prescription for a Veteran visiting this location), an HL7 'Pharmacy Treatment Dispense' message transmits via eMI. eMI will receive the request, determine the destination facility, and forward the message to the host VistA instance. The host VistA instance will process the message, decrement the number of refills remaining, update the last fill date, and if a partial request, update the partial information. The host VistA will create an HL7 message (Prescription Refill/Partial Services Response) which contains the prescription label information. eMI will route the HL7 message back to the dispensing VistA instance, displaying the completion of the transaction to the Pharmacist on the screen. The Medication Profile view refreshes by executing the View Order Use Case again. The refilling or partial filling of a prescription order is referred to as the OneVA Pharmacy Dispense Order from another VA Pharmacy Location Use Case.
 
-The ‘Dispense another VA Pharmacy Order’ Use Case describes the process for users to dispense an order that originated from another VA Pharmacy location. Once the user executes the View Order Use Case, the user can select an active prescription from the Medication Profile view that originated in another VA Pharmacy VistA instance to dispense. After selecting the prescription and executing the fill order request, the system will send a message to the originating host VistA instance. This request will decrement the prescription count, but will not affect the inventory of the host facility. When the decrement is successful, communication is made back to the dispensing VistA instance to complete the process and to print a prescription label.
+The 'Dispense another VA Pharmacy Order' Use Case describes the process for users to dispense an order that originated from another VA Pharmacy location. Once the user executes the View Order Use Case, the user can select an active prescription from the Medication Profile view that originated in another VA Pharmacy VistA instance to dispense. After selecting the prescription and executing the fill order request, the system will send a message to the originating host VistA instance. This request will decrement the prescription count, but will not affect the inventory of the host facility. When the decrement is successful, communication is made back to the dispensing VistA instance to complete the process and to print a prescription label.
 
 Actors
 
@@ -25281,12 +25355,12 @@ Pre-Conditions
 - Patient must have an ICN.
 - Patient must have information populated in the system
 - Dispensing VistA instance has the required amount of prescribed medication inventory on-hand.
-- User must have accessed the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.)
+- User must have accessed the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.)
 
 Flow of Events
 
 1.  User selects a prescription that originated from another VA Pharmacy VistA instance and RF (Refill) from the Medication Profile view.
-2.  The prescription must be in ‘Active’ status.
+2.  The prescription must be in 'Active' status.
 3.  The dispensing VistA instance will send a refill order request to the eMI ESB.
 4.  The eMI ESB will route the refill order request to the host VistA instance.
 5.  The host VistA will conduct order checks.
@@ -25299,7 +25373,7 @@ The dispensing VistA instance will print the label to the dispensing location pr
 Alternate Flow
 
 1.  User selects a prescription that originated from another VA Pharmacy VistA instance and PF (Partial fill) from the Medication Profile view.
-2.  The prescription must be in ‘Active’ status.
+2.  The prescription must be in 'Active' status.
 3.  The dispensing VistA instance will send a partial fill order request to the eMI ESB.
 4.  The eMI ESB will send a partial fill order request to the host VistA instance.
 5.  The host VistA will conduct order checks.
@@ -25310,7 +25384,7 @@ Alternate Flow
 
 Exceptions
 
-- Status is not ‘Active’
+- Status is not 'Active'
 - 3a. eMI ESB is not accessible.
 - 4a. The host VistA is not accessible
 - 4b. The prescription is a controlled substance
@@ -25339,7 +25413,7 @@ System Message
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The ‘OneVA Pharmacy Prescription Report’ Use Case allows the user to access reports related to the orders created from the OneVA Pharmacy process. Once the user executes the OneVA Pharmacy Prescription Report Use Case, the user can generate three different reports. The reports allow the user to view prescriptions filled by another VA Pharmacy location or what other VA Pharmacy locations filled prescriptions for a targeted facility.
+The 'OneVA Pharmacy Prescription Report' Use Case allows the user to access reports related to the orders created from the OneVA Pharmacy process. Once the user executes the OneVA Pharmacy Prescription Report Use Case, the user can generate three different reports. The reports allow the user to view prescriptions filled by another VA Pharmacy location or what other VA Pharmacy locations filled prescriptions for a targeted facility.
 
 Actors
 
@@ -25349,20 +25423,20 @@ Actors
 Pre-Conditions
 
 - User has accessed the OneVA Pharmacy Prescription Report \[PSO REMOTE RX REPORT\] menu
-- User must have accessed the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.)
+- User must have accessed the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.)
 
 Flow of Events
 
-1.  User selects a report option from the ‘OneVA Pharmacy Prescription Report’ menu.
-1.  User selects ‘Prescriptions we have filled for other facilities’ report.
-2.  User selects ‘Our prescriptions, filled by other facilities’ report.
-3.  User selects ‘All activity for Other VA Pharmacy locations’ report
-2.  User selects ‘D’ – ‘Date Range’ or go to step 3 or step 4
+1.  User selects a report option from the 'OneVA Pharmacy Prescription Report' menu.
+1.  User selects 'Prescriptions we have filled for other facilities' report.
+2.  User selects 'Our prescriptions, filled by other facilities' report.
+3.  User selects 'All activity for Other VA Pharmacy locations' report
+2.  User selects 'D' – 'Date Range' or go to step 3 or step 4
 1.  User enters start date.
 2.  User enters end date.
-3.  User selects ‘P’ - ‘Patient’ or go to step 4.
+3.  User selects 'P' - 'Patient' or go to step 4.
 1.  User enters Patient Name
-4.  User selects ‘S’ - ‘Site’.
+4.  User selects 'S' - 'Site'.
 1.  User enters Institution Name.
 
 Alternate Flow
@@ -25381,7 +25455,7 @@ N/A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To access the OneVA Pharmacy software the user must have access to the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.).
+To access the OneVA Pharmacy software the user must have access to the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu within VistA and hold the appropriate security keys for their user role, such as PSORPH to identify the user as a Pharmacist. (No separate Security Key required.).
 
 ## Continuity of Operation
 
@@ -25391,7 +25465,7 @@ To access the OneVA Pharmacy software the user must have access to the ‘RX (PR
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The OneVA Pharmacy software uses a new service call to the HDR/CDS Repository each time the Medication Profile view activates via the ‘PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]’ menu. This new service call activates if the patient has been treated at more than one VA Medical Center. This additional service call retrieves all prescriptions associated with the patient from the repository, which requires additional time. In order to execute the query to the HDR/CDS Repository, the user must answer ‘YES’ to the ‘Would you like to query prescriptions from other OneVA Pharmacy locations?’ prompt and displayed in the following image.
+The OneVA Pharmacy software uses a new service call to the HDR/CDS Repository each time the Medication Profile view activates via the 'PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]' menu. This new service call activates if the patient has been treated at more than one VA Medical Center. This additional service call retrieves all prescriptions associated with the patient from the repository, which requires additional time. In order to execute the query to the HDR/CDS Repository, the user must answer 'YES' to the 'Would you like to query prescriptions from other OneVA Pharmacy locations?' prompt and displayed in the following image.
 
 Query Prescription from other OneVA Pharmacy Locations Prompt
 
@@ -25405,9 +25479,9 @@ OneVA Pharmacy Checking for Prescriptions Message
 
 Please wait. Checking for prescriptions at other VA Pharmacy locations. This may take a moment…
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/132.png) The OneVA Pharmacy’s feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the ‘TREATING FACILITY LIST (#391.91)’. Prior to validating the ‘TREATING FACILITY LIST’ entries, the process filters on the following list of valid facility types: VAMC, M&ROC, M&ROC(M&RO), OC, OPC, CBOC, PRRTP, DOM, HCS, MC(M), MC(M&D), MORC, NHC, VANPH, SOC, SARRTP.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/132.png) The OneVA Pharmacy's feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the 'TREATING FACILITY LIST (#391.91)'. Prior to validating the 'TREATING FACILITY LIST' entries, the process filters on the following list of valid facility types: VAMC, M&ROC, M&ROC(M&RO), OC, OPC, CBOC, PRRTP, DOM, HCS, MC(M), MC(M&D), MORC, NHC, VANPH, SOC, SARRTP.
 
-If there are not two or more valid entries, the system will not display the ‘Executing OneVA Pharmacy Query Message’ listed in the figure above nor will medications that originated from another VA Pharmacy location display on the Medication Profile view.
+If there are not two or more valid entries, the system will not display the 'Executing OneVA Pharmacy Query Message' listed in the figure above nor will medications that originated from another VA Pharmacy location display on the Medication Profile view.
 
 ### New OneVA Pharmacy System Down or Not Responding Message
 
@@ -25445,13 +25519,13 @@ Press RETURN to continue:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The OneVA Pharmacy patch is an enhancement to the VistA ‘PHARMACY \[PS MENU\]’ \> ‘OUTPATIENT PHARMACY’ package. To access the application, the user must enter access and verify codes to login.
+The OneVA Pharmacy patch is an enhancement to the VistA 'PHARMACY \[PS MENU\]' \> 'OUTPATIENT PHARMACY' package. To access the application, the user must enter access and verify codes to login.
 
 ## System Menu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The OneVA Pharmacy patch is an enhancement to the VistA ‘PHARMACY \[PSO MENU\]’ \> ‘OUTPATIENT PHARMACY MANAGER \[PSO MANAGER\]’ \> ‘RX (PRESCRIPTION) \[PSO RX\]’ menu. The user must have access to these menus in order to execute the OneVA Pharmacy software.
+The OneVA Pharmacy patch is an enhancement to the VistA 'PHARMACY \[PSO MENU\]' \> 'OUTPATIENT PHARMACY MANAGER \[PSO MANAGER\]' \> 'RX (PRESCRIPTION) \[PSO RX\]' menu. The user must have access to these menus in order to execute the OneVA Pharmacy software.
 
 ## Changing User ID and Password
 
@@ -25473,9 +25547,9 @@ The OneVA Pharmacy feature occurs fully within the context of VistA and as such 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The OneVA Pharmacy patch retrieves the prescription information for the label from the host site and transmits the data back to the dispensing site for printing. As of this writing, there is no ‘REMOTE REPRINT’ option available for OneVA Pharmacy orders. The ‘REPRINT’ action is not operational for the OneVA Pharmacy refills or partials, however, plans are being made to release a new action option as part of the OneVA Pharmacy Phase II initiative.
+The OneVA Pharmacy patch retrieves the prescription information for the label from the host site and transmits the data back to the dispensing site for printing. As of this writing, there is no 'REMOTE REPRINT' option available for OneVA Pharmacy orders. The 'REPRINT' action is not operational for the OneVA Pharmacy refills or partials, however, plans are being made to release a new action option as part of the OneVA Pharmacy Phase II initiative.
 
-In order to reprint a label due to a paper jam, a malfunction of the printer, or the need to label multiple packages like inhalers, it is suggested to use the OneVA Pharmacy ‘<span id="_Partial_Fill_Prescription" class="anchor"></span>[Partial Fill Prescription Order](\l)’ process and perform the transaction again.
+In order to reprint a label due to a paper jam, a malfunction of the printer, or the need to label multiple packages like inhalers, it is suggested to use the OneVA Pharmacy '<span id="_Partial_Fill_Prescription" class="anchor"></span>[Partial Fill Prescription Order](\l)' process and perform the transaction again.
 
 ### Target VistA Time Out Awaiting Reply Message
 
@@ -25493,9 +25567,9 @@ The user pressed RETURN and must execute the transaction steps for a second time
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-As stated in the ‘[Systems Configuration](\l)’ section of this document, if the ‘ONEVA PHARMACY FLAG (#101)’ is not set to the ‘on’ state at the host site, the dispensing site will receive the following message:
+As stated in the '[Systems Configuration](\l)' section of this document, if the 'ONEVA PHARMACY FLAG (#101)' is not set to the 'on' state at the host site, the dispensing site will receive the following message:
 
-The OneVA Pharmacy flag is turned ‘OFF’ at this facility. Unable to process refill/partial fill requests. Queries will NOT be made to other VA Pharmacy locations.
+The OneVA Pharmacy flag is turned 'OFF' at this facility. Unable to process refill/partial fill requests. Queries will NOT be made to other VA Pharmacy locations.
 
 # Using the Software
 
@@ -25513,7 +25587,7 @@ Sign-in to the VistA system and select the menu option:
 
 PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]
 
-1.  Enter a patient identifying information at the ‘Select PATIENT NAME:’ prompt.
+1.  Enter a patient identifying information at the 'Select PATIENT NAME:' prompt.
 
 <span id="_Toc103938425" class="anchor"></span>Figure : Select PATIENT NAME Prompt
 
@@ -25527,7 +25601,7 @@ PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/140.png)
 
-3.  Press \<ENTER\> if the ‘Allergy Assessment’ message is received:
+3.  Press \<ENTER\> if the 'Allergy Assessment' message is received:
 
 <span id="_Toc103938427" class="anchor"></span>Figure : Allergy Assessment Message
 
@@ -25537,15 +25611,15 @@ PATIENT PRESCRIPTION PROCESSING \[PSO LM BACKDOOR ORDERS\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The system begins to execute the OneVA Pharmacy query for prescriptions from all other VA Pharmacy locations if it meets the conditions documented in the ‘[Continuity of Operation](\l)’ section of this document.
+The system begins to execute the OneVA Pharmacy query for prescriptions from all other VA Pharmacy locations if it meets the conditions documented in the '[Continuity of Operation](\l)' section of this document.
 
-Press \<ENTER\> and accept the default of ‘Yes’ at the ‘Query Prescription from other OneVA Pharmacy locations’ prompt.
+Press \<ENTER\> and accept the default of 'Yes' at the 'Query Prescription from other OneVA Pharmacy locations' prompt.
 
 <span id="_Toc103938428" class="anchor"></span>Figure : Query Prescription from other OneVA Pharmacy Locations Prompt
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/142.png)
 
-1.  After entering yes, the ‘OneVA Pharmacy Checking for Prescriptions’ information message displays.
+1.  After entering yes, the 'OneVA Pharmacy Checking for Prescriptions' information message displays.
 
 > The system will display the checking for prescriptions message as shown in the following image.
 
@@ -25553,9 +25627,9 @@ Press \<ENTER\> and accept the default of ‘Yes’ at the ‘Query Prescription
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/143.png)
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/144.png) The OneVA Pharmacy’s feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the ‘TREATING FACILITY LIST (#391.91)’. Prior to validating the ‘TREATING FACILITY LIST’ entries, the process filters on the following list of valid facility types: VAMC, M&ROC, M&ROC(M&RO), OC, OPC, CBOC, PRRTP, DOM, HCS, MC(M), MC(M&D), MORC, NHC, VANPH, SOC, SARRTP.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/144.png) The OneVA Pharmacy's feature to query the HDR/CDS Repository will not execute if the patient has only one entry in the 'TREATING FACILITY LIST (#391.91)'. Prior to validating the 'TREATING FACILITY LIST' entries, the process filters on the following list of valid facility types: VAMC, M&ROC, M&ROC(M&RO), OC, OPC, CBOC, PRRTP, DOM, HCS, MC(M), MC(M&D), MORC, NHC, VANPH, SOC, SARRTP.
 
-> If there are not two or more valid entries, the system will not display the ‘Executing OneVA Pharmacy Query Message’ listed in the figure above nor will medications that originated from another VA Pharmacy location display on the Medication Profile view.
+> If there are not two or more valid entries, the system will not display the 'Executing OneVA Pharmacy Query Message' listed in the figure above nor will medications that originated from another VA Pharmacy location display on the Medication Profile view.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/145.png)The system identifies and queries the HDR/CDS Repository for all the prescriptions that are active, suspended, on hold, expired (within 120 days), or discontinued (within 120 days). If the connection fails, the system is down message will display as shown in the following image.
 
@@ -25567,13 +25641,13 @@ Press \<ENTER\> and accept the default of ‘Yes’ at the ‘Query Prescription
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/148.png) When the system is down message displays, the VistA session will continue to display the local/dispensing sites prescriptions on the Medication Profile view. There will be no indication if a patient is registered or has prescriptions on other sites (i.e., remote site prescriptions will not display on the Medication Profile view.)
 
-Press \<ENTER\> if the ‘system is down’ message displays.
+Press \<ENTER\> if the 'system is down' message displays.
 
-> As mentioned in the ‘[Systems Summary](\l)’ section, the OneVA Pharmacy program was an initiative from the grassroots Innovation Program. As such, development requirements were limited, and specific software areas were to remain untouched; kept ‘as-is’.
+> As mentioned in the '[Systems Summary](\l)' section, the OneVA Pharmacy program was an initiative from the grassroots Innovation Program. As such, development requirements were limited, and specific software areas were to remain untouched; kept 'as-is'.
 
-> An example can be found in the following figure where the original ‘REMOTE PRESCRIPTION AVAILABLE – DISPLAY REMOTE DATA’ prompt still remains. The user bypasses the display of remote data once the OneVA Pharmacy patch is available by entering ‘No’.
+> An example can be found in the following figure where the original 'REMOTE PRESCRIPTION AVAILABLE – DISPLAY REMOTE DATA' prompt still remains. The user bypasses the display of remote data once the OneVA Pharmacy patch is available by entering 'No'.
 
-Enter \<N\> to accept the ‘Display Remote Data? N//’ prompt.
+Enter \<N\> to accept the 'Display Remote Data? N//' prompt.
 
 Press \<ENTER\> to accept the default or enter a valid status code change to the status.
 
@@ -25585,49 +25659,49 @@ Press \<ENTER\> to accept the default or enter a valid status code change to the
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-After selecting a patient, the system displays the first page of the ‘Patient Information’ view.
+After selecting a patient, the system displays the first page of the 'Patient Information' view.
 
-Press \<ENTER\> to continue to the second page of the ‘Patient Information’ view.
+Press \<ENTER\> to continue to the second page of the 'Patient Information' view.
 
 ### Medication Profile View
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Press \<ENTER\> to continue to the ‘Medication Profile’ view.
+Press \<ENTER\> to continue to the 'Medication Profile' view.
 
-> The ‘Medication Profile’ view lists all prescriptions that originated at the dispensing Pharmacy first, followed by ‘[Non-VA MEDS (Not Dispensed by VA)](\l)’, then by the prescriptions retrieved from the HDR/CDS Repository that originated at other VA Pharmacy locations. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
+> The 'Medication Profile' view lists all prescriptions that originated at the dispensing Pharmacy first, followed by '[Non-VA MEDS (Not Dispensed by VA)](\l)', then by the prescriptions retrieved from the HDR/CDS Repository that originated at other VA Pharmacy locations. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
 
-> The first page of the Medication Profile view, in the example displayed in the following image, displays the ‘dispensing site’ (aka ‘local’) prescription orders. The divider heading displays ‘ACTIVE’ and includes the ‘Active’, ‘Suspended’, and ‘Expired’ medications (no changes were made to this format), followed by the orders listed as ‘Discontinued’ medications, then prescriptions in the ‘Hold’ status.
+> The first page of the Medication Profile view, in the example displayed in the following image, displays the 'dispensing site' (aka 'local') prescription orders. The divider heading displays 'ACTIVE' and includes the 'Active', 'Suspended', and 'Expired' medications (no changes were made to this format), followed by the orders listed as 'Discontinued' medications, then prescriptions in the 'Hold' status.
 
-> The following image also shows the divider heading for the first ‘other’ VA Pharmacy location site and displays: ‘DAYTON (552) ACTIVE’.
+> The following image also shows the divider heading for the first 'other' VA Pharmacy location site and displays: 'DAYTON (552) ACTIVE'.
 
 <span id="_Toc103938432" class="anchor"></span>Figure : Medication Profile (Page 1 of 3) Example (Remote Rxs)
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/150.png)
 
-Press \<ENTER\> to continue to the next ‘Medication Profile’ view.
+Press \<ENTER\> to continue to the next 'Medication Profile' view.
 
-> Page 2 of the Medication Profile view, in the example displayed in the following image, displays the ‘Active’, ‘Discontinued’, prescriptions in the ‘Hold’ status, and ‘Suspended’ medications for the ‘DAYTON (552)’ site.
+> Page 2 of the Medication Profile view, in the example displayed in the following image, displays the 'Active', 'Discontinued', prescriptions in the 'Hold' status, and 'Suspended' medications for the 'DAYTON (552)' site.
 
-> The following image also shows the divider heading for the second ‘other’ VA Pharmacy location site and displays: ‘DAYTSHR TEST LAB (984) ACTIVE’.
+> The following image also shows the divider heading for the second 'other' VA Pharmacy location site and displays: 'DAYTSHR TEST LAB (984) ACTIVE'.
 
 <span id="_Toc103938433" class="anchor"></span>Figure : Medication Profile (Page 2 of 3) Example (Remote Rxs)
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/151.png)
 
-Press \<ENTER\> to continue to the next ‘Medication Profile’ view.
+Press \<ENTER\> to continue to the next 'Medication Profile' view.
 
-> Page 3 of the Medication Profile view, in the example displayed in the following image, displays the ‘Active’, ‘Discontinued’, prescriptions in the ‘Hold’ status, and ‘Suspended’ medications for the ‘DAYTON (###)’ site.
+> Page 3 of the Medication Profile view, in the example displayed in the following image, displays the 'Active', 'Discontinued', prescriptions in the 'Hold' status, and 'Suspended' medications for the 'DAYTON (###)' site.
 
-> The following image also shows the divider heading for the second ‘other’ VA Pharmacy location site and displays: ‘DAYTSHR TEST LAB (984) ACTIVE’.
+> The following image also shows the divider heading for the second 'other' VA Pharmacy location site and displays: 'DAYTSHR TEST LAB (984) ACTIVE'.
 
 <span id="_Toc103938434" class="anchor"></span>Figure : Medication Profile (Page 3 of 3) Example (Remote Rxs)
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/152.png)
 
-#### Medication Profile View Example with ‘Non-VA MEDS’
+#### Medication Profile View Example with 'Non-VA MEDS'
 
-The ‘Medication Profile’ views, displayed in the following two images, show the format when ‘Non-VA MEDS (Not Dispensed by VA)’ are available. The dispensing site prescriptions display first, followed by the ‘Non-VA MEDS (Not Dispensed by VA)’, then by prescriptions that originated from other VA Pharmacy locations.
+The 'Medication Profile' views, displayed in the following two images, show the format when 'Non-VA MEDS (Not Dispensed by VA)' are available. The dispensing site prescriptions display first, followed by the 'Non-VA MEDS (Not Dispensed by VA)', then by prescriptions that originated from other VA Pharmacy locations.
 
 <span id="_Toc103938435" class="anchor"></span>Figure : Medication Profile (Page 1 of 2) Example (Non-VA MEDS)
 
@@ -25643,9 +25717,9 @@ The ‘Medication Profile’ views, displayed in the following two images, show 
 
 The dispensing process for filling a prescription order that originated locally from the dispensing site was unaffected by the OneVA Pharmacy patch.
 
-The software still provides access to all previously available actions – no changes were made to the action options related to the dispensing/local prescription refill process. To refill a prescription, the action id is ‘RF’. The action option to execute a partial fill for a prescription order is ‘PR’.
+The software still provides access to all previously available actions – no changes were made to the action options related to the dispensing/local prescription refill process. To refill a prescription, the action id is 'RF'. The action option to execute a partial fill for a prescription order is 'PR'.
 
-The following lists all action options available from the ‘OP Medication Profile’ view.
+The following lists all action options available from the 'OP Medication Profile' view.
 
 <span id="_Toc103938437" class="anchor"></span>Figure : Action Options for Local/Dispensing Orders
 
@@ -25655,19 +25729,19 @@ The following lists all action options available from the ‘OP Medication Profi
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The ‘Medication Profile’ view displays both the dispensing Pharmacy’s medications that originated on the local VistA instance followed by the prescriptions originating from other VA Pharmacy locations.
+The 'Medication Profile' view displays both the dispensing Pharmacy's medications that originated on the local VistA instance followed by the prescriptions originating from other VA Pharmacy locations.
 
-In the example that follows, there are no prescriptions for the patient at the dispensing site. The message ‘\<No local prescriptions found\>’ displays before the first divider header.
+In the example that follows, there are no prescriptions for the patient at the dispensing site. The message '\<No local prescriptions found\>' displays before the first divider header.
 
-<span id="_Toc103938438" class="anchor"></span>Figure : Medication Profile view with no ‘local’ Prescriptions (Remote Rxs Only)
+<span id="_Toc103938438" class="anchor"></span>Figure : Medication Profile view with no 'local' Prescriptions (Remote Rxs Only)
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/156.png)
 
 To access prescriptions originating on other sites, the same process is used.
 
-The user can either enter \<SO\> and press \<ENTER\> at the ‘Select Action’ prompt or use the short cut feature to enter \<3\> and press \<ENTER\> as displayed in the following image.
+The user can either enter \<SO\> and press \<ENTER\> at the 'Select Action' prompt or use the short cut feature to enter \<3\> and press \<ENTER\> as displayed in the following image.
 
-<span id="_Toc103938439" class="anchor"></span>Figure : Select Action ‘SO’ and Select Order by number Prompts Example
+<span id="_Toc103938439" class="anchor"></span>Figure : Select Action 'SO' and Select Order by number Prompts Example
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/157.png)
 
@@ -25680,7 +25754,7 @@ The user can either enter \<SO\> and press \<ENTER\> at the ‘Select Action’ 
 
 Press \<ENTER\> to continue.
 
-> During the remote refill or partial fill of a prescription order that originated from another VA Pharmacy location, the number of refills remaining is decremented by one and the last refill date is updated with the current date on the host VistA. In the example displayed in the following image, the patient has ‘11’ refills remaining and the last refill date was ‘05/31/16’.
+> During the remote refill or partial fill of a prescription order that originated from another VA Pharmacy location, the number of refills remaining is decremented by one and the last refill date is updated with the current date on the host VistA. In the example displayed in the following image, the patient has '11' refills remaining and the last refill date was '05/31/16'.
 
 <span id="_Toc103938440" class="anchor"></span>Figure : Remote OP Medications view for a prescription
 
@@ -25705,9 +25779,9 @@ For prescription orders that originated from other VA Pharmacy locations, the di
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/161.png)
 
-> The system then checks for a local drug that matches the remote drug description and if found, displays a question asking the user if the matched drug is acceptable. The prompt is expecting a ‘Yes’ or ‘No’ response. The system provides ‘No’ as the default, as displayed in the following image. In order to process the refill, the user enters ‘Yes’.
+> The system then checks for a local drug that matches the remote drug description and if found, displays a question asking the user if the matched drug is acceptable. The prompt is expecting a 'Yes' or 'No' response. The system provides 'No' as the default, as displayed in the following image. In order to process the refill, the user enters 'Yes'.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/162.png) For various reasons, there may not be a one to one match of the drug matching between the host and the dispensing sites therefore the message displayed in the following image may change. See the ‘[Drug Matching Process](#Drug_Matching_Process)’ section for drug matching messages, prompts, and instructions.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/162.png) For various reasons, there may not be a one to one match of the drug matching between the host and the dispensing sites therefore the message displayed in the following image may change. See the '[Drug Matching Process](#Drug_Matching_Process)' section for drug matching messages, prompts, and instructions.
 
 <span id="_Toc103938443" class="anchor"></span>Figure : Remote Drug Match Response Example
 
@@ -25721,7 +25795,7 @@ Press \<ENTER\> to continue.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/164.png)
 
-> The system completes the remote refill process and generates the label data for printing. The ‘LABEL DEVICE’ message displays as shown in the following image.
+> The system completes the remote refill process and generates the label data for printing. The 'LABEL DEVICE' message displays as shown in the following image.
 
 Label Device Prompt
 
@@ -25739,7 +25813,7 @@ DEVICE:
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/165.png)IMPORTANT: The OneVA Pharmacy requires stock prescription labels and a laser printer that is accessible at the Select LABEL DEVICE: prompt. If either one of the requirements are lacking, then the label will not print as programmed.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/166.png)IMPORTANT: If the user enters an “^” at the Select LABEL DEVICE: prompt, the prescription label will not be printed and at this time. There is no way to do a reprint of the refill or partial fill label.<span id="p27" class="anchor"></span>
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/166.png)IMPORTANT: If the user enters an "^" at the Select LABEL DEVICE: prompt, the prescription label will not be printed and at this time. There is no way to do a reprint of the refill or partial fill label.<span id="p27" class="anchor"></span>
 
 > The label prints and the system displays a message to indicate the prescription order process completed as shown in the following image.
 
@@ -25749,7 +25823,7 @@ DEVICE:
 
 Press \<ENTER\> to continue.
 
-> The system displays a message informing that the prescription list is updating. The background process is executing the ‘<span id="_View_Order_Use" class="anchor"></span>[View Order Use Case](\l)’ and retrieving the updated information about the patient’s prescription orders from the HDR/CDS Repository.
+> The system displays a message informing that the prescription list is updating. The background process is executing the '<span id="_View_Order_Use" class="anchor"></span>[View Order Use Case](\l)' and retrieving the updated information about the patient's prescription orders from the HDR/CDS Repository.
 
 > The system displays the following message while the query to the HDR/CDS Repository is executing.
 
@@ -25759,7 +25833,7 @@ Press \<ENTER\> to continue.
 
 > The system will retrieve all prescriptions from the HDR/CDS repository and redisplay the Medication Profile view showing the updated prescription information.
 
-> In the following image the example shows the last refill date has been updated to be ‘07/27’ and the refills remaining is now set to ‘10’.
+> In the following image the example shows the last refill date has been updated to be '07/27' and the refills remaining is now set to '10'.
 
 <span id="_Toc103938447" class="anchor"></span>Figure : Refill Successful: Medication Profile View Updated
 
@@ -25773,9 +25847,9 @@ Enter \<PR\> and press \<ENTER\> at the Select Action prompt as shown in the fol
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/170.png)
 
-> The system checks for a local drug that matches the remote drug description. If the system matches the drug, a ‘Yes’ or ‘No’ prompt displays. The system provides ‘No’, as the default, as displayed in the following image. In order to fill this partial prescription, order the user enters ‘Yes’.
+> The system checks for a local drug that matches the remote drug description. If the system matches the drug, a 'Yes' or 'No' prompt displays. The system provides 'No', as the default, as displayed in the following image. In order to fill this partial prescription, order the user enters 'Yes'.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/171.png) For various reasons, there may not be a one to one match of the drug matching between the host and the dispensing sites therefore the message displayed in the following image may change. See the ‘[Drug Matching Process](#Drug_Matching_Process)’ section for drug matching messages, prompts, and instructions.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/171.png) For various reasons, there may not be a one to one match of the drug matching between the host and the dispensing sites therefore the message displayed in the following image may change. See the '[Drug Matching Process](#Drug_Matching_Process)' section for drug matching messages, prompts, and instructions.
 
 <span id="_Toc103938449" class="anchor"></span>Figure : Remote Drug Match Response Example
 
@@ -25783,7 +25857,7 @@ Enter \<PR\> and press \<ENTER\> at the Select Action prompt as shown in the fol
 
 Enter \<Y \>and press \<ENTER\>.
 
-> The system displays ‘YES’ and the ‘Enter Quantity’ prompt displays as shown in the following image.
+> The system displays 'YES' and the 'Enter Quantity' prompt displays as shown in the following image.
 
 <span id="_Toc103938450" class="anchor"></span>Figure : Partial Fill Example: Quantity
 
@@ -25791,7 +25865,7 @@ Enter \<Y \>and press \<ENTER\>.
 
 Enter \<10\> and press \<ENTER\>.
 
-> The system displays ‘10’ and the ‘DAYS SUPPLY’ prompt displays as shown in the following image.
+> The system displays '10' and the 'DAYS SUPPLY' prompt displays as shown in the following image.
 
 <span id="_Toc103938451" class="anchor"></span>Figure : Partial Fill Example: Days Supply
 
@@ -25799,7 +25873,7 @@ Enter \<10\> and press \<ENTER\>.
 
 Enter \<10\> and press \<ENTER\>.
 
-> The system displays ‘10’ and the ‘Pharmacist’ prompt displays defaulting to the name of the Pharmacist as shown in the following image.
+> The system displays '10' and the 'Pharmacist' prompt displays defaulting to the name of the Pharmacist as shown in the following image.
 
 <span id="_Toc103938452" class="anchor"></span>Figure : Partial Fill Example: Pharmacist
 
@@ -25807,7 +25881,7 @@ Enter \<10\> and press \<ENTER\>.
 
 Press \<ENTER\>.
 
-> The system displays the name of the Pharmacist, the Site, and the ‘Remarks’ prompt displays as shown in the following image.
+> The system displays the name of the Pharmacist, the Site, and the 'Remarks' prompt displays as shown in the following image.
 
 <span id="_Toc103938453" class="anchor"></span>Figure : Partial Fill Example: Remarks
 
@@ -25815,7 +25889,7 @@ Press \<ENTER\>.
 
 1.  Enter \<LAST REFILL LOST\> and press \<ENTER\>.
 
-> The system displays ‘LAST REFILL LOST’ as shown in the following image.
+> The system displays 'LAST REFILL LOST' as shown in the following image.
 
 <span id="_Toc103938454" class="anchor"></span>Figure : Partial Fill Example: Remarks Example
 
@@ -25827,7 +25901,7 @@ Press \<ENTER\>.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/178.png)
 
-> The system completes the remote partial fill process and generates the label data for printing. The ‘LABEL DEVICE’ message displays as shown in the following image.
+> The system completes the remote partial fill process and generates the label data for printing. The 'LABEL DEVICE' message displays as shown in the following image.
 
 Label Device Prompt
 
@@ -25851,7 +25925,7 @@ DEVICE:
 
 Press \<ENTER\> to continue.
 
-> The system displays a message informing that the prescription list is updating. The background process is executing the ‘[View Order Use Case](#_View_Order_Use)’ and retrieving the updated information about the patient’s prescription orders from the HDR/CDS Repository.
+> The system displays a message informing that the prescription list is updating. The background process is executing the '[View Order Use Case](#_View_Order_Use)' and retrieving the updated information about the patient's prescription orders from the HDR/CDS Repository.
 
 > The system displays the following message while the query to the HDR/CDS Repository is executing.
 
@@ -25873,7 +25947,7 @@ Overall, three outcomes occur during the OneVA Pharmacy Drug Matching function. 
 
 #### Drug Matching: One-to-Many
 
-When the drug matching logic identifies a one-to-one match at the dispensing site for the selected host prescription, the systems displays the ‘Remote site drug name:’ and the ‘Matching Drug Found for Dispensing:’ and prompts the user to respond ‘YES’ or ‘NO’ as displayed in the following image.
+When the drug matching logic identifies a one-to-one match at the dispensing site for the selected host prescription, the systems displays the 'Remote site drug name:' and the 'Matching Drug Found for Dispensing:' and prompts the user to respond 'YES' or 'NO' as displayed in the following image.
 
 <span id="_Toc103938458" class="anchor"></span>Figure : Drug Matching: One-to-One Match
 
@@ -25881,13 +25955,13 @@ When the drug matching logic identifies a one-to-one match at the dispensing sit
 
 #### Drug Matching: One-to-Many
 
-When the drug matching logic identifies a one-to-many match at the dispensing site for the selected host prescription, the system the ‘Remote site drug name:’ and the ‘Select matching local drug:’ prompt as displayed in the following image.
+When the drug matching logic identifies a one-to-many match at the dispensing site for the selected host prescription, the system the 'Remote site drug name:' and the 'Select matching local drug:' prompt as displayed in the following image.
 
 <span id="_Toc103938459" class="anchor"></span>Figure : Drug Matching: One-to-Many - Select matching local drug Prompt
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/182.png)
 
-To display the list of possible entries, the user enters two questions marks \<??\> at the ‘Select matching local drug’ prompt and presses \<ENTER\> as displayed in the following image.
+To display the list of possible entries, the user enters two questions marks \<??\> at the 'Select matching local drug' prompt and presses \<ENTER\> as displayed in the following image.
 
 <span id="_Toc103938460" class="anchor"></span>Figure : Drug Matching: One-to-Many
 
@@ -25899,7 +25973,7 @@ The system displays the list of possible drug matches and prompts the user to se
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/184.png)
 
-In the following example, the user enters \<2043\> and presses \<ENTER\>. The system displays the selected drug and prompts the user to respond ‘YES’ or ‘NO’ as displayed in the following image.
+In the following example, the user enters \<2043\> and presses \<ENTER\>. The system displays the selected drug and prompts the user to respond 'YES' or 'NO' as displayed in the following image.
 
 <span id="_Toc103938462" class="anchor"></span>Figure : Drug Matching: One-to-Many – Select Drug 2042 Example
 
@@ -25907,7 +25981,7 @@ In the following example, the user enters \<2043\> and presses \<ENTER\>. The sy
 
 #### Drug Matching: No Drug Match
 
-When the drug matching logic does not identify any drug match the system at the dispensing site for the selected host prescription, the system the ‘Remote site drug name:’ and the ‘Select matching local drug:’ prompt as displayed in the following image.
+When the drug matching logic does not identify any drug match the system at the dispensing site for the selected host prescription, the system the 'Remote site drug name:' and the 'Select matching local drug:' prompt as displayed in the following image.
 
 <span id="_Toc103938463" class="anchor"></span>Figure : Drug Matching: No Drug Match
 
@@ -25925,25 +25999,25 @@ The OneVA Pharmacy patch contains specific business rules to prevent refill and/
 
 > Cannot refill Rx# xxxxxxx. Next possible fill date is MM/DD/YYYY
 
-- Patient’s prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is ‘discontinued’, ‘expired’, is on ‘hold’, or ‘suspended’.
+- Patient's prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is 'discontinued', 'expired', is on 'hold', or 'suspended'.
 
 > Only 'ACTIVE' remote prescriptions may be refilled at this time.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills. Note: Partial fills are allowed.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills. Note: Partial fills are allowed.
 - Unable to complete transaction. Cannot refill Rx \# xxxxxxx. No refills left.
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
 - This is a controlled substance. Cannot refill Rx \# xxxxxxx.
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
 
 > Unable to complete transaction. Rx \#xxxxxxx cannot be refilled.
 
 > The associated drug is considered a controlled substance at the host facility.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
 - Matched Drug \<DRUG NAME\> is inactive. Cannot refill.
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
 - No local match could be found for \<DRUG NAME\>
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product ID.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product ID.
 
 > Missing VA Product ID. Rx \#xxxxxxx cannot be refilled.
 
@@ -25955,7 +26029,7 @@ The OneVA Pharmacy patch contains specific business rules to prevent refill and/
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The OneVA Pharmacy patch comes with a new menu option for retrieving the OneVA Pharmacy Prescription Reports. The ‘ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]’ menu is located on the ‘RX (PRESCRIPTIONS) \[PSO RX\]’ menu as highlighted in the following image.
+The OneVA Pharmacy patch comes with a new menu option for retrieving the OneVA Pharmacy Prescription Reports. The 'ONEVA PHARMACY PRESCRIPTION REPORT \[PSO REMOTE RX REPORT\]' menu is located on the 'RX (PRESCRIPTIONS) \[PSO RX\]' menu as highlighted in the following image.
 
 <span id="_Toc103938464" class="anchor"></span>Figure : OneVA Pharmacy Prescription Report \[PSO REMOTE RX REPORT\] Menu
 
@@ -25997,7 +26071,7 @@ The user has the option to answer with \<1\>, \<2\>, or \<3\>.
 
 Use the report number to select the desired report.
 
-Enter \<1\> to select the report ‘Prescriptions we have dispensed for other Host Pharmacies’ and press \<ENTER\>.
+Enter \<1\> to select the report 'Prescriptions we have dispensed for other Host Pharmacies' and press \<ENTER\>.
 
 <span id="_Toc103938466" class="anchor"></span>Figure : Example: Select 1 for Prescriptions dispensed for other Host Pharmacies
 
@@ -26011,16 +26085,16 @@ Enter \<1\> to select the report ‘Prescriptions we have dispensed for other Ho
 
 #### Search Option D – DATE RANGE
 
-When selecting the ‘DATE RANGE’ option ‘D’ search feature all refills or partial fills performed between ranges of dates display. When selecting this option, the user enters two additional data items. They are:
+When selecting the 'DATE RANGE' option 'D' search feature all refills or partial fills performed between ranges of dates display. When selecting this option, the user enters two additional data items. They are:
 
-- Start date (defaults to 30-days prior to today’s date)
-- End date (defaults to today’s date)
+- Start date (defaults to 30-days prior to today's date)
+- End date (defaults to today's date)
 
 Enter \<D\> and press \<ENTER\>.
 
 > The system displays the option name and prompts for the start date.as displayed in the following image.
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/191.png) Examples of valid date entry options are available using the ‘HELP’ command ‘?’ as displayed in the following image.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/191.png) Examples of valid date entry options are available using the 'HELP' command '?' as displayed in the following image.
 
 Press \<ENTER\> to accept the default start date.
 
@@ -26036,7 +26110,7 @@ Press \<ENTER\> to accept the default end date.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/193.png)
 
-> The system displays the ‘Summary Report’ for the selected report
+> The system displays the 'Summary Report' for the selected report
 
 <span id="_Toc103938470" class="anchor"></span>Figure : Report Date Range Search Example Results: Summary Report
 
@@ -26044,11 +26118,11 @@ Press \<ENTER\> to accept the default end date.
 
 #### Search Option P – PATIENT
 
-When selecting the ‘PATIENT’ option ‘P’ search feature all refills or partial fills performed for a single patient display. Select a patient by specifying the patient name, social security number, last 4-digits of the social security number, or the first initial of the last name with last 4-digits of social security numbers.
+When selecting the 'PATIENT' option 'P' search feature all refills or partial fills performed for a single patient display. Select a patient by specifying the patient name, social security number, last 4-digits of the social security number, or the first initial of the last name with last 4-digits of social security numbers.
 
 Enter \<P\> and press \<ENTER\>.
 
-> The system displays the option name and prompts for the patient’s name as displayed in the following image.
+> The system displays the option name and prompts for the patient's name as displayed in the following image.
 
 <span id="_Toc103938471" class="anchor"></span>Figure : Report Patient Search Example: Patient Name
 
@@ -26064,7 +26138,7 @@ Enter \<P\> and press \<ENTER\>.
 
 Press \<ENTER\> to continue.
 
-> The system displays the ‘Summary Report’ for the selected report.
+> The system displays the 'Summary Report' for the selected report.
 
 <span id="_Toc103938473" class="anchor"></span>Figure : Report Patient Search Example: Results Summary Report
 
@@ -26072,7 +26146,7 @@ Press \<ENTER\> to continue.
 
 #### Search Option S – SITE
 
-The ‘SITE’ option ‘S’ selects all refills performed at a specific VA site. A site can be selected by specifying the Institution’s Name, Status, Station Number, Official VA Name, Current Location, Coding System/ID Pair, National Provider Identifier (NPI), Status, Name (Changed From), or Coding System.
+The 'SITE' option 'S' selects all refills performed at a specific VA site. A site can be selected by specifying the Institution's Name, Status, Station Number, Official VA Name, Current Location, Coding System/ID Pair, National Provider Identifier (NPI), Status, Name (Changed From), or Coding System.
 
 Enter \<S\> and press \<ENTER\>.
 
@@ -26090,7 +26164,7 @@ Enter \<S\> and press \<ENTER\>.
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-7-0-685/199.png)
 
-> The system displays the ‘Summary Report’ for the selected report.
+> The system displays the 'Summary Report' for the selected report.
 
 <span id="_Toc103938476" class="anchor"></span>Figure : Report Site Search Example: Results Summary Report
 
@@ -26115,17 +26189,17 @@ The type of report selected determines the refills shown on a report and the sea
 - OR – refills performed by other sites
 - OP – partial fills performed by other sites
 
-The total cost is the sum of the costs of all items included in this report and is available on the report ‘Prescriptions we have dispensed for other Host Pharmacies’. The cost is calculated by using the dispensing sites ‘Price Per Dispense Unit’ and multiplying that by the quantity being dispensed.
+The total cost is the sum of the costs of all items included in this report and is available on the report 'Prescriptions we have dispensed for other Host Pharmacies'. The cost is calculated by using the dispensing sites 'Price Per Dispense Unit' and multiplying that by the quantity being dispensed.
 
 To review more information about the orders, perform the following steps:
 
-Enter \<SI\> at the ‘Select Action’ prompt and press \<ENTER\>.
+Enter \<SI\> at the 'Select Action' prompt and press \<ENTER\>.
 
 > The system displays the action name and prompts for the item to display:
 
-Enter \<11\> at the ‘Enter a number’ prompt and press \<ENTER\>.
+Enter \<11\> at the 'Enter a number' prompt and press \<ENTER\>.
 
-> The following image displays the ‘Select Action’ and ‘Enter a number’ prompts.
+> The following image displays the 'Select Action' and 'Enter a number' prompts.
 
 <span id="_Toc103938478" class="anchor"></span>Figure : OneVA Pharmacy Report Example: Select Item
 
@@ -26155,15 +26229,15 @@ The Send Drug File Entries to External Interface \[PSS MASTER FILE ALL\] option 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-OneVA Pharmacy introduces new functionality that allows a Pharmacist to refill or partial fill a prescription from another VA Pharmacy location. This software patch uses HL7 messaging to send and receive remote prescription details from another VA Pharmacy location. This allows a ‘dispensing’ (‘non-custodial’ or ‘local’ pharmacy) to refill a prescription that originated from another VA Pharmacy location. The VA Pharmacy location where the prescription originated is the ‘host’ (‘remote’) facility.
+OneVA Pharmacy introduces new functionality that allows a Pharmacist to refill or partial fill a prescription from another VA Pharmacy location. This software patch uses HL7 messaging to send and receive remote prescription details from another VA Pharmacy location. This allows a 'dispensing' ('non-custodial' or 'local' pharmacy) to refill a prescription that originated from another VA Pharmacy location. The VA Pharmacy location where the prescription originated is the 'host' ('remote') facility.
 
-VistA utilizes HL7 to send a query message to the eMI ESB. eMI sends the HL7 message to the HDR/CDS Repository and medications return to the querying site. The prescriptions display below any ‘local’ prescriptions on the Medication Profile view. The Pharmacist can then view and choose a ‘host’ prescription and will be able to refill or partially fill any active non-controlled substance prescription at either facility.
+VistA utilizes HL7 to send a query message to the eMI ESB. eMI sends the HL7 message to the HDR/CDS Repository and medications return to the querying site. The prescriptions display below any 'local' prescriptions on the Medication Profile view. The Pharmacist can then view and choose a 'host' prescription and will be able to refill or partially fill any active non-controlled substance prescription at either facility.
 
-Entries log for all ‘host’ and ‘dispensing’ refills and partial fills into a new file called ‘REMOTE PRESCRIPTION LOG (#52.09)’. The entries are viewable using the OneVA Pharmacy Prescription Report functionality.
+Entries log for all 'host' and 'dispensing' refills and partial fills into a new file called 'REMOTE PRESCRIPTION LOG (#52.09)'. The entries are viewable using the OneVA Pharmacy Prescription Report functionality.
 
 With this integrated VistA patch, several points of failure could occur. The systems design will allow the process to continue if any of the various integration points fail, however, remote prescriptions will not display to the Pharmacist on the Medication Profile view.
 
-There are application error messages that will display during the search for the patient and the patient’s prescriptions. They are:
+There are application error messages that will display during the search for the patient and the patient's prescriptions. They are:
 
 - No patient error message:
 
@@ -26195,17 +26269,17 @@ Significant errors are errors or conditions that affect the system stability, av
 
 1)  What is the Value to me as the Veteran?
 
-> The previous ‘Coordinated Care for Traveling Veterans’ handbook required either a visit to the Emergency Room/Urgent Care Center or a pharmacy clinic visit to obtain a new prescription. OneVA Pharmacy makes the best use of the prescription already on file at another VA medical center.
+> The previous 'Coordinated Care for Traveling Veterans' handbook required either a visit to the Emergency Room/Urgent Care Center or a pharmacy clinic visit to obtain a new prescription. OneVA Pharmacy makes the best use of the prescription already on file at another VA medical center.
 
 > Audience: Veteran
 
-2)  What if I have never been registered at the VA where I’m trying to pick up my prescription?
+2)  What if I have never been registered at the VA where I'm trying to pick up my prescription?
 
 > Veterans must register/enroll at the VA medical center in order for the pharmacy to see their records.
 
 > Audience: Veteran
 
-3)  Does OneVA pharmacy benefit me if I’m not traveling?
+3)  Does OneVA pharmacy benefit me if I'm not traveling?
 
 > Use existing processes to contact the VA where your prescription is on file to request a refill.
 
@@ -26231,13 +26305,13 @@ Significant errors are errors or conditions that affect the system stability, av
 
 7)  What should I do if I do not have the medication in stock?
 
-> Order the medication if the Veteran can return the next day, mail from CMOP to a temporary address, utilize the Coordinated Care for Traveling Veteran Handbook. “What would a prudent pharmacist do?”
+> Order the medication if the Veteran can return the next day, mail from CMOP to a temporary address, utilize the Coordinated Care for Traveling Veteran Handbook. "What would a prudent pharmacist do?"
 
 > Audience: Pharmacy
 
 8)  What information is kept in my VistA system and what information is kept at the host VistA system?
 
-> The dispensing VistA system tracks the information in a new OneVA Pharmacy file (not the prescription file) for reporting purposes. The refill or partial fill is tracked in the host system’s prescription file and activity log.
+> The dispensing VistA system tracks the information in a new OneVA Pharmacy file (not the prescription file) for reporting purposes. The refill or partial fill is tracked in the host system's prescription file and activity log.
 
 > Audience: Pharmacy
 
@@ -26267,7 +26341,7 @@ Significant errors are errors or conditions that affect the system stability, av
 
 13) How does OneVA pharmacy select the drug from my drug file?
 
-> The original prescription resides in the Health Data Repository (HDR). OneVA pharmacy identifies the national drug file (NDF) “VA Product” for the prescription. Matching drugs in your local drug file are identified based on that NDF product. If there is a 1:1 match found, OneVA pharmacy will recommend that drug. If there are multiple possible matches found, OneVA pharmacy will present a pick list to select from.
+> The original prescription resides in the Health Data Repository (HDR). OneVA pharmacy identifies the national drug file (NDF) "VA Product" for the prescription. Matching drugs in your local drug file are identified based on that NDF product. If there is a 1:1 match found, OneVA pharmacy will recommend that drug. If there are multiple possible matches found, OneVA pharmacy will present a pick list to select from.
 
 > Audience: Pharmacy
 
@@ -26285,7 +26359,7 @@ Significant errors are errors or conditions that affect the system stability, av
 
 16) OneVA pharmacy reports show cost information, which system is used to calculate medication cost?
 
-> The dispensing system’s cost is used in the report.
+> The dispensing system's cost is used in the report.
 
 > Audience: Pharmacy
 
@@ -26395,7 +26469,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="odd">
 <td>Allergy Order Checks</td>
-<td>The process that compares the drugs prescribed for a patient against that patient’s recorded allergies</td>
+<td>The process that compares the drugs prescribed for a patient against that patient's recorded allergies</td>
 </tr>
 <tr class="even">
 <td>AMIS</td>
@@ -26496,7 +26570,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="odd">
 <td>Enhanced Order Check</td>
-<td>Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB’s MedKnowledge Framework APIs and database.</td>
+<td>Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB's MedKnowledge Framework APIs and database.</td>
 </tr>
 <tr class="even">
 <td>ETC</td>
@@ -26584,7 +26658,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="odd">
 <td>Non-VA Meds</td>
-<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients’ medical records.</td>
+<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients' medical records.</td>
 </tr>
 <tr class="even">
 <td>OneVA Pharmacy</td>
@@ -26752,9 +26826,9 @@ The OneVA Pharmacy project (patch PSO\*7\*454 - December 2016) provided Pharmaci
 
 The OneVA Pharmacy patch, PSO\*7\*479, provided Pharmacists the ability to request a reprint of the label when no error messages is returned when retrieving the label information from the host system.
 
-The OneVA Pharmacy patch PSO\*7\*497 provides Pharmacists new functionality to fix the auto-suspend defect, remedy current OneVA Pharmacy functionality to limit refill permissions to only those personnel who have the correct key(s), block prescriptions that contain a trade name in the “TRADE NAME”, identify titration prescriptions at the host site and to disallow refills of such titration prescriptions at the dispensing site.
+The OneVA Pharmacy patch PSO\*7\*497 provides Pharmacists new functionality to fix the auto-suspend defect, remedy current OneVA Pharmacy functionality to limit refill permissions to only those personnel who have the correct key(s), block prescriptions that contain a trade name in the "TRADE NAME", identify titration prescriptions at the host site and to disallow refills of such titration prescriptions at the dispensing site.
 
-The OneVA Pharmacy patch, PSO\*7\*479 requires the patch PSS\*1\*212 which delivered the ‘ONEVA PHARMACY FLAG (#101)’ in the 'off' state. When this flag is in the 'off' state, the National HL7 HealthConnect is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG (#101)’ set to the 'on' state.
+The OneVA Pharmacy patch, PSO\*7\*479 requires the patch PSS\*1\*212 which delivered the 'ONEVA PHARMACY FLAG (#101)' in the 'off' state. When this flag is in the 'off' state, the National HL7 HealthConnect is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG (#101)' set to the 'on' state.
 
 The OneVA pharmacy flag can be turned on/off using the Pharmacy System Parameters Edit \[PSS SYS EDIT\] option:
 
@@ -26778,13 +26852,13 @@ ONEVA PHARMACY FLAG: ON// \<- The flag can be turned on/off here.
 
 The OneVA Pharmacy patch, PSO\*7\*643 provides Pharmacists the ability to send a OneVA prescription refill or partial fill to the Outpatient Pharmacy Automated Interface (OPAI) supported external automated dispensing robot. The activity log is updated to provide an audit trail and various dispensing information for a OneVA prescription refill or partial fill.
 
-The OneVA Pharmacy patch PSO\*7\*736 replaces the query to the Health Data Repository / Clinical Data Service (HDR / CDS) repository with a query to the Veterans Data Information Exchange (VDIF). This patch includes modifications to the "PROVIDER HOLD" status abbreviation from "PH" to "HP" and also adds "DISCONTINUED BY PROVIDER", "DISCONTINUED (EDIT)", and "NON-VERIFIED" statuses for display on the patient’s medication profile for remote prescriptions.
+The OneVA Pharmacy patch PSO\*7\*736 replaces the query to the Health Data Repository / Clinical Data Service (HDR / CDS) repository with a query to the Veterans Data Information Exchange (VDIF). This patch includes modifications to the "PROVIDER HOLD" status abbreviation from "PH" to "HP" and also adds "DISCONTINUED BY PROVIDER", "DISCONTINUED (EDIT)", and "NON-VERIFIED" statuses for display on the patient's medication profile for remote prescriptions.
 
 ### Documentation Conventions
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This *Outpatient Pharmacy V. 7.0 Manager’s User Manual* includes documentation conventions, also known as notations, which are used consistently throughout this manual. Each convention is outlined below.
+This *Outpatient Pharmacy V. 7.0 Manager's User Manual* includes documentation conventions, also known as notations, which are used consistently throughout this manual. Each convention is outlined below.
 
 <table>
 <caption><p><span id="Page_4" class="anchor"></span>Table 2: Outpatient List Manager</p></caption>
@@ -26805,7 +26879,7 @@ This *Outpatient Pharmacy V. 7.0 Manager’s User Manual* includes documentation
 </tr>
 <tr class="even">
 <td>Screen prompts are denoted with quotation marks around them.</td>
-<td>The “Dosage:” prompt displays next.</td>
+<td>The "Dosage:" prompt displays next.</td>
 </tr>
 <tr class="odd">
 <td>Responses in bold face indicate user input.</td>
@@ -26847,9 +26921,9 @@ The following manuals are located on the [VistA Documentation Library (VDL)](htt
 Main Package Documentation:
 
 - Outpatient Pharmacy V. 7.0 Release Notes
-- Outpatient Pharmacy V. 7.0 Manager’s User Manual
-- Outpatient Pharmacy V. 7.0 Pharmacist’s User Manual
-- Outpatient Pharmacy V. 7.0 Technician’s User Manual
+- Outpatient Pharmacy V. 7.0 Manager's User Manual
+- Outpatient Pharmacy V. 7.0 Pharmacist's User Manual
+- Outpatient Pharmacy V. 7.0 Technician's User Manual
 - Outpatient Pharmacy V. 7.0 User Manual – Supplemental
 - Outpatient Pharmacy V. 7.0 Technical Manual/Security Guide
 - Dosing Order Check User Manual
@@ -26860,7 +26934,7 @@ Main Package Documentation:
 
 Additional Documentation:
 
-Additional documentation related to specific projects is also located on the VDL. For example, there may be several different Release Notes documents, which apply to specific projects. Also, there may be several sets of “Change Page” documents, which apply to changes made only for a specific package patch.
+Additional documentation related to specific projects is also located on the VDL. For example, there may be several different Release Notes documents, which apply to specific projects. Also, there may be several sets of "Change Page" documents, which apply to changes made only for a specific package patch.
 
 ## List Manager
 
@@ -26868,7 +26942,7 @@ Additional documentation related to specific projects is also located on the VDL
 
 The screen displayed when processing an order has changed dramatically from the previous version of Outpatient Pharmacy (e.g., v. 6.0). The new screen was designed using List Manager.
 
-This new screen gives more information and easier accessibility to vital reports and areas of a patient’s chart.
+This new screen gives more information and easier accessibility to vital reports and areas of a patient's chart.
 
 Please take the time to read over the explanation of the screen and the actions that can now be executed at the touch of a key. This type of preparation before attempting to use List Manager will reduce the time and effort needed to become skilled in order processing with this new version of <span id="P4_outPat_List_Manger" class="anchor"></span>List Manager.
 
@@ -26879,7 +26953,7 @@ Please take the time to read over the explanation of the screen and the actions 
 | <span id="P4_Table" class="anchor"></span>Position                          | Description                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Screen title                                                                | The screen title changes according to what type of information List Manager is displaying (e.g., Patient Information, Medication Profile, New OP Order (ROUTINE), etc.).                                                                                                                                                                                                                                     |
-| Allergy indicator                                                           | This indicator displays when there has been information entered into the ALLERGY field for the patient. The indicator displays “NO ALLERGY ASSESSMENT” if there is no allergy assessment for the patient.                                                                                                                                                                                                    |
+| Allergy indicator                                                           | This indicator displays when there has been information entered into the ALLERGY field for the patient. The indicator displays "NO ALLERGY ASSESSMENT" if there is no allergy assessment for the patient.                                                                                                                                                                                                    |
 | <span id="P5_Indic_Def" class="anchor"></span>Pregnancy/Lactation Indicator | This indicator displays a P when the patient is pregnant and a L when the patient is lactating. The indicator does not display if the patient is not pregnant and is not lactating.                                                                                                                                                                                                                          |
 | Header area                                                                 | <span id="LM_Header" class="anchor"></span>The header area is a "fixed" (non-scrollable) area that displays patient information, including patient demographic information and Clinical Alerts.                                                                                                                                                                                                              |
 | List area                                                                   | (scrolling region) This area scrolls (like the previous version) and displays the information on which action can be taken.                                                                                                                                                                                                                                                                                  |
@@ -26918,7 +26992,7 @@ The Status column may also reflect the type of Discontinue action performed on t
 - DE Discontinued due to edit via backdoor Pharmacy
 - DC Discontinued via backdoor Pharmacy
 - DD Discontinued due to death
-3.  A “B” will be appended to the above statuses if the Bad Address Indicator was set and there was no active temporary address at the time of the last label activity.
+3.  A "B" will be appended to the above statuses if the Bad Address Indicator was set and there was no active temporary address at the time of the last label activity.
 
 <table>
 <caption><p><span id="_Toc173226576" class="anchor"></span>Table 4: Actions</p></caption>
@@ -26939,24 +27013,24 @@ The Status column may also reflect the type of Discontinue action performed on t
 <blockquote>
 <p>&gt; Drug for the prescription is marked for CMOP.</p>
 <p>T Displayed when the last fill is either in a Transmitted or Retransmitted.</p>
-<p>CMOP state. (This indicator can overwrite the “&gt;” indicator.</p>
+<p>CMOP state. (This indicator can overwrite the "&gt;" indicator.</p>
 </blockquote></td>
 </tr>
 <tr class="even">
 <td>Copay Indicator:</td>
-<td>A “$” displayed to the right of the prescription number indicates the prescription is copay eligible.</td>
+<td>A "$" displayed to the right of the prescription number indicates the prescription is copay eligible.</td>
 </tr>
 <tr class="odd">
 <td>ePharmacy Indicator:</td>
-<td>An ‘e’ displayed to the right of the prescription number indicates that the prescription is electronic third-party billable.</td>
+<td>An 'e' displayed to the right of the prescription number indicates that the prescription is electronic third-party billable.</td>
 </tr>
 <tr class="even">
 <td><span id="MailExemptionIndicator" class="anchor"></span>Mail Exemption Indicator:</td>
-<td>An ‘x’ displayed to the right of the prescription number indicates that a Mail Exemption exists for the prescription which overrides the patient level mail preference</td>
+<td>An 'x' displayed to the right of the prescription number indicates that a Mail Exemption exists for the prescription which overrides the patient level mail preference</td>
 </tr>
 <tr class="odd">
 <td>Return to Stock Indicator:</td>
-<td>An “R” displayed to the right of the Last Fill Date indicates the last fill was returned to stock.</td>
+<td>An "R" displayed to the right of the Last Fill Date indicates the last fill was returned to stock.</td>
 </tr>
 <tr class="even">
 <td>Pending Orders:</td>
@@ -26968,7 +27042,7 @@ The Status column may also reflect the type of Discontinue action performed on t
 </tr>
 <tr class="even">
 <td>Orders:</td>
-<td>Prescribed by providers outside the VA, and medications prescribed by the VA, but purchased by the patient at an outside pharmacy are displayed here. Non-VA Meds orders cannot be placed or updated in Outpatient Pharmacy. The user can input information about a patient’s use of Non-VA Meds only through CPRS. However, the user can use either CPRS or Outpatient Pharmacy menu options to view Non-VA Meds data in a patient’s medical records.</td>
+<td>Prescribed by providers outside the VA, and medications prescribed by the VA, but purchased by the patient at an outside pharmacy are displayed here. Non-VA Meds orders cannot be placed or updated in Outpatient Pharmacy. The user can input information about a patient's use of Non-VA Meds only through CPRS. However, the user can use either CPRS or Outpatient Pharmacy menu options to view Non-VA Meds data in a patient's medical records.</td>
 </tr>
 <tr class="odd">
 <td>Third Party Rejects:</td>
@@ -27093,7 +27167,7 @@ The following hidden actions appear on the Medication Profile screen and can onl
 </tr>
 <tr class="odd">
 <td>Check Interactions [CK]</td>
-<td>Allows a user to perform order checks against the patient’s active medication profile with or without a Prospective drug.</td>
+<td>Allows a user to perform order checks against the patient's active medication profile with or without a Prospective drug.</td>
 </tr>
 <tr class="even">
 <td>DIN</td>
@@ -27126,7 +27200,7 @@ The following hidden actions appear on the Medication Profile screen and can onl
 </tr>
 <tr class="odd">
 <td><span id="p441_Add_TableRow_Park" class="anchor"></span>Park [PK]</td>
-<td>Places a prescription that is part of the patient’s current expected medication regimen on hold until the filled is requested</td>
+<td>Places a prescription that is part of the patient's current expected medication regimen on hold until the filled is requested</td>
 </tr>
 <tr class="even">
 <td>Patient Information [PI]</td>
@@ -27213,7 +27287,7 @@ ISSUE LAST REF DAY
 
 #### Speed Actions
 
-These Outpatient Pharmacy actions are referred to as “speed actions” and appear on the Medication Profile screen. These actions can be applied to one or more orders at a time.
+These Outpatient Pharmacy actions are referred to as "speed actions" and appear on the Medication Profile screen. These actions can be applied to one or more orders at a time.
 
 | Action                                                                                     | Description                                                                                          |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -27227,7 +27301,7 @@ These Outpatient Pharmacy actions are referred to as “speed actions” and app
 | Inpat. Profile \[IP\]                                                                      | Action taken to view an Inpatient Profile.                                                           |
 | CM                                                                                         | Action taken to manually queue to CMOP.                                                              |
 | Fill/Rel Date Disply \[RDD\]                                                               | Switch between displaying the FILL DATE column and the LAST RELD column.                             |
-| Display Remote \[DR\]                                                                      | Action taken to display a patient’s remote prescriptions.                                            |
+| Display Remote \[DR\]                                                                      | Action taken to display a patient's remote prescriptions.                                            |
 | <span id="SpeedMailExemption" class="anchor"></span>Mail Exemption for Prescription \[EX\] | Action that adds a Mail Exemption to prescriptions which override the patient level mail preference. |
 
 Table 7: Other Outpatient ListMan Actions
@@ -27247,7 +27321,7 @@ Table 8: Other Screen Actions
 #### Other Screen Actions
 
 <table>
-<caption><p><span id="_Toc173226581" class="anchor"></span>Table 9: Status of Patient’s Order</p></caption>
+<caption><p><span id="_Toc173226581" class="anchor"></span>Table 9: Status of Patient's Order</p></caption>
 <colgroup>
 <col style="width: 32%" />
 <col style="width: 67%" />
@@ -27277,40 +27351,40 @@ Table 8: Other Screen Actions
 </tr>
 <tr class="odd">
 <td>Exit Patient List [EX]</td>
-<td>Exit patient’s Patient Information screen so that a new patient can be selected.</td>
+<td>Exit patient's Patient Information screen so that a new patient can be selected.</td>
 </tr>
 <tr class="even">
 <td>Refill Rx from Another VA Pharmacy (RF)</td>
-<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the RF action item on the new ‘REMOTE OP Medications’ profile. The RF action item allows the Pharmacist to refill a prescription order that originated from another VA Pharmacy location.</p>
+<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the RF action item on the new 'REMOTE OP Medications' profile. The RF action item allows the Pharmacist to refill a prescription order that originated from another VA Pharmacy location.</p>
 <ol start="4">
 <li><p>For additional information regarding OneVA Pharmacy RF processing, please see Appendix A, OneVA Pharmacy User Manual.</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Partial from Another VA Pharmacy (PR)</td>
-<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the PR action item on the new ‘REMOTE OP Medications’ profile. The PR action item allows the Pharmacist to partial a prescription order that originated from another VA Pharmacy location.</p>
+<td><p>OneVA Pharmacy (patch PSO*7*454) introduced the PR action item on the new 'REMOTE OP Medications' profile. The PR action item allows the Pharmacist to partial a prescription order that originated from another VA Pharmacy location.</p>
 <ol start="5">
 <li><p>For additional information regarding OneVA Pharmacy PR processing, please see Appendix A, OneVA Pharmacy User Manual.</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><span id="P12_Preg_Lat" class="anchor"></span>Preg/Lact Display [PL]</td>
-<td>Displays a detailed listing of the patient’s current pregnant and current breastfeeding/lactating episodes.</td>
+<td>Displays a detailed listing of the patient's current pregnant and current breastfeeding/lactating episodes.</td>
 </tr>
 </tbody>
 </table>
 
-<span id="_Toc173226581" class="anchor"></span>Table 9: Status of Patient’s Order
+<span id="_Toc173226581" class="anchor"></span>Table 9: Status of Patient's Order
 
 #### Patient Demographics
 
-Patient demographic information and Clinical Alerts display in the List Manager header area when using certain Pharmacy options. The heading “Extended Patient Demographics” immediately precedes the demographic details to orient users and preserve a logical flow.
+Patient demographic information and Clinical Alerts display in the List Manager header area when using certain Pharmacy options. The heading "Extended Patient Demographics" immediately precedes the demographic details to orient users and preserve a logical flow.
 
-The extended demographics are derived from existing patient information and include such details as date of birth, weight, height, and gender, as well as information about the patient’s primary care team and/or physician, physician contact numbers (office phone/pager), clinician remarks, and assigned or recent facility where care is received.
+The extended demographics are derived from existing patient information and include such details as date of birth, weight, height, and gender, as well as information about the patient's primary care team and/or physician, physician contact numbers (office phone/pager), clinician remarks, and assigned or recent facility where care is received.
 
-6.  The Assigned or Most Recent Facility is derived from information in the patient’s profile. If the patient has a Primary Care (PC) team, the assigned facility is the one where PC team members practice. If the patient does not have a PC team, the current facility is derived from the visit history; usually, the facility where care was received most recently becomes the patient’s assigned facility. If the patient has no PC team and no recent visits, the Assigned or Most Recent Facility field is blank.
+6.  The Assigned or Most Recent Facility is derived from information in the patient's profile. If the patient has a Primary Care (PC) team, the assigned facility is the one where PC team members practice. If the patient does not have a PC team, the current facility is derived from the visit history; usually, the facility where care was received most recently becomes the patient's assigned facility. If the patient has no PC team and no recent visits, the Assigned or Most Recent Facility field is blank.
 
-Clinical Alerts are used to convey important patient care information, such as drug interactions or the patient’s participation in clinical trials. Use the Clinical Alert Enter/Edit \[PSO CLINICAL ALERT ENTER/EDIT\] option to add, edit, or delete Clinical Alerts from a patient’s record. For more information about using Clinical Alerts, refer to the *Outpatient Pharmacy (PSO) Manager’s User Manual*.
+Clinical Alerts are used to convey important patient care information, such as drug interactions or the patient's participation in clinical trials. Use the Clinical Alert Enter/Edit \[PSO CLINICAL ALERT ENTER/EDIT\] option to add, edit, or delete Clinical Alerts from a patient's record. For more information about using Clinical Alerts, refer to the *Outpatient Pharmacy (PSO) Manager's User Manual*.
 
 Patient demographics and any Clinical Alerts are prominently displayed in the [List Manager header area](#LM_Header) when using any of the following Outpatient Pharmacy options:
 
@@ -27318,7 +27392,7 @@ Patient demographics and any Clinical Alerts are prominently displayed in the [L
 - View Prescriptions \[PSO VIEW\]
 - Patient Prescription Processing \[PSO LM BACKDOOR ORDERS\]
 - Complete Orders from OERR \[PSO LMOE FINISH\]
-7.  If Extended Patient Demographics and Clinical Alerts cannot be displayed on a single page, the prompt “Type \<Enter\> to continue or ‘^’ to exit Clinical Alerts:” displays. Demographics and Clinical Alerts remain displayed until the Enter key is pressed, giving the user time to review the information before scrolling to the next page.
+7.  If Extended Patient Demographics and Clinical Alerts cannot be displayed on a single page, the prompt "Type \<Enter\> to continue or '^' to exit Clinical Alerts:" displays. Demographics and Clinical Alerts remain displayed until the Enter key is pressed, giving the user time to review the information before scrolling to the next page.
 
 <span id="P13_Pat_Dem" class="anchor"></span>Example: Patient Demographics and Clinical Alerts displayed in the List Manager Header
 
@@ -27352,7 +27426,7 @@ AUG 16, 2017@08:53:38 ENROLLED IN CLINICAL TRIAL
 
 OCT 06, 2017@11:54:32 REMOVED FROM CLINICAL TRIAL – ELEVATED BP
 
-Type \<Enter\> to continue or ‘^’ to exit Clinical Alerts:
+Type \<Enter\> to continue or '^' to exit Clinical Alerts:
 
 8.  The Primary Care Team Phone number comes from the PHONE field in the TEAM file (#404.51).
 
@@ -27438,28 +27512,28 @@ This chapter describes the options available on the *Bingo Board User* menu.
 
 \[PSO BINGO USER\]
 
-The *Bingo Board User* menu enables use of the bingo board display. The options on this menu allow a patient’s name or a number to be displayed, entered, or removed from the bingo board display located in the pharmacy area.
+The *Bingo Board User* menu enables use of the bingo board display. The options on this menu allow a patient's name or a number to be displayed, entered, or removed from the bingo board display located in the pharmacy area.
 
-When the routing for an order is set to “Window”, the entering of prescription orders stores information in the bingo board PATIENT NOTIFICATION (Rx READY) file. For new, renew, pull early from suspense, refill orders, barcode refill/renew, and finish process for orders entered via CPRS, the date and time is captured when the order is stored in this file. The same occurs for partials, except the time is captured when a prescription number is entered.
+When the routing for an order is set to "Window", the entering of prescription orders stores information in the bingo board PATIENT NOTIFICATION (Rx READY) file. For new, renew, pull early from suspense, refill orders, barcode refill/renew, and finish process for orders entered via CPRS, the date and time is captured when the order is stored in this file. The same occurs for partials, except the time is captured when a prescription number is entered.
 
-Releasing the prescription places the name or ticket number of the patient on the bingo board monitor if a display group exists and stores data in the WAITING TIME file. The options on this menu are used to manually enter, display, or remove a patient’s name or number from the monitor.
+Releasing the prescription places the name or ticket number of the patient on the bingo board monitor if a display group exists and stores data in the WAITING TIME file. The options on this menu are used to manually enter, display, or remove a patient's name or number from the monitor.
 
 The following options are available on the *Bingo Board User* menu:
 
 - *Enter New Patient*
-- *Display Patient’s Name on Monitor*
-- *Remove Patient’s Name from Monitor*
-- *Status of Patient’s Order*
+- *Display Patient's Name on Monitor*
+- *Remove Patient's Name from Monitor*
+- *Status of Patient's Order*
 
 #### Enter New Patient
 
-Use this option to manually enter the name of a new patient on the bingo board. Each prescription number for the patient’s order must also be entered.
+Use this option to manually enter the name of a new patient on the bingo board. Each prescription number for the patient's order must also be entered.
 
 A "Ticket \#" prompt displays if ticket number was chosen as the method of display in the *Enter/Edit Display* option on the *Bingo Board Manager* menu. Enter the ticket number and at the next prompt enter each of the prescription numbers for that patient.
 
 #### Display Patient's Name on Monitor
 
-Use this option to begin displaying the name or number of a patient whose prescription is ready. The message, "PRESCRIPTIONS ARE READY FOR:" appears as fixed text on the display screen. This option displays the following reminder for ECME billable prescriptions: “\*\*\* This Pharmacy Rx requires a patient signature! \*\*\*”
+Use this option to begin displaying the name or number of a patient whose prescription is ready. The message, "PRESCRIPTIONS ARE READY FOR:" appears as fixed text on the display screen. This option displays the following reminder for ECME billable prescriptions: "\*\*\* This Pharmacy Rx requires a patient signature! \*\*\*"
 
 #### Remove Patient's Name from Monitor
 
@@ -27467,7 +27541,7 @@ Use this option to begin displaying the name or number of a patient whose prescr
 
 After the patient picks up the prescription, remove the name or ticket number from the display either manually or through the barcode reader.
 
-9.  It is recommended that a patient’s name be removed from the monitor as soon as the prescription is picked up.
+9.  It is recommended that a patient's name be removed from the monitor as soon as the prescription is picked up.
 
 #### Status of Patient's Order
 
@@ -27813,9 +27887,9 @@ Edit a DUE Answer Sheet entry using this option. Ordinarily, the sequence number
 
 \[PSOD DUE BUILD QUESTIONNAIRE\]
 
-To create a questionnaire, first select one or more drugs being evaluated. After selecting the drugs, create a set of questions to be used on the questionnaire. These questions do not have to be added to the DUE QUESTION file since they are being added through this option. The questionnaire must be marked as “Active” and “Active for Profiles” for the Answer Sheet to automatically print with the Action Profiles. A summary can be printed for the questionnaire using the *DUE Report* option. For this reason, when creating a questionnaire, the user should strive to make each question a yes, no, or unknown type question. Questions having a free text or numeric type answer are ignored in the summary.
+To create a questionnaire, first select one or more drugs being evaluated. After selecting the drugs, create a set of questions to be used on the questionnaire. These questions do not have to be added to the DUE QUESTION file since they are being added through this option. The questionnaire must be marked as "Active" and "Active for Profiles" for the Answer Sheet to automatically print with the Action Profiles. A summary can be printed for the questionnaire using the *DUE Report* option. For this reason, when creating a questionnaire, the user should strive to make each question a yes, no, or unknown type question. Questions having a free text or numeric type answer are ignored in the summary.
 
-11. The PRINT DUE QUESTIONNAIRE site parameter needs to be set to “YES” for the questionnaire to print with the Action Profile.
+11. The PRINT DUE QUESTIONNAIRE site parameter needs to be set to "YES" for the questionnaire to print with the Action Profile.
 
 ### Batch Print Questionnaires
 
@@ -28077,7 +28151,7 @@ This chapter describes the Medication Profile, its different formats, and how it
 
 \[PSO P\]
 
-The Medication Profile displays a profile of all prescriptions on file for a particular patient. The profile display includes ‘local’ and all Non-VA Med orders. Effective with OneVA Pharmacy, the Medication Profile displays all active medications from other facilities. The medications are retrieved from VDIF and are displayed below the ‘local’ or ‘Non-VA Med’ orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status. The user may view this information directly on the screen or request it to be printed. The medication profile is available in two formats: short or long.
+The Medication Profile displays a profile of all prescriptions on file for a particular patient. The profile display includes 'local' and all Non-VA Med orders. Effective with OneVA Pharmacy, the Medication Profile displays all active medications from other facilities. The medications are retrieved from VDIF and are displayed below the 'local' or 'Non-VA Med' orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status. The user may view this information directly on the screen or request it to be printed. The medication profile is available in two formats: short or long.
 
 Patient demographics and Clinical Alerts display in the header area when using this option. Refer to the [Patient Demographics and Clinical Alerts](#patient-demographics) section of this document for more information.
 
@@ -28129,7 +28203,7 @@ The short format displays the status in an abbreviated form. The following is an
 
 > R Returned to stock prescription (next to last fill date)
 
-12. For the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is displayed in the Status column: “(Temp address from XXX 99,9999 till (no end date))”.\\
+12. For the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is displayed in the Status column: "(Temp address from XXX 99,9999 till (no end date))".\\
 
 <span id="_Toc198740728" class="anchor"></span>Figure 4: Medication Profile Short format
 
@@ -28139,11 +28213,11 @@ The short format displays the status in an abbreviated form. The following is an
 
 #### OneVA Pharmacy and Medication Profile
 
-The OneVA Pharmacy displays the Medication Profile with all active medications from other facilities. The medications are retrieved from VDIF and are displayed below the ‘local’ or ‘Non-VA Med’ orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
+The OneVA Pharmacy displays the Medication Profile with all active medications from other facilities. The medications are retrieved from VDIF and are displayed below the 'local' or 'Non-VA Med' orders and are sorted/grouped by facility. The prescriptions originating from other VA Pharmacy locations display under a divider header line showing the site name, site number, and status.
 
 14. For additional information regarding OneVA Pharmacy processing, please see the *OneVA Pharmacy User Manual* located in the [Outpatient](https://www.va.gov/vdl/application.asp?appid=90) section of the [VDL](http://www.va.gov/vdl)*.*
 
-The example shown below displays three pages of a test patient’s Medication Profile, displaying the ‘local’ prescription orders followed by prescription orders that originated at other facilities.
+The example shown below displays three pages of a test patient's Medication Profile, displaying the 'local' prescription orders followed by prescription orders that originated at other facilities.
 
 Medication Profile Jul 28, 2016@05:20:23 Page: 1 of 3
 
@@ -28281,9 +28355,9 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new view, ‘REMOTE OP Medications’, which displays the details of the remote prescription order. When selecting a OneVA Pharmacy prescription order from the Medication Profile screen, the new ‘REMOTE OP Medications’ page display as shown in the example below.
+The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new view, 'REMOTE OP Medications', which displays the details of the remote prescription order. When selecting a OneVA Pharmacy prescription order from the Medication Profile screen, the new 'REMOTE OP Medications' page display as shown in the example below.
 
-The OneVA Pharmacy patch PSO\*7\*497 updates the ‘REMOTE OP Medications’ display and introduces the new view for prescription orders that originated from other VA Pharmacy locations, the dispensing Pharmacy only has two actions available. They are:
+The OneVA Pharmacy patch PSO\*7\*497 updates the 'REMOTE OP Medications' display and introduces the new view for prescription orders that originated from other VA Pharmacy locations, the dispensing Pharmacy only has two actions available. They are:
 
 - RF Refill Rx from Another VA Pharmacy
 - PR Partial Fill Rx from Another VA Pharmacy
@@ -28350,52 +28424,52 @@ The OneVA Pharmacy patch contains specific business rules to prevent refill and/
 
 > Cannot refill Rx# xxxxxxx. Next possible fill date is MM/DD/YYYY
 
-- Patient’s prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is ‘discontinued’, ‘expired’, is on ‘hold’, or ‘suspended’.
+- Patient's prescription that originated from another VA Pharmacy location is not fully or partially dispensed when the prescription status is 'discontinued', 'expired', is on 'hold', or 'suspended'.
 
 > Only 'ACTIVE' remote prescriptions may be refilled at this time.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled) when there are zero remaining refills.
 
 > Unable to complete transaction. Cannot refill Rx \# xxxxxxx. No refills left.
 
 15. Partial fills are allowed.
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the dispensing site.
 
 > This is a controlled substance. Cannot refill Rx \# xxxxxxx.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is classified as a controlled substance on the host site.
 
 > Unable to complete transaction. Rx \#xxxxxxx cannot be refilled.
 
 > The associated drug is considered a controlled substance at the host facility.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug is inactive on the dispensing site.
 
 > Matched Drug \<DRUG NAME\> is inactive. Cannot refill.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when the drug has no dispensing site match.
 
 > No local match could be found for \<DRUG NAME\>
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product IEN.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refill or partial fill) when no drug on the dispensing site has a matching VA Product IEN.
 
 > Missing VA Product IEN. Rx \#xxxxxxx cannot be refilled.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription has a trade name.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription has a trade name.
 
 > This prescription cannot be refilled or partial filled because it has a value entered in the Rx trade name field. Please follow local policy for obtaining a new prescription.
 
-- Patient’s prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription type is Titration.
+- Patient's prescription that originated from another VA Pharmacy location and cannot be dispensed (refilled or partial fill) when the prescription type is Titration.
 
 > Cannot refill prescription - type is Titration. You may request a partial fill.
 
-- Patient’s prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
+- Patient's prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
 
 > Unable to complete transaction.
 
 > Cannot refill Rx# \######. Next possible fill date is 11/9/2017.
 
-OneVA Pharmacy patch PSO\*7\*479 modifies routine PSORRX2 to add the following text if no error message is returned when retrieving the label information from the host system. The following text is displayed just prior to the Label Device: ‘ prompt:
+OneVA Pharmacy patch PSO\*7\*479 modifies routine PSORRX2 to add the following text if no error message is returned when retrieving the label information from the host system. The following text is displayed just prior to the Label Device: ' prompt:
 
 For a refill:
 
@@ -28427,7 +28501,7 @@ DEVICE:
 
 The long format displays all information contained on the short format as well as the following additional fields:
 
-- physician’s name
+- physician's name
 - fill date
 - dates of refills / partial fills
 - whether the prescription was filled at the pharmacy window or by mail
@@ -28535,9 +28609,9 @@ Statement of Explanation: Non-VA medication recommended by VA provider
 
 Patient wants to buy from Non-VA pharmacy
 
-<span id="P30_WomHealth" class="anchor"></span>For patients whose birth sex is female, a line with the label, Women’s Health, will appear. It indicates if the patient is pregnant and/or lactating. If the patient is neither pregnant nor lactating, the label will appear with nothing after it. For patients whose birth sex is male, this line does not appear.
+<span id="P30_WomHealth" class="anchor"></span>For patients whose birth sex is female, a line with the label, Women's Health, will appear. It indicates if the patient is pregnant and/or lactating. If the patient is neither pregnant nor lactating, the label will appear with nothing after it. For patients whose birth sex is male, this line does not appear.
 
-An example of the Women’s Health label is listed below:
+An example of the Women's Health label is listed below:
 
 WOMEN'S HEALTH: Pregnant (Expected Due Date: Sep 19, 2021)
 
@@ -28547,7 +28621,7 @@ The Intervention menu hidden action has been included in the Patient Information
 - Complete Orders from OERR \[PSO LMOE FINISH\]
 - Edit Prescriptions \[PSO RXEDIT\]
 
-See “Using The Pharmacy Intervention Menu” for more details. Medication Profile and Refill \[PSO HRC PROFILE/REFILL\]
+See "Using The Pharmacy Intervention Menu" for more details. Medication Profile and Refill \[PSO HRC PROFILE/REFILL\]
 
 This option was originally requested by the Health Resource Center (HRC) to provide a new standalone option similar to that of the ePharmacy Medication Profile (View Only) \[PSO PMP\] option for the Compensation and Pension Record Interchange (CAPRI) system. It allows users to view a medication profile as well as refill prescriptions for a specific patient.
 
@@ -28623,7 +28697,7 @@ The *CV (Change View)* action allows the user to change some characteristics of 
 
 Example 2: Change View action
 
-Enter CV at the “Select” prompt to change the view preferences.
+Enter CV at the "Select" prompt to change the view preferences.
 
 OPPROVIDER,ONE's current default view (ALBANY):
 
@@ -28661,7 +28735,7 @@ Saving...OK!
 
 Example 3: Patient Information action
 
-Enter PI at the “Select” prompt to view patient information.
+Enter PI at the "Select" prompt to view patient information.
 
 Patient Information Jul 12, 2011@13:28:53 Page: 1 of 2
 
@@ -28707,7 +28781,7 @@ Select Action: Next Screen//
 
 Example 4: Medication Profile with SIG expanded
 
-Enter SIG at the “Select” prompt to show/hide the Rx SIG.
+Enter SIG at the "Select" prompt to show/hide the Rx SIG.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -28867,7 +28941,7 @@ Select Action: Next Screen//
 
 Example 6: Group By Status action
 
-Enter GS at the “Select” prompt to group/ungroup list by Rx status.
+Enter GS at the "Select" prompt to group/ungroup list by Rx status.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -28939,7 +29013,7 @@ Select: Quit//
 
 Example 7: Refill action
 
-Enter RF at the “Select” prompt to request a refill for one or more prescriptions as shown below. This action is also available after selecting a specific prescription.
+Enter RF at the "Select" prompt to request a refill for one or more prescriptions as shown below. This action is also available after selecting a specific prescription.
 
 Enter ?? for more actions
 
@@ -28985,7 +29059,7 @@ This chapter describes the tools available to perform Medication Reconciliation 
 
 The Medication Reconciliation functions may be performed via the use of four tools. The tools utilize Health Summary components and Text Integrated Utility (TUI) data objects to create a list of current medications. These Medication Reconciliation tools also leverage the Remote Data Interoperability (RDI) software to include medication data from other sites.
 
-Tool 1 is a Medication Reconciliation Profile health summary component. This report creates an alphabetical list of outpatient prescriptions, unit dose medications, documented non-VA medications, and remote VA medications. This summary can be used at transition points in a patient’s care, (admission, discharge, etc.) to identify medications that need to be continued, new items to be ordered, old items to be discontinued, or orders that need to be changed.
+Tool 1 is a Medication Reconciliation Profile health summary component. This report creates an alphabetical list of outpatient prescriptions, unit dose medications, documented non-VA medications, and remote VA medications. This summary can be used at transition points in a patient's care, (admission, discharge, etc.) to identify medications that need to be continued, new items to be ordered, old items to be discontinued, or orders that need to be changed.
 
 Tool 2 is a Medication Worksheet component. This report provides a grid-formatted list of active and pending medications suitable for giving to a patient at a clinic visit or upon discharge from the hospital.
 
@@ -28993,7 +29067,7 @@ Tool 3 is a TIU data object provided as an alternative to the Medication Chart h
 
 Tool 4 is a series of TIU data objects and health summary components that retrieve remote active medications and remote allergy/ADR data.
 
-For a complete list of functionalities, please refer to Medication Reconciliation Tools Implementation Guide. Upon completion of the steps listed in the Implementation Guide, users will be able to retrieve reports useful for Medication Reconciliation by selecting the newly created Health Summaries on the CPRS Reports tab or by using the newly created TIU templates and objects from the CPRS Notes Tab’s Templates Drawer and/or any progress note titles in which they have been embedded.
+For a complete list of functionalities, please refer to Medication Reconciliation Tools Implementation Guide. Upon completion of the steps listed in the Implementation Guide, users will be able to retrieve reports useful for Medication Reconciliation by selecting the newly created Health Summaries on the CPRS Reports tab or by using the newly created TIU templates and objects from the CPRS Notes Tab's Templates Drawer and/or any progress note titles in which they have been embedded.
 
 ## Using the Pharmacy Intervention Menu
 
@@ -29065,15 +29139,15 @@ This chapter describes the *Print from Suspense File* option used for printing s
 
 \[PSO PNDLBL\]
 
-This option allows the user to print labels from the RX SUSPENSE file. First, enter the “Print Through” date. Any prescriptions with a suspense date on or before the date entered will print. Additionally, if a patient has at least one prescription on or before the date entered, any other prescriptions for that patient that are in suspense for the specified number of days defined in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be pulled from suspense and printed.
+This option allows the user to print labels from the RX SUSPENSE file. First, enter the "Print Through" date. Any prescriptions with a suspense date on or before the date entered will print. Additionally, if a patient has at least one prescription on or before the date entered, any other prescriptions for that patient that are in suspense for the specified number of days defined in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be pulled from suspense and printed.
 
-For example, if today’s date is entered and Patient A has a prescription to be printed through today, all of Patient A's prescriptions for today plus the number of days set in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be printed. If there are no prescriptions for Patient A through today, no labels will print.
+For example, if today's date is entered and Patient A has a prescription to be printed through today, all of Patient A's prescriptions for today plus the number of days set in the DAYS TO PULL FROM SUSPENSE field (#3) in the OUTPATIENT SITE file (#59) will be printed. If there are no prescriptions for Patient A through today, no labels will print.
 
 Labels can be sorted by the patient name, the SSN, or the DEA Special Handling code. If sorted by DEA, the labels must then sort by patient name or SSN. Sorting by DEA will send the labels to the printer in three groups:
 
-- First group – will contain all the prescriptions with drugs that contain an “A” (narcotics and alcoholics) or a “C“ (controlled substances-non narcotic) in the DEA Special Handling field.
-- Second group – will contain all the prescriptions with drugs containing an “S” (supply) in the DEA Special Handling field.
-- Third group – will contain all others. If a patient has suspended prescriptions in more than one group, that patient’s labels will not print consecutively.
+- First group – will contain all the prescriptions with drugs that contain an "A" (narcotics and alcoholics) or a "C" (controlled substances-non narcotic) in the DEA Special Handling field.
+- Second group – will contain all the prescriptions with drugs containing an "S" (supply) in the DEA Special Handling field.
+- Third group – will contain all others. If a patient has suspended prescriptions in more than one group, that patient's labels will not print consecutively.
 
 Only one job is tasked for all of the prescriptions in the batch; therefore, if the job is queued by mistake, only one tasked job must be undone. Any prescription that is put in suspense for the "Print Through Date" between the times the job was queued until the time it actually runs will be included in the job.
 
@@ -29092,31 +29166,31 @@ If a prescription is determined to be an ePharmacy prescription (e.g., third par
 
 Suspended prescription labels can be printed by category when using the Print from Suspense File \[PSO PNDLBL\] option.
 
-The new prompt “Select Print Category: (A/N/C/S/R/D/V/E): ALL//” allows users to specify the prescription labels to be printed from the RX SUSPENSE file (#52.5) by selecting from the categories All (A), Non-Controlled Drugs (N), Controlled Substances (C), Supplies (S), Refrigerated Items (R), Drugs (D), and VA Classifications (V). To leave the prompt without choosing a print category, select Exit (E). Typing “?” at the prompt displays help text describing the available print categories.
+The new prompt "Select Print Category: (A/N/C/S/R/D/V/E): ALL//" allows users to specify the prescription labels to be printed from the RX SUSPENSE file (#52.5) by selecting from the categories All (A), Non-Controlled Drugs (N), Controlled Substances (C), Supplies (S), Refrigerated Items (R), Drugs (D), and VA Classifications (V). To leave the prompt without choosing a print category, select Exit (E). Typing "?" at the prompt displays help text describing the available print categories.
 
-22. Refrigerated Items are designated by the presence of a “Q” in the DEA Special Handling field (#3) of the Drug File (#50).
+22. Refrigerated Items are designated by the presence of a "Q" in the DEA Special Handling field (#3) of the Drug File (#50).
 
-![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-pso-7-0-770/010.png)Important: To ensure that all suspended prescriptions have been printed when printing from the suspense file by a category other than “ALL,” either run Print from Suspense by Category “ALL” after printing other categories, or print the Log of Suspended Rx’s by Day (this Division) using the VistA option \[PSO PNDLOG\]. This step ensures that no prescriptions are unintentionally left on suspense.
+![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-pso-7-0-770/010.png)Important: To ensure that all suspended prescriptions have been printed when printing from the suspense file by a category other than "ALL," either run Print from Suspense by Category "ALL" after printing other categories, or print the Log of Suspended Rx's by Day (this Division) using the VistA option \[PSO PNDLOG\]. This step ensures that no prescriptions are unintentionally left on suspense.
 
 Example: Print from Suspense by Category Prompt and Help Text
 
-Select Print Category: (A/N/C/S/R/D/V/E): ALL//” ?
+Select Print Category: (A/N/C/S/R/D/V/E): ALL//" ?
 
-Enter ‘A’ ALL Prescriptions on Suspense for the Division
+Enter 'A' ALL Prescriptions on Suspense for the Division
 
-‘N’ Non-Controlled RX or OTCs (Special Handling Code 6 or 9)
+'N' Non-Controlled RX or OTCs (Special Handling Code 6 or 9)
 
-‘C’ Controlled Substance Prescriptions (DEA 1, 2, 3, 4, 5)
+'C' Controlled Substance Prescriptions (DEA 1, 2, 3, 4, 5)
 
-‘S’ Supply Prescriptions (Special Handling Code ‘S’)
+'S' Supply Prescriptions (Special Handling Code 'S')
 
-‘R’ Refrigerated Prescriptions (Special Handling Code ‘Q’)
+'R' Refrigerated Prescriptions (Special Handling Code 'Q')
 
-‘D’ Prescriptions by Selected Drugs
+'D' Prescriptions by Selected Drugs
 
-‘V’ Prescriptions by Selected VA Classifications
+'V' Prescriptions by Selected VA Classifications
 
-Or ‘E’ or ‘^’ to Exit
+Or 'E' or '^' to Exit
 
 Select one of the following:
 
@@ -29149,7 +29223,7 @@ The following example shows both a summary and the full expanded path with avail
 
 Without help text:
 
-Select Print Category: (A/N/C/S/R/D/V/E): ALL//” n Non-Controlled Drugs
+Select Print Category: (A/N/C/S/R/D/V/E): ALL//" n Non-Controlled Drugs
 
 Non-Controlled Drugs: Include// Non-Controlled Drugs
 
@@ -29165,14 +29239,14 @@ Print Suspended 'Non-Controlled Drugs' selections? NO// YES
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “N” to select Non-Controlled Drugs and then follow the subsequent prompts:
-1.  The “Non-Controlled Drugs: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "N" to select Non-Controlled Drugs and then follow the subsequent prompts:
+1.  The "Non-Controlled Drugs: Include//" prompt displays. Type "?" to display the help text:
     - Select one of the following:
       - Include Non-Controlled Drugs
       - Exclude Non-Controlled Drugs
-2.  Type “Include” or press Return to accept the default value “Include.”
-23. All subsequent prompts shown below further refine the selection of “Include Non-Controlled Drugs.” For an example of Exclude functionality, refer to the example [<u>Excluding Non-Controlled Drugs</u>](#Example_NC_Exclude).
-3.  The “Include: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+2.  Type "Include" or press Return to accept the default value "Include."
+23. All subsequent prompts shown below further refine the selection of "Include Non-Controlled Drugs." For an example of Exclude functionality, refer to the example [<u>Excluding Non-Controlled Drugs</u>](#Example_NC_Exclude).
+3.  The "Include: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
     - Select one of the following:
 
 > M Mail
@@ -29181,11 +29255,11 @@ With expanded help text:
 
 > B Both Mail and Window
 
-4.  To accept the default value, type “Both” or press Return.
-5.  The “Include the following: (Rx/OTC/Both): Both//” prompt displays. This selection refines the labels to print by drug type. Type “?” to display the help text:
-    - Enter ‘RX’ Prescriptions for Legend Drugs (Special Handling Code 6)
-    - ‘OTC’ Prescriptions for OTC Drugs (Special Handling Code 9)
-    - ‘Both’ Prescriptions for BOTH Legend and OTC Drugs
+4.  To accept the default value, type "Both" or press Return.
+5.  The "Include the following: (Rx/OTC/Both): Both//" prompt displays. This selection refines the labels to print by drug type. Type "?" to display the help text:
+    - Enter 'RX' Prescriptions for Legend Drugs (Special Handling Code 6)
+    - 'OTC' Prescriptions for OTC Drugs (Special Handling Code 9)
+    - 'Both' Prescriptions for BOTH Legend and OTC Drugs
     - Select one of the following:
 
 > Rx Rx
@@ -29194,14 +29268,14 @@ With expanded help text:
 
 > Both Both RX and OTC
 
-6.  To accept the default value, type “Both” or press Return.
-7.  The “Include Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘NO’ to EXCLUDE refrigerated Non-Controlled Drugs from printing.”
-24. Drug File entries with a DEA Special Handling Code of “Q” will NOT print from Suspense using this category (absent the additional codes “6” or “9” and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of “Q” only, use the Refrigerated Category.
-8.  The “Include Supplies? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘NO’ to EXCLUDE Non-Controlled supplies from printing.”
-    - “Enter ‘YES’ to print Non-Controlled supplies.”
-25. Drug File entries with a DEA Special Handling Code of “S” will NOT print from Suspense using this category (absent the additional codes “6” or “9” and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of “S” only, use the Supply Category.
+6.  To accept the default value, type "Both" or press Return.
+7.  The "Include Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'NO' to EXCLUDE refrigerated Non-Controlled Drugs from printing."
+24. Drug File entries with a DEA Special Handling Code of "Q" will NOT print from Suspense using this category (absent the additional codes "6" or "9" and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of "Q" only, use the Refrigerated Category.
+8.  The "Include Supplies? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'NO' to EXCLUDE Non-Controlled supplies from printing."
+    - "Enter 'YES' to print Non-Controlled supplies."
+25. Drug File entries with a DEA Special Handling Code of "S" will NOT print from Suspense using this category (absent the additional codes "6" or "9" and depending on user responses to the Non-Controlled Category prompts). To print prescriptions from suspense with a DEA Special Handling Code of "S" only, use the Supply Category.
 
 <span id="Example_NC_Exclude" class="anchor"></span>Example: Print from Suspense by Category (Exclude Non-Controlled Drugs)
 
@@ -29225,14 +29299,14 @@ Print Suspended 'Non-Controlled Drugs' selections? NO// YES
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “N” to select Non-Controlled Drugs and then follow the subsequent prompts:
-1.  The “Non-Controlled Drugs: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "N" to select Non-Controlled Drugs and then follow the subsequent prompts:
+1.  The "Non-Controlled Drugs: Include//" prompt displays. Type "?" to display the help text:
     - Select one of the following:
       - Include Non-Controlled Drugs
       - Exclude Non-Controlled Drugs
-9.  Type “Exclude” to exclude Non-Controlled Drug labels from printing.
-26. All subsequent prompts shown below further refine the selection of “Exclude Non-Controlled Drugs.” For an example of Include functionality, refer to the example [Including Non-Controlled Drugs](#Example_NC_Include).
-10. The “Exclude: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+9.  Type "Exclude" to exclude Non-Controlled Drug labels from printing.
+26. All subsequent prompts shown below further refine the selection of "Exclude Non-Controlled Drugs." For an example of Include functionality, refer to the example [Including Non-Controlled Drugs](#Example_NC_Include).
+10. The "Exclude: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
     - Select one of the following:
 
 > M Mail
@@ -29241,12 +29315,12 @@ With expanded help text:
 
 > B Both Mail and Window
 
-11. To accept the default value, type “Both” or press Return.
-27. A “Both” response will exclude both Mail and Window Non-Controlled prescriptions from printing. A “Mail” response will ONLY exclude Mail Non-Controlled prescriptions from printing. A “Window” response will ONLY exclude Window Non-Controlled prescriptions from printing.
-12. The “Exclude the following: (Rx/OTC/Both): Both//” prompt displays. This selection refines the labels to print by drug type. Type “?” to display the help text:
-    - Enter ‘RX’ Prescriptions for Legend Drugs (Special Handling Code 6)
-    - ‘OTC’ Prescriptions for OTC Drugs (Special Handling Code 9)
-    - ‘Both’ Prescriptions for BOTH Legend and OTC Drugs
+11. To accept the default value, type "Both" or press Return.
+27. A "Both" response will exclude both Mail and Window Non-Controlled prescriptions from printing. A "Mail" response will ONLY exclude Mail Non-Controlled prescriptions from printing. A "Window" response will ONLY exclude Window Non-Controlled prescriptions from printing.
+12. The "Exclude the following: (Rx/OTC/Both): Both//" prompt displays. This selection refines the labels to print by drug type. Type "?" to display the help text:
+    - Enter 'RX' Prescriptions for Legend Drugs (Special Handling Code 6)
+    - 'OTC' Prescriptions for OTC Drugs (Special Handling Code 9)
+    - 'Both' Prescriptions for BOTH Legend and OTC Drugs
     - Select one of the following:
 
 > Rx Rx
@@ -29255,20 +29329,20 @@ With expanded help text:
 
 > Both Both RX and OTC
 
-13. To accept the default value, type “Both” or press Return.
-28. A “Both” response will exclude both Rx and OTC Non-Controlled prescriptions from printing. An “Rx” response will ONLY exclude Non-Controlled prescriptions from printing. An “OTC” response will ONLY exclude Non-Controlled OTCs from printing.
-14. The “Exclude Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘YES’ to EXCLUDE refrigerated Non-Controlled Drugs from printing.”
-    - “Enter ‘NO’ to print refrigerated Non-Controlled Drugs in addition to the other categories.”
-29. A ‘YES’ response excludes refrigerated Non-Controlled Drug labels for printing. All Non-Controlled Drugs, including refrigerated items, are excluded.
+13. To accept the default value, type "Both" or press Return.
+28. A "Both" response will exclude both Rx and OTC Non-Controlled prescriptions from printing. An "Rx" response will ONLY exclude Non-Controlled prescriptions from printing. An "OTC" response will ONLY exclude Non-Controlled OTCs from printing.
+14. The "Exclude Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'YES' to EXCLUDE refrigerated Non-Controlled Drugs from printing."
+    - "Enter 'NO' to print refrigerated Non-Controlled Drugs in addition to the other categories."
+29. A 'YES' response excludes refrigerated Non-Controlled Drug labels for printing. All Non-Controlled Drugs, including refrigerated items, are excluded.
 
-    A “NO’ response includes refrigerated Non-Controlled Drug labels for printing, but non-refrigerated Non-Controlled Drugs labels will remain excluded.
-15. The “Exclude Supplies? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘YES’ to EXCLUDE Non-Controlled supplies from printing.”
-    - “Enter ‘NO’ to print Non-Controlled supplies in addition to the other categories.”
-30. A ‘YES’ response excludes Non-Controlled Supplies labels from printing.
+    A "NO' response includes refrigerated Non-Controlled Drug labels for printing, but non-refrigerated Non-Controlled Drugs labels will remain excluded.
+15. The "Exclude Supplies? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'YES' to EXCLUDE Non-Controlled supplies from printing."
+    - "Enter 'NO' to print Non-Controlled supplies in addition to the other categories."
+30. A 'YES' response excludes Non-Controlled Supplies labels from printing.
 
-    A ‘NO’ response includes Non-Controlled Supplies labels for printing. Non-Controlled Drugs remain excluded.<span id="Example_PFS_Include_CS" class="anchor"></span>
+    A 'NO' response includes Non-Controlled Supplies labels for printing. Non-Controlled Drugs remain excluded.<span id="Example_PFS_Include_CS" class="anchor"></span>
 
 Example: Print from Suspense by Category (Include Controlled Substances)
 
@@ -29290,13 +29364,13 @@ Print Suspended 'Controlled Substances' selections? NO//
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “C” to select “Controlled Substances” and follow the subsequent prompts.
-1.  The “Controlled Substances: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "C" to select "Controlled Substances" and follow the subsequent prompts.
+1.  The "Controlled Substances: Include//" prompt displays. Type "?" to display the help text:
     - Select one of the following:
       - Include Controlled Substances
       - Exclude Controlled Substances
-31. All subsequent prompts further refine the selection of “Include Controlled Substances.” For an example of Exclude functionality for Controlled Substances, refer to the example [Excluding Controlled Substances](#Example_CS_Exclude).
-16. The “Include: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+31. All subsequent prompts further refine the selection of "Include Controlled Substances." For an example of Exclude functionality for Controlled Substances, refer to the example [Excluding Controlled Substances](#Example_CS_Exclude).
+16. The "Include: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
     - Select one of the following:
 
 > M Mail
@@ -29305,17 +29379,17 @@ With expanded help text:
 
 > B Both Mail and Window
 
-17. To accept the default value, type “Both” or press Return.
-18. The “Enter a list or range of CS Federal Schedules to INCLUDE (1-5): 1-5//” prompt displays. Type “?” to display the help text:
+17. To accept the default value, type "Both" or press Return.
+18. The "Enter a list or range of CS Federal Schedules to INCLUDE (1-5): 1-5//" prompt displays. Type "?" to display the help text:
     - This response must be a list or range, e.g., 2,4 or 3-5.
-32. Controlled Substances are specified by typing a range, for example “1-5.” Labels for all Controlled Substances with a schedule number included in this range will print.
+32. Controlled Substances are specified by typing a range, for example "1-5." Labels for all Controlled Substances with a schedule number included in this range will print.
 
-> Schedule numbers can also be specified in a list. For example, typing “1,3,5” at this prompt will include Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
+> Schedule numbers can also be specified in a list. For example, typing "1,3,5" at this prompt will include Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
 
-19. To accept the default value, type “1-5” or press Return.
-20. The “Include Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘NO’ to EXCLUDE refrigerated Controlled Substances of the selected range from printing.”
-    - “Enter ‘YES’ to print refrigerated Controlled Substances of the selected range.”
+19. To accept the default value, type "1-5" or press Return.
+20. The "Include Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'NO' to EXCLUDE refrigerated Controlled Substances of the selected range from printing."
+    - "Enter 'YES' to print refrigerated Controlled Substances of the selected range."
 
 There are no supplies associated with Controlled Substances.
 
@@ -29339,13 +29413,13 @@ Print Suspended 'Controlled Substances' selections? NO//
 
 With expanded help text:
 
-1.  At the “Print Category: (A/N/C/S/R/D/V/E): ALL//” prompt, type “C” to select “Controlled Substances” and follow the subsequent prompts:
-1.  The “Controlled Substances: Include//” prompt displays. Type “?” to display the help text:
+1.  At the "Print Category: (A/N/C/S/R/D/V/E): ALL//" prompt, type "C" to select "Controlled Substances" and follow the subsequent prompts:
+1.  The "Controlled Substances: Include//" prompt displays. Type "?" to display the help text:
     - Select one of the following:
       - Include Controlled Substances
       - Exclude Controlled Substances
-33. All subsequent prompts further refine the selection of “Exclude Controlled Substances.” For an example of Include functionality for Controlled Substances, refer to the example [Including Controlled Substances](#Example_PFS_Include_CS).
-21. The “Exclude: Mail (M), Window (W), Both (B): Both//” prompt displays. This selection refines the labels to print by delivery method. Type “ ?” to display the help text:
+33. All subsequent prompts further refine the selection of "Exclude Controlled Substances." For an example of Include functionality for Controlled Substances, refer to the example [Including Controlled Substances](#Example_PFS_Include_CS).
+21. The "Exclude: Mail (M), Window (W), Both (B): Both//" prompt displays. This selection refines the labels to print by delivery method. Type " ?" to display the help text:
     - Select one of the following:
 
 > M Mail
@@ -29354,21 +29428,21 @@ With expanded help text:
 
 > B Both Mail and Window
 
-22. To accept the default value, type “Both” or press Return.
-34. A “Both” response will exclude both Mail and Window Controlled Substance prescriptions from printing. A “Mail” response will ONLY exclude Mail Controlled Substances from printing. A “Window” response will ONLY exclude Window Controlled Substances from printing.
-23. The “Enter a list or range of CS Federal Schedules to EXCLUDE (1-5): 1-5//” prompt displays. Type “?” to display the help text:
-    - “This response must be a list or range, e.g., 2,4 or 3-5.”
-35. Controlled Substances are specified by typing a range, for example “1-5.” Labels for all Controlled Substances with a schedule number included in this range will be excluded from printing.
+22. To accept the default value, type "Both" or press Return.
+34. A "Both" response will exclude both Mail and Window Controlled Substance prescriptions from printing. A "Mail" response will ONLY exclude Mail Controlled Substances from printing. A "Window" response will ONLY exclude Window Controlled Substances from printing.
+23. The "Enter a list or range of CS Federal Schedules to EXCLUDE (1-5): 1-5//" prompt displays. Type "?" to display the help text:
+    - "This response must be a list or range, e.g., 2,4 or 3-5."
+35. Controlled Substances are specified by typing a range, for example "1-5." Labels for all Controlled Substances with a schedule number included in this range will be excluded from printing.
 
-> Schedule numbers can also be specified in a list. For example, typing “1,3,5” at this prompt will exclude Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
+> Schedule numbers can also be specified in a list. For example, typing "1,3,5" at this prompt will exclude Controlled Substances from Schedule 1, Schedule 3, and Schedule 5.
 
-24. To accept the default value, type “1-5” or press Return.
-25. The “Exclude Refrigerated Items? YES//” prompt displays. Type “?” to display the help text:
-    - “Enter ‘YES’ to EXCLUDE refrigerated Controlled Substances of the selected range from printing.”
-    - “Enter ‘NO’ to print refrigerated Controlled Substances of the selected range in addition to the other categories.”
-36. A ‘YES’ response excludes refrigerated Controlled Substance drug labels from printing. No Controlled Substances labels in the selected range will print (refrigerated or non-refrigerated).
+24. To accept the default value, type "1-5" or press Return.
+25. The "Exclude Refrigerated Items? YES//" prompt displays. Type "?" to display the help text:
+    - "Enter 'YES' to EXCLUDE refrigerated Controlled Substances of the selected range from printing."
+    - "Enter 'NO' to print refrigerated Controlled Substances of the selected range in addition to the other categories."
+36. A 'YES' response excludes refrigerated Controlled Substance drug labels from printing. No Controlled Substances labels in the selected range will print (refrigerated or non-refrigerated).
 
-    A ‘NO’ response includes refrigerated Controlled Substances in the selected range when printing. Labels for non-refrigerated Controlled Substances remain excluded and do not print.
+    A 'NO' response includes refrigerated Controlled Substances in the selected range when printing. Labels for non-refrigerated Controlled Substances remain excluded and do not print.
 
 There are no supplies associated with Controlled Substances.
 
@@ -29386,9 +29460,9 @@ Comments: 3/4 of Days Supply SUSPENSE HOLD until 6/20/08.
 
 - To fill the prescription earlier, users may pull these types of prescriptions early from suspense.
 
-The 3/4 days supply processing can be bypassed for billable prescriptions with third party insurance by using the hidden action “BY” on the Outpatient Medications Screen or selecting option “BY” on the ePharmacy Menu. Refer to Chapter 23,“Bypass 3/4 Supply” in this document for the ePharmacy Menu option “BY”. The user will have the ability to undo the Bypass from the Outpatient Medications Screen.
+The 3/4 days supply processing can be bypassed for billable prescriptions with third party insurance by using the hidden action "BY" on the Outpatient Medications Screen or selecting option "BY" on the ePharmacy Menu. Refer to Chapter 23,"Bypass 3/4 Supply" in this document for the ePharmacy Menu option "BY". The user will have the ability to undo the Bypass from the Outpatient Medications Screen.
 
-Example of the Bypass set to “NO” on the Outpatient Medications Screen. If the user continues, the Bypass will be set to “YES”:
+Example of the Bypass set to "NO" on the Outpatient Medications Screen. If the user continues, the Bypass will be set to "YES":
 
 Select Action: Next Screen// BY BY
 
@@ -29400,7 +29474,7 @@ Supply logic will be bypassed when the RX is sent to CMOP.
 
 Continue? Yes//
 
-Example of the Bypass set to “YES” on the Outpatient Medications Screen. If the user continues, the Bypass will be set to “NO”, undoing the Bypass:
+Example of the Bypass set to "YES" on the Outpatient Medications Screen. If the user continues, the Bypass will be set to "NO", undoing the Bypass:
 
 Select Action: Next Screen// BY BY
 
@@ -29438,7 +29512,7 @@ Comments: Bypass 3/4 Day Supply set to YES
 
 Comments: 3/4 Day Supply logic bypassed during CMOP processing
 
-- If the Bypass value has been set to “YES” for a prescription and the user performs the action CSD (Change Suspense Date), the following alert will display:
+- If the Bypass value has been set to "YES" for a prescription and the user performs the action CSD (Change Suspense Date), the following alert will display:
 
 Currently Bypass 3/4 Day Supply is set to YES. If you continue, the prescription fill will transmit to CMOP on the new Suspense Date entered.
 
@@ -29471,7 +29545,7 @@ This chapter describes the display of Allergy Order Checks functionality that ap
 
 The following changes have been made to the existing allergy order checks:
 
-1.  In Backdoor Pharmacy, the system will require the pharmacist to complete an Intervention if the severity value equals ‘Severe’ before allowing the pharmacist to continue with the order. The intervention functionality will be similar to the Critical Drug-Drug Interactions in backdoor pharmacy today.
+1.  In Backdoor Pharmacy, the system will require the pharmacist to complete an Intervention if the severity value equals 'Severe' before allowing the pharmacist to continue with the order. The intervention functionality will be similar to the Critical Drug-Drug Interactions in backdoor pharmacy today.
 37. Severity for an allergy can ONLY be entered for (O)bserved and NOT (H)istorical Allergy/Adverse Reactions. The user MUST HOLD the GMRA-ALLERGY VERIFY key and complete an observed reaction report to enter MECHANISM and SEVERITY for Observed Allergies/Adverse Reactions.
 4.  For a Severe Allergy the user is required to enter an intervention and their electronic signature
 5.  For allergies/adverse reactions with Severity of Mild, Moderate, or Not Entered, the system will continue the same as it does today with the option that allows the pharmacist to enter an intervention at their discretion.
@@ -29563,7 +29637,7 @@ Do you want to Intervene? YES// n NO
 
 With a SEVERE reaction, an intervention is required!
 
-38. “With a severe reaction, an intervention is required”
+38. "With a severe reaction, an intervention is required"
 
 Severe with Intervention:
 
@@ -30055,9 +30129,9 @@ Using this option, information for medications that have been marked as a drug/d
 
 This section describes the Drug/Drug Interaction enhancements made to the Outpatient Pharmacy application included in PSO\*7\*251 and Maximum Single Dose Check enhancement in PSO\*7\*372.
 
-Legacy VistA Drug/Drug Interactions have been enhanced to utilize First DataBank’s (FDB) Drug Information Framework (DIF) business rules, APIs, and database to provide more clinically relevant Drug Interaction information. No changes have been made to the existing user actions for critical or significant Drug Interactions. The pharmacist will have to log an intervention for local, pending and remote critical interactions and have the option of logging an intervention for local, and remote significant interactions. No action is required for Non-VA medications orders.
+Legacy VistA Drug/Drug Interactions have been enhanced to utilize First DataBank's (FDB) Drug Information Framework (DIF) business rules, APIs, and database to provide more clinically relevant Drug Interaction information. No changes have been made to the existing user actions for critical or significant Drug Interactions. The pharmacist will have to log an intervention for local, pending and remote critical interactions and have the option of logging an intervention for local, and remote significant interactions. No action is required for Non-VA medications orders.
 
-FDB custom Drug Interaction tables will be used to store custom changes to FDB standard reference Drug Interaction tables. FDB Drug Interactions that are designated as critical in VistA will have their severity level modified to ‘1’. All FDB Drug Interactions that are designated as significant in VistA will have their severity level modified to ‘2’. Any Drug Interaction in VistA that is not in FDB will be added to the FDB custom tables. For these interactions a custom monograph will be created with a clinical effects section.
+FDB custom Drug Interaction tables will be used to store custom changes to FDB standard reference Drug Interaction tables. FDB Drug Interactions that are designated as critical in VistA will have their severity level modified to '1'. All FDB Drug Interactions that are designated as significant in VistA will have their severity level modified to '2'. Any Drug Interaction in VistA that is not in FDB will be added to the FDB custom tables. For these interactions a custom monograph will be created with a clinical effects section.
 
 The following Outpatient Pharmacy order entry processes have been enhanced:
 
@@ -30249,7 +30323,7 @@ Copyright \<Insert Current Year\> First DataBank, Inc.
 
 Following the drug interaction monograph prompts, when a critical or significant drug interaction is generated with a local, pending, Non-VA med or remote medication order, users not holding a PSORPH key shall be presented with the next prompt in the current order entry dialog. They shall not be shown any intervention prompts or dialog.
 
-Following the Drug Interaction monograph prompts, when a significant Drug Interaction is generated with a local, pending, or remote medication order, the user will be presented with ‘Do you want to intervene?’ prompt for the following processes:
+Following the Drug Interaction monograph prompts, when a significant Drug Interaction is generated with a local, pending, or remote medication order, the user will be presented with 'Do you want to intervene?' prompt for the following processes:
 
 - New order entry via backdoor pharmacy options
 - Finishing a pending order
@@ -34099,7 +34173,7 @@ This section describes enhancements to the existing VistA Duplicate Class order 
 
 The current VistA Duplicate Class checks have been enhanced using the FDB business rules and database, as well as the FDB Enhanced Therapeutic Classification (ETC) system. The Duplicate Class check will now be referred to as the Duplicate Therapy order check. This order check will continue to be performed against active, pending, non-verified orders on hold (initiated through pharmacy or CPRS), expired and discontinued orders. The timeframe for inclusion of expired orders is determined by the display rules on the medication profile. The timeframe for inclusion of locally discontinued orders is determined by the following formula: Discontinued Date (Cancel Date) + Days Supply + 7. This check will be performed on active Non-VA Medication orders.
 
-No changes have been made to the existing user actions for Duplicate Therapy order checks. Users will continue to have the ability to discontinue the order. The existing order will only be discontinued upon acceptance of the order being processed. No discontinue actions can be performed on remote outpatient orders, Non-VA medications, discontinued, and expired orders or orders placed on provider hold through CPRS. If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, no discontinue action is allowed on any duplicate class order.
+No changes have been made to the existing user actions for Duplicate Therapy order checks. Users will continue to have the ability to discontinue the order. The existing order will only be discontinued upon acceptance of the order being processed. No discontinue actions can be performed on remote outpatient orders, Non-VA medications, discontinued, and expired orders or orders placed on provider hold through CPRS. If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', no discontinue action is allowed on any duplicate class order.
 
 Any remote Outpatient order (from another VAMC or Department of Defense (DoD) facility) using data from Health Data Repository Historical (HDR-Hx) or Health Data Repository- Interim Messaging Solution (HDR-IMS) that has been expired for 120 days or less will be included in the list of medications to be checked.
 
@@ -34193,7 +34267,7 @@ Class(es)Involved in Therapeutic Duplication(s): Peptic Ulcer Agents, Histamine-
 
 ===============================================================================
 
-If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, the following information is shown for the duplicate therapy warning:
+If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', the following information is shown for the duplicate therapy warning:
 
 ================================================================================
 
@@ -34217,9 +34291,9 @@ If there is more than one remote, local, pending or Non-VA med order involved in
 
 If the same drugs are involved in multiple therapeutic duplications, a single therapeutic duplication warning will be displayed and multiple therapeutic classes will be listed.
 
-If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘No’, no discontinue action prompt will be presented.
+If the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'No', no discontinue action prompt will be presented.
 
-After all the therapeutic duplication warnings are displayed and if the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to ‘Yes’, the user will be asked if they want to discontinue any of the orders.
+After all the therapeutic duplication warnings are displayed and if the CANCEL DRUG IN SAME CLASS outpatient site parameter is set to 'Yes', the user will be asked if they want to discontinue any of the orders.
 
 See Examples:
 
@@ -34233,7 +34307,7 @@ The system will display the following information for the numbered list of order
 
 - Prescription number (if applicable)
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Indicate if the order is pending (with text ‘Pending Order’)
+- Indicate if the order is pending (with text 'Pending Order')
 
 See example below:
 
@@ -34264,9 +34338,9 @@ If the user fails to accept the order that is being processed or exits before ac
 The message displayed to the user shall contain:
 
 - Indicate that discontinuance was for Duplicate Therapy
-- The prescription number or text ‘Pending order’ if order status is pending.
+- The prescription number or text 'Pending order' if order status is pending.
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Ending with text ‘NOT Discontinued.’
+- Ending with text 'NOT Discontinued.'
 
 See examples below:
 
@@ -34279,9 +34353,9 @@ Once the order being processed is accepted and there were orders selected for di
 The message displayed to the user shall contain:
 
 - Indicate that discontinuance was for Duplicate Therapy
-- The prescription number or text ‘Pending order’ if order status is pending.
+- The prescription number or text 'Pending order' if order status is pending.
 - Dispense Drug (Orderable item if dispense drug not assigned to order)
-- Ending with text ‘has been discontinued.’
+- Ending with text 'has been discontinued.'
 
 See examples below:
 
@@ -34553,7 +34627,7 @@ Is this correct? YES//
 
 Another New Order for PSOPATIENT,ONE? YES//
 
-Example: Finishing Pending Order – Therapeutic Duplication with Non-Verified and Active orders. One drug is involved in both therapeutic duplications. One duplication allowance value is greater than ‘0’.
+Example: Finishing Pending Order – Therapeutic Duplication with Non-Verified and Active orders. One drug is involved in both therapeutic duplications. One duplication allowance value is greater than '0'.
 
 -------------------------------------ACTIVE----------------------------------
 
@@ -35621,7 +35695,7 @@ This chapter describes the option for pulling prescriptions early from the SUSPE
 
 This option is used to pull a specific prescription or all prescriptions for a patient early. If a prescription is pulled early using this option, it will not be associated with any printed batch. A label cannot be reprinted with the *Reprint Batches from Suspense* option if the prescription has been pulled early suspense. In addition, Method of Pickup can be edited. Also, there is no longer a "DELETE FROM SUSPENSE PROMPT." That prompt has been changed to "Pull Rx(s) and delete from Suspense." Yes must be answered to this prompt to pull the prescriptions, and they will always be deleted from suspense. Since prescriptions that are pulled early from suspense do not belong to any printed batch and cannot be reprinted from suspense, there is no reason to leave them in suspense.
 
-If the Label Log indicates that a Label has already printed for this prescription and fill, then the user is asked whether to continue. If the user chooses “No”, the label will not print. In addition, the prescription shall be removed from Suspense unless the suspense queue indicates that a user has previously requested a reprint of the suspended prescription. If the user chooses “Yes”, the prescription shall continue and will print the label. In the example below, the label will not print but the Prescription will be left on Suspense.
+If the Label Log indicates that a Label has already printed for this prescription and fill, then the user is asked whether to continue. If the user chooses "No", the label will not print. In addition, the prescription shall be removed from Suspense unless the suspense queue indicates that a user has previously requested a reprint of the suspended prescription. If the user chooses "Yes", the prescription shall continue and will print the label. In the example below, the label will not print but the Prescription will be left on Suspense.
 
 Label for Rx#1 XXXXXX Fill#0 has already been printed
 
@@ -35630,8 +35704,8 @@ Do you want to continue? No// NO
 Reprint Flag is on. Prescription left on suspense.
 
 41. If the prescription being pulled from suspense has an FDA Medication Guide associated, the user will be required to enter a valid FDA Medication Guide printer.
-42. If the routing is changed to “Window” when pulling from suspense early, and the bingo board is being used, those prescriptions will be sent to the bingo board.
-43. If the patient has remote prescriptions, then the text “THIS PATIENT HAS PRESCRIPTIONS AT OTHER FACILITIES” will appear on the report as shown in the following example.
+42. If the routing is changed to "Window" when pulling from suspense early, and the bingo board is being used, those prescriptions will be sent to the bingo board.
+43. If the patient has remote prescriptions, then the text "THIS PATIENT HAS PRESCRIPTIONS AT OTHER FACILITIES" will appear on the report as shown in the following example.
 
 PRESCRIPTION PROFILE AS OF 12/30/2008
 
@@ -35688,13 +35762,13 @@ Example: The drug for which the prescription is written is no longer marked for 
 
 9.  The copay status of the prescription is automatically reset, an entry is placed in the copay activity log, and a MailMan message is generated detailing missing information required for user follow up.
 
-> Example: The drug for which the prescription is written is no longer marked for investigational use. The copay status of the prescription is reset from No Copayment to Copay. The patient has been documented as being exposed to Southwest Asia Conditions during Persian Gulf War service since the last fill. A MailMan message will be generated informing the user that the ‘Is this Rx for treatment related to service in SW Asia?’ question must be addressed and documented using the *Reset Copay Status/Cancel Charges* option.
+> Example: The drug for which the prescription is written is no longer marked for investigational use. The copay status of the prescription is reset from No Copayment to Copay. The patient has been documented as being exposed to Southwest Asia Conditions during Persian Gulf War service since the last fill. A MailMan message will be generated informing the user that the 'Is this Rx for treatment related to service in SW Asia?' question must be addressed and documented using the *Reset Copay Status/Cancel Charges* option.
 
 10. A MailMan message is generated detailing missing information required for user follow-up.
 
-Example: A veteran is documented as having Agent Orange exposure. Refill \#2 for a prescription entered into the system before the new medication copay exemptions took effect on January 1, 2002 is released. The prescription is copay eligible. A MailMan message will be generated informing recipients that the ‘Is this Rx for treatment of Vietnam-Era Herbicide (Agent Orange) exposure?’ question must be addressed. The copay status of the Rx may change based on the response entered using the *Reset Copay Status/Cancel Charges* option.
+Example: A veteran is documented as having Agent Orange exposure. Refill \#2 for a prescription entered into the system before the new medication copay exemptions took effect on January 1, 2002 is released. The prescription is copay eligible. A MailMan message will be generated informing recipients that the 'Is this Rx for treatment of Vietnam-Era Herbicide (Agent Orange) exposure?' question must be addressed. The copay status of the Rx may change based on the response entered using the *Reset Copay Status/Cancel Charges* option.
 
-If a MailMan message is generated at the time a prescription fill is released, the recipients of the message will be the provider of record, the pharmacy user who finished the order, and holders of the PSO COPAY key. The message lists the patient name, prescription number, and medication ordered, current copay status, and applicable copay exemption questions that need addressing to determine the prescription’s copay status. The *Reset Copay Status/Cancel Charges* option must be used to enter the responses to the medication copay exemption questions listed in the MailMan message. If responses are not entered for the applicable medication copay exemption questions, any subsequent refills when released for this prescription and possibly other prescriptions for this patient will continue to generate the same MailMan message.
+If a MailMan message is generated at the time a prescription fill is released, the recipients of the message will be the provider of record, the pharmacy user who finished the order, and holders of the PSO COPAY key. The message lists the patient name, prescription number, and medication ordered, current copay status, and applicable copay exemption questions that need addressing to determine the prescription's copay status. The *Reset Copay Status/Cancel Charges* option must be used to enter the responses to the medication copay exemption questions listed in the MailMan message. If responses are not entered for the applicable medication copay exemption questions, any subsequent refills when released for this prescription and possibly other prescriptions for this patient will continue to generate the same MailMan message.
 
 Example: MailMan Message
 
@@ -35772,7 +35846,7 @@ reimbursable by third party insurance.
 
 Enter message action (in IN basket): Ignore//
 
-An annual copayment cap is applied to patients in specific priority enrollment groups. Once a patient reaches the annual copayment cap, no further medication copay charges will be billed for the calendar year. An entry to that effect is made to the Copay Activity Log. The ‘\$’ indicator remains next to the prescription number to indicate that the prescription is still copay eligible.
+An annual copayment cap is applied to patients in specific priority enrollment groups. Once a patient reaches the annual copayment cap, no further medication copay charges will be billed for the calendar year. An entry to that effect is made to the Copay Activity Log. The '\$' indicator remains next to the prescription number to indicate that the prescription is still copay eligible.
 
 Integrated Billing software keeps track of all prescription fills not billed due to the annual cap.
 
@@ -35788,7 +35862,7 @@ Copay Activity Log:
 
 Comment: NO BILLING FOR THIS FILL
 
-If for whatever reason (e.g., prescription fill is returned to stock and copay charges cancelled), a patient falls below the annual copayment cap, the Integrated Billing package can initiate copay charges to bring the patient back up to the annual copayment cap. Integrated billing software will go back and bill a copay charge for those fills previously not charged due to the annual cap, bringing the patient’s total copayment up to the cap. Whenever this occurs an entry will be placed in the copay activity log.
+If for whatever reason (e.g., prescription fill is returned to stock and copay charges cancelled), a patient falls below the annual copayment cap, the Integrated Billing package can initiate copay charges to bring the patient back up to the annual copayment cap. Integrated billing software will go back and bill a copay charge for those fills previously not charged due to the annual cap, bringing the patient's total copayment up to the cap. Whenever this occurs an entry will be placed in the copay activity log.
 
 Example: Copay Activity Log With IB-Initiated Charge
 
@@ -35952,7 +36026,7 @@ Press Return to Continue:
 
 #### Changes to Releasing Orders Function – Signature Alert
 
-With Patch PSO\*7\*385, the release function in the *Patient Prescription Processing* option has been modified to display a message to the user when an ECME-billable prescription is being released as a window fill. This message will alert the user that the patient’s signature must be obtained. The user is not required to press \<Enter\> to continue or respond to the alert in any other manner.
+With Patch PSO\*7\*385, the release function in the *Patient Prescription Processing* option has been modified to display a message to the user when an ECME-billable prescription is being released as a window fill. This message will alert the user that the patient's signature must be obtained. The user is not required to press \<Enter\> to continue or respond to the alert in any other manner.
 
 Example: Releasing an ePharmacy Window Fill
 
@@ -36071,7 +36145,7 @@ This option is used when a prescription has been released, but has been refused,
 
 A prescription can only be returned to stock if the prescription status is Active, Discontinued, or Expired. If the prescription is not released, there is no need to return it to stock. This function increases the inventory so that a more current level is maintained by the Outpatient Pharmacy package and removes the copay charge if it is applicable to the prescription. It is highly recommended that this option be used.
 
-When an ePharmacy prescription is returned to stock, the software checks if the it has a PAYABLE claim, if so, a request is sent to ECME to electronically reverse the claim with the third party payer. Also, if the prescription contains any unresolved DUR or REFILL TOO SOON reject, it will be marked resolved with the reason ‘Prescription Returned To Stock’.
+When an ePharmacy prescription is returned to stock, the software checks if the it has a PAYABLE claim, if so, a request is sent to ECME to electronically reverse the claim with the third party payer. Also, if the prescription contains any unresolved DUR or REFILL TOO SOON reject, it will be marked resolved with the reason 'Prescription Returned To Stock'.
 
 If a copay charge is removed by returning a prescription fill to stock, an entry will be placed in the copay activity log documenting the action.
 
@@ -36461,16 +36535,16 @@ Was treatment for a Service Connected condition? NO//
 
 OneVA Pharmacy provides messaging to query VDIF for prescriptions from other VA Pharmacy locations and displays them in the Medications Profile view.
 
-The query will only execute if the patient has been treated at more than one VA Medical Center. The query retrieves all prescriptions associated with the patient from the repository, which requires additional time. To execute the query VDIF, the user must answer ‘YES’ to the ‘Would you like to query prescriptions from other OneVA Pharmacy locations?’ prompt. When the user responds ‘YES’ to the OneVA Pharmacy prompt, the system displays the OneVA Pharmacy Query Message.
+The query will only execute if the patient has been treated at more than one VA Medical Center. The query retrieves all prescriptions associated with the patient from the repository, which requires additional time. To execute the query VDIF, the user must answer 'YES' to the 'Would you like to query prescriptions from other OneVA Pharmacy locations?' prompt. When the user responds 'YES' to the OneVA Pharmacy prompt, the system displays the OneVA Pharmacy Query Message.
 
-47. The OneVA Pharmacy’s feature to query VDIF will not execute if the patient has only one entry in the ‘TREATING FACILITY LIST file (#391.91)’.
+47. The OneVA Pharmacy's feature to query VDIF will not execute if the patient has only one entry in the 'TREATING FACILITY LIST file (#391.91)'.
 48. The system identifies and queries VDIF for all the prescriptions that are active, suspended, on hold, expired (within 120 days), or discontinued (within 120 days).
-49. If the query connection to VDIF fails, a message will display stating ‘The system is down or not responding. Could not query prescriptions at other VA Pharmacy locations’. The user should press Return to continue and contact local support if this problem persists.
-50. When the ‘system is down’ message displays, the VistA session will continue to display the local/dispensing sites prescriptions on the Medication Profile view. There will be no indication if a patient is registered or has prescriptions on other sites (i.e., remote site / OneVA Pharmacy prescriptions will not display on the Medication Profile view.)
-51. If the patient does not have any prescription records from other VA Pharmacy locations matching the search criteria, a message will display stating the “Patient found with no prescription records matching search criteria.”
+49. If the query connection to VDIF fails, a message will display stating 'The system is down or not responding. Could not query prescriptions at other VA Pharmacy locations'. The user should press Return to continue and contact local support if this problem persists.
+50. When the 'system is down' message displays, the VistA session will continue to display the local/dispensing sites prescriptions on the Medication Profile view. There will be no indication if a patient is registered or has prescriptions on other sites (i.e., remote site / OneVA Pharmacy prescriptions will not display on the Medication Profile view.)
+51. If the patient does not have any prescription records from other VA Pharmacy locations matching the search criteria, a message will display stating the "Patient found with no prescription records matching search criteria."
 
     The OneVA Pharmacy patch PSO\*7\*643 introduces the sending of OneVA Rx refills / partial fills to the OPAI to be filled by an external automated dispensing robot when a OneVA Rx refill or partial is processed. The user is not prompted with whether or not to send the refill / partial fill to the OPAI. Whether or not the OneVA Rx refill / partial fill is sent to the OPAI is determined by the EXTERNAL INTERFACE parameter setting in the OUTPATIENT SITE File (#59). Additional parameters in the OUTPATIENT SITE File (#59) and DRUG File (#50) determine which external automated dispensing robot the refill/partial fill is routed to.
-52. The initial ability to send OneVA refill/partial fill to the OPAI excludes the release functionality regardless of whether or not the parameter ‘FILE RELEASE DATE/TIME’ in the OUTPATIENT SITE File (#59) is set to ‘Yes’. Specific release functions for a dispensing site versus a host site will be provided in a future release.
+52. The initial ability to send OneVA refill/partial fill to the OPAI excludes the release functionality regardless of whether or not the parameter 'FILE RELEASE DATE/TIME' in the OUTPATIENT SITE File (#59) is set to 'Yes'. Specific release functions for a dispensing site versus a host site will be provided in a future release.
 
 Example: OneVA Pharmacy Processing
 
@@ -36510,7 +36584,7 @@ ISSUE LAST REF DAY\# RX \# DRUG QTY ST DATE FILL REM SUP\<No local prescriptions
 
 Site \#: 984(ANYTOWN,OH)Rx \#: XXXXXXXDrug Name: IBUPROFEN 800MG TABDays Supply: 30Quantity: 60Refills: 11Expiration Date: 06/01/17Issue Date: 05/31/16Stop Date: 06/01/17Last Fill Date: 05/31/16Sig: TAKE ONE TABLET BY MOUTH TWICE A DAY AS NEEDED --TAKE WITHFOOD IF GI UPSET OCCURS/DO NOT CRUSH OR CHEW--Enter ?? for more actionsRF Refill Rx from Another VA PharmacyPR Partial Fill Rx from Another VA PharmacySelect Action:Quit// RF Refill Rx from Another VA PharmacySelect Action:Quit// RFSelect Action:Quit// RF Refill Rx from Another VA PharmacyRemote site drug name: IBUPROFEN 800MG TABMatching Drug Found for Dispensing: IBUPROFEN 800MG TABWould you like to use the system matched drug for thisrefill/partial fill? NO// YESProcessing refill request. Please be patient as it may take a momentfor the host site to respond and generate your label data...TRANSACTION SUCCESSFUL... The refill for RX \#2718862 has been recorded onthe prescription at the host system.Select a printer to generate the label or '^' to bypass printing.QUEUE TO PRINT ONDEVICE: ONEVA1 ONEVA NULL NUL2 ONEVAPRT\$PRT BAY PINES TEST LABChoose 1-2\> 1 ONEVA NULL NULLabel queued!Refill complete for RX \#2718862.Press RETURN to continue:Updating prescription order list...
 
-53. At the device prompt, if a user up-carets (“^”) to bypass printing, a refill or partial fill, whichever was requested will not be sent to the OPAI and will not be dispensed by the external automated dispensing robot.
+53. At the device prompt, if a user up-carets ("^") to bypass printing, a refill or partial fill, whichever was requested will not be sent to the OPAI and will not be dispensed by the external automated dispensing robot.
 54. At the device prompt, if a user enters a printer that is not defined in the DISPENSING SYSTEM PRINTER parameter field, the prescription will not be sent to the OPAI for dispensing. A label will however print. An exception to this is if a laser label device is not selected, the label will also NOT print.
 55. At the device prompt, if a user enters a printer and no printers are defined in the DISPENSING SYSTEM PRINTER parameter field, the prescription will be sent to the OPAI for dispensing for a single external automated dispensing robot setup. For a multi robot setup, if no printers are defined in the DISPENSING SYSTEM PRINTER Field (#2008), and the DISPENSE DNS NAME Field (#2006) and the DISPENSE DNS PORT Field (#2007) are not defined, the prescription WILL NOT be sent to the OPAI. If the DISPENSE DNS NAME and DISPENSE DNS PORT Fields are populated for the multi external automated dispensing robot setup, the prescription will be sent to the robot defined by the fields. In all three cases the label will print. An exception to this is if a laser label device is not selected, the label will also NOT print in all three cases.
 
@@ -36616,11 +36690,11 @@ a copy by writing the VHA Privacy Office (19F2), REDACTED,
 
 Washington, DC 20420.
 
-The OneVA Pharmacy patch retrieves the prescription information for the label from the host site and transmits the data back to the dispensing site for printing. As of this writing, there is no ‘REMOTE REPRINT’ option available for OneVA Pharmacy orders. The ‘REPRINT’ action is not operational for the OneVA Pharmacy refills or partials; however, plans are being made to release a new action option as part of a future OneVA Pharmacy project.
+The OneVA Pharmacy patch retrieves the prescription information for the label from the host site and transmits the data back to the dispensing site for printing. As of this writing, there is no 'REMOTE REPRINT' option available for OneVA Pharmacy orders. The 'REPRINT' action is not operational for the OneVA Pharmacy refills or partials; however, plans are being made to release a new action option as part of a future OneVA Pharmacy project.
 
 In order to reprint a label due to a paper jam, a malfunction of the printer, or the need to label multiple packages like inhalers, it is suggested to use the OneVA Pharmacy *Partial Fill Rx from Another VA Pharmacy* process and perform the transaction again.
 
-OneVA Pharmacy Patch PSO\*7\*643 removed the ‘REPRINT’ notation on the refill/partial fill labels. It was also removed from the Label log section in the Activity log.
+OneVA Pharmacy Patch PSO\*7\*643 removed the 'REPRINT' notation on the refill/partial fill labels. It was also removed from the Label log section in the Activity log.
 
 OneVA Pharmacy Partial Example
 
@@ -36832,7 +36906,7 @@ a copy by writing the VHA Privacy Office (19F2), 810 Vermont Avenue NW,
 
 Washington, DC 20420
 
-56. Patient’s prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
+56. Patient's prescription that originated from another VA Pharmacy location will deny the request for a prescription refill to be completed if it is requested "too soon" after the last refill so that prescriptions are not over-distributed.
 
     Unable to complete transaction.Cannot be refilled until MM/DD/YYYY.
 
@@ -37863,24 +37937,24 @@ The CPRS Auto Refill field can be updated using the *Pharmacy Systems Parameter 
 
 If the auto refill process fails, the order will not be processed and will require manual refilling. A MailMan message will be sent to the holders of the PSOAUTRF key describing the reason for not filling the auto refill. All of the refill activity, manual or automatic, is recorded in the Activity Log entry notes.
 
-With Patch PSO\*7\*233, when a name is selected, if the patient’s address is flagged with a Bad Address Indicator, a warning message is displayed. If the user has proper authorization (i.e., the PSO SITE parameter “EDIT PATIENT DATA” is set to Yes or the user holds the new PSO ADDRESS UPDATE security key), a prompt appears asking if the user wants to update the address. Also, for the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is now displayed: “(Temp address from XXX 99,9999 till (no end date))”.
+With Patch PSO\*7\*233, when a name is selected, if the patient's address is flagged with a Bad Address Indicator, a warning message is displayed. If the user has proper authorization (i.e., the PSO SITE parameter "EDIT PATIENT DATA" is set to Yes or the user holds the new PSO ADDRESS UPDATE security key), a prompt appears asking if the user wants to update the address. Also, for the *Patient Prescription Processing, Complete Orders from OERR*, and *Action Profile (132 COLUMN PRINTOUT)* options, if a temporary address has no end date, the following text is now displayed: "(Temp address from XXX 99,9999 till (no end date))".
 
 Following the installation of patches PSO\*7\*207 and OR\*3\*238 (Remote Data Interoperability (RDI) trigger patch), order checks will be made using additional data from the Health Data Repository Interim Messaging Solution (HDR-IMS) and the HDR-Historical (HDR-Hx). This will contain both Outpatient orders from other VAMCs as well as from Department of Defense (DoD) facilities, if available. All remote prescription statuses will be included in order checking for a new order being processed from within backdoor outpatient pharmacy and for new orders being placed by CPRS or by Inpatient Medications. Any remote Outpatient order that has been expired or discontinued for 30 days or less will be included in the list of medications to be checked.
 
-The check for remote data availability is performed upon entering the patient’s profile, rather than on each order, to ensure that both remote data and local data are used for order checking.
+The check for remote data availability is performed upon entering the patient's profile, rather than on each order, to ensure that both remote data and local data are used for order checking.
 
 57. Once the above patches have been installed, a new comment for remote order checks,  
     "Now doing remote order checks. Please wait..." has been added to the screen. The previous comment, "Now doing order checks. Please wait… " is replaced by: "Now doing drug interaction and allergy checks. Please wait..."
 
 The following will not be included in order checks (after patch PSO\*7\*243):
 
-- Prescriptions with a status of “DELETED” in the STATUS field in the PRESCRIPTION file from a remote facility.
+- Prescriptions with a status of "DELETED" in the STATUS field in the PRESCRIPTION file from a remote facility.
 - Prescriptions with a missing expiration date unless the ISSUE DATE field of the PRESCRIPTION file is within the past year.
 
 Remote order checking added (after patch PSO\*7\*243):
 
 - For drug class when orders are placed for locally defined drugs.
-- Allergy Analgesic class order checks only match against the specific 5-character class if the class begins with “CN10”.
+- Allergy Analgesic class order checks only match against the specific 5-character class if the class begins with "CN10".
 
 If for any reason remote order checks cannot be performed, the following message displays:
 
@@ -37967,7 +38041,7 @@ ISSUE LAST REF DAY
 
 #### OneVA Refill / Partial Fill Activity Log Entries
 
-Patch PSO\*7\*643 brought in new activity log entries to provide an audit trail for OneVA refills and partial fills sent through the OPAI to an external automated dispensing robot for dispensing. Activity log and label log entries document the facility name and station number where the OneVA refill/partial fill was dispensed. The ‘Initiator of Activity’ was corrected to reflect the remote pharmacist’s name instead of ‘Postmaster’. Entries 4-5 illustrate a OneVA refill filled at a dispensing site DAYTSHR TEST LAB (984). Entries 6-9 illustrate a OneVA partial filled at a dispensing site, CHYSHR (983) which has multiple external automated dispensing robots.
+Patch PSO\*7\*643 brought in new activity log entries to provide an audit trail for OneVA refills and partial fills sent through the OPAI to an external automated dispensing robot for dispensing. Activity log and label log entries document the facility name and station number where the OneVA refill/partial fill was dispensed. The 'Initiator of Activity' was corrected to reflect the remote pharmacist's name instead of 'Postmaster'. Entries 4-5 illustrate a OneVA refill filled at a dispensing site DAYTSHR TEST LAB (984). Entries 6-9 illustrate a OneVA partial filled at a dispensing site, CHYSHR (983) which has multiple external automated dispensing robots.
 
 Host Site Activity Log entries for a OneVA refill and Partial filled at dispensing facility.Rx Activity Log Nov 30, 2021@11:31:15 Page: 1 of 3
 
@@ -38065,7 +38139,7 @@ Processed at CHYSHR (983)
 
 Filled By: PERSON,THREE Checking Pharmacist: PHARMACIST,THREE
 
-The label log entries 2-3 below display the facility name and station number where the OneVA refill/partial fills were dispensed. The ‘Printed By was corrected in Patch PSO\*7\*643 to reflect the remote pharmacist’s name instead of ‘Postmaster’.
+The label log entries 2-3 below display the facility name and station number where the OneVA refill/partial fills were dispensed. The 'Printed By was corrected in Patch PSO\*7\*643 to reflect the remote pharmacist's name instead of 'Postmaster'.
 
 ===============================================================================
 
@@ -38137,13 +38211,13 @@ Select PATIENT NAME: OPPATIENT16,ONE OPPATIENT16,ONE 4-3-41 XXXXXXXXX
 
 YES SC VETERAN
 
-Patient is enrolled to receive ScripTalk ‘talking’ prescription labels.
+Patient is enrolled to receive ScripTalk 'talking' prescription labels.
 
 Eligibility: SC
 
 RX PATIENT STATUS: SERVICE CONNECTED// \<Enter\>
 
-A detailed explanation of the different parts of the screen can be found under “List Manager Options” at the beginning of this manual. The Patient Information screen displays the information on two pages. Only the second screen is shown in this example.
+A detailed explanation of the different parts of the screen can be found under "List Manager Options" at the beginning of this manual. The Patient Information screen displays the information on two pages. Only the second screen is shown in this example.
 
 Example: Entering a New Order (continued)
 
@@ -38173,7 +38247,7 @@ DD Detailed Allergy/ADR List EX Exit Patient List
 
 Select Action: Quit// \<Enter\>
 
-Although the default option is “Quit” at the "Select Action" prompt, pressing the Enter key here quits the Patient Information screen and displays the Medication Profile. This Medication Profile includes any Non-VA Med orders documented via the CPRS GUI application.
+Although the default option is "Quit" at the "Select Action" prompt, pressing the Enter key here quits the Patient Information screen and displays the Medication Profile. This Medication Profile includes any Non-VA Med orders documented via the CPRS GUI application.
 
 Medication Profile May 22, 2001 10:44:56 Page: 1 of 1
 
@@ -38229,7 +38303,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-If a double question mark (??) is entered at the above “Select Action” prompt, the following hidden actions display in the action area.
+If a double question mark (??) is entered at the above "Select Action" prompt, the following hidden actions display in the action area.
 
 The following actions are also available:
 
@@ -38339,9 +38413,9 @@ Press Return to continue:
 
 Discontinue Rx XXXXXXX ACETAMINOPHEN 500MG TAB Y/N ?
 
-The system checks the medication selected for any duplicate drugs or classes, interactions, or allergies that are noted in the patient’s local and remote record. This also includes any local Non-VA Meds. See the following example of local and remote order checking.
+The system checks the medication selected for any duplicate drugs or classes, interactions, or allergies that are noted in the patient's local and remote record. This also includes any local Non-VA Meds. See the following example of local and remote order checking.
 
-61. If the new order is for Clozapine, there are additional restrictions for filling a prescription. See Chapter 9: Controlling the Dispensing of Clozapine” in the Outpatient Pharmacy Manager’s Manual for more information.
+61. If the new order is for Clozapine, there are additional restrictions for filling a prescription. See Chapter 9: Controlling the Dispensing of Clozapine" in the Outpatient Pharmacy Manager's Manual for more information.
 62. More than one ingredient and more than one VA Drug Class may be associated with an Allergy/ADR.
 
 See output below:
@@ -38372,7 +38446,7 @@ If the user chooses to intervene after the Allergy/ADR warning is displayed, the
 
 If the user chooses not to intervene after the Allergy/ADR warning is displayed, the order entry dialog will start.
 
-63. If the Severity is ‘Severe’, an intervention is REQUIRED.
+63. If the Severity is 'Severe', an intervention is REQUIRED.
 
 Example: Remote Allergy/ADR – New Order Entry Backdoor – Both Ingredient and Drug Class defined for Allergy/ADR
 
@@ -38906,7 +38980,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit//
 
-If a new order is rejected due to a Drug Utilization Review (DUR) ), Reject Resolution Required, or Refill Too Soon, the prescription will be marked as “REJECTED”, and the user will have the opportunity to resolve before continuing.
+If a new order is rejected due to a Drug Utilization Review (DUR) ), Reject Resolution Required, or Refill Too Soon, the prescription will be marked as "REJECTED", and the user will have the opportunity to resolve before continuing.
 
 The following example shows a sample ECME transmission rejection, and how to resolve the rejection error.
 
@@ -38964,7 +39038,7 @@ Q (Q)UIT - SEND TO WORKLIST (REQUIRES INTERVENTION)
 
 (O)verride,(I)gnore,(Q)uit: Q// O OVERRIDE
 
-When a claim is rejected, typically the Payer provides a “Reason for Service Code”, which displays on the reject as “Reason”. The user can use this reason to then select which code is entered for “Professional Service Code” and “Result of Service Code”. To see a list of service codes, enter ? at the specified prompt.
+When a claim is rejected, typically the Payer provides a "Reason for Service Code", which displays on the reject as "Reason". The user can use this reason to then select which code is entered for "Professional Service Code" and "Result of Service Code". To see a list of service codes, enter ? at the specified prompt.
 
 Reason for Service Code : ER - OVERUSE
 
@@ -39068,7 +39142,7 @@ Q (Q)UIT - SEND TO WORKLIST (REQUIRES INTERVENTION)
 
 Example: Handling a TRICARE Rejected New Order for ePharmacy Billing
 
-Rejected TRICARE claims will be denoted with “TRICARE” during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the “Is this correct? YES//” prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A TRICARE rejection may not be (I)gnored.
+Rejected TRICARE claims will be denoted with "TRICARE" during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the "Is this correct? YES//" prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A TRICARE rejection may not be (I)gnored.
 
 TRICARE Prescription XXXXXX submitted to ECME for claim generation.
 
@@ -39452,7 +39526,7 @@ Comments: TRICARE-Inactive ECME TRICARE
 
 Example: Handling a CHAMPVA Rejected New Order for ePharmacy Billing
 
-Rejected CHAMPVA claims will be denoted with “CHAMPVA” during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the “Is this correct? YES//” prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A CHAMPVA rejection may not be (I)gnored.
+Rejected CHAMPVA claims will be denoted with "CHAMPVA" during submission to ECME and within the subsequent reject notification screen. Also, the reject codes will be displayed in both places. The following example shows a prescription being submitted to ECME and this process occurs directly following the "Is this correct? YES//" prompt during finish. Where DUR or RTS are one of the reject codes, the user will be able to select from (D)iscontinue the prescription, submit (O)verride codes, or (Q)uit which sends the rejection to the Third Party Payer Rejects - Worklist. A CHAMPVA rejection may not be (I)gnored.
 
 CHAMPVA Prescription XXXXXX submitted to ECME for claim generation.
 
@@ -39830,7 +39904,7 @@ ECME Log:
 
 Comments: CHAMPVA -Inactive ECME CHAMPVA
 
-#### Displaying a Patient’s Remote Prescriptions
+#### Displaying a Patient's Remote Prescriptions
 
 If a patient has prescriptions at another location, when the user selects the patient to enter a new order from Patient Prescription Processing, the following message appears.
 
@@ -39838,7 +39912,7 @@ REMOTE PRESCRIPTIONS AVAILABLE!
 
 Display Remote Data? N//
 
-If the user responds NO, then the normal procedure occurs for entering prescriptions. If the user responds YES, the “Remote Facilities Visited” screen appears such as the following example.
+If the user responds NO, then the normal procedure occurs for entering prescriptions. If the user responds YES, the "Remote Facilities Visited" screen appears such as the following example.
 
 Remote Facilities Visited Dec 30, 2008@17:26:47 Page: 1 of 1
 
@@ -39854,7 +39928,7 @@ DR Display Remote Pharmacy Data DB Display Both Pharmacy Data
 
 Action:Quit//DR
 
-To display the prescriptions at the remote pharmacy location, enter DR at the “Action” prompt. The “Medication Profile – Remote” screen appears such as the following example.
+To display the prescriptions at the remote pharmacy location, enter DR at the "Action" prompt. The "Medication Profile – Remote" screen appears such as the following example.
 
 Medication Profile - Remote Dec 30, 2008@17:29:43 Page: 1 of 2
 
@@ -40661,7 +40735,7 @@ or check later to see if the label has been printed.
 
 #### Clinic Orders
 
-Clinic orders are created via CPRS generally using the Meds Inpatient tab or the IV Fluids tab. Drug orders that have a clinic and an appointment date and time are considered clinic orders. The clinic must be defined with ‘ADMINISTER INPATIENT MEDS?’ prompt answered YES under the SETUP A CLINIC \[SDBUILD\] option in the Scheduling package. Defining the clinic in this manner ensures that an appointment date and time are defined. Orders placed via backdoor inpatient medications are not  considered clinic orders.
+Clinic orders are created via CPRS generally using the Meds Inpatient tab or the IV Fluids tab. Drug orders that have a clinic and an appointment date and time are considered clinic orders. The clinic must be defined with 'ADMINISTER INPATIENT MEDS?' prompt answered YES under the SETUP A CLINIC \[SDBUILD\] option in the Scheduling package. Defining the clinic in this manner ensures that an appointment date and time are defined. Orders placed via backdoor inpatient medications are not  considered clinic orders.
 
 MOCHA 1 Enhancement 1 adds drug interaction and therapeutic duplication order checks for clinic orders to Outpatient Pharmacy. Previously Inpatient Medications package performed order checks on active, pending, and non-verified clinic orders. With the MOCHA 1 Enhancement 1, Inpatient medications will perform enhanced order checks for recently discontinued and expired inpatient medications clinic orders.
 
@@ -40670,9 +40744,9 @@ For both packages, the system will display clinic orders in a standard format to
 Discontinued/expired orders must have a stop date within the last 90 days to be evaluated during enhanced order checks. For pending clinic orders, a variety of start and stop dates are available based on the information that the provider enters during initial order entry. The following are the scenarios that drive which dates will be displayed for the clinic order:
 
 - If there are start/stop dates defined, they are displayed.
-- If there are no stop/start dates defined, the ‘requested start/stop dates’ will be displayed with the word “Requested” prior to the start/stop date header.
-- If there are no requested start/stop dates defined, the order date will be displayed and the start/stop date headers will be displayed with “\*\*\*\*\*\*\*\*” for the date.
-- If there is either a requested start date or a requested stop date, the available date will be displayed and “\*\*\*\*\*\*\*\*” will be displayed for the undefined date.
+- If there are no stop/start dates defined, the 'requested start/stop dates' will be displayed with the word "Requested" prior to the start/stop date header.
+- If there are no requested start/stop dates defined, the order date will be displayed and the start/stop date headers will be displayed with "\*\*\*\*\*\*\*\*" for the date.
+- If there is either a requested start date or a requested stop date, the available date will be displayed and "\*\*\*\*\*\*\*\*" will be displayed for the undefined date.
 
 Unit Dose Clinic Order Check Example:
 
@@ -40798,7 +40872,7 @@ There are 5 Available Dosage(s):
 
 3\. 40MG
 
-Enter RETURN to view additional dosages or ‘^’ to exit list of dosages:
+Enter RETURN to view additional dosages or '^' to exit list of dosages:
 
 -----------------------------\<Page Break\>------------------------------------
 
@@ -40824,7 +40898,7 @@ Dosage Ordered: 500MG
 
 With PSO\*7\*525, if there is no default Medication Route defined for the Orderable Item, the user is prompted to enter a route. Please see section [Medication Route Prompt](#update-an-indication-on-an-active-order) for a detailed description of the Medication Route lookup functionality . The Route is not required to complete a prescription. If the abbreviation entered is found in the MEDICATION ROUTES file, the entry will be expanded in the Sig based on the OUTPATIENT EXPANSION field.
 
-A default schedule associated with the Orderable Item of the drug ordered is displayed at the “Schedule:” prompt. The default can be accepted or a different free text schedule can be entered. Free text entries cannot contain more than two spaces or be more than twenty characters long. Entries will be compared against a list of common abbreviations, first in the ADMINISTRATION SCHEDULE file and then in the MEDICATION INSTRUCTION file, and expanded if the entry matches. Any entry not found in the list of common abbreviations will be displayed in the Sig as entered.
+A default schedule associated with the Orderable Item of the drug ordered is displayed at the "Schedule:" prompt. The default can be accepted or a different free text schedule can be entered. Free text entries cannot contain more than two spaces or be more than twenty characters long. Entries will be compared against a list of common abbreviations, first in the ADMINISTRATION SCHEDULE file and then in the MEDICATION INSTRUCTION file, and expanded if the entry matches. Any entry not found in the list of common abbreviations will be displayed in the Sig as entered.
 
 With patch PSO\*7\*402, the user will be informed from which file the schedule selection is made and if the value entered will be considered as free text. The NAME, OLD SCHEDULE NAME(S) fields will be used for lookup from the ADMNISTRATION SCHEDULE file. The NAME, SYNONYM, and OLD MED INSTRUCTION NAME(S) fields will be used for lookup from the MEDICATION INSTRUCTION file. The user will first be presented with selections from the ADMINISTRATION SCHEDULE file based on the value entered at the schedule prompt. If the user selects an entry, the lookup is complete. If the user chooses not to select a value from the ADMINISTRATION SCHEDULE file, the software displays selections from the MEDICATION INSTRUCTION file. If a selection is made, the lookup is complete. If the user chooses not to select a value, the software informs the user that the value as entered will be accepted at the schedule prompt as a free text entry. Patch PSO\*7\*507 introduces the ability for users to view if an Administration Schedule is Inactive.
 
@@ -40864,7 +40938,7 @@ AP BIDAP TWICE A DAY IN MORNING AND EVENING
 
 ...OK? Yes// N (No)
 
-The LIMITED DURATION field is used only when a medication should be taken for a limited period of time. Days are assumed for numeric entries. The user should follow the number with an “H” to specify hours or an “M” to specify minutes.
+The LIMITED DURATION field is used only when a medication should be taken for a limited period of time. Days are assumed for numeric entries. The user should follow the number with an "H" to specify hours or an "M" to specify minutes.
 
 64. Do not use the LIMITED DURATION field for Days Supply.
 
@@ -40872,7 +40946,7 @@ Example: Entering a New Order (continued)
 
 LIMITED DURATION (IN DAYS, HOURS OR MINUTES): 10 (DAYS)
 
-The CONJUCTION field is used to join dosing sequences in complex orders. Entries are limited to AND or THEN. AND is used for concurrent doses, such as “Take 1 tablet every morning AND take 2 tablets at bedtime.” THEN is used for consecutive doses, such as “Take 2 tablets daily for one week THEN take 1 tablet for five days.” See Chapter 2 in the *User Manual - Supplemental* for examples.
+The CONJUCTION field is used to join dosing sequences in complex orders. Entries are limited to AND or THEN. AND is used for concurrent doses, such as "Take 1 tablet every morning AND take 2 tablets at bedtime." THEN is used for consecutive doses, such as "Take 2 tablets daily for one week THEN take 1 tablet for five days." See Chapter 2 in the *User Manual - Supplemental* for examples.
 
 CONJUNCTION: \<Enter\>
 
@@ -40884,7 +40958,7 @@ PATIENT INSTRUCTIONS: WF WITH FOOD
 
 OTHER PATIENT INSTRUCTIONS: WF CON ALIMENTO
 
-Two optional fields, OTHER LANGUAGE PREFERENCE and PMI LANGUAGE PREFERENCE in the PHARMACY PATIENT file, store if a patient has another language preference and if the patient’s PMI sheets should print in English or Spanish at the CMOP. The CMOP functionality was requested for future CMOP use. When printing locally from Outpatient Pharmacy this parameter is not used. These fields are accessed through the *Update Patient Record* option and the protocol Patient Record Update \[PSO PATIENT RECORD UPDATE\]. If the other language preference is indicated for a patient, the user will be prompted to enter OTHER PATIENT INSTRUCTIONS after selecting the PATIENT INSTRUCTIONS field to enter/edit. If a quick code is entered at the OTHER PATIENT INSTRUCTIONS prompt, the expansion entered at the OTHER PATIENT INSTRUCTIONS EXPANSIONS will print on the prescription label.
+Two optional fields, OTHER LANGUAGE PREFERENCE and PMI LANGUAGE PREFERENCE in the PHARMACY PATIENT file, store if a patient has another language preference and if the patient's PMI sheets should print in English or Spanish at the CMOP. The CMOP functionality was requested for future CMOP use. When printing locally from Outpatient Pharmacy this parameter is not used. These fields are accessed through the *Update Patient Record* option and the protocol Patient Record Update \[PSO PATIENT RECORD UPDATE\]. If the other language preference is indicated for a patient, the user will be prompted to enter OTHER PATIENT INSTRUCTIONS after selecting the PATIENT INSTRUCTIONS field to enter/edit. If a quick code is entered at the OTHER PATIENT INSTRUCTIONS prompt, the expansion entered at the OTHER PATIENT INSTRUCTIONS EXPANSIONS will print on the prescription label.
 
 A default value for Days Supply based on patient status is displayed. A default quantity is calculated when possible. See Chapter 2 in the *User Manual - Supplemental* for more information on QUANTITY calculations.
 
@@ -40917,7 +40991,7 @@ WAS THE PATIENT COUNSELED: NO// Y YES
 
 WAS COUNSELING UNDERSTOOD: NO// Y YES
 
-An option to add a progress note has been added. If “Yes” is entered at this prompt, the progress note entry will begin after the order information has been displayed and confirmed. The order is redisplayed, along with information on any service-connected disabilities on record.
+An option to add a progress note has been added. If "Yes" is entered at this prompt, the progress note entry will begin after the order information has been displayed and confirmed. The order is redisplayed, along with information on any service-connected disabilities on record.
 
 Do you want to enter a Progress Note? No// \<Enter\>
 
@@ -41310,7 +41384,7 @@ PI Patient Information SO Select Order
 
 Select Action: Quit// 1
 
-Press \<Enter\> twice to scroll to page 3 of the Medication Profile. Notice that a new field displays on the profile: DAW Code. DAW stands for “Dispense as Written “and refers to a set of ten NCPDP codes (0-9) that tells third party payers why a brand or generic product was selected to fill a prescription. When a new prescription is entered for a specific drug, the DAW code from the drug is stored in the PRESCRIPTION file (#52) for each fill. This field is solely being used for electronic billing purposes. It communicates to the third party payer that a drug has a special characteristic, which may prevent the payer from rejecting the claim. The available codes include:
+Press \<Enter\> twice to scroll to page 3 of the Medication Profile. Notice that a new field displays on the profile: DAW Code. DAW stands for "Dispense as Written "and refers to a set of ten NCPDP codes (0-9) that tells third party payers why a brand or generic product was selected to fill a prescription. When a new prescription is entered for a specific drug, the DAW code from the drug is stored in the PRESCRIPTION file (#52) for each fill. This field is solely being used for electronic billing purposes. It communicates to the third party payer that a drug has a special characteristic, which may prevent the payer from rejecting the claim. The available codes include:
 
 | Code | Description                                                    |
 |------|----------------------------------------------------------------|
@@ -41688,7 +41762,7 @@ Prescription Mail Delivery(patient level): Certified Mail
 
 When a new prescription is entered, the Mail Exemption does not contain a value. When the Mail Exemption does not contain a value, the patient level mail preference is utilized for the prescription.
 
-Patch PSO\*7.0\*753 adds a new indicator ‘x’ at the end of each prescription number in the Medication Profile screen when a value has been entered for the prescription Mail Exemption field (22) on the OP Medications screen or via the OTH-\>EX hidden menu option.
+Patch PSO\*7.0\*753 adds a new indicator 'x' at the end of each prescription number in the Medication Profile screen when a value has been entered for the prescription Mail Exemption field (22) on the OP Medications screen or via the OTH-\>EX hidden menu option.
 
 \# RX \# DRUG QTY ST DATE FILL REM SUP
 
@@ -41722,7 +41796,7 @@ Press Return to Continue:
 
 #### Using the Copy Action
 
-When a double question mark (??) is entered at the “Select Action" prompt above, the hidden actions below will display in the action area.
+When a double question mark (??) is entered at the "Select Action" prompt above, the hidden actions below will display in the action area.
 
 The following actions are also available:
 
@@ -41750,7 +41824,7 @@ IP Inpat. Profile (OP) \> Shift View to Right
 
 OTH Other OP Actions ADPL Auto Display(On/Off)
 
-68. If the order utilizes the EXCEPT conjunction, copy will no longer be allowed. The message bar will display: Cannot COPY. Invalid ‘except’ conjunction!
+68. If the order utilizes the EXCEPT conjunction, copy will no longer be allowed. The message bar will display: Cannot COPY. Invalid 'except' conjunction!
 
 Copy is a hidden action used to create a new order exactly like the original order. Any field of the new order can be edited. This action does not affect the status of the original order but the duplicate order checks will occur.
 
@@ -41840,7 +41914,7 @@ ED Edit RF (Refill) RN Renew
 
 Select Action: Next Screen//CO CO
 
-After “CO” is entered, the heading on the screen changes to “New OP Order (COPY)” and the available actions are limited to “Accept” or “Edit”.
+After "CO" is entered, the heading on the screen changes to "New OP Order (COPY)" and the available actions are limited to "Accept" or "Edit".
 
 Example: Using the Copy Action (continued)
 
@@ -42116,7 +42190,7 @@ ED Edit RF Refill RN Renew
 
 Select Action: Next Screen// CO CO
 
-Once “Copy” is entered, the heading on the screen changes to “New OP Order (COPY)” and the available actions are limited to “Edit” or “Accept.”
+Once "Copy" is entered, the heading on the screen changes to "New OP Order (COPY)" and the available actions are limited to "Edit" or "Accept."
 
 New OP Order (COPY) Nov 04, 2005@09:24:17 Page: 1 of 2
 
@@ -42332,7 +42406,7 @@ Reversal Accepted
 
 #### Holding and Unholding a Prescription
 
-If a double question mark (??) is entered at the “Select Action” prompt, the hidden actions on the following page will display in the action area.
+If a double question mark (??) is entered at the "Select Action" prompt, the hidden actions on the following page will display in the action area.
 
 The following actions are also available:
 
@@ -42513,7 +42587,7 @@ Users with only the PSO TECH ADV security key can unhold for the following reaso
 
 98 OTHER/TECH (NON-CLINICAL)
 
-71. If a user does not have a PSORPH security key and tries to unhold a prescription, the message “The HOLD can only be removed by a pharmacist” is displayed.
+71. If a user does not have a PSORPH security key and tries to unhold a prescription, the message "The HOLD can only be removed by a pharmacist" is displayed.
 
 Each time a user holds or unholds a prescription, an entry is created in the Activity Log. These entries include HOLD COMMENTS and the HOLD REASON when a prescription is placed on HOLD and UNHOLD COMMENTS when the prescription is removed from HOLD. Again, HOLD reasons 98 and 99 require the user to enter a HOLD comment.
 
@@ -42972,7 +43046,7 @@ Select Action: Quit// SO Select Order
 
 Select Orders by number: (1-2): 2
 
-From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a “REASON FOR FLAG”, alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
+From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a "REASON FOR FLAG", alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
 
 Example: Flagging an Order
 
@@ -42982,7 +43056,7 @@ Send alert to: PSOUSER,ONE// BIRMINGHAM ALABAMA OP PHARMACIST
 
 ... order flagged.
 
-When an order is flagged, “FL-” is placed in front of “Pending OP Orders” in the upper left corner, and the flagged reason is listed below the patient identifying information.
+When an order is flagged, "FL-" is placed in front of "Pending OP Orders" in the upper left corner, and the flagged reason is listed below the patient identifying information.
 
 Example: A Flagged New Pending Order
 
@@ -43086,7 +43160,7 @@ BY Bypass ED Edit
 
 Select Item(s): Next Screen//
 
-To unflag an order, enter FL at the “Select Item(s)” prompt, and then enter your “COMMENTS”. When you press \<Enter\>, the order is no longer flagged.
+To unflag an order, enter FL at the "Select Item(s)" prompt, and then enter your "COMMENTS". When you press \<Enter\>, the order is no longer flagged.
 
 Example: Unflagging an Order
 
@@ -43220,7 +43294,7 @@ Select Item(s): Next Screen// Prescription Renew Jun 12, 2012@14:02:1
 
 After pending orders have been unflagged, they can be processed.
 
-76. If you attempt to process a flagged order and are a user with a PSORPH security key, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged. Users with only the PSO TECH ADV security key cannot unflag an order and will receive the following message when selecting the Accept (AC) action:
+76. If you attempt to process a flagged order and are a user with a PSORPH security key, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged. Users with only the PSO TECH ADV security key cannot unflag an order and will receive the following message when selecting the Accept (AC) action:
 
 \+ Enter ?? for more actions
 
@@ -43338,7 +43412,7 @@ Select Action: Next Screen//
 
 The Park function must be enabled at the System or Division level in order for a prescription to be Park or UnPark.
 
-If a double question mark (??) is entered at the “Select Action” prompt, the hidden actions on the following page will display in the action area.
+If a double question mark (??) is entered at the "Select Action" prompt, the hidden actions on the following page will display in the action area.
 
 The following actions are also available:
 
@@ -43372,9 +43446,9 @@ BY Bypass 3/4 Day Supply\< Shift View to Left
 
 Type \<Enter\> to continue or '^' to exit:
 
-Use the Park (PK) action to put a prescription that is part of the patient’s current expected medication regimen on hold until the filled is requested. Use the Unpark (UPK) action to remove a prescription from hold and fill the prescription.
+Use the Park (PK) action to put a prescription that is part of the patient's current expected medication regimen on hold until the filled is requested. Use the Unpark (UPK) action to remove a prescription from hold and fill the prescription.
 
-77. Park is only valid for drugs that are not marked as ‘D’ in the DEA Special Handling field in the drug file.
+77. Park is only valid for drugs that are not marked as 'D' in the DEA Special Handling field in the drug file.
 78. <span id="a_parked_note" class="anchor"></span>If a Parked prescription original fill or the refill is not released (i.e., the label not printed, or it is not processed by CMOP) the refill options through backdoor, CPRS, Audiocare, MyHealtheVet, and Customer Relationship Manager (CRM) etc., are processed and the prescription status is set to Suspended. Otherwise, the current logic in refilling the prescription is followed.
 
 Only key holders of the PSORPH security key or the PSO TECH ADV security key can Park or Unpark a prescription.
@@ -43651,13 +43725,13 @@ Comments: MAIL/WINDOW/PARKED (W),FILL DATE (02-04-22),
 
 #### Medication Route Prompt
 
-PSO\*7\*525 added a medication route “short list” and “long list” for selection of a medication route during the order finishing and order entry process. The short list includes only the routes associated with the dosage form for the selected medication in the PHARMACY ORDERABLE ITEM file (#50.7). When entering an outpatient prescription, entering “?” at the Medication Route prompt will display the short list of routes. Entering “??” at the Medication Route prompt will display the long list of routes. The system will allow either partial matches for routes that are found in the short list, or exact full-text matches or abbreviation matches for other routes in the MEDICATION ROUTES file (#51.2).
+PSO\*7\*525 added a medication route "short list" and "long list" for selection of a medication route during the order finishing and order entry process. The short list includes only the routes associated with the dosage form for the selected medication in the PHARMACY ORDERABLE ITEM file (#50.7). When entering an outpatient prescription, entering "?" at the Medication Route prompt will display the short list of routes. Entering "??" at the Medication Route prompt will display the long list of routes. The system will allow either partial matches for routes that are found in the short list, or exact full-text matches or abbreviation matches for other routes in the MEDICATION ROUTES file (#51.2).
 
 Prescriptions may be entered without medication route, such as prescriptions for supplies.
 
 Prior to PSO\*7\*525 if no default med route was defined, the system set the med route to PO or ORAL. This patch removes that automatic PO or ORAL default and leaves the route blank if the prompt is unanswered.
 
-If a route entered does not match any of the defined medication routes, then “??” displays.
+If a route entered does not match any of the defined medication routes, then "??" displays.
 
 Example: Short List for Route
 
@@ -43844,7 +43918,7 @@ Allow early refills? N// \<Enter\> O
 Process internet refill requests at this time? YES// \<Enter\> YES  
 Process internet refills for all divisions? NO// \<Enter\> O
 
-Users can process refills for their division or all divisions within a site. However, sites can set parameters in the PHARMACY SYSTEM file for the INTERDIVISIONAL PROCESSING and DIVISION PROMPT ASKED fields that control responses to user input on the Internet Refills Screen. Note that site control parameters override any entries made by the user in the Process Internet Refills screen.If the INTERDIVISIONAL PROCESSING parameter is set to No, regardless of the user’s input at the “Process internet refills for all divisions?” prompt, only the refills for the user’s division will be filled.If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to No, then the refill orders are processed for all divisions without any additional user input.If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to Yes, refills for the user’s division will be processed without any additional input. If unprocessed refills outside the user’s division exist, the “Continue?” prompt displays, allowing the user to confirm each refill, as shown in the example below.
+Users can process refills for their division or all divisions within a site. However, sites can set parameters in the PHARMACY SYSTEM file for the INTERDIVISIONAL PROCESSING and DIVISION PROMPT ASKED fields that control responses to user input on the Internet Refills Screen. Note that site control parameters override any entries made by the user in the Process Internet Refills screen.If the INTERDIVISIONAL PROCESSING parameter is set to No, regardless of the user's input at the "Process internet refills for all divisions?" prompt, only the refills for the user's division will be filled.If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to No, then the refill orders are processed for all divisions without any additional user input.If the INTERDIVISIONAL PROCESSING parameter is set to Yes and the DIVISION PROMPT ASKED parameter is set to Yes, refills for the user's division will be processed without any additional input. If unprocessed refills outside the user's division exist, the "Continue?" prompt displays, allowing the user to confirm each refill, as shown in the example below.
 
 Example: Process Internet Refills for all Divisions?
 
@@ -43856,11 +43930,11 @@ Qty: 60 Sig: TAKE ONE TABLET BY MOUTH TWICE A DAY
 
 Rx \# XXXXXXXXXX is for (ANYTOWN) division.
 
-Continue? N// Y YES × This refill is outside the user’s division.
+Continue? N// Y YES × This refill is outside the user's division.
 
-If the user enters Yes at the “Continue?” prompt, the refill will be processed.
+If the user enters Yes at the "Continue?" prompt, the refill will be processed.
 
-If the user enters No at the “Continue?” prompt, the refill will not process at this time, and the refill request will remain in the PRESCRIPTION REFILL REQUEST file. These refill requests may be processed later by a user in the same division, or any division, depending on the PHARMACY SYSTEM file parameters.
+If the user enters No at the "Continue?" prompt, the refill will not process at this time, and the refill request will remain in the PRESCRIPTION REFILL REQUEST file. These refill requests may be processed later by a user in the same division, or any division, depending on the PHARMACY SYSTEM file parameters.
 
 Refills processed successfully are flagged as FILLED in the RESULTS field of the PRESCRIPTION REFILL REQUEST file. Refills not processed due to conditions such as: Rx Expired, Discontinued, On Hold, Deleted, are flagged as NOT FILLED in the RESULTS field of PRESCRIPTION REFILL REQUEST file.
 
@@ -43938,15 +44012,15 @@ When a clinician has created an order for a patient, the pharmacist then complet
 
 Patient demographics and Clinical Alerts display in the header area when using this option. Refer to [Patient Demographics and Clinical Alerts](#patient-demographics) for more information.
 
-Patch PSO\*7\*505 adds new sort selection ‘SU’, enabling users to select supply item orders separately. This patch also adds new sort selections under the ‘CS’ controlled substances sort. Users may now choose NON-CS+SCHEDULES III-V, or NON-CS ONLY orders.
+Patch PSO\*7\*505 adds new sort selection 'SU', enabling users to select supply item orders separately. This patch also adds new sort selections under the 'CS' controlled substances sort. Users may now choose NON-CS+SCHEDULES III-V, or NON-CS ONLY orders.
 
-PSO\*7\*505 also introduces a new secondary sort feature, allowing users to further sort the list of orders that will be presented in option Complete Orders from OERR. After a user has selected a primary sort filter, a prompt will appear asking if the user would like to select a secondary sort filter. If the user answers yes, a new prompt appears for the user to again select from the list of sort selections. This secondary list does not include the item selected as the primary sort filter. For example, if the user chooses to first sort by ‘PA’ (Patient), the ‘PA’ (Patient) sort item will not appear in the secondary list.
+PSO\*7\*505 also introduces a new secondary sort feature, allowing users to further sort the list of orders that will be presented in option Complete Orders from OERR. After a user has selected a primary sort filter, a prompt will appear asking if the user would like to select a secondary sort filter. If the user answers yes, a new prompt appears for the user to again select from the list of sort selections. This secondary list does not include the item selected as the primary sort filter. For example, if the user chooses to first sort by 'PA' (Patient), the 'PA' (Patient) sort item will not appear in the secondary list.
 
 The user may select orders by patient, route, priority, clinic, flag, supply items, or controlled substances. If Clinic is selected, the user may then choose to select by Clinic or Clinic Sort Group. In any sort, orders are completed on a first-in/first-out basis by patient. Clinic Sort Groups can be added or edited in the *Enter/Edit Clinic Sort Groups* option, found under the *Maintenance (Outpatient Pharmacy)* menu option. Orders entered before implementation of patch PSO\*7\*46 (Pharmacy Ordering Enhancements (POE)) must have the fields used to build the Sig filled in before processing can be completed.
 
-If a temporary address has no end date, the following text is now displayed: “(Temp address from XXX 99,9999 till (no end date))”.
+If a temporary address has no end date, the following text is now displayed: "(Temp address from XXX 99,9999 till (no end date))".
 
-For ePharmacy orders, after an order is finished, the billing data is sent to the Electronic Claims Management Engine (ECME). ECME sends a message back to Outpatient Pharmacy displaying the status of the claim. For an example, see “Finishing an ePharmacy Order” in this section.
+For ePharmacy orders, after an order is finished, the billing data is sent to the Electronic Claims Management Engine (ECME). ECME sends a message back to Outpatient Pharmacy displaying the status of the claim. For an example, see "Finishing an ePharmacy Order" in this section.
 
 Example: Finishing an Order from OERR
 
@@ -44004,8 +44078,8 @@ YES SC VETERAN
 
 Do you want to see Medication Profile? Yes//
 
-83. The user may enter a question mark at the “Select Patient” prompt to view a list of patients with pending orders. A single patient may be selected for processing, or pending orders for all patients may be processed in sequence by the time of each order’s entry into the system.
-84. Flagged orders will not be processed. They are not a part of any pending orders. To process flagged orders, you should enter FL at the “Select By” prompt. This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
+83. The user may enter a question mark at the "Select Patient" prompt to view a list of patients with pending orders. A single patient may be selected for processing, or pending orders for all patients may be processed in sequence by the time of each order's entry into the system.
+84. Flagged orders will not be processed. They are not a part of any pending orders. To process flagged orders, you should enter FL at the "Select By" prompt. This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
 85. After selecting a primary sort filter, the user will be asked if they wish to select a secondary sort filter. The filter chosen in as the primary filter will not appear in the secondary filter list.
 
 Select Patient: ZZTEST,PATIENTONE 5-20-70 XXXXXXXXXX YES
@@ -44054,15 +44128,15 @@ E EXIT
 
 Select another filter: (RT/PR/CL/FL/CS/SU/C/E): ROUTE//
 
-86. If the user answers YES to “Do you want to see Medication Profile?” and the patient has remote prescription(s), the following prompt appears.
+86. If the user answers YES to "Do you want to see Medication Profile?" and the patient has remote prescription(s), the following prompt appears.
 
 REMOTE PRESCRIPTIONS AVAILABLE!
 
 Display Remote Data? N//
 
-87. If the user answers YES to “Display Remote Data?” then the “Remote Facilities Visited” screen appears, allowing the user to see what facilities the patient has prescriptions at and what those prescriptions are.
+87. If the user answers YES to "Display Remote Data?" then the "Remote Facilities Visited" screen appears, allowing the user to see what facilities the patient has prescriptions at and what those prescriptions are.
 
-After the user answers the medication profile prompt, a warning displays if no allergy assessment has been made. The patient’s eligibility and RX patient status also displays.
+After the user answers the medication profile prompt, a warning displays if no allergy assessment has been made. The patient's eligibility and RX patient status also displays.
 
 Example: Finishing an Order from OERR (continued)
 
@@ -44126,10 +44200,10 @@ ED Edit FN Finish
 
 Select Item(s): Next Screen//// FN Finish
 
-After “Finish” is selected, the user is prompted to fill in any information missing from fields needed to complete the order.
+After "Finish" is selected, the user is prompted to fill in any information missing from fields needed to complete the order.
 
-88. If you attempt to process a flagged order, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
-89. If an order is sent from OERR without a Dispense Drug selected, and there is only one Dispense Drug tied to the Orderable Item, that drug will be inserted in the DRUG field (#2 on the screen). If there is more than one Dispense Drug tied to the Orderable Item, a “No Dispense Drug Selected” message will display in the DRUG field (#2 on the screen) and a Dispense Drug must be selected to complete/finish the order.
+88. If you attempt to process a flagged order, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
+89. If an order is sent from OERR without a Dispense Drug selected, and there is only one Dispense Drug tied to the Orderable Item, that drug will be inserted in the DRUG field (#2 on the screen). If there is more than one Dispense Drug tied to the Orderable Item, a "No Dispense Drug Selected" message will display in the DRUG field (#2 on the screen) and a Dispense Drug must be selected to complete/finish the order.
 
 The following Drug are available for selection:
 
@@ -44201,7 +44275,7 @@ Press Return to Continue:
 
 Flagging a pending order allows you to prevent an order from processing and attach a note known as a flag to the pending order. Flag/Unflag functionality is only available for Pending new orders and Pending renewals; only holders of the PSORPH security key can flag or unflag an order.
 
-Flagged orders will not be processed. They are not a part of any pending orders. When you have flagged orders to process from the *Complete Orders from OERR* option, you should enter FL at the “Select By” prompt (shown in the following example). This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
+Flagged orders will not be processed. They are not a part of any pending orders. When you have flagged orders to process from the *Complete Orders from OERR* option, you should enter FL at the "Select By" prompt (shown in the following example). This ensures you will view all patients with flagged pending orders, allowing you to address their flagged orders; however, if you know which patients have flagged orders, you can access the flagged orders through the Medication Profile.
 
 The following provides examples of how to flag and unflag pending orders from a medication profile within the *Complete Orders from OERR* option.
 
@@ -44257,7 +44331,7 @@ Select By: (PA/RT/PR/CL/FL/E): PATIENT// FL\<Enter\>
 
 Do you want to see Medication Profile? Yes// \<Enter\>
 
-After answering the “Medication Profile” prompt, a warning displays if no allergy assessment has been made. The patient’s eligibility and RX patient status also displays.
+After answering the "Medication Profile" prompt, a warning displays if no allergy assessment has been made. The patient's eligibility and RX patient status also displays.
 
 OPPATIENT16,ONE 4-3-41 XXXXXXXXX
 
@@ -44309,7 +44383,7 @@ Select Action: Quit// SO Select Order
 
 Select Orders by number: (1-2): 2
 
-From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a “REASON FOR FLAG”, alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
+From the Pending OP Orders screen, you can flag and unflag an order, as well as view the flagged reason. To flag the order, enter FL and then enter a "REASON FOR FLAG", alert the proper individual that the flag has been added by pressing \<Enter\> to select the default name or entering a different user name and pressing \<Enter\>, and the flagging process is complete.
 
 Example: Flagging an Order
 
@@ -44319,7 +44393,7 @@ Send alert to: PSOUSER,ONE// ANYTOWN ALABAMA OP PHARMACIST
 
 ... order flagged.
 
-When an order is flagged, “FL-” is placed in front of “Pending OP Orders” in the upper left corner, and the flagged reason is listed below the patient identifying information.
+When an order is flagged, "FL-" is placed in front of "Pending OP Orders" in the upper left corner, and the flagged reason is listed below the patient identifying information.
 
 Example: A Flagged Order
 
@@ -44373,7 +44447,7 @@ ED Edit FN Finish
 
 Select Item(s): Next Screen// FL Flag/Unflag
 
-To unflag an order, enter FL at the “Select Item(s)” prompt, and then enter your “COMMENTS”. When you press \<Enter\>, the order is no longer flagged.
+To unflag an order, enter FL at the "Select Item(s)" prompt, and then enter your "COMMENTS". When you press \<Enter\>, the order is no longer flagged.
 
 Example: Unflagging an Order
 
@@ -44443,7 +44517,7 @@ Select Item(s): Next Screen//
 
 After pending orders have been unflagged, they can be processed.
 
-92. If you attempt to process a flagged order, you are prompted “Unflag Order? NO//”. If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
+92. If you attempt to process a flagged order, you are prompted "Unflag Order? NO//". If you respond YES, enter comments to unflag the order and continue with processing. If you respond NO, you cannot process the order because it is still flagged.
 
 #### Finishing a Pending Order with Indications
 
@@ -44519,11 +44593,11 @@ Copy INDICATION into the Sig? YES//
 
 #### Changes to Finishing Pending Orders Process - Digitally Signed Orders Only
 
-Digitally signed orders will be identifiable by the “Digitally Signed Order’ message in reverse video on the message bar.
+Digitally signed orders will be identifiable by the "Digitally Signed Order' message in reverse video on the message bar.
 
-93. If the terminal in use is set up as a VT-100, there may be problems with this message display and the “Processing Digitally Signed Order” message. Updating the VistA terminal session to use VT-320 will avoid this problem.
+93. If the terminal in use is set up as a VT-100, there may be problems with this message display and the "Processing Digitally Signed Order" message. Updating the VistA terminal session to use VT-320 will avoid this problem.
 
-The provider’s PIV/PKI certificate is re-validated when accessing a digitally signed order. If the validation check is unsuccessful, an error code is sent to the pharmacist and an entry is made in the Rx Activity Log. The error code type will result in either the order being automatically rejected/discontinued or the pharmacist being given the choice to finish, bypass, or discontinue the order. Digitally signed prescriptions that have been discontinued cannot be reinstated. The Speed Discontinuation functionality will no longer delete unverified prescriptions.
+The provider's PIV/PKI certificate is re-validated when accessing a digitally signed order. If the validation check is unsuccessful, an error code is sent to the pharmacist and an entry is made in the Rx Activity Log. The error code type will result in either the order being automatically rejected/discontinued or the pharmacist being given the choice to finish, bypass, or discontinue the order. Digitally signed prescriptions that have been discontinued cannot be reinstated. The Speed Discontinuation functionality will no longer delete unverified prescriptions.
 
 #### Finishing an Order from OERR with Multiple Institutions
 
@@ -44577,7 +44651,7 @@ E PAYABLE
 
 #### First-In-First-Out (FIFO) Finishing Enforcement
 
-If a site wants to enforce a FIFO for processing the Pending Order queue they must assign the PSO ERX WORKLOAD RPH security key to the users that are responsible for finishing Pending Orders from either CPRS or eRx Holding Queue. This feature is useful for sites like Meds-by-Mail (MbM) that processes a large number of prescriptions by quite a few users working concurrently. The main benefit of this feature is that it prevents users from ‘cherry picking’ prescriptions that are particularly easier and straightforward to process while skipping over prescriptions that demand more work to be finished and leaving them for their co-workers to work on them. Once a user assigned the PSO ERX WORKLOAD RPH key enters this option they are presented with different prompts, they will have to select a clinic then they choose if they want to process flagged orders only or all orders and right after they are taken to the patient with the oldest pending order on file and the Medication Profile is always shown. The way they can move to the next patient is by selecting the NP (Next Patient) action. However, if not all the pending orders have either been finished or flagged by themselves, they are not allowed to proceed to the next patient. The message You must finish all orders before proceeding will display if they try to, as shown below.
+If a site wants to enforce a FIFO for processing the Pending Order queue they must assign the PSO ERX WORKLOAD RPH security key to the users that are responsible for finishing Pending Orders from either CPRS or eRx Holding Queue. This feature is useful for sites like Meds-by-Mail (MbM) that processes a large number of prescriptions by quite a few users working concurrently. The main benefit of this feature is that it prevents users from 'cherry picking' prescriptions that are particularly easier and straightforward to process while skipping over prescriptions that demand more work to be finished and leaving them for their co-workers to work on them. Once a user assigned the PSO ERX WORKLOAD RPH key enters this option they are presented with different prompts, they will have to select a clinic then they choose if they want to process flagged orders only or all orders and right after they are taken to the patient with the oldest pending order on file and the Medication Profile is always shown. The way they can move to the next patient is by selecting the NP (Next Patient) action. However, if not all the pending orders have either been finished or flagged by themselves, they are not allowed to proceed to the next patient. The message You must finish all orders before proceeding will display if they try to, as shown below.
 
 \<There are 29 flagged orders for VA CNTRL WSTRN MASSCHUSETS HCS\>
 
@@ -44859,7 +44933,7 @@ Copay Activity Log:
 
 ======================================================================
 
-There’s NO Copay activity to report
+There's NO Copay activity to report
 
 ECME Log:
 
@@ -45159,15 +45233,15 @@ When a prescription is discontinued, the software checks for any unresolved ECME
 
 When an ePharmacy prescription is discontinued, the software checks for any unreleased fills with a PAYABLE claim. If found, a reversal request is sent to ECME, which forwards it on to the third party payer.
 
-When a pending renewal order is discontinued, Outpatient Pharmacy verifies if there is an active prescription for the same drug. If an active prescription is found, you are prompted with “There is an active Rx for this pending order, Discontinue both (Y/N)?” If you respond YES, both the pending order and the active order are discontinued. If you respond NO, only the pending order is discontinued and the active order is not discontinued.
+When a pending renewal order is discontinued, Outpatient Pharmacy verifies if there is an active prescription for the same drug. If an active prescription is found, you are prompted with "There is an active Rx for this pending order, Discontinue both (Y/N)?" If you respond YES, both the pending order and the active order are discontinued. If you respond NO, only the pending order is discontinued and the active order is not discontinued.
 
 #### Edit Prescriptions
 
 \[PSO EXEDIT\]
 
-This option allows changes to be made to entered orders. Newly entered orders can be edited before release by typing in the corresponding field number. Previously entered orders can be edited by entering the prescription number, then specifying the field to be edited. An asterisk or star (\*) is shown in front of each field that will create a new order if it is changed. See the section “Editing an Order” for an example.
+This option allows changes to be made to entered orders. Newly entered orders can be edited before release by typing in the corresponding field number. Previously entered orders can be edited by entering the prescription number, then specifying the field to be edited. An asterisk or star (\*) is shown in front of each field that will create a new order if it is changed. See the section "Editing an Order" for an example.
 
-When editing fields preceded by an asterisk (\*) in an ePharmacy order (or electronically third party billable prescription), upon acceptance of the edited order the original prescription will be discontinued and a new order created. If the latest fill of the original order has not been released, the claim for that fill will be reversed. A new claim is created for the new prescription. See “Editing an ePharmacy Order” for an example of editing ePharmacy orders.
+When editing fields preceded by an asterisk (\*) in an ePharmacy order (or electronically third party billable prescription), upon acceptance of the edited order the original prescription will be discontinued and a new order created. If the latest fill of the original order has not been released, the claim for that fill will be reversed. A new claim is created for the new prescription. See "Editing an ePharmacy Order" for an example of editing ePharmacy orders.
 
 #### MAXIMUM DAYS SUPPLY
 
@@ -45529,7 +45603,7 @@ DAYS SUPPLY: (1-365): 90//
 <th>VA Product File</th>
 <th>Local Drug File</th>
 <th>Outpatient Pharmacy<br />
-‘Days Supply’ Prompt</th>
+'Days Supply' Prompt</th>
 </tr>
 </thead>
 <tbody>
@@ -45580,7 +45654,7 @@ The above table displays the MAXIMUM DAYS SUPPLY for files 50.68 and 50, and the
 
 95. When entering a MAXIMUM DAYS SUPPLY value using the *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\], and the value is greater than the VA Product File value, the following message displays to the user:
 
-    “Cannot be greater than NDF Maximum Days Supply: \<value\>”
+    "Cannot be greater than NDF Maximum Days Supply: \<value\>"
 96. The MAXIMUM DAYS SUPPLY value in the Local Drug File (#50) should not exceed the MAXIMUM DAYS SUPPLY value in the VA Product File (#50.68).
 
 #### DAW / NDC Edit
@@ -45594,7 +45668,7 @@ For ePharmacy prescriptions, the DAW/NDC field for discontinued and expired orde
 - 14 - DISCONTINUED BY PROVIDER
 - 15 - DISCONTINUED (EDIT)
 
-These are additional status results from the prescription being discontinued from CPRS. For status 14 - DISCONTINUED BY PROVIDER, the user can choose to discontinue the prescription in CPRS by selecting “Requesting Physician Cancelled” for the reason.
+These are additional status results from the prescription being discontinued from CPRS. For status 14 - DISCONTINUED BY PROVIDER, the user can choose to discontinue the prescription in CPRS by selecting "Requesting Physician Cancelled" for the reason.
 
 The following is an example of the activity log entry stored on the prescription for this type of discontinue:
 
@@ -45786,11 +45860,11 @@ Prescription Mail Delivery(patient level): Certified Mail
 
 4 300473x FISH OIL 1000MG (500MG DHA/EPA) CAP,ORAL 2-DO NOT MAIL
 
-#### Medication Profile – Indicator ‘x’
+#### Medication Profile – Indicator 'x'
 
 When a new prescription is entered, the Mail Exemption does not contain a value. When the Mail Exemption does not contain a value, the patient level mail preference is utilized for the prescription.
 
-<span id="MailExemptionIndicatorText" class="anchor"></span>Patch PSO\*7.0\*753 adds a new indicator ‘x’ at the end of each prescription number in the Medication Profile screen when a value has been entered for the prescription Mail Exemption field (22) on the OP Medications screen or via the OTH-\>EX hidden menu option.
+<span id="MailExemptionIndicatorText" class="anchor"></span>Patch PSO\*7.0\*753 adds a new indicator 'x' at the end of each prescription number in the Medication Profile screen when a value has been entered for the prescription Mail Exemption field (22) on the OP Medications screen or via the OTH-\>EX hidden menu option.
 
 \# RX \# DRUG QTY ST DATE FILL REM SUP
 
@@ -46249,7 +46323,7 @@ The following menu items allow the user to perform ePharmacy specific functions 
 
 DURs can occur when a third party determines there are safety issues involved with an Rx claim submission, and they can be due to high dose, drug interaction, and excessive utilization. The third party payer returns an NCPDP rejection code of 88 <span id="p251" class="anchor"></span>or 943 to indicate a DUR.
 
-Refill Too Soon rejections happen when a third party payer determines that a prescription is being processed too early compared to the last time the prescription was filled. This can occur for several reasons, including third party payer’s policy differs from VA policy, patient receiving medication at another pharmacy, or the provider may have increased the dosage or frequency of the medication. The third party payer returns an NCPDP rejection code of 79 to indicate a Refill Too Soon.
+Refill Too Soon rejections happen when a third party payer determines that a prescription is being processed too early compared to the last time the prescription was filled. This can occur for several reasons, including third party payer's policy differs from VA policy, patient receiving medication at another pharmacy, or the provider may have increased the dosage or frequency of the medication. The third party payer returns an NCPDP rejection code of 79 to indicate a Refill Too Soon.
 
 Prescriptions rejected as DUR, Reject Resolution Required, and Refill Too Soon are moved to the REFILL TOO SOON/DUR REJECT RESOLUTION REQUIRED (Third Party) section of the Medication Profile. Prescriptions rejected as Reject Resolution Required, TRICARE and CHAMPVA are displayed in the OTHER REJECTS PENDING RESOLUTION section of the Medication Profile. The user must resolve a rejected prescription before other actions such as release, label print, renew, and refill, among others, can be performed on it. Actions may still be taken on these prescriptions through CPRS.
 
@@ -46364,7 +46438,7 @@ TOTAL: 2 Patients.
 
 \[PSO PMP\]
 
-Although the name indicates “ePharmacy Medication Profile”, this option can be used to list the medication profile for any patient on file. It will be used mostly by ePharmacy users for claims research purposes. This functionality is also available from the Reject Worklist through the Medication Profile (MP) action.
+Although the name indicates "ePharmacy Medication Profile", this option can be used to list the medication profile for any patient on file. It will be used mostly by ePharmacy users for claims research purposes. This functionality is also available from the Reject Worklist through the Medication Profile (MP) action.
 
 Example 1: Medication Profile with default view
 
@@ -46435,13 +46509,13 @@ The following options are available as Hidden Menu actions on this screen:
 - LF - Sort by Last Fill
 - ID - Sort by Issue Date
 
-After selecting a prescription on this screen, the *REJ* option is available on the “RX View” screen’s hidden menu. This action displays third party reject information for the prescriptions with third party rejects.
+After selecting a prescription on this screen, the *REJ* option is available on the "RX View" screen's hidden menu. This action displays third party reject information for the prescriptions with third party rejects.
 
 The *CV (Change View)* option allows the user to change some characteristics of the screen above. The user can also save, delete preferences, or both, which will be used every time the user runs the *Medication Profile* option or invokes it from the Reject Worklist. The users can have one set of preferences for each Division defined.
 
 Example 2: Change View action
 
-Enter CV at the “Select:” prompt to change the view preferences.
+Enter CV at the "Select:" prompt to change the view preferences.
 
 OPPROVIDER,ONE's current default view (ALBANY):
 
@@ -46479,7 +46553,7 @@ Saving...OK!
 
 Example 3: Display SIG action
 
-Enter SIG at the “Select:” prompt to toggle the Sig display on or off.
+Enter SIG at the "Select:" prompt to toggle the Sig display on or off.
 
 Patient Medication Profile Jun 04, 2007@19:22:16 Page: 1 of 1
 
@@ -46999,7 +47073,7 @@ END REJECT DATE: T// \<Enter\> (JUN 07, 2007)
 
 - (P)ATIENT: Selects a single patient, multiple patients, or all patients.
 - (D)RUG: Selects a single drug, multiple drugs, or all drugs.
-- (R)x: Selects single or multiple prescription numbers, or ECME number preceded by “E”.
+- (R)x: Selects single or multiple prescription numbers, or ECME number preceded by "E".
 - (I)NSURANCE: Selects a single insurance, multiple insurances, or all insurances.
 - (C) REJECT CODE: Selects a single reject code, multiple reject codes, or all reject codes.
 
@@ -47092,7 +47166,7 @@ Select: Quit//
 The following options are available on the screen above:
 
 - DR – Sorts the list by the drug name.
-- PA – Sorts the list by the patient’s last name.
+- PA – Sorts the list by the patient's last name.
 - RE – Sorts the list by the reject reason.
 - RF – Refreshes the screen. (This selection retrieves DUR/ REFILL TOO SOON rejects that happened after the screen was originally populated.)
 - RX – Sorts the list by Prescription number.
@@ -47103,7 +47177,7 @@ The following hidden actions are also available (excluding standard ListManager 
 - TRI (Show/Hide TRICARE) – Toggle that indicates whether to display or hide TRICARE rejections.
 - CVA (Show/Hide CHAMPVA) – Toggle that indicates whether to display or hide CHAMPVA rejections.
 - PSX (Print to Excel) – Allows the current display list of rejection to output in a format that can easily be imported into a spreadsheet.
-99. The following two sets of characters denote the order by which the list is being sorted: \[^\] for ascending and \[v\] for descending. The order inverts every time the user selects the same column by which the list is already ordered . Thus, if the list is currently ordered by Patient in ascending order (\[^\]) and the user types “PA”, the list will be re-sorted in descending order and the order indicator will change to (\[v\]).
+99. The following two sets of characters denote the order by which the list is being sorted: \[^\] for ascending and \[v\] for descending. The order inverts every time the user selects the same column by which the list is already ordered . Thus, if the list is currently ordered by Patient in ascending order (\[^\]) and the user types "PA", the list will be re-sorted in descending order and the order indicator will change to (\[v\]).
 
 The user selects a specific record to display all relevant information about the prescription and the claim submitted to the payer.
 
@@ -47166,7 +47240,7 @@ Select: Next Screen// IGN Ignore Reject
 These options are available on the screen above:
 
 - VW (View RX) – Takes the user to the *View Prescription* option to review details for that prescription.
-- MP (Medication Profile) – Invokes the patient’s list of medication.
+- MP (Medication Profile) – Invokes the patient's list of medication.
 - IGN (Ignore Reject) – Allows the user to close or resolve the DUR/REFILL TOO SOON/REJECT RESOLUTION REQUIRED Reject without resubmission to the payer. The user will be required to enter a free-text comment and his/her electronic signature. Comments from Ignored rejects will be displayed in the ECME Reject Log (Activity Log), including when a TRICARE or CHAMPVA non-billable prescription with open pseudo-rejection codes of eT or eC is ignored from the Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action.
 - RES (Resubmit Claim) – Allows the user to re-submit the claim to the payer. This will automatically mark the reject resolved. The RES action can be used to submit a claim for TRICARE and CHAMPVA non-billable prescriptions with open pseudo-rejection codes of eT and eC. The Reject Information screen only displays the RESUBMISSION indicator if the claim was resubmitted from the ECME User Screen.
 - OVR (Submit Override Codes) – Allows the user to re-submit the claim by entering NCPDP override codes, which shall trigger a new claim submission be sent to the payer.
@@ -47333,7 +47407,7 @@ PA Sort by Patient RF Screen Refresh GI Group by Insurance
 The following options are available on the screen above:
 
 - DR – Sorts the list by the drug name.
-- PA – Sorts the list by the patient’s last name.
+- PA – Sorts the list by the patient's last name.
 - RE – Sorts the list by the reject reason.
 - RF – Refreshes the screen. (This selection retrieves DUR/ REFILL TOO SOON rejects that happened after the screen was originally populated.)
 - RX – Sorts the list by Prescription number.
@@ -47400,7 +47474,7 @@ Select: Quit// OVR Submit Override Codes
 These options are available on the screen above:
 
 - VW (View Rx) – Takes the user to the View Prescription option to review details for that prescription.
-- MP (Medication Profile) – Invokes the patient’s list of medication.
+- MP (Medication Profile) – Invokes the patient's list of medication.
 - IGN (Ignore Reject) – Allows the user to close or resolve the DUR/REFILL TOO SOON Reject or the Reject Resolution Required Reject without resubmission to the payer. The user will be required to enter a free-text comment and his/her electronic signature. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action.
 - RES (Resubmit Claim) – Allows the user to re-submit the claim to the payer. This will automatically mark the reject resolved. The RES action can be used to submit a claim for TRICARE and CHAMPVA non-billable prescriptions with open pseudo-rejection codes of eT and eC. The Reject Information screen only displays the RESUBMISSION indicator if the claim was resubmitted from the ECME User Screen.
 - OVR (Submit Override Codes) – Allows the user to re-submit the claim by entering NCPDP override codes, which shall trigger a new claim submission be sent to the payer. This option is active for DUR rejects only.
@@ -47419,9 +47493,9 @@ Hidden Actions:
 - SMA (Submit Multiple Actions) – Allows the user to resubmit a claim with multiple actions.
 - ECS (Edit Claim Submitted) – Allows the user to resubmit a claim with specified NCPDP fields. The user may select a date of service if the prescription is released. The action is available if the claim response was rejected or payable.
 
-When a claim is rejected, typically the Payer returns a “Reason for Service Code”, which becomes the default for the “Reason for Service Code” prompt. The user can use this reason to then select which code is entered for “Professional Service Code” and “Result of Service Code”.
+When a claim is rejected, typically the Payer returns a "Reason for Service Code", which becomes the default for the "Reason for Service Code" prompt. The user can use this reason to then select which code is entered for "Professional Service Code" and "Result of Service Code".
 
-<span id="p270" class="anchor"></span>Available codes for “Professional Service Code” include:
+<span id="p270" class="anchor"></span>Available codes for "Professional Service Code" include:
 
 > <u>Code Description</u>
 
@@ -47473,7 +47547,7 @@ When a claim is rejected, typically the Payer returns a “Reason for Service Co
 
 > ZZ OTHER ACKNOWLEDGEMENT
 
-<span id="p314" class="anchor"></span>Available codes for “Result of Service Code” include:
+<span id="p314" class="anchor"></span>Available codes for "Result of Service Code" include:
 
 > <u>Code Description</u>
 
@@ -47565,7 +47639,7 @@ When a claim is rejected, typically the Payer returns a “Reason for Service Co
 
 > 5C UNK DELIVRY DEVICE METHOD AND IMMEDIATE ACCESS REQ
 
-<span id="p315" class="anchor"></span>Available codes for “Reason for Service Code” include:
+<span id="p315" class="anchor"></span>Available codes for "Reason for Service Code" include:
 
 > <u>Code Description</u>
 
@@ -48861,7 +48935,7 @@ PA Sort by Patient RF Screen Refresh GI Group by Insurance
 
 Select: Quit//
 
-When GI - Group by Insurance action is toggled ON, the headers "TRICARE" and “CHAMPVA” display, and these "TRICARE" and “CHAMPVA” sections sort alphabetically within RTS/DUR insurances. These TRICARE/CHAMPVA sections are separate from the Non-DUR/RTS section that displays at the end of the listing.
+When GI - Group by Insurance action is toggled ON, the headers "TRICARE" and "CHAMPVA" display, and these "TRICARE" and "CHAMPVA" sections sort alphabetically within RTS/DUR insurances. These TRICARE/CHAMPVA sections are separate from the Non-DUR/RTS section that displays at the end of the listing.
 
 Example with GI action toggled on:
 
@@ -49039,7 +49113,7 @@ A bypass function is provided to allow continued processing of prescriptions for
 
 - Whenever a TRICARE or CHAMPVA inpatient prescription is auto-reversed by the ECME NIGHTLY BACKGROUND JOB, the prescription will be recorded to the TRICARE CHAMPVA Override Report as payment will not be received for this prescription
 
-In the following example a TRICARE patient has Military Sexual Trauma The system displays the Non-Billable Reason “MILITARY SEXUAL TRAUMA” on the screen.
+In the following example a TRICARE patient has Military Sexual Trauma The system displays the Non-Billable Reason "MILITARY SEXUAL TRAUMA" on the screen.
 
 ISSUE DATE: JAN 27,2015// (JAN 27, 2015)
 
@@ -49071,7 +49145,7 @@ MILITARY SEXUAL TRAUMA
 
 Another New Order for OPTRICARE,TWO? YES//
 
-The following is a sample of the View Prescription ECME Log update. The Non-Billable Reason “MILITARY SEXUAL TRAUMA” is now displayed on the View Prescription ECME Log. This allows the system to record why a TRICARE prescription was allowed to be bypassed.
+The following is a sample of the View Prescription ECME Log update. The Non-Billable Reason "MILITARY SEXUAL TRAUMA" is now displayed on the View Prescription ECME Log. This allows the system to record why a TRICARE prescription was allowed to be bypassed.
 
 Example: View Prescription ECME Log entry: TRICARE INPATIENT/DISCHARGE
 
@@ -49101,8 +49175,8 @@ In a similar situation where a prescription is issued to a CHAMPVA patient with 
 
 An override function is provided to allow continued processing of prescriptions for TRICARE or CHAMPVA eligible outpatients when a rejected response is received from the TRICARE or CHAMPVA payer/PBM.
 
-- The Reject Action prompt will default to “Quit”. If the Q (Quit) action is selected, the rejected claim will go to the TRICARE or CHAMPVA section, as appropriate, of the Pharmacy Third Party Payer Rejects – Worklist. If the D (Discontinue) action is selected, the next prompt “Nature of Order” will default to “Service Reject”. The I (Ignore) action is available if the user holds the “PSO TRICARE/CHAMPVA” security key and if selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action.
-- The Reject Action prompt will be updated to a default of “Quit”.
+- The Reject Action prompt will default to "Quit". If the Q (Quit) action is selected, the rejected claim will go to the TRICARE or CHAMPVA section, as appropriate, of the Pharmacy Third Party Payer Rejects – Worklist. If the D (Discontinue) action is selected, the next prompt "Nature of Order" will default to "Service Reject". The I (Ignore) action is available if the user holds the "PSO TRICARE/CHAMPVA" security key and if selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action.
+- The Reject Action prompt will be updated to a default of "Quit".
 
 Example of Reject Notification Screen Non-DUR/RTS with the default action of D (Discontinue)
 
@@ -49194,7 +49268,7 @@ Gross Amount Due is \$67.29. Do you want to continue (Y/N)? NO// y YES
 
 You are bypassing claims processing. Do you wish to continue? NO// y YES
 
-- For Non-Billable TRICARE or CHAMPVA rejects, a Non-Billable Notification Screen is provided to allow continued processing of prescriptions. The Reject Action prompt will default to “Discontinue”. If the action D (Discontinue) is selected, the prompt “Nature of Order” will default to “Service Reject”. The I (Ignore) action is available if the user holds the “PSO TRICARE/CHAMPVA” security key and if it is selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action. If the action Q (Quit) is selected, the Non-Billable TRICARE or CHAMPVA eligible prescription will go to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code “eT” with reject description “TRICARE-NON BILLABLE” or Reject Code “eC” with reject description “CHAMPVA-NON BILLABLE.” (The reject codes “eT” and “eC” are for use internal to the VistA system only and have no relation to any NCPDP reject code listing.) The new entry will be displayed in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
+- For Non-Billable TRICARE or CHAMPVA rejects, a Non-Billable Notification Screen is provided to allow continued processing of prescriptions. The Reject Action prompt will default to "Discontinue". If the action D (Discontinue) is selected, the prompt "Nature of Order" will default to "Service Reject". The I (Ignore) action is available if the user holds the "PSO TRICARE/CHAMPVA" security key and if it is selected, continued processing will occur. If the gross amount due exceeds the Ignore Threshold, the user must also have security key EPHARMACY SITE MANAGER to complete the ignore action. If the action Q (Quit) is selected, the Non-Billable TRICARE or CHAMPVA eligible prescription will go to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code "eT" with reject description "TRICARE-NON BILLABLE" or Reject Code "eC" with reject description "CHAMPVA-NON BILLABLE." (The reject codes "eT" and "eC" are for use internal to the VistA system only and have no relation to any NCPDP reject code listing.) The new entry will be displayed in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
 
 In the following example a TRICARE Active Duty patient with Outpatient status submits an OTC, Non-Billable drug or supplies prescription for dispensing. The pharmacist will have the option of Discontinuing the Rx, Ignoring the Rx or Quitting. Discontinue is the option displayed below.
 
@@ -49236,7 +49310,7 @@ Nature of Order: SERVICE REJECT//
 
 Requesting PROVIDER: VHAPROVIDER,ONE 111 PHYSICIAN
 
-In the following example, a TRICARE Active Duty patient with Outpatient status submitted an OTC, Non-Billable drug or Supplies prescription for dispensing. The pharmacist selected the Quit option to send the prescription to the worklist for further review. The Non-Billable drug is displayed on the Pharmacy Third Party Payer Rejects – Worklist with a reason code “eT”.
+In the following example, a TRICARE Active Duty patient with Outpatient status submitted an OTC, Non-Billable drug or Supplies prescription for dispensing. The pharmacist selected the Quit option to send the prescription to the worklist for further review. The Non-Billable drug is displayed on the Pharmacy Third Party Payer Rejects – Worklist with a reason code "eT".
 
 Example of Pharmacy Third Party Payer Rejects – Worklist
 
@@ -49291,11 +49365,11 @@ Select: Next Screen//
 - The Non-Billable TRICARE prescriptions will appear on the Reject Information screen shown in the example below once the TRICARE Non-Billable claim has been selected from the Pharmacy Third Party Payer Rejects – Worklist. The screen will display:
 - ECME# field – will be blank.
 - Insurance Information – will be blank.
-- Reject code section will have the reject code eT and status will state “NO CLAIM SUBMITTED”.
+- Reject code section will have the reject code eT and status will state "NO CLAIM SUBMITTED".
 - Available Actions will be DC – Discontinue Rx, VW -View Rx, MP – Medication Profile, FIL – Fill Rx and IGN Ignore Reject (FIL and IGN will require PSO TRICARE/CHAMPVA Security key).
 - Available Hidden Actions will be COM – Add Comments, ED – Edit Rx, VER – View ePharmacy Rx and all other standard List Manager hidden actions.
-- If the action DC is chosen, the system will discontinue the prescription and the prompt “Nature of Order” will default to “SERVICE REJECT”.
-- The following actions will *<u>not</u>* be selectable when processing a TRICARE or CHAMPVA eligible Non-Billable reject: Change Suspense Date (CSD)/Submit Override Codes (OVR)/Submit Clarif Code (CLA)/Submit Prior Auth (PA)/Suspense Date Calculation (SDC)/Submit Mult Actions (SMA). If selected for a TRICARE reject, an error message will appear: “\[action\] not allowed for TRICARE Non-Billable claim”. If selected for a CHAMPVA reject, an error message will appear: “\[action\] not allowed for CHAMPVA Non-Billable claim”. The only actions available are to Discontinue, Fill the prescription, View prescription, Resubmit Claim or Medication Profile.
+- If the action DC is chosen, the system will discontinue the prescription and the prompt "Nature of Order" will default to "SERVICE REJECT".
+- The following actions will *<u>not</u>* be selectable when processing a TRICARE or CHAMPVA eligible Non-Billable reject: Change Suspense Date (CSD)/Submit Override Codes (OVR)/Submit Clarif Code (CLA)/Submit Prior Auth (PA)/Suspense Date Calculation (SDC)/Submit Mult Actions (SMA). If selected for a TRICARE reject, an error message will appear: "\[action\] not allowed for TRICARE Non-Billable claim". If selected for a CHAMPVA reject, an error message will appear: "\[action\] not allowed for CHAMPVA Non-Billable claim". The only actions available are to Discontinue, Fill the prescription, View prescription, Resubmit Claim or Medication Profile.
 
 Example of Non-Billable Reject Information Screen
 
@@ -49397,9 +49471,9 @@ Select Item(s): Next Screen//
 
 #### TRICARE / CHAMPVA Without an Active Insurance Policy
 
-For TRICARE or CHAMPVA rejects without an active TRICARE or CHAMPVA insurance policy on file, a reason of ‘Not Billable’ will be displayed on the Reject Notification Screen. The Reject Action prompt will default to Q (Quit) and reject sent to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code “eT” with reject description “TRICARE-NON BILLABLE” or Reject Code “eC” with reject description “CHAMPVA-NON BILLABLE. The new entry will display in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
+For TRICARE or CHAMPVA rejects without an active TRICARE or CHAMPVA insurance policy on file, a reason of 'Not Billable' will be displayed on the Reject Notification Screen. The Reject Action prompt will default to Q (Quit) and reject sent to the Pharmacy Third Party Payer Rejects – Worklist utilizing either Reject Code "eT" with reject description "TRICARE-NON BILLABLE" or Reject Code "eC" with reject description "CHAMPVA-NON BILLABLE. The new entry will display in the TRICARE or CHAMPVA section of the Pharmacy Third Party Payer Rejects – Worklist, as applicable.
 
-In the following example, a prescription is processed for a TRICARE patient without an active TRICARE insurance policy on file. The Reject Action prompt defaulted to Q (Quit) and the prescription will be sent to the Pharmacy Third Party Payer Rejects – Worklist with an internal reason code “eT”.
+In the following example, a prescription is processed for a TRICARE patient without an active TRICARE insurance policy on file. The Reject Action prompt defaulted to Q (Quit) and the prescription will be sent to the Pharmacy Third Party Payer Rejects – Worklist with an internal reason code "eT".
 
 Example of TRICARE reject due to an active TRICARE insurance policy is not on file
 
@@ -49437,7 +49511,7 @@ Reject Information Screen – Electronic Signature and TRICARE/CHAMPVA Justifica
 
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-updated-pso-7-0-770/019.png) This action requires the security key PSO TRICARE/CHAMPVA.
 
-A user must hold the “PSO TRICARE/CHAMPVA” security key to perform the Fill Rx (FIL) and Ignore Reject (IGN) actions on the Third Party Payer Rejects – Worklist and the “Ignore” action on the TRICARE or CHAMPVA Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action. If the user holds the security key “PSO TRICARE/CHAMPVA”, the prompt will display: “You are bypassing claims processing. Do you wish to continue?” If the user enters (No=Default), the user will return to the reject notification screen. If the user selects Yes to continue, the system will mimic the current Ignore action/functionality and allow processing of the prescription. The user will be prompted to enter their electronic signature code and asked to enter data into the TRICARE Justification or CHAMPVA Justification field, which is required. The user will be allowed to “^” out of the process. If the user opts to “^” out of the process, they will be taken back to the Reject Information screen prompt.
+A user must hold the "PSO TRICARE/CHAMPVA" security key to perform the Fill Rx (FIL) and Ignore Reject (IGN) actions on the Third Party Payer Rejects – Worklist and the "Ignore" action on the TRICARE or CHAMPVA Reject Notification screen. If the gross amount due exceeds the Ignore Threshold, the user must have security key EPHARMACY SITE MANAGER to complete the ignore action. If the user holds the security key "PSO TRICARE/CHAMPVA", the prompt will display: "You are bypassing claims processing. Do you wish to continue?" If the user enters (No=Default), the user will return to the reject notification screen. If the user selects Yes to continue, the system will mimic the current Ignore action/functionality and allow processing of the prescription. The user will be prompted to enter their electronic signature code and asked to enter data into the TRICARE Justification or CHAMPVA Justification field, which is required. The user will be allowed to "^" out of the process. If the user opts to "^" out of the process, they will be taken back to the Reject Information screen prompt.
 
 In the following example a TRICARE patient with Outpatient status submits a prescription for processing and a rejected response is received from the TRICARE payer/PBM. The pharmacist initially sends the prescription to the Third Party Payer Rejects – Worklist then later decides to finish processing the prescription and chooses the FIL action.
 
@@ -49497,7 +49571,7 @@ Enter your Current Signature Code: SIGNATURE VERIFIED
 
 TRICARE Justification: Patient required medication
 
-- If the user does not hold the security key “PSO TRICARE/CHAMPVA”, an on screen alert to the user will display “Action Requires \<PSO TRICARE/CHAMPVA\> security key” as displayed in the below example. The user will need to press any key to return to the Reject Information screen.
+- If the user does not hold the security key "PSO TRICARE/CHAMPVA", an on screen alert to the user will display "Action Requires \<PSO TRICARE/CHAMPVA\> security key" as displayed in the below example. The user will need to press any key to return to the Reject Information screen.
 
 Example of Reject Information Screen – Security Key – ALERT
 
@@ -49611,7 +49685,7 @@ Select LABEL PRINTER: HOME// UCX/TELNET Right Margin: 80//
 
 \[PSO REJECTS WORKLIST\]
 
-Rejects under the OTHER REJECTS section of the screen contain non-clinical rejects and are resolved in the same manner as DUR/RTS rejects. The comments section denotes whether the reject was transferred automatically as is the case in the example below or “Transferred by OPECC” will denote those rejects where the OPECC manually transferred them to pharmacy for resolution.
+Rejects under the OTHER REJECTS section of the screen contain non-clinical rejects and are resolved in the same manner as DUR/RTS rejects. The comments section denotes whether the reject was transferred automatically as is the case in the example below or "Transferred by OPECC" will denote those rejects where the OPECC manually transferred them to pharmacy for resolution.
 
 The following example shows the user selecting to resolve sequence 16 from the Third Party Payer Rejects - Worklist option shown above. The user selects ED to edit the DAW code for the prescription, then resubmits the claim afterward. Since the claim was payable, both the RTS reject in sequence 13 and the DAW reject in sequence 16 were marked resolved. Also, both are removed from the worklist after submission. The user then proceeds to Patient Prescription Processing option to view the ECME logs which show that claim resubmission was payable and that both rejects have been resolved.
 
@@ -50125,7 +50199,7 @@ The *View ePharmacy Rx* option allows you to view information for one prescripti
 
 The Bypass 3/4 Day Supply option allows you to enter one or more prescriptions to bypass the 3/4 days supply processing. This option applies to the most current fill for billable prescriptions with third party insurance and the prescription must be on the CMOP Suspense Queue.
 
-- The 3/4 Day Supply bypass will take precedence over a date entered into the Change Suspense Date from the Worklist. If the suspense date is in the future, suspense date will be changed to current date at the time the user sets the Bypass to “YES”.
+- The 3/4 Day Supply bypass will take precedence over a date entered into the Change Suspense Date from the Worklist. If the suspense date is in the future, suspense date will be changed to current date at the time the user sets the Bypass to "YES".
 - Similar to functionality on other ePharmacy screens, entering a prescription twice will remove it from the list. If an invalid prescription is entered, ?? will be displayed.
 
 Example: Option BY Bypass 3/4 Day Supply
@@ -50495,7 +50569,7 @@ Days Supply: 5
 
 -------------------------------------------------------------------------------
 
-In the above example, the line “Processing Status: Transmitted to CMOP on 11/27/09” is bold.
+In the above example, the line "Processing Status: Transmitted to CMOP on 11/27/09" is bold.
 
 #### List One Patient's Archived Rx's
 
@@ -50526,7 +50600,7 @@ Multi-Rx form queued to print
 100. For additional information regarding OneVA Pharmacy processing, see the *OneVA Pharmacy User Manual* located in the [PSO](https://www.va.gov/vdl/application.asp?appid=90) section on the [VDL](https://www.va.gov/vdl/).
 101. To account for copay billing, insurance billing, and subsequent refill capabilities, all sites are asked to print to OneVA Pharmacy Reports and manually release prescriptions filled by other stations. Recommended frequency of printing report is no less than weekly.
 
-The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new menu option for retrieving the OneVA Pharmacy Prescription Reports. The ‘*ONEVA PHARMACY PRESCRIPTION REPORT* \[PSO REMOTE RX REPORT\]’ menu is located on the *‘Rx (Prescriptions)* \[PSO RX\]’ menu.
+The OneVA Pharmacy patch PSO\*7\*454 – December 2016 introduces the new menu option for retrieving the OneVA Pharmacy Prescription Reports. The '*ONEVA PHARMACY PRESCRIPTION REPORT* \[PSO REMOTE RX REPORT\]' menu is located on the *'Rx (Prescriptions)* \[PSO RX\]' menu.
 
 There are three new reports available on the menu with self-describing titles. They are:
 
@@ -51472,7 +51546,7 @@ Patient demographics and Clinical Alerts display in the header area when using t
 
 #### Restrictions on Providers Placing Controlled Substances Orders
 
-As part of patch PSO\*7\*545, the Kernel patch XU\*8\*688 introduced the DEA NUMBERS file (#8991.9) and the NEW DEA#’s multiple field (#53.21) in the NEW PERSON file (#200).
+As part of patch PSO\*7\*545, the Kernel patch XU\*8\*688 introduced the DEA NUMBERS file (#8991.9) and the NEW DEA#'s multiple field (#53.21) in the NEW PERSON file (#200).
 
 The DEA NUMBERS file (#8991.9) contains DEA numbers and details related to each DEA number. The fields are shown in Table 15.
 
@@ -51503,17 +51577,17 @@ The DEA NUMBERS file (#8991.9) contains DEA numbers and details related to each 
 
 Table 16: DEA Number Multiple and Details
 
-The NEW DEA#’s multiple field (#53.21) in the NEW PERSON file (#200) provides a way to link one or more DEA number to a provider’s profile. The fields are shown in Table 16.
+The NEW DEA#'s multiple field (#53.21) in the NEW PERSON file (#200) provides a way to link one or more DEA number to a provider's profile. The fields are shown in Table 16.
 
 | Field \# | Field Name            | Field Description                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | .01      | DEA NUMBER            | The provider's Drug Enforcement Administration (DEA) number(s). The first letter for practitioners (physicians, dentists, veterinarians, pharmacies, etc.) is either "A","B","F", or "G". The first letter for mid-level practitioners (physician assistants, nurse practitioners, etc.) is usually an "M". This field is designed to accept any upper-case alphabetic letter. The second letter should be the first letter of the practitioner's last name. |
-| .02      | INDIVIDUAL DEA SUFFIX | The provider’s individual DEA suffix related to an institutional DEA number. This field is required if the DEA is an institutional DEA number.                                                                                                                                                                                                                                                                                                               |
+| .02      | INDIVIDUAL DEA SUFFIX | The provider's individual DEA suffix related to an institutional DEA number. This field is required if the DEA is an institutional DEA number.                                                                                                                                                                                                                                                                                                               |
 | .03      | DEA POINTER           | Pointer field to the DEA NUMBERS FILE \#8991.9 that contains DEA number information, including controlled substance schedule permissions.                                                                                                                                                                                                                                                                                                                    |
 
 <span id="_Toc173226587" class="anchor"></span>Table 17: Error Level Messages
 
-With the new file and fields, more than one DEA number may be assigned to a provider’s profile.
+With the new file and fields, more than one DEA number may be assigned to a provider's profile.
 
 As part of patch PSO\*7\*391, the Kernel patch XU\*8\*580 introduced new fields to the NEW PERSON file (#200). Apart from the DEA#/VA# requirement, DEA further classifies what CS schedule a provider is authorized to write. These new fields are:
 
@@ -51533,7 +51607,7 @@ If one of the above fields is populated for a provider, then when placing a new 
 
 The fields above in the NEW PERSON file (#200) are used any time a provider uses a facility or institutional DEA number to place a controlled substance order.
 
-- When a provider uses their VA number in conjunction with a local VA facility DEA number from the FACILITY DEA NUMBER field (#52) in the INSTITUTION file (#4) to authorize a controlled substance order, the provider’s personal DEA schedules in the fields above are used, rather than the DEA schedules associated with the facility or institution. When a provider uses an institutional DEA number to authorize a controlled substance order, the provider’s CS DEA schedules in the NEW PERSON file (#200) are used.
+- When a provider uses their VA number in conjunction with a local VA facility DEA number from the FACILITY DEA NUMBER field (#52) in the INSTITUTION file (#4) to authorize a controlled substance order, the provider's personal DEA schedules in the fields above are used, rather than the DEA schedules associated with the facility or institution. When a provider uses an institutional DEA number to authorize a controlled substance order, the provider's CS DEA schedules in the NEW PERSON file (#200) are used.
 
 The fields in the DEA NUMBERS file (#8991.9) are used any time a provider uses an individual DEA number to place a controlled substance order.
 
@@ -51545,11 +51619,11 @@ When placing a controlled substance order in backdoor pharmacy, the software wil
 
 Prior to PSO\*7\*391, the default days supply for all drugs was based on Patient Rx Status. PSO\*7\*391 changes the default for CS schedule II drugs to be set to 30 (or to the current Patient Rx Status if lower than 30). The Integration Control Registration \#3278 that returns day supply (DSUP^PSOSIGDS) is modified to return 30 for CS schedule II drugs.
 
-## Updating a Patient’s Record
+## Updating a Patient's Record
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This chapter describes the option used for updating a patient’s record.
+This chapter describes the option used for updating a patient's record.
 
 ### Update Patient Record
 
@@ -51557,7 +51631,7 @@ This chapter describes the option used for updating a patient’s record.
 
 \[PSO PAT\]
 
-Use this option to update the patient information currently in the computer. Patient records can also be updated while being viewed by using the *Patient Record Update* screen action. If implementing Other Language Modifications, use either to set a patient’s other language preference.
+Use this option to update the patient information currently in the computer. Patient records can also be updated while being viewed by using the *Patient Record Update* screen action. If implementing Other Language Modifications, use either to set a patient's other language preference.
 
 In support of Registration patch DG\*5.3\*522, the Outpatient Pharmacy software provides for the automatic population of city, state, and county based on entry of a zip code.
 
@@ -51595,7 +51669,7 @@ ALLERGIES:
 
 ADVERSE REACTIONS:
 
-If the PSO site parameter is set to allow editing of patient data, this prompt, “Do you want to update the Permanent address/phone? //N”, is displayed. If the user enters “NO”, then the software will not allow the user to update the permanent address and Bad Address Indicator fields.
+If the PSO site parameter is set to allow editing of patient data, this prompt, "Do you want to update the Permanent address/phone? //N", is displayed. If the user enters "NO", then the software will not allow the user to update the permanent address and Bad Address Indicator fields.
 
 Do you want to update the address/phone? N// Y YES
 
@@ -51639,7 +51713,7 @@ Are you sure that you want to save the above changes? YES
 
 Change saved.
 
-Changes to the permanent address/Bad Address Indicator will not be saved until the prompt “Are you sure that you want to save the above changes?” is answered YES.
+Changes to the permanent address/Bad Address Indicator will not be saved until the prompt "Are you sure that you want to save the above changes?" is answered YES.
 
 Press ENTER to continue:
 
@@ -51717,7 +51791,7 @@ A pharmacist may choose to verify all entries made by a particular technician ra
 
 102. Prescriptions in a non-verified status cannot be canceled, edited, or deleted through the usual options. If a non-verified prescription is auto canceled on admission, it can be reinstated, but it returns to the non-verified status.
 
-When the VERIFICATION outpatient site parameter is set to ‘No’, a user who does not hold the PSORPH key will not be allowed to finish a pending order.
+When the VERIFICATION outpatient site parameter is set to 'No', a user who does not hold the PSORPH key will not be allowed to finish a pending order.
 
 The *Patient Prescription Processing* \[PSO LM BACKDOOR ORDERS\] and *Complete Orders from OERR* \[PSO LMOE FINISH\] options have been modified to incorporate the above functionality.
 
@@ -51961,11 +52035,11 @@ Order Checks review existing data and current events to produce a relevant messa
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the ^XTMP(“OCXCACHE” global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
+Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the ^XTMP("OCXCACHE" global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
 
 For example, before data caching was implemented, if an order check took 3 seconds to retrieve data from other VISTA packages, and there were 12 order checks, clinicians might wait 36 seconds to sign orders. With data caching, the first order check might take 3 seconds to retrieve the data, but subsequent order checks could use the cache and might take only .03 seconds each. That would be 3.33 seconds compared to 36 seconds. The numbers in this example are for illustration only and do not reflect real system speed. However, data caching should speed up order checks.
 
-To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP(“OCXCACHE” global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel cleans up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer’s prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
+To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP("OCXCACHE" global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel cleans up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer's prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
 
 #### Hash Counts and DEA Certification
 
@@ -52115,13 +52189,13 @@ The text in the error message and reason column will be displayed to the user. T
 </tr>
 <tr class="even">
 <td>System</td>
-<td>“Signature Failed- Order Auto Discontinued”.</td>
+<td>"Signature Failed- Order Auto Discontinued".</td>
 <td>Hash Mismatch</td>
 <td>Original digitally signed CS order placed in CPRS is checked to ensure data fields are not altered from the time the order is signed in CPRS and later selected for processing in backdoor pharmacy.</td>
 </tr>
 <tr class="odd">
 <td>System</td>
-<td>“Rx processed: PIV Card Cert Expired - NO ACTION REQ”</td>
+<td>"Rx processed: PIV Card Cert Expired - NO ACTION REQ"</td>
 <td>Validity of the PIV card certificate.</td>
 <td>Kernel API check for the validity of the PIV card certificate. If certificate is revoked or expired, the API will return the appropriate error code.</td>
 </tr>
@@ -52187,7 +52261,7 @@ Medication Guides are paper handouts that come with many prescription medicines.
 
 The system provides users the ability to display individual FDA Medication Guides for a specific prescription when one is available.
 
-Outpatient Pharmacy provides an option under the OTH hidden action within the Patient Prescription Processing \[PSO LM BACKDOOR\] option, aka ‘Backdoor Pharmacy’, allowing users to retrieve the Medication Guide associated with a prescription similar to the reprint of the PMI. Users may retrieve an FDA Mediation Guide for a specific prescription by invoking the OTH (Other OP Actions) hidden action and selecting the action, MG Display FDA Medication Guide.
+Outpatient Pharmacy provides an option under the OTH hidden action within the Patient Prescription Processing \[PSO LM BACKDOOR\] option, aka 'Backdoor Pharmacy', allowing users to retrieve the Medication Guide associated with a prescription similar to the reprint of the PMI. Users may retrieve an FDA Mediation Guide for a specific prescription by invoking the OTH (Other OP Actions) hidden action and selecting the action, MG Display FDA Medication Guide.
 
 When a VA Product has a Medication Guide Associated:
 
@@ -52307,7 +52381,7 @@ The Outpatient Pharmacy application automatically prints an FDA Medication Guide
 
 When an FDA medication guide is sent to the printer, information is included in the footer of the document to identify the Patient, the Rx# and the date it was printed.
 
-105. The system indicates when an associated medication guide exists on the prescription label printout. The printout contains the following statement on the same line where Additional Warnings appear: “Read FDA MED Guide.”
+105. The system indicates when an associated medication guide exists on the prescription label printout. The printout contains the following statement on the same line where Additional Warnings appear: "Read FDA MED Guide."
 
 #### Site Parameters
 
@@ -52471,7 +52545,7 @@ Select FDA MED GUIDE PRINTER:
 
 \[PSO LM BACKDOOR ORDERS\]
 
-The system allows the user to reprint the associated FDA Medication Guide for a given prescription fill (or the latest FDA Medication Guide available for the medication on the prescription when reprinting a prescription label) and for prescription fills sent to CMOP by invoking the RM action under the OTH (Other OP Actions) after selecting a specific prescription in Backdoor Pharmacy, as seen below. The system prompts the user whether to reprint a medication guide, if an FDA Medication Guide is associated with a Prescription, when reprinting a label. The Default is set to ‘NO’.
+The system allows the user to reprint the associated FDA Medication Guide for a given prescription fill (or the latest FDA Medication Guide available for the medication on the prescription when reprinting a prescription label) and for prescription fills sent to CMOP by invoking the RM action under the OTH (Other OP Actions) after selecting a specific prescription in Backdoor Pharmacy, as seen below. The system prompts the user whether to reprint a medication guide, if an FDA Medication Guide is associated with a Prescription, when reprinting a label. The Default is set to 'NO'.
 
 Example 4: Drug Not matched to National Drug File
 
@@ -52709,7 +52783,7 @@ Automated-dispensing systems such as Optfill also perform the prescription label
 
 To turn the FDA Medication Guide automatic printing functionality OFF or to not turn it ON for a specific pharmacy division, make sure the FDA MED GUIDE PRINT SERVER URL field has no value. This field can be edited via the Site Parameter Enter/Edit \[PSO SITE PARAMETERS\] option, as shown below.
 
-106. Whether the functionality is being turned ON or OFF, the prescription label printed from VistA will still include the note “Read FDA Med Guide” when one is associated with the medication being dispensed.
+106. Whether the functionality is being turned ON or OFF, the prescription label printed from VistA will still include the note "Read FDA Med Guide" when one is associated with the medication being dispensed.
 
 Example 10: Updating the FDA Med Guide Print Server URL Field
 
@@ -52889,7 +52963,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="even">
 <td><span id="p441_GlossaryItem_ActiveParked" class="anchor"></span>Active/Parked</td>
-<td>A prescription with this status is part of the patient’s current expected medication regimen, but it will not be filled until requested.</td>
+<td>A prescription with this status is part of the patient's current expected medication regimen, but it will not be filled until requested.</td>
 </tr>
 <tr class="odd">
 <td>Activity Log</td>
@@ -52901,7 +52975,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="odd">
 <td>Allergy Order Checks</td>
-<td>The process that compares the drugs prescribed for a patient against that patient’s recorded allergies.</td>
+<td>The process that compares the drugs prescribed for a patient against that patient's recorded allergies.</td>
 </tr>
 <tr class="even">
 <td>AMIS</td>
@@ -53006,7 +53080,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="even">
 <td>Enhanced Order Check</td>
-<td>Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB’s MedKnowledge Framework APIs and database.</td>
+<td>Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB's MedKnowledge Framework APIs and database.</td>
 </tr>
 <tr class="odd">
 <td>ETC</td>
@@ -53094,7 +53168,7 @@ The following table provides definitions for common acronyms and terms used in t
 </tr>
 <tr class="even">
 <td>Non-VA Meds</td>
-<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients’ medical records.</td>
+<td>Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients' medical records.</td>
 </tr>
 <tr class="odd">
 <td>OneVA Pharmacy</td>

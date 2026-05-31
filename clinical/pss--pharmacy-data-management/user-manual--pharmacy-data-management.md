@@ -1,15 +1,158 @@
 ---
-consolidated_title: "pharmacy data management user manual"
-app_code: PSS
+title: Pharmacy Data Management Version 1 User Manual (PSS*1*262)
 doc_type: UM
-master_source: "Pharmacy Data Management Version 1 User Manual  (PSS*1*262)"
-master_pub_date: revision_count: 0
+doc_label: User Manual
+doc_layer: patch
+doc_subject: (PSS*1*262)
+app_code: PSS
+app_name: 'Pharmacy: Data Management'
+section: CLI
+app_status: active
+pkg_ns: PSS
+patch_ver: 1
+patch_id: PSS*1*262
+group_key: PSS:PSS:1
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '2.1'
+- '3'
+- '3.5'
+- '4'
+- '4.1'
+- '5'
+- '6'
+- '7'
+- '7.1'
+- '8'
+- '8.1'
+- '9'
+- '10'
+- '11'
+- '11.1'
+- '12'
+- '13'
+- '14'
+- '14.1'
+- '14.2'
+- '14.5'
+- '15'
+- '16'
+- '17'
+- '18'
+- '19'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '27'
+- '28'
+- '29'
+- '31'
+- '32'
+- '32.1'
+- '33'
+- '40'
+- '41'
+- '42'
+- '45'
+- '50'
+- '50.0'
+- '50.032'
+- '50.0906'
+- '50.095'
+- '50.1'
+- '50.4'
+- '50.6'
+- '50.606'
+- '50.6061'
+- '50.625'
+- '50.626'
+- '50.68'
+- '50.7'
+- '50.711'
+- '51'
+- '51.1'
+- '51.2'
+- '51.23'
+- '51.24'
+- '51.25'
+- '51.7'
+- '52'
+- '52.53'
+- '52.6'
+- '52.61'
+- '52.7'
+- '53.1'
+- '53.47'
+- '54'
+- '55'
+- '56'
+- '59'
+- '59.7'
+- '59.74'
+- '63'
+- '81'
+- '82'
+- '83'
+- '84'
+- '85'
+- '86'
+- '87'
+- '96'
+- '100'
+- '101'
+- '101.43'
+- '102'
+- '105'
+- '105.2'
+- '200'
+- '212.2'
+- '213'
+- '400'
+- '901'
+- '902'
+- '903'
+- '904'
+- '906'
+- '907'
+- '2006'
+security_keys:
+- PSJI MGR
+- PSJU MGR
+- PSS ORDER CHECKS
+menu_options: 15
+description: Pharmacy Data Management (PDM) provides tools for managing Pharmacy data. It includes tools for creating Pharmacy Orderable Items and maintaining files necessary for the Computerized Patient Record System (CPRS). PDM consolidates tools for managing the various Pharmacy software products. It provides
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 68781
+section_count: 13
+table_count: 12
+figure_count: 0
+appendix_count: 7
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_p262_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_p262_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
+master_source: Pharmacy Data Management Version 1 User Manual (PSS*1*262)
+master_pub_date: 'null'
 consolidated_from: 5 versions
 prior_versions:
-  - "Pharmacy Data Management User Manual (PSS 1_0_P247)"
-  - "Pharmacy Data Management Version 1 User Manual (updated PSS*1*187)"
-  - "Pharmacy Data Management Version 1 User Manual (updated PSS*1*252)"
-  - "Pharmacy Data Management Version 1 User Manual (updated PSS*1*259)"
+- Pharmacy Data Management User Manual (PSS 1_0_P247)
+- Pharmacy Data Management Version 1 User Manual (updated PSS*1*187)
+- Pharmacy Data Management Version 1 User Manual (updated PSS*1*252)
+- Pharmacy Data Management Version 1 User Manual (updated PSS*1*259)
+consolidated_title: pharmacy data management user manual
 ---
 
 # Pharmacy Data Management 
@@ -141,8 +284,8 @@ Revision History
 <td>4, 140, 142, 143, 149-150</td>
 <td>PSS*1*259</td>
 <td><ul>
-<li><p>Added "Exclude Start/Stop override for ONE-TIME schedules” to the list of <a href="#PDM_Options_Exclude_StartStop">Pharmacy Data Management options</a></p></li>
-<li><p>Added “Exclude Start/Stop Overide for ONE-TIME schedules” to these screenshots:</p>
+<li><p>Added "Exclude Start/Stop override for ONE-TIME schedules" to the list of <a href="#PDM_Options_Exclude_StartStop">Pharmacy Data Management options</a></p></li>
+<li><p>Added "Exclude Start/Stop Overide for ONE-TIME schedules" to these screenshots:</p>
 <ul>
 <li><p><a href="#Standard_Schedule_Edit_Exclude_Startstop">Standard Schedule Edit Option</a></p></li>
 <li><p><a href="#Editing_One_Time_Schedule_Exclude_Starts">Editing of One-Time Schedule</a></p></li>
@@ -158,7 +301,7 @@ Revision History
 <td>PSS*1*187</td>
 <td><ul>
 <li><p>Paragraph added to section <a href="#P_187p33">1.3</a>: new code allows sites to mark drugs as NOT PARKABLE</p></li>
-<li><p>“D – NOT PARKABLE” added to DEA Special Handling Codes list in example 3 of section <a href="#P_187p34">1.3</a></p></li>
+<li><p>"D – NOT PARKABLE" added to DEA Special Handling Codes list in example 3 of section <a href="#P_187p34">1.3</a></p></li>
 <li><p>Update to Example 1 in section <a href="#P_187p136">1.12</a>: ONEVA PHARMACY FLAG details</p></li>
 <li><p>Paragraph added to section <a href="#P_187p136_NewField">1.12</a> for new field COPY INDICATION TO SIG</p></li>
 <li><p>Added the <a href="#indication-usage-report-pss-indiction-usage-report">Indication Usage Report</a> section</p></li>
@@ -249,7 +392,7 @@ Revision History
 <p>Updated title page to reflect month of release</p>
 </blockquote></li>
 <li><blockquote>
-<p>Description of added DEA, SPECIAL HDLG field value “K”.</p>
+<p>Description of added DEA, SPECIAL HDLG field value "K".</p>
 </blockquote></li>
 <li><blockquote>
 <p>Updated figure for PSS DRUG ENTER/EDIT help screen for the DEA,SPECIAL HDLG field</p>
@@ -270,7 +413,7 @@ Revision History
 <td>08/18</td>
 <td>30-31</td>
 <td>PSS*1*219</td>
-<td>Added Information related to the new option ‘Manage Buprenorphine Tx of Pain Dosage Forms’ [PSS BUPRENORPHINE DOSAGE FORMS].</td>
+<td>Added Information related to the new option 'Manage Buprenorphine Tx of Pain Dosage Forms' [PSS BUPRENORPHINE DOSAGE FORMS].</td>
 </tr>
 <tr class="odd">
 <td>03/18</td>
@@ -533,7 +676,7 @@ Revision History
 <td>04/11</td>
 <td>i, ii, iii, added iv, v; changed 3, 4, 45, 46; added 46a-46d, re-numbered all sections starting on page 87 and ending with page 106; changed page. 89; added 90e and 90f; changed 99-106; added 106a-b;</td>
 <td>PSS*1*136 &amp; PSS*1*117</td>
-<td><p>Besides the developer’s changes, this document incorporates the comments from REDACTED and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
+<td><p>Besides the developer's changes, this document incorporates the comments from REDACTED and colleagues for the PRE functionality included with patch PSS*1*117 (a combined patch with PSS*1*136).</p>
 <p>Sections changed are:</p>
 <ul>
 <li><blockquote>
@@ -681,7 +824,7 @@ Notations that will be used consistently throughout this PDM user manual are out
 - Menu options will be italicized.  
   Example: The *Drug Enter/Edit* option permits you to enter or edit a drug.
 - Screen prompts will be denoted with quotation marks around them.  
-  Example: the “select drug” prompt will display next.
+  Example: the "select drug" prompt will display next.
 - Responses in bold face indicate user input.  
   Example: DRUG INTERACTION SEVERITY: CRITICAL
 - Text centered between bent parentheses represents a keyboard key that needs to be pressed in order for the system to capture a user response or move the cursor to another field.
@@ -930,7 +1073,7 @@ The *Auto Create Dosages* \[PSS DOSAGE CONVERSION\] option was removed from the 
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option provides the ability to edit data in the DOSAGE FORM file (#50.606). Changes made using this option may affect the way CPRS and Outpatient Pharmacy SIGs display and how Local Possible Dosages are created. The Noun entries are used to populate the Local Possible Dosages for DRUG file (#50) entries, when these entries are matched to National Drug File. These Nouns may be package specific (i.e. Outpatient Pharmacy, Inpatient Medications, or both). Entries in this file will be used as default values in the construction of the Outpatient Pharmacy prescription SIG.
 
-The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction “OF” was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
+The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction "OF" was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option allows the user to associate one or more local medication routes with a dosage form. The user will only be able to select a local medication route that has already been defined in the MEDICATION ROUTES file (#51.2).
 
@@ -976,9 +1119,9 @@ The *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] option allows the user to enter a 
 
 The NUMERIC DOSE sub-field (#5) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) are used to breakdown a free text Local Possible Dosage in order to perform dosage checks when that Local Possible Dosage is selected for an eligible drug within an order. When populating the DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for a Local Possible Dosage, selection will be from the DOSE UNITS file (#51.24). A Numeric Dose will have to be entered that corresponds to the Dose Unit selected. No auto population is provided. If any of the following conditions can be determined at the time of entry, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for any defined Local Possible Dosage will not be displayed for data entry.
 
-- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 
 Although ineligible for dosage checks, when editing a Local Possible Dosage for an inactive drug or a drug not matched to NDF, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) will be displayed to the user for data entry.
 
@@ -1509,17 +1652,17 @@ Patch PSS\*1\*155 addresses supra-therapeutic and sub-therapeutic dosages. A sup
 - POSSIBLE DOSAGES TO CREATE field (#41)
 - PACKAGE field (#42)
 
-When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “YES”, then the existing functionality of auto-creating possible dosages will apply. When this field is “NO,” it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
+When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "YES", then the existing functionality of auto-creating possible dosages will apply. When this field is "NO," it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
 
-The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “NO”:
+The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "NO":
 
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “NO”, no possible dosages will be auto-created and the following message will be displayed:  
-  “Due to National Drug File settings no possible dosages were auto-created.”
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "NO", no possible dosages will be auto-created and the following message will be displayed:  
+  "Due to National Drug File settings no possible dosages were auto-created."
 - If POSSIBLE DOSAGES TO CREATE field (#41) is "O", 1x possible dosage will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “Due to National Drug File settings only one possible dosage will be auto-created.
-- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate.”
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “B”, 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
-- “Due to National Drug File settings TWO possible dosages were auto-created.”
+  "Due to National Drug File settings only one possible dosage will be auto-created.
+- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate."
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "B", 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
+- "Due to National Drug File settings TWO possible dosages were auto-created."
 
 Example 10: Supra-Therapeutic Drugs – *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] Option – Messages displayed when Create Default Possible Dosage is No and Possible Dosages To Create is No in the National Drug File
 
@@ -2037,7 +2180,7 @@ VA PRODUCT MATCH: ACETAMINOPHEN 160MG/5ML ELIXIR
 
 The *Local Possible Dosages Repor*t \[PSS LOCAL POSSIBLE DOSAGES\] option identifies drugs with Local Possible Dosages that have missing data in either the Numeric Dose or Dose Unit fields. This data needs to be populated if Dosage checks are to be performed, when that Local Possible Dosage is selected for an order.
 
-This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display ‘No Local Possible Dosage missing data found.’
+This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display 'No Local Possible Dosage missing data found.'
 
 If the strength of the drug does not match the strength of the VA Product to which it is matched to, it will be noted on the report.
 
@@ -2047,9 +2190,9 @@ Drugs that meet the following criteria will be screened out from this report.
 
 - Inactive
 - Not Matched to NDF
-- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 - Drug does not have any Local Possible Dosages defined
 
 Example 16: *Local Possible Dosages Report* \[PSS LOCAL POSSIBLE DOSAGES\] Option for Only Local Possible Dosage with Missing Data
@@ -2122,12 +2265,12 @@ VA PRODUCT MATCH: GUAIFENESIN 100MG/5ML SYRUP
 
 #### Request Change to Dose Unit \[PSS DOSE UNIT REQUEST\]
 
-The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. The following information about the request will be needed:
+The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. The following information about the request will be needed:
 
 - Dose Unit to be added or modified (required)
 - References or Reason for Request (required)
 
-If the user is not ready to send the request, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for “Preferred editor” in the NEW PERSON file (#200).
+If the user is not ready to send the request, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for "Preferred editor" in the NEW PERSON file (#200).
 
 Example 17: *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] Option
 
@@ -2255,9 +2398,9 @@ Select DOSE UNITS:
 
 This option displays all of the information related to Dosing Order Checks for the selected entry from the DRUG file (#50). Based on the data displayed, the option informs the user whether or not the drug is eligible or not eligible for Dosing Order Checks.
 
-No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an ‘XA’ or that contains an ‘S’ in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
+No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an 'XA' or that contains an 'S' in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
 
-A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to ‘Yes’. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to ‘No’ for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to ‘Yes’ for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
+A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to 'Yes'. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to 'No' for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to 'Yes' for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
 
 The table below shows all the different combinations of values for the EXCLUDE FROM DOSAGE CHECK field (#11) in the DOSAGE FORM file (#50.606) and the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) and whether or not those combinations result in a Dosing Order Check being performed.
 
@@ -2272,13 +2415,13 @@ The table below shows all the different combinations of values for the EXCLUDE F
 
 If a drug is not matched to NDF, a GCNSEQNO cannot be obtained to identify the drug to FDB in order to perform a Dosing Order Check. In some cases, the drug may be matched to NDF, but the VA Product, to which it is matched, may not have a GCNSEQNO assigned. In both of these cases, the drug will be ineligible for Dosing Order Checks.
 
-The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, ‘None’ will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
+The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, 'None' will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
 
 The second section displays all dosage information such as strength, unit, possible dosages, and local possible dosages that has been defined for the drug selected.
 
 The third and final section displays dosage information from First Databank (FDB). It will show all route and dose units found in FDB dosing records for the drug and whether or not a weight or BSA value is required for a dosage order check to be performed. If a drug is not eligible for Dosing Order Checks, no FDB data will display.
 
-If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a ‘Yes’ with a list of age range(s) for those records that do require a weight or BSA and a ‘No’ with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
+If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a 'Yes' with a list of age range(s) for those records that do require a weight or BSA and a 'No' with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
 
 If the vendor database cannot be reached, the following text in lieu of all FDB information for the drug will be displayed in the third and final section:
 
@@ -2466,7 +2609,7 @@ This option allows users to manage the list of products in the VA PRODUCT file (
 
 Patch PSS\*1\*247 introduced an exception to Buprenorphine VA Products indicated for the treatment of pain. VA Products with exceptions are populated using new option "Manage Buprenorphine Tx of Pain - VA Products" \[PSS BUPRENORPHINE VAPRODS\]. When Buprenorphine containing products are approved by the FDA for the treatment of pain, this option should be used to add the VA Product to the exception list.
 
-Users with access to the ‘Dosages’ \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
+Users with access to the 'Dosages' \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
 
 At installation, patch PSS\*1\*247 automatically populates these products at the Package level:
 
@@ -2494,7 +2637,7 @@ BUPRENORPHINE 75MCG FILM,BUCCAL
 
 BUPRENORPHINE 900MCG FILM,BUCCAL
 
-This screen shot shows a user with elevated privileges using option “Manage Buprenorphine Tx of Pain – VA Products”. Only users with elevated (programmer) privileges can see and edit the Package level setting.
+This screen shot shows a user with elevated privileges using option "Manage Buprenorphine Tx of Pain – VA Products". Only users with elevated (programmer) privileges can see and edit the Package level setting.
 
 Select Dosages Option: Manage Buprenorphine Tx of Pain - VA Products
 
@@ -2675,15 +2818,15 @@ Outpatient Pharmacy designated Dispense Drug entries may be marked or unmarked a
 
 The *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option allows the user to enter a dosage in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE DOSAGE NAME sub-field (#3) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50), PDM defaults to the value entered in the LOCAL POSSIBLE DOSAGE sub-field (#.01) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50). If no values exist in the LOCAL POSSIBLE DOSAGE sub-field (#.01) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50) and OTHER LANGUAGE DOSAGE NAME sub-field (#3) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50), the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry.
 
-Patch PSS\*1\*61 adds a new code “F” for NON REFILLABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs other than controlled substances or clozapine drugs as NON REFILLABLE.
+Patch PSS\*1\*61 adds a new code "F" for NON REFILLABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs other than controlled substances or clozapine drugs as NON REFILLABLE.
 
-<span id="P_187p33" class="anchor"></span>Patch PSS\*1\*187 adds a new code “D” for NOT PARKABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs as NOT PARKABLE.
+<span id="P_187p33" class="anchor"></span>Patch PSS\*1\*187 adds a new code "D" for NOT PARKABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs as NOT PARKABLE.
 
 Patch PSS\*1\*192 adds new fields EPHARMACY BILLABLE (#84), EPHARMACY BILLABLE (TRICARE) (#85), EPHARMACY BILLABLE (CHAMPVA) (#86) of the DRUG file (#50) to indicate that the drug file entry is electronically billable. These fields replace functionality previously provided by the DEA, Special HANDLING field.
 
 Patch PSS\*1\*214 adds a message to be displayed if the user exits the option and all three EPHARMACY BILLABLE fields are blank and the drug is not inactive. The option is given to return and answer the billable questions.
 
-Patch PSS\*1\*192 adds a new field Sensitive Diagnosis Drug (#87) of the DRUG file (#50) to indicate that the drug is used to treat certain conditions that are deemed “sensitive”. Specifically, the VA may not disclose any information on the following diseases: HIV, drug abuse, alcohol abuse, or sickle cell anemia without a signed consent from the patient. If a drug file entry is marked as a Sensitive Diagnosis Drug, a signed Release of Information (ROI) needs to be on file in VistA for prescriptions for the drug to be billable. This functionality works in conjunction with ROI modifications made in IB\*2\*384 and PSS\*1\*131.
+Patch PSS\*1\*192 adds a new field Sensitive Diagnosis Drug (#87) of the DRUG file (#50) to indicate that the drug is used to treat certain conditions that are deemed "sensitive". Specifically, the VA may not disclose any information on the following diseases: HIV, drug abuse, alcohol abuse, or sickle cell anemia without a signed consent from the patient. If a drug file entry is marked as a Sensitive Diagnosis Drug, a signed Release of Information (ROI) needs to be on file in VistA for prescriptions for the drug to be billable. This functionality works in conjunction with ROI modifications made in IB\*2\*384 and PSS\*1\*131.
 
 Patch PSS\*1\*156 adds the new OPAI multiple (#906) to the DRUG file (#50), which will allow prescription orders for a certain drug to be sent to a specific Automated Dispensing Device (ADD). Setup can be done by division such that a drug is linked to a specific ADD. This functionality works in conjunction with PSO\*7\*354.
 
@@ -2697,7 +2840,7 @@ The *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option was modified to add the new
 
 #### DEA Special Handling Code
 
-Sites will need to determine all the nutritional supplements in their DRUG file (#50) and mark the DEA, SPECIAL HDLG field (#3) entry for all of their nutritional supplements drug file entries with an “N”. They will also need to mark any entries that may be third party reimbursable as billable. Usually only Rx Only nutritional supplements are third party reimbursable.
+Sites will need to determine all the nutritional supplements in their DRUG file (#50) and mark the DEA, SPECIAL HDLG field (#3) entry for all of their nutritional supplements drug file entries with an "N". They will also need to mark any entries that may be third party reimbursable as billable. Usually only Rx Only nutritional supplements are third party reimbursable.
 
 Select OPTION NAME: DRUG ENTER/EDIT PSS DRUG ENTER/EDIT Drug Enter/Edit
 
@@ -2802,7 +2945,7 @@ ePharmacy Billable (TRICARE):
 
 ePharmacy Billable (CHAMPVA): NO//
 
-![](pharmacy-data-management-version-1-user-manual-pss-1-262/010.png)Note: The NDF option, *Rematch/Match Single Drugs*, screens out those items with a DEA, SPECIAL HDLG code of “0”, “I”, or “M”. When sites receive NDF data updates that cause one of these items to be unmatched from NDF, they cannot use the *Rematch/Match Single Drugs* option to rematch if they have added “0”, “I”, or “M” to drugs like Antiretrovirals, Disulfiram, Naltrexone, or Methadone for maintenance or detox. Sites can either:
+![](pharmacy-data-management-version-1-user-manual-pss-1-262/010.png)Note: The NDF option, *Rematch/Match Single Drugs*, screens out those items with a DEA, SPECIAL HDLG code of "0", "I", or "M". When sites receive NDF data updates that cause one of these items to be unmatched from NDF, they cannot use the *Rematch/Match Single Drugs* option to rematch if they have added "0", "I", or "M" to drugs like Antiretrovirals, Disulfiram, Naltrexone, or Methadone for maintenance or detox. Sites can either:
 
 1.  Rematch to NDF using another option, or
 2.  Remove the DEA, SPECIAL HDLG code, use the *Rematch/Match Single Drugs* option, and then add the DEA, SPECIAL HDLG code back in.
@@ -2843,7 +2986,7 @@ DAW codes are typically set for individual prescriptions but can be set at the D
 
 Example: Setting the DAW CODE at the Prescription Level
 
-If you are informed that a prescription for Coumadin<sup>®</sup> was rejected for DAW reasons, you might try changing the DAW CODE of the prescription and resubmitting. The change can be made through the *Patient Prescription Processing* option or the *Edit Prescriptions* option in Outpatient Pharmacy V. 7.0. The DAW CODE will display for ePharmacy prescriptions. For original fills, this information can be edited by selecting screen field 21. For refills, the user must select screen field 20 (Refill Data), then select the refill number to be edited; the “DAW CODE:” prompt displays after the “DIVISION:” prompt. In the case of the Coumadin<sup>®</sup> reject, you may try changing the field to a 5 or a 1, then resubmitting to see if the claim gets processed. Both 5 and 1 are appropriate choices for the VA setting. Whether or not a claim will get rejected for these reasons and which code to use will vary from third party to third party. We are using brand name products but are not charging for brand name products. The most common DAW codes are explained as follows:
+If you are informed that a prescription for Coumadin<sup>®</sup> was rejected for DAW reasons, you might try changing the DAW CODE of the prescription and resubmitting. The change can be made through the *Patient Prescription Processing* option or the *Edit Prescriptions* option in Outpatient Pharmacy V. 7.0. The DAW CODE will display for ePharmacy prescriptions. For original fills, this information can be edited by selecting screen field 21. For refills, the user must select screen field 20 (Refill Data), then select the refill number to be edited; the "DAW CODE:" prompt displays after the "DIVISION:" prompt. In the case of the Coumadin<sup>®</sup> reject, you may try changing the field to a 5 or a 1, then resubmitting to see if the claim gets processed. Both 5 and 1 are appropriate choices for the VA setting. Whether or not a claim will get rejected for these reasons and which code to use will vary from third party to third party. We are using brand name products but are not charging for brand name products. The most common DAW codes are explained as follows:
 
 \#1: Physician stipulates that a particular brand be used.
 
@@ -2873,9 +3016,9 @@ Patch PSS\*1\*129 enhances the *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option 
 
 If any of the following conditions can be determined at the time of entry, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for any defined Local Possible Dosage will not be presented for data entry.
 
-- Drugs associated with a dosage form that is excluded from dosage checks and the VA Product it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) ) in the VA PRODUCT file (#50.68) file set to ‘No’
-- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an ‘XA’).
+- Drugs associated with a dosage form that is excluded from dosage checks and the VA Product it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) ) in the VA PRODUCT file (#50.68) file set to 'No'
+- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an 'XA').
 
 A warning will be provided if the DRUG file (#50) strength does not match the VA PRODUCT file (#50.68) strength to which it is matched.
 
@@ -3144,7 +3287,7 @@ The maximum value allowed for this field is 365 (days) for most drugs, however:
 - The maximum number of days supply for this drug cannot exceed the National Drug File (NDF) maximum value if it exists in the VA PRODUCT file.
 - No value can be entered for Clozapine drugs as the maximum days supply is controlled by the Clozapine functionality.
 
-The following chart shows the default values used when different values exist in the DRUG file and VA PRODUCT file. Note the default quantity is determined by the patient’s PATIENT STATUS field in the PRESCRIPTION file \#52. In this example, the patient status allows for a 60 days supply.
+The following chart shows the default values used when different values exist in the DRUG file and VA PRODUCT file. Note the default quantity is determined by the patient's PATIENT STATUS field in the PRESCRIPTION file \#52. In this example, the patient status allows for a 60 days supply.
 
 <table>
 <caption><p><span id="_Toc206157098" class="anchor"></span>Table 5: Possible Med Routes</p></caption>
@@ -4573,7 +4716,7 @@ Patch PSS\*1\*155 addresses supra-therapeutic and sub-therapeutic dosages. A sup
 - POSSIBLE DOSAGES TO CREATE field (#41)
 - PACKAGE field (#42)
 
-When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “YES”, then the existing functionality of auto-creating possible dosages will be retained. When this field is “NO,” it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
+When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "YES", then the existing functionality of auto-creating possible dosages will be retained. When this field is "NO," it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
 
 Example 36: Supra-Therapeutic Drugs – *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] Option – Message displayed when Create Default Possible Dosage is Yes and no possible dosages auto-created
 
@@ -4921,14 +5064,14 @@ Due to National Drug File settings TWO possible dosages were auto-created.
 
 Do you want to edit the dosages? N//
 
-The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “NO”:
+The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "NO":
 
-- If POSIBLE DOSAGES TO CREATE field (#41) is “NO”, no possible dosages will be auto-created and the following message will be displayed:  
-  “This drug has been set within the National Drug File to not auto create possible dosages.”
+- If POSIBLE DOSAGES TO CREATE field (#41) is "NO", no possible dosages will be auto-created and the following message will be displayed:  
+  "This drug has been set within the National Drug File to not auto create possible dosages."
 - If POSSIBLE DOSAGES TO CREATE field (#41) is "O", 1x possible dosage will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “This drug has been set within the National Drug File to auto create only one possible dosage.”
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “B”, 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “This drug has been set within the National Drug File to auto create two possible dosages
+  "This drug has been set within the National Drug File to auto create only one possible dosage."
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "B", 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
+  "This drug has been set within the National Drug File to auto create two possible dosages
 
 Example 39: Supra-Therapeutic Drugs – *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] Option -- Message displayed when NDF is set to not auto-create Possible Dosages
 
@@ -5026,7 +5169,7 @@ Do you want to edit the dosages? N//
 
 #### Multiple Automated Dispensing Devices (ADD)
 
-Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE file (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt “OP EXTERNAL DISPENSE:” must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
+Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE file (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt "OP EXTERNAL DISPENSE:" must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
 
 Example 42: Assigning Dispensing Device for a Drug
 
@@ -5654,7 +5797,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 - MESSAGE (#101)
 - PHARMACY ORDERABLE ITEM (#2.1)
 - RESTRICTION (#102)
-- APPLICATION PACKAGES’ USE (#63)
+- APPLICATION PACKAGES' USE (#63)
 - NDC (#31)
 - CMOP DISPENSE (#213)
 - ATC MNEMONIC (#212.2)
@@ -5684,7 +5827,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 
 If a user makes changes to an auditable field, then the mail message Subject line displays the title DRUG ENTER/EDIT AUDIT along with the Internal Entry Number (IEN) and name of the drug. The message body shows the date/time of the change, the name of the user who made the change, and before / after descriptions of the changed field(s).
 
-If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates “No Audited Changes Made.”
+If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates "No Audited Changes Made."
 
 A designated mail coordinator must modify the PSS DEE AUDIT mail group to include the necessary recipients.
 
@@ -6066,7 +6209,7 @@ Display Professional Interaction monograph? N//O
 
 #### Check Pharmacogenomic Interaction
 
-The Pharmacogenomics Interaction \[PSS CHECK PGX INTERACTION\] allows a user to enter drug(s), gene(s), phenotype(s), and genotype(s), and see the PGx Order checks returned from the vendor for the data entered. The option can also be run by patient, where the patient’s genomic lab results and PGx eligible drug(s) from his/her current profile are used to retrieve PGx order checks. PGx order checks can be returned with a ‘High’ severity or a ‘Medium’ severity. These ‘High’ and ‘Medium’ PGx order checks come with the option to view ‘Additional Information’, which in addition to data already seen will contain Evidence Ratings and Citations. Another type of PGx order check that users will see is a ‘Screen’ message. A ‘Screen’ message will suggest when appropriate that additional information or testing needs to be provided for the drug being entered to do a PGx order check.
+The Pharmacogenomics Interaction \[PSS CHECK PGX INTERACTION\] allows a user to enter drug(s), gene(s), phenotype(s), and genotype(s), and see the PGx Order checks returned from the vendor for the data entered. The option can also be run by patient, where the patient's genomic lab results and PGx eligible drug(s) from his/her current profile are used to retrieve PGx order checks. PGx order checks can be returned with a 'High' severity or a 'Medium' severity. These 'High' and 'Medium' PGx order checks come with the option to view 'Additional Information', which in addition to data already seen will contain Evidence Ratings and Citations. Another type of PGx order check that users will see is a 'Screen' message. A 'Screen' message will suggest when appropriate that additional information or testing needs to be provided for the drug being entered to do a PGx order check.
 
 Example 49: Check Pharmacogenomic Interaction by Drug
 
@@ -6585,9 +6728,9 @@ The Request Changes to Enhanced Order Check Database \[PSS ORDER CHECK CHANGES\]
 
 Depending on the request, the user is prompted for different pieces of information.
 
-The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. If the user is not ready to send the request just yet, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
+The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. If the user is not ready to send the request just yet, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
 
-![](pharmacy-data-management-version-1-user-manual-pss-1-262/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her “Preferred editor” in the NEW PERSON file (#200).
+![](pharmacy-data-management-version-1-user-manual-pss-1-262/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her "Preferred editor" in the NEW PERSON file (#200).
 
 Example 51: Requesting to Add a New Drug Interaction
 
@@ -6919,7 +7062,7 @@ Select Pharmacy Data Management Option: ELectrolyte File (IV)
 
 Select DRUG ELECTROYTES NAME: CHLORIDE MEQ/ML
 
-ARE YOU ADDING ‘CHLORIDE’ AS A NEW DRUG ELECTROLYTES (THE 9<sup>TH</sup>)? Y (YES)
+ARE YOU ADDING 'CHLORIDE' AS A NEW DRUG ELECTROLYTES (THE 9<sup>TH</sup>)? Y (YES)
 
 DRUG ELECTROLYTES CONCENTRATION UNITS: MEQ/ML
 
@@ -6937,7 +7080,7 @@ Select DRUG ELECTROLYTES NAME: CHLORIDE
 
 NAME: CHLORIDE// @
 
-SURE YOU WANT TO DELETE THE ENTIRE ‘CHLORIDE’ DRUG ELECTROLYTES? Y (YES)
+SURE YOU WANT TO DELETE THE ENTIRE 'CHLORIDE' DRUG ELECTROLYTES? Y (YES)
 
 ### Lookup into Dispense Drug File \[PSS LOOK\]
 
@@ -7085,11 +7228,11 @@ The *Medication Instruction Management* \[PSS MED INSTRUCTION MANAGEMENT\] optio
 
 #### Medication Instruction File Add/Edit \[PSSJU MI\]
 
-The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to “flag” those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
+The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to "flag" those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
 
 The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter the expansion in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#1.1), PDM defaults to the value entered in the EXPANSION field (#1). If no values exist in the EXPANSION field (#1) and OTHER LANGUAGE EXPANSION field (#1.1), an EXPANSION value will not print when Outpatient Pharmacy builds the SIG. See Appendix F for a list of Spanish equivalents for some of the more common medication instructions.
 
-Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
+Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
 
 The DRUG(S) FOR DOSING CHK FREQ field (#32.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the MEDICATION INSTRUCTION file (#51).
 
@@ -7248,7 +7391,7 @@ The third field added by patch PSS\*1\*201, OLD MED INSTRUCTION NAME(S) (#33), i
 
 Example 63: Edit Medication Instruction Name
 
-The modified name ‘FIT’ is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to ‘FITCH.’
+The modified name 'FIT' is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to 'FITCH.'
 
 Select Pharmacy Data Management Option: MED
 
@@ -7530,7 +7673,7 @@ OLD MED INSTRUCTION NAME(S): 4XDHS//
 
 The *Medication Instruction File Report* \[PSS MED INSTRUCTION REPORT\] option provides a report of entries from the MEDICATION INSTRUCTION (#51) File that shows whether or not data has been entered in the FREQUENCY (IN MINUTES) (#31) Field.
 
-The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message “No Medication Instructions found without frequencies.“
+The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message "No Medication Instructions found without frequencies."
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -7928,7 +8071,7 @@ No Medication Instructions found without frequencies
 
 #### Med Instruction Med Term Route Report \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the <span id="SPDB_Redaction1" class="anchor"></span>REDACTED site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the <span id="SPDB_Redaction1" class="anchor"></span>REDACTED site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -7994,11 +8137,11 @@ The *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu contains 
 
 #### Medication Route File Enter/Edit \[PSS MEDICATION ROUTES EDIT\]
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the “OUTPATIENT EXPANSION” prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the "OUTPATIENT EXPANSION" prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
 
 The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to enter an interpretation of the OUTPATIENT EXPANSION field (#4) in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#4.1), PDM will default to the value entered in the OUTPATIENT EXPANSION field (#4). If no values exist in the OUTPATIENT EXPANSION field (#4) and OTHER LANGUAGE EXPANSION field (#4.1), the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry. See Appendix G for a list of Spanish equivalents for some of the more common medication routes.
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages’ to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for ‘All Packages.’
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages' to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for 'All Packages.'
 
 Example 72 demonstrates how to enter a new medication route. Note that if an entry has been mapped to a Standard Medication Route, the option to remap is offered. If an entry has *not* been mapped to a Standard Medication Route and the user bypasses the prompt without mapping, a warning is displayed that dosing checks will not be performed.
 
@@ -8082,7 +8225,7 @@ STANDARD MEDICATION ROUTE: \<ENTER\>
 
 medication route until it is mapped to a standard medication route.\*\*\*
 
-Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient’s prescription label by default.
+Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient's prescription label by default.
 
 Example 72: Medication Route File Edit
 
@@ -8106,7 +8249,7 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 STANDARD MEDICATION ROUTE: \<ENTER\>
 
-If the text to be replaced is more than 29 characters, the “REPLACE” prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site’s File Manager setup.
+If the text to be replaced is more than 29 characters, the "REPLACE" prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site's File Manager setup.
 
 Example 73: Medication Route File Deletions Not Allowed
 
@@ -8140,11 +8283,11 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 #### Medication Route Mapping Report \[PSS MED ROUTE MAPPING REPORT\]
 
-The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for ‘All Packages.’
+The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for 'All Packages.'
 
-The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for ‘All Packages’).
+The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for 'All Packages').
 
-Totals are displayed at the end of the report for the number of all Local Medication Routes marked for ‘All Packages’ and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
+Totals are displayed at the end of the report for the number of all Local Medication Routes marked for 'All Packages' and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
 
 The report is formatted for 132 column width and can be sent to the screen or printer.
 
@@ -8274,7 +8417,7 @@ The *Medication Route Mapping History Report* \[PSS MED ROUTE MAPPING CHANGES\] 
 
 #### Med Instruction Med Term Route Report \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the <span id="SPDB_Redacted2" class="anchor"></span>REDACTED site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the <span id="SPDB_Redacted2" class="anchor"></span>REDACTED site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -8369,7 +8512,7 @@ Changes to a standard medication route that can result in an unmapping of a loca
 - Inactivation of a standard medication route
 - Change (add/delete/modify) to an FDB Medication Route Mapping
 
-If a local medication route that is marked for ‘All Packages’ is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
+If a local medication route that is marked for 'All Packages' is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
 
 The MailMan message will include the reason for notification, what was updated and will also include any automatic mapping activities that occurred from the local Medication Routes file to the Standard Medication Routes file.
 
@@ -8693,14 +8836,14 @@ Enter message action (in IN basket): Ignore //
 
 The *Default Med Route for OI Report* \[PSS DEF MED ROUTE OI RPT\] option is listed on the *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu. This report can be used to help identify the current default medication routes for the orderable items. The following is an example of the report.
 
-- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
+- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
 
 | Default Med Route Field Populated? | Possible Med Routes Field | Use Dosage Form Med Route List | Value Returned – Med Routes Selection In CPRS                      |
 |------------------------------------|---------------------------|--------------------------------|--------------------------------------------------------------------|
 | Y                                  | N                         | N                              | DEFAULT MED ROUTE field (#.06) value                               |
 | N                                  | Single Entry              | N                              | Single Entry                                                       |
 | N                                  | More Than One Entry       | N                              | All med routes listed in the POSSIBLE MED ROUTES multiple (#11)    |
-| N                                  | N                         | Y                              | All medication routes associated with orderable item’s dosage form |
+| N                                  | N                         | Y                              | All medication routes associated with orderable item's dosage form |
 
 <span id="_Toc206157099" class="anchor"></span>Table 6: Glossary
 
@@ -8748,7 +8891,7 @@ The *Orderable Item Management* sub-menu provides an option through which the Ph
 
 #### Edit Orderable Items \[PSS EDIT ORDERABLE ITEMS\]
 
-The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 The *Edit Orderable Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter a default medication route and med route selection list.
 
@@ -8760,7 +8903,7 @@ The method of deriving the appropriate medication routes listed above will be fo
 
 Additionally, a report is available to view all current default medication routes as well as all possible med routes for the listed orderable items. See the section entitled *Default Med Route For OI Report* \[PSSDEF MED ROUTE OI RPT\].
 
-Example 82: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO”
+Example 82: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO"
 
 Select Orderable Item Management Option: Edit Orderable Items
 
@@ -8862,7 +9005,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 83: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO” and there are no Default Med Route nor Possible Med Routes
+Example 83: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO" and there are no Default Med Route nor Possible Med Routes
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -8944,7 +9087,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 84: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “YES”
+Example 84: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "YES"
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -9119,7 +9262,7 @@ Choose from:
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/022.png)Note: PSS\*1\*191 also added the HIGH RISK/HIGH ALERT prompt to this option, which was inadvertently missed in patch PSS\*1\*172.
 
-Example 86 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word “PATCH”):
+Example 86 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -9303,7 +9446,7 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-Example 87 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word “PATCH”):
+Example 87 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -9467,9 +9610,9 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
 
-Example 88 (Message When Attempting to Enter 0 for Orderable Item Containing the Word “PATCH”):
+Example 88 (Message When Attempting to Enter 0 for Orderable Item Containing the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -9489,9 +9632,9 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to delete an existing entry (i.e., using “@” command), the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to delete an existing entry (i.e., using "@" command), the following message displays indicating the entry is not valid:
 
-Example 89 (Message When Attempting to Delete Removal When Dosage Form Contains the Word “PATCH”):
+Example 89 (Message When Attempting to Delete Removal When Dosage Form Contains the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -9513,7 +9656,7 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form associated with the orderable item does NOT contain the word “PATCH”, and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
+If the Dosage Form associated with the orderable item does NOT contain the word "PATCH", and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
 
 - If the user responds with No (the default), as for a medication that does not require removal (e.g. tablet, capsule, etc.), the value they entered is not accepted, as in this example:
 
@@ -9539,9 +9682,9 @@ Are you sure you want to designate this medication as requiring removal? N// Y
 
 YES
 
-Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word “PATCH”.
+Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word "PATCH".
 
-Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is “PATCH” and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
+Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is "PATCH" and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
 
 Example 92 (PSS\*1\*191 Post-Install Report):
 
@@ -9805,7 +9948,7 @@ Select SYNONYM:
 
 #### Dispense Drug/Orderable Item Maintenance \[PSS MAINTAIN ORDERABLE ITEMS\]
 
-The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the “MED ROUTE” and “SCHEDULE TYPE” prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
+The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the "MED ROUTE" and "SCHEDULE TYPE" prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
 
 The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option allows the user to enter patient instructions in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE INSTRUCTIONS field (#7.1), PDM will default to the value entered in the PATIENT INSTRUCTIONS field (#7). If the PATIENT INSTRUCTIONS field (#7) does not contain data for the selected orderable item, the system will not present default patient instructions to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through backdoor Outpatient Pharmacy order entry.
 
@@ -9949,7 +10092,7 @@ USED IN IV FLUID ORDER ENTRY: NO//
 
 PREMIX:
 
-Following the on-screen instructions of “Now Editing Orderable Item,” if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
+Following the on-screen instructions of "Now Editing Orderable Item," if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
 
 Example 97: Editing Immunization-Related Pharmacy Orderable Items
 
@@ -10743,7 +10886,7 @@ Reports have been created that can be run from the *Pharmacy Data Management \[*
 
 Orders for MRRs with Removal Properties
 
-The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new “Prompt for Removal in BCMA” flag value set to 1, 2, or 3:
+The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new "Prompt for Removal in BCMA" flag value set to 1, 2, or 3:
 
 1.  Removal at Next Administration
 4.  Removal Period Optional Prior to Next Administration
@@ -10757,7 +10900,7 @@ The MRR diagnostic utility report Orders for MRRs with Removal Properties needs 
 
 Orderable Items that Require Removal Report
 
-The Orderable Items that Require Removal report shows which Orderable Items have the “Prompt for Removal in BCMA” Medications Requiring Removal flag set to a value of 1, 2, or 3:
+The Orderable Items that Require Removal report shows which Orderable Items have the "Prompt for Removal in BCMA" Medications Requiring Removal flag set to a value of 1, 2, or 3:
 
 1.  Removal at Next Administration
 2.  Removal Period Optional Prior to Next Administration
@@ -10769,8 +10912,8 @@ Users can access the Orderable Items that Require Removal report from the PSS MG
 
 This report will also:
 
-- Allow the user to select ALL “Prompt for Removal in BCMA” flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "Prompt for Removal in BCMA" flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, Medications Requiring Removal flag value, Dispense Drug Name and Dispense Drug Inactive Date.
 
 Example 102: *Orderable Items that Require Removal* \[PSS MRR ODERABLE ITEMS RPT\] Option
@@ -10823,7 +10966,7 @@ FENTANYL PATCH TS 75MCG/HR
 
 #### Orderable Items Report for High Risk / High Alert
 
-The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the “High Risk / High Alert” flag set to a value of 1, 2, or 3:
+The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the "High Risk / High Alert" flag set to a value of 1, 2, or 3:
 
 1.  HIGH RISK/ALERT-NO WITNESS REQUIRED IN BCMA
 2.  RECOMMEND WITNESS IN BCMA-HIGH RISK/ALERT
@@ -10835,8 +10978,8 @@ The user can access the Orderable Items Report for High Risk/High Alert from the
 
 > This report will also:
 
-- Allow the user to select ALL “High Risk / High Alert” (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "High Risk / High Alert" (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, High Risk / High Alert flag value, Dispense Drug Name, and Dispense Drug Inactive Date.
 
 Example 103: *Orderable Items Report for High Risk/High Alert* \[PSS HR/HA ODERABLE ITEMS RPT\] Option
@@ -10905,7 +11048,7 @@ The user can access the Indication Usage Report from the *Orderable Item Managem
 
 The report provides the following options:
 
-- It lets the user display the Indications information for a specific month or quarter, or for a “flexible” period that encompasses a specific period of days. The “flexible” period can begin on the day the patch was first installed.
+- It lets the user display the Indications information for a specific month or quarter, or for a "flexible" period that encompasses a specific period of days. The "flexible" period can begin on the day the patch was first installed.
 - It lets the user display all orderable items, or specific orderable items.
 
 Example 104: Indication Usage Report \[PSS HR/HA ODERABLE ITEMS RPT\] Option
@@ -11072,9 +11215,9 @@ Type \<Enter\> to continue or '^' to exit:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The *Formulary Information Report* \[PSS NFI\] option provides a listing of pertinent Pharmacy formulary information. The report is organized alphabetically by Dispense Drug but will also display the Pharmacy Orderable Item to which the Dispense Drug is matched. An “N” in a column indicates that the Dispense Drug is marked non-formulary at that level (Local, VISN, or National). If the Dispense Drug is restricted, an “R” appears in the appropriate column.
+The *Formulary Information Report* \[PSS NFI\] option provides a listing of pertinent Pharmacy formulary information. The report is organized alphabetically by Dispense Drug but will also display the Pharmacy Orderable Item to which the Dispense Drug is matched. An "N" in a column indicates that the Dispense Drug is marked non-formulary at that level (Local, VISN, or National). If the Dispense Drug is restricted, an "R" appears in the appropriate column.
 
-The Application Package Use indicator is also displayed on the report. If the user selects to include drug text in the report, an “I” will appear in the appropriate column to indicate drugs for which drug text information has been identified in the DRUG file (#50).
+The Application Package Use indicator is also displayed on the report. If the user selects to include drug text in the report, an "I" will appear in the appropriate column to indicate drugs for which drug text information has been identified in the DRUG file (#50).
 
 Example 105: Formulary Information Report \[PSS NFI\] Option
 
@@ -11210,7 +11353,7 @@ The *Drug Text Management* \[PSS DRUG TEXT MANAGEMENT\] menu option was created 
 
 The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option enables you to enter and/or edit entries in the DRUG TEXT file (#51.7). This file contains drug information, restrictions, and guidelines. Some entries are nationally populated by National Drug File. Drug text can be tied to a Dispense Drug in DRUG file (#50), or it can be tied to a Pharmacy Orderable Item through the PHARMACY ORDERABLE ITEM file (#50.7). Drug text tied to a Pharmacy Orderable Item is viewable when a medication is selected in Outpatient Pharmacy and Inpatient Medications, if it has been tied to the Pharmacy Orderable Item or Dispense Drug.
 
-The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, “Drug Text File Report” for more information.
+The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, "Drug Text File Report" for more information.
 
 Example 106: *Drug Text Enter/Edit* \[PSS EDIT TEXT\] Option
 
@@ -11570,7 +11713,7 @@ COPY INDICATION TO SIG: YES//
 
 A new field, ONEVA PHARMACY FLAG (#101) was created in the PHARMACY SYSTEM File (#59.7) with Patch PSO\*7\*497. This field will allow sites to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field value by using the *Pharmacy System Parameters Edit* \[PSS SYS EDIT\] Option
 
-Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG set to the 'on' state.
+Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG set to the 'on' state.
 
 <table>
 <caption><p><span id="_Toc206157100" class="anchor"></span>Table 7: Convertible Dosage Form/Unit Combinations</p></caption>
@@ -11582,7 +11725,7 @@ Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. Whe
 <tr class="header">
 <th>![](pharmacy-data-management-version-1-user-manual-pss-1-262/025.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the “off” position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
+<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the "off" position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -11599,7 +11742,7 @@ The *Standard Schedule Management* \[PSS SCHEDULE MANAGEMENT\] option was create
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter or edit entries in the ADMINISTRATION SCHEDULE file (#51.1). The set of times associated with the standard dosage administration schedules can be assigned, as can ward-specific administration times. This feature may be used to define the outpatient expansion to be used when the schedule is entered for an Outpatient Pharmacy medication order. Entry of a frequency in minutes allows the software to calculate the interval between dosages for Inpatient Medication orders and BCMA and is used by Outpatient Pharmacy to calculate default quantities. When the frequency is entered, a message displays telling the user, in hours, how often the administration will occur. If the schedule type is on call, the system does not require a frequency.
 
-Schedules with a frequency that is not evenly divisible into or by 24 hours are considered ‘odd’. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
+Schedules with a frequency that is not evenly divisible into or by 24 hours are considered 'odd'. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter the outpatient expansion value in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#8.1), PDM defaults to the value entered in the OUTPATIENT EXPANSION field (#8). If no values exist in the OUTPATIENT EXPANSION (#8) and OTHER LANGUAGE EXPANSION fields (#8.1), the system will not present default values for those fields to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through Outpatient Pharmacy backdoor order entry. See Appendix C for a list of Spanish equivalents for some of the more common administration schedules.
 
@@ -11627,7 +11770,7 @@ Select WARD ADMINISTRATION SCHEDULE: \<Enter\>
 
 PSS\*1\*160 enhances the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option to allow editing of two new dosing exclusion fields that were added to the ADMINISTRATION SCHEDULE file (#51.1) in MOCHA v2.0. The two new fields are EXCLUDE FROM ALL DOSING CHECKS field (#9) and EXCLUDE FROM DAILY DOSE CHECK field (#10).
 
-The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to ‘Yes’, no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
+The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to 'Yes', no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/027.png)Note: The Daily Dose Range check will be implemented in a future version of MOCHA. The Maximum Single Dose order check is introduced with MOCHA v 2.0.
 
@@ -11699,7 +11842,7 @@ EXCLUDE FROM ALL DOSING CHECKS:
 
 Select ADMINISTRATION SCHEDULE
 
-Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
+Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
 
 The DRUG(S) FOR DOSING CHK FREQ field (#11.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the ADMINISTRATION SCHEDULE file (#51.1). When a value is entered in the DOSING CHECK FREQUENCY field and NO drug(s) is entered in this field, the Max Daily Dose Order Check will use the value in the DOSING CHECK FREQUENCY field to derive a frequency for all orders that have that schedule. When a value is entered for DOSING CHECK FREQUENCY and a drug(s) is entered in this field, the Max Daily Dose Order Check will ONLY use the value in DOSING CHECK FREQUENCY to derive a frequency if the order that has that schedule also matches one of the drug(s) entered. If the drug found in the order does not match a drug listed in the DRUG(S) FOR DOSING CHK FREQ field, then the value of the DOSING CHECK FREQUENCY will not be used for the Max Daily Dose Order Check to derive a frequency.
 
@@ -11850,7 +11993,7 @@ STANDARD ADMINISTRATION TIMES: 09//
 
 Select WARD:
 
-If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of ‘Yes’ entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
+If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of 'Yes' entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
 
 Example 113: Editing of One-Time Schedule
 
@@ -11917,7 +12060,7 @@ The third field added by patch PSS\*1\*201, OLD SCHEDULE NAME(S) (#13), is a mul
 
 Example 115: Edit Schedule Name
 
-The modified name ‘QDAY’ is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to ‘QDAILY’
+The modified name 'QDAY' is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to 'QDAILY'
 
 Select Pharmacy Data Management \<TEST ACCOUNT\> Option: STANDARD Schedule Management  
   
@@ -12140,19 +12283,19 @@ Validation checks were added to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT
 
 The system shall validate, for schedules with a Schedule Type of Continuous and a frequency of 1 day (1440 minutes) or less that the number of administration times is less than or equal to 1440 divided by the frequency. For example, a schedule frequency of 720 minutes must have at least one administration time and cannot exceed two administration times. Similarly, a schedule frequency of 360 minutes must have at least one administration time but cannot exceed four administration times.
 
-The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 #### Schedule Edit Validation Two
 
 The system shall validate for frequencies greater than one day (1440 minutes), that only one administration time is permitted. The system shall present an error message to the user if more than one administration time is entered.
 
-The error message: “This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted.” shall appear if more than one administration time is entered.
+The error message: "This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted." shall appear if more than one administration time is entered.
 
 #### Schedule Edit Validation Three 
 
 In the Standard Administration Times and the Ward Administration Times fields in the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, for a schedule that has a Schedule Type of Continuous, the system shall prevent a user from entering administration times to Odd Schedules {a schedule whose frequency is not evenly divisible by or into 1440 minutes (1 day)}.
 
-The system shall present an error message to the user if an administration time is entered. The error message: “This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order.” shall appear.
+The system shall present an error message to the user if an administration time is entered. The error message: "This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order." shall appear.
 
 #### Schedule Edit Validation Four
 
@@ -12160,13 +12303,13 @@ A validation to TYPE OF SCHEDULE field (#5) in the *Standard Schedule Edit* \[PS
 
 frequency from the schedule file entry, if the TYPE OF SCHEDULE is changed from CONTINUOUS to ONE TIME, PRN, ON CALL, or DAY OF WEEK.
 
-The warning message: “The Type of Schedule has changed. The frequency will be removed.” shall appear.
+The warning message: "The Type of Schedule has changed. The frequency will be removed." shall appear.
 
 #### Schedule Edit Validation Five
 
 In the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, the system shall prevent a user from creating Day of Week (DOW) schedules that are not in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA. The system shall display an error message if the user does not enter the correct order.
 
-The error message: “The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA.” shall appear.
+The error message: "The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA." shall appear.
 
 #### Schedule Edit – Inactivate
 
@@ -12220,7 +12363,7 @@ INACTIVE:
 
 The *Administration Schedule File Report* \[PSS SCHEDULE REPORT\] option prints out entries from the ADMINISTRATION SCHEDULE file (#51.1) in order to check to see if a frequency is defined. A report can be run for all administration schedules or only the administration schedules without a defined frequency.
 
-Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to ‘PSJ’ will be included in the report.
+Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to 'PSJ' will be included in the report.
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -12544,7 +12687,7 @@ Patch PSS\*1\*147 creates a new *IV Additive Report* \[PSS IV ADDITIVE REPORT\] 
 - Used in IV Fluid Order Entry
 - Additive Frequency
 
-If the user chooses to print only the IV Additives marked with ‘1 BAG/DAY’ in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display ‘No IV Additives marked as '1 BAG/DAY' or ‘No IV Additives marked as null’ respectively.
+If the user chooses to print only the IV Additives marked with '1 BAG/DAY' in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display 'No IV Additives marked as '1 BAG/DAY' or 'No IV Additives marked as null' respectively.
 
 Example 126: User selects only IV Additives marked with no value in the ADDITIVE FREQUENCY Field (#18)
 
@@ -12614,7 +12757,7 @@ Additive Frequency:
 
 End of Report.
 
-Example 127: User Selects Only IV Additives marked with ‘1BAG/DAY’ in the ADDITIVE FREQUENCY Field (#18)
+Example 127: User Selects Only IV Additives marked with '1BAG/DAY' in the ADDITIVE FREQUENCY Field (#18)
 
 Select IV Additive/Solution Reports Option: IV ADDitive Report
 
@@ -12758,7 +12901,7 @@ The report will print the following data elements:
 - Used in IV Fluid Order Entry
 - PreMix
 
-If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display ‘No IV Solutions marked as PreMixes found.’
+If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display 'No IV Solutions marked as PreMixes found.'
 
 Example 129: User selects only solutions marked as PreMix
 
@@ -13248,7 +13391,7 @@ Debe tomar este medicamento con mucha agua.
 
 .
 
-This will print all warning labels in the commercial data source’s warning file.
+This will print all warning labels in the commercial data source's warning file.
 
 *(To save space, only the first five warning labels are displayed in this example.)*
 
@@ -13396,7 +13539,7 @@ Would you like to edit this list of warnings? N// \<Enter\> O
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The *Warning Mapping* \[PSS WARNING MAPPING\] option is used to match an entry from the RX CONSULT file (#54) to the WARNING LABEL-ENGLISH file (#50.625) to aid in using the *Warning Builder* \[PSS WARNING BUILDER\] option to identify local warnings that do not have an equivalent entry in the commercial data source. The user can also enter a Spanish translation for an RX CONSULT file (#54) entry, if desired, but whenever possible, the commercial data source’s warnings should be used.
+The *Warning Mapping* \[PSS WARNING MAPPING\] option is used to match an entry from the RX CONSULT file (#54) to the WARNING LABEL-ENGLISH file (#50.625) to aid in using the *Warning Builder* \[PSS WARNING BUILDER\] option to identify local warnings that do not have an equivalent entry in the commercial data source. The user can also enter a Spanish translation for an RX CONSULT file (#54) entry, if desired, but whenever possible, the commercial data source's warnings should be used.
 
 Example 133: *Warning Mapping* \[PSS WARNING MAPPING\] Option
 
@@ -13546,7 +13689,7 @@ Press Return to Continue:
 
 Select PEPS Services Option:
 
-![](pharmacy-data-management-version-1-user-manual-pss-1-262/028.png)Note: If no data has been installed in the custom table, the connection check returns “Unavailable” for all three fields, as shown below:
+![](pharmacy-data-management-version-1-user-manual-pss-1-262/028.png)Note: If no data has been installed in the custom table, the connection check returns "Unavailable" for all three fields, as shown below:
 
 CHOOSE 1-2: 2 Check Vendor Database Link
 
@@ -13712,7 +13855,7 @@ Press Return to Continue:
 
 The *Schedule/Reschedule Check PEPS Interface*\[PSS SCHEDULE PEPS INTERFACE CK\] option allows you to schedule the Interface Scheduler \[PSS INTERFACE SCHEDULER\] option, which tests the PEPS interface by sending a PING request. If the PEPS Interface is not available, a mail message will be sent to the G.PSS ORDER CHECKS mail group. This must be scheduled so constant monitoring takes place on the Mocha Interface, to provide timely notification of any problems.
 
-Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person’s Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
+Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person's Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
 
 When scheduling this job, the person that is doing the scheduling must NOT have assumed the identity of the POSTMASTER, because the Internal Entry Number of the POSTMASTER is .5, and the decimal could cause the interface to fail, so this job would continue to fail until it is scheduled by another user other than POSTMASTER.
 
@@ -13726,7 +13869,7 @@ When scheduling this job, the person that is doing the scheduling must NOT have 
 <tr class="header">
 <th>![](pharmacy-data-management-version-1-user-manual-pss-1-262/031.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a “NULL” type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that “Startup Persistent” be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
+<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a "NULL" type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that "Startup Persistent" be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -14232,9 +14375,9 @@ Drugs with the following criteria will be screened out from this option.
 
 - Inactive
 - Not Matched to NDF
-- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘No’
-- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an ‘XA’)
+- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'No'
+- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an 'XA')
 - Drug does not have any Local Possible Dosages defined
 
 All identified drugs, along with their Local Possible Dosages will be presented to the user one by one for editing. If data exists in the strength and unit fields for the drug, it will be displayed following the drug name. The user will be notified if the strength defined for the drug does not match the strength of the VA Product that it is matched to. The strength and unit of the VA Product the drug is matched to will be displayed along with the strength in the DRUG file (#50).
@@ -14375,9 +14518,9 @@ NUMERIC DOSE: 500
 
 Numeric Dose: 500 Dose Unit: MILLIGRAM(S)
 
-If a user presses the \<ENTER\> key at the ‘DOSE UNIT:’ prompt, they will be prompted to enter a Numeric Dose. If the user presses the \<ENTER\> key at the ‘NUMERIC DOSE:’ prompt, the next available Local Possible Dosage for that drug if one exists with missing data will be displayed. If no more Local Possible Dosages exist for the drug that require data population, the next drug and its Local Possible Dosages will be presented for editing.
+If a user presses the \<ENTER\> key at the 'DOSE UNIT:' prompt, they will be prompted to enter a Numeric Dose. If the user presses the \<ENTER\> key at the 'NUMERIC DOSE:' prompt, the next available Local Possible Dosage for that drug if one exists with missing data will be displayed. If no more Local Possible Dosages exist for the drug that require data population, the next drug and its Local Possible Dosages will be presented for editing.
 
-If the user up-arrows (^) at the ‘DOSE UNIT:’ prompt, they will be asked if they want to continue. If the response is ‘Yes’, the next Local Possible Dosage with missing data for that drug will be displayed, if any exist. If no more Local Possible Dosages exist for the drug, the next drug will display. If the user responds ‘No’, a check will be made to see if any Local Possible Dosages still require data to be entered and inform the user.
+If the user up-arrows (^) at the 'DOSE UNIT:' prompt, they will be asked if they want to continue. If the response is 'Yes', the next Local Possible Dosage with missing data for that drug will be displayed, if any exist. If no more Local Possible Dosages exist for the drug, the next drug will display. If the user responds 'No', a check will be made to see if any Local Possible Dosages still require data to be entered and inform the user.
 
 The user will be informed when all required data has been entered.
 
@@ -14444,14 +14587,14 @@ When disabled, NO Dosing order checks will be performed in Outpatient Pharmacy, 
 A notification message will be sent to the Outlook mail group, VHAPBH MOCHA Dosing Disconnect Notify and the local VistA mail group, PSS ORDER CHECKS when Dosing Order Checks are disabled or re-enabled using the Enable/Disable Dosing Order Checks option. The message will provide the following information:
 
 - The name of the person who disabled or re-enabled Dosing Order Checks
-- The name of the user’s facility (Outlook message only)
+- The name of the user's facility (Outlook message only)
 - Date/time the action occurred
 - Whether the Dosing Order Checks were disabled or re-enabled
 
 An audit trail will be maintained whenever Dosing Order Checks are disabled or re-enabled in the Pharmacy System File. The following information will be stored:
 
 - The name of the person who disabled or re-enabled Dosing Order Checks
-- The name of the user’s facility (Outlook message only)
+- The name of the user's facility (Outlook message only)
 - Date/time the action occurred
 - Whether the Dosing Order Checks were disabled or re-enabled
 
@@ -14584,9 +14727,9 @@ Diagram C shows dosage selections for a PROPRANOLOL TAB Orderable Item when one 
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/040.png)
 
-In Diagram C, the PROPRANOLOL drug entries are matched to VA Products that have numeric strengths, 20 and 40, and the VA Products both have the Dosage Form/Unit Combination of TAB/MG. Since TAB/MG is marked as “convertible” in the DOSAGE FORM file (#50.606) for both Inpatient Medication and Outpatient Pharmacy, the new STRENGTH field (#901) and UNIT field (#902) in the DRUG file (#50) for these drugs can be populated by the software. The STRENGTH field (#901) and UNITS field (#902) of DRUG file (#50) are populated from the VA PRODUCT file (#50.68) into the DRUG file (#50).
+In Diagram C, the PROPRANOLOL drug entries are matched to VA Products that have numeric strengths, 20 and 40, and the VA Products both have the Dosage Form/Unit Combination of TAB/MG. Since TAB/MG is marked as "convertible" in the DOSAGE FORM file (#50.606) for both Inpatient Medication and Outpatient Pharmacy, the new STRENGTH field (#901) and UNIT field (#902) in the DRUG file (#50) for these drugs can be populated by the software. The STRENGTH field (#901) and UNITS field (#902) of DRUG file (#50) are populated from the VA PRODUCT file (#50.68) into the DRUG file (#50).
 
-The new fields in the POSSIBLE DOSAGES multiple (#903) of the DRUG file (#50), DISPENSE UNITS PER DOSE field (#.01), DOSE field (#1), and PACKAGE filed (#2), are now populated with data. The Dispense Units Per Dose of “1” and “2” came from the new DISPENSE UNITS PER DOSE multiple (#9) in the DOSAGE FORM file (#50.606). When this data is carried over to the DRUG file (#50), the dose is computed by multiplying the Dispense Units Per Dose from DRUG file (#50) by the Strength from DRUG file (#50) of each drug. The PACKAGE field values of the DOSAGE FORM file (#50.606), “I” for Inpatient Medications and “O” for Outpatient Pharmacy, are also copied to the PACKAGE field of DRUG file (#50). Some of the Possible Dosages will be converted for both packages, such as the combination of TAB/MG, since this type of dosage can be ordered for Inpatient Medications and also can be converted to a patient readable Outpatient Pharmacy SIG. Other Dosage Form/Unit Combinations, such as SYRUP/MG/5ML, can only be converted for Inpatient Medications since they cannot be easily changed to an Outpatient Pharmacy readable SIG.
+The new fields in the POSSIBLE DOSAGES multiple (#903) of the DRUG file (#50), DISPENSE UNITS PER DOSE field (#.01), DOSE field (#1), and PACKAGE filed (#2), are now populated with data. The Dispense Units Per Dose of "1" and "2" came from the new DISPENSE UNITS PER DOSE multiple (#9) in the DOSAGE FORM file (#50.606). When this data is carried over to the DRUG file (#50), the dose is computed by multiplying the Dispense Units Per Dose from DRUG file (#50) by the Strength from DRUG file (#50) of each drug. The PACKAGE field values of the DOSAGE FORM file (#50.606), "I" for Inpatient Medications and "O" for Outpatient Pharmacy, are also copied to the PACKAGE field of DRUG file (#50). Some of the Possible Dosages will be converted for both packages, such as the combination of TAB/MG, since this type of dosage can be ordered for Inpatient Medications and also can be converted to a patient readable Outpatient Pharmacy SIG. Other Dosage Form/Unit Combinations, such as SYRUP/MG/5ML, can only be converted for Inpatient Medications since they cannot be easily changed to an Outpatient Pharmacy readable SIG.
 
 In this example, PROPRANOLOL TAB is selected as the Orderable Item in CPRS, therefore the dose selection would be:
 
@@ -14608,17 +14751,17 @@ The non-formulary drug filter is executed prior to the lowest Dispense Units Per
 
 Once the Possible Dosages have been created, doses can be deleted or added by editing the DISPENSE UNITS PER DOSE field (#.01) of the POSSIBLE DOSAGE multiple (#903) of the DRUG (#50) File using the *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] option. The DOSE field (1) of the POSSIBLE DOSAGE multiple (#903) of the DRUG (#50) File is automatically calculated by multiplying the DISPENSE UNITS PER DOSE field (#.01) of the POSSIBLE DOSAGE multiple (#903) of the DRUG (#50) File times the STRENGTH field (#901). For example, if the PROPRANOLOL TABLET is commonly given in a 10MG dose, and there is not a Dispense Drug entry in DRUG file (#50) of PROPRANOLOL HCL 10MG TAB, a Dispense Units Per Dose of .5 can be added for the PROPRANOLOL HCL 20MG TAB, and a dose of 10MG will be created. If a dose of 60MG is sometimes given for PROPRANOLOL TAB, entering a Dispense Units Per Dose of 3 for the PROPRANOLOL HCL 20MG TAB drug will provide a 60MG dose. Similarly, if the 80MG dose is rarely given, the Dispense Units Per Dose of 2 can be deleted for the PROPRANOLOL HCL 40MG TAB drug, and the 80MG dose will be deleted.
 
-The PACKAGE field (#2) of the POSSIBLE DOSAGE multiple (#903) of the DRUG file (#50) can also be edited, but this is a “controlled” type of edit. If the Dosage Form/Unit Combination is not marked as convertible in the DOSAGE FORM file (#50.606) for the package, then that package cannot be added as a package for that Possible Dosage. Strength can also be edited in the DRUG file (#50). If the strength is edited, then all of the doses are automatically re-calculated based on the DISPENSE UNITS PER DOSE and new STRENGTH entry. It is recommended that the strength only be edited in the rare case that the Dispense Drug must be matched to a VA Product with an inappropriate strength. (This scenario is discussed in further detail later in this document.) In summary, by adding new DISPENSE UNITS PER DOSE of .5 and 3 to the PROPRANOLOL HCL 20MG TAB entry, and by deleting the DISPENSE UNITS PER DOSE of 2 for the PROPRANOLOL HCL 40MG TAB entry, the following Possible Dosages now exist for PROPRANOLOL TAB Orderable Item. (See Diagram D.)
+The PACKAGE field (#2) of the POSSIBLE DOSAGE multiple (#903) of the DRUG file (#50) can also be edited, but this is a "controlled" type of edit. If the Dosage Form/Unit Combination is not marked as convertible in the DOSAGE FORM file (#50.606) for the package, then that package cannot be added as a package for that Possible Dosage. Strength can also be edited in the DRUG file (#50). If the strength is edited, then all of the doses are automatically re-calculated based on the DISPENSE UNITS PER DOSE and new STRENGTH entry. It is recommended that the strength only be edited in the rare case that the Dispense Drug must be matched to a VA Product with an inappropriate strength. (This scenario is discussed in further detail later in this document.) In summary, by adding new DISPENSE UNITS PER DOSE of .5 and 3 to the PROPRANOLOL HCL 20MG TAB entry, and by deleting the DISPENSE UNITS PER DOSE of 2 for the PROPRANOLOL HCL 40MG TAB entry, the following Possible Dosages now exist for PROPRANOLOL TAB Orderable Item. (See Diagram D.)
 
 <span id="_Toc206157114" class="anchor"></span>Figure 7: Diagram D
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/043.png)
 
-Though the list of dosages is all that the provider will see for selection, each of the dosages is associated with a Dispense Drug. For example, if the 60MG is selected, the Dispense Units Per Dose is 3, and the drug is PROPRANOLOL HCL 20MG TAB. For Outpatient Pharmacy orders the SIG will be built in the same manner as it is today. If the 60MG is chosen, the SIG will begin with “TAKE 3 TABLETS…” and the assigned Dispense Drug is PROPRANOLOL HCL 20MG TAB.
+Though the list of dosages is all that the provider will see for selection, each of the dosages is associated with a Dispense Drug. For example, if the 60MG is selected, the Dispense Units Per Dose is 3, and the drug is PROPRANOLOL HCL 20MG TAB. For Outpatient Pharmacy orders the SIG will be built in the same manner as it is today. If the 60MG is chosen, the SIG will begin with "TAKE 3 TABLETS…" and the assigned Dispense Drug is PROPRANOLOL HCL 20MG TAB.
 
 As demonstrated in the PROPRANOLOL example, the key to populating the Possible Dosages in the DRUG file (#50) is the information that is contained in the VA PRODUCT file (#50.68) entry to which that drug is matched. Earlier diagrams also show that dosages can be added, deleted, etc., for a drug by editing the DISPENSE UNITS PER DOSE field (#.01) of the POSSIBLE DOSAGE multiple (#903) of the DRUG file (#50) for that drug.
 
-In addition to creating Possible Dosages for a drug by editing the DISPENSE UNITS PER DOSE field (#.01) of the POSSIBLE DOSAGE multiple (#903) of the DRUG file (#50), appropriate Possible Dosages can be created by editing the STRENGTH field (#901) for a drug. When Possible Dosages are created for a drug, the strength information from the VA Product match is moved to the drug entry and stored in the STRENGTH field (#901). The only time this data would not be accurate would be if a VA PRODUCT file (#50.68) entry with the correct strength did not exist, and a different strength of the drug had to be selected for the drug’s VA Product match; however, these instances should be rare. If the desired strength does not exist for a particular drug, the functionality exists to edit the STRENGTH field (#901) in the DRUG file (#50) for that drug. Once the strength edit is completed, new Possible Dosages are created for every Dispense Units Per Dose for that drug.
+In addition to creating Possible Dosages for a drug by editing the DISPENSE UNITS PER DOSE field (#.01) of the POSSIBLE DOSAGE multiple (#903) of the DRUG file (#50), appropriate Possible Dosages can be created by editing the STRENGTH field (#901) for a drug. When Possible Dosages are created for a drug, the strength information from the VA Product match is moved to the drug entry and stored in the STRENGTH field (#901). The only time this data would not be accurate would be if a VA PRODUCT file (#50.68) entry with the correct strength did not exist, and a different strength of the drug had to be selected for the drug's VA Product match; however, these instances should be rare. If the desired strength does not exist for a particular drug, the functionality exists to edit the STRENGTH field (#901) in the DRUG file (#50) for that drug. Once the strength edit is completed, new Possible Dosages are created for every Dispense Units Per Dose for that drug.
 
 For example, Diagram E shows an entry in the DRUG file (#50) of METOPROLOL TARTRATE 25MG TAB. No entries with a strength of 25 exist in the VA PRODUCT file (#50.68) for that drug, so it is matched instead to a VA Product entry with a strength of 50. (See Diagram E.)
 
@@ -14667,7 +14810,7 @@ TABLET(S)
 
 In the TIMOLOL example, a review of the Dosage Form entry for SOLN,OPH, shows that the Dispense Units Per Dose of 1 and 2 are designated, and a Noun of DROP(S) is specified. If the *Auto Create Dosages* option is rerun with the current setup, no Possible Dosages for the two TIMOLOL drugs will be created because the drugs do not meet all four Possible Dosages criteria. Local Possible Dosages will be created of 1 DROP and 2 DROPS.
 
-If a NOUN ends in “(S)” or “(s)”, such as TABLET(S) or capsule(s), the “(S)” or “(s)” will be completely dropped from the Noun when building the SIGs, as long as the Dispense Units Per Dose is 1 or less. If the Dispense Units Per Dose is greater than 1, the parenthesis around the “(S)” will be eliminated, creating a plural Noun, such as TABLETS. For this to happen, the Noun must precisely end in the three characters “(S)”.
+If a NOUN ends in "(S)" or "(s)", such as TABLET(S) or capsule(s), the "(S)" or "(s)" will be completely dropped from the Noun when building the SIGs, as long as the Dispense Units Per Dose is 1 or less. If the Dispense Units Per Dose is greater than 1, the parenthesis around the "(S)" will be eliminated, creating a plural Noun, such as TABLETS. For this to happen, the Noun must precisely end in the three characters "(S)".
 
 Keep in mind that if an Orderable Item is selected in CPRS, and there are Possible Dosages for any of the Dispense Drugs tied to that Orderable Item, only the Possible Dosages will be returned and any Local Possible Dosages will be ignored. Local Possible Dosages will only be used when no Possible Dosages can be found for drugs tied to the selected Orderable Item and identified for use by the selected application (Inpatient Medications or Outpatient Pharmacy).
 
@@ -14689,9 +14832,9 @@ The reason Possible Dosages were created only for Inpatient Medications is becau
 
 <span id="_Toc206157119" class="anchor"></span>Figure 12: Diagram I
 
-![Diagram I illustrates the Possible Dosages and Local Possible Dosages that would be created for PROMETHAZINE HCL 25MG/5ML SYRUP. On the following page, Diagram J illustrates an edit of the STRENGTH field (#901) in DRUG file (#50) for a product such as PROMETHAZINE which has volume related UNITS. In the background, the software will evaluate the UNIT field in the DRUG file (#50) to determine if an adjustment in the UNIT is necessary. The software will search for the existence of a “/” in the UNIT field. If the UNIT field contains a “/”, when the strength is edited, calculations will be performed to make appropriate adjustments in the value of the UNIT. For example, the DRUG file (#50) entry may have a STRENGTH of 25 and a UNIT of MG/5ML. If the STRENGTH is edited to 12.5, the UNIT will be adjusted by the software to MG/2.5ML.](pharmacy-data-management-version-1-user-manual-pss-1-262/049.png)
+![Diagram I illustrates the Possible Dosages and Local Possible Dosages that would be created for PROMETHAZINE HCL 25MG/5ML SYRUP. On the following page, Diagram J illustrates an edit of the STRENGTH field (#901) in DRUG file (#50) for a product such as PROMETHAZINE which has volume related UNITS. In the background, the software will evaluate the UNIT field in the DRUG file (#50) to determine if an adjustment in the UNIT is necessary. The software will search for the existence of a "/" in the UNIT field. If the UNIT field contains a "/", when the strength is edited, calculations will be performed to make appropriate adjustments in the value of the UNIT. For example, the DRUG file (#50) entry may have a STRENGTH of 25 and a UNIT of MG/5ML. If the STRENGTH is edited to 12.5, the UNIT will be adjusted by the software to MG/2.5ML.](pharmacy-data-management-version-1-user-manual-pss-1-262/049.png)
 
-*Diagram I illustrates the Possible Dosages and Local Possible Dosages that would be created for PROMETHAZINE HCL 25MG/5ML SYRUP. On the following page, Diagram J illustrates an edit of the STRENGTH field (#901) in DRUG file (#50) for a product such as PROMETHAZINE which has volume related UNITS. In the background, the software will evaluate the UNIT field in the DRUG file (#50) to determine if an adjustment in the UNIT is necessary. The software will search for the existence of a “/” in the UNIT field. If the UNIT field contains a “/”, when the strength is edited, calculations will be performed to make appropriate adjustments in the value of the UNIT. For example, the DRUG file (#50) entry may have a STRENGTH of 25 and a UNIT of MG/5ML. If the STRENGTH is edited to 12.5, the UNIT will be adjusted by the software to MG/2.5ML.*
+*Diagram I illustrates the Possible Dosages and Local Possible Dosages that would be created for PROMETHAZINE HCL 25MG/5ML SYRUP. On the following page, Diagram J illustrates an edit of the STRENGTH field (#901) in DRUG file (#50) for a product such as PROMETHAZINE which has volume related UNITS. In the background, the software will evaluate the UNIT field in the DRUG file (#50) to determine if an adjustment in the UNIT is necessary. The software will search for the existence of a "/" in the UNIT field. If the UNIT field contains a "/", when the strength is edited, calculations will be performed to make appropriate adjustments in the value of the UNIT. For example, the DRUG file (#50) entry may have a STRENGTH of 25 and a UNIT of MG/5ML. If the STRENGTH is edited to 12.5, the UNIT will be adjusted by the software to MG/2.5ML.*
 
 When the UNIT value is adjusted, it will not display in the DRUG file (#50); however, throughout all Pharmacy and CPRS displays, the correct, adjusted unit value of the dosage will be displayed. (See Diagram J.)
 
@@ -14717,7 +14860,7 @@ The first example is GUAIFENESIN SYRUP WITH CODEINE 4oz. The Dosage Form of SYRU
 
 Earlier versions of the Outpatient Pharmacy software allowed the SIG to be directly edited from within the Outpatient Pharmacy package. Following the release of the Pharmacy Ordering Enhancements (POE) Phase 2 project, however, which included patches PSO\*7\*46, OR\*3\*94, PSS\*1\*38, and PSJ\*5\*50, the SIG could no longer be edited as a unit. Now, instead, individual fields are populated and then concatenated to create the SIG. Although the SIG, as a unit, cannot be edited, each individual field that creates the SIG can be edited until the SIG displays as desired.
 
-Four basic types of SIGs exist: Simple Possible Dosages, Simple Local Possible Dosages, Complex Possible Dosages, and Complex Local Possible Dosages. The SIG for each of these types of dosages is created by combining fields from various PDM files. To simplify the process, each dosage can be thought of as having its own SIG “formula”. The key to the formulas is displayed in the following table. The formulas for creating each of the four types of SIGs follow.
+Four basic types of SIGs exist: Simple Possible Dosages, Simple Local Possible Dosages, Complex Possible Dosages, and Complex Local Possible Dosages. The SIG for each of these types of dosages is created by combining fields from various PDM files. To simplify the process, each dosage can be thought of as having its own SIG "formula". The key to the formulas is displayed in the following table. The formulas for creating each of the four types of SIGs follow.
 
 The following table details the symbols that will be used in the SIG tables.
 
@@ -14737,7 +14880,7 @@ The following table details the symbols that will be used in the SIG tables.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages, can be created using the dosage’s respective SIG formula. The formulas, along with examples of various SIGs, are explained in detail below.
+Each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages, can be created using the dosage's respective SIG formula. The formulas, along with examples of various SIGs, are explained in detail below.
 
 #### Simple Possible Dosages
 
@@ -14747,9 +14890,9 @@ Dosages that have a numeric dosage and numeric Dispense Units Per Dose appropria
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/054.png)
 
-A SIG for a Simple Possible Dosage can be created utilizing the above formula. Prior to creating a SIG, the SIG must first be broken down into each of the elements in its respective Dosage Formula. The table below outlines each element of the desired SIG. By identifying the element symbol to the right of the SIG entry, it is easy to identify which element that word or phrase represents. For example, to the right of the SIG entry, “TAKE”, in the table, the Verb symbol is displayed. By referencing the third column, it is apparent that Verb entries are taken from the DOSAGE FORM file (#50.606).
+A SIG for a Simple Possible Dosage can be created utilizing the above formula. Prior to creating a SIG, the SIG must first be broken down into each of the elements in its respective Dosage Formula. The table below outlines each element of the desired SIG. By identifying the element symbol to the right of the SIG entry, it is easy to identify which element that word or phrase represents. For example, to the right of the SIG entry, "TAKE", in the table, the Verb symbol is displayed. By referencing the third column, it is apparent that Verb entries are taken from the DOSAGE FORM file (#50.606).
 
-The following tables define each element of the SIG for each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages and identify which files provide each element’s information. The complete SIG is displayed at the top of each table.
+The following tables define each element of the SIG for each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages and identify which files provide each element's information. The complete SIG is displayed at the top of each table.
 
 Each part of the SIG is constructed by extracting data from a designated file within the Pharmacy software. The verb entry is derived from the DOSAGE FORM file (#50.606) entry of the Dosage Form that is associated with the Pharmacy Orderable Item. The Dispense Units Per Dose of 2 is a component of the Possible Dosage and is also provided by the software.
 
@@ -14777,7 +14920,7 @@ The following Complex Local Possible Dosage would apply to a multi-ingredient li
 
 ![](pharmacy-data-management-version-1-user-manual-pss-1-262/058.png)
 
-The following complex order for a medication with Local Possible Dosages illustrates the elements utilized to build an order for a medication to be given for a specified duration before changing the frequency of administration. The CONJUNCTION field is used to join dosing sequences for a complex order. The entries are limited to “AND,” “THEN,” or “EXCEPT.” “AND” is used for concurrent doses in a complex order, such as “Take 1 tablet every morning AND take 2 tablets at bedtime.” “THEN” is used for consecutive doses in a complex order, for example “Take 2 tablets daily for one week THEN take 1 tablet daily for five days.” “EXCEPT” can be used in a complex order to describe any dosing order that is not routine, as in “Take 1 tablet every day EXCEPT take no tablets Wednesday.”
+The following complex order for a medication with Local Possible Dosages illustrates the elements utilized to build an order for a medication to be given for a specified duration before changing the frequency of administration. The CONJUNCTION field is used to join dosing sequences for a complex order. The entries are limited to "AND," "THEN," or "EXCEPT." "AND" is used for concurrent doses in a complex order, such as "Take 1 tablet every morning AND take 2 tablets at bedtime." "THEN" is used for consecutive doses in a complex order, for example "Take 2 tablets daily for one week THEN take 1 tablet daily for five days." "EXCEPT" can be used in a complex order to describe any dosing order that is not routine, as in "Take 1 tablet every day EXCEPT take no tablets Wednesday."
 
 <span id="_Toc206157129" class="anchor"></span>Figure 22: Example 1: Complex Local Possible Dosage
 
@@ -14799,8 +14942,8 @@ The following complex order for a medication with Local Possible Dosages illustr
 | Drug Electrolytes File                                          | The DRUG ELECTROLYTES file (#50.4) contains the names of anions and their cations and concentration units.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Drug File                                                       | The DRUG file (#50) holds the information related to each drug that can be used to fill a prescription or medication order. It is pointed to from several other files and should be handled carefully, usually only by special individuals in the Pharmacy Service. Entries are not typically deleted, but rather made inactive by entering an inactive date.                                                                                                                                                                                                                                                        |
 | Drug Text File                                                  | The DRUG TEXT file (#51.7) stores national and/or drug restrictions, guidelines, and protocols to help assure medications are being used according to defined specifications.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| <span id="Enhanced" class="anchor"></span>Enhanced Order Checks | Drug – Drug Interaction, Duplicate Therapy, Dosing and Pharmacogenomic order checks that are executed utilizing FDB’s MedKnowledge Framework APIs and database.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| <span id="Gene" class="anchor"></span>Gene                      | A gene is a section of an individual’s DNA that provides instructions for making proteins, including those that affect how the body processes medications.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="Enhanced" class="anchor"></span>Enhanced Order Checks | Drug – Drug Interaction, Duplicate Therapy, Dosing and Pharmacogenomic order checks that are executed utilizing FDB's MedKnowledge Framework APIs and database.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span id="Gene" class="anchor"></span>Gene                      | A gene is a section of an individual's DNA that provides instructions for making proteins, including those that affect how the body processes medications.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <span id="Genotype" class="anchor"></span>Genotype              | A genotype is a combination of alleles (version of a gene) which can influence how an individual processes medications.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Infusion Instructions File                                      | The INFUSION INSTRUCTIONS file (#53.47) holds abbreviations used when entering the Infusion Rate (#.08) field in the IV (#100) multiple of the PHARMACY PATIENT (#55) FILE, AND THE infusion rate (#59) FIELD IN THE non-verified orders (#53.1) file. Each record holds an expansion of the abbreviation which replaces the abbreviation in the Infusion Rate at the time the IV order is created.                                                                                                                                                                                                                  |
 | IV Additives File                                               | The IV ADDITIVES file (#52.6) contains drugs that are used as additives in the IV room. Data entered includes drug generic name, print name, drug information, synonym(s), dispensing units, cost per unit, days for IV order, usual IV schedule, administration times, electrolytes, and quick code information.                                                                                                                                                                                                                                                                                                    |
@@ -14810,7 +14953,7 @@ The following complex order for a medication with Local Possible Dosages illustr
 | Medication Routes File                                          | The MEDICATION ROUTES file (#51.2) contains medication route names. The user can enter an abbreviation for each route to be used at their site. The abbreviation will most likely be the Latin abbreviation for the term.                                                                                                                                                                                                                                                                                                                                                                                            |
 | Medication Routes/Abbreviations                                 | The Medication RouteS file (#51.2) contains the medication routes and abbreviations, which are selected by each Department of Veterans Affairs Medical Centers (VAMC). The abbreviation cannot be longer than five characters to fit on labels and the Medical Administration Record (MAR). The user can add new routes and abbreviations as appropriate.                                                                                                                                                                                                                                                            |
 | MOCHA                                                           | Medication Order Check Healthcare Application                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| National Drug File                                              | The National Drug File provides standardization of the local drug files in all VA medical facilities. Standardization includes the adoption of new drug nomenclature and drug classification and links the local drug file entries to data in the National Drug File. For drugs approved by the Food and Drug Administration (FDA), VA medical facilities have access to information concerning dosage form, strength, and unit; package size and type; manufacturer’s trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among medical facilities. |
+| National Drug File                                              | The National Drug File provides standardization of the local drug files in all VA medical facilities. Standardization includes the adoption of new drug nomenclature and drug classification and links the local drug file entries to data in the National Drug File. For drugs approved by the Food and Drug Administration (FDA), VA medical facilities have access to information concerning dosage form, strength, and unit; package size and type; manufacturer's trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among medical facilities. |
 | Non-Formulary Drugs                                             | Drugs that are not available for use by all providers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Order Check                                                     | Order checks (drug-allergy/ADR interactions, drug-drug, duplicate drug, duplicate therapy,dosing, and pharmacogenomics) are performed when a new medication order is placed through either the CPRS or Inpatient Medications applications. They are also performed when medication orders are renewed, when Orderable Items are edited, or during the finishing process in Inpatient Medications. This functionality will ensure the user is alerted to possible adverse drug reactions and will reduce the possibility of a medication error.                                                                       |
 | Orderable Item                                                  | An Orderable Item is pulled from the PHARMACY ORDERABLE ITEM file (#50.7) and usually has no strength attached to it (e.g., Acetaminophen). The name, with a strength attached, is the Dispense Drug name (e.g., Acetaminophen 325mg).                                                                                                                                                                                                                                                                                                                                                                               |
@@ -14818,9 +14961,9 @@ The following complex order for a medication with Local Possible Dosages illustr
 | <span id="PECS" class="anchor"></span>PECS                      | Pharmacy Enterprise Customization System. A Graphical User Interface (GUI) web-based application used to research, update via Data Update (DATUP), maintain, and report VA customizations of the commercial-off-the-shelf (COTS) vendor database used to perform Pharmacy order checks such as drug-drug interactions, duplicate therapy, dosing, and pharmacogenomics.                                                                                                                                                                                                                                              |
 | Pending Order                                                   | A pending order is one that has been entered by a provider through CPRS without Pharmacy finishing the order. Once Pharmacy has finished (and verified for Unit Dose only) the order, it will become active.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | PEPS                                                            | Pharmacy Enterprise Product System. A re-engineering of pharmacy data and its management practices developed to use a commercial off-the-shelf (COTS) drug database, currently First DataBank (FDB) MedKnowledge, to provide the latest identification and safety information on medications.                                                                                                                                                                                                                                                                                                                        |
-| <span id="PGx_Glossary" class="anchor"></span>Pharmacogenomic   | Often abbreviated to PGx, it is the study of how our genes affect the way we respond to medications. It combines pharmacology and genomics to develop effective, safe medications that can be prescribed based on person’s genetic makeup.                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="PGx_Glossary" class="anchor"></span>Pharmacogenomic   | Often abbreviated to PGx, it is the study of how our genes affect the way we respond to medications. It combines pharmacology and genomics to develop effective, safe medications that can be prescribed based on person's genetic makeup.                                                                                                                                                                                                                                                                                                                                                                           |
 | Pharmacy Orderable Item File                                    | The PHARMACY ORDERABLE ITEM file (#50.7) contains the Order Entry name for items that can be ordered in the Inpatient Medications and Outpatient Pharmacy packages.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| <span id="Phenotype" class="anchor"></span>Phenotype            | A phenotype is the observable result of an individual’s genes; in pharmacogenomics, it refers to how the body responds to a drug, like whether you break it down quickly, slowly, or not at all.                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span id="Phenotype" class="anchor"></span>Phenotype            | A phenotype is the observable result of an individual's genes; in pharmacogenomics, it refers to how the body responds to a drug, like whether you break it down quickly, slowly, or not at all.                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Possible Dosages                                                | Dosages that have a numeric dosage and numeric Dispense Units Per Dose appropriate for administration. For a drug to have possible dosages, it must be a single ingredient product that is matched to National Drug File. The National Drug File entry must have a numeric strength and the dosage form/unit combination must be such that a numeric strength combined with the unit can be an appropriate dosage selection.                                                                                                                                                                                         |
 | Prompt                                                          | A point at which the system questions the user and waits for a response.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Standard Medication Route File                                  | The STANDARD MEDICATION ROUTES file (#51.23) was created to map Local Medication Routes in VistA to an FDB Route in order to perform dosage checks in PRE V.0.5. This file has been standardized by Standards and Terminology Service (STS) and is mapped to an FDB Route. It cannot be edited locally.                                                                                                                                                                                                                                                                                                              |
@@ -16392,7 +16535,7 @@ The *Auto Create Dosages* \[PSS DOSAGE CONVERSION\] option was removed from the 
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option provides the ability to edit data in the DOSAGE FORM file (#50.606). Changes made using this option may affect the way CPRS and Outpatient Pharmacy SIGs display and how Local Possible Dosages are created. The Noun entries are used to populate the Local Possible Dosages for DRUG file (#50) entries, when these entries are matched to National Drug File. These Nouns may be package specific (i.e. Outpatient Pharmacy, Inpatient Medications, or both). Entries in this file will be used as default values in the construction of the Outpatient Pharmacy prescription SIG.
 
-The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction “OF” was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
+The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction "OF" was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option allows the user to associate one or more local medication routes with a dosage form. The user will only be able to select a local medication route that has already been defined in the MEDICATION ROUTES file (#51.2).
 
@@ -16442,9 +16585,9 @@ The *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] option allows the user to enter a 
 
 The NUMERIC DOSE sub-field (#5) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) are used to breakdown a free text Local Possible Dosage in order to perform dosage checks when that Local Possible Dosage is selected for an eligible drug within an order. When populating the DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for a Local Possible Dosage, selection will be from the DOSE UNITS file (#51.24). A Numeric Dose will have to be entered that corresponds to the Dose Unit selected. No auto population is provided. If any of the following conditions can be determined at the time of entry, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for any defined Local Possible Dosage will not be displayed for data entry.
 
-- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 
 Although ineligible for dosage checks, when editing a Local Possible Dosage for an inactive drug or a drug not matched to NDF, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) will be displayed to the user for data entry.
 
@@ -16975,17 +17118,17 @@ Patch PSS\*1\*155 addresses supra-therapeutic and sub-therapeutic dosages. A sup
 - POSSIBLE DOSAGES TO CREATE field (#41)
 - PACKAGE field (#42)
 
-When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “YES”, then the existing functionality of auto-creating possible dosages will apply. When this field is “NO,” it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
+When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "YES", then the existing functionality of auto-creating possible dosages will apply. When this field is "NO," it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
 
-The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “NO”:
+The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "NO":
 
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “NO”, no possible dosages will be auto-created and the following message will be displayed:  
-  “Due to National Drug File settings no possible dosages were auto-created.”
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "NO", no possible dosages will be auto-created and the following message will be displayed:  
+  "Due to National Drug File settings no possible dosages were auto-created."
 - If POSSIBLE DOSAGES TO CREATE field (#41) is "O", 1x possible dosage will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “Due to National Drug File settings only one possible dosage will be auto-created.
-- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate.”
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “B”, 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
-- “Due to National Drug File settings TWO possible dosages were auto-created.”
+  "Due to National Drug File settings only one possible dosage will be auto-created.
+- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate."
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "B", 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
+- "Due to National Drug File settings TWO possible dosages were auto-created."
 
 Example 1: Supra-Therapeutic Drugs – *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] Option – Messages displayed when Create Default Possible Dosage is No and Possible Dosages To Create is No in the National Drug File
 
@@ -17519,7 +17662,7 @@ VA PRODUCT MATCH: ACETAMINOPHEN 160MG/5ML ELIXIR
 
 The *Local Possible Dosages Repor*t \[PSS LOCAL POSSIBLE DOSAGES\] option identifies drugs with Local Possible Dosages that have missing data in either the Numeric Dose or Dose Unit fields. This data needs to be populated if Dosage checks are to be performed, when that Local Possible Dosage is selected for an order.
 
-This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display ‘No Local Possible Dosage missing data found.’
+This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display 'No Local Possible Dosage missing data found.'
 
 If the strength of the drug does not match the strength of the VA Product to which it is matched to, it will be noted on the report.
 
@@ -17529,9 +17672,9 @@ Drugs that meet the following criteria will be screened out from this report.
 
 - Inactive
 - Not Matched to NDF
-- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 - Drug does not have any Local Possible Dosages defined
 
 Example: *Local Possible Dosages Report* \[PSS LOCAL POSSIBLE DOSAGES\] Option for Only Local Possible Dosage with Missing Data
@@ -17608,12 +17751,12 @@ VA PRODUCT MATCH: GUAIFENESIN 100MG/5ML SYRUP
 
 \[PSS DOSE UNIT REQUEST\]
 
-The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. The following information about the request will be needed:
+The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. The following information about the request will be needed:
 
 - Dose Unit to be added or modified (required)
 - References or Reason for Request (required)
 
-If the user is not ready to send the request, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for “Preferred editor” in the NEW PERSON file (#200).
+If the user is not ready to send the request, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for "Preferred editor" in the NEW PERSON file (#200).
 
 Example: *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] Option
 
@@ -17745,9 +17888,9 @@ Select DOSE UNITS:
 
 This option displays all of the information related to Dosing Order Checks for the selected entry from the DRUG file (#50). Based on the data displayed, the option informs the user whether or not the drug is eligible or not eligible for Dosing Order Checks.
 
-No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an ‘XA’ or that contains an ‘S’ in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
+No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an 'XA' or that contains an 'S' in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
 
-A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to ‘Yes’. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to ‘No’ for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to ‘Yes’ for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
+A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to 'Yes'. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to 'No' for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to 'Yes' for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
 
 The table below shows all the different combinations of values for the EXCLUDE FROM DOSAGE CHECK field (#11) in the DOSAGE FORM file (#50.606) and the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) and whether or not those combinations result in a Dosing Order Check being performed.
 
@@ -17762,13 +17905,13 @@ The table below shows all the different combinations of values for the EXCLUDE F
 
 If a drug is not matched to NDF, a GCNSEQNO cannot be obtained to identify the drug to FDB in order to perform a Dosing Order Check. In some cases, the drug may be matched to NDF, but the VA Product, to which it is matched, may not have a GCNSEQNO assigned. In both of these cases, the drug will be ineligible for Dosing Order Checks.
 
-The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, ‘None’ will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
+The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, 'None' will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
 
 The second section displays all dosage information such as strength, unit, possible dosages, and local possible dosages that has been defined for the drug selected.
 
 The third and final section displays dosage information from First Databank (FDB). It will show all route and dose units found in FDB dosing records for the drug and whether or not a weight or BSA value is required for a dosage order check to be performed. If a drug is not eligible for Dosing Order Checks, no FDB data will display.
 
-If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a ‘Yes’ with a list of age range(s) for those records that do require a weight or BSA and a ‘No’ with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
+If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a 'Yes' with a list of age range(s) for those records that do require a weight or BSA and a 'No' with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
 
 If the vendor database cannot be reached, the following text in lieu of all FDB information for the drug will be displayed in the third and final section:
 
@@ -17964,7 +18107,7 @@ This option allows users to manage the list of products in the VA PRODUCT file (
 
 Patch PSS\*1\*247 introduced an exception to Buprenorphine VA Products indicated for the treatment of pain. VA Products with exceptions are populated using new option "Manage Buprenorphine Tx of Pain - VA Products" \[PSS BUPRENORPHINE VAPRODS\]. When Buprenorphine containing products are approved by the FDA for the treatment of pain, this option should be used to add the VA Product to the exception list.
 
-Users with access to the ‘Dosages’ \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
+Users with access to the 'Dosages' \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
 
 At installation, patch PSS\*1\*247 automatically populates these products at the Package level:
 
@@ -17992,7 +18135,7 @@ BUPRENORPHINE 75MCG FILM,BUCCAL
 
 BUPRENORPHINE 900MCG FILM,BUCCAL
 
-This screen shot shows a user with elevated privileges using option “Manage Buprenorphine Tx of Pain – VA Products”. Only users with elevated (programmer) privileges can see and edit the Package level setting.
+This screen shot shows a user with elevated privileges using option "Manage Buprenorphine Tx of Pain – VA Products". Only users with elevated (programmer) privileges can see and edit the Package level setting.
 
 Select Dosages Option: Manage Buprenorphine Tx of Pain - VA Products
 
@@ -18175,15 +18318,15 @@ Outpatient Pharmacy designated Dispense Drug entries may be marked or unmarked a
 
 The *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option allows the user to enter a dosage in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE DOSAGE NAME sub-field (#3) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50), PDM defaults to the value entered in the LOCAL POSSIBLE DOSAGE sub-field (#.01) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50). If no values exist in the LOCAL POSSIBLE DOSAGE sub-field (#.01) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50) and OTHER LANGUAGE DOSAGE NAME sub-field (#3) of the LOCAL POSSIBLE DOSAGE multiple (#904) of the DRUG file (#50), the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry.
 
-Patch PSS\*1\*61 adds a new code “F” for NON REFILLABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs other than controlled substances or clozapine drugs as NON REFILLABLE.
+Patch PSS\*1\*61 adds a new code "F" for NON REFILLABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs other than controlled substances or clozapine drugs as NON REFILLABLE.
 
-<span id="P_187p33" class="anchor"></span>Patch PSS\*1\*187 adds a new code “D” for NOT PARKABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs as NOT PARKABLE.
+<span id="P_187p33" class="anchor"></span>Patch PSS\*1\*187 adds a new code "D" for NOT PARKABLE to the DEA, SPECIAL HDLG field (#3) of the DRUG file (#50), which will allow sites to mark drugs as NOT PARKABLE.
 
 Patch PSS\*1\*192 adds new fields EPHARMACY BILLABLE (#84), EPHARMACY BILLABLE (TRICARE) (#85), EPHARMACY BILLABLE (CHAMPVA) (#86) of the DRUG file (#50) to indicate that the drug file entry is electronically billable. These fields replace functionality previously provided by the DEA, Special HANDLING field.
 
 Patch PSS\*1\*214 adds a message to be displayed if the user exits the option and all three EPHARMACY BILLABLE fields are blank and the drug is not inactive. The option is given to return and answer the billable questions.
 
-Patch PSS\*1\*192 adds a new field Sensitive Diagnosis Drug (#87) of the DRUG file (#50) to indicate that the drug is used to treat certain conditions that are deemed “sensitive”. Specifically, the VA may not disclose any information on the following diseases: HIV, drug abuse, alcohol abuse, or sickle cell anemia without a signed consent from the patient. If a drug file entry is marked as a Sensitive Diagnosis Drug, a signed Release of Information (ROI) needs to be on file in VistA for prescriptions for the drug to be billable. This functionality works in conjunction with ROI modifications made in IB\*2\*384 and PSS\*1\*131.
+Patch PSS\*1\*192 adds a new field Sensitive Diagnosis Drug (#87) of the DRUG file (#50) to indicate that the drug is used to treat certain conditions that are deemed "sensitive". Specifically, the VA may not disclose any information on the following diseases: HIV, drug abuse, alcohol abuse, or sickle cell anemia without a signed consent from the patient. If a drug file entry is marked as a Sensitive Diagnosis Drug, a signed Release of Information (ROI) needs to be on file in VistA for prescriptions for the drug to be billable. This functionality works in conjunction with ROI modifications made in IB\*2\*384 and PSS\*1\*131.
 
 Patch PSS\*1\*156 adds the new OPAI multiple (#906) to the DRUG file (#50), which will allow prescription orders for a certain drug to be sent to a specific Automated Dispensing Device (ADD). Setup can be done by division such that a drug is linked to a specific ADD. This functionality works in conjunction with PSO\*7\*354.
 
@@ -18197,7 +18340,7 @@ The *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option was modified to add the new
 
 DEA Special Handling Code
 
-Sites will need to determine all the nutritional supplements in their DRUG file (#50) and mark the DEA, SPECIAL HDLG field (#3) entry for all of their nutritional supplements drug file entries with an “N”. They will also need to mark any entries that may be third party reimbursable as billable. Usually only Rx Only nutritional supplements are third party reimbursable.
+Sites will need to determine all the nutritional supplements in their DRUG file (#50) and mark the DEA, SPECIAL HDLG field (#3) entry for all of their nutritional supplements drug file entries with an "N". They will also need to mark any entries that may be third party reimbursable as billable. Usually only Rx Only nutritional supplements are third party reimbursable.
 
 Select OPTION NAME: DRUG ENTER/EDIT PSS DRUG ENTER/EDIT Drug Enter/Edit
 
@@ -18302,7 +18445,7 @@ ePharmacy Billable (TRICARE):
 
 ePharmacy Billable (CHAMPVA): NO//
 
-![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/010.png)Note: The NDF option, *Rematch/Match Single Drugs*, screens out those items with a DEA, SPECIAL HDLG code of “0”, “I”, or “M”. When sites receive NDF data updates that cause one of these items to be unmatched from NDF, they cannot use the *Rematch/Match Single Drugs* option to rematch if they have added “0”, “I”, or “M” to drugs like Antiretrovirals, Disulfiram, Naltrexone, or Methadone for maintenance or detox. Sites can either:
+![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/010.png)Note: The NDF option, *Rematch/Match Single Drugs*, screens out those items with a DEA, SPECIAL HDLG code of "0", "I", or "M". When sites receive NDF data updates that cause one of these items to be unmatched from NDF, they cannot use the *Rematch/Match Single Drugs* option to rematch if they have added "0", "I", or "M" to drugs like Antiretrovirals, Disulfiram, Naltrexone, or Methadone for maintenance or detox. Sites can either:
 
 1.  Rematch to NDF using another option, or
 2.  Remove the DEA, SPECIAL HDLG code, use the *Rematch/Match Single Drugs* option, and then add the DEA, SPECIAL HDLG code back in.
@@ -18342,7 +18485,7 @@ DAW codes are typically set for individual prescriptions, but can be set at the 
 
 Example: Setting the DAW CODE at the Prescription Level
 
-If you are informed that a prescription for Coumadin<sup>®</sup> was rejected for DAW reasons, you might try changing the DAW CODE of the prescription and resubmitting. The change can be made through the *Patient Prescription Processing* option or the *Edit Prescriptions* option in Outpatient Pharmacy V. 7.0. The DAW CODE will display for ePharmacy prescriptions. For original fills, this information can be edited by selecting screen field 21. For refills, the user must select screen field 20 (Refill Data), then select the refill number to be edited; the “DAW CODE:” prompt displays after the “DIVISION:” prompt. In the case of the Coumadin<sup>®</sup> reject, you may try changing the field to a 5 or a 1, then resubmitting to see if the claim gets processed. Both 5 and 1 are appropriate choices for the VA setting. Whether or not a claim will get rejected for these reasons and which code to use will vary from third party to third party. We are using brand name products, but are not charging for brand name products. The most common DAW codes are explained as follows:
+If you are informed that a prescription for Coumadin<sup>®</sup> was rejected for DAW reasons, you might try changing the DAW CODE of the prescription and resubmitting. The change can be made through the *Patient Prescription Processing* option or the *Edit Prescriptions* option in Outpatient Pharmacy V. 7.0. The DAW CODE will display for ePharmacy prescriptions. For original fills, this information can be edited by selecting screen field 21. For refills, the user must select screen field 20 (Refill Data), then select the refill number to be edited; the "DAW CODE:" prompt displays after the "DIVISION:" prompt. In the case of the Coumadin<sup>®</sup> reject, you may try changing the field to a 5 or a 1, then resubmitting to see if the claim gets processed. Both 5 and 1 are appropriate choices for the VA setting. Whether or not a claim will get rejected for these reasons and which code to use will vary from third party to third party. We are using brand name products, but are not charging for brand name products. The most common DAW codes are explained as follows:
 
 \#1: Physician stipulates that a particular brand be used.
 
@@ -18372,9 +18515,9 @@ Patch PSS\*1\*129 enhances the *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] option 
 
 If any of the following conditions can be determined at the time of entry, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for any defined Local Possible Dosage will not be presented for data entry.
 
-- Drugs associated with a dosage form that is excluded from dosage checks and the VA Product it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) ) in the VA PRODUCT file (#50.68) file set to ‘No’
-- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an ‘XA’).
+- Drugs associated with a dosage form that is excluded from dosage checks and the VA Product it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) ) in the VA PRODUCT file (#50.68) file set to 'No'
+- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to will have the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an 'XA').
 
 A warning will be provided if the DRUG file (#50) strength does not match the VA PRODUCT file (#50.68) strength to which it is matched.
 
@@ -18585,7 +18728,7 @@ The maximum value allowed for this field is 365 (days) for most drugs, however:
 - The maximum number of days supply for this drug cannot exceed the National Drug File (NDF) maximum value if it exists in the VA PRODUCT file.
 - No value can be entered for Clozapine drugs as the maximum days supply is controlled by the Clozapine functionality.
 
-The following chart shows the default values used when different values exist in the DRUG file and VA PRODUCT file. Note the default quantity is determined by the patient’s PATIENT STATUS field in the PRESCRIPTION file \#52. In this example, the patient status allows for a 60 days supply.
+The following chart shows the default values used when different values exist in the DRUG file and VA PRODUCT file. Note the default quantity is determined by the patient's PATIENT STATUS field in the PRESCRIPTION file \#52. In this example, the patient status allows for a 60 days supply.
 
 <table>
 <caption><p><span id="_Toc102145945" class="anchor"></span>Table : Possible Med Routes</p></caption>
@@ -20015,7 +20158,7 @@ Patch PSS\*1\*155 addresses supra-therapeutic and sub-therapeutic dosages. A sup
 - POSSIBLE DOSAGES TO CREATE field (#41)
 - PACKAGE field (#42)
 
-When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “YES”, then the existing functionality of auto-creating possible dosages will be retained. When this field is “NO,” it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
+When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "YES", then the existing functionality of auto-creating possible dosages will be retained. When this field is "NO," it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
 
 Example 1: Supra-Therapeutic Drugs – *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] Option – Message displayed when Create Default Possible Dosage is Yes and no possible dosages auto-created
 
@@ -20363,14 +20506,14 @@ Due to National Drug File settings TWO possible dosages were auto-created.
 
 Do you want to edit the dosages? N//
 
-The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “NO”:
+The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "NO":
 
-- If POSIBLE DOSAGES TO CREATE field (#41) is “NO”, no possible dosages will be auto-created and the following message will be displayed:  
-  “This drug has been set within the National Drug File to not auto create possible dosages.”
+- If POSIBLE DOSAGES TO CREATE field (#41) is "NO", no possible dosages will be auto-created and the following message will be displayed:  
+  "This drug has been set within the National Drug File to not auto create possible dosages."
 - If POSSIBLE DOSAGES TO CREATE field (#41) is "O", 1x possible dosage will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “This drug has been set within the National Drug File to auto create only one possible dosage.”
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “B”, 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “This drug has been set within the National Drug File to auto create two possible dosages
+  "This drug has been set within the National Drug File to auto create only one possible dosage."
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "B", 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
+  "This drug has been set within the National Drug File to auto create two possible dosages
 
 Example 4: Supra-Therapeutic Drugs – *Drug Enter/Edit* \[PSS DRUG ENTER/EDIT\] Option -- Message displayed when NDF is set to not auto-create Possible Dosages
 
@@ -20468,7 +20611,7 @@ Do you want to edit the dosages? N//
 
 Multiple Automated Dispensing Devices (ADD)
 
-Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE file (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt “OP EXTERNAL DISPENSE:” must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
+Patch PSS\*1\*156, in conjunction will PSO\*7\*354, allows sites to send prescriptions to multiple ADDs. Defining a dispensing device at the drug level for a division will override the dispensing device settings in the OUTPATIENT SITE file (#59). If populated, the drug will be sent to the dispensing device for that division. There are two types of ADDs, window and mail, and these are based on the route of the prescription. The prompt "OP EXTERNAL DISPENSE:" must be YES for an ADD to be added to a drug. The following example illustrates the set-up for the drug CIMETIDINE 200MG TAB to be sent to the dispensing device SCRIPTPRO1 for window prescriptions and SCRIPTPRO2 for mail prescriptions.
 
 Example 1: Assigning Dispensing Device for a Drug
 
@@ -21098,7 +21241,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 - MESSAGE (#101)
 - PHARMACY ORDERABLE ITEM (#2.1)
 - RESTRICTION (#102)
-- APPLICATION PACKAGES’ USE (#63)
+- APPLICATION PACKAGES' USE (#63)
 - NDC (#31)
 - CMOP DISPENSE (#213)
 - ATC MNEMONIC (#212.2)
@@ -21128,7 +21271,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 
 If a user makes changes to an auditable field, then the mail message Subject line displays the title DRUG ENTER/EDIT AUDIT along with the Internal Entry Number (IEN) and name of the drug. The message body shows the date/time of the change, the name of the user who made the change, and before/after descriptions of the changed field(s).
 
-If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates “No Audited Changes Made.”
+If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates "No Audited Changes Made."
 
 A designated mail coordinator must modify the PSS DEE AUDIT mail group to include the necessary recipients.
 
@@ -21361,9 +21504,9 @@ The Request Changes to Enhanced Order Check Database \[PSS ORDER CHECK CHANGES\]
 
 Depending on the request, the user is prompted for different pieces of information.
 
-The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. If the user is not ready to send the request just yet, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
+The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. If the user is not ready to send the request just yet, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
 
-![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her “Preferred editor” in the NEW PERSON file (#200).
+![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her "Preferred editor" in the NEW PERSON file (#200).
 
 Example 1: Requesting to Add a New Drug Interaction
 
@@ -21701,7 +21844,7 @@ Select Pharmacy Data Management Option: ELectrolyte File (IV)
 
 Select DRUG ELECTROYTES NAME: CHLORIDE MEQ/ML
 
-ARE YOU ADDING ‘CHLORIDE’ AS A NEW DRUG ELECTROLYTES (THE 9<sup>TH</sup>)? Y (YES)
+ARE YOU ADDING 'CHLORIDE' AS A NEW DRUG ELECTROLYTES (THE 9<sup>TH</sup>)? Y (YES)
 
 DRUG ELECTROLYTES CONCENTRATION UNITS: MEQ/ML
 
@@ -21719,7 +21862,7 @@ Select DRUG ELECTROLYTES NAME: CHLORIDE
 
 NAME: CHLORIDE// @
 
-SURE YOU WANT TO DELETE THE ENTIRE ‘CHLORIDE’ DRUG ELECTROLYTES? Y (YES)
+SURE YOU WANT TO DELETE THE ENTIRE 'CHLORIDE' DRUG ELECTROLYTES? Y (YES)
 
 ## Lookup into Dispense Drug File
 
@@ -22107,11 +22250,11 @@ The *Medication Instruction Management* \[PSS MED INSTRUCTION MANAGEMENT\] optio
 
 \[PSSJU MI\]
 
-The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to “flag” those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
+The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to "flag" those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
 
 The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter the expansion in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#1.1), PDM defaults to the value entered in the EXPANSION field (#1). If no values exist in the EXPANSION field (#1) and OTHER LANGUAGE EXPANSION field (#1.1), an EXPANSION value will not print when Outpatient Pharmacy builds the SIG. See Appendix F for a list of Spanish equivalents for some of the more common medication instructions.
 
-Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
+Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
 
 The DRUG(S) FOR DOSING CHK FREQ field (#32.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the MEDICATION INSTRUCTION file (#51).
 
@@ -22270,7 +22413,7 @@ The third field added by patch PSS\*1\*201, OLD MED INSTRUCTION NAME(S) (#33), i
 
 Example 2: Edit Medication Instruction Name
 
-The modified name ‘FIT’ is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to ‘FITCH.’
+The modified name 'FIT' is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to 'FITCH.'
 
 Select Pharmacy Data Management Option: MED
 
@@ -22556,7 +22699,7 @@ OLD MED INSTRUCTION NAME(S): 4XDHS//
 
 The *Medication Instruction File Report* \[PSS MED INSTRUCTION REPORT\] option provides a report of entries from the MEDICATION INSTRUCTION (#51) File that shows whether or not data has been entered in the FREQUENCY (IN MINUTES) (#31) Field.
 
-The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message “No Medication Instructions found without frequencies.“
+The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message "No Medication Instructions found without frequencies."
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -22958,7 +23101,7 @@ No Medication Instructions found without frequencies
 
 \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -23030,11 +23173,11 @@ The *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu contains 
 
 \[PSS MEDICATION ROUTES EDIT\]
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the “OUTPATIENT EXPANSION” prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the "OUTPATIENT EXPANSION" prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
 
 The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to enter an interpretation of the OUTPATIENT EXPANSION field (#4) in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#4.1), PDM will default to the value entered in the OUTPATIENT EXPANSION field (#4). If no values exist in the OUTPATIENT EXPANSION field (#4) and OTHER LANGUAGE EXPANSION field (#4.1), the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry. See Appendix G for a list of Spanish equivalents for some of the more common medication routes.
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages’ to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for ‘All Packages.’
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages' to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for 'All Packages.'
 
 Example 1 demonstrates how to enter a new medication route. Note that if an entry has been mapped to a Standard Medication Route, the option to remap is offered. If an entry has *not* been mapped to a Standard Medication Route and the user bypasses the prompt without mapping, a warning is displayed that dosing checks will not be performed.
 
@@ -23118,7 +23261,7 @@ STANDARD MEDICATION ROUTE: \<ENTER\>
 
 medication route until it is mapped to a standard medication route.\*\*\*
 
-Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient’s prescription label by default.
+Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient's prescription label by default.
 
 Example 2: Medication Route File Edit
 
@@ -23142,7 +23285,7 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 STANDARD MEDICATION ROUTE: \<ENTER\>
 
-If the text to be replaced is more than 29 characters, the “REPLACE” prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site’s File Manager setup.
+If the text to be replaced is more than 29 characters, the "REPLACE" prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site's File Manager setup.
 
 Example 3: Medication Route File Deletions Not Allowed
 
@@ -23180,11 +23323,11 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 \[PSS MED ROUTE MAPPING REPORT\]
 
-The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for ‘All Packages.’
+The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for 'All Packages.'
 
-The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for ‘All Packages’).
+The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for 'All Packages').
 
-Totals are displayed at the end of the report for the number of all Local Medication Routes marked for ‘All Packages’ and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
+Totals are displayed at the end of the report for the number of all Local Medication Routes marked for 'All Packages' and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
 
 The report is formatted for 132 column width and can be sent to the screen or printer.
 
@@ -23322,7 +23465,7 @@ The *Medication Route Mapping History Report* \[PSS MED ROUTE MAPPING CHANGES\] 
 
 \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -23421,7 +23564,7 @@ Changes to a standard medication route that can result in an unmapping of a loca
 - Inactivation of a standard medication route
 - Change (add/delete/modify) to an FDB Medication Route Mapping
 
-If a local medication route that is marked for ‘All Packages’ is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
+If a local medication route that is marked for 'All Packages' is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
 
 The MailMan message will include the reason for notification, what was updated and will also include any automatic mapping activities that occurred from the local Medication Routes file to the Standard Medication Routes file.
 
@@ -23749,14 +23892,14 @@ Enter message action (in IN basket): Ignore //
 
 The *Default Med Route for OI Report* \[PSS DEF MED ROUTE OI RPT\] option is listed on the *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu. This report can be used to help identify the current default medication routes for the orderable items. The following is an example of the report.
 
-- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
+- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
 
 | Default Med Route Field Populated? | Possible Med Routes Field | Use Dosage Form Med Route List | Value Returned – Med Routes Selection In CPRS                      |
 |------------------------------------|---------------------------|--------------------------------|--------------------------------------------------------------------|
 | Y                                  | N                         | N                              | DEFAULT MED ROUTE field (#.06) value                               |
 | N                                  | Single Entry              | N                              | Single Entry                                                       |
 | N                                  | More Than One Entry       | N                              | All med routes listed in the POSSIBLE MED ROUTES multiple (#11)    |
-| N                                  | N                         | Y                              | All medication routes associated with orderable item’s dosage form |
+| N                                  | N                         | Y                              | All medication routes associated with orderable item's dosage form |
 
 <span id="_Toc102145946" class="anchor"></span>Table : Glossary
 
@@ -23810,7 +23953,7 @@ The *Orderable Item Management* sub-menu provides an option through which the Ph
 
 \[PSS EDIT ORDERABLE ITEMS\]
 
-The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 The *Edit Orderable Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter a default medication route and med route selection list.
 
@@ -23822,7 +23965,7 @@ The method of deriving the appropriate medication routes listed above will be fo
 
 Additionally, a report is available to view all current default medication routes as well as all possible med routes for the listed orderable items. See the section entitled *Default Med Route For OI Report* \[PSSDEF MED ROUTE OI RPT\].
 
-Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO”
+Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO"
 
 Select Orderable Item Management Option: Edit Orderable Items
 
@@ -23924,7 +24067,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO” and there are no Default Med Route nor Possible Med Routes
+Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO" and there are no Default Med Route nor Possible Med Routes
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -24008,7 +24151,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “YES”
+Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "YES"
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -24183,7 +24326,7 @@ Choose from:
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/022.png)Note: PSS\*1\*191 also added the HIGH RISK/HIGH ALERT prompt to this option, which was inadvertently missed in patch PSS\*1\*172.
 
-Example 5 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word “PATCH”):
+Example 5 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -24367,7 +24510,7 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-Example 6 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word “PATCH”):
+Example 6 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -24531,9 +24674,9 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
 
-Example (Message When Attempting to Enter 0 for Orderable Item Containing the Word “PATCH”):
+Example (Message When Attempting to Enter 0 for Orderable Item Containing the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -24553,9 +24696,9 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to delete an existing entry (i.e., using “@” command), the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to delete an existing entry (i.e., using "@" command), the following message displays indicating the entry is not valid:
 
-Example (Message When Attempting to Delete Removal When Dosage Form Contains the Word “PATCH”):
+Example (Message When Attempting to Delete Removal When Dosage Form Contains the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -24577,7 +24720,7 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form associated with the orderable item does NOT contain the word “PATCH”, and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
+If the Dosage Form associated with the orderable item does NOT contain the word "PATCH", and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
 
 - If the user responds with No (the default), as for a medication that does not require removal (e.g. tablet, capsule, etc.), the value they entered is not accepted, as in this example:
 
@@ -24603,9 +24746,9 @@ Are you sure you want to designate this medication as requiring removal? N// Y
 
 YES
 
-Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word “PATCH”.
+Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word "PATCH".
 
-Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is “PATCH” and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
+Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is "PATCH" and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
 
 Example (PSS\*1\*191 Post-Install Report):
 
@@ -24873,7 +25016,7 @@ Select SYNONYM:
 
 \[PSS MAINTAIN ORDERABLE ITEMS\]
 
-The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the “MED ROUTE” and “SCHEDULE TYPE” prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
+The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the "MED ROUTE" and "SCHEDULE TYPE" prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
 
 The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option allows the user to enter patient instructions in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE INSTRUCTIONS field (#7.1), PDM will default to the value entered in the PATIENT INSTRUCTIONS field (#7). If the PATIENT INSTRUCTIONS field (#7) does not contain data for the selected orderable item, the system will not present default patient instructions to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through backdoor Outpatient Pharmacy order entry.
 
@@ -25017,7 +25160,7 @@ USED IN IV FLUID ORDER ENTRY: NO//
 
 PREMIX:
 
-Following the on-screen instructions of “Now Editing Orderable Item,” if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
+Following the on-screen instructions of "Now Editing Orderable Item," if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
 
 Example: Editing Immunization-Related Pharmacy Orderable Items
 
@@ -25825,7 +25968,7 @@ Reports have been created that can be run from the *Pharmacy Data Management \[*
 
 Orders for MRRs with Removal Properties
 
-The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new “Prompt for Removal in BCMA” flag value set to 1, 2, or 3:
+The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new "Prompt for Removal in BCMA" flag value set to 1, 2, or 3:
 
 1 Removal at Next Administration
 
@@ -25841,7 +25984,7 @@ The MRR diagnostic utility report Orders for MRRs with Removal Properties needs 
 
 Orderable Items that Require Removal Report
 
-The Orderable Items that Require Removal report shows which Orderable Items have the “Prompt for Removal in BCMA” Medications Requiring Removal flag set to a value of 1, 2, or 3:
+The Orderable Items that Require Removal report shows which Orderable Items have the "Prompt for Removal in BCMA" Medications Requiring Removal flag set to a value of 1, 2, or 3:
 
 > 1 Removal at Next Administration
 
@@ -25855,8 +25998,8 @@ Users can access the Orderable Items that Require Removal report from the PSS MG
 
 This report will also:
 
-- Allow the user to select ALL “Prompt for Removal in BCMA” flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "Prompt for Removal in BCMA" flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, Medications Requiring Removal flag value, Dispense Drug Name and Dispense Drug Inactive Date.
 
 Example: *Orderable Items that Require Removal* \[PSS MRR ODERABLE ITEMS RPT\] Option
@@ -25909,7 +26052,7 @@ FENTANYL PATCH TS 75MCG/HR
 
 #### Orderable Items Report for High Risk/High Alert
 
-The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the “High Risk / High Alert” flag set to a value of 1, 2, or 3:
+The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the "High Risk / High Alert" flag set to a value of 1, 2, or 3:
 
 > 1 HIGH RISK/ALERT-NO WITNESS REQUIRED IN BCMA
 
@@ -25923,8 +26066,8 @@ The user can access the Orderable Items Report for High Risk/High Alert from the
 
 > This report will also:
 
-- Allow the user to select ALL “High Risk / High Alert” (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "High Risk / High Alert" (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, High Risk / High Alert flag value, Dispense Drug Name, and Dispense Drug Inactive Date.
 
 Example: *Orderable Items Report for High Risk/High Alert* \[PSS HR/HA ODERABLE ITEMS RPT\] Option
@@ -25997,7 +26140,7 @@ The user can access the Indication Usage Report from the *Orderable Item Managem
 
 The report provides the following options:
 
-- It lets the user display the Indications information for a specific month or quarter, or for a “flexible” period that encompasses a specific period of days. The “flexible” period can begin on the day the patch was first installed.
+- It lets the user display the Indications information for a specific month or quarter, or for a "flexible" period that encompasses a specific period of days. The "flexible" period can begin on the day the patch was first installed.
 - It lets the user display all orderable items, or specific orderable items.
 
 Example: Indication Usage Report \[PSS HR/HA ODERABLE ITEMS RPT\] Option
@@ -26166,9 +26309,9 @@ Type \<Enter\> to continue or '^' to exit:
 
 \[PSS NFI\]
 
-The *Formulary Information Report* \[PSS NFI\] option provides a listing of pertinent Pharmacy formulary information. The report is organized alphabetically by Dispense Drug but will also display the Pharmacy Orderable Item to which the Dispense Drug is matched. An “N” in a column indicates that the Dispense Drug is marked non-formulary at that level (Local, VISN, or National). If the Dispense Drug is restricted, an “R” appears in the appropriate column.
+The *Formulary Information Report* \[PSS NFI\] option provides a listing of pertinent Pharmacy formulary information. The report is organized alphabetically by Dispense Drug but will also display the Pharmacy Orderable Item to which the Dispense Drug is matched. An "N" in a column indicates that the Dispense Drug is marked non-formulary at that level (Local, VISN, or National). If the Dispense Drug is restricted, an "R" appears in the appropriate column.
 
-The Application Package Use indicator is also displayed on the report. If the user selects to include drug text in the report, an “I” will appear in the appropriate column to indicate drugs for which drug text information has been identified in the DRUG file (#50).
+The Application Package Use indicator is also displayed on the report. If the user selects to include drug text in the report, an "I" will appear in the appropriate column to indicate drugs for which drug text information has been identified in the DRUG file (#50).
 
 Example: Formulary Information Report \[PSS NFI\] Option
 
@@ -26310,7 +26453,7 @@ The *Drug Text Management* \[PSS DRUG TEXT MANAGEMENT\] menu option was created 
 
 The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option enables you to enter and/or edit entries in the DRUG TEXT file (#51.7). This file contains drug information, restrictions, and guidelines. Some entries are nationally populated by National Drug File. Drug text can be tied to a Dispense Drug in DRUG file (#50), or it can be tied to a Pharmacy Orderable Item through the PHARMACY ORDERABLE ITEM file (#50.7). Drug text tied to a Pharmacy Orderable Item is viewable when a medication is selected in Outpatient Pharmacy and Inpatient Medications, if it has been tied to the Pharmacy Orderable Item or Dispense Drug.
 
-The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, “Drug Text File Report” for more information.
+The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, "Drug Text File Report" for more information.
 
 Example: *Drug Text Enter/Edit* \[PSS EDIT TEXT\] Option
 
@@ -26676,7 +26819,7 @@ COPY INDICATION TO SIG: YES//
 
 A new field, ONEVA PHARMACY FLAG (#101) was created in the PHARMACY SYSTEM File (#59.7) with Patch PSO\*7\*497. This field will allow sites to toggle the OneVA Pharmacy logic 'on' or 'off' depending on current needs. The user changes the field value by using the *Pharmacy System Parameters Edit* \[PSS SYS EDIT\] Option
 
-Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its ‘ONEVA PHARMACY FLAG set to the 'on' state.
+Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. When this flag is in the 'off' state, the HDR/CDS Repository is not queried for external prescriptions and other VistA instances will not be able to refill prescriptions that belong to the VistA instance with the flag set to the 'off' state. When in the 'on' state, all prescription queries and actions may be taken for remote queries, refills, and partial fills. In order to process prescriptions from another VistA instance, that instance will also need to have its 'ONEVA PHARMACY FLAG set to the 'on' state.
 
 <table>
 <caption><p><span id="_Toc102145947" class="anchor"></span>Table : Convertible Dosage Form/Unit Combinations</p></caption>
@@ -26688,7 +26831,7 @@ Patch PSS\*1\*212 delivers the ONEVA PHARMACY FLAG field in the 'off' state. Whe
 <tr class="header">
 <th>![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/025.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the “off” position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
+<p>DO NOT turn on the OneVA Pharmacy Flag until directed to do so. The software will be released, deployed, and installed with the activation flag set to the "off" position. The Existing Product Intake Program (EPIP) Implementation Team will coordinate with the sites Pharmacy Automatic Data Processing Application Coordinator (ADPAC) on the specific date in which to activate the software.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -26713,7 +26856,7 @@ The *Standard Schedule Management* \[PSS SCHEDULE MANAGEMENT\] option was create
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter or edit entries in the ADMINISTRATION SCHEDULE file (#51.1). The set of times associated with the standard dosage administration schedules can be assigned, as can ward-specific administration times. This feature may be used to define the outpatient expansion to be used when the schedule is entered for an Outpatient Pharmacy medication order. Entry of a frequency in minutes allows the software to calculate the interval between dosages for Inpatient Medication orders and BCMA and is used by Outpatient Pharmacy to calculate default quantities. When the frequency is entered, a message displays telling the user, in hours, how often the administration will occur. If the schedule type is on call, the system does not require a frequency.
 
-Schedules with a frequency that is not evenly divisible into or by 24 hours are considered ‘odd’. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
+Schedules with a frequency that is not evenly divisible into or by 24 hours are considered 'odd'. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter the outpatient expansion value in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#8.1), PDM defaults to the value entered in the OUTPATIENT EXPANSION field (#8). If no values exist in the OUTPATIENT EXPANSION (#8) and OTHER LANGUAGE EXPANSION fields (#8.1), the system will not present default values for those fields to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through Outpatient Pharmacy backdoor order entry. See Appendix C for a list of Spanish equivalents for some of the more common administration schedules.
 
@@ -26741,7 +26884,7 @@ Select WARD ADMINISTRATION SCHEDULE: \<Enter\>
 
 PSS\*1\*160 enhances the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option to allow editing of two new dosing exclusion fields that were added to the ADMINISTRATION SCHEDULE file (#51.1) in MOCHA v2.0. The two new fields are EXCLUDE FROM ALL DOSING CHECKS field (#9) and EXCLUDE FROM DAILY DOSE CHECK field (#10).
 
-The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to ‘Yes’, no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
+The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to 'Yes', no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/027.png)Note: The Daily Dose Range check will be implemented in a future version of MOCHA. The Maximum Single Dose order check is introduced with MOCHA v 2.0.
 
@@ -26813,7 +26956,7 @@ EXCLUDE FROM ALL DOSING CHECKS:
 
 Select ADMINISTRATION SCHEDULE
 
-Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
+Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
 
 The DRUG(S) FOR DOSING CHK FREQ field (#11.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the ADMINISTRATION SCHEDULE file (#51.1). When a value is entered in the DOSING CHECK FREQUENCY field and NO drug(s) is entered in this field, the Max Daily Dose Order Check will use the value in the DOSING CHECK FREQUENCY field to derive a frequency for all orders that have that schedule. When a value is entered for DOSING CHECK FREQUENCY and a drug(s) is entered in this field, the Max Daily Dose Order Check will ONLY use the value in DOSING CHECK FREQUENCY to derive a frequency if the order that has that schedule also matches one of the drug(s) entered. If the drug found in the order does not match a drug listed in the DRUG(S) FOR DOSING CHK FREQ field, then the value of the DOSING CHECK FREQUENCY will not be used for the Max Daily Dose Order Check to derive a frequency.
 
@@ -26959,7 +27102,7 @@ STANDARD ADMINISTRATION TIMES: 09//
 
 Select WARD:
 
-If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of ‘Yes’ entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
+If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of 'Yes' entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
 
 Example: Editing of One-Time Schedule
 
@@ -27021,7 +27164,7 @@ The third field added by patch PSS\*1\*201, OLD SCHEDULE NAME(S) (#13), is a mul
 
 Example: Edit Schedule Name
 
-The modified name ‘QDAY’ is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to ‘QDAILY’
+The modified name 'QDAY' is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to 'QDAILY'
 
 Select Pharmacy Data Management \<TEST ACCOUNT\> Option: STANDARD Schedule Management
 
@@ -27239,19 +27382,19 @@ Schedule Edit Validation One
 
 The system shall validate, for schedules with a Schedule Type of Continuous and a frequency of 1 day (1440 minutes) or less that the number of administration times is less than or equal to 1440 divided by the frequency. For example, a schedule frequency of 720 minutes must have at least one administration time and cannot exceed two administration times. Similarly, a schedule frequency of 360 minutes must have at least one administration time but cannot exceed four administration times.
 
-The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 Schedule Edit Validation Two
 
 The system shall validate for frequencies greater than one day (1440 minutes), that only one administration time is permitted. The system shall present an error message to the user if more than one administration time is entered.
 
-The error message: “This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted.” shall appear if more than one administration time is entered.
+The error message: "This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted." shall appear if more than one administration time is entered.
 
 Schedule Edit Validation Three
 
 In the Standard Administration Times and the Ward Administration Times fields in the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, for a schedule that has a Schedule Type of Continuous, the system shall prevent a user from entering administration times to Odd Schedules {a schedule whose frequency is not evenly divisible by or into 1440 minutes (1 day)}.
 
-The system shall present an error message to the user if an administration time is entered. The error message: “This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order.” shall appear.
+The system shall present an error message to the user if an administration time is entered. The error message: "This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order." shall appear.
 
 Schedule Edit Validation Four
 
@@ -27259,13 +27402,13 @@ A validation to TYPE OF SCHEDULE field (#5) in the *Standard Schedule Edit* \[PS
 
 frequency from the schedule file entry, if the TYPE OF SCHEDULE is changed from CONTINUOUS to ONE TIME, PRN, ON CALL, or DAY OF WEEK.
 
-The warning message: “The Type of Schedule has changed. The frequency will be removed.” shall appear.
+The warning message: "The Type of Schedule has changed. The frequency will be removed." shall appear.
 
 Schedule Edit Validation Five
 
 In the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, the system shall prevent a user from creating Day of Week (DOW) schedules that are not in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA. The system shall display an error message if the user does not enter the correct order.
 
-The error message: “The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA.” shall appear.
+The error message: "The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA." shall appear.
 
 Schedule Edit – Inactivate
 
@@ -27323,7 +27466,7 @@ INACTIVE:
 
 The *Administration Schedule File Report* \[PSS SCHEDULE REPORT\] option prints out entries from the ADMINISTRATION SCHEDULE file (#51.1) in order to check to see if a frequency is defined. A report can be run for all administration schedules or only the administration schedules without a defined frequency.
 
-Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to ‘PSJ’ will be included in the report.
+Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to 'PSJ' will be included in the report.
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -27565,7 +27708,7 @@ Patch PSS\*1\*147 creates a new *IV Additive Report* \[PSS IV ADDITIVE REPORT\] 
 - Used in IV Fluid Order Entry
 - Additive Frequency
 
-If the user chooses to print only the IV Additives marked with ‘1 BAG/DAY’ in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display ‘No IV Additives marked as '1 BAG/DAY' or ‘No IV Additives marked as null’ respectively.
+If the user chooses to print only the IV Additives marked with '1 BAG/DAY' in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display 'No IV Additives marked as '1 BAG/DAY' or 'No IV Additives marked as null' respectively.
 
 Example 1: User selects only IV Additives marked with no value in the ADDITIVE FREQUENCY Field (#18)
 
@@ -27635,7 +27778,7 @@ Additive Frequency:
 
 End of Report.
 
-Example 2: User Selects Only IV Additives marked with ‘1BAG/DAY’ in the ADDITIVE FREQUENCY Field (#18)
+Example 2: User Selects Only IV Additives marked with '1BAG/DAY' in the ADDITIVE FREQUENCY Field (#18)
 
 Select IV Additive/Solution Reports Option: IV ADDitive Report
 
@@ -27783,7 +27926,7 @@ The report will print the following data elements:
 - Used in IV Fluid Order Entry
 - PreMix
 
-If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display ‘No IV Solutions marked as PreMixes found.’
+If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display 'No IV Solutions marked as PreMixes found.'
 
 Example 1: User selects only solutions marked as PreMix
 
@@ -28279,7 +28422,7 @@ Debe tomar este medicamento con mucha agua.
 
 .
 
-This will print all warning labels in the commercial data source’s warning file.
+This will print all warning labels in the commercial data source's warning file.
 
 *(To save space, only the first five warning labels are displayed in this example.)*
 
@@ -28429,7 +28572,7 @@ Would you like to edit this list of warnings? N// \<Enter\> O
 
 \[PSS WARNING MAPPING\]
 
-The *Warning Mapping* \[PSS WARNING MAPPING\] option is used to match an entry from the RX CONSULT file (#54) to the WARNING LABEL-ENGLISH file (#50.625) to aid in using the *Warning Builder* \[PSS WARNING BUILDER\] option to identify local warnings that do not have an equivalent entry in the commercial data source. The user can also enter a Spanish translation for an RX CONSULT file (#54) entry, if desired, but whenever possible, the commercial data source’s warnings should be used.
+The *Warning Mapping* \[PSS WARNING MAPPING\] option is used to match an entry from the RX CONSULT file (#54) to the WARNING LABEL-ENGLISH file (#50.625) to aid in using the *Warning Builder* \[PSS WARNING BUILDER\] option to identify local warnings that do not have an equivalent entry in the commercial data source. The user can also enter a Spanish translation for an RX CONSULT file (#54) entry, if desired, but whenever possible, the commercial data source's warnings should be used.
 
 Example: *Warning Mapping* \[PSS WARNING MAPPING\] Option
 
@@ -28585,7 +28728,7 @@ Press Return to Continue:
 
 Select PEPS Services Option:
 
-![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/028.png)Note: If no data has been installed in the custom table, the connection check returns “Unavailable” for all three fields, as shown below:
+![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/028.png)Note: If no data has been installed in the custom table, the connection check returns "Unavailable" for all three fields, as shown below:
 
 CHOOSE 1-2: 2 Check Vendor Database Link
 
@@ -28729,7 +28872,7 @@ Press Return to Continue:
 
 The *Schedule/Reschedule Check PEPS Interface*\[PSS SCHEDULE PEPS INTERFACE CK\] option allows you to schedule the Interface Scheduler \[PSS INTERFACE SCHEDULER\] option, which tests the PEPS interface by sending a PING request. If the PEPS Interface is not available, a mail message will be sent to the G.PSS ORDER CHECKS mail group. This must be scheduled so constant monitoring takes place on the Mocha Interface, to provide timely notification of any problems.
 
-Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person’s Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
+Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person's Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
 
 When scheduling this job, the person that is doing the scheduling must NOT have assumed the identity of the POSTMASTER, because the Internal Entry Number of the POSTMASTER is .5, and the decimal could cause the interface to fail, so this job would continue to fail until it is scheduled by another user other than POSTMASTER.
 
@@ -28743,7 +28886,7 @@ When scheduling this job, the person that is doing the scheduling must NOT have 
 <tr class="header">
 <th>![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/031.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a “NULL” type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that “Startup Persistent” be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
+<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a "NULL" type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that "Startup Persistent" be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -29539,9 +29682,9 @@ Drugs with the following criteria will be screened out from this option.
 
 - Inactive
 - Not Matched to NDF
-- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘No’
-- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an ‘XA’)
+- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'No'
+- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) or assigned a VA Drug Class starting with an 'XA')
 - Drug does not have any Local Possible Dosages defined
 
 All identified drugs, along with their Local Possible Dosages will be presented to the user one by one for editing. If data exists in the strength and unit fields for the drug, it will be displayed following the drug name. The user will be notified if the strength defined for the drug does not match the strength of the VA Product that it is matched to. The strength and unit of the VA Product the drug is matched to will be displayed along with the strength in the DRUG file (#50).
@@ -29682,9 +29825,9 @@ NUMERIC DOSE: 500
 
 Numeric Dose: 500 Dose Unit: MILLIGRAM(S)
 
-If a user presses the \<ENTER\> key at the ‘DOSE UNIT:’ prompt, they will be prompted to enter a Numeric Dose. If the user presses the \<ENTER\> key at the ‘NUMERIC DOSE:’ prompt, the next available Local Possible Dosage for that drug if one exists with missing data will be displayed. If no more Local Possible Dosages exist for the drug that require data population, the next drug and its Local Possible Dosages will be presented for editing.
+If a user presses the \<ENTER\> key at the 'DOSE UNIT:' prompt, they will be prompted to enter a Numeric Dose. If the user presses the \<ENTER\> key at the 'NUMERIC DOSE:' prompt, the next available Local Possible Dosage for that drug if one exists with missing data will be displayed. If no more Local Possible Dosages exist for the drug that require data population, the next drug and its Local Possible Dosages will be presented for editing.
 
-If the user up-arrows (^) at the ‘DOSE UNIT:’ prompt, they will be asked if they want to continue. If the response is ‘Yes’, the next Local Possible Dosage with missing data for that drug will be displayed, if any exist. If no more Local Possible Dosages exist for the drug, the next drug will display. If the user responds ‘No’, a check will be made to see if any Local Possible Dosages still require data to be entered and inform the user.
+If the user up-arrows (^) at the 'DOSE UNIT:' prompt, they will be asked if they want to continue. If the response is 'Yes', the next Local Possible Dosage with missing data for that drug will be displayed, if any exist. If no more Local Possible Dosages exist for the drug, the next drug will display. If the user responds 'No', a check will be made to see if any Local Possible Dosages still require data to be entered and inform the user.
 
 The user will be informed when all required data has been entered.
 
@@ -29755,14 +29898,14 @@ When disabled, NO Dosing order checks will be performed in Outpatient Pharmacy, 
 A notification message will be sent to the Outlook mail group, VHAPBH MOCHA Dosing Disconnect Notify and the local VistA mail group, PSS ORDER CHECKS when Dosing Order Checks are disabled or re-enabled using the Enable/Disable Dosing Order Checks option. The message will provide the following information:
 
 - The name of the person who disabled or re-enabled Dosing Order Checks
-- The name of the user’s facility (Outlook message only)
+- The name of the user's facility (Outlook message only)
 - Date/time the action occurred
 - Whether the Dosing Order Checks were disabled or re-enabled
 
 An audit trail will be maintained whenever Dosing Order Checks are disabled or re-enabled in the Pharmacy System File. The following information will be stored:
 
 - The name of the person who disabled or re-enabled Dosing Order Checks
-- The name of the user’s facility (Outlook message only)
+- The name of the user's facility (Outlook message only)
 - Date/time the action occurred
 - Whether the Dosing Order Checks were disabled or re-enabled
 
@@ -29870,9 +30013,9 @@ Dosages that have a numeric dosage and numeric Dispense Units Per Dose appropria
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/051.png)
 
-A SIG for a Simple Possible Dosage can be created utilizing the above formula. Prior to creating a SIG, the SIG must first be broken down into each of the elements in its respective Dosage Formula. The table below outlines each element of the desired SIG. By identifying the element symbol to the right of the SIG entry, it is easy to identify which element that word or phrase represents. For example, to the right of the SIG entry, “TAKE”, in the table, the Verb symbol is displayed. By referencing the third column, it is apparent that Verb entries are taken from the DOSAGE FORM file (#50.606).
+A SIG for a Simple Possible Dosage can be created utilizing the above formula. Prior to creating a SIG, the SIG must first be broken down into each of the elements in its respective Dosage Formula. The table below outlines each element of the desired SIG. By identifying the element symbol to the right of the SIG entry, it is easy to identify which element that word or phrase represents. For example, to the right of the SIG entry, "TAKE", in the table, the Verb symbol is displayed. By referencing the third column, it is apparent that Verb entries are taken from the DOSAGE FORM file (#50.606).
 
-The following tables define each element of the SIG for each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages and identify which files provide each element’s information. The complete SIG is displayed at the top of each table.
+The following tables define each element of the SIG for each of the four types of dosages, Simple Possible Dosages, Complex Possible Dosages, Simple Local Possible Dosages, and Complex Local Possible Dosages and identify which files provide each element's information. The complete SIG is displayed at the top of each table.
 
 Each part of the SIG is constructed by extracting data from a designated file within the Pharmacy software. The verb entry is derived from the DOSAGE FORM file (#50.606) entry of the Dosage Form that is associated with the Pharmacy Orderable Item. The Dispense Units Per Dose of 2 is a component of the Possible Dosage and is also provided by the software.
 
@@ -29900,7 +30043,7 @@ The following Complex Local Possible Dosage would apply to a multi-ingredient li
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-187/055.png)
 
-The following complex order for a medication with Local Possible Dosages illustrates the elements utilized to build an order for a medication to be given for a specified duration before changing the frequency of administration. The CONJUNCTION field is used to join dosing sequences for a complex order. The entries are limited to “AND,” “THEN,” or “EXCEPT.” “AND” is used for concurrent doses in a complex order, such as “Take 1 tablet every morning AND take 2 tablets at bedtime.” “THEN” is used for consecutive doses in a complex order, for example “Take 2 tablets daily for one week THEN take 1 tablet daily for five days.” “EXCEPT” can be used in a complex order to describe any dosing order that is not routine, as in “Take 1 tablet every day EXCEPT take no tablets Wednesday.”
+The following complex order for a medication with Local Possible Dosages illustrates the elements utilized to build an order for a medication to be given for a specified duration before changing the frequency of administration. The CONJUNCTION field is used to join dosing sequences for a complex order. The entries are limited to "AND," "THEN," or "EXCEPT." "AND" is used for concurrent doses in a complex order, such as "Take 1 tablet every morning AND take 2 tablets at bedtime." "THEN" is used for consecutive doses in a complex order, for example "Take 2 tablets daily for one week THEN take 1 tablet daily for five days." "EXCEPT" can be used in a complex order to describe any dosing order that is not routine, as in "Take 1 tablet every day EXCEPT take no tablets Wednesday."
 
 <span id="_Toc102145987" class="anchor"></span>Figure : Example 1: Complex Local Possible Dosage
 
@@ -29920,7 +30063,7 @@ The following complex order for a medication with Local Possible Dosages illustr
 | Drug Electrolytes File          | The DRUG ELECTROLYTES file (#50.4) contains the names of anions and their cations and concentration units.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Drug File                       | The DRUG file (#50) holds the information related to each drug that can be used to fill a prescription or medication order. It is pointed to from several other files and should be handled carefully, usually only by special individuals in the Pharmacy Service. Entries are not typically deleted, but rather made inactive by entering an inactive date.                                                                                                                                                                                                                                                        |
 | Drug Text File                  | The DRUG TEXT file (#51.7) stores national and/or drug restrictions, guidelines, and protocols to help assure medications are being used according to defined specifications.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Enhanced Order Checks           | Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB’s MedKnowledge Framework APIs and database.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Enhanced Order Checks           | Drug – Drug Interaction, Duplicate Therapy, and Dosing order checks that are executed utilizing FDB's MedKnowledge Framework APIs and database.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Infusion Instructions File      | The INFUSION INSTRUCTIONS file (#53.47) holds abbreviations used when entering the Infusion Rate (#.08) field in the IV (#100) multiple of the PHARMACY PATIENT (#55) FILE, AND THE infusion rate (#59) FIELD IN THE non-verified orders (#53.1) file. Each record holds an expansion of the abbreviation which replaces the abbreviation in the Infusion Rate at the time the IV order is created.                                                                                                                                                                                                                  |
 | IV Additives File               | The IV ADDITIVES file (#52.6) contains drugs that are used as additives in the IV room. Data entered includes drug generic name, print name, drug information, synonym(s), dispensing units, cost per unit, days for IV order, usual IV schedule, administration times, electrolytes, and quick code information.                                                                                                                                                                                                                                                                                                    |
 | IV Solutions File               | The IV SOLUTIONS file (#52.7) contains drugs that are used as primary solutions in the IV room. The solution must already exist in the Drug file (#50) to be selected. Data in this file includes: drug generic name, print name, status, drug information, synonym(s), volume, and electrolytes.                                                                                                                                                                                                                                                                                                                    |
@@ -29929,7 +30072,7 @@ The following complex order for a medication with Local Possible Dosages illustr
 | Medication Routes File          | The MEDICATION ROUTES file (#51.2) contains medication route names. The user can enter an abbreviation for each route to be used at their site. The abbreviation will most likely be the Latin abbreviation for the term.                                                                                                                                                                                                                                                                                                                                                                                            |
 | Medication Routes/Abbreviations | The Medication RouteS file (#51.2) contains the medication routes and abbreviations, which are selected by each Department of Veterans Affairs Medical Centers (VAMC). The abbreviation cannot be longer than five characters to fit on labels and the Medical Administration Record (MAR). The user can add new routes and abbreviations as appropriate.                                                                                                                                                                                                                                                            |
 | MOCHA                           | Medication Order Check Healthcare Application                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| National Drug File              | The National Drug File provides standardization of the local drug files in all VA medical facilities. Standardization includes the adoption of new drug nomenclature and drug classification and links the local drug file entries to data in the National Drug File. For drugs approved by the Food and Drug Administration (FDA), VA medical facilities have access to information concerning dosage form, strength, and unit; package size and type; manufacturer’s trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among medical facilities. |
+| National Drug File              | The National Drug File provides standardization of the local drug files in all VA medical facilities. Standardization includes the adoption of new drug nomenclature and drug classification and links the local drug file entries to data in the National Drug File. For drugs approved by the Food and Drug Administration (FDA), VA medical facilities have access to information concerning dosage form, strength, and unit; package size and type; manufacturer's trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among medical facilities. |
 | Non-Formulary Drugs             | Drugs that are not available for use by all providers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Order Check                     | Order checks (drug-allergy/ADR interactions, drug-drug, duplicate drug, duplicate therapy, and dosing) are performed when a new medication order is placed through either the CPRS or Inpatient Medications applications. They are also performed when medication orders are renewed, when Orderable Items are edited, or during the finishing process in Inpatient Medications. This functionality will ensure the user is alerted to possible adverse drug reactions and will reduce the possibility of a medication error.                                                                                        |
 | Orderable Item                  | An Orderable Item is pulled from the PHARMACY ORDERABLE ITEM file (#50.7) and usually has no strength attached to it (e.g., Acetaminophen). The name, with a strength attached, is the Dispense Drug name (e.g., Acetaminophen 325mg).                                                                                                                                                                                                                                                                                                                                                                               |
@@ -31603,7 +31746,7 @@ The *Auto Create Dosages* \[PSS DOSAGE CONVERSION\] option was removed from the 
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option provides the ability to edit data in the DOSAGE FORM file (#50.606). Changes made using this option may affect the way CPRS and Outpatient Pharmacy SIGs display and how Local Possible Dosages are created. The Noun entries are used to populate the Local Possible Dosages for DRUG file (#50) entries, when these entries are matched to National Drug File. These Nouns may be package specific (i.e. Outpatient Pharmacy, Inpatient Medications, or both). Entries in this file will be used as default values in the construction of the Outpatient Pharmacy prescription SIG.
 
-The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction “OF” was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
+The conjunction will be used to provide a connector between the Local Possible Dosage and the strength and units or Dispense Drug name when displaying the dosage list through CPRS. For example, the dosage 1 TEASPOONFUL GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP would display as 1 TEASPOONFUL OF GUAIFENESIN WITH DEXTROMETHORPHAN SYRUP in CPRS after the conjunction "OF" was provided using the *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option.
 
 The *Dosage Form File Enter/Edit* \[PSS DOSAGE FORM EDIT\] option allows the user to associate one or more local medication routes with a dosage form. The user will only be able to select a local medication route that has already been defined in the MEDICATION ROUTES file (#51.2).
 
@@ -31653,9 +31796,9 @@ The *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] option allows the user to enter a 
 
 The NUMERIC DOSE sub-field (#5) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) are used to breakdown a free text Local Possible Dosage in order to perform dosage checks when that Local Possible Dosage is selected for an eligible drug within an order. When populating the DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for a Local Possible Dosage, selection will be from the DOSE UNITS file (#51.24). A Numeric Dose will have to be entered that corresponds to the Dose Unit selected. No auto population is provided. If any of the following conditions can be determined at the time of entry, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) for any defined Local Possible Dosage will not be displayed for data entry.
 
-- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Drug associated with a dosage form that is excluded from dosage checks and the VA Product that the drug is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Drug associated with a dosage form that is NOT excluded from dosage checks, but the VA Product that it is matched to has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 
 Although ineligible for dosage checks, when editing a Local Possible Dosage for an inactive drug or a drug not matched to NDF, the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) and DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) will be displayed to the user for data entry.
 
@@ -32186,17 +32329,17 @@ Patch PSS\*1\*155 addresses supra-therapeutic and sub-therapeutic dosages. A sup
 - POSSIBLE DOSAGES TO CREATE field (#41)
 - PACKAGE field (#42)
 
-When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “YES”, then the existing functionality of auto-creating possible dosages will apply. When this field is “NO,” it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
+When CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "YES", then the existing functionality of auto-creating possible dosages will apply. When this field is "NO," it will be used in combination with the value in POSSIBLE DOSAGES TO CREATE field (#41) to determine the auto-creation of possible dosages.
 
-The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is “NO”:
+The following conditions will apply when CREATE DEFAULT POSSIBLE DOSAGE field (#40) is "NO":
 
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “NO”, no possible dosages will be auto-created and the following message will be displayed:  
-  “Due to National Drug File settings no possible dosages were auto-created.”
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "NO", no possible dosages will be auto-created and the following message will be displayed:  
+  "Due to National Drug File settings no possible dosages were auto-created."
 - If POSSIBLE DOSAGES TO CREATE field (#41) is "O", 1x possible dosage will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:  
-  “Due to National Drug File settings only one possible dosage will be auto-created.
-- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate.”
-- If POSSIBLE DOSAGES TO CREATE field (#41) is “B”, 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
-- “Due to National Drug File settings TWO possible dosages were auto-created.”
+  "Due to National Drug File settings only one possible dosage will be auto-created.
+- If other dosages are needed, create POSSIBLE DOSAGES or LOCAL POSSIBLE DOSAGES as appropriate."
+- If POSSIBLE DOSAGES TO CREATE field (#41) is "B", 1x and 2x possible dosages will be auto-created for the package specified by the new PACKAGE field (#42) and the following message will be displayed:
+- "Due to National Drug File settings TWO possible dosages were auto-created."
 
 Example 1: Supra-Therapeutic Drugs – *Enter/Edit Dosages* \[PSS EDIT DOSAGES\] Option – Messages displayed when Create Default Possible Dosage is No and Possible Dosages To Create is No in the National Drug File
 
@@ -32730,7 +32873,7 @@ VA PRODUCT MATCH: ACETAMINOPHEN 160MG/5ML ELIXIR
 
 The *Local Possible Dosages Repor*t \[PSS LOCAL POSSIBLE DOSAGES\] option identifies drugs with Local Possible Dosages that have missing data in either the Numeric Dose or Dose Unit fields. This data needs to be populated if Dosage checks are to be performed, when that Local Possible Dosage is selected for an order.
 
-This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display ‘No Local Possible Dosage missing data found.’
+This report can be printed for all drugs in the local drug file that have Local Possible Dosages defined or only the drugs that have Local Possible Dosages defined with missing data in either the NUMERIC DOSE sub-field (#5) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50) or DOSE UNIT sub-field (#4) of the LOCAL POSSIBLE DOSAGES multiple (#904) in DRUG file (#50). If no missing data is found the report will display 'No Local Possible Dosage missing data found.'
 
 If the strength of the drug does not match the strength of the VA Product to which it is matched to, it will be noted on the report.
 
@@ -32740,9 +32883,9 @@ Drugs that meet the following criteria will be screened out from this report.
 
 - Inactive
 - Not Matched to NDF
-- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘No’
-- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to ‘Yes’
-- Drug is marked as a supply item (‘S’ in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an ‘XA’)
+- Associated with dosage form that is excluded from dosage checks and matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'No'
+- Associated with dosage form that is NOT excluded from dosage checks, but is matched to a VA Product that has the OVERRIDE DF DOSE CHK EXCLUSION field (#31) of the VA PRODUCT file (#50.68) set to 'Yes'
+- Drug is marked as a supply item ('S' in DEA, SPECIAL HDLG field (#3) of the DRUG file (#50) or assigned a VA Drug Class starting with an 'XA')
 - Drug does not have any Local Possible Dosages defined
 
 Example: *Local Possible Dosages Report* \[PSS LOCAL POSSIBLE DOSAGES\] Option for Only Local Possible Dosage with Missing Data
@@ -32819,12 +32962,12 @@ VA PRODUCT MATCH: GUAIFENESIN 100MG/5ML SYRUP
 
 \[PSS DOSE UNIT REQUEST\]
 
-The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. The following information about the request will be needed:
+The *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] option is provided for users to request additions or changes to the DOSE UNITS file (#51.24). The request is directed to an Outlook mail group ([VAOITVHITPSDOSEUNITREQ@VA.GOV](mailto:VAOITVHITPSDOSEUNITREQ@VA.GOV)) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. The following information about the request will be needed:
 
 - Dose Unit to be added or modified (required)
 - References or Reason for Request (required)
 
-If the user is not ready to send the request, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for “Preferred editor” in the NEW PERSON file (#200).
+If the user is not ready to send the request, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once ready to send the request and if no changes are needed, the VistA email message can be retrieved and forwarded to the Outlook mail group (VAOITVHITPSDOSEUNITREQ@VA.GOV). If the VistA email message is no longer available for retrieval, the request must be reentered and transmitted. The option will use whatever editor (line or screen) the user has defined for "Preferred editor" in the NEW PERSON file (#200).
 
 Example: *Request Change to Dose Unit* \[PSS DOSE UNIT REQUEST\] Option
 
@@ -32956,9 +33099,9 @@ Select DOSE UNITS:
 
 This option displays all of the information related to Dosing Order Checks for the selected entry from the DRUG file (#50). Based on the data displayed, the option informs the user whether or not the drug is eligible or not eligible for Dosing Order Checks.
 
-No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an ‘XA’ or that contains an ‘S’ in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
+No Dosing Order Checks will be performed on supply items. A supply item is identified by either a VA Drug Class code that begins with an 'XA' or that contains an 'S' in the DEA, SPECIAL HDLG field (#3) in the DRUG file (#50).
 
-A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to ‘Yes’. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to ‘No’ for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to ‘Yes’ for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
+A dosage form is excluded from Dosing Order Checks if the EXCLUDE FROM DOSAGE CHECKS field (#11) in the DOSAGE FORM file (#50.606) is set to 'Yes'. If the drug ordered is associated with a dosage form that is excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is blank or set to 'No' for the VA Product the drug is matched to, no Dosing Order Checks will be performed. If the drug ordered is associated with a dosage form that is NOT excluded from Dosing Order Checks and the value in the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) is set to 'Yes' for the VA Product that the drug is matched to, no Dosing Order checks will be performed.
 
 The table below shows all the different combinations of values for the EXCLUDE FROM DOSAGE CHECK field (#11) in the DOSAGE FORM file (#50.606) and the OVERRIDE DF DOSE CHK EXCLUSION field (#31) in the VA PRODUCT file (#50.68) and whether or not those combinations result in a Dosing Order Check being performed.
 
@@ -32973,13 +33116,13 @@ The table below shows all the different combinations of values for the EXCLUDE F
 
 If a drug is not matched to NDF, a GCNSEQNO cannot be obtained to identify the drug to FDB in order to perform a Dosing Order Check. In some cases, the drug may be matched to NDF, but the VA Product, to which it is matched, may not have a GCNSEQNO assigned. In both of these cases, the drug will be ineligible for Dosing Order Checks.
 
-The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, ‘None’ will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
+The information provided in the first section of the display is from the DRUG file (#50) and VA PRODUCT file (#50.68) (if the drug is matched to NDF). If no GCNSEQNO is found, 'None' will display in lieu of the number. Whether or not the drug is eligible or not eligible for Dosing Order Checks is displayed at the bottom of this section.
 
 The second section displays all dosage information such as strength, unit, possible dosages, and local possible dosages that has been defined for the drug selected.
 
 The third and final section displays dosage information from First Databank (FDB). It will show all route and dose units found in FDB dosing records for the drug and whether or not a weight or BSA value is required for a dosage order check to be performed. If a drug is not eligible for Dosing Order Checks, no FDB data will display.
 
-If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a ‘Yes’ with a list of age range(s) for those records that do require a weight or BSA and a ‘No’ with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
+If some of the dosing records for a drug require a weight or BSA and others do not, the option will display a 'Yes' with a list of age range(s) for those records that do require a weight or BSA and a 'No' with a list of age range(s) for those records that do not require a weight or BSA. The age will be expressed in days. Age ranges will be displayed in ascending order using the first number in the range. Age ranges with the same first number will display in random order. The corresponding FDB dose type (MAINTENANCE DOSE or SINGLE DOSE) and FDB dose route will print next to the age range in parenthesis.
 
 If the vendor database cannot be reached, the following text in lieu of all FDB information for the drug will be displayed in the third and final section:
 
@@ -33175,7 +33318,7 @@ This option allows users to manage the list of products in the VA PRODUCT file (
 
 Patch PSS\*1\*247 introduced an exception to Buprenorphine VA Products indicated for the treatment of pain. VA Products with exceptions are populated using new option "Manage Buprenorphine Tx of Pain - VA Products" \[PSS BUPRENORPHINE VAPRODS\]. When Buprenorphine containing products are approved by the FDA for the treatment of pain, this option should be used to add the VA Product to the exception list.
 
-Users with access to the ‘Dosages’ \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
+Users with access to the 'Dosages' \[PSS DOSAGES MANAGEMENT\] menu option can edit the approved VA Products. There are two levels of this parameter: System and Package. All users with access to this option can edit the System level, but only users with elevated (programmer) privileges can edit these parameters at the Package level. All products defined in the parameter at both the System and Package level will be included in the exception list at the time an order is evaluated for the detox criteria.
 
 At installation, patch PSS\*1\*247 automatically populates these products at the Package level:
 
@@ -33203,7 +33346,7 @@ BUPRENORPHINE 75MCG FILM,BUCCAL
 
 BUPRENORPHINE 900MCG FILM,BUCCAL
 
-This screen shot shows a user with elevated privileges using option “Manage Buprenorphine Tx of Pain – VA Products”. Only users with elevated (programmer) privileges can see and edit the Package level setting.
+This screen shot shows a user with elevated privileges using option "Manage Buprenorphine Tx of Pain – VA Products". Only users with elevated (programmer) privileges can see and edit the Package level setting.
 
 Select Dosages Option: Manage Buprenorphine Tx of Pain - VA Products
 
@@ -33342,7 +33485,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 - MESSAGE (#101)
 - PHARMACY ORDERABLE ITEM (#2.1)
 - RESTRICTION (#102)
-- APPLICATION PACKAGES’ USE (#63)
+- APPLICATION PACKAGES' USE (#63)
 - NDC (#31)
 - CMOP DISPENSE (#213)
 - ATC MNEMONIC (#212.2)
@@ -33372,7 +33515,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 
 If a user makes changes to an auditable field, then the mail message Subject line displays the title DRUG ENTER/EDIT AUDIT along with the Internal Entry Number (IEN) and name of the drug. The message body shows the date/time of the change, the name of the user who made the change, and before/after descriptions of the changed field(s).
 
-If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates “No Audited Changes Made.”
+If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates "No Audited Changes Made."
 
 A designated mail coordinator must modify the PSS DEE AUDIT mail group to include the necessary recipients.
 
@@ -33595,9 +33738,9 @@ The Request Changes to Enhanced Order Check Database \[PSS ORDER CHECK CHANGES\]
 
 Depending on the request, the user is prompted for different pieces of information.
 
-The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user’s VistA email account. If the user is not ready to send the request just yet, answering ‘No’ at the transmit prompt will send the request just to the user’s VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
+The request is directed to an Outlook mail group (VAOITVHITPSCUSTOMREQ@VA.GOV) that will review and act on the requests. A copy of the request is also sent to the user's VistA email account. If the user is not ready to send the request just yet, answering 'No' at the transmit prompt will send the request just to the user's VistA email account. Once the user is ready to send the request, if no changes are needed, the user can retrieve the VistA email message and forward it to the Outlook mail group (VAOITVHITPSCUSTOMREQ). If the VistA email message is no longer available for retrieval, the user must reenter and transmit the request.
 
-![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her “Preferred editor” in the NEW PERSON file (#200).
+![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/019.png)Note: The option will use whatever editor (line or screen) the user has defined for his or her "Preferred editor" in the NEW PERSON file (#200).
 
 Example 1: Requesting to Add a New Drug Interaction
 
@@ -33927,11 +34070,11 @@ Select Order Check Management Option:
 
 \[PSSJU MI\]
 
-The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to “flag” those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
+The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter and edit abbreviations and expansions in the MEDICATION INSTRUCTION file (#51) and to "flag" those entries for use by the Inpatient Medications package only, Outpatient Pharmacy package only, or both. The expansions in the MEDICATION INSTRUCTION file (#51) expand the Schedule and Patient Instructions when building the SIG. The Inpatient Medications package contains a field called SPECIAL INSTRUCTIONS that utilizes these abbreviations and expansions when printing various reports. Additionally, the Outpatient Pharmacy package utilizes these abbreviations for expansions when building the prescription SIG.
 
 The *Medication Instruction File Add/Edit* \[PSSJU MI\] option allows the user to enter the expansion in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#1.1), PDM defaults to the value entered in the EXPANSION field (#1). If no values exist in the EXPANSION field (#1) and OTHER LANGUAGE EXPANSION field (#1.1), an EXPANSION value will not print when Outpatient Pharmacy builds the SIG. See Appendix F for a list of Spanish equivalents for some of the more common medication instructions.
 
-Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
+Patch PSS\*1\*201 adds three new fields to the *Medication Instruction File Add/Edit* PSSJU MI\] option. The DOSING CHECK FREQUENCY field (#32) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values in this file when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. The new fields in the MEDICATION INSTRUCTION file (#51) will only be utilized when performing the Max Daily Dose Order Check for outpatient medication orders and only after a frequency value could not be determined from the ADMINISTRATION SCHEDULE File (#51.1).
 
 The DRUG(S) FOR DOSING CHK FREQ field (#32.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the MEDICATION INSTRUCTION file (#51).
 
@@ -34090,7 +34233,7 @@ The third field added by patch PSS\*1\*201, OLD MED INSTRUCTION NAME(S) (#33), i
 
 Example 2: Edit Medication Instruction Name
 
-The modified name ‘FIT’ is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to ‘FITCH.’
+The modified name 'FIT' is automatically added to the OLD MED INSTRUCTION NAME(S) multiple when the medication instruction name is edited to 'FITCH.'
 
 Select Pharmacy Data Management Option: MED
 
@@ -34376,7 +34519,7 @@ OLD MED INSTRUCTION NAME(S): 4XDHS//
 
 The *Medication Instruction File Report* \[PSS MED INSTRUCTION REPORT\] option provides a report of entries from the MEDICATION INSTRUCTION (#51) File that shows whether or not data has been entered in the FREQUENCY (IN MINUTES) (#31) Field.
 
-The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message “No Medication Instructions found without frequencies.“
+The report can be run for all medication instructions or just the medication instructions without a frequency. If the report is run for only those medication instructions with a missing frequency and all medication instructions have a frequency, the report will display the message "No Medication Instructions found without frequencies."
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -34778,7 +34921,7 @@ No Medication Instructions found without frequencies
 
 \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -34842,11 +34985,11 @@ Press Return to continue:
 
 \[PSS MEDICATION ROUTES EDIT\]
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the “OUTPATIENT EXPANSION” prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option provides the ability to enter and edit data in the MEDICATION ROUTES file (#51.2). Medication routes may be designated for use in all packages or for use only in the National Drug File package. If an Outpatient Pharmacy expansion has been entered at the "OUTPATIENT EXPANSION" prompt, the Outpatient Pharmacy expansion portion of the medication route will appear as part of the SIG on the prescription label exactly as the Outpatient Pharmacy expansion was entered in MEDICATION ROUTES file (#51.2). The IV FLAG field (#6) in the MEDICATION ROUTES file (#51.2) is used to determine that the order can be processed through the IV portion of the Inpatient Medications package. The PROMPT FOR INJ. SITE IN BCMA field (#8) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA Virtual Due List and Coversheet and to verify whether the user should be prompted for an injection site. The DSPLY ON IVP/IVPB TAB IN BCMA? field (#9) in the MEDICATION ROUTES file (#51.2) is used to send information to be displayed on the BCMA IVP/IVPB Tab and Coversheet.
 
 The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to enter an interpretation of the OUTPATIENT EXPANSION field (#4) in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#4.1), PDM will default to the value entered in the OUTPATIENT EXPANSION field (#4). If no values exist in the OUTPATIENT EXPANSION field (#4) and OTHER LANGUAGE EXPANSION field (#4.1), the system will not display default values for those fields during CPRS or Outpatient Pharmacy prescription order entry processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input during order entry. See Appendix G for a list of Spanish equivalents for some of the more common medication routes.
 
-The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages’ to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for ‘All Packages.’
+The *Medication Route File Enter/Edit* \[PSS MEDICATION ROUTES EDIT\] option allows the user to map/remap their Local Medication Routes that are marked for 'All Packages' to an active Standard Medication Route. This is the only option that allows a Standard Medication Route mapping to be deleted. When dosage checks are performed, the software will use this mapping to pass the equivalent FDB Route for the Local Medication Route that was specified in the medication order for the drug to the interface. If the Local Medication Route is not mapped, dosage checks will not be performed. A user will not be prompted to map to a Standard Medication Route if the Local Medication Route is not marked for 'All Packages.'
 
 Example 1 demonstrates how to enter a new medication route. Note that if an entry has been mapped to a Standard Medication Route, the option to remap is offered. If an entry has *not* been mapped to a Standard Medication Route and the user bypasses the prompt without mapping, a warning is displayed that dosing checks will not be performed.
 
@@ -34930,7 +35073,7 @@ STANDARD MEDICATION ROUTE: \<ENTER\>
 
 medication route until it is mapped to a standard medication route.\*\*\*
 
-Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient’s prescription label by default.
+Text can be entered to edit the existing entries for a medication route. Since no value exists in the OTHER LANGUAGE EXPANSION database and the user did not enter a translation, the OUTPATIENT EXPANSION value will print on the patient's prescription label by default.
 
 Example 2: Medication Route File Edit
 
@@ -34954,7 +35097,7 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 STANDARD MEDICATION ROUTE: \<ENTER\>
 
-If the text to be replaced is more than 29 characters, the “REPLACE” prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site’s File Manager setup.
+If the text to be replaced is more than 29 characters, the "REPLACE" prompt will automatically appear. Replacement text for shorter text entries may be entered after the double slashes. Some files may be set up to refuse deletions, depending on the site's File Manager setup.
 
 Example 3: Medication Route File Deletions Not Allowed
 
@@ -34992,11 +35135,11 @@ DSPLY ON IVP/IVPB TAB IN BCMA? \<Enter\>
 
 \[PSS MED ROUTE MAPPING REPORT\]
 
-The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for ‘All Packages.’
+The *Medication Route Mapping Report* \[PSS MED ROUTE MAPPING REPORT\] option displays the mapping between the Local Medication Route, the Standard Medication Route and the FDB Route for Medication Routes marked for 'All Packages.'
 
-The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for ‘All Packages’).
+The report can be limited to unmapped Local Medication Routes or can display all Local Medication Routes (that are marked for 'All Packages').
 
-Totals are displayed at the end of the report for the number of all Local Medication Routes marked for ‘All Packages’ and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
+Totals are displayed at the end of the report for the number of all Local Medication Routes marked for 'All Packages' and the number of unmapped Local Medication Routes if the user chooses to display all Local Medication Routes. If only unmapped Local Medication Routes are chosen, the total for the number of unmapped entries will be displayed.
 
 The report is formatted for 132 column width and can be sent to the screen or printer.
 
@@ -35134,7 +35277,7 @@ The *Medication Route Mapping History Report* \[PSS MED ROUTE MAPPING CHANGES\] 
 
 \[PSS MED INST MED ROUTE REPORT\]
 
-The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site’s decisions on how similar entries were handled.
+The MEDICATION INSTRUCTION Name field (File \#51) and MEDICATION ROUTES Abbreviation field (File \#51.2) may have entries that use similar terminology and abbreviations but with different clinical meanings. The MED INSTRUCTION MED TERM ROUTE REPORT option identifies instances when a Name in the MEDICATION INSTRUCTION file matches an Abbreviation in the MEDICATION ROUTES file to facilitate review and correction of clinically inconsistent terminology between the two files. Local Pharmacy Informaticists should review and evaluate this report for possible corrective action to ensure that reports which use the expansion from the MEDICATION INSTRUCTION file are clinically valid when the data originates in the MEDICATION ROUTES file. Upon running the report, sites may visit the [SharePoint Discussion Board](https://dvagov.sharepoint.com/sites/VHAPBM/DiscussionBoards/Lists/Prescription_Dose_Dispense_Unit_Discrepancy_Report/AllItems.aspx) site, to discuss the potential options for file management or to see previous site's decisions on how similar entries were handled.
 
 Patch PSS\*1.0\*245 adds the Med Instruction Med Term Route Report to the Medication Instruction Management menu (PSS MED INSTRUCTION MANAGEMENT) and the Medication Routes Management menu (PSS MEDICATION ROUTES MGMT).
 
@@ -35233,7 +35376,7 @@ Changes to a standard medication route that can result in an unmapping of a loca
 - Inactivation of a standard medication route
 - Change (add/delete/modify) to an FDB Medication Route Mapping
 
-If a local medication route that is marked for ‘All Packages’ is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
+If a local medication route that is marked for 'All Packages' is unmapped, the software will attempt to do an automatic remapping to an active standard medication route. If the unmapping occurred due to an inactivation of the standard medication route and a replacement route is provided, the local medication route will be remapped to the new standard replacement route. If no replacement route was provided in the update, a defined set of business rules will be used to attempt an automatic remapping to another standard medication route.
 
 The MailMan message will include the reason for notification, what was updated and will also include any automatic mapping activities that occurred from the local Medication Routes file to the Standard Medication Routes file.
 
@@ -35561,14 +35704,14 @@ Enter message action (in IN basket): Ignore //
 
 The *Default Med Route for OI Report* \[PSS DEF MED ROUTE OI RPT\] option is listed on the *Medication Routes Management* \[PSS MEDICATION ROUTES MGMT\] menu. This report can be used to help identify the current default medication routes for the orderable items. The following is an example of the report.
 
-- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to “NO,” no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item’s dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
+- Patch PSS\*1\*153 added the ability to include printing the POSSIBLE MED ROUTES multiple (#11) of the PHARMACY ORDERABLE ITEM file (#50.7). If the DEFAULT MED ROUTE field (#.06) is populated then that value will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with a single entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," the single entry will be returned as the default value. If the DEFAULT MED ROUTE field (#.06) is not populated and the POSSIBLE MED ROUTES multiple (#11) is populated with more than one entry and the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "NO," no value will be returned as the default value. The med routes selection list in CPRS will be populated with all the medication routes associated with the orderable item's dosage form if the USE DOSAGE FORM MED ROUTE LIST field (#10) is set to "YES," otherwise it will be populated from the POSSIBLE MED ROUTES multiple (#11). These conditions are shown in the following table and examples are provided.
 
 | Default Med Route Field Populated? | Possible Med Routes Field | Use Dosage Form Med Route List | Value Returned – Med Routes Selection In CPRS                      |
 |------------------------------------|---------------------------|--------------------------------|--------------------------------------------------------------------|
 | Y                                  | N                         | N                              | DEFAULT MED ROUTE field (#.06) value                               |
 | N                                  | Single Entry              | N                              | Single Entry                                                       |
 | N                                  | More Than One Entry       | N                              | All med routes listed in the POSSIBLE MED ROUTES multiple (#11)    |
-| N                                  | N                         | Y                              | All medication routes associated with orderable item’s dosage form |
+| N                                  | N                         | Y                              | All medication routes associated with orderable item's dosage form |
 
 <span id="_Toc92783452" class="anchor"></span>Table 6: Glossary
 
@@ -35614,7 +35757,7 @@ INSULIN NPH
 
 \[PSS EDIT ORDERABLE ITEMS\]
 
-The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the “OI-DRUG-TEXT” prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
+The *Edit Orderabl*e *Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter and edit data in the PHARMACY ORDERABLE ITEM file (#50.7). If a Pharmacy Orderable Item Drug Text Entry is identified at the "OI-DRUG-TEXT" prompt, it will be viewable during medication order entry processes through CPRS, Outpatient Pharmacy, and Inpatient Medications. Pharmacy Orderable Item defaults can be entered for selected fields. These defaults will be displayed to the user during the medication order entry processes for all applications through which medication orders can be entered.
 
 The *Edit Orderable Items* \[PSS EDIT ORDERABLE ITEMS\] option allows the user to enter a default medication route and med route selection list.
 
@@ -35626,7 +35769,7 @@ The method of deriving the appropriate medication routes listed above will be fo
 
 Additionally, a report is available to view all current default medication routes as well as all possible med routes for the listed orderable items. See the section entitled *Default Med Route For OI Report* \[PSSDEF MED ROUTE OI RPT\].
 
-Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO”
+Example 1: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO"
 
 Select Orderable Item Management Option: Edit Orderable Items
 
@@ -35728,7 +35871,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “NO” and there are no Default Med Route nor Possible Med Routes
+Example 2: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "NO" and there are no Default Med Route nor Possible Med Routes
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -35812,7 +35955,7 @@ Select INDICATIONS FOR USE:
 
 Select SYNONYM:
 
-Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to “YES”
+Example 3: Edit Orderable Items with USE DOSAGE FORM MED ROUTE LIST field (#10) set to "YES"
 
 Select PHARMACY ORDERABLE ITEM NAME: INSULIN INJ
 
@@ -35987,7 +36130,7 @@ Choose from:
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/022.png)Note: PSS\*1\*191 also added the HIGH RISK/HIGH ALERT prompt to this option, which was inadvertently missed in patch PSS\*1\*172.
 
-Example 5 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word “PATCH”):
+Example 5 (Modify Pharmacy Orderable Item File with Dosage Form Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -36171,7 +36314,7 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-Example 6 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word “PATCH”):
+Example 6 (Modify Pharmacy Orderable Item File with Dosage Form Not Containing the Word "PATCH"):
 
 Select OPTION NAME: PSS EDIT ORDERABLE ITEMS Edit Orderable Items
 
@@ -36335,9 +36478,9 @@ Select SYNONYM:
 
 Select PHARMACY ORDERABLE ITEM NAME:
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to enter a value of 0, the following message displays indicating the entry is not valid:
 
-Example (Message When Attempting to Enter 0 for Orderable Item Containing the Word “PATCH”):
+Example (Message When Attempting to Enter 0 for Orderable Item Containing the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -36357,9 +36500,9 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form containing the word “PATCH” is associated with the orderable item and the user attempts to delete an existing entry (i.e., using “@” command), the following message displays indicating the entry is not valid:
+If the Dosage Form containing the word "PATCH" is associated with the orderable item and the user attempts to delete an existing entry (i.e., using "@" command), the following message displays indicating the entry is not valid:
 
-Example (Message When Attempting to Delete Removal When Dosage Form Contains the Word “PATCH”):
+Example (Message When Attempting to Delete Removal When Dosage Form Contains the Word "PATCH"):
 
 PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
@@ -36381,7 +36524,7 @@ PROMPT FOR REMOVAL IN BCMA: Removal Period Optional Prior to Next Administration
 
 //
 
-If the Dosage Form associated with the orderable item does NOT contain the word “PATCH”, and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
+If the Dosage Form associated with the orderable item does NOT contain the word "PATCH", and the user attempts to enter a value of 1, 2 or 3, the following message displays requesting that the user confirm their entry.
 
 - If the user responds with No (the default), as for a medication that does not require removal (e.g. tablet, capsule, etc.), the value they entered is not accepted, as in this example:
 
@@ -36407,9 +36550,9 @@ Are you sure you want to designate this medication as requiring removal? N// Y
 
 YES
 
-Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word “PATCH”.
+Upon installation of PSS\*1\*191, the new PROMPT FOR REMOVAL IN BCMA field initially has a value of NULL for all orderable items (active or inactive), and a post-install routine sets the PROMPT FOR REMOVAL IN BCMA field to a value of 1 for all orderable items with Dosage Form containing the word "PATCH".
 
-Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is “PATCH” and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
+Subsequent to the PSS\*1\*191 installation, site representatives such as the Pharmacy ADPACs need to determine which orderable items should have the new PROMPT FOR REMOVAL IN BCMA field set to a value of 2 or 3. A post-install report included in this patch produces output that consists of a list of items from the Pharmacy Orderable Item File (#50.7) where the Dosage Form associated with the orderable item is "PATCH" and the PROMPT FOR REMOVAL IN BCMA field was set to 1. The output from this report is sent to VistA Email addresses for users with the PSJU MGR and PSJI MGR keys. The report contains the type of information shown in the example below:
 
 Example (PSS\*1\*191 Post-Install Report):
 
@@ -36677,7 +36820,7 @@ Select SYNONYM:
 
 \[PSS MAINTAIN ORDERABLE ITEMS\]
 
-The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the “MED ROUTE” and “SCHEDULE TYPE” prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
+The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option is used for maintaining the relationship between Dispense Drugs and Pharmacy Orderable Items. Entries made at the Pharmacy Orderable Item prompts will be used by the Outpatient Pharmacy, Inpatient Medications, and CPRS packages as defaults during the medication order entry processes. If no entries are made at the "MED ROUTE" and "SCHEDULE TYPE" prompts, the software will assume the defaults of PO (oral) and CONTINUOUS, respectively.
 
 The *Dispense Drug/Orderable Item Maintenance* \[PSS MAINTAIN ORDERABLE ITEMS\] option allows the user to enter patient instructions in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE INSTRUCTIONS field (#7.1), PDM will default to the value entered in the PATIENT INSTRUCTIONS field (#7). If the PATIENT INSTRUCTIONS field (#7) does not contain data for the selected orderable item, the system will not present default patient instructions to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through backdoor Outpatient Pharmacy order entry.
 
@@ -36821,7 +36964,7 @@ USED IN IV FLUID ORDER ENTRY: NO//
 
 PREMIX:
 
-Following the on-screen instructions of “Now Editing Orderable Item,” if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
+Following the on-screen instructions of "Now Editing Orderable Item," if the orderable item being edited is matched to any dispense drugs that are in VA drug classes IM100 through IM900, an additional prompt will appear to permit mapping of the orderable item to an associated immunization file entry. This feature is introduced with the Immunizations Documentation by BCMA application in patches PSS\*1\*141 and PSB\*3\*47.
 
 Example: Editing Immunization-Related Pharmacy Orderable Items
 
@@ -37629,7 +37772,7 @@ Reports have been created that can be run from the *Pharmacy Data Management \[*
 
 Orders for MRRs with Removal Properties
 
-The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new “Prompt for Removal in BCMA” flag value set to 1, 2, or 3:
+The Orders for MRRs with Removal Properties report shows active orders that contain Orderable Items that have the new "Prompt for Removal in BCMA" flag value set to 1, 2, or 3:
 
 1 Removal at Next Administration
 
@@ -37645,7 +37788,7 @@ The MRR diagnostic utility report Orders for MRRs with Removal Properties needs 
 
 Orderable Items that Require Removal Report
 
-The Orderable Items that Require Removal report shows which Orderable Items have the “Prompt for Removal in BCMA” Medications Requiring Removal flag set to a value of 1, 2, or 3:
+The Orderable Items that Require Removal report shows which Orderable Items have the "Prompt for Removal in BCMA" Medications Requiring Removal flag set to a value of 1, 2, or 3:
 
 > 1 Removal at Next Administration
 
@@ -37659,8 +37802,8 @@ Users can access the Orderable Items that Require Removal report from the PSS MG
 
 This report will also:
 
-- Allow the user to select ALL “Prompt for Removal in BCMA” flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "Prompt for Removal in BCMA" flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific MRR Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, Medications Requiring Removal flag value, Dispense Drug Name and Dispense Drug Inactive Date.
 
 Example: *Orderable Items that Require Removal* \[PSS MRR ODERABLE ITEMS RPT\] Option
@@ -37713,7 +37856,7 @@ FENTANYL PATCH TS 75MCG/HR
 
 #### Orderable Items Report for High Risk/High Alert
 
-The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the “High Risk / High Alert” flag set to a value of 1, 2, or 3:
+The Orderable Items Report for High Risk / High Alert shows which Orderable Items have the "High Risk / High Alert" flag set to a value of 1, 2, or 3:
 
 > 1 HIGH RISK/ALERT-NO WITNESS REQUIRED IN BCMA
 
@@ -37727,8 +37870,8 @@ The user can access the Orderable Items Report for High Risk/High Alert from the
 
 > This report will also:
 
-- Allow the user to select ALL “High Risk / High Alert” (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
-- Display help text when a single question mark “?’ is entered at the report parameter prompt “Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?”
+- Allow the user to select ALL "High Risk / High Alert" (HR/HA) flag values of 1, 2, and 3 (default) or specific values of 1, 2, or 3.
+- Display help text when a single question mark "?' is entered at the report parameter prompt "Print Report for (A)ll or Specific HRHA Flag values(1,2,3): (A/1/2/3): A//?"
 - Contain Orderable Item Name, Dosage Form, Orderable Item Inactive Date, High Risk / High Alert flag value, Dispense Drug Name, and Dispense Drug Inactive Date.
 
 Example: *Orderable Items Report for High Risk/High Alert* \[PSS HR/HA ODERABLE ITEMS RPT\] Option
@@ -37793,7 +37936,7 @@ WARFARIN (COUMADIN) NA 5MG TAB
 
 The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option enables you to enter and/or edit entries in the DRUG TEXT file (#51.7). This file contains drug information, restrictions, and guidelines. Some entries are nationally populated by National Drug File. Drug text can be tied to a Dispense Drug in DRUG file (#50), or it can be tied to a Pharmacy Orderable Item through the PHARMACY ORDERABLE ITEM file (#50.7). Drug text tied to a Pharmacy Orderable Item is viewable when a medication is selected in Outpatient Pharmacy and Inpatient Medications, if it has been tied to the Pharmacy Orderable Item or Dispense Drug.
 
-The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, “Drug Text File Report” for more information.
+The *Drug Text Enter/Edit* \[PSS EDIT TEXT\] option also enables you to view or print a report and to list all drug and Pharmacy orderable items linked to it. See section 1.12.2, "Drug Text File Report" for more information.
 
 Example: *Drug Text Enter/Edit* \[PSS EDIT TEXT\] Option
 
@@ -38049,7 +38192,7 @@ Select Pharmacy Data Management Option:
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter or edit entries in the ADMINISTRATION SCHEDULE file (#51.1). The set of times associated with the standard dosage administration schedules can be assigned, as can ward-specific administration times. This feature may be used to define the outpatient expansion to be used when the schedule is entered for an Outpatient Pharmacy medication order. Entry of a frequency in minutes allows the software to calculate the interval between dosages for Inpatient Medication orders and BCMA and is used by Outpatient Pharmacy to calculate default quantities. When the frequency is entered, a message displays telling the user, in hours, how often the administration will occur. If the schedule type is on call, the system does not require a frequency.
 
-Schedules with a frequency that is not evenly divisible into or by 24 hours are considered ‘odd’. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
+Schedules with a frequency that is not evenly divisible into or by 24 hours are considered 'odd'. Odd schedules are not allowed to have administration times. If the schedule type is continuous and it is an odd schedule, the system does not allow the entry of administration times. Continuous, non-odd schedules still require administration times.
 
 The *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option allows the user to enter the outpatient expansion value in a language other than English. PDM does not translate English terms into another language; instead, it allows the user to enter a translation of a term. If a value has not been entered in the OTHER LANGUAGE EXPANSION field (#8.1), PDM defaults to the value entered in the OUTPATIENT EXPANSION field (#8). If no values exist in the OUTPATIENT EXPANSION (#8) and OTHER LANGUAGE EXPANSION fields (#8.1), the system will not present default values for those fields to the user during CPRS or Outpatient Pharmacy prescription order processing. However, when building the SIG, Outpatient Pharmacy will default to the value the user input through Outpatient Pharmacy backdoor order entry. See Appendix C for a list of Spanish equivalents for some of the more common administration schedules.
 
@@ -38077,7 +38220,7 @@ Select WARD ADMINISTRATION SCHEDULE: \<Enter\>
 
 PSS\*1\*160 enhances the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option to allow editing of two new dosing exclusion fields that were added to the ADMINISTRATION SCHEDULE file (#51.1) in MOCHA v2.0. The two new fields are EXCLUDE FROM ALL DOSING CHECKS field (#9) and EXCLUDE FROM DAILY DOSE CHECK field (#10).
 
-The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to ‘Yes’, no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
+The EXCLUDE FROM DAILY DOSE CHECK field (#10) allows a user to exclude a standard schedule from the Daily Dose Range check. If a schedule is entered for a medication order that has this field set to 'Yes', no Daily Dose Range check will be performed on the drug within the order. The Maximum Single Dose order check will still be performed.
 
 ![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/027.png)Note: The Daily Dose Range check will be implemented in a future version of MOCHA. The Maximum Single Dose order check is introduced with MOCHA v 2.0.
 
@@ -38149,7 +38292,7 @@ EXCLUDE FROM ALL DOSING CHECKS:
 
 Select ADMINISTRATION SCHEDULE
 
-Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as ‘X#D’, where ‘#’ represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
+Patch PSS\*1\*201 adds three new fields to the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option. The DOSING CHECK FREQUENCY field (#11) allows a user to enter a specific format pattern to represent the frequency such as 'X#D', where '#' represents a 1-2 character numeric value. The DOSING CHECK FREQUENCY field takes priority over all other fields/values when determining frequency for the Max Daily Dose Order Check. If the DOSING CHECK FREQUENCY value is not used, the FREQUENCY (IN MINUTES) value will be used for the Max Daily Dose Order Check. When determining frequency, the ADMINISTRATION SCHEDULE File (#51.1) will take precedence over the MEDICATION INSTRUCTION File (#51) for outpatient medication orders. Only the ADMINISTRATION SCHEDULE File (#51.1) will be utilized to determine a frequency value for inpatient medication orders.
 
 The DRUG(S) FOR DOSING CHK FREQ field (#11.1) is a multiple field that allows for dispense drugs from the DRUG file (#50) to be associated with the DOSING CHECK FREQUENCY field (#32) value within the ADMINISTRATION SCHEDULE file (#51.1). When a value is entered in the DOSING CHECK FREQUENCY field and NO drug(s) is entered in this field, the Max Daily Dose Order Check will use the value in the DOSING CHECK FREQUENCY field to derive a frequency for all orders that have that schedule. When a value is entered for DOSING CHECK FREQUENCY and a drug(s) is entered in this field, the Max Daily Dose Order Check will ONLY use the value in DOSING CHECK FREQUENCY to derive a frequency if the order that has that schedule also matches one of the drug(s) entered. If the drug found in the order does not match a drug listed in the DRUG(S) FOR DOSING CHK FREQ field, then the value of the DOSING CHECK FREQUENCY will not be used for the Max Daily Dose Order Check to derive a frequency.
 
@@ -38295,7 +38438,7 @@ STANDARD ADMINISTRATION TIMES: 09//
 
 Select WARD:
 
-If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of ‘Yes’ entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
+If the schedule being edited has a schedule type of ON CALL or ONE-TIME, or has a value of 'Yes' entered in the EXCLUDE FROM ALL DOSING CHECKS field (#9) or EXCLUDE FROM DAILY DOSE CHECK field (#10), the DOSING CHECK FREQUENCY and DRUG(S) FOR DOSING CHK FREQ prompts will not be displayed.
 
 Example: Editing of One-Time Schedule
 
@@ -38357,7 +38500,7 @@ The third field added by patch PSS\*1\*201, OLD SCHEDULE NAME(S) (#13), is a mul
 
 Example: Edit Schedule Name
 
-The modified name ‘QDAY’ is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to ‘QDAILY’
+The modified name 'QDAY' is automatically added to the OLD SCHEDULE NAME(S) multiple when the schedule name is edited to 'QDAILY'
 
 Select Pharmacy Data Management \<TEST ACCOUNT\> Option: STANDARD Schedule Management
 
@@ -38575,19 +38718,19 @@ Schedule Edit Validation One
 
 The system shall validate, for schedules with a Schedule Type of Continuous and a frequency of 1 day (1440 minutes) or less that the number of administration times is less than or equal to 1440 divided by the frequency. For example, a schedule frequency of 720 minutes must have at least one administration time and cannot exceed two administration times. Similarly, a schedule frequency of 360 minutes must have at least one administration time but cannot exceed four administration times.
 
-The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. The user will not be allowed to accept the order until the number of admin times is adjusted. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 Schedule Edit Validation Two
 
 The system shall validate for frequencies greater than one day (1440 minutes), that only one administration time is permitted. The system shall present an error message to the user if more than one administration time is entered.
 
-The error message: “This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted.” shall appear if more than one administration time is entered.
+The error message: "This schedule has a frequency greater than one day (1440 minutes). More than one Administration Time is not permitted." shall appear if more than one administration time is entered.
 
 Schedule Edit Validation Three
 
 In the Standard Administration Times and the Ward Administration Times fields in the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, for a schedule that has a Schedule Type of Continuous, the system shall prevent a user from entering administration times to Odd Schedules {a schedule whose frequency is not evenly divisible by or into 1440 minutes (1 day)}.
 
-The system shall present an error message to the user if an administration time is entered. The error message: “This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order.” shall appear.
+The system shall present an error message to the user if an administration time is entered. The error message: "This is an odd schedule that does not require administration times. BCMA will determine the administration times based off the start date/time of the medication order." shall appear.
 
 Schedule Edit Validation Four
 
@@ -38595,13 +38738,13 @@ A validation to TYPE OF SCHEDULE field (#5) in the *Standard Schedule Edit* \[PS
 
 frequency from the schedule file entry, if the TYPE OF SCHEDULE is changed from CONTINUOUS to ONE TIME, PRN, ON CALL, or DAY OF WEEK.
 
-The warning message: “The Type of Schedule has changed. The frequency will be removed.” shall appear.
+The warning message: "The Type of Schedule has changed. The frequency will be removed." shall appear.
 
 Schedule Edit Validation Five
 
 In the *Standard Schedule Edit* \[PSS SCHEDULE EDIT\] option, the system shall prevent a user from creating Day of Week (DOW) schedules that are not in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA. The system shall display an error message if the user does not enter the correct order.
 
-The error message: “The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA.” shall appear.
+The error message: "The day of the week schedule must be in the correct day of week order. The correct order is: SU-MO-TU-WE-TH-FR-SA." shall appear.
 
 Schedule Edit – Inactivate
 
@@ -38659,7 +38802,7 @@ INACTIVE:
 
 The *Administration Schedule File Report* \[PSS SCHEDULE REPORT\] option prints out entries from the ADMINISTRATION SCHEDULE file (#51.1) in order to check to see if a frequency is defined. A report can be run for all administration schedules or only the administration schedules without a defined frequency.
 
-Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to ‘PSJ’ will be included in the report.
+Only administration schedules with a PACKAGE PREFIX field (#4) in the ADMINISTRATION SCHEDULE file (#51.1) set to 'PSJ' will be included in the report.
 
 The report can be set to print in either an 80 or 132 column format.
 
@@ -38794,7 +38937,7 @@ Patch PSS\*1\*147 creates a new *IV Additive Report* \[PSS IV ADDITIVE REPORT\] 
 - Used in IV Fluid Order Entry
 - Additive Frequency
 
-If the user chooses to print only the IV Additives marked with ‘1 BAG/DAY’ in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display ‘No IV Additives marked as '1 BAG/DAY' or ‘No IV Additives marked as null’ respectively.
+If the user chooses to print only the IV Additives marked with '1 BAG/DAY' in the ADDITIVE FREQUENCY field (#18) or those entries with nothing entered in the ADDITIVE FREQUENCY field (#18)and none are found, the report will display 'No IV Additives marked as '1 BAG/DAY' or 'No IV Additives marked as null' respectively.
 
 Example 1: User selects only IV Additives marked with no value in the ADDITIVE FREQUENCY Field (#18)
 
@@ -38864,7 +39007,7 @@ Additive Frequency:
 
 End of Report.
 
-Example 2: User Selects Only IV Additives marked with ‘1BAG/DAY’ in the ADDITIVE FREQUENCY Field (#18)
+Example 2: User Selects Only IV Additives marked with '1BAG/DAY' in the ADDITIVE FREQUENCY Field (#18)
 
 Select IV Additive/Solution Reports Option: IV ADDitive Report
 
@@ -39012,7 +39155,7 @@ The report will print the following data elements:
 - Used in IV Fluid Order Entry
 - PreMix
 
-If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display ‘No IV Solutions marked as PreMixes found.’
+If the user chooses to print only the IV solutions marked as PreMixes and none are found the report will display 'No IV Solutions marked as PreMixes found.'
 
 Example 1: User selects only solutions marked as PreMix
 
@@ -39232,7 +39375,7 @@ Press Return to Continue:
 
 Select PEPS Services Option:
 
-![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/028.png)Note: If no data has been installed in the custom table, the connection check returns “Unavailable” for all three fields, as shown below:
+![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/028.png)Note: If no data has been installed in the custom table, the connection check returns "Unavailable" for all three fields, as shown below:
 
 CHOOSE 1-2: 2 Check Vendor Database Link
 
@@ -39376,7 +39519,7 @@ Press Return to Continue:
 
 The *Schedule/Reschedule Check PEPS Interface*\[PSS SCHEDULE PEPS INTERFACE CK\] option allows you to schedule the Interface Scheduler \[PSS INTERFACE SCHEDULER\] option, which tests the PEPS interface by sending a PING request. If the PEPS Interface is not available, a mail message will be sent to the G.PSS ORDER CHECKS mail group. This must be scheduled so constant monitoring takes place on the Mocha Interface, to provide timely notification of any problems.
 
-Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person’s Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
+Please note that the next paragraph regarding the POSTMASTER is only applicable up until the installation of patch PSS\*1.0\*163, because PSS\*1.0\*163 includes functionality that will replace any Person's Internal Entry Number in the interface message that is not a whole number with the number 0 , because the interface will accept 0 as a valid number. PSS\*1.0\*163 will also do the same with Job Number, and Station Number (after stripping off any non-numeric characters). This conversion will also happen on all Order Check messages.
 
 When scheduling this job, the person that is doing the scheduling must NOT have assumed the identity of the POSTMASTER, because the Internal Entry Number of the POSTMASTER is .5, and the decimal could cause the interface to fail, so this job would continue to fail until it is scheduled by another user other than POSTMASTER.
 
@@ -39390,7 +39533,7 @@ When scheduling this job, the person that is doing the scheduling must NOT have 
 <tr class="header">
 <th>![](pharmacy-data-management-version-1-user-manual-updated-pss-1-252/031.png)</th>
 <th><p><strong>*Important*</strong></p>
-<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a “NULL” type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that “Startup Persistent” be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
+<p>A device must be entered in the DEVICE FOR QUEUED JOB OUTPUT field. If a device is not entered, then the job can result in a failure, generating the mail message indicating the Order Check system is not available, when the system really was never unavailable. Most sites have a "NULL" type entry in the DEVICE (#3.5) File, as that is the recommended device, since the tasked job does not write any data. Additionally, it is recommended that "Startup Persistent" be entered in the SPECIAL QUEUING field. This will queue the job to run when­ever the TaskMan/computer is started (i.e., at System Boot), and will restart the task if it stops unexpectedly. If this type of restart does occur, the task could be set by Kernel to be run by POSTMASTER, which as stated in the previous paragraph could cause the job to fail. If this occurs, then someone would need to reschedule the job, with the identity of any user besides POSTMASTER. Also as stated a few paragraphs earlier, this POSTMASTER issue is resolved by patch PSS*1.0*163, by replacing .5 with a 0 in the interface message.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -39881,7 +40024,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 - MESSAGE (#101)
 - PHARMACY ORDERABLE ITEM (#2.1)
 - RESTRICTION (#102)
-- APPLICATION PACKAGES’ USE (#63)
+- APPLICATION PACKAGES' USE (#63)
 - NDC (#31)
 - CMOP DISPENSE (#213)
 - ATC MNEMONIC (#212.2)
@@ -39911,7 +40054,7 @@ Not all fields in the DRUG file are subject to audit. Auditable fields are:
 
 If a user makes changes to an auditable field, then the mail message Subject line displays the title DRUG ENTER/EDIT AUDIT along with the Internal Entry Number (IEN) and name of the drug. The message body shows the date/time of the change, the name of the user who made the change, and before/after descriptions of the changed field(s).
 
-If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates “No Audited Changes Made.”
+If a user makes changes to a non-auditable field, or views any field but does not make changes, then the mail message Subject line displays the title DRUG ENTER/EDIT ACCESS along with the drug IEN and name. The message body indicates "No Audited Changes Made."
 
 A designated mail coordinator must modify the PSS DEE AUDIT mail group to include the necessary recipients.
 

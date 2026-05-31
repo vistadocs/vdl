@@ -3,46 +3,38 @@ title: VDEF VistA Messaging Overview 100105
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: VDEF
 app_name: VistA Data Extraction Framework
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
+pkg_ns: VDEF
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- VistA Data Extraction Framework (VDEF) - [VDEF Overall...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '579.3'
 security_keys: []
 menu_options: 0
-description: - [VistA Data Extraction Framework (VDEF)](#vista-data-extraction-framework-vdef) - [![](vdef-vista-messaging-overview-100105/002.png)![](vdef-vista-messaging-overview-100105/003.png)![](vdef-vista-messaging-overview-100105/004.png)![](vdef-vista-messaging-overview-100105/005.png)![](vdef-vista-mess
-audience: 
-keywords: 
-  - vdef
-  - vista
-  - messaging
-  - overview
-  - strong
-  - table
-  - contents
-  - blockquote
-  - pngvdef
-  - message
 page_count: 0
 word_count: 1160
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vistamessagingoverview_vdef_100105.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vistamessagingoverview_vdef_100105.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=144"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vistamessagingoverview_vdef_100105.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Vista_Data_Ex_(VDEF)/vistamessagingoverview_vdef_100105.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=144
+audit_applied: '2026-05-31'
 ---
 
 > ![](vdef-vista-messaging-overview-100105/001.png)

@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: Signon/Security User Guide"
+title: '''Kernel 8.0 Systems Management: Signon/Security User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: Signon/Security"
+doc_subject: '''Systems Management: Signon/Security'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,48 +11,114 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: 
-  - 3
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '1.2'
+- '2'
+- '3'
+- '3.05'
+- '3.081'
+- '3.1'
+- '3.2'
+- '3.22'
+- '3.5'
+- '4'
+- '4.11'
+- '4.2'
+- '6'
+- '7'
+- '7.2'
+- '8'
+- '9'
+- '9.2'
+- '9.21'
+- '9.22'
+- '9.4'
+- '9.5'
+- '10'
+- '10.6'
+- '13'
+- '14.5'
+- '14.7'
+- '15'
+- '16'
+- '18'
+- '19'
+- '19.2'
+- '20'
+- '20.11'
+- '20.2'
+- '20.3'
+- '20.4'
+- '28'
+- '29'
+- '31.1'
+- '31.2'
+- '31.3'
+- '32'
+- '41'
+- '41.2'
+- '49'
+- '99'
+- '100'
+- '101'
+- '102'
+- '103'
+- '200'
+- '200.04'
+- '200.05'
+- '200.06'
+- '200.07'
+- '200.09'
+- '200.1'
+- '200.11'
+- '200.2'
+- '200.3'
+- '201'
+- '202'
+- '203'
+- '205.2'
+- '205.3'
+- '207'
+- '220'
+- '221'
+- '501.1'
+- '8989.2'
+- '8989.3'
+- '8989.5'
+- '8989.51'
+- '8994.5'
+- '9999'
+security_keys:
+- PROVIDER
+- PSDRPH
+- XUMGR
+- XUPROGMODE
+- XUSIG
+- XUSPF200
 menu_options: 39
-description: 
-audience: 
-keywords: 
-  - span
-  - access
-  - strong
-  - class
-  - security
-  - kernel
-  - mark
-  - code
-  - signon
-  - table
 page_count: 0
-word_count: 33209
+word_count: 33201
 section_count: 21
 table_count: 1
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_signon_security_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_signon_security_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_signon_security_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_signon_security_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Signon/Security User Guide
----
-
 ![](kernel-8-0-systems-management-signon-security-user-guide/001.png)
 
 August 2025

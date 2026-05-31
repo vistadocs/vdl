@@ -11,39 +11,31 @@ app_status: archive
 pkg_ns: VHIC
 patch_ver: 4.0
 patch_id: VHIC*4.0
-group_key: "VHIC:VHIC:4.0"
-file_numbers: 
-  - 18
+group_key: VHIC:VHIC:4.0
+description: '- Purpose - Scope - Pre-Installation Considerations - Minimum Required Packages - Required Patches - Software Retrieval - Installation - [Pre-Post...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '18.02'
+- '8989.3'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - server
-  - table
-  - mpif
-  - strong
-  - installation
-  - contents
-  - colgroup
-  - thead
-  - tbody
-  - service
 page_count: 0
 word_count: 2580
 section_count: 4
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/mpif_1_56ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/mpif_1_56ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=274"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/mpif_1_56ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Veteran_ID_Card_Archive/mpif_1_56ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=274
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-vic-4-0-patch-installation-guide/001.png)

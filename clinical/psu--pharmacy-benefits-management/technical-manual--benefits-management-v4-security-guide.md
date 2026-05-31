@@ -3,55 +3,93 @@ title: Benefits Management Version 4 Technical Manual/Security Guide
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
 pkg_ns: PSU
 patch_ver: 4
 patch_id: PSU*4
-group_key: "PSU:PSU:4"
-file_numbers: []
-security_keys: []
+group_key: PSU:PSU:4
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '4.3'
+- '7'
+- '27.11'
+- '40.8'
+- '42.6'
+- '42.7'
+- '44'
+- '45'
+- '49'
+- '50'
+- '50.416'
+- '50.6'
+- '50.605'
+- '50.607'
+- '50.68'
+- '51.5'
+- '52'
+- '52.1'
+- '52.2'
+- '52.6'
+- '52.7'
+- '53'
+- '55'
+- '55.01'
+- '55.06'
+- '58.1'
+- '58.5'
+- '58.8'
+- '58.81'
+- '58.811'
+- '59'
+- '59.9'
+- '60'
+- '60.01'
+- '63'
+- '63.04'
+- '80'
+- '80.1'
+- '81'
+- '95.3'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.8'
+- '120.82'
+- '120.85'
+- '200'
+- '420.5'
+- '442'
+- '445'
+- '8932.1'
+security_keys:
+- PROVIDER
+- PSA ORDERS
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - table
-  - pharmacy
-  - class
-  - contents
-  - patient
-  - strong
-  - drug
-  - manual
-  - options
-  - management
 page_count: 0
-word_count: 3458
+word_count: 3443
 section_count: 6
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_tm_r0714.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_tm_r0714.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_tm_r0714.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/psu_4_tm_r0714.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Pharmacy Benefits Management (PBM)
-
-  Technical Manual/Security Guide
----
-
 ![](benefits-management-version-4-technical-manual-security-guide/001.png)
 
 Software Version 4.0

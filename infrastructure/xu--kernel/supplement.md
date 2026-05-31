@@ -3,46 +3,37 @@ title: Kernel XTMP Global Description Rules of Use
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: XU
+patch_ver: null
+patch_id: null
+group_key: null
+description: There is a recurring need by VistA software to store data in a translated global for relatively short periods of time. However, this data needs to be accumulated for a period longer than an individual user's logon session and longer than the time a specific process/job might run. The ^UTILITY, ^TMP
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: There is a recurring need by VistA software to store data in a translated global for relatively short periods of time. However, this data needs to be accumulated for a period longer than an individual user's logon session and longer than the time a specific process/job might run. The ^UTILITY, ^TMP
-audience: 
-keywords: 
-  - global
-  - xtmp
-  - node
-  - date
-  - first
-  - vista
-  - software
-  - globals
-  - fileman
-  - piece
 page_count: 0
 word_count: 679
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xtmp_rules.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xtmp_rules.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xtmp_rules.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xtmp_rules.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ^XTMP Global

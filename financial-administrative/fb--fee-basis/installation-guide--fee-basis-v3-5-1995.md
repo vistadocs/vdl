@@ -11,38 +11,41 @@ app_status: active
 pkg_ns: FB
 patch_ver: 3.5
 patch_id: FB*3.5
-group_key: "FB:FB:3.5"
-file_numbers: []
-security_keys: []
+group_key: FB:FB:3.5
+description: '- Department of Veterans Affairs Decentralized Hospital Computer Program - Information Systems Center Albany, New York - PACKAGE INTEGRATION - [The...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
+- '161'
+- '161.2'
+- '161.25'
+- '162'
+- '163'
+- '163.1'
+- '163.99'
+- '200'
+- '407.7'
+security_keys:
+- FBAA ESTABLISH VENDOR
+- XUSPF200
 menu_options: 3
-description: - [Department of Veterans Affairs Decentralized Hospital Computer Program](#department-of-veterans-affairs-decentralized-hospital-computer-program) - [Information Systems Center Albany, New York](#information-systems-center-albany-new-york) - [PACKAGE INTEGRATION](#package-integration) - [The follow
-audience: 
-keywords: 
-  - blockquote
-  - filed
-  - fbini
-  - table
-  - contents
-  - fbaa
-  - basis
-  - class
-  - attachment
-  - fbch
 page_count: 0
 word_count: 7272
 section_count: 1
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb3_5ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 # Department of Veterans Affairs Decentralized Hospital Computer Program

@@ -3,7 +3,7 @@ title: Clinical Procedures Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
@@ -11,40 +11,57 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1
-group_key: "MD:MD:1"
-file_numbers: 
-  - 2
-  - 702
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - procedures
-  - clinical
-  - class
-  - description
-  - build
-  - strong
-  - table
-  - number
-  - parameter
-  - procedure
+group_key: MD:MD:1
+description: Clinical Procedures (CP)Technical Manual and Package Security
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3.8'
+- '5'
+- '44'
+- '45.7'
+- '123'
+- '200'
+- '690'
+- '697.2'
+- '702'
+- '702.001'
+- '702.01'
+- '702.09'
+- '703.1'
+- '703.9'
+- '703.92'
+- '704.201'
+- '704.202'
+- '704.209'
+- '870'
+- '2006.5831'
+- '8925'
+- '8925.1'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+security_keys:
+- MD MANAGER
+menu_options: 3
 page_count: 0
 word_count: 24449
 section_count: 16
 table_count: 12
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/clinproc1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 Clinical Procedures (CP)Technical Manual and Package Security Guide

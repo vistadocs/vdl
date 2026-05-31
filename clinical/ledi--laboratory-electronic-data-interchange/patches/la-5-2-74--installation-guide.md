@@ -1,55 +1,55 @@
 ---
-title: LA*5.2*74/LR*5.2*350/HDI*1*7  LDSI/LEDI IV Install Guide
+title: LA*5.2*74/LR*5.2*350/HDI*1*7 LDSI/LEDI IV Install Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*74
-group_key: "LEDI:LA:5.2"
-file_numbers: 
-  - 62
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - sent
-  - alert
-  - error
-  - lexicon
-  - lookup
-  - ledi
-  - entry
-  - mark
-  - install
-  - table
+group_key: LEDI:LA:5.2
+description: '''> **IMPORTANT:** Please read this manual prior to installing LEDI'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.075'
+- '60'
+- '61'
+- '61.2'
+- '62'
+- '62.06'
+- '62.9'
+- '63'
+- '63.04'
+- '63.3'
+- '95.4'
+- '8985.1'
+security_keys:
+- LRLAB
+- PROVIDER
+- ZTMQ
+menu_options: 1
 page_count: 0
-word_count: 12403
+word_count: 12385
 section_count: 10
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_install_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_install_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_install_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/lab_ledi_iv_install_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc196028944" class="anchor"></span>Laboratory Data Sharing & Interoperability (LDSI) Laboratory Electronic Data Interchange (LEDI) IV
----
-
 ![](la-5-2-74-lr-5-2-350-hdi-1-7-ldsi-ledi-iv-install-guide/001.png)
 
 LEDI IV Installation Guide

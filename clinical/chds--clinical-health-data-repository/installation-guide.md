@@ -3,7 +3,7 @@ title: CHDR Installation Guide (CHDS*2.2*1)
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CHDS
 app_name: Clinical/Health Data Repository
 section: CLI
@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: CHDS
 patch_ver: 2.2
 patch_id: CHDS*2.2
-group_key: "CHDS:CHDS:2.2"
+group_key: CHDS:CHDS:2.2
+description: Refer to the SOFTWARE library version of this document to view REDACTED information.
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: Refer to the SOFTWARE library version of this document to view <span class="mark">REDACTED</span> information.
-audience: 
-keywords: 
-  - weblogic
-  - blockquote
-  - chdr
-  - table
-  - domain
-  - contents
-  - installation
-  - server
-  - production
-  - home
 page_count: 0
-word_count: 5881
+word_count: 5866
 section_count: 15
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_ig_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_ig_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=155"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_ig_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Clinical_Health_Data_Repository_(CHDR)/chds_2_2_ig_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=155
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Clinical Data Repository / Health Data Repository (CHDR) 2.2
-
-  Installation Guide
-
-  ![](chdr-installation-guide-chds-2-2-1/001.png)
----
-
 Document Version 2.2
 
 January 2022

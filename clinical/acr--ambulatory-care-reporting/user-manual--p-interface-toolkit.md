@@ -1,48 +1,46 @@
 ---
 title: ACRP Interface Toolkit
 doc_type: REF
-doc_label: Interface Toolkit
+doc_label: Reference
 doc_layer: plain
 doc_subject: ACRP
 app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Appendix - Argument Definitions Ambulatory Care Reporting Project (ACRP)Interface Toolkit (AIT)January 1998IntroductionApplication Programmer Interfaces > 56 - SDOE Get Diagnoses > 58 - SDOE Get Providers > 61 - SDOE Get Procedures > 63 - SDOE Assigned a Provider...'
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '200'
+- '409.43'
+- '409.44'
+- '409.5'
+- '409.68'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: - [Appendix - Argument Definitions](#appendix-argument-definitions) Ambulatory Care Reporting Project (ACRP)Interface Toolkit (AIT)January 1998IntroductionApplication Programmer Interfaces > 56 - SDOE Get Diagnoses > 58 - SDOE Get Providers > 61 - SDOE Get Procedures > 63 - SDOE Assigned a Provider
-audience: 
-keywords: 
-  - query
-  - encounter
-  - sdoe
-  - errchk
-  - sdqut
-  - error
-  - date
-  - description
-  - errors
-  - array
 page_count: 0
 word_count: 7150
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_pit.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_pit.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_pit.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_pit.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

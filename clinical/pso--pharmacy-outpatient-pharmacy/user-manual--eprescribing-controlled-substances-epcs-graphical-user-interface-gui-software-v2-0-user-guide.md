@@ -5,44 +5,53 @@ doc_label: User Guide
 doc_layer: anchor
 doc_subject: (Updated for PSO*7*731)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 2.0
 patch_id: PSO*2.0
-group_key: "PSO:PSO:2.0"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:2.0
+description: 11/2023 1.2 Updates pertaining to PSO*7*731, removed all instances of Detox
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1.1'
+- '2.1'
+- '3.1'
+- '4'
+- '4.1'
+- '8'
+- '9.2'
+- '16'
+- '19'
+- '29'
+- '53.21'
+- '53.3'
+- '100.7'
+- '200'
+- '202'
+- '8991.6'
+- '8991.9'
+security_keys:
+- ORES
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - epcs
-  - span
-  - table
-  - figure
-  - number
-  - prescriber
-  - contents
-  - report
-  - controlled
-  - class
 page_count: 0
 word_count: 7737
 section_count: 19
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_epcs_gui_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_epcs_gui_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_epcs_gui_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_epcs_gui_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 e-Prescribing Controlled Substances (ePCS)

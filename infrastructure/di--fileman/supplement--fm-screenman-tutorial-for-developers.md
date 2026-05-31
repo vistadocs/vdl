@@ -3,46 +3,49 @@ title: FM ScreenMan Tutorial for Developers
 doc_type: TRG
 doc_label: Training Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: DI
 app_name: FileMan
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: DI
+patch_ver: null
+patch_id: null
+group_key: null
+description: Reformatted document to conform to current heading and style format document. Updated all sections and procedural steps. This includes rerunning all steps to make sure procedural steps are complete and create new screen captures. Updated all organizational references, URLs, references, etc....
+audience: Trainers and end users during onboarding
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '19'
+- '49'
+- '78'
+- '200'
+- '327'
+- '328'
+security_keys:
+- DIEXTRACT
+- DIUSER
+- PF1
+- XUSCREENMAN
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - form
-  - block
-  - table
-  - span
-  - contents
-  - fields
-  - edit
-  - screenman
-  - press
-  - class
 page_count: 0
 word_count: 19321
 section_count: 37
 table_count: 12
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/scrn_tut.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman/scrn_tut.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=5"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/scrn_tut.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman/scrn_tut.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=5
+audit_applied: '2026-05-31'
 ---
 
 VA FileMan

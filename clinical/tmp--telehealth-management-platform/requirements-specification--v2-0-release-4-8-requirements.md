@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 2.0
 patch_id: TMP*2.0
-group_key: "TMP:TMP:2.0"
+group_key: TMP:TMP:2.0
+description: Project [TMP
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - bookmark
-  - table
-  - contents
-  - defect
-  - review
-  - date
-  - reviewed
-  - vista
-  - fixes
-  - show
 page_count: 0
-word_count: 462
+word_count: 453
 section_count: 2
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_requirements_signed.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_requirements_signed.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_requirements_signed.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_requirements_signed.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Telehealth Management Platform (TMP) Phase 3
-
-  4.8.0 Release Requirements Specification
----
-
 Project [TMP (RM)](https://clm.rational.oit.va.gov/rm/process/project-areas/_FhxbEm6fEeSq6-QH2YLx3w)
 
 Prepared by Shannon Utting

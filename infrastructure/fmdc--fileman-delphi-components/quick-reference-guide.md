@@ -3,46 +3,41 @@ title: FMDC Getting Started Guide
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: FMDC
 app_name: FileMan Delphi Components
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: FMDC
+patch_ver: null
+patch_id: null
+group_key: null
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: End users (quick reference)
+keywords: []
+file_numbers:
+- '1'
+- '200'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - fmdc
-  - table
-  - fileman
-  - property
-  - component
-  - record
-  - guide
-  - components
-  - contents
 page_count: 0
 word_count: 7552
 section_count: 5
 table_count: 34
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1998
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0gs.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0gs.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=6"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0gs.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Fileman_Delphi_Comp_(FMDC)/fmdc1_0gs.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=6
+audit_applied: '2026-05-31'
 ---
 
 ![](fmdc-getting-started-guide/001.png)

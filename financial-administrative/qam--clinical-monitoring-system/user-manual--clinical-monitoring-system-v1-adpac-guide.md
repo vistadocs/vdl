@@ -1,7 +1,7 @@
 ---
 title: Clinical Monitoring System Version 1 ADPAC Guide
 doc_type: UG
-doc_label: Manager/ADPAC Guide
+doc_label: User Guide
 doc_layer: anchor
 doc_subject: ADPAC Guide
 app_code: QAM
@@ -11,38 +11,48 @@ app_status: active
 pkg_ns: QAM
 patch_ver: 1
 patch_id: QAM*1
-group_key: "QAM:QAM:1"
-file_numbers: []
-security_keys: []
+group_key: QAM:QAM:1
+description: '| Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | |----------|---------------------------------------------------------------------|-----------------|------------------| | 11/15/04 | Manual updated to comply with SOP 192-352 Displaying Sensitive Data | | REDACTED | |...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '37'
+- '42'
+- '44'
+- '45.7'
+- '49'
+- '50.605'
+- '80'
+- '80.1'
+- '405.2'
+- '409.1'
+- '615.5'
+- '615.6'
+- '743'
+- '743.1'
+- '743.2'
+- '743.3'
+- '743.6'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: - [# Introduction/Package Management](#introductionpackage-management) - [# Implementation Check List](#implementation-check-list) - [# Menu Option Assignment](#menu-option-assignment) - [Monitoring System Manager Menu](#monitoring-system-manager-menu) - [Monitoring System User Menu](#monitoring-sys
-audience: 
-keywords: 
-  - condition
-  - monitor
-  - group
-  - fall
-  - date
-  - class
-  - auto
-  - enroll
-  - movement
-  - time
 page_count: 0
 word_count: 20568
 section_count: 22
 table_count: 6
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 2
 revision_newest: 2/23/09
 revision_oldest: 11/15/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmadpac.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmadpac.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=32"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmadpac.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmadpac.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=32
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-monitoring-system-version-1-adpac-guide/001.png)

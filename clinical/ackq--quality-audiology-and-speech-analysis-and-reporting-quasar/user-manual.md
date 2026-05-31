@@ -11,49 +11,55 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3
-group_key: "ACKQ:ACKQ:3"
-file_numbers: 
-  - 2
-  - 200
-security_keys: []
+group_key: ACKQ:ACKQ:3
+description: '''Quality: Audiology and Speech Analysis and Reporting (QUASAR) is a VISTA software package written for the Audiology and Speech Pathology Service. QUASAR is used to enter, edit, and retrieve data for each episode of care.'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '6'
+- '20'
+- '44'
+- '81.3'
+- '85'
+- '123'
+- '200'
+- '724'
+- '509850'
+- '509850.1'
+- '509850.2'
+- '509850.3'
+- '509850.4'
+- '509850.5'
+- '509850.6'
+- '509850.7'
+- '509850.8'
+- '509850.9'
+- '905850.2'
+- '905850.6'
+security_keys:
+- ACKQ ADHOC
+- CLINICIAN
+- PROVIDER
 menu_options: 3
-description: "Quality: Audiology and Speech Analysis and Reporting (QUASAR) is a VISTA software package written for the Audiology and Speech Pathology Service. QUASAR is used to enter, edit, and retrieve data for each episode of care."
-audience: 
-keywords: 
-  - class
-  - date
-  - visit
-  - patient
-  - table
-  - print
-  - contents
-  - strong
-  - code
-  - audiogram
 page_count: 0
-word_count: 33597
+word_count: 33574
 section_count: 40
 table_count: 7
 figure_count: 0
 appendix_count: 9
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc361666135" class="anchor"></span>Quality Audiology and Speech Analysis and Reporting (QUASAR)
-
-  <span id="_Toc361666136" class="anchor"></span>User Manual
----
-
 ![](quasar-version-3-user-manual-updated-ackq-3-21/001.png)
 
 February 2000

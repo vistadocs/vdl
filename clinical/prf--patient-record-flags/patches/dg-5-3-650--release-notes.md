@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*650
-group_key: "PRF:DG:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PRF:DG:5.3
 description: The security key structure for controlling access to the Patient Record Flag (PRF) options has been simplified by reducing the number of security keys from four to three.
-audience: 
-keywords: 
-  - flag
-  - dgpf
-  - record
-  - assignment
-  - report
-  - security
-  - enable
-  - divisions
-  - action
-  - site
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4'
+- '40.8'
+- '101'
+- '391.91'
+security_keys:
+- DGPF MANAGER
+- LOCAL FLAG EDIT
+- RECORD FLAG ASSIGNMENT
+menu_options: 0
 page_count: 0
 word_count: 731
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/dg_53_650_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-650-patient-record-flags-phase-iii-release-notes/001.png)

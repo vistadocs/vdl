@@ -3,7 +3,7 @@ title: AICS Version 3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: IBD
 patch_ver: 3
 patch_id: IBD*3
-group_key: "IBD:IBD:3"
-file_numbers: []
+group_key: IBD:IBD:3
+description: aUTOMATED iNFORMATIONCOLLECTION SYSTEMAICSINSTALLATION GUIDE April 1997 Health Systems Design & Development (HSD&D) Table of Contents I. Introduction 1 > Package Integration 1 II\. Client 3 > Pre-Install Steps 3 > Installation Activity 3 III\. Server 5 > Pre-Install Steps 5 > Installation Activity...
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '357.09'
+- '357.6'
+- '357.94'
+- '757.01'
 security_keys: []
 menu_options: 0
-description: - [Package Integration](#package-integration) ![](aics-version-3-installation-guide/001.png) aUTOMATED iNFORMATIONCOLLECTION SYSTEMAICSINSTALLATION GUIDE April 1997 Health Systems Design & Development (HSD&D) Table of Contents I. Introduction 1 > Package Integration 1 II\. Client 3 > Pre-Install Ste
-audience: 
-keywords: 
-  - aics
-  - your
-  - ibdx
-  - form
-  - installation
-  - scanner
-  - install
-  - paper
-  - package
-  - transport
 page_count: 0
 word_count: 4516
 section_count: 2
 table_count: 6
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics3_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

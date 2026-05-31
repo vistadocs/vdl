@@ -3,52 +3,38 @@ title: Ask A Pharmacist Technical Guide (Mobile Applications Phase 2)
 doc_type: TG
 doc_label: Technical Guide
 doc_layer: plain
-doc_subject: Ask A Pharmacist  (Mobile Applications Phase 2)
+doc_subject: Ask A Pharmacist (Mobile Applications Phase 2)
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: PSU
+patch_ver: null
+patch_id: null
+group_key: null
+description: '| Date | Revision | Description | Author | |----------|----------|-------------------------------------------|--------| | 4/4/2016 | 1.0 | Created from wiki template for use on VDL |'
+audience: Technical implementers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - contents
-  - table
-  - application
-  - apache
-  - server
-  - mobile
-  - installing
-  - html
-  - procedures
-  - pharmacist
 page_count: 0
-word_count: 1221
+word_count: 1210
 section_count: 10
 table_count: 1
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2016
 revision_count: 1
 revision_newest: 4/4/2016
 revision_oldest: 4/4/2016
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_technical_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_technical_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_technical_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_technical_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc205632711" class="anchor"></span>Department of Veterans Affairs
----
-
 Mobile Applications (Apps) Phase Two (MAP2)
 
 Ask A Pharmacist – Technical Guide

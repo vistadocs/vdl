@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*425
-group_key: "PRF:DG:5.3"
-file_numbers: []
+group_key: PRF:DG:5.3
+description: This document specifies the information needed for sharing National Patient Record Flag (PRF) assignment data between all sites that a patient visits. This data exchange will be triggered by specific events that relate to the assignment of a National PRF to a patient, the editing of an existing assi
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '26.13'
+- '26.14'
+- '26.142'
+- '26.15'
+- '391.91'
 security_keys: []
 menu_options: 1
-description: This document specifies the information needed for sharing National Patient Record Flag (PRF) assignment data between all sites that a patient visits. This data exchange will be triggered by specific events that relate to the assignment of a National PRF to a patient, the editing of an existing assi
-audience: 
-keywords: 
-  - table
-  - class
-  - contents
-  - message
-  - style
-  - even
-  - width
-  - patient
-  - query
-  - segment
 page_count: 0
 word_count: 7313
 section_count: 20
 table_count: 41
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfhl7is.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfhl7is.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=156"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfhl7is.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Record_Flags/prfhl7is.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=156
+audit_applied: '2026-05-31'
 ---
 
 ![](dg-5-3-425-951-patient-record-flags-hl7-interface-specification/001.png)

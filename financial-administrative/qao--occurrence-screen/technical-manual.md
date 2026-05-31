@@ -3,7 +3,7 @@ title: Occurrence Screen Version 3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: QAO
 app_name: Occurrence Screen
 section: FIN
@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: QAO
 patch_ver: 3
 patch_id: QAO*3
-group_key: "QAO:QAO:3"
-file_numbers: []
+group_key: QAO:QAO:3
+description: '| | | | | |----------|---------------------------------------|---------------------|----------------------| | Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | | 3/9/09 | Reformatted Manual | | REDACTED'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '741'
+- '741.1'
+- '741.2'
+- '741.3'
+- '741.4'
+- '741.5'
+- '741.6'
+- '741.7'
+- '741.8'
+- '741.9'
+- '741.93'
+- '741.95'
+- '741.97'
+- '741.99'
 security_keys: []
 menu_options: 0
-description: - [# Introduction](#introduction) - [# Implementation and Maintenance](#implementation-and-maintenance) - [Package-wide Variables](#package-wide-variables) - [# Routines](#routines) - [Routines to Map](#routines-to-map) - [Callable Routines](#callable-routines) - [Routine List](#routine-list) - [# F
-audience: 
-keywords: 
-  - occurrence
-  - table
-  - contents
-  - class
-  - strong
-  - options
-  - package
-  - routines
-  - access
-  - even
 page_count: 0
 word_count: 3347
 section_count: 16
 table_count: 123
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 3/9/09
 revision_oldest: 3/9/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/octm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/octm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=49"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/octm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Occurrence_Screen/octm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=49
+audit_applied: '2026-05-31'
 ---
 
 ![](occurrence-screen-version-3-technical-manual/001.png)

@@ -3,46 +3,37 @@ title: PSX*2*83 PSO*7*513 Installation Guide for MCCF, EDI, TAS
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: PSO*7*513  for MCCF, EDI, TAS
+doc_subject: PSO*7*513 for MCCF, EDI, TAS
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2*83
-group_key: "PSX:PSX:2"
+group_key: PSX:PSX:2
+description: '> This document describes how to deploy and install multi-build PSX PSO BUNDLE 1.0 (which includes PSX\2.0\83 and PSO\7.0\513) and how to back-out the product and rollback to a previous version or data set.'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > This document describes how to deploy and install multi-build PSX PSO BUNDLE 1.0 (which includes PSX\2.0\83 and PSO\7.0\513) and how to back-out the product and rollback to a previous version or data set.
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - strong
-  - installation
-  - procedure
-  - rollback
-  - blockquote
-  - deployment
-  - testing
 page_count: 0
 word_count: 2149
 section_count: 31
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p83_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p83_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p83_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/psx_2_0_p83_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 # Medical Care Collection Fund (MCCF) Electronic Data Interchange (EDI) Transaction Applications Suite (TAS) ePharmacy Build 2 Warranty

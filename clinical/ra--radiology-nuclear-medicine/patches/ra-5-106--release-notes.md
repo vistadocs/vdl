@@ -11,38 +11,31 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5*106
-group_key: "RA:RA:5"
-file_numbers: []
+group_key: RA:RA:5
+description: '- Release Notes for Patch RA\5.0\106 - Enhancements for NTP Patch RA\5.0\106 - Prior to Patch Installation - After Patch Installation The objective of this project...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '74.01'
 security_keys: []
 menu_options: 0
-description: ![](ra-5-106-national-teleradiology-program-phase-2-iteration-1-release-notes/001.png)
-audience: 
-keywords: 
-  - patch
-  - group
-  - mail
-  - vista
-  - member
-  - radiology
-  - installation
-  - table
-  - contents
-  - postmaster
 page_count: 0
 word_count: 1019
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p106.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p106.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p106.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p106.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
 
 ![](ra-5-106-national-teleradiology-program-phase-2-iteration-1-release-notes/001.png)

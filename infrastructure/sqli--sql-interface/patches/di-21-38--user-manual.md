@@ -11,38 +11,62 @@ app_status: active
 pkg_ns: DI
 patch_ver: 21
 patch_id: DI*21*38
-group_key: "SQLI:DI:21"
-file_numbers: []
-security_keys: []
+group_key: SQLI:DI:21
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.1'
+- '1.521'
+- '1.5210'
+- '1.5211'
+- '1.5212'
+- '1.5213'
+- '1.5214'
+- '1.5215'
+- '1.5216'
+- '1.5217'
+- '1.5218'
+- '1.5219'
+- '2'
+- '3'
+- '3.22'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '200'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - sqli
-  - class
-  - fileman
-  - column
-  - strong
-  - span
-  - primary
-  - contents
-  - format
 page_count: 0
 word_count: 20317
 section_count: 7
 table_count: 38
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/SQL_Interface_(SQLI)/sqli_vendor.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/SQL_Interface_(SQLI)/sqli_vendor.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=25"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/SQL_Interface_(SQLI)/sqli_vendor.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/SQL_Interface_(SQLI)/sqli_vendor.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=25
+audit_applied: '2026-05-31'
 ---
 
 ![](di-21-38-vendor-guide-draft/001.png)

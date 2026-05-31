@@ -5,43 +5,37 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Suicide Hotline Consult Setup
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
 pkg_ns: GMRC
 patch_ver: 3
 patch_id: GMRC*3*57
-group_key: "GMRC:GMRC:3"
-file_numbers: []
+group_key: GMRC:GMRC:3
+description: '- Overview - Example of local set up. > The National Suicide Hotline Interfacility Consult process starts on August 15, 2007 and is headquartered at the Canandaigua VAMC using the VISN2 VistA database. Hotline call handlers will order Interfacility Consults...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '101.43'
+- '123.5'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - overview
-  - example
-  - local
-  - suicide
-  - hotline
-  - consult
-  - setup
+menu_options: 1
 page_count: 0
 word_count: 43
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: True
+has_toc: false
+is_stub: true
 pub_date: August 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/cons3_p57_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/cons3_p57_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/cons3_p57_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/cons3_p57_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
 
 > ![](gmrc-3-57-suicide-hotline-consult-setup/001.png)

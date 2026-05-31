@@ -3,7 +3,7 @@ title: Capacity Management Tools Version 3 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: KMPD
 app_name: Capacity Management Tools
 section: INF
@@ -11,38 +11,42 @@ app_status: active
 pkg_ns: KMPD
 patch_ver: 3
 patch_id: KMPD*3
-group_key: "KMPD:KMPD:3"
-file_numbers: []
-security_keys: []
-menu_options: 6
+group_key: KMPD:KMPD:3
 description: The purpose of this guide is to provide instructions for installing the Veterans Health Information Systems and Technology Architecture (VistA) Capacity Planning (CP) Service's Capacity Management Tools software, Version 3.0.
-audience: 
-keywords: 
-  - tools
-  - software
-  - table
-  - installation
-  - contents
-  - capacity
-  - vista
-  - management
-  - server
-  - required
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '3.11'
+- '3.5'
+- '4.11'
+- '19.2'
+- '52'
+- '8973'
+- '8973.1'
+- '8973.2'
+- '8973.3'
+security_keys:
+- PF1
+- XUPROGMODE
+menu_options: 6
 page_count: 0
 word_count: 6635
 section_count: 19
 table_count: 64
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0ig_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0ig_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=129"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0ig_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0ig_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=129
+audit_applied: '2026-05-31'
 ---
 
 ![](capacity-management-tools-version-3-installation-guide/001.png)

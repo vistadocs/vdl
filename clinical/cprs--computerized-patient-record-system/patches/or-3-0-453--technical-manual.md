@@ -11,49 +11,37 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*453
-group_key: "CPRS:OR:3.0"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3.0
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3'
+- '70'
+- '100'
+- '100.011'
+- '100.08'
+security_keys:
+- OR PRT ACCESS
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - provider
-  - role
-  - tool
-  - order
-  - software
-  - requirements
-  - security
-  - manual
 page_count: 0
-word_count: 1927
+word_count: 1914
 section_count: 20
 table_count: 3
 figure_count: 1
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2021
 revision_count: 6
 revision_newest: 07/28/2021
 revision_oldest: 06/12/2020
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_tm_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_tm_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_tm_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_tm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk527034419" class="anchor"></span>
-
-  Provider Role Tool (PRT)
-
-  Technical Manual
----
-
 ![](or-3-0-453-provider-role-tool-technical-manual/001.png)
 
 July 2021

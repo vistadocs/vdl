@@ -8,41 +8,48 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: The VistA Imaging System captures, stores, displays, and distributes medical images. These medical images are part of a patient's medical record and are protected by the Federal Privacy Act and by HIPAA (the Health Insurance Portability and Accountability Act). Images are stored on magnetic servers
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '2005'
+- '2005.002'
+- '2005.1'
+- '2006.5733'
+- '2006.575'
+- '2006.81'
+- '2006.9192'
+- '2006.95'
+security_keys:
+- MAG ANNOTATE MGR
+- MAG DELETE
+- MAG EDIT
+- MAG REVIEW NCAT
+- MAG SYSTEM
+- MAG VIX ADMIN
+- MAGV IMPORT MEDIA STAGER
+- PROVIDER
 menu_options: 0
-description: The VistA Imaging System captures, stores, displays, and distributes medical images. These medical images are part of a patient’s medical record and are protected by the Federal Privacy Act and by HIPAA (the Health Insurance Portability and Accountability Act). Images are stored on magnetic servers
-audience: 
-keywords: 
-  - class
-  - colspan
-  - dicom
-  - table
-  - contents
-  - security
-  - imaging
-  - vista
-  - even
-  - image
 page_count: 0
 word_count: 11928
 section_count: 35
 table_count: 6
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGSECGD.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGSECGD.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGSECGD.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGSECGD.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-imaging-system-security-guide/001.png)

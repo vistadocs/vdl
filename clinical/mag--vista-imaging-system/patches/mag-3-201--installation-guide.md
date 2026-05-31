@@ -3,7 +3,7 @@ title: MAG*3*201 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
@@ -11,47 +11,33 @@ app_status: archive
 pkg_ns: MAG
 patch_ver: 3
 patch_id: MAG*3*201
-group_key: "MAG:MAG:3"
-file_numbers: []
-security_keys: []
+group_key: MAG:MAG:3
+description: '> This document explains how to install the VistA Imaging Exchange (VIX) service. Please review the install checklist in Appendix A prior to starting the install and reference throughout.'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4'
+- '99'
+security_keys:
+- MAG VIX ADMIN
 menu_options: 0
-description: > This document explains how to install the VistA Imaging Exchange (VIX) service. Please review the install checklist in Appendix A prior to starting the install and reference throughout.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - installation
-  - table
-  - contents
-  - class
-  - guide
-  - mark
-  - server
-  - service
-  - blockquote
-  - verify
 page_count: 0
-word_count: 7618
+word_count: 7607
 section_count: 22
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p201_vix_installation_guide_20190201_16.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p201_vix_installation_guide_20190201_16.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p201_vix_installation_guide_20190201_16.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/mag3_0p201_vix_installation_guide_20190201_16.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Image Viewer Version 3.0
-
-  Deployment, Installation, Back-out, and Rollback Plan
----
-
 ![](mag-3-201-installation-guide/001.png)
 
 > Version 28.0 MAG\*3.0\*201

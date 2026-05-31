@@ -3,7 +3,7 @@ title: Event Capture Version 2.0 GUI User Guide (Updated EC*2*170)
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: GUI  (Updated EC*2*170)
+doc_subject: GUI (Updated EC*2*170)
 app_code: EC
 app_name: Event Capture System (ECS)
 section: FIN
@@ -11,38 +11,51 @@ app_status: active
 pkg_ns: EC
 patch_ver: 2.0
 patch_id: EC*2.0
-group_key: "EC:EC:2.0"
-file_numbers: []
-security_keys: []
+group_key: EC:EC:2.0
+description: '''05/2025 2.8 Updated for EC*2.0*170 4.4.2.3 — Updated information for Step 8. Figure 221: Add Event Code Screen was updated 4.4.7.5 — Updated Step 3, Step 5, and Figure 235: Copy Event Code Screen to DSS Unit Booz Allen'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '19'
+- '26'
+- '44'
+- '49'
+- '80'
+- '81'
+- '200'
+- '420.1'
+- '720.3'
+- '721'
+- '723'
+- '724'
+- '725'
+- '726'
+- '728.44'
+security_keys:
+- ECALLU
+- ECMGR
+- ECNORPT
+- ECSPSH
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - event
-  - span
-  - figure
-  - capture
-  - procedure
-  - report
-  - code
-  - class
-  - updated
-  - unit
 page_count: 0
 word_count: 37232
 section_count: 24
 table_count: 1
 figure_count: 9
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=39"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=39
+audit_applied: '2026-05-31'
 ---
 
 Event Capture System 2.0

@@ -1,13 +1,89 @@
 ---
-consolidated_title: "national drug file technical manual"
-app_code: PSN
+title: National Drug File Version 4 Technical Manual (Updated PSN*4*575)
 doc_type: TM
-master_source: "National Drug File Version 4 Technical Manual (Updated PSN*4*575)"
+doc_label: Technical Manual
+doc_layer: anchor
+doc_subject: (Updated PSN*4*575)
+app_code: PSN
+app_name: 'Pharmacy: National Drug File (NDF)'
+section: CLI
+app_status: archive
+pkg_ns: PSN
+patch_ver: 4
+patch_id: PSN*4
+group_key: PSN:PSN:4
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '3.18'
+- '3.2'
+- '3.5'
+- '4'
+- '5'
+- '6'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '19'
+- '27'
+- '29'
+- '50'
+- '50.12'
+- '50.416'
+- '50.58'
+- '50.6'
+- '50.605'
+- '50.607'
+- '50.612'
+- '50.621'
+- '50.622'
+- '50.625'
+- '50.626'
+- '50.64'
+- '50.67'
+- '50.68'
+- '55.95'
+- '57.23'
+- '99.991'
+- '100'
+- '101'
+- '104'
+- '105'
+- '5000'
+security_keys:
+- PSNMGR
+menu_options: 15
+description: The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages document, or replace it with the updated
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 15666
+section_count: 21
+table_count: 19
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: October 1998
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-National_Drug_File_(NDF)_Archive/psn_4_tm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=389
+audit_applied: '2026-05-31'
+master_source: National Drug File Version 4 Technical Manual (Updated PSN*4*575)
 master_pub_date: October 1998
 consolidated_from: 3 versions
 prior_versions:
-  - "National Drug File Version 4 Technical Manual (Updated PSN*4.0*576)"
-  - "National Drug File Version 4 Technical Manual (Updated PSN*4*218)"
+- National Drug File Version 4 Technical Manual (Updated PSN*4.0*576)
+- National Drug File Version 4 Technical Manual (Updated PSN*4*218)
+consolidated_title: national drug file technical manual
 ---
 
 > ![](national-drug-file-version-4-technical-manual-updated-psn-4-575/001.png)
@@ -272,14 +348,14 @@ Table of Contents
 - [Glossary](#glossary)
 - [Index](#index)
 > The National Drug File (NDF) V. 4.0 software module provides standardization of the local drug files in all Department of Veterans Affairs Medical Centers (VAMCs). Standardization includes the adoption of new drug nomenclature and drug classification, and links the local drug file entries to data in the National Drug files.
-> For drugs approved by the Food and Drug Administration (FDA), VAMCs have access to information concerning dosage form, strength and unit; package size and type; manufacturer’s trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among VAMCs.
+> For drugs approved by the Food and Drug Administration (FDA), VAMCs have access to information concerning dosage form, strength and unit; package size and type; manufacturer's trade name; and National Drug Code (NDC). The NDF software lays the foundation for sharing prescription information among VAMCs.
 > The NATIONAL DRUG file (#50.6) has been redesigned from a file seven multiples deep to a new file structure of four separate files. The new files are the VA PRODUCT file (#50.68), the NDC/UPN file (#50.67), the VA DISPENSE UNIT file (#50.64), and File \#50.6, which is now the VA GENERIC file.
 > With this version of NDF, the new design of the NATIONAL DRUG file (#50.6) will lay the foundation for timely data releases by Pharmacy Benefits Management (PBM) personnel to field facilities using the NDF Management System. As new drug products are released, this information can be quickly sent to facilities. Pharmacy end users will be able to match (classify) a greater percentage of their local drug files for new products. Update/delivery of data will be controlled by PBM personnel. Frequent updating of NDF will be possible with minimal time for installation and downtime.
 > In addition to the redesign of NATIONAL DRUG file (#50.6), Version 4.0 will provide the following enhancements:
 - Addition of new fields to NDF, such as National Formulary and restriction indicators.
 - Lay foundation for interfaces to other Commercial Off The Shelf (COTS) software to update NDF fields for new/revised drug information.
 - Update current NDF with new/revised product information.
-- Creation of an Application Programmer’s Interface (API) to accommodate all existing VistA software Database Integration Agreements (DBIAs) with NDF.
+- Creation of an Application Programmer's Interface (API) to accommodate all existing VistA software Database Integration Agreements (DBIAs) with NDF.
 - A clean-up of associated files, such as DRUG MANUFACTURER (#55.95), DRUG UNITS (#50.607), etc.
 - Incorporation of approved enhancement requests by Pharmacy/Information Resources Management (IRM) end users.
 Patch PSN\*4\*396 added new fields for CLINICAL EFFECT OF DRUGS to the VA PRODUCT FILE (#50.68). These fields are in the multiple \#50.68108 and include PACKAGE (#.01), OMIT EXP/DC ORDER CHECK (#1), DURATION LIMIT (#2), WASTE SORT CODE (#104) and DOT SHIPPING CODE (#105).
@@ -346,7 +422,7 @@ Patch PSN\*4\*396 added new fields for CLINICAL EFFECT OF DRUGS to the VA PRODUC
 
 > The VA Drug Classification system classifies drug products, not generic ingredients. Drug products with local effects are classified by route of administration (e.g., dermatological, ophthalmic). If a product is not classified by route of administration, in most cases, it is classified under a specific chemical or pharmacological classification (e.g., beta-blockers, cephalosporin). If a product is not classified by route of administration, or chemical or pharmacological sub-classification, it may be classified under a therapeutic category (e.g., antilipemic agents, antiparkinson agents).
 
-Most combination products are found in the “other” sub-classification under each major classification unless a specific subcategory for combination products has been added or a descriptive comment indicates inclusion elsewhere. In addition, products which are not adequately described by a minor category or subcategory within the major classification are classified as “other” (e.g., metronidazole and vancomycin are classified as “Anti-Infectives, Other”).
+Most combination products are found in the "other" sub-classification under each major classification unless a specific subcategory for combination products has been added or a descriptive comment indicates inclusion elsewhere. In addition, products which are not adequately described by a minor category or subcategory within the major classification are classified as "other" (e.g., metronidazole and vancomycin are classified as "Anti-Infectives, Other").
 
 ## Resource Requirements
 
@@ -406,7 +482,7 @@ Set Up of the Patient Medication Information (PMI) Sheet Printers
 
 > <u>Software Set Up</u>
 
-> The type of printer will determine the next step. Please refer to the User’s Manual for each printer to establish the correct escape sequences for turning bolding on and off. These escape sequences are input to the following fields in the TERMINAL TYPE (#3.2) file:
+> The type of printer will determine the next step. Please refer to the User's Manual for each printer to establish the correct escape sequences for turning bolding on and off. These escape sequences are input to the following fields in the TERMINAL TYPE (#3.2) file:
 
 > HIGH INTENSITY (BOLD) (#27) field
 
@@ -422,19 +498,19 @@ Set Up of the Patient Medication Information (PMI) Sheet Printers
 
 > From the printer technical manual the following are the escape sequences:
 
-> Bold On: \$C(27)\_”(s3B”
+> Bold On: \$C(27)\_"(s3B"
 
-> Bold Off: \$C(27)\_”(s0B”
+> Bold Off: \$C(27)\_"(s0B"
 
 > In the TERMINAL TYPE (#3.2) file:
 
 > To turn the bold on in the HIGH INTENSITY (BOLD) field (#27):
 
-HIGH INTENSITY (BOLD) = \$C(27)\_”(s3B”
+HIGH INTENSITY (BOLD) = \$C(27)\_"(s3B"
 
 To turn the bold off in the NORMAL INTENSITY (RESET) field (#29):
 
-NORMAL INTENSITY (RESET) = \$C(27)\_”(s0B”
+NORMAL INTENSITY (RESET) = \$C(27)\_"(s0B"
 
 (This page included for two-sided copying.)
 
@@ -665,7 +741,7 @@ SSH Manage Secure Shell (SSH) Keys \[PSN PPS SSH KEY MANAGEMENT\]
 
 > The National Drug File contains one callable routine at the present time. This routine, PSNNGR, is used by the Allergy Tracking System software package. The routine is the actual point of entry.
 
-> This routine is to be used in conjunction with the allergies package. It expects an input of PSNDA=internal number in File 50.6 (VA GENERIC file). The routine returns ^TMP("PSN",\$J,IFN)=Primary Ingredient. The IFN is the Internal number from File \#50.416 (DRUG INGREDIENTS file) of Primary Ingredient. If PSNDA doesn’t exist, PSNID and ^TMP("PSN",\$J) are killed. The variables X,J,K,PSNPN are used and are killed before exiting.
+> This routine is to be used in conjunction with the allergies package. It expects an input of PSNDA=internal number in File 50.6 (VA GENERIC file). The routine returns ^TMP("PSN",\$J,IFN)=Primary Ingredient. The IFN is the Internal number from File \#50.416 (DRUG INGREDIENTS file) of Primary Ingredient. If PSNDA doesn't exist, PSNID and ^TMP("PSN",\$J) are killed. The variables X,J,K,PSNPN are used and are killed before exiting.
 
 > For detailed information on all supported National Drug File APIs, see the *Pharmacy Re-Engineering (PRE) Application Program Interface (API) Manual* posted on the VistA Documentation Library (VDL) at <http://www.va.gov/vdl/>.
 
@@ -1463,7 +1539,7 @@ Software Product Security
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> It is strongly recommended that the DRUG file (#50) and the NATIONAL DRUG TRANSLATION file (#50.612) be included in the facility’s backup procedures on a periodic and systematic basis. It is important to back up these two files before the option, *Merge National Drug File Data Into Local File,* is executed. The Information Resources Management (IRM) staff must be advised before this option is executed to ensure that appropriate back up is done prior to execution.
+> It is strongly recommended that the DRUG file (#50) and the NATIONAL DRUG TRANSLATION file (#50.612) be included in the facility's backup procedures on a periodic and systematic basis. It is important to back up these two files before the option, *Merge National Drug File Data Into Local File,* is executed. The Information Resources Management (IRM) staff must be advised before this option is executed to ensure that appropriate back up is done prior to execution.
 
 ## PSN PPS ADMIN Key
 
@@ -1953,7 +2029,7 @@ Directory USER\$:\[000000\]
 
 PPSN.DIR;1 \[CACHEMGR\] (RWED,RWED,RWED,RWED)
 
-| ![](national-drug-file-version-4-technical-manual-updated-psn-4-575/003.png) | Action: Once the directory has been created, please pass this directory name (e.g., “USER\$:\[SFTP.PPSN\]”) to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the PPS-N Site parameters (Enter/Edit) “Outlined Below”. |
+| ![](national-drug-file-version-4-technical-manual-updated-psn-4-575/003.png) | Action: Once the directory has been created, please pass this directory name (e.g., "USER\$:\[SFTP.PPSN\]") to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the PPS-N Site parameters (Enter/Edit) "Outlined Below". |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### Linux Directories
@@ -1962,7 +2038,7 @@ PPSN.DIR;1 \[CACHEMGR\] (RWED,RWED,RWED,RWED)
 
 If you have a LINUX operating system, the PPS-N download process will automatically create a directory to be used by the data download process. However, a more knowledgeable and experienced System Manager may choose to setup the extract directory using existing drives and definitions. The directory name chosen must have the appropriate READ, WRITE, EXECUTE, and DELETE privileges. You must have administrator privileges when you perform this task in order to assure the directory is set up/created with the necessary permissions.
 
-The following is an example to create the file transmission directory. The field “directoryPath/Name” is where you would enter the path to the directory and the new directory name (i.e. /srv/vista/bham/user/sftp/PPSN/ where bham is the site specific folder).
+The following is an example to create the file transmission directory. The field "directoryPath/Name" is where you would enter the path to the directory and the new directory name (i.e. /srv/vista/bham/user/sftp/PPSN/ where bham is the site specific folder).
 
 \$mkdir /srv/vista/bham/user/sftp/PPSN/
 
@@ -1980,7 +2056,7 @@ The following is an example to create the file transmission directory. The field
 
 • Confirm that the extract directory has similar protections and permissions.
 
-| ![](national-drug-file-version-4-technical-manual-updated-psn-4-575/004.png) | Action: Once the directory has been created, please pass this directory name (e.g., “USER\$:\[SFTP.PPSN\]”) to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the PPS-N Site parameters (Enter/Edit) “Outlined Below”. |
+| ![](national-drug-file-version-4-technical-manual-updated-psn-4-575/004.png) | Action: Once the directory has been created, please pass this directory name (e.g., "USER\$:\[SFTP.PPSN\]") to the ADPAC/Pharmacy Chief/Pharmacy Informaticist. This will be used in the PPS-N Site parameters (Enter/Edit) "Outlined Below". |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### <u>PPS-N Site Parameters</u>
@@ -4159,7 +4235,7 @@ Data Values
 <tr class="even">
 <td>3</td>
 <td><p>Multiple field number, field number within the multiple.</p>
-<p>In this example, it’s ACTIVE INGREDIENTS multiple field (#14) and ACTIVE INGREDIENTS field (#.01).</p></td>
+<p>In this example, it's ACTIVE INGREDIENTS multiple field (#14) and ACTIVE INGREDIENTS field (#.01).</p></td>
 <td>14,.01</td>
 <td>Number</td>
 </tr>
@@ -4195,7 +4271,7 @@ Data Values
 </tr>
 <tr class="even">
 <td>1</td>
-<td>Data Value. In this case, it’s the</td>
+<td>Data Value. In this case, it's the</td>
 <td>129</td>
 <td>Free Text</td>
 </tr>
@@ -4316,7 +4392,7 @@ Data Values
 </tr>
 <tr class="even">
 <td>2</td>
-<td>File - In this case, it’s DRUG INGREDIENTS file (#50.416)</td>
+<td>File - In this case, it's DRUG INGREDIENTS file (#50.416)</td>
 <td>50.416</td>
 <td>Number</td>
 </tr>
@@ -4341,7 +4417,7 @@ Data Values
 <tr class="even">
 <td>3</td>
 <td><p>Multiple field number, field number within the multiple.</p>
-<p>In this example, it’s EFFECTIVE DATE/TIME multiple field (#99.991) and STATUS field (#.02).</p></td>
+<p>In this example, it's EFFECTIVE DATE/TIME multiple field (#99.991) and STATUS field (#.02).</p></td>
 <td>99.991,.02</td>
 <td>Number</td>
 </tr>
@@ -4365,7 +4441,7 @@ Data Values
 </tr>
 <tr class="even">
 <td>2</td>
-<td>FILE - In this case, it’s VA PRODUCT file (#50.68)</td>
+<td>FILE - In this case, it's VA PRODUCT file (#50.68)</td>
 <td>50.68</td>
 <td>Number</td>
 </tr>
@@ -4389,7 +4465,7 @@ Data Values
 </tr>
 <tr class="even">
 <td>3</td>
-<td>Field IEN for the file. In this case, it’s the HAZARDOUS TO HANDLE field (#101) for VA PRODUCT file (#50.68)</td>
+<td>Field IEN for the file. In this case, it's the HAZARDOUS TO HANDLE field (#101) for VA PRODUCT file (#50.68)</td>
 <td>101</td>
 <td>Pointer</td>
 </tr>
@@ -4401,7 +4477,7 @@ Data Values
 </tr>
 <tr class="even">
 <td>1</td>
-<td>Value. In this case, it’s 1 for YES</td>
+<td>Value. In this case, it's 1 for YES</td>
 <td>1</td>
 <td>Number</td>
 </tr>
@@ -5482,7 +5558,7 @@ National Drug Identifier A unique, HL7 compatible code assigned to all products 
 NATIONAL DRUG File (#50.6) This file contains a list of available drug products. It includes specific information for each product, including trade name, NDC number, manufacturer, VA Drug Class code, dosage form, route of administration, strength, units, ingredients, ingredient strength and units, package code, package size, package type, VA product name, and VA generic name. NDF software attempts to match products from this file with products in the local DRUG file (#50).
 NATIONAL DRUG A temporary file that is created by the
 TRANSLATION File (#50.612) NDF software. This file will contain information on drugs that have been matched, or for which a match was attempted.
-NDC (NDC Number) National Drug Code. A unique number assigned to a drug by the manufacturer for identification purposes. The NDC is in one of three formats: 4-4-2, 5-3-2, or 5-4-1. The first part is the manufacturer’s code, the second part is the product number, and the last is the code for the package size and type. This is one of the fields in the local DRUG file (#50).
+NDC (NDC Number) National Drug Code. A unique number assigned to a drug by the manufacturer for identification purposes. The NDC is in one of three formats: 4-4-2, 5-3-2, or 5-4-1. The first part is the manufacturer's code, the second part is the product number, and the last is the code for the package size and type. This is one of the fields in the local DRUG file (#50).
 NDF National Drug File. Refers to the National Drug File software.
 Package Code The last portion of the NDC number (the last two digits). This identifies the package type and size in which the product is supplied.
 Package Size The actual (physical) amount of a drug in the individual package (i.e., 5000 capsules per bottle).
@@ -5490,7 +5566,7 @@ Package Type The physical container in which a drug is supplied (i.e., bottle, v
 PPS-N The Pharmacy Product System-National (PPS-N) is a Web-based application that provides the ability to manage pharmacy-specific data across the VA enterprise, ensuring that all facilities are using the same base data for their operations. It allows approved national VA personnel to easily, quickly, and safely manage the VA National Formulary which directs which products (such as medications and supplies) are to be purchased and used by the VA hospital system.
 Product Code The second portion of the NDC number (the second four digits) that identifies the specific drug.
 PSNMGR The name of the primary menu option and of the key that must be assigned to the pharmacy coordinator and supervisors using the National Drug File software.
-Supply Item A non-drug item entered into the GENERIC NAME field (# .01) of the local DRUG file (#50) that may be a prosthetic or expendable item such as ostomy supply, alcohol pads, syringes, bed pans, etc. identified by the code “S” in the DEA/SPECIAL HDLG field (#3) of the local DRUG file (#50).
+Supply Item A non-drug item entered into the GENERIC NAME field (# .01) of the local DRUG file (#50) that may be a prosthetic or expendable item such as ostomy supply, alcohol pads, syringes, bed pans, etc. identified by the code "S" in the DEA/SPECIAL HDLG field (#3) of the local DRUG file (#50).
 Trade Name This is the brand name. The name given to a generic product to distinguish it as one produced and sold by a specific manufacturer.
 UPC Universal Product Code. A unique number assigned to a product by a manufacturer commonly used for supply items. These may be found in the NDC/UPN file (#50.67).
 VA Dispense Unit The standardized unit assigned to a product when the product is marked for CMOP transmission.

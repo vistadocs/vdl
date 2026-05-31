@@ -11,38 +11,79 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5
-group_key: "FH:FH:5.5"
-file_numbers: []
-security_keys: []
+group_key: FH:FH:5.5
+description: '> Pursuant to Department of Veterans Affairs (VA) Veterans Health Administration (VHA) Directive 10- 95-031, Nutrition and Food Service (N&FS) will be the official nomenclature used as the new service name for Dietetic Service in Veterans Health Administration (VHA) central office and at VA...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '111'
+- '111.1'
+- '111.11'
+- '111.115'
+- '111.119'
+- '112'
+- '112.62'
+- '112.63'
+- '112.64'
+- '113'
+- '114'
+- '114.01'
+- '114.03'
+- '114.05'
+- '115'
+- '115.01'
+- '115.011'
+- '115.016'
+- '115.02'
+- '115.03'
+- '115.07'
+- '115.08'
+- '115.09'
+- '115.1'
+- '115.2'
+- '115.7'
+- '116.01'
+- '116.11'
+- '116.112'
+- '116.211'
+- '116.3'
+- '117.06'
+- '117.11'
+- '117.312'
+- '118'
+- '118.1'
+- '118.2'
+- '119.6'
+- '119.61'
+- '119.72'
+- '119.721'
+- '119.74'
+- '119.8'
+- '119.9'
+- '200'
+- '541374'
+security_keys:
+- CLINICIAN
+- FHAUTH
+- ORMGR
 menu_options: 24
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - colspan
-  - even
-  - table
-  - style
-  - width
-  - diet
-  - contents
-  - meals
 page_count: 0
 word_count: 19198
 section_count: 27
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 > ![](nutrition-food-services-version-5-5-technical-manual-and-security-guide/001.png)

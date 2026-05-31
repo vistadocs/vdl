@@ -8,41 +8,36 @@ app_code: FFP
 app_name: Fugitive Felon Program
 section: FIN
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: FFP
+patch_ver: null
+patch_id: null
+group_key: null
+description: '- Revision History - Introduction - Overview - Purpose - Related Manuals - Orientation - User Responses - Using the Software - [Accessing the...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '1100.01'
+security_keys:
+- DGFFP ACCESS
+- ENTER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - felon
-  - fugitive
-  - report
-  - flag
-  - dgffp
-  - date
-  - table
-  - contents
-  - patient
-  - software
 page_count: 0
 word_count: 2642
 section_count: 9
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2021
 revision_count: 8
 revision_newest: 9/23/21
 revision_oldest: 3/14/03
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fugitive_Felon/ffp_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fugitive_Felon/ffp_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=150"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fugitive_Felon/ffp_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fugitive_Felon/ffp_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=150
+audit_applied: '2026-05-31'
 ---
 
 ![](fugitive-felon-program-ffp-user-manual/001.png)

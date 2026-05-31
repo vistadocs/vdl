@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
+group_key: PRC:PRC:5.1
+description: '> Integrated Funds Distribution, Control Point Activity, Accounting and Procurement'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > Integrated Funds Distribution, Control Point Activity, Accounting and Procurement
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - table
-  - contents
-  - class
-  - revision
-  - style
-  - width
-  - history
-  - index
 page_count: 0
 word_count: 153
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=263"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP_Archive/ifcp5_1ldqt_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=263
+audit_applied: '2026-05-31'
 ---
 
 > ![](ifcap-version-5-1-logistics-data-query-tool-user-manual/001.png)

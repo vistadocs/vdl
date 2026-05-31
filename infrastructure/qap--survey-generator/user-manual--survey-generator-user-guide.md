@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: QAP
 patch_ver: 2.0
 patch_id: QAP*2.0
-group_key: "QAP:QAP:2.0"
+group_key: QAP:QAP:2.0
+description: '- | Date | Revision | Description | Author | - # # # # # # Introduction - # # Orientation Section - # # Package Management - # # Package Operation - [# # Survey Generator...'
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- QAP MANAGER
 menu_options: 0
-description: - [| Date | Revision | Description | Author |](#date-revision-description-author) - [# # # # # # Introduction](#introduction) - [# # Orientation Section](#orientation-section) - [# # Package Management](#package-management) - [# # Package Operation](#package-operation) - [# # Survey Generator Manage
-audience: 
-keywords: 
-  - survey
-  - question
-  - author
-  - number
-  - answer
-  - questions
-  - demographic
-  - entered
-  - wish
-  - edit
 page_count: 0
 word_count: 8795
 section_count: 4
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: APRIL 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=27"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Survey_Generator/surveygen_2_0_8.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=27
+audit_applied: '2026-05-31'
 ---
 
 ![](survey-generator-user-guide/001.png)

@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*119
-group_key: "YS:YS:5.01"
+group_key: YS:YS:5.01
+description: Mental Health PCL-5 UpdateYS_PCL5_UPDATEINSTALLATION GUIDEOctober
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - reminder
-  - health
-  - installation
-  - install
-  - build
-  - pclc
-  - pclm
-  - mental
 page_count: 0
 word_count: 3519
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_pcl5_update.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_pcl5_update.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_pcl5_update.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_pcl5_update.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 > ![](ys-5-01-119-mental-health-assistant-phase-3-pcl-5-update-install-guide/001.png)

@@ -11,44 +11,38 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
+group_key: ADT:ADT:5.3
+description: 'Date Description (Patch # if applic.) Project Manager Technical'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '45'
+- '45.02'
+- '45.68'
+- '391.71'
+- '818'
+security_keys:
+- DG PTFREL
+- DG PTFTRANS
+- PROVIDER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - patient
-  - date
-  - record
-  - report
-  - census
-  - table
-  - admission
-  - contents
-  - records
-  - number
 page_count: 0
-word_count: 30471
+word_count: 30458
 section_count: 67
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_ptf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_ptf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_ptf.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_ptf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc423443133" class="anchor"></span>PIMS V. 5.3 ADT Module User Manual
----
-
 Patient Treatment File (PTF) PTF Menu
 
 ![](pims-version-5-3-user-manual-ptf-menu/001.png)

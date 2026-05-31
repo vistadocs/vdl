@@ -11,49 +11,32 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3.0
 patch_id: OR*3.0*453
-group_key: "CPRS:OR:3.0"
+group_key: CPRS:OR:3.0
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- OR PRT ACCESS
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - provider
-  - orders
-  - table
-  - contents
-  - role
-  - tool
-  - patient
-  - window
-  - patients
-  - date
 page_count: 0
-word_count: 4594
+word_count: 4577
 section_count: 18
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2021
 revision_count: 3
 revision_newest: 7/28/2021
 revision_oldest: 7/6/2020
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_ug_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_ug_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_ug_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/prt_ug_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>CPRS Provider Role Tool (PRT)
-
-  User Guide: GUI Version
-
-  V1.0
----
-
 ![](or-3-0-453-provider-role-tool-user-guide/001.png)
 
 July 2021

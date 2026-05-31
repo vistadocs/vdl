@@ -11,47 +11,31 @@ app_status: active
 pkg_ns: LHS
 patch_ver: 1
 patch_id: LHS*1*0
-group_key: "LHS:LHS:1"
-file_numbers: []
+group_key: LHS:LHS:1
+description: '''Table : Deployment, Installation, Back-out, and Rollback Roles and'''
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '200'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - back
-  - span
-  - installation
-  - procedure
-  - patch
-  - rollback
-  - access
-  - proxy
 page_count: 0
-word_count: 4178
+word_count: 4162
 section_count: 32
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Lighthouse_LHS/LHS_1_0_DIBRG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Lighthouse_LHS/LHS_1_0_DIBRG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=240"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Lighthouse_LHS/LHS_1_0_DIBRG.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Lighthouse_LHS/LHS_1_0_DIBRG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=240
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Lighthouse 1.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBR)
----
-
 ![](lhs-1-0-lighthouse-deployment-installation-back-out-and-rollback-guide/001.png)
 
 August 2021

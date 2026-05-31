@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: Toolkit User Guide"
+title: '''Kernel 8.0 Systems Management: Toolkit User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: Toolkit"
+doc_subject: '''Systems Management: Toolkit'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,64 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '3.091'
+- '3.092'
+- '3.094'
+- '3.5'
+- '4'
+- '4.2'
+- '9.4'
+- '44'
+- '49'
+- '80'
+- '80.1'
+- '81'
+- '100.21'
+- '200'
+- '404.51'
+- '405.4'
+- '8930'
+- '8984.1'
+- '8984.2'
+- '8984.3'
+- '8984.4'
+- '8986.095'
+- '8986.098'
+- '8986.3'
+- '8986.35'
+- '8986.4'
+- '8986.5'
+- '8986.51'
+- '8986.6'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+- '8989.52'
+security_keys:
+- XUPROG
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - class
-  - parameter
-  - mark
-  - local
-  - lookup
-  - table
-  - contents
-  - tools
-  - term
 page_count: 0
-word_count: 11665
+word_count: 11658
 section_count: 14
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_toolkit_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_toolkit_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_toolkit_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_toolkit_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Toolkit User Guide
----
-
 ![](kernel-8-0-systems-management-toolkit-user-guide/001.png)
 
 August 2025

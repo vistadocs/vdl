@@ -1,12 +1,47 @@
 ---
-consolidated_title: "nursing user manual change pages"
-app_code: NUR
+title: NUR*4*45 Nursing User Manual Change Pages
 doc_type: UM
-master_source: "NUR*4*45 Nursing User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Nursing Change Pages
+app_code: NUR
+app_name: Nursing
+section: CLI
+app_status: active
+pkg_ns: NUR
+patch_ver: 4
+patch_id: NUR*4*45
+group_key: NUR:NUR:4
+file_numbers:
+- '10.6'
+- '213.9'
+security_keys: []
+menu_options: 0
+description: '''- Document Purpose - Scope of Patch NUR\4.0\45 - Updates to Nursing User Manual Version 4.0 - Section 3: Clinical / Chapter 2: Patient Assignments -...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 482
+section_count: 3
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: May 2018
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs_4_p45_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
+master_source: NUR*4*45 Nursing User Manual Change Pages
 master_pub_date: May 2018
 consolidated_from: 2 versions
 prior_versions:
-  - "NUR*4*43 Nursing User Manual Change Pages"
+- NUR*4*43 Nursing User Manual Change Pages
+consolidated_title: nursing user manual change pages
 ---
 
 Nursing User Manual Version 4.0
@@ -37,7 +72,7 @@ This document presents the new functionality provided by Patch NUR\*4.0\*45 and 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch NUR\*4.0\*45 modifies the Nursing Patient Care Assignment Worksheet to display only the last four digits of each patient’s Social Security Number (SSN) and to remove the admitting diagnosis from the worksheet and replace it with the text “ON FILE.” Additionally, the Nursing End-of-Shift Report is modified to display oxygen levels with the patient’s vital signs, add a line of header information to clarify the purpose of the report sections, include new assessment categories that guide clinical staff when documenting patient problems, and hide contact information for the Attending Physician.
+Patch NUR\*4.0\*45 modifies the Nursing Patient Care Assignment Worksheet to display only the last four digits of each patient's Social Security Number (SSN) and to remove the admitting diagnosis from the worksheet and replace it with the text "ON FILE." Additionally, the Nursing End-of-Shift Report is modified to display oxygen levels with the patient's vital signs, add a line of header information to clarify the purpose of the report sections, include new assessment categories that guide clinical staff when documenting patient problems, and hide contact information for the Attending Physician.
 
 # Updates to Nursing User Manual Version 4.0
 
@@ -51,8 +86,8 @@ The enhancements provided by patch NUR\*4.0\*45 impact two chapters in Section 3
 
 Patch NUR\*4.0\*45 modifies the Nursing Patient Care Assignment Worksheet to protect confidential patient information and help ensure patient privacy.
 
-- Displays only the last four digits of each patient’s Social Security Number (SSN) on the worksheet. The full SSN no longer displays.
-- Removes the admitting diagnosis from the worksheet and replaces it with the text “ON FILE.”
+- Displays only the last four digits of each patient's Social Security Number (SSN) on the worksheet. The full SSN no longer displays.
+- Removes the admitting diagnosis from the worksheet and replaces it with the text "ON FILE."
 
 ![](nur-4-45-nursing-user-manual-change-pages/002.png)
 
@@ -69,11 +104,11 @@ Patch NUR\*4.0\*45 enhances the Nursing End-of-Shift Report to facilitate commun
 > End-of-Shift Report Modifications
 
 - Adds an additional line of header information to the report to clarify the purpose of the various report sections. The new header information includes Situation, Background, Assessment, and Recommendation column headings.
-- Includes oxygen levels in the Assessment section where the patient’s vitals (Latest Vitals) are displayed.
+- Includes oxygen levels in the Assessment section where the patient's vitals (Latest Vitals) are displayed.
 - Adds categories (Assessment, Safety, and Special Needs) to the Patient Problems section of the report.
-- Displays only the last four digits of the patient’s Social Security Number (SSN). The full SSN no longer displays.
+- Displays only the last four digits of the patient's Social Security Number (SSN). The full SSN no longer displays.
 
-> Includes or excludes the Attending Physician’s voice and digital pager numbers by adding the PRINT ATT NUMS ON EOS RPT field (#10.6) to the NURS PARAMETERS file (#213.9) to act as a parameter that controls the display of the Attending Physician contact numbers. Initially, the value is set to NO and Attending Physician contact numbers are not displayed on the report. To display Attending Physician contact numbers on the report, set the value to YES using the Site Parameter File \[NURSFL-SITE\], which can be found using the following pathway:
+> Includes or excludes the Attending Physician's voice and digital pager numbers by adding the PRINT ATT NUMS ON EOS RPT field (#10.6) to the NURS PARAMETERS file (#213.9) to act as a parameter that controls the display of the Attending Physician contact numbers. Initially, the value is set to NO and Attending Physician contact numbers are not displayed on the report. To display Attending Physician contact numbers on the report, set the value to YES using the Site Parameter File \[NURSFL-SITE\], which can be found using the following pathway:
 
 > Nursing System Manager's Menu \[NURS-SYS-MGR\]  
 > Nursing Features (all options) \[NURS-ALL\]  
@@ -84,4 +119,4 @@ Patch NUR\*4.0\*45 enhances the Nursing End-of-Shift Report to facilitate commun
 
 ![](nur-4-45-nursing-user-manual-change-pages/004.png)
 
-> Navigating to Option NURSFL-SITE to Display Site ParametersNote: The prompts following “PRINT ATT NUMS ON EOS RPT:NO//” are restricted. The user’s account must be set to “@” in the FILE MANAGER ACCESS CODE field of the NEW PERSON file or the final two prompts will not display.
+> Navigating to Option NURSFL-SITE to Display Site ParametersNote: The prompts following "PRINT ATT NUMS ON EOS RPT:NO//" are restricted. The user's account must be set to "@" in the FILE MANAGER ACCESS CODE field of the NEW PERSON file or the final two prompts will not display.

@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*158
-group_key: "YS:YS:5.01"
-file_numbers: []
+group_key: YS:YS:5.01
+description: Deployment, Installation, Back-Out and Rollback
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
+- '8994'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - back
-  - global
-  - install
-  - transport
-  - distribution
-  - procedure
-  - rollback
 page_count: 0
 word_count: 2608
 section_count: 22
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004ax_ig_ys_501_158.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004ax_ig_ys_501_158.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004ax_ig_ys_501_158.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004ax_ig_ys_501_158.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 Mental Health – Suicide Prevention

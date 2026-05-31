@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Special Instructions/Other Print Info
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*267
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '> This document provides a brief description of new features of the Special Instructions/Other Print Info and No Allergy Assessments for Inpatient Medications V.5.0 project for patch PSJ\5\267.'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '53.1'
+- '135'
+- '136'
 security_keys: []
 menu_options: 0
-description: > This document provides a brief description of new features of the Special Instructions/Other Print Info and No Allergy Assessments for Inpatient Medications V.5.0 project for patch PSJ\5\267.
-audience: 
-keywords: 
-  - table
-  - contents
-  - allergy
-  - assessment
-  - interfaces
-  - pharmacist
-  - special
-  - print
-  - info
-  - included
 page_count: 0
 word_count: 357
 section_count: 3
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p267_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p267_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p267_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p267_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](psj-5-267-release-notes-special-instructions-other-print-info/001.png)

@@ -3,7 +3,7 @@ title: Shift Handoff Tool Version 1 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: CRHD
 app_name: Shift Handoff Tool
 section: CLI
@@ -11,47 +11,30 @@ app_status: active
 pkg_ns: CRHD
 patch_ver: 1
 patch_id: CRHD*1
-group_key: "CRHD:CRHD:1"
+group_key: CRHD:CRHD:1
+description: '| Date | Description of Change | Author Information | |-----------|-----------------------|------------------------------------| | June 2008 | Initial Release | REDACTED | | | | | | | |'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - shift
-  - handoff
-  - tool
-  - vamc
-  - release
-  - table
-  - notes
-  - contents
-  - class
-  - version
 page_count: 0
-word_count: 653
+word_count: 641
 section_count: 1
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdrn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdrn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=175"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=175
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Shift Handoff Tool
-
-  Release Notes
----
-
 ![](shift-handoff-tool-version-1-release-notes/001.png)
 
 Release Date: June 2008

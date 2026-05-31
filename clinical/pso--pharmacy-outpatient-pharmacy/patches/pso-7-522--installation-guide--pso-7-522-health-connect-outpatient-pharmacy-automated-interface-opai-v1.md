@@ -5,55 +5,37 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: Health Connect/Outpatient Pharmacy Automated Interface (OPAI) Version 1
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*522
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: 02/27/2019 0.12 Updated TBD dates for IOC/National release on pg 6 and 9, updated date in footer and cover page.
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '59'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - connect
-  - health
-  - table
-  - contents
-  - opai
-  - span
-  - production
-  - deployment
-  - class
-  - back
 page_count: 0
-word_count: 6032
+word_count: 6008
 section_count: 34
 table_count: 3
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p522_opai_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p522_opai_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p522_opai_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p522_opai_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>InterSystems Health Connect (HC) / Outpatient Pharmacy Automation Interface (OPAI) 1.0
-
-  PSO\*7\*522
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](pso-7-522-health-connect-outpatient-pharmacy-automated-interface-opai-version-1/001.png)
 
 March 2019

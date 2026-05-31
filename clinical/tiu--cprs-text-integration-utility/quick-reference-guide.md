@@ -3,46 +3,37 @@ title: TIU Quick Reference Card
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: TIU
+patch_ver: null
+patch_id: null
+group_key: null
+description: Ability to view and manipulate clinical documents from a single program Upload capability for many types of documents Improved searching and retrieving capabilities across documents Less duplication of effort for clinicians, managers, and other staff Boilerplate support Links to the Computerized...
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: "<table> <colgroup> <col style=\\"width: 31%\\" /> <col style=\\"width: 35%\\" /> <col style=\\"width: 32%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><blockquote> <p>![](tiu-quick-reference-card/001.png)![](tiu-quick-reference-card/002.png)</p> <p><strong>Benefits of TIU</strong></p> </blockquote> <ul> <li><"
-audience: 
-keywords: 
-  - strong
-  - patient
-  - unsigned
-  - discharge
-  - documents
-  - document
-  - progress
-  - summary
-  - notes
-  - addendum
 page_count: 0
 word_count: 1116
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuqr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuqr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuqr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuqr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 <table>

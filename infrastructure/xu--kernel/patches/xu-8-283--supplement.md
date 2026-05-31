@@ -11,38 +11,40 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*283
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: XU:XU:8
 description: The Pharmacy Benefits Management (PBM) Strategic Healthcare Group, in collaboration with the Drug Enforcement Administration (DEA), requested the development of the first Public Key Infrastructure (PKI) VistA pilot project, named Public Key Infrastructure for Electronic Prescriptions Pilot Project.
-audience: 
-keywords: 
-  - strong
-  - pilot
-  - project
-  - table
-  - kernel
-  - class
-  - software
-  - digital
-  - process
-  - certificate
+audience: ''
+keywords: []
+file_numbers:
+- '4'
+- '19.2'
+- '52'
+- '53.1'
+- '53.2'
+- '53.3'
+- '200'
+- '8980.2'
+- '8980.22'
+- '8989.3'
+security_keys:
+- XUPROGMODE
+menu_options: 1
 page_count: 0
 word_count: 14123
 section_count: 8
 table_count: 111
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0p283sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0p283sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0p283sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0p283sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ![](xu-8-283-288-dea-va-public-key-infrastructure-pki-pilot-project-supplement/001.png)

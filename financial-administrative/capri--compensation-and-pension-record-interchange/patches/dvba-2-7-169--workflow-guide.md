@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*169
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '| | | | | |------------|-----------------------------------------------------------------|----------|------------------| | Date | Description (Patch \# if applicable) | Author | Technical Writer | | 08/02/2010 | Document created | REDACTED | REDACTED | | 08/11/10 | Incorporated ICD and other new...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - leukemia
-  - span
-  - strong
-  - table
-  - enabled
-  - diagnosis
-  - veteran
-  - complications
-  - mandatory
+menu_options: 1
 page_count: 0
 word_count: 3673
 section_count: 10
 table_count: 35
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2010
 revision_count: 3
 revision_newest: 10/28/10
 revision_oldest: 08/02/2010
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_leukemia_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_leukemia_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_leukemia_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_leukemia_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-169-workflow-leukemia/001.png)

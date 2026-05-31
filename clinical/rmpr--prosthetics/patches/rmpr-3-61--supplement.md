@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*61
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: PIP Lessons Learned from Patch 61 Test Sites 1
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: PIP Lessons Learned from Patch 61 Test Sites [1](#pip-lessons-learned-from-patch-61-test-sites)
-audience: 
-keywords: 
-  - strong
-  - blockquote
-  - style
-  - width
-  - table
-  - colgroup
-  - tbody
-  - inventory
-  - class
-  - print
 page_count: 0
 word_count: 5801
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/lessons_learned.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/lessons_learned.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/lessons_learned.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/lessons_learned.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ![](rmpr-3-61-prosthetics-inventory-package-pip-lessons-learned/001.png)

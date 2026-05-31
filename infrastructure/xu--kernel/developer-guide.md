@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Developers Guide: Main Directory"
+title: '''Kernel 8.0 Developers Guide: Main Directory'''
 doc_type: DG
 doc_label: Developer Guide
 doc_layer: anchor
-doc_subject: "Developers Guide: Main Directory"
+doc_subject: '''Developers Guide: Main Directory'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,41 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: ''
+keywords: []
+file_numbers:
+- '3'
+- '3.5'
+- '3.54'
+- '19'
+- '101'
+- '200'
+- '201'
+- '203'
+- '8992'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 2
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - strong
-  - kernel
-  - class
-  - guide
-  - developer
-  - vista
-  - tools
-  - software
-  - table
-  - even
 page_count: 0
-word_count: 7576
+word_count: 7569
 section_count: 5
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_dg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_dg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_dg.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_dg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Developer’s Guide
-
-  Main Directory
----
-
 ![](kernel-8-0-developers-guide-main-directory/001.png)
 
 August 2025

@@ -3,46 +3,37 @@ title: BCMA Version 3 GUI User Manual - Appendix E (Indian Health Service Parame
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: GUI  - Appendix E (Indian Health Service Parameterization Patient Identifier)
+doc_subject: GUI - Appendix E (Indian Health Service Parameterization Patient Identifier)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '''- Appendix E: IHS - Parameterization - Appendix E: IHS - Parameterization - Appendix E: IHS - Parameterization - Appendix E: IHS - Parameterization -...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "- [Appendix E: IHS - Parameterization](#appendix-e-ihs-parameterization) - [Appendix E: IHS - Parameterization](#appendix-e-ihs-parameterization-1) - [Appendix E: IHS - Parameterization](#appendix-e-ihs-parameterization-2) - [Appendix E: IHS - Parameterization](#appendix-e-ihs-parameterization-3) - "
-audience: 
-keywords: 
-  - patient
-  - bcma
-  - strong
-  - parameterization
-  - table
-  - appendix
-  - label
-  - style
-  - width
-  - rpms
 page_count: 0
 word_count: 2074
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixe_ihs_par_pt_id_r0111.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixe_ihs_par_pt_id_r0111.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixe_ihs_par_pt_id_r0111.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_um_appendixe_ihs_par_pt_id_r0111.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 # Appendix E: IHS - Parameterization

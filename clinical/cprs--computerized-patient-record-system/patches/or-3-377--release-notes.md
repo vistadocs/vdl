@@ -11,49 +11,34 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*377
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '- Introduction - Purpose - Audience - This Release - Non-CPRS Features that Affect CPRS Functionality - [PIN Entry Required for Each Controlled Substance...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '60'
+- '801.1'
+- '8927'
+- '8927.1'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - cprs
-  - order
-  - patient
-  - orders
-  - resolution
-  - contents
-  - problem
-  - table
-  - diet
-  - release
 page_count: 0
-word_count: 9998
+word_count: 9975
 section_count: 14
 table_count: 0
 figure_count: 4
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_RN.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_RN.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/OR_3_0_377_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk36805776" class="anchor"></span>Computerized Patient Record System GUI v31b
-
-  Release Notes
-
-  ![](or-3-377-release-notes-cprs-gui-31b/001.png)
----
-
 June 2020
 
 Office of Information and Technology (OI&T)

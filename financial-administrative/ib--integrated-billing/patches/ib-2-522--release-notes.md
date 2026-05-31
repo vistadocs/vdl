@@ -11,51 +11,30 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*522
-group_key: "IB:IB:2"
+group_key: IB:IB:2
+description: '| Date | Version | Description | Author | |----------|---------|-------------------------------------------------------------------------------------|-------------------------------------------| | 9/2/2015 | 1.0 | Baseline document, created for ICD-10 PTF Modifications project patch IB\*2.0\*522. |...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - associated
-  - bill
-  - diagnosis
-  - billing
-  - procedure
-  - procedures
-  - patch
-  - codes
 page_count: 0
-word_count: 2410
+word_count: 2400
 section_count: 18
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 1
 revision_newest: 9/2/2015
 revision_oldest: 9/2/2015
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_522_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_522_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_522_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_522_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ICD-10 PTF Modifications
-
-  Integrated Billing (IB)
-
-  IB\*2.0\*522
-
-  Release Notes
----
-
 ![](ib-2-522-icd-10-ptf-modifications-release-notes/001.png)
 
 September 2015

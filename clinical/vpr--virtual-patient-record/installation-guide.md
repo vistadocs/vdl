@@ -8,41 +8,37 @@ app_code: VPR
 app_name: Virtual Patient Record
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: VPR
+patch_ver: null
+patch_id: null
+group_key: null
 description: This document provides instructions for installing Virtual Patient Record (VPR) version 1.0. VPR is a foundation software package component of the Health Management Platform architecture. This architecture is part of the scope of the Health Informatics Initiative. VPR extracts patient data from doma
-audience: 
-keywords: 
-  - contents
-  - table
-  - installation
-  - patient
-  - package
-  - remote
-  - extract
-  - proxy
-  - version
-  - routines
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '9.4'
+- '19'
+- '200'
+- '8994'
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 780
 section_count: 3
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 2
 revision_newest: 05/14/2012
 revision_oldest: 08/08/11
-docx_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=197"
+docx_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/virtual_patient_record/vpr_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=197
+audit_applied: '2026-05-31'
 ---
 
 ![](virtual-patient-record-vpr-installation-guide/001.png)![](virtual-patient-record-vpr-installation-guide/002.png)

@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: CPRS V27 Project
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*134
-group_key: "PSJ:PSJ:5"
-file_numbers: []
-security_keys: []
+group_key: PSJ:PSJ:5
+description: Pharmacy Changes to Support Computerized Patient Record System (CPRS) GUI Version
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50.7'
+- '51.1'
+security_keys:
+- PSORPH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - pharmacy
-  - changes
-  - order
-  - medications
-  - schedule
-  - inpatient
-  - patient
-  - outpatient
-  - orders
 page_count: 0
 word_count: 1303
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_pss_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_pss_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_pss_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_pso_7_pss_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](psj-5-134-release-notes-cprs-v27-project/001.png)

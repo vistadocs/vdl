@@ -3,7 +3,7 @@ title: Prosthetics Version 3 Basic User Manual (Updated RMPR*3*178)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Basic  (Updated RMPR*3*178)
+doc_subject: Basic (Updated RMPR*3*178)
 app_code: RMPR
 app_name: Prosthetics
 section: CLI
@@ -11,38 +11,41 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3
-group_key: "RMPR:RMPR:3"
-file_numbers: []
-security_keys: []
+group_key: RMPR:RMPR:3
+description: October 2024Department of Veterans Affairs (VA)Office of Information and Technology (OIT)Enterprise Program Management Office (EPMO) Revision
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '440'
+- '442'
+- '660'
+- '661'
+- '662'
+- '664'
+- '665'
+- '665.4'
+- '668'
+security_keys:
+- PROVIDER
 menu_options: 3
-description: "<table style=\\"width:100%;\\"> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 11%\\" /> <col style=\\"width: 70%\\" /> <col style=\\"width: 0%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td>Audience</td> <td colspan=\\"3\\"><blockquote> <p>The <em><strong>Prosthetics Basics User Manual</strong></em> is for"
-audience: 
-keywords: 
-  - strong
-  - table
-  - style
-  - width
-  - class
-  - colgroup
-  - tbody
-  - blockquote
-  - patient
-  - colspan
 page_count: 0
 word_count: 33176
 section_count: 14
 table_count: 16
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/prostheticsbasicsusermanual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/prostheticsbasicsusermanual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/prostheticsbasicsusermanual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/prostheticsbasicsusermanual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 Prosthetics (RMPR)

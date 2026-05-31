@@ -3,46 +3,43 @@ title: NPM Operational Summary
 doc_type: POM
 doc_label: Production Operations Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: NPM
 app_name: National Patch Module
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 0
+pkg_ns: NPM
+patch_ver: null
+patch_id: null
+group_key: null
 description: Patch ModuleOperational SummaryDecentralized Hospital Computer ProgramREDACTED Information Systems CenterTroy, New YorkDecember 1992PATCH MODULE OPERATIONAL SUMMARYTABLEO FCONTENTS===================================================================Introduction 1
-audience: 
-keywords: 
-  - patch
-  - package
-  - patches
-  - verified
-  - completed
-  - report
-  - status
-  - unverified
-  - developer
-  - subject
+audience: Production operations, release engineers
+keywords: []
+file_numbers:
+- '11005.1'
+- '11007'
+security_keys:
+- A1AE DEV
+- A1AE DEVELOPER
+- A1AE MGR
+- A1AE PHVER
+menu_options: 0
 page_count: 0
 word_count: 3220
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmuser.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmuser.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=20"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmuser.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/pmuser.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=20
+audit_applied: '2026-05-31'
 ---
 
 Patch ModuleOperational SummaryDecentralized Hospital Computer ProgramREDACTED Information Systems CenterTroy, New YorkDecember 1992PATCH MODULE OPERATIONAL SUMMARYTABLEO FCONTENTS===================================================================Introduction 1

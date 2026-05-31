@@ -3,7 +3,7 @@ title: Electronic Signature (ESig) Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XOBE
 app_name: Electronic Signature (ESig)
 section: GUI
@@ -11,39 +11,31 @@ app_status: active
 pkg_ns: XOBE
 patch_ver: 1
 patch_id: XOBE*1
-group_key: "XOBE:XOBE:1"
-file_numbers: 
-  - 200
-security_keys: []
+group_key: XOBE:XOBE:1
+description: '''November 2006 1.0 Release Project Manager and Analyst: REDACTED Developer: REDACTED Technical Writer:'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
+security_keys:
+- XUPROGMODE
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - class
-  - esig
-  - table
-  - vista
-  - contents
-  - strong
-  - xobe
-  - signature
-  - even
-  - distribution
 page_count: 0
 word_count: 4727
 section_count: 11
 table_count: 18
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Electronic_Signature/xobe_1_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Electronic_Signature/xobe_1_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=171"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Electronic_Signature/xobe_1_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Electronic_Signature/xobe_1_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=171
+audit_applied: '2026-05-31'
 ---
 
 ![](electronic-signature-esig-version-1-installation-guide/001.png)

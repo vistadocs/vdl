@@ -5,44 +5,39 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: OneVA Pharmacy
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*454
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSO:PSO:7
 description: This document describes how to deploy and install OneVA Pharmacy Patch (PSO\7.0\454).
-audience: 
-keywords: 
-  - pharmacy
-  - table
-  - oneva
-  - contents
-  - installation
-  - flag
-  - span
-  - class
-  - vista
-  - patch
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '59'
+- '391.91'
+- '3001'
+security_keys:
+- DIUSER
+menu_options: 0
 page_count: 0
 word_count: 4741
 section_count: 28
 table_count: 3
 figure_count: 12
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2016
 revision_count: 12
 revision_newest: 11/21/16
 revision_oldest: 07/17/16
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p454_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p454_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p454_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p454_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 OneVA Pharmacy (PSO\*7.0\*454)

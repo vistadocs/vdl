@@ -1,15 +1,70 @@
 ---
-consolidated_title: "technical manual change pages"
-app_code: MD
+title: MD*1*14 Technical Manual change pages
 doc_type: TM
-master_source: "MD*1*14 Technical Manual change pages"
+doc_label: Technical Manual
+doc_layer: patch
+doc_subject: change pages
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*14
+group_key: MD:MD:1
+file_numbers:
+- '1'
+- '2'
+- '3.8'
+- '5'
+- '44'
+- '45.7'
+- '123'
+- '200'
+- '690'
+- '697.2'
+- '702.01'
+- '702.09'
+- '703.1'
+- '703.9'
+- '703.92'
+- '870'
+- '8925'
+- '8925.1'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+security_keys:
+- MD MANAGER
+menu_options: 1
+description: 2. Implementation and Maintenance 2-1 3. Clinical Instrument Interface Specifications 3-1 4. Routine Descriptions 4-1 5. File List and Related Information 5-1
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 12236
+section_count: 14
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 2008
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p14_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p14_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*14 Technical Manual change pages
 master_pub_date: March 2008
 consolidated_from: 5 versions
 prior_versions:
-  - "MD*1*11 Technical Manual change pages"
-  - "MD*1*20 Technical Manual change pages"
-  - "MD*1*21 Technical Manual change pages"
-  - "MD*1*29 Technical Manual change pages"
+- MD*1*11 Technical Manual change pages
+- MD*1*20 Technical Manual change pages
+- MD*1*21 Technical Manual change pages
+- MD*1*29 Technical Manual change pages
+consolidated_title: technical manual change pages
 ---
 
 #### March 2008
@@ -431,7 +486,7 @@ Routine Descriptions
 <p>702,.011</p>
 </blockquote></td>
 <td>Computed</td>
-<td>This field contains the computed value of the patient’s SSN from the Patient (#2) file.</td>
+<td>This field contains the computed value of the patient's SSN from the Patient (#2) file.</td>
 </tr>
 <tr class="odd">
 <td>DOB</td>
@@ -439,7 +494,7 @@ Routine Descriptions
 <p>702,.012</p>
 </blockquote></td>
 <td>Computed</td>
-<td>This field contains the computed value of the patient’s date of birth from the Patient (#2) file.</td>
+<td>This field contains the computed value of the patient's date of birth from the Patient (#2) file.</td>
 </tr>
 <tr class="even">
 <td>Created Date/Time</td>
@@ -487,7 +542,7 @@ Routine Descriptions
 <p>702,.07</p>
 </blockquote></td>
 <td>Free Text 1-50 characters in length</td>
-<td>This field contains This field contains the vstring. The vstring is in the following format: Visit Type_”;”_Visit Date/Time_”;”_Hospital Location (internal entry number of the visit).</td>
+<td>This field contains This field contains the vstring. The vstring is in the following format: Visit Type_";"_Visit Date/Time_";"_Hospital Location (internal entry number of the visit).</td>
 </tr>
 </tbody>
 </table>
@@ -516,7 +571,7 @@ Routine Descriptions
 <p>702,.08</p>
 </blockquote></td>
 <td>Free Text 1-80 characters in length</td>
-<td>Contains the message returned from the VistA Imaging API’s for storing the images on the server.</td>
+<td>Contains the message returned from the VistA Imaging API's for storing the images on the server.</td>
 </tr>
 <tr class="even">
 <td>Transaction Status</td>
@@ -991,7 +1046,7 @@ Routine Descriptions
 <p>702.09,.16</p>
 </blockquote></td>
 <td>Free Text 3-30 characters in length</td>
-<td>This is the name of the actual device where the device name can be ‘”SMC St Louis”.</td>
+<td>This is the name of the actual device where the device name can be '"SMC St Louis".</td>
 </tr>
 <tr class="odd">
 <td>HL7 Universal Service ID</td>
@@ -1731,7 +1786,7 @@ Routine Descriptions
 
 #### TMDRadioGroup = Class(TRadioGroup)
 
-#### This field was designed specifically for the FileMan set of codes field. It loads the appropriate codes into the radio group and displays the ‘Stands For’ portion of the codes while storing to the database the internal value of the code.
+#### This field was designed specifically for the FileMan set of codes field. It loads the appropriate codes into the radio group and displays the 'Stands For' portion of the codes while storing to the database the internal value of the code.
 
 #### TMDCheckBox = Class(TCheckBox)
 
@@ -2914,7 +2969,7 @@ Cross-References
 
 #### Set Maximum Log Entries allows the user to adjust the number of entries that are displayed in the log file. Once this value is reached, entries will be purged from the beginning of the log to keep the log file from growing too large. This value will take effect after the next polling operation so if the current poll value is 300 seconds it may take up to 5 minutes for the new value to be used. Allowable values are 100 to 10000 entries. When the CP Gateway is shut down, all entries are purged from the log file.
 
-#### Note: Purging is also done daily while the CP Gateway is running. This purge deletes the raw data that comes across from the instrument. The CP Gateway keeps data for a specified number of days based on the entry in the system parameter “Days to keep Instrument Data”. Data older than this will be purged. The data to be deleted is already matched with a study. The fields purged are the Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the CP Results file (#703.1).
+#### Note: Purging is also done daily while the CP Gateway is running. This purge deletes the raw data that comes across from the instrument. The CP Gateway keeps data for a specified number of days based on the entry in the system parameter "Days to keep Instrument Data". Data older than this will be purged. The data to be deleted is already matched with a study. The fields purged are the Item Value field (#.1) and Item Text field (#.2) of the Upload Item multiple in the CP Results file (#703.1).
 
 ![](md-1-14-technical-manual-change-pages/002.png)
 
@@ -3032,7 +3087,7 @@ Cross-References
 
 #### Menus.
 
-#### There are no options of special note for the Information Security Officers (ISO’s) to view.
+#### There are no options of special note for the Information Security Officers (ISO's) to view.
 
 #### Security Keys.
 
@@ -3443,7 +3498,7 @@ Vendor Interface List
 
 #### Set search criteria (Last Name, ID, etc.) if any, and click on F1. A list of patients matching your search criteria appears.
 
-#### Select the patient whose results you wish to send by clicking on their name. The selected patient’s name is highlighted.
+#### Select the patient whose results you wish to send by clicking on their name. The selected patient's name is highlighted.
 
 #### Click the F3 button to load the selected patients results data. The Vmax Program Manager screen reappears.
 
@@ -3695,7 +3750,7 @@ Vendor Interface List
 
 #### Access Code A unique sequence of characters known by and assigned only to the user, the system manager and/or designated alternate(s). The access code (in conjunction with the verify code) is used by the computer to identify authorized users.
 
-#### Action A functional process that a clinician or clerk uses in the TIU computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.
+#### Action A functional process that a clinician or clerk uses in the TIU computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.
 
 #### ADP Coordinator/ADPAC/Application Coordinator Automated Data Processing Application Coordinator. The person responsible for implementing a set of computer programs (application package) developed to support a specific functional area such as clinical procedures, PIMS, etc.
 
@@ -3733,13 +3788,13 @@ Vendor Interface List
 
 #### Boilerplate Text A pre-defined TIU template that can be filled in for Titles, Speeding up the entry process. TIU exports several Titles with boilerplate text which can be modified to meet specific needs; sites can also create their own.
 
-#### Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the “...” button to start a lookup).
+#### Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the "..." button to start a lookup).
 
 #### Bulletin A canned message that is automatically sent by MailMan to a user when something happens to the database.
 
 #### Business Rule Part of ASU, Business Rules authorize specific users or groups of users to perform specified actions on documents in particular statuses (e.g., an unsigned CP note may be edited by a provider who is also the expected signer of the note).
 
-#### Class Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
+#### Class Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
 
 #### Consult Referral of a patient by the primary care physician to another hospital service/ specialty, to obtain a medical opinion based on patient evaluation and completion of any procedures, modalities, or treatments the consulting specialist deems necessary to render a medical opinion.
 
@@ -3783,7 +3838,7 @@ Glossary
 
 #### Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation.
 
-#### Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are ‘clinical update users’ for a given consult service.
+#### Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are 'clinical update users' for a given consult service.
 
 #### IRMS Information Resource Management Service.
 

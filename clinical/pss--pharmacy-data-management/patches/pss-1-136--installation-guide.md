@@ -5,44 +5,36 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: VistA to MOCHA Version 1 Interface
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*136
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '59.74'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - strong
-  - server
-  - colgroup
-  - thead
-  - tbody
-  - services
-  - check
-  - vendor
-  - database
 page_count: 0
 word_count: 4835
 section_count: 6
 table_count: 13
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_ig_r0411.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_ig_r0411.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_ig_r0411.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_ig_r0411.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](pss-1-136-installation-guide-vista-to-mocha-version-1-interface/001.png)

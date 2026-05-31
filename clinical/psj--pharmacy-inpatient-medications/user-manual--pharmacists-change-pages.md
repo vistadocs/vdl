@@ -1,33 +1,68 @@
 ---
-consolidated_title: "pharmacist's user manual change pages"
-app_code: PSJ
+title: PSJ*5*275 Pharmacist's User Manual Change Pages
 doc_type: UM
-master_source: "PSJ*5*275 Pharmacist's User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Pharmacist's Change Pages
+app_code: PSJ
+app_name: 'Pharmacy: Inpatient Medications'
+section: CLI
+app_status: active
+pkg_ns: PSJ
+patch_ver: 5
+patch_id: PSJ*5*275
+group_key: PSJ:PSJ:5
+file_numbers: []
+security_keys:
+- PSJ RPHARM
+- PSJI MGR
+menu_options: 1
+description: '> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the exi'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 9409
+section_count: 16
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: December 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p275_phar_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p275_phar_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
+master_source: PSJ*5*275 Pharmacist's User Manual Change Pages
 master_pub_date: December 1997
 consolidated_from: 16 versions
 prior_versions:
-  - "PSJ*5*113 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*120 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*134 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*145 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*181 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*196 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*214 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*215 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*222 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*232 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*235 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*243 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*254 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*267 Pharmacist's User Manual Change Pages"
-  - "PSJ*5*279 Pharmacist's User Manual Change Pages"
+- PSJ*5*113 Pharmacist's User Manual Change Pages
+- PSJ*5*120 Pharmacist's User Manual Change Pages
+- PSJ*5*134 Pharmacist's User Manual Change Pages
+- PSJ*5*145 Pharmacist's User Manual Change Pages
+- PSJ*5*181 Pharmacist's User Manual Change Pages
+- PSJ*5*196 Pharmacist's User Manual Change Pages
+- PSJ*5*214 Pharmacist's User Manual Change Pages
+- PSJ*5*215 Pharmacist's User Manual Change Pages
+- PSJ*5*222 Pharmacist's User Manual Change Pages
+- PSJ*5*232 Pharmacist's User Manual Change Pages
+- PSJ*5*235 Pharmacist's User Manual Change Pages
+- PSJ*5*243 Pharmacist's User Manual Change Pages
+- PSJ*5*254 Pharmacist's User Manual Change Pages
+- PSJ*5*267 Pharmacist's User Manual Change Pages
+- PSJ*5*279 Pharmacist's User Manual Change Pages
+consolidated_title: pharmacist's user manual change pages
 ---
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/001.png)
 
 INPATIENT MEDICATIONS
 
-> PHARMACIST’S USER MANUAL
+> PHARMACIST'S USER MANUAL
 
 > Version 5.0
 
@@ -39,7 +74,7 @@ INPATIENT MEDICATIONS
 
 > Revision History
 
-> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists “All,” replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
+> Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the existing manual with the Change Pages Document or print the entire new manual.
 
 <table>
 <colgroup>
@@ -248,7 +283,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td><blockquote>
 <p>Updated Table of Contents</p>
-<p>Added Order Checks/Interventions (OCI) to “Hidden</p>
+<p>Added Order Checks/Interventions (OCI) to "Hidden</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -256,7 +291,7 @@ INPATIENT MEDICATIONS
 <td></td>
 <td></td>
 <td><blockquote>
-<p>Actions” section</p>
+<p>Actions" section</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -362,7 +397,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td></td>
 <td><blockquote>
-<p>Added “Display Pharmacist Intervention” section</p>
+<p>Added "Display Pharmacist Intervention" section</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -413,7 +448,7 @@ INPATIENT MEDICATIONS
 <p>PSJ*5*235</p>
 </blockquote></td>
 <td><blockquote>
-<p>Updated ‘Note’ section regarding Expected First Dose</p>
+<p>Updated 'Note' section regarding Expected First Dose</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -430,7 +465,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td><blockquote>
 <p>Update Revision History Update Index</p>
-<p>Revised the existing display in the <em>Non-Verified/Pending Orders</em> [PSJU VBW] option from a pure alphabetic listing of patient names, to a categorized listing by priority. Added “priority” to Index.</p>
+<p>Revised the existing display in the <em>Non-Verified/Pending Orders</em> [PSJU VBW] option from a pure alphabetic listing of patient names, to a categorized listing by priority. Added "priority" to Index.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -503,7 +538,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td></td>
 <td><blockquote>
-<p>Update: “Select DRUG”</p>
+<p>Update: "Select DRUG"</p>
 </blockquote></td>
 </tr>
 <tr class="even">
@@ -983,7 +1018,7 @@ INPATIENT MEDICATIONS
 <p>PSJ*5*214</p>
 </blockquote></td>
 <td><blockquote>
-<p>Updated Table of Contents to include new sections. Added new sections 8.1.5 and 8.2.4 to reference <em>Patients on Specific Drug(s)</em> option that is now commonly used by pharmacists who may have been assigned this option directly and not as part of the Supervisor’s Menu. Added <em>Patients on Specific Drug(s)</em> option to the Index.</p>
+<p>Updated Table of Contents to include new sections. Added new sections 8.1.5 and 8.2.4 to reference <em>Patients on Specific Drug(s)</em> option that is now commonly used by pharmacists who may have been assigned this option directly and not as part of the Supervisor's Menu. Added <em>Patients on Specific Drug(s)</em> option to the Index.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -1075,7 +1110,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td><blockquote>
 <p>Modified outpatient header text for display of duplicate orders. Added new functionality to Duplicate Drug and Duplicate Class Order Check definitions.</p>
-<p>Modifications for remote allergies, to ensure all allergies are included when doing order checks using VA Drug Class; Analgesic order checks match against specific class only; check for remote data interoperability performed when entering patient’s chart; and list of remote allergies added to Patient Information screen.</p>
+<p>Modifications for remote allergies, to ensure all allergies are included when doing order checks using VA Drug Class; Analgesic order checks match against specific class only; check for remote data interoperability performed when entering patient's chart; and list of remote allergies added to Patient Information screen.</p>
 <p><mark>REDACTED</mark></p>
 </blockquote></td>
 </tr>
@@ -1269,7 +1304,7 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/002.png)When the selected order type (non-verified or pending) does not exist (for that patient) while the user is in the *Non-Verified/Pending Orders* option, the user cannot enter a new order or take action on an existing order for that patient.
 
-> Patient locks and order locks are incorporated within the Inpatient Medications package. When a user (User 1) selects a patient through any of the three paths, *Order Entry*, *Non-Verified/Pending Orders*, or *Inpatient Order Entry*, and this patient has already been selected by another user (User 2), the user (User 1) will see a message that another user (User 2) is processing orders for this patient. This will be a lock at the patient level within the Pharmacy packages. When the other user (User 2) is entering a new order for the patient, the user (User 1) will not be able to access the patient due to a patient lock within the VistA packages. A lock at the order level is issued when an order is selected through Inpatient Medications for any action other than new order entry. Any users attempting to access this patient’s order will receive a message that another user is working on this order. This order level lock is within the VistA packages.
+> Patient locks and order locks are incorporated within the Inpatient Medications package. When a user (User 1) selects a patient through any of the three paths, *Order Entry*, *Non-Verified/Pending Orders*, or *Inpatient Order Entry*, and this patient has already been selected by another user (User 2), the user (User 1) will see a message that another user (User 2) is processing orders for this patient. This will be a lock at the patient level within the Pharmacy packages. When the other user (User 2) is entering a new order for the patient, the user (User 1) will not be able to access the patient due to a patient lock within the VistA packages. A lock at the order level is issued when an order is selected through Inpatient Medications for any action other than new order entry. Any users attempting to access this patient's order will receive a message that another user is working on this order. This order level lock is within the VistA packages.
 
 > The three different paths for entering a new order or taking an action on an existing order are summarized in the following sections.
 
@@ -1285,7 +1320,7 @@ INPATIENT MEDICATIONS
 
 > This option functions almost identically to the *Inpatient Order Entry* option, but does not include IV orders on the profile and only Unit Dose orders may be entered or processed.
 
-> After selecting the *Order Entry* option from the *Unit Dose Medications* option, the pharmacist will be prompted to select the patient. At the “Select PATIENT:” prompt, the user can enter the patient’s name or enter the first letter of the patient’s last name and the last four digits of the patient’s social security number (e.g., P0001).
+> After selecting the *Order Entry* option from the *Unit Dose Medications* option, the pharmacist will be prompted to select the patient. At the "Select PATIENT:" prompt, the user can enter the patient's name or enter the first letter of the patient's last name and the last four digits of the patient's social security number (e.g., P0001).
 
 > Before the Patient Information screen displays, if the patient selected has no allergy assessment on file, the following prompt displays to the pharmacist/user:
 
@@ -1296,11 +1331,11 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/003.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are minor variations in the Order Entry process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
 > 12 Inpatient Medications V. 5.0 April 2013
 
-> Example: Pharmacist Answers ‘No’ and Intervention is Created
+> Example: Pharmacist Answers 'No' and Intervention is Created
 
 > The Patient Information Screen is displayed:
 
@@ -1410,7 +1445,7 @@ INPATIENT MEDICATIONS
 </tbody>
 </table>
 
-> The pharmacist can now enter a Patient Action at the “Select Action: View Profile//” prompt in the Action Area of the screen.
+> The pharmacist can now enter a Patient Action at the "Select Action: View Profile//" prompt in the Action Area of the screen.
 
 > (*This page included for two-sided copying.)*
 
@@ -1424,7 +1459,7 @@ INPATIENT MEDICATIONS
 
 > The *Non-Verified/Pending Orders* \[PSJU VBW\] option also allows for processing of clinic orders. New clinic orders cannot be created. Clinic orders are displayed separately from non- clinic orders.
 
-> The first prompt is “Display an Order Summary? NO//.” A YES answer will allow the pharmacist to view an Order Summary of Pending/Non-Verified Order Totals by Ward Group, Clinic Group, and Clinic. The Pending IV, Pending Unit Dose, Non-Verified IV, and Non- Verified Unit Dose totals are then listed by Ward Group, Clinic Group, and Clinic. The pharmacist can then specify whether to display Non-Verified Orders, Pending Orders, or both.
+> The first prompt is "Display an Order Summary? NO//." A YES answer will allow the pharmacist to view an Order Summary of Pending/Non-Verified Order Totals by Ward Group, Clinic Group, and Clinic. The Pending IV, Pending Unit Dose, Non-Verified IV, and Non- Verified Unit Dose totals are then listed by Ward Group, Clinic Group, and Clinic. The pharmacist can then specify whether to display Non-Verified Orders, Pending Orders, or both.
 
 > A ward group indicates inpatient nursing units (wards) that have been defined as a group within Inpatient Medications to facilitate processing of orders. A clinic group is a combination of outpatient clinics that have been defined as a group within Inpatient Medications to facilitate processing of orders.
 
@@ -1616,7 +1651,7 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/005.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are variations in the process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
 ### Inpatient Order Entry
 
@@ -1632,7 +1667,7 @@ INPATIENT MEDICATIONS
 
 > Example: Inpatient Order Entry
 
-> At the “Select PATIENT:” prompt, the user can enter the patient’s name or enter the first letter of the patient’s last name and the last four digits of the patient’s social security number (e.g., P0001).
+> At the "Select PATIENT:" prompt, the user can enter the patient's name or enter the first letter of the patient's last name and the last four digits of the patient's social security number (e.g., P0001).
 
 > Before the Patient Information screen displays, if the patient selected has no allergy assessment on file, the following prompt displays to the pharmacist/user:
 
@@ -1643,9 +1678,9 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/006.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are variations in the Order Entry process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
-> Example: Pharmacist Answers ‘No’ and Intervention is Created
+> Example: Pharmacist Answers 'No' and Intervention is Created
 
 > The Patient Information Screen is displayed:
 
@@ -1735,7 +1770,7 @@ INPATIENT MEDICATIONS
 
 > Once the pharmacist has reached the point of entering a new order or selecting an existing order, the process becomes the same for each path.
 
-> Patient locks and order locks are incorporated within the Inpatient Medications package. When a user (User 1) selects a patient through either of the two paths, *Order Entry (IV) or Inpatient Order Entry*, and this patient has already been selected by another user (User 2), the user (User 1) will see a message that another user (User 2) is processing orders for this patient. This will be a lock at the patient level within the Pharmacy packages. When the other user (User 2) is entering a new order for the patient, the user (User 1) will not be able to access the patient due to a patient lock within the VistA packages. A lock at the order level is issued when an order is selected through Inpatient Medications for any action other than new order entry. Any users attempting to access this patient’s order will receive a message that another user is working on this order. This order level lock is within the VistA packages.
+> Patient locks and order locks are incorporated within the Inpatient Medications package. When a user (User 1) selects a patient through either of the two paths, *Order Entry (IV) or Inpatient Order Entry*, and this patient has already been selected by another user (User 2), the user (User 1) will see a message that another user (User 2) is processing orders for this patient. This will be a lock at the patient level within the Pharmacy packages. When the other user (User 2) is entering a new order for the patient, the user (User 1) will not be able to access the patient due to a patient lock within the VistA packages. A lock at the order level is issued when an order is selected through Inpatient Medications for any action other than new order entry. Any users attempting to access this patient's order will receive a message that another user is working on this order. This order level lock is within the VistA packages.
 
 > The two different paths for entering a new order or taking an action on an existing order are summarized below.
 
@@ -1745,11 +1780,11 @@ INPATIENT MEDICATIONS
 
 > \[PSJI ORDER\]
 
-> The *Order Entry (IV)* \[PSJI ORDER\] option allows the pharmacist to complete, edit, renew, and discontinue orders and to place existing orders on hold or on call. This option also allows the user to create new orders and new labels. A long profile can be chosen to review all of the patient’s IV orders, or the user can bypass the profile by selecting NO Profile, and proceed directly to order entry. The profile is essentially the same as that generated by the *Profile (IV)* option. The long profile shows all orders, including discontinued and expired orders. The short profile omits the discontinued and expired orders.
+> The *Order Entry (IV)* \[PSJI ORDER\] option allows the pharmacist to complete, edit, renew, and discontinue orders and to place existing orders on hold or on call. This option also allows the user to create new orders and new labels. A long profile can be chosen to review all of the patient's IV orders, or the user can bypass the profile by selecting NO Profile, and proceed directly to order entry. The profile is essentially the same as that generated by the *Profile (IV)* option. The long profile shows all orders, including discontinued and expired orders. The short profile omits the discontinued and expired orders.
 
 > The *Order Entry (IV)* \[PSJI ORDER\] option also allows for processing of clinic orders. New clinic orders cannot be created. Clinic orders are displayed separately from non-clinic orders.
 
-> After selecting the *Order Entry (IV)* option from the *IV Menu* option, the pharmacist will be prompted to select the patient. At the “Select PATIENT:” prompt, the user can enter the patient’s name or enter the first letter of the patient’s last name and the last four digits of the patient’s social security number (e.g., P0001). The Patient Information Screen is displayed, as shown in the following example.
+> After selecting the *Order Entry (IV)* option from the *IV Menu* option, the pharmacist will be prompted to select the patient. At the "Select PATIENT:" prompt, the user can enter the patient's name or enter the first letter of the patient's last name and the last four digits of the patient's social security number (e.g., P0001). The Patient Information Screen is displayed, as shown in the following example.
 
 > Before the Patient Information screen displays, if the patient selected has no allergy assessment on file, the following prompt displays to the pharmacist/user:
 
@@ -1760,9 +1795,9 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/007.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are variations in the Order Entry process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
-> Example: Pharmacist Answers ‘No’ and Intervention is Created
+> Example: Pharmacist Answers 'No' and Intervention is Created
 
 > (*This page included for two-sided copying.)*
 
@@ -1805,7 +1840,7 @@ INPATIENT MEDICATIONS
 </tbody>
 </table>
 
-> The pharmacist can now enter a Patient Action at the “Select Action: View Profile//” prompt in the Action Area of the screen.
+> The pharmacist can now enter a Patient Action at the "Select Action: View Profile//" prompt in the Action Area of the screen.
 
 ### Inpatient Order Entry
 
@@ -1821,7 +1856,7 @@ INPATIENT MEDICATIONS
 
 > Example: Inpatient Order Entry
 
-> At the “Select PATIENT:” prompt, the user can enter the patient’s name or enter the first letter of the patient’s last name and the last four digits of the patient’s social security number (e.g., P0001).
+> At the "Select PATIENT:" prompt, the user can enter the patient's name or enter the first letter of the patient's last name and the last four digits of the patient's social security number (e.g., P0001).
 
 > Before the Patient Information screen displays, if the patient selected has no allergy assessment on file, the following prompt displays to the pharmacist/user:
 
@@ -1832,7 +1867,7 @@ INPATIENT MEDICATIONS
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/008.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are variations in the Order Entry process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
 ### Syringe-Type Order Entry
 
@@ -1840,7 +1875,7 @@ INPATIENT MEDICATIONS
 
 > Once the pharmacist selects the syringe-type order, the system will prompt if the syringe is intermittent. If a syringe is continuous (not intermittent), the user will follow the same order entry procedure as in entering a hyperal or admixture order. If the syringe is intermittent, the user will follow the same order entry procedure as a piggyback order.
 
-> On all syringe orders, a separate volume prompt appears during order entry to allow any necessary volume changes to the solution (if any) for the order. The pharmacist should use caution during order entry of syringe types to ensure that the total volume for the syringe additive and solution is not greater than the total syringe volume. There is no “BOTTLE” prompt as in other order entry types, and a separate “SYRINGE SIZE” prompt appears during order entry to allow the user to enter the syringe size for the order. All syringe sizes are printed on the labels.
+> On all syringe orders, a separate volume prompt appears during order entry to allow any necessary volume changes to the solution (if any) for the order. The pharmacist should use caution during order entry of syringe types to ensure that the total volume for the syringe additive and solution is not greater than the total syringe volume. There is no "BOTTLE" prompt as in other order entry types, and a separate "SYRINGE SIZE" prompt appears during order entry to allow the user to enter the syringe size for the order. All syringe sizes are printed on the labels.
 
 > If the pharmacist uses additive quick codes for an intermittent syringe order, they will be handled like they are for piggyback orders. If quick codes are used for a continuous syringe order, they will be handled like they are for admixture orders.
 
@@ -1860,9 +1895,9 @@ INPATIENT MEDICATIONS
 
 > The *Profile (IV)* \[PSJI PROFILE\] option also allows for viewing a list of clinic orders. New clinic orders cannot be created. Clinic orders are displayed separately from non-clinic orders.
 
-> After selecting the patient for whom a profile view is needed, the length of the profile is chosen. The user may choose to view a long or short profile or, if the user decides not to view a profile for the chosen patient, “NO Profile” can be selected. When “NO Profile” is chosen, the system
+> After selecting the patient for whom a profile view is needed, the length of the profile is chosen. The user may choose to view a long or short profile or, if the user decides not to view a profile for the chosen patient, "NO Profile" can be selected. When "NO Profile" is chosen, the system
 
-> will return to the “Select PATIENT:” prompt and the user may choose a new patient. Each profile includes:
+> will return to the "Select PATIENT:" prompt and the user may choose a new patient. Each profile includes:
 
 - Patient Name
 - Ward Location
@@ -1876,7 +1911,7 @@ INPATIENT MEDICATIONS
 - Admitting Diagnosis
 - Verified Drug Allergies and Adverse Reactions
 
-> The patient’s orders are displayed depending on the type of profile chosen. The long profile shows all orders, including discontinued and expired orders. Orders are sorted first by status, with active orders listed first, followed by pending and non-active orders. Within each status, orders are displayed in order of entry, with the most recent order first. Please see the Inpatient Profile section for more discussion on possible statuses and sample displays.
+> The patient's orders are displayed depending on the type of profile chosen. The long profile shows all orders, including discontinued and expired orders. Orders are sorted first by status, with active orders listed first, followed by pending and non-active orders. Within each status, orders are displayed in order of entry, with the most recent order first. Please see the Inpatient Profile section for more discussion on possible statuses and sample displays.
 
 > The information is displayed for each order under the following column headings:
 
@@ -1912,7 +1947,7 @@ INPATIENT MEDICATIONS
 
 > A search med orders date entry prompt is the first prompt from the *Edit Clinic Med Orders Start Date/Time* \[PSJ ECO\] menu option.
 
-- The Begin Search Date defaults to “ TODAY//” (current date).
+- The Begin Search Date defaults to " TODAY//" (current date).
 - The End Search Date defaults to the entered Begin Search Date. The End Search Date shall not precede the Begin Search Date.
 
 > Example: Prompt that End Search Date Shall Not Precede Begin Search Date
@@ -1926,13 +1961,13 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The entry prompt “Search by CLINIC (C), CLINIC GROUP (G), or PATIENT (P):” allows the user to search by clinic, clinic group or patient, with no default, from the *Edit Clinic Med Orders Start Date/Time* \[PSJ ECO\] menu option.
+> The entry prompt "Search by CLINIC (C), CLINIC GROUP (G), or PATIENT (P):" allows the user to search by clinic, clinic group or patient, with no default, from the *Edit Clinic Med Orders Start Date/Time* \[PSJ ECO\] menu option.
 
 > Example: Prompt to Select Clinic, Clinic Group or Patient
 
 > Search by CLINIC (C), CLINIC GROUP (G) or PATIENT (P):
 
-> The appropriate entry prompt “C,” “G,” or “P” is provided and allows the user to enter a Clinic, Clinic Group or Patient name. Current business rules apply to the entry of clinic name, clinic group or patient name.
+> The appropriate entry prompt "C," "G," or "P" is provided and allows the user to enter a Clinic, Clinic Group or Patient name. Current business rules apply to the entry of clinic name, clinic group or patient name.
 
 > Table: Prompt Entry for Clinic, Clinic Group or Patient
 
@@ -1961,7 +1996,7 @@ INPATIENT MEDICATIONS
 <p>C</p>
 </blockquote></td>
 <td><blockquote>
-<p>“SELECT CLINIC:”</p>
+<p>"SELECT CLINIC:"</p>
 </blockquote></td>
 <td><blockquote>
 <p>Clinic name – case inclusive</p>
@@ -1973,7 +2008,7 @@ INPATIENT MEDICATIONS
 <p>G</p>
 </blockquote></td>
 <td><blockquote>
-<p>“SELECT CLINIC GROUP”</p>
+<p>"SELECT CLINIC GROUP"</p>
 </blockquote></td>
 <td><blockquote>
 <p>Clinic group name</p>
@@ -1984,7 +2019,7 @@ INPATIENT MEDICATIONS
 <p>P</p>
 </blockquote></td>
 <td><blockquote>
-<p>“SELECT PATIENT:”</p>
+<p>"SELECT PATIENT:"</p>
 </blockquote></td>
 <td><blockquote>
 <p>Patient name</p>
@@ -1993,13 +2028,13 @@ INPATIENT MEDICATIONS
 </tbody>
 </table>
 
-> The entry prompt, “SELECT CLINIC:” or “SELECT PATIENT:” is repeated allowing the user to select multiple clinics or multiple patients by entering individual names for the search. A blank return stops the search, and the process continues.
+> The entry prompt, "SELECT CLINIC:" or "SELECT PATIENT:" is repeated allowing the user to select multiple clinics or multiple patients by entering individual names for the search. A blank return stops the search, and the process continues.
 
 ### Select Patient from Clinic
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the user selects “Clinic,” the numbered list of active patients’ full names displays in alphabetical order by last name for all active or non-verified clinic orders (Unit Dose, IV, IVP, IVPB) from the med orders date/time range entered.
+> If the user selects "Clinic," the numbered list of active patients' full names displays in alphabetical order by last name for all active or non-verified clinic orders (Unit Dose, IV, IVP, IVPB) from the med orders date/time range entered.
 
 > Example: Display Patient List
 
@@ -2045,7 +2080,7 @@ INPATIENT MEDICATIONS
 </tbody>
 </table>
 
-> If the user selects “Clinic,” an entry prompt of “Select N – N:” displays. N – N represents the begin/end number of displayed patients. The user may select one or multiple patients. Current business rules apply to numbered entry list selection.
+> If the user selects "Clinic," an entry prompt of "Select N – N:" displays. N – N represents the begin/end number of displayed patients. The user may select one or multiple patients. Current business rules apply to numbered entry list selection.
 
 > Example: Prompt to Select Patient
 
@@ -2115,7 +2150,7 @@ INPATIENT MEDICATIONS
 </tbody>
 </table>
 
-> ![](psj-5-275-pharmacist-s-user-manual-change-pages/009.png)Note: If the user selects “by Patient,” orders for all clinics for that patient are displayed rather than orders from a single clinic. This is the alternate path re-entry point when selecting by patient.
+> ![](psj-5-275-pharmacist-s-user-manual-change-pages/009.png)Note: If the user selects "by Patient," orders for all clinics for that patient are displayed rather than orders from a single clinic. This is the alternate path re-entry point when selecting by patient.
 
 > The following user actions are provided in the Clinic Order Entry Patient profile:
 
@@ -2129,13 +2164,13 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The “ES” (Edit Start Date) action allows the user to select medication orders to edit. The system provides an entry prompt “Select Orders: (N-N):” when ES is entered. (N - N) represents the begin/end number from the displayed number list in the Clinic Order Entry profile. The system proceeds to entry prompt “NEW START DATE/TIME:”
+> The "ES" (Edit Start Date) action allows the user to select medication orders to edit. The system provides an entry prompt "Select Orders: (N-N):" when ES is entered. (N - N) represents the begin/end number from the displayed number list in the Clinic Order Entry profile. The system proceeds to entry prompt "NEW START DATE/TIME:"
 
 ### VD View Order Detail
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The “VD” (View Order Detail) action allows the user to select the medication orders to view. The following attributes are provided:
+> The "VD" (View Order Detail) action allows the user to select the medication orders to view. The following attributes are provided:
 
 - View Only
 - No Patient Demographics
@@ -2148,7 +2183,7 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The “VP” (View Profile) action allows the user to view the order profile for all medication orders. The following attributes are provided:
+> The "VP" (View Profile) action allows the user to view the order profile for all medication orders. The following attributes are provided:
 
 - Entire Patient Profile Non-Clinic and Clinic medication orders are displayed.
 - This is a display only action.
@@ -2214,7 +2249,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The “CD” (Change Date Range) action in the Clinic Order Entry view allows the user to change the search date range for the current patient’s clinic orders. The user may begin a new search by entering a new Begin Search Date and End Search Date for the current patient and continue with the ECO process. The original date range entry remains unchanged for other patients after completing the CD action for the current patient.
+> The "CD" (Change Date Range) action in the Clinic Order Entry view allows the user to change the search date range for the current patient's clinic orders. The user may begin a new search by entering a new Begin Search Date and End Search Date for the current patient and continue with the ECO process. The original date range entry remains unchanged for other patients after completing the CD action for the current patient.
 
 > To assist the user in selecting clinics and patients, clinics are displayed alphabetically along with the associated patients, within the selected date range and clinic group. The Clinic Order Entry profile displays after the completion of the patient selection for all the selected clinics.
 
@@ -2279,13 +2314,13 @@ ADR: AMPICILLIN
 </tbody>
 </table>
 
-> If the user selects by “Patient,” and no active/non-verified orders exist within the entered date range, the message below displays.
+> If the user selects by "Patient," and no active/non-verified orders exist within the entered date range, the message below displays.
 
 > Example: No Active/Non-Verified Clinic Orders by Patient Message
 
 > No ACTIVE AND/OR NON-VERIFIED Clinic Orders found for this patient
 
-> If the user selects by “Clinic,” and no active/non-verified orders exist within the entered date range, the message below displays.
+> If the user selects by "Clinic," and no active/non-verified orders exist within the entered date range, the message below displays.
 
 > Example: No Active/Non-Verified Clinic Orders by Clinic Message
 
@@ -2295,9 +2330,9 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The entry prompt “Select Action: Quit//” displays on the Clinic Order Entry Patient profile after the Inpatient Medications profile displays for the selected patient(s). The number entered forces the use of the VD action with a “Enter RETURN to continue or '^' to exit:” prompt.
+> The entry prompt "Select Action: Quit//" displays on the Clinic Order Entry Patient profile after the Inpatient Medications profile displays for the selected patient(s). The number entered forces the use of the VD action with a "Enter RETURN to continue or '^' to exit:" prompt.
 
-> Example: Entering a Number Response to “Select Action: Quit//” Prompt
+> Example: Entering a Number Response to "Select Action: Quit//" Prompt
 
 <table>
 <colgroup>
@@ -2376,7 +2411,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The entry prompt, “NEW START DATE/TIME:,” displays allowing the user to enter a new Start Date/Time. After the user enters a new Start Date/Time, a prompt displays giving the user the ability to change the calculated Stop Date/Time.
+> The entry prompt, "NEW START DATE/TIME:," displays allowing the user to enter a new Start Date/Time. After the user enters a new Start Date/Time, a prompt displays giving the user the ability to change the calculated Stop Date/Time.
 
 > Example: Prompt Entry for New Start Date/Time
 
@@ -2386,7 +2421,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Clinic Order Entry view, based on Begin search date and the NEW end date, if greater than the original entered end date of the search, re-displays after the user enters “YES” to the “CHANGE ALL START DATES/TIME TO” prompt.
+> The Clinic Order Entry view, based on Begin search date and the NEW end date, if greater than the original entered end date of the search, re-displays after the user enters "YES" to the "CHANGE ALL START DATES/TIME TO" prompt.
 
 > Example: Display Clinic Order Entry with New Start Date
 
@@ -2464,7 +2499,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> After the user answers “YES” to the “Are you sure?” confirmation of the new Start Date/Time change, the prompt “NATURE OF ORDER: SERVICE CORRECTION//” displays for an ACTIVE Clinic Order, with a default of SERVICE CORRECTION.
+> After the user answers "YES" to the "Are you sure?" confirmation of the new Start Date/Time change, the prompt "NATURE OF ORDER: SERVICE CORRECTION//" displays for an ACTIVE Clinic Order, with a default of SERVICE CORRECTION.
 
 > Example: Nature of Order Prompt
 
@@ -2570,7 +2605,7 @@ ADR: AMPICILLIN
 </tbody>
 </table>
 
-> After the user enters “QUIT” or when editing by clinic with multiple patients, the system mimics the *Non-Verified/Pending Orders* \[PSJU VBW\] option when cycling through the remaining selected patient(s).
+> After the user enters "QUIT" or when editing by clinic with multiple patients, the system mimics the *Non-Verified/Pending Orders* \[PSJU VBW\] option when cycling through the remaining selected patient(s).
 
 > ![](psj-5-275-pharmacist-s-user-manual-change-pages/010.png)Note: The Nature of Order prompt does not display for edits made to orders that are not active, e.g., orders with a status of non-verified.
 
@@ -2584,7 +2619,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> A change to a new start date, earlier than “NOW” is not allowed. If the new start date entered is earlier than “NOW” the following prompt displays: “Start Date/Time earlier than NOW is not allowed. Re-enter start date. Enter new Start Date/Time:”.
+> A change to a new start date, earlier than "NOW" is not allowed. If the new start date entered is earlier than "NOW" the following prompt displays: "Start Date/Time earlier than NOW is not allowed. Re-enter start date. Enter new Start Date/Time:".
 
 ### New Start Date beyond 365 Days
 
@@ -2600,16 +2635,16 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The message below displays when orders exist for the date entered at the “new Start Date/Time:” prompt. The existing active orders also display.
+> The message below displays when orders exist for the date entered at the "new Start Date/Time:" prompt. The existing active orders also display.
 
 > Example: Message Other Orders Exist
 
-- If the user answers “YES,” a Profile View for the selected orders for the Start Date/Time edit for the new date displays followed by the prompt to continue.
+- If the user answers "YES," a Profile View for the selected orders for the Start Date/Time edit for the new date displays followed by the prompt to continue.
 
 > Example: Display View Profile for Selected Order
 
-- If the user answers “YES,” the process continues.
-- If the user answers “NO,” the “new Start Date/Time:” prompt to re-enter a new Start Date/Time displays.
+- If the user answers "YES," the process continues.
+- If the user answers "NO," the "new Start Date/Time:" prompt to re-enter a new Start Date/Time displays.
 
 ### New Start Date After One or More Stop Dates
 
@@ -2619,10 +2654,10 @@ ADR: AMPICILLIN
 
 > Example: Display Start Date After Stop Date
 
-- If the user answers “YES,” the process continues.
-- If the user answers “NO,” the “new Start Date/Time:” prompt to re-enter a new Start Date/Time displays.
+- If the user answers "YES," the process continues.
+- If the user answers "NO," the "new Start Date/Time:" prompt to re-enter a new Start Date/Time displays.
 
-> The selected changed med orders display followed by the message: “The Start Date/Time for the selected orders will now be changed to mm/dd/yy hh:mm (user entered Start Date/Time.) Are you sure?”
+> The selected changed med orders display followed by the message: "The Start Date/Time for the selected orders will now be changed to mm/dd/yy hh:mm (user entered Start Date/Time.) Are you sure?"
 
 > Example: Prompt to Confirm Changed Start Date
 
@@ -2668,7 +2703,7 @@ ADR: AMPICILLIN
 </tbody>
 </table>
 
-> The process returns to the “Enter a new Start Date/Time:” prompt. The existing business rule for a new order is used to calculate the med order stop date from the med start date.
+> The process returns to the "Enter a new Start Date/Time:" prompt. The existing business rule for a new order is used to calculate the med order stop date from the med start date.
 
 ### Conditional Messages Displaying after Selection of Orders
 
@@ -2680,7 +2715,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> ON CALL (OC) status can only be set for IV orders. If the user selects a Clinic IV order with an ON CALL status, the message: “Orders with ON CALL Status cannot be edited…..” displays.
+> ON CALL (OC) status can only be set for IV orders. If the user selects a Clinic IV order with an ON CALL status, the message: "Orders with ON CALL Status cannot be edited….." displays.
 
 > ES action changes to orders with ON CALL status are not allowed.
 
@@ -2724,7 +2759,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the user selects ON HOLD orders, the message: “ON HOLD orders cannot be edited….”displays. ES action changes to orders ON HOLD are not allowed.
+> If the user selects ON HOLD orders, the message: "ON HOLD orders cannot be edited…."displays. ES action changes to orders ON HOLD are not allowed.
 
 > Example: Selecting ON HOLD Orders
 
@@ -2732,7 +2767,7 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the user selects complex orders, the message: “Complex Orders cannot be edited – no changes will be applied to any of the following Complex order components:…….” displays. ES action changes to complex orders are not allowed.
+> If the user selects complex orders, the message: "Complex Orders cannot be edited – no changes will be applied to any of the following Complex order components:……." displays. ES action changes to complex orders are not allowed.
 
 > Example: Selecting Complex Orders
 
@@ -2740,19 +2775,19 @@ ADR: AMPICILLIN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the user selects orders for more than one clinic, the message: “You have selected orders from different clinics do you want to continue?” displays.
+> If the user selects orders for more than one clinic, the message: "You have selected orders from different clinics do you want to continue?" displays.
 
-- If the user answers “NO,” the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
-- If the user answers “YES,” the process continues.
+- If the user answers "NO," the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
+- If the user answers "YES," the process continues.
 
 ### Orders with different Start Date/Times
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> If the user selects orders for more than one Start Date/Time, the message: “You have selected orders with different Start Date/Time, do you want to proceed?” displays.
+> If the user selects orders for more than one Start Date/Time, the message: "You have selected orders with different Start Date/Time, do you want to proceed?" displays.
 
-- If the user answers “NO,” the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
-- If the user answers “YES,” the process continues.
+- If the user answers "NO," the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
+- If the user answers "YES," the process continues.
 
 ### Orders for More than one Clinic with Different Start Date/Times
 
@@ -2762,8 +2797,8 @@ ADR: AMPICILLIN
 
 > Example: Orders for More than One Clinic with Different Start Date/Times
 
-- If the user answers “NO,” the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
-- If the user answers “YES,” the process continues.
+- If the user answers "NO," the Clinic Order Entry profile view of order(s) for the selected patient(s) re-displays.
+- If the user answers "YES," the process continues.
 
 ### Pharmacist Selecting Active Orders with Auto Verify Off
 
@@ -2773,8 +2808,8 @@ ADR: AMPICILLIN
 
 > Example: Selecting Active Orders with Auto Verify Off
 
-- If the user answers “YES,” the med order is auto verified and maintained in active status, after the Start Date/Time update.
-- If the user answers “NO,” the selected active order(s) is assigned to non-verified status, after the Start Date/Time update.
+- If the user answers "YES," the med order is auto verified and maintained in active status, after the Start Date/Time update.
+- If the user answers "NO," the selected active order(s) is assigned to non-verified status, after the Start Date/Time update.
 
 > Example: Active Orders Assigned Non-Verify after Editing
 
@@ -2804,7 +2839,7 @@ ADR: AMPICILLIN
 
 > \[PSJU PR\]
 
-> The *PAtient Profile (Unit Dose*) \[PSJU PR\] option allows a user to print a profile (list) of a patient’s orders for the patient’s current or last (if patient has been discharged) admission, by group (G), ward (W) , clinic (C) , or patient (P). When group is selected, a prompt to select by ward group (W) or clinic group (C) displays. If the user’s terminal is selected as the printing device, this option will allow the user to select any of the printed orders to be shown in complete detail, including the activity logs, if any.
+> The *PAtient Profile (Unit Dose*) \[PSJU PR\] option allows a user to print a profile (list) of a patient's orders for the patient's current or last (if patient has been discharged) admission, by group (G), ward (W) , clinic (C) , or patient (P). When group is selected, a prompt to select by ward group (W) or clinic group (C) displays. If the user's terminal is selected as the printing device, this option will allow the user to select any of the printed orders to be shown in complete detail, including the activity logs, if any.
 
 > The *PAtient Profile (Unit Dose)* \[PSJU PR\] option also allows for viewing a list of clinic orders. New clinic orders cannot be created. Clinic orders are displayed separately from non-clinic orders.
 
@@ -3235,7 +3270,7 @@ ADR: AMPICILLIN
 
 > The *Action Profile \#1* \[PSJU AP-1\] option also allows for viewing a list of clinic orders. New clinic orders cannot be created. Clinic orders are displayed separately from non-clinic orders.
 
-> There are six medication choices. The user may select multiple choices of medications to be printed on the Action Profile \#1 report. Since the first choice is ALL Medications, the user will not be allowed to combine this with any other choices. The default choice is “Non-IV Medications only” if:
+> There are six medication choices. The user may select multiple choices of medications to be printed on the Action Profile \#1 report. Since the first choice is ALL Medications, the user will not be allowed to combine this with any other choices. The default choice is "Non-IV Medications only" if:
 
 1.  The MAR ORDER SELECTION DEFAULT parameter was not defined.
 2.  Selection by Ward group.
@@ -3386,7 +3421,7 @@ ADR: AMPICILLIN
 
 > Start and stop dates will be prompted next. Only those patients with at least one active order that has a stop date between the dates chosen will print. If entered, the start and stop dates must be in the future (NOW is acceptable). Time is required only if the current date of TODAY or T is entered. A future date does not require time to be entered.
 
-> At the “Print (A)ll active orders, or (E)xpiring orders only? A//” prompt, the user can choose to print all active orders for the patient(s) selected, or print only orders that will expire within the date range selected for the patient(s) selected.
+> At the "Print (A)ll active orders, or (E)xpiring orders only? A//" prompt, the user can choose to print all active orders for the patient(s) selected, or print only orders that will expire within the date range selected for the patient(s) selected.
 
 > Manufacturing List Example, 147 Manufacturing Record for Suspense (IV), 211
 
@@ -3712,7 +3747,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Patient Record Update action allows editing of the Inpatient Narrative and the Patient’s Default Stop Date and Time for Unit Dose Order entry.
+> The Patient Record Update action allows editing of the Inpatient Narrative and the Patient's Default Stop Date and Time for Unit Dose Order entry.
 
 > Example: Patient Record Update
 
@@ -3786,9 +3821,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Enter ?? for more actions
 
-> The “INPATIENT NARRATIVE: INP NARR...//” prompt allows the pharmacist to enter information in a free text format, up to 250 characters.
+> The "INPATIENT NARRATIVE: INP NARR...//" prompt allows the pharmacist to enter information in a free text format, up to 250 characters.
 
-> The “UD DEFAULT STOP DATE/TIME:” prompt is the date and time entry to be used as the default value for the STOP DATE/TIME of the Unit Dose orders during order entry and renewal processes. This value is used only if the corresponding ward parameter is enabled. The order entry and renewal processes will sometimes change this date and time.
+> The "UD DEFAULT STOP DATE/TIME:" prompt is the date and time entry to be used as the default value for the STOP DATE/TIME of the Unit Dose orders during order entry and renewal processes. This value is used only if the corresponding ward parameter is enabled. The order entry and renewal processes will sometimes change this date and time.
 
 > ![](psj-5-267-pharmacist-s-user-manual-change-pages/007.png)Note: If the Unit Dose order, being finished by the pharmacist, is received from CPRS and has a duration assigned, the UD DEFAULT STOP DATE/TIME is displayed as the Calc Stop Date/Time.
 
@@ -3806,7 +3841,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > If an order has a Schedule Type of Continuous with a non-odd frequency of greater than one day, (1440 minutes) the system shall prevent more than one administration time, for example, schedules of Q72H, Q3Day, and Q5Day.
 
-> If the number of administration times entered exceeds one, the error message: “This order requires one admin time” shall appear. If no administration times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+> If the number of administration times entered exceeds one, the error message: "This order requires one admin time" shall appear. If no administration times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 ### Order Validation Check Six
 
@@ -3814,40 +3849,40 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > If an order has a Schedule Type of One Time, or if an order is entered with a schedule that is defined in the schedule file as One Time, the system shall prevent the user from entering more than one administration time.
 
-> If more than one administration time is entered, the error message: “This is a One Time Order - only one administration time is permitted.” shall appear. No administration times are required.
+> If more than one administration time is entered, the error message: "This is a One Time Order - only one administration time is permitted." shall appear. No administration times are required.
 
 ### Order Validation Check Seven
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> For an order with a Schedule Type of Continuous where no doses/administration times are scheduled between the order’s Start Date/Time and the Stop Date/Time, the system shall present a warning message to the user and not allow the order to be accepted or verified until the Start/Stop Date Times, schedule, and/or administration times are adjusted so that at least one dose is scheduled to be given.
+> For an order with a Schedule Type of Continuous where no doses/administration times are scheduled between the order's Start Date/Time and the Stop Date/Time, the system shall present a warning message to the user and not allow the order to be accepted or verified until the Start/Stop Date Times, schedule, and/or administration times are adjusted so that at least one dose is scheduled to be given.
 
-> If the stop time will result in no administration time between the start time and stop time, the error message: “There must be an admin time that falls between the Start Date/Time and Stop Date/Time.” shall appear.
+> If the stop time will result in no administration time between the start time and stop time, the error message: "There must be an admin time that falls between the Start Date/Time and Stop Date/Time." shall appear.
 
-- “SPECIAL INSTRUCTIONS:” (Regular and Abbreviated)
+- "SPECIAL INSTRUCTIONS:" (Regular and Abbreviated)
 
-> These are the Special Instructions (using abbreviations whenever possible) needed for the administration of this order. This field allows unlimited characters. For new order entry, when Special Instructions are added, the user is prompted whether to flag this field for display in a BCMA message box. Should the pharmacist choose to copy and flag these comments for display in a BCMA message box on the Virtual Due List (VDL), an exclamation mark “!” will appear in the order next to this field.
+> These are the Special Instructions (using abbreviations whenever possible) needed for the administration of this order. This field allows unlimited characters. For new order entry, when Special Instructions are added, the user is prompted whether to flag this field for display in a BCMA message box. Should the pharmacist choose to copy and flag these comments for display in a BCMA message box on the Virtual Due List (VDL), an exclamation mark "!" will appear in the order next to this field.
 
 > The following menu choices regarding copying of provider comments are available:
 
 - Y Yes (copy) – This will copy Provider Comments into the Special Instructions field.
-- N No (don’t copy) – This will bypass copying Provider Comments
+- N No (don't copy) – This will bypass copying Provider Comments
 - ! Copy and flag for display in a BCMA Message Box – This will copy Provider Comments into the Special Instructions field and flag for display in a BCMA Message Box
 - E Copy and Edit – This will copy Provider Comments into the Special Instructions field and open in a word processing window for editing.
 
 > Example: Special Instructions
 
-> ![](psj-5-267-pharmacist-s-user-manual-change-pages/008.png)![](psj-5-267-pharmacist-s-user-manual-change-pages/009.png)Note: For “DONE” Orders (CPRS Med Order) <u>only</u>, the Provider Comments are automatically placed in the Special Instructions. If the Provider Comments are greater than 180 characters, Special Instructions will display “REFERENCE PROVIDER COMMENTS IN CPRS FOR INSTRUCTIONS.”
+> ![](psj-5-267-pharmacist-s-user-manual-change-pages/008.png)![](psj-5-267-pharmacist-s-user-manual-change-pages/009.png)Note: For "DONE" Orders (CPRS Med Order) <u>only</u>, the Provider Comments are automatically placed in the Special Instructions. If the Provider Comments are greater than 180 characters, Special Instructions will display "REFERENCE PROVIDER COMMENTS IN CPRS FOR INSTRUCTIONS."
 
-> Note: The up arrow character “^” is not allowed in Special Instructions. If detected, the following prompts appear:
+> Note: The up arrow character "^" is not allowed in Special Instructions. If detected, the following prompts appear:
 
-> Example: Prompts when “^” is detected in Special Instructions
+> Example: Prompts when "^" is detected in Special Instructions
 
-> “START DATE/TIME:” (Regular and Abbreviated)
+> "START DATE/TIME:" (Regular and Abbreviated)
 
-> This is the date and time the order is to begin. For Inpatient Medications orders, the Start Date/Time is initially assigned to the CLOSEST ADMINISTRATION TIME, NEXT ADMINISTRATION TIME or NOW (which is the login date/time of the order), depending on the value of the DEFAULT START DATE CALCULATION field in the INPATIENT WARD PARAMETERS file. Start Date/Time may not be entered prior to 7 days from the order’s Login Date.
+> This is the date and time the order is to begin. For Inpatient Medications orders, the Start Date/Time is initially assigned to the CLOSEST ADMINISTRATION TIME, NEXT ADMINISTRATION TIME or NOW (which is the login date/time of the order), depending on the value of the DEFAULT START DATE CALCULATION field in the INPATIENT WARD PARAMETERS file. Start Date/Time may not be entered prior to 7 days from the order's Login Date.
 
-- “STOP DATE/TIME:” (Regular)
+- "STOP DATE/TIME:" (Regular)
 
 > This is the date and time the order will automatically expire. The system calculates the default Stop Date/Time for order administration based on the STOP TIME FOR ORDER site parameter.
 
@@ -3855,15 +3890,15 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > For a one-time order, the ward parameter, DAYS UNTIL STOP FOR ONE-TIME, is accessed. When this parameter is not available, the system parameter, DAYS UNTIL STOP FOR ONE- TIME, will be used to determine the stop date. When neither parameter has been set, the ward parameter, DAYS UNTIL STOP DATE/TIME, will be used instead of the start and stop date being equal.
 
-- “PROVIDER:” (Regular and Abbreviated)
+- "PROVIDER:" (Regular and Abbreviated)
 
 > This identifies the provider who authorized the order. Only users identified as active Providers, who are authorized to write medication orders, may be selected.
 
-- “SELF MED:” (Regular and Abbreviated)
+- "SELF MED:" (Regular and Abbreviated)
 
-> Identifies the order as one whose medication is to be given for administration by the patient. This prompt is only shown if the ‘SELF MED’ IN ORDER ENTRY field of the INPATIENT WARD PARAMETERS file is set to On.
+> Identifies the order as one whose medication is to be given for administration by the patient. This prompt is only shown if the 'SELF MED' IN ORDER ENTRY field of the INPATIENT WARD PARAMETERS file is set to On.
 
-### “NATURE OF ORDER:”
+### "NATURE OF ORDER:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -3898,7 +3933,7 @@ _These sections appeared in earlier versions of this document but are not presen
 <p>Written</p>
 </blockquote></td>
 <td><blockquote>
-<p>The source of the order is a written doctor’s order</p>
+<p>The source of the order is a written doctor's order</p>
 </blockquote></td>
 <td><blockquote>
 <p>No</p>
@@ -4007,7 +4042,7 @@ _These sections appeared in earlier versions of this document but are not presen
 </tbody>
 </table>
 
-> The Nature of Order abbreviation will display on the order next to the Provider’s Name. The abbreviations will be in lowercase and enclosed in brackets. Written will display as \[w\], telephoned as \[p\], verbal as \[v\], policy as \[i\], electronically entered as \[e\], and service correction as \[s\]. If the order is electronically signed through the CPRS package <u>AND</u> the CPRS patch OR\*3\*141 is installed on the user’s system, then \[es\] will appear next to the Provider’s Name instead of the Nature of Order abbreviation.
+> The Nature of Order abbreviation will display on the order next to the Provider's Name. The abbreviations will be in lowercase and enclosed in brackets. Written will display as \[w\], telephoned as \[p\], verbal as \[v\], policy as \[i\], electronically entered as \[e\], and service correction as \[s\]. If the order is electronically signed through the CPRS package <u>AND</u> the CPRS patch OR\*3\*141 is installed on the user's system, then \[es\] will appear next to the Provider's Name instead of the Nature of Order abbreviation.
 
 > Example: New Order Entry
 
@@ -4110,7 +4145,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Detailed Allergy/ADR List action displays a detailed listing of the selected item from the patient’s Allergy/ADR List. Entry to the *Edit Allergy/ADR Data* option is provided with this list also.
+> The Detailed Allergy/ADR List action displays a detailed listing of the selected item from the patient's Allergy/ADR List. Entry to the *Edit Allergy/ADR Data* option is provided with this list also.
 
 ### Enter/Edit Allergy/ADR Data
 
@@ -4392,7 +4427,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > When an order is placed or renewed by a provider through CPRS, the nurse or pharmacist needs to accept, finish, and/or verify this order. The same procedures are followed to finish the renewed order as to finish a new order with the following exceptions:
 
-> The PENDING RENEWAL orders may be speed finished. The user may enter an F, for finish, at the “Select ACTION or ORDERS:” prompt and then select the pending renewals to be finished. A prompt is issued for the Stop Date/Time. This value is used as the Stop Date/Time for the pending renewals selected. All other fields will retain the values from the renewed order.
+> The PENDING RENEWAL orders may be speed finished. The user may enter an F, for finish, at the "Select ACTION or ORDERS:" prompt and then select the pending renewals to be finished. A prompt is issued for the Stop Date/Time. This value is used as the Stop Date/Time for the pending renewals selected. All other fields will retain the values from the renewed order.
 
 > ![](psj-5-267-pharmacist-s-user-manual-change-pages/012.png)Note: Order Checks happen during the finish process – refer to the <u>Notes and Screen</u> <u>Example</u> below.
 
@@ -4484,48 +4519,48 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The Patient Actions are the actions available in the Action Area of the List Manager Screen. These actions pertain to the patient information and include editing, viewing, and new order entry.
 
-> FR@10-22”. The schedule after the “@” will be a valid schedule from the ADMINISTRATION SCHEDULE file (#51.1).
+> FR@10-22". The schedule after the "@" will be a valid schedule from the ADMINISTRATION SCHEDULE file (#51.1).
 
-### “ADMINISTRATION TIME:”
+### "ADMINISTRATION TIME:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > This is free text. The pharmacist might want to enter the times of dose administration using military time such as 03-09-15-21. Administration times must be entered in a two or four digit format. If multiple administration times are needed, they must be separated by a dash (e.g., 09-13 or 0900-1300). This field must be left blank for odd schedules (e.g., Q16H).
 
-### “OTHER PRINT INFO:”
+### "OTHER PRINT INFO:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The system allows a word processing entry of unlimited free text. For new order entry, when Other Print Info is added, the pharmacist is prompted whether to flag this field for display in a BCMA message box. When finishing orders placed through CPRS, where the Provider Comments are not too long to be placed in this field, the pharmacist is given the option to copy the comments into this field. Should the pharmacist choose to copy and flag these comments for display in a BCMA message *box on the VDL, an exclamation mark “!” will appear in the order next to this field.*
+> The system allows a word processing entry of unlimited free text. For new order entry, when Other Print Info is added, the pharmacist is prompted whether to flag this field for display in a BCMA message box. When finishing orders placed through CPRS, where the Provider Comments are not too long to be placed in this field, the pharmacist is given the option to copy the comments into this field. Should the pharmacist choose to copy and flag these comments for display in a BCMA message *box on the VDL, an exclamation mark "!" will appear in the order next to this field.*
 
 > The following menu choices regarding copying of provider comments are available:
 
 - Y Yes (copy) – This will copy Provider Comments into the Other Print Info field.
-- N No (don’t copy) – This will bypass copying Provider Comments.
+- N No (don't copy) – This will bypass copying Provider Comments.
 - ! Copy and flag for display in a BCMA Message Box – This will copy Provider Comments into the Other Print Info field and flag for display in a BCMA Message Box.
 - E Copy and Edit – This will copy Provider Comments into the Other Print Info field and open in a word processing window for editing.
 
-> The system enables the pharmacist to review the provider comments received from CPRS during the finishing of an IV order. A maximum of 60 characters of text is printed on the IV label from Other Print Info. When Other Print Info exceeds 60 characters, the message: “Instructions too long. See Order View or BCMA for full text.” appears on the IV label.
+> The system enables the pharmacist to review the provider comments received from CPRS during the finishing of an IV order. A maximum of 60 characters of text is printed on the IV label from Other Print Info. When Other Print Info exceeds 60 characters, the message: "Instructions too long. See Order View or BCMA for full text." appears on the IV label.
 
-> Before the pharmacist enters Other Print Info information, the message: “WARNING, IF OTHER PRINT INFO exceeds one line of 60 characters, ‘Instructions too long. See Order View or BCMA for full text.’ prints on the IV label instead of the full text.”
+> Before the pharmacist enters Other Print Info information, the message: "WARNING, IF OTHER PRINT INFO exceeds one line of 60 characters, 'Instructions too long. See Order View or BCMA for full text.' prints on the IV label instead of the full text."
 
-> After the pharmacist enters Other Print Info information, if the entry exceeds one line of 60 characters, the message: “WARNING OTHR PRINT INFO exceeds one line of 60 characters, ‘Instructions too long. See Order View or BCMA for full text prints on the IV label instead of the full text.”
+> After the pharmacist enters Other Print Info information, if the entry exceeds one line of 60 characters, the message: "WARNING OTHR PRINT INFO exceeds one line of 60 characters, 'Instructions too long. See Order View or BCMA for full text prints on the IV label instead of the full text."
 
 > Example: Other Print Info
 
-> ![](psj-5-267-pharmacist-s-user-manual-change-pages/016.png)Note: For “DONE” Orders (CPRS Med Order) <u>only</u>, the Provider Comments are automatically placed in the Other Print Info. If the Provider Comments are greater than 60 characters, Other Print Info will display “REFERENCE PROVIDER COMMENTS IN CPRS FOR INSTRUCTIONS.”
+> ![](psj-5-267-pharmacist-s-user-manual-change-pages/016.png)Note: For "DONE" Orders (CPRS Med Order) <u>only</u>, the Provider Comments are automatically placed in the Other Print Info. If the Provider Comments are greater than 60 characters, Other Print Info will display "REFERENCE PROVIDER COMMENTS IN CPRS FOR INSTRUCTIONS."
 
-### “START DATE / TIME:”
+### "START DATE / TIME:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > The system calculates the default start date/time for order administration based on the DEFAULT START DATE CALCULATION field in the INPATIENT WARD PARAMETERS
 
-> file. This field allows the site to use the NEXT or CLOSEST administration or delivery time, or NOW, which is the order’s login date/time as the default start date. When NOW is selected for this parameter, it will <u>always</u> be the default start date/time for IVs. This may be overridden by entering the desired date/time at the prompt.
+> file. This field allows the site to use the NEXT or CLOSEST administration or delivery time, or NOW, which is the order's login date/time as the default start date. When NOW is selected for this parameter, it will <u>always</u> be the default start date/time for IVs. This may be overridden by entering the desired date/time at the prompt.
 
 > When NEXT or CLOSEST is used in this parameter and the IV is a continuous-type IV order, the default answer for this prompt is based on the delivery times for the IV room specified for that order entry session. For intermittent type IV orders, if the order has administration times, the start date/time will be the NEXT or CLOSEST administration time depending on the parameter. If the intermittent type IV order does not have administration times, the start date/time will round up or down to the closest hour. The Site Manager or Application Coordinator can change this field.
 
-### “STOP DATE / TIME:”
+### "STOP DATE / TIME:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -4533,11 +4568,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > (*This page included for two-sided copying.)*.
 
-### “NATURE OF ORDER:”
+### "NATURE OF ORDER:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This is the method the provider used to communicate the order to the user who entered or took action on the order. Nature of Order is defined in CPRS. “Written” will be the default for new orders entered. When a new order is created due to an edit, the default will be Service Correction. The following table shows some Nature of Order examples.
+> This is the method the provider used to communicate the order to the user who entered or took action on the order. Nature of Order is defined in CPRS. "Written" will be the default for new orders entered. When a new order is created due to an edit, the default will be Service Correction. The following table shows some Nature of Order examples.
 
 <table>
 <colgroup>
@@ -4569,7 +4604,7 @@ _These sections appeared in earlier versions of this document but are not presen
 <p>Written</p>
 </blockquote></td>
 <td><blockquote>
-<p>The source of the order is a written doctor’s order</p>
+<p>The source of the order is a written doctor's order</p>
 </blockquote></td>
 <td><blockquote>
 <p>No</p>
@@ -4651,15 +4686,15 @@ _These sections appeared in earlier versions of this document but are not presen
 </tbody>
 </table>
 
-> The Nature of Order abbreviation will display on the order next to the Provider’s Name. The abbreviations will be in lowercase and enclosed in brackets. Written will display as \[w\], telephoned as \[p\], verbal as \[v\], policy as \[i\], electronically entered as \[e\], and service correction as \[s\]. If the order is electronically signed through the CPRS package <u>AND</u> the CPRS patch OR\*3\*141 is installed on the user’s system, then \[es\] will appear next to the Provider’s Name instead of the Nature of Order abbreviation.
+> The Nature of Order abbreviation will display on the order next to the Provider's Name. The abbreviations will be in lowercase and enclosed in brackets. Written will display as \[w\], telephoned as \[p\], verbal as \[v\], policy as \[i\], electronically entered as \[e\], and service correction as \[s\]. If the order is electronically signed through the CPRS package <u>AND</u> the CPRS patch OR\*3\*141 is installed on the user's system, then \[es\] will appear next to the Provider's Name instead of the Nature of Order abbreviation.
 
-### “Select CLINIC LOCATION:”
+### "Select CLINIC LOCATION:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > ![](psj-5-267-pharmacist-s-user-manual-change-pages/017.png)This prompt is only displayed for Outpatient IV orders entered through the Inpatient Medications package. The user will enter the hospital location name when prompted.
 
-> Note: While entering an order, the pharmacist can quickly delete the order by typing a caret (^) at any one of the prompts listed above except at the “STOP DATE/TIME:” prompt. Once the user has passed this prompt, if the order still needs to be deleted, a caret (^) can be entered at the “Is this O.K.:” prompt.
+> Note: While entering an order, the pharmacist can quickly delete the order by typing a caret (^) at any one of the prompts listed above except at the "STOP DATE/TIME:" prompt. Once the user has passed this prompt, if the order still needs to be deleted, a caret (^) can be entered at the "Is this O.K.:" prompt.
 
 > The detailed view of the order presents all available data pertaining to the order. This includes patient identification and location, status of the order, additive(s) with strength, solution(s), infusion rate, medication route, the schedule, administration times, remarks, and other print information. Other information includes type of order, IV room, start and stop date and time, entry date and time (when order was entered into the system), last fill (date and time when last label was printed), and quantity (the number of labels printed). The entry by field of the user placing the order, provider, provider comments, and the number of cumulative doses is also included.
 
@@ -4676,9 +4711,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](psj-5-267-pharmacist-s-user-manual-change-pages/018.png)Note: If the selected patient is Sensitive, Discharged, both Sensitive and Discharged, or Deceased, there are variations in the process and in the prompts that display to the pharmacist/user.
 
-> Example: Pharmacist Answers ‘Yes’ and Enters Allergy Information
+> Example: Pharmacist Answers 'Yes' and Enters Allergy Information
 
-> Example: Pharmacist Answers ‘No’ and Intervention is Created
+> Example: Pharmacist Answers 'No' and Intervention is Created
 
 > Example: Profile Report
 
@@ -5053,7 +5088,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > available drug products not included in the VA National Formulary.
 
-> Non-VA Meds Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients’ medical records.
+> Non-VA Meds Term that encompasses any Over-the-Counter (OTC) medications, Herbal supplements, Veterans Health Administration (VHA) prescribed medications but purchased by the patient at an outside pharmacy, and medications prescribed by providers outside VHA. All Non-VA Meds must be documented in patients' medical records.
 
 > Non-Verified Orders Any order that has been entered in the Unit Dose or IV
 
@@ -5071,21 +5106,21 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Parenteral Introduced by means other than by way of the digestive track.
 
-> Patient Profile A listing of a patient’s active and non-active Unit Dose and IV orders. The patient profile also includes basic patient information, including the patient’s name, social security number, date of birth, diagnosis, ward location,
+> Patient Profile A listing of a patient's active and non-active Unit Dose and IV orders. The patient profile also includes basic patient information, including the patient's name, social security number, date of birth, diagnosis, ward location,
 
 ### From: PSJ*5*279 Pharmacist's User Manual Change Pages
 
-## “ Select SOLUTION:”
+## " Select SOLUTION:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > There can be any number of solutions in any order, depending on the type. It is even possible to require zero solutions when an additive is pre-mixed with a solution. If no solutions are chosen, the system will display a warning message, in case it is an oversight, and gives an opportunity to add one. The pharmacist may enter an IV solution or IV solution synonym.
 
-> When a solution is chosen, if an active drug text entry for the Dispense Drug and/or Orderable Item linked to this solution exists, then the prompt, “Restriction/Guideline(s) exist. Display?:” will be displayed along with the corresponding defaults. The drug text indicator will be \<DIN\> and will be displayed on the right side of the IV Type on the same line. This indicator will be highlighted.
+> When a solution is chosen, if an active drug text entry for the Dispense Drug and/or Orderable Item linked to this solution exists, then the prompt, "Restriction/Guideline(s) exist. Display?:" will be displayed along with the corresponding defaults. The drug text indicator will be \<DIN\> and will be displayed on the right side of the IV Type on the same line. This indicator will be highlighted.
 
-> If the Dispense Drug tied to the Solution or the Orderable Item has a non-formulary status, this status will be displayed on the screen as “\*N/F\*” beside the Solution or Orderable Item.
+> If the Dispense Drug tied to the Solution or the Orderable Item has a non-formulary status, this status will be displayed on the screen as "\*N/F\*" beside the Solution or Orderable Item.
 
-## “INFUSION RATE:”
+## "INFUSION RATE:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -5111,11 +5146,11 @@ _These sections appeared in earlier versions of this document but are not presen
 > *Scheduled Labels (IV)* \[PSJI LBLS\] option is run for continuous IV orders.
 
 - The NLPD field is not sent to BCMA.
-- When an Infusion Rate is received from CPRS in the format Rate@Labels, the “@” symbol is used to separate the Infusion Rate into its respective INFUSION RATE and NLPD component fields
+- When an Infusion Rate is received from CPRS in the format Rate@Labels, the "@" symbol is used to separate the Infusion Rate into its respective INFUSION RATE and NLPD component fields
 - The number of labels per day is always shown next to the infusion rate, when the infusion rate is free text or the number of labels has been entered by the user, or *when the number of lab*els has been received from CPRS. The INFUSION RATE field must be selected when editing. There is no field number reference for NLPD.
 - Edits to the NLPD field never create a new order.
 - The NLPD field is not populated when the number of labels is system calculated based on a numeric infusion rate.
-- The following rules apply to the use of the “@” symbol in the Infusion Rate: The number entered after the “@” symbol populates the NLPD field. Anything entered before the “@” symbol displays in the INFUSION RATE field. The “@” symbol will not be visible in the display of the Infusion Rate.
+- The following rules apply to the use of the "@" symbol in the Infusion Rate: The number entered after the "@" symbol populates the NLPD field. Anything entered before the "@" symbol displays in the INFUSION RATE field. The "@" symbol will not be visible in the display of the Infusion Rate.
 
 > Example:
 
@@ -5140,7 +5175,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Example:
 
-> A minimum of 2 characters and a maximum of 30 characters may be entered into the INFUSION RATE field. The special character “^” is not allowed. A warning message displays if the free text entry contains less than the minimum requirement of 2 characters or more than the maximum requirement of 30 characters.
+> A minimum of 2 characters and a maximum of 30 characters may be entered into the INFUSION RATE field. The special character "^" is not allowed. A warning message displays if the free text entry contains less than the minimum requirement of 2 characters or more than the maximum requirement of 30 characters.
 
 > Example: Warning Message
 
@@ -5148,26 +5183,26 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Help Text is provided for the infusion rate when ? or ?? is entered.
 
-> ![](psj-5-279-pharmacist-s-user-manual-change-pages/003.png)When an order is received from CPRS, Inpatient Medications accepts infusion rates in both ml/hour and as “infuse over time.” In the Order View screen, for orders with an IV Type considered Intermittent, the infusion rate will display as “infuse over” followed by the time. For example, infuse over 30 minutes.
+> ![](psj-5-279-pharmacist-s-user-manual-change-pages/003.png)When an order is received from CPRS, Inpatient Medications accepts infusion rates in both ml/hour and as "infuse over time." In the Order View screen, for orders with an IV Type considered Intermittent, the infusion rate will display as "infuse over" followed by the time. For example, infuse over 30 minutes.
 
 > Note: If an administration time(s) is defined, the number of labels will reflect the administration time(s) for the intermittent IVPB type orders.
 
-## “MED ROUTE:”
+## "MED ROUTE:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Inpatient Medications uses the medication route provided by CPRS as the default when finishing an IV order, and transmits any updates to an order’s medication route to CPRS.
+> Inpatient Medications uses the medication route provided by CPRS as the default when finishing an IV order, and transmits any updates to an order's medication route to CPRS.
 
 > Inpatient Medications determines the default medication route for a new order entered through Inpatient Medications and sends the full Medication Route name for display on the BCMA VDL.
 
 > This is the administration route to be used for the order. If a Medication Route is identified for the selected Orderable Item, it will be used as the default for the order. Inpatient Medications applies the Medication Route provided by CPRS as the default when finishing an IV order.
 
 - If no medication route is specified, Inpatient Medications will use the Medication Route provided by CPRS as the default when finishing an IV order.
-- If updates are made to the medication route, Inpatient Medications will transmit any updates to an order’s Medication Route to CPRS.
+- If updates are made to the medication route, Inpatient Medications will transmit any updates to an order's Medication Route to CPRS.
 - Inpatient Medications determines the default Medication Route for a new order.
 - Inpatient Medications sends the full Medication Route name for display on the BCMA VDL.
 
-## “SCHEDULE:”
+## "SCHEDULE:"
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -5179,11 +5214,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](psj-5-279-pharmacist-s-user-manual-change-pages/004.png)Note: Order entry will permit the entry of a Day-of-Week schedule in the following format: days@schedule name (e.g. MO-WE-FR@BID, TU@Q6H).
 
-> Note: Inpatient Medications will translate a Day of Week schedule into appropriate administration times. For example: “MO-WE-FR@BID” is translated to “MO-WE-
+> Note: Inpatient Medications will translate a Day of Week schedule into appropriate administration times. For example: "MO-WE-FR@BID" is translated to "MO-WE-
 
 > Example: Edit an Order and Create a New Order (continued)
 
-> If the Dispense Drug tied to the Additive, Solution, and/or Orderable Item has a non-formulary status, this status will be displayed on the screen as “\*N/F\*” beside the Additive, Solution, and/or Orderable Item.
+> If the Dispense Drug tied to the Additive, Solution, and/or Orderable Item has a non-formulary status, this status will be displayed on the screen as "\*N/F\*" beside the Additive, Solution, and/or Orderable Item.
 
 > <u>Change the Volume of a Solution</u>
 
@@ -5193,8 +5228,8 @@ _These sections appeared in earlier versions of this document but are not presen
 
 - Choose the solution that is most like the one needed (e.g., D5W 50 ML). In this example, D5W 50 ML is now the selected solution.
 - At the next prompt, enter the characters \<^SOL\> and choose the solution just entered.
-- The next prompt is “SOLUTION: (DEFAULT) //”. Enter the characters \<^VOL\>.
-- The prompt “VOLUME: (DEFAULT) //” will be displayed.
+- The next prompt is "SOLUTION: (DEFAULT) //". Enter the characters \<^VOL\>.
+- The prompt "VOLUME: (DEFAULT) //" will be displayed.
 - Change the volume for this specific order to the desired volume (the example below shows 25). The terminal dialog follows:
 
 > Example: Change the Volume of a Solution
@@ -5205,7 +5240,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > This section describes IV Parameters in Bar Code Medication Administration (BCMA).
 
-> The BCMA IV bag/label parameters determine the status of an order’s IV labels after an IV order is edited. The BCMA IV parameters are used to determine if an order’s previously printed IV labels are valid (or invalid) after an edit occurs.
+> The BCMA IV bag/label parameters determine the status of an order's IV labels after an IV order is edited. The BCMA IV parameters are used to determine if an order's previously printed IV labels are valid (or invalid) after an edit occurs.
 
 > BCMA IV parameters are defined primarily by division, and may also be defined by ward location. If no parameters have been defined for a given ward, orders associated with that ward will use the IV parameters for the division associated with the ward.
 
@@ -5241,12 +5276,12 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The pharmacist is provided a list of invalidated IV bags when an Invalid Bag event has occurred. An Invalid Bag event occurs when both of the following conditions are met:
 
-- A change is made to any IV order field that matches a BCMA IV Bag site parameter field that is set to “Invalid Bag.”
+- A change is made to any IV order field that matches a BCMA IV Bag site parameter field that is set to "Invalid Bag."
 - IV labels were available for the order prior to the change.
 
 > ![](psj-5-279-pharmacist-s-user-manual-change-pages/005.png)Note: Order changes may originate in Inpatient Medications or CPRS.
 
-> If an Invalid Bag event occurs, the following is displayed after the edited order’s status is changed to ACTIVE:
+> If an Invalid Bag event occurs, the following is displayed after the edited order's status is changed to ACTIVE:
 
 - The edited field that triggered the IV bags to be invalidated
 - The Date and time of each invalidated IV label
@@ -5316,11 +5351,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > A pause occurs before the display scrolls to the top of the screen.
 
-> After the user enters “YES,” a prompt to print a list of Invalidated IV labels to a device or RETURN to continue displays.
+> After the user enters "YES," a prompt to print a list of Invalidated IV labels to a device or RETURN to continue displays.
 
 > Example: Prompt to Print
 
-> When P is entered at the “Enter P” prompt, the following is displayed in the report: Location (current Ward or Clinic)
+> When P is entered at the "Enter P" prompt, the following is displayed in the report: Location (current Ward or Clinic)
 
 - Patient Name
 - Medication (IV Additive, IV Solution, or Orderable Item)
@@ -5397,7 +5432,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > When an invalid bag event occurs, all IV labels associated with the edited order that have not already been invalidated are invalidated. IV labels that were previously invalidated as a result of prior edits are not displayed.
 
-> Following the “REASON FOR ACTIVITY:” prompt, the “Print new replacement labels? NO// Y” prompt displays to allow the pharmacist to print replacement labels when the following conditions occur:
+> Following the "REASON FOR ACTIVITY:" prompt, the "Print new replacement labels? NO// Y" prompt displays to allow the pharmacist to print replacement labels when the following conditions occur:
 
 - A non-starred field is changed.
 - The IV parameter is set to Invalid Bag for an edited field.
@@ -5408,7 +5443,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Example: IV Labels Available and Print New Replacement Labels
 
-> The BCMA availability of IV bags may be viewed using the Label Log action. All IV labels that have been invalidated are displayed in the label log file with “NO” in the “Available in BCMA” column.
+> The BCMA availability of IV bags may be viewed using the Label Log action. All IV labels that have been invalidated are displayed in the label log file with "NO" in the "Available in BCMA" column.
 
 > The label log file displays the status of the IV label as either available or not available in BCMA.
 
@@ -5420,13 +5455,13 @@ _These sections appeared in earlier versions of this document but are not presen
 - When the action is Given, Infusing, Stopped or Completed.
 - When an Invalid Bag Event has occurred.
 
-> After the above information is displayed in the label log, the below prompt displays for associated linked orders, if they exist. The default is “Y//.”
+> After the above information is displayed in the label log, the below prompt displays for associated linked orders, if they exist. The default is "Y//."
 
 > Example: Associated Linked Orders Prompt
 
 > Do you wish to see labels from linked (edited) orders? Y//
 
-> The clinic location’s abbreviation, or the full clinic name if no abbreviation exists, prints on the IV label when the CLINIC field (#126) is populated. The ward location name is printed when the CLINIC field is null. The name “OPT. IV,” is printed if neither the clinic location name nor the ward location name is populated.
+> The clinic location's abbreviation, or the full clinic name if no abbreviation exists, prints on the IV label when the CLINIC field (#126) is populated. The ward location name is printed when the CLINIC field is null. The name "OPT. IV," is printed if neither the clinic location name nor the ward location name is populated.
 
 > (*This page included for two-sided copying.)*
 
@@ -5458,9 +5493,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The system will auto adjust the start date/time to “NOW” for <u>pending</u> CPRS clinic orders with a start/date time in the past.
+> The system will auto adjust the start date/time to "NOW" for <u>pending</u> CPRS clinic orders with a start/date time in the past.
 
-> For example, when the order was created in CPRS, the current ‘NOW’ Start Time was 13:02, but when the pending order is selected in Inpatient Medications, the current ‘NOW’ Start Time is 13:12.
+> For example, when the order was created in CPRS, the current 'NOW' Start Time was 13:02, but when the pending order is selected in Inpatient Medications, the current 'NOW' Start Time is 13:12.
 
 ### From: PSJ*5*181 Pharmacist's User Manual Change Pages
 
@@ -5472,27 +5507,27 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The *Edit Inpatient User Parameters* option allows users to edit various Inpatient User parameters. The prompts that will be encountered are as follows:
 
-- “PRINT PROFILE IN ORDER ENTRY:”
+- "PRINT PROFILE IN ORDER ENTRY:"
 
 > Enter YES for the opportunity to print a profile after entering Unit Dose orders for a patient.
 
-- “INPATIENT PROFILE ORDER SORT:”
+- "INPATIENT PROFILE ORDER SORT:"
 
-> This is the sort order in which the Inpatient Profile will show inpatient orders. The options will be sorted either by medication or by start date of order. Entering the words “Medication Name” (or the number 0) will show the orders within schedule type (continuous, One-time, and then PRN) and then alphabetically by drug name. Entering the words “Start Date of Order” (or the number 1) will show the order chronologically by start date, with the most recent dates showing first and then by schedule type (continuous, One-time, and then PRN).
+> This is the sort order in which the Inpatient Profile will show inpatient orders. The options will be sorted either by medication or by start date of order. Entering the words "Medication Name" (or the number 0) will show the orders within schedule type (continuous, One-time, and then PRN) and then alphabetically by drug name. Entering the words "Start Date of Order" (or the number 1) will show the order chronologically by start date, with the most recent dates showing first and then by schedule type (continuous, One-time, and then PRN).
 
 > ![](psj-5-181-pharmacist-s-user-manual-change-pages/024.png)Note: The Profile first shows orders by status (active, non-verified, and then non- active).
 
-- “LABEL PRINTER:”
+- "LABEL PRINTER:"
 
 > Enter the device on which labels are to be printed.
 
-- “USE WARD LABEL SETTINGS:”
+- "USE WARD LABEL SETTINGS:"
 
 > Enter YES to have the labels print on the printer designated for the <u>ward</u> instead of the printer designated for the <u>pharmacy</u>.
 
 > ![](psj-5-181-pharmacist-s-user-manual-change-pages/025.png)NOTE: Any changes made take effect immediately.
 
-### Edit Patient’s Default Stop Date
+### Edit Patient's Default Stop Date
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -5500,11 +5535,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](psj-5-181-pharmacist-s-user-manual-change-pages/026.png) This option is locked with the PSJU PL key.
 
-> The “UD DEFAULT STOP DATE/TIME:” prompt accepts the date and time entry to be used as the default value for the STOP DATE/TIME of the Unit Dose orders during order entry and renewal processes. This value is used only if the corresponding ward parameter is enabled. The order entry and renewal processes will sometimes change this date and time.
+> The "UD DEFAULT STOP DATE/TIME:" prompt accepts the date and time entry to be used as the default value for the STOP DATE/TIME of the Unit Dose orders during order entry and renewal processes. This value is used only if the corresponding ward parameter is enabled. The order entry and renewal processes will sometimes change this date and time.
 
 > ![](psj-5-181-pharmacist-s-user-manual-change-pages/027.png)Note: If the Unit Dose order, being finished by the user, is received from CPRS and has a duration assigned, the UD DEFAULT STOP DATE/TIME is displayed as the Calc Stop date/time.
 
-> When the SAME STOP DATE ON ALL ORDERS parameter is set to yes, the module will assign a default stop date for each patient. This date is initially set when the first order is entered for the patient. A new default stop date is assigned for the patient when an order is renewed and the order’s stop date plus three days is greater than the current default stop date. This date is shown as the default value for the stop date of each order entered for the patient. However, if a day or dose limit exists for the selected Orderable Item, and the limit is less than the default stop date, the earlier stop date and time will be displayed.
+> When the SAME STOP DATE ON ALL ORDERS parameter is set to yes, the module will assign a default stop date for each patient. This date is initially set when the first order is entered for the patient. A new default stop date is assigned for the patient when an order is renewed and the order's stop date plus three days is greater than the current default stop date. This date is shown as the default value for the stop date of each order entered for the patient. However, if a day or dose limit exists for the selected Orderable Item, and the limit is less than the default stop date, the earlier stop date and time will be displayed.
 
 ## IV
 
@@ -5522,7 +5557,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > This would be useful if the user wishes to print a short report to the screen. The new settings will remain unless the user changes them again or exits the system, at which time the settings will revert to the output devices defined in the site parameters.
 
-> Once the pharmacist has finished with a pick list, the prompt, “MAY I FILE THE DATA IN THIS PICK LIST AWAY? NO//” is displayed. Enter N (or press \<Enter\>) if the need to enter or edit the data at a later date is desired. Enter Y if no more data is to be entered or edited. When a pick list is filed away, the data is placed in the respective patients’ orders and in a file used for printing cost reports. If an order does not have the units dispensed entered, the units needed value is used.
+> Once the pharmacist has finished with a pick list, the prompt, "MAY I FILE THE DATA IN THIS PICK LIST AWAY? NO//" is displayed. Enter N (or press \<Enter\>) if the need to enter or edit the data at a later date is desired. Enter Y if no more data is to be entered or edited. When a pick list is filed away, the data is placed in the respective patients' orders and in a file used for printing cost reports. If an order does not have the units dispensed entered, the units needed value is used.
 
 > Example: Enter Units Dispensed Report
 
@@ -5538,9 +5573,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The user can choose the length of patient profile needed to view. The long profile lists all orders, but the short profile lists only active orders. The user will be asked to select the order on which an action is to be taken.
 
-> If the site is using an ATC for the dispensing of Unit Dose medications, the user will be given the opportunity to use the ATC to dispense any extra units entered for medication designated for the ATC. The prompt “DO YOU WANT TO DISPENSE THESE EXTRA UNITS THROUGH
+> If the site is using an ATC for the dispensing of Unit Dose medications, the user will be given the opportunity to use the ATC to dispense any extra units entered for medication designated for the ATC. The prompt "DO YOU WANT TO DISPENSE THESE EXTRA UNITS THROUGH
 
-> THE ATC: NO//” is displayed. The default is NO, but the user can enter Y or YES for the drug to be dispensed through the ATC.
+> THE ATC: NO//" is displayed. The default is NO, but the user can enter Y or YES for the drug to be dispensed through the ATC.
 
 > ![](psj-5-181-pharmacist-s-user-manual-change-pages/028.png)Note: Pick lists are filed away when the user exits this option. Please allow approximately two hours for data to be entered before running any cost reports.
 
@@ -5604,11 +5639,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The *Patients on Specific Drug(s)* option creates a report that lists patients on specific Orderable Item(s), Dispense Drug(s), or Veterans Affairs (VA) class(es) of drugs. When more than one of these drugs is chosen, the user will have the option to only display patients with orders containing ALL of the selected drugs or classes. The default behavior will be to display patients with orders of ANY of the selected drugs or classes.
 
-> This option can be found under the *Supervisor’s* menu or may have been added to a locally created pharmacist’s menu.
+> This option can be found under the *Supervisor's* menu or may have been added to a locally created pharmacist's menu.
 
-> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the “Select number of matches” prompt, the user may select how many of the items entered must be on the patient’s record in order for the patient to be displayed in the report.
+> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the "Select number of matches" prompt, the user may select how many of the items entered must be on the patient's record in order for the patient to be displayed in the report.
 
-> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters ‘1’ (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters ‘2’ on the number of matches screen, only patient C’s orders will print.
+> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters '1' (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters '2' on the number of matches screen, only patient C's orders will print.
 
 > Selecting a parent VA class will function as if the user had selected all of its children classes manually. Users will also be able to select one or more divisions and/or wards, which will limit the results to print only patients from the locations entered. When selecting all divisions and all wards, an additional prompt is shown to allow selection of one pharmacy ward group for selected locations.
 
@@ -5710,7 +5745,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > \[PSJI LBLMENU\]
 
-> The *Label Menu (IV)* option allows the printing or reprinting of labels for all IV orders. All labels will have a unique Bar Code ID. This ID number is comprised for the patient internal entry number (IEN), a “V” as a delimiter, and the label sequential number for the patient (not the order). Orders suspended for a particular delivery time; however, cannot be printed from here, but must be printed from the suspense functions. This option contains five sub-options.
+> The *Label Menu (IV)* option allows the printing or reprinting of labels for all IV orders. All labels will have a unique Bar Code ID. This ID number is comprised for the patient internal entry number (IEN), a "V" as a delimiter, and the label sequential number for the patient (not the order). Orders suspended for a particular delivery time; however, cannot be printed from here, but must be printed from the suspense functions. This option contains five sub-options.
 
 > Example: IV Label Menu
 
@@ -5888,7 +5923,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > \[PSJI LBLI\]
 
-> The *Individual Labels (IV)* option allows the printing of labels for a patient’s order. The pharmacist can choose whether or not the labels are to be counted as daily usage. This is often used for On-call orders or those not automatically delivered.
+> The *Individual Labels (IV)* option allows the printing of labels for a patient's order. The pharmacist can choose whether or not the labels are to be counted as daily usage. This is often used for On-call orders or those not automatically delivered.
 
 > Once an order is selected from the patient profile, all of the printed labels that have not been marked as Completed or Given by BCMA, or have not been Reprinted, Recycled, Cancelled, or Destroyed, display on the order view. The pharmacist can select to print new labels or reprint IV labels.
 
@@ -6019,7 +6054,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > Fld by: Chkd by: 1\[8\]
 
-> ![](psj-5-181-pharmacist-s-user-manual-change-pages/036.png)Note: This label is an exact copy of the one printed in the ‘Print New Labels’ above for Label 1 with the exception of the barcode ID.
+> ![](psj-5-181-pharmacist-s-user-manual-change-pages/036.png)Note: This label is an exact copy of the one printed in the 'Print New Labels' above for Label 1 with the exception of the barcode ID.
 
 (*This page included for two-sided copying.)*
 
@@ -6029,11 +6064,11 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the
 
-> ^XTMP(“OCXCACHE” global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
+> ^XTMP("OCXCACHE" global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
 
 > For example, before data caching was implemented, if an order check took 3 seconds to retrieve data from other VISTA packages, and there were 12 order checks, clinicians might wait 36 seconds to sign orders. With data caching, the first order check might take 3 seconds to retrieve the data, but subsequent order checks could use the cache and might take only .03 seconds each. That would be 3.33 seconds compared to 36 seconds. The numbers in this example are for illustration only and do not reflect real system speed. However, data caching should speed up order checks.
 
-> To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP(“OCXCACHE” global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer’s prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
+> To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP("OCXCACHE" global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer's prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
 
 (*This page included for two-sided copying.)*
 
@@ -6177,7 +6212,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 > Delete Labels from Suspense (IV), 208
 > Delete Labels from Suspense (IV) Example, 208 Detailed Allergy/ADR List, 29, 75, 223
 > Discharge, 179
-> Discontinue All of a Patient’s Orders, 60
+> Discontinue All of a Patient's Orders, 60
 > Discontinue an Order, 12, 17, 20, 39, 40, 42, 59, 60, 64, 65, 81, 85, 87, 89, 113, 114, 118, 119, 131, 137, 144, 174, 179, 224, 234,
 > 236
 > Discontinue an Order Example, 40, 41, 87 Discontinuing a Pending Renewal, 104 Discontinuing Duplicate Inpatient Orders, 124h
@@ -6197,7 +6232,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > Edit an Order, 42, 89
 > Edit an Order and Create a New Order Example, 91 Edit an Order Example, 42, 43, 89, 90
-> Edit Inpatient User Parameters, 125 Edit Patient’s Default Stop Date, 126 Enter Units Dispensed, 134
+> Edit Inpatient User Parameters, 125 Edit Patient's Default Stop Date, 126 Enter Units Dispensed, 134
 > Enter Units Dispensed Report Example, 135 Enter/Edit Allergy/ADR Data, 29, 75
 > Entering Barcode ID for Returns and Destroyed Medications Example, 152 Entering Returns and Destroyed Medications Example, 149
 > Error Information, 222
@@ -6230,10 +6265,10 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 > Hidden Actions, 4, 7, 8
 > History Log, 42, 55, 89, 104
 > Hold, 3, 12, 17, 29, 47, 48, 60, 61, 64, 65, 98, 106, 118, 130, 134, 144, 179, 224, 236
-> Hold All of a Patient’s Orders, 60
-> Hold All of a Patient’s Orders Example, 60 Hold an Order, 47
+> Hold All of a Patient's Orders, 60
+> Hold All of a Patient's Orders Example, 60 Hold an Order, 47
 > Hold an Order Example, 47, 48, 98
-> Take All of a Patient’s Orders Off of Hold Example, 61
+> Take All of a Patient's Orders Off of Hold Example, 61
 > Hyperal, 68, 69, 115, 116, 117, 118, 143, 146, 201, 227, 228, 229, 233
 
 ## I
@@ -6322,8 +6357,8 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
     3.  Inpatient Order Entry 17
     4.  Patient Actions 18
     5.  Order Actions 40
-    6.  Discontinue All of a Patient’s Orders 60
-    7.  Hold All of a Patient’s Orders 60
+    6.  Discontinue All of a Patient's Orders 60
+    7.  Hold All of a Patient's Orders 60
     8.  Inpatient Profile 61
 4.  IV Menu Option 63
     1.  Order Entry (IV) 64
@@ -6342,7 +6377,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 6.  Unit Dose 125
     1.  Edit Inpatient User Parameters 125
-    2.  Edit Patient’s Default Stop Date 126
+    2.  Edit Patient's Default Stop Date 126
 
 > 5.2. IV 126
 
@@ -6739,24 +6774,24 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > ![](psj-5-113-pharmacist-s-user-manual-change-pages/002.png)Note: There will be no Dosage Ordered check against the Units Per Dose if a Local Possible Dosage is selected.
 
-> “UNITS PER DOSE:” (Regular)
+> "UNITS PER DOSE:" (Regular)
 
 > This is the number of units (tablets, capsules, etc.) of the Dispense Drug selected to be given when the order is administered.
 
-> When a selection is made from the dosage list provided at the “DOSAGE ORDERED:” prompt, then this “UNITS PER DOSE:” prompt will not be displayed unless the selection list/default contains Local Possible Dosages. If a numeric dosage is entered at the “DOSAGE ORDERED:” prompt, but not from the selection list, then the default for “UNITS PER DOSE:” will be calculated as follows: DOSAGE ORDERED/STRENGTH = UNITS PER DOSE and will not be displayed.
+> When a selection is made from the dosage list provided at the "DOSAGE ORDERED:" prompt, then this "UNITS PER DOSE:" prompt will not be displayed unless the selection list/default contains Local Possible Dosages. If a numeric dosage is entered at the "DOSAGE ORDERED:" prompt, but not from the selection list, then the default for "UNITS PER DOSE:" will be calculated as follows: DOSAGE ORDERED/STRENGTH = UNITS PER DOSE and will not be displayed.
 
-> If free text or no value is entered at the “DOSAGE ORDERED:” prompt, the “UNITS PER DOSE:” prompt will be displayed. When the user presses \<Enter\> past the “UNITS PER DOSE:” prompt, without entering a value, a “1” will be stored. A warning message will be generated when free text is entered at the “DOSAGE ORDERED:” prompt and no value or an incorrect value is entered at the “UNITS PER DOSE:” prompt.
+> If free text or no value is entered at the "DOSAGE ORDERED:" prompt, the "UNITS PER DOSE:" prompt will be displayed. When the user presses \<Enter\> past the "UNITS PER DOSE:" prompt, without entering a value, a "1" will be stored. A warning message will be generated when free text is entered at the "DOSAGE ORDERED:" prompt and no value or an incorrect value is entered at the "UNITS PER DOSE:" prompt.
 
-- “MED ROUTE:” (Regular and Abbreviated)
+- "MED ROUTE:" (Regular and Abbreviated)
 
-> Inpatient Medications uses the medication route provided by CPRS as the default when finishing an IV order, and transmits any updates to an order’s medication route to CPRS.
+> Inpatient Medications uses the medication route provided by CPRS as the default when finishing an IV order, and transmits any updates to an order's medication route to CPRS.
 
 > Inpatient Medications determines the default medication route for a new order entered through Inpatient Medications, and sends the full Medication Route name for display on the BCMA VDL.
 
 > This is the administration route to be used for the order. If a Medication Route is identified for the selected Orderable Item, it will be used as the default for the order. Inpatient Medications applies the Medication Route provided by CPRS as the default when finishing an IV order.
 
 - If no medication route is specified, Inpatient Medications will use the Medication Route provided by CPRS as the default when finishing an IV order.
-- If updates are made to the medication route, Inpatient Medications will transmit any updates to an order’s Medication Route to CPRS.
+- If updates are made to the medication route, Inpatient Medications will transmit any updates to an order's Medication Route to CPRS.
 - Inpatient Medications determines the default Medication Route for a new order.
 - Inpatient Medications sends the full Medication Route name for display on the BCMA VDL.
 
@@ -6772,13 +6807,13 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 - Schedule Validation Requirement Two
 
-> If the user changes the schedule, a warning message will be generated stating that the administration times and the schedule type for the order will be changed to reflect the defaults for the new schedule selected. The warning message: “This change in schedule also changes the ADMIN TIMES and SCHEDULE TYPE of this order” shall appear.
+> If the user changes the schedule, a warning message will be generated stating that the administration times and the schedule type for the order will be changed to reflect the defaults for the new schedule selected. The warning message: "This change in schedule also changes the ADMIN TIMES and SCHEDULE TYPE of this order" shall appear.
 
 - Schedule Validation Check Three
 
 > If the schedule type is changed from Continuous to PRN during an edit, the system shall automatically remove any administration times that were associated with the schedule so that the order will not include administration times.
 
-- “SCHEDULE:” (Regular and Abbreviated)
+- "SCHEDULE:" (Regular and Abbreviated)
 
 > This defines the frequency the order is to be administered. Schedules must be selected from the ADMINISTRATION SCHEDULE file, with the following exceptions:
 
@@ -6790,25 +6825,25 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > ![](psj-5-113-pharmacist-s-user-manual-change-pages/004.png)Note: Order entry will permit the entry of a Day-of-Week schedule in the following format: days@schedule name (e.g. MO-WE-FR@BID, TU@Q6H).
 
-> Note: Inpatient Medications will translate a Day of Week schedule into appropriate administration times. For example: “MO-WE-FR@BID” is translated to “MO-WE-FR@10- 22”. The schedule after the “@” will be a valid schedule from the ADMINISTRATION SCHEDULE file (#51.1).
+> Note: Inpatient Medications will translate a Day of Week schedule into appropriate administration times. For example: "MO-WE-FR@BID" is translated to "MO-WE-FR@10- 22". The schedule after the "@" will be a valid schedule from the ADMINISTRATION SCHEDULE file (#51.1).
 
-- “SCHEDULE TYPE:” (Regular)
+- "SCHEDULE TYPE:" (Regular)
 
 > This defines the type of schedule to be used when administering the order. If the Schedule Type entered is One-time, the ward parameter, DAYS UNTIL STOP FOR ONE-TIME, is accessed to determine the stop date. When the ward parameter is not available, the system parameter, DAYS UNTIL STOP FOR ONE-TIME, will be used to determine the stop date. When neither parameter has been set, one-time orders will use the ward parameter, DAYS UNTIL STOP DATE/TIME, to determine the stop date instead of the start and stop date being equal. When a new order is entered or an order entered through CPRS is finished by pharmacy, the default Schedule Type is determined as described below:
 
 - If no Schedule Type has been found and a Schedule Type is defined for the selected Orderable Item, that Schedule Type is used for the order.
 - If no Schedule Type has been found and the schedule contains PRN, the Schedule Type is PRN.
-- If no Schedule Type has been found and the schedule is “ON CALL”, “ON-CALL” or “ONCALL”, the Schedule Type is ON CALL.
+- If no Schedule Type has been found and the schedule is "ON CALL", "ON-CALL" or "ONCALL", the Schedule Type is ON CALL.
 - ![](psj-5-113-pharmacist-s-user-manual-change-pages/005.png)For all others, the Schedule Type is CONTINUOUS.
 
 > Note: During backdoor order entry, the Schedule Type entered is used unless the schedule is considered a ONE-TIME schedule. If so, the Schedule Type is changed to ONE TIME.
 
-- “ADMINISTRATION TIME:” (Regular)
+- "ADMINISTRATION TIME:" (Regular)
 
-> This defines the time(s) of day the order is to be given. Administration times must be entered in a two or four digit format. If multiple administration times are needed, they must be separated by a dash (e.g., 09-13 or 0900-1300). This field must be left blank for odd schedules, e.g., Q16H. If the schedule for the order contains “PRN”, all Administration Times for the order will be ignored. In new order entry, the default Administration Times are determined as described below:
+> This defines the time(s) of day the order is to be given. Administration times must be entered in a two or four digit format. If multiple administration times are needed, they must be separated by a dash (e.g., 09-13 or 0900-1300). This field must be left blank for odd schedules, e.g., Q16H. If the schedule for the order contains "PRN", all Administration Times for the order will be ignored. In new order entry, the default Administration Times are determined as described below:
 
 - If Administration Times are defined for the selected Orderable Item, they will be shown as the default for the order.
-- If Administration Times are defined in the INPATIENT WARD PARAMETERS file for the patient’s ward and the order’s schedule, they will be shown as the default for the order.
+- If Administration Times are defined in the INPATIENT WARD PARAMETERS file for the patient's ward and the order's schedule, they will be shown as the default for the order.
 - If Administration Times are defined for the Schedule, they will be shown as the default for the order.
 
 ### Order Validation Checks:
@@ -6823,7 +6858,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> For intermittent IV orders, references to an order’s Schedule Type will refer to either the TYPE OF SCHEDULE from the Administration Schedule file (#51.1), or PRN for schedule names in PRN format, or CONTINUOUS for schedule names in Day of Week format.
+> For intermittent IV orders, references to an order's Schedule Type will refer to either the TYPE OF SCHEDULE from the Administration Schedule file (#51.1), or PRN for schedule names in PRN format, or CONTINUOUS for schedule names in Day of Week format.
 
 ### Order Validation Check Two
 
@@ -6839,7 +6874,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > If an order has the Schedule Type of Continuous, the Schedule entered is NOT in Day of Week (Ex. MO-FR) or PRN (Ex. TID PC PRN) format, and the frequency associated with the schedule is greater than one day (1440 minutes) and evenly divisible by 1440, only one administration time is permitted. (For example, an order with a schedule frequency of 2880 minutes must have ONLY one administration time. If the frequency is greater than 1440 minutes and not evenly divisible by 1440, no administration times will be permitted.)
 
-> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. In this case, the user will not be allowed to continue after the warning. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. In this case, the user will not be allowed to continue after the warning. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 ### Order Validation Checks
 
@@ -6853,7 +6888,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> For intermittent IV orders, references to an order’s Schedule Type will refer to either the TYPE OF SCHEDULE from the Administration Schedule file (#51.1), or PRN for schedule names in PRN format, or CONTINUOUS for schedule names in Day of Week format.
+> For intermittent IV orders, references to an order's Schedule Type will refer to either the TYPE OF SCHEDULE from the Administration Schedule file (#51.1), or PRN for schedule names in PRN format, or CONTINUOUS for schedule names in Day of Week format.
 
 ### Order Validation Check Two
 
@@ -6871,9 +6906,9 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > If an order has the Schedule Type of Continuous, the Schedule entered is NOT in Day of Week (Ex. MO-FR) or PRN (Ex. TID PC PRN) format, and the frequency associated with the schedule is greater than one day (1440 minutes) and evenly divisible by 1440, only one administration time is permitted. (For example, an order with a schedule frequency of 2880 minutes must have ONLY one administration time. If the frequency is greater than 1440 minutes and not evenly divisible by 1440, no administration times will be permitted.)
 
-> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: “The number of admin times entered is fewer than indicated by the
+> The system shall present warning/error messages to the user if the number of administration times is less than or greater than the maximum admin times calculated for the schedule or if no administration times are entered. If the number of administration times entered is less than the maximum admin times calculated for the schedule, the warning message: "The number of admin times entered is fewer than indicated by the
 
-> schedule.” shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: “The number of admin times entered is greater than indicated by the schedule.” shall appear. In this case, the user will not be allowed to continue after the warning. If no admin times are entered, the error message: “This order requires at least one administration time.” shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
+> schedule." shall appear. In this case, the user will be allowed to continue after the warning. If the number of administration times entered is greater than the maximum admin times calculated for the schedule, the error message: "The number of admin times entered is greater than indicated by the schedule." shall appear. In this case, the user will not be allowed to continue after the warning. If no admin times are entered, the error message: "This order requires at least one administration time." shall appear. The user will not be allowed to accept the order until at least one admin time is entered.
 
 ### From: PSJ*5*145 Pharmacist's User Manual Change Pages
 
@@ -6883,7 +6918,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > \[PSJU 24H MAR\]
 
-> The *24 Hour MAR* option creates a report that can be used to track the administration of a patient’s medications over a 24-hour period. The 24 Hour MAR report includes:
+> The *24 Hour MAR* option creates a report that can be used to track the administration of a patient's medications over a 24-hour period. The 24 Hour MAR report includes:
 
 - Date/time range covered by the MAR using a four-digit year format
 - Institution Name
@@ -6905,17 +6940,17 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 - Strength (if different from that indicated in drug name)
 - Medication route abbreviation
 - Schedule
-- Verifying pharmacist’s and nurse’s initials
+- Verifying pharmacist's and nurse's initials
 
-> The MAR is printed by group (G), ward (W) , clinic (C) , or patient (P). When group is selected, a prompt to select by ward group (W) or clinic group (C) displays. If the user chooses to print by patient, the opportunity to select more than one patient will be given. The system will keep prompting, “Select another PATIENT:”. If a caret (^) is entered, the user will return to the report menu. When all patients are entered, press \<Enter\> at this prompt to continue.
+> The MAR is printed by group (G), ward (W) , clinic (C) , or patient (P). When group is selected, a prompt to select by ward group (W) or clinic group (C) displays. If the user chooses to print by patient, the opportunity to select more than one patient will be given. The system will keep prompting, "Select another PATIENT:". If a caret (^) is entered, the user will return to the report menu. When all patients are entered, press \<Enter\> at this prompt to continue.
 
 > ![](psj-5-145-pharmacist-s-user-manual-change-pages/002.png)Note: If the user chooses to select by ward, administration teams may be specified and the MAR may be sorted by administration team, and then by room-bed or patient name. The default for the administration team is ALL and multiple administration teams may be entered. If selecting by ward group, the MAR may be sorted by room-bed or patient name. When the report is printed by clinic or clinic group, and the order is for an outpatient, the report leaves Room/Bed blank.
 
 > January 2005 Inpatient Medications V. 5.0 155
 
-> Pharmacist’s User Manual
+> Pharmacist's User Manual
 
-> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient’s name, regardless of location.
+> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient's name, regardless of location.
 
 > Select by Ward:
 
@@ -6941,7 +6976,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > (*This page included for two-sided copying.)*
 
-> There are six medication choices. The user may select multiple choices of medications to be printed on the 24 Hour MAR. Since the first choice is ALL Medications, the user will not be allowed to combine this with any other choices. The default choice is “Non-IV Medications only” if:
+> There are six medication choices. The user may select multiple choices of medications to be printed on the 24 Hour MAR. Since the first choice is ALL Medications, the user will not be allowed to combine this with any other choices. The default choice is "Non-IV Medications only" if:
 
 1.  The MAR ORDER SELECTION DEFAULT parameter was not defined.
 2.  Selection by Ward group.
@@ -6957,15 +6992,15 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
     2.  The right side of the main body is where the actual administration is to be recorded. It is marked in one-hour increments for simplicity.
 3.  The bottom of the form allows space for signatures/titles, initials for injections, allergies, injection sites, omitted doses, reason for omitted doses, and initials for omitted doses.
 
-> At the “Enter START DATE/TIME for 24 Hour MAR:” prompt, indicate the date and the time of day, in military time, the 24 Hour MAR is to start, including leading and trailing zeros. The time that is entered into this field will print on the 24 Hour MAR as the earliest time on the time line. If the time is not entered at this prompt, the time will default to the time specified in the ward parameter, “START TIME OF DAY FOR 24 HOUR MAR:”. If the ward parameter is blank, then the time will default to 0:01 a.m. system time.
+> At the "Enter START DATE/TIME for 24 Hour MAR:" prompt, indicate the date and the time of day, in military time, the 24 Hour MAR is to start, including leading and trailing zeros. The time that is entered into this field will print on the 24 Hour MAR as the earliest time on the time line. If the time is not entered at this prompt, the time will default to the time specified in the ward parameter, "START TIME OF DAY FOR 24 HOUR MAR:". If the ward parameter is blank, then the time will default to 0:01 a.m. system time.
 
-> Please keep in mind that the MAR is designed to print on stock 8 ½” by 11” paper at 16 pitch (6 lines per inch).
+> Please keep in mind that the MAR is designed to print on stock 8 ½" by 11" paper at 16 pitch (6 lines per inch).
 
 > ![](psj-5-145-pharmacist-s-user-manual-change-pages/003.png)Note: It is strongly recommended that this report be queued to print at a later time.
 
 > 156 Inpatient Medications V. 5.0 January 2005
 
-> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient’s name, regardless of location.
+> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient's name, regardless of location.
 
 > Select by Ward:
 
@@ -6991,7 +7026,7 @@ Dx: SEVERA ANEMIA Last transferred: \*\*\*\*\*\*\*\*
 
 > (*This page included for two-sided copying.)*
 
-> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient’s name, regardless of location.
+> When selecting by Ward, Ward Group, Clinic, or Clinic Group, the following prompts are included. All orders for a patient are grouped together by the patient's name, regardless of location.
 
 > Select by Ward:
 

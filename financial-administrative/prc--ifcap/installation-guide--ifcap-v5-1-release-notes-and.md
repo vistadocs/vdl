@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
+group_key: PRC:PRC:5.1
+description: IFCAP V. 5.1 does not introduce new functionality. It is a fully patched version of IFCAP V. 5.0, which depends upon the site's reference tables (files) being already populated.
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: IFCAP V. 5.1 does not introduce new functionality. It is a fully patched version of IFCAP V. 5.0, which depends upon the site’s reference tables (files) being already populated.
-audience: 
-keywords: 
-  - ifcap
-  - table
-  - contents
-  - installation
-  - install
-  - prcst
-  - options
-  - distribution
-  - order
-  - wish
 page_count: 0
 word_count: 3625
 section_count: 18
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1install_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1install_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1install_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1install_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ### ![](ifcap-version-5-1-release-notes-and-installation-guide/001.png)

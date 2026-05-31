@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: FB
 patch_ver: 3.5
 patch_id: FB*3.5*116
-group_key: "FB:FB:3.5"
-file_numbers: []
-security_keys: []
+group_key: FB:FB:3.5
+description: '''- Introduction - Overview - Patch FB\3.5\116 includes the following modifications: - Allow zero dollar line items to be exported to Central Fee. - [EDI...'''
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '19'
+- '34'
+- '162'
+- '163.5'
+security_keys:
+- FBAASUPERVISOR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - payment
-  - batch
-  - table
-  - contents
-  - line
-  - zero
-  - dollar
-  - patch
-  - invoices
-  - items
 page_count: 0
 word_count: 2648
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb_35_116_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb_35_116_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=40"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb_35_116_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Fee_Basis/fb_35_116_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=40
+audit_applied: '2026-05-31'
 ---
 
 Fee Basis

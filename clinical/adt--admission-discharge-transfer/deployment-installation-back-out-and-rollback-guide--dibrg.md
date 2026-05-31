@@ -1,28 +1,63 @@
 ---
-consolidated_title: "dibrg"
-app_code: ADT
+title: DG*5.3*952 DIBRG
 doc_type: DIBR
-master_source: "DG*5.3*952 DIBRG"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: DIBRG
+app_code: ADT
+app_name: Admission Discharge Transfer
+section: CLI
+app_status: archive
+pkg_ns: DG
+patch_ver: 5.3
+patch_id: DG*5.3*952
+group_key: ADT:DG:5.3
+file_numbers:
+- '2'
+- '8'
+- '8.1'
+- '19'
+- '19.1'
+- '27.11'
+- '33'
+- '50.31'
+- '101'
+- '409.61'
+- '6873'
+security_keys: []
+menu_options: 0
+description: '''Table 1: Deployment, Installation, Back-out, and Rollback Roles, and'''
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 5333
+section_count: 31
+table_count: 5
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: February 2020
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_952_ivm_2_184_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_952_ivm_2_184_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
+master_source: DG*5.3*952 DIBRG
 master_pub_date: February 2020
 consolidated_from: 9 versions
 prior_versions:
-  - "DG*5.3*1016 DIBRG"
-  - "DG*5.3*1025 DIBRG"
-  - "DG*5.3*1029 DIBRG"
-  - "DG*5.3*1034 DIBRG"
-  - "DG*5.3*1035 DIBRG"
-  - "DG*5.3*1047 DIBRG"
-  - "DG*5.3*916 DIBRG"
-  - "DG*5.3*977 DIBRG"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Suicide High Risk Patient Enhancements (SHRPE)
-
-  DG\*5.3\*952 and IVM\*2.0\*184
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- DG*5.3*1016 DIBRG
+- DG*5.3*1025 DIBRG
+- DG*5.3*1029 DIBRG
+- DG*5.3*1034 DIBRG
+- DG*5.3*1035 DIBRG
+- DG*5.3*1047 DIBRG
+- DG*5.3*916 DIBRG
+- DG*5.3*977 DIBRG
+consolidated_title: dibrg
 ---
 
 ![](dg-5-3-952-dibrg/001.png)
@@ -179,18 +214,18 @@ Table of Contents
   - [Rollback Procedure](#rollback-procedure-1)
   - [Rollback Verification Procedure](#rollback-verification-procedure)
 This document describes how to deploy and install the Veterans Information Systems and Technology Architecture (VistA) Registration patch DG\*5.3\*952 and Income Verification Match (IVM) patch IVM\*2.0\*184*,* as well as how to back-out the product and rollback to a previous version or data set. This document is a companion to the project charter and management plan for this effort.
-Modifications are needed to VistA to ensure former service members with an Other Than Honorable (OTH) administrative discharge, and their eligibility for emergency mental health care services, are identifiable in the electronic health record, and VA staff can track the former service member’s status within a 90‑day episode of care.
-The current process does not allow the health care team to readily identify a former service member’s OTH discharge type and eligibility status in the electronic health record when they are treated under Emergent mental health (MH) care authority.
+Modifications are needed to VistA to ensure former service members with an Other Than Honorable (OTH) administrative discharge, and their eligibility for emergency mental health care services, are identifiable in the electronic health record, and VA staff can track the former service member's status within a 90‑day episode of care.
+The current process does not allow the health care team to readily identify a former service member's OTH discharge type and eligibility status in the electronic health record when they are treated under Emergent mental health (MH) care authority.
 The current process does not capture and track where the former service member falls within the 90-day episode of care during provision of mental health care.
 The current process does not allow the health care team to view former service members with OTH administrative discharges and their eligibility and 90-day status in CPRS for emergency mental health care services.
 The challenges to the current process will be addressed with the following enhancements:
-- A new EXPANDED MH CARE TYPE value “OTH-90” will be implemented in VistA. This new code identities former service members with an OTH discharge type that are treated under Emergent MH care authority to Veterans Health Administration (VHA) healthcare team members and allows them to be tracked. The new code will display in Registration and CPRS.
+- A new EXPANDED MH CARE TYPE value "OTH-90" will be implemented in VistA. This new code identities former service members with an OTH discharge type that are treated under Emergent MH care authority to Veterans Health Administration (VHA) healthcare team members and allows them to be tracked. The new code will display in Registration and CPRS.
 - Per VA policy, VHA DIRECTIVE 1601A.02, the former service member is allowed two 90-day episodes of care within a 365-day period. The Veterans Integrated Service Network (VISN) Chief Medical Officer must approve a second 90-day episode of care. The 90-Day Status will consist of a countdown clock to be displayed in CPRS. This clock will inform VHA healthcare team members the number of days remaining within a 90‑day episode of care. The countdown clock is initiated at the number 90, decrements by 1 daily, and counts down to zero. A value of 90 indicates that the 90-Day Episode of Care has started, and a value of zero indicates that the 90-Day Episode of Care has expired. New Registration menu options will provide functionality to allow DG staff to manage the OTH clock start dates and enter/edit required authorization for the 2<sup>nd</sup> 90-days period.
 - OTH status displayed on the CPRS screen.
 To meet the objectives of these OTH Enhancements (SHRPE), the solution will be deployed in two parts.
 The first part is a bundle of the Registration patch DG\*5.3\*952 and Income Verification Match (IVM) patch IVM\*2.0\*184, which will:
 - Introduce the new EXPANDED MH CARE NON-ENROLLEE eligibility in the ELIGIBILITY CODE (#8) and MAS ELIGIBILITY CODE (#8.1) files.
-- Add new EXPANDED MH CARE TYPE (#.5501) field to the PATIENT (#2) file to indicate EXPANDED MH CARE TYPE value “OTH-90” for the Emergent OTH authority.
+- Add new EXPANDED MH CARE TYPE (#.5501) field to the PATIENT (#2) file to indicate EXPANDED MH CARE TYPE value "OTH-90" for the Emergent OTH authority.
 - Create the new file OTH ELIGIBILITY PATIENT (#33) to track patients eligible for VA care under Emergent OTH authority.
 - Add new functionality to the Registration Menu \[DG REGISTRATION MENU\] option to manage Emergent OTH authority patients. The following menu options and submenus have been added:
 > Other Than Honorable Patients Menu \[DG OTH MENU\]
@@ -246,7 +281,7 @@ This patch should be installed in all VA VistA production sites. This patch is i
 | 5      | VAMCs                                                                                                           | Installation     | Plan and schedule installation.                                                                                                 | Deployment                       |
 | 6      | VIP Release Agent                                                                                               | Installation     | Obtain authority to operate and that certificate authority security documentation is in place.                                  | Deployment                       |
 | 7      | N/A for this patch as we are using only the existing VistA system                                               | Installation     | Validate through facility Point of Contact (POC) to ensure that IT equipment has been accepted using asset inventory processes. | Deployment                       |
-| 8      | The VA’s SHRPE team                                                                                             | Installations    | Coordinate knowledge transfer with the team responsible for user training.                                                      | Deployment                       |
+| 8      | The VA's SHRPE team                                                                                             | Installations    | Coordinate knowledge transfer with the team responsible for user training.                                                      | Deployment                       |
 | 9      | VIP release Agent, Health Product Support & the development team                                                | Back-out         | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out).            | Deployment                       |
 | 10     | SHRPE Team                                                                                                      | Post-Deployment  | Hardware, Software, and System Support.                                                                                         | Warranty                         |
 
@@ -433,7 +468,7 @@ Please see the *Deployment*, *Installation, Back-out, and Rollback Roles, and* R
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The sites that are participating in field testing IOC will use the “Patch Tracking” message in Outlook to communicate with the SHRPE team, the developers, and product support personnel.
+The sites that are participating in field testing IOC will use the "Patch Tracking" message in Outlook to communicate with the SHRPE team, the developers, and product support personnel.
 
 #### Deployment/Installation/Back-Out Checklist
 
@@ -505,7 +540,7 @@ Refer to the DG\*5.3\*952 and IVM\*2.0\*184 Patch Descriptions documentation on 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-After installation, the user verifies installation results by using the “Install File Print” menu option in the “Utilities” submenu of the Kernel Installation & Distribution System.
+After installation, the user verifies installation results by using the "Install File Print" menu option in the "Utilities" submenu of the Kernel Installation & Distribution System.
 
 Also refer to the DG\*5.3\*952 and IVM\*2.0\*184 documentation on the NPM for detailed installation instructions. These instructions include any post-installation steps, if applicable.
 
@@ -582,7 +617,7 @@ After the support period, the VistA Maintenance Program would produce the new pa
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-It is necessary to determine if a wholesale back-out of the DG\*5.3\*952 and IVM\*2.0\*184 patches is needed or if a better course of action is needed to correct through a new version of the patch (if prior to national release) or a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patches will still require a new version (if prior to national release) or a subsequent patch(es) (after national release). If the back-out is post-release of patch DG\*5.3\*952 and IVM\*2.0\*184, these patches should be assigned the status of “Entered in Error” in Forum’s NPM.
+It is necessary to determine if a wholesale back-out of the DG\*5.3\*952 and IVM\*2.0\*184 patches is needed or if a better course of action is needed to correct through a new version of the patch (if prior to national release) or a subsequent patch aimed at specific areas modified or affected by the original patch (after national release). A wholesale back-out of the patches will still require a new version (if prior to national release) or a subsequent patch(es) (after national release). If the back-out is post-release of patch DG\*5.3\*952 and IVM\*2.0\*184, these patches should be assigned the status of "Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -609,11 +644,11 @@ The project is canceled, the requested changes implemented by DG\*5.3\*952 and I
 By backing out DG\*5.3\*952 and IVM\*2.0\*184 patches, the local facility will not be able to provide SHRPE functionality implemented by the patch:
 
 - Process HL7 messages with OTH data that allows to keep VistA systems and ES in sync in regard to the OTH eligibility and OTH 90-day periods (OTH clocks) across all the VA sites.
-- The new EXPANDED MH CARE TYPE value “OTH-90” identities former service members with an OTH discharge type to VHA healthcare team members, that are eligible to receive emergent MH care and allows them to be tracked. The new value will display in Registration and CPRS.
+- The new EXPANDED MH CARE TYPE value "OTH-90" identities former service members with an OTH discharge type to VHA healthcare team members, that are eligible to receive emergent MH care and allows them to be tracked. The new value will display in Registration and CPRS.
 - Per VA policy, the former service member is allowed two 90-day episodes of care within a 365-day period. The VISN Chief Medical Officer must approve a second 90-day episode of care. The 90-Day Status will consist of a countdown clock to be displayed in CPRS. This clock will inform VHA healthcare team members the number of days remaining within a 90‑day episode of care. The countdown clock is initiated at the number 90, decrements by 1 daily, and counts down to zero. A value of 90 indicates that the 90-Day Episode of Care has started, and a value of zero indicates that the 90-Day Episode of Care has expired. New Registration menu options will provide functionality to allow DG staff to manage the OTH clock start dates and enter/edit required authorization for the 2<sup>nd</sup> 90-day period.
 - OTH status displayed on the CPRS screen.
 
-The current changes made in the patch don’t affect other applications and thus the backing out the software should not pose any issues.
+The current changes made in the patch don't affect other applications and thus the backing out the software should not pose any issues.
 
 The project is still under development so there are chances that dependencies with other applications are introduced and if this happens then this section will need to be re-evaluated to determine potential risks.
 
@@ -627,7 +662,7 @@ The order would come from: Portfolio Director, VA Project Manager and Business O
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The rollback plan for VistA applications is complex and not a “one size fits all” solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. The DG\*5.3\*952 and IVM\*2.0\*184 patches contain the following build components:
+The rollback plan for VistA applications is complex and not a "one size fits all" solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. The DG\*5.3\*952 and IVM\*2.0\*184 patches contain the following build components:
 
 - Routines
 
@@ -784,7 +819,7 @@ If deletion of the new entries in the PROTOCOL file (#101) was performed manuall
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Rollback pertains to data. This patch doesn’t change any standard data on the site. If any billing errors occurred due to the patch, then research performed by qualified DG staff will be required and corrections will need to be performed manually.
+Rollback pertains to data. This patch doesn't change any standard data on the site. If any billing errors occurred due to the patch, then research performed by qualified DG staff will be required and corrections will need to be performed manually.
 
 ## Rollback Considerations
 
@@ -873,7 +908,7 @@ Per the Veteran-focused Integrated Process (VIP) Guide, the Deployment, Installa
 | 5      | VAMCs                                                                                                             | Installation     | Plan and schedule installation.                                                                                                                          | Deployment                       |
 | 6      | VIP Release Agent                                                                                                 | Installation     | Obtain authority to operate and that certificate authority security documentation is in place.                                                           | Deployment                       |
 | 7      | N/A for this patch as we are using only the existing VistA system                                                 | Installation     | Validate through facility Point of Contact (POC) to ensure that Information Technology (IT) equipment has been accepted using asset inventory processes. | Deployment                       |
-| 8      | The VA’s SHRPE team                                                                                               | Installations    | Coordinate knowledge transfer with the team responsible for user training.                                                                               | Deployment                       |
+| 8      | The VA's SHRPE team                                                                                               | Installations    | Coordinate knowledge transfer with the team responsible for user training.                                                                               | Deployment                       |
 | 9      | VIP release Agent, Health Product Support & the development team                                                  | Back-out         | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out).                                     | Deployment                       |
 | 10     | SHRPE Team                                                                                                        | Post-Deployment  | Hardware, Software, and System Support.                                                                                                                  | Warranty                         |
 
@@ -985,7 +1020,7 @@ Refer to the DG\*5.3\*1016 Patch Description in the NPM in FORUM for detailed in
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-After installation, the user verifies installation results by using the “Install File Print” menu option in the “Utilities” submenu of the KIDS.
+After installation, the user verifies installation results by using the "Install File Print" menu option in the "Utilities" submenu of the KIDS.
 
 Also refer to the DG\*5.3\*1016 documentation on the NPM for detailed installation instructions. These instructions include any post-installation steps, if applicable.
 
@@ -1269,13 +1304,13 @@ No routines included.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The rollback plan for VistA applications is complex and not able to be a “one size fits all” solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. If not, the site should contact the product support team directly for specific solutions to their unique problems.
+The rollback plan for VistA applications is complex and not able to be a "one size fits all" solution. The general strategy for a VistA rollback is to repair the code with a follow-up patch. The development team recommends that sites log a ticket if it is a nationally released patch. If not, the site should contact the product support team directly for specific solutions to their unique problems.
 
 ## Backout Procedure
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-During the VistA installation procedure of the KIDS build, the installer can back up the modified routines using the ‘Backup a Transport Global’ action. The installer can restore the routines using the MailMan message that was saved prior to the installation of the patch. The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. This backout process may need to include a database cleanup process.
+During the VistA installation procedure of the KIDS build, the installer can back up the modified routines using the 'Backup a Transport Global' action. The installer can restore the routines using the MailMan message that was saved prior to the installation of the patch. The backout procedure for global, data dictionary and other VistA components is more complex and will require issuance of a follow-up patch to ensure all components are properly removed. All software components (routines and other items) must be restored to their previous state at the same time and in conjunction with the restoration of the data. This backout process may need to include a database cleanup process.
 
 Please contact the product support team for assistance if the installed patch that needs to be backed out contains anything at all besides routines before trying to backout the patch. If the installed patch that needs to be backed out includes a pre or post install routine, please contact the product support team before attempting the backout.
 

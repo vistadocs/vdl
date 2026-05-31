@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*435
-group_key: "IB:IB:2"
-file_numbers: []
+group_key: IB:IB:2
+description: '- Introduction - Documentation Distribution - Patch Description and Installation Instructions - Patch Description - [Pre/Post Installation...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '355.12'
+- '900231'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - routine
-  - before
-  - patch
-  - after
-  - eligibility
-  - installation
-  - insurance
-  - ncpdp
 page_count: 0
 word_count: 3013
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p435_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p435_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p435_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p435_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 > ![](ib-2-435-epharmacy-phase-v-release-notes/001.png)

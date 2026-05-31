@@ -3,7 +3,7 @@ title: GCS Version 2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GEN
 app_name: Generic Code Sheet (GCS)
 section: FIN
@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: GEN
 patch_ver: 2
 patch_id: GEN*2
-group_key: "GEN:GEN:2"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: GEN:GEN:2
 description: The principal use of the Generic Code Sheet Menu is to create code sheets. Code sheets are used to create data in a format that other computer systems can use. Prior to DHCP, users completed paper forms, which were transcribed onto punch cards. The punch cards would be mailed to a central computer f
-audience: 
-keywords: 
-  - code
-  - sheet
-  - number
-  - batch
-  - table
-  - contents
-  - step
-  - generic
-  - prompt
-  - sheets
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '11.2'
+- '19'
+- '600'
+- '2100'
+security_keys:
+- CTRL
+- GECS SETUP
+menu_options: 1
 page_count: 0
 word_count: 19916
 section_count: 57
 table_count: 16
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1992
 revision_count: 2
 revision_newest: 12/22/04
 revision_oldest: 12/22/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2user.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2user.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=7"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2user.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2user.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=7
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

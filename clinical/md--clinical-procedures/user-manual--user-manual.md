@@ -1,13 +1,50 @@
 ---
-consolidated_title: "user manual"
-app_code: MD
+title: MD*1*6 User Manual (Hemodialysis)
 doc_type: UM
-master_source: "MD*1*6 User Manual (Hemodialysis)"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: (Hemodialysis)
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*6
+group_key: MD:MD:1
+file_numbers: []
+security_keys:
+- CTRL
+- ORELSE
+- OREMAS
+- ORES
+menu_options: 0
+description: 1Patch MD*1.0*19 released. Added notes regarding Recent Postings & Infectious Diseases (Chapter 4). Added list of lab tests that display on the Rx and Lab tab (Chapter 5). March 2009
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 25011
+section_count: 68
+table_count: 1
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: May 2008
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p6_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p6_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*6 User Manual (Hemodialysis)
 master_pub_date: May 2008
 consolidated_from: 3 versions
 prior_versions:
-  - "MD*1*23 User Manual (CP Flowsheets)"
-  - "MD*1*26 User Manual (CP Flowsheets)"
+- MD*1*23 User Manual (CP Flowsheets)
+- MD*1*26 User Manual (CP Flowsheets)
+consolidated_title: user manual
 ---
 
 ![](md-1-6-user-manual-hemodialysis/001.png)
@@ -204,9 +241,9 @@ Provider Systems
   - [Study Events](#study-events)
   - [Defining Application Events Screen Buttons](#defining-application-events-screen-buttons)
 - [Troubleshooting](#troubleshooting)
-  - [Preventing PCE “Data Loss” in the Hemodialysis Application](#preventing-pce-data-loss-in-the-hemodialysis-application)
+  - [Preventing PCE "Data Loss" in the Hemodialysis Application](#preventing-pce-data-loss-in-the-hemodialysis-application)
   - [Reloading Flowsheet Data](#reloading-flowsheet-data)
-  - [Resolving “No Note Text” Error](#resolving-no-note-text-error)
+  - [Resolving "No Note Text" Error](#resolving-no-note-text-error)
     - [Issue Description](#issue-description)
   - [Using More Than One Dialysis Device During a Treatment](#using-more-than-one-dialysis-device-during-a-treatment)
 - [Glossary](#glossary)
@@ -287,13 +324,13 @@ This chapter describes the process to follow for ordering dialysis procedures. (
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-All Hemodialysis procedures must be set up in CP Manager before they can be used by this application. Hemodialysis procedures should be set up like CP procedures. Make sure that each hemodialysis procedure has the field Processing Application set to Hemodialysis (Figure 2‑1). Any other type of procedure will default to the Default setting. Refer to Chapter 6 “Setting Up Clinical Procedures” in the *Clinical Procedures Implementation Guide* for more information on setting up procedures.
+All Hemodialysis procedures must be set up in CP Manager before they can be used by this application. Hemodialysis procedures should be set up like CP procedures. Make sure that each hemodialysis procedure has the field Processing Application set to Hemodialysis (Figure 2‑1). Any other type of procedure will default to the Default setting. Refer to Chapter 6 "Setting Up Clinical Procedures" in the *Clinical Procedures Implementation Guide* for more information on setting up procedures.
 
 ![](md-1-6-user-manual-hemodialysis/002.png)
 
 Figure 2‑1
 
-Next, Consult Services must be set up and Consult Procedures must be created. Refer to Chapter 8 “Setting Up Consults for Clinical Procedures” in the *Clinical Procedures Implementation Guide* for more information on setting up procedures.
+Next, Consult Services must be set up and Consult Procedures must be created. Refer to Chapter 8 "Setting Up Consults for Clinical Procedures" in the *Clinical Procedures Implementation Guide* for more information on setting up procedures.
 
 ## Ordering a Dialysis Procedure in CPRS 
 
@@ -301,7 +338,7 @@ Next, Consult Services must be set up and Consult Procedures must be created. Re
 
 This section describes how to order a dialysis procedure through CPRS. Keep in mind that you can only order a dialysis procedure order and not a consult request.
 
-In addition to becoming familiar with the CPRS ordering process, you can learn about the interpreter, which is the user role within ASU that supports CP. The interpreter is a User Role created by ASU that defines a user who can interpret (sign-off or verify) the procedure’s final report. The Clinical Application Coordinator (CAC) defines interpreters in the Consults package.
+In addition to becoming familiar with the CPRS ordering process, you can learn about the interpreter, which is the user role within ASU that supports CP. The interpreter is a User Role created by ASU that defines a user who can interpret (sign-off or verify) the procedure's final report. The Clinical Application Coordinator (CAC) defines interpreters in the Consults package.
 
 If you are an interpreter for a specific procedure, you can receive an alert when the procedure results are ready for review. Additional comments can be added if necessary along with the Procedure Summary code and the electronic signature. The following example describes how to order a dialysis procedure through the CPRS Consults tab.
 
@@ -399,7 +436,7 @@ Checking in a new study is the next step in the Clinical Procedures process. You
 
 If you want to link multiple results to one procedure, you can check in multiple studies for the same procedure that you ordered through Consults. In this way, you do not have to order multiple procedure requests.
 
-> **NOTE:** It is recommended that you create a new procedure request every month. When determining how often your site should create a new procedure request, keep in mind two things: 1) consider how heavy your site’s work load is and 2) remember that Hemodialysis reports display on the CPRS Consults tab attached to the original procedure request. The more reports that are attached to one result, the more difficult it will be to search for a particular result.
+> **NOTE:** It is recommended that you create a new procedure request every month. When determining how often your site should create a new procedure request, keep in mind two things: 1) consider how heavy your site's work load is and 2) remember that Hemodialysis reports display on the CPRS Consults tab attached to the original procedure request. The more reports that are attached to one result, the more difficult it will be to search for a particular result.
 
 In this example, the dialysis procedure was ordered and a new study for the dialysis procedure is being checked in.
 
@@ -416,7 +453,7 @@ Figure 2‑11
 4.  Depending on the consult procedure you selected, the appropriate instruments for that procedure are displayed. Click the appropriate instrument if more than one is listed, or click No Instrument if no instrument is associated with this procedure. In Figure 2‑11, GAMBRO EXALIS (Bi-Directional) is the appropriate instrument in this example and is selected.
 5.  You must associate each CP study with a PCE visit, which is the hospital location where the procedure is performed. This step is Required.
 
-> For the majority of TIU notes created through CP, the visit association is completed in the background. If a visit has already been recorded but the note wasn’t linked (standalone visits, such as telephone or walk-in visits), you can select a visit from the Clinical Procedures Check In edit screen (Figure 2‑11).  
+> For the majority of TIU notes created through CP, the visit association is completed in the background. If a visit has already been recorded but the note wasn't linked (standalone visits, such as telephone or walk-in visits), you can select a visit from the Clinical Procedures Check In edit screen (Figure 2‑11).  
 
 > To link the CP study to the visit, select information from the Outpatients Visits tab on Figure 2‑11. You can also select the New Visit tab and enter NOW for the date and time.
 
@@ -478,7 +515,7 @@ Figure 3‑1
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Study List displays first after you have logged on to Hemodialysis. Use this screen 1) to select the patient whose study you wish to open or 2) to disable a patient’s record so other users can only view the patient’s study in read-only mode (i.e., no changes to the record will be saved).
+The Study List displays first after you have logged on to Hemodialysis. Use this screen 1) to select the patient whose study you wish to open or 2) to disable a patient's record so other users can only view the patient's study in read-only mode (i.e., no changes to the record will be saved).
 
 > **NOTE:** To view disabled records, the following option must be set to TRUE: Show Disabled Studies to Users.
 
@@ -498,25 +535,25 @@ For (non-ADMIN) users to disable or enable a study, the following option must be
 - Status By – User who changed study status
   - Since – Date & time of status change
   - Workstation – Computer where user changed status
-2.  Click the patient’s name. Additional information about the selected patient displays in the Active Patients window (Figure 3‑1). If you select a sensitive patient, a sensitive patient window is displayed indicating that the patient’s information should only be accessed on a need to know basis.
+2.  Click the patient's name. Additional information about the selected patient displays in the Active Patients window (Figure 3‑1). If you select a sensitive patient, a sensitive patient window is displayed indicating that the patient's information should only be accessed on a need to know basis.
 
 > ![](md-1-6-user-manual-hemodialysis/015.png)
 
 Figure 3‑2
 
-> The DOB and SSN columns of a sensitive patient each displays three X’s instead of numbers, as shown here and in Figure 3‑1.
+> The DOB and SSN columns of a sensitive patient each displays three X's instead of numbers, as shown here and in Figure 3‑1.
 
 ![](md-1-6-user-manual-hemodialysis/016.png)
 
 Figure 3‑3
 
-> Notes: If the IN USE icon ![](md-1-6-user-manual-hemodialysis/017.png) displays in the column to the left of a Study \#, that patient’s record has already been opened. You are limited to viewing this record in read-only mode.
+> Notes: If the IN USE icon ![](md-1-6-user-manual-hemodialysis/017.png) displays in the column to the left of a Study \#, that patient's record has already been opened. You are limited to viewing this record in read-only mode.
 
 > The DISABLED icon ![](md-1-6-user-manual-hemodialysis/018.png) displays in the column to the left of a study \# of each patient record that has been disabled. You are limited to viewing this record in read-only mode.
 
-3.  Click Select to open the patient’s record, or click Review to open the patient’s record in read-only mode. The Cover tab displays (Figure 3‑4).
+3.  Click Select to open the patient's record, or click Review to open the patient's record in read-only mode. The Cover tab displays (Figure 3‑4).
 
-Tip: A quicker way to open a patient’s record is to double-click the patient’s name.
+Tip: A quicker way to open a patient's record is to double-click the patient's name.
 
 ![](md-1-6-user-manual-hemodialysis/019.png)
 
@@ -526,11 +563,11 @@ Figure 3‑4
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To prevent users from making changes to a patient’s study, use the Study List to disable it. Users are still permitted to view a disabled study. Please note that a TIU Note can still be added to a disabled study.
+To prevent users from making changes to a patient's study, use the Study List to disable it. Users are still permitted to view a disabled study. Please note that a TIU Note can still be added to a disabled study.
 
-> **NOTE:** To disable a patient’s record, the following parameter must be set to TRUE: Allow USER control Study Status.
+> **NOTE:** To disable a patient's record, the following parameter must be set to TRUE: Allow USER control Study Status.
 
-To disable a patient’s record, do the following:
+To disable a patient's record, do the following:
 
 1.  At the Study List, click the desired study.
 2.  Click Disable. The DISABLED icon ![](md-1-6-user-manual-hemodialysis/020.png) displays in the column to the left of the Study \#. Other users may open this study, but they cannot save changes to it.
@@ -541,7 +578,7 @@ To disable a patient’s record, do the following:
 
 Figure 3‑5
 
-USERS with the “Allow USER control Study Status” set to TRUE can re-enable a disabled study. To re-enable a patient’s record after it has been disabled, do the following:
+USERS with the "Allow USER control Study Status" set to TRUE can re-enable a disabled study. To re-enable a patient's record after it has been disabled, do the following:
 
 1.  At the Study List, click the desired study.
 2.  Click Enable. The DISABLED icon is cleared from the column to the left of the Study \#. Users are free to save changes to the study.
@@ -557,9 +594,9 @@ The following options are available from the Study List right-click menu:
 - Refresh: Reload the Study List.
 - Select: Open the study selected in the Active Studies List.
 - Review: Open the selected study in Read-Only mode.
-- Enable: Activate the selected disabled study. Requires ADMIN rights *or* the User Preference named “Allow USER control Study Status” must be set to TRUE.
-- Disable: Deactivate the selected active study. Users can still view the study in Read-Only mode, but they cannot save changes to it. Requires ADMIN rights *or* the User Preference named “Allow USER control Study Status” must be assigned to set to TRUE. A TIU Note can still be added to a disabled study.
-- Autorefresh: Toggles Autorefresh on and off. When on, the Study List reloads automatically at the interval specified in the “Study List Refresh Rate” User/System Preference. (See “Configuring System Preferences.”)
+- Enable: Activate the selected disabled study. Requires ADMIN rights *or* the User Preference named "Allow USER control Study Status" must be set to TRUE.
+- Disable: Deactivate the selected active study. Users can still view the study in Read-Only mode, but they cannot save changes to it. Requires ADMIN rights *or* the User Preference named "Allow USER control Study Status" must be assigned to set to TRUE. A TIU Note can still be added to a disabled study.
+- Autorefresh: Toggles Autorefresh on and off. When on, the Study List reloads automatically at the interval specified in the "Study List Refresh Rate" User/System Preference. (See "Configuring System Preferences.")
 - Show Legend: When selected, the study list icons are explained towards the bottom of the Study List screen (Figure 3‑6).
 
 > ![](md-1-6-user-manual-hemodialysis/022.png)
@@ -610,7 +647,7 @@ There are three indicators that a study you are viewing is in Review mode:
 
 - The Save button is disabled.
 - The status line displays R/O (for read only) instead of Editable.
-- The background color of the screen changes to the color set in the “Color Review” preference (Figure 3‑10). (To set the Review mode background color, see the section “Configuring System Preferences.”)
+- The background color of the screen changes to the color set in the "Color Review" preference (Figure 3‑10). (To set the Review mode background color, see the section "Configuring System Preferences.")
 
 ![](md-1-6-user-manual-hemodialysis/026.png)
 
@@ -795,8 +832,8 @@ Submit Tab Documents Menu
 
 The following options are available from the Tools menu:
 
-- Show Gateway Info: Display a window containing the following gateway information: Gateway Status, Job ID, Last Purge Date, Maximum Log Entries, Node, Polling Interval, Start date/time, and the name of the user who started the gateway, UCI, and volume where the gateway is running. If the gateway is down, the window simply displays the message, “Gateway Status: Down.”
-- Set Pending Status: Change the status of a study from Error to Pending. To enable this option, two conditions must be met: 1) the Allow USER Reset Study Status preference must be set to TRUE (See the section “Configuring System Preferences,”) and 2) the selected study must be in an error status.
+- Show Gateway Info: Display a window containing the following gateway information: Gateway Status, Job ID, Last Purge Date, Maximum Log Entries, Node, Polling Interval, Start date/time, and the name of the user who started the gateway, UCI, and volume where the gateway is running. If the gateway is down, the window simply displays the message, "Gateway Status: Down."
+- Set Pending Status: Change the status of a study from Error to Pending. To enable this option, two conditions must be met: 1) the Allow USER Reset Study Status preference must be set to TRUE (See the section "Configuring System Preferences,") and 2) the selected study must be in an error status.
 - Show Treatment Status Report: Toggle the Treatment Status Report (on the Submit tab) on/off.
 
 #### Help
@@ -837,12 +874,12 @@ Figure 3‑12
 
 The second (middle) area displays the following treatment information:
 
-- CP study status (“Error”, “Pending instrument data” etc.) and if the appointment date/time was met.
+- CP study status ("Error", "Pending instrument data" etc.) and if the appointment date/time was met.
 - location
 - study \#
 - current treatment date.
 
-If the study status is “Error,” the study status displays in red, as shown below.
+If the study status is "Error," the study status displays in red, as shown below.
 
 ![](md-1-6-user-manual-hemodialysis/042.png)
 
@@ -873,11 +910,11 @@ The Tabs screen area is the primary place for viewing and entering study data. T
 - Summary
 - Submit
 
-These tabs are described in detail later in the section “Defining the Tabs of the Hemodialysis Patient Data Screen” and the subsequent chapters.
+These tabs are described in detail later in the section "Defining the Tabs of the Hemodialysis Patient Data Screen" and the subsequent chapters.
 
 The Options screen is hidden until you select Options from the menu bar. Once selected, the Options screen takes the place of the Patient Info bar and the Tabs screen area. To close the Options screen and return to the Tabs, select Patient Data from the menu bar.
 
-Access the Options screen to view and modify site configurable options, which are described in detail in the “Site Configurable Options”Configurable_Options section of this User Manual.
+Access the Options screen to view and modify site configurable options, which are described in detail in the "Site Configurable Options"Configurable_Options section of this User Manual.
 
 ### Status Line
 
@@ -934,7 +971,7 @@ Using these tabs in order from left to right follows the workflow process of ent
 
 This is the Cover tab (Figure 3‑16). After selection of a patient, this is the first tab to display. You can view current treatment information, past treatment information by date, and vascular access monitoring information on this tab. This screen also displays information about infectious diseases, transplant status, allergies, clinical warnings, and advanced directives. Finally, you can use this screen to print historical result reports.
 
-For more detailed information about the Cover tab, see “Chapter 4: Editing/Viewing Information on the Cover Tab.”
+For more detailed information about the Cover tab, see "Chapter 4: Editing/Viewing Information on the Cover Tab."
 
 ![](md-1-6-user-manual-hemodialysis/047.png)
 
@@ -946,7 +983,7 @@ Figure 3‑16
 
 Use the Rx and Labs tab to enter the dialysis prescription and view lab results (Figure 3‑17). Notes dealing with the prescription or lab results can be entered into the Comments area.
 
-For more detailed information about the Rx and Lab tab, see “Chapter 5: Entering Dialysis Prescription and Labs.”
+For more detailed information about the Rx and Lab tab, see "Chapter 5: Entering Dialysis Prescription and Labs."
 
 ![](md-1-6-user-manual-hemodialysis/048.png)
 
@@ -958,7 +995,7 @@ Figure 3‑17
 
 The Pre-Treatment tab is used to enter pre-dialysis vitals and pre-dialysis pain assessment (Figure 3‑18). Notes dealing with pre-treatment assessment can be entered into the Comments area.
 
-For more detailed information about the Pre-Treatment tab, see “Chapter 6: Entering Pre-Treatment Information.”
+For more detailed information about the Pre-Treatment tab, see "Chapter 6: Entering Pre-Treatment Information."
 
 ![](md-1-6-user-manual-hemodialysis/049.png)
 
@@ -970,7 +1007,7 @@ Figure 3‑18
 
 You can enter information about vascular access sites on the Access tab (Figure 3‑19). Use this tab to add, assess, select, remove, and comment on access sites.
 
-For more detailed information about the Access tab, see “Chapter 7: Entering Access Information.”
+For more detailed information about the Access tab, see "Chapter 7: Entering Access Information."
 
 ![](md-1-6-user-manual-hemodialysis/050.png)
 
@@ -982,7 +1019,7 @@ Figure 3‑19
 
 Use the Flowsheet tab to capture data from the dialysis instrument and manually enter dialysis information and medications used during treatment (Figure 3‑20). Notes dealing with flowsheet data or medications given during treatment can be entered into the Comments area.
 
-For more detailed information about the Flowsheet tab, see “Chapter 8: Entering Flowsheet Information.”
+For more detailed information about the Flowsheet tab, see "Chapter 8: Entering Flowsheet Information."
 
 ![](md-1-6-user-manual-hemodialysis/051.png)
 
@@ -994,7 +1031,7 @@ Figure 3‑20
 
 The Post-Treatment tab is used to enter vitals, observations, and pain assessment after the dialysis treatment has completed (Figure 3‑21). Notes dealing with post-treatment assessment can be entered into the Comments area.
 
-For more detailed information about the Post-Treatment tab, see “Chapter 9: Entering Post-Treatment Information.”
+For more detailed information about the Post-Treatment tab, see "Chapter 9: Entering Post-Treatment Information."
 
 ![](md-1-6-user-manual-hemodialysis/052.png)
 
@@ -1006,7 +1043,7 @@ Figure 3‑21
 
 You can enter/view summary information, vascular access monitoring, and billing information about the dialysis treatment on the Summary tab (Figure 3‑22). Under Billing Information, you can enter associated CPT and ICD9 codes, clinical indicators and associate providers with this treatment session. Notes dealing with billing and environmental conditions can be entered into the Comments area.
 
-For more detailed information about the Summary tab, see “Chapter 10: Viewing Summary Information.”
+For more detailed information about the Summary tab, see "Chapter 10: Viewing Summary Information."
 
 ![](md-1-6-user-manual-hemodialysis/053.png)
 
@@ -1018,7 +1055,7 @@ Figure 3‑22
 
 You can view the final report for the dialysis treatment, along with past reports, on the Submit tab (Figure 3‑23). The TIU Documents area on this tab allows you to review TIU notes. This tab can optionally display a checklist to alert you if key information was omitted on one of the previous tabs. Use this tab to submit the final report.
 
-For more detailed information about the Submit tab, see “Chapter 11: Submitting the Study.”
+For more detailed information about the Submit tab, see "Chapter 11: Submitting the Study."
 
 ![](md-1-6-user-manual-hemodialysis/054.png)
 
@@ -1047,7 +1084,7 @@ Figure 4‑1
 
 The first time you open a study, the Read Only checkbox will be unchecked so you can enter the treatment information. Each time you open the study again, the Read Only checkbox will be checked, so you can view the previously entered treatment information. If you want to edit this information, you can uncheck the Read Only checkbox and edit the information (Figure 4‑2).
 
-> **NOTE:** If you want the Treatment Information to default as Read Only for new studies, ADMIN users can set the “Set the new study Cover to Read Only” option to TRUE (Options menu \> Preferences \> System Preferences \> Set the new study Cover to Read Only).
+> **NOTE:** If you want the Treatment Information to default as Read Only for new studies, ADMIN users can set the "Set the new study Cover to Read Only" option to TRUE (Options menu \> Preferences \> System Preferences \> Set the new study Cover to Read Only).
 
 ![](md-1-6-user-manual-hemodialysis/056.png)
 
@@ -1063,15 +1100,15 @@ Diagnosis Date: Select the date the patient was first diagnosed with ESRD.
 
 Initial Therapy Date: Select the date of the first Hemodialysis treatment for this patient.
 
-Modality: Select the type of dialysis treatment to be performed. This dropdown list is site configurable for ADMIN users. (See “Customizing Drop-down List Items.”)
+Modality: Select the type of dialysis treatment to be performed. This dropdown list is site configurable for ADMIN users. (See "Customizing Drop-down List Items.")
 
-Code Status: Select either DNR, AD Signed or Full. This dropdown list is site configurable for ADMIN users. (See “Customizing Dropdown List Items.”)
+Code Status: Select either DNR, AD Signed or Full. This dropdown list is site configurable for ADMIN users. (See "Customizing Dropdown List Items.")
 
-Attending Nephrologist: Select the name of the attending Nephrologist. Choose the Nephrologist’s name in one of three ways:
+Attending Nephrologist: Select the name of the attending Nephrologist. Choose the Nephrologist's name in one of three ways:
 
 > Method 1: Find in VistA (Recommended)
 
-> Note: This method is recommended because the names get pulled from the VistA database. If the provider’s name does not appear in the list, use Method 2 or 3, below.
+> Note: This method is recommended because the names get pulled from the VistA database. If the provider's name does not appear in the list, use Method 2 or 3, below.
 
 - Unmark the Read Only checkbox.
 - Click the dropdown arrow to the right of the Attending Nephrologist field. The Select Provider window displays (Figure 4‑3).
@@ -1081,35 +1118,35 @@ Attending Nephrologist: Select the name of the attending Nephrologist. Choose th
 Figure 4‑3
 
 - Select the Find in VistA radio button.
-- Type the first letters of the provider’s last name, then press \<Enter\> to populate the list.
-- Click the provider’s name from the list, then click Select. The Select Provider window closes, and the selected provider’s name displays in the Attending Nephrologist field.
+- Type the first letters of the provider's last name, then press \<Enter\> to populate the list.
+- Click the provider's name from the list, then click Select. The Select Provider window closes, and the selected provider's name displays in the Attending Nephrologist field.
 
 > Method 2: Select from the Exception List (Custom Data List)
 
-> Use method 2 only if the desired provider’s name is not obtainable from VistA.
+> Use method 2 only if the desired provider's name is not obtainable from VistA.
 
-- An ADMIN user must first add the desired provider’s name to the Attending Nephrologists custom data list. (See “Customizing Drop-down List Items.”)
+- An ADMIN user must first add the desired provider's name to the Attending Nephrologists custom data list. (See "Customizing Drop-down List Items.")
 - At the Cover tab, unmark the Read Only checkbox.
 - Click the dropdown arrow to the right of the Attending Nephrologist field. The Select Provider window displays (Figure 4‑3).
 - Select the Select from the Exception List radio button. The large field displays the names added to the Attending Nephrologists custom data list.
-- Click one of the names (besides “- Other -”) in the list, then click Select. The Select Provider window closes, and the selected provider’s name displays in the Attending Nephrologist field.
+- Click one of the names (besides "- Other -") in the list, then click Select. The Select Provider window closes, and the selected provider's name displays in the Attending Nephrologist field.
 
 > Method 3: Add a Name On the Fly
 
-> Use method 3 only if the desired provider’s name is not obtainable from VistA and an ADMIN user is not available to add the provider’s name to the site’s custom data list..
+> Use method 3 only if the desired provider's name is not obtainable from VistA and an ADMIN user is not available to add the provider's name to the site's custom data list..
 
 - Unmark the Read Only checkbox.
 - Click the dropdown arrow to the right of the Attending Nephrologist field. The Select Provider window displays (Figure 4‑3).
 - Select the Select from the Exception List radio button.
-- Click “- Other -” from the name list, then click Select. The Select Provider popup displays (Figure 4‑4)..
+- Click "- Other -" from the name list, then click Select. The Select Provider popup displays (Figure 4‑4)..
 
 > ![](md-1-6-user-manual-hemodialysis/058.png)
 
 Figure 4‑4
 
-- Type the provider’s name in the Name field, then click OK. The Select Provider popup closes, and the provider’s name displays in the Attending Nephrologist field.
+- Type the provider's name in the Name field, then click OK. The Select Provider popup closes, and the provider's name displays in the Attending Nephrologist field.
 
-Visit Schedule: Check the checkboxes for the days that represent the patient’s treatment schedule, such as Monday, Wednesday, Friday.
+Visit Schedule: Check the checkboxes for the days that represent the patient's treatment schedule, such as Monday, Wednesday, Friday.
 
 Transplant Status: Indicate if this patient is a candidate for transplant or not by selecting the appropriate radio button to the right of the Transplant Status label. If you select Candidate, indicate if a workup is in progress or if the patient has been referred to a transplant center.
 
@@ -1129,7 +1166,7 @@ Infectious Diseases: This area does not provide data for the following three dis
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-An alternate display of Recent Postings & Infectious Diseases is available. Figure 4‑1 shows what the Recent Postings & Infectious Diseases area looks like if the “Show Infectious Diseases information as Tree” parameter is set to FALSE. If you set the “Show Infectious Diseases information as Tree” parameter to TRUE, it displays as shown in Figure 4‑5.
+An alternate display of Recent Postings & Infectious Diseases is available. Figure 4‑1 shows what the Recent Postings & Infectious Diseases area looks like if the "Show Infectious Diseases information as Tree" parameter is set to FALSE. If you set the "Show Infectious Diseases information as Tree" parameter to TRUE, it displays as shown in Figure 4‑5.
 
 When this parameter is set to TRUE, click the plus sign (+) next to the infectious disease to view data for that disease.
 
@@ -1143,7 +1180,7 @@ Figure 4‑5
 
 You can view the latest information on vascular access monitoring in the Treatment History section of the screen. This information is based on vascular access monitoring information entered into this Hemodialysis application, so if you are using this application for the first time, no vascular access monitoring information will display.
 
-To change the maximum number of past treatments that will display in the list, change the Study Load Limit value at the Options screen. (See “Configuring System PreferencesConfiguring_System_Options.”)
+To change the maximum number of past treatments that will display in the list, change the Study Load Limit value at the Options screen. (See "Configuring System PreferencesConfiguring_System_Options.")
 
 ![](md-1-6-user-manual-hemodialysis/060.png)
 
@@ -1194,7 +1231,7 @@ Figure 5‑1
 Enter the dialysis prescription by performing the following steps:
 
 1.  Click the Rx and Lab tab.
-2.  The *most recent* dialysis prescription displays in the Dialysis Rx section of the screen. For *first time patients* being monitored by the Hemodialysis application, manually enter the patient’s prescription into the Dialysis Rx section. The Dialyzer dropdown list is site configurable for ADMIN users. (See “Customizing Drop-down List Items.”)
+2.  The *most recent* dialysis prescription displays in the Dialysis Rx section of the screen. For *first time patients* being monitored by the Hemodialysis application, manually enter the patient's prescription into the Dialysis Rx section. The Dialyzer dropdown list is site configurable for ADMIN users. (See "Customizing Drop-down List Items.")
 
 ## Lab Results
 
@@ -1346,19 +1383,19 @@ Enter pre-dialysis assessments by performing the following steps:
 1.  Click the Pre-Treatment tab.
 2.  Take pre-dialysis vitals and assessments and record them on the Pre-Treatment Assessment section of this screen. Enter pre-treatment assessment data for the following fields:
 
-> Weight: Enter the patient’s Pre-Weight and Treatment Goal Weight in Kg.
+> Weight: Enter the patient's Pre-Weight and Treatment Goal Weight in Kg.
 
 > Note: The Estimated Dry Weight (EDW) value is for display only and cannot be modified from this screen. It can only be changed by editing the EDW value on the Rx and Lab tab.
 
-> Temperature: Enter the patient’s temperature in Fahrenheit.
+> Temperature: Enter the patient's temperature in Fahrenheit.
 
-> Blood Pressure and Pulse: Enter the patient’s blood pressure and pulse while the patient is seated and standing.
+> Blood Pressure and Pulse: Enter the patient's blood pressure and pulse while the patient is seated and standing.
 
 > Other:
 
 > Indicate whether the patient shows any signs of Edema (yes or no).
 
-> Enter the patient’s Respirations before treatment.
+> Enter the patient's Respirations before treatment.
 
 > Indicate whether the patient has Shortness of Breath (SOB) (yes or no).
 
@@ -1368,9 +1405,9 @@ Enter pre-dialysis assessments by performing the following steps:
 
 > Barriers to Learning: Indicate whether the patient has any barriers to learning by checking the appropriate check box(es).
 
-> Patient Education: Indicate whether the patient has been informed about all aspects of the treatment. Make sure all the patient’s questions regarding treatment have been answered. If you select Yes, the Key and Initial fields become active. Fill these fields if your site requires them.
+> Patient Education: Indicate whether the patient has been informed about all aspects of the treatment. Make sure all the patient's questions regarding treatment have been answered. If you select Yes, the Key and Initial fields become active. Fill these fields if your site requires them.
 
-> Patient Transportation: Select the patient’s mode of transportation from the dropdown list. The following options are initially available: ambulatory, bed, motorized wheel chair, wheel chair, and stretcher. This dropdown list is site configurable for ADMIN users. (See “Customizing Drop-down List Items.”)
+> Patient Transportation: Select the patient's mode of transportation from the dropdown list. The following options are initially available: ambulatory, bed, motorized wheel chair, wheel chair, and stretcher. This dropdown list is site configurable for ADMIN users. (See "Customizing Drop-down List Items.")
 
 > Safety Checks: Select Yes or No to indicate whether the Safety Checks have been completed. Safety checks are determined by site and usually depend on the device that is used.
 
@@ -1392,52 +1429,52 @@ Keyboard-only method: Press \<Alt\> + \<A\> to expand the Assessments menu, then
 
 Figure 6‑3
 
-The Pain Assessment window contains three sections of questions. The first section contains a drop-down list that is always active. It may also contain a pair of radio buttons, depending on the value selected for the “Pain assessment based on how patient tolerates pain” parameter. For more information on changing parameters, see “Configuring System Preferences.”
+The Pain Assessment window contains three sections of questions. The first section contains a drop-down list that is always active. It may also contain a pair of radio buttons, depending on the value selected for the "Pain assessment based on how patient tolerates pain" parameter. For more information on changing parameters, see "Configuring System Preferences."
 
-If the “Pain assessment based on how patient tolerates pain” parameter is set to FALSE, the first section of the Pain Assessment window contains only the “How bad is the pain?” drop-down list (Figure 6‑4).
+If the "Pain assessment based on how patient tolerates pain" parameter is set to FALSE, the first section of the Pain Assessment window contains only the "How bad is the pain?" drop-down list (Figure 6‑4).
 
 ![](md-1-6-user-manual-hemodialysis/070.png)
 
 Figure 6‑4
 
-Select a value from the dropdown to indicate how bad the patient’s pain is by choosing 0-10 or 99 for pain tolerance.
+Select a value from the dropdown to indicate how bad the patient's pain is by choosing 0-10 or 99 for pain tolerance.
 
 If the pain is indicated as 1 or above, the next two sections of questions are active and should be completed.
 
-> **NOTE:** 1 is the default pain level that activates the second two question areas. This level is site configurable. To change the pain level that activates the additional questions, change the value in the Pain Level parameter. See “Configuring System Preferences.”
+> **NOTE:** 1 is the default pain level that activates the second two question areas. This level is site configurable. To change the pain level that activates the additional questions, change the value in the Pain Level parameter. See "Configuring System Preferences."
 
-If the “Pain assessment based on how patient tolerates pain” parameter is set to TRUE, the first section of the Pain Assessment window contains both the “How bad is the pain?” drop-down list and a pair of radio buttons with the following labels: Can patient tolerate pain? Yes/No (Figure 6‑5).
+If the "Pain assessment based on how patient tolerates pain" parameter is set to TRUE, the first section of the Pain Assessment window contains both the "How bad is the pain?" drop-down list and a pair of radio buttons with the following labels: Can patient tolerate pain? Yes/No (Figure 6‑5).
 
 ![](md-1-6-user-manual-hemodialysis/071.png)
 
 Figure 6‑5
 
-Select a value from the dropdown to indicate how bad the patient’s pain is by choosing 0-10 or 99 for pain tolerance.
+Select a value from the dropdown to indicate how bad the patient's pain is by choosing 0-10 or 99 for pain tolerance.
 
 Next, select a radio button to indicate if the patient can tolerate pain or not. If the No radio button is selected, the next two sections of questions are active and should be completed.
 
-> **NOTE:** If the value in the “How bad is the pain?” dropdown is set to 0, the radio buttons and the next two sections of questions are disabled.
+> **NOTE:** If the value in the "How bad is the pain?" dropdown is set to 0, the radio buttons and the next two sections of questions are disabled.
 
-If the value in the “How bad is the pain?” dropdown is set higher than 0 and if the Yes radio button is selected, the next two sections of questions are disabled.
+If the value in the "How bad is the pain?" dropdown is set higher than 0 and if the Yes radio button is selected, the next two sections of questions are disabled.
 
 The next two sections of questions display as follows:
 
 If the pain value is 1 or more, complete the following section:
 
-- Where is the pain located?: Indicate where the patient’s pain is located.
-- Pain Form: Indicate if the patient’s pain is acute or chronic.
+- Where is the pain located?: Indicate where the patient's pain is located.
+- Pain Form: Indicate if the patient's pain is acute or chronic.
 - Pain Treatment: Indicate what type of pain treatment has been provided to the patient.
-- Frequency text: Indicate how often the patient’s pain occurs.
+- Frequency text: Indicate how often the patient's pain occurs.
 - Onset: Indicate how recently the patient began feeling the pain.
 - Duration of Episodes: Indicate the length of pain episodes.
-- Quality of Pain: Describe the patient’s pain.
+- Quality of Pain: Describe the patient's pain.
 
 The patient indicated that:
 
 - Indicate what the impact of the pain to the patient is.
 - Indicate whether the following makes the pain worse.
-- Indicate what of the following relieves the patient’s pain.
-- Indicate what type of medications help the patient’s pain.
+- Indicate what of the following relieves the patient's pain.
+- Indicate what type of medications help the patient's pain.
 - Indicate whether there were other treatments used for the pain.
 - Indicate if there were other comments made by the patient.
 
@@ -1451,7 +1488,7 @@ Figure 6‑6
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Pre-Treatment notes can be added and viewed in the Comments area in the lower-right corner of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+Pre-Treatment notes can be added and viewed in the Comments area in the lower-right corner of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 # Entering Access Information
 
@@ -1534,11 +1571,11 @@ Figure 7‑2
 - Left thigh
 - Other
 4.  Select the Date Placed from the drop-down calendar.
-5.  Choose the surgeon’s name in one of three ways:
+5.  Choose the surgeon's name in one of three ways:
 
 > Method 1: Using the Select Button (Recommended)
 
-> Note: This method is recommended because the names get pulled from the VistA database. If the provider’s name does not appear in the list, use Method 2 or 3, below.
+> Note: This method is recommended because the names get pulled from the VistA database. If the provider's name does not appear in the list, use Method 2 or 3, below.
 
 - Click Select to choose from the Select Provider list (Figure 7‑3).
 
@@ -1546,19 +1583,19 @@ Figure 7‑2
 
 Figure 7‑3
 
-- Type the first letters of the provider’s last name, then press \<Enter\> to populate the list.
-- Click the provider’s name from the list, then click Select. The Select Provider window closes, and the selected provider’s name displays in the Surgeon field.
+- Type the first letters of the provider's last name, then press \<Enter\> to populate the list.
+- Click the provider's name from the list, then click Select. The Select Provider window closes, and the selected provider's name displays in the Surgeon field.
 
 > Method 2: Using the Drop-down List
 
-> Use method 2 only if the desired provider’s name does not display in the Select Provider list.
+> Use method 2 only if the desired provider's name does not display in the Select Provider list.
 
-- An ADMIN user must first add the desired provider’s name to the Surgeons custom data list. (See “Customizing Drop-down List Items.”)
-- At the Add A New Access Site window, select the provider’s name from the Surgeon drop-down list. The selected provider’s name displays in the Surgeon field.
+- An ADMIN user must first add the desired provider's name to the Surgeons custom data list. (See "Customizing Drop-down List Items.")
+- At the Add A New Access Site window, select the provider's name from the Surgeon drop-down list. The selected provider's name displays in the Surgeon field.
 
 > Method 3: Adding a New Surgeon on the Fly
 
-> Use method 3 only if the desired provider’s name does not display in the Select Provider list and no ADMIN user is available to add the desired provider’s name to the Surgeons custom data list.
+> Use method 3 only if the desired provider's name does not display in the Select Provider list and no ADMIN user is available to add the desired provider's name to the Surgeons custom data list.
 
 - Select -- Other -- from the Surgeon drop-down list. The Surgeon Name Input Box displays.
 
@@ -1566,10 +1603,10 @@ Figure 7‑3
 
 Figure 7‑4
 
-- Type the surgeon’s name in the Surgeon Name field, then click OK. The name displays in the Surgeon field.
+- Type the surgeon's name in the Surgeon Name field, then click OK. The name displays in the Surgeon field.
 6.  Select the Medical Facility.
 
-> Note: The process of selecting the medical facility is identical to the process of selecting the Surgeon. (See step 5, above.) It is recommended that you use the Select button to choose the medical facility from the VistA database, but if the desired medical facility does not appear in the list, an ADMIN user can add the name to the Medical Facilities custom data list. (See “Customizing Drop-down List Items.”) If an ADMIN user is not available to add the name to the Medical Facilities custom data list, you can add a facility on the fly as described above under the heading Method 3.
+> Note: The process of selecting the medical facility is identical to the process of selecting the Surgeon. (See step 5, above.) It is recommended that you use the Select button to choose the medical facility from the VistA database, but if the desired medical facility does not appear in the list, an ADMIN user can add the name to the Medical Facilities custom data list. (See "Customizing Drop-down List Items.") If an ADMIN user is not available to add the name to the Medical Facilities custom data list, you can add a facility on the fly as described above under the heading Method 3.
 
 7.  Click Add. The Add A New Access Site screen closes.
 8.  A yellow circleicon displays next to the new site, indicating that it is available for use.
@@ -1619,7 +1656,7 @@ Figure 7‑6
 3.  Information about the site is displayed at the top of the screen.
 4.  Select the Date Removed from the calendar.
 5.  Select the Reason (Fate) for the site being removed from the dropdown list.
-6.  Enter the name of the Surgeon and Medical Facility. For more details on selecting surgeons and medical facilities, see step 5 in the section “Adding a New Site.”
+6.  Enter the name of the Surgeon and Medical Facility. For more details on selecting surgeons and medical facilities, see step 5 in the section "Adding a New Site."
 7.  Click Remove. The Remove An Access Site screen closes, and the Access screen is displayed.
 
 > Note: If you click Remove without first filling in the Reason, Surgeon, and/or Medical Facility fields, the following Warning popup displays:
@@ -1636,7 +1673,7 @@ Figure 7‑7
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-An access site which was never used may be deleted by an ADMIN user. This feature is provided in case an access site is added by mistake. Once an access site has been used, it becomes a permanent part of the patient’s record and cannot be deleted—only removed, as described in the section above.
+An access site which was never used may be deleted by an ADMIN user. This feature is provided in case an access site is added by mistake. Once an access site has been used, it becomes a permanent part of the patient's record and cannot be deleted—only removed, as described in the section above.
 
 An access site can be removed from the treeview if ALL of the following conditions are true:
 
@@ -1648,7 +1685,7 @@ An access site can be removed from the treeview if ALL of the following conditio
 
 To delete a site that meets the conditions above, do the following:
 
-1.  Double-click the access site’s treeview node. A pop-up confirmation window displays the question, “Delete the Node?”
+1.  Double-click the access site's treeview node. A pop-up confirmation window displays the question, "Delete the Node?"
 2.  Click Yes. The node is deleted.
 
 ## Access Points Summary
@@ -1763,7 +1800,7 @@ Click one of the date nodes to display History Details for that specific date/st
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Access Site notes can be added and viewed in the Comments area in the lower-right corner of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+Access Site notes can be added and viewed in the Comments area in the lower-right corner of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 > **NOTE:** Information displaying in the Comments area pertains only to the access point selected in the Sites treeview. In Figure 7‑11, for example, the comment dated 4/3/2008 is only associated with the Tunneled Right Subclavian access point.
 
@@ -1799,7 +1836,7 @@ View Flowsheet information by performing the following steps:
 2.  Initiate treatment for the prescribed amount of time.
 3.  Record readings from the dialysis instrument at site specific intervals (every 15 minutes, 30 minutes, etc.). Readings from the instrument are automatically sent to the Hemodialysis application and can be found in the Flowsheet.
 
-> Note: ADMIN users (and USERS with the “Flowsheet Refresh Rate” User Preference) can change the reading interval by editing the System/User Preference named “Flowsheet Refresh Rate.” (See “Configuring System PreferencesConfiguring_System_Options.”)
+> Note: ADMIN users (and USERS with the "Flowsheet Refresh Rate" User Preference) can change the reading interval by editing the System/User Preference named "Flowsheet Refresh Rate." (See "Configuring System PreferencesConfiguring_System_Options.")
 
 Definitions of the terms used on the flowsheet columns are as follows:
 
@@ -1859,12 +1896,12 @@ The following buttons display above the Flowsheet listview:
 
 - Refresh – Get instrument data now. (Clicking this button also resets the Autorefresh timer.)
 - Edit Entry – Edit a Flowsheet entry row.
-- Add Entry – Add manual entries to the Flowsheet. The Hemodialysis Flowsheet Entry Editor window displays (Figure 8‑3). Click OK when you are done adding values to the table, or click Cancel to discard changes without saving them. Click Help to display “Entering Flowsheet Information” topic from the Help file.
+- Add Entry – Add manual entries to the Flowsheet. The Hemodialysis Flowsheet Entry Editor window displays (Figure 8‑3). Click OK when you are done adding values to the table, or click Cancel to discard changes without saving them. Click Help to display "Entering Flowsheet Information" topic from the Help file.
 - Invalidate – Mark a valid row of data as invalid. Also click this button to mark an invalid row as valid.  
     
   Tip: You may also double-click a row to mark it invalid. Double click an invalidated row to mark it valid again.
 - Add TIU – Attach a new TIU note to this study.
-- Reload – Reprocess records from VistA database. (See “Reloading Flowsheet Data” in the Troubleshooting chapter.)
+- Reload – Reprocess records from VistA database. (See "Reloading Flowsheet Data" in the Troubleshooting chapter.)
 
 ![](md-1-6-user-manual-hemodialysis/092.png)
 
@@ -1880,7 +1917,7 @@ You may also access the functions described above by right-clicking anywhere on 
 
 Figure 8‑4
 
-The Format function is described later in this manual, in the section “Editing Data Fields.”
+The Format function is described later in this manual, in the section "Editing Data Fields."
 
 ## Adding a TIU Note
 
@@ -1902,20 +1939,20 @@ Figure 8‑5
 > Note: In order for 1) your TIU note titles to display in the Select TIU Title drop-down list and 2) the TIU notes to display on the CPRS Consults tab, you must do two things:
 
 - The TIU note titles must be defined in TIU. For instructions about adding new TIU note titles in TIU, see Chapter 4 of the *Clinical Procedures Implementation Guide*.
-- After the TIU note title is defined, it must be added to Hemodialysis. TIU Titles can be added at the Options screen. Expand the Custom Data Lists node, then click TIU Note Titles. See “Customizing Drop-down List ItemsConfiguring_System_Options” for more information.
+- After the TIU note title is defined, it must be added to Hemodialysis. TIU Titles can be added at the Options screen. Expand the Custom Data Lists node, then click TIU Note Titles. See "Customizing Drop-down List ItemsConfiguring_System_Options" for more information.
 
 > Additional Note: TIU note titles must be entered into Hemodialysis exactly as they were defined in TIU. If the TIU note title entered into Hemodialysis does not match one of the titles defined in TIU (or if a note title is not selected), the default TIU note title defined in CP Manager will be used.
 
 2.  To use a predefined note template, click the template name from the Select Note Template list.
 
-> Note: The Select Note Template list does not display if the “Show TIU Note Templates” System Preference is set to FALSE. It is hidden (set to FALSE) by default. (See “Configuring System PreferencesConfiguring_System_Options.”)
+> Note: The Select Note Template list does not display if the "Show TIU Note Templates" System Preference is set to FALSE. It is hidden (set to FALSE) by default. (See "Configuring System PreferencesConfiguring_System_Options.")
 
 3.  Modify the template note text, if necessary.
 4.  To add the Falls Risk Assessment to the TIU note text, click AddFalls Assessment. The Falls Risk Evaluation window displays. After completing the form, click OK to insert the Assessment text into the TIU note.
 
-> Note: The Add Falls Assessment button only displays in the TIU Note window if the “Falls Assessment as Separate TIU Note” option is set to TRUE.
+> Note: The Add Falls Assessment button only displays in the TIU Note window if the "Falls Assessment as Separate TIU Note" option is set to TRUE.
 
-> (For details on completing this form, see “Performing the Falls Assessment.”)
+> (For details on completing this form, see "Performing the Falls Assessment.")
 
 5.  Enter your electronic signature code in the Signature field, then press \<Enter\> (or click the Save button).
 
@@ -1931,7 +1968,7 @@ Users with ADMIN rights can create TIU note templates. If you logon as a user wi
 4.  Type the name of the template in the Item field.
 5.  Type a description in the Value field, then click OK. The new template name displays in the Note Templates list. At this point, the new template name is saved. You do not need to click Save to DB.
 6.  Click the node of the new template name in the options tree.
-7.  The new template is still blank. Create the layout of your new template as described in “Editing a Report Template.” Editing_a_Report_Template
+7.  The new template is still blank. Create the layout of your new template as described in "Editing a Report Template." Editing_a_Report_Template
 
     Note: You must click Save to DB to save the template layout.
 8.  The new note template will be available the next time you add a TIU note.
@@ -1942,7 +1979,7 @@ Users with ADMIN rights can create TIU note templates. If you logon as a user wi
 
 1.  From the TIU Note window, click the Add Falls Assessment button.
 
-> Note: The Add Falls Assessment button only displays in the TIU Note window if the “Falls Assessment as Separate TIU Note” option is set to TRUE.
+> Note: The Add Falls Assessment button only displays in the TIU Note window if the "Falls Assessment as Separate TIU Note" option is set to TRUE.
 
 2.  Click the FALLS RISK EVALUATION checkbox to activate this form. The Age field is display only and cannot be modified here.
 3.  Select one of the following radio buttons:
@@ -1998,13 +2035,13 @@ You can record any medicines administered during the treatment in the Medication
 
 > **NOTE:** This information gets stored locally, not in BCMA.
 
-Check the Show All box to display all medication records. If a record was edited, the status of the record changes from “NEW” to “REPLACED.” Uncheck the box to hide the replaced records.
+Check the Show All box to display all medication records. If a record was edited, the status of the record changes from "NEW" to "REPLACED." Uncheck the box to hide the replaced records.
 
 Click Edit Entry to edit the selected medicine entry. This button is disabled for invalid records.
 
 Click Add to add a new medicine entry (data row) to the table.
 
-Click Invalidate to mark an entry as a mistake, without deleting it. (The row data displays as red strike-through text.) Once the medication record is marked as invalid, you cannot undo the invalidation by clicking the “Invalidate” button again. You will need to enter the record again.
+Click Invalidate to mark an entry as a mistake, without deleting it. (The row data displays as red strike-through text.) Once the medication record is marked as invalid, you cannot undo the invalidation by clicking the "Invalidate" button again. You will need to enter the record again.
 
 Click Add when you are done adding values to the table.
 
@@ -2018,7 +2055,7 @@ If you need to edit a medication record, highlight the medication record by clic
 
 Figure 8‑7
 
-> **NOTE:** The original medication record is on the left window pane. The right window pane is the replacement record for you to edit. Once you are done editing the record, click the Update button on the bottom of the window. The record will now have a status of “REPLACED.” Unless the Show All box is checked, the replaced record will be hidden from view. The changes that were entered on the Replacement Record window pane will be the new record.
+> **NOTE:** The original medication record is on the left window pane. The right window pane is the replacement record for you to edit. Once you are done editing the record, click the Update button on the bottom of the window. The record will now have a status of "REPLACED." Unless the Show All box is checked, the replaced record will be hidden from view. The changes that were entered on the Replacement Record window pane will be the new record.
 
 ### Medication List Columns
 
@@ -2042,13 +2079,13 @@ A user with ADMIN rights can modify the drop-down list choices for the following
 - Units
 - Route
 
-Dropdown list options are configurable for ADMIN users. (See “Customizing Drop-down List Items.”)
+Dropdown list options are configurable for ADMIN users. (See "Customizing Drop-down List Items.")
 
 ## Comments
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Add Flowsheet notes in the Comments area at the bottom of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+Add Flowsheet notes in the Comments area at the bottom of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 # Entering Post-Treatment Information
 
@@ -2083,19 +2120,19 @@ Enter post-dialysis assessments by performing the following steps:
 1.  Click the Post-Treatment tab.
 2.  Take post-dialysis vitals and assessments and record them in the Post-Treatment Assessment section of this screen. Enter post-assessment data for the following fields:
 
-> Weight: Enter the patient’s Post-Weight in Kg.
+> Weight: Enter the patient's Post-Weight in Kg.
 
 > Note: Treatment Goal Weight cannot be modified from this screen. Change it by editing the Tx Goal Weight value on the Pre-Treatment tab.
 
-> Temperature: Enter the patient’s temperature in Fahrenheit.
+> Temperature: Enter the patient's temperature in Fahrenheit.
 
-> Blood Pressure and Pulse: Enter the patient’s blood pressure and pulse while patient is seated and standing.
+> Blood Pressure and Pulse: Enter the patient's blood pressure and pulse while patient is seated and standing.
 
 > Other:
 
 > Indicate whether the patient shows any signs of Edema (yes or no).
 
-> Enter the patient’s Respiration before treatment.
+> Enter the patient's Respiration before treatment.
 
 > Indicate whether the patient has Shortness of Breath (SOB) (yes or no).
 
@@ -2103,27 +2140,27 @@ Enter post-dialysis assessments by performing the following steps:
 
 > Observations: Enter post-treatment observations into the Observations section of the screen. If there are any additional observations check Other – Describe and enter them into the text box provided.
 
-> Patient Transportation: Select the patient’s mode of transportation from the dropdown list. The following options are available: ambulatory, bed, motorized wheel chair, wheel chair, and stretcher.
+> Patient Transportation: Select the patient's mode of transportation from the dropdown list. The following options are available: ambulatory, bed, motorized wheel chair, wheel chair, and stretcher.
 
 ## Pain Assessment
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Post-Treatment Pain Assessment functions exactly the same way as the Pre-Treatment Pain Assessment. For more information, see “Pain Assessment” in Chapter 6.
+The Post-Treatment Pain Assessment functions exactly the same way as the Pre-Treatment Pain Assessment. For more information, see "Pain Assessment" in Chapter 6.
 
 ## Falls Risk Evaluation
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Falls Risk Evaluation displays on the Post-Treatment tab if the “Falls Assessment as Separate TIU Note” option is set to FALSE.
+The Falls Risk Evaluation displays on the Post-Treatment tab if the "Falls Assessment as Separate TIU Note" option is set to FALSE.
 
-Click the Edit button to add a Falls Risk Evaluation. For more information on completing the Falls Risk Assessment, see “Performing the Falls Assessment” in Chapter 8.
+Click the Edit button to add a Falls Risk Evaluation. For more information on completing the Falls Risk Assessment, see "Performing the Falls Assessment" in Chapter 8.
 
 ## Comments
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Post-Treatment notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+Post-Treatment notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 # Viewing Summary Information
 
@@ -2157,7 +2194,7 @@ You can view summary information for the treatment in the Treatment Summary sect
 - Averages and Totals
 - Vascular Access
 
-The fields in the Treatment Summary and Averages and Totals sections may populate automatically, depending on your site’s instruments and configuration. If this information is generated by an instrument, it cannot be edited. If your instruments do not send this data, then you may enter it manually by typing it into the fields.
+The fields in the Treatment Summary and Averages and Totals sections may populate automatically, depending on your site's instruments and configuration. If this information is generated by an instrument, it cannot be edited. If your instruments do not send this data, then you may enter it manually by typing it into the fields.
 
 Enter data into the Vascular Access section manually by typing it into the fields.
 
@@ -2173,7 +2210,7 @@ Figure 10‑2
 
 Notes: Once a location has been selected, only a user with ADMIN rights can change the location.
 
-If the location changes for a patient, PCE data will not carry over from a previous study. PCE data must then be re-entered manually. For more information on this subject, see the Troubleshooting section “Preventing PCE “Data Loss”.”
+If the location changes for a patient, PCE data will not carry over from a previous study. PCE data must then be re-entered manually. For more information on this subject, see the Troubleshooting section "Preventing PCE "Data Loss"."
 
 The PCE data (ICD, CPT) will carry over from a previous study if both studies share the same 1) hospital location and 2) procedure request(s).
 
@@ -2195,7 +2232,7 @@ Figure 10‑3
 
 Figure 10‑4
 
-3.  Type one or more letters of the provider’s last name into the edit field in the top-left corner of the window, then press \<Enter\> or click Search. The listview below the edit field displays the names of providers that match the letters you entered (Figure 10‑5).
+3.  Type one or more letters of the provider's last name into the edit field in the top-left corner of the window, then press \<Enter\> or click Search. The listview below the edit field displays the names of providers that match the letters you entered (Figure 10‑5).
 
 ![](md-1-6-user-manual-hemodialysis/102.png)
 
@@ -2207,11 +2244,11 @@ Figure 10‑5
 
 Figure 10‑6
 
-5.  If more than one provider is associated with a treatment, checkmark the Primary Care Provider by clicking the provider’s name.
+5.  If more than one provider is associated with a treatment, checkmark the Primary Care Provider by clicking the provider's name.
 6.  To remove a name from the list of selected providers, highlight the name, then click the Move Left button. ![](md-1-6-user-manual-hemodialysis/105.png)
 7.  Click Save Data in PCE to close the Billing Information window and return to the Summary tab, or click Cancel to return to the Summary tab without saving changes.  
       
-    Note: To add diagnoses, procedures, or environmental conditions, you may simply click the appropriate tab on the Billing Information window (Figure 10‑6). You don’t have to return to the Summary tab in between procedures.
+    Note: To add diagnoses, procedures, or environmental conditions, you may simply click the appropriate tab on the Billing Information window (Figure 10‑6). You don't have to return to the Summary tab in between procedures.
 
 ## Procedures and Diagnosis (CPT/ICD Codes)
 
@@ -2254,7 +2291,7 @@ Use the Procedures tab to list procedures performed during a treatment and speci
 3.  Expand treeview nodes, if necessary. Highlight a procedure, and then click the Move Right button. ![](md-1-6-user-manual-hemodialysis/109.png) The selected procedure displays in the list of selected procedures. Repeat as needed.  
       
     Shortcut: Double click a procedure to move it from one list to the other.
-4.  If a procedure was performed more than once, click the procedure’s Quantity cell, and then type the number.
+4.  If a procedure was performed more than once, click the procedure's Quantity cell, and then type the number.
 
 ![](md-1-6-user-manual-hemodialysis/110.png)
 
@@ -2279,7 +2316,7 @@ Use the Service tab to indicate when the following conditions are associated wit
 
 To set environmental condition indicators, do the following:
 
-1.  On the Summary tab, click the Service button. The PCE Information window displays and the Service Connected Conditions tab is active. Some, or possibly none, of the radio buttons on this tab are available (Figure 10‑10). Availability of options is based on the current patient’s profile.
+1.  On the Summary tab, click the Service button. The PCE Information window displays and the Service Connected Conditions tab is active. Some, or possibly none, of the radio buttons on this tab are available (Figure 10‑10). Availability of options is based on the current patient's profile.
 
 ![](md-1-6-user-manual-hemodialysis/111.png)
 
@@ -2302,7 +2339,7 @@ Figure 10‑11
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-For each treatment, if you do not add or change PCE information, you are still required to confirm that the existing PCE data is correct. [^5]Current PCE data displays on the summary tab under the label “PCE Data,” as shown in the following:
+For each treatment, if you do not add or change PCE information, you are still required to confirm that the existing PCE data is correct. [^5]Current PCE data displays on the summary tab under the label "PCE Data," as shown in the following:
 
 1\) Location – workload location
 
@@ -2328,7 +2365,7 @@ Figure 10‑13
 
 Note 2: In rare cases, you may see the following popup message after you click Confirm:
 
-“Sorry, the PCE data was not updated even though the data was accepted.”
+"Sorry, the PCE data was not updated even though the data was accepted."
 
 This message means that the PCE data for this study was already sent to the Austin Data Center, and it can no longer be updated.
 
@@ -2336,19 +2373,19 @@ This message means that the PCE data for this study was already sent to the Aust
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Summary notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+Summary notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 # Submitting the Study
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Use this tab to review the final report, and then electronically sign off on the treatment. Once you sign off on the treatment, an official treatment summary is generated. This tab also provides a means for viewing reports based on user-defined additional templates. (See the section “Viewing Additional Reports.”)
+Use this tab to review the final report, and then electronically sign off on the treatment. Once you sign off on the treatment, an official treatment summary is generated. This tab also provides a means for viewing reports based on user-defined additional templates. (See the section "Viewing Additional Reports.")
 
 ![](md-1-6-user-manual-hemodialysis/115.png)
 
 Figure 11‑1
 
-> **NOTE:** If you have the “Show report signature field” preference set to “FALSE”, you will see the “Sign & Submit” button shown in Figure 11‑1. If the preference is set to “TRUE”, the “Sign & Submit” button will be grayed out and you will see the signature block below the Document Details area (Figure 11‑2).
+> **NOTE:** If you have the "Show report signature field" preference set to "FALSE", you will see the "Sign & Submit" button shown in Figure 11‑1. If the preference is set to "TRUE", the "Sign & Submit" button will be grayed out and you will see the signature block below the Document Details area (Figure 11‑2).
 
 ![](md-1-6-user-manual-hemodialysis/116.png)
 
@@ -2362,11 +2399,11 @@ Submit Tab Menu
 
 ○ Refresh – reload and update the Summary Report text.
 
-○ Add TIU – allow user to add a separate TIU note for the study. For more information on adding a TIU note, see “Adding a TIU Note” in Chapter 8.
+○ Add TIU – allow user to add a separate TIU note for the study. For more information on adding a TIU note, see "Adding a TIU Note" in Chapter 8.
 
 ○ Print – allow user to direct the Summary Report to a printer device.
 
-○ Sign & Submit – button visibility controlled by the preference “Show report signature field”. This button controls the visibility of the signature field.
+○ Sign & Submit – button visibility controlled by the preference "Show report signature field". This button controls the visibility of the signature field.
 
 ## Treatment Status Report
 
@@ -2384,7 +2421,7 @@ The Treatment Status Report contains one row for each of the previous seven tabs
 
 > ![](md-1-6-user-manual-hemodialysis/120.png) Green checkmark: Data looks OK.
 
-The Question mark icon is followed by a comment containing information about the specific field(s) requiring attention. For example, “Check: \<PreBPSysSit\>” means to go to the Pre-Treatment tab and check the seated systolic blood pressure. That field may be blank, or it may contain data outside of that field’s accepted range.
+The Question mark icon is followed by a comment containing information about the specific field(s) requiring attention. For example, "Check: \<PreBPSysSit\>" means to go to the Pre-Treatment tab and check the seated systolic blood pressure. That field may be blank, or it may contain data outside of that field's accepted range.
 
 Shortcut: Double-click the Treatment Status Report row to jump to the associated tab so you can correct the entry.
 
@@ -2431,14 +2468,14 @@ Method 2
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Multiple report templates may be defined on the Report List node found on the Options screen, but only one report is submitted to CPRS: the report specified in the “Summary Report Name” System Preference. You may, however, find it convenient to view some of the other reports that have been defined. For example, if your job requires you to verify only flowsheet data, it would be a timesaver if you could easily display a report containing only flowsheet data and nothing else. To view additional reports, do the following:
+Multiple report templates may be defined on the Report List node found on the Options screen, but only one report is submitted to CPRS: the report specified in the "Summary Report Name" System Preference. You may, however, find it convenient to view some of the other reports that have been defined. For example, if your job requires you to verify only flowsheet data, it would be a timesaver if you could easily display a report containing only flowsheet data and nothing else. To view additional reports, do the following:
 
 1.  At the Options screen, expand the Preferences node, then select System Preferences.
 2.  Set the Show Additional Reports parameter to TRUE, then return to the Patient Data screen.
-3.  Select the Submit tab, if it isn’t already selected. A new treeview node, labeled Additional Reports, displays below the Result Report node. The Additional Reports list displays the names of all defined reports *except* for the report specified in the “Summary Report Name” System Preference. (That one already displays when you click Result Report, above.) Click a tab to view the record.
+3.  Select the Submit tab, if it isn't already selected. A new treeview node, labeled Additional Reports, displays below the Result Report node. The Additional Reports list displays the names of all defined reports *except* for the report specified in the "Summary Report Name" System Preference. (That one already displays when you click Result Report, above.) Click a tab to view the record.
 4.  Click the report you wish to display. The report displays in the summary panel to the right (Figure 11‑6).
 
-> Note: The report that gets filed to CPRS is still the one specified in the “Summary Report Name” preference. To file a different report, change that preference before submitting the study.
+> Note: The report that gets filed to CPRS is still the one specified in the "Summary Report Name" preference. To file a different report, change that preference before submitting the study.
 
 ![](md-1-6-user-manual-hemodialysis/123.png)
 
@@ -2458,11 +2495,11 @@ Submit the study by completing the following steps.
 
 > Click the Print button to obtain a hard copy of the final report.
 
-> Prior to submitting the study, attach any additional instrument results and/or external attachments. For more information, see the following chapter, “12. Attaching Results/External Attachments to a Study Using CP User.”
+> Prior to submitting the study, attach any additional instrument results and/or external attachments. For more information, see the following chapter, "12. Attaching Results/External Attachments to a Study Using CP User."
 
-3.  The electronic signature and submission steps vary slightly depending on whether the “Show report signature field” parameter is set to TRUE or FALSE. Follow the appropriate steps below, based on your parameter setting.
+3.  The electronic signature and submission steps vary slightly depending on whether the "Show report signature field" parameter is set to TRUE or FALSE. Follow the appropriate steps below, based on your parameter setting.
 
-> “Show report signature field” parameter is set to TRUE:
+> "Show report signature field" parameter is set to TRUE:
 
 - Enter your Electronic Signature Code in the Signature field to electronically sign off on the treatment summary. Proceed to step 4.
 
@@ -2472,7 +2509,7 @@ Submit the study by completing the following steps.
 
 Figure 11‑7
 
-> “Show report signature field” parameter is set to FALSE:
+> "Show report signature field" parameter is set to FALSE:
 
 - Click the Sign & Submit button. The Study Report displays in a window. Review the report before signing.
 
@@ -2485,7 +2522,7 @@ Figure 11‑7
 
 Figure 11‑8
 
-> Note: If you enter the wrong Electronic Signature Code, a popup window states, “You have entered an incorrect Electronic Signature code…Try again!” Click OK to close the popup. If you enter the wrong code three times, the field locks and the study goes into error status. To reset the study, expand the Tools menu and select Set Pending Status.
+> Note: If you enter the wrong Electronic Signature Code, a popup window states, "You have entered an incorrect Electronic Signature code…Try again!" Click OK to close the popup. If you enter the wrong code three times, the field locks and the study goes into error status. To reset the study, expand the Tools menu and select Set Pending Status.
 
 5.  Click OK to close the confirmation window. The Active Patients list displays. An official treatment summary is generated at this point.
 
@@ -2689,7 +2726,7 @@ The following dropdowns are customizable:
 </tr>
 <tr class="odd">
 <td><p>TIU Note Titles</p>
-<p><strong>Note:</strong> TIU Note Titles are a special case. There is a unique process for adding TIU Note Titles, which is described later in this chapter in the section “Adding a TIU Note Title.”</p></td>
+<p><strong>Note:</strong> TIU Note Titles are a special case. There is a unique process for adding TIU Note Titles, which is described later in this chapter in the section "Adding a TIU Note Title."</p></td>
 <td>TIU Note window</td>
 </tr>
 <tr class="even">
@@ -2703,7 +2740,7 @@ The following dropdowns are customizable:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes how to add a TIU Note Title to a Custom Data List. To add any other type of item to a Custom Data List, see the section “Adding a List Item.”
+This section describes how to add a TIU Note Title to a Custom Data List. To add any other type of item to a Custom Data List, see the section "Adding a List Item."
 
 > **NOTE:** Before you start the following workflow to add a TIU Note Title to Hemodialysis, first add the TIU Note Title to TIU, as described in CP Implementation Guide.
 
@@ -2719,9 +2756,9 @@ Figure 13‑1
 
 4.  Type the first characters of the TIU Note Title in the white field, then press \<Enter\>. Predefined TIU Note Titles beginning with the letters you entered display in the yellow field.
 
-> Note: TIU Note Titles that were defined for Hemodialysis should begin with the letters “CP.”
+> Note: TIU Note Titles that were defined for Hemodialysis should begin with the letters "CP."
 
-5.  Click the desired TIU Note Title from the list, then click Select. The “Select TIU Title of the CP Class Document” window closes, and the new TIU Note Title displays in the TIU Note Titles list.
+5.  Click the desired TIU Note Title from the list, then click Select. The "Select TIU Title of the CP Class Document" window closes, and the new TIU Note Title displays in the TIU Note Titles list.
 
 ### Verifying the TIU Note Title Addition
 
@@ -2740,7 +2777,7 @@ Figure 13‑2
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  On the menu bar, click Options. The Hemodialysis screen changes to the Options screen.
-2.  Expand the Custom Data Lists node on the options tree, if necessary, then click the node of the list you’d like to change. The selected list displays in the table to the right.  
+2.  Expand the Custom Data Lists node on the options tree, if necessary, then click the node of the list you'd like to change. The selected list displays in the table to the right.  
     >   
     > For example, click the Anticoagulants node to add another anticoagulant to the list. The list of anticoagulants displays to the right, as in Figure 13‑3.
 
@@ -2785,7 +2822,7 @@ Figure 13‑7
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  On the menu bar, click Options. The Hemodialysis screen changes to the Options screen.
-2.  Expand the Custom Data Lists node on the options tree, if necessary, then click the node of the list you’d like to change. The selected list displays in the table to the right.
+2.  Expand the Custom Data Lists node on the options tree, if necessary, then click the node of the list you'd like to change. The selected list displays in the table to the right.
 3.  To delete an item to the list, highlight the item in the listview, then click the Delete button, above the listview.  
       
     Tip: Click the row within the Value column to highlight an item.
@@ -2865,7 +2902,7 @@ Changes made to User Preferences affect only the logged-on user.
 - Allow USER Reset Study Status
 - Show Treatment Status Report
 
-“Show Treatment Status Report” is automatically added to the User Preferences list. “Allow USER Reset Study Status” must be added manually.
+"Show Treatment Status Report" is automatically added to the User Preferences list. "Allow USER Reset Study Status" must be added manually.
 
 ## Configuring System Preferences
 
@@ -2970,7 +3007,7 @@ If FALSE, the Falls Assessment info displays at the end of the Summary Report, a
 </tr>
 <tr class="even">
 <td>Pain assessment based on how patient tolerates pain</td>
-<td>TRUE or FALSE – If TRUE, the second two question areas (on Pre- and Post-Assessments) are disabled if the patient is able to tolerate the pain, no matter what pain level is indicated in the “Pain Level” parameter.</td>
+<td>TRUE or FALSE – If TRUE, the second two question areas (on Pre- and Post-Assessments) are disabled if the patient is able to tolerate the pain, no matter what pain level is indicated in the "Pain Level" parameter.</td>
 </tr>
 <tr class="odd">
 <td>Pain Level</td>
@@ -3025,7 +3062,7 @@ If FALSE, the Falls Assessment info displays at the end of the Summary Report, a
 </tr>
 <tr class="odd">
 <td>Show Treatment Status Report</td>
-<td>Display the Treatment Status Report on the Submit tab. (See “Treatment Status Report.”)</td>
+<td>Display the Treatment Status Report on the Submit tab. (See "Treatment Status Report.")</td>
 </tr>
 <tr class="even">
 <td>Study List Refresh Rate (sec)</td>
@@ -3062,20 +3099,20 @@ Hemodialysis allows ADMIN users to assign selected System Preferences to a User.
 To assign System Preferences to a User, do the following:
 
 1.  At the Options screen, expand the Preferences node, then click the User Preferences node.
-2.  Click the Assign button. The Preference List window displays (Figure 13‑13). The Preference List shows which parameters are in the current user’s User Preference list.
+2.  Click the Assign button. The Preference List window displays (Figure 13‑13). The Preference List shows which parameters are in the current user's User Preference list.
 
 ![](md-1-6-user-manual-hemodialysis/145.png)
 
 Figure 13‑13
 
-3.  *Optional:* The Get function can save you time when assigning the preferences of one user to another (or to multiple) users. To view or import another user’s Preference List, do the following:
+3.  *Optional:* The Get function can save you time when assigning the preferences of one user to another (or to multiple) users. To view or import another user's Preference List, do the following:
     - Click Get. The Select Application User window displays (Figure 13‑14).
 
 ![](md-1-6-user-manual-hemodialysis/146.png)
 
 Figure 13‑14
 
-- To locate the user using the Select Application User window, type at least one character of the desired user’s last name, then press \<Enter\>. A list of matching users displays.
+- To locate the user using the Select Application User window, type at least one character of the desired user's last name, then press \<Enter\>. A list of matching users displays.
 - Click a name from the list, then click Select. The Select Application User window closes, and you are now viewing the imported Preference List.
 4.  Check the box of each preference to be assigned to the user.
 
@@ -3094,7 +3131,7 @@ Figure 13‑15
 
 9.  Click Cancel to close the Preference List.
 
-All System Preferences can be assigned to a user’s Preference List.
+All System Preferences can be assigned to a user's Preference List.
 
 ### Editing User Preferences
 
@@ -3120,13 +3157,13 @@ Figure 13‑17
 
 3.  Click Save To DB to apply the changes.
 
-> **NOTE:** The “Show Treatment Status Report” User Preference cannot be permanently deleted. If it is deleted, it will be restored (with a default value of TRUE) the next time the application is started.
+> **NOTE:** The "Show Treatment Status Report" User Preference cannot be permanently deleted. If it is deleted, it will be restored (with a default value of TRUE) the next time the application is started.
 
 ## ADMIN ONLY Rights
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following list contains the actions which only ADMIN users can perform. These actions cannot be assigned to a USER’s Preference List.
+The following list contains the actions which only ADMIN users can perform. These actions cannot be assigned to a USER's Preference List.
 
 - Reload flowsheet (Flowsheet tab)
 - Change Application Setup (Preferences)
@@ -3134,15 +3171,15 @@ The following list contains the actions which only ADMIN users can perform. Thes
 - Review Application Events
 - Create templates for Reports and TIU Notes
 - Modify System Preferences
-- Delete blank flowsheet records (This item can be assigned to a USER’s Preference List)
+- Delete blank flowsheet records (This item can be assigned to a USER's Preference List)
 - Access and use the Data Field Editor (by right-clicking a field then clicking Format)
-- Edit a user’s Preference List (Preferences)
+- Edit a user's Preference List (Preferences)
 
 ## Report Templates
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A template defines the layout of the report generated on the Submit tab (and subsequently stored in CPRS). All ADMIN users can edit the default report template or create a new one. The ability to edit the report template is useful if you want to suppress a report section that your site doesn’t use. Occasionally, you may be asked to add keywords to the report template when new functionality is added to the Hemodialysis application.
+A template defines the layout of the report generated on the Submit tab (and subsequently stored in CPRS). All ADMIN users can edit the default report template or create a new one. The ability to edit the report template is useful if you want to suppress a report section that your site doesn't use. Occasionally, you may be asked to add keywords to the report template when new functionality is added to the Hemodialysis application.
 
 This section of the user manual contains the following workflows:
 
@@ -3153,7 +3190,7 @@ This section of the user manual contains the following workflows:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes how to edit a report template. In this example, the new \<Flowsheet Notes\> keyword will be added to the default template, which is named “Summary Report.” After the \<Flowsheet Notes\> keyword is added to the report template, all notes entered on the Flowsheet tab will display in the report.
+This section describes how to edit a report template. In this example, the new \<Flowsheet Notes\> keyword will be added to the default template, which is named "Summary Report." After the \<Flowsheet Notes\> keyword is added to the report template, all notes entered on the Flowsheet tab will display in the report.
 
 > **NOTE:** On the Report List Template screen, press \<Shift\> +\<Insert\> to paste text. To copy text, press \<Ctrl\> +\<Insert\> or use \<Ctrl\> +\<C\>.
 
@@ -3163,7 +3200,7 @@ This section describes how to edit a report template. In this example, the new \
 
 2.  Select a patient who has notes on the flowsheet.
 
-> **NOTE:** This step is optional and included only for the sake of this example. If you select a patient with no flowsheet notes, you won’t be able to test the \<Flowsheet Notes\> keyword once it is added.
+> **NOTE:** This step is optional and included only for the sake of this example. If you select a patient with no flowsheet notes, you won't be able to test the \<Flowsheet Notes\> keyword once it is added.
 
 3.  On the menu bar, click Options. The Options screen displays.
 4.  Click the "+" sign to the left of the Report List node of the options tree to expand the node. The Summary Report node displays (Figure 13‑18).
@@ -3259,7 +3296,7 @@ If you do not want to change the default Summary Report template, or if you simp
 
 14. Select a patient or click Cancel to get to the Hemodialysis main screen.
 15. On the menu bar, click Options. The Options screen displays.
-16. Click the Report List node on the options tree. A list of all existing report templates displays in the panel to the right of the options tree. (Double-click the Report List node to expand it, if it isn’t already.)
+16. Click the Report List node on the options tree. A list of all existing report templates displays in the panel to the right of the options tree. (Double-click the Report List node to expand it, if it isn't already.)
 
     ![](md-1-6-user-manual-hemodialysis/159.png)
 
@@ -3281,7 +3318,7 @@ Figure 13‑28
 
 Figure 13‑29
 
-23. At this point, the new template is still blank. Create the layout of your new template as described in “Editing a Report Template.” Don’t forget to click Save to DB when you’re finished!
+23. At this point, the new template is still blank. Create the layout of your new template as described in "Editing a Report Template." Don't forget to click Save to DB when you're finished!
 24. Now that you have created a new report template, you must make it the active template. (Otherwise, Hemodialysis will continue to use your old template when generating reports.) Expand the Options node, then click System Preferences.
 25. Highlight the name of the existing report template in the Summary Report Name row.
 
@@ -3314,7 +3351,7 @@ Note 2: Report templates can be saved and loaded. Follow the same instructions f
 
 This section of the manual compares and contrasts Note templates and Report templates.
 
-TIU Note templates function very much like Report templates. Both use a combination of free text and keywords to display data in a predefined layout. For information on creating and editing Note Templates, see the section “Report Templates” (p. 13-16).
+TIU Note templates function very much like Report templates. Both use a combination of free text and keywords to display data in a predefined layout. For information on creating and editing Note Templates, see the section "Report Templates" (p. 13-16).
 
 Unlike a Report template, which is preselected (from the Options screen) and automatically used to generate the Result Report on the Submit tab, a Note Templates is (optionally) selected at the time a TIU Note is created.
 
@@ -3324,7 +3361,7 @@ Unlike a Report template, which is preselected (from the Options screen) and aut
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Data Field Editor provides a convenient way for an ADMIN user to modify the way certain fields behave. For example, a field can be set as not required, which means that it will not trigger a red question mark to display on the Treatment Status Report when the field is left blank. A field can also be set so that data coming from a device overwrites the field’s current value. For additional information on Data Field Editor functions, see the table below.
+The Data Field Editor provides a convenient way for an ADMIN user to modify the way certain fields behave. For example, a field can be set as not required, which means that it will not trigger a red question mark to display on the Treatment Status Report when the field is left blank. A field can also be set so that data coming from a device overwrites the field's current value. For additional information on Data Field Editor functions, see the table below.
 
 > **NOTE:** Only ADMIN users can access the Data Field Editor.
 
@@ -3357,7 +3394,7 @@ Figure 13‑33
 </tr>
 <tr class="even">
 <td>Required</td>
-<td><p>TRUE or FALSE – If TRUE and the field is blank, the background color of the field will be set according to the “Color Required” parameter and a red question mark will display on the Treatment Status Report (on the Submit tab), if enabled, and on its respective tab at the bottom of the screen.</p>
+<td><p>TRUE or FALSE – If TRUE and the field is blank, the background color of the field will be set according to the "Color Required" parameter and a red question mark will display on the Treatment Status Report (on the Submit tab), if enabled, and on its respective tab at the bottom of the screen.</p>
 <p>Default is TRUE. (If the Required field is left blank, it is TRUE.)</p></td>
 </tr>
 <tr class="odd">
@@ -3421,13 +3458,13 @@ Click the Add button towards the top of the screen.
 
 Figure 14‑2
 
-- The Select Provider window displays. Type the first letters of the provider’s last name in the drop-down list, then press \<Enter\>. A list of providers displays in the large field with the yellow background.
+- The Select Provider window displays. Type the first letters of the provider's last name in the drop-down list, then press \<Enter\>. A list of providers displays in the large field with the yellow background.
 
 ![](md-1-6-user-manual-hemodialysis/168.png)
 
 Figure 14‑3
 
-- Click a provider name from the list, then click Select. The Select Provider window closes and the new name displays in the Administrators list in the Value column. The Item column displays the provider’s DUZ.
+- Click a provider name from the list, then click Select. The Select Provider window closes and the new name displays in the Administrators list in the Value column. The Item column displays the provider's DUZ.
 
 ![](md-1-6-user-manual-hemodialysis/169.png)
 
@@ -3476,24 +3513,24 @@ The following buttons appear along the top of the lower panel display of Applica
 
 This section describes solutions to troublesome situations. The following topics are covered:
 
-- Preventing PCE “Data Loss”
+- Preventing PCE "Data Loss"
 - Reloading Flowsheet Data
-- Resolving “No Note Text” Error
+- Resolving "No Note Text" Error
 - Using More Than One Dialysis Device During a Treatment
 
-## Preventing PCE “Data Loss” in the Hemodialysis Application
+## Preventing PCE "Data Loss" in the Hemodialysis Application
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Sometimes PCE data (i.e., billing info, healthcare providers, procedures, diagnoses, and environmental conditions) does not carry over from one Hemodialysis treatment to the next. In that case of “data loss,” a Hemodialysis user must re-enter this information manually prior to submitting the study data. This section describes the situations which can cause PCE data loss, so you can keep such occurrences to a minimum.
+Sometimes PCE data (i.e., billing info, healthcare providers, procedures, diagnoses, and environmental conditions) does not carry over from one Hemodialysis treatment to the next. In that case of "data loss," a Hemodialysis user must re-enter this information manually prior to submitting the study data. This section describes the situations which can cause PCE data loss, so you can keep such occurrences to a minimum.
 
 #### Overview
 
-One reason PCE data can disappear is because it is not permanently stored by the Hemodialysis application. Very simply put, the data does not belong to Hemodialysis. It belongs to PCE (Patient Care Encounter), which is a subsystem of CPRS. Hemodialysis merely retrieves the data and presents it within its Summary tab. It’s provided as a convenience to avoid requiring the user to open CPRS during each study to obtain this information..
+One reason PCE data can disappear is because it is not permanently stored by the Hemodialysis application. Very simply put, the data does not belong to Hemodialysis. It belongs to PCE (Patient Care Encounter), which is a subsystem of CPRS. Hemodialysis merely retrieves the data and presents it within its Summary tab. It's provided as a convenience to avoid requiring the user to open CPRS during each study to obtain this information..
 
 In order for Hemodialysis to be able to find the PCE data and display it, certain conditions must be met. First, PCE data must still be available. Every two weeks, PCE data is sent to Austin, TX, so accountants can bill the necessary people. One month after the data is sent to Austin, that data becomes unavailable to Hemodialysis. In that case, the appropriate fields in the Hemodialysis application appear blank and a user must manually populate them.
 
-The next set of conditions concerns the way Hemodialysis retrieves the data from PCE. When a patient’s data is retrieved from VistA, the Hemodialysis application requests PCE data based on the following information:
+The next set of conditions concerns the way Hemodialysis retrieves the data from PCE. When a patient's data is retrieved from VistA, the Hemodialysis application requests PCE data based on the following information:
 
 - Patient ID
 - Order \#
@@ -3540,7 +3577,7 @@ Figure 15‑1
 - Delete All– Both instrument records and manually added records will be deleted.
 7.  Click Reload to reprocess data, or click Cancel to exit without making changes.
 
-## Resolving “No Note Text” Error
+## Resolving "No Note Text" Error
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -3550,7 +3587,7 @@ This section describes the workflow to correct the following issue:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A “No note text” error popup displays when you try to Sign and Save a TIU note (Figure 15‑2). This can occur when adding a TIU note from either the Flowsheet tab or the Submit tab.
+A "No note text" error popup displays when you try to Sign and Save a TIU note (Figure 15‑2). This can occur when adding a TIU note from either the Flowsheet tab or the Submit tab.
 
 ![](md-1-6-user-manual-hemodialysis/175.png)
 
@@ -3604,7 +3641,7 @@ Note 2: If the patient is transferred additional times, please note that there s
 Access: As used on the Hemodialysis Access tab, access refers to an intravenous point of entry.
 Access Code: A unique sequence of characters known by and assigned only to the user, the system manager and/or designated alternate(s). The access code (in conjunction with the verify code) is used by the computer to identify authorized users.
 Access History List: A screen area on the Hemodialysis Study List window which displays information about which studies were opened, enabled, or disabled; the dates and times of access; and the users which accessed the studies.
-Action: A functional process that a clinician or clerk uses in the TIU computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.
+Action: A functional process that a clinician or clerk uses in the TIU computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.
 ADP Coordinator/ADPAC/Application Coordinator: Automated Data Processing Application Coordinator. The person responsible for implementing a set of computer programs (application package) developed to support a specific functional area such as clinical procedures, PIMS, etc.
 AP: Arterial pressure
 Application: A system of computer programs and files that have been specifically developed to meet the requirements of a user or group of users.
@@ -3627,10 +3664,10 @@ BFR: Blood flow rate
 BIC: Bicarbonate bath
 Boilerplate Text: A pre-defined TIU template that can be filled in for Titles, Speeding up the entry process. TIU exports several Titles with boilerplate text which can be modified to meet specific needs; sites can also create their own.
 B/P: Blood pressure
-Browse: Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the “...” button to start a lookup).
+Browse: Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the "..." button to start a lookup).
 Bulletin: A canned message that is automatically sent by MailMan to a user when something happens to the database.
 Business Rule: Part of ASU, Business Rules authorize specific users or groups of users to perform specified actions on documents in particular statuses (e.g., an unsigned TIU note may be edited by a provider who is also the expected signer of the note).
-Class: Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
+Class: Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
 COND: Conductivity
 Consult: Referral of a patient by the primary care physician to another hospital service/ specialty, to obtain a medical opinion based on patient evaluation and completion of any procedures, modalities, or treatments the consulting specialist deems necessary to render a medical opinion.
 Contingency Plan: A plan that assigns responsibility and defines procedures for use of the backup/restart/recovery and emergency preparedness procedures selected for the computer system based on risk analysis for that system.
@@ -3664,7 +3701,7 @@ GUI: Graphical User Interface - a Windows-like screen that uses pull-down menus,
 HEP (CUM): Cumulative Heparin infusion
 HR: Heart rate
 IJ: Internal jugular
-Interpreter: Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are ‘clinical update users’ for a given consult service.
+Interpreter: Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are 'clinical update users' for a given consult service.
 IONIC DIAL: Measurement of clearance via ionic or conductivity estimation
 IRMS: Information Resource Management Service.
 Keywords: A code which acts as a placeholder and represents a particular data value. When inserted into a Report template, the data value will display in place of the keyword when the report is generated.
@@ -3687,10 +3724,10 @@ Nondictionary Keywords: Used in a Report Template, a nondictionary keyword can r
 Notebook: This term refers to a GUI screen containing several tabs or pages.
 Note Template: A predefined block of text which can be quickly stored and retrieved in order to prevent a user from typing the same note information repeatedly.
 OI: Office of Information, formerly known as Chief Information Office Field Office, Information Resource Management Field Office, and Information Systems Center.
-Option: See “Preferences.”
+Option: See "Preferences."
 Package: Otherwise known as an application. A set of M routines, files, documentation and installation procedures that support a specific function within VistA.
 Page: This term refers to a tab on a GUI screen or notebook.
-Parameter: See “Preferences.”
+Parameter: See "Preferences."
 Password: A protected word or string of characters that identifies or authenticates a user, a specific resource, or an access type (synonymous with Verify Code).
 PCE: Patient Care Encounter.
 Pointer: A special data type of VA FileMan that takes its value from another file. This is a method of joining files together and avoiding duplication of information.
@@ -3837,7 +3874,7 @@ Creating new, 13-24
 Editing, 13-18
 Requirements for CP Manager, 2-1
 Requirements for the User, 3-1
-Resolving “No Note Text” Error, 15-5
+Resolving "No Note Text" Error, 15-5
 Review (Read Only) Study Viewing, 3-7
 Rx and Lab Tab, 3-19, 5-1
 S
@@ -3904,11 +3941,11 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The CP Gateway Service provides extensive terminology mapping and translates proprietary labels so information is represented correctly and stored appropriately. Devices do not always use the same terms to describe the data transmitted. For example, one device may transmit the term “heart rate,” while another may transmit the term “pulse.” Terminology mapping is more efficient than expecting each medical device vendor to conform to standard terminology.
+> The CP Gateway Service provides extensive terminology mapping and translates proprietary labels so information is represented correctly and stored appropriately. Devices do not always use the same terms to describe the data transmitted. For example, one device may transmit the term "heart rate," while another may transmit the term "pulse." Terminology mapping is more efficient than expecting each medical device vendor to conform to standard terminology.
 
 > Using terminology mapping, CP Flowsheets can display data to the user with the preferred terminology used at a given unit or medical center. A flowsheet used by an MICU unit at one hospital can be
 
-> customized to display “Heart Rate,” while a flowsheet used by a step-down unit may display “HR” or “Pulse.”
+> customized to display "Heart Rate," while a flowsheet used by a step-down unit may display "HR" or "Pulse."
 
 ## CP Flowsheets
 
@@ -3978,7 +4015,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Reports: Displays a screen for comparing and printing data.
 
-> Log Files: Displays a screen that shows data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. When the data is verified (marked as acceptable) it displays in the flowsheet views. If the data is not acceptable it may be purged and kept from the patient’s permanent record.
+> Log Files: Displays a screen that shows data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. When the data is verified (marked as acceptable) it displays in the flowsheet views. If the data is not acceptable it may be purged and kept from the patient's permanent record.
 
 > HL7 Monitor: Displays the raw HL7 messages so you can review the content. This is used for troubleshooting.
 
@@ -3988,7 +4025,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This menu provides access to the functions described in the section “[Figure 5-2, CP Flowsheet List](#_bookmark27) [Setting the Date Range](#_bookmark27).” The following options are available:
+> This menu provides access to the functions described in the section "[Figure 5-2, CP Flowsheet List](#_bookmark27) [Setting the Date Range](#_bookmark27)." The following options are available:
 
 > Extend Date Back 1 Day: Start Date moves one day earlier. Stop Date stays the same.
 
@@ -4000,7 +4037,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Extend Date Forward 1 Day: Start Date stays the same. Stop Date moves one day later.
 
-> Today (start time – end time): Set the Start Date and Stop Date to today’s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 11:59 PM.
+> Today (start time – end time): Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 11:59 PM.
 
 ### Dynamic Menu
 
@@ -4100,7 +4137,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Common system buttons display in two rows below the Patient Information Area by default when the selected Look and Feel is the CP Toolbar.
 
-> Note: When the selected Look and Feel is set to CPRS Classic tab style, the second row of buttons does not appear. (For information on changing the Look and Feel, see [“Modifying General Settings](#modifying-general-settings).”).
+> Note: When the selected Look and Feel is set to CPRS Classic tab style, the second row of buttons does not appear. (For information on changing the Look and Feel, see ["Modifying General Settings](#modifying-general-settings).").
 
 > The following buttons are available:
 
@@ -4114,7 +4151,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Reports: Displays a screen for printing data.
 
-> Log Files: Displays a window that shows data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. When data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged and kept from the patient’s permanent record.
+> Log Files: Displays a window that shows data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. When data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged and kept from the patient's permanent record.
 
 > HL7 Monitor: The HL7 Monitor screen is used to match records to a patient, match records to an instrument, and view HL7 message data.
 
@@ -4463,7 +4500,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> ![](md-1-23-user-manual-cp-flowsheets/110.png)The date range can be set from any tab by using the Observation Period menu (see figure below). This method is described in section “[2.1.4 Observation Period Menu](#observation-period-menu).”
+> ![](md-1-23-user-manual-cp-flowsheets/110.png)The date range can be set from any tab by using the Observation Period menu (see figure below). This method is described in section "[2.1.4 Observation Period Menu](#observation-period-menu)."
 
 > Figure 5-3, Date Range Menu Method
 
@@ -4505,7 +4542,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](md-1-23-user-manual-cp-flowsheets/121.png) Pan Date Back 1 Day: Start Date and Stop Date both move one day earlier.
 
-> ![](md-1-23-user-manual-cp-flowsheets/122.png) Today: Set the Start Date and Stop Date to today’s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
+> ![](md-1-23-user-manual-cp-flowsheets/122.png) Today: Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
 
 > ![](md-1-23-user-manual-cp-flowsheets/123.png) Pan Date Forward 1 Day: Start Date and Stop Date both move one day later.
 
@@ -4537,7 +4574,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](md-1-23-user-manual-cp-flowsheets/132.png) Extend Date Forward 1 Day: Start Date stays the same. Stop Date moves one day later.
 
-> ![](md-1-23-user-manual-cp-flowsheets/133.png) Today: Set the Start Date and Stop Date to today’s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
+> ![](md-1-23-user-manual-cp-flowsheets/133.png) Today: Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
 
 > Note: All totals in the flowsheet are based on the time period in the flowsheet Date Range Selector.
 
@@ -4555,8 +4592,8 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > Figure 5-10, Data Entry Screen
 
-2.  Select a location code from the Location list. This is a required field. The location list may be pre- populated if a default location was defined under the User Setting option. (See “10. [User Settings](#user-settings).”)
-3.  The Date box is set to today’s date by default. You can change it by selecting a new date from the calendar or by typing directly into the field.
+2.  Select a location code from the Location list. This is a required field. The location list may be pre- populated if a default location was defined under the User Setting option. (See "10. [User Settings](#user-settings).")
+3.  The Date box is set to today's date by default. You can change it by selecting a new date from the calendar or by typing directly into the field.
 
 > ![](md-1-23-user-manual-cp-flowsheets/136.png)If you select a date in the future, the following dialog box appears:
 
@@ -4627,7 +4664,7 @@ _These sections appeared in earlier versions of this document but are not presen
 > Figure 5-13, Add Page
 
 1.  Select Default Qualifiers you want.
-2.  Select the starting Date/Time. Also note the relevant “start” time.
+2.  Select the starting Date/Time. Also note the relevant "start" time.
 3.  Enter the Display Name and a Comment. These are required fields.
 4.  Note: This is the only area of Flowsheets where Comment is a required field.
 5.  Click Activate. The New Flowsheet Page dialog box closes and the flowsheet reloads to display the Optional or Supplemental Page.
@@ -4734,7 +4771,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> As the patient’s condition changes, you may edit or deactivate an alarm. To edit an alarm, do the following:
+> As the patient's condition changes, you may edit or deactivate an alarm. To edit an alarm, do the following:
 
 1.  On the Patient Alarms screen, click the row of the alarm to change and click Update. The Flowsheet Alarms dialog box displays.
 
@@ -4757,7 +4794,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > ![](md-1-23-user-manual-cp-flowsheets/162.png) The next line shows the value that triggered the alarm and a description of the alarm. ![](md-1-23-user-manual-cp-flowsheets/163.png) The last line shows you what was written when the alarm was created.
 
-> ![](md-1-23-user-manual-cp-flowsheets/164.png)Click OK to close the Information window, but notice the alarm isn’t cleared. Note the icon on the Alarms button is red not yellow. This is another indicator that an alarm was triggered.
+> ![](md-1-23-user-manual-cp-flowsheets/164.png)Click OK to close the Information window, but notice the alarm isn't cleared. Note the icon on the Alarms button is red not yellow. This is another indicator that an alarm was triggered.
 
 > Figure 6-12, Red Alarm Icon
 
@@ -4814,9 +4851,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 7.  Click Print to display the Print dialog box.
 
-> Note: Each field defined in the selected flowsheet prints, even when no data is available for a particular observation. For example, the figure above shows values for a “BP
+> Note: Each field defined in the selected flowsheet prints, even when no data is available for a particular observation. For example, the figure above shows values for a "BP
 
-> \- Cuff” observation, but “BP – Doppler” is followed by a blank line indicating no data for that observation category.
+> \- Cuff" observation, but "BP – Doppler" is followed by a blank line indicating no data for that observation category.
 
 8.  Select your printer and make any other changes you want on the Print dialog box. Click OK to print the report.
 
@@ -4844,7 +4881,7 @@ Reports Screen
 
 > Figure 7-4, Type A TIU Note
 
-9.  Enter your electronic signature in the /ES/ field, then click Sign and File. An information box displays the message, “TIU Document has been signed and filed.
+9.  Enter your electronic signature in the /ES/ field, then click Sign and File. An information box displays the message, "TIU Document has been signed and filed.
 10. Click OK to close the information box. CP Note Writer closes. You may view the TIU Note in CPRS on the Notes tab.
 
 ## Reviewing Log File Data
@@ -4914,7 +4951,7 @@ Reports Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> You can purge unverified data to prevent it from displaying on the flowsheet and becoming a part of the patient’s permanent medical record.
+> You can purge unverified data to prevent it from displaying on the flowsheet and becoming a part of the patient's permanent medical record.
 
 > To purge data, do the following:
 
@@ -4947,9 +4984,9 @@ Reports Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Rescind function allows data to be hidden after it is entered on the flowsheet in error. Data that is already a part of the patient’s record cannot be permanently deleted. Rescinded data will no longer
+> The Rescind function allows data to be hidden after it is entered on the flowsheet in error. Data that is already a part of the patient's record cannot be permanently deleted. Rescinded data will no longer
 
-> display on the patient’s flowsheet, but a user with appropriate access rights can review it in the Log Files.
+> display on the patient's flowsheet, but a user with appropriate access rights can review it in the Log Files.
 
 > An authorized user may rescind data entered. An authorized user can rescind data entered by an MD TRAINEE (for example, nursing student, preceptee) only if the user has an MD MANAGER or MD ADMINISTRATOR key. The Rescind function will remove an observation from the permanent record after it is verified and possibly reported in a TIU note or had clinical decisions made regarding its value.
 
@@ -5050,13 +5087,13 @@ Reports Screen
 
 > Note: After you resubmit a message, and the message is properly matched to a patient or instrument, the message data displays in the appropriate flowsheet view.
 
-> Discard: Set the message status to processed and remove the message from the user’s view. The message will be physically deleted later during a nightly cleanup.
+> Discard: Set the message status to processed and remove the message from the user's view. The message will be physically deleted later during a nightly cleanup.
 
 ## Matching Records to a Patient
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> In the event that the patient identifying information (PID) from the instrument doesn’t match the PID information in the CP Flowsheets application, you can use the HL7 Monitor screen to match the data manually to a patient.
+> In the event that the patient identifying information (PID) from the instrument doesn't match the PID information in the CP Flowsheets application, you can use the HL7 Monitor screen to match the data manually to a patient.
 
 > Note: Data not matched to a patient can be either verified or unverified.
 
@@ -5150,13 +5187,13 @@ Reports Screen
 
 > Look and Feel radio buttons: Select a radio button to control the appearance of the toolbar buttons and screens (for example, Flowsheet, Alarms, Reports, Log Files, HL7 Monitor).
 
-> If you select the “CP Toolbar” radio button, the tab buttons display in a row below the Open Patient button. Click a button to change screen areas.
+> If you select the "CP Toolbar" radio button, the tab buttons display in a row below the Open Patient button. Click a button to change screen areas.
 
 > ![](md-1-23-user-manual-cp-flowsheets/221.png)
 
 > Figure 10-4, CP Flowsheet Buttons
 
-> ![](md-1-23-user-manual-cp-flowsheets/222.png)If you select the “CPRS Classic Tab Style” radio button, the tabs display in a row above the status line at the bottom. With this setting selected, the application performs like CPRS. Click a tab to change screen areas.
+> ![](md-1-23-user-manual-cp-flowsheets/222.png)If you select the "CPRS Classic Tab Style" radio button, the tabs display in a row above the status line at the bottom. With this setting selected, the application performs like CPRS. Click a tab to change screen areas.
 
 > Figure 10-5, CP Flowsheet Tabs
 
@@ -5382,7 +5419,7 @@ Reports Screen
 
 > Reports: Display a screen for comparing and printing data.
 
-> Log Files: Display a screen which displays data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. Once data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged, which will keep it from the patient‘s permanent record.
+> Log Files: Display a screen which displays data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. Once data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged, which will keep it from the patient's permanent record.
 
 > HL7 Monitor: Display the raw HL7 messages so you can review their contents. This is used for troubleshooting.
 
@@ -5402,7 +5439,7 @@ Reports Screen
 
 > Extend Date Forward 1 Day: Start Date stays the same. Stop Date moves one day later.
 
-> Today (start time – end time): Set the Start Date and Stop Date to today‘s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 11:59 PM.
+> Today (start time – end time): Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 11:59 PM.
 
 #### Dynamic Menu
 
@@ -5519,7 +5556,7 @@ Reports Screen
 
 > Reports: Display a screen for printing data.
 
-> Log Files: Display a window which displays data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. Once data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged, which will keep it from the patient‘s permanent record.
+> Log Files: Display a window which displays data received from the instruments. Use this window to examine data and determine whether it is acceptable or not. Once data is verified (marked as acceptable), it displays in the flowsheet views. If data is not acceptable, it may be purged, which will keep it from the patient's permanent record.
 
 > HL7 Monitor: The HL7 Monitor screen is used to match records to a patient, match records to an instrument, and view HL7 message data.
 
@@ -5622,7 +5659,7 @@ Reports Screen
 
 > ![](md-1-26-user-manual-cp-flowsheets/128.png) Pan Date Back 1 Day: Start Date and Stop Date both move one day earlier.
 
-> ![](md-1-26-user-manual-cp-flowsheets/129.png) Today: Set the Start Date and Stop Date to today‘s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
+> ![](md-1-26-user-manual-cp-flowsheets/129.png) Today: Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
 
 > ![](md-1-26-user-manual-cp-flowsheets/130.png) Pan Date Forward 1 Day: Start Date and Stop Date both move one day later.
 
@@ -5656,7 +5693,7 @@ Reports Screen
 
 > ![](md-1-26-user-manual-cp-flowsheets/139.png) Extend Date Forward 1 Day: Start Date stays the same. Stop Date moves one day later.
 
-> ![](md-1-26-user-manual-cp-flowsheets/140.png) Today: Set the Start Date and Stop Date to today‘s date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
+> ![](md-1-26-user-manual-cp-flowsheets/140.png) Today: Set the Start Date and Stop Date to today's date, set the Start Time to 12:00 AM (midnight), and set the Stop Time to 23:59 PM.
 
 > Note: all totals in the flowsheet are based on the time period in the flowsheet Date Range Selector.
 
@@ -5730,7 +5767,7 @@ Reports Screen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> As the patient‘s condition changes, you may edit or deactivate the alarm. To edit an alarm, do the following:
+> As the patient's condition changes, you may edit or deactivate the alarm. To edit an alarm, do the following:
 
 1.  At the Patient Alarms screen, click the row of the alarm to be changed, then click Update. The Flowsheet Alarms window displays.
 
@@ -5757,7 +5794,7 @@ Reports Screen
 
 > ![](md-1-26-user-manual-cp-flowsheets/175.png) The last piece of information is the instruction to the user that was written at the time that the alarm was created.
 
-> ![](md-1-26-user-manual-cp-flowsheets/176.png)Click OK to close the Information window, but be aware that the alarm still isn‘t cleared. Note that the icon on the Alarms button is now red instead of yellow. That is another indicator that an alarm was triggered.
+> ![](md-1-26-user-manual-cp-flowsheets/176.png)Click OK to close the Information window, but be aware that the alarm still isn't cleared. Note that the icon on the Alarms button is now red instead of yellow. That is another indicator that an alarm was triggered.
 
 > Figure 49
 

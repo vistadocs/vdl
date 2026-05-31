@@ -11,59 +11,39 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*406
-group_key: "CPRS:OR:3"
-file_numbers: []
+group_key: CPRS:OR:3
+description: '| Date | Version | Description | Author | |----------|---------|--------------------------------------------------------------------|-------------------------------------------| | 9/2/2015 | 1.0 | Baseline document for ICD-10 PTF Modifications production release. | VA OI&T PD, ICD-10 PTF...'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3'
+- '3.8'
+- '4.2'
+- '45'
+- '45.01'
+- '101.24'
+- '407.7'
+- '799.2'
+- '800'
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - span
-  - install
-  - routine
-  - installation
-  - class
-  - filed
-  - mail
-  - group
 page_count: 0
-word_count: 9017
+word_count: 8973
 section_count: 33
 table_count: 16
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 1
 revision_newest: 9/2/2015
 revision_oldest: 9/2/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/icd_10_ptf_modifications_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/icd_10_ptf_modifications_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/icd_10_ptf_modifications_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/icd_10_ptf_modifications_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ICD-10 Patient Treatment File (PTF) Modifications
-
-  Admission, Discharge, Transfer (ADT) - DG\*5.3\*884
-
-  Health Summary (HS) - GMTS\*2.7\*111
-
-  Integrated Billing (IB) - IB\*2.0\*522
-
-  Lab Anatomic Pathology (AP) and Emerging Pathogens Initiative (EPI) - LR\*5.2\*442
-
-  Order Entry/Results Reporting (OE/RR) - OR\*3.0\*406
-
-  Clinical Case Registries (CCR) - ROR\*1.5\*25
-
-  Installation Guide
----
-
 ![](or-3-406-icd-10-ptf-modifications-installation-guide/001.png)
 
 September 2015

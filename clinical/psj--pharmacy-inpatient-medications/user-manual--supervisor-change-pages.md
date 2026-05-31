@@ -1,21 +1,70 @@
 ---
-consolidated_title: "supervisor user manual change pages"
-app_code: PSJ
+title: PSJ*5*181 Supervisor User Manual Change Pages
 doc_type: UM
-master_source: "PSJ*5*181 Supervisor User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Supervisor Change Pages
+app_code: PSJ
+app_name: 'Pharmacy: Inpatient Medications'
+section: CLI
+app_status: active
+pkg_ns: PSJ
+patch_ver: 5
+patch_id: PSJ*5*181
+group_key: PSJ:PSJ:5
+file_numbers:
+- '42'
+- '50'
+- '50.68'
+- '51.1'
+- '51.2'
+- '53.46'
+- '57.5'
+- '57.7'
+- '59.5'
+security_keys:
+- PROVIDER
+- PSJ PHARM TECH
+- PSJ RNURSE
+- PSJ RPHARM
+- PSJI MGR
+- PSJI PURGE
+- PSJU MGR
+menu_options: 1
+description: '> The table below lists changes made since the initial release of this manual. Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. Either update the existing manual with the Change Pages Document, or replace it with the updated'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 7430
+section_count: 38
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: January 2005
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p181_supr_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p181_supr_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
+master_source: PSJ*5*181 Supervisor User Manual Change Pages
 master_pub_date: January 2005
 consolidated_from: 4 versions
 prior_versions:
-  - "PSJ*5*120 Supervisor User Manual Change Pages"
-  - "PSJ*5*214 Supervisor User Manual Change Pages"
-  - "PSJ*5*279 Supervisor User Manual Change Pages"
+- PSJ*5*120 Supervisor User Manual Change Pages
+- PSJ*5*214 Supervisor User Manual Change Pages
+- PSJ*5*279 Supervisor User Manual Change Pages
+consolidated_title: supervisor user manual change pages
 ---
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/001.png)
 
 INPATIENT MEDICATIONS
 
-> SUPERVISOR’S USER MANUAL
+> SUPERVISOR'S USER MANUAL
 
 > Version 5.0
 
@@ -93,7 +142,7 @@ INPATIENT MEDICATIONS
 </blockquote></td>
 <td><blockquote>
 <p>Updated Revision History Updated Table of Contents</p>
-<p>Updated Example: Supervisor’s Menu &amp; update the Administering Team file</p>
+<p>Updated Example: Supervisor's Menu &amp; update the Administering Team file</p>
 <p>Updated Example: Administering Teams</p>
 <p>Updated Example: Clinic Groups and Updated Example: Management Reports Menu</p>
 <p>Updated Example2: AMIS Report with No Data</p>
@@ -107,7 +156,7 @@ INPATIENT MEDICATIONS
 <p>Added New Systems Parameters Edit - HOURS OF RECENTLY DC/EXPIRED</p>
 <p>New Example: Systems Parameters Edit New Example: Pick List Menu</p>
 <p>New Example: Ward Groups</p>
-<p>New Example: Supervisor’s Menu (IV)</p>
+<p>New Example: Supervisor's Menu (IV)</p>
 <p>New Example: Auto-Discontinue Set-Up (continued) New Example: Category File (IV)</p>
 <p>New Example: Management Reports (IV)</p>
 <p>New Example: Active Order Report by Ward/Drug (IV) New Example: Recompile Stats File (IV)</p>
@@ -400,7 +449,7 @@ INPATIENT MEDICATIONS
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Supervisor’s Menu](#supervisors-menu)
+- [Supervisor's Menu](#supervisors-menu)
     - [\[PSJU FILE\]](#psju-file)
   - [Administering Teams](#administering-teams)
     - [\[PSJU AT\]](#psju-at)
@@ -437,7 +486,7 @@ INPATIENT MEDICATIONS
     - [PUrge Pick Lists](#purge-pick-lists)
   - [Ward Groups](#ward-groups)
     - [\[PSJU EWG\]](#psju-ewg)
-- [SUPervisor’s Menu (IV)](#supervisors-menu-iv)
+- [SUPervisor's Menu (IV)](#supervisors-menu-iv)
     - [\[PSJI SUPERVISOR\]](#psji-supervisor)
   - [AUto-Discontinue Set-Up](#auto-discontinue-set-up-1)
     - [\[PSJ AC SET-UP\]](#psj-ac-set-up)
@@ -483,12 +532,12 @@ INPATIENT MEDICATIONS
 > The Inpatient Medications package provides a method of management, dispensing, and administration of inpatient drugs within the hospital. Inpatient Medications combines clinical and patient information that allows each medical center to enter orders for patients, dispense medications by means of Pick Lists, print labels, create Medication Administration Records (MARs), and create Management Reports. Inpatient Medications also interacts with the Computerized Patient Record System (CPRS) and the Bar Code Medication Administration (BCMA) packages to provide more comprehensive patient care.
 > This user manual is written for the Pharmacy Supervisor or the Automated Data Processing Application Coordinator (ADPAC). The main texts of the manual provide information to setup various function requirements needed for the basic running of the Unit Dose Medications and IV Medications modules. It also outlines options available under the Management Reports menu and Pick List actions.
 > The Inpatient Medications documentation is comprised of several manuals. These manuals are written as modular components and can be distributed independently and are listed below.
-> Nurse’s User Manual V. 5.0 Pharmacist’s User Manual V. 5.0 Supervisor’s User Manual V. 5.0 Technical Manual/Security Guide V. 5.0
+> Nurse's User Manual V. 5.0 Pharmacist's User Manual V. 5.0 Supervisor's User Manual V. 5.0 Technical Manual/Security Guide V. 5.0
 > Release Notes (IMO – Phase I & II/ IMR – Phase II)
 > Pharmacy Ordering Enhancements (POE) Phase 2 Release Notes V. 1.0 Pharmacy Ordering Enhancements (POE) Phase 2 Installation Guide V. 1.0
 > (This page included for two-sided copying.)
 
-# Supervisor’s Menu
+# Supervisor's Menu
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -496,9 +545,9 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *Supervisor’s Menu* option allows the user (coordinator) to edit the various files and perform certain functions needed for the basic running of the Inpatient Medications package.
+> The *Supervisor's Menu* option allows the user (coordinator) to edit the various files and perform certain functions needed for the basic running of the Inpatient Medications package.
 
-> Example: Supervisor’s Menu
+> Example: Supervisor's Menu
 
 ## Administering Teams
 
@@ -530,7 +579,7 @@ INPATIENT MEDICATIONS
 - AUTO-DC IMO ORDERS: Whether to auto-dc IMO orders upon patient movement, such as admission, discharge, ward transfer, and treating specialty change.
 - SEND TO BCMA?: Whether to transmit IMO orders to BCMA.
 
-> ![](psj-5-181-supervisor-user-manual-change-pages/003.png)Note: For detailed descriptions of the above parameters, please see "Fields from the CLINIC DEFINITION File (#53.46)” in the Inpatient Medications V. 5.0. Technical Manual/Security Guide.
+> ![](psj-5-181-supervisor-user-manual-change-pages/003.png)Note: For detailed descriptions of the above parameters, please see "Fields from the CLINIC DEFINITION File (#53.46)" in the Inpatient Medications V. 5.0. Technical Manual/Security Guide.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/004.png)Note: The *Clinic Stop Dates* \[PSJ CSD\] option has been removed, and the *Clinic Definition* \[PSJ CD\] option has been added under the *PARameters Edit Menu* \[PSJ PARAM EDIT MENU\] option.
 
@@ -688,27 +737,27 @@ INPATIENT MEDICATIONS
 
 > The user will also encounter the following prompts:
 
-- “Select by Ward? (Y/N): NO//”
+- "Select by Ward? (Y/N): NO//"
 
 > A YES answer will include dispensing amounts and cost by ward.
 
-- “Select drugs by DISPENSE DRUG, ORDERABLE ITEM, or VA CLASS:”
+- "Select drugs by DISPENSE DRUG, ORDERABLE ITEM, or VA CLASS:"
 
 > The user will enter the category, (D) Dispense Drug, (O) Orderable Item, or (V) VA Class, to indicate how the report will be sorted.
 
-- “Select \<PREVIOUSLY SELECTED SORT CATEGORY\> drug: ALL//”
+- "Select \<PREVIOUSLY SELECTED SORT CATEGORY\> drug: ALL//"
 
 > The user can enter A (or press \<Enter\>) to show all drugs on this report. An S can be entered to specify which drugs to show on this report. If an S is entered, the user will not be prompted for lower limits for cost or dispensed units.
 
-- “Sort drugs by \<PREVIOUSLY SELECTED SORT CATEGORY\>, COST, or AMOUNT DISPENSED:”
+- "Sort drugs by \<PREVIOUSLY SELECTED SORT CATEGORY\>, COST, or AMOUNT DISPENSED:"
 
 > What is shown here as \<PREVIOUSLY SELECTED SORT CATEGORY\> will show on the screen as DISPENSED DRUG, ORDERABLE ITEM, or VA CLASS, depending on the selected answer to the earlier prompt in this list. Enter D, O, or V to have this report print the drugs in alphabetical order of the Dispensed Drug name, Orderable Item name, or VA Class. Enter C to have this report print the drugs in descending order of Total Cost; or enter A to have this report print the drugs in descending order of the Amount Dispensed (in units).
 
-- “Print all drugs costing at least?”
+- "Print all drugs costing at least?"
 
 > Enter a number, representing a dollar amount, to be the lower limit for this report. This number can be zero (0) to include all drugs with a positive cost. A null response will include all drugs.
 
-- “Print all drugs with a dispensing amount of at least?”
+- "Print all drugs with a dispensing amount of at least?"
 
 > Enter a number to be the lower dispensing limit (inclusive) for this report. This number can be zero (0) to include all drugs with a positive dispensing amount. A null response will include all drugs.
 
@@ -863,9 +912,9 @@ INPATIENT MEDICATIONS
 
 > The *Patients on Specific Drug(s)* option creates a report that lists patients on specific Orderable Item(s), Dispense Drug(s), or Veterans Affairs (VA) class(es) of drugs. When more than one of these drugs is chosen, the user will have the option to only display patients with orders containing ALL of the selected drugs or classes. The default behavior will be to display patients with orders for ANY of the selected drugs or classes.
 
-> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the “Select number of matches” prompt, the user may select how many of the items entered must be on the patient’s record in order for the patient to be displayed in the report.
+> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the "Select number of matches" prompt, the user may select how many of the items entered must be on the patient's record in order for the patient to be displayed in the report.
 
-> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters ‘1’ (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters ‘2’ on the number of matches screen, only patient C’s orders will print.
+> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters '1' (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters '2' on the number of matches screen, only patient C's orders will print.
 
 > Selecting a parent VA class will function as if the user had selected all of its children classes manually. Users will also be able to select one or more divisions and/or wards, which will limit the results to print only patients from the locations entered. When selecting all divisions and all wards, an additional prompt is shown to allow selection of one pharmacy ward group for selected locations.
 
@@ -1353,48 +1402,48 @@ INPATIENT MEDICATIONS
 
 > \[PSJ AC SET-UP\]
 
-> The *AUto-Discontinue Set-Up* option allows the site to determine if a patient’s Inpatient Medications (Unit Dose and IV) orders are to be automatically d/c’d (discontinued) or held when the patient is transferred between wards, between services or to authorized absence.
+> The *AUto-Discontinue Set-Up* option allows the site to determine if a patient's Inpatient Medications (Unit Dose and IV) orders are to be automatically d/c'd (discontinued) or held when the patient is transferred between wards, between services or to authorized absence.
 
-> The decision to discontinue Inpatient Medications orders is determined by the site, on a ward-by- ward and/or service-by-service basis. While this process will entail extra set up on the site’s part initially, it will allow the site almost complete control of the auto-discontinue process.
+> The decision to discontinue Inpatient Medications orders is determined by the site, on a ward-by- ward and/or service-by-service basis. While this process will entail extra set up on the site's part initially, it will allow the site almost complete control of the auto-discontinue process.
 
 > The set up for this process involves three main steps:
 
-1.  <u>Auto-Discontinue for all wards:</u> If the site wants to have Inpatient Medications orders discontinued on all or most ward transfers, the supervisor can have the module automatically set up all wards as ‘from’ and ‘to’ wards, saving some time. When this option is chosen, wards currently marked as inactive will also be included. The user can still delete, edit, or add ‘from’ and ‘to’ wards at any time. See step 2C for further information.
-2.  <u>Ward transfers:</u> The supervisor will select a ‘from’ ward. This is a ward from which a patient may be transferred. For each ‘from’ ward, the user can:
-    1.  Select an ‘On Pass’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to authorized absence <u>less than</u> 96 hours (known as ‘On Pass’).
+1.  <u>Auto-Discontinue for all wards:</u> If the site wants to have Inpatient Medications orders discontinued on all or most ward transfers, the supervisor can have the module automatically set up all wards as 'from' and 'to' wards, saving some time. When this option is chosen, wards currently marked as inactive will also be included. The user can still delete, edit, or add 'from' and 'to' wards at any time. See step 2C for further information.
+2.  <u>Ward transfers:</u> The supervisor will select a 'from' ward. This is a ward from which a patient may be transferred. For each 'from' ward, the user can:
+    1.  Select an 'On Pass' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to authorized absence <u>less than</u> 96 hours (known as 'On Pass').
 
 > The possible actions are:
 
 - Discontinue the orders
 - Place the orders on hold
 - Take no action
-2.  Select an ‘Authorized Absence’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to authorized absence <u>greater than</u> 96 hours. The possible actions are:
+2.  Select an 'Authorized Absence' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to authorized absence <u>greater than</u> 96 hours. The possible actions are:
     - Discontinue the orders
     - Place the orders on hold
     - Take no action
-3.  Select an ‘Unauthorized Absence’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to unauthorized absence <u>greater than</u> 96 hours. The possible actions are:
+3.  Select an 'Unauthorized Absence' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to unauthorized absence <u>greater than</u> 96 hours. The possible actions are:
     - Discontinue the orders
     - Place the orders on hold
     - Take no action
-4.  Select the ‘To’ wards. Whenever a patient is transferred from the selected ‘from’ ward to any of the selected ‘to’ wards, the patient’s IV and Unit Dose orders will be discontinued. For example, if 1 NORTH is selected as a ‘from’ ward and 1 SOUTH is selected as a ‘to’ ward, any time a patient is transferred FROM 1 NORTH TO 1 SOUTH, the patient’s Inpatient Medications orders will be discontinued.
+4.  Select the 'To' wards. Whenever a patient is transferred from the selected 'from' ward to any of the selected 'to' wards, the patient's IV and Unit Dose orders will be discontinued. For example, if 1 NORTH is selected as a 'from' ward and 1 SOUTH is selected as a 'to' ward, any time a patient is transferred FROM 1 NORTH TO 1 SOUTH, the patient's Inpatient Medications orders will be discontinued.
 
-> This process is one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM 1 SOUTH TO 1 NORTH, the user will have to enter 1 SOUTH as a ‘from’ ward and then enter 1 NORTH as one of its ‘to’ wards.
+> This process is one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM 1 SOUTH TO 1 NORTH, the user will have to enter 1 SOUTH as a 'from' ward and then enter 1 NORTH as one of its 'to' wards.
 
-3.  <u>Service transfers</u>: The supervisor will select a ‘from’ service. This is a service from which a patient may be transferred. For each ‘from’ service, the user can select the ‘to’ services. Whenever a patient is transferred from the selected ‘from’ service to any of the selected ‘to’ services, the patient’s IV and Unit Dose orders will be discontinued. For example, if Medicine is selected as a ‘from’ service and SURGERY is selected as a ‘to’ service, any time a patient is transferred FROM MEDICINE TO SURGERY, the patient’s Inpatient Medications orders will be discontinued.
+3.  <u>Service transfers</u>: The supervisor will select a 'from' service. This is a service from which a patient may be transferred. For each 'from' service, the user can select the 'to' services. Whenever a patient is transferred from the selected 'from' service to any of the selected 'to' services, the patient's IV and Unit Dose orders will be discontinued. For example, if Medicine is selected as a 'from' service and SURGERY is selected as a 'to' service, any time a patient is transferred FROM MEDICINE TO SURGERY, the patient's Inpatient Medications orders will be discontinued.
 
-> This process is also one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM SURGERY TO MEDICINE, the user will have to enter SURGERY as a ‘from’ service and then enter MEDICINE as one of its ‘to’ services.
+> This process is also one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM SURGERY TO MEDICINE, the user will have to enter SURGERY as a 'from' service and then enter MEDICINE as one of its 'to' services.
 
 > If all of the wards are set for auto d/c, it is not necessary to enter services.
 
-> If there is a specific ward or service for which the site does not want Inpatient Medications orders d/c’d, then the supervisor only needs to delete the ‘to’ ward or service.
+> If there is a specific ward or service for which the site does not want Inpatient Medications orders d/c'd, then the supervisor only needs to delete the 'to' ward or service.
 
-> Inpatient Medications orders are always automatically d/c’d whenever the patient is admitted, discharged, or transferred to unauthorized absence.
+> Inpatient Medications orders are always automatically d/c'd whenever the patient is admitted, discharged, or transferred to unauthorized absence.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/009.png)Note: Pending orders that are auto-discontinued will <u>NEVER</u> be re-instated.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/010.png)Note: When the Patient Information Management System (PIMS) deletes a patient movement, the medication orders that were discontinued due to the movement are automatically reinstated. There are checks included to prevent the reinstatement of an order if a new duplicate order has been added.
 
-> A mail message is sent to the PSJ-ORDERS-REINSTATED mail group when the medication orders are automatically reinstated due to the deletion of a patient movement. This message contains the patient’s name, last four digits of the patient’s social security number, current ward location, reason the orders were reinstated, and a list of the orders that were reinstated. The orders will be listed in the mail message in the same format as a patient profile. This notification also includes any orders that could not be reinstated due to duplicates existing on the system.
+> A mail message is sent to the PSJ-ORDERS-REINSTATED mail group when the medication orders are automatically reinstated due to the deletion of a patient movement. This message contains the patient's name, last four digits of the patient's social security number, current ward location, reason the orders were reinstated, and a list of the orders that were reinstated. The orders will be listed in the mail message in the same format as a patient profile. This notification also includes any orders that could not be reinstated due to duplicates existing on the system.
 
 > Example: Auto-Discontinue Set-Up
 
@@ -1418,11 +1467,11 @@ INPATIENT MEDICATIONS
 
 > Users who do not hold any of these keys are seen as ward clerks. If a user is assigned more than one of these keys, the pharmacist key supersedes the other keys; the nurse key supersedes the pharmacy technician key.
 
-> A user’s status as a provider does not affect this option. The prompts shown for a provider will be based on which of the above security keys he/she holds. For example, if a provider is also a nurse, the prompts that appear will be those for a nurse.
+> A user's status as a provider does not affect this option. The prompts shown for a provider will be based on which of the above security keys he/she holds. For example, if a provider is also a nurse, the prompts that appear will be those for a nurse.
 
 > <u>All Users</u>
 
-> The supervisor will see the “ORDER ENTRY PROCESS:” prompt for all users. This is the type of order entry process to be used by this user. Selections available are Regular, Abbreviated, or Ward order entry.
+> The supervisor will see the "ORDER ENTRY PROCESS:" prompt for all users. This is the type of order entry process to be used by this user. Selections available are Regular, Abbreviated, or Ward order entry.
 
 - <u>Regular</u> order entry is the full set of prompts for the entry of an order, after which the user is shown a full view of the order and is allowed to take immediate action on the order.
 - <u>Abbreviated</u> order entry gives the user fewer prompts for the entry of an order, after which the user is shown a full view of the order and is allowed to take immediate action on the order.
@@ -1430,19 +1479,19 @@ INPATIENT MEDICATIONS
 
 > If no entry is made here, it will be interpreted as Regular order entry. <u>Pharmacist</u>
 
-> In addition to the “ORDER ENTRY PROCESS:” prompt, the supervisor will see the following prompt for pharmacists:
+> In addition to the "ORDER ENTRY PROCESS:" prompt, the supervisor will see the following prompt for pharmacists:
 
-- “ALLOW AUTO-VERIFY FOR USER:”
+- "ALLOW AUTO-VERIFY FOR USER:"
 
 > If this parameter is YES, when the user enters an order, the order is automatically entered as ACTIVE.
 
 > <u>Nurse</u>
 
-> Since the nurse is not automatically given authority to select the strength and dose form of the medication to be dispensed, the supervisor will see the following prompt, for nurses, in addition to the “ORDER ENTRY PROCESS:” and “ALLOW AUTO-VERIFY FOR USER:” prompts
+> Since the nurse is not automatically given authority to select the strength and dose form of the medication to be dispensed, the supervisor will see the following prompt, for nurses, in addition to the "ORDER ENTRY PROCESS:" and "ALLOW AUTO-VERIFY FOR USER:" prompts
 
 > given for pharmacists:
 
-- “MAY SELECT DISPENSE DRUGS:”
+- "MAY SELECT DISPENSE DRUGS:"
 
 > If this is set to YES, the user can select the Dispense Drug for an order. If this is set to
 
@@ -1450,19 +1499,19 @@ INPATIENT MEDICATIONS
 
 > <u>Pharmacy Technician or Ward Clerk</u>
 
-> The PSJ PHARM TECH key does not affect the prompts of this option. The supervisor will see the same prompts for a pharmacy technician as for a ward clerk. Since the pharmacy technician and ward clerk are not given authority to verify orders, the supervisor will not see the “ALLOW AUTO-VERIFY FOR USER:” prompt. The following three prompts will be shown in addition to “MAY SELECT DISPENSE DRUGS:” and “ORDER ENTRY PROCESS:”. These prompts
+> The PSJ PHARM TECH key does not affect the prompts of this option. The supervisor will see the same prompts for a pharmacy technician as for a ward clerk. Since the pharmacy technician and ward clerk are not given authority to verify orders, the supervisor will not see the "ALLOW AUTO-VERIFY FOR USER:" prompt. The following three prompts will be shown in addition to "MAY SELECT DISPENSE DRUGS:" and "ORDER ENTRY PROCESS:". These prompts
 
 > strictly apply to Unit Dose orders.
 
-- “ALLOW USER TO RENEW ORDERS:”
+- "ALLOW USER TO RENEW ORDERS:"
 
 > If this is set to YES, the user can actually renew orders. If this is set to NO (or not set), the user can only mark orders to be renewed by someone else.
 
-- “ALLOW USER TO HOLD ORDERS:”
+- "ALLOW USER TO HOLD ORDERS:"
 
 > If this is set to YES, the user can actually hold/un-hold orders. If this is set to NO (or not set), the user can only mark orders for hold/un-hold.
 
-- “ALLOW USER TO D/C ORDERS:”
+- "ALLOW USER TO D/C ORDERS:"
 
 > If this is set to YES, the user can actually discontinue orders. If this is set to NO (or not set), the user can only mark orders to be discontinued by someone else.
 
@@ -1478,30 +1527,30 @@ INPATIENT MEDICATIONS
 
 > The *Inpatient Ward Parameters Edit* option allows the supervisor to edit the Inpatient Ward parameters. These parameters determine how the Inpatient Medications package will act, depending on the ward where the patient resides. The supervisor will encounter the following prompts in this option:
 
-- “DAYS UNTIL STOP DATE/TIME:”
+- "DAYS UNTIL STOP DATE/TIME:"
 
 > Enter the number of days (1-100) that an order will last.
 
-- “DAYS UNTIL STOP FOR ONE-TIME:”
+- "DAYS UNTIL STOP FOR ONE-TIME:"
 
 > Enter the number of days a one-time order should last. The number can be from 1-100, however; it cannot exceed the number of days that standard orders last (DAYS UNTIL STOP DATE/TIME).
 
-- “SAME STOP DATE ON ALL ORDERS:”
+- "SAME STOP DATE ON ALL ORDERS:"
 
-> Answer YES (or 1) if all of a patient’s orders are to stop on the same date/time.
+> Answer YES (or 1) if all of a patient's orders are to stop on the same date/time.
 
-- “TIME OF DAY THAT ORDERS STOP:”
+- "TIME OF DAY THAT ORDERS STOP:"
 
 > Enter the time of day that orders stop for this ward (military time).
 
-- “DEFAULT START DATE CALCULATION:”
+- "DEFAULT START DATE CALCULATION:"
 
 > Enter any of the following codes to select the default start time for orders. When there is no entry for this prompt, NOW will be assumed.
 
 1.  Use CLOSEST ADMIN TIME as Default
 2.  Use NEXT ADMIN TIME as Default
 3.  Use NOW as Default
-- “START TIME FOR 24 HOUR MAR:”
+- "START TIME FOR 24 HOUR MAR:"
 
 > Enter the time of day (0001-2400) that the 24 Hour MAR is to start. Please use military time with leading and trailing zeros.
 
@@ -1509,7 +1558,7 @@ INPATIENT MEDICATIONS
 
 > This parameter allows the site to specify the time frame for recently discontinued/expired orders to display on the patient profiles. The value defined in this field will take precedence over the Inpatient System parameter.
 
-- “LABEL FOR WARD STAFF:”
+- "LABEL FOR WARD STAFF:"
 
 > Enter any of the following codes to select when labels will print for ward staff:
 
@@ -1520,11 +1569,11 @@ INPATIENT MEDICATIONS
 
 > If a 0 is entered, labels will only be printed at the end of order entry. No label record will be created, so the user will not be able to print or reprint labels later.
 
-- “WARD LABEL PRINTER POINTER:”
+- "WARD LABEL PRINTER POINTER:"
 
 > Enter the device to which labels created by ward staff will be printed. If no device is entered, labels will not print automatically, but as long as a label record is created (see previous prompt) labels can be manually printed using the *Label Print/Reprint* option.
 
-- “LABEL FOR PHARMACY POINTER:”
+- "LABEL FOR PHARMACY POINTER:"
 
 > Enter any of the following codes to select when labels will print for pharmacy staff:
 
@@ -1535,23 +1584,23 @@ INPATIENT MEDICATIONS
 
 > If a 0 is entered, labels will only be printed at the end of order entry. No label record will be created, so the user will not be able to print or reprint labels later.
 
-- “PHARMACY LABEL PRINTER:”
+- "PHARMACY LABEL PRINTER:"
 
 > Enter the device to which labels created by pharmacy staff will be printed. If no device is entered, labels will not print automatically, but as long as a label record is created (see previous prompt) labels can be manually printed using the *Label Print/Reprint* option.
 
-- “LABEL ON AUTO-DISCONTINUE:”
+- "LABEL ON AUTO-DISCONTINUE:"
 
-> Answer YES to have labels created when this ward’s patients’ orders are auto- discontinued.
+> Answer YES to have labels created when this ward's patients' orders are auto- discontinued.
 
-- “MAR HEADER LABELS:”
+- "MAR HEADER LABELS:"
 
 > Enter YES if MAR header labels should be generated for this ward.
 
-- “DAYS NEW LABELS LAST:”
+- "DAYS NEW LABELS LAST:"
 
 > Any new labels older than the number of days specified here will automatically be purged. Enter a whole number between 0 and 35.
 
-- “MAR ORDER SELECTION DEFAULT:”
+- "MAR ORDER SELECTION DEFAULT:"
 
 > Enter the number corresponding to the type of orders to be included on MARs and the Medications Due Worksheet printed for this ward.
 
@@ -1564,25 +1613,25 @@ INPATIENT MEDICATIONS
 
 > Multiple order types (except 1) may be selected using the hyphen (-) or the comma (,). Example: 2-4 or 2,3,4
 
-- “PRINT PENDING ORDERS ON MAR:”
+- "PRINT PENDING ORDERS ON MAR:"
 
 > Enter YES to include the pending orders that were acknowledged by a nurse on the MARs and the Medication Due Worksheet.
 
-- “ ‘SELF MED’ IN ORDER ENTRY:”
+- " 'SELF MED' IN ORDER ENTRY:"
 
 > Answer YES to have the prompts for patient self-medication included in the order entry process.
 
-- “PRE-EXCHANGE REPORT DEVICE:”
+- "PRE-EXCHANGE REPORT DEVICE:"
 
 > Enter a device on which the Pre-Exchange Report may be printed. Answer with DEVICE NAME, or LOCAL SYNONYM, or \$I, or VOLUME SET(CPU), or SIGN-ON/SYSTEM DEVICE, or FORM CURRENTLY MOUNTED.
 
-- “STAT NOW MAIL GROUP:”
+- "STAT NOW MAIL GROUP:"
 
 > Enter the name of the mail group to be used for sending STAT/NOW active order notifications.
 
-- “PRIORITIES FOR NOTIFICATION:”
+- "PRIORITIES FOR NOTIFICATION:"
 
-> Select the priorities / schedules for notifications to be sent to the mail group defined in the “STAT NOW MAIL GROUP” parameter above.
+> Select the priorities / schedules for notifications to be sent to the mail group defined in the "STAT NOW MAIL GROUP" parameter above.
 
 > If this parameter is empty / not defined, the priority set in the PRIORITIES FOR PENDING NOTIFY parameter via the SYSTEMS PARAMETERS EDIT \[PSJ SYS
 
@@ -1704,35 +1753,35 @@ INPATIENT MEDICATIONS
 
 > The PHARMACY SYSTEM file allows a hospital to tailor various aspects of the Unit Dose Medications module that affect the entire medical center. Currently the following fields can be edited by using the *Systems Parameters Edit* option.
 
-- “NON-FORMULARY MESSAGE:”
+- "NON-FORMULARY MESSAGE:"
 
 > This is a message that will be shown to non-pharmacist users when ordering a non- formulary drug for a patient (a drug that is not currently stocked by the pharmacy). This is
 
 > typically a warning and/or a procedure the non-pharmacist users must follow before the pharmacy will dispense the non-formulary drug. The message will show exactly as entered here.
 
-- “EDIT Option:”
+- "EDIT Option:"
 
 > This field is used to edit the non-formulary message displayed above.
 
-- “PRINT 6 BLOCKS FOR THE PRN MAR:”
+- "PRINT 6 BLOCKS FOR THE PRN MAR:"
 
 > This field is used to indicate if 4 or 6 blocks are to be used for ONE-TIME/PRN orders on the 7/14 DAY MAR ONE-TIME/PRN SHEET. The 7/14 DAY MAR ONE-
 
 > TIME/PRN SHEET will print 4 blocks if this field is <u>not</u> set to YES.
 
-- “PRINT DIET ABBR LABEL ON MAR:”
+- "PRINT DIET ABBR LABEL ON MAR:"
 
 > If this field contains a 1 or YES, the Dietetics Abbreviated Label will be printed on the MAR.
 
-- “MAR SORT:”
+- "MAR SORT:"
 
-> This parameter allows the sorting of the MAR by the order’s schedule type or alphabetically by the medication names.
+> This parameter allows the sorting of the MAR by the order's schedule type or alphabetically by the medication names.
 
 > CHOOSE FROM:
 
-1.  Sort by order’s Schedule Type and then by Medication Names
-2.  Sort by order’s Medication Names
-- “ATC SORT PARAMETER:”
+1.  Sort by order's Schedule Type and then by Medication Names
+2.  Sort by order's Medication Names
+- "ATC SORT PARAMETER:"
 
 > This parameter allows sending of the Pick List to the ATC machine by ATC mnemonic within Patient (as in Inpatient Medications versions up to 4.0), or else by admin time within patient.
 
@@ -1740,15 +1789,15 @@ INPATIENT MEDICATIONS
 
 1.  ATC MNEMONIC
 2.  ADMIN TIME
-- “CALC UNITS NEEDED PRN ORDERS:”
+- "CALC UNITS NEEDED PRN ORDERS:"
 
 > This parameter controls whether or not the Units Needed will be calculated for the orders with PRN in the schedule field on the Pick List.
 
-- “DAYS UNTIL STOP FOR ONE-TIME:”
+- "DAYS UNTIL STOP FOR ONE-TIME:"
 
 > This parameter indicates the number of days a one-time order should last if there is no ward parameter defined. This number can be between 1 and 30.
 
-- “ROUND ATC PICK LIST UNITS:”
+- "ROUND ATC PICK LIST UNITS:"
 
 > This parameter allows the site to decide whether or not fractional units per dose will be rounded to the next whole number before the pick list is sent to the ATC.
 
@@ -1756,11 +1805,11 @@ INPATIENT MEDICATIONS
 
 > This parameter allows the site to specify the time frame for recently discontinued/expired orders to display on the patient profiles.
 
-- “EXPIRED IV TIME LIMIT:”
+- "EXPIRED IV TIME LIMIT:"
 
 > Type the Number of Hours between 0 and 24 that continuous IV orders may be renewed after expiring.
 
-- “PRIORITIES FOR PENDING NOTIFY:”
+- "PRIORITIES FOR PENDING NOTIFY:"
 
 > Select the priorities / schedules for notifications to be sent to the PSJ STAT NOW PENDING ORDER mail group.
 
@@ -1770,7 +1819,7 @@ INPATIENT MEDICATIONS
 
 > PARAMETERS EDIT \[PSJ IWP EDIT\] option are all empty / not defined then notifications will be sent for priorities of STAT and ASAP, and schedules of NOW and STAT.
 
-- “PRIORITIES FOR ACTIVE NOTIFY:”
+- "PRIORITIES FOR ACTIVE NOTIFY:"
 
 > Select the priorities / schedules for notifications to be sent to the PSJ STAT NOW ACTIVE ORDER mail group.
 
@@ -1784,7 +1833,7 @@ INPATIENT MEDICATIONS
 
 > PARAMETERS EDIT \[PSJ IWP EDIT\] option are all empty / not defined then notifications will be sent for priorities of STAT and ASAP, and schedules of NOW and STAT.
 
-> ![](psj-5-181-supervisor-user-manual-change-pages/012.png)Note: The “AUTO-DC IMO ORDERS:” field has been moved from the PHARMACY SYSTEM file to the CLINIC DEFINITION file. To access this field, use the *Clinic Definition* \[PSJ CD\] option under the *PARameters Edit Menu* \[PSJ PARAM EDIT MENU\] option.
+> ![](psj-5-181-supervisor-user-manual-change-pages/012.png)Note: The "AUTO-DC IMO ORDERS:" field has been moved from the PHARMACY SYSTEM file to the CLINIC DEFINITION file. To access this field, use the *Clinic Definition* \[PSJ CD\] option under the *PARameters Edit Menu* \[PSJ PARAM EDIT MENU\] option.
 
 > Example: Systems Parameters Edit
 
@@ -1796,7 +1845,7 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> ![](psj-5-181-supervisor-user-manual-change-pages/013.png)Note: The *PATient Order Purge* option is “Out of Order” and TEMPORARILY UNAVAILABLE.
+> ![](psj-5-181-supervisor-user-manual-change-pages/013.png)Note: The *PATient Order Purge* option is "Out of Order" and TEMPORARILY UNAVAILABLE.
 
 > The *PATient Order Purge* option will start a background job to delete all orders for patients that have been discharged before or on the user-specified date. This option does not affect orders for currently admitted patients.
 
@@ -1868,7 +1917,7 @@ INPATIENT MEDICATIONS
 
 > Example: Ward Groups
 
-# SUPervisor’s Menu (IV)
+# SUPervisor's Menu (IV)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
@@ -1876,9 +1925,9 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *SUPervisor’s Menu (IV)* option contains options only available to the applications coordinator. These include setting up site parameters, generating the IV AMIS report, and cost/usage reports.
+> The *SUPervisor's Menu (IV)* option contains options only available to the applications coordinator. These include setting up site parameters, generating the IV AMIS report, and cost/usage reports.
 
-> Example: Supervisor’s Menu (IV)
+> Example: Supervisor's Menu (IV)
 
 ## AUto-Discontinue Set-Up
 
@@ -1888,45 +1937,45 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The *AUto-Discontinue Set-Up* option allows the site to determine if a patient’s Inpatient Medications (Unit Dose and IV) orders are to be automatically discontinued (d/c’d) or held when the patient is transferred between wards, between services, or to authorized absence.
+> The *AUto-Discontinue Set-Up* option allows the site to determine if a patient's Inpatient Medications (Unit Dose and IV) orders are to be automatically discontinued (d/c'd) or held when the patient is transferred between wards, between services, or to authorized absence.
 
-> The decision to discontinue Inpatient Medications orders is determined by the site, on a ward-by- ward, and/or service-by-service basis. While this process will entail extra set up on the site’s part initially, it will allow the site almost complete control of the auto-discontinue process.
+> The decision to discontinue Inpatient Medications orders is determined by the site, on a ward-by- ward, and/or service-by-service basis. While this process will entail extra set up on the site's part initially, it will allow the site almost complete control of the auto-discontinue process.
 
 > The set up for this process involves three main steps:
 
-1.  <u>Auto-Discontinue for all wards:</u> If the site wants to have Inpatient Medications orders discontinued on all or most ward transfers, the supervisor can have the module automatically set up all wards as ‘from’ and ‘to’ wards, saving some time. When this option is chosen, wards currently marked as inactive will also be included. The user can still delete, edit, or add ‘from’ and ‘to’ wards at any time. See step 2C for further information.
-2.  <u>Ward transfers:</u> The supervisor will select a ‘from’ ward. This is a ward from which a patient may be transferred. For each ‘from’ ward, the user can:
-    1.  Select an ‘On Pass’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to authorized absence <u>less than</u> 96 hours (known as ‘On Pass’). The possible actions are:
+1.  <u>Auto-Discontinue for all wards:</u> If the site wants to have Inpatient Medications orders discontinued on all or most ward transfers, the supervisor can have the module automatically set up all wards as 'from' and 'to' wards, saving some time. When this option is chosen, wards currently marked as inactive will also be included. The user can still delete, edit, or add 'from' and 'to' wards at any time. See step 2C for further information.
+2.  <u>Ward transfers:</u> The supervisor will select a 'from' ward. This is a ward from which a patient may be transferred. For each 'from' ward, the user can:
+    1.  Select an 'On Pass' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to authorized absence <u>less than</u> 96 hours (known as 'On Pass'). The possible actions are:
         - Discontinue the orders
         - Place the orders on hold
         - Take no action
-    2.  Select an ‘Authorized Absence’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to authorized absence <u>greater than</u> 96 hours. The possible actions are:
+    2.  Select an 'Authorized Absence' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to authorized absence <u>greater than</u> 96 hours. The possible actions are:
         - Discontinue the orders
         - Place the orders on hold
         - Take no action
-    3.  Select an ‘Unauthorized Absence’ action. This is the action the Inpatient Medications package will take on a patient’s orders whenever the patient is transferred from the selected ‘from’ ward to unauthorized absence <u>greater than</u> 96 hours. The possible actions are:
+    3.  Select an 'Unauthorized Absence' action. This is the action the Inpatient Medications package will take on a patient's orders whenever the patient is transferred from the selected 'from' ward to unauthorized absence <u>greater than</u> 96 hours. The possible actions are:
         - Discontinue the orders
         - Place the orders on hold
         - Take no action
-    4.  Select the ‘To’ wards. Whenever a patient is transferred from the selected ‘from’ ward to any of the selected ‘to’ wards, the patient’s IV and Unit Dose orders will be discontinued. For example, if 1 NORTH is selected as a ‘from’ ward and 1 SOUTH is selected as a ‘to’ ward, any time a patient is transferred FROM 1 NORTH TO 1 SOUTH, the patient’s Inpatient Medications orders will be discontinued.
+    4.  Select the 'To' wards. Whenever a patient is transferred from the selected 'from' ward to any of the selected 'to' wards, the patient's IV and Unit Dose orders will be discontinued. For example, if 1 NORTH is selected as a 'from' ward and 1 SOUTH is selected as a 'to' ward, any time a patient is transferred FROM 1 NORTH TO 1 SOUTH, the patient's Inpatient Medications orders will be discontinued.
 
-> This process is one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM 1 SOUTH TO 1 NORTH, the user will have to enter 1 SOUTH as a ‘from’ ward and then enter 1 NORTH as one of its ‘to’ wards.
+> This process is one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM 1 SOUTH TO 1 NORTH, the user will have to enter 1 SOUTH as a 'from' ward and then enter 1 NORTH as one of its 'to' wards.
 
-3.  <u>Service transfers:</u> The supervisor will select a ‘from’ service. This is a service from which a patient may be transferred. For each ‘from’ service, the user can select the ‘to’ services. Whenever a patient is transferred from the selected ‘from’ service to any of the selected ‘to’ services, the patient’s IV and Unit Dose orders will be discontinued. For example, if MEDICINE is selected as a ‘from’ service and SURGERY is selected as a ‘to’ service, any time a patient is transferred FROM MEDICINE TO SURGERY, the patient’s Inpatient Medications orders will be discontinued.
+3.  <u>Service transfers:</u> The supervisor will select a 'from' service. This is a service from which a patient may be transferred. For each 'from' service, the user can select the 'to' services. Whenever a patient is transferred from the selected 'from' service to any of the selected 'to' services, the patient's IV and Unit Dose orders will be discontinued. For example, if MEDICINE is selected as a 'from' service and SURGERY is selected as a 'to' service, any time a patient is transferred FROM MEDICINE TO SURGERY, the patient's Inpatient Medications orders will be discontinued.
 
-> This process is also one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM SURGERY TO MEDICINE, the user will have to enter SURGERY as a ‘from’ service and then enter MEDICINE as one of its ‘to’ services.
+> This process is also one way only. For example, if the site also wants orders to be discontinued whenever a patient is transferred FROM SURGERY TO MEDICINE, the user will have to enter SURGERY as a 'from' service and then enter MEDICINE as one of its 'to' services.
 
 > If all of the wards are set for auto d/c, it is not necessary to enter services.
 
-> If there is a specific ward or service for which the site does not want Inpatient Medications orders d/c’d, then the supervisor only needs to delete the ‘to’ ward or service.
+> If there is a specific ward or service for which the site does not want Inpatient Medications orders d/c'd, then the supervisor only needs to delete the 'to' ward or service.
 
-> Inpatient Medications orders are always automatically d/c’d whenever the patient is admitted, discharged, or transferred to unauthorized absence.
+> Inpatient Medications orders are always automatically d/c'd whenever the patient is admitted, discharged, or transferred to unauthorized absence.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/016.png)Note: Pending orders that are auto-discontinued will <u>NEVER</u> be re-instated.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/017.png)Note: When the Patient Information Management System (PIMS) deletes a patient movement, the medication orders that were discontinued due to the movement are automatically reinstated. There are checks included to prevent the reinstatement of an order if a new duplicate order has been added. For IVs, when the order to be reinstated has any additives the same as a new order, it will not be reinstated.
 
-> A mail message is sent to the PSJ-ORDERS-REINSTATED mail group when the medication orders are automatically reinstated due to the deletion of a patient movement. This message contains the patient’s name, last four digits of the patient’s social security number, current ward location, reason the orders were reinstated, and a list of the orders that were reinstated. The orders will be listed in the mail message in the same format as a patient profile. This notification also includes any orders that could not be reinstated due to duplicates existing on the system.
+> A mail message is sent to the PSJ-ORDERS-REINSTATED mail group when the medication orders are automatically reinstated due to the deletion of a patient movement. This message contains the patient's name, last four digits of the patient's social security number, current ward location, reason the orders were reinstated, and a list of the orders that were reinstated. The orders will be listed in the mail message in the same format as a patient profile. This notification also includes any orders that could not be reinstated due to duplicates existing on the system.
 
 > Example: Auto-Discontinue Set-Up
 
@@ -1946,13 +1995,13 @@ INPATIENT MEDICATIONS
 
 > The advantage of this file is that the user can create custom-tailored reports. Examples of customized reports are drug utilization sets, restricted drugs by provider, reports by IV type, or any grouping of drugs that have something in common.
 
-> ![](psj-5-181-supervisor-user-manual-change-pages/018.png)Note: The last drug entered into a category will always be the default drug at the “Select IV DRUG:” prompt when re-entering the category. To get a list of drugs in a category, type a question mark (?) at the “Select IV DRUG:” prompt.
+> ![](psj-5-181-supervisor-user-manual-change-pages/018.png)Note: The last drug entered into a category will always be the default drug at the "Select IV DRUG:" prompt when re-entering the category. To get a list of drugs in a category, type a question mark (?) at the "Select IV DRUG:" prompt.
 
 > Example: Category File (IV)
 
 > (*This page included for two-sided copying*.)
 
-> To delete a drug from a category, the user must choose the drug by typing in the drug name at the “Select IV DRUG:” prompt. The next prompt asks if the system has selected the correct drug (answer \<Enter\> for Yes if correct). At the following “Select IV DRUG:” prompt, the drug appears as the default drug. To delete the drug from the category, type an “at” symbol (@) at the prompt.
+> To delete a drug from a category, the user must choose the drug by typing in the drug name at the "Select IV DRUG:" prompt. The next prompt asks if the system has selected the correct drug (answer \<Enter\> for Yes if correct). At the following "Select IV DRUG:" prompt, the drug appears as the default drug. To delete the drug from the category, type an "at" symbol (@) at the prompt.
 
 > Example: Delete a Drug from a Category
 
@@ -1972,7 +2021,7 @@ INPATIENT MEDICATIONS
 
 > When labels are printed or returns are entered for an IV order, a transaction entry is added to the IV STATS file. These entries are later compiled either manually using the *Compile IV Statistics*
 
-> *(IV)* option on the *SUPervisor’s Menu (IV)*, or by the *IV Background job* that should be scheduled to run each night. When these entries are compiled, all additives in the order are counted as usage for each label printed or returned, regardless of whether the additive was included on the label or in the returned bottle.
+> *(IV)* option on the *SUPervisor's Menu (IV)*, or by the *IV Background job* that should be scheduled to run each night. When these entries are compiled, all additives in the order are counted as usage for each label printed or returned, regardless of whether the additive was included on the label or in the returned bottle.
 
 > Example: Hyperal Order
 
@@ -1998,7 +2047,7 @@ INPATIENT MEDICATIONS
 
 > \[PSJI AOR\]
 
-> The *ACtive Order Report by Ward/Drug (IV)* option allows the user to capture all active orders that exist for a specific ward, broken down by drug. At the “Select Ward:” prompt, a specific ward, Outpatient IVs (by entering ^OUTPATIENT) or all wards (by entering ^ALL) can be selected. At the “Select DRUG:” prompt, the user can select a specific drug, or all drugs (by entering ^ALL).
+> The *ACtive Order Report by Ward/Drug (IV)* option allows the user to capture all active orders that exist for a specific ward, broken down by drug. At the "Select Ward:" prompt, a specific ward, Outpatient IVs (by entering ^OUTPATIENT) or all wards (by entering ^ALL) can be selected. At the "Select DRUG:" prompt, the user can select a specific drug, or all drugs (by entering ^ALL).
 
 > Example: Active Order Report by Ward/Drug (IV)
 
@@ -2180,7 +2229,7 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> ![](psj-5-181-supervisor-user-manual-change-pages/021.png)Note: The *PUrge Data (IV)* option is “Out of Order” and TEMPORARILY UNAVAILABLE.
+> ![](psj-5-181-supervisor-user-manual-change-pages/021.png)Note: The *PUrge Data (IV)* option is "Out of Order" and TEMPORARILY UNAVAILABLE.
 
 > ![](psj-5-181-supervisor-user-manual-change-pages/022.png) Users must hold the PSJI PURGE key for access to this option.
 
@@ -2403,11 +2452,11 @@ INPATIENT MEDICATIONS
 
 > Data caching was recently added to improve the speed of order checks. Before data caching, order checks could be slow because each order check retrieved data from the other VISTA packages—even if the order checks used the same data. With data caching, the first order check in an ordering session retrieves data from other VISTA packages, uses the data to evaluate whether it should display a warning, and then stores the retrieved data in the
 
-> ^XTMP(“OCXCACHE” global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
+> ^XTMP("OCXCACHE" global for five minutes. The order checks that occur in the next five minutes can use the cached data, if it is the appropriate data, instead of retrieving data from the other packages. After five minutes, the cached data expires, and order checks must retrieve new data from the VISTA packages.
 
 > For example, before data caching was implemented, if an order check took 3 seconds to retrieve data from other VISTA packages, and there were 12 order checks, clinicians might wait 36 seconds to sign orders. With data caching, the first order check might take 3 seconds to retrieve the data, but subsequent order checks could use the cache and might take only .03 seconds each. That would be 3.33 seconds compared to 36 seconds. The numbers in this example are for illustration only and do not reflect real system speed. However, data caching should speed up order checks.
 
-> To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP(“OCXCACHE” global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer’s prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
+> To avoid using all available disk space for storing data from order checks, there are several ways to clear the ^XTMP("OCXCACHE" global. ORMTIME removes data from the global when it runs. The suggested frequency for running ORMTIME is every 30 minutes, but not every site runs it that frequently. Kernel clean up utilities also remove data from the cache when they run, which is usually every 24 hours. If needed, users that have access to the programmer's prompt can manually clear the cache from that prompt by using PURGE^OCXCACHE.
 
 > Three CPRS Order Checks that are normally performed in CPRS will now be performed through Pharmacy backdoor options. They are: Aminoglycoside Ordered, Dangerous Meds for Patients
 
@@ -2417,7 +2466,7 @@ INPATIENT MEDICATIONS
 
 > It does not matter at what level (i.e. user, system) they are enabled or if they are disabled through CPRS. These checks will always be performed through backdoor pharmacy options if set up correctly through CPRS.
 
-> The ‘Aminoglycoside Ordered’ order check – If the medication belongs to the Aminoglycoside VA Drug Class, the software will calculate a creatinine clearance value if a serum creatinine is available using a modified Cockcroft-Gault formula. The creatinine clearance will be displayed along with the latest values for BUN and serum Creatinine. If no creatinine clearance can be calculated, the message will let the user know that that information is not available. This order check will be done in Outpatient Pharmacy, Inpatient Medications (IV and Unit Dose modules).
+> The 'Aminoglycoside Ordered' order check – If the medication belongs to the Aminoglycoside VA Drug Class, the software will calculate a creatinine clearance value if a serum creatinine is available using a modified Cockcroft-Gault formula. The creatinine clearance will be displayed along with the latest values for BUN and serum Creatinine. If no creatinine clearance can be calculated, the message will let the user know that that information is not available. This order check will be done in Outpatient Pharmacy, Inpatient Medications (IV and Unit Dose modules).
 
 > Message displayed when creatinine clearance can be calculated:
 
@@ -2425,7 +2474,7 @@ INPATIENT MEDICATIONS
 
 > In order for this order check to be performed please do the following:
 
-1.  Make sure that the drug being ordered is classed (matched to NDF or manually classed) and belongs to the VA drug class, ‘AMINOGLYCOSIDES’.
+1.  Make sure that the drug being ordered is classed (matched to NDF or manually classed) and belongs to the VA drug class, 'AMINOGLYCOSIDES'.
 2.  Make sure that the national terms for SERUM CREATININE and SERUM UREA NITROGEN and are linked to local terms in the LABORATORY TEST file.
 3.  Make sure that the national term for SERUM SPECIMEN is linked to a local term in the TOPOGRAPHY FIELD file.
 
@@ -2447,7 +2496,7 @@ INPATIENT MEDICATIONS
 
 > To accomplish this, use the CPRS *Order Checking Mgmt Menu* \[\[ORK ORDER CHK MGMT MENU\] and then select *Edit Site Local Terms* \[OCX LOCAL TERM EDIT\].
 
-> For the ‘Glucophage – Lab Results’, the software checks to see if the name of the pharmacy orderable item’s local text (from the Dispense Drug file \[#50\]) contains “Glucophage” or “metformin”. It next searches for a serum creatinine result within the past x number of days as determined by parameter ORK GLUCOPHAGE CREATININE. If the patient’s creatinine result was greater than 1.5 or does not exist a warning message is displayed. This order check will be done in Outpatient Pharmacy, Inpatient Medications - Unit Dose module only.
+> For the 'Glucophage – Lab Results', the software checks to see if the name of the pharmacy orderable item's local text (from the Dispense Drug file \[#50\]) contains "Glucophage" or "metformin". It next searches for a serum creatinine result within the past x number of days as determined by parameter ORK GLUCOPHAGE CREATININE. If the patient's creatinine result was greater than 1.5 or does not exist a warning message is displayed. This order check will be done in Outpatient Pharmacy, Inpatient Medications - Unit Dose module only.
 
 > If no serum creatinine exists within the past number of days specified in the parameter ORK GLUCOPHAGE CREATININE, the following message is displayed to the user:
 
@@ -2691,7 +2740,7 @@ INPATIENT MEDICATIONS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Action Prompts There are three types of Inpatient Medications “Action” prompts that occur during order entry: ListMan, Patient/Order, and Hidden action prompts.
+> Action Prompts There are three types of Inpatient Medications "Action" prompts that occur during order entry: ListMan, Patient/Order, and Hidden action prompts.
 > ListMan Action Prompts
 > \+ Next Screen
 > \- Previous Screen
@@ -2758,11 +2807,11 @@ INPATIENT MEDICATIONS
 > of measurement.
 > BCMA A V*IST*A computer software package named Bar Code Medication Administration. This package validates medications against active orders prior to being administered to the patient.
 > Chemotherapy Chemotherapy is the treatment or prevention of cancer with chemical agents. The chemotherapy IV type administration can be a syringe, admixture, or a piggyback. Once the subtype (syringe, piggyback, etc.) is selected, the order entry follows the same procedure as the type that corresponds to the selected subtype (e.g., piggyback type of chemotherapy follows the same entry procedure as regular piggyback IV).
-> Chemotherapy “Admixture” The Chemotherapy “Admixture” IV type follows the
+> Chemotherapy "Admixture" The Chemotherapy "Admixture" IV type follows the
 > same order entry procedure as the regular admixture IV type. This type is in use when the level of toxicity of the chemotherapy drug is high and is to be administered continuously over an extended period of time (e.g., hours or days).
-> Chemotherapy “Piggyback” The Chemotherapy “Piggyback” IV type follows the
+> Chemotherapy "Piggyback" The Chemotherapy "Piggyback" IV type follows the
 > same order entry procedure as the regular piggyback IV type. This type of chemotherapy is in use when the chemotherapy drug does not have time constraints on how fast it must be infused into the patient. These types are normally administered over a 30 - 60 minute interval.
-> Chemotherapy “Syringe” The Chemotherapy “Syringe” IV type follows the same
+> Chemotherapy "Syringe" The Chemotherapy "Syringe" IV type follows the same
 > order entry procedure as the regular syringe IV type. Its administration may be continuous or intermittent. The pharmacist selects this type when the level of toxicity of the chemotherapy drug is low and needs to be infused directly into the patient within a short time interval (usually 1-2 minutes).
 > Clinic Group A clinic group is a combination of outpatient clinics that have been defined as a group within Inpatient Medications to facilitate processing of orders.
 > CLINIC DEFINITION File File \#53.46. This file is used in conjunction with
@@ -2783,7 +2832,7 @@ INPATIENT MEDICATIONS
 > Entry By The name of the user who entered the Unit Dose or IV order into the computer.
 > FDB First DataBank
 > Hospital Supplied Self Med Self-medication, which is to be supplied by the Medical
-> Center’s pharmacy. Hospital supplied self med is only prompted for if the user answers Yes to the SELF MED: prompt during order entry.
+> Center's pharmacy. Hospital supplied self med is only prompted for if the user answers Yes to the SELF MED: prompt during order entry.
 > Hyperalimentation (Hyperal) Long term feeding of a protein-carbohydrate solution.
 > Electrolytes, fats, trace elements, and vitamins can be added. Since this solution generally provides all necessary nutrients, it is commonly referred to as Total Parenteral Nutrition (TPN). A hyperal is composed of many additives in two or more solutions. When the labels print, they show the individual electrolytes in the hyperal order.
 > Infusion Rate The designated rate of flow of IV fluids into the patient.
@@ -2797,10 +2846,10 @@ INPATIENT MEDICATIONS
 > bag in brackets (\[ \]). This number can be used to speed up the entry of returns and destroyed IV bags.
 > IV ADDITIVES File File \#52.6. This file contains drugs that are used as additives in the IV room. Data entered includes drug generic name, print name, drug information, synonym(s), dispensing units, cost per unit, days for IV order, usual IV schedule, administration times, electrolytes, and quick code information.
 > IV CATEGORY File File \#50.2. This file allows the user to create categories
-> of drugs in order to run “tailor-made” IV cost reports for specific user-defined categories of drugs. The user can group drugs into categories.
+> of drugs in order to run "tailor-made" IV cost reports for specific user-defined categories of drugs. The user can group drugs into categories.
 > IV Duration The duration of an order may be entered in CPRS at the IV DURATION OR TOTAL VOLUME field in the IV
 > Fluids order dialog. The duration may be specified in terms of volume (liters or milliliters), or time (hours or days). Inpatient Medications uses this value to calculate a default stop date/time for the order at the time the order is finished.
-> IV Label Action A prompt, requesting action on an IV label, in the form of “Action ( )”, where the valid codes are shown in the parentheses. The following codes are valid:
+> IV Label Action A prompt, requesting action on an IV label, in the form of "Action ( )", where the valid codes are shown in the parentheses. The following codes are valid:
 > P – Print a specified number of labels now. B – Bypass any more actions.
 > S – Suspend a specified number of labels for the IV room to print on demand.
 > IV Room Name The name identifying an IV distribution area.
@@ -2828,7 +2877,7 @@ INPATIENT MEDICATIONS
 > Order Sets An Order Set is a set of N pre-written orders. (N indicates the number of orders in an Order Set is variable.) Order Sets are used to expedite order entry for drugs that are dispensed to all patients in certain medical practices and procedures.
 > Order View Computer option that allows the user to view detailed information related to one specific order of a patient. The order view provides basic patient information and identification of the order variables.
 > Parenteral Introduced by means other than by way of the digestive track.
-> Patient Profile A listing of a patient’s active and non-active Unit Dose and IV orders. The patient profile also includes basic patient information, including the patient’s name, social
+> Patient Profile A listing of a patient's active and non-active Unit Dose and IV orders. The patient profile also includes basic patient information, including the patient's name, social
 > security number, date of birth, diagnosis, ward location, date of admission, reactions, and any pertinent remarks.
 > Pending Order A pending order is one that has been entered by a provider through CPRS without Pharmacy or Nursing finishing the order. Once Pharmacy or Nursing has finished and verified the order, it will become active.
 > PHARMACY SYSTEM File File \#59.7. This file contains data that pertains to the
@@ -2840,7 +2889,7 @@ INPATIENT MEDICATIONS
 > Primary Solution A solution, usually an LVP, administered as a vehicle for additive(s) or for the pharmacological effect of the solution itself. Infusion is generally continuous. An LVP or piggyback has only one solution (primary solution). A hyperal can have one or more solutions.
 > Print Name Drug generic name as it is to appear on pertinent IV output, such as labels and reports. Volume or Strength is not part of the print name.
 > Print Name{2} Field used to record the additives contained in a commercially purchased premixed solution.
-> Profile The patient profile shows a patient’s orders. The Long profile includes all the patient’s orders, sorted by status: active, non-verified, pending, and non-active. The Short profile will exclude the patient’s discontinued and expired orders.
+> Profile The patient profile shows a patient's orders. The Long profile includes all the patient's orders, sorted by status: active, non-verified, pending, and non-active. The Short profile will exclude the patient's discontinued and expired orders.
 > Prompt A point at which the system questions the user and waits for a response.
 > Provider Another term for the physician involved in the prescription of an IV or Unit Dose order for a patient.
 > PSJI MGR The name of the *key* that allows access to the supervisor functions necessary to run the IV medications software. Usually given to the Inpatient package coordinator.
@@ -2860,7 +2909,7 @@ INPATIENT MEDICATIONS
 > Report Device The device, identified by the user, on which computer- generated reports selected by the user will be printed.
 > Schedule The frequency of administration of a medication (e.g., QID, QDAILY, QAM, STAT, Q4H).
 > Schedule Type Codes include: O - one time (i.e., STAT - only once), P
-> \- PRN (as needed; no set administration times). C- continuous (given continuously for the life of the order; usually with set administration times). R - fill on request (used for items that are not automatically put in the cart - but are filled on the nurse’s request. These can be multidose items (e.g., eye wash, kept for use by one patient and is filled on request when the supply is exhausted)). And OC - on call (one time with no specific time to be given, i.e., 1/2 hour before surgery).
+> \- PRN (as needed; no set administration times). C- continuous (given continuously for the life of the order; usually with set administration times). R - fill on request (used for items that are not automatically put in the cart - but are filled on the nurse's request. These can be multidose items (e.g., eye wash, kept for use by one patient and is filled on request when the supply is exhausted)). And OC - on call (one time with no specific time to be given, i.e., 1/2 hour before surgery).
 > Self Med Medication that is to be administered by the patient to himself.
 > Standard Schedule Standard medication administration schedules stored in the ADMINISTRATION SCHEDULE file (#51.1).
 > Start Date/Time The date and time an order is to begin.
@@ -3028,8 +3077,8 @@ INPATIENT MEDICATIONS
 > Speed Renew, 58
 > Speed Verify, 58
 > STAT NOW Mail Group, 25 Stop Date/Time, 23
-> Supervisor’s Menu, 5 Supervisor’s Menu (IV), 35
-> Supervisor’s Menu (IV) Example, 35 Supervisor’s Menu Example, 5 Syringe, 43, 60, 61, 63, 69
+> Supervisor's Menu, 5 Supervisor's Menu (IV), 35
+> Supervisor's Menu (IV) Example, 35 Supervisor's Menu Example, 5 Syringe, 43, 60, 61, 63, 69
 > Systems Parameters Edit, 28
 
 ## T
@@ -3087,9 +3136,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The *Patients on Specific Drug(s)* option creates a report that lists patients on specific Orderable Item(s), Dispense Drug(s), or Veterans Affairs (VA) class(es) of drugs. When more than one of these drugs is chosen, the user will have the option to only display patients with orders containing ALL of the selected drugs or classes. The default behavior will be to display patients with orders for ANY of the selected drugs or classes.
 
-> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the “Select number of matches” prompt, the user may select how many of the items entered must be on the patient’s record in order for the patient to be displayed in the report.
+> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders, or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple matches for drugs or classes are designated, the report will only include patients for whom orders are found meeting the designated number of matches to drugs or classes. By using the "Select number of matches" prompt, the user may select how many of the items entered must be on the patient's record in order for the patient to be displayed in the report.
 
-> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters ‘1’ (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters ‘2’ on the number of matches screen, only patient C’s orders will print.
+> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters '1' (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters '2' on the number of matches screen, only patient C's orders will print.
 
 > Selecting a parent VA class will function as if the user had selected all of its children classes manually. Users will also be able to select one or more divisions and/or wards, which will limit the results to print only patients from the locations entered. When selecting all divisions and all wards, an additional prompt is shown to allow selection of one pharmacy ward group for selected locations.
 
@@ -3384,9 +3433,9 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The *Patients on Specific Drug(s)* option creates a report that lists patients on specific Orderable Item(s), Dispense Drug(s), or VA class(es) of drugs. When more than one of these drugs is chosen, the user will have the option to only display patients with orders containing ALL of the selected drugs or classes. The default behavior will be to display patients with orders for ANY of the selected drugs or classes.
 
-> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs, and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple drugs or classes are chosen, the patient must have an order for each of the drugs or classes for the patient and their orders to print. By using the “Select number of matches” prompt, the user may select how many of the items entered must be on the patient’s record in order for the patient to be displayed in the report.
+> The user will be prompted for the start and stop dates. Orders that are active between these two dates will be listed on the report. The user then has the choice to see only IV orders, Unit Dose orders or both types of orders. These orders may be sorted by patient name or by the start date of the orders. The user will choose to sort by Orderable Items, Dispense Drug, or VA class of drugs, and then choose one or multiple drugs or classes. If a single drug or class is chosen, the orders for that drug or class will be listed. If multiple drugs or classes are chosen, the patient must have an order for each of the drugs or classes for the patient and their orders to print. By using the "Select number of matches" prompt, the user may select how many of the items entered must be on the patient's record in order for the patient to be displayed in the report.
 
-> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters ‘1’ (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters ‘2’ on the number of matches screen, only patient C’s orders will print.
+> For example: Patient A has an order for ACETAMINOPHEN TAB, patient B has an order for ASPIRIN TAB, and patient C has orders for both. If the user chooses two Orderable Items (ACETAMINOPHEN TAB and ASPIRIN TAB), and enters '1' (default) on the number of matches screen, the orders of all three patients will print. If the user chooses two Orderable Items and enters '2' on the number of matches screen, only patient C's orders will print.
 
 > Selecting a parent VA class will function as if the user had selected all of its children classes manually. Users will also be able to select one or more divisions and/or wards, which will limit the results to print only patients from the locations entered. When selecting all divisions and all wards, an additional prompt is shown to allow selection of one pharmacy ward group for selected locations.
 
@@ -3540,7 +3589,7 @@ _These sections appeared in earlier versions of this document but are not presen
 <p>PSJ*5*181</p>
 </blockquote></td>
 <td><p>Updated Revision History Updated Table of Contents</p>
-<p>Updated Example: Supervisor’s Menu &amp; update the Administering Team file</p>
+<p>Updated Example: Supervisor's Menu &amp; update the Administering Team file</p>
 <p>Updated Example: Administering Teams</p>
 <p>Updated Example: Clinic Groups and Updated Example: Management Reports Menu</p>
 <p>Updated Example2: AMIS Report with No Data</p>
@@ -3587,7 +3636,7 @@ _These sections appeared in earlier versions of this document but are not presen
 </tr>
 <tr class="even">
 <td>35</td>
-<td>New Example: Supervisor’s Menu (IV)</td>
+<td>New Example: Supervisor's Menu (IV)</td>
 </tr>
 <tr class="odd">
 <td>38</td>

@@ -3,57 +3,88 @@ title: Outpatient Pharmacy Version 7 Pharmacist's User Manual (PSO_7_p622) ARCHI
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Pharmacist's  (PSO_7_p622) ARCHIVE
+doc_subject: Pharmacist's (PSO_7_p622) ARCHIVE
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*622
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
-menu_options: 10
+group_key: PSO:PSO:7
 description: In CPRS, Order Checks occur by evaluating a requested order against existing patient data. Most order checks are processed via the CPRS Expert System. A few are processed within the Pharmacy, Allergy Tracking System, and Order Entry packages. Order Checks are a real-time process that occurs during t
-audience: 
-keywords: 
-  - order
-  - drug
-  - pharmacy
-  - patient
-  - prescription
-  - date
-  - medication
-  - table
-  - outpatient
-  - contents
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+- '3.5'
+- '4.2'
+- '45.1'
+- '45.2'
+- '45.3'
+- '50'
+- '50.0'
+- '50.6'
+- '50.68'
+- '50.7'
+- '51'
+- '51.1'
+- '51.2'
+- '52'
+- '52.09'
+- '52.444'
+- '52.5'
+- '52.86'
+- '53'
+- '59'
+- '59.7'
+- '100.05'
+- '101'
+- '120.8'
+- '120.82'
+- '135'
+- '200'
+- '391.91'
+- '404.51'
+- '2030'
+- '2035'
+- '3001'
+- '900231'
+security_keys:
+- CHAMPVA MGR
+- DIUSER
+- EPHARMACY SITE MANAGER
+- GMRA-ALLERGY VERIFY
+- PROVIDER
+- PSDMGR
+- PSDRPH
+- PSO ADDRESS UPDATE
+- PSO COPAY
+- PSO TECH ADV
+- PSO TRICARE
+- PSO TRICARE MGR
+- PSOLOCKCLOZ
+- PSORPH
+- SITE MANAGER
+menu_options: 10
 page_count: 0
-word_count: 114792
+word_count: 114765
 section_count: 83
 table_count: 11
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2007
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p622_pharm_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p622_pharm_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p622_pharm_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p622_pharm_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>Outpatient Pharmacy (PSO)
-
-  <span id="_Toc82184094" class="anchor"></span>Version 7.0
-
-  <span id="_Toc82184095" class="anchor"></span>Pharmacist’s User Manual
----
-
 ![](outpatient-pharmacy-version-7-pharmacist-s-user-manual-pso-7-p622-archive/001.png)
 
 December 2007  

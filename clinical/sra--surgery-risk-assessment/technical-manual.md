@@ -3,7 +3,7 @@ title: Surgery Risk Assessment Version 3 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: SRA
 app_name: Surgery Risk Assessment
 section: CLI
@@ -11,40 +11,53 @@ app_status: active
 pkg_ns: SRA
 patch_ver: 3
 patch_id: SRA*3
-group_key: "SRA:SRA:3"
-file_numbers: []
-security_keys: 
-  - SR DOWNLOAD
-  - SRA CLEANUP
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - class
-  - even
-  - style
-  - width
-  - other
-  - table
-  - blockquote
-  - risk
-  - assessment
-  - surgery
+group_key: SRA:SRA:3
+description: June 2024Version 3.0Department of Veterans AffairsOffice of Information and Technology (OIT) Revision
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '12'
+- '19'
+- '19.1'
+- '74'
+- '130'
+- '130.99'
+- '132.9'
+- '135'
+- '136'
+- '139'
+- '139.1'
+- '139.3'
+- '139.4'
+- '139.6'
+- '139.7'
+- '139.9'
+- '200'
+- '227'
+- '405'
+- '905'
+security_keys:
+- PROVIDER
+menu_options: 3
 page_count: 0
 word_count: 44999
 section_count: 23
 table_count: 3
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_TM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_TM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=437"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_TM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Surgery_Risk_Assessment_(SRA)/SRA_3_P9_TM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=437
+audit_applied: '2026-05-31'
 ---
 
 Surgery Risk AssessmentTechnical Manual

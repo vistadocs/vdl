@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8
-group_key: "XM:XM:8"
+group_key: XM:XM:8
+description: '''(NOTE: This Quick Reference Guide was originally based on a document created by the OI National Training and Education Office)'''
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "(NOTE: This Quick Reference Guide was originally based on a document created by the OI National Training and Education Office)"
-audience: 
-keywords: 
-  - strong
-  - class
-  - message
-  - messages
-  - even
-  - basket
-  - recipients
-  - toggle
-  - header
-  - mail
 page_count: 0
 word_count: 2406
 section_count: 0
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_quickrefcard.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_quickrefcard.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_quickrefcard.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_quickrefcard.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](mailman-version-8-quick-reference-card/001.png)

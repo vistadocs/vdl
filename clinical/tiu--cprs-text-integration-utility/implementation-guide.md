@@ -5,44 +5,51 @@ doc_label: Implementation Guide
 doc_layer: plain
 doc_subject: TIU/ASU
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
-menu_options: 2
+pkg_ns: TIU
+patch_ver: null
+patch_id: null
+group_key: null
 description: Options on the TIU IRM Maintenance Menu let IRMS Staff set and modify the various parameters controlling the behavior of the Text Integration Utilities Package, as well as the definition of TIU documents. TIU is exported with default settings for many of the parameters, which may be sufficient for y
-audience: 
-keywords: 
-  - document
-  - class
-  - title
-  - clinical
-  - table
-  - contents
-  - entry
-  - edit
-  - notes
-  - rules
+audience: ''
+keywords: []
+file_numbers:
+- '1.01'
+- '2'
+- '19.2'
+- '40.8'
+- '121.2'
+- '123.3'
+- '123.5'
+- '128.1'
+- '128.99'
+- '130'
+- '702.01'
+- '8925'
+- '8925.1'
+- '8925.94'
+security_keys:
+- CLINICIAN
+- PROVIDER
+menu_options: 2
 page_count: 0
 word_count: 40580
 section_count: 38
 table_count: 12
 figure_count: 0
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2024
 revision_count: 4
 revision_newest: 4/16/01
 revision_oldest: 6/24/99
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuim.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuim.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuim.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiuim.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 Text Integration Utilities (TIU)/ASU

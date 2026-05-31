@@ -5,44 +5,37 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: TIU Line Count
 app_code: TIU
-app_name: "CPRS: Text Integration Utility"
+app_name: 'CPRS: Text Integration Utility'
 section: CLI
 app_status: active
 pkg_ns: TIU
 patch_ver: 1
 patch_id: TIU*1*250
-group_key: "TIU:TIU:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: TIU:TIU:1
 description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
-audience: 
-keywords: 
-  - class
-  - span
-  - line
-  - transcription
-  - report
-  - count
-  - document
-  - anchor
-  - upload
-  - transcriptionist
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers: []
+security_keys:
+- CLINICIAN
+- PROVIDER
+menu_options: 1
 page_count: 0
 word_count: 3653
 section_count: 0
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_250rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_250rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=65"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_250rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Text_Integration_Utility_(TIU)/tiu_1_250rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=65
+audit_applied: '2026-05-31'
 ---
 
 ![](tiu-1-250-tiu-line-count-release-notes/001.png)

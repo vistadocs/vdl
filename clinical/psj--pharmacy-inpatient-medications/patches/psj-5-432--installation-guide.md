@@ -5,55 +5,38 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: Pharmacy Automated Dispensing Equipment (PADE)
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*432
-group_key: "PSJ:PSJ:5"
+group_key: PSJ:PSJ:5
+description: '| Date | Version | Description | Author | |------------|-------------|-----------------|---------------------| | 05/10/2022 | 1.0 | Initial version | Booz Allen Hamilton'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XUPROG
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - back
-  - installation
-  - vista
-  - rollback
-  - procedure
-  - site
-  - deployment
 page_count: 0
-word_count: 2907
+word_count: 2887
 section_count: 31
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2022
 revision_count: 1
 revision_newest: 05/10/2022
 revision_oldest: 05/10/2022
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_0_p432_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_0_p432_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_0_p432_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_0_p432_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Automated Dispensing Equipment (PADE)
-
-  PSJ\*5.0\*432
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](psj-5-432-pharmacy-automated-dispensing-equipment-pade-deployment-installation-b/001.png)
 
 May 2022

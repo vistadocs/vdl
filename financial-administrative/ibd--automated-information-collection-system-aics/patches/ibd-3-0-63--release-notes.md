@@ -3,7 +3,7 @@ title: IBD*3.0*63 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: IBD
 patch_ver: 3.0
 patch_id: IBD*3.0*63
-group_key: "IBD:IBD:3.0"
-file_numbers: []
+group_key: IBD:IBD:3.0
+description: '- Introduction - Purpose - Background - Scope of Changes - Documentation - Encounter Forms Menu Option - Edit Encounter Forms Option - [Edit Tool Kit...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '80'
+- '80.4'
+- '200'
+- '357'
+- '357.3'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - codes
-  - encounter
-  - diagnosis
-  - search
-  - table
-  - contents
-  - report
-  - form
-  - selection
 page_count: 0
 word_count: 5521
 section_count: 17
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/icd-10_rn_ibd_3_63.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/icd-10_rn_ibd_3_63.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/icd-10_rn_ibd_3_63.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/icd-10_rn_ibd_3_63.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation Project

@@ -5,55 +5,49 @@ doc_label: User Guide
 doc_layer: patch
 doc_subject: (Unit 7 Part 2) Updated PSO*7.0*770
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 5.0
 patch_id: PSO*5.0*770
-group_key: "PSO:PSO:5.0"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:5.0
+description: '- Inbound eR X VistA Holding Queue Edits and Accept Validation options - Inbound eR X VistA Outpatient Profile - Complete Orders from Order Entry/Results Reporting (OERR) and Patient Prescription Processing'
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '10'
+- '50'
+- '50.67'
+- '50.68'
+- '52'
+- '52.46'
+- '52.48'
+- '52.49'
+- '59'
+- '200'
+- '123444'
+security_keys:
+- PROVIDER
 menu_options: 1
-description: - Inbound eR<sub>X</sub> VistA Holding Queue Edits and Accept Validation options - Inbound eR<sub>X</sub> VistA Outpatient Profile - Complete Orders from Order Entry/Results Reporting (OERR) and Patient Prescription Processing
-audience: 
-keywords: 
-  - strong
-  - provider
-  - patient
-  - table
-  - colgroup
-  - tbody
-  - thead
-  - drug
-  - vista
-  - validation
 page_count: 0
-word_count: 30585
+word_count: 30570
 section_count: 14
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_UM_72.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_UM_72.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_UM_72.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PSO_7_0_P770_UM_72.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Reengineering (PRE)
-
-  Inbound ePrescribing (IEP) 5.0
-
-  User Guide
----
-
 ![](pharmacy-reengineering-pre-inbound-eprescribing-iep-user-guide-version-5-0-unit-/001.png)
 
 July 2025

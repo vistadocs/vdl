@@ -1,26 +1,60 @@
 ---
-consolidated_title: "central vista imaging exchange (cvix) administrator's guide and product operations manual"
-app_code: MAG
+title: Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
 doc_type: AG
-master_source: "Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)"
+doc_label: Administrator's Guide
+doc_layer: plain
+doc_subject: Central VistA Imaging Exchange (CVIX) and Product Operations Manual (POM)
+app_code: MAG
+app_name: VistA Imaging System
+section: CLI
+app_status: active
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+file_numbers:
+- '2'
+- '4'
+- '38.1'
+- '43'
+- '99'
+- '200'
+- '1201'
+- '2005'
+- '2005.2'
+- '2006.95'
+security_keys:
+- DG RECORD ACCESS
+- MAG SYSTEM
+menu_options: 0
+description: CVIX Administrator's Guide and Product Operations Manual November 2024Property of the US
+audience: ''
+keywords: []
+page_count: 0
+word_count: 19282
+section_count: 49
+table_count: 11
+figure_count: 0
+appendix_count: 3
+has_toc: false
+is_stub: false
+pub_date: November 2024
+revision_count: 24
+revision_newest: 11/05/2024
+revision_oldest: 03/31/2013
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_cx_17_0_ag_pom.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_cx_17_0_ag_pom.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
+master_source: Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
 master_pub_date: November 2024
 consolidated_from: 5 versions
 prior_versions:
-  - "MAG*3*269 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)"
-  - "MAG*3*303 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)"
-  - "MAG*3*329 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)"
-  - "MAG*3*348 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)"
----
-
----
-title: |
-  VistA Imaging eXchange (VIX) <span id="PatchTitle" class="anchor"></span>Enhancements and Maintenance
-
-  MAG\*3.0\*<span id="PatchNumber" class="anchor"></span>358
-
-  Central VistA Imaging eXchange (CVIX)  
-  Administrator's Guide and Product  
-  Operations Manual (POM)
+- MAG*3*269 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
+- MAG*3*303 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
+- MAG*3*329 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
+- MAG*3*348 Central VistA Imaging Exchange (CVIX) Administrator's Guide and Product Operations Manual (POM)
+consolidated_title: central vista imaging exchange (cvix) administrator's guide and product operations manual
 ---
 
 > ![](central-vista-imaging-exchange-cvix-administrator-s-guide-and-product-operations/001.png)
@@ -218,7 +252,7 @@ The CVIX is a component of VistA Imaging and is regulated as a medical device by
 
 The FDA classifies VistA Imaging and the CVIX (as a component of VistA Imaging) as a medical device. Unauthorized modifications to VistA Imaging, including the CVIX, such as installing unapproved software, will adulterate the medical device. The use of an adulterated medical device violates US federal law (21CFR820).
 
-Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator’s knowledge, sites must exclude the CVIX from such system management tools.
+Because software distribution/inventory management tools can install inappropriate or unapproved software without a local administrator's knowledge, sites must exclude the CVIX from such system management tools.
 
 ## Intended Audience
 
@@ -235,7 +269,7 @@ This document presumes a working knowledge of the VistA environment and VistA Im
 This document uses the following typographic conventions:
 
 - Controls, options, and button names are shown in Bold.
-- A vertical bar is used to separate successive menu choices. For example: “Click File \| Open” means: “Click the File menu; then click the Open option.”
+- A vertical bar is used to separate successive menu choices. For example: "Click File \| Open" means: "Click the File menu; then click the Open option."
 - Keyboard key names are shown in bold and in brackets.
 - Sample output is shown in monospace.
 - Important or required information is shown in a Note.
@@ -250,7 +284,7 @@ MAG\*3.0\*358 Patch Description available at <span class="mark">REDACTED</span>
 
 VIX Installation Guide available at <span class="mark">REDACTED</span>
 
-> **NOTE:** This manual serves as both a Product Operations Manual (POM) and a System Administrator’s Guide.
+> **NOTE:** This manual serves as both a Product Operations Manual (POM) and a System Administrator's Guide.
 
 # CVIX Overview
 
@@ -269,7 +303,7 @@ This section provides a high-level summary of what the CVIX does and how it does
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CVIX’s major functions are:
+The CVIX's major functions are:
 
 - Provide the Department of Defense (DoD) images to VA clinicians.
 - Provide VA images to DoD clinicians.
@@ -315,7 +349,7 @@ The flow of DoD images through a CVIX is illustrated in Figure 1. This complexit
 <tbody>
 <tr class="odd">
 <td>DoD DICOM (radiology)</td>
-<td><p>Available from participating DoD facilities via the ECIA, which is through the CVIX. Note: For a list of DoD participating facilities and information about the types of DICOM objects that can be retrieved, see the <a href="https://www.va.gov/vdl/application.asp?appid=105">VIX Administrator’s Guide</a>.</p>
+<td><p>Available from participating DoD facilities via the ECIA, which is through the CVIX. Note: For a list of DoD participating facilities and information about the types of DICOM objects that can be retrieved, see the <a href="https://www.va.gov/vdl/application.asp?appid=105">VIX Administrator's Guide</a>.</p>
 <p>Metadata for these images is provided by ECIA and the actual images come from ECIA.</p></td>
 <td>Clinical Display, JLV/ Image Viewer and VistARad</td>
 </tr>
@@ -343,11 +377,11 @@ DoD clinicians can access non-DICOM medical images and scanned documents from al
 
 > **NOTE:** DoD clinicians cannot access images not stored in VistA Imaging at a VA site or images on a non-integrated 3rd party appliance (i.e., local).
 
-If a VA site implements a local VIX, DoD clinicians also can access locally stored DICOM (radiology) images. For additional details about the types of images that can be accessed, see the [VIX Administrator’s Guide](https://www.va.gov/vdl/application.asp?appid=105).
+If a VA site implements a local VIX, DoD clinicians also can access locally stored DICOM (radiology) images. For additional details about the types of images that can be accessed, see the [VIX Administrator's Guide](https://www.va.gov/vdl/application.asp?appid=105).
 
 > **NOTE:** There is an ability to switch between HAIMS and NilRead™ or other query retrieve devices for DoD images.
 
-> **NOTE:** At the VA sites where the image is stored, DoD clinician access requests are logged in the local VistA system. This logging is described in detail in the [VIX Administrator’s](https://www.va.gov/vdl/application.asp?appid=105) Guide.
+> **NOTE:** At the VA sites where the image is stored, DoD clinician access requests are logged in the local VistA system. This logging is described in detail in the [VIX Administrator's](https://www.va.gov/vdl/application.asp?appid=105) Guide.
 
 ### Provide VA and DoD images to Image Viewer
 
@@ -417,7 +451,7 @@ The CVIX is designed for continuous availability. Table 2 summarizes the anticip
 <tr class="even">
 <td>Image Viewer</td>
 <td>High</td>
-<td>If the Viewer is not running, the CVIX is considered offline and removed from the F5 Load Balancer’s list of nodes to use (The F5 monitors two services on each CVIX node for declaring online status: Apache Tomcat and the VIX Image Viewer). The Viewer depends on the VIX Render service, which depends on a local SQLite VixRender database.</td>
+<td>If the Viewer is not running, the CVIX is considered offline and removed from the F5 Load Balancer's list of nodes to use (The F5 monitors two services on each CVIX node for declaring online status: Apache Tomcat and the VIX Image Viewer). The Viewer depends on the VIX Render service, which depends on a local SQLite VixRender database.</td>
 </tr>
 <tr class="odd">
 <td>VA/DoD</td>
@@ -429,7 +463,7 @@ The CVIX is designed for continuous availability. Table 2 summarizes the anticip
 
 <span id="_Ref52871622" class="anchor"></span>Table 3: CVIX System Requirements
 
-> **NOTE:** Datacenter and Capacity redundancy is established – AZ1 and AZ2 are geographically distant. Both are active and ready at any time, with no intervention needed to handle the CVIX load. This configuration ensures Continuity of Operations (COOP) for the CVIX or disaster recovery. AZ1 and AZ2 are each other’s failover sites, and the F5 Traffic Manager is configured to detect failures and automatically redirect traffic between sites and nodes as required.
+> **NOTE:** Datacenter and Capacity redundancy is established – AZ1 and AZ2 are geographically distant. Both are active and ready at any time, with no intervention needed to handle the CVIX load. This configuration ensures Continuity of Operations (COOP) for the CVIX or disaster recovery. AZ1 and AZ2 are each other's failover sites, and the F5 Traffic Manager is configured to detect failures and automatically redirect traffic between sites and nodes as required.
 
 ## CVIX Dependencies
 
@@ -437,7 +471,7 @@ The CVIX is designed for continuous availability. Table 2 summarizes the anticip
 
 Table 3 shows the systems that must be present for proper CVIX operation. One or more of these systems being absent will reduce CVIX capabilities, but not eliminate all of them.
 
-| System                    | Function                                                                                                                                                                           | Interface method | CVIX behavior if “System” is not available                                                                                                                            |
+| System                    | Function                                                                                                                                                                           | Interface method | CVIX behavior if "System" is not available                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Local VistA (Station 200) | Provides CVIX with a list of VA facilities that have treated a shared VA/DoD patient. Also provides security tokens that the CVIX uses to access VA sites to fulfill DoD requests. | LAN/RPC          | DoD clinicians, JLV, Blue Button, and VBA users will not be able to access VA or DoD images for VA/DoD shared patients.                                               |
 | Site VIXes                | Provide metadata and images to the CVIX.                                                                                                                                           | WAN/HTTP         | DoD clinicians, JLV, Blue Button, and VBA users will not be able to access site-specific radiology images via CVIX, but non-radiology images will still be available. |
@@ -629,17 +663,17 @@ Formatted as MM-DD-YYYY, HH:MM: SS, AM/PM.</td>
 <td>Items Received</td>
 <td><p>The number of items retrieved from the remote site.</p>
 <p>For study metadata, it indicates the number of studies or images in the list being received. For an image, this field will have a value of 1 if the requested image was received or 0 if the requested image was not received.</p>
-<p>If the CVIX is operating asynchronously, the values in this field may not match the values in the Items Returned field. In the exported log, this field is labeled “Data Source Items Received.”</p></td>
+<p>If the CVIX is operating asynchronously, the values in this field may not match the values in the Items Returned field. In the exported log, this field is labeled "Data Source Items Received."</p></td>
 </tr>
 <tr class="odd">
 <td>Bytes Returned</td>
-<td>If populated, the amount of data returned in the request. In the exported log, this field is labeled “Façade Bytes Returned.”</td>
+<td>If populated, the amount of data returned in the request. In the exported log, this field is labeled "Façade Bytes Returned."</td>
 </tr>
 <tr class="even">
 <td>Bytes Received</td>
 <td><p>If populated, the amount of data received in the request.</p>
-<p>In the exported log, this field is labeled “Data Source Bytes</p>
-<p>Received.”</p></td>
+<p>In the exported log, this field is labeled "Data Source Bytes</p>
+<p>Received."</p></td>
 </tr>
 <tr class="odd">
 <td>Throughput</td>
@@ -707,7 +741,7 @@ Formatted as MM-DD-YYYY, HH:MM: SS, AM/PM.</td>
 </tr>
 <tr class="even">
 <td>Realm Site Number</td>
-<td>The STATION NUMBER (field (#99) of the INSTITUTION file (#4) of the site that the requester’s credentials are authenticated against.</td>
+<td>The STATION NUMBER (field (#99) of the INSTITUTION file (#4) of the site that the requester's credentials are authenticated against.</td>
 </tr>
 <tr class="odd">
 <td>URN</td>
@@ -715,7 +749,7 @@ Formatted as MM-DD-YYYY, HH:MM: SS, AM/PM.</td>
 </tr>
 <tr class="even">
 <td>Transaction Number</td>
-<td>The Globally Unique Identifier (GUID) for an image or metadata transaction. For transactions that originate from Clinical Display or the DAS, the same identifier will be reflected in the Image Access log at the site where the images are stored. If a transaction crosses the CVIXDAS boundary, the originator’s transaction ID is used on the other side as well (interagency transactions tracking support).</td>
+<td>The Globally Unique Identifier (GUID) for an image or metadata transaction. For transactions that originate from Clinical Display or the DAS, the same identifier will be reflected in the Image Access log at the site where the images are stored. If a transaction crosses the CVIXDAS boundary, the originator's transaction ID is used on the other side as well (interagency transactions tracking support).</td>
 </tr>
 <tr class="odd">
 <td>VIX Software Version</td>
@@ -743,11 +777,11 @@ Formatted as MM-DD-YYYY, HH:MM: SS, AM/PM.</td>
 </tr>
 <tr class="odd">
 <td>VIX Site Number</td>
-<td>The site number of the local VIX (as defined in the local VIX’s VixConfig.xml file). The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
+<td>The site number of the local VIX (as defined in the local VIX's VixConfig.xml file). The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
 </tr>
 <tr class="even">
 <td>Requesting VIX Site Number</td>
-<td>The site number of the requesting VIX (as defined in the VIX’s VixConfig.xml file), Only populated for Federation (VIX-to-VIX) requests. The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
+<td>The site number of the requesting VIX (as defined in the VIX's VixConfig.xml file), Only populated for Federation (VIX-to-VIX) requests. The site number should match the station number (field #99) defined in the INSTITUTION file (#4).</td>
 </tr>
 </tbody>
 </table>
@@ -772,7 +806,7 @@ When the transaction log is exported as a tab- or comma-separated file, the expo
 | Command ID                         | Internal ID used for debugging and support.                                                                                                                                     |
 | Parent Command ID                  | Internal ID used for debugging and support.                                                                                                                                     |
 | Façade Image Format Sent           | The format of the image VIX returns to the requester.                                                                                                                           |
-| Façade Image Quality Sent          | The quality of the image VIX returns to the requester; in some cases, this quality will be better than the quality requested (as indicated in the “Quality” column).            |
+| Façade Image Quality Sent          | The quality of the image VIX returns to the requester; in some cases, this quality will be better than the quality requested (as indicated in the "Quality" column).            |
 | Data Source Image Format Received  | The format of the image VIX receives from its source.                                                                                                                           |
 | Data Source Image Quality Received | The quality of the image VIX receives from its source.                                                                                                                          |
 | Debug Information                  | Internal messaging is used for debugging and support.                                                                                                                           |
@@ -784,9 +818,9 @@ When the transaction log is exported as a tab- or comma-separated file, the expo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If the CVIX retrieves images and metadata from a VA site that does not have a VIX, the CVIX will log the image access information in that site’s local IMAGE ACCESS LOG file (#2006.95) the same way a VIX would.
+If the CVIX retrieves images and metadata from a VA site that does not have a VIX, the CVIX will log the image access information in that site's local IMAGE ACCESS LOG file (#2006.95) the same way a VIX would.
 
-For details about how this information is logged, see the <u>[VIX Administrator’s Guide](https://www.va.gov/vdl/application.asp?appid=105).</u>
+For details about how this information is logged, see the <u>[VIX Administrator's Guide](https://www.va.gov/vdl/application.asp?appid=105).</u>
 
 ## User Notifications
 
@@ -981,7 +1015,7 @@ To enable the ECIA configuration, further update the MIXDataSource-1.0.config li
 
 > **NOTE:** The \<string\> \</string\> tags inside the vistaRadModalityBlacklist are set during the end of the install via the PowerShell script utility. If these values are not the same as the values you have for these in the installation prerequisites, change them according to the values for these in the prerequisites; otherwise, leave them as they are.
 
-> **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality. For example, if an “SR” is inserted inside the \<string\> \</string\> tag, then a Structured Report will not be returned from the DoD.
+> **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality. For example, if an "SR" is inserted inside the \<string\> \</string\> tag, then a Structured Report will not be returned from the DoD.
 
 > **NOTE:** If more or less DICOM modality types (referred to as a modality blacklist) are not to be returned from the DoD, add or remove additional \<string\> \</string\> lines (within the opening and closing tags for vistaRadModalityBlacklist). Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality.
 
@@ -989,11 +1023,11 @@ To enable the ECIA configuration, further update the MIXDataSource-1.0.config li
 
 > **NOTE:** The \<string\> \</string\> tags inside the SOP blacklists (i.e., sopBlacklistForClinicalDisplay, sopBlacklistForVixViewer, or sopBlacklistForVistaRad) are set during the end of the install via the PowerShell script utility. If these values are not the same as the values you have for these in the installation prerequisites, change them according to the values for these in the prerequisites; otherwise, leave them as they are.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for Vista Imaging Clinical Display.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for Vista Imaging Clinical Display.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for JLV.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for JLV.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for VistaRad.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then the Basic Text SR that the SOP Class UID represents will be replaced with a static image file for VistaRad.
 
 > **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM SOP Class UIDs according to the prerequisites.
 
@@ -1136,7 +1170,7 @@ Update the following entries for desired DICOM SCP functionality desired beyond 
 1.  For each dataSource (DoD or VA), set different modality lists, if necessary, by inserting DoD or VA inside the opening and closing dataSource tags (\<dataSource\> \</dataSource\> - line 33), by default the value is ALL.
 2.  The modalities will be filtered at study and series levels. If needed, set at the image level. To do so, set true at the image level when needed by inserting true inside the opening and closing addImageLevelFilter tags, otherwise set false (\<addImageLevelFilter\> \</addImageLevelFilter\> - line 34).
 3.  List all the modalities to be blocked for that dataSource separately using string tags inside the opening and closing modalities section (\<modalities\> \</modalities\> - lines 35 and 37). Examples of modalities to potentially include inside the string tags include SR and PR.
-52. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site’s data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList \> - lines 40 and 46). Examples of site codes to include inside the string tags include the following:
+52. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site's data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList \> - lines 40 and 46). Examples of site codes to include inside the string tags include the following:
 1.  Set a string to 100 to exclude Claims system information.
 2.  Set a string tag to 200CLMS to exclude 200 VHA Claims study information.
 3.  Set a string tag to 200CORP to exclude the Claims site.
@@ -1179,7 +1213,7 @@ After updating the DicomScpConfig file, as described above, it is necessary to r
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Id Conversion Configuration calls VA’s Master Veteran Index (MVI) to do the ID Conversion from ICN to Electronic Data Interchange Personal Identifier (EDIPI) or from EDIPI to ICN. On CVIX, ECIA needs this functionality. On CVIX, DICOM SCP also needs this functionality.
+The Id Conversion Configuration calls VA's Master Veteran Index (MVI) to do the ID Conversion from ICN to Electronic Data Interchange Personal Identifier (EDIPI) or from EDIPI to ICN. On CVIX, ECIA needs this functionality. On CVIX, DICOM SCP also needs this functionality.
 
 Perform this step to further configure the CVIX collection of DoD medical images to ECIA via the IdConversionConfiguration.config file which configures the destination of the ID conversion lookup.
 
@@ -1222,9 +1256,9 @@ This section covers:
 
 The VistA Site Service is a central repository of connection information. Several Imaging components use the data stored in the site service to connect to Imaging components at other sites, remote VistA systems, and the CVIX.
 
-Because the site service is centralized, Imaging components (such as a VIX or a Clinical Display workstation) at each VA site can use the site service’s connection information without having to locally store and maintain any connection information.
+Because the site service is centralized, Imaging components (such as a VIX or a Clinical Display workstation) at each VA site can use the site service's connection information without having to locally store and maintain any connection information.
 
-When data is requested from the site service, the request goes to the CVIX’s active load balancer. The load balancer passes the request to a node in the CVIX cluster, and that node retrieves the requested connection information from the site service primary configuration file ([<u>C:\VixConfig\VhaSites.xml</u>](file:///C:/VixConfig/VhaSites.xml)). Then the connection information is passed back to the load balancer and ultimately back to the requestor.
+When data is requested from the site service, the request goes to the CVIX's active load balancer. The load balancer passes the request to a node in the CVIX cluster, and that node retrieves the requested connection information from the site service primary configuration file ([<u>C:\VixConfig\VhaSites.xml</u>](file:///C:/VixConfig/VhaSites.xml)). Then the connection information is passed back to the load balancer and ultimately back to the requestor.
 
 The following sections explain how to check and maintain the site service.
 
@@ -1262,7 +1296,7 @@ If the connection information in the site service needs to be changed, do the fo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CVIX is a key link in VA-DoD image exchange and is the primary source of information for the JLV. A functional description of the CVIX’s image-sharing capabilities is covered in *CVIX Major Functions*. This section covers:
+The CVIX is a key link in VA-DoD image exchange and is the primary source of information for the JLV. A functional description of the CVIX's image-sharing capabilities is covered in *CVIX Major Functions*. This section covers:
 
 - Remote Metadata Retrieval
 - Remote Image Retrieval
@@ -1277,11 +1311,11 @@ When an application requests images via a CVIX, the process usually takes two st
 
 > **NOTE:** In the context of the CVIX, metadata is anything that describes an image or image-like object. Metadata includes patient names, IDs of various types, procedure names, the number of images in an exam, and so on.
 
-In some cases, metadata retrieval is the only action needed to fulfill a clinician’s data request. One example of this is the retrieval of an exam report. Also, in some cases (such as a request for a patient ID image by the JLV), an image request may not require a preliminary metadata request.
+In some cases, metadata retrieval is the only action needed to fulfill a clinician's data request. One example of this is the retrieval of an exam report. Also, in some cases (such as a request for a patient ID image by the JLV), an image request may not require a preliminary metadata request.
 
 The CVIX handles metadata retrievals as follows:
 
-1.  An application issues a request for metadata based on a clinician’s activities. The applications in Table 9 can request metadata from the CVIX.
+1.  An application issues a request for metadata based on a clinician's activities. The applications in Table 9 can request metadata from the CVIX.
 
 | Requesting Application                                             | Type of metadata requested                        | CVIX interface used by requestor\*\* | Ultimate source of requested metadata                                                     |
 |--------------------------------------------------------------------|---------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------|
@@ -1305,7 +1339,7 @@ The CVIX passes the data back to the requesting application.
 
 When a CVIX gets a request for an image, the CVIX uses the following process to deliver the most desirable image in the shortest amount of time. Typically, an image request is preceded by a metadata request, as described in the previous section.
 
-1.  One of the following applications requests a remote image based on a clinician’s activities:
+1.  One of the following applications requests a remote image based on a clinician's activities:
 - DAS (from HAIMS) on behalf of a DoD clinician (VA DICOM images).
 - DAS (from DES) on behalf of a DoD clinician (VA non-DICOM images).
 - Clinical Display, VistARad, or VA JLV on behalf of a VA clinician (DoD images).
@@ -1336,7 +1370,7 @@ When a CVIX gets a request for an image, the CVIX uses the following process to 
 
 The CVIX automatically stores all images and most of the metadata it handles in its local cache. The local CVIX cache is self-managing and is independent of other Imaging storage areas and caches.
 
-The CVIX cache improves the CVIX’s performance by storing data (especially images) retrieved from remote sites and/or processed by the CVIX. If the image is requested again, it can be pulled from the CVIX’s cache or from another CVIX cluster node (when the Cache Cluster option is enabled) without having to retrieve it from the remote site or reprocess it.
+The CVIX cache improves the CVIX's performance by storing data (especially images) retrieved from remote sites and/or processed by the CVIX. If the image is requested again, it can be pulled from the CVIX's cache or from another CVIX cluster node (when the Cache Cluster option is enabled) without having to retrieve it from the remote site or reprocess it.
 
 > **NOTE:** Metadata and images cached by the CVIX are considered transitory copies and are not a part of the patient record. The site from which the data originates is the official custodian of the data, not the CVIX.
 
@@ -1430,7 +1464,7 @@ This section covers:
 
 The Log Collector automatically backs up transaction logs from remote VIXes and from the CVIX. This allows the information in VIX transaction logs to be retained after local logs are purged (the standard local retention period is 90 days).
 
-Once a day, the Log Collector uses the VistA site service to retrieve connection information for all remote VIXes and the CVIX. The Log Collector then collects one full day’s worth of transaction log entries from each VIX (and the CVIX). To ensure that all entries are captured for a given day, the Log Collector pulls entries that are at least 48 hours old. For example: on Monday, the Log Collector service will collect all VIX log entries from the previous Saturday. Logs are collected at 5:30 A.M.
+Once a day, the Log Collector uses the VistA site service to retrieve connection information for all remote VIXes and the CVIX. The Log Collector then collects one full day's worth of transaction log entries from each VIX (and the CVIX). To ensure that all entries are captured for a given day, the Log Collector pulls entries that are at least 48 hours old. For example: on Monday, the Log Collector service will collect all VIX log entries from the previous Saturday. Logs are collected at 5:30 A.M.
 
 In general, the Log Collection service does not need to be monitored.
 
@@ -1443,14 +1477,14 @@ To manually verify that the Log Collector is gathering logs as expected, check t
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-If the Log Collector has any errors over a day, these errors are summarized into an email and sent to specified addressees each day at 7:30 A.M. The email subject line is always “Log Collection Errors.”
+If the Log Collector has any errors over a day, these errors are summarized into an email and sent to specified addressees each day at 7:30 A.M. The email subject line is always "Log Collection Errors."
 
 Email addresses are initially specified when the Log Collector service is installed. To change the email recipient, use the following steps:
 
 1.  Login as an administrator to the active server.
 73. Navigate to C:\Program Files (86)\VistA\Imaging\VixLogCollectorService.
 74. Open the file named VixLogCollector.WindowsService.exe.config in a text editor.
-75. Locate the “emailAddress” key near the beginning of the file.
+75. Locate the "emailAddress" key near the beginning of the file.
 76. Edit the value for the emailAddress key as needed. Separate each email address with a comma.
 77. Save and close the file.
 78. Open the Services window (click Start \| All Programs \| Administrative Tools \| Services).
@@ -1465,7 +1499,7 @@ The archived transaction log files gathered by the Log Collector are stored unde
 
 [<u>G:\VIXLogs\\</u>](file:///G:/VIXLogs/)*site*\\*year*\\*month*
 
-...where *site* is the station number of the site where the log came from, and *year* and *month* indicate when the log was collected. In each *month* folder, each day’s worth of transaction log entries for a specific VIX (or CVIX) is stored in a separate tab-separated file.
+...where *site* is the station number of the site where the log came from, and *year* and *month* indicate when the log was collected. In each *month* folder, each day's worth of transaction log entries for a specific VIX (or CVIX) is stored in a separate tab-separated file.
 
 <span id="_Ref53560872" class="anchor"></span>Figure 16: Transaction Log File Display Example
 
@@ -1488,7 +1522,7 @@ Use the following steps to disable the automatic collection of transaction logs 
 82. Navigate to where the archive logs are stored ([<u>E:\VixLogs</u>](file:///E:/VixLogs) is the default location).
 83. Open the folder of the VIX (or CVIX) to disable it.
 84. Use a text editor to open the VixInfo.xml file.
-85. Locate the IsActive element and change the element value from “true” to “false”.
+85. Locate the IsActive element and change the element value from "true" to "false".
 86. Save and close the file.
 
 # CVIX Troubleshooting
@@ -1555,7 +1589,7 @@ The CVIX transaction log is the first place to check for errors related to data 
 > **NOTE:** Because the CVIX is set up as a load-balanced cluster without server affinity, check multiple CVIX nodes to see all log entries related to a given transaction (that is, receipt and fulfillment of a specific data request).
 
 For detailed information about the transaction log, see *CVIX Transaction Log Fields*.  
-For information about the CVIX’s Java logs, see *CVIX Java Components*.
+For information about the CVIX's Java logs, see *CVIX Java Components*.
 
 ## Unplanned Shutdowns
 
@@ -1619,13 +1653,13 @@ Contact the VA IT DAS Technical mail group at <span class="mark">REDACTED</span>
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The following sections summarize the CVIX’s primary Java components.
+The following sections summarize the CVIX's primary Java components.
 
 ### CVIX Servlet Container
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CVIX uses an Apache Tomcat-based servlet container to provide the environment used to execute the CVIX’s Java code. This servlet container is installed automatically as part of the CVIX installation process.
+The CVIX uses an Apache Tomcat-based servlet container to provide the environment used to execute the CVIX's Java code. This servlet container is installed automatically as part of the CVIX installation process.
 
 ### CVIX Security Realms
 
@@ -1993,12 +2027,12 @@ Table 16 shows the RPCs the CVIX uses from other VistA packages. The use of thes
 
 The CVIX retrieves data from VistA databases using the RPCs described in the previous sections.
 
-The CVIX only writes data directly to remote VistA systems if the VA site does not have a VIX. At such non-VIX sites, the CVIX can make the following updates to the site’s VistA system:
+The CVIX only writes data directly to remote VistA systems if the VA site does not have a VIX. At such non-VIX sites, the CVIX can make the following updates to the site's VistA system:
 
 - It can update the IMAGE ACCESS LOG file (#2006.95) to indicate remote image access. See *Logging on Remote VistA Systems* for details.
-- It can update a site’s IMAGE file (#2005) with SOP instance UIDs for images that do not have SOP instance UIDs already. The CVIX uses the MAG NEW SOP INSTANCE UID RPC used by other Imaging components for the same purpose.
+- It can update a site's IMAGE file (#2005) with SOP instance UIDs for images that do not have SOP instance UIDs already. The CVIX uses the MAG NEW SOP INSTANCE UID RPC used by other Imaging components for the same purpose.
 
-There are no general CVIX parameters stored on VistA; all parameters are set during installation and are stored in the CVIX’s local configuration files.
+There are no general CVIX parameters stored on VistA; all parameters are set during installation and are stored in the CVIX's local configuration files.
 
 ### Exported Menu Options
 
@@ -2032,7 +2066,7 @@ Each component is described in the following sections. All of these components a
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-When a CVIX communicates with another VIX, with a DoD or other system (HAIMS, DES, DAS, ECIA, and so on), they exchange security certificates for authentication purposes. The CVIX’s long-term security certificates are stored in the \VixCertStore directory on each server where the CVIX is installed.
+When a CVIX communicates with another VIX, with a DoD or other system (HAIMS, DES, DAS, ECIA, and so on), they exchange security certificates for authentication purposes. The CVIX's long-term security certificates are stored in the \VixCertStore directory on each server where the CVIX is installed.
 
 The CVIX security certificates are used in the CVIX installation process and must be available to complete a CVIX installation. VistA Imaging certificates are administered by the VistA Imaging development group. The other certificates needed by the CVIX to communicate with the DAS and HAIMS systems were provided by the teams administering each production system. Please refer to the separate CVIX Certificate_Maintenance.docx document for procedures to replace CVIX or partner system security certificates.
 
@@ -2048,7 +2082,7 @@ Other versions of .NET have no impact on the CVIX installer or update processes 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CVIX’s servlet container and the CVIX itself requires Java Runtime Environment (JRE).
+The CVIX's servlet container and the CVIX itself requires Java Runtime Environment (JRE).
 
 ### Laurel Bridge DCF Toolkit
 
@@ -2086,7 +2120,7 @@ The CVIX requires the installation of LibreOffice 24.2.5, a third-party open-sou
 
 The responsibility matrix in Table 17 defines the roles and responsibilities for supporting VistA patches as part of a deployed solution. This is a template of the standard support structure required for VistA patches; therefore, the Project Manager (PM) should note any deviations in responsibility from this standardized Field Operations responsibility matrix in the Operational Acceptance Plan (OAP).
 
-VistA Patching is generally relegated to the sustainment of existing solutions but may also include emergency “hot fix” patches designed to remediate a noted deficiency within the solution. This Responsibility Matrix (Responsible, Accountable, Consulted, Informed, or RACI) is related to VistA patches released and supported at the national level (known as “Class I” patches), which are distributed to the entire Enterprise after testing and release management has been completed. VistA Patches are released via the FORUM, KERNEL, or via Secure File Transfer Protocol (SFTP) directly to the Field.
+VistA Patching is generally relegated to the sustainment of existing solutions but may also include emergency "hot fix" patches designed to remediate a noted deficiency within the solution. This Responsibility Matrix (Responsible, Accountable, Consulted, Informed, or RACI) is related to VistA patches released and supported at the national level (known as "Class I" patches), which are distributed to the entire Enterprise after testing and release management has been completed. VistA Patches are released via the FORUM, KERNEL, or via Secure File Transfer Protocol (SFTP) directly to the Field.
 
 Entities involved with VistA Patching:
 
@@ -2374,7 +2408,7 @@ The Image Viewer Dashboard Logs option presents the logs (Figure 19).
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Image Viewer Dashboard search option (Figure 20) allows the user to edit the fields for both the body and the headers and submit them to query (search) for a patient's study list. The resulting page provides access to each study. The Image Viewer Web Application Programming Interface (API) documentation describes the values for the body and headers. Access the API documentation by entering <span class="mark">REDACTED</span>/vix/viewer/VVSDoc in your browser’s address bar.
+The Image Viewer Dashboard search option (Figure 20) allows the user to edit the fields for both the body and the headers and submit them to query (search) for a patient's study list. The resulting page provides access to each study. The Image Viewer Web Application Programming Interface (API) documentation describes the values for the body and headers. Access the API documentation by entering <span class="mark">REDACTED</span>/vix/viewer/VVSDoc in your browser's address bar.
 
 <span id="_Ref49950657" class="anchor"></span>Figure 20: Image Viewer Dashboard: Search
 
@@ -2547,7 +2581,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A Cache Manager function allows users to browse a CVIX node’s local cache and delete data as required. The Cache Manager is accessed using Chrome or Edge.
+A Cache Manager function allows users to browse a CVIX node's local cache and delete data as required. The Cache Manager is accessed using Chrome or Edge.
 
 To access the CVIX Cache Manager, go to https://*FQDN*:<span class="mark">REDACTED</span>/VixCache (where *FQDN* is the fully qualified domain name of the individual host within the cluster the VIX is installed on).
 
@@ -2570,17 +2604,17 @@ The source and type of data are the most important factor in determining where a
 
 ![](mag-3-348-central-vista-imaging-exchange-cvix-administrator-s-guide-and-product-/009.png)
 
-The items immediately under the cache name are called “regions” of the cache. Regions divide the items in the cache by the source of the item (VA versus anywhere else) and the item (image versus anything else). A region defines the conditions under which a cache item is deleted from the cache.
+The items immediately under the cache name are called "regions" of the cache. Regions divide the items in the cache by the source of the item (VA versus anywhere else) and the item (image versus anything else). A region defines the conditions under which a cache item is deleted from the cache.
 
-Historically, it has been the case that anything that is not from the VA is from the Department of Defense and anything that is not an image is metadata. Thus, a radiology image from the DoD will be found in the “dod-image-region” while the study text data from a VA site will be found in the “va-metadata-region.
+Historically, it has been the case that anything that is not from the VA is from the Department of Defense and anything that is not an image is metadata. Thus, a radiology image from the DoD will be found in the "dod-image-region" while the study text data from a VA site will be found in the "va-metadata-region.
 
 ### Technical Specifics
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure, a group can contain other groups, which in turn can contain still more groups, *ad infinitum* or at least *ad out-of-memoriam*. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc....). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region’s lifespan, then the entire group is deleted from the cache. This is similar to images in a study. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, then the whole patient is deleted from the cache.
+The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure, a group can contain other groups, which in turn can contain still more groups, *ad infinitum* or at least *ad out-of-memoriam*. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc....). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region's lifespan, then the entire group is deleted from the cache. This is similar to images in a study. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, then the whole patient is deleted from the cache.
 
-Click the “va-image-region” region link, and a list of cache groups will be displayed (Figure 5)
+Click the "va-image-region" region link, and a list of cache groups will be displayed (Figure 5)
 
 <span id="_Ref53560666" class="anchor"></span>Figure : VIX Cache Manager Region Information Display Example
 
@@ -2635,7 +2669,7 @@ DoD regions are organized by the community operation order identification (OID) 
 
 <span id="_Ref52885374" class="anchor"></span>Table 8: CVIX Purge Schedule
 
-Below the enterprise OID is a repository (a site in VA parlance). At this time, DoD documents always come from the DES server. Likewise, DoD radiology comes from either HAIMS or ECIA, identified as “200”.
+Below the enterprise OID is a repository (a site in VA parlance). At this time, DoD documents always come from the DES server. Likewise, DoD radiology comes from either HAIMS or ECIA, identified as "200".
 
 Below the repository identifier is a patient identifier (the patient ICN), and then instances related to that patient.
 
@@ -2663,7 +2697,7 @@ Once that information is collected, open the Cache Manager and navigate through 
 
 Finally, it is worth reinforcing that when an item is deleted from the cache, it is not deleted from the original source of the data. If the CVIX is asked for that item again, it will simply notice that it is not in its cache and will retrieve it from the original data source and re-cache it. The effect to the user is a slight delay, nothing more.
 
-The minimal deleterious effect of deleting a cache item, along with difficulty in tracking down an item in one or more cache instances in a cluster, may lead someone to delete “good” cache items to get all the “bad” ones. This is not an issue since the CVIX will simply re-cache the items when requested again.
+The minimal deleterious effect of deleting a cache item, along with difficulty in tracking down an item in one or more cache instances in a cluster, may lead someone to delete "good" cache items to get all the "bad" ones. This is not an issue since the CVIX will simply re-cache the items when requested again.
 
 ## Configure DICOM SCP Functionality
 
@@ -2788,7 +2822,7 @@ You can update the following entries for the DICOM SCP functionality as desired 
 1.  For each dataSource (DoD or VA), set different modality lists if necessary, by inserting DoD or VA inside the opening and closing dataSource tags (\<dataSource\> \</dataSource\> - line 29), by default the value is ALL.
 2.  The modalities will be filtered at study and series levels. If needed, set at the image level. To do so, set true at the image level when needed by inserting true inside the opening and closing addImageLevelFilter tags, otherwise set false (\<addImageLevelFilter\> \</addImageLevelFilter\> - line 30).
 3.  List all the modalities to be blocked for that dataSource separately using string tags inside the opening and closing modalities section (\<modalities\> \</modalities\> - lines 31 and 33). Examples of modalities to potentially include inside the string tags include SR and PR.
-48. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site’s data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList \> - lines 36 and 42). Examples of site codes to include inside the string tags include the following:
+48. The installer automatically generates a default blacklist consisting of site codes that configured DICOM SCUs do not receive data from. Your local site code and the site codes of your Veterans Integrated Service Network (VISN) appear in the \<siteCodeBlackList\> section in the file ScpConfiguration.config located in the C:\VixConfig folder. If you want your site's data to be available to the configured DICOM SCU, ensure your local site code is not in the \<siteCodeBlackList\> section in the ScpConfiguration.config. List all the site codes to be blocked separately using string tags inside the opening and closing siteCodeBlackList section (\<siteCodeBlackList \> \</siteCodeBlackList \> - lines 36 and 42). Examples of site codes to include inside the string tags include the following:
 1.  Set a string to 100 to exclude Claims system information.
 2.  Set a string tag to 200CLMS to exclude 200 VHA Claims study information.
 3.  Set a string tag to 200CORP to exclude the Claims site.
@@ -2829,7 +2863,7 @@ After updating the DicomScpConfig file, as described above, it is necessary to r
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CVIX’s servlet container and the CVIX itself requires Java Runtime Environment (JRE) version 8.0_371.
+The CVIX's servlet container and the CVIX itself requires Java Runtime Environment (JRE) version 8.0_371.
 
 ## VIX Viewer Dashboard: Homepage
 
@@ -2855,7 +2889,7 @@ The VIX Viewer Dashboard Logs option presents the logs (Figure 22).
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The VIX Viewer Dashboard search option (Figure 23) allows the user to edit the fields for both the body and the headers and submit them to query (search) for a patient's study list. The resulting page provides access to each study. The VIX Viewer Web API documentation describes the values for the body and headers. Access the API documentation by entering <span class="mark">REDACTED</span>/vix/viewer/VVSDoc in your browser’s address bar.
+The VIX Viewer Dashboard search option (Figure 23) allows the user to edit the fields for both the body and the headers and submit them to query (search) for a patient's study list. The resulting page provides access to each study. The VIX Viewer Web API documentation describes the values for the body and headers. Access the API documentation by entering <span class="mark">REDACTED</span>/vix/viewer/VVSDoc in your browser's address bar.
 
 <span id="_Ref49950657" class="anchor"></span>Figure : VIX Viewer Dashboard: Search
 
@@ -2982,17 +3016,17 @@ The source and type of data are the most important factor in determining where a
 
 ![](mag-3-329-central-vista-imaging-exchange-cvix-administrator-s-guide-and-product-/005.png)
 
-The items immediately under the cache name are called “regions” of the cache. Regions divide the items in the cache by the source of the item (VA versus anywhere else) and the item (image versus anything else). A region defines the conditions under which a cache item is deleted from the cache.
+The items immediately under the cache name are called "regions" of the cache. Regions divide the items in the cache by the source of the item (VA versus anywhere else) and the item (image versus anything else). A region defines the conditions under which a cache item is deleted from the cache.
 
-Historically, it has been the case that anything that is not from the VA is from the Department of Defense and anything that is not an image is metadata. Thus, a radiology image from the DoD will be found in the “dod-image-region” while the study text data from a VA site will be found in the “va-metadata-region.
+Historically, it has been the case that anything that is not from the VA is from the Department of Defense and anything that is not an image is metadata. Thus, a radiology image from the DoD will be found in the "dod-image-region" while the study text data from a VA site will be found in the "va-metadata-region.
 
 ### Technical Specifics
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure, a group can contain other groups, which in turn can contain still more groups, *ad infinitum* or at least *ad out-of-memoriam*. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc....). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region’s lifespan, then the entire group is deleted from the cache. This is similar to images in a study. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, then the whole patient is deleted from the cache.
+The cache does not understand anything about sites, patients, or studies but operates on the concept of regions, groups, and instances. Regions are collections of similar items with the same lifespan in the cache (i.e., 30 days since last use). Groups are collections of groups and instances. Instances are the cache items proper. Groups are what is called a recursive data structure, a group can contain other groups, which in turn can contain still more groups, *ad infinitum* or at least *ad out-of-memoriam*. The cache limits that hierarchy to specific levels grouped by well-known business concepts (site, patient, etc....). Groups are also the basis that the cache deletes items. If no item in a group has been accessed within the region's lifespan, then the entire group is deleted from the cache. This is similar to images in a study. If a study has not been accessed for 30 days, then the entire study is deleted from the cache. If none of the studies for a patient have been accessed within 30 days, then the whole patient is deleted from the cache.
 
-Click the “va-image-region” region link, and a list of cache groups will be displayed (Figure 5)
+Click the "va-image-region" region link, and a list of cache groups will be displayed (Figure 5)
 
 <span id="_Ref53560666" class="anchor"></span>Figure : VIX Cache Manager Region Information Display Example
 
@@ -3047,7 +3081,7 @@ DoD regions are organized by the community operation order identification (OID) 
 
 <span id="_Ref52885374" class="anchor"></span>Table 8: CVIX Purge Schedule
 
-Below the enterprise OID is a repository (a site in VA parlance). At this time, DoD documents always come from the DES server. Likewise, DoD radiology comes from either HAIMS or ECIA, identified as “200”.
+Below the enterprise OID is a repository (a site in VA parlance). At this time, DoD documents always come from the DES server. Likewise, DoD radiology comes from either HAIMS or ECIA, identified as "200".
 
 Below the repository identifier is a patient identifier (the patient ICN), and then instances related to that patient.
 
@@ -3075,7 +3109,7 @@ Once that information is collected, open the Cache Manager and navigate through 
 
 Finally, it is worth reinforcing that when an item is deleted from the cache, it is not deleted from the original source of the data. If the CVIX is asked for that item again, it will simply notice that it is not in its cache and will retrieve it from the original data source and re-cache it. The effect to the user is a slight delay, nothing more.
 
-The minimal deleterious effect of deleting a cache item, along with difficulty in tracking down an item in one or more cache instances in a cluster, may lead someone to delete “good” cache items to get all the “bad” ones. This is not an issue since the CVIX will simply re-cache the items when requested again.
+The minimal deleterious effect of deleting a cache item, along with difficulty in tracking down an item in one or more cache instances in a cluster, may lead someone to delete "good" cache items to get all the "bad" ones. This is not an issue since the CVIX will simply re-cache the items when requested again.
 
 ### AE Titles Configuration
 
@@ -3125,7 +3159,7 @@ To enable the ECIA configuration, further update the MIXDataSource-1.0.config li
 
 > **NOTE:** The \<string\> \</string\> tags inside the vistaRadModalityBlacklist are set during the end of the install via the PowerShell script utility. If these values are not the same as the values you have for these in the installation prerequisites, change them according to the values for these in the prerequisites; otherwise leave them as they are.
 
-> **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality. For example, if an “SR” is inserted inside the \<string\> \</string\> tag, then a Structured Report will not be returned from the DoD.
+> **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality. For example, if an "SR" is inserted inside the \<string\> \</string\> tag, then a Structured Report will not be returned from the DoD.
 
 > **NOTE:** If more or less DICOM modality types (referred to as a modality blacklist) are not to be returned from the DoD, add or remove additional \<string\> \</string\> lines (within the opening and closing tags for vistaRadModalityBlacklist). Inside the \<string\> \</string\> tags, insert the DICOM Identifier for the modality.
 
@@ -3133,11 +3167,11 @@ To enable the ECIA configuration, further update the MIXDataSource-1.0.config li
 
 > **NOTE:** The \<string\> \</string\> tags inside the SOP blacklists (i.e. sopBlacklistForClinicalDisplay, sopBlacklistForVixViewer, or sopBlacklistForVistaRad) are set during the end of the install via the PowerShell script utility. If these values are not the same as the values you have for these in the installation prerequisites, change them according to the values for these in the prerequisites; otherwise leave them as they are.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for Vista Imaging Clinical Display.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for Vista Imaging Clinical Display.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for JLV.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for JLV.
 
-> **NOTE:** For example, if a “1.2.840.10008.5.1.4.1.1.88.11” is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for VistaRad.
+> **NOTE:** For example, if a "1.2.840.10008.5.1.4.1.1.88.11" is inserted inside the \<string\> \</string\> tag, then Basic Text SR that the SOP Class UID represents will be replaced with a static image file for VistaRad.
 
 > **NOTE:** Inside the \<string\> \</string\> tags, insert the DICOM SOP Class UIDs according to the prerequisites.
 

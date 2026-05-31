@@ -1,16 +1,50 @@
 ---
-consolidated_title: "user manual change pages"
-app_code: MD
+title: MD*1*21 User Manual change pages
 doc_type: UM
-master_source: "MD*1*21 User Manual change pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: change pages
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*21
+group_key: MD:MD:1
+file_numbers:
+- '690.2'
+security_keys: []
+menu_options: 1
+description: '> This distribution contains change pages for patch MD\1.0\21 of the Clinical Procedures 1.0 User Manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 4263
+section_count: 6
+table_count: 0
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: June 2010
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p21_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p21_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*21 User Manual change pages
 master_pub_date: June 2010
 consolidated_from: 6 versions
 prior_versions:
-  - "MD*1*11 User Manual change pages"
-  - "MD*1*14 User Manual change pages"
-  - "MD*1*19 User Manual change pages (Hemodialysis)"
-  - "MD*1*20 User Manual change pages (Hemodialysis)"
-  - "MD*1*29 User Manual change pages"
+- MD*1*11 User Manual change pages
+- MD*1*14 User Manual change pages
+- MD*1*19 User Manual change pages (Hemodialysis)
+- MD*1*20 User Manual change pages (Hemodialysis)
+- MD*1*29 User Manual change pages
+consolidated_title: user manual change pages
 ---
 
 > June 2010
@@ -225,7 +259,7 @@ prior_versions:
 
 > Figure 4-1
 
-2.  In the Notifications box at the bottom of the screen, patients are listed with “Procedure ready for interpretation”.
+2.  In the Notifications box at the bottom of the screen, patients are listed with "Procedure ready for interpretation".
     - Click Process Info if you want to process an informational alert (see left column under Notifications, Figure 4-1).
     - Click Process All if you want to process all of the items listed.
     - Click Process if you want to process an item through the Consults tab.
@@ -262,7 +296,7 @@ Clinical Procedures Process, Part 2
 
 > Figure 4-4
 
-> Note: To interpret the result, select the Complete/Update Results option. The Enter Required Fields dialog box is displayed, Figure 4-5. The interpreter’s name displays by default in the Author field.
+> Note: To interpret the result, select the Complete/Update Results option. The Enter Required Fields dialog box is displayed, Figure 4-5. The interpreter's name displays by default in the Author field.
 
 > Clinical Procedures Process, Part 2
 
@@ -591,7 +625,7 @@ Clinical Procedures Process, Part 2
 </tbody>
 </table>
 
-> The fourth example shows a procedure with the text of the result added to the significant findings of the consult and the note remains in the “Undictated” status. This example is the Detailed Consult that has the significant findings and the note displayed:
+> The fourth example shows a procedure with the text of the result added to the significant findings of the consult and the note remains in the "Undictated" status. This example is the Detailed Consult that has the significant findings and the note displayed:
 
 16. Clinical Procedures V. 1.0 April 2004 User Manual
 
@@ -898,7 +932,7 @@ Clinical Procedures Process, Part 2
 
 > Figure 4-15
 
-> On the Consults tab in Computerized Patient Record System (CPRS), the technician can create an addendum to the note and enter the encounter form information. Highlight the note that was administratively closed. Use the “Action” pull down menu and select Consult Results and then select Make Addendum.
+> On the Consults tab in Computerized Patient Record System (CPRS), the technician can create an addendum to the note and enter the encounter form information. Highlight the note that was administratively closed. Use the "Action" pull down menu and select Consult Results and then select Make Addendum.
 
 ![](md-1-21-user-manual-change-pages/017.png)
 
@@ -912,7 +946,7 @@ Clinical Procedures Process, Part 2
 
 > Clinical Procedures Process, Part 2
 
-> If you used a Consults title for the note, the note will appear in both the Notes and Consults tab. On the Notes tab, you will be able to see the individual note without the procedure request. You can highlight the note and click the “Encounter” button to launch the Encounter form.
+> If you used a Consults title for the note, the note will appear in both the Notes and Consults tab. On the Notes tab, you will be able to see the individual note without the procedure request. You can highlight the note and click the "Encounter" button to launch the Encounter form.
 
 #### Note: If you used a Consult title for the note, the Procedure Summary Code and Date/Time Performed will not be displayed on the note.
 
@@ -933,7 +967,7 @@ Clinical Procedures Process, Part 2
 > You can go to VistA Imaging to view results. If you as the interpreter did not interpret the result right after the procedure was performed, you may want to view the results before you enter an interpretation. In the colonoscopy example, the interpretation was entered in Figure 4-6.
 
 1.  Logon to CPRS.
-2.  Select Tools \> VistA Imaging Display, Figure 4-19. The patient’s Abstract list is displayed, Figure 4-20.
+2.  Select Tools \> VistA Imaging Display, Figure 4-19. The patient's Abstract list is displayed, Figure 4-20.
 
 ![](md-1-21-user-manual-change-pages/020.png)
 
@@ -982,7 +1016,7 @@ Clinical Procedures Process, Part 2
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> As the interpreter, you can link a consent form or other images to CP documents by using VistA Imaging Capture. VistA Imaging Capture software can capture clinical images or scanned documents and attach them to Clinical Procedures. Refer to the VistA Imaging 3.0 MAG\*3.0\*7 Patch Document at the following website: *WEBSITE REDACTED -DOESN’T WORK*
+> As the interpreter, you can link a consent form or other images to CP documents by using VistA Imaging Capture. VistA Imaging Capture software can capture clinical images or scanned documents and attach them to Clinical Procedures. Refer to the VistA Imaging 3.0 MAG\*3.0\*7 Patch Document at the following website: *WEBSITE REDACTED -DOESN'T WORK*
 
 <span class="mark">REDACTED</span>
 
@@ -1062,7 +1096,7 @@ Viewing the Reports
 
 > Figure 5-2
 
-> Find the Health Summary component that you want and select it. Enter the Occurrence Limit and Time Limit that you want. The Occurrence Limit field is the number of reports that you want displayed and the Time Limit is the date range to find the report such as 1Y (1 year). Once you clicked the “OK” button, you should generate only EKG reports found for that occurrence and time limit.
+> Find the Health Summary component that you want and select it. Enter the Occurrence Limit and Time Limit that you want. The Occurrence Limit field is the number of reports that you want displayed and the Time Limit is the date range to find the report such as 1Y (1 year). Once you clicked the "OK" button, you should generate only EKG reports found for that occurrence and time limit.
 
 > Viewing the Reports
 
@@ -1076,8 +1110,8 @@ Viewing the Reports
 
 1.  Start Date – the starting date of the date/time performed of the CP Result Report.
 2.  End Date – the ending date of the date/time performed of the CP Result Report.
-3.  Facility Treating Specialty – enter a facility treating specialty or “ALL” for all Facility Treating Specialties.
-4.  List Printer – enter a printer device to print the list or “HOME” for on screen display.
+3.  Facility Treating Specialty – enter a facility treating specialty or "ALL" for all Facility Treating Specialties.
+4.  List Printer – enter a printer device to print the list or "HOME" for on screen display.
 
 > Following is an example of running the option.
 
@@ -1258,7 +1292,7 @@ Report Options
 
 > The input information needed to run the option is the following:
 
-1.  Facility Treating Specialty – enter a facility treating specialty or “ALL” for all facility treating specialties
+1.  Facility Treating Specialty – enter a facility treating specialty or "ALL" for all facility treating specialties
 2.  List printer – enter a 132 column printer for the report.
 
 > The screen capture in the next page shows a sample run of the Clinical Procedures Studies List.
@@ -1852,7 +1886,7 @@ Report Options
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 > Access Code A unique sequence of characters known by and assigned only to the user, the system manager and/or designated alternate(s). The access code (in conjunction with the verify code) is used by the computer to identify authorized users.
-> Action A functional process that a clinician or clerk uses in the TIU computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.
+> Action A functional process that a clinician or clerk uses in the TIU computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.
 > ADP Coordinator/ADPAC/Application Coordinator Automated Data Processing Application Coordinator. The person responsible for implementing a set of computer programs (application package) developed to support a specific functional area such as clinical procedures, PIMS, etc.
 > Application A system of computer programs and files that have been specifically developed to meet the requirements of a user or group of users.
 > Archive The process of moving data to some other storage medium, usually a magnetic tape, and deleting the information from active storage in order to free-up disk space on the system.
@@ -1872,15 +1906,15 @@ Report Options
 > Glossary
 > Backup Procedures The provisions made for the recovery of data files and program libraries and for restart or replacement of ADP equipment after the occurrence of a system failure.
 > Boilerplate Text A pre-defined TIU template that can be filled in for Titles, Speeding up the entry process. TIU exports several Titles with boilerplate text which can be modified to meet specific needs; sites can also create their own.
-> Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the “...” button to start a lookup).
+> Browse Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the "..." button to start a lookup).
 > Bulletin A canned message that is automatically sent by MailMan to a user when something happens to the database.
 > Business Rule Part of ASU, Business Rules authorize specific users or groups of users to perform specified actions on documents in particular statuses (e.g., an unsigned TIU note may be edited by a provider who is also the expected signer of the note).
-> Class Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
+> Class Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.
 > Consult Referral of a patient by the primary care physician to another hospital service/ specialty, to obtain a medical opinion based on patient evaluation and completion of any procedures, modalities, or treatments the consulting specialist deems necessary to render a medical opinion.
 > Contingency Plan A plan that assigns responsibility and defines procedures for use of the backup/restart/recovery and emergency preparedness procedures selected for the computer system based on risk analysis for that system.
 > CP Clinical Procedures.
 > CP Definition CP Definitions are procedures within Clinical Procedures.
-> 1CP Procedure A procedure who’s data is stored in the Clinical Procedures package.
+> 1CP Procedure A procedure who's data is stored in the Clinical Procedures package.
 > CP Study A CP study is a process created to link the procedure result from the medical device or/and to link the attachments browsed from a network share to the procedure order.
 > CPRS Computerized Patient Record System. A comprehensive VistA program, which allows clinicians and others to enter and view orders, Progress Notes and Discharge Summaries (through a link with TIU), Problem List, view results, reports (including health summaries), etc.
 > 1 Patch MD\*1.0\*2 July 2004 New Glossary term added.
@@ -1897,13 +1931,13 @@ Glossary
 > Global An M term used when referring to a file stored on a storage medium, usually a magnetic disk.
 > GUI Graphical User Interface - a Windows-like screen that uses pull-down menus, icons, pointer devices, and other metaphor-type elements that can make a computer program more understandable, easier to use, allow multi-processing (more than one window or process available at once), etc.
 > Glossary
-> Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are ‘clinical update users’ for a given consult service.
+> Interpreter Interpreter is a user role exported with USR\*1\*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are 'clinical update users' for a given consult service.
 > IRMS Information Resource Management Service.
 > Kernel A set of software utilities. These utilities provide data processing support for the application packages developed within the VA. They are also tools used in configuring the local computer site to meet the particular needs of the hospital. The components of this operating system include: MenuMan, TaskMan, Device Handler, Log-on/Security, and other specialized routines.
 > LAYGO An acronym for Learn As You Go. A technique used by VA FileMan to acquire new information as it goes about its normal procedure. It permits a user to add new data to a file.
 > M Formerly known as MUMPS or the Massachusetts (General Hospital) Utility Multi- Programming System. This is the programming language used to write all VistA applications.
 > MailMan An electronic mail, teleconferencing, and networking system.
-> 1Medicine Procedure A procedure who’s data is stored in the Medicine package.
+> 1Medicine Procedure A procedure who's data is stored in the Medicine package.
 > Menu A set of options or functions available to users for editing, formatting, generating reports, etc.
 > Module A component of a software application that covers a single topic or a small section of a broad topic.
 > Namespace A naming convention followed in the VA to identify various applications and to avoid duplication. It is used as a prefix for all routines and globals used by the application.
@@ -1919,7 +1953,7 @@ Glossary
 > Program A set of M commands and arguments, created, stored, and retrieved as a single unit in M.
 > Queuing The scheduling of a process/task to occur at a later time. Queuing is normally done if a task uses up a lot of computer resources.
 > RAID Redundant Array of Inexpensive Drives. Imaging uses this to store images.
-> 1Remote Data Viewing The act of viewing a patient’s data from a remote facility.
+> 1Remote Data Viewing The act of viewing a patient's data from a remote facility.
 > Result A consequence of an order. Refers to evaluation or status results. When you use the Complete Request (CT) action on a consult or request, you are transferred to TIU to enter the results.
 > \<RET\> Carriage return.
 > Routine A set of M commands and arguments, created, stored, and retrieved as a single unit in M.
@@ -2116,7 +2150,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > This section describes how to order a CP procedure, such as a study, a test, or an invasive intervention, such as a surgical or medical procedure, through CPRS. Keep in mind that you can only order a Clinical Procedure as a procedure order and not as a consult request.
 
-> In addition to becoming familiar with the CPRS ordering process, you can learn about the interpreter, which is the new user role within ASU that supports CP. The interpreter is a new User Role created by ASU that defines a user who can interpret (sign-off or verify) the procedure’s final report. Clinical application coordinators define interpreters in the Consults package.
+> In addition to becoming familiar with the CPRS ordering process, you can learn about the interpreter, which is the new user role within ASU that supports CP. The interpreter is a new User Role created by ASU that defines a user who can interpret (sign-off or verify) the procedure's final report. Clinical application coordinators define interpreters in the Consults package.
 
 > If you are an interpreter for a specific procedure, you can receive an alert when the procedure results are ready for review. Additional comments can be added if necessary along with the Procedure Summary code and the electronic signature. The following example describes how to order a colonoscopy procedure through the CPRS Consults tab.
 
@@ -2196,17 +2230,17 @@ Clinical Procedures Process, Part 1
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The auto study check in is a new enhancement introduced with patch MD\*1.0\*14. The site can specify a procedure to have auto study check in using the MD AUTO CHECK-IN SETUP option. Refer to the Clinical procedures Implementation Guide to set up a procedure for the auto study check-in. This new functionality can be used if the site schedules an appointment for the patient or not. If the site does not use appointments, the study will be checked in as soon as the order is requested in CPRS. The status of the study will be “Pending Instrument Data.” If the site uses appointments, the study will have a status of “New” until the day of the appointment and the status will change to “Pending Instrument Data.”
+> The auto study check in is a new enhancement introduced with patch MD\*1.0\*14. The site can specify a procedure to have auto study check in using the MD AUTO CHECK-IN SETUP option. Refer to the Clinical procedures Implementation Guide to set up a procedure for the auto study check-in. This new functionality can be used if the site schedules an appointment for the patient or not. If the site does not use appointments, the study will be checked in as soon as the order is requested in CPRS. The status of the study will be "Pending Instrument Data." If the site uses appointments, the study will have a status of "New" until the day of the appointment and the status will change to "Pending Instrument Data."
 
 > For procedures that require multiple encounters from the patient such as hemodialysis, respiratory therapy, and sleep studies, each encounter will generate a study check-in if there is an appointment scheduled for each encounter. If no appointment is used, only the initial check-in will be auto checked-in and the additional encounters will still require manual check-in.
 
-> Once a procedure is set up to use the auto study check-in functionality in the MD CHECK-IN SETUP option, the software will check-in any existing order requests with the status of “PENDING,” “ACTIVE,” and “SCHEDULED” in the Consult Request Tracking package.
+> Once a procedure is set up to use the auto study check-in functionality in the MD CHECK-IN SETUP option, the software will check-in any existing order requests with the status of "PENDING," "ACTIVE," and "SCHEDULED" in the Consult Request Tracking package.
 
 > If you have set up a procedure for auto check-in, you can skip the section on Check in a new study. The study will be checked-in for you when the order is requested in CPRS.
 
-> Note 1: If the patient is a no show, you must remove the study that was checked-in. You can delete the check-in in CP User or you can cancel the procedure in CPRS. If you cancel or discontinue the order in CPRS, the status of the CP study will be changed to “Cancelled”. If the appointment is rescheduled, the study will still need to be removed.
+> Note 1: If the patient is a no show, you must remove the study that was checked-in. You can delete the check-in in CP User or you can cancel the procedure in CPRS. If you cancel or discontinue the order in CPRS, the status of the CP study will be changed to "Cancelled". If the appointment is rescheduled, the study will still need to be removed.
 
-> Note 2: Please make sure the studies are completed on time. If a previous study is still in “Pending Instrument Data” or “Ready to Complete” status, the subsequent study check-in for the subsequent encounter will not be effective until the previous study is complete.
+> Note 2: Please make sure the studies are completed on time. If a previous study is still in "Pending Instrument Data" or "Ready to Complete" status, the subsequent study check-in for the subsequent encounter will not be effective until the previous study is complete.
 
 > Note 3: In the case of an emergency procedure, the procedure will be performed prior to the order request. The order request will be entered after the procedure and the study will be auto checked in. You will need to attach the result manually as a uni-directional interface and submit the result. Since the study is auto checked-in for the bi-directional device, you will need to clean up and remove the patient name from the selection list on the device.
 
@@ -2220,7 +2254,7 @@ Clinical Procedures Process, Part 1
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Once a procedure is set up to use the auto study check-in functionality, the software will check- in any existing order requests with the status of “PENDING,” “ACTIVE,” and “SCHEDULED” in the Consult Request Tracking package.
+> Once a procedure is set up to use the auto study check-in functionality, the software will check- in any existing order requests with the status of "PENDING," "ACTIVE," and "SCHEDULED" in the Consult Request Tracking package.
 
 > In this section, the following workflows are described:
 
@@ -2238,7 +2272,7 @@ Clinical Procedures Process, Part 1
 
 > This option collects the following information:
 
-1)  Use Appointment with procedure? (Yes/No) (Required) – The default is “NO” if the site does not schedule procedures before the order is entered. Enter “YES” if the procedure appointment is scheduled before the order is entered and the ordering provider selects the appointment for the procedure during ordering in CPRS. Take the default of “NO” if the provider sometimes selects the appointment scheduled and sometime doesn’t. This prompt only applies to outpatients.
+1)  Use Appointment with procedure? (Yes/No) (Required) – The default is "NO" if the site does not schedule procedures before the order is entered. Enter "YES" if the procedure appointment is scheduled before the order is entered and the ordering provider selects the appointment for the procedure during ordering in CPRS. Take the default of "NO" if the provider sometimes selects the appointment scheduled and sometime doesn't. This prompt only applies to outpatients.
 2)  Procedure (Required) – Enter the CP Definition that will be using the auto study check-in functionality.
 3)  Schedule Appointment? (Required) – Enter 0 for None, 1 for Outpatient, 2 for Inpatient, or 3 for Both. This indicates that the site schedules appointments for inpatient, outpatients, both, or none.
 4)  Clinic (Optional) – Enter the hospital location(s) that will be used for the scheduled procedure. You can enter more than one location for a procedure. After you have entered one hospital location, you will be asked if you want to enter another.
@@ -2249,7 +2283,7 @@ Clinical Procedures Process, Part 1
 
 Clinical Procedures Process, Part 1
 
-> In the example shown above, the EKG Routine (12 Leads) is set up for auto check-in without an appointment involved. The default of “NO” was entered for the question “Use Appointment with procedure?” and 0 was entered for the question “Schedule Appointment?”
+> In the example shown above, the EKG Routine (12 Leads) is set up for auto check-in without an appointment involved. The default of "NO" was entered for the question "Use Appointment with procedure?" and 0 was entered for the question "Schedule Appointment?"
 
 > Use CPManager.exe and verify for the EKG procedure that you have 1) the hospital location field filled in, 2) the Active checkbox is checked, and 3) One bi-directional instrument checkbox is checked.
 
@@ -2259,7 +2293,7 @@ Clinical Procedures Process, Part 1
 
 > Figure 3-8
 
-> Use CP Manager.exe and verify that the Muse EKG instrument is set up. Use the Interface Analyzer button, check the instrument Muse EKG and click Analyze. The Ready Status should be “Pass.”
+> Use CP Manager.exe and verify that the Muse EKG instrument is set up. Use the Interface Analyzer button, check the instrument Muse EKG and click Analyze. The Ready Status should be "Pass."
 
 > Note: Make sure the instrument is Active, has a Notification Mailgroup, and HL7 link.
 
@@ -2305,7 +2339,7 @@ Clinical Procedures Process, Part 1
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Once the procedure is requested and signed in CPRS, the study for the EKG procedure will be auto checked-in in CPUSER with the status of “Pending Instrument Data.”
+> Once the procedure is requested and signed in CPRS, the study for the EKG procedure will be auto checked-in in CPUSER with the status of "Pending Instrument Data."
 
 ![](md-1-14-user-manual-change-pages/015.png)
 
@@ -2429,7 +2463,7 @@ Clinical Procedures Process, Part 1
 
 > Figure 3-15
 
-> Use CP Manager.exe and verify that the SMC instrument is set up. Use the Interface Analyzer button and check the instrument SMC and click Analyze. The Ready Status should be “Pass.”
+> Use CP Manager.exe and verify that the SMC instrument is set up. Use the Interface Analyzer button and check the instrument SMC and click Analyze. The Ready Status should be "Pass."
 
 > Note: Make sure the instrument is Active, has a Notification Mailgroup and an HL7 link.
 
@@ -2439,7 +2473,7 @@ Clinical Procedures Process, Part 1
 
 > Figure 3-16
 
-> Use the option “GMRC PROCEDURE SETUP” and verify the Pulmonary procedure is linked to a GMRC Procedure. Add the text “Visit Date: \|VISIT DATE\|“ to the first line of the DEAFULT REASON FOR REQUEST field.
+> Use the option "GMRC PROCEDURE SETUP" and verify the Pulmonary procedure is linked to a GMRC Procedure. Add the text "Visit Date: \|VISIT DATE\|" to the first line of the DEAFULT REASON FOR REQUEST field.
 
 Clinical Procedures Process, Part 1
 
@@ -2625,7 +2659,7 @@ Clinical Procedures Process, Part 1
 
 > For the inpatient, the admission date/time will be visible in the Reason for Request field.
 
-> After the order is placed for both the inpatient and outpatient, the studies are checked-in for the Pulmonary Procedure in CPUser with the status of “New.”
+> After the order is placed for both the inpatient and outpatient, the studies are checked-in for the Pulmonary Procedure in CPUser with the status of "New."
 
 > Clinical Procedures Process, Part 1
 
@@ -2633,7 +2667,7 @@ Clinical Procedures Process, Part 1
 
 > Figure 3-19
 
-> The status changes to “Pending Instrument Data” on the day of the appointment.
+> The status changes to "Pending Instrument Data" on the day of the appointment.
 
 Clinical Procedures Process, Part 1
 
@@ -2641,7 +2675,7 @@ Clinical Procedures Process, Part 1
 
 > Figure 3-20
 
-> Note 1: If the status of the study does not change to “Pending Instrument Data” upon the day of the appointment, have your IRM Support check if they scheduled the two options MD SCHEDULED STUDIES and MD STUDY CHECK-IN to run daily.
+> Note 1: If the status of the study does not change to "Pending Instrument Data" upon the day of the appointment, have your IRM Support check if they scheduled the two options MD SCHEDULED STUDIES and MD STUDY CHECK-IN to run daily.
 
 > Note 2: If the procedure requires multiple encounters, the subsequent appointment scheduled will generate a study checked-in on the day of the appointment. If you do not use appointments, it is recommended that you do not implement auto check-in for the procedure because you will need to manually check-in each subsequent encounter for the procedure.
 
@@ -2679,7 +2713,7 @@ Clinical Procedures Process, Part 1
 4.  Depending on the consult procedure you selected, the appropriate instruments for that procedure are displayed. Click the appropriate instrument if more than one is listed, or click No Instrument if no instrument is associated with this procedure. OLYMPUS is the appropriate instrument in this case and is selected.
 5.  You must associate each CP study with a PCE visit, which is the hospital location where the procedure is performed. Required.
 
-> For the majority of TIU notes created through CP, the visit association is completed in the background. If a visit has already been recorded but the note wasn’t linked (standalone visits, such as telephone or walk-in visits), you can select a visit from the Clinical Procedures Check In edit screen [(Figure 3-21](#_bookmark19)).
+> For the majority of TIU notes created through CP, the visit association is completed in the background. If a visit has already been recorded but the note wasn't linked (standalone visits, such as telephone or walk-in visits), you can select a visit from the Clinical Procedures Check In edit screen [(Figure 3-21](#_bookmark19)).
 
 > To link the CP study to the visit, select information from the Outpatients Visits tab on [Figure 3-21](#_bookmark19). You can also select the New Visit tab and enter NOW for the date and time.
 
@@ -2950,9 +2984,9 @@ Application Events 14-3
 Study Events 14-3
 Defining Application Events Screen Buttons 14-4
 15. Troubleshooting 15-1
-Preventing PCE “Data Loss” in the Hemodialysis Application 15-1
+Preventing PCE "Data Loss" in the Hemodialysis Application 15-1
 Reloading Flowsheet Data 15-3
-Resolving “No Note Text” Error 15-5
+Resolving "No Note Text" Error 15-5
 Issue Description 15-5
 Using More Than One Dialysis Device During a Treatment 15-6
 16. Glossary 16-1
@@ -2999,7 +3033,7 @@ Table of Contents
 - Averages and Totals
 - Vascular Access
 
-> The fields in the Treatment Summary and Averages and Totals sections may populate automatically, depending on your site’s instruments and configuration. If this information is generated by an instrument, it cannot be edited. If your instruments do not send this data, then you may enter it manually by typing it into the fields.
+> The fields in the Treatment Summary and Averages and Totals sections may populate automatically, depending on your site's instruments and configuration. If this information is generated by an instrument, it cannot be edited. If your instruments do not send this data, then you may enter it manually by typing it into the fields.
 
 > Enter data into the Vascular Access section manually by typing it into the fields.
 
@@ -3013,7 +3047,7 @@ Table of Contents
 
 > Notes: Once a location has been selected, only a user with ADMIN rights can change the location.
 
-> If the location changes for a patient, PCE data will not carry over from a previous study. PCE data must then be re-entered manually. For more information on this subject, see the Troubleshooting section “Preventing PCE “Data Loss”.”
+> If the location changes for a patient, PCE data will not carry over from a previous study. PCE data must then be re-entered manually. For more information on this subject, see the Troubleshooting section "Preventing PCE "Data Loss"."
 
 > The PCE data (ICD, CPT) will carry over from a previous study if both studies share the same 1) hospital location and 2) procedure request(s).
 
@@ -3039,7 +3073,7 @@ Viewing Summary Information
 
 > Viewing Summary Information
 
-3.  ![](md-1-20-user-manual-change-pages-hemodialysis/006.png)Type one or more letters of the provider’s last name into the edit field in the top-left corner of the window, then press \<Enter\> or click Search. The listview below the edit field displays the names of providers that match the letters you entered (Figure 10-5).
+3.  ![](md-1-20-user-manual-change-pages-hemodialysis/006.png)Type one or more letters of the provider's last name into the edit field in the top-left corner of the window, then press \<Enter\> or click Search. The listview below the edit field displays the names of providers that match the letters you entered (Figure 10-5).
 
 > Figure 10-5
 
@@ -3049,14 +3083,14 @@ Viewing Summary Information
 
 > Figure 10-6
 
-5.  If more than one provider is associated with a treatment, checkmark the Primary Care Provider by clicking the provider’s name.
+5.  If more than one provider is associated with a treatment, checkmark the Primary Care Provider by clicking the provider's name.
 6.  To remove a name from the list of selected providers, highlight the name, then click the
 
 > Move Left button. ![](md-1-20-user-manual-change-pages-hemodialysis/009.png)
 
 7.  Click Save Data in PCE to close the Billing Information window and return to the Summary tab, or click Cancel to return to the Summary tab without saving changes.
 
-> Note: To add diagnoses, procedures, or environmental conditions, you may simply click the appropriate tab on the Billing Information window (Figure 10-6). You don’t have to return to the Summary tab in between procedures.
+> Note: To add diagnoses, procedures, or environmental conditions, you may simply click the appropriate tab on the Billing Information window (Figure 10-6). You don't have to return to the Summary tab in between procedures.
 
 4.  Hemodialysis Patch MD\*1.0\*6 May 2008
 
@@ -3101,7 +3135,7 @@ Viewing Summary Information
 
 > Shortcut: Double click a procedure to move it from one list to the other.
 
-4.  ![](md-1-20-user-manual-change-pages-hemodialysis/014.png)If a procedure was performed more than once, click the procedure’s Quantity cell, and then type the number.
+4.  ![](md-1-20-user-manual-change-pages-hemodialysis/014.png)If a procedure was performed more than once, click the procedure's Quantity cell, and then type the number.
 5.  Repeat steps 2-4, as needed.
 
 > Figure 10-9
@@ -3130,7 +3164,7 @@ Viewing Summary Information
 
 > To set environmental condition indicators, do the following:
 
-1.  ![](md-1-20-user-manual-change-pages-hemodialysis/015.png)On the Summary tab, click the Service button. The PCE Information window displays and the Service Connected Conditions tab is active. Some, or possibly none, of the radio buttons on this tab are available (Figure 10-10). Availability of options is based on the current patient’s profile.
+1.  ![](md-1-20-user-manual-change-pages-hemodialysis/015.png)On the Summary tab, click the Service button. The PCE Information window displays and the Service Connected Conditions tab is active. Some, or possibly none, of the radio buttons on this tab are available (Figure 10-10). Availability of options is based on the current patient's profile.
 
 > Figure 10-10
 
@@ -3158,7 +3192,7 @@ Viewing Summary Information
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> For each treatment, if you do not add or change PCE information, you are still required to confirm that the existing PCE data is correct. <sup>1</sup>Current PCE data displays on the summary tab under the label “PCE Data,” as shown in the following:
+> For each treatment, if you do not add or change PCE information, you are still required to confirm that the existing PCE data is correct. <sup>1</sup>Current PCE data displays on the summary tab under the label "PCE Data," as shown in the following:
 
 1)  Location – workload location
 2)  Healthcare Providers – Primary Care Provider and provider(s) associated with the treatment
@@ -3182,7 +3216,7 @@ Viewing Summary Information
 
 > Figure 10-13
 
-> Note 2: In rare cases, you may see the following popup message after you click Confirm: “Sorry, the PCE data was not updated even though the data was accepted.”
+> Note 2: In rare cases, you may see the following popup message after you click Confirm: "Sorry, the PCE data was not updated even though the data was accepted."
 
 > This message means that the PCE data for this study was already sent to the Austin Data Center, and it can no longer be updated.
 
@@ -3190,7 +3224,7 @@ Viewing Summary Information
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Summary notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the “Comments” section in Chapter 5.
+> Summary notes can be added and viewed in the Comments area at the bottom of the screen. For detailed instructions, see the "Comments" section in Chapter 5.
 
 > May 2008 Hemodialysis Patch MD\*1.0\*6 10-9
 
@@ -3285,7 +3319,7 @@ Working with Hemodialysis
 
 > The Post-Treatment tab is used to enter vitals, observations, and pain assessment after the dialysis treatment has completed ([Figure 3-21](#_bookmark4)). Notes dealing with post-treatment assessment can be entered into the Comments area.
 
-> ![](md-1-29-user-manual-change-pages/002.png)For more detailed information about the Post-Treatment tab, see “Chapter 9: Entering Post- Treatment Information.”
+> ![](md-1-29-user-manual-change-pages/002.png)For more detailed information about the Post-Treatment tab, see "Chapter 9: Entering Post- Treatment Information."
 
 > <span id="_bookmark4" class="anchor"></span>Figure 3-1
 
@@ -3303,7 +3337,7 @@ Working with Hemodialysis
 
 > Note: Upon the ICD-10 activation date, the Patch MD\*1.0\*29 allows the user to add/edit/store ICD-10 diagnosis codes (up to 8 alphanumeric characters including the decimal point that follows the third character) from the CP Hemodialysis Patient Data Page Summary Tab Diagnosis tab window, as well as ICD-9 diagnosis codes, depending on the Current Treatment Date field.
 
-> ![](md-1-29-user-manual-change-pages/003.png)For more detailed information about the Summary tab, see “Chapter 10: Viewing Summary Information.”
+> ![](md-1-29-user-manual-change-pages/003.png)For more detailed information about the Summary tab, see "Chapter 10: Viewing Summary Information."
 
 > Figure 3-2
 
@@ -3328,7 +3362,7 @@ Working with Hemodialysis
 
 > The first time you open a study, the Read Only checkbox will be unchecked so you can enter the treatment information. Each time you open the study again, the Read Only checkbox will be checked, so you can view the previously entered treatment information. If you want to edit this information, you can uncheck the Read Only checkbox and edit the information (Figure 4-2).
 
-> Note: If you want the Treatment Information to default as Read Only for new studies, ADMIN users can set the “Set the new study Cover to Read Only” option to TRUE (Options menu \> Preferences \> System Preferences \> Set the new study Cover to Read Only).
+> Note: If you want the Treatment Information to default as Read Only for new studies, ADMIN users can set the "Set the new study Cover to Read Only" option to TRUE (Options menu \> Preferences \> System Preferences \> Set the new study Cover to Read Only).
 
 > May 2008 Clinical Procedures V.1.0 4-1
 
@@ -3350,15 +3384,15 @@ Working with Hemodialysis
 
 > Initial Therapy Date: Select the date of the first Hemodialysis treatment for this patient.
 
-> Modality: Select the type of dialysis treatment to be performed. This dropdown list is site configurable for ADMIN users. (See “Customizing Drop-down List Items.”)
+> Modality: Select the type of dialysis treatment to be performed. This dropdown list is site configurable for ADMIN users. (See "Customizing Drop-down List Items.")
 
-> Code Status: Select either DNR, AD Signed or Full. This dropdown list is site configurable for ADMIN users. (See “Customizing Dropdown List Items.”)
+> Code Status: Select either DNR, AD Signed or Full. This dropdown list is site configurable for ADMIN users. (See "Customizing Dropdown List Items.")
 
-> Attending Nephrologist: Select the name of the attending Nephrologist. Choose the Nephrologist’s name in one of three ways:
+> Attending Nephrologist: Select the name of the attending Nephrologist. Choose the Nephrologist's name in one of three ways:
 
 > Method 1: Find in VistA (Recommended)
 
-> Note: This method is recommended because the names get pulled from the VistA database. If the provider’s name does not appear in the list, use Method 2 or 3, below.
+> Note: This method is recommended because the names get pulled from the VistA database. If the provider's name does not appear in the list, use Method 2 or 3, below.
 
 - Unmark the Read Only checkbox.
 - Click the dropdown arrow to the right of the Attending Nephrologist field. The Select Provider window displays (Figure 4-3).

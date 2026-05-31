@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: ADT:ADT:5.3
 description: Each of the options found on the Contract Nursing Home RUG Menu works as its corresponding option on the RUG-II menu except only CNH PAIs are selectable. The CNH options should be used to create a Patient Assessment Instrument (PAI) for those patients receiving contract nursing home services. If the
-audience: 
-keywords: 
-  - contents
-  - date
-  - table
-  - record
-  - patient
-  - assessment
-  - pais
-  - admission
-  - transfer
-  - status
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers: []
+security_keys:
+- DG RUG SUPERVISOR
+menu_options: 0
 page_count: 0
 word_count: 3386
 section_count: 15
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2009
 revision_count: 1
 revision_newest: 1/29/09
 revision_oldest: 1/29/09
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_cnhr_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_cnhr_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=55"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_cnhr_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)/adt_cnhr_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=55
+audit_applied: '2026-05-31'
 ---
 
 PIMS V. 5.3 ADT Module User Manual

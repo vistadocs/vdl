@@ -11,38 +11,33 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*423
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
+group_key: CPRS:OR:3
+description: '| Date | Version | Description | Author | |---------------|-------------|-----------------|------------------------------------| | June 22, 2016 | 1.0 | Initial Draft | REDACTED'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
+- '100'
+- '101.41'
+security_keys:
+- ORMGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - cprs
-  - back
-  - rollback
-  - deployment
-  - site
-  - procedure
-  - class
 page_count: 0
 word_count: 4087
 section_count: 31
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2016
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_423_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_423_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_423_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_30_423_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 CPRS v30c (OR\*3\*423)

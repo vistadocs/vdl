@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: HINQ
 patch_ver: 4
 patch_id: HINQ*4
-group_key: "HINQ:HINQ:4"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: HINQ:HINQ:4
 description: Hospital Inquiry (HINQ) is a request that is sent to the VBA (Veterans Benefits Administration) from the VA Medical Center for information pertaining to a veteran. HINQ requests are sent from a VISTA computer over TCP/IP to a remote VBA computer via the Austin Automation Center (AAC) where veteran i
-audience: 
-keywords: 
-  - hinq
-  - table
-  - contents
-  - patient
-  - suspense
-  - number
-  - example
-  - date
-  - response
-  - request
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3'
+security_keys:
+- DG ELIGIBILITY
+- DVBHINQ
+- HINQ
+menu_options: 0
 page_count: 0
 word_count: 13818
 section_count: 76
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1992
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=41"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=41
+audit_applied: '2026-05-31'
 ---
 
 ![](dvb-version-4-user-manual-revised-3-27-12/001.png)

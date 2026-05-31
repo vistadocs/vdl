@@ -3,7 +3,7 @@ title: Clinical Monitoring System Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: QAM
 app_name: Clinical Monitoring System
 section: FIN
@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: QAM
 patch_ver: 1
 patch_id: QAM*1
-group_key: "QAM:QAM:1"
-file_numbers: []
+group_key: QAM:QAM:1
+description: Clinical Monitoring System V. 1.0Technical ManualSeptember
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '61'
+- '200'
+- '743'
+- '743.1'
+- '743.2'
+- '743.3'
+- '743.4'
+- '743.5'
+- '743.6'
+- '743.91'
+- '743.92'
 security_keys: []
 menu_options: 1
-description: - [# Introduction / Package-Wide Variables](#introduction-package-wide-variables) - [# Implementation and Maintenance](#implementation-and-maintenance) - [# Routines](#routines) - [Routine List](#routine-list) - [Callable Routines](#callable-routines) - [# Files](#files) - [File List](#file-list) -
-audience: 
-keywords: 
-  - class
-  - table
-  - monitor
-  - even
-  - contents
-  - condition
-  - time
-  - options
-  - style
-  - width
 page_count: 0
 word_count: 8103
 section_count: 20
 table_count: 26
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 2/23/09
 revision_oldest: 2/23/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmtm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmtm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=32"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmtm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Clin_Monitoring_System/cmtm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=32
+audit_applied: '2026-05-31'
 ---
 
 ![](clinical-monitoring-system-version-1-technical-manual/001.png)

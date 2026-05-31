@@ -5,54 +5,36 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: Controlled Substance DIRB
 app_code: PSD
-app_name: "Pharmacy: Controlled Substances"
+app_name: 'Pharmacy: Controlled Substances'
 section: CLI
 app_status: active
 pkg_ns: PSD
 patch_ver: 3
 patch_id: PSD*3*89
-group_key: "PSD:PSD:3"
+group_key: PSD:PSD:3
+description: The purpose of this plan is to provide a single, common document that describes how, when, where, and to whom the PRE Inbound eRx application will be deployed and installed, as well as how it is to be backed out and rolled back, if necessary. The plan also identifies resources, communications plan,
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The purpose of this plan is to provide a single, common document that describes how, when, where, and to whom the PRE Inbound eRx application will be deployed and installed, as well as how it is to be backed out and rolled back, if necessary. The plan also identifies resources, communications plan,
-audience: 
-keywords: 
-  - span
-  - weblogic
-  - table
-  - domain
-  - class
-  - contents
-  - dzdo
-  - install
-  - deployment
-  - anchor
 page_count: 0
-word_count: 19547
+word_count: 19527
 section_count: 34
 table_count: 16
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_dirb.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_dirb.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=86"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_dirb.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p89_dirb.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_top" class="anchor"></span>Pharmacy Reengineering (PRE) Inbound  
-  ePrescribing Version 5.0
-
-  Deployment, Installation, Rollback, and Back-Out Guide
----
-
 PSO\*7.0\*617
 
 PSD\*3\*89

@@ -1,48 +1,44 @@
 ---
-title: PSX*2*50  PSO*7*157 Release Notes - Combat Veteran Phase II
+title: PSX*2*50 PSO*7*157 Release Notes - Combat Veteran Phase II
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: PSO*7*157  - Combat Veteran Phase II
+doc_subject: PSO*7*157 - Combat Veteran Phase II
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2*50
-group_key: "PSX:PSX:2"
-file_numbers: []
-security_keys: []
+group_key: PSX:PSX:2
+description: '- Introduction - New Features, Functions, and Enhancements - Options - Outpatient Pharmacy (Patch PSO\7\157) - CMOP (Patch PSX\2\50) - Actions - [Reports...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '52'
+- '52.41'
+- '110.1'
+- '122'
+security_keys:
+- PSORPH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - copay
-  - prescription
-  - table
-  - contents
-  - status
-  - outpatient
-  - combat
-  - pharmacy
-  - order
-  - veteran
 page_count: 0
 word_count: 1565
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/pso_7_157_and_psx_2_p50_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/pso_7_157_and_psx_2_p50_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/pso_7_157_and_psx_2_p50_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/pso_7_157_and_psx_2_p50_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](psx-2-50-pso-7-157-release-notes-combat-veteran-phase-ii/001.png)

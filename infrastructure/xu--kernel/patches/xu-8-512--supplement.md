@@ -11,39 +11,54 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*512
-group_key: "XU:XU:8"
-file_numbers: 
-  - 200
-security_keys: []
+group_key: XU:XU:8
+description: TRAINEE REGISTRATION CORE DATASET (FORMERLY CLINICAL TRAINEE CORE
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '4'
+- '5'
+- '8'
+- '9'
+- '10.6'
+- '12.1'
+- '12.2'
+- '12.3'
+- '12.4'
+- '12.5'
+- '12.6'
+- '12.7'
+- '12.8'
+- '19'
+- '29'
+- '76'
+- '101.13'
+- '200'
+- '209'
+- '771.9'
+- '8932.2'
+security_keys:
+- DIUSER
+- XUPROGMODE
+- XUSHOWSSN
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - trainee
-  - class
-  - strong
-  - table
-  - clinical
-  - registered
-  - registration
-  - contents
-  - report
-  - reports
 page_count: 0
 word_count: 24481
 section_count: 43
 table_count: 74
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu8_0p512sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu8_0p512sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu8_0p512sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu8_0p512sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ![](xu-8-512-trainee-registration-core-dataset/001.png)

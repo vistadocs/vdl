@@ -1,21 +1,57 @@
 ---
-consolidated_title: "supervisor's user manual change pages"
-app_code: PSD
+title: PSD*3*73 Supervisor's User Manual Change Pages
 doc_type: UM
-master_source: "PSD*3*73 Supervisor's User Manual Change Pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: Supervisor's Change Pages
+app_code: PSD
+app_name: 'Pharmacy: Controlled Substances'
+section: CLI
+app_status: active
+pkg_ns: PSD
+patch_ver: 3
+patch_id: PSD*3*73
+group_key: PSD:PSD:3
+file_numbers: []
+security_keys:
+- PSD TECH
+- PSD TECH ADV
+- PSDRPH
+menu_options: 2
+description: '> The table below lists changes made since the initial release of this manual. Use the Change Pages document to update an existing manual or use the entire updated manual.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 407
+section_count: 4
+table_count: 0
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: March 1997
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p73_um_supv_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Controlled_Substances/psd_3_p73_um_supv_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=86
+audit_applied: '2026-05-31'
+master_source: PSD*3*73 Supervisor's User Manual Change Pages
 master_pub_date: March 1997
 consolidated_from: 4 versions
 prior_versions:
-  - "PSD*3*69 Supervisor's User Manual Change Pages"
-  - "PSD*3*71 Supervisor's User Manual Change Pages"
-  - "PSD*3*76 Supervisor's User Manual Change Pages"
+- PSD*3*69 Supervisor's User Manual Change Pages
+- PSD*3*71 Supervisor's User Manual Change Pages
+- PSD*3*76 Supervisor's User Manual Change Pages
+consolidated_title: supervisor's user manual change pages
 ---
 
 > ![](psd-3-73-supervisor-s-user-manual-change-pages/001.png)
 
 CONTROLLED SUBSTANCES (CS)
 
-> SUPERVISOR’S USER MANUAL
+> SUPERVISOR'S USER MANUAL
 
 ## Version 3.0
 
@@ -79,7 +115,7 @@ CONTROLLED SUBSTANCES (CS)
 <td><blockquote>
 <p>PSD*3*76</p>
 </blockquote></td>
-<td><p>Updated Glossary with description of patch’s new security key PSDRPH</p>
+<td><p>Updated Glossary with description of patch's new security key PSDRPH</p>
 <p>Updated Index</p>
 <p><mark>REDACTED</mark></p></td>
 </tr>
@@ -102,7 +138,7 @@ CONTROLLED SUBSTANCES (CS)
 <td><blockquote>
 <p>PSD*3*69</p>
 </blockquote></td>
-<td><p>Added description of patch’s new security key PSD TECH ADV, and PSD TECH key.</p>
+<td><p>Added description of patch's new security key PSD TECH ADV, and PSD TECH key.</p>
 <p>Added PSD TECH ADV and PSD TECH key to index <mark>REDACTED</mark></p></td>
 </tr>
 <tr class="odd">
@@ -118,12 +154,12 @@ CONTROLLED SUBSTANCES (CS)
 <td>03/97</td>
 <td></td>
 <td></td>
-<td>Original Released Supervisor’s User Manual.</td>
+<td>Original Released Supervisor's User Manual.</td>
 </tr>
 </tbody>
 </table>
 
-> May 2013 Controlled Substances V. 3.0 i Supervisor’s User Manual
+> May 2013 Controlled Substances V. 3.0 i Supervisor's User Manual
 
 > PSD\*3\*73
 

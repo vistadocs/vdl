@@ -5,44 +5,35 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: BCBU IRISHealth
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
-patch_ver: 3.160
+patch_ver: 3.16
 patch_id: PSB*3.160*160
-group_key: "PSB:PSB:3.160"
+group_key: PSB:PSB:3.160
+description: Bar Code Medication Administration (BCMA) BCMA Backup System (BCBU) InterSystemsIRISHealth Installation and Setup
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 3
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - bcbu
-  - installation
-  - table
-  - contents
-  - irishealth
-  - guide
-  - iris
-  - bcma
-  - workstation
-  - printer
 page_count: 0
 word_count: 2723
 section_count: 13
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_160_BCBU_Workstation_IrisHealth_install_2026_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_160_BCBU_Workstation_IrisHealth_install_2026_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_160_BCBU_Workstation_IrisHealth_install_2026_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_160_BCBU_Workstation_IrisHealth_install_2026_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 Bar Code Medication Administration (BCMA) BCMA Backup System (BCBU) InterSystemsIRISHealth Installation and Setup Guide

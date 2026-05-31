@@ -11,50 +11,43 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3
-group_key: "ACKQ:ACKQ:3"
-file_numbers: 
-  - 2
-  - 200
-  - 8930
-security_keys: []
+group_key: ACKQ:ACKQ:3
+description: '''Quality: Audiology and Speech Analysis and Reporting (QUASAR) is a VISTA software package written for the Audiology and Speech Pathology Service. QUASAR is used to enter, edit, and retrieve data for each episode of care. It provides transmission of visit data to the Patient Care Encounter (PCE) prog'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '44'
+- '200'
+- '8930.3'
+- '509850'
+- '509850.1'
+- '509850.2'
+- '509850.3'
+- '509850.4'
+- '509850.5'
+- '509850.6'
+security_keys:
+- ACKQ ADHOC
+- CLINICIAN
 menu_options: 1
-description: "Quality: Audiology and Speech Analysis and Reporting (QUASAR) is a VISTA software package written for the Audiology and Speech Pathology Service. QUASAR is used to enter, edit, and retrieve data for each episode of care. It provides transmission of visit data to the Patient Care Encounter (PCE) prog"
-audience: 
-keywords: 
-  - table
-  - contents
-  - class
-  - quasar
-  - strong
-  - package
-  - style
-  - width
-  - ackq
-  - intentionally
 page_count: 0
-word_count: 2093
+word_count: 2070
 section_count: 3
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc390185170" class="anchor"></span>Quality Audiology and Speech Analysis and Reporting (QUASAR)
-
-  <span id="_Toc390185171" class="anchor"></span>Technical Manual
----
-
 ![](quasar-version-3-technical-manual-updated-ackq-3-21/001.png)
 
 February 2000

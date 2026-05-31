@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: IVMB
 patch_ver: 2
 patch_id: IVMB*2*491
-group_key: "IVMB:IVMB:2"
+group_key: IVMB:IVMB:2
+description: '- # Installation Instructions - Associated Patch - Patch Dependencies - Install Patch IVMB\2.0\491 - [Schedule the Purple Heart Background...'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [# Installation Instructions](#installation-instructions) - [Associated Patch](#associated-patch) - [Patch Dependencies](#patch-dependencies) - [Install Patch IVMB\2.0\491](#install-patch-ivmb20491) - [Schedule the Purple Heart Background Processor](#schedule-the-purple-heart-background-processor)
-audience: 
-keywords: 
-  - table
-  - patch
-  - purple
-  - heart
-  - press
-  - contents
-  - schedule
-  - installation
-  - access
-  - database
 page_count: 0
 word_count: 1671
 section_count: 8
 table_count: 6
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ph_ivmb_2_491_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ph_ivmb_2_491_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=143"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ph_ivmb_2_491_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Health_Elig_Center_(HEC)/ph_ivmb_2_491_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=143
+audit_applied: '2026-05-31'
 ---
 
 ![](ivmb-2-491-purple-heart-phase-1-installation-guide/001.png)

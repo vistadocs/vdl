@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*56
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: The new Home Oxygen Patient Template Update [RMPR HO PAT TEMPLATE UPDATE] menu option has been added to the Home Oxygen Main Menu. This option will allow users with RMPRSUPERVISOR key to update or change the Home Oxygen Patient template. Under this option, Prosthetics users will be able to update...
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: "<table> <colgroup> <col style=\\"width: 18%\\" /> <col style=\\"width: 81%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td>Introduction</td> <td><blockquote> <p>The new <strong>Home Oxygen Patient Template Update</strong> [RMPR HO PAT TEMPLATE UPDATE] menu option has been added to the <strong>Home Oxygen Mai"
-audience: 
-keywords: 
-  - strong
-  - update
-  - oxygen
-  - blockquote
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - home
 page_count: 0
 word_count: 2274
 section_count: 0
 table_count: 16
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_56.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_56.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_56.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_56.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 RMPR\*3\*56 – Release Notes

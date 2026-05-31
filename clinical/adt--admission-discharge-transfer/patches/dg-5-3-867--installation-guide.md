@@ -11,38 +11,30 @@ app_status: archive
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*867
-group_key: "ADT:DG:5.3"
-file_numbers: []
+group_key: ADT:DG:5.3
+description: This bundle has enhancements that extend the capabilities of the Veterans Health Information Systems and Technology Architecture (VistA) Patient Registration system (DG), Fee Basis System (FB), and Integrated Billing (IB). Below is a list of all the applications involved in this project along with t
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '355.81'
 security_keys: []
 menu_options: 0
-description: This bundle has enhancements that extend the capabilities of the Veterans Health Information Systems and Technology Architecture (VistA) Patient Registration system (DG), Fee Basis System (FB), and Integrated Billing (IB). Below is a list of all the applications involved in this project along with t
-audience: 
-keywords: 
-  - installation
-  - table
-  - contents
-  - newborn
-  - install
-  - bundle
-  - post
-  - mark
-  - patch
-  - distribution
 page_count: 0
 word_count: 1355
 section_count: 6
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_867_cgnb_patch_bundle_dg_fb_ib_1_0_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_867_cgnb_patch_bundle_dg_fb_ib_1_0_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_867_cgnb_patch_bundle_dg_fb_ib_1_0_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_867_cgnb_patch_bundle_dg_fb_ib_1_0_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
 
 NEWBORN DG FB IB PATCH BUNDLEINSTALLATION GUIDE

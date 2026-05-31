@@ -5,44 +5,41 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: BCMA Clinic Orders, High Risk, etc T@Project
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*70
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: PSB:PSB:3
 description: This document provides a feature summary of the Clinic Orders for BCMA functionality and Witness for High Risk/High Alert Drugs for Bar Code Medication Administration (BCMA) v3.0 project, patch PSB\3\70.
-audience: 
-keywords: 
-  - clinic
-  - orders
-  - witness
-  - high
-  - bcma
-  - table
-  - contents
-  - risk
-  - order
-  - medication
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50.7'
+- '53.46'
+security_keys:
+- PSB INSTRUCTOR
+- PSB NO WITNESS
+- PSB READ ONLY
+- PSB STUDENT
+menu_options: 0
 page_count: 0
 word_count: 8725
 section_count: 10
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p70_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-70-bcma-clinic-orders-high-risk-etc-t-project-release-notes/001.png)

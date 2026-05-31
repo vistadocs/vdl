@@ -3,7 +3,7 @@ title: Functional Independence Measurement (FIM) Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: FIM
 app_name: Functional Independence Measurement
 section: CLI
@@ -11,57 +11,35 @@ app_status: active
 pkg_ns: FIM
 patch_ver: 1
 patch_id: FIM*1
-group_key: "FIM:FIM:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: FIM:FIM:1
 description: The Functional Independence Measures (FIM) Version 1.0 provides an integration of FIM assessments into the Computerized Patient Record System (CPRS) and into the Functional Status and Outcomes Database (FSOD) at the Austin Automation Center (AAC). The FIM is an 18-item, 7-level functional assessment
-audience: 
-keywords: 
-  - class
-  - table
-  - contents
-  - even
-  - patient
-  - functional
-  - independence
-  - manual
-  - measurement
-  - version
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+security_keys:
+- ALT
+- RETURN
+- TAB
+- XUPROGMODE
+menu_options: 0
 page_count: 0
-word_count: 12596
+word_count: 12562
 section_count: 44
 table_count: 18
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: May 2003
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 4
 revision_newest: 2/21/2017
 revision_oldest: 4/03/2003
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=134"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Func_Indep_Meas/fim_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=134
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ![](functional-independence-measurement-fim-version-1-user-manual/001.png)
-
-  Functional Independence Measurement (FIM) User Manual
-
-  ![](functional-independence-measurement-fim-version-1-user-manual/002.png)
-
-  Version 1.0
-
-  May 2003
-
-  Department of Veterans Affairs
-
-  VistA System Design and Development
----
-
 # Revision History
 
 

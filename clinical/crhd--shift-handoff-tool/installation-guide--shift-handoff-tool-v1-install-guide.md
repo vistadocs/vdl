@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: CRHD
 patch_ver: 1
 patch_id: CRHD*1
-group_key: "CRHD:CRHD:1"
+group_key: CRHD:CRHD:1
+description: '| Date | Description of Change | Technical Writer, Project Manager | |-----------|-----------------------|------------------------------------| | June 2008 | Initial Release | REDACTED | | | | | | | | | | | | | | | |'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - crhd
-  - install
-  - contents
-  - installation
-  - table
-  - tool
-  - shift
-  - handoff
-  - server
-  - transport
 page_count: 0
-word_count: 1438
+word_count: 1425
 section_count: 6
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=175"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Shift_Handoff_Tool/crhdig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=175
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Shift Handoff Tool
-
-  Installation Guide
-
-  ![](shift-handoff-tool-version-1-install-guide/001.png)
----
-
 Clinician Desktop Service
 
 Veterans Health Information Technology

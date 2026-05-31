@@ -5,44 +5,35 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: Supplemental (updated PSO*7*643)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7
-group_key: "PSO:PSO:7"
+group_key: PSO:PSO:7
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: <span id="_top" class="anchor"></span>OUTPATIENT PHARMACY (PSO)SUPPLEMENTAL USER MANUAL
-audience: 
-keywords: 
-  - table
-  - strong
-  - pharmacy
-  - order
-  - label
-  - contents
-  - outpatient
-  - days
-  - prescription
-  - class
 page_count: 0
 word_count: 11653
 section_count: 18
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_sup_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_sup_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_sup_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_sup_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 <span id="_top" class="anchor"></span>OUTPATIENT PHARMACY (PSO)SUPPLEMENTAL USER MANUAL

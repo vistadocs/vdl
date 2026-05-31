@@ -11,47 +11,33 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*306
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 3
+group_key: CPRS:OR:3
 description: The Computerized Patient Record System (CPRS) Graphical User Interface (GUI) is a Veterans Health Information Systems and Technology Architecture (VistA) computer application. CPRS enables you to enter, review, and continuously update information connected with a patient. With CPRS, you can order la
-audience: 
-keywords: 
-  - install
-  - cprs
-  - installation
-  - table
-  - contents
-  - correct
-  - patch
-  - filed
-  - distribution
-  - package
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '7115.1'
+security_keys:
+- CLINICIAN
+- PROVIDER
+menu_options: 3
 page_count: 0
-word_count: 10793
+word_count: 10777
 section_count: 20
 table_count: 1
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Computerized Patient Record System Graphical User Interface (CPRS GUI)
----
-
 Installation Guide
 
 Version 29

@@ -5,44 +5,35 @@ doc_label: User Manual
 doc_layer: anchor
 doc_subject: Instruments
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: '- TBI View Last Three Instruments Button - TBI View All Instruments Button - TBI View Notes Hyperlink - Participation Index (M2PI) - [Rehabilitation and...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [TBI View Last Three Instruments Button](#tbi-view-last-three-instruments-button) - [TBI View All Instruments Button](#tbi-view-all-instruments-button) - [TBI View Notes Hyperlink](#tbi-view-notes-hyperlink) - [Participation Index (M2PI)](#participation-index-m2pi) - [Rehabilitation and Reintegrat
-audience: 
-keywords: 
-  - span
-  - class
-  - instruments
-  - question
-  - anchor
-  - version
-  - manual
-  - table
-  - figure
-  - contents
 page_count: 0
 word_count: 13501
 section_count: 5
 table_count: 32
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2018
 revision_count: 23
 revision_newest: 3/16/2018
 revision_oldest: 1/15/2011
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiinsum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiinsum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiinsum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiinsum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

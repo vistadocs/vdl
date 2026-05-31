@@ -3,7 +3,7 @@ title: EAS Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EAS
 app_name: Enrollment Application System
 section: FIN
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: EAS
 patch_ver: 1
 patch_id: EAS*1
-group_key: "EAS:EAS:1"
-file_numbers: []
+group_key: EAS:EAS:1
+description: '- # Revision History - # Introduction - Process Overview - # Using the Software - 1010EZ Processing via List Manager - [VA Form 1010EZ Application...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '355.33'
+- '712'
+- '1010'
 security_keys: []
 menu_options: 0
-description: - [# Revision History](#revision-history) - [# Introduction](#introduction) - [Process Overview](#process-overview) - [# Using the Software](#using-the-software) - [1010EZ Processing via List Manager](#1010ez-processing-via-list-manager) - [VA Form 1010EZ Application Status](#va-form-1010ez-applicat
-audience: 
-keywords: 
-  - application
-  - patient
-  - form
-  - easpatient
-  - applicant
-  - enrollment
-  - action
-  - processing
-  - clerk
-  - status
 page_count: 0
 word_count: 19157
 section_count: 22
 table_count: 4
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=121"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Enrollment_App_Sys_(EAS)/eas_1_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=121
+audit_applied: '2026-05-31'
 ---
 
 ![](eas-version-1-user-manual/001.png)

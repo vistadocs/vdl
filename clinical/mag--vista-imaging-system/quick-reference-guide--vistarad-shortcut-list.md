@@ -3,52 +3,38 @@ title: VistARAD Shortcut List
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Keyboard shortcuts that can be used with VistARad are described below. Each set of shortcuts is grouped by function and/or workflow. For detailed information about operations associated with these shortcuts, see the VistARad User Guide.'
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "--- title: <span id=\\"VistARad_Shortcut_Keys\\" class=\\"anchor\\"></span>VistARad Shortcut Keys ---"
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - even
-  - style
-  - width
-  - table
-  - colgroup
-  - thead
-  - tbody
 page_count: 0
-word_count: 2289
+word_count: 2277
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_shortcut_list.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_shortcut_list.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_shortcut_list.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/vistarad_shortcut_list.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="VistARad_Shortcut_Keys" class="anchor"></span>VistARad Shortcut Keys
----
-
 > Keyboard shortcuts that can be used with VistARad are described below. Each set of shortcuts is grouped by function and/or workflow. For detailed information about operations associated with these shortcuts, see the *VistARad User Guide*.
 
 > General Shortcuts

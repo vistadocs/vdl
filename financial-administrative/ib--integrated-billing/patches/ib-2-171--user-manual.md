@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*171
-group_key: "IB:IB:2"
+group_key: IB:IB:2
+description: Integrated Billing V. 2.0User GuideFor Patches IB\*2\*171 and IB\*2\*176Long Term Care Copay Phase
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - billing
-  - charge
-  - copay
-  - patient
-  - date
-  - clock
-  - days
-  - inpt
-  - table
-  - contents
 page_count: 0
 word_count: 3265
 section_count: 10
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_ltc_2_ug2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_ltc_2_ug2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_ltc_2_ug2.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_ltc_2_ug2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 ![](ib-2-171-176-728-ib-long-term-care-ltc-copay-phase-2-user-guide/001.png)

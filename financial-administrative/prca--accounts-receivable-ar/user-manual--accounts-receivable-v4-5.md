@@ -3,7 +3,7 @@ title: Accounts Receivable Version 4.5 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- AR - Accounts Receivable Menu - BRIEF ACCOUNT PROFILE - DEPOSIT MANAGEMENT MENU - CONFIRM DEPOSIT FROM BANK - PROCESS DEPOSIT - [FMS UTILITIES...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 13
-description: - [AR - Accounts Receivable Menu](#ar-accounts-receivable-menu) - [BRIEF ACCOUNT PROFILE](#brief-account-profile) - [DEPOSIT MANAGEMENT MENU](#deposit-management-menu) - [CONFIRM DEPOSIT FROM BANK](#confirm-deposit-from-bank) - [PROCESS DEPOSIT](#process-deposit) - [FMS UTILITIES MENU](accounts-rece
-audience: 
-keywords: 
-  - document
-  - bill
-  - deposit
-  - status
-  - table
-  - number
-  - contents
-  - date
-  - transaction
-  - profile
 page_count: 0
 word_count: 3678
 section_count: 12
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/2acc_rec.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/2acc_rec.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/2acc_rec.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/2acc_rec.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 ![Figure 1 AR](accounts-receivable-version-4-5-user-manual/001.png)

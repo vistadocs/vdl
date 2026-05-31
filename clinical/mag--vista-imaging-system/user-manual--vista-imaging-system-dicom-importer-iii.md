@@ -8,41 +8,46 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''- March 2019 – Revision 16 - Preface - Terms of Use - Document Conventions - Getting Help - Contents - Chapter 1: Introduction - [How the Importer III Client...'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '18'
+- '70'
+- '70.03'
+- '71'
+- '75.1'
+- '79.1'
+- '100'
+- '2006.5759'
+security_keys:
+- IMPORT MEDIA STAG
+- IMPORT MEDIA STAGER
+- IMPORT RECON ARTIFACT
+- IMPORT RECON CONTRACT
+- MAGV IMPORT REPORTS
+- STAGE MEDIA ADV
 menu_options: 2
-description: "- [March 2019 – Revision 16](#march-2019-revision-16) - [Preface](#preface) - [Terms of Use](#terms-of-use) - [Document Conventions](#document-conventions) - [Getting Help](#getting-help) - [Contents](#contents) - [Chapter 1: Introduction](#chapter-1-introduction) - [How the Importer III Client Work"
-audience: 
-keywords: 
-  - importer
-  - dicom
-  - blockquote
-  - media
-  - study
-  - table
-  - client
-  - contents
-  - imaging
-  - import
 page_count: 0
 word_count: 14216
 section_count: 46
 table_count: 4
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicom_importer_iii_user_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicom_importer_iii_user_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicom_importer_iii_user_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/mag_dicom_importer_iii_user_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 > ![](vista-imaging-system-dicom-importer-iii-user-manual/001.png)

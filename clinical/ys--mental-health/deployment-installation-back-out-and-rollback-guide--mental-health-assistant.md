@@ -1,23 +1,49 @@
 ---
-consolidated_title: "mental health assistant deployment, installation, back-out, and rollback guide"
-app_code: YS
+title: YS*5.01*217 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
 doc_type: DIBR
-master_source: "YS*5.01*217 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Mental Health Assistant
+app_code: YS
+app_name: Mental Health
+section: CLI
+app_status: active
+pkg_ns: YS
+patch_ver: 5.01
+patch_id: YS*5.01*217
+group_key: YS:YS:5.01
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |-----------|-------------|-----------------|----------------------| | 12/1/2022 | 1.0 | Initial Version | Liberty IT Solutions'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2131
+section_count: 27
+table_count: 3
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: January 2023
+revision_count: 1
+revision_newest: 12/1/2022
+revision_oldest: 12/1/2022
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_217_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_217_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
+master_source: YS*5.01*217 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
 master_pub_date: January 2023
 consolidated_from: 6 versions
 prior_versions:
-  - "YS*5.01*187 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*204 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*218 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*228 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
-  - "YS*5.01*238 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide"
----
-
----
-title: |
-  Mental Health YS\*5.01\*217
-
-  <span id="_Toc120710156" class="anchor"></span>Deployment, Installation, Back-out, and Rollback Guide
+- YS*5.01*187 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*204 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*218 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*228 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
+- YS*5.01*238 Mental Health Assistant Deployment, Installation, Back-Out, and Rollback Guide
+consolidated_title: mental health assistant deployment, installation, back-out, and rollback guide
 ---
 
 ![](ys-5-01-217-mental-health-assistant-deployment-installation-back-out-and-rollbac/001.png)
@@ -131,7 +157,7 @@ The following describes the roles and responsibilities associated with the testi
 
 The deployment is planned as a simultaneous (National Release) rollout. Once approval has been given to nationally release, YS\*5.01\*217 will be available for installation and deployment at all sites.
 
-Scheduling of test installs, testing, and production deployment will be at the site’s discretion. It is anticipated there will be a 30-day compliance period.
+Scheduling of test installs, testing, and production deployment will be at the site's discretion. It is anticipated there will be a 30-day compliance period.
 
 ## Timeline
 
@@ -213,7 +239,7 @@ There are no pre-installation requirements.
 
 This patch can be loaded with users in the system. Installation time will be less than 5 minutes.
 
-To ensure the integrity of the transport global, use the “Verify Checksums in Transport Global” to compare the checksums with the list that follows:
+To ensure the integrity of the transport global, use the "Verify Checksums in Transport Global" to compare the checksums with the list that follows:
 
 The checksums below are new checksums, and can be checked with CHECK1^XTSUMBLD.
 
@@ -461,7 +487,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This procedure configures or updates VistA so that “MHA Web” appears as a choice on a user’s Tools menu on the CPRS desktop software.
+> This procedure configures or updates VistA so that "MHA Web" appears as a choice on a user's Tools menu on the CPRS desktop software.
 
 > NOTE: If you already have MHA Web on the CPRS Tools Menu, still look carefully at the command as it has changed to launch MHA Web in its own browser instance.
 
@@ -473,7 +499,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The Name=Command is
 
-> MHA Web=cmd /c start msedge.exe -new-window “https://mha.med.va.gov/app/home?station=\<station number\>&poi=%DFN” 
+> MHA Web=cmd /c start msedge.exe -new-window "https://mha.med.va.gov/app/home?station=\<station number\>&poi=%DFN" 
 
 > You need to substitute \<station number\> with your three-digit VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
 
@@ -481,7 +507,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > The Name=Command is
 
-> MHA Web=cmd /c start chrome.exe -new-window “https://mha.med.va.gov/app/home?station=\<station number\>&poi=%DFN” 
+> MHA Web=cmd /c start chrome.exe -new-window "https://mha.med.va.gov/app/home?station=\<station number\>&poi=%DFN" 
 
 > You need to substitute \<station number\> with your three-digit VistA instance station number. NOTE: there is only a single space between -new-window and the quoted URL.
 
@@ -525,7 +551,7 @@ Are you adding 5 as a new Sequence? Yes// \<enter\>  YES 
 
 Sequence: 5// \<enter\>   5 
 
-Name=Command:MHA Web=cmd /c start msedge.exe -new-window “https://mha.med.va.gov/app/home?station=999&poi=%DFN”
+Name=Command:MHA Web=cmd /c start msedge.exe -new-window "https://mha.med.va.gov/app/home?station=999&poi=%DFN"
 
 Select Sequence: \<enter\> 
 

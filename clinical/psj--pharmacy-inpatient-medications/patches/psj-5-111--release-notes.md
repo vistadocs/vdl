@@ -5,44 +5,39 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: IMO/IMR-Phase II
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*111
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: To install the necessary patches, you must install the Computerized Patient Record System (CPRS) V. 1.0 GUI V. 25 multi-package build, following its installation instructions.
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '44'
+- '51.1'
+- '55'
+- '2802'
 security_keys: []
 menu_options: 0
-description: To install the necessary patches, you must install the Computerized Patient Record System (CPRS) V. 1.0 GUI V. 25 multi-package build, following its installation instructions.
-audience: 
-keywords: 
-  - inpatient
-  - order
-  - medication
-  - orders
-  - clinic
-  - medications
-  - cprs
-  - table
-  - contents
-  - outpatients
 page_count: 0
 word_count: 2742
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p111_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p111_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p111_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p111_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 > ![](psj-5-111-release-notes-imo-imr-phase-ii/001.png)

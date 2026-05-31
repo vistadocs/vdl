@@ -11,39 +11,46 @@ app_status: active
 pkg_ns: XT
 patch_ver: 7.3
 patch_id: XT*7.3*98
-group_key: "XT:XT:7.3"
-file_numbers: 
-  - 9
-security_keys: []
+group_key: XT:XT:7.3
+description: The following table displays the revision history for this document. Revisions to the documentation are based on continuous dialog with Infrastructure and Security Services (ISS) Technical Writers and evolving industry standards and
+audience: ''
+keywords: []
+file_numbers:
+- '3.8'
+- '8'
+- '9'
+- '9.4'
+- '9.7'
+- '9.9'
+- '9.95'
+- '10'
+- '11'
+- '12'
+- '13'
+- '19'
+- '200'
+security_keys:
+- PATCH MONITOR MGR
+- PROVIDER
+- XTPM PATCH MONITOR MGR
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patch
-  - monitor
-  - xtpm
-  - class
-  - table
-  - patches
-  - date
-  - span
-  - kids
-  - contents
 page_count: 0
 word_count: 13150
 section_count: 9
 table_count: 79
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xt7_3p98sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xt7_3p98sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xt7_3p98sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/xt7_3p98sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
 
 ![](xt-7-3-98-vista-patch-monitor-supplement-to-patch-desc/001.png)

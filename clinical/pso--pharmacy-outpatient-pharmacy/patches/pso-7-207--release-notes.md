@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Remote Data Interoperability (RDI) Project
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*207
-group_key: "PSO:PSO:7"
+group_key: PSO:PSO:7
+description: '- Introduction - Project Overview - Inpatient Medications - Inpatient Medications V. 5.0 - Outpatient Pharmacy - Outpatient Pharmacy V. 7.0 This...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - order
-  - remote
-  - outpatient
-  - drug
-  - checks
-  - table
-  - contents
-  - medications
-  - inpatient
-  - project
 page_count: 0
 word_count: 1268
 section_count: 4
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-207-remote-data-interoperability-rdi-project-release-notes/001.png)

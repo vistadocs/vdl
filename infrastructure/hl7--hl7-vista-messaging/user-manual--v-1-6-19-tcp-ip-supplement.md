@@ -1,49 +1,44 @@
 ---
-title: "HL7 V. 1.6*19 User Manual: TCP/IP Supplement"
+title: '''HL7 V. 1.6*19 User Manual: TCP/IP Supplement'''
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: 
-  - 773
+patch_id: null
+group_key: HL7::1.6
+description: 2.1. Client and Server Roles in HL7 over TCP/IP 2-1
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '772'
+- '773'
+- '773.10'
+- '869.2'
+- '870'
 security_keys: []
 menu_options: 0
-description: 2.1. Client and Server Roles in HL7 over TCP/IP [2-1](#client-and-server-roles-in-hl7-over-tcpip)
-audience: 
-keywords: 
-  - table
-  - message
-  - contents
-  - logical
-  - listener
-  - link
-  - threaded
-  - strong
-  - messages
-  - setup
 page_count: 0
 word_count: 7342
 section_count: 26
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 1999
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p19.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p19.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p19.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/hl71_6p19.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 ![](hl7-v-1-6-19-user-manual-tcp-ip-supplement/001.png)

@@ -3,7 +3,7 @@ title: XU*8*608/607/672 Lock Manager Supplement to Patch
 doc_type: SUP
 doc_label: Supplement
 doc_layer: patch
-doc_subject: Lock Manager  to Patch
+doc_subject: Lock Manager to Patch
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,40 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*608
-group_key: "XU:XU:8"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8
+description: '''REF: For the current patch history related to this software, see the Patch Module (i.e., Patch User Menu \\[A1AE USER\\]) on FORUM.'''
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '392'
+- '399'
+- '8993'
+- '8993.1'
+- '8993.2'
+security_keys:
+- PF1
+- XULM LOCKS
+- XULM SYSTEM LOCKS
+- XUPROGMODE
 menu_options: 4
-description: "<table> <caption><p><span id=\\"_Toc23169109\\" class=\\"anchor\\"></span>Table : Documentation Symbol Descriptions</p></caption> <colgroup> <col style=\\"width: 14%\\" /> <col style=\\"width: 12%\\" /> <col style=\\"width: 47%\\" /> <col style=\\"width: 24%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th>Date</th> <th>R"
-audience: 
-keywords: 
-  - lock
-  - span
-  - manager
-  - class
-  - mark
-  - xulm
-  - table
-  - edit
-  - locks
-  - kernel
 page_count: 0
-word_count: 9102
+word_count: 9091
 section_count: 10
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_608_sp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_608_sp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_608_sp.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/xu_8_0_608_sp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0: Patches XU\*8.0\*608, 607, and 672
-
-  Lock Manager Supplement to Patch Description
----
-
 ![](xu-8-608-607-672-lock-manager-supplement-to-patch/001.png)
 
 October 2019

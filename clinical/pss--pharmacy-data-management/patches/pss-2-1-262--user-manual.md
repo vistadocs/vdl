@@ -5,44 +5,66 @@ doc_label: User Manual
 doc_layer: patch
 doc_subject: (Updated P*1*262)
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 2.1
 patch_id: PSS*2.1*262
-group_key: "PSS:PSS:2.1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:2.1
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. If the Revised Pages column lists "All," replace the existing manual with the reissued manual. If the Revised Pages column lists individual entries (e.g., 25, 32), either update the...
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '01'
+- '1'
+- '2'
+- '3'
+- '11'
+- '11.1'
+- '13'
+- '31'
+- '32'
+- '32.1'
+- '33'
+- '50'
+- '50.606'
+- '50.68'
+- '50.7'
+- '51'
+- '51.1'
+- '51.2'
+- '51.23'
+- '51.24'
+- '51.242'
+- '51.25'
+- '52.6'
+- '52.7'
+- '53.46'
+- '100.05'
+- '100.3'
+- '101.43'
+security_keys:
+- PROVIDER
+- PSOLOCKCLOZ
+- PSORPH
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - order
-  - dose
-  - drug
-  - dosing
-  - checks
-  - strong
-  - check
-  - unit
-  - dosage
-  - single
 page_count: 0
 word_count: 68223
 section_count: 17
 table_count: 10
 figure_count: 0
 appendix_count: 7
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_DOSING_ORD_CK_p262_UM.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_DOSING_ORD_CK_p262_UM.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_DOSING_ORD_CK_p262_UM.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/PSS_1_DOSING_ORD_CK_p262_UM.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](dosing-order-check-version-2-1-user-manual-updated-p-1-262/001.png)

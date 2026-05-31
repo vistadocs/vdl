@@ -3,7 +3,7 @@ title: Nursing Version 4 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: NUR
 app_name: Nursing
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: NUR
 patch_ver: 4
 patch_id: NUR*4
-group_key: "NUR:NUR:4"
-file_numbers: []
+group_key: NUR:NUR:4
+description: '- Version 4.0 - (Revised January 2000) > April'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '213.9'
 security_keys: []
 menu_options: 0
-description: - [Version 4.0](#version-40) - [(Revised January 2000)](#revised-january-2000) > April 1997
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - reports
-  - nurapr
-  - even
-  - report
-  - patient
-  - nursing
-  - nurs
-  - facility
 page_count: 0
 word_count: 1655
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2000
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=80"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nursing/nurs4_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=80
+audit_applied: '2026-05-31'
 ---
 
 > ![](nursing-version-4-release-notes/001.png)

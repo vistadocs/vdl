@@ -3,53 +3,63 @@ title: VIX Admin Guide
 doc_type: AG
 doc_label: Administrator's Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: archive
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 2006
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> VistA Imaging Exchange (VIX) Administrator''s Guide February'
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '4'
+- '38.1'
+- '43'
+- '70'
+- '71.2'
+- '75.1'
+- '99'
+- '100'
+- '200'
+- '1201'
+- '2005'
+- '2005.2'
+- '2006.67'
+- '2006.94'
+- '2006.941'
+- '2006.942'
+- '2006.9421'
+- '2006.9422'
+- '2006.95'
+security_keys:
+- DG RECORD ACCESS
+- MAG SYSTEM
+- MAG VIX ADMIN
+- VIEW DOD IMAGES
 menu_options: 2
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - strong
-  - class
-  - table
-  - image
-  - contents
-  - blockquote
-  - even
-  - remote
-  - style
-  - width
 page_count: 0
-word_count: 17645
+word_count: 17638
 section_count: 39
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/vix_admin_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/vix_admin_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=413"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/vix_admin_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys_Archive/vix_admin_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=413
+audit_applied: '2026-05-31'
 ---
-
----
-title: VistA Imaging Exchange Administrator’s Guide
----
-
 ![](vix-admin-guide/001.png)
 
 > Department of Veterans Affairs

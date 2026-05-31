@@ -5,57 +5,36 @@ doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
 doc_subject: MDT Phase 1 PSJ*5*445, TIU*1*360, and OR*3*618
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5.445
 patch_id: PSJ*5.445*445
-group_key: "PSJ:PSJ:5.445"
+group_key: PSJ:PSJ:5.445
+description: '| Date | Version | Description | Author | |----------|-------------|-----------------|----------------------| | 03/2025 | | Initial Release | MDT Development Team'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - back
-  - rollback
-  - procedure
-  - deployment
-  - class
-  - team
-  - software
 page_count: 0
-word_count: 2439
+word_count: 2419
 section_count: 31
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_445_tiu_1_360_or_3_618_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_445_tiu_1_360_or_3_618_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_445_tiu_1_360_or_3_618_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_445_tiu_1_360_or_3_618_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  MDT Phase 1
-
-  PSJ\*5\*445, TIU\*1\*360, and OR\*3\*618
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](mdt-phase-1-psj-5-445-tiu-1-360-and-or-3-618-deployment-installation-back-out-an/001.png)
 
 March 2025

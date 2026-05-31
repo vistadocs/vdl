@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
+group_key: PRCA:PRCA:4.5
+description: '- Agent Cashier Menu - Cash Payment - Check/MO Payment - Credit Card Payment - OTHER PAYMENT - [Cancel a Payment...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- PRCAY PAYMENT SUP
 menu_options: 16
-description: - [![](accounts-receivable-version-4-5-user-manual-agent-cashier/001.png) Agent Cashier Menu](#accounts-receivable-version-4-5-user-manual-agent-cashier001png-agent-cashier-menu) - [Cash Payment](#cash-payment) - [Check/MO Payment](#checkmo-payment) - [Credit Card Payment](#credit-card-payment) - [O
-audience: 
-keywords: 
-  - payment
-  - receipt
-  - deposit
-  - table
-  - contents
-  - test
-  - ticket
-  - number
-  - transaction
-  - date
 page_count: 0
 word_count: 5248
 section_count: 23
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/1agentca_r0515.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/1agentca_r0515.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/1agentca_r0515.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/1agentca_r0515.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
 
 # ![](accounts-receivable-version-4-5-user-manual-agent-cashier/001.png) Agent Cashier Menu

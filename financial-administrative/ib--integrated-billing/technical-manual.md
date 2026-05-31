@@ -3,7 +3,7 @@ title: IB*2 Integrated Billing Version 2 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,61 +11,149 @@ app_status: archive
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2
-group_key: "IB:IB:2"
-file_numbers: 
-  - 2
-  - 4
-  - 36
-  - 49
-  - 350
-  - 351
-  - 355
-  - 356
-  - 357
-  - 365
-  - 367
-  - 399
-security_keys: []
+group_key: IB:IB:2
+description: 'Date Description (Patch # if applicable) Project Manager Technical'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '2.312'
+- '3.9'
+- '4'
+- '36'
+- '37'
+- '40.7'
+- '44'
+- '49'
+- '49.99'
+- '50'
+- '52'
+- '59.7'
+- '80'
+- '80.1'
+- '80.2'
+- '142'
+- '200'
+- '344.4'
+- '345'
+- '346'
+- '350'
+- '350.1'
+- '350.2'
+- '350.4'
+- '350.41'
+- '350.6'
+- '350.9'
+- '351'
+- '351.2'
+- '351.52'
+- '351.7'
+- '351.73'
+- '351.82'
+- '351.9'
+- '354'
+- '354.1'
+- '354.3'
+- '355.1'
+- '355.12'
+- '355.3'
+- '355.33'
+- '355.36'
+- '355.4'
+- '355.5'
+- '355.8'
+- '355.81'
+- '355.82'
+- '355.93'
+- '355.99'
+- '356'
+- '356.1'
+- '356.19'
+- '356.22'
+- '356.25'
+- '357'
+- '357.09'
+- '357.1'
+- '357.2'
+- '357.3'
+- '357.4'
+- '357.5'
+- '357.6'
+- '357.69'
+- '357.7'
+- '357.8'
+- '357.91'
+- '357.95'
+- '357.96'
+- '359.2'
+- '359.3'
+- '361'
+- '361.3'
+- '361.4'
+- '364.1'
+- '365'
+- '365.1'
+- '365.11'
+- '365.12'
+- '365.121'
+- '365.19'
+- '366'
+- '366.01'
+- '366.013'
+- '366.02'
+- '366.023'
+- '366.03'
+- '366.033'
+- '366.1'
+- '366.17'
+- '366.2'
+- '367.1'
+- '372'
+- '391.92'
+- '394.61'
+- '394.62'
+- '394.71'
+- '394.81'
+- '394.85'
+- '394.87'
+- '396.3'
+- '396.4'
+- '399'
+- '399.3'
+- '399.5'
+- '399.6'
+- '405'
+- '430'
+- '430.2'
+- '538'
+- '660'
+- '661'
+- '757.01'
+security_keys:
+- ENTER
+- IBCNF EDIT
+- PROVIDER
+- SHIFT
+- VISIT MAINT OVERRIDE
+- XUMGR
 menu_options: 17
-description: 
-audience: 
-keywords: 
-  - class
-  - even
-  - insurance
-  - billing
-  - report
-  - patient
-  - claims
-  - form
-  - edit
-  - bill
 page_count: 0
-word_count: 96325
+word_count: 96313
 section_count: 29
 table_count: 9
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=266"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=266
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Integrated Billing
-
-  Version 2.0
-
-  Technical Manual
----
-
 ![](ib-2-integrated-billing-version-2-technical-manual/001.png)
 
 March 2023

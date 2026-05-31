@@ -5,44 +5,62 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Clinical Ancillary Services (CAS) Inpatient Medication Administration - Transdermal
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*83
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: Clinical Ancillary Services (CAS)Development – Delivery of Pharmacy Enhancements
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '4'
+- '5'
+- '6'
+- '7.4'
+- '7.5'
+- '9'
+- '12'
+- '19'
+- '50.7'
+- '53.1'
+- '53.7'
+- '53.702'
+- '55'
+- '62'
+- '101'
+- '137'
+- '138'
+- '139'
+- '140'
+- '8989.5'
+- '8989.51'
+- '8989.52'
+- '8994'
+security_keys:
+- CLINICIAN
+- ORMGR
+- PSJI MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - install
-  - patch
-  - installation
-  - table
-  - contents
-  - bcma
-  - pssjxr
-  - installing
-  - transport
-  - global
 page_count: 0
 word_count: 6164
 section_count: 21
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2016
 revision_count: 8
 revision_newest: 12/6/16
 revision_oldest: 11/12/15
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p83_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 Clinical Ancillary Services (CAS)Development – Delivery of Pharmacy Enhancements (DDPE)

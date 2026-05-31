@@ -3,7 +3,7 @@ title: VSM Version 4 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: KMPV
 app_name: VistA System Monitor (VSM)
 section: INF
@@ -11,48 +11,63 @@ app_status: active
 pkg_ns: KMPV
 patch_ver: 4
 patch_id: KMPV*4
-group_key: "KMPV:KMPV:4"
-file_numbers: 
-  - 8969
-security_keys: []
+group_key: KMPV:KMPV:4
+description: The purpose of this guide is to provide instructions for use and maintenance of the Veterans Health Information Systems and Technology Architecture (VistA) Capacity and Performance Engineering (CPE) VistA System Monitor (VSM) 4.0 software, which is the third iteration of data collected as the overal
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.01'
+- '1.02'
+- '1.03'
+- '1.04'
+- '1.05'
+- '1.06'
+- '1.07'
+- '1.08'
+- '1.09'
+- '2'
+- '2.01'
+- '2.02'
+- '2.03'
+- '3.01'
+- '3.02'
+- '3.03'
+- '3.04'
+- '3.075'
+- '4.01'
+- '4.02'
+- '4.03'
+- '4.04'
+- '9.4'
+- '19'
+- '101'
+- '409.61'
+- '773'
+- '8969'
+- '8969.02'
+- '8969.03'
+security_keys:
+- KMPVOPS
+- PF1
+- XUPROGMODE
 menu_options: 1
-description: "--- title: | <span id=\\"_Toc186420068\\" class=\\"anchor\\"></span>VistA System Monitor (VSM) 4.0"
-audience: 
-keywords: 
-  - strong
-  - table
-  - class
-  - monitor
-  - contents
-  - kmpv
-  - span
-  - vista
-  - metric
-  - routine
 page_count: 0
-word_count: 15389
+word_count: 15376
 section_count: 46
 table_count: 12
 figure_count: 2
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=218"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/VistA_System_Monitor_(VSM)/kmp_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=218
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc186420068" class="anchor"></span>VistA System Monitor (VSM) 4.0
-
-  Technical Manual
----
-
 ![](vsm-version-4-technical-manual/001.png)
 
 January 2024

@@ -1,48 +1,39 @@
 ---
-title: "LA*5.2*480 Laboratory: Universal Interface Micro Installation Guide"
+title: '''LA*5.2*480 Laboratory: Universal Interface Micro Installation Guide'''
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: "Laboratory: Universal Interface Micro"
+doc_subject: '''Laboratory: Universal Interface Micro'''
 app_code: LA
-app_name: "Laboratory: Universal Interface"
+app_name: 'Laboratory: Universal Interface'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*480
-group_key: "LA:LA:5.2"
+group_key: LA:LA:5.2
+description: '| Date | Version | Description | Author | |------------|---------|---------------------|------------------------------------| | 02/08/2017 | 1.0 | Document baselined. | REDACTED'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - back
-  - rollback
-  - procedure
-  - patch
-  - strong
-  - instructions
-  - class
 page_count: 0
 word_count: 2534
 section_count: 28
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2017
 revision_count: 1
 revision_newest: 02/08/2017
 revision_oldest: 02/08/2017
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/micro_lr_5_2_480_install_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/micro_lr_5_2_480_install_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=120"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/micro_lr_5_2_480_install_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Universal_Interface/micro_lr_5_2_480_install_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=120
+audit_applied: '2026-05-31'
 ---
 
 VistA Laboratory Enhancements (VLE) –Microbiology

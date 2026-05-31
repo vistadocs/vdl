@@ -8,42 +8,90 @@ app_code: ACR
 app_name: Ambulatory Care Reporting
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 44
-security_keys: []
-menu_options: 17
+pkg_ns: SD
+patch_ver: null
+patch_id: null
+group_key: null
 description: This section defines the HL7 message transactions that are necessary to support the outpatient database interface for the Austin Information Technology Center (AITC), (formerly the Austin Automation Center (AAC)).
-audience: 
-keywords: 
-  - strong
-  - class
-  - table
-  - patient
-  - contents
-  - even
-  - style
-  - width
-  - date
-  - message
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '2.98'
+- '3'
+- '3.2'
+- '3.2055'
+- '3.5'
+- '4.2'
+- '6'
+- '8.1'
+- '9'
+- '10'
+- '13'
+- '19'
+- '26.11'
+- '26.14'
+- '26.15'
+- '39.6'
+- '40.7'
+- '42.4'
+- '43'
+- '44.003'
+- '55'
+- '80'
+- '81'
+- '81.3'
+- '100.21'
+- '101'
+- '113'
+- '200'
+- '216'
+- '361'
+- '389.9'
+- '390'
+- '391.71'
+- '404.01'
+- '404.02'
+- '404.48'
+- '404.91'
+- '408.32'
+- '409.43'
+- '409.68'
+- '771'
+- '801'
+- '802'
+- '803'
+- '810.9'
+- '870'
+- '999.2'
+- '4903'
+- '8925'
+- '8925.1'
+- '8930.3'
+- '8989.5'
+- '8989.51'
+security_keys:
+- PROVIDER
+- XUPROGMODE
+menu_options: 17
 page_count: 0
 word_count: 64992
 section_count: 111
 table_count: 76
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_pimstm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_pimstm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=116"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_pimstm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Ambulatory_Care_Reporting/acr_p_pimstm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=116
+audit_applied: '2026-05-31'
 ---
 
 Patient Information Management System (PIMS)Patient Registration, Admission, Discharge, Transfer, And Appointment SchedulingTechnical Manual

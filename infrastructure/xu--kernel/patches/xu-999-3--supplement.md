@@ -5,44 +5,37 @@ doc_label: Supplement
 doc_layer: patch
 doc_subject: VISTA STATE file (5) Information Patch
 app_code: XU
-app_name: Standard Files and Tables
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 999
 patch_id: XU*999*3
-group_key: "XU:XU:999"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: XU:XU:999
 description: 1\) Use the VA FileMan option ENTER OR EDIT FILE ENTRIES to make all recommended modifications to the VISTA STATE file (#5).
-audience: 
-keywords: 
-  - state
-  - edit
-  - vista
-  - entry
-  - entries
-  - example
-  - county
-  - instructions
-  - fileman
-  - your
+audience: ''
+keywords: []
+file_numbers:
+- '5'
+- '158.9'
+security_keys: []
+menu_options: 1
 page_count: 0
 word_count: 855
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/vista_state_patch_xu_999_3.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/vista_state_patch_xu_999_3.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=26"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/vista_state_patch_xu_999_3.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Standard_Files_Tables/vista_state_patch_xu_999_3.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=26
+audit_applied: '2026-05-31'
 ---
 
 ==================================================================

@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*306
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '''Below is a list of patches that you must verify are properly installed on your system before OR\\3.0\\306 can be installed:'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: <span class="smallcaps">CPRS GUI v.29 (Patch# OR\3.0\306)</span><span class="smallcaps">Release Notes</span>
-audience: 
-keywords: 
-  - cprs
-  - problem
-  - span
-  - resolution
-  - developers
-  - term
-  - remedy
-  - order
-  - code
-  - orders
 page_count: 0
 word_count: 4198
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=61"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)/or_30_306_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=61
+audit_applied: '2026-05-31'
 ---
 
 <span class="smallcaps">CPRS GUI v.29 (Patch# OR\*3.0\*306)</span><span class="smallcaps">Release Notes</span>

@@ -3,7 +3,7 @@ title: PIMS Version 5.3 ADT Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: ADT
 app_name: Admission Discharge Transfer
 section: CLI
@@ -11,41 +11,152 @@ app_status: archive
 pkg_ns: ADT
 patch_ver: 5.3
 patch_id: ADT*5.3
-group_key: "ADT:ADT:5.3"
-file_numbers: 
-  - 33
-  - 47
-  - 409
-security_keys: []
-menu_options: 7
+group_key: ADT:ADT:5.3
 description: This section defines the HL7 message transactions that are necessary to support the outpatient database interface for the Austin Information Technology Center (AITC), (formerly the Austin Automation Center \[AAC\]).
-audience: 
-keywords: 
-  - strong
-  - table
-  - class
-  - patient
-  - contents
-  - patch
-  - span
-  - routines
-  - even
-  - date
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '2'
+- '2.025'
+- '2.101'
+- '2.1653'
+- '2.1654'
+- '2.1656'
+- '2.191'
+- '2.307'
+- '2.3215'
+- '3'
+- '3.2'
+- '3.2055'
+- '3.5'
+- '4.2'
+- '5'
+- '6'
+- '8'
+- '8.1'
+- '10'
+- '10.99'
+- '11'
+- '11.99'
+- '12.11'
+- '12.12'
+- '13'
+- '13.99'
+- '16'
+- '18.02'
+- '18.12'
+- '19'
+- '19.2'
+- '20'
+- '21'
+- '23'
+- '25'
+- '25.11'
+- '26.11'
+- '26.14'
+- '26.15'
+- '26.22'
+- '27.11'
+- '33.1'
+- '33.12'
+- '33.2'
+- '33.3'
+- '38.6'
+- '39.6'
+- '41.9'
+- '42'
+- '42.4'
+- '43'
+- '44'
+- '45'
+- '45.02'
+- '46.3'
+- '46.4'
+- '46.5'
+- '47.77'
+- '47.78'
+- '50.22'
+- '55'
+- '76'
+- '80'
+- '81'
+- '81.3'
+- '90'
+- '99.97'
+- '99.98'
+- '99.99'
+- '99.991'
+- '100.21'
+- '101'
+- '135'
+- '200'
+- '216'
+- '222'
+- '223'
+- '224'
+- '240'
+- '281'
+- '283'
+- '290'
+- '297'
+- '301.92'
+- '308'
+- '310'
+- '361'
+- '389.9'
+- '390'
+- '391.71'
+- '404.01'
+- '404.02'
+- '405'
+- '405.2'
+- '406'
+- '408.32'
+- '408.43'
+- '409.43'
+- '409.68'
+- '409.88'
+- '420'
+- '771'
+- '801'
+- '802'
+- '803'
+- '818'
+- '870'
+- '991.11'
+- '999.2'
+- '1100.07'
+- '4903'
+- '8925'
+- '8925.1'
+- '8930.3'
+- '8989.5'
+- '8989.51'
+- '36215'
+security_keys:
+- DG SECURITY OFFICER
+- DGPNC
+- PROVIDER
+- XUPROGMODE
+menu_options: 7
 page_count: 0
 word_count: 66011
 section_count: 106
 table_count: 87
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adt_pims_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adt_pims_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adt_pims_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/adt_pims_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
 
 Patient Information Management System (PIMS) Software Version 5.3Patient Registration and Admission, Discharge, Transfer (ADT)Technical Manual

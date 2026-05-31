@@ -1,49 +1,92 @@
 ---
-title: "Kernel Toolkit Technical Manual: Currently being absorbed by Kernel Technical Manual"
+title: '''Kernel Toolkit Technical Manual: Currently being absorbed by Kernel Technical Manual'''
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: plain
-doc_subject: "Kernel Toolkit : Currently being absorbed by Kernel"
+doc_subject: '''Kernel Toolkit : Currently being absorbed by Kernel'''
 app_code: XT
 app_name: Kernel Toolkit
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: 
-  - 2
-security_keys: []
+pkg_ns: XT
+patch_ver: null
+patch_id: null
+group_key: null
+description: The purpose of this manual is to provide information about the structure of the set of software utilities known as the Kernel Toolkit (also referred to as "Toolkit"). This manual consists of technical material specifically intended for DHCP systems managers and
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '1.2'
+- '2'
+- '3.091'
+- '3.5'
+- '3.54'
+- '3.6'
+- '3.9'
+- '4'
+- '5'
+- '7'
+- '9'
+- '9.2'
+- '9.4'
+- '10'
+- '11'
+- '15'
+- '15.1'
+- '19'
+- '19.1'
+- '20'
+- '21'
+- '22'
+- '29'
+- '30'
+- '31'
+- '32'
+- '58'
+- '69'
+- '75'
+- '76'
+- '80'
+- '80.1'
+- '81'
+- '101'
+- '8980'
+- '8984.1'
+- '8984.2'
+- '8984.3'
+- '8984.4'
+- '8986.095'
+- '8986.3'
+- '8986.5'
+- '8986.51'
+- '8986.6'
+- '8987.1'
+- '8987.2'
+- '8991'
+- '8991.2'
+security_keys:
+- XUMGR
+- XUPROGMODE
+- XUSPY
 menu_options: 12
-description: 
-audience: 
-keywords: 
-  - class
-  - strong
-  - even
-  - routine
-  - table
-  - duplicate
-  - toolkit
-  - package
-  - contents
-  - options
 page_count: 0
 word_count: 20171
 section_count: 20
 table_count: 28
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=12"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Toolkit/ktk7_3tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=12
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

@@ -3,46 +3,41 @@ title: BCMA Version 3 Pharmacy CHUI User Manual (PSB*3*106)
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Pharmacy CHUI  (PSB*3*106)
+doc_subject: Pharmacy CHUI (PSB*3*106)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*106
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: '- Revision History - # INTRODUCTION - What is BCMA? - Features of BCMA - # About This Manual - Special Notations—Documentation Conventions - [Package...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '43'
+- '50'
+- '200'
+security_keys:
+- PF1
 menu_options: 2
-description: - [Revision History](#revision-history) - [# INTRODUCTION](#introduction) - [What is BCMA?](#what-is-bcma) - [Features of BCMA](#features-of-bcma) - [# About This Manual](#about-this-manual) - [Special Notations—Documentation Conventions](#special-notationsdocumentation-conventions) - [Package Conve
-audience: 
-keywords: 
-  - report
-  - medication
-  - prompt
-  - press
-  - pharmacy
-  - dose
-  - administration
-  - bcma
-  - patient
-  - drug
 page_count: 0
 word_count: 7824
 section_count: 22
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P106_pharm_chui_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P106_pharm_chui_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P106_pharm_chui_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P106_pharm_chui_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](bcma-version-3-pharmacy-chui-user-manual-psb-3-106/001.png)

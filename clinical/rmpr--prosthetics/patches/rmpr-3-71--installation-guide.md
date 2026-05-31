@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: RMPR
 patch_ver: 3
 patch_id: RMPR*3*71
-group_key: "RMPR:RMPR:3"
+group_key: RMPR:RMPR:3
+description: '- [Patch RMPR\3\71 Installation'
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: - [Patch RMPR\3\71 Installation Guide](#patch-rmpr371-installation-guide) ![](rmpr-3-71-nppd-detail-display-gui-installation-guide/001.png) PROSTHETICS NPPD DETAIL DISPLAYPATCH RMPR\3\71INSTALLATION GUIDE
-audience: 
-keywords: 
-  - table
-  - colgroup
-  - style
-  - width
-  - tbody
-  - blockquote
-  - strong
-  - class
-  - installation
-  - continued
 page_count: 0
 word_count: 2813
 section_count: 2
 table_count: 16
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_71ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_71ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=96"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_71ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Prothestics/rmpr_3_71ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=96
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

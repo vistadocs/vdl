@@ -11,51 +11,38 @@ app_status: archive
 pkg_ns: DG
 patch_ver: 5.3
 patch_id: DG*5.3*933
-group_key: "ADT:DG:5.3"
-file_numbers: []
+group_key: ADT:DG:5.3
+description: '| Date | Version | Description | Author | |---------|---------|----------------------|------------------------------------| | 02/2018 | 1.0 | Delivery to Customer | redacted'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '10'
+- '10.99'
+- '11'
+- '11.99'
+- '13'
+- '13.99'
+- '99'
 security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - patch
-  - installation
-  - routine
-  - back
-  - prompt
-  - dgmf
-  - procedure
-  - global
+menu_options: 4
 page_count: 0
-word_count: 5547
+word_count: 5520
 section_count: 31
 table_count: 6
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_933_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_933_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=327"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_933_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Admis_Disch_Transfer_(ADT)_Archive/dg_5_3_933_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=327
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Collaborative Terminology Tooling & Data Management (CTT&DM)
-
-  Native Domain Standardization (NDS)
-
-  Demographics (DG\*5.3\*933)
-
-  Deployment, Installation, Back-Out, and Rollback Guide
----
-
 ![](dg-5-3-933-ctt-dm-nds-demographics-dibrg/001.png)
 
 February 2018

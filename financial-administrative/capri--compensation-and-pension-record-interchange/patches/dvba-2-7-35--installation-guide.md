@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*35
-group_key: "CAPRI:DVBA:2.7"
-file_numbers: []
+group_key: CAPRI:DVBA:2.7
+description: '- [Connection with the RPC'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '11'
+- '396.1'
+- '396.3'
 security_keys: []
 menu_options: 0
-description: - [Connection with the RPC Broker](#connection-with-the-rpc-broker) ![](dvba-2-7-35-server-side-modifications-amie-ii-capri-install-guide-rel-notes/001.png)
-audience: 
-keywords: 
-  - dvbab
-  - summary
-  - capri
-  - report
-  - health
-  - install
-  - dvba
-  - installation
-  - patch
-  - limit
 page_count: 0
 word_count: 2550
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2001
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_35_igrn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_35_igrn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_35_igrn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_35_igrn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

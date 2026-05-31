@@ -3,7 +3,7 @@ title: ASISTS GUI Version 2 Security Guide
 doc_type: SG
 doc_label: Security Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,39 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2
-group_key: "OOPS:OOPS:2"
-file_numbers: []
-security_keys: []
+group_key: OOPS:OOPS:2
+description: Automated Safety Incident Surveillance Tracking System (ASISTS) V. 2.0Graphical User Interface (GUI)Security Guide"SENSITIVE INFORMATION"June 2002
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '2261.1'
+- '2262.1'
+- '2263'
+- '2263.1'
+- '2263.2'
+- '2263.3'
+- '2263.5'
+- '2263.6'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: Automated Safety Incident Surveillance Tracking System (ASISTS) V. 2.0Graphical User Interface (GUI)Security Guide“SENSITIVE INFORMATION”June 2002
-audience: 
-keywords: 
-  - table
-  - contents
-  - asists
-  - security
-  - signature
-  - electronic
-  - access
-  - record
-  - codes
-  - management
 page_count: 0
 word_count: 1634
 section_count: 20
 table_count: 5
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2002
 revision_count: 1
 revision_newest: 09/02/08
 revision_oldest: 09/02/08
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0security_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0security_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0security_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0security_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ![](asists-gui-version-2-security-guide/001.png)

@@ -3,7 +3,7 @@ title: PRCN Version 1 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PRCN
 app_name: Equipment / Turn-In Request
 section: FIN
@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: PRCN
 patch_ver: 1
 patch_id: PRCN*1
-group_key: "PRCN:PRCN:1"
-file_numbers: []
+group_key: PRCN:PRCN:1
+description: '> Installation Guide/Release Notes (combined or separate documents) User Manual'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '3.1'
+- '200'
+- '410'
+- '410.7'
+- '411'
+- '413.11'
+- '440'
+- '6914'
+- '6928'
 security_keys: []
 menu_options: 12
-description: > [Installation Guide/Release Notes (combined or separate documents) User Manual](#table-of-contents)
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - href
-  - bookmark
-  - equipment
-  - turn
-  - request
-  - class
-  - chapter
 page_count: 0
 word_count: 4925
 section_count: 2
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=113"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Equip_Turn-In_Request/prcn_1_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=113
+audit_applied: '2026-05-31'
 ---
 
 > [Department of Veterans Affairs Decentralized Hospital Computer Program](\l)

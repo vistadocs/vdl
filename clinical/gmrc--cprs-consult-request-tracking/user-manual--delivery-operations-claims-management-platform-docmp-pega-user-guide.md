@@ -1,59 +1,40 @@
 ---
-title: Delivery Operations Claims Management Platform (DOCMP) â€“ Pega User Guide
+title: Delivery Operations Claims Management Platform (DOCMP) – Pega User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: plain
-doc_subject: Delivery Operations Claims Management Platform (DOCMP) â€“ Pega
+doc_subject: Delivery Operations Claims Management Platform (DOCMP) – Pega
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: GMRC
+patch_ver: null
+patch_id: null
+group_key: null
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - work
-  - items
-  - span
-  - docmp
-  - document
-  - queue
-  - claims
-  - number
-  - button
-  - supervisor
 page_count: 0
-word_count: 23914
+word_count: 23897
 section_count: 20
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: January 2026
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/docmp_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/docmp_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/docmp_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/docmp_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Delivery Operations Claims Management Platform (DOCMP)
-
-  Software Version 23.6
-
-  User Guide
----
-
 ![](delivery-operations-claims-management-platform-docmp-pega-user-guide/001.png)
 
 January 2026

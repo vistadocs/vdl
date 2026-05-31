@@ -3,7 +3,7 @@ title: Record Tracking Version 1 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: RT
 app_name: Record Tracking
 section: FIN
@@ -11,38 +11,43 @@ app_status: active
 pkg_ns: RT
 patch_ver: 1
 patch_id: RT*1
-group_key: "RT:RT:1"
-file_numbers: []
-security_keys: []
+group_key: RT:RT:1
+description: '| | | | | |----------|---------------------------------------|---------------------|----------------------| | Date | Description (Patch \# if applic.) | Project Manager | Technical Writer | | 3/30/09 | Reformatted Manual | | REDACTED'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '42'
+- '44'
+- '190'
+- '190.1'
+- '190.2'
+- '190.3'
+- '194.2'
+- '194.5'
+- '195.4'
+- '195.9'
+- '200'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: - [# Installation](#installation) - [# Appendix I](#appendix-i) - [# Appendix II](#appendix-ii) - [# Appendix III](#appendix-iii) 1\. Record Tracking will use ^TMP instead of ^UTILITY for scratch globals. An exception is ^UTILITY("RTDPTSORT") which is used in initialization options and to generate r
-audience: 
-keywords: 
-  - filed
-  - rtini
-  - routine
-  - record
-  - added
-  - shall
-  - write
-  - over
-  - pull
-  - existing
 page_count: 0
 word_count: 2534
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 1
 revision_newest: 3/30/09
 revision_oldest: 3/30/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=53"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Record_Tracking/rtig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=53
+audit_applied: '2026-05-31'
 ---
 
 ![](record-tracking-version-1-installation-guide/001.png)

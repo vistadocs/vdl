@@ -3,7 +3,7 @@ title: GCS Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GEN
 app_name: Generic Code Sheet (GCS)
 section: FIN
@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: GEN
 patch_ver: 2
 patch_id: GEN*2
-group_key: "GEN:GEN:2"
-file_numbers: []
+group_key: GEN:GEN:2
+description: Step 7. Move version 2.0 routines to all systems
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '0'
+- '2.0'
 security_keys: []
 menu_options: 0
-description: - [Installation](#installation) - [Step 1. Print local modifications (optional)](#step-1-print-local-modifications-optional) - [Step 2. Users off the system (optional)](#step-2-users-off-the-system-optional) - [Step 3. Remove version 1.5 routines (mandatory)](#step-3-remove-version-15-routines-manda
-audience: 
-keywords: 
-  - mail
-  - filed
-  - domain
-  - router
-  - batch
-  - step
-  - gecs
-  - code
-  - error
-  - checking
 page_count: 0
 word_count: 2548
 section_count: 11
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1995
 revision_count: 2
 revision_newest: 12/22/04
 revision_oldest: 12/22/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2inst.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2inst.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=7"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2inst.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Generic_Code_Sheet_(GCS)/gcs2inst.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=7
+audit_applied: '2026-05-31'
 ---
 
 Decentralized Hospital Computer Program

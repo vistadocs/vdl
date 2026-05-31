@@ -11,38 +11,29 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.1.2
 patch_id: EDIS*2.1.2
-group_key: "EDIS:EDIS:2.1.2"
+group_key: EDIS:EDIS:2.1.2
+description: Department of Veterans AffairsEmergency Department Integration Software
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - blockquote
-  - table
-  - contents
-  - class
-  - even
-  - health
-  - java
-  - veterans
-  - patient
-  - technology
 page_count: 0
 word_count: 7178
 section_count: 79
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 6
 revision_newest: 10/17/2014
 revision_oldest: 05/12/2013
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_glossary.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_glossary.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_glossary.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_1_2_glossary.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
 
 Department of Veterans AffairsEmergency Department Integration Software (EDIS)Glossary

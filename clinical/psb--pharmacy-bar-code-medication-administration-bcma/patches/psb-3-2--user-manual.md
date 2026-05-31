@@ -3,46 +3,37 @@ title: PSB*3*2 BCMA Version 3 Pharmacy CHUI User Manual Change Pages
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: BCMA Version 3 Pharmacy CHUI  Change Pages
+doc_subject: BCMA Version 3 Pharmacy CHUI Change Pages
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*2
-group_key: "PSB:PSB:3"
+group_key: PSB:PSB:3
+description: '- Revision History - BCMA Menu—Pharmacy Option - Using the Medication Administration Menu Pharmacy Option - [Using ScreenMan Format to Request a...'
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: - [Revision History](#revision-history) - [BCMA Menu—Pharmacy Option](#bcma-menupharmacy-option) - [Using the Medication Administration Menu Pharmacy Option](#using-the-medication-administration-menu-pharmacy-option) - [Using ScreenMan Format to Request a Report](#using-screenman-format-to-request-a
-audience: 
-keywords: 
-  - report
-  - label
-  - exhibit
-  - prompt
-  - press
-  - pharmacy
-  - dose
-  - strong
-  - code
-  - table
 page_count: 0
 word_count: 2358
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p2_chui_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p2_chui_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p2_chui_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p2_chui_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-2-bcma-version-3-pharmacy-chui-user-manual-change-pages/001.png)

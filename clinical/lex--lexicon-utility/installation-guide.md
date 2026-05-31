@@ -3,7 +3,7 @@ title: Clinical Lexicon Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: LEX
 app_name: Lexicon Utility
 section: CLI
@@ -11,38 +11,41 @@ app_status: active
 pkg_ns: LEX
 patch_ver: 2
 patch_id: LEX*2
-group_key: "LEX:LEX:2"
-file_numbers: []
-security_keys: []
+group_key: LEX:LEX:2
+description: '> CPT five-digit codes and/or descriptions only are © Copyright 1988 American Medical Association. All rights reserved.'
+audience: '> The intended audience for this publication is VAMC IRM staff.'
+keywords: []
+file_numbers:
+- '2'
+- '9'
+- '12'
+- '26'
+- '200'
+- '757.001'
+- '757.011'
+- '757.06'
+- '757.2'
+- '757.4'
+- '757.41'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: > CPT five-digit codes and/or descriptions only are © Copyright 1988 American Medical Association. All rights reserved.
-audience: > The intended audience for this publication is VAMC IRM staff.
-keywords: 
-  - blockquote
-  - class
-  - strong
-  - table
-  - lexicon
-  - contents
-  - installation
-  - style
-  - width
-  - defaults
 page_count: 0
 word_count: 6200
 section_count: 12
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1996
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexig2_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexig2_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=76"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexig2_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lexicon_Utility/lexig2_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=76
+audit_applied: '2026-05-31'
 ---
 
 > ![](clinical-lexicon-version-2-installation-guide/001.png)

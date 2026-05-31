@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4*132
-group_key: "PRS:PRS:4"
-file_numbers: []
+group_key: PRS:PRS:4
+description: This patch introduces the functionality changes that must be made to the VistA Personnel and Accounting Integrated Data/Enhanced Time and Attendance (PAID/ETA) software to support the Telework Enhancement Act of 2010 (Public Law 111-292), approved by President Barack Obama on December 9, 2010. The a
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '19'
+- '450'
+- '496'
 security_keys: []
 menu_options: 0
-description: This patch introduces the functionality changes that must be made to the VistA Personnel and Accounting Integrated Data/Enhanced Time and Attendance (PAID/ETA) software to support the Telework Enhancement Act of 2010 (Public Law 111-292), approved by President Barack Obama on December 9, 2010. The a
-audience: 
-keywords: 
-  - installation
-  - time
-  - table
-  - patch
-  - contents
-  - install
-  - options
-  - paid
-  - kids
-  - transport
 page_count: 0
 word_count: 1281
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Upgrade ETA For Telework

@@ -3,46 +3,37 @@ title: PSGW*2.3*13 Automatic Replenishment/Ward Stock User Manual Change Pages
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Automatic Replenishment/Ward Stock  Change Pages
+doc_subject: Automatic Replenishment/Ward Stock Change Pages
 app_code: AR/WS
-app_name: "Pharmacy: Automatic Replenish / Ward Stock"
+app_name: 'Pharmacy: Automatic Replenish / Ward Stock'
 section: CLI
 app_status: active
 pkg_ns: PSGW
 patch_ver: 2.3
 patch_id: PSGW*2.3*13
-group_key: "AR/WS:PSGW:2.3"
+group_key: AR/WS:PSGW:2.3
+description: The Standard Cost Report lists the cost for items in one AOU, several AOUs, all AOUs, or an inventory group. This cost represents the dollar amount needed to bring each item from zero to its maximum stock level.
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The Standard Cost Report lists the cost for items in one AOU, several AOUs, all AOUs, or an inventory group. This cost represents the dollar amount needed to bring each item from zero to its maximum stock level.
-audience: 
-keywords: 
-  - report
-  - cost
-  - room
-  - standard
-  - inventory
-  - group
-  - total
-  - aous
-  - queue
-  - device
 page_count: 0
 word_count: 529
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/p13.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/p13.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=83"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/p13.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Auto_Repl_Ward_Stock_(ARWS)/p13.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=83
+audit_applied: '2026-05-31'
 ---
 
 3.7 .ib.Standard Cost Report (132 column); \[PSGW STANDARD COST REPORT\]

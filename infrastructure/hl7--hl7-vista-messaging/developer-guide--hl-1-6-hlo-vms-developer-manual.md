@@ -8,44 +8,50 @@ app_code: HL7
 app_name: HL7 (VistA Messaging)
 section: INF
 app_status: active
-pkg_ns: 
+pkg_ns: HL7
 patch_ver: 1.6
-patch_id: 
-group_key: "HL7::1.6"
-file_numbers: 
-  - 777
-  - 778
-  - 7870
-security_keys: []
+patch_id: null
+group_key: HL7::1.6
+description: '''HLO provides the developer with a set of APIs for building messaging applications. The following is an outline of the development process:'''
+audience: VistA / M developers integrating with the package
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '4.2'
+- '101'
+- '400.01'
+- '400.03'
+- '400.08'
+- '771'
+- '777'
+- '778'
+- '778.03'
+- '779.1'
+- '779.2'
+- '779.4'
+- '794.41'
+- '870'
+- '7870'
+security_keys:
+- CTRL-C
 menu_options: 11
-description: "HLO provides the developer with a set of APIs for building messaging applications. The following is an outline of the development process:"
-audience: 
-keywords: 
-  - message
-  - application
-  - class
-  - segment
-  - table
-  - style
-  - messages
-  - colspan
-  - width
-  - contents
 page_count: 0
 word_count: 40615
 section_count: 43
 table_count: 53
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/vms_hlo_developer_manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/vms_hlo_developer_manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=8"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/vms_hlo_developer_manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Health_Level_7_(HL7)/vms_hlo_developer_manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=8
+audit_applied: '2026-05-31'
 ---
 
 VistA Messaging Services

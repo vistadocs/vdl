@@ -3,46 +3,37 @@ title: TBI Version 4.2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall "create a 'Traumatic B
+audience: System administrators performing installation
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The Veterans Health Administration (VHA) is charged with supporting the Presidential Task Force on Returning Global War on Terror Heroes. The Task Force has stated in the Global War on Terror (GWOT) report (recommendation P-7) that the Department of Veterans Affairs (VA) shall “create a ‘Traumatic B
-audience: 
-keywords: 
-  - table
-  - contents
-  - class
-  - application
-  - tools
-  - injury
-  - registry
-  - access
-  - strong
-  - traumatic
 page_count: 0
 word_count: 1491
 section_count: 7
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2015
 revision_count: 6
 revision_newest: 7/7/2015
 revision_oldest: 9/09/2011
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbiig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
 
 Traumatic Brain Injury (TBI)

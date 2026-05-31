@@ -3,7 +3,7 @@ title: Capacity Management Tools Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: KMPD
 app_name: Capacity Management Tools
 section: INF
@@ -11,49 +11,50 @@ app_status: active
 pkg_ns: KMPD
 patch_ver: 3
 patch_id: KMPD*3
-group_key: "KMPD:KMPD:3"
-file_numbers: 
-  - 19
-  - 8973
-security_keys: []
+group_key: KMPD:KMPD:3
+description: Table 1 displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '2.11'
+- '3'
+- '3.11'
+- '4.11'
+- '5'
+- '5.01'
+- '5.02'
+- '5.03'
+- '6'
+- '19.01'
+- '19.02'
+- '19.2'
+- '8970.1'
+- '8971.1'
+- '8973'
+- '8973.1'
+- '8973.2'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 3
-description: 
-audience: 
-keywords: 
-  - span
-  - time
-  - class
-  - tools
-  - timing
-  - background
-  - load
-  - kmpd
-  - coversheet
-  - report
 page_count: 0
-word_count: 19996
+word_count: 19990
 section_count: 7
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0um_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0um_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=129"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0um_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Capacity_Mgmt_Tools/kmpd3_0um_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=129
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Capacity Management Tools 3.0
-
-  User Manual
----
-
 ![](capacity-management-tools-version-3-user-manual/001.png)
 
 December 2015

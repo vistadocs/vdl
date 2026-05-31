@@ -1,809 +1,2636 @@
 ---
-title: Radiology Version 5 Release Notes
+title: RA*5*47 Release Notes
 doc_type: RN
 doc_label: Release Notes
-doc_layer: anchor
-doc_subject: 
+doc_layer: patch
+doc_subject: null
 app_code: RA
 app_name: Radiology/Nuclear Medicine
 section: CLI
 app_status: archive
 pkg_ns: RA
 patch_ver: 5
-patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: []
+patch_id: RA*5*47
+group_key: RA:RA:5
+file_numbers:
+- '31'
+- '70.02'
+- '70.03'
+- '81'
 security_keys: []
 menu_options: 0
-description: > Department of Veterans Affairs Veterans Health Administration Office of Chief Information Officer
-audience: 
-keywords: 
-  - table
-  - contents
-  - fields
-  - added
-  - removed
-  - order
-  - status
-  - imaging
-  - supervisor
-  - changed
+description: Patch RA\5\47 adds a Study Instance User Identification (SIUID) to specific v2.4 HL7 event messages when an order is registered, an exam cancelled, an exam reaches the Examined status, or when a report is sent.
+audience: System administrators, end users reviewing changes
+keywords: []
 page_count: 0
-word_count: 1595
-section_count: 1
-table_count: 0
+word_count: 3106
+section_count: 7
+table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: April 1998
+has_toc: false
+is_stub: false
+pub_date: August 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p47.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra5_0rn_p47.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
+master_source: RA*5*47 Release Notes
+master_pub_date: August 2011
+consolidated_from: 12 versions
+prior_versions:
+- RA*5*185 Release Notes
+- RA*5*226 Release Notes
+- RA*5*56 Release Notes
+- RA*5*70 Release Notes
+- RA*5*75 Release Notes
+- RA*5*77 Release Notes
+- RA*5*80 Release Notes
+- RA*5*81 Release Notes
+- RA*5*82 Release Notes
+- RA*5*84 Release Notes
+- RA*5*99 Release Notes
+consolidated_title: release notes
 ---
 
-> ![](radiology-version-5-release-notes/001.png)
+![](ra-5-47-release-notes/001.png)
 
-RADIOLOGY / NUCLEAR MEDICINE RELEASE NOTES
+Radiology/Nuclear Medicine  
+Release Notes
 
-> Version 5.0
+Patch RA\*5.0\*47  
+August 2011
 
-> April 1998
+Health Systems Design & Development
 
-> Department of Veterans Affairs Veterans Health Administration Office of Chief Information Officer
+Provider Systems
 
-> <span id="_bookmark0" class="anchor"></span>Release Notes
-
-> PARENT/DESCENDENT EXAM AND PRINTSETS
-
-> The major change with this release is the ability to enter a single report for a Parent/Descendent set of exams. An exam set or printset contains a Parent procedure and its Detailed or Series descendent procedures. Requesting a Parent will automatically cause each descendent to be presented for registration as separate cases under a single visit date and time. If the parent is defined to be a printset, the collection and printing of all common report related data between the descendants is seen as one entity. (E3R 7142 and 8021)
-
-> This change affects case edits, reporting, displays, the HL7 and CPRS interfaces, labels/headers/footers, and output from VA FileMan Inquire and Print options. It is described in full in the ADPAC manual chapter on Parent/Descendent Exam and Printsets.
-
-> NUCLEAR MEDICINE COMPONENT
-
-> The other main change to this release is the addition of a Nuclear Medicine Component that manages data regarding the use of Radiopharmaceuticals. See New Options below for more information. To support this feature, changes have also been made to the options Examination Status Enter/Edit, Procedure Enter/Edit, Register Patient for Exams, Status Tracking of Exams, Case No. Exam Edit, Edit Exam by Patient, View Exam by Case No., Display a Rad/Nuc Med Report, Draft Report (Reprint), On-line Verifying of Reports, Report Entry/Edit, Resident On-line Pre-verification, Select Report to Print by Patient, Exam Profile (Selected Sort), and Profile of Rad/Nuc Med Exams.
-
-> <span id="Changed_Options" class="anchor"></span>CHANGED OPTIONS
-
-# Global Changes Affecting Many Options
+# Release Notes for Patch RA\*5\*47
 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 ## Table of Contents
 
-- [Global Changes Affecting Many Options](#global-changes-affecting-many-options)
-- [IRM Menu \[RA SITEMANAGER\]](#irm-menu-ra-sitemanager)
-- [Supervisor Menu \[RA SUPERVISOR\]](#supervisor-menu-ra-supervisor)
-- [Exam Entry/Edit Menu \[RA EXAMEDIT\]](#exam-entryedit-menu-ra-examedit)
-- [Films Reporting Menu \[RA RPT\]](#films-reporting-menu-ra-rpt)
-- [Management Reports Menu \[RA MGTRPTS\]](#management-reports-menu-ra-mgtrpts)
-- [Patient Profile Menu \[RA PROFILES\]](#patient-profile-menu-ra-profiles)
-- [Radiology/Nuclear Med Order Entry Menu \[RA ORDER\]](#radiologynuclear-med-order-entry-menu-ra-order)
-- [IRM Menu \[RA SITEMANAGER\]](#irm-menu-ra-sitemanager-1)
-- [Supervisor Menu \[RA SUPERVISOR\]](#supervisor-menu-ra-supervisor-1)
-- [Radiology/Nuclear Med Order Entry Menu \[RA ORDER\]](#radiologynuclear-med-order-entry-menu-ra-order-1)
-- [Management Reports](#management-reports)
-- [User Utility Menu \[RA USERUTL\]](#user-utility-menu-ra-userutl)
-- [Rad/Nuc Med Patient file \#70 Fields Removed:](#radnuc-med-patient-file-70-fields-removed)
-- [Fields Added:](#fields-added)
-- [Nuc/Med Exam Data file \#70.2](#nucmed-exam-data-file-702)
-- [Fields:](#fields)
-- [Rad/Nuc Med Procedures file \# 71 Fields Removed:](#radnuc-med-procedures-file-71-fields-removed)
-- [Fields Added:](#fields-added-1)
-- [Major Rad/Nuc Med AMIS Codes file \#71.1 Fields Removed:](#major-radnuc-med-amis-codes-file-711-fields-removed)
-- [Rad/Nuc Med Common Procedure file \#71.3 Fields Removed:](#radnuc-med-common-procedure-file-713-fields-removed)
-- [Route of Administration file \#71.6](#route-of-administration-file-716)
-- [Fields Added:](#fields-added-2)
-- [Site of Administration file \#71.7](#site-of-administration-file-717)
-- [Fields Added:](#fields-added-3)
-- [Radiopharmaceutical Source file \#71.8](#radiopharmaceutical-source-file-718)
-- [Fields Added:](#fields-added-4)
-- [Radiopharmaceutical Lot file \#71.9](#radiopharmaceutical-lot-file-719)
-- [Fields Added:](#fields-added-5)
-- [Examination Status file \#72 Fields Added:](#examination-status-file-72-fields-added)
-- [Rad/Nuc Med Reports file \#74 Field Name Changed:](#radnuc-med-reports-file-74-field-name-changed)
-- [Fields Added:](#fields-added-6)
-- [Field Changed:](#field-changed)
-- [Report Distribution file \#74.4 Fields Removed:](#report-distribution-file-744-fields-removed)
-- [Fields Added:](#fields-added-7)
-- [Lbl/Hdr/Ftr Formats file \#78.2](#lblhdrftr-formats-file-782)
-- [Diagnostic Codes file \#78.3 Fields Added:](#diagnostic-codes-file-783-fields-added)
-- [Label Print Fields file \#78.7 Fields Added:](#label-print-fields-file-787-fields-added)
-- [Rad/Nuc Med Division file \#79 Field Name Changed:](#radnuc-med-division-file-79-field-name-changed)
-- [Fields Removed:](#fields-removed)
-- [Fields Added:](#fields-added-8)
-- [Imaging Locations file \#79.1 Fields Removed:](#imaging-locations-file-791-fields-removed)
-- [Fields Added:](#fields-added-9)
-- [Imaging Type file \#79.2 Fields Removed:](#imaging-type-file-792-fields-removed)
-- [Fields Added:](#fields-added-10)
-> All reports that can consume a significant amount of CPU/print time are now stoppable through the Stop Task action of the Taskman User \[XUTM USER\] option under the User's Toolbox \[XUSERTOOLS\] menu. The enhanced report logic checks for a stop flag during processing that is done before printing actually begins as well as during printing.
-> All Imaging Location lookups will now display not only the imaging type of the location, but also the station number of the division to which it is assigned. If it is not assigned to a division, no station number will display. This was done to assist integration sites where users may not be familiar with the division of each Imaging Location.
-> On all case lookup and patient profile screens that display a list of cases for a selected patient, a lowercase "i" will be displayed to the right of the case number if the site is running the V*IST*A Imaging package and if our interface with that package has filed image Ids on a "skeleton" radiology/nuclear medicine report record. The "i" is a visual indicator that images have been collected for that case.
-> When an active, non-unique case number is entered at case number prompts, the system will now display a secondary selection list that includes the Long Case number for all active instances of that case number. For example, if a user enters case 100 at the Case No. prompt, and there are two active case 100s, a list will display both cases with additional information including long case number.
-> Ordering and edit programs were changed to allow all but the special modifiers (portable, bilateral, operating room) for Series procedures in order to maintain the accuracy of AMIS reports. (E3R 8974)
-> If a user accidentally enters blank lines at the end of word processing fields containing clinical history, report text, and impression text, the system will now delete the blank lines before storing the data, so that they won't be displayed on terminals and reports.
-> The online help message for the one-many-all selector utility now includes the phrase, "Wildcard is case sensitive".
-> <span id="_bookmark2" class="anchor"></span>Mammography was added as an additional Imaging Type.
+- [Release Notes for Patch RA\5\47](#release-notes-for-patch-ra547)
+  - [Overview](#overview)
+  - [General Installation Notes](#general-installation-notes)
+  - [Specific Installation Notes](#specific-installation-notes)
+- [Patch RA\5\47 New Features](#patch-ra547-new-features)
+  - [Options affected by the new SSAN](#options-affected-by-the-new-ssan)
+- [Patch RA\5\47 Modified Features](#patch-ra547-modified-features)
+- [After Installation of Patch RA\5\47](#after-installation-of-patch-ra547)
+    - [Setting Up the Voice Recognition Event Driver Protocols](#setting-up-the-voice-recognition-event-driver-protocols)
+- [Software and Documentation Retrieval](#software-and-documentation-retrieval)
+  - [Software](#software)
+  - [Documentation](#documentation)
+Patch RA\*5\*47 is an enhancement patch to standardize the VistA RIS messaging interface to the current IHE specifications by updating the messages broadcast by Vista Radiology in accordance with HL7 version 2.4 standards.
 
-# IRM Menu \[RA SITEMANAGER\]
+## Overview
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Device Specifications for Imaging Locations \[RA DEVICE\] option now includes a prompt for DOSAGE TICKET PRINTER that will appear only if the Imaging Location's type of imaging is Nuclear Medicine or Cardiology Studies. There is also a new device specification, CANCELLED REQUEST PRINTER. The request cancellation logic was modified so that cancelled requests trigger the software to look for the Imaging Location to which the request was submitted, then print a cancellation notice on the CANCELLED REQUEST PRINTER for that location. If there is no Imaging Location associated with the request, nothing will print. If there is an Imaging Location associated with the request, but no CANCELLED REQUEST PRINTER entered for it, the system will make one last attempt to print if a CANCELLED REQUEST PRINTER is entered for the first location in the file; if none, nothing will print. If set up properly, the printing will happen regardless of whether the cancellation was done through the Rad/Nuc Med Cancel a Request option or OE/RR V. 2.5 or V. 3.0. (E3R 8255)
+Patch RA\*5\*47 adds a Study Instance User Identification (SIUID) to specific v2.4 HL7 event messages when an order is registered, an exam cancelled, an exam reaches the Examined status, or when a report is sent.
 
-# Supervisor Menu \[RA SUPERVISOR\]
+- The SIUID is a unique key that associates images to a particular study, which is required in messages sent to the Picture Archiving and Communications System (PACS). HL7 is the accepted protocol for transferring this information.
+- The SIUID allows VistA Radiology to send event transactions to a commercial PACS directly, bypassing the VistA Digital Imaging and Communications in Medicine (DICOM) Text Gateway.
+- The VA wants to accommodate commercial PACS and supply them with HL7 order messages and discontinue the use of the DICOM for the Radiology/Nuclear Medicine application.
+
+Configuration instructions to set up the PACS for this are included with the VistA Imaging patch MAG\*3.0\*49, which must be installed *after* this patch.
+
+## General Installation Notes
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The option Unverify a Report \[RA UNVERIFY\] was changed to Unverify a Report for Amendment.
-
-> The prompt "Select RAD/NUC MED Reports DAY/CASE#" was changed to "Select RAD/NUC MED REPORTS DAY-CASE#" to aid the user in remembering to use a dash instead of a slash when responding. (E3R 8761)
-
-> Patch RA\*4.5\*2 enhanced the option by providing for the retention of reports for historical/legal purposes at the time they are Unverified. The uncorrected report and the date unverified is saved in a new subfile in the Error Reports field \#1000 of the Rad/Nuc Med Report file \#74. This subfile supports multiple occurrences of un-verification of the same report. All fields related to the report are rolled into a word processing field in the subfile: report text, impression, clinical history, diagnostic codes, primary and secondary interpreting staff and residents, verifier name/date/esig, pre-verifier name/date/esig, and un-verifier. The report purge logic was modified so that no report data for amended reports will ever be purged. The Rad/Nuc Med Report Unverified bulletin now includes primary staff and primary resident
-
-> (E3R 7901). The new option Access Uncorrected Reports \[RA UNCORRECTED REPORTS\] can be used to view the retained records.
-
-> The Delete Printed Batches By Date \[RA BTCHDEL DATE\] option now allows deletion of batches that have not yet been printed.
-
-> System Definition Menu \[RA SYSDEF\] Division Parameter Set-up \[RA SYSDIV\]
-
-1.  The prompt ALLOW 'RELEASED/UNVERIFIED' is now a Location
-
-> parameter and can be found under the option Location Parameter Set- up. (E3R 7742)
-
-> The prompt WARNING ON UNVERIFIED REPORTS was changed to WARNING ON RPTS NOT YET VERIF. If this field is set to YES results reports in any status except Verified will print the status surrounded by asterisks under the body of the report. If this field is set to NO or left unanswered, the status box will not print on reports not yet verified. This can be used to make sure that hard copies of unverified results reports are not accidentally placed in patient charts or interpreted as the final results.
-
-2.  AUTO E-MAIL TO REQ. PHYS is a new prompt. Entering YES will turn on a feature that automatically sends the Radiology/Nuclear Medicine findings report to the Requesting Physician via e-mail at the time it is verified.
-
-> Print Division Parameter List \[RA SYSDIVLIST\]
-
-> All changes to Division Parameter Set-up are reflected in this listing. Also the Resource Device for the Division is displayed. Resource Device is a new field and is entered/edited via the IRM Menu \[RA SITEMANAGER\], Resource Device Specifications for Division \[RA RESOURCE DEVICE\] option.
-
-> List of Cameras/Equip/Rms \[RA SYSEXLIST\]
-
-> Unassigned cameras, equipment, or rooms will appear at the end of the listing.
-
-> Location Parameter Set-up \[RA SYSLOC\]
-
-1.  The prompt ALLOW 'RELEASED/UNVERIFIED' that used to be a Division parameter is now a Location parameter. (E3R 7742)
-2.  There is a new field, STAT REQUEST ALERT RECIPIENTS. Recipients must have a Radiology/Nuclear Medicine personnel classification. They will receive an alert whenever a STAT request is submitted to the Imaging Location. (E3R 6880) Prerequisite for this feature are CPRS (OE/RR V. 3.0) and your site must have the "Ask Imaging Location" Division parameter turned on.
-3.  A new field, URGENT REQUEST ALERTS, will determine if alerts will be sent to the Imaging Personnel defined in the Stat Request Alert Recipients field. If this field is set to YES, then all the users in the Stat Request Alert Recipients field will be sent an alert for urgent requests. (E3R 6880) Prerequisite for this feature is the same as \#2 above.
-4.  A new field, VOICE DICTATION AUTO-PRINT, if set to YES and voice dictation is used to enter a report, will automatically print a copy of the report on the device defined in the field Report Printer Name.
-5.  The new fields, CREDIT METHOD and DSS ID are used in connection with crediting the exam. These were added with patch RA\*4.5\*4.
-6.  The field, PRINCIPAL CLINIC was removed from this option.
-7.  The description has been changed for the PRINT DX CODES IN REPORT field. It clarifies the printing of primary and secondary diagnostic codes in the body of reports and headers and footers.
-8.  REPORT RIGHT MARGIN was changed so that the entry in this field indicates the absolute column at which the text for Clinical History, Report and Impression should end when printing.
-
-> Location Parameter List \[RA SYSLOCLIST\]
-
-> This option now permits eliminating Inactive locations and you may select all, many, or a few locations for printing. The Principal Clinic, Input Devices at this Location, and User Code Entry Required were removed and the following data added to the Location Parameter List:
-
-> Inactivation Date Credit Method DSS ID
-
-> Allow 'Released/Unverified'
-
-> Cancelation Ptr under Order Parameters
-
-> April 1998 Radiology/Nuclear Medicine V. 5.0 5
-
-> Health Summary under Reporting Parameters Radiopharmaceutical Dosage Ticket Parameters 'Stat' Alert Recipients For This Location
-
-> Urgent Request Alerts?
-
-> The flash card printing mechanism will now honor the Division/Location parameters specifying that a selected number of flash cards will print per visit. (NOIS FTL-0496-50985)
-
-> Utility Files Maintenance Menu \[RA MAINTENANCE\] Diagnostic Code Enter/Edit \[RA DIAGEDIT\]
-
-> INACTIVE was added as a new field so diagnostic codes could be
-
-> inactivated (removed from selection lists). (E3R 8906) Examination Status Entry/Edit \[RA EXAMSTATUS\]
-
-1.  The prompt "Default next status for exam" no longer allows statuses without order numbers. The Inconsistency report that runs after the Examination Status Entry/Edit will print a warning if any status record has a default next status without an order number. The Status Tracking of Exams no longer allows an exam to go to a status without an order number. During Status Tracking, if the default next status of the current status is detected to have no order number, the system will find the next higher status with an order number and present that as the next status to progress to.
-2.  The wording on many of the prompts was changed to provide a clearer description of what is being asked of the user.
-3.  New fields for all Imaging Types:
-
-> GENERATE EXAMINED HL7 MESSAGE allows an HL7
-
-> message to be sent when a patient has been examined.
-
-> ASK MEDICATIONS & DOSAGES will ask the user to enter medications and dosages given for the exam.
-
-> ASK MEDICATION ADMIN DT/TIME & PERSON will ask the
-
-> user to enter the medication administration date/time and person who gave the dose.
-
-4.  The following are new fields for Imaging Types that use Radiopharmaceuticals (Cardiology Studies and Nuclear Medicine). They fall into two types, those that require data to move the case to the status being defined and those that ask for data when the case is moving to the status being defined.
-
-> <u>Required for the status being defined</u>
-
-> RADIOPHARMS & DOSAGES REQUIRED ACTIVITY DRAWN REQUIRED (RADIOPHARM)
-
-> DRAWN DT/TIME AND PERSON REQUIRED (RADIOPHARM) ADMIN DT/TIME/PERSON REQUIRED (RADIOPHARM) ROUTE/SITE REQUIRED (RADIOPHARM ADMINISTERED) LOT NO. REQUIRED (RADIOPHARM)
-
-> VOLUME/FORM REQUIRED (RADIOPHARM)
-
-> <u>Asked while attempting to progress to the status being</u> <u>defined</u>
-
-> ASK RADIOPHARMACEUTICALS & DOSAGES
-
-> ASK ACTIVITY DRAWN (RADIOPHARMACEUTICAL)
-
-> ASK DRAWN DT/TIME & PERSON (RADIOPHARMACEUTICAL) ASK ADMIN DT/TIME & PERSON (RADIOPHARMACEUTICAL) ASK ROUTE/SITE OF ADMIN (RADIOPHARM)
-
-> ASK LOT NO. (RADIOPHARM)
-
-> ASK VOLUME/FORM (RADIOPHARM)
-
-5.  PRINT DOSAGE TICKET WHEN EXAM REACHES THIS STATUS is also asked for only Imaging Types that use radiopharmaceuticals.
-
-> Flash Card/Label Formatter \[RA FLASHFORM\]
-
-> The name of the option was changed to Label/Header/Footer Formatter.
-
-> The following Label Print Fields were added: Resident Signature Name
-
-> Staff Signature Name Verifying Signature Name Verifying Signature Title Long Case Number Barcode Patient Address Line 1 Patient Address Line 2 Patient Address Line 3
-
-> Common Procedure Enter/Edit \[RA COMMON PROCEDURE\] and Display Common Procedure List \[RA DISPLAY COMMON PROCEDURES\] in the Order Entry Procedure Display menu begin by allowing the selection of Imaging Types.
-
-> Procedure Enter/Edit \[RA PROCEDURE\] has a number of new fields:
-
-> SINGLE REPORT appears when a Parent procedure is being edited. It combines the reporting of the common data of the procedure's descendants (report text, impression, verifier, pre-verifier, staff (primary and secondary), residents (primary and secondary), diagnoses, and all other report-related fields) into one report.
-
-> PROMPT FOR MEDS only appears for procedures that are Detailed or Series. If this field is set to YES, case edits will prompt for medications administered for this procedure and Status Tracking will ask for meds if the Ask Medications and Dosages parameter is set to YES for the next status.
-
-> DEFAULT MEDICATION only appears for procedures that are Detailed or Series. This field is used to enter any medications which are usually used for the procedure.
-
-> DEFAULT MED DOSE only appears if a Default Medication is entered. If a default dose is entered, it will be the default response for med dose on the patient's exam record when the case is edited.
-
-> SUPPRESS RADIOPHARM PROMPT only applies to Detailed or Series procedures with an Imaging Type that uses radiopharmaceuticals (nuclear medicine or cardiology studies). If the exam status setup for the affected Imaging Types specifies that radiopharmaceutical data should be asked and/or required to progress to various statuses, this field can be used to over-ride that requirement.
-
-> PROMPT FOR RADIOPHARM RX only applies to Detailed or Series procedures with an Imaging Type that uses radiopharmaceuticals (nuclear medicine or cardiology studies). It controls whether case edit and status tracking options prompt for prescribing physician and prescribed radiopharmaceutical dose. If this field is set to YES, prescriber prompts will appear for any radiopharmaceuticals entered for this procedure. If this field is left blank, prescriber prompts will not appear. If this field is set to YES, Status Tracking will prompt
-
-> during each edit session until the data is entered; case edits will always prompt, even if prescriber data has already been entered.
-
-> DEFAULT RADIOPHARMACEUTICAL only applies to Detailed or Series procedures with an Imaging Type that uses radiopharmaceuticals (nuclear medicine or cardiology studies). It will be automatically entered as a radiopharmaceutical on patients' nuclear medicine exam records during registration. If a Default Radiopharmaceutical is defined for a procedure, then the following fields appear for editing:
-
-> LOW ADULT DOSE HIGH ADULT DOSE USUAL DOSE
-
-> DFLT ROUTE OF ADMINISTRATION DEFAULT FORM
-
-> EDUCATIONAL DESCRIPTION is used to describe the procedure and give information about its purpose in confirming or eliminating various diagnoses. It may be used for educational purposes by clinicians who are trying to familiarize themselves with imaging procedures that are available. If an educational description is entered, the system asks if the user wants to DISPLAY EDUCATIONAL DESCRIPTION WHEN
-
-> ORDERED. Entering YES at that field displays the description along with any Procedure Message during the ordering process. The Educational Description is included on the Active Procedure List. (E3R 6112)
-
-> Also, if a procedure is changed from a Detailed or Series procedure to a Parent during Procedure Enter/Edit, the system will automatically delete the CPT on that procedure.
-
-> Reason Edit \[RA REASON EDIT\]
-
-> NATURE OF ORDER ACTIVITY determines actions that OE/RR will take when it is notified that an order was held or canceled by the imaging service. This prompt will not appear until CPRS (OE/RR V. 3.0) is installed.
-
-> Reports Distribution Edit \[RA DISTEDIT\]
-
-> There are two new features for sending reports to the requesting physician:
-
-> <span id="_bookmark3" class="anchor"></span>A new queue, Requesting Physician, was added to this option that will give results reports sorted by requesting physician. As with the other queues, reports are automatically placed in the queue at the time they are verified. (E3R 5154)
-
-> This is not related to the new Division parameter, AUTO E- MAIL TO REQ. PHYS, which controls whether an e-mail message containing the results report will be automatically generated and sent to the requesting physician.
-
-> Maintenance Files Print Menu \[RA MAINTENANCEP\]
-
-> These print options reflect changes made in the Utility Files Maintenance Menu options.
-
-> Flash Card/Label List \[RA FLASHFORMP\] was renamed Label/Header/Footer Format List.
-
-> All Procedure File Listings \[RA PROCLISTS\] begin by allowing the user to select an Imaging Type.
-
-> Active Procedure List (Long) \[RA PROCLONG\], Series of Procedures List \[RA PROCSERIES\], and Inactive Procedure List (Long) \[RA INACPRCLONG\] now include the name of the Health Summary type to be printed with requests.
-
-# Exam Entry/Edit Menu \[RA EXAMEDIT\]
+- Associated patches RA\*5\*90, RA\*5\*99, and RA\*5\*104 must be installed before you install patch RA\*5\*47.
+- MailMan and Kernel patches must be current on the target system to avoid problems loading and installing patch RA\*5\*47.
+- The install time for patch RA\*5\*47 is less than ten minutes.
+- Because patch RA\*5\*47 impacts VistA HL7 messaging, it is best installed when system activity is minimal.
+- The VistA Radiology and Voice Recognition interfaces must be shutdown.
+1.  On the VistA-side, the shutdown of VistA Radiology means that all radiology logical links must be shutdown.
+2.  Notify the Radiology department that the VistA Radiology application will be shutdown.
+3.  This shutdown will impact the HL7 messaging between VistA Radiology, Voice Recognition, PACS, and VistA Imaging.
+
+## Specific Installation Notes
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Register Patient for Exams \[RA REG\] now allows the user to register a parent procedure set for a detailed procedure order. At the time of registration, at the "Select a request" prompt, the software will allow replacement of a single selected Detailed, Series, or Broad procedure request with a parent-printset procedure by doing the following:
+- Patch RA\*5.0\*47 and Patch MAG\*3.0\*49 are closely related. Patch RA\*5.0\*47 must be installed first and Patch MAG\*3.0\*49 must be installed right after Patch RA\*5.0\*47. Each patch creates APIs used by the other and therefore must be installed in that order. 
+- After both RA\*5.0\*47 and MAG\*3.0\*49 are installed and properly set up, you do not need the VistA DICOM Text Gateway to create the unique key for the commercial PACS.
 
-1.  Enter "Pn" at the prompt, where "P" indicates that you want to trigger the parent-printset registration feature and "n" is the request number. The request must NOT be a parent. Only one "n" value is allowed. You will then see a prompt for a parent procedure.
-2.  Enter a parent procedure of the same imaging type as the requested procedure. The parent must be predefined as a printset.
-
-> 10 Radiology/Nuclear Medicine V. 5.0 April 1998
-
-3.  Then proceed to register the predefined descendant(s) OR, discard (^) its descendant(s) and register any descendants you choose when it asks you for more procedures to add on.
-
-> The list of requests displayed will have a "+" in front of procedures that are printset parents. (A "+" will not display in front of non-printset parents.) After the replacement printset parent is registered, all outstanding orders that have matching procedures to any just registered will be displayed as a reminder that these may be duplicates and might have to be cancelled.
-
-> Diagnostic Code Entry by Case No. \[RA DIAGCN\] was renamed to Diagnostic Code and Interpreter Edit by Case No.
-
-> View Exam by Case No. now includes a secondary screen that displays all additional personnel involved in the case (the main screen will only display one technologist even if there are several). The secondary screen displays requesting physician, primary and secondary staff and residents, transcriptionist, pre-verifier, verifier, and technologists if these fields contain data. (E3R 5885)
-
-> The Indicate No Purging of an Exam/Report \[RA NOPURGE\] option will now prompt for and store reason(s) for not purging.
-
-> The warning message that appears during registration, Register Patient for Exams \[RA REG\], when a procedure is rejected by the user has been changed to include the possibility of contrast media as the rejection reason. (E3R 4110)
-
-> The new message states:
-
-> Only active procedures allowed, imaging type of exam should be same as procedure, contrast media use must be OK'd if previous adverse reaction on record.
-
-> The Status Tracking edit functionality was changed (E3R 9509):
-
-> It informs the user if the exam meets criteria for a higher status than the status reached after editing.
-
-> If the "default next status" is invalid (i.e., no order number on the status) the Status Tracking functionality will detect this and search for the next valid status to use instead.
-
-> Status Tracking will now cycle to screens with inactive statuses (i.e., no order number on the status) if the status' "Appears on Status Tracking?" field is set to YES. Previously, there was no way, through case edit options, to get prompts for fields necessary to process cases in an inactive status to complete.
-
-# Films Reporting Menu \[RA RPT\]
+# Patch RA\*5\*47 New Features
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Primary and Secondary Staff and Resident fields will now screen out interpreting physicians who do not have access to at least one Imaging Location of the imaging type that matches the exam. (E3R 8467)
+Patch RA\*5\*47 creates the new Site Specific Accession Number (SSAN) by pre-pending the Facility ID to the day-case number. A new division parameter and a set-up option are created to control the use of the SSAN.
 
-> Remove/Add Report From Batch \[RA BTCHREMOVE\] in the Batch Reports Menu \[RA BTCH\] was changed to Add/Remove Report From Batch.
+Only when the division parameter, *Use Site Accession Number?*, is set to YES, does the Radiology package generate and store the SSAN during Registration, and add the
 
-> Display a Report \[RA RPTDISP\] was changed to Display a Rad/Nuc Med Report.
+display of the SSAN to options, reports and look-ups, which previously displayed the case number or day-case number.
 
-> Select Report to Print by Patient \[RA RPTPAT\] now allows selection of multiple reports rather than just one at a time. (E3R 6732)
+- The parameter is set by division and is distributed with a NULL value; all divisions must be set when the switch is flipped (either ALL ON or ALL OFF).
+- After the parameter is set to YES, the SSAN is displayed in RA options, reports, and lookups, where the case number or day-case number was previously displayed.
+- For historical cases created before the parameter is set, there is no associated SSAN; therefore, the case number or day-case number continues to display for the life of those cases.
 
-> During On-line Verification, if two concurrent users choose categories that include the same report, then user A changes the status of the report making it inconsistent with the report category chosen by User B, user B will now see a message notifying him of the change. The message displayed will be one of the following:
+A new option, Site Accession Number Set-up, was added to the IRM Menu.
 
-> Since the time you selected this group of reports, another user has deleted this report for RADPATIENT,ONE case \#256.
+- This option functions as a *switch* to turn on the use of the SSAN.
+- This option provides the sites with the ability to NOT begin using the SSAN until all devices are able to handle the longer accession number; sites must not begin using the SSAN until all devices are able to handle the longer accession number.
 
-> Since the time you selected this group of reports, another user has changed this report's status to XXXXX.
+  
+Examples
 
-> Since the time you selected this group of reports, DR. SMITH has verified the report for RADPATIENT,ONE case \#289.
+Example of an existing display with the division parameter set to NO or NULL.
 
-> On-Line Verifying of Reports \[RA RPTONLINEVERIFY\] and Resident On-Line Pre- Verification \[RA RESIDENT PRE-VERIFY\] were modified to include transcriptionist and secondary staff and residents in the header. Patch RA\*4.5\*2 also changed the default printer of HOME to display the sign-on Imaging Location report printer if one has been entered by IRM. (E3R 7957) Rad/Nuc Med Residents and Staff will now see a message when they log on telling them how many imaging cases are awaiting their pre-verification and verification respectively (E3R 6619).
+Select Exam Entry/Edit Menu Option: Case No. Exam Edit
 
-> The option On-Line Verifying of Reports now returns to the list of report categories left to verify (if any exist for the user whose reports were verified) after choosing a category and verifying the reports. (E3R 8905) A new category, \*STAT\*, was added. A report associated with a STAT order will only be counted under the STAT category if the order for the exam still exists on the system. The procedure name is now included in the message displayed when a user changes the status of a report in another user's verify queue. (E3R 9003)
+Enter Case Number: 3039
 
-> <span id="_bookmark5" class="anchor"></span>Report Entry/Edit \[RA RPTENTRY\] now warns the user that the standard report will completely overwrite the existing report when a standard report is selected and the impression and/or report text already exists. In this case, the option gives the user a chance to cancel their standard selection. Also, the default response to the "Do you want to print batch now?" prompt was changed from YES to NO. (E3R 8833)
+Choice Case No. Procedure Name Pt ID
 
-> The Report Entry/Edit \[RA RPTENTRY\] option will now detect, at the beginning, if the sign-on user has an electronic signature (e-sig), Staff or Resident Rad/Nuc Med Classification, and the RA VERIFY key. If these requirements are met, the user will be prompted for his or her e-sig, and reports verified while using this option will contain the verifier's e-sig.
+------ --------------- --------- ----------------- ------
 
-> The options that allow changing report status to Verified will now capture the user who is signed on and changing the status. This will be reflected in the report printout. If the verifying physician is the same person as the sign-on user who moved the status to Verified, but this was not done via the On-Line Verifying of Reports \[RA RPTONLINEVERIFY\] option or the Report Entry/Edit \[RA RPTENTRY\] option, wording next to the verifier's name will read "(Verifier, no e- sig)". If a transcriptionist or resident (i.e., someone other than the name entered as the Verifying Physician) verified the report, the wording will state "Verified by transcriptionist for Dr. xxx". If an electronic signature is affixed to the report (i.e., it was verified via on-line verification) the wording will be "(Verifier)". (E3R 8270)
+1 032009-3039 ANGIO CAROTID CEREBRAL UN RADPATIENT,ONE 0000
 
-> The On-Line Verifying of Reports option now displays different prompts at the end of a report page versus the end of an entire report display. The prompt at the end of a report display has been changed to:
+(RAD Detailed) CPT:75665
 
-> ("nn" left to review) type '?' for action list, 'Enter' to continue//
+Example of the new display with the division parameter set to YES.
 
-> This change was designed to give users a visual cue that the end of report display is the time to select an action (especially Status and Print if they want the report to print after assigning a status). (E3R 8835)
+Select Exam Entry/Edit Menu Option: Case No. Exam Edit
 
-> Clinic Distribution List \[RA RPTDISTLISTCLINIC\] and Ward Distribution List \[RA RPTDISTLISTWARD\] in the Distribution Queue Menu \[RA RPTDIST\] now allow one-many-all and wildcard selection of clinics/wards.
+Enter Case Number: 141-032009-3039 User may still select by case \# (3039)
 
-> Report pre-verification date/time and user was added to the Report Activity Log. It is populated via the Resident Pre-verify option.
+Choice Case No. Procedure Name Pt ID
 
-# Management Reports Menu \[RA MGTRPTS\]
+------ --------------- --------- ----------------- ------
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+1 141-032009-3039 ANGIO CAROTID CEREBRAL UN RADPATIENT,ONE 0000
 
-> Unverified Reports \[RA DAIUVR\] within Daily Management Reports \[RA DAILYRPTS\] can now be generated in either a Brief or Detailed version or by Exam Date, Itemized List or Staff, Itemized List. They can be sorted by Division, Imaging Type and Exam Date range. The first two include a default breakout of 24, 48, 96, and \>96 hours for the age of the reports or the user can select hour cutoffs. Report aging totals are displayed by category (staff, resident) and individual physician.
+(RAD Detailed) CPT:75665
 
-> The detailed version includes extra report and exam data to help in tracking down reports: transcription date, patient ID, report status, pre-verification date exam date/time, desired date entered by the ordering clinician, procedure, and other attending and resident radiologists entered as primary/secondary interpreting physicians. In addition, the report now has Division summaries. The Division summary is suppressed to prevent redundancy if only one Imaging Type prints for the Division. (E3R 7220) The Exam Date, Itemized List and Staff, Itemized List provide the same output format with one line per report. The report by exam date is sorted by division, exam date/time, patient, and case. It is useful for case turn- around and completion since the oldest cases appear first. The staff list is sorted by staff, exam date/time, patient, and case. If a report exists, but no staff is entered, it will appear as staff UNKNOWN. Separate pages print for each staff member, so it can be handed out to the staff for their review and follow-up.
-
-> Abnormal Exam Report \[RA ABNORMAL\] within Daily Management Reports now prompts for a selection of one-many-all Diagnostic codes to be included on the report. (E3R 9184)
-
-> Daily Log Report \[RA LOG\] within Daily Management Reports now prompts for Imaging Locations to be included on the report. Each Imaging Location prints separately within Imaging Type. The report header includes the location. (E3R 9025)
-
-> The name of the Interpreting Physician now appears on the Delinquent Status Report \[RA DELINQUENT\] and Incomplete Exam Report \[RA INCOMPLETE\] within the Daily Management Reports menu. If both the Primary Interpreting Staff and Resident are entered, the report will show Staff. If only Resident is entered, it will show the Resident. If neither are entered, no name will be printed on the report. The name of one technologist (the first entered) also appears. (E3R 8539) Also, Outpatient and Inpatient were added as subheadings to the reports.
-
-> Within Division and Imaging Type, first the inpatient data is printed then the outpatient data. (E3R 9563)
-
-> The Staff and Resident Reports \[RA WKLSTAFF and RA WKLRES\] under Personnel Workload Reports \[RA WKL\] now prompt for inclusion/exclusion of secondary staff and resident. These reports can now be generated for Primary Staff or Primary Residents only, or primary and secondary.
-
-> <span id="_bookmark6" class="anchor"></span>The Staff, Physician, Resident and Technologist reports within Personnel Workload Reports menu now display the CPT code for each procedure. (E3R 9613)
-
-> The Procedure/CPT Statistics Report \[RA CPTSTATS\] in the Special Reports menu now prompts for inclusion/exclusion of cancelled cases. The header now has an added notation telling whether cancelled cases were included or excluded. (E3R 8846) The report also has additional columns displaying the percentage of total cases and cost per procedure. Number of procedures done and cost are totaled for each imaging type. (beta test enhancement)
-
-# Patient Profile Menu \[RA PROFILES\]
+## Options affected by the new SSAN
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> and
+| Abnormal Exam Report                                | \[RA ABNORMAL\]             |
+|-----------------------------------------------------|-----------------------------|
+| Access Uncorrected Reports                          | \[RA UNCORRECTED REPORTS\]  |
+| Add Exams to Last Visit                             | \[RA ADDEXAM\]              |
+| Add/Remove Report From Batch                        | \[RA BTCHREMOVE\]           |
+| Cancel an Exam                                      | \[RA CANCEL\]               |
+| Case No. Exam Edit                                  | \[RA EDITCN\]               |
+| Clinic Distribution List                            | \[RA RPTDISTLISTCLINIC\]    |
+| Daily Log Report                                    | \[RA LOG\]                  |
+| Delete a Report                                     | \[RA DELETERPT\]            |
+| Delinquent Status Report                            | \[RA DELINQUENT\]           |
+| Diagnostic Code and Interpreter Edit by Case No.    | \[RA DIAGCN\]               |
+| Display Patient Demographics                        | \[RA PROFDEMOS\]            |
+| Display a Rad/Nuc Med Report                        | \[RA RPTDISP\]              |
+| Draft Report (Reprint)                              | \[RA REPRINT\]              |
+| Duplicate Dosage Ticket                             | \[RA DOSAGE TICKET\]        |
+| Duplicate Flash Card                                | \[RA FLASH\]                |
+| Edit Exam by Patient                                | \[RA EDITPT\]               |
+| Exam Deletion                                       | \[RA DELETEXAM\]            |
+| Exam Profile (selected sort)                        | \[RA PROFSORT\]             |
+| Exam Status Display                                 | \[RA STATLOOK\]             |
+| Incomplete Exam Report                              | \[RA INCOMPLETE\]           |
+| Indicate No Purging of an Exam/report               | \[RA NOPURGE\]              |
+| Jacket Labels                                       | \[RA LABELS\]               |
+| List Reports in a Batch                             | \[RA BTCHLIST\]             |
+| On-line Verifying of Reports                        | \[RA RPTONLINEVERIFY\]      |
+| Outside Report Entry/Edit                           | \[RA OUTSIDE RPTENTRY\]     |
+| Override a Single Exam's Status to 'complete'       | \[RA OVERRIDE\]             |
+| Print Division Parameter List                       | \[RA SYSDIVLIST\]           |
+| Print Rad/Nuc Med Requests by Date                  | \[RA ORDERPRINTS\]          |
+| Print Selected Requests by Patient                  | \[RA ORDERPRINTPAT\]        |
+| Print a Batch of Reports                            | \[RA BTCHPRINT\]            |
+| Profile of Rad/Nuc Med Exams                        | \[RA PROFQUICK\]            |
+| Radiopharmaceutical Administration Report           | \[RA NM RADIOPHARM ADMIN\]  |
+| Radiopharmaceutical Usage Report                    | \[RA NM RADIOPHARM USAGE\]  |
+| Register Patient for Exams                          | \[RA REG\]                  |
+| Report Entry/Edit                                   | \[RA RPTENTRY\]             |
+| Report's Print Status                               | \[RA RPTDISTPRINTSTATUS\]   |
+| Request an Exam                                     | \[RA ORDEREXAM\]            |
+| Restore a Deleted Report                            | \[RA RESTORE REPORT\]       |
+| Select Report to Print by Patient                   | \[RA RPTPAT\]               |
+| Status Tracking of Exams                            | \[RA STATRACK\]             |
+| Summary/Detail report (for Outpt Proc Wait Times)   | \[RA TIMELINESS REPORT\]    |
+| Summary/Detail report (for Verification Timeliness) | \[RA PERFORMIN RPTS\]       |
+| Unprinted Reports List                              | \[RA RPTDISTLISTUNPRINTED\] |
+| Unverified Reports                                  | \[RA DAIUVR\]               |
+| Unverify a Report for Amendment                     | \[RA UNVERIFY\]             |
+| Update Exam Status                                  | \[RA UPDATEXAM\]            |
+| Verify Batch                                        | \[RA BTCHVERIFY\]           |
+| Verify Report Only                                  | \[RA RPTVERIFY\]            |
+| View Exam by Case No.                               | \[RA VIEWCN\]               |
+| Ward Distribution List                              | \[RA RPTDISTLISTWARD\]      |
 
-# Radiology/Nuclear Med Order Entry Menu \[RA ORDER\]
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Request displays and request reprints now show the Clinical History (E3R 7694) and procedure(s) registered (if it has been registered). Detailed exam profiles show the procedure requested (unless the request has been purged from the system). If a Parent procedure is requested, the request form will show all procedures registered. The request form will no longer print the exam status of the first exam it finds in the set; only the request status (usually Active) will print. This change affects Detailed Request Display \[RA ORDERDISPLAY\], Exam Profile (selected sort) \[RA PROFSORT\], and Profile of Rad/Nuc Med Exams \[RA PROFQUICK\]. (E3R 8458)
-
-> When a cancelled request is printed, the name of the person who cancelled the request and the cancel transaction date/time are now included on the printout.
-
-> The Procedure selection prompt that appears when using Request an Exam \[RA ORDEREXAM\] was changed to let users know that they can get online help by entering a "?". The online help was changed to tell users that they can see a list of all selectable procedures by entering "??". (E3R 9611)
-
-> The default response of "NO" to the pregnancy question during order entry has been removed, so that users are forced to enter an answer if the woman is of child bearing age. If the patient is under 12 or over 50 years of age, the default response remains "NO". (E3R 6911)
-
-> If CPRS (OE/RR V. 3.0) is installed, an alert may be sent to predefined Imaging personnel when a STAT or URGENT request is entered. A prerequisite is that the Division parameter "Ask Imaging Location" that triggers the "Submit Request To" prompt must be turned on.
-
-> <span id="New_Options" class="anchor"></span>NEW OPTIONS
-
-# IRM Menu \[RA SITEMANAGER\]
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Resource Device Specifications for Division \[RA RESOURCE DEVICE\]
-
-> This is a new option under the IRM Menu. The device controls the rate at which tasked exam status updates are released to be processed. This is advised if the facility is experiencing drastic system slowdowns due to periodic heavy use of the online report verification and batch verification of reports options, which can queue a large number of tasks at once.
-
-# Supervisor Menu \[RA SUPERVISOR\]
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Access Uncorrected Reports \[RA UNCORRECTED REPORTS\] was added to the Supervisor Menu that displays or prints uncorrected reports. See Unverify a Report for Amendment \[RA UNVERIFY\] above for more detail.
-
-> Nuclear Medicine Setup Menu \[RA NM EDIT MENU\] contains four menu options to build and manage the Nuclear Medicine radiopharmaceutical lot numbers, routes and sites of administration, and vendor source.
-
-> Lot (Radiopharmaceutical) Number Enter/Edit \[RA NM EDIT LOT\] allows the entry and edit of lot numbers in the Radiopharmaceutical Lot file \#71.9.
-
-> Route of Administration Enter/Edit \[RA NM EDIT ROUTE\] allows the entry and edit of routes in the Route of Administration file \#71.6.
-
-> Site of Administration Enter/Edit \[RA NM EDIT SITE\] allows the entry and edit of sites in the Site of Administration file \#71.7.
-
-> Vendor/Source (Radiopharmaceutical) Enter/Edit \[RA NM EDIT SOURCE\] allows the entry and edit of vendors and sources in the Radiopharmaceutical Source file \#71.8.
-
-> Nuclear Medicine List Menu \[RA NM PRINT MENU\] compliments the Nuclear Medicine Setup Menu by printing the contents of the four files using the following new options.
-
-> Lot (Radiopharmaceutical) Number List \[RA NM PRINT LOT\]
-
-> <span id="_bookmark8" class="anchor"></span>Route of Administration List \[RA NM PRINT ROUTE\] Site of Administration List \[RA NM PRINT SITE\]
-
-> Vendor/Source (Radiopharmaceutical) List \[RA NM PRINT SOURCE\]
-
-> Procedure Edit Menu \[RA PROCEDURE EDIT MENU\] is a new menu under Utility Files Maintenance Menu \[RA MAINTENANCE\]. It contains the options Procedure Enter/Edit, Procedure Message Entry/Edit, Procedure Modifier Entry, and a new option Cost of Procedure Enter/Edit \[RA PROCOSTEDIT\].
-
-> Cost of Procedure Enter/Edit supports the entry of a cost for each procedure. The Unit cost and Total cost appear on the Procedure/CPT Statistics Report \[RA CPTSTATS\].
-
-> Barcoded Procedure List \[RA BARPROCPRINT\] found under the Maintenance Files Print Menu, Procedure File Listings produces a list of barcoded procedures with or without barcoded CPTs. The list is selectable by Imaging Type. (E3R 6125)
-
-> Parent Procedure List \[RA PARENT PROCEDURE LIST\] found under the Maintenance Files Print Menu, Procedure File Listings produces a list of parent procedures, selectable by Imaging Type and Active and/or Inactive. It can be printed in 80-column format. The list includes only parent type procedures and all fields applicable to parent procedures that are included on the Active Procedure Long listing. It shows whether they are printsets (i.e., Single Report = Yes), whether a health summary is associated with it for printing with the request, whether Radiology/Nuclear Medicine approval is required to order it, its imaging type, all descendants and their CPT codes, and the educational description.
-
-# Radiology/Nuclear Med Order Entry Menu \[RA ORDER\]
+# Patch RA\*5\*47 Modified Features
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Rad/Nuc Med Procedure Information Look-Up \[RA DISPLAY IMAGPROCINFO\] allows the user to select active procedures by Imaging Type (only Imaging Types already assigned to at least one procedure are allowed). The user can select one, many or all procedures of the chosen Imaging type(s) and direct the output to the screen or any available output device. The option will provide the procedure, type of procedure, imaging type abbreviation and the CPT code of the procedure. The CPT code for Parent procedures will state "See Descendants". If any Educational Description exists, it will also be shown. (E3R 6112)
+1.  Routines are modified to call Imaging APIs to get:
+1.  Patient ID information for the PID segment
+4.  Patient Visit information for the PV1 segment
+5.  Ordering Provider Call Back Phone Number(s) for the ORC segment
+6.  A unique Study Instance User Identification (SIUID) key that creates a new ZDS segment used in the ORM and ORU HL7 v2.4 message types
 
-# Management Reports
+> The calls to the Imaging APIs are covered by ICRs 5021, 5022, and 5023.
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+1.  New version 2.4 event driver protocols are exported with this patch.
+2.  An input template is modified to file the site accession number data in the new Site Accession Number (#31) field and the SIUID in the Study Instance UID (#81) field, both in the EXAMINATIONS (#70.03) multiple.
+3.  A routine is added to update the new Site Accession Number and Study Instance UID fields and to provide VistA Imaging with new APIs through a private integration agreement.
+4.  The Exam Date (#.01) field of the REGISTERED EXAMS (#70.02) sub-file is modified to make the data in the field uneditable.
+5.  Because of the addition of the Site Accession Number field to the EXAMINATIONS multiple, the input template must be re-compiled. A routine re-compiles the input template.
 
-> Two new management reports are now available for Nuclear Medicine. The Radiopharmaceutical Usage Report \[RA NM RADIOPHARM USAGE\] can be found under the Daily Reports menu. The Radiopharmaceutical Administration
-
-> Report \[RA NM RADIOPHARM ADMIN\] can be found under the Personnel Workload Reports menu. The reports show the case number, patient, radiopharmaceutical, activity drawn and administered, radiopharmaceutical low/high ranges, procedure and the person who administered the dose.
-
-# User Utility Menu \[RA USERUTL\]
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Duplicate Dosage Ticket \[RA DOSAGE TICKET\] allows the user to print additional dosage tickets for those exams which are associated with radiopharmaceuticals.
-
-> OUTPATIENT WORKLOAD CREDITING
-
-> Since the release of patch RA\*4.5\*4, outpatient workload crediting is handled differently. For more complete information, see the ADPAC Guide, Outpatient Workload Crediting chapter.
-
-> INTERFACES
-
-> Patch RA\*4.5\*2 made the following changes to the interface with the V*IST*A
-
-> Imaging package.
-
-> Imaging/Multi-Media Interface Changes
-
-> The program that enters a skeleton report to store image pointers will no longer populate the Impression field. It will store a single line in the report text field if images have been collected.
-
-> Images captured for this report.
-
-> A new transaction type, Images Collected, was added to the Type of Action field \#2, of the Activity Log field \#100, of the Rad/Nuc Med Reports file \#74. This will be recorded in the log if the imaging package stores an image ID on the report.
-
-> The status of a newly created skeleton report will remain blank instead of changing to DRAFT. This was done to prevent report selection displays from showing a misleading draft status for cases whose image pointers have been recorded in a skeleton report with no other report data entered.
-
-> The subroutine that performs a test to determine if the Imaging package is installed before proceeding to call the Imaging side of the interface was moved to a new routine by itself to reduce the sites' downtime impact when installing future patches to the rest of the Rad/Nuc Med side of the interface.
-
-> Voice Recognition Interface Changes
-
-> When a voice recognition system was used to overwrite an existing Draft or Problem Draft report in which Secondary diagnostic code(s) existed, the program did not delete the existing diagnostic code(s). The voice recognition system interface is only capable of entering a single diagnostic code(s) which is entered as the primary diagnosis. In keeping with the philosophy that the interpreting physician on the voice recognition system believes that what he is entering is the total report, the secondary diagnostic code(s) are now deleted if the voice recognition system report replaces the existing report.
-
-> HL7 Messaging
-
-> The HL7 Messaging for Imaging and PACS subscribers was enhanced to use V*IST*A HL6 V. 1.6 features. A new message is triggered at the point where a patient's images have been collected (i.e., patient examined). In the Examination Status setup, a new field Generate Examined HL7 Message was added so that ADPACs can flag the status where this message should be triggered. As soon as an exam has reached the selected status, the HL7 message will be sent. Once the message has been sent, another new field, HL7 Examined message Sent?, on the Rad/Nuc Med Patient file \#70 exam subfile will be set to YES to act as a log of the message event. The software checks this log at every status change. If the new status is equal or greater to the flagged status the message will be sent, if and only if the log field is blank.
-
-> Reports
-
-> Routines in the RAHLO\* namespace that process transmitted reports have been rewritten to open the door to accept report data from potentially any source within or outside of V*IST*A, with or without the use of HL7 messages.
-
-> <span id="Bulletins" class="anchor"></span>BULLETINS
-
-> Primary Interpreting Staff and Primary Interpreting Resident data were added to the Rad/Nuc Med Report Unverified bulletin. (E3R 7901)
-
-> FILE CHANGES
-
-# Rad/Nuc Med Patient file \#70 Fields Removed:
+# After Installation of Patch RA\*5\*47
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Transfer Comment \#150
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Note:</strong></th>
+<th><p><strong>Do not proceed with these steps until ready to begin using the new</strong></p>
+<p><strong>HL7 v2.4 messaging.</strong></p>
+<p><strong>Once you are ready to switch over to the new HL7 v2.4 messaging, you must perform the following steps.</strong></p>
+<ul>
+<li><p><strong>These steps must be done in coordination with the voice recognition software in use at the site.</strong></p></li>
+<li><p><strong>These steps should be done when the Radiology options or voice recognition software is not in use.</strong></p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
-# Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Dosage Ticket Printed \#29 Reason for not Purging \#46 Medications \#200
-
-> Med Administered Med Dose
-
-> Date/Time Med Administered Person who Administered Med
-
-# Nuc/Med Exam Data file \#70.2
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> This is a new file that contains information specific to nuclear medicine studies in which radiopharmaceuticals are used.
-
-# Fields:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Patient \#.01
-
-> Exam Date/Time \#2
-
-> Case Number \#3
-
-> Radiopharmaceuticals \#100 Radiopharmaceutical
-
-> Prescribed Dose by MD Override Prescribing Physician
-
-> Activity Drawn (in mCi) Date/Time Drawn
-
-> Person Who Measured Dose Dose Administered
-
-> Date/Time Dose Administered Person Who Administered Dose Witness to Dose Administration Route of Administration
-
-> Site of Administration Site of Admin Text Lot No.
-
-> Volume (in ml or caplets) Form
-
-# Rad/Nuc Med Procedures file \# 71 Fields Removed:
+### Setting Up the Voice Recognition Event Driver Protocols
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Stop Codes \#160
+In order to use the new Integrating the Healthcare Enterprise (IHE) compliant HL7 v2.4 messaging provided by this patch, you must add the corresponding voice recognition subscriber protocols as SUBSCRIBERS to the new v2.4 event driver protocols exported in this patch.
 
-# Fields Added:
+> **NOTE:** For setting up the VistA Imaging MAGD SEND ORM and MAGD SEND ORU subscriber protocols, refer to MAG\*3.0\*49 patch documentation.
+
+- The voice recognition subscriber protocols are likely the subscriber protocols that the site currently uses for the existing v2.3 (or previous) protocols.
+- Prior to adding the voice recognition subscriber protocols to the new v2.4 event driver protocols, the corresponding voice recognition subscriber protocols must be removed from the existing v2.3 event driver protocols, to prevent sending duplicate messages.
+
+> **NOTE:** If the listed protocols were renamed locally at your site, use the appropriately named protocols.
+
+In the examples, RA TALKLINK ORM/ORU is used to illustrate the
+
+process, but the steps are the same for RA PSCRIBE ORM/ORU, RA RADWHERE
+
+ORM/ORU, and/or RA SEND ORM/ORU; so, substitute the correct name.
+
+#### Step 1 - Remove voice recognition and PACS subscribers from existing ORM event driver protocols
+
+For the RA CANCEL 2.3, RA EXAMINED 2.3 and RA REG 2.3 protocols (or the appropriate protocols if the site is using a version previous to v2.3), remove the voice recognition ORM subscriber protocol.
+
+> **NOTE:** The PACS subscriber may need to be removed from the RA REG, RA EXAMINED and RA CANCEL protocols.
+
+- For TalkStation, the subscriber protocol is RA TALKLINK ORM Note ORM
+- For PowerScribe, the subscriber protocol is RA PSCRIBE ORM Note ORM
+- For RadWhere, the subscriber protocol is RA RADWHERE ORM Note ORM
+- For PACS, the subscriber protocol is RA SEND ORM Note ORMExample for Step 1Note: You must perform step 1 for the RA REG 2.3, RA CANCEL 2.3, and RA EXAM 2.3 protocols, but only RA REG 2.3 is shown in this example.
+
+Select OPTION NAME: HL7 MAIN MENU  HL MAIN MENU     HL7 Main Menu
+
+ 
+
+                 Event monitoring menu ...
+
+                 Systems Link Monitor
+
+                 Filer and Link Management Options ...
+
+                 Message Management Options ...
+
+                 Interface Developer Options ...
+
+                 Site Parameter Edit
+
+          HLO    HL7 (Optimized) MAIN MENU ...
+
+ 
+
+Select HL7 Main Menu Option:  Interface Developer Options
+
+ 
+
+          EA     Application Edit
+
+          EP     Protocol Edit
+
+          EL     Link Edit
+
+          VI     Validate Interfaces
+
+                 Reports ...
+
+ 
+
+Select Interface Developer Options Option:  Protocol Edit
+
+ 
+
+Select PROTOCOL NAME: RA REG 2.3   Select v2.3 event driver protocol
+
+   
+
+              HL7 INTERFACE SETUP                         PAGE 1 OF 2
+
+-----------------------------------------------------------------------
+
+ 
+
+              NAME: RA REG 2.3                                            
+
+ 
+
+DESCRIPTION (wp):   \[This protocol is triggered whenever a Radiology\]
+
+  
+
+ENTRY ACTION:
+
+ 
+
+EXIT ACTION:
+
+  
+
+TYPE: event driver  Press \<return\> at this field to go to next screen
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+   
+
+COMMAND:                                  Press \<PF1\>H for help
+
+             HL7 EVENT DRIVER                         PAGE 2 OF 2
+
+             RA REG 2.3                   
+
+------------------------------------------------------------------------
+
+     
+
+SENDING APPLICATION: RA-VOICE-SERVER
+
+TRANSACTION MESSAGE TYPE: ORM                        EVENT TYPE: O01
+
+       MESSAGE STRUCTURE:
+
+           PROCESSING ID:                            VERSION ID: 2.3
+
+         ACCEPT ACK CODE:                  APPLICATION ACK TYPE:
+
+ 
+
+ RESPONSE PROCESSING RTN: \*\*\*\*\*\*\*\*\*\*\*\*\*\*                           
+
+                       SUBSCRIBERS
+
+RA TALKLINK ORM   Remove VR ORM subscriber
+
+RA SEND ORM   Remove PACS ORM subscriber, if applicable
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+
+#### Step 2 - Remove voice recognition and PACS subscribers from existing ORU event driver protocol
+
+> **NOTE:** The PACS subscriber may need to be removed from the RA RPT protocol.
+
+For the RA RPT 2.3 protocol (or the appropriate protocol if the site is using a version previous to v2.3), remove the voice recognition ORU subscriber protocol.
+
+- For TalkStation, the subscriber protocol is RA TALKLINK ORU Note ORU
+- For PowerScribe, the subscriber protocol is RA PSCRIBE ORU Note ORU
+- For RadWhere, the subscriber protocol is RA RADWHERE ORU Note ORU
+- For PACS, the subscriber protocol is RA SEND ORU Note ORUExample for Step 2
+
+Select OPTION NAME: HL7 MAIN MENU  HL MAIN MENU     HL7 Main Menu
+
+ 
+
+                 Event monitoring menu ...
+
+                 Systems Link Monitor
+
+                 Filer and Link Management Options ...
+
+                 Message Management Options ...
+
+                 Interface Developer Options ...
+
+                 Site Parameter Edit
+
+          HLO    HL7 (Optimized) MAIN MENU ...
+
+ 
+
+Select HL7 Main Menu Option:  Interface Developer Options
+
+ 
+
+          EA     Application Edit
+
+          EP     Protocol Edit
+
+          EL     Link Edit
+
+          VI     Validate Interfaces
+
+                 Reports ...
+
+ 
+
+Select Interface Developer Options Option:  Protocol Edit
+
+ 
+
+Select PROTOCOL NAME: RA RPT 2.3   Select v2.3 event driver protocol
+
+   
+
+       HL7 INTERFACE SETUP                         PAGE 1 OF 2
+
+-----------------------------------------------------------------------
+
+ 
+
+       NAME: RA RPT 2.3                                            
+
+ 
+
+DESCRIPTION (wp):   \[This protocol is triggered whenever a Radiology\]
+
+ 
+
+ENTRY ACTION:
+
+ 
+
+EXIT ACTION: 
+
+ 
+
+TYPE: event driver  Press \<return\> at this field to go to next screen
+
+ 
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+   
+
+COMMAND:                                  Press \<PF1\>H for help
+
+         HL7 EVENT DRIVER                         PAGE 2 OF 2
+
+         RA RPT 2.3                   
+
+-----------------------------------------------------------------------
+
+     
+
+SENDING APPLICATION: RA-VOICE-SERVER
+
+TRANSACTION MESSAGE TYPE: ORU                        EVENT TYPE: R01
+
+       MESSAGE STRUCTURE:
+
+           PROCESSING ID:                            VERSION ID: 2.3  
+
+         ACCEPT ACK CODE:                  APPLICATION ACK TYPE:
+
+ 
+
+ RESPONSE PROCESSING RTN: \*\*\*\*\*\*\*\*\*\*\*\*\*\*                         
+
+                    SUBSCRIBERS
+
+RA TALKLINK ORU   Remove appropriate VR ORU subscriber
+
+RA SEND ORU   Remove PACS ORU subscriber, if applicable
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+#### Step 3 - Add voice recognition and PACS subscribers to new ORM event driver protocols
+
+For the RA CANCEL 2.4, RA EXAMINED 2.4, and RA REG 2.4 protocols, add the voice recognition and PACS ORM subscriber protocol.
+
+- For TalkStation, it is usually RA TALKLINK ORM Note ORM
+- For PowerScribe, it is usually RA PSCRIBE ORM Note ORM
+- For RadWhere, it is usually RA RADWHERE ORM Note ORM
+- For PACS, it is usually RA SEND ORM Note ORMExample for Step 3Note: You must perform step 3 for the RA REG 2.4, RA CANCEL 2.4 and RA EXAMINED 2.4 protocols, but only RA REG 2.4 is shown in this example.
+
+Select OPTION NAME: HL7 MAIN MENU  HL MAIN MENU     HL7 Main Menu
+
+ 
+
+                 Event monitoring menu ...
+
+                 Systems Link Monitor
+
+                 Filer and Link Management Options ...
+
+                 Message Management Options ...
+
+                 Interface Developer Options ...
+
+                 Site Parameter Edit
+
+          HLO    HL7 (Optimized) MAIN MENU ...
+
+ 
+
+Select HL7 Main Menu Option:  Interface Developer Options
+
+ 
+
+          EA     Application Edit
+
+          EP     Protocol Edit
+
+          EL     Link Edit
+
+          VI     Validate Interfaces  
+Reports ...
+
+ 
+
+Select Interface Developer Options Option:  Protocol Edit
+
+ 
+
+Select PROTOCOL NAME: RA REG 2.4   Select v2.4 event driver protocol
+
+   
+
+         HL7 INTERFACE SETUP                         PAGE 1 OF 2
+
+-----------------------------------------------------------------------
+
+ 
+
+         NAME: RA REG 2.4                                             
+
+DESCRIPTION (wp):   \[This protocol is triggered whenever a Radiology\]
+
+  
+
+ENTRY ACTION: 
+
+EXIT ACTION:
+
+  
+
+  TYPE: event driver  Press \<return\> at this field to go to next screen
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+   
+
+COMMAND:                                  Press \<PF1\>H for help
+
+          HL7 EVENT DRIVER                         PAGE 2 OF 2
+
+          RA REG 2.4                   
+
+-----------------------------------------------------------------------
+
+      
+
+SENDING APPLICATION: RA-VOICE-SERVER
+
+ TRANSACTION MESSAGE TYPE: ORM                      EVENT TYPE: O01
+
+        MESSAGE STRUCTURE:
+
+            PROCESSING ID:                      VERSION ID: 2.4   
+
+          ACCEPT ACK CODE:                APPLICATION ACK TYPE:
+
+ 
+
+  RESPONSE PROCESSING RTN: \*\*\*\*\*\*\*\*\*\*\*\*\*\*                              
+
+                   SUBSCRIBERS
+
+RA TALKLINK ORM   Add appropriate VR ORM subscriber
+
+RA SEND ORM   Add PACS ORM subscriber, if applicable
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+#### Step 4 - Add voice recognition subscribers to new ORU event driver protocol
+
+For the RA RPT 2.4 protocol, add the voice recognition and PACS ORU subscriber protocol.
+
+- For TalkStation, the subscriber protocol is RA TALKLINK ORU Note ORU
+- For PowerScribe, the subscriber protocol RA PSCRIBE ORU Note ORU
+- For RadWhere, the subscriber protocol RA RADWHERE ORU Note ORU
+- For PACS, the subscriber protocol RA SEND ORU Note ORUExample for Step 4
+
+Select OPTION NAME: HL7 MAIN MENU  HL MAIN MENU     HL7 Main Menu
+
+ 
+
+                 Event monitoring menu ...
+
+                 Systems Link Monitor
+
+                 Filer and Link Management Options ...
+
+                 Message Management Options ...
+
+                 Interface Developer Options ...
+
+                 Site Parameter Edit
+
+          HLO    HL7 (Optimized) MAIN MENU ...
+
+ 
+
+Select HL7 Main Menu Option:  Interface Developer Options
+
+ 
+
+          EA     Application Edit
+
+          EP     Protocol Edit
+
+          EL     Link Edit
+
+          VI     Validate Interfaces
+
+                 Reports ...
+
+ 
+
+Select Interface Developer Options Option:  Protocol Edit
+
+ 
+
+Select PROTOCOL NAME: RA RPT 2.4   Select v2.4 event driver protocol
+
+   
+
+         HL7 INTERFACE SETUP                         PAGE 1 OF 2
+
+-----------------------------------------------------------------------
+
+ 
+
+NAME: RA RPT 2.4                                            
+
+ 
+
+DESCRIPTION (wp):   \[This protocol is triggered whenever a Radiology\]
+
+ 
+
+ENTRY ACTION:
+
+ 
+
+EXIT ACTION:
+
+  
+
+        TYPE: event driver  Press \<return\> at this field to go to next screen
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+   
+
+COMMAND:                                  Press \<PF1\>H for help
+
+         HL7 EVENT DRIVER                         PAGE 2 OF 2
+
+         RA RPT 2.4                   
+
+-----------------------------------------------------------------------
+
+     
+
+SENDING APPLICATION: RA-VOICE-SERVER
+
+TRANSACTION MESSAGE TYPE: ORU                        EVENT TYPE: R01
+
+       MESSAGE STRUCTURE:
+
+           PROCESSING ID:                            VERSION ID: 2.4  
+
+         ACCEPT ACK CODE:                  APPLICATION ACK TYPE:
+
+ RESPONSE PROCESSING RTN: \*\*\*\*\*\*\*\*\*\*\*\*\*\*                       
+
+                     SUBSCRIBERS
+
+RA TALKLINK ORU   Add appropriate VR ORU subscriber
+
+RA SEND ORU   Add PACS ORU subscriber, if applicable
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   
+
+#### Step 5 - Change the Version ID field of existing message receipt protocol to 2.4
+
+For the existing message receipt protocol, change the Version ID field to 2.4.
+
+- For TalkStation, it is usually RA TALKLINK TCP SERVER REPORT
+- For PowerScribe, it is usually RA PSCRIBE TCP SERVER REPORT
+- For RadWhere, it is usually RA RADWHERE TCP SERVER REPORT  
+
+Example for Step 5
+
+Select OPTION NAME: HL7 MAIN MENU  HL MAIN MENU     HL7 Main Menu
+
+ 
+
+               Event monitoring menu ...
+
+               Systems Link Monitor
+
+               Filer and Link Management Options ...
+
+               Message Management Options ...
+
+               Interface Developer Options ...
+
+               Site Parameter Edit
+
+        HLO    HL7 (Optimized) MAIN MENU ...
+
+ 
+
+Select HL7 Main Menu Option:  Interface Developer Options
+
+ 
+
+        EA     Application Edit
+
+        EP     Protocol Edit
+
+        EL     Link Edit
+
+        VI     Validate Interfaces
+
+               Reports ...
+
+ 
+
+Select Interface Developer Options Option: EP  Protocol Edit
+
+ 
+
+Select PROTOCOL NAME:  RA TALKLINK TCP SERVER RPT  Select existing message receipt event
+
+> driver protocol (TALKLINK is used in this example)
+
+ 
+
+        HL7 INTERFACE SETUP                         PAGE 1 OF 2
+
+-----------------------------------------------------------------------
+
+ 
+
+NAME: RA TALKLINK TCP SERVER RPT                            
+
+ 
+
+DESCRIPTION (wp):   \[Driver protocol for sending report to VISTA Rad\]
+
+ 
+
+ENTRY ACTION:
+
+ 
+
+EXIT ACTION: 
+
+ 
+
+        TYPE: event driver  Press \<return\> at this field to go to next screen
+
+ 
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+ 
+
+          HL7 EVENT DRIVER                         PAGE 2 OF 2
+
+          RA TALKLINK TCP SERVER RPT 
+
+  
+
+-----------------------------------------------------------------------
+
+SENDING APPLICATION: RA-TALKLINK-TCP
+
+ TRANSACTION MESSAGE TYPE: ORU              EVENT TYPE: R01
+
+        MESSAGE STRUCTURE:          
+
+            PROCESSING ID:                  VERSION ID: 2.3 Change this field to 2.4
+
+ 
+
+          ACCEPT ACK CODE:                  APPLICATION ACK TYPE:
+
+ 
+
+ RESPONSE PROCESSING RTN:
+
+                           SUBSCRIBERS
+
+  RA TALKLINK TCP REPORT
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### Step 6 - Turn on the use of the long site accession number
+
+The option, Site Accession Number Set-up, functions as the *switch* to turn on the use of the Site Specific Accession Number (SSAN).
+
+- Until this field is set to YES, the system will not generate and store the SSAN during the registration of a new case.
+- Only when all devices are able to handle the SSAN, should this field be set to YES, at which point, the system will generate and store the SSAN during Registration.
+
+Example for Step 6
+
+    
+
+Select OPTION NAME: RA SITEMANAGER       IRM Menu
+
+  
+
+          Device Specifications for Imaging Locations
+
+          Distribution Queue Purge
+
+          Failsoft Parameters
+
+          Imaging Type Activity Log
+
+          Purge Data Function
+
+          Rebuild Distribution Queues
+
+          Report File x-ref Clean-up Utility
+
+          Site Accession Number Set-up
+
+          Credit completed exams for an Imaging Location
+
+          Resource Device Specifications for Division
+
+          Schedule Perf. Indic. Summary for 15th of month
+
+          Template Compilation
+
+  Select IRM Menu Option: Site Accession Number Set-up
+
+ 
+
+   Warning: Turning on the Site Specific Accession Number should only
+
+   be done in conjunction with using the RA v2.4 messaging protocols.
+
+ 
+
+   NOTE: Changing the Site Specific Accession Number parameter at a
+
+   multidivisional site will change the parameter for ALL divisions.
+
+ 
+
+Current value of Site Specific Accession Number parameter: NO
+
+Use Site Specific Accession Number? YES
+
+# Software and Documentation Retrieval
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Suppress Radiopharm Prompt \#2 Prompt for Meds \#5
-
-> Cost of Procedure \#10
-
-> Default Camera/Equip/Rm \#14 Print Procedure Barcode \#15 Print CPT Barcode \#16
-
-> Display Ed Desc when Ordered \#17 Single Report \#18
-
-> Prompt for Radiopharm RX \#19 Default Radiopharmaceuticals \#50
-
-> Default Radiopharmaceutical Usual Dose
-
-> Dflt Route of Administration Default Site of Administration High Adult Dose
-
-> Low Adult Dose Default Form
-
-> Default Medications Default Medication Default Med Dose
-
-> New Procedure Message \#400 Educational Description \#500
-
-# Major Rad/Nuc Med AMIS Codes file \#71.1 Fields Removed:
+## Software
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Credit Clinic Stop \#3
+Patch RA\*5\*47 software and documentation are available on the Office of Information Field Offices (OIFOs) \[ANONYMOUS. SOFTWARE\] directories at the following Internet addresses:
 
-# Rad/Nuc Med Common Procedure file \#71.3 Fields Removed:
+| Preferred or Specific Server       | Internet Address                                    |
+|------------------------------------|-----------------------------------------------------|
+| First available ftp server         | <span class="mark">REDACTED</span> \< Preferred |
+| <span class="mark">REDACTED</span> | <span class="mark">REDACTED</span>                  |
+| <span class="mark">REDACTED</span> | <span class="mark">REDACTED</span>                  |
+| <span class="mark">REDACTED</span> | <span class="mark">REDACTED</span>                  |
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+This patch is available via FTP (File Transfer Protocol) in a KIDS (Kernel Installation and Distribution System) distribution file.
 
-> Common Procedure Group \#2
+| File Name    | Description | Download Format |
+|--------------|-------------|-----------------|
+| RA_5_P47.KID | KIDS Build  | ASCII           |
 
-# Route of Administration file \#71.6
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> This is a new file for routes of administration for radiopharmaceuticals.
-
-# Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Name \#.01
-
-> Valid Sites of Administration \#2 Prompt for Free Text Site? \#3 Synonyms \#100
-
-# Site of Administration file \#71.7
+## Documentation 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> This is a new file for sites of administration for radiopharmaceuticals.
+Manuals are also available in MS Word (.docx) format and the Portable Document Format (.pdf) on the VA Software Documentation Library
 
-# Fields Added:
+<http://www4.va.gov/vdl/>
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+<table>
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 23%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Document File Description</th>
+<th>File Names</th>
+<th>FTP Mode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Radiology/Nuclear Medicine User Manual</td>
+<td><p>RA5_0UM.doc</p>
+<p>RA5_0UM.pdf</p></td>
+<td>Binary</td>
+</tr>
+<tr class="even">
+<td>Radiology/Nuclear Medicine Technical Manual</td>
+<td><p>RA5_0TM.doc</p>
+<p>RA5_0TM.pdf</p></td>
+<td>Binary</td>
+</tr>
+<tr class="odd">
+<td>Radiology/Nuclear Medicine 5.0 HL7 Interface Specification Version 3.0</td>
+<td><p>RA5_0HL7spec.doc</p>
+<p>RA5_0HL7spec.pdf</p></td>
+<td>Binary</td>
+</tr>
+<tr class="even">
+<td>Radiology/Nuclear Medicine 5.0 HL7 Setup/Implementation Manual Version 3.0</td>
+<td><p>RA5_0HL7setup.doc</p>
+<p>RA5_0HL7setup.pdf</p></td>
+<td>Binary</td>
+</tr>
+<tr class="odd">
+<td>Radiology/Nuclear Medicine Release Notes</td>
+<td><p>RA5_0RN_P47.doc</p>
+<p>RA5_0RN_P47.pdf</p></td>
+<td>Binary</td>
+</tr>
+</tbody>
+</table>
 
-> Name \#.01
+---
 
-> Synonym \#100
+## Appendix: Unique Sections from Prior Versions
 
-# Radiopharmaceutical Source file \#71.8
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+### From: RA*5*56 Release Notes
 
-> This is a new file for sources for radiopharmaceuticals.
-
-# Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Vendor/Pharmacy \#.01
-
-# Radiopharmaceutical Lot file \#71.9
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> This is a new file for lot numbers for radiopharmaceuticals.
-
-# Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Number/ID \#.01
-
-> Source \#2
-
-> Expiration Date \#3
-
-> Kit \# \#4
-
-> Radiopharm \#5
-
-> Inactive \#6
-
-# Examination Status file \#72 Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Ask Medications & Dosages? \#.27 Ask Med Adm Dt/Time/Person? \#.28 Radiopharms/Dosages Required? \#.51 Activity Drawn Required? \#.53
-
-> Drawn Dt/Time/Person Required? \#.54
-
-> 22 Radiology/Nuclear Medicine V. 5.0 April 1998
-
-> Adm Dt/Time/Person Required? \#.55 Route/Site Required? \#.57
-
-> Lot No. required? \#.58 Volume/Form Required? \#.59
-
-> Ask Radiopharms and Dosages? \#.61 Print Dosage Ticket? \#.611
-
-> Ask Activity Drawn? \#.63
-
-> Ask Drawn Dt/Time/Person? \#.64 Ask Adm Dt/Time/Person? \#.65 Ask Route/Site of Adm? \#.67
-
-> Ask Lot No.? \#.68
-
-> Ask Volume/Form? \#.69
-
-# Rad/Nuc Med Reports file \#74 Field Name Changed:
+### 'Outside Report Entry/Edit' \[RA OUTSIDE RPTENTRY\]
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Pre-Verification Elect Sign is now Pre-Verification E-Sig
+In the Films Reporting Menu, the 'Outside Report Entry/Edit' option allows you to enter a canned report to record the receipt of a report that was interpreted outside your facility without the need to verify the report in order for the exam status of the case to reach 'COMPLETE.' This option prompts for 'Standard' Report to Copy, Reported Date, Report Text, Impression Text, and Diagnostic Codes. It automatically assigns an Electronically Filed (EF) report status to the report, if a canned report was selected, and/or report text and/or impression text was entered via this option. Except for the Diagnostic Code, this option ignores all other site-required items for the exam status of 'COMPLETE,' including verifying physician and verified date.
 
-# Fields Added:
+If diagnostic codes are not required for the exam status of 'COMPLETE,' this option automatically sets the exam status to 'COMPLETE'; otherwise, it automatically sets the exam status to 'COMPLETE' when a diagnostic code is entered later via this option. The requirement for diagnostic code is set via the 'Examination Status Entry/Edit' \[RA EXAMSTATUS\] option.
+
+This option also allows you to enter diagnostic codes even after the case has reached the 'COMPLETE' exam status. Each time this option is used to change or add new diagnostic codes, the added or changed codes are rechecked to see if alerts should be generated. Alerts are not generated again for existing, unchanged diagnostic codes that previously triggered the generation of alerts. The generation of alerts is based upon the value of "GENERATE ABNORMAL ALERT?" in the DIAGNOSTIC CODES file (#78.3), which is updated via the 'Diagnostic Code Enter/Edit' \[RA DIAGEDIT\] option. If an alert is generated, its notification appears as follows on the VistA roll-n-scroll screen:
+
+RADPATIENT,ONE (R4558): Abnormal Imaging Results: CHEST 2 VIEWS PA&LAT
+
+Enter "VA to jump to VIEW ALERTS option
+
+A study performed and interpreted outside must be registered under a "No Credit" imaging location. If it is not, when you use this option, a warning message displays, but you can continue to enter data, provided it is an acceptable business rule in your department. (The following example shows the warning message.)
+
+Example 1
+
+Enter a new outside report for a case that is registered from a credit location. A warning message displays regarding the credit method.
+
+Select Films Reporting Menu Option: OUTSIDE Report Entry/Edit
+
++--------------------------------------------------------+
+
+\| \|
+
+\| This option is for entering canned text for \|
+
+\| outside work: interpreted report done outside, \|
+
+\| and images made outside this facility. \|
+
+\| \|
+
++--------------------------------------------------------+
+
+Select Rad/Nuc Med Division: All//
+
+Another one (Select/De-Select):
+
+Select Imaging Type: All//
+
+Another one (Select/De-Select):
+
+Enter Case Number: RADPATIENT,ONE
+
+RADPATIENT,ONE 6-1-27 000000000
+
+\*\*\*\* Case Lookup by Patient \*\*\*\*
+
+Patient's Name: RADPATIENT,ONE 000-00-0000 Run Date: MAR 5,2008
+
+Case No. Procedure Exam Date Status of Report Imaging Loc
+
+-------- ------------- --------- ---------------- -----------
+
+1 2794 CHEST 2 VIEWS PA&LAT 03/05/08 RADIOLOGY L
+
+2 2612 SPINE ENTIRE AP&LAT 02/13/08 ELECTRONICALLY F RADIOLOGY L
+
+3 2610 ELBOW 2 VIEWS 02/13/08 DRAFT X-RAY CLINI
+
+4 2608 HAND 1 OR 2 VIEWS 02/13/08 ELECTRONICALLY F X-RAY CLINI
+
+5 +2552 ABDOMEN 1 VIEW 01/31/08 DRAFT X-RAY CLINI
+
+6 .2553 ABDOMEN 2 VIEWS 01/31/08 DRAFT X-RAY CLINI
+
+7 .2554 ABDOMEN 3 OR MORE VIEWS 01/31/08 DRAFT X-RAY CLINI
+
+8 2551 MANDIBLE LESS THAN 4 VIEWS 01/31/08 DRAFT X-RAY CLINI
+
+9 2498 CLAVICLE 12/19/07 (Exam Dc'd) RADIOLOGY L
+
+10 2152 FOOT 2 VIEWS 09/08/06 VERIFIED X-RAY CLINI
+
+11 2153 CLAVICLE 09/08/06 ELECTRONICALLY F X-RAY CLINI
+
+12 2122 HIP 1 VIEW 07/07/06 RADIOLOGY L
+
+Type a '^' to STOP, or
+
+CHOOSE FROM 1-12: 1
+
+-------------------------------------------------------------------------------
+
+Name : RADPATIENT,ONE Pt ID : 000-00-0000
+
+Case No. : 2794 Exm. St: WAITING FOR Procedure : CHEST 2 VIEWS PA&LAT
+
+Tech.Comment: This is the tech comment entered during registration.
+
+Exam Date: MAR 5,2008 10:29 Technologist:
+
+Req Phys : RADPROVIDER,ONE
+
+-------------------------------------------------------------------------------
+
+This option is for Outside work (imaged and read), so the case should Warning
+
+be 'No Credit', but this case has a credit method of 'Regular Credit' Message
+
+Do you want to continue? NO// YES
+
+...report not entered for this exam...
+
+...will now initialize report entry...
+
+-------------------------------------------------------------------------------
+
+Select 'Standard' Report to Copy:
+
+REPORTED DATE: T (MAR 05, 2008)
+
+CLINICAL HISTORY:
+
+This is the clinical history entered during Request an Exam.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Required: REPORT TEXT and/or IMPRESSION TEXT
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+REPORT TEXT:
+
+No existing text
+
+Edit? NO//
+
+IMPRESSION TEXT:
+
+No existing text
+
+Edit? NO//
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Required: REPORT TEXT and/or IMPRESSION TEXT
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+REPORT TEXT: If nothing is entered for REPORT TEXT and IMPRESSION
+
+No existing text TEXT, the option loops back to ask for both, until data is
+
+Edit? NO// YES is entered for at least one of them.
+
+==\[ WRAP \]==\[ INSERT \]=============\< REPORT TEXT \>===========\[ \<PF1\>H=Help \]====
+
+This is the report text.
+
+\<=======T=======T=======T=======T=======T=======T=======T=======T=======T\>======
+
+IMPRESSION TEXT:
+
+No existing text
+
+Edit? NO//
+
+PRIMARY DIAGNOSTIC CODE: NORMAL
+
+Select SECONDARY DIAGNOSTIC CODE: 9 NO DISCRETE MASS
+
+Select SECONDARY DIAGNOSTIC CODE:
+
+Report status is stored as "Electronically Filed".
+
+...will now designate exam status as 'COMPLETE'... for case no. 2794
+
+...exam status successfully updated.
+
+...will now designate request status as 'COMPLETE'...
+
+Visit credited.
+
+...request status successfully updated.
+
+> Results
+
+- Both exam status and request status are updated to 'COMPLETE.'
+- Normally, if an outside report is entered for an exam that was registered from a "No Credit" imaging location, the "Visit credited" would not appear.
+- There is no alert for "Imaging Results," as would be automatically generated for Verified Reports.
+- There is no Abnormal alert because the diagnostic codes here do not require alerts.
+- The 'Outside Report Entry/Edit' option does not recognize the case number once the case reaches 'COMPLETE,' because the case is no longer active. You must enter the patient name or Last initial and Last 4 SSN at the Enter Case Number prompt to display a list of patient cases from which to select. This general feature is also seen from the 'View Exam by Case No.' option.
+
+Example 1 continued
+
+Select Films Reporting Menu Option: Outside Report Entry/Edit
+
++--------------------------------------------------------+
+
+\| \|
+
+\| This option is for entering canned text for \|
+
+\| outside work: interpreted report done outside, \|
+
+\| and images made outside this facility. \|
+
+\| \|
+
++--------------------------------------------------------+
+
+Select Rad/Nuc Med Division: All//
+
+Another one (Select/De-Select):
+
+Select Imaging Type: All//
+
+Another one (Select/De-Select):
+
+Enter Case Number: 2794 The completed case is no longer active.
+
+No matches found! So, the case cannot be found by case number.
+
+Example 2
+
+Use the same option on an existing outside report, but do not change any data.
+
+Select Films Reporting Menu Option: OUTSIDE Report Entry/Edit
+
+> …
+
+CHOOSE FROM 1-12: 1
+
+-------------------------------------------------------------------------------
+
+Name : RADPATIENT,ONE Pt ID : 000-00-0000
+
+Case No. : 2794 Exm. St: COMPLETE Procedure : CHEST 2 VIEWS PA&LAT
+
+Tech.Comment: This is the tech comment entered during registration.
+
+Exam Date: MAR 5,2008 10:29 Technologist:
+
+Req Phys : RADPROVIDER,ONE
+
+-------------------------------------------------------------------------------
+
+Select 'Standard' Report to Copy:
+
+REPORTED DATE: MAR 5,2008//
+
+CLINICAL HISTORY:
+
+This is the clinical history entered during Request an Exam.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Required: REPORT TEXT and/or IMPRESSION TEXT
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+REPORT TEXT:
+
+This is the report text.
+
+Edit? NO//
+
+IMPRESSION TEXT:
+
+No existing text
+
+Edit? NO//
+
+PRIMARY DIAGNOSTIC CODE: NORMAL//
+
+Select SECONDARY DIAGNOSTIC CODE: NO DISCRETE MASS
+
+//
+
+SECONDARY DIAGNOSTIC CODE: NO DISCRETE MASS//
+
+Select SECONDARY DIAGNOSTIC CODE:
+
+Report status is stored as "Electronically Filed".
+
+Do you wish to print this report? No//
+
+> Results
+
+- There is no update of exam and request statuses, because this exam already reached the exam status of 'COMPLETE.'
+- There is no alert because none of the diagnostic codes were changed.
+
+Example 3
+
+Change some diagnostic codes for a previously entered outside report.
+
+Select Films Reporting Menu Option: Outside Report Entry/Edit
+
+> …
+
+CHOOSE FROM 1-12: 1
+
+-------------------------------------------------------------------------------
+
+Name : RADPATIENT,ONE Pt ID : 000-00-0000
+
+Case No. : 2794 Exm. St: COMPLETE Procedure : CHEST 2 VIEWS PA&LAT
+
+Tech.Comment: This is the tech comment entered during registration.
+
+Exam Date: MAR 5,2008 10:29 Technologist:
+
+Req Phys : RADPROVIDER,ONE
+
+-------------------------------------------------------------------------------
+
+Select 'Standard' Report to Copy:
+
+REPORTED DATE: MAR 5,2008//
+
+CLINICAL HISTORY:
+
+This is the clinical history entered during Request an Exam.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Required: REPORT TEXT and/or IMPRESSION TEXT
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+REPORT TEXT:
+
+This is the report text.
+
+Edit? NO//
+
+IMPRESSION TEXT:
+
+No existing text
+
+Edit? NO//
+
+PRIMARY DIAGNOSTIC CODE: NORMAL// 4 ABNORMALITY, ATTN. NEEDED
+
+Select SECONDARY DIAGNOSTIC CODE: NO DISCRETE MASS
+
+// @
+
+SURE YOU WANT TO DELETE THE ENTIRE SECONDARY DIAGNOSTIC CODE? Y (Yes)
+
+Select SECONDARY DIAGNOSTIC CODE:
+
+Report status is stored as "Electronically Filed".
+
+Do you wish to print this report? No//
+
+Enter Case Number:
+
+Batch Reports Menu ...
+
+Display a Rad/Nuc Med Report
+
+Distribution Queue Menu ...
+
+Draft Report (Reprint)
+
+On-line Verifying of Reports
+
+Outside Report Entry/Edit
+
+Report Entry/Edit
+
+Resident On-Line Pre-Verification
+
+Select Report to Print by Patient
+
+Switch Locations
+
+Verify Report Only
+
+RADPATIENT,ONE (R4558): Abnormal Imaging Results: CHEST 2 VIEWS PA&LAT
+
+Enter "VA to jump to VIEW ALERTS option
+
+> Result
+
+> An Abnormal alert is generated because the primary diagnostic code was changed to one that requires the generation of an alert notification.
+
+'Restore a Deleted Report' \[RA RESTORE REPORT\]
+
+In the Supervisor Menu, the 'Restore a Deleted Report' option allows you to relink a previously deleted report to its associated case, only if another report was not linked to the case in the interim (time between deletion and restoration). The restored report is re-assigned the report status it had prior to being deleted; however, the status of the exam is not updated.
+
+If a case had a report entered and deleted, then had a second report entered and deleted for it, the case would have two deleted reports in the database. This option allows you to choose any previously deleted report for a case, not just the most recently deleted report for that case. The other deleted report that was not selected for restoration remains as a deleted report in the database.
+
+To view a list of deleted reports to select from this option, enter "??" at the "Select Deleted Report to restore:" prompt. After you select a deleted report, the first prompt displayed is:
+
+Do you want to restore this deleted report? NO//
+
+Before allowing you to restore a report, this option checks whether the case associated with this report has another report linked to it and whether the case has data for diagnostic codes, staff, and resident. If any such data are found, the option does not continue, but displays a warning message. For example:
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Case #123 is already associated with a report!</p>
+<p>Restoration was not done.</p>
+<p>This message indicates that either another previously deleted report was restored to its associated case or a new report was entered for the case during the time between report deletion and attempted restoration.</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Case #461 already has SECONDARY DIAGNOSTIC CODE</p>
+<p>Restoration was not done.</p>
+<p>This message indicates that the case associated with this report already has secondary diagnostic code data, which may or may not be associated with this report. The supervisor must determine if the correct deleted report was selected for restoration; and if so, must remove the secondary diagnostic code from the case before the deleted report can be restored. The 'Diagnostic Code and Interpreter Edit by Case No.' [RA DIAGCN] option can be used to remove the diagnostic code data.</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+If no problems are found, then the patient name and some case data are displayed. If the patient name and case data match the case for the deleted report you want to restore, then enter "YES" to the second prompt:
+
+Are you sure you want to link this report back to the case? NO//
+
+After a report is restored to its associated case, you can view statuses for previously deleted and restored activities from the Report Activity Log section of the 'View Exam by Case No.' option.
+
+Example of restoring a report to one case
+
+Restore a deleted report back to its case. This option relinks the report back to its associated case and repopulates the diagnostic code(s), staff, and resident data to the case.
+
+Select Supervisor Menu Option: RESTORE a Deleted Report
+
++--------------------------------------------------------+
+
+\| \|
+
+\| This option is for restoring a deleted report. \|
+
+\| \|
+
++--------------------------------------------------------+
+
+Select Deleted Report to restore: ??
+
+Choose from:
+
+013108-2551 RADPATIENT,ONE MANDIBLE LESS THAN 4 VIEWS
+
+021308-2608 RADPATIENT,ONE HAND 1 OR 2 VIEWS
+
+070706-2122 RADPATIENT,ONE HIP 1 VIEW
+
+072304-1608 RADPATIENT,TWO MANDIBLE LESS THAN 4 VIEWS
+
+072304-1609 RADPATIENT,TWO FOOT 3 OR MORE VIEWS
+
+090806-2153 RADPATIENT,ONE CLAVICLE
+
+Select Deleted Report to restore: 013108-2551 RADPATIENT,ONE MANDIBLE LESS THAN 4 VIEWS
+
+Do you want to restore this deleted report? NO// YES
+
+-------------------------------------------------------------------------------
+
+Name : RADPATIENT,ONE Pt ID : 000-00-0000
+
+Case No. : 2551 Exm. St: WAITING FOR Procedure : MANDIBLE LESS THAN 4 VIEW
+
+Tech.Comment: This is the tech comment during registration
+
+Exam Date: JAN 31,2008 10:23 Technologist:
+
+Req Phys : RADPROVIDER,ONE
+
+-------------------------------------------------------------------------------
+
+Are you sure you want to link this report back to the case? NO// YES
+
+... Restored 013108-2551's report status to: DRAFT.
+
+... Linked restored report to case no. 2551
+
+... Restored case 2551's PRIMARY DIAGNOSTIC CODE to: NORMAL
+
+... Restored case 2551's SECONDARY DIAGNOSTIC CODE to: UNDICTATED FILMS NOT RETURNED, 3 DAYS
+
+... Restored case 2551's SECONDARY DIAGNOSTIC CODE to: NO DISCRETE MASS
+
+... Restored case 2551's PRIMARY INTERPRETING STAFF to: RADPRIMARYSTAFF,ONE
+
+... Restored case 2551's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,ONE
+
+... Restored case 2551's PRIMARY INTERPRETING RESIDENT to: RADPRIMARYRESIDENT,ONE
+
+\*\* You need to edit the case to update the exam status. \*\*
+
+Press RETURN to exit.
+
+Example of restoring a report to several cases that previously shared this report
+
+Restore the deleted report back to its cases (printset). The option relinks the report back to its associated cases and repopulates the diagnostic code(s), staff, and resident data to each of the cases.
+
+Select Supervisor Menu Option: RESTORE a Deleted Report
+
++--------------------------------------------------------+
+
+\| \|
+
+\| This option is for restoring a deleted report. \|
+
+\| \|
+
++--------------------------------------------------------+
+
+Select Deleted Report to restore: ??
+
+Choose from:
+
+013108-2553 RADPATIENT,ONE -2552,-2554 +ABDOMEN 2 VIEWS
+
+021308-2608 RADPATIENT,ONE HAND 1 OR 2 VIEWS
+
+070706-2122 RADPATIENT,ONE HIP 1 VIEW
+
+072304-1608 RADPATIENT,TWO MANDIBLE LESS THAN 4 VIEWS
+
+072304-1609 RADPATIENT,TWO FOOT 3 OR MORE VIEWS
+
+090806-2153 RADPATIENT,ONE CLAVICLE
+
+Select Deleted Report to restore: 013108-2553 RADPATIENT,ONE -2552,-2554
+
++ABDOMEN 2 VIEWS
+
+Do you want to restore this deleted report? NO// YES
+
+-------------------------------------------------------------------------------
+
+Name : RADPATIENT,ONE Pt ID : 000-00-0000
+
+Case No. : 2553 Exm. St: WAITING FOR Procedure : ABDOMEN 2 VIEWS
+
+Tech.Comment: unable enter def CPT mod GC, 50 (case 2552, Cmod KB)
+
+Case No. : 2552 Exm. St: WAITING FOR Procedure : ABDOMEN 1 VIEW
+
+Tech.Comment: tech comment during registration
+
+Case No. : 2554 Exm. St: WAITING FOR Procedure : ABDOMEN 3 OR MORE VIEWS
+
+Exam Date: JAN 31,2008 10:24 Technologist:
+
+Req Phys : RADPROVIDER,ONE
+
+-------------------------------------------------------------------------------
+
+Are you sure you want to link this report back to the cases? NO// YES
+
+... Restored 013108-2553's report status to: DRAFT.
+
+... Linked restored report to case no. 2552
+
+... Linked restored report to case no. 2553
+
+... Linked restored report to case no. 2554
+
+... Restored case 2552's PRIMARY DIAGNOSTIC CODE to: MINOR ABNORMALITY
+
+... Restored case 2552's SECONDARY DIAGNOSTIC CODE to: NO DISCRETE MASS
+
+... Restored case 2552's SECONDARY DIAGNOSTIC CODE to: UNDICTATED FILMS NOT RETURNED, 3 DAYS
+
+... Restored case 2553's PRIMARY DIAGNOSTIC CODE to: MINOR ABNORMALITY
+
+... Restored case 2553's SECONDARY DIAGNOSTIC CODE to: NO DISCRETE MASS
+
+... Restored case 2553's SECONDARY DIAGNOSTIC CODE to: UNDICTATED FILMS NOT RETURNED, 3 DAYS
+
+... Restored case 2554's PRIMARY DIAGNOSTIC CODE to: MINOR ABNORMALITY
+
+... Restored case 2554's SECONDARY DIAGNOSTIC CODE to: NO DISCRETE MASS
+
+... Restored case 2554's SECONDARY DIAGNOSTIC CODE to: UNDICTATED FILMS NOT RETURNED, 3 DAYS
+
+... Restored case 2552's PRIMARY INTERPRETING STAFF to: RADPRIMARYSTAFF,ONE
+
+... Restored case 2552's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,ONE
+
+... Restored case 2552's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,TWO
+
+... Restored case 2553's PRIMARY INTERPRETING STAFF to: RADPRIMARYSTAFF,ONE
+
+... Restored case 2553's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,ONE
+
+... Restored case 2553's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,TWO
+
+... Restored case 2554's PRIMARY INTERPRETING STAFF to: RADPRIMARYSTAFF,ONE
+
+... Restored case 2554's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,ONE
+
+... Restored case 2554's SECONDARY INTERPRETING STAFF to: RADSECONDARYSTAFF,TWO
+
+... Restored case 2552's PRIMARY INTERPRETING RESIDENT to: RADPRIMARYRESIDENT,ONE
+
+... Restored case 2553's PRIMARY INTERPRETING RESIDENT to: RADPRIMARYRESIDENT,ONE
+
+... Restored case 2554's PRIMARY INTERPRETING RESIDENT to: RADPRIMARYRESIDENT,ONE
+
+\*\* You need to edit the cases to update the exam status. \*\*
+
+Press RETURN to exit.
+
+### Modified 'Delete a Report' \[RA DELETERPT\] option 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Other Case \# \#4.5
+Prior to Patch RA\*5\*56, a deleted report is erased from the database. Patch RA\*5\*56 keeps the deleted report in the RAD/NUC MED REPORTS file (#74), but removes its association to an exam, so that it is no longer accessible via the Radiology application. The only way to view a deleted report is via VA Fileman.
 
-> Status Changed to Verified By \#17
+Example
 
-# Field Changed:
+Delete a report shared by three cases (printset). The deletion session outwardly appears the same as before patch RA\*5\*56:
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+Select Supervisor Menu Option: DELETE A REPORT
 
-> P:PRE-VERIFIED was added as a new code to the Type of Action subfile of the Activity Log field \#100.
+Select Report Day-Case#: RADPATIENT,ONE RADPATIENT,ONE 6-1-27 000000000
 
-# Report Distribution file \#74.4 Fields Removed:
+1 RADPATIENT,ONE 090806-2152 RADPATIENT,ONE FOOT 2 VIEWS
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+2 RADPATIENT,ONE 090806-2153 RADPATIENT,ONE CLAVICLE
 
-> Hospital Division \#5
+3 RADPATIENT,ONE 013108-2551 RADPATIENT,ONE MANDIBLE LESS THAN 4 VIEWS
 
-> Imaging Location \#7
+4 RADPATIENT,ONE 013108-2553 RADPATIENT,ONE +ABDOMEN 2 VIEWS
 
-> Patient \#9
+5 RADPATIENT,ONE 021308-2610 RADPATIENT,ONE ELBOW 2 VIEWS
 
-> SSN \#10
+Press \<RETURN\> to see more, '^' to exit this list, OR
 
-# Fields Added:
+CHOOSE 1-5: 4 013108-2553 RADPATIENT,ONE +ABDOMEN 2 VIEWS
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+Do you wish to delete this report? NO// Y
 
-> Requesting Physician \#12
+...report deletion complete.
 
-# Lbl/Hdr/Ftr Formats file \#78.2
+...exam status remains 'WAITING FOR EXAM'.
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+...exam status remains 'WAITING FOR EXAM'.
 
-> The name of this file was changed from Flash Card Formats to Lbl/Hdr/Ftr Formats.
+...exam status remains 'WAITING FOR EXAM'.
 
-# Diagnostic Codes file \#78.3 Fields Added:
+### From: RA*5*84 Release Notes
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> April 1998 Radiology/Nuclear Medicine V. 5.0 23
-
-> Inactive \#5
-
-# Label Print Fields file \#78.7 Fields Added:
+## Anomaly with Patch RA\*5\*84
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Unique \#6
+Remedy Ticket \#251440/Resolve in Patch RA\*5.0\*78
 
-# Rad/Nuc Med Division file \#79 Field Name Changed:
+Description: There may be extra carriage returns in the display of Radiology 5.0 reports
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+We made active sites aware of this anomaly and suggested to the sites that the reports be fully examined.
 
-> Warning on Unverified Reports? was changed to Warning on Rpts Not Yet Verif? \#.125
-
-# Fields Removed:
+## Patch RA\*5\*84 Features
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Allow 'Released/Unverified (moved to Imaging Locations file \#79.1) Allow 'VA' Patient Entry \#.13
+Patch RA\*5\*84 provides nine new features to Radiology/Nuclear Medicine 5.0.
 
-> Allow 'Non-VA' Patient Entry \#.14 Ask 'Requesting Physician' \#.15
-
-# Fields Added:
+### Proxy User Account
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Auto E-Mail to Req. Phys? \#.126 Rpharm Dose Warning Message \#125
+This patch creates an application proxy user account called RADIOLOGY,OUTSIDE SERVICE in the NEW PERSON (#200) file. This account represents the nationally-credentialed radiologists at the NTP, so that they do not need to be credentialed and privileged at each participating VAMC. You cannot use the proxy account to log into local VistA applications and it does not require the use of Access/Verify codes.
 
-# Imaging Locations file \#79.1 Fields Removed:
+> **NOTE:** Do not modify the RADIOLOGY,OUTSIDE SERVICE proxy user account.  
+A security policy is in place that strictly defines the attributes of this record. For more information, refer to VA Directive 6504.
 
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+The pre-install process updates the RADIOLOGY,OUTSIDE SERVICE record by assigning the NEW PERSON record a STAFF Radiology/Nuclear Medicine classification. Without the STAFF classification, exams verified by teleradiologists will not advance to an examination status of COMPLETE.
 
-> Input Devices \#50
+The post-install process associates RADIOLOGY,OUTSIDE SERVICE with all the active imaging locations in the IMAGING LOCATIONS (#79.1) file. Each imaging location has its own set of parameters defining location-specific criteria, such as, label/header/footer formats, printer devices for flash cards, jacket labels requests and reports, as well as how many labels to print.
 
-# Fields Added:
-
-<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-
-> Allow 'Released/Unverified (moved from Rad/Nuc Med Division file \#79) Urgent Request Alerts? \#20
-
-> Dosage Ticket Printer \#23 Cancelled Request Printer \#24 Stat Request Alert Recipients \#150
-
-# Imaging Type file \#79.2 Fields Removed:
+### IENs in Diagnostic Codes File
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Device Assignment Explanation \#75
+This patch creates five new entries with correct internal entry numbers in the *local* DIAGNOSTIC CODES file, if a facility does not have the following entries with the exact internal entry numbers (IENs) in the DIAGNOSTIC CODES (#78.3) file.
 
-# Fields Added:
+- 999 TELERADIOLOGY, NOT YET DICTATED
+- 1000 NO ALERT REQUIRED
+- 1001 SIGNIFICANT ABNORMALITY, ATTN NEEDED
+- 1002 CRITICAL ABNORMALITY
+- 1003 POSSIBLE MALIGNANCY
+
+When a facility has a diagnostic code record in the DIAGNOSTIC CODES file within the reserved IEN range, none of the aforementioned records are added to the local DIAGNOSTIC CODES file and an email message is sent to the VHA Radiology Informatics Committee mail group in Outlook, identifying the facility with this issue.
+
+> **NOTE:** Do not modify or delete these DIAGNOSTIC CODES. These codes were established as standard diagnostic codes for communication between the teleradiology reading centers and the local VAMC sites. Codes 1001, 1002, and 1003 trigger an Abnormal Imaging Results notification to the requesting physician, and add the report to the Abnormal Exam Results management report.
+
+### New Fields in RAD/NUC MED REPORTS File
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Radiopharmaceuticals Used? \#5
+This patch creates three new fields in the RAD/NUC MED REPORTS (#74) file.
 
-> All free text pointer fields to the Device file were converted during installation to regular VA FileMan pointer fields that allow choices from lists by entering only the first few characters. (E3R 3894)
+- TELERADIOLOGY PHYSICIAN NAME (#9.1)
+- TELERADIOLOGY PHYSICIAN NPI (#9.2)
+- REPORT VERIFIED BY COTS APP (#9.3)
 
-> This affects the following fields:
+### New Fields in RAD/NUC MED HL7 APPLICATION EXCEPTION File
 
-> Rad/Nuc Med Procedure file \#71 Required Flash Card Printer Name (#3) Imaging Locations file \#79.1 Flash Card Printer Name (#3)
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Jacket Label Printer Name (#5) Report Printer Name (#10) Request Printer Name (#16)
+This patch creates two new fields in the RAD/NUC MED HL7 APPLICATION EXCEPTION (#79.7) file.
 
-> All obsolete fields have been removed from the Rad/Nuc Med data dictionaries and references to them in code have been taken out.
+- DEFAULT DX FOR 'R' REPORT (#2.1)
+- DEFAULT DX FOR 'F' REPORT (#2.2)
+
+### New Parameter in RAD/NUC MED HL7 APPLICATION EXCEPTION File
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch adds RA-SCIMAGE-TCP (a record in the HL7 APPLICATION PARAMETER (#771) file) to the RAD/NUC MED HL7 APPLICATION EXCEPTION (#79.7) file and defines data attributes for this record.
+
+### HL7 ORU Messages
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch makes it possible for VistA to accept HL7 report messages (ORU) from the teleradiology center and to automatically store the messages in VistA as verified reports, without requiring further intervention from the local medical center staff.
+
+### Primary Dx Code Data
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Patch RA\*5.0\*84 revealed an issue with the data generated by the Abnormal Report option. Because of the way the cross-reference was created on the PRIMARY DIAGNOSTIC CODE (Node: 'P'; data dictionary: 70.03; fld: 13) field, some exams expected to display on the Abnormal Report did not. The old, traditional cross-reference is replaced with a new style cross-reference. The pre-install routine exported with this patch utilizes the correct VA FileMan utility to insure that this business rule-change is carried through to completion.
+
+> **NOTE:** The primary Diagnostic Code data is found in the DIAGNOSTIC CODES (#78.3) file.
+
+### RAHLO1
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch updates and centralizes the report and exam lock logic. The locking and unlocking of both reports and exams happen in RAHLO1.
+
+- LOCKX^RAHLTCPU handles exams.
+- LOCKR^RAHLTCPU handles reports.
+
+### OBR-7 Field for ORM HL7 V2.3
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The data in the OBR-7 (Observation Date/Time) field for ORM (Order) HL7 V2.3 messages has changed. Prior to this patch, the date/time value placed in this field was the current date/time of execution or in VA FileMan NOW. This logic was correct because the message was generated immediately after the date/time the exam was registered.
+
+With the advent of the \[RA HL7 RESEND BY DATE RANGE\]Resend Radiology HL7 Messages By Date Range option, HL7 messages are generated and broadcast long after the exam is registered. The NOW value raises an issue because the timestamp in OBR-7 is the time at which the \[RA HL7 RESEND BY DATE RANGE\] option is executed, as opposed to the date/time the exam is registered.
+
+After this patch is installed, the date/time value placed in OBR-7 is the date/time the exam is registered. The date/time of registration is a far more accurate timestamp than the time of the actual patient encounter.
+
+### Support for NTP Items
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The support plan for the release of patch RA\*5\*84 includes the addition of two new items in the Remedy software. The new NTP items are supported by Enterprise Product Support (EPS), Clinical Product Support (CPS), and Clinical 3 Team.
+
+We are implementing the following Remedy Category-Type-Item for NTP:
+
+Category Applications - VistA (existing)
+
+Type Radiology
+
+Item NTP (new)
+
+Category Applications - VistA (existing)
+
+Type Imaging 3.0
+
+Item NTP (new)
+
+## After Installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Patch RA\*5.0\*84 exports the HL7 Application Parameter: RA-SCIMAGE-TCP.
+
+The data in the Mail Group field is mandatory and must have a definition of: RAD HL7 MESSAGES.
+
+> Example of how to set the entry
+
+Name: RA-SCIMAGE-TCP Active/Inactive: ACTIVE
+
+Facility Name: \<your facility id here\> Mail Group: RAD HL7 MESSAGES
+
+Country Code: USA HL7 Encoding Characters: ^~\\
+
+HL7 Field Separator: \|
+
+> **NOTE:** Populate the Facility Name field. The Facility Name field is a free text field. Traditionally sites enter the facility name or station number when editing this field.
+
+Patch RA\*5.0\*84 exports the following protocols:
+
+- RA SCIMAGE ORM Type: Subscriber
+- RA SCIMAGE ORU Type: Subscriber
+- RA SCIMAGE TCP REPORT Type: Subscriber
+- RA SCIMAGE TCP SERVER RPT Type: Event Driver
+
+> **NOTE:** Do not associate the RA SCIMAGE subscriber protocols to the Radiology/Nuclear Medicine event driver protocols, if your facility is not participating in the National Teleradiology Project initiative.
+
+Unnecessary HL7 messaging adds data to a facility's database, as well as to network traffic. Therefore, leave the task of linking the subscriber protocols to respective event drivers as your last step.
+
+- Subscriber Protocol: RA SCIMAGE TCP REPORT is associated with the Receiving Application: RA-VOICE-SERVER
+- Event Driver Protocol: RA SCIMAGE TCP SERVER RPT is associated with the Sending Application: RA-SCIMAGE-TCP
+
+> **NOTE:** HL7 messaging commences when the designated subscriber protocols are associated with respective event driver protocols.
+
+Patch RA\*5.0\*84 exports the HL LOGICAL LINK component: RA-SCIMAGE.
+
+RA\*5.0\*84 exports RA-SCIMAGE with predetermined data attributes defined: LLP Type, TCP/IP Service Type, and so on. Do not edit these fields.
+
+The TCP/IP Address and TCP/IP Port fields for RA-SCIMAGE differ from site to site. Because of this condition, these two fields are to be configured by the appropriate parties in the facility at which the patch is installed.
+
+  
+Step 1Example of how to edit theTCP/IP Address and TCP/IP Port fields
+
+Identify the correct menu to use, in order to edit the TCP/IP Address and TCP/IP Port fields:
+
+Select OPTION NAME: HL7 MAIN MENU HL MAIN MENU HL7 Main Menu
+
+Event monitoring menu ...
+
+Systems Link Monitor
+
+Filer and Link Management Options ...
+
+Message Management Options ...
+
+Interface Developer Options ...
+
+Site Parameter Edit
+
+HLO HL7 (Optimized) MAIN MENU ...
+
+Select HL7 Main Menu Option: Interface Developer Options
+
+EA Application Edit
+
+EP Protocol Edit
+
+EL Link Edit this is the option to use
+
+VI Validate Interfaces
+
+Reports ...
+
+Select Interface Developer Options Option: EL Link Edit
+
+HL7 LOGICAL LINK
+
+-----------------------------------------------------------------------------------
+
+NODE: RA-SCIMAGE DESCRIPTION:
+
+INSTITUTION:
+
+MAILMAN DOMAIN:
+
+AUTOSTART: Enabled
+
+QUEUE SIZE: 10
+
+LLP TYPE: TCP select 'TCP'; this action will bring you to a new screen
+
+DNS DOMAIN:
+
+-----------------------------------------------------------------------------------
+
+HL7 LOGICAL LINK
+
+-----------------------------------------------------------------------------------
+
+-------------------------------TCP LOWER LEVEL PARAMETERS-------------------------
+
+RA-SCIMAGE
+
+TCP/IP SERVICE TYPE: CLIENT (SENDER)
+
+TCP/IP ADDRESS: edit this field
+
+TCP/IP PORT: edit this field
+
+TCP/IP PORT (OPTIMIZED):
+
+ACK TIMEOUT: 300 RE-TRANSMISION ATTEMPTS: 5
+
+READ TIMEOUT: 60 EXCEED RE-TRANSMIT ACTION: shutdown
+
+BLOCK SIZE: SAY HELO:
+
+DIRECT CONNECT OPEN TIMEOUT:
+
+STARTUP NODE: PERSISTENT: NO
+
+RETENTION: UNI-DIRECTIONAL WAIT:
+
+-----------------------------------------------------------------------------------
+
+Step 2
+
+RA-SCIMAGE must be associated with following subscriber protocols:
+
+\* RA SCIMAGE ORM
+
+\* RA SCIMAGE ORU
+
+VAxxx must be associated with the \* RA SCIMAGE TCP REPORT subscriber protocol.
+
+To accomplish this action, use the Protocol Edit option under the Select Interface Developer Options menu.
+
+The RA-SCIMAGE logical link is exported as a non-persistent client.
+
+Processes for non-persistent links hibernate when there are no more messages to exchange over the link. When there are additional messages to broadcast over this link the TCP Link Manager process *wakes up* the logical link.
+
+To start the TCP Link Manager, use the TCP Link Manager Start/Stop option under the HL Main Menu and HL Menu Filer Link Mgt menus.
+
+Name: RA SCIMAGE TCP REPORT Type: subscriber
+
+Creator: Receiving Application: RA-VOICE-SERVER
+
+Event Type: R01 Logical Link: VAxxx
+
+Version ID: 2.3 Response Message Type: ACK
+
+Processing Routine: D ^RAHLTCPB Sending Facility Required?: NO
+
+Receiving Facility Required?: NO Security Required?: NO
+
+VAxxx is the name of the multi-threaded listener running at each VAMC in the system. Each multi-threaded listener has a unique IP address, and all multi-threaded listeners have a port definition of 5000.
+
+![](ra-5-84-release-notes/002.png)
+
+How do you identify the proper name of the multi-threaded listener at your facility?
+
+The best way is through the use of the VA FileMan SEARCH function.
+
+Select OPTION: ?
+
+Answer with OPTION NUMBER, or NAME
+
+Choose from:
+
+1 ENTER OR EDIT FILE ENTRIES
+
+2 PRINT FILE ENTRIES
+
+3 SEARCH FILE ENTRIES \<-- this is the option to use
+
+4 MODIFY FILE ATTRIBUTES
+
+5 INQUIRE TO FILE ENTRIES
+
+6 UTILITY FUNCTIONS
+
+7 OTHER OPTIONS
+
+8 DATA DICTIONARY UTILITIES
+
+9 TRANSFER ENTRIES
+
+Select OPTION: SEARCH FILE ENTRIES
+
+OUTPUT FROM WHAT FILE: HL LOGICAL LINK//
+
+-A- SEARCH FOR HL LOGICAL LINK FIELD: INSTITUTION
+
+-A- CONDITION: EQUALS
+
+-A- EQUALS INSTITUTION: \<enter the name of your institution\>
+
+-B- SEARCH FOR HL LOGICAL LINK FIELD: TCP
+
+1 TCP/IP ADDRESS
+
+2 TCP/IP OPENFAIL TIMEOUT
+
+3 TCP/IP PORT n
+
+4 TCP/IP PORT (OPTIMIZED)
+
+5 TCP/IP SERVICE TYPE
+
+CHOOSE 1-5: 3 TCP/IP PORT
+
+-B- CONDITION: EQUALS
+
+-B- EQUALS: 5000
+
+-C- SEARCH FOR HL LOGICAL LINK FIELD:
+
+IF: A&B INSTITUTION EQUALS \<your institution\>
+
+and TCP/IP PORT EQUALS "5000"
+
+OR:
+
+STORE RESULTS OF SEARCH IN TEMPLATE:
+
+SORT BY: NODE//
+
+START WITH NODE: FIRST//
+
+FIRST PRINT FIELD: .01 NODE
+
+THEN PRINT FIELD:
+
+Heading (S/C): HL LOGICAL LINK SEARCH Replace
+
+DEVICE: HOME Right Margin: 80//
+
+HL LOGICAL LINK SEARCH MAR 11,2008 11:26 PAGE 1
+
+NODE
+
+--------------------------------------------------------------------------
+
+VAxxx
+
+1 MATCH FOUND.
+
+  
+Example of RA SCIMAGE ORM
+
+The procedure does not change based on the subscriber being edited. You edit the Logical Link field.
+
+Select HL7 Main Menu Option: INterface Developer Options
+
+EA Application Edit
+
+EP Protocol Edit \<-- this is the option to use
+
+EL Link Edit
+
+VI Validate Interfaces
+
+Reports ...
+
+> Example of the first screen
+
+HL7 INTERFACE SETUP PAGE 1 OF 2
+
+--------------------------------------------------------------------------
+
+NAME: RA SCIMAGE ORM
+
+DESCRIPTION (wp): (empty)
+
+ENTRY ACTION:
+
+EXIT ACTION:
+
+TYPE: subscriber \<--hit the RETURN/ENTER key when this field ishighlighted.
+
+--------------------------------------------------------------------------
+
+HL7 SUBSCRIBER PAGE 2 OF 2
+
+RA SCIMAGE ORM
+
+--------------------------------------------------------------------------
+
+RECEIVING APPLICATION: RA-SCIMAGE-TCP
+
+RESPONSE MESSAGE TYPE: ACK EVENT TYPE: O01
+
+SENDING FACILITY REQUIRED?: NO RECEIVING FACILITY REQUIRED?: NO
+
+SECURITY REQUIRED?: NO
+
+LOGICAL LINK: \<-- enter RA-SCIMAGE here.
+
+PROCESSING RTN:
+
+ROUTING LOGIC:
+
+--------------------------------------------------------------------------
+
+Step 3
+
+Associate the subscriber protocols with the event driver protocols.
+
+> **NOTE:** HL7 messaging commences when the designated subscriber protocols are associated with respective event driver protocols.
+
+Use the Protocol Edit option under the Interface Developer Options and HL7 Main Menu menus to associate the subscriber protocols with the event driver protocols.
+
+- Subscriber Protocol: Associate RA SCIMAGE ORM with the event driver protocols: RA REG 2.3, RA EXAMINED 2.3, and RA CANCEL 2.3.
+- Subscriber Protocol: Associate RA SCIMAGE ORU with the event driver protocol: RA RPT 2.3
+
+> **NOTE:** Edit only the Subscribers field; editing any other field may compromise the integrity of the event driver protocol.
+
+Example of associating a subscriber protocol with an event driver protocol
+
+With RA REG 2.3 as the example, RA SCIMAGE ORM is a subscriber to RA REG 2.3, RA EXAMINED 2.3, and RA CANCEL 2.3; RA SCIMAGE ORU is a subscriber to RA RPT 2.3.
+
+> **NOTE:** The process of adding a subscriber is the same, regardless of the message type.
+
+Select HL7 Main Menu Option: INterface Developer Options
+
+EA Application Edit
+
+EP Protocol Edit \<-- this is the option to use
+
+EL Link Edit
+
+VI Validate Interfaces
+
+Reports ...
+
+Example of the first screen
+
+HL7 INTERFACE SETUP PAGE 1 OF 2
+
+--------------------------------------------------------------------------
+
+NAME: RA REG 2.3
+
+DESCRIPTION (wp): This protocol is triggered whenever a Radiology…
+
+ENTRY ACTION:
+
+EXIT ACTION:
+
+TYPE: event driver \<--hit the RETURN/ENTER key when this field ishighlighted.
+
+--------------------------------------------------------------------------
+
+0HL7 EVENT DRIVER PAGE 2 OF 2
+
+RA REG 2.3
+
+--------------------------------------------------------------------------
+
+SENDING APPLICATION: RA-VOICE-SERVER
+
+TRANSACTION MESSAGE TYPE: ORM EVENT TYPE: O01
+
+MESSAGE STRUCTURE:
+
+PROCESSING ID: VERSION ID: 2.3
+
+ACCEPT ACK CODE: APPLICATION ACK TYPE:
+
+RESPONSE PROCESSING RTN:
+
+SUBSCRIBERS \<-- this is the field that youwant to edit. Enter RA SCIMAGEORM here.
+
+### From: RA*5*99 Release Notes
+
+### Editing the 'Pregnancy Screen Comment' Prompt 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+- The 'Pregnancy Screen Comment' field is a required field, so the "@"command will not work. The workaround for this is to replace the entire comment with a new comment.
+- If there are multiple occurrences of the word that you are replacing, only the first occurrence is replaced.
+- The text is case-sensitive, so you must use the exact same case when entering the new text, in order for the replacement to take place.
+
+> Note: For additional editing information, refer to the *Fileman Getting Started Manual*, sections: Default Responses and Longer Default Responses and the 'Replace…With' Editor  
+> <http://www.va.gov/vdl/application.asp?appid=5>
+
+#### How to replace a comment that is 20 characters or less
+
+> Enter the replacement text after the double slashes (//). For example, at the 'Pregnancy Screen Comment' prompt:
+
+> PREGNANCY SCREEN COMMENT: The patient had//  Enter the replacement text here
+
+#### How to replace single and multiple words/line  
+
+1.  At the 'Replace' prompt, enter the one word or multiple words//line you want to replace and press Enter.
+
+> At the 'With' prompt, enter a new word or multiple words /line and press Enter.  
+> The 'Replace' prompt displays again.
+
+> To keep the word or multiple words /line just entered, press Enter.  
+> To replace this word or these multiple words /line just entered, repeat steps 1 and 2 until all of the words/line are replaced.
+
+> At the 'Replace' prompt, press Enter.  
+> The updated comment displays and the system advances to the next prompt.
+
+#### How to replace an entire comment
+
+1.  At the 'Replace' prompt, enter 3 periods (…) and press Enter.  
+    > The 'With' prompt displays.
+2.  At the 'With' prompt, enter a new comment and press Enter.  
+    > The 'Replace' prompt displays again.  
+    > To keep the comment just entered, press Enter.
+
+> To replace this comment just entered, enter another comment, and press Enter.
+
+3.  At the 'Replace' prompt, press Enter.  
+    > The updated comment displays and the system advances to the next prompt.
+3.  The existing Pregnant field label is replaced with Pregnant At Time Of Order Entry in several options and reports.
+- No functionality is changed.
+- This field reflects the pregnancy status for a female patient between 12 and 55 years old at the time the order was placed.
+
+On the Complication Report (on the 'Daily Management Reports' option), the Interpreting Stf. field label is changed to Staff Imaging Phys for both instances.
+
+The defect reported on the 'Request an Exam' option, Remedy ticket# HD0000000309290, is fixed.
+
+- The issue: in order to populate the pregnancy status, you must edit the pregnancy status in the same session in which you entered the request.
+- This is a defect because the PREGNANT prompt should display when initially entering the request (rather than going back and editing the request at the 'Do you want to change any of the above? NO//' prompt).
+
+On the 'Display a Rad/Nuc Med Report' and 'Resident On-Line Pre-Verification'options (off of the 'Films Reporting' menu), the Staff Phys field label is changed to Staff Imaging Phys.
+
+The following automated emails are updated with the Pregnancy Screen and Pregnancy Screen Comment fields:
+
+1.  The VistA email report when a user verifies a report.
+2.  The VistA/CPRS alert when an image contains abnormal results.
+
+In CPRS, Detailed Report on the Reports tab is updated with the Pregnancy Screen and Pregnancy Screen Comment fields.
+
+### From: RA*5*75 Release Notes
+
+## Issue One – Reason for Study
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch will require the user entering an exam request to input the reason for the request into a new field, REASON FOR STUDY, which is stored in the RAD/NUC MED ORDERS (#75.1) file. The CLINICAL HISTORY FOR EXAM prompt will become optional.
+
+VistA Radiology/Nuclear Medicine reports, orders, and patient profile options have been enhanced to display both the REASON FOR STUDY and CLINICAL HISTORY data.
+
+This issue arose from the inability of the Nuance PowerScribe voice recognition system to receive CLINICAL HISTORY data of indefinite length. It can only receive the REASON FOR STUDY data of a limited length, 64 characters maximum, which meets DICOM standards.
+
+Because the physician using PowerScribe cannot view the REASON FOR STUDY that is embedded in the CLINICAL HISTORY, s/he had to switch over to the VistA Radiology system to get the data. This patch will eliminate the need for PowerScribe users to access REASON FOR STUDY from the VistA Radiology system.
+
+> Special Notice for sites using Nuance PowerScribe
+
+> PowerScribe cannot handle certain characters that may be entered into the new REASON FOR STUDY field. Inclusion of any of these characters will cause the entire order to disappear from the PowerScribe display screen.
+
+> These characters are reserve characters in XML:
+
+> Ampersand (&), Apostrophe ('), Quote ("), Greater Than (\>), and Less Than (\<).
+
+> PowerScribe has a software fix planned, but has not announced a release date for this fix. Therefore, the person responsible for your site's PowerScribe interface should contact the PowerScribe National Support Center at 800.833.7776 and request a Dictaphone work order to correct this issue before patch RA\*5.0\*75 is installed at your site.
+
+### Operation when ordering through the front door – CPRS
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+CPRS GUI v26 now displays one box for both HISTORY and REASON FOR EXAM. Because the CPRS GUI cannot be modified at this time, this patch will auto-populate the REASON FOR STUDY field with "See Clinical History:" in the background. This statement will be displayed in various reports, orders, and patient profiles where CLINICAL HISTORY is displayed.
+
+CPRS GUI v27 (OR\*3.0\*243) will have separate boxes for REASON FOR STUDY and for CLINICAL HISTORY. As mentioned above, CLINICAL HISTORY will then be optional.
+
+### Operation when ordering through the backdoor – Radiology/Nuclear Medicine
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+VistA Radiology/Nuclear Medicine now collects the REASON FOR STUDY (required) and CLINICAL HISTORY (optional). When this patch is installed, CPRS GUI v26 will display both the REASON FOR STUDY and the CLINICAL HISTORY inside the existing HISTORY & REASON FOR EXAM box in a three-line format as follows:
+
+REASON FOR STUDY will be displayed first and flagged by "REASON FOR STUDY:" then a line of hyphens, then the CLINICAL HISTORY. For example:
+
+> REASON FOR STUDY: This is an example only
+
+> ------------------------------------------
+
+> The Clinical History starts here..........
+
+CPRS GUI v27 (OR\*3.0\*243) will display REASON FOR STUDY and CLINICAL HISTORY in separate boxes. As mentioned above, CLINICAL HISTORY will then be optional.
+
+## Issue Two - Patient Age display and algorithm
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch changes the way a patient's age is displayed at the top of a report requisition. The incorrect patient age was displayed through these two options:
+
+- Print Rad/Nuc Med Requests by Date \[RA ORDERPRINTS\]
+- Print Selected Requests by Patient \[RA ORDERPRINTPAT\]
+
+The patient's age had been calculated against the date the request was displayed, instead of calculating the patient's age against the date the request was entered. Since users expect to see the patient's age at the time the exam was requested, a modification has been made in routine RAORD5 to calculate the patient's age based on:
+
+- The patient's Date of Birth
+- The date the request was entered.
+
+In addition, routine RAORD6 was modified to change the request report header:
+
+- The label "Age" has been changed to "Age at req"
+- The first line now contains the word "Printed:" to indicate that the date is the date of printing, not the date of the request.
+
+## Issue Three – Date Desired default
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This patch modifies the exam request process by removing the default value from the "Date Desired" field. Whether an order is entered through CPRS or through the Radiology/Nuclear Medicine application, an erroneously entered "Date Desired" value impacts a radiology department's ability to comply with the thirty day outpatient appointment wait times mandate. Physicians sometimes use the default date of "Today" as a matter of convenience, rather than entering the actual date they want the examination to take place.
+
+The automatic default date of "Today" has been removed, and physicians are now required to enter a date they actually desire to have the examination. This patch only addresses the backdoor (VistA Radiology/Nuclear Medicine application) order entry. CPRS GUI v27 will address the front door removal of "Today" as the default to "Date Desired."
+
+### From: RA*5*81 Release Notes
+
+## Enhancement \#1:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The Radiology 5.0 application has established business rules for sharing an exam report between multiple cases, and for registering multiple cases at the same exam date/time:
+
+- Cases from different orders should have their own separate reports (single orders)
+- Cases from a parent procedure order should share the same report (printset)
+- Cases from a parent procedure cannot be registered at the same time with cases from other orders
+- Cases from more than one parent procedure cannot be registered at the same time
+
+These business rules are not always followed by radiology departments when using voice recognition (VR) dictation systems.
+
+Some VR systems may allow the user to group two or more cases from separate orders and dictate one report for these cases (sometimes referred to as "printset on the fly"), even though these cases were not defined to share the same report. The VR system sends this single dictated report as separate OBR segments within one HL7 message (one OBR segment for each case) to the VistA Radiology application. In the past, Radiology only accepted the first of this group of OBR segments and ignored the remaining OBR segments without sending back reject HL7 messages to notify the sending VR system that some of their OBR segments were not accepted.
+
+This patch will modify the Radiology application's processing of an incoming HL7 message with multiple OBR segments from VR, to account for this deviation from business rules.
+
+### Parent Procedures and Printsets
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+- If VR sends an HL7 message with multiple OBR segments for one dictated report based upon cases from separate orders, the Radiology application will make a separate record in the RAD/NUC MED REPORTS file (#74) for each case. The report text and impression will be identical in these separate records in file \#74.
+- If VR sends an HL7 message with multiple OBR segments for one dictated report based upon cases from separate orders AND a parent procedure (printset), the Radiology application will make a separate record in the RAD/NUC MED REPORTS file (#74) for each of the cases from separate orders, but only one report record in file \#74 for all the cases within the parent procedure (printset). The report text and impression will be identical in these separate records in file \#74.
+- If VR sends an HL7 message with multiple OBR segments for one dictated report based upon cases from two or more parent procedures, the Radiology application will make a separate record in the RAD/NUC MED REPORTS file (#74) for each printset under the parent procedure, but not for each case within those printsets. The report text and impression will be identical in these separate records in file \#74.
+
+### Amended Reports and Addendums
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+- If VR sends an HL7 message with multiple OBR segments for the same addendum based upon cases from separate orders, the Radiology application will put the addendum into each of the existing report records for each case that is expected to have a separate report.
+- If VR sends an HL7 message with multiple OBR segments for the same addendum based upon cases from separate orders and a parent procedure, the Radiology application will put the addendum into each of the existing report records for the cases that are expected to have separate reports, and the same addendum into the shared report record for the cases that are expected to share a report (those in a printset under a parent procedure).
+- If VR sends an addendum that is identical to the existing verified report in the VistA database, the Radiology application will reject this message.
+
+## Enhancement \#2:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When a HL7 ORU report message is received by the Radiology application, the Radiology application files the report and broadcasts out the HL7 report message to all known subscribers. This allows all subscribers (including the original VR sender) to be updated with the same report. This patch allows the original sender to decide whether or not to prevent the Radiology application from broadcasting the HL7 report message back to them.
+
+## Enhancement \#3:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+A new file has been created to hold parameters related to the application exceptions generated while processing Radiology HL7 messages: \#79.7 – Rad/Nuc Med Application Exception File. See the Radiology/Nuclear Medicine 5.0 Technical Manual for the detailed file description and security settings.
+
+### From: RA*5*226 Release Notes
+
+## Examples
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+1.  Activate a selection of individual procedures
+
+Activate or Inactivate the new standard procedures?: 1 Activate
+
+Select one of the following:
+
+1 Choose Individual Procedures
+
+2 By Modality
+
+3 All
+
+How do you want to activate the new Oracle/Cerner standard procedures?: 1 Choose Individual Procedures
+
+Select Procedures(s): MRI ABDOMEN\*
+
+Another one (Select/De-Select): MRI ANKLE W/O CONTRAST LEFT (MRI Inactive) CPT:73721
+
+Another one (Select/De-Select): US UPPER EXT\*
+
+Another one (Select/De-Select):
+
+MRI ABDOMEN W/ + W/O CONTRAST Activated!
+
+MRI ABDOMEN W/ CONTRAST Activated!
+
+MRI ABDOMEN W/O CONTRAST Activated!
+
+MRI ANKLE W/O CONTRAST LEFT Activated!
+
+US UPPER EXT ARTERIAL DUPLEX BILATERAL Activated!
+
+US UPPER EXT ARTERIAL DUPLEX LEFT Activated!
+
+US UPPER EXT ARTERIAL DUPLEX RIGHT Activated!
+
+US UPPER EXT VEIN MAPPING BILATERAL Activated!
+
+US UPPER EXT VEIN MAPPING LEFT Activated!
+
+US UPPER EXT VEIN MAPPING RIGHT Activated!
+
+US UPPER EXT VENOUS DUPLEX BILATERAL Activated!
+
+US UPPER EXT VENOUS DUPLEX LEFT Activated!
+
+US UPPER EXT VENOUS DUPLEX RIGHT Activated!
+
+US UPPER EXT VENOUS PHYS STUDY BILAT Activated!
+
+2.  Activate a selection by Modality
+
+Select Procedure Edit Menu \<TEST ACCOUNT\> Option: activate/Inactivate Standard Procedures
+
+Select one of the following:
+
+1 Activate
+
+2 Inactivate
+
+Activate or Inactivate the new standard procedures?: 1 Activate
+
+Select one of the following:
+
+1 Choose Individual Procedures
+
+2 By Modality
+
+3 All
+
+How do you want to activate the new Oracle/Cerner standard procedures?: 2 By Modality
+
+Select an Imaging Type to activate: ??
+
+Choose from:
+
+ANGIO/NEURO/INTERVENTIONAL
+
+CARDIOLOGY STUDIES (NUC MED)
+
+CT SCAN
+
+GENERAL RADIOLOGY
+
+MAGNETIC RESONANCE IMAGING
+
+MAMMOGRAPHY
+
+NUCLEAR MEDICINE
+
+ULTRASOUND
+
+VASCULAR LAB
+
+Select an Imaging Type to activate: NM NUCLEAR MEDICINE
+
+NM KIDNEY FUNCTION STUDY NON-IMAGING Activated!
+
+NM KIDNEY IMAGING MULTIPLE W/+W/O PHARM Activated!
+
+NM KIDNEY IMAGING SINGLE W/ PHARM Activated!
+
+NM KIDNEY IMAGING SINGLE W/O PHARM Activated!
+
+NM KIDNEY MORPH IMAGING Activated!
+
+NM KIDNEY MORPH IMAGING W/ VASCULAR FLOW Activated!
+
+NM KIDNEY SPECT Activated!
+
+NM LABELED RED CELL SEQUESTRATION Activated!
+
+NM LIVER IMAGING SPECT Activated!
+
+NM LIVER IMAGING SPECT W/ VASCULAR FLOW Activated!
+
+NM LIVER IMAGING STATIC Activated!
+
+NM LIVER IMAGING W/ VASCULAR FLOW Activated!
+
+3.  Inactivate ALL procedures
+
+> Select Procedure Edit Menu \<TEST ACCOUNT\> Option: activate/Inactivate Standard Procedures
+
+> Select one of the following:
+
+> 1 Activate
+
+> 2 Inactivate
+
+> Activate or Inactivate the new standard procedures?: 2 Inactivate
+
+> Select one of the following:
+
+> 1 Choose Individual Procedures
+
+> 2 By Modality
+
+> 3 All
+
+> How do you want to inactivate the new Oracle/Cerner standard procedures?: 3 All
+
+> Are you sure you want to inactivate ALL of the Oracle/Cerner procedures? y YES
+
+> MRI ABDOMEN W/ + W/O CONTRAST Inactivated!
+
+> MRI ABDOMEN W/ CONTRAST Inactivated!
+
+> MRI ABDOMEN W/O CONTRAST Inactivated!
+
+> MRI ANKLE W/O CONTRAST LEFT Inactivated!
+
+> NM KIDNEY FUNCTION STUDY NON-IMAGING Inactivated!
+
+> NM KIDNEY IMAGING MULTIPLE W/+W/O PHARM Inactivated!
+
+> NM KIDNEY IMAGING SINGLE W/ PHARM Inactivated!
+
+> NM KIDNEY IMAGING SINGLE W/O PHARM Inactivated!
+
+> NM KIDNEY MORPH IMAGING Inactivated!
+
+> NM KIDNEY MORPH IMAGING W/ VASCULAR FLOW Inactivated!
+
+> NM KIDNEY SPECT Inactivated!
+
+> NM LABELED RED CELL SEQUESTRATION Inactivated!
+
+> NM LIVER IMAGING SPECT Inactivated!
+
+> NM LIVER IMAGING SPECT W/ VASCULAR FLOW Inactivated!
+
+> NM LIVER IMAGING STATIC Inactivated!
+
+> NM LIVER IMAGING W/ VASCULAR FLOW Inactivated!
+
+> US UPPER EXT ARTERIAL DUPLEX BILATERAL Inactivated!
+
+> US UPPER EXT ARTERIAL DUPLEX LEFT Inactivated!
+
+> US UPPER EXT ARTERIAL DUPLEX RIGHT Inactivated!
+
+> US UPPER EXT VEIN MAPPING BILATERAL Inactivated!
+
+> US UPPER EXT VEIN MAPPING LEFT Inactivated!
+
+> US UPPER EXT VEIN MAPPING RIGHT Inactivated!
+
+> US UPPER EXT VENOUS DUPLEX BILATERAL Inactivated!
+
+> US UPPER EXT VENOUS DUPLEX LEFT Inactivated!
+
+> US UPPER EXT VENOUS DUPLEX RIGHT Inactivated!
+
+> US UPPER EXT VENOUS PHYS STUDY BILAT Inactivated!
+
+### From: RA*5*77 Release Notes
+
+## \#1 – Subscript error
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When a user attempts to display a Radiology alert notification in the CPRS Patient Selection screen, a subscript error is filed in the error trap. This happens when an alert is opened/read elsewhere and the data has not yet been updated in CPRS. In other words, CPRS does not know that the alert has been read and the accompanying TMP global nodes have been deleted.
+
+Resolution: Routine RAO7PC4 has been modified to to sense the absence of the data variable causing the subscript error, allowing normal logic flow to continue.
+
+## \#2 – Missing RVU values
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When using the new RVU (Relative Value Unit) reporting software, no RVU is being returned/utilized on some CPT codes.
+
+Resolution: It has been determined that "G" codes recently converted to CPT codes do not contain an RVU value for entries without CPT code modifiers.The RVU reporting software has been modified to default a -26 CPT modifier when calling the API RVU^FBRVU . This will ensure that the appropriate RVU is returned. It is only called if the RVU value is 0 and the modifier is null.
+
+## \#3 – Scrolling issue
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When using View Exam by Case No. \[RA VIEWCN\] option, the Exam Activity section scrolls out of view when displaying to the screen if there are more than two lines of Exam Activity to be displayed.
+
+Resolution: Routine RAPROD1 has been modified to cause the display to pause and ask 'Press Return to continue or "^" to exit:" to prevent exam data from scrolling out of view.
+
+## \#4 – RVU Reporting issues
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Normally, a Fee Basis patch is released each year that contains the new RVU data for the current calendar year. In some instances the needed data will not be available for an unspecified amount of time into the new calendar year.
+
+Resolution: The RVU reporting routines have been modified to sense whether the new RVU data is available from FEE BASIS and if not, will calculate the reports with the previous year's RVU data. A note will also be placed in the report headers to denote the use of a previous calendar year's data.
+
+## \#5 – Scaling Factor issues
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When listing the Work RVU Scaling factors, the following Scaled RVU reports do not print scaling factors for imaging types that do not contain an entry in the IMAGING TYPE file (#79.2), SCALING FACTOR CY field (#200):
+
+- Physician scaled wRVU Report by Imaging Type \[RA WKLIPHY SWRVU ITYPE\]
+- Physician scaled wRVU Report by CPT \[RA WKLIPHY SWRVU CPT\]
+- Procedure Scaled wRVU/CPT Report \[RA PROC CPTSWRVU\]
+
+Resolution: Modifications will be made to the Work RVU reporting routines to print a default listing of each imaging type that does not have an entry in the SCALING FACTORY CY field (#200) of the IMAGING TYPE file (#79.2) by showing that it has a default scaling factor of 1.
+
+Example:
+
+> ULTRASOUND US 1.00 (default)
+
+### From: RA*5*82 Release Notes
+
+### Example:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+For the Imaging Type of "General Radiology," only the exam status of TRANSCRIBED has the GENERATE EXAMINED HL7 MESSAGE field set to "Y". Thus, an Examined ORM message will be broadcast when a General Radiology case has reached or exceeded the exam status of TRANSCRIBED.
+
+### Exception:
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+If one or more of the following five essential fields were changed during exam editing, then an Examined ORM message will be broadcast regardless of the two conditions above:
+
+PROCEDURE
+
+PROCEDURE MODIFIER
+
+REQUESTING PHYSICIAN
+
+CPT MODIFIER
+
+TECHNOLOGIST COMMENT
+
+In some sites, depending on the type of PACS (Picture Archiving and Communication System) being used, this exception may cause exams to be dropped from a PACS modality worklist when essential fields are updated on the PACS from Vista Radiology. To restore the exam to the PACS modality worklist, use the "Resend Radiology HL7 Message" \[RA HL7 MESSAGE RESEND\] option to re-broadcast the HL7 ORM message for that exam.
+
+> *Note:* The "Resend Radiology HL7 Message" option requires the RA MGR security key. Since the RA MGR key also allows access to other supervisor-level options, sites may wish to create a local menu for the clerks and technologists who are given the RA MGR key. Your IRM can create a local menu for the "Resend Radiology HL7 Message" option so that other supervisor-level options are not accessible.
+
+It is still possible to use the "Cancel an Exam" \[RA CANCEL\] option to cancel a case (not the exam request) and then re-register the case to put it back on the modality worklist, if necessary.
+
+## Issues resolved with RA\*5\*82
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+When the previous patch RA\*5\*71 allowed the broadcasting of HL7 messages after each exam edit session, the following problems were noticed at sites that had COTS (Commercial off-the-shelf software ) PACS and Stentor systems.
+
+1)  On certain PACS, a subsequent broadcast of an HL7 ORM message caused the exam to be removed from the modality work list.
+2)  On the Stentor system, a subsequent broadcast of an HL7 ORM message caused the report on the Stentor system to become invalidated. This occurred when the report was manually verified via the Vista "Report Entry/Edit" \[RA RPTENTRY\] option instead of electronically verified via a voice recognition dictation system.
+3)  The "Examination Status Entry/Edit" \[RA EXAMSTATUS\] option wasn't prompting for "Generate Examined HL7 Message:" anymore, which prevented Radiology ADPACs from editing this field.
+
+This patch resolves these reported problems. The GENERATE EXAMINED HL7 MESSAGE field will be restored to the RA STATUS ENTRY input template for the EXAMINATION STATUS file (#72).

@@ -3,46 +3,37 @@ title: TBI Version 4.2 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: TBI
-app_name: "Registry: Traumatic Brain Injury"
+app_name: 'Registry: Traumatic Brain Injury'
 section: CLI
 app_status: active
 pkg_ns: TBI
 patch_ver: 4.2
 patch_id: TBI*4.2
-group_key: "TBI:TBI:4.2"
+group_key: TBI:TBI:4.2
+description: The Presidential Task Force on Returning Global War on Terror Heroes, as stated in the Global War on Terror report (recommendation P-3) and Public Law 110-181 National Defense Authorization Act 2008 TBI Section 1704 created the requirement for the Traumatic Brain Injury (TBI) Registry. This registry
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The Presidential Task Force on Returning Global War on Terror Heroes, as stated in the Global War on Terror report (recommendation P-3) and Public Law 110-181 National Defense Authorization Act 2008 TBI Section 1704 created the requirement for the Traumatic Brain Injury (TBI) Registry. This registry
-audience: 
-keywords: 
-  - table
-  - contents
-  - registry
-  - release
-  - enhancements
-  - cube
-  - view
-  - strong
-  - enhanced
-  - notes
 page_count: 0
 word_count: 896
 section_count: 8
 table_count: 17
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 7
 revision_newest: 11/1/2015
 revision_oldest: 4/18/2012
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbirn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbirn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=198"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbirn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Reg-Traumatic_Brain_Injury/tbirn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=198
+audit_applied: '2026-05-31'
 ---
 
 Traumatic Brain Injury Registry (TBI)Release Notes

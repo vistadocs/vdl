@@ -3,7 +3,7 @@ title: MC*2.3*43/44 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: MC
 app_name: Medicine
 section: CLI
@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: MC
 patch_ver: 2.3
 patch_id: MC*2.3*43
-group_key: "MC:MC:2.3"
-file_numbers: []
-security_keys: []
+group_key: MC:MC:2.3
+description: '- Introduction - Purpose - Background - Scope of Changes - Dependencies - Patches - Documentation - Medical Diagnosis/ICD Codes File (#697.5) -...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '80'
+- '697.5'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - diagnosis
-  - table
-  - contents
-  - print
-  - codes
-  - medical
-  - procedure
-  - date
-  - medicine
 page_count: 0
 word_count: 1571
 section_count: 9
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/icd-10_rn_mc_2_3_43_44.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Medicine/icd-10_rn_mc_2_3_43_44.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=77"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Medicine/icd-10_rn_mc_2_3_43_44.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Medicine/icd-10_rn_mc_2_3_43_44.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=77
+audit_applied: '2026-05-31'
 ---
 
 ICD-10 Follow On Class 1 Software Remediation Project

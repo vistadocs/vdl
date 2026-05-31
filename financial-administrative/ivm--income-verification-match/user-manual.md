@@ -3,7 +3,7 @@ title: IVM Version 2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IVM
 app_name: Income Verification Match
 section: FIN
@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: IVM
 patch_ver: 2
 patch_id: IVM*2
-group_key: "IVM:IVM:2"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: IVM:IVM:2
 description: Public Law 101-508 permits the Department of Veterans Affairs (VA) to verify income data with the Internal Revenue Service (IRS) and Social Security Administration (SSA) for veterans receiving VA health care services whose eligibility for medical care is based on income. The Income Verification Matc
-audience: 
-keywords: 
-  - upload
-  - insurance
-  - patient
-  - table
-  - date
-  - redacted
-  - contents
-  - class
-  - means
-  - report
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '301.5'
+- '301.6'
+- '301.7'
+- '355.33'
+security_keys:
+- IVM SYS
+- IVM UPLOAD
+menu_options: 1
 page_count: 0
 word_count: 8708
 section_count: 16
 table_count: 6
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 1994
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=44"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Income_Verif_Match_(IVM)/ivm_2_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=44
+audit_applied: '2026-05-31'
 ---
 
 ![](ivm-version-2-user-manual/001.png)

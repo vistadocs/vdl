@@ -3,46 +3,38 @@ title: VistARad Quick Start Guide
 doc_type: QRG
 doc_label: Quick Reference Guide
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: VistARad Quick Start Guide VistA Imaging 3.0 MAG\*3.0\*199 March 2018Property of the US
+audience: End users (quick reference)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- STORE 3D IMAGES
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - vistarad
-  - contents
-  - table
-  - exam
-  - image
-  - window
-  - images
-  - exams
-  - guide
-  - start
 page_count: 0
 word_count: 10458
 section_count: 33
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/VistARad_Quick_Start_Guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/VistARad_Quick_Start_Guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/VistARad_Quick_Start_Guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/VistARad_Quick_Start_Guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 ![](vistarad-quick-start-guide/001.png)

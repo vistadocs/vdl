@@ -11,38 +11,32 @@ app_status: active
 pkg_ns: EN
 patch_ver: 7
 patch_id: EN*7
-group_key: "EN:EN:7"
-file_numbers: []
+group_key: EN:EN:7
+description: '> Department of Veterans Affairs Decentralized Hospital Computer'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '7.0'
+- '6910'
+- '6925'
 security_keys: []
-menu_options: 0
-description: - [Release Notes](#release-notes) - [New Functionalities in Engineering Version 7.0](#new-functionalities-in-engineering-version-70) - [Work Orders/MERS (Medical Equipment Reporting System )](#work-ordersmers-medical-equipment-reporting-system) - [Projects](#projects) - [Equipment Management](#equip
-audience: 
-keywords: 
-  - blockquote
-  - enini
-  - filed
-  - class
-  - even
-  - enlbl
-  - table
-  - ensp
-  - enary
-  - contents
+menu_options: 1
 page_count: 0
 word_count: 9765
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 1993
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/engre7_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/engre7_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=37"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/engre7_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/engre7_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=37
+audit_applied: '2026-05-31'
 ---
 
 > Department of Veterans Affairs Decentralized Hospital Computer System

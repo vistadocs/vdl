@@ -3,7 +3,7 @@ title: Mental Health Assistant (MHA) YS*5.01*207 Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: YS
 app_name: Mental Health
 section: CLI
@@ -11,53 +11,30 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*207
-group_key: "YS:YS:5.01"
+group_key: YS:YS:5.01
+description: '| Date | Version | Description | Author | |-----------|-------------|-----------------|----------------------| | June 2022 | 1.0 | Initial version | Liberty IT Solutions'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - instrument
-  - release
-  - issues
-  - mental
-  - health
-  - added
-  - features
-  - enhancements
 page_count: 0
-word_count: 897
+word_count: 875
 section_count: 9
 table_count: 2
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_207_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_207_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_207_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/ys_5_01_207_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Mental Health Assistant (MHA)
-
-  YS\*5.01\*207
-
-  Release Notes
-
-  ![](mental-health-assistant-mha-ys-5-01-207-release-notes/001.png)
----
-
 June 2022
 
 Office of Information and Technology (OIT)

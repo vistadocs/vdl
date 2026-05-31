@@ -1,9 +1,9 @@
 ---
-title: "Kernel 8.0 Systems Management: Utilities User Guide"
+title: '''Kernel 8.0 Systems Management: Utilities User Guide'''
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: "Systems Management: Utilities"
+doc_subject: '''Systems Management: Utilities'''
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,47 +11,82 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
+group_key: XU:XU:8.0
+description: '''REF: For the archived document revision history, see "Appendix A—Revision History'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3.075'
+- '3.076'
+- '4'
+- '9.2'
+- '19.2'
+- '29'
+- '41.99'
+- '49'
+- '51'
+- '52'
+- '52.1'
+- '53.1'
+- '53.2'
+- '53.3'
+- '55.1'
+- '55.2'
+- '55.3'
+- '55.4'
+- '55.5'
+- '55.6'
+- '200'
+- '355.93'
+- '392'
+- '399'
+- '501.2'
+- '730'
+- '747.44'
+- '8932.1'
+- '8989.3'
+- '8989.5'
+- '8989.51'
+- '8991.6'
+- '8991.7'
+- '8992'
+- '8992.01'
+- '8992.1'
+- '8992.3'
+- '8993'
+- '8993.1'
+- '8993.2'
+security_keys:
+- DIUSER
+- ORMGR
+- PROVIDER
+- PSDMGR
+- PSDRPH
+- XQAL-DELETE
+- XULM LOCKS
+- XULM SYSTEM LOCKS
+- XUPROGMODE
+- XUSPY
 menu_options: 8
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - span
-  - class
-  - mark
-  - date
-  - edit
-  - lock
-  - service
-  - print
-  - table
-  - management
 page_count: 0
-word_count: 38325
+word_count: 38318
 section_count: 30
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_utilities_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_utilities_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_utilities_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn_8_0_sm_utilities_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Kernel 8.0 Systems Management:
-
-  Utilities User Guide
----
-
 ![](kernel-8-0-systems-management-utilities-user-guide/001.png)
 
 August 2025

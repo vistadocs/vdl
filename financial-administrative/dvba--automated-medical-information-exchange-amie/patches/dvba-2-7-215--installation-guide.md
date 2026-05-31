@@ -3,7 +3,7 @@ title: AMIE Version 2.7 Installation Guide 2019
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: DVBA
 app_name: Automated Medical Information Exchange (AMIE)
 section: FIN
@@ -11,38 +11,46 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*215
-group_key: "DVBA:DVBA:2.7"
-file_numbers: []
+group_key: DVBA:DVBA:2.7
+description: Automated Medical Information Exchange (AMIE) V. 2.7Installation GuideNovember 2019
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2'
+- '2.7'
+- '10'
+- '31'
+- '90'
+- '396'
+- '396.1'
+- '396.3'
+- '396.4'
+- '396.6'
+- '396.7'
+- '396.93'
+- '396.94'
+- '8984.1'
+- '8984.2'
+- '8984.3'
+- '8984.4'
 security_keys: []
 menu_options: 0
-description: Automated Medical Information Exchange (AMIE) V. 2.7Installation GuideNovember 2019
-audience: 
-keywords: 
-  - filed
-  - dvba
-  - error
-  - amie
-  - message
-  - exam
-  - routine
-  - local
-  - after
-  - follows
 page_count: 0
 word_count: 3577
 section_count: 1
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 2
 revision_newest: 10/3/19
 revision_oldest: 1/23/09
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/dvba_27_215_amie_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/dvba_27_215_amie_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=31"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/dvba_27_215_amie_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Medical_Info_Exchg_(AMIE)/dvba_27_215_amie_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=31
+audit_applied: '2026-05-31'
 ---
 
 ![](amie-version-2-7-installation-guide-2019/001.png)

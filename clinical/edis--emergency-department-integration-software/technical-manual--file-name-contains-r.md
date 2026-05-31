@@ -3,7 +3,7 @@ title: EDIS Technical Manual (file name contains _r)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: EDIS  (file name contains _r)
+doc_subject: EDIS (file name contains _r)
 app_code: EDIS
 app_name: Emergency Department Integration Software
 section: CLI
@@ -11,48 +11,113 @@ app_status: archive
 pkg_ns: EDIS
 patch_ver: 2.2
 patch_id: EDIS*2.2
-group_key: "EDIS:EDIS:2.2"
-file_numbers: 
-  - 230
-security_keys: []
+group_key: EDIS:EDIS:2.2
+description: Revised June 2021Department of Veterans Affairs (VA)Office of Information and Technology (OIT)
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1.2'
+- '1.5'
+- '2'
+- '3.2'
+- '3.3'
+- '4'
+- '44'
+- '60'
+- '80'
+- '101.43'
+- '200'
+- '210'
+- '230'
+- '230.1'
+- '231.7'
+- '231.8'
+- '231.9'
+- '231.93'
+- '232.1'
+- '232.11'
+- '232.12'
+- '232.13'
+- '232.5'
+- '232.6'
+- '232.62'
+- '232.622'
+- '232.63'
+- '232.71'
+- '232.711'
+- '232.712'
+- '232.72'
+- '232.725'
+- '232.727'
+- '232.728'
+- '232.729'
+- '232.73'
+- '232.74'
+- '233.1'
+- '233.12'
+- '233.2'
+- '233.21'
+- '233.8'
+- '233.81'
+- '233.82'
+- '233.821'
+- '233.8211'
+- '233.822'
+- '234'
+- '784'
+- '787'
+- '788'
+- '789'
+- '790'
+- '791'
+- '792'
+- '793'
+- '794'
+- '795'
+- '796'
+- '797'
+- '800'
+- '801'
+- '802'
+- '803'
+- '804'
+- '805'
+- '806'
+- '807'
+- '871'
+- '872'
+- '873'
+- '874'
+- '875'
+- '876'
+- '886'
+- '891'
+- '892'
+- '8930'
+- '900001'
+security_keys:
+- CLINICIAN
+- ORELSE
+- PROVIDER
+- PSJ RNURSE
 menu_options: 7
-description: "--- title: | <span id=\\"_Toc495855387\\" class=\\"anchor\\"></span>Emergency Department Integration Software (EDIS)"
-audience: 
-keywords: 
-  - class
-  - table
-  - edis
-  - span
-  - width
-  - style
-  - even
-  - blockquote
-  - patient
-  - board
 page_count: 0
-word_count: 25221
+word_count: 25207
 section_count: 27
 table_count: 11
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_tm_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_tm_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=358"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_tm_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software_Archive/edis_2_2_tm_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=358
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc495855387" class="anchor"></span>Emergency Department Integration Software (EDIS)
-
-  Technical Manual
----
-
 ![](edis-technical-manual-file-name-contains-r/001.png)
 
 Revised June 2021Department of Veterans Affairs (VA)Office of Information and Technology (OIT)

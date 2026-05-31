@@ -1,12 +1,50 @@
 ---
-consolidated_title: "user manual change pages"
-app_code: GMRV
+title: GMRV*5*23 User Manual change pages
 doc_type: UM
-master_source: "GMRV*5*23 User Manual change pages"
+doc_label: User Manual
+doc_layer: patch
+doc_subject: change pages
+app_code: GMRV
+app_name: Vitals/Measurements
+section: CLI
+app_status: active
+pkg_ns: GMRV
+patch_ver: 5
+patch_id: GMRV*5*23
+group_key: GMRV:GMRV:5
+file_numbers:
+- '4'
+- '44'
+- '200'
+- '8989.3'
+security_keys:
+- GMV MANAGER
+menu_options: 0
+description: '> The Vitals/Measurements application is designed to store in the patient''s electronic medical record all vital signs and various measurements associated with a patient''s hospital stay or outpatient clinic visit. Data entered can be accessed by several VistA (Veterans Health Information Systems and'
+audience: End users (clinical / administrative, per package)
+keywords: []
+page_count: 0
+word_count: 7421
+section_count: 44
+table_count: 0
+figure_count: 0
+appendix_count: 3
+has_toc: false
+is_stub: false
+pub_date: September 2009
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl_5_p23_um_change_pages.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl_5_p23_um_change_pages.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
+master_source: GMRV*5*23 User Manual change pages
 master_pub_date: September 2009
 consolidated_from: 2 versions
 prior_versions:
-  - "GMRV*5*22 User Manual change pages"
+- GMRV*5*22 User Manual change pages
+consolidated_title: user manual change pages
 ---
 
 ### September 2009
@@ -300,11 +338,11 @@ Vitals / Measurements User Manual
 
 > The Vitals/Measurements application is designed to store in the patient's electronic medical record all vital signs and various measurements associated with a patient's hospital stay or outpatient clinic visit. Data entered can be accessed by several VistA (Veterans Health Information Systems and Technology Architecture) applications (e.g., CPRS, Health Summary) that interface with the Vitals/Measurements application.
 
-> <sup>1</sup>The Vitals application is composed of two modules: Vitals and Vitals Manager. Each module is accessed separately through GUI executable icons on the user’s desktop. The Vitals module is used to enter patient data, and is assigned to clinical staff. The Vitals Manager module is used to manage the Vitals templates and abnormal values ranges, and is assigned to the Clinical Application Coordinator, package coordinator, and Information Resource Management Service (IRMS) staff.
+> <sup>1</sup>The Vitals application is composed of two modules: Vitals and Vitals Manager. Each module is accessed separately through GUI executable icons on the user's desktop. The Vitals module is used to enter patient data, and is assigned to clinical staff. The Vitals Manager module is used to manage the Vitals templates and abnormal values ranges, and is assigned to the Clinical Application Coordinator, package coordinator, and Information Resource Management Service (IRMS) staff.
 
 > A Dynamic Link Library (DLL) file is also provided to allow other applications to use the Vitals/Measurements GUI. See Appendix C for more information on the DLL.
 
-> GMV MANAGER is the only security key in this application. This key controls access to the Vitals Manager module. This key also allows a user to view/create/edit all other user’s templates in the Vitals Manager module; without this key the user can only view, create, or edit their own user templates. This key should be assigned to the package coordinator.
+> GMV MANAGER is the only security key in this application. This key controls access to the Vitals Manager module. This key also allows a user to view/create/edit all other user's templates in the Vitals Manager module; without this key the user can only view, create, or edit their own user templates. This key should be assigned to the package coordinator.
 
 ## <sup>2</sup>Functionality
 
@@ -397,7 +435,7 @@ Introduction
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Vitals Manager allows a site’s administrator (CAC, IRMS) to define the way that vitals appear in the Vitals/Measurements application. This includes activities such as creating and editing templates, associating qualifiers with different vital types, setting normal/abnormal value ranges for each vital type, and printing a list of qualifiers and their associated categories and vital types.
+> Vitals Manager allows a site's administrator (CAC, IRMS) to define the way that vitals appear in the Vitals/Measurements application. This includes activities such as creating and editing templates, associating qualifiers with different vital types, setting normal/abnormal value ranges for each vital type, and printing a list of qualifiers and their associated categories and vital types.
 
 > The Vitals Manager module is used to maintain the site files and settings necessary for a site to operate the software, and the Vitals (user) module is used to collect, store and display patient data. All the options discussed in this chapter are contained in the Vitals Manager module.
 
@@ -445,7 +483,7 @@ Introduction
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The Qualifiers Table is a list of all qualifiers for each vital type and its categories, including each qualifier’s synonym. The Package Coordinator may use this list to determine the accuracy and completeness of the qualifier selection. Qualifiers that are not associated with a category and vital type do not appear in this list.
+> The Qualifiers Table is a list of all qualifiers for each vital type and its categories, including each qualifier's synonym. The Package Coordinator may use this list to determine the accuracy and completeness of the qualifier selection. Qualifiers that are not associated with a category and vital type do not appear in this list.
 
 > To print the Qualifiers Table go through the main menu bar and select File, Print Qualifiers Table. The following screen appears:
 
@@ -453,7 +491,7 @@ Introduction
 
 > <sup>1</sup>Figure 2-3
 
-> Select an appropriate device in the Device field. Select a date/time to queue this report in the Queue To Run at field. The default date/time is the current server date/time. This report can’t be queued to run for a past date/time. Click the OK button to print the report.
+> Select an appropriate device in the Device field. Select a date/time to queue this report in the Queue To Run at field. The default date/time is the current server date/time. This report can't be queued to run for a past date/time. Click the OK button to print the report.
 
 ## Editing Abnormal Values
 
@@ -487,7 +525,7 @@ Introduction
 
 > Allow User Templates allows a CAC or package coordinator to decide whether a clinician should be able to create/edit user templates in the Vitals Manager and Vitals modules. When the checkbox is checked, a clinician is able to create/edit user templates in the Vitals Manager and Vitals modules.
 
-> Help Menu Web Address contains the address for the Vitals Home Page and directs the user’s default browser to this page when accessed.
+> Help Menu Web Address contains the address for the Vitals Home Page and directs the user's default browser to this page when accessed.
 
 > Version Compatibility is used to check if a client version is compatible or not with the current version of Vitals running on the VistA M server. All previously installed versions of Vitals/Measurements are listed in this parameter. Only the version(s) that are compatible with the current server version are checked. These versions are identified by their executable name and the Windows file version. Because backward compatibility is required, more than one version of the software may be flagged as compatible.
 
@@ -627,7 +665,7 @@ Introduction
 
 > Vitals has been made CCOW-compliant and can now synchronize with other CCOW-compliant VistA applications. For example, if you are logged in on CPRS (which is also CCOW-compliant) and clicked the Vitals link, the Vitals GUI will be launched and will open the same patient that is active in CPRS. You can also open two different Vitals sessions and not synchronize them,
 
-> allowing you to view two patients’ charts at the same time.
+> allowing you to view two patients' charts at the same time.
 
 > For more information about the CCOW standards for VistA applications, see the Workgroup web site at: <span class="mark">REDACTED</span>.
 
@@ -645,7 +683,7 @@ Introduction
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The CCOW clinical link is automatically active, and will remain active unless you break the clinical link. To manually join the clinical context, go through the File menu and select Rejoin Clinical Link. If you want the other open applications to synchronize with the current patient in the active application, select Use this Application’s Data. If you want the current application to synchronize with the patient that is open in another application, select Use Global Data.
+> The CCOW clinical link is automatically active, and will remain active unless you break the clinical link. To manually join the clinical context, go through the File menu and select Rejoin Clinical Link. If you want the other open applications to synchronize with the current patient in the active application, select Use this Application's Data. If you want the current application to synchronize with the patient that is open in another application, select Use Global Data.
 
 > The CCOW icon changes to Active and all open VistA applications are synchronized.
 
@@ -675,7 +713,7 @@ Introduction
 
 > <span id="_bookmark32" class="anchor"></span>Figure 4-2
 
-> This screen shows you additional information on the selected patient. If the patient selected is a sensitive patient, a sensitive patient screen will appear telling you that this patient’s information is available on a need-to-know basis only. Click the OK button to confirm your patient selection.
+> This screen shows you additional information on the selected patient. If the patient selected is a sensitive patient, a sensitive patient screen will appear telling you that this patient's information is available on a need-to-know basis only. Click the OK button to confirm your patient selection.
 
 > The patient information opens in the Vitals window ([Figure 4-3](#_bookmark33)), showing existing data on a graph and in a spreadsheet-like data grid. You can access a text-only version of the data grid by going through the File menu and selecting Data Grid Report.
 
@@ -689,7 +727,7 @@ Introduction
 
 > The time scale runs from left to right, displaying the most recent values on the far right side of the graph and grid. You can move left and right across the graph by moving the slider bar between the graph and the grid. To expand the graph and grid displays for the selected patient, click the Pt Select button to close the Patient Selector pane.
 
-> You can view patient data within a selected date range: ―Six Months‖ is selected in the example above ([Figure 4-3](#_bookmark33)). Select a predetermined time frame by clicking one of the values on the left of the graph: ―Today‖ displays today’s data only, ―T-1‖ displays data for today plus one previous day, ―T-7‖ displays data for today plus seven previous days, and so on. ―All Results‖ displays all available vitals data for the selected patient. If you would rather define your own dates, click the Date Range button, then set "Start with" and "Go to" dates.
+> You can view patient data within a selected date range: ―Six Months‖ is selected in the example above ([Figure 4-3](#_bookmark33)). Select a predetermined time frame by clicking one of the values on the left of the graph: ―Today‖ displays today's data only, ―T-1‖ displays data for today plus one previous day, ―T-7‖ displays data for today plus seven previous days, and so on. ―All Results‖ displays all available vitals data for the selected patient. If you would rather define your own dates, click the Date Range button, then set "Start with" and "Go to" dates.
 
 > You can view 15 different types of graphs for the selected date range. Select a graph type from the Graph drop-down list, or click a vital type row heading in the grid to graph that vital type. The TPR graph is selected in the example above, showing Temp, Pulse, and Respiration values.
 
@@ -735,7 +773,7 @@ Introduction
 
 > Click the Select button to complete the Hospital Location selection, or click the Cancel button to cancel the selection.
 
-> The Enter Vitals window opens, showing the selected patient’s name, Social Security number, and date of birth in the upper left corner of the window. The selected Hospital Location and current Date/Time are also shown at the top of the window.
+> The Enter Vitals window opens, showing the selected patient's name, Social Security number, and date of birth in the upper left corner of the window. The selected Hospital Location and current Date/Time are also shown at the top of the window.
 
 ![](gmrv-5-23-user-manual-change-pages/031.png)
 
@@ -755,7 +793,7 @@ Introduction
 
 > Select a date from the calendar by clicking on it, or click Today to select the current date. Select a time either by entering in the time in the Time field, or by selecting the time using the hour and minute lists under the Time field, or click Now to select the current time. Click the Midnight button to select 12:00 midnight. Click the OK button to complete the selection, or click the Cancel button to cancel the selection. You cannot select a date/time in the future.
 
-> Select a template from the Templates list on the left side of the screen ([Figure 4-6](#_bookmark36)). Templates are categorized by System, Division, Location, and User. Templates for system, division, and location are available to everybody. You can select anybody’s user template as long as you have the GMV MANAGER key. If you do not have the GMV MANAGER key, only your own user templates will be available in the User category. Contact your IRMS support person if you think you should have the GMV MANAGER key.
+> Select a template from the Templates list on the left side of the screen ([Figure 4-6](#_bookmark36)). Templates are categorized by System, Division, Location, and User. Templates for system, division, and location are available to everybody. You can select anybody's user template as long as you have the GMV MANAGER key. If you do not have the GMV MANAGER key, only your own user templates will be available in the User category. Contact your IRMS support person if you think you should have the GMV MANAGER key.
 
 > Enter values for the vital types by typing them in the appropriate box. The default qualifiers for each vital type appear to the right of the down arrow button for each vital type. Click the down- arrow button next to each vital type to select a different qualifier, if necessary.
 
@@ -861,7 +899,7 @@ Introduction
 
 > Click on the Date/Time button and select a date/time (refer to [Figure 4-7](#_bookmark37)). The default date/time is the current server date/time. The selected date/time appears in the top Navigation Bar.
 
-> Select a template from the Templates list on the left side of the screen ([Figure 4-10](#_bookmark42)). Templates are categorized by System, Division, Location, and User. Templates for system, division, and location are available to everybody. You can select anybody’s user template as long as you have the GMV MANAGER key. If you do not have the GMV MANAGER key, only your own user templates will be available in the User category. Contact your IRMS support person if you think you should have the GMV MANAGER key.
+> Select a template from the Templates list on the left side of the screen ([Figure 4-10](#_bookmark42)). Templates are categorized by System, Division, Location, and User. Templates for system, division, and location are available to everybody. You can select anybody's user template as long as you have the GMV MANAGER key. If you do not have the GMV MANAGER key, only your own user templates will be available in the User category. Contact your IRMS support person if you think you should have the GMV MANAGER key.
 
 > <sup>1</sup> Patch GMRV\*5.0\*23 September 2009 Updated screen capture to include menu bar, ―Data Source‖ column, and
 
@@ -887,7 +925,7 @@ Introduction
 
 > Figure 4-11
 
-> Click Yes to save the original patient’s data and switch to the new patient. Click No to switch to the new patient without saving the original patient’s data.
+> Click Yes to save the original patient's data and switch to the new patient. Click No to switch to the new patient without saving the original patient's data.
 
 > The look of the Units column can be changed by checking the Units as Drop Down List box. When the Units column is set to a metric setting that means the data entry for that vital type is expected to be a metric reading. If the user wants to enter the reading in US Standard format then select the US Standard format from the Units column. To make US Standard the default for a vital type, the template definition must be edited. Refer to the section on [<u>Creating a User</u>](#creating-a-user-template) [<u>Template</u>](#creating-a-user-template) for more information on creating/editing templates.
 
@@ -985,7 +1023,7 @@ Introduction
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Vitals data values cannot be deleted once they have been saved – if incorrect vitals data have been saved, they must be marked "Entered in Error" and replaced with corrected data. Any data values that have been marked "in error" will continue to be stored in the Vitals database, but will not be displayed in the patient’s data grid and graph.
+> Vitals data values cannot be deleted once they have been saved – if incorrect vitals data have been saved, they must be marked "Entered in Error" and replaced with corrected data. Any data values that have been marked "in error" will continue to be stored in the Vitals database, but will not be displayed in the patient's data grid and graph.
 
 > Users can mark any vitals that were incorrectly entered as ―entered in error‖ by using this option. Users will still need to go back and enter a new entry to correct the entry that will be marked as entered in error. Refer to <u>Entering Vitals Data</u> for more information.
 
@@ -1042,7 +1080,7 @@ Introduction
 
 > To view a graphic report for a particular patient, use one of the following methods to select a date range from the box on the top left side of the reports screen:
 
-> ![](gmrv-5-23-user-manual-change-pages/070.png) Click a predetermined time frame from the box on the left of the graph. TODAY displays today’s data only, T-1 displays data for today plus one previous day, T-7 displays data for today plus seven previous days, and so on up to Two Years’ worth of past data. All Results displays all available vitals data for the selected patient.
+> ![](gmrv-5-23-user-manual-change-pages/070.png) Click a predetermined time frame from the box on the left of the graph. TODAY displays today's data only, T-1 displays data for today plus one previous day, T-7 displays data for today plus seven previous days, and so on up to Two Years' worth of past data. All Results displays all available vitals data for the selected patient.
 
 > ![](gmrv-5-23-user-manual-change-pages/071.png) Click Date Range to select a customized date range, then set "Start with" and "Go to" dates.
 
@@ -1246,7 +1284,7 @@ Reports
 <tr class="even">
 <td></td>
 <td><blockquote>
-<p>Use this Application’s Data</p>
+<p>Use this Application's Data</p>
 </blockquote></td>
 <td></td>
 <td><blockquote>
@@ -3257,7 +3295,7 @@ Reports
 
 > ![](gmrv-5-23-user-manual-change-pages/081.png) In the Encounter window, click the Vitals tab, then click the Enter Vitals button to invoke the DLL and open the Enter Vitals window. The user will be able to enter vitals data using existing input templates.
 
-> <sup>1</sup>The Enter Vitals window opens, showing the selected patient’s name, Social Security number, and date of birth in the upper left corner of the window. The selected Hospital Location and current Date/Time are also shown at the top of the window.
+> <sup>1</sup>The Enter Vitals window opens, showing the selected patient's name, Social Security number, and date of birth in the upper left corner of the window. The selected Hospital Location and current Date/Time are also shown at the top of the window.
 
 > <sup>1</sup> Patch GMRV\*5.0\*23 September 2009 Updated screen capture.
 
@@ -3283,7 +3321,7 @@ Reports
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> Vitals data values cannot be deleted once they have been saved – if incorrect vitals data have been saved, they must be marked "Entered in Error" and replaced with corrected data. Any data values that have been marked "in error" will continue to be stored in the Vitals database, but will not be displayed in the patient’s data grid and graph.
+> Vitals data values cannot be deleted once they have been saved – if incorrect vitals data have been saved, they must be marked "Entered in Error" and replaced with corrected data. Any data values that have been marked "in error" will continue to be stored in the Vitals database, but will not be displayed in the patient's data grid and graph.
 
 > Users can mark any vitals that were incorrectly entered as ―entered in error‖ by using this procedure. Users will still need to go back and add a new entry to correct the entry that will be marked as entered in error.
 
@@ -3541,7 +3579,7 @@ _These sections appeared in earlier versions of this document but are not presen
 
 > To associate a vitals qualifier with a category, select the desired category, then select the appropriate qualifiers for that category. Checkmarks will appear next to the selected qualifiers.
 
-> <sup>1</sup> Patch GMRV\*5.0\*3 April 2006 Combined “Adding Vitals Qualifiers” and “Associating Vitals Qualifiers with a Category” sections into new “Managing Vitals Categories and Qualifiers” section to reflect new functionality.
+> <sup>1</sup> Patch GMRV\*5.0\*3 April 2006 Combined "Adding Vitals Qualifiers" and "Associating Vitals Qualifiers with a Category" sections into new "Managing Vitals Categories and Qualifiers" section to reflect new functionality.
 
 <span id="_bookmark6" class="anchor"></span>Using Vitals Manager
 

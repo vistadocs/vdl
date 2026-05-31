@@ -11,50 +11,45 @@ app_status: archive
 pkg_ns: IB
 patch_ver: 2.0
 patch_id: IB*2.0
-group_key: "IB:IB:2.0"
-file_numbers: 
-  - 200
-  - 355
-security_keys: []
+group_key: IB:IB:2.0
+description: 1. The revision history cycle begins once changes or enhancements are requested after the document has been
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '4'
+- '200'
+- '350.9'
+- '355.9'
+- '355.92'
+- '355.93'
+- '399'
+- '8932.1'
+security_keys:
+- ENTER
+- GROUP PLAN EDIT
+- IB CLON
+- IB PROVIDER EDIT
+- IB SUPERVISOR
+- PAY-TO TC
+- PROVIDER
 menu_options: 1
-description: 
-audience: 
-keywords: 
-  - provider
-  - blockquote
-  - insurance
-  - claim
-  - claims
-  - billing
-  - secondary
-  - payer
-  - prompt
-  - table
 page_count: 0
-word_count: 60629
+word_count: 60616
 section_count: 46
 table_count: 8
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_edi_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_edi_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=266"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_edi_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_edi_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=266
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>EDI Integrated Billing  
-  Version 2.0
-
-  User Guide
----
-
 ![](ib-2-edi-user-guide/001.png)
 
 August 2005  

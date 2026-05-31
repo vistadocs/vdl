@@ -5,50 +5,38 @@ doc_label: Supplement
 doc_layer: patch
 doc_subject: Pharmacy Data Management Drug Exception List
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*127
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: '> Patch PSS\1\127 updated the following drugs with the listed NCPDP Multiplier and NCPDP Dispense Unit. These two fields were added as part of this patch to the DRUG file (#50).'
+audience: ''
+keywords: []
+file_numbers:
+- '50'
+- '50.68'
 security_keys: []
 menu_options: 0
-description: > Patch PSS\1\127 updated the following drugs with the listed NCPDP Multiplier and NCPDP Dispense Unit. These two fields were added as part of this patch to the DRUG file (#50).
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - even
-  - soln
-  - style
-  - width
-  - liquid
-  - oral
-  - table
-  - colgroup
 page_count: 0
-word_count: 174462
+word_count: 174455
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p127_drug_exceptions_list.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p127_drug_exceptions_list.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p127_drug_exceptions_list.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p127_drug_exceptions_list.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
-
----
-title: Pharmacy Data Management Drug Exception List
----
-
 > Patch PSS\*1\*127 updated the following drugs with the listed NCPDP Multiplier and NCPDP Dispense Unit. These two fields were added as part of this patch to the DRUG file (#50).
 
 > Please refer to the Release notes for ePharmacy/ECME Enhancements for Pharmacy Release Notes (BPS_1_5_EPHARMACY_RN_0907.PDF) on the VistA Documentation Library (VDL).

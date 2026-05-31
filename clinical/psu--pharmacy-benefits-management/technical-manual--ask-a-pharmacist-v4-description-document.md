@@ -3,46 +3,37 @@ title: Ask A Pharmacist Version 4 Description Document
 doc_type: DESC
 doc_label: Description Document
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
 pkg_ns: PSU
 patch_ver: 4
 patch_id: PSU*4
-group_key: "PSU:PSU:4"
+group_key: PSU:PSU:4
+description: '> Updated from REDACTED includes Various bug fixes from 508 including eula decline, page titles, training link, feedback link, skipnav updates, tab order updates, and list of browsers supported for Veteran Facing Applications'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 33%\\" /> <col style=\\"width: 33%\\" /> <col style=\\"width: 33%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th><blockquote> <p><strong>Name of Mobile Application</strong></p> <p>Ask A Pharmacist (AAP)</p> <p>Link to Wiki - <a href=\\"https://wiki.mobilehealth.va.gov/di"
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - table
-  - style
-  - width
-  - mark
-  - even
-  - colspan
-  - contents
 page_count: 0
 word_count: 1358
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_vdd.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_vdd.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_vdd.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_vdd.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
 
 > Ask A Pharmacist Version Description Document (VDD)

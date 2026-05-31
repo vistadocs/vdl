@@ -11,39 +11,57 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*301
-group_key: "IB:IB:2"
-file_numbers: 
-  - 354
+group_key: IB:IB:2
+description: '* (This page included for two-sided printing.)*Table of'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '2'
+- '7'
+- '17'
+- '21'
+- '22'
+- '24'
+- '26'
+- '27'
+- '29'
+- '45'
+- '52'
+- '79.18'
+- '79.19'
+- '131'
+- '132'
+- '200'
+- '202'
+- '344'
+- '348.4'
+- '350'
+- '354.7'
+- '355.3'
+- '362.5'
+- '365.12'
+- '399'
+- '408.31'
+- '433'
+- '747.111'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - prca
-  - patch
-  - blockquote
-  - table
-  - contents
-  - test
-  - extract
-  - date
-  - accounts
-  - class
 page_count: 0
 word_count: 1775
 section_count: 5
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/vista_ib_ar_data_extract_release_notes.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/vista_ib_ar_data_extract_release_notes.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/vista_ib_ar_data_extract_release_notes.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/vista_ib_ar_data_extract_release_notes.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 ![](ib-2-301-305-vista-ib-ar-data-extract-release-note/001.png)

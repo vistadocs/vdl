@@ -3,46 +3,46 @@ title: Health Summary Version 2.7 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GMTS
-app_name: "CPRS: Health Summary"
+app_name: 'CPRS: Health Summary'
 section: CLI
 app_status: active
 pkg_ns: GMTS
 patch_ver: 2.7
 patch_id: GMTS*2.7
-group_key: "GMTS:GMTS:2.7"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: GMTS:GMTS:2.7
 description: Version 2.7December 2019Department of Veterans Affairs (VA)Decentralized Hospital Computer ProgramRevision History
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - class
-  - health
-  - summary
-  - table
-  - gmtsi
-  - style
-  - width
-  - contents
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '2.7'
+- '3.5'
+- '142'
+- '142.1'
+- '142.99'
+- '394.71'
+security_keys:
+- CLINICIAN
+- GMTSMGR
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 4946
 section_count: 8
 table_count: 1
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/hsum_2_7_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/hsum_2_7_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=63"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/hsum_2_7_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Health_Summary/hsum_2_7_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=63
+audit_applied: '2026-05-31'
 ---
 
 Health Summary (GMTS\*2.7\*129)Installation Guide & Release Notes

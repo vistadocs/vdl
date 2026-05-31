@@ -3,46 +3,37 @@ title: Pharmacy Reengineering (PRE) Inbound ePrescribing (IEP) 3.1 Version 3.0 U
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: Version 3.0  (Units 1 and 2)
+doc_subject: Version 3.0 (Units 1 and 2)
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 3.1
 patch_id: PSO*3.1
-group_key: "PSO:PSO:3.1"
+group_key: PSO:PSO:3.1
+description: The purpose of PRE IEP is to enable the VA to receive and subsequently process electronic prescriptions (eRxs) from outside of VA. This user guide serves as a guide and useful reference for VA Pharmacy Users, Systems Administrators, Managers, and other VA staff to assist in accessing, navigating, an
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The purpose of PRE IEP is to enable the VA to receive and subsequently process electronic prescriptions (eRxs) from outside of VA. This user guide serves as a guide and useful reference for VA Pharmacy Users, Systems Administrators, Managers, and other VA staff to assist in accessing, navigating, an
-audience: 
-keywords: 
-  - blockquote
-  - class
-  - pharmacy
-  - span
-  - inbound
-  - table
-  - eprescribing
-  - figure
-  - strong
-  - message
 page_count: 0
 word_count: 11057
 section_count: 9
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_iep_um_1_2.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_iep_um_1_2.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_iep_um_1_2.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_iep_um_1_2.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
 
 # Pharmacy Reengineering (PRE) Inbound ePrescribing (IEP) 3.1 User Manual

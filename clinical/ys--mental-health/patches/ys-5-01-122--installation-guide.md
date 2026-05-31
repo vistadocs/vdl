@@ -11,47 +11,43 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*122
-group_key: "YS:YS:5.01"
-file_numbers: []
-security_keys: []
+group_key: YS:YS:5.01
+description: '| Date | Revision | Description | Author | |----------|----------|---------------------------------------------------------------------------------------------------|------------------------------------| | 7/8/2019 | 1 | Initial document creation using VIP\_ Deployment_Installation_Backout and...'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '52.52'
+- '52.54'
+- '53.8'
+- '55'
+- '603.03'
+- '860.2'
+security_keys:
+- DIUSER
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - table
-  - clozapine
-  - contents
-  - install
-  - installation
-  - class
-  - order
-  - health
-  - strong
-  - pssjxr
 page_count: 0
-word_count: 9003
+word_count: 8991
 section_count: 32
 table_count: 4
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2019
 revision_count: 1
 revision_newest: 7/8/2019
 revision_oldest: 7/8/2019
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/MH_NCC_Proj_5_01_IG_R0719.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/MH_NCC_Proj_5_01_IG_R0719.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/MH_NCC_Proj_5_01_IG_R0719.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/MH_NCC_Proj_5_01_IG_R0719.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-subtitle: |
-  National Clozapine Coordination (NCC) Project
-
-  Deployment, Installation, Backout, and Rollback Guide
----
-
 Release 1
 
 ![](ys-5-01-122-ncc-deployment-installation-back-out-and-rollback-guide/001.png)

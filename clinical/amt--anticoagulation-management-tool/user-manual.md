@@ -8,47 +8,33 @@ app_code: AMT
 app_name: Anticoagulation Management Tool
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: AMT
+patch_ver: null
+patch_id: null
+group_key: null
+description: Feb 2024 Patch OR*3.0*600 Added Anticoagulation Team Patient List to the First Visit and Subsequent Visits sections. Updated title page, footer, and table of contents CPRS development
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - patient
-  - anticoagulation
-  - table
-  - contents
-  - tool
-  - management
-  - visit
-  - date
-  - manual
-  - other
 page_count: 0
-word_count: 7545
+word_count: 7538
 section_count: 9
 table_count: 3
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 2010
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=188"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Anticoagulation_Management_Tool/am_oramum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=188
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc495855387" class="anchor"></span>
----
-
 Anticoagulation Management Tool
 
 User Manual

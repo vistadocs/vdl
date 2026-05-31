@@ -8,54 +8,33 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: TeleReader User Manual VistA Imaging February 2019 Property of the US
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - telereader
-  - class
-  - table
-  - study
-  - contents
-  - vista
-  - read
-  - imaging
-  - figure
 page_count: 0
-word_count: 3338
+word_count: 3323
 section_count: 17
 table_count: 10
 figure_count: 1
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2019
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_TeleReader_User_Manual.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_TeleReader_User_Manual.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_TeleReader_User_Manual.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/MAG_TeleReader_User_Manual.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  ![](vista-imaging-system-telereader-user-manual/001.png)
-
-  VistA Imaging System
-
-  TeleReader User Manual
-
-  February 2019
----
-
 System Design and Development
 
 VistA Imaging

@@ -1,14 +1,56 @@
 ---
-consolidated_title: "implementation guide"
-app_code: MD
+title: MD*1*42 Implementation Guide (CP Flowsheets)
 doc_type: IG-IMP
-master_source: "MD*1*42 Implementation Guide (CP Flowsheets)"
-master_pub_date: revision_count: 0
-consolidated_from: 4 versions
+doc_label: Implementation Guide
+doc_layer: patch
+doc_subject: (CP Flowsheets)
+app_code: MD
+app_name: Clinical Procedures
+section: CLI
+app_status: active
+pkg_ns: MD
+patch_ver: 1
+patch_id: MD*1*42
+group_key: MD:MD:1
+file_numbers:
+- '44'
+- '45.7'
+- '702.01'
+- '702.09'
+- '703.1'
+- '8925'
+security_keys:
+- ESC
+- MD READ-ONLY
+menu_options: 0
+description: Implementation GuideMD\*1.0\*42March 2016Department of Veterans AffairsOffice of Information &Technology (OI&T)Product
+audience: ''
+keywords: []
+page_count: 0
+word_count: 21318
+section_count: 27
+table_count: 5
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: ''
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p42_impg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_p42_impg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
+master_source: MD*1*42 Implementation Guide (CP Flowsheets)
+master_pub_date: ''
+consolidated_from: 5 versions
 prior_versions:
-  - "MD*1*12  Implementation Guide (CP Flowsheets)"
-  - "MD*1*23 Implementation Guide (CP Flowsheets)"
-  - "MD*1*26 Implementation Guide (CP Flowsheets)"
+- MD*1*12 Implementation Guide (CP Flowsheets)
+- MD*1*23 Implementation Guide (CP Flowsheets)
+- MD*1*26 Implementation Guide (CP Flowsheets)
+- MD*1*37 Implementation Guide
+consolidated_title: implementation guide
 ---
 
 ![](md-1-42-implementation-guide-cp-flowsheets/001.png)
@@ -139,7 +181,7 @@ This page intentionally left blank for double-sided printing
 </tr>
 <tr class="odd">
 <td>July 2011</td>
-<td>Section 5.3.1, Understanding Totals Display, changed “median” of all observations to “average “ of all observations.</td>
+<td>Section 5.3.1, Understanding Totals Display, changed "median" of all observations to "average " of all observations.</td>
 <td><mark>REDACTED</mark></td>
 </tr>
 <tr class="even">
@@ -185,7 +227,7 @@ The Clinical Flowsheets patch of the Clinical Procedures (CP) package provides a
 
 There are two ways to enter data into Clinical Flowsheets: manually and via Health Level 7 (HL7) messaging. Any instrument or external system capable of sending HL7 messages can be considered a source of data for Clinical Flowsheets (provided that the HL7 messages conform to Clinical Flowsheets requirements).
 
-Clinical Flowsheets uses VistA Data Extraction Framework (VDEF) support, HL7 messaging, and the CP Gateway service to notify the medical device of the patient’s admission, discharge, and transfer.
+Clinical Flowsheets uses VistA Data Extraction Framework (VDEF) support, HL7 messaging, and the CP Gateway service to notify the medical device of the patient's admission, discharge, and transfer.
 
 MD\*1.0\*16 consists of the following three windows executables components and one Kernel Installation & Distribution System (KIDS) build:
 
@@ -222,9 +264,9 @@ The CliO database provides a standardized terminology data store for all clinica
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The CP Gateway Service provides extensive terminology mapping which translates proprietary labels so the information is understood to represent the same thing and, thus, be stored appropriately. Devices do not always use the same terms to describe the data they transmit. For example, one device may use the term “heart rate,” while another may transmit the same information as “pulse.” This mapping is more efficient than trying to compel each medical device vendor to conform to using standard terminology.
+The CP Gateway Service provides extensive terminology mapping which translates proprietary labels so the information is understood to represent the same thing and, thus, be stored appropriately. Devices do not always use the same terms to describe the data they transmit. For example, one device may use the term "heart rate," while another may transmit the same information as "pulse." This mapping is more efficient than trying to compel each medical device vendor to conform to using standard terminology.
 
-Similarly, CP Flowsheets can display the data to the user using the terminology that is preferred at a given unit or medical center. A flowsheet used by an MICU unit at one hospital can be customized to display “Heart Rate,” while a flowsheet used by a step-down unit may display “HR” or “Pulse.”
+Similarly, CP Flowsheets can display the data to the user using the terminology that is preferred at a given unit or medical center. A flowsheet used by an MICU unit at one hospital can be customized to display "Heart Rate," while a flowsheet used by a step-down unit may display "HR" or "Pulse."
 
 ## CP Flowsheets
 
@@ -256,7 +298,7 @@ This Implementation Guide is intended for use by Information Resource Support pe
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-CP Console is the administration dashboard for implementing and maintaining Clinical Flowsheets and devices for Clinical Procedures. Information Resource Management (IRM) should grant the site’s flowsheet coordinator the MD ADMINISTRATOR key. CP Console is then used to set up views, flowsheets, flowsheet totals, instruments, shifts, scheduled cleanup of unused files, and all the other administrative tasks to customize the application for their site.
+CP Console is the administration dashboard for implementing and maintaining Clinical Flowsheets and devices for Clinical Procedures. Information Resource Management (IRM) should grant the site's flowsheet coordinator the MD ADMINISTRATOR key. CP Console is then used to set up views, flowsheets, flowsheet totals, instruments, shifts, scheduled cleanup of unused files, and all the other administrative tasks to customize the application for their site.
 
 # Pre-Implementation Planning
 
@@ -266,7 +308,7 @@ CP Console is the administration dashboard for implementing and maintaining Clin
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To begin the pre-implementation planning, it is recommended that Medical Center Management support a Clinical Flowsheets Focus Group comprised of representatives from the Chief of Staff’s office, IRM, Nursing, Labor Management, Quality Management, Health Information Management Service (HIMS) and Biomedical Engineering. The focus group would discuss the order of implementation in the facility, new process and procedures for documenting using electronic flowsheets, as well as the third party vendor devices, such as bedside monitors and Clinical Information Systems that may be used in/purchased for Critical Care areas. Additionally, this group would drive the design of the flowsheets as this is site configurable.
+To begin the pre-implementation planning, it is recommended that Medical Center Management support a Clinical Flowsheets Focus Group comprised of representatives from the Chief of Staff's office, IRM, Nursing, Labor Management, Quality Management, Health Information Management Service (HIMS) and Biomedical Engineering. The focus group would discuss the order of implementation in the facility, new process and procedures for documenting using electronic flowsheets, as well as the third party vendor devices, such as bedside monitors and Clinical Information Systems that may be used in/purchased for Critical Care areas. Additionally, this group would drive the design of the flowsheets as this is site configurable.
 
 This software can be implemented one unit at a time. As with any new software, new processes and procedures are required. For Clinical Flowsheets to be effective and successful, all transactions need to be entered and documented electronically.
 
@@ -481,11 +523,11 @@ Use the Access Control List Manager to add users and their permissions, to chang
 
 #### CP Console Folder View Permissions
 
-In CP Console, you need permission via Vista’s XPAR EDIT PARAMETER utility to see various folders in the CP Console tree view. With the proper permissions, you can have access to folders within the CP Console tree view including (VIEW, FS, SHIFT, and TOTALS).
+In CP Console, you need permission via Vista's XPAR EDIT PARAMETER utility to see various folders in the CP Console tree view. With the proper permissions, you can have access to folders within the CP Console tree view including (VIEW, FS, SHIFT, and TOTALS).
 
 Administrative functionality given by CP Console is no longer controlled primarily by role and security key. The visibility of folders is now controlled by entries in the Kernel Parameters package on a per-user basis. To make a folder visible to a specified user, the name of the folder must be entered EXACTLY as a parameter in XPAR EDIT PARAMETER:.
 
-6.  Security keys will still override settings in XPAR. If a user has MD ADMINISTRATOR, all folders in CP Console will be visible regardless of the folder permissions set in XPAR.”
+6.  Security keys will still override settings in XPAR. If a user has MD ADMINISTRATOR, all folders in CP Console will be visible regardless of the folder permissions set in XPAR."
 
 ![](md-1-42-implementation-guide-cp-flowsheets/013.png)
 
@@ -506,7 +548,7 @@ To refresh roles, complete the following steps:
 Figure ‑, User Roles Assigned to Selected Item
 
 - MD ADMINISTRATOR – CP Console requires the VistA MD ADMINISTRATOR role to create items in CP Console. The MD ADMINISTRATOR role includes MD MANAGER abilities with additional capabilities. CP Flowsheets requires the VistA MD ADMINISTRATOR role or the MD HL7 MANAGER role to access the HL7 Monitor. This role allows the holder full control of CP Flowsheets. Assign this role to users responsible for setting up and maintaining CP Console and CP Flowsheets.
-- MD MANAGER – This role allows the holder to edit, audit, or rescind someone else’s data. Assign this role to power users of the CP Flowsheets patch to give them enhanced capabilities over a basic Flowsheets user.
+- MD MANAGER – This role allows the holder to edit, audit, or rescind someone else's data. Assign this role to power users of the CP Flowsheets patch to give them enhanced capabilities over a basic Flowsheets user.
 - MD HL7 MANAGER - CP Flowsheets requires the VistA MD HL7 MANAGER role or the MD ADMINISTRATOR role to access the HL7 Monitor. Assign this role to a user who will assist with the HL7 messaging component of CP Flowsheets.
 - MD READ-ONLY – Assign this role to a user to prevent them from entering data in Flowsheets. DO NOT assign MD READ-ONLY to a user concurrently with any role other than MD HL7 MANAGER. Doing so will lead to unpredictable results. A user with the MD READ-ONLY key may NOT log on to CP Console and will have limited functionality in CP Flowsheets.
 - MD TRAINEE - This role has the same capabilities as a basic user except that all observations are unverified; a user who is not a trainee must verify all trainee observations. Assign this role to trainees.
@@ -688,7 +730,7 @@ Figure ‑, Close Application Confirmation
 17. To apply the changes, you must restart CP Console. To close CP Console, click OK.
 
     After you complete the import and restart CP Console, the views you imported are now available under the Flowsheet View folder as shown below.
-12. The views you import will be in an “Inactive” status. These views will need to be “Active” before they are available for use.
+12. The views you import will be in an "Inactive" status. These views will need to be "Active" before they are available for use.
 
 The following figure shows what the imported sample views will look like:
 
@@ -736,7 +778,7 @@ Figure ‑, Confirm Copy
 
 Figure ‑, Copied View
 
-21. The view you just created is listed in the tree view with the words “Copy of” preceding the name of the view you copied.
+21. The view you just created is listed in the tree view with the words "Copy of" preceding the name of the view you copied.
 
 #### Renaming a Copied View
 
@@ -1358,7 +1400,7 @@ Figure ‑, Shift Worksheet
 Use start and stop times to modify your shifts. To modify an existing shift:
 
 1.  From the CP Console tree view, highlight Shift and expand the folder.
-108. Select a shift from the list. In the following figure, the “Days-2” shift is selected.
+108. Select a shift from the list. In the following figure, the "Days-2" shift is selected.
 
 ![](md-1-42-implementation-guide-cp-flowsheets/088.png)
 
@@ -1609,7 +1651,7 @@ HL7 Link: There is one unique HL7 link for each instrument.
 
 #### Configuring a Bi-Directional Instrument to Receive Data Only
 
-You can set up a special bi-directional instrument configuration so that CP will send only an “outbound” HL7 message containing CPRS patient information to the instrument. The CP procedure is automatically placed in Complete status after the HL7 message is sent, thus preventing an “inbound” HL7 message containing the test results from being sent back to the CPRS Consult Note.
+You can set up a special bi-directional instrument configuration so that CP will send only an "outbound" HL7 message containing CPRS patient information to the instrument. The CP procedure is automatically placed in Complete status after the HL7 message is sent, thus preventing an "inbound" HL7 message containing the test results from being sent back to the CPRS Consult Note.
 
 The physician can then edit the Consult Note by manually pasting in data from a test result reporting system to complete the Consult.
 
@@ -2093,7 +2135,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>Action</strong></td>
-<td>A functional process that a clinician or clerk uses in the TIU computer program. For example, “Edit” and “Search” are actions. Protocol is another name for Action.</td>
+<td>A functional process that a clinician or clerk uses in the TIU computer program. For example, "Edit" and "Search" are actions. Protocol is another name for Action.</td>
 </tr>
 <tr class="even">
 <td><strong>ADP</strong></td>
@@ -2125,7 +2167,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>Assessment</strong></td>
-<td><p>Assessment is the documentation of a clinician’s observations and interpretation of a patient’s clinical state based on a particular set of observations. The documentation is in the form of name-value pairs with values selected from a predetermined set, of name-value pairs in which the value is a number or set of numbers, or of free text.</p>
+<td><p>Assessment is the documentation of a clinician's observations and interpretation of a patient's clinical state based on a particular set of observations. The documentation is in the form of name-value pairs with values selected from a predetermined set, of name-value pairs in which the value is a number or set of numbers, or of free text.</p>
 <p>Examples of assessments from paper ICU flowsheets are coma scale, patient opens eyes, pupil size, reaction to light, and so on.</p></td>
 </tr>
 <tr class="even">
@@ -2171,7 +2213,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="even">
 <td><strong>Browse</strong></td>
-<td>Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the “...” button to start a lookup).</td>
+<td>Lookup the file folder for a file that you would like to select and attach to the study. (e.g., clicking the "..." button to start a lookup).</td>
 </tr>
 <tr class="odd">
 <td><strong>Bulletin</strong></td>
@@ -2211,7 +2253,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="even">
 <td><strong>Class</strong></td>
-<td>Part of Document Definitions, Classes group documents. For example, “CLINICAL PROCEDURES” is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.</td>
+<td>Part of Document Definitions, Classes group documents. For example, "CLINICAL PROCEDURES" is a class with many kinds of Clinical Procedures notes under it. Classes may be subdivided into other Classes or Document Classes. Besides grouping documents, Classes also store behavior which is then inherited by lower level entries.</td>
 </tr>
 <tr class="odd">
 <td><strong>Clinical Flowsheets</strong></td>
@@ -2383,7 +2425,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>HL7 Gateway</strong></td>
-<td>Hardware or software provided by a vendor that is able to receive information in a vendor’s proprietary format from one or more ICU monitors and other instruments, to translate the data into standardized HL7 message format, and to pass the messages to other systems.</td>
+<td>Hardware or software provided by a vendor that is able to receive information in a vendor's proprietary format from one or more ICU monitors and other instruments, to translate the data into standardized HL7 message format, and to pass the messages to other systems.</td>
 </tr>
 <tr class="even">
 <td><strong>HR</strong></td>
@@ -2415,7 +2457,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>Interpreter</strong></td>
-<td>Interpreter is a user role exported with USR*1*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are ‘clinical update users’ for a given consult service.</td>
+<td>Interpreter is a user role exported with USR*1*19 to support the Clinical Procedures Class. The role of the Interpreter is to interpret the results of a clinical procedure. Users who are authorized to interpret the results of a clinical procedure are sent a notification when an instrument report and/or images for a CP request are available for interpretation. Business rules are used to determine what actions an interpreter can perform on a document of a specified class, but the interpreter themselves are defined by the Consults application. These individuals are 'clinical update users' for a given consult service.</td>
 </tr>
 <tr class="even">
 <td><strong>IRM</strong></td>
@@ -2435,7 +2477,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="even">
 <td><strong>Key</strong></td>
-<td>A level of access assigned to a Flowsheets user that determines which Flowsheets functions the user may perform. Refer to “User Role” in this Glossary.</td>
+<td>A level of access assigned to a Flowsheets user that determines which Flowsheets functions the user may perform. Refer to "User Role" in this Glossary.</td>
 </tr>
 <tr class="odd">
 <td><strong>LAYGO</strong></td>
@@ -2663,7 +2705,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>Term</strong></td>
-<td>As used in Flowsheets, a term is any piece of relevant data. A term, like “Blood Pressure” will typically have one or more associated measures, modifiers, or qualifiers.</td>
+<td>As used in Flowsheets, a term is any piece of relevant data. A term, like "Blood Pressure" will typically have one or more associated measures, modifiers, or qualifiers.</td>
 </tr>
 <tr class="even">
 <td><strong>Terminology</strong></td>
@@ -2732,7 +2774,7 @@ This glossary is used for the Clinical Flowsheets project and may include terms 
 </tr>
 <tr class="odd">
 <td><strong>UUEncoded format</strong></td>
-<td>A form of binary to text encoding whose name derives from "Unix-to-Unix encoding”.</td>
+<td>A form of binary to text encoding whose name derives from "Unix-to-Unix encoding".</td>
 </tr>
 <tr class="even">
 <td><strong>VA</strong></td>
@@ -3010,7 +3052,7 @@ RPC broker port 70
 
 _These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-### From: MD*1*12  Implementation Guide (CP Flowsheets)
+### From: MD*1*12 Implementation Guide (CP Flowsheets)
 
 ### A
 

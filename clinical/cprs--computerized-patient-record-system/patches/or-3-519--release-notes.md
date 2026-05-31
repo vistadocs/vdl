@@ -11,44 +11,30 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*519
-group_key: "CPRS:OR:3"
+group_key: CPRS:OR:3
+description: '- Introduction - Audience - # New Features - Prescription Drug-Monitoring Program (PDMP) - Decision Support Tool - Patient Safety Issues - [Known...'
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 1
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - pdmp
-  - cprs
-  - table
-  - contents
-  - patient
-  - release
-  - issues
-  - notes
-  - associated
-  - query
 page_count: 0
-word_count: 1430
+word_count: 1419
 section_count: 7
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/OR_3_0_519_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/OR_3_0_519_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/OR_3_0_519_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/OR_3_0_519_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
-
----
-title: <span id="_Toc205632711" class="anchor"></span>Computerized Patient Record System
----
-
 CPRS v31MA COMBINED BUILD 1.0
 
 (OR\*3\*519, GMRC\*3\*145, TIU\*1\*328, GMTS\*2.7\*134)

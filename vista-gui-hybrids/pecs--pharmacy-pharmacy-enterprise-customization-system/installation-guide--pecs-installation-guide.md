@@ -1,25 +1,51 @@
 ---
-consolidated_title: "pecs installation guide"
-app_code: PECS
+title: PECS Version 6.2 Installation Guide (Updated PREC* 6.2*3)
 doc_type: IG
-master_source: "PECS Installation Guide (PREC*6.2*1)"
-master_pub_date: June 2021
-consolidated_from: 2 versions
+doc_label: Installation Guide
+doc_layer: anchor
+doc_subject: (Updated PREC* 6.2*3)
+app_code: PECS
+app_name: 'Pharmacy: Pharmacy Enterprise Customization System'
+section: GUI
+app_status: active
+pkg_ns: PECS
+patch_ver: 6.2
+patch_id: PECS*6.2
+group_key: PECS:PECS:6.2
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: Refer to the SOFTWARE library version of this document to view REDACTED
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 7793
+section_count: 14
+table_count: 7
+figure_count: 10
+appendix_count: 5
+has_toc: false
+is_stub: false
+pub_date: April 2022
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/pecs_installation_guide_r.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/pecs_installation_guide_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=204
+audit_applied: '2026-05-31'
+master_source: PECS Version 6.2 Installation Guide (Updated PREC* 6.2*3)
+master_pub_date: April 2022
+consolidated_from: 3 versions
 prior_versions:
-  - "PECS Version 6.2 Installation Guide (Updated PREC* 6.2*3)"
+- PECS Installation Guide (PREC*6.2*1)
+- PREC*7*1 PECS Installation Guide
+consolidated_title: pecs installation guide
 ---
 
-# Pharmacy Reengineering
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/001.png)
 
-# Pharmacy Enterprise Customization System
-(PECS) v6.2
-
-# Installation Guide
-
-<!-- image -->
-
-
-June 2021
+April 2022
 
 Department of Veterans Affairs (VA)
 
@@ -27,213 +53,484 @@ Office of Information and Technology (OIT)
 
 Revision History
 
-| Date       |   Version | Description                                                                                                                                                                                                                                                                                                                                                                                                                                     | Author                                                            |
-|------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| June 2021  |      3.4  | PREC*6.2*1:  - Updated PECS 6.1 version references to 6.2 - Updated **Figure 1** and **Figure 10** - Updated the entire section of **5.7 Configure log4j2.xml** - Updated the entire section of **Properties of log4j2** - Updated formatting throughout the document - Updated Title page, Revision History, Table of Contents, and Footers - See the non-redacted prec\_6\_2\_p1\_ig on the SOFTWARE library for viewing REDACTED information | Liberty ITS                                                       |
-| July 2017  |      3.31 | Made updates for PECS v6.1 which addresses 2FA Compliance and IAM SSOi intergration for PIV authentication                                                                                                                                                                                                                                                                                                                                      | REDACTED  Enterprise Application Maintenance                      |
-| May 2016   |      3.3  | Made updates to PECS 6.0.01 508 conformance edit                                                                                                                                                                                                                                                                                                                                                                                                | REDACTED REDACTED                                                 |
-| 06/24/2013 |      3.26 | Minor text and graphics updates;                                                                                                                                                                                                                                                                                                                                                                                                                | REDACTED                                                          |
-| 12/19/2013 |      3.25 | Updated the Database Installation Instructions                                                                                                                                                                                                                                                                                                                                                                                                  | REDACTED                                                          |
-| 11/22/2013 |      3.24 | Updated Database Installation diagram, removed FDB_DIF schema from rollback process and clarified instruction.                                                                                                                                                                                                                                                                                                                                  | REDACTED                                                          |
-| 11/21/2013 |      3.22 | Updated Database Installation and Migration instructions                                                                                                                                                                                                                                                                                                                                                                                        | REDACTED                                                          |
-| 11/19/2013 |      3.21 | Added Appendix G                                                                                                                                                                                                                                                                                                                                                                                                                                | REDACTED                                                          |
-| 11/15/2013 |      3.2  | Added parameters in exporfile.properties for quartz scheduler, and updated log4j.xml                                                                                                                                                                                                                                                                                                                                                            | REDACTED                                                          |
-| 05/20/2013 |      3.19 | Tech Writer edits (footers)                                                                                                                                                                                                                                                                                                                                                                                                                     | REDACTED                                                          |
-| 04/25/2013 |      3.18 | Minor Updates to the Load Production Section                                                                                                                                                                                                                                                                                                                                                                                                    | REDACTED                                                          |
-| 02/06/2013 |      3.17 | More Tech Writer Edits                                                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED                                                          |
-| 02/06/2013 |      3.16 | Technical Writer Edits                                                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED                                                          |
-| 02/06/2013 |      3.15 | Technical Updates to various sections(for PECS 3.0)                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED                                                          |
-| 2/6/2013   |      3.14 | Technical Updates to various sections(for PECS 2.2)                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED                                                          |
-| 11/07/2012 |      3.13 | Updated Revision History Numbering, updated dates                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED                                                          |
-| 10/16/2012 |      3.12 | Updated links, minor text updates                                                                                                                                                                                                                                                                                                                                                                                                               | REDACTED                                                          |
-| 10/15/2012 |      3.11 | Updated various section(Log4j template updated, help deployment section updated)                                                                                                                                                                                                                                                                                                                                                                | REDACTED                                                          |
-| 09/14/2012 |      3.1  | Added additional configure.exportfile.properties                                                                                                                                                                                                                                                                                                                                                                                                | REDACTED, REDACTED                                                |
-| 09/11/2012 |      3.9  | Updated various sections to deploy PECS Help Build file                                                                                                                                                                                                                                                                                                                                                                                         | REDACTED                                                          |
-| 09/10/2012 |      3.8  | Formatting updates                                                                                                                                                                                                                                                                                                                                                                                                                              | REDACTED                                                          |
-| 08/17/2012 |      3.7  | Modified the import data production steps to disable database constraints when loading data and re-enable them once complete.                                                                                                                                                                                                                                                                                                                   | REDACTED                                                          |
-| 07/20/2012 |      3.6  | Formatting updates; update TOC, Footers, etc.                                                                                                                                                                                                                                                                                                                                                                                                   | REDACTED                                                          |
-| 07/19/2012 |      3.5  | Added Appendix E – Rollback Process                                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED                                                          |
-| 07/10/2012 |      3.4  | Updated formatting and pagination; updated date references; minor spelling and grammatical edits; updated Revision History                                                                                                                                                                                                                                                                                                                      | REDACTED                                                          |
-| 07/09/2012 |      3.3  | Updated version references; added instructions regarding the data listener; added step to the post-migration procedure                                                                                                                                                                                                                                                                                                                          | REDACTED                                                          |
-| 07/05/2012 |      3.2  | Changed component deployment order                                                                                                                                                                                                                                                                                                                                                                                                              | REDACTED                                                          |
-| 06/21/2012 |      3.1  | Minor updates (table captions, step numbering, etc.)                                                                                                                                                                                                                                                                                                                                                                                            | REDACTED                                                          |
-| 6/14/2012  |      3    | Updated various Sections for database changes for v2.2.                                                                                                                                                                                                                                                                                                                                                                                         | REDACTED                                                          |
-| 1/20/2012  |      2.6  | Updated pagination, edits, TOC, and release date (back to November 2011)                                                                                                                                                                                                                                                                                                                                                                        | REDACTED                                                          |
-| 1/12/2012  |      2.5  | Updated database configuration section to reflect lessons learned during the initial load by testing services                                                                                                                                                                                                                                                                                                                                   | REDACTED                                                          |
-| 12/08/2011 |      2.4  | Updated TOC and formatting                                                                                                                                                                                                                                                                                                                                                                                                                      | REDACTED                                                          |
-| 12/07/2011 |      2.3  | Updated database configuration section to include procedure for importing production data and database rollback procedures                                                                                                                                                                                                                                                                                                                      | REDACTED                                                          |
-| 11/29/2011 |      2.2  | Updated document version number                                                                                                                                                                                                                                                                                                                                                                                                                 | REDACTED                                                          |
-| 11/28/2011 |      2.1  | Updated database configuration procedures to clarify installation and migration steps.                                                                                                                                                                                                                                                                                                                                                          | REDACTED                                                          |
-| 11/10/2011 |      2    | Updated various Sections for configuration changes for v2.1.  Updated formatting, acronym table, footers, and TOC.                                                                                                                                                                                                                                                                                                                              | REDACTED, REDACTED                                                |
-| 9/27/2011  |      1.18 | Updated database configuration steps to reflect current Oracle environment and PECS installation requirements                                                                                                                                                                                                                                                                                                                                   | REDACTED                                                          |
-| 07/19/2011 |      1.17 | Updated formatting, edits.                                                                                                                                                                                                                                                                                                                                                                                                                      | REDACTED                                                          |
-| 07/11/2011 |      1.16 | Updated various Sections. (removed section 5.2- JMS configuration and C4 as no longer needed)                                                                                                                                                                                                                                                                                                                                                   | REDACTED                                                          |
-| 05/29/2011 |      1.15 | Updated JMS Section                                                                                                                                                                                                                                                                                                                                                                                                                             | REDACTED                                                          |
-| 04/22/2011 |      1.14 | Edit formatting, apply template                                                                                                                                                                                                                                                                                                                                                                                                                 | REDACTED                                                          |
-| 04/17/2011 |      1.13 | Updated for PECS 2.0, added Logical Deployment section                                                                                                                                                                                                                                                                                                                                                                                          | REDACTED                                                          |
-| 04/17/2011 |      1.12 | Added WebLogic JTA section                                                                                                                                                                                                                                                                                                                                                                                                                      | REDACTED                                                          |
-| 10/13/2010 |      1.11 | Adjustments to JMS configurations due to a database user change.                                                                                                                                                                                                                                                                                                                                                                                | PECS Team                                                         |
-| 08/04/2010 |      1.1  | Added section on configuring JMS related to CCR 2902.                                                                                                                                                                                                                                                                                                                                                                                           | PECS Team                                                         |
-| 03/31/2010 |      1.9  | Added the creation of the exportfile.properties to support the sending of custom update files to an FTP server.                                                                                                                                                                                                                                                                                                                                 | PECS Team                                                         |
-| 02/10/2010 |      1.8  | Updated Various Sections as per AITC Input                                                                                                                                                                                                                                                                                                                                                                                                      | PECS Team-(Database Section REDACTED, WebLogic Section REDACTED.) |
-| 12/14/2009 |      1.7  | Updated Various Sections                                                                                                                                                                                                                                                                                                                                                                                                                        | PECS Team                                                         |
-| 12/7/2009  |      1.6  | Updated Various sections                                                                                                                                                                                                                                                                                                                                                                                                                        | SwRI                                                              |
-| 9/30/2009  |      1.5  | Removed content for installation of WebLogic and KAAJEE.  Updated Appendix A to contain log4j configuration                                                                                                                                                                                                                                                                                                                                     | PECS Team                                                         |
-| 08/26/2009 |      1.4  | Added Appendix B: Custom Update File Installation                                                                                                                                                                                                                                                                                                                                                                                               | PECS Team                                                         |
-| 08/12/2009 |      1.3  | Removed jdbc.properties reference, as this file will be accessed on the server.  Removed Post-Installation section, as no longer needed.  Added section “4.5 Add CT\_VERSION table to FDB schema”.                                                                                                                                                                                                                                              | PECS Team                                                         |
-| 01/06/2009 |      1.2  | Updated database datasource driver in WebLogic setup section.                                                                                                                                                                                                                                                                                                                                                                                   | PECS Team                                                         |
-| 12/02/2008 |      1.1  | Added log4j.properties reference.  Added KAAJEE jdbc.properties reference.  Added kaajeeConfig.xml reference.  Added user\_staged\_config WebLogic KAAJEE library directory reference.                                                                                                                                                                                                                                                          | PECS Team                                                         |
-| 11/24/2008 |      1    | Initial version                                                                                                                                                                                                                                                                                                                                                                                                                                 | PECS Team                                                         |
+Refer to the SOFTWARE library version of this document to view <span class="mark">REDACTED</span> information.
+
+<table>
+<caption><p>Table 1: Definitions</p></caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 11%" />
+<col style="width: 51%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Version</th>
+<th>Description</th>
+<th>Author</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>April 2022</td>
+<td>3.41</td>
+<td><p>PREC*6.2*3:</p>
+<ul>
+<li><p>Updated the WebLogic version to 12.2.1.4 in sections <strong><u>1.1 Assumptions</u></strong> and <strong><u>C.1 Logical Deployment Design – PECS</u></strong></p></li>
+<li><p>Updated <strong><u>Figure 4</u></strong></p></li>
+<li><p>Updated Log4j versions to 2.17.1, removed step 1, and updated step 2,3 and 4 in section, <strong><u>5.7 Configure log4j2.xml</u></strong></p></li>
+<li><p>Updated Title page, Revision History, Table of Contents, and Footers</p></li>
+</ul></td>
+<td>Liberty ITS</td>
+</tr>
+<tr class="even">
+<td>June 2021</td>
+<td>3.40</td>
+<td><p>PREC*6.2*1:</p>
+<ul>
+<li><p>Updated PECS 6.1 version references to 6.2</p></li>
+<li><p>Updated <strong><u>Figure 1</u></strong> and <strong><u>Figure 10</u></strong></p></li>
+<li><p>Updated the entire section of <strong><u>5.7 Configure log4j2.xml</u></strong></p></li>
+<li><p>Updated the entire section of <strong><u>Properties of log4j2</u></strong></p></li>
+<li><p>Updated formatting throughout the document</p></li>
+<li><p>Updated Title page, Revision History, Table of Contents, and Footers</p></li>
+<li><p>See the non-redacted prec_6_2_p1_ig on the SOFTWARE library for viewing <mark>REDACTED</mark> information</p></li>
+</ul></td>
+<td>Liberty ITS</td>
+</tr>
+<tr class="odd">
+<td>July 2017</td>
+<td>3.31</td>
+<td>Made updates for PECS v6.1 which addresses 2FA Compliance and IAM SSOi intergration for PIV authentication</td>
+<td><p><mark>REDACTED</mark></p>
+<p>Enterprise Application Maintenance</p></td>
+</tr>
+<tr class="even">
+<td>May 2016</td>
+<td>3.30</td>
+<td>Made updates to PECS 6.0.01<br />
+508 conformance edit</td>
+<td><mark>REDACTED</mark><br />
+<mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>06/24/2013</td>
+<td>3.26</td>
+<td>Minor text and graphics updates;</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>12/19/2013</td>
+<td>3.25</td>
+<td>Updated the Database Installation Instructions</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/22/2013</td>
+<td>3.24</td>
+<td>Updated Database Installation diagram, removed FDB_DIF schema from rollback process and clarified instruction.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>11/21/2013</td>
+<td>3.22</td>
+<td>Updated Database Installation and Migration instructions</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/19/2013</td>
+<td>3.21</td>
+<td>Added Appendix G</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>11/15/2013</td>
+<td>3.20</td>
+<td>Added parameters in exporfile.properties for quartz scheduler, and updated log4j.xml</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>05/20/2013</td>
+<td>3.19</td>
+<td>Tech Writer edits (footers)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>04/25/2013</td>
+<td>3.18</td>
+<td>Minor Updates to the Load Production Section</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>02/06/2013</td>
+<td>3.17</td>
+<td>More Tech Writer Edits</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>02/06/2013</td>
+<td>3.16</td>
+<td>Technical Writer Edits</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>02/06/2013</td>
+<td>3.15</td>
+<td>Technical Updates to various sections(for PECS 3.0)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>2/6/2013</td>
+<td>3.14</td>
+<td>Technical Updates to various sections(for PECS 2.2)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/07/2012</td>
+<td>3.13</td>
+<td>Updated Revision History Numbering, updated dates</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>10/16/2012</td>
+<td>3.12</td>
+<td>Updated links, minor text updates</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>10/15/2012</td>
+<td>3.11</td>
+<td>Updated various section(Log4j template updated, help deployment section updated)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>09/14/2012</td>
+<td>3.10</td>
+<td>Added additional configure.exportfile.properties</td>
+<td><mark>REDACTED</mark>, <mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>09/11/2012</td>
+<td>3.9</td>
+<td>Updated various sections to deploy PECS Help Build file</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>09/10/2012</td>
+<td>3.8</td>
+<td>Formatting updates</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>08/17/2012</td>
+<td>3.7</td>
+<td>Modified the import data production steps to disable database constraints when loading data and re-enable them once complete.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/20/2012</td>
+<td>3.6</td>
+<td>Formatting updates; update TOC, Footers, etc.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>07/19/2012</td>
+<td>3.5</td>
+<td>Added Appendix E – Rollback Process</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/10/2012</td>
+<td>3.4</td>
+<td>Updated formatting and pagination; updated date references; minor spelling and grammatical edits; updated Revision History</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>07/09/2012</td>
+<td>3.3</td>
+<td>Updated version references; added instructions regarding the data listener; added step to the post-migration procedure</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/05/2012</td>
+<td>3.2</td>
+<td>Changed component deployment order</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>06/21/2012</td>
+<td>3.1</td>
+<td>Minor updates (table captions, step numbering, etc.)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>6/14/2012</td>
+<td>3.0</td>
+<td>Updated various Sections for database changes for v2.2.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>1/20/2012</td>
+<td>2.6</td>
+<td>Updated pagination, edits, TOC, and release date (back to November 2011)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>1/12/2012</td>
+<td>2.5</td>
+<td>Updated database configuration section to reflect lessons learned during the initial load by testing services</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>12/08/2011</td>
+<td>2.4</td>
+<td>Updated TOC and formatting</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>12/07/2011</td>
+<td>2.3</td>
+<td>Updated database configuration section to include procedure for importing production data and database rollback procedures</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/29/2011</td>
+<td>2.2</td>
+<td>Updated document version number</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>11/28/2011</td>
+<td>2.1</td>
+<td>Updated database configuration procedures to clarify installation and migration steps.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>11/10/2011</td>
+<td>2.0</td>
+<td><p>Updated various Sections for configuration changes for v2.1.</p>
+<p>Updated formatting, acronym table, footers, and TOC.</p></td>
+<td><mark>REDACTED</mark>, <mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>9/27/2011</td>
+<td>1.18</td>
+<td>Updated database configuration steps to reflect current Oracle environment and PECS installation requirements</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>07/19/2011</td>
+<td>1.17</td>
+<td>Updated formatting, edits.</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>07/11/2011</td>
+<td>1.16</td>
+<td>Updated various Sections. (removed section 5.2- JMS configuration and C4 as no longer needed)</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>05/29/2011</td>
+<td>1.15</td>
+<td>Updated JMS Section</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>04/22/2011</td>
+<td>1.14</td>
+<td>Edit formatting, apply template</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>04/17/2011</td>
+<td>1.13</td>
+<td>Updated for PECS 2.0, added Logical Deployment section</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="even">
+<td>04/17/2011</td>
+<td>1.12</td>
+<td>Added WebLogic JTA section</td>
+<td><mark>REDACTED</mark></td>
+</tr>
+<tr class="odd">
+<td>10/13/2010</td>
+<td>1.11</td>
+<td>Adjustments to JMS configurations due to a database user change.</td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>08/04/2010</td>
+<td>1.10</td>
+<td>Added section on configuring JMS related to CCR 2902.</td>
+<td>PECS Team</td>
+</tr>
+<tr class="odd">
+<td>03/31/2010</td>
+<td>1.9</td>
+<td>Added the creation of the exportfile.properties to support the sending of custom update files to an FTP server.</td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>02/10/2010</td>
+<td>1.8</td>
+<td>Updated Various Sections as per AITC Input</td>
+<td>PECS Team-(Database Section <mark>REDACTED</mark>, WebLogic Section <mark>REDACTED</mark>.)</td>
+</tr>
+<tr class="odd">
+<td>12/14/2009</td>
+<td>1.7</td>
+<td>Updated Various Sections</td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>12/7/2009</td>
+<td>1.6</td>
+<td>Updated Various sections</td>
+<td>SwRI</td>
+</tr>
+<tr class="odd">
+<td>9/30/2009</td>
+<td>1.5</td>
+<td><p>Removed content for installation of WebLogic and KAAJEE.</p>
+<p>Updated Appendix A to contain log4j configuration</p></td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>08/26/2009</td>
+<td>1.4</td>
+<td>Added Appendix B: Custom Update File Installation</td>
+<td>PECS Team</td>
+</tr>
+<tr class="odd">
+<td>08/12/2009</td>
+<td>1.3</td>
+<td><p>Removed jdbc.properties reference, as this file will be accessed on the server.</p>
+<p>Removed Post-Installation section, as no longer needed.</p>
+<p>Added section "4.5 Add CT_VERSION table to FDB schema".</p></td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>01/06/2009</td>
+<td>1.2</td>
+<td>Updated database datasource driver in WebLogic setup section.</td>
+<td>PECS Team</td>
+</tr>
+<tr class="odd">
+<td>12/02/2008</td>
+<td>1.1</td>
+<td><p>Added log4j.properties reference.</p>
+<p>Added KAAJEE jdbc.properties reference.</p>
+<p>Added kaajeeConfig.xml reference.</p>
+<p>Added user_staged_config WebLogic KAAJEE library directory reference.</p></td>
+<td>PECS Team</td>
+</tr>
+<tr class="even">
+<td>11/24/2008</td>
+<td>1.0</td>
+<td>Initial version</td>
+<td>PECS Team</td>
+</tr>
+</tbody>
+</table>
+
+Table 1: Definitions
 
 ProPath Template used v1.6, June 2012
 
 Table of Contents
 
-1.	Introduction	1
+# Introduction
 
-1.1.	Assumptions	1
 
-1.2.	Scope	1
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1.3.	Definitions, Acronyms, and Abbreviations	2
+## Table of Contents
 
-1.4.	Overview	3
-
-2.	Installation Prerequisites	3
-
-3.	Database Tier Installation	4
-
-3.1.	Oracle Database	4
-
-3.1.1.	Oracle Installation	4
-
-3.1.2.	Oracle Configuration	4
-
-3.2.	CTSTAGING Installation Instructions	5
-
-3.2.1.	Create the Users	6
-
-3.2.2.	Create Staging Tables and Database Objects	7
-
-3.2.3.	Modification of the FDB\_DIF Database	7
-
-3.2.4.	Create Public Synonyms	8
-
-3.2.5.	PECS Application Users	8
-
-3.2.6.	PECS v6.2 Database Migration	9
-
-3.2.7.	PECS v6.2 Database Migration Rollback	10
-
-3.2.8.	PECS v6.2 Database Migration	11
-
-4.	Users	13
-
-5.	WebLogic Application Server Configuration	13
-
-5.1.	Dependency Installation	13
-
-5.2.	Configure WebLogic Data Sources	14
-
-5.3.	WebLogic Server Startup Configuration	14
-
-5.4.	Configure WebLogic JTA	17
-
-5.5.	Configure exportfile.properties	17
-
-5.6.	Application Deployment	18
-
-5.6.1.	PECS Application Deployment	18
-
-5.6.2.	PECS Help Application Deployment	19
-
-5.7.	Configure log4j2.xml	19
-
-6.	Post-Installation Notes	21
-
-A.	Properties of log4j2	22
-
-B.	Custom Update File Installation	28
-
-B.1.	Introduction	28
-
-B.2.	Scope	28
-
-B.3.	Update Process Prerequisites	28
-
-B.4.	Apply FDB-DIF Update File	28
-
-B.5.	Apply Custom Tables Update File	30
-
-B.6.	Recover FDB-DIF Custom Tables from Load Failure	31
-
-C.	PECS Logical Deployment Architecture	32
-
-C.1.	Logical Deployment Design – PECS	32
-
-C.2.	SiteMinder Web Agent on Apache Web Server – PECS	33
-
-D.	PECS Database Installation Process	34
-
-D.1.	Database Installation Process Flow – PECS	34
-
-E.	Rollback Process	35
-
-F.	PECS Upgrade Installation Instructions	35
-
-## Introduction
-
-This document describes the process used to install the VA PECS application on an instance of a WebLogic server. The PECS software is a Web-based application, packaged as a Java 2 Platform Enterprise Edition (J2EE) standardized Enterprise Application Archive (EAR) file, which is then deployed on the WebLogic server using the server’s standard deployment process. The installation described in this document also outlines the steps necessary to install and configure the application’s database. This includes the installation of the database schema on an Oracle server and loading data into configuration tables. The document outlines the configuration of two data sources, and the deployment of the EAR file on the WebLogic server. The installation of the PECS application assumes that the servers necessary to execute the software are configured and running as per any applicable VA standards.
-
+- [Introduction](#introduction)
+  - [Assumptions](#assumptions)
+  - [Scope](#scope)
+  - [Definitions, Acronyms, and Abbreviations](#definitions-acronyms-and-abbreviations)
+  - [Overview](#overview)
+- [Installation Prerequisites](#installation-prerequisites)
+- [Database Tier Installation](#database-tier-installation)
+  - [Oracle Database](#oracle-database)
+    - [Oracle Installation](#oracle-installation)
+    - [Oracle Configuration](#oracle-configuration)
+  - [CTSTAGING Installation Instructions](#ctstaging-installation-instructions)
+    - [Create the Users](#create-the-users)
+    - [Create Staging Tables and Database Objects](#create-staging-tables-and-database-objects)
+    - [Modification of the FDBDIF Database](#modification-of-the-fdbdif-database)
+    - [Create Public Synonyms](#create-public-synonyms)
+    - [PECS Application Users](#pecs-application-users)
+    - [PECS v6.2 Database Migration](#pecs-v62-database-migration)
+    - [PECS v6.2 Database Migration Rollback](#pecs-v62-database-migration-rollback)
+    - [PECS v6.2 Database Migration](#pecs-v62-database-migration-1)
+- [Users](#users)
+- [WebLogic Application Server Configuration](#weblogic-application-server-configuration)
+  - [Dependency Installation](#dependency-installation)
+  - [Configure WebLogic Data Sources](#configure-weblogic-data-sources)
+  - [WebLogic Server Startup Configuration](#weblogic-server-startup-configuration)
+  - [Configure WebLogic JTA](#configure-weblogic-jta)
+  - [Configure exportfile.properties](#configure-exportfileproperties)
+  - [Application Deployment](#application-deployment)
+    - [PECS Application Deployment](#pecs-application-deployment)
+    - [PECS Help Application Deployment](#pecs-help-application-deployment)
+  - [Configure log4j2.xml](#configure-log4j2xml)
+- [Post-Installation Notes](#post-installation-notes)
+- [Properties of log4j2](#properties-of-log4j2)
+- [Apply Custom Tables Update File](#apply-custom-tables-update-file)
+- [Recover FDB-DIF Custom Tables from Load Failure](#recover-fdb-dif-custom-tables-from-load-failure)
+- [PECS Logical Deployment Architecture](#pecs-logical-deployment-architecture)
+- [Logical Deployment Design – PECS](#logical-deployment-design-pecs)
+- [SiteMinder Web Agent on Apache Web Server – PECS](#siteminder-web-agent-on-apache-web-server-pecs)
+- [PECS Database Installation Process](#pecs-database-installation-process)
+- [Database Installation Process Flow – PECS](#database-installation-process-flow-pecs)
+- [Rollback Process](#rollback-process)
+- [PECS Upgrade Installation Instructions](#pecs-upgrade-installation-instructions)
+This document describes the process used to install the VA PECS application on an instance of a WebLogic server. The PECS software is a Web-based application, packaged as a Java 2 Platform Enterprise Edition (J2EE) standardized Enterprise Application Archive (EAR) file, which is then deployed on the WebLogic server using the server's standard deployment process. The installation described in this document also outlines the steps necessary to install and configure the application's database. This includes the installation of the database schema on an Oracle server and loading data into configuration tables. The document outlines the configuration of two data sources, and the deployment of the EAR file on the WebLogic server. The installation of the PECS application assumes that the servers necessary to execute the software are configured and running as per any applicable VA standards.
 In order to understand the installation and verification process, the installer should be familiar with the WebLogic console administration and Oracle 11g Database configuration.
 
-### Assumptions
+## Assumptions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 For successful deployment of the Pharmacy Reengineering (PRE) PECS software at a site, the following assumptions must be met:
 
-Red Hat Enterprise Linux 5 operating system is properly installed.
+- Red Hat Enterprise Linux 5 operating system is properly installed.
+- The WebLogic Server 12.2.1.4 is configured and running.
+- Access to the WebLogic console is by means of a valid administrative user name and password.
+- Oracle 11g Database Server is configured and running.
+- Java JDK version used is 1.8.
+- First Databank (FDB) Drug Information Framework (DIF) v3.3 database is installed. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
+- The installation instructions are followed in the order that the sections are presented within this Installation Guide.
 
-The WebLogic Server 12.1.3 is configured and running.
+## Scope
 
-Access to the WebLogic console is by means of a valid administrative user name and password.
-
-Oracle 11g Database Server is configured and running.
-
-Java JDK version used is 1.8.
-
-First Databank (FDB) Drug Information Framework (DIF) v3.3 database is installed. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
-
-The installation instructions are followed in the order that the sections are presented within this Installation Guide.
-
-### Scope
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Installation steps in scope include:
 
-Installation of the PECS database staging schema on an existing Oracle server, and a data load into configuration tables.
-
-Configuration of database data sources on an existing WebLogic application server.
-
-Deployment of the PECS application EAR file on a configured WebLogic application server.
+- Installation of the PECS database staging schema on an existing Oracle server, and a data load into configuration tables.
+- Configuration of database data sources on an existing WebLogic application server.
+- Deployment of the PECS application EAR file on a configured WebLogic application server.
 
 Processes out of scope include:
 
-Installation and configuration of server environments including the operating system, database server, application server, and/or any other network component as may be required to host the PECS application on the VA network.
+- Installation and configuration of server environments including the operating system, database server, application server, and/or any other network component as may be required to host the PECS application on the VA network.
+- SiteMinder Web Agent installation and configuration, Identity and Access Management (IAM), and Single Sign On internal (SSOi) environment setup.
+- FDB-DIF database installation/migration or update process.
+- Process to check out the PECS codebase from the ClearCase repository and/or the build process.
+- Installation details of the Java Runtime environment.
+- Initial load of Pharmacy Benefits Management (PBM) customized order checks.
 
-SiteMinder Web Agent installation and configuration, Identity and Access Management (IAM), and Single Sign On internal (SSOi) environment setup.
+## Definitions, Acronyms, and Abbreviations
 
-FDB-DIF database installation/migration or update process.
-
-Process to check out the PECS codebase from the ClearCase repository and/or the build process.
-
-Installation details of the Java Runtime environment.
-
-Initial load of Pharmacy Benefits Management (PBM) customized order checks.
-
-### Definitions, Acronyms, and Abbreviations
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Here is a list of terms and acronyms and their definitions.
-
-Table 1: Definitions
 
 | Term                     | Definition                                                                               |
 |--------------------------|------------------------------------------------------------------------------------------|
@@ -274,173 +571,203 @@ Table 2: Acronyms
 | VA      | Department of Veterans Affairs                     |
 | 2FA     | Two Factor Authentication                          |
 
-### Overview
+Table 3: FDB-DIF Database Users and Roles
+
+## Overview
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The steps necessary to install and configure the components required by the PECS application are outlined in the following pages. The order that the components appear in the outlined steps is the suggested installation order. Installation Prerequisites should be installed or verified on the build environment first followed by the installation of the database schema, application server configuration, and the deployment of the PECS application.
 
-## Installation Prerequisites
+# Installation Prerequisites
 
-Installation and configuration of server environments including the operating system, database server, application server, and/or any other network component as may be required to host the PECS application on the VA network.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-SiteMinder Web Agent must be installed on the Apache web server in the PECS environment and SSL must be enabled.
+- Installation and configuration of server environments including the operating system, database server, application server, and/or any other network component as may be required to host the PECS application on the VA network.
+- SiteMinder Web Agent must be installed on the Apache web server in the PECS environment and SSL must be enabled.
+- SiteMinder Web Agent on the Apache server must be configured to communicate with the IAM Policy server. IAM and SSOi services must be up and available for PECS to work.
+- All Active Directory users have read-only or Requestor access to PECS. The users must have their VAUID, first and last names set in Active Directory and in the IAM Provisioning Server.
+- The target production FDB-DIF database is available.
 
-SiteMinder Web Agent on the Apache server must be configured to communicate with the IAM Policy server. IAM and SSOi services must be up and available for PECS to work.
+# Database Tier Installation
 
-All Active Directory users have read-only or Requestor access to PECS. The users must have their VAUID, first and last names set in Active Directory and in the IAM Provisioning Server.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The target production FDB-DIF database is available.
+This section describes the operating system and software for the PRE PECS V.6.2 Database Tier installation and configuration. Initially install and configure the operating system and software according to the manufacturer's specifications.
 
-## Database Tier Installation
+## Oracle Database 
 
-This section describes the operating system and software for the PRE PECS V.6.2 Database Tier installation and configuration. Initially install and configure the operating system and software according to the manufacturer’s specifications.
-
-### Oracle Database
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The CT staging schema or PECS Database is designed to be operating system independent. The only constraint is that Oracle 11g Database Enterprise Edition Release 11.2.0.4 – Production must be properly installed and configured. The following sections describe the installation, features, user creation, and configuration for the Oracle database.
 
-The PECS staging database user should be configured as “CTSTAGING” (CTSTAGING schema) and the FDB-DIF database user should be configured as “FDB\_DIF” (FDB\_DIF schema).
+The PECS staging database user should be configured as "CTSTAGING" (CTSTAGING schema) and the FDB-DIF database user should be configured as "FDB_DIF" (FDB_DIF schema).
 
-#### Oracle Installation
+### Oracle Installation
 
-Proper installation of the Oracle Relational Database Management System (RDBMS) is one in which the Oracle Universal Installer was used to perform an error-free installation and a general-purpose instance was created. A properly configured Oracle RDBMS is one in which the associated Oracle application development and configuration tools, namely Structured Query Language (SQL)*Plus and Oracle Enterprise Manager, can be used to connect to the instance through a Transparent Network Substrate alias.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-#### Oracle Configuration
+Proper installation of the Oracle Relational Database Management System (RDBMS) is one in which the Oracle Universal Installer was used to perform an error-free installation and a general-purpose instance was created. A properly configured Oracle RDBMS is one in which the associated Oracle application development and configuration tools, namely Structured Query Language (SQL)\*Plus and Oracle Enterprise Manager, can be used to connect to the instance through a Transparent Network Substrate alias.
+
+### Oracle Configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The CT staging schema or PECS Database is the primary data repository for the PECS application. The database should be installed and configured appropriately for the PECS operating environment.
 
-Two schemas must be created for the PECS Environment within the same database instance: FDB\_DIF and CTSTAGING. Prior to creation of the schemas, logical and physical environment structures must be set up for storage of the schemas database objects: tablespaces and data files. For the PECS database configuration, data and index storage are separated for each schema. Separating indexes and table data is considered an Oracle best practice and provides improved run-time performance, reporting/monitoring, and manageability.
+Two schemas must be created for the PECS Environment within the same database instance: FDB_DIF and CTSTAGING. Prior to creation of the schemas, logical and physical environment structures must be set up for storage of the schemas database objects: tablespaces and data files. For the PECS database configuration, data and index storage are separated for each schema. Separating indexes and table data is considered an Oracle best practice and provides improved run-time performance, reporting/monitoring, and manageability.
 
-**Note:** For PECS v6.2, since there is no FDB change, this would involve installation of PECS v6.2 component only unlike in PECS v6.1.
+> **NOTE:** For PECS v6.2, since there is no FDB change, this would involve installation of PECS v6.2 component only unlike in PECS v6.1.
 
-*[Not Applicable for PECS 6.2: There are two components to PECS 6.2 National database installation process. The first component involves the installation of the FDB\_DIF v3.3. The second component installation of the PECS 6.2 schema. The first component, installation of FDB\_DIF v3.3, must be completed prior to moving forward with the PECS 6.2 installation component. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.]*
+*\[Not Applicable for PECS 6.2: There are two components to PECS 6.2 National database installation process. The first component involves the installation of the FDB_DIF v3.3. The second component installation of the PECS 6.2 schema. The first component, installation of FDB_DIF v3.3, must be completed prior to moving forward with the PECS 6.2 installation component. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.\]*
 
-### CTSTAGING Installation Instructions
+## CTSTAGING Installation Instructions
 
-This section describes the database scripts necessary for the installation of the PECS CTSTAGING database, and the order in which they should be executed. It is highly recommended that the PECS staging database user be configured as “CTSTAGING” and the FDB-DIF database user be configured as “FDB\_DIF” as that is the usernames that are used throughout the remainder of the PECS installation documentation. **Executing steps 3.2.1 – 3.2.5 in this section will result in the creation of a PECS 6.2 database. Executing step 3.2.6 will migrate an existing PECS v6.1 database to PECS v6.2 compatibility.** If migrating from an existing PECS 6.1 schema with production data, then skip to 3.2.6 to migrate to PECS 6.2 compatibility. The complete PECS Database Installation Process is graphically depicted below and in Appendix E – The PECS Database Installation Process.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This section describes the database scripts necessary for the installation of the PECS CTSTAGING database, and the order in which they should be executed. It is highly recommended that the PECS staging database user be configured as "CTSTAGING" and the FDB-DIF database user be configured as "FDB_DIF" as that is the usernames that are used throughout the remainder of the PECS installation documentation. Executing steps 3.2.1 – 3.2.5 in this section will result in the creation of a PECS 6.2 database. Executing step 3.2.6 will migrate an existing PECS v6.1 database to PECS v6.2 compatibility. If migrating from an existing PECS 6.1 schema with production data, then skip to 3.2.6 to migrate to PECS 6.2 compatibility. The complete PECS Database Installation Process is graphically depicted below and in Appendix E – The PECS Database Installation Process.
 
 Figure 1: PECS 6.2 Database Installation Process
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/002.png)
 
 To migrate an existing PECS 6.1 database schema, skip to Section 3.2.6 – PECS 6.2 Database Migration.
 
-Prior to executing the following sections, the Oracle 11g database needs to be installed and a Database Administrator login generated with sys\_dba privileges. The DBA login is necessary to run the first database script to create the tablespaces and user accounts for the remainder of the installation.
+Prior to executing the following sections, the Oracle 11g database needs to be installed and a Database Administrator login generated with sys_dba privileges. The DBA login is necessary to run the first database script to create the tablespaces and user accounts for the remainder of the installation.
 
-To get Install Scripts, please contact the PRE Configuration Manager, who should be identified on the project’s TSPR site.
+To get Install Scripts, please contact the PRE Configuration Manager, who should be identified on the project's TSPR site.
 
-#### Create the Users
+### Create the Users
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Prior to creation of the schemas, logical and physical environment structures must be setup for storage of the schemas database objects: tablespaces and data files. For the PECS Database configuration data and index storage are separated for each schema. For the CTSTAGING schema two tablespaces must be created:
 
-CTSTAGING\_DATA
-
-CTSTAGING\_INDEX
-
-LOB\_DATA
-
-LOB\_INDEX
+- CTSTAGING_DATA
+- CTSTAGING_INDEX
+- LOB_DATA
+- LOB_INDEX
 
 In addition, user profiles are used to standardize resource limits for PECS schemas. There are two user profiles that must be created:
 
-SERVICE\_ACCOUNT
+- SERVICE_ACCOUNT
+- USER_ACCOUNT
 
-USER\_ACCOUNT
+Before the user profiles can be created the script utlpwdmg.sql has to be executed. The script is in the RDBMS\ADMIN directory within the installation home. Consult the Oracle installation manual for the full directory path for the proposed environment.
 
-Before the user profiles can be created the script **utlpwdmg.sql** has to be executed. The script is in the RDBMS\ADMIN directory within the installation home. Consult the Oracle installation manual for the full directory path for the proposed environment.
+To create the users in the database for the PECS application, the DBA will need to execute the pecs5_creation_pkg1.sql script as SYSTEM. This script will execute other scripts that will create the tablespaces, user profiles and create the CT Staging User:
 
-To create the users in the database for the PECS application, the DBA will need to execute the **pecs5\_creation\_pkg1.sql** script as **SYSTEM** . This script will execute other scripts that will create the tablespaces, user profiles and create the CT Staging User:
-
-PECS5\_Create\_CTSTAGING\_Tablespaces.sql
-
-pecs5\_create\_user\_profiles\_ddl.sql
-
-pecs5\_create\_user\_modified.sql
+- PECS5_Create_CTSTAGING_Tablespaces.sql
+- pecs5_create_user_profiles_ddl.sql
+- pecs5_create_user_modified.sql
 
 Modifications should be made tailored for the current installation environment prior to running the scripts. The following steps should be followed:
 
-Open a text editor and open the PECS5\_Create\_CTSTAGING\_Tablespaces.sql script. **Replace %DATAFILE\_LOCATION% with the data file directory** the directory entered should already exist on the database server.
+1.  Open a text editor and open the PECS5_Create_CTSTAGING_Tablespaces.sql script. Replace %DATAFILE_LOCATION% with the data file directory the directory entered should already exist on the database server.
 
-**Note:** If creating a development environment, then use PECS5\_Create\_CTSTAGING\_Tablespaces\_Dev.sql instead.
+> **NOTE:** If creating a development environment, then use PECS5_Create_CTSTAGING_Tablespaces_Dev.sql instead.
 
-Login to the SQL client using a database account that has sys\_dba privileges.
+2.  Login to the SQL client using a database account that has sys_dba privileges.
+3.  Execute the "pecs5_creation_pkg1.sql" script.
+4.  Open the "pecs5_creation_pkg1.log" file and search the log file for any errors.
+5.  This process creates the temporary file dif5ctstaging.sql. Open this file and scroll to the bottom and verify the following entry at the bottom of the file 'GRANT SELECT ON FDB_DIF.FDB_VERSION TO CTSTAGING'. This will ensure that all necessary privileges were granted to the FDB tables that the CTSTAGING user needs to access.
 
-Execute the “pecs5\_creation\_pkg1.sql” script.
+### Create Staging Tables and Database Objects
 
-Open the “pecs5\_creation\_pkg1.log” file and search the log file for any errors.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This process creates the temporary file dif5ctstaging.sql. Open this file and scroll to the bottom and verify the following entry at the bottom of the file ‘GRANT SELECT ON FDB\_DIF.FDB\_VERSION TO CTSTAGING’. This will ensure that all necessary privileges were granted to the FDB tables that the CTSTAGING user needs to access.
+To create the CTSTAGING database for the PECS application, the administrator will need to execute the pecs5_creation_pkg2.sql script. This script will execute 39 other scripts that create the CTSTAGING tables and populate those tables with some initial data values. The following steps should be followed:
 
-#### Create Staging Tables and Database Objects
+1.  Login to the SQL client using the CTSTAGING user account.
+6.  Execute the "pecs5_creation_pkg2.sql" script.
+7.  Open the pecs5_creation_pkg2.log file and search the log file for any errors.
 
-To create the CTSTAGING database for the PECS application, the administrator will need to execute the **pecs5\_creation\_pkg2.sql** script. This script will execute 39 other scripts that create the CTSTAGING tables and populate those tables with some initial data values. The following steps should be followed:
+### Modification of the FDB_DIF Database
 
-1. Login to the SQL client using the CTSTAGING user account.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Execute the “pecs5\_creation\_pkg2.sql” script.
+To modify the FDB-DIF data repository to work with the PECS application, the administrator will need to execute the fdb_modification_pkg3.sql script. This script will create a new table in the FDB-DIF data repository and modify one of the existing tables to change the constraints add an index.
 
-Open the pecs5\_creation\_pkg2.log file and search the log file for any errors.
+1.  Login to the SQL client using the FDB_DIF user account.
+8.  Execute the "fdb_modification_pkg3.sql" script.
+9.  Open the fdb_modification_pkg3.log file and search the log file for any errors.
 
-#### Modification of the FDB\_DIF Database
+### Create Public Synonyms
 
-To modify the FDB-DIF data repository to work with the PECS application, the administrator will need to execute the **fdb\_modification\_pkg3.sql** script. This script will create a new table in the FDB-DIF data repository and modify one of the existing tables to change the constraints add an index.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1. Login to the SQL client using the FDB\_DIF user account.
+The PECS application access spans both FDB_DIF and CTSTAGING schema objects. Public synonyms are utilized to provide seamless application access across PECS application components. To create the public synonyms, the administrator will need to execute the PECS5_Create_Public_Synonyms.sql script. This script executes two scripts: <span class="mark">PECS5_Create_FDB_Synonyms</span>.sql, <span class="mark">PECS5_Create_CTSTAGING_Synonyms</span>.sql. The following steps should be followed:
 
-Execute the “fdb\_modification\_pkg3.sql” script.
+1.  Login to the SQL client using the SYSTEM account.
+10. Execute the "PECS5_Create_Public_Synonyms.sql" script.
+11. Open the PECS5_Create_Public_Synonyms_create\_ public_synonyms.log file and search the log file for any errors.
 
-Open the fdb\_modification\_pkg3.log file and search the log file for any errors.
+### PECS Application Users
 
-#### Create Public Synonyms
-
-The PECS application access spans both FDB\_DIF and CTSTAGING schema objects. Public synonyms are utilized to provide seamless application access across PECS application components. To create the public synonyms, the administrator will need to execute the **PECS5\_Create\_Public\_Synonyms.sql** script. This script executes two scripts: **PECS5\_Create\_FDB\_Synonyms.sql** , **PECS5\_Create\_CTSTAGING\_Synonyms.sql** . The following steps should be followed:
-
-1. Login to the SQL client using the SYSTEM account.
-
-Execute the “PECS5\_Create\_Public\_Synonyms.sql” script.
-
-Open the PECS5\_Create\_Public\_Synonyms\_create\_ public\_synonyms.log file and search the log file for any errors.
-
-#### PECS Application Users
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The PECS database schemas have been devised to provide separation of ownership and CRUD data access levels with user/schemas and access roles assigned. Schemas/Roles that are required by the application are depicted in the cross-reference table listed below:
 
-Table 3: FDB-DIF Database Users and Roles
-
-| User                | Schema   | Schema Owner   | Assigned Role            |
-|---------------------|----------|----------------|--------------------------|
-| FDB_DIF_APP_USER    | FDB_DIF  | Read Only user | FDB_DIF_READ_ONLY_ROLE   |
-| FDB_DIF_UPDATE_USER | FDB_DIF  | CRUD user      | FDB_DIF_UPDATE_USER_ROLE |
+| User                | Schema  | Schema Owner   | Assigned Role            |
+|---------------------|---------|----------------|--------------------------|
+| FDB_DIF_APP_USER    | FDB_DIF | Read Only user | FDB_DIF_READ_ONLY_ROLE   |
+| FDB_DIF_UPDATE_USER | FDB_DIF | CRUD user      | FDB_DIF_UPDATE_USER_ROLE |
 
 Table 4: CTSTAGING Database Users and Roles
 
-| User                  | Schema    | Schema Owner   | Assigned Role                                             |
-|-----------------------|-----------|----------------|-----------------------------------------------------------|
-| CTSTAGING_READ_ONLY   | CTSTAGING | Read Only user | CTSTAGING_READ_ONLY_ROLE                                  |
-| CTSTAGING_UPDATE_USER | CTSTAGING | CRUD user      | CTSTAGING\_UPDATE\_USER\_ROLE  FDB\_DIF\_READ\_ONLY\_ROLE |
+<table style="width:100%;">
+<caption><p>Table 5: PECSJMS Database Users and Roles</p></caption>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 13%" />
+<col style="width: 16%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>User</th>
+<th>Schema</th>
+<th>Schema Owner</th>
+<th>Assigned Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CTSTAGING_READ_ONLY</td>
+<td>CTSTAGING</td>
+<td>Read Only user</td>
+<td>CTSTAGING_READ_ONLY_ROLE</td>
+</tr>
+<tr class="even">
+<td>CTSTAGING_UPDATE_USER</td>
+<td>CTSTAGING</td>
+<td>CRUD user</td>
+<td><p>CTSTAGING_UPDATE_USER_ROLE</p>
+<p>FDB_DIF_READ_ONLY_ROLE</p></td>
+</tr>
+</tbody>
+</table>
 
 Table 5: PECSJMS Database Users and Roles
 
-| User             | Schema   | Schema Owner   | Assigned Role         |
-|------------------|----------|----------------|-----------------------|
-| PECSJMS_APP_USER | PECSJMS  | CRUD user      | PECSJMS_APP_USER_ROLE |
+| User             | Schema  | Schema Owner | Assigned Role         |
+|------------------|---------|--------------|-----------------------|
+| PECSJMS_APP_USER | PECSJMS | CRUD user    | PECSJMS_APP_USER_ROLE |
 
-Both FDB\_DIF and CTSTAGING schema owners have been created prior to this step, however, additional users are required by the application. To create the PECS application user roles and users, the administrator will need to execute the **PECS5\_Create\_Application\_Roles\_Users.sql** script. This script will execute scripts that create the required PECS user roles and application users. Additionally, the script will create the PECSJMS schema objects that are required by the PECS application by executing **pecs\_create\_jms\_process.sql** script.
+Table 6: List of PECS Schema Creation SQL Scripts
 
-Prior to running the driver script, **PECS5\_Create\_Application\_Roles\_Users.sql,** modifications should be made to **CreateTablespacePECSJMS.sql** to tailor for the current installation environment.
+Both FDB_DIF and CTSTAGING schema owners have been created prior to this step, however, additional users are required by the application. To create the PECS application user roles and users, the administrator will need to execute the PECS5_Create_Application_Roles_Users.sql script. This script will execute scripts that create the required PECS user roles and application users. Additionally, the script will create the PECSJMS schema objects that are required by the PECS application by executing pecs_create_jms_process.sql script.
+
+Prior to running the driver script, PECS5_Create_Application_Roles_Users.sql, modifications should be made to CreateTablespacePECSJMS.sql to tailor for the current installation environment.
 
 The following steps should be followed:
 
-1. Open a text editor and open the CreateTablespacePECSJMS.sql script. Replace %DATAFILE\_LOCATION% with the data file directory for the current installation environment. The directory entered should already exist on the database server.
-
-Login to the SQL client using the SYSTEM account.
-
-Execute the “ **PECS5\_Create\_Application\_Roles\_Users** \_create\_application\_roles\_users.sql” script.
-
-Open the “PECS5\_Create\_Application\_Roles\_User.log” file and search the log file for any errors.
+1.  Open a text editor and open the CreateTablespacePECSJMS.sql script. Replace %DATAFILE_LOCATION% with the data file directory for the current installation environment. The directory entered should already exist on the database server.
+12. Login to the SQL client using the SYSTEM account.
+13. Execute the "<span class="mark">PECS5_Create_Application_Roles_Users</span>\_create_application_roles_users.sql" script.
+14. Open the "<span class="mark">PECS5_Create_Application_Roles_User</span>.log" file and search the log file for any errors.
 
 A complete listing of the PECS Schema Creation SQL Scripts invoked from the driver scripts are listed below.
-
-Table 6: List of PECS Schema Creation SQL Scripts
 
 | Script Description                                                                 | File Name                 |
 |------------------------------------------------------------------------------------|---------------------------|
@@ -448,43 +775,47 @@ Table 6: List of PECS Schema Creation SQL Scripts
 | Master script to create the CT staging tables and database objects package script. | pecs5_creation_pkg2.sql   |
 | Master script to modify the FDB schema package script.                             | fdb_modification_pkg3.sql |
 
-#### PECS v6.2 Database Migration
+Table 7: List of PECS 6.2 Driver SQL Script
 
-Prior to migrating PECS v6.1 database schema to PECS v6.2 compatibility, a backup of the database should be performed either using RMAN or Oracle 11g DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.1 consists of two database schemas: CTSTAGING, FDB\_DIF. To back up the PECS v56.1database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
+### PECS v6.2 Database Migration
 
-- **expdp DUMPFILE** =&lt;dumpfilename.dmp&gt; **SCHEMAS** =CTSTAGING,FDB\_DIF **CONTENT** =ALL **LOGFILE** =&lt;logfilename.log&gt;
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-*When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
+Prior to migrating PECS v6.1 database schema to PECS v6.2 compatibility, a backup of the database should be performed either using RMAN or Oracle 11g DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.1 consists of two database schemas: CTSTAGING, FDB_DIF. To back up the PECS v56.1database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
 
-Prior to performing the steps needed to migrate a PECS v6.1 database to PECS v6.2 compatibility, the Oracle listener for the PECS database instance should be brought down to ensure consistency and limit access during the conversion efforts. As an Oracle Administrator, the following command can be issued from the LINUX command prompt to stop the listener for the current instance: **lsnrctl stop** .
+- expdpDUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING,FDB_DIF CONTENT=ALL LOGFILE=\<logfilename.log\>
+
+> *When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
+
+Prior to performing the steps needed to migrate a PECS v6.1 database to PECS v6.2 compatibility, the Oracle listener for the PECS database instance should be brought down to ensure consistency and limit access during the conversion efforts. As an Oracle Administrator, the following command can be issued from the LINUX command prompt to stop the listener for the current instance: lsnrctl stop.
 
 To migrate PECS v6.1 database schema to PECS v6.2 compatibility, the database administrator will need to execute the following database scripts as the USER specified below. Each of these scripts acts as a driver script to initiate and log migration activities. At the completion of each of the steps. Check the log file for any errors or anomalies in processing the required transactions.
-
-Table 7: List of PECS 6.2 Driver SQL Script
 
 | Script Description           | File Name           | User      | Log File            |
 |------------------------------|---------------------|-----------|---------------------|
 | PECS Migration Driver script | PECS6_migration.sql | CTSTAGING | PECS6_migration.log |
 
+Table 8: List of PECS 6.2 SQL Scripts
+
 Step by Step procedure to accomplish the migration is as follows:
 
-1. Login to the SQL client using the CTSTAGING user account.
+1.  Login to the SQL client using the CTSTAGING user account.
+15. Execute the "PECS6_migration.sql" script.
+16. Open the "PECS6_migration.log" file and search the log file for any errors.
 
-Execute the “PECS6\_migration.sql” script.
-
-Open the “PECS6\_migration.log” file and search the log file for any errors.
-
-After all the migration steps have been completed without error, the Oracle listener for the PECS database instance should be restarted. As an Oracle Administrator, the following command can be issued from the LINUX command prompt to start the listener for the current instance: **lsnrctl start** .
+After all the migration steps have been completed without error, the Oracle listener for the PECS database instance should be restarted. As an Oracle Administrator, the following command can be issued from the LINUX command prompt to start the listener for the current instance: lsnrctl start.
 
 A complete listing of the scripts invoked from the driver scripts are listed below.
 
-Table 8: List of PECS 6.2 SQL Scripts
+| PECS 6.2 Driver Scripts | Description                                               | Purpose                           |
+|-------------------------|-----------------------------------------------------------|-----------------------------------|
+| PECS6_migration.sql     | Driver Script to migrate from PECS 6.1 to PECS 6.2 schema | Database Migration Driver Scripts |
 
-| PECS 6.2 Driver Scripts   | Description                                               | Purpose                           |
-|---------------------------|-----------------------------------------------------------|-----------------------------------|
-| PECS6_migration.sql       | Driver Script to migrate from PECS 6.1 to PECS 6.2 schema | Database Migration Driver Scripts |
+Shows the PECS v6.2 SQL script
 
-#### PECS v6.2 Database Migration Rollback
+### PECS v6.2 Database Migration Rollback
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Prior to migrating PECS v6.1 database schema to PECS v6.2 compatibility, a backup of the database was performed to ensure rollback capability. This section addresses the steps needed to rollback to PECS v6.1 using the secured backup.
 
@@ -492,207 +823,200 @@ To restore the PECS v6.1 schema from the backup taken prior to the migration, fo
 
 Procedures for restoring/loading production data include the following steps regardless of platform:
 
-Prepare database for restoring production data
+- Prepare database for restoring production data
+  - Drop existing schema objects (tables, sequences) for each schema using the Build_Script_to_Drop_CTSTAGING_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build_Script_to_Drop_CTSTAGING_objects.sql script using the SYSTEM id and password.
+- Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+  - impdp DUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING LOGFILE=\<logfilename.log\> CONTENT=ALL TABLE_EXISTS_ACTION=REPLACE
 
-- Drop existing schema objects (tables, sequences) for each schema using the Build\_Script\_to\_Drop\_CTSTAGING\_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build\_Script\_to\_Drop\_CTSTAGING\_objects.sql script using the SYSTEM id and password.
+> *When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*Note: The migration and rollback process for the PECS database does not impact the FDB_DIF schema.
 
-Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+### PECS v6.2 Database Migration
 
-- **impdp DUMPFILE** =&lt;dumpfilename.dmp&gt; **SCHEMAS** =CTSTAGING **LOGFILE** =&lt;logfilename.log&gt; **CONTENT** =ALL **TABLE\_EXISTS\_ACTION** =REPLACE
-
-*When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*
-
-**Note:** The migration and rollback process for the PECS database does not impact the FDB\_DIF schema.
-
-#### PECS v6.2 Database Migration
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 PECS v6.2 is integrated with IAM SSOi through the SiteMinder Web Agent for PIV authentication. PECS no longer uses KAAJEE and VistA for user authentication. The user name and VAUID from Active Directory are stored in the PECS database and the user roles are managed within the PECS application.
 
 #### PECS Database Backup
 
-Prior to migrating PECS v6.1 database schema to PECS v6.2 compatibility, a backup of the database should be performed either using RMAN or Oracle 11g DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.1 consists of two database schemas: CTSTAGING, FDB\_DIF. To back up the PECS v6.1 database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
+Prior to migrating PECS v6.1 database schema to PECS v6.2 compatibility, a backup of the database should be performed either using RMAN or Oracle 11g DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.1 consists of two database schemas: CTSTAGING, FDB_DIF. To back up the PECS v6.1 database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
 
-**expdp DUMPFILE** =&lt;dumpfilename.dmp&gt; **SCHEMAS** =CTSTAGING,FDB\_DIF **CONTENT** =ALL **LOGFILE** =&lt;logfilename.log&gt;
+- expdpDUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING,FDB_DIF CONTENT=ALL LOGFILE=\<logfilename.log\>
 
-*When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
+> *When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
 
 #### PECS v6.2 Database Changes
 
 The following Database changes are needed for PECS v6.2:
 
-A new column VAUID has been added to the PECS User table.
-
-The initial set of PBM NDF users with all the roles must be inserted into the PECS User table.
+- A new column VAUID has been added to the PECS User table.
+- The initial set of PBM NDF users with all the roles must be inserted into the PECS User table.
 
 The following steps should be followed to alter the PECS User table:
 
-1. Login to the SQL client using the CTSTAGING user account.
-
-Execute the “PECS61\_Alter\_CT\_USERS\_VA\_Table.sql” script.
-
-Open the log file and search the log file for any errors.
+1.  Login to the SQL client using the CTSTAGING user account.
+17. Execute the "PECS61_Alter_CT_USERS_VA_Table.sql" script.
+18. Open the log file and search the log file for any errors.
 
 The following steps should be followed to insert the initial set of users into the PECS User table:
 
-1. Login to the SQL client using the CTSTAGING user account.
-2. Execute the “PECS61\_Insert\_PBM\_Users \_CT\_USERS\_VA\_Table.sql” script.
-3. Open the log file and search the log file for any errors.
+1.  Login to the SQL client using the CTSTAGING user account.
+2.  Execute the "PECS61_Insert_PBM_Users \_CT_USERS_VA_Table.sql" script.
+3.  Open the log file and search the log file for any errors.
 
 #### PECS v6.2 Database Migration Rollback
 
-To restore the PECS v6.1 schema from the backup taken prior to the migration in section 3.2.8.1, follow the procedures outlined in the Data Import Guide for platform specific instructions (Unix, Windows).
+To restore the PECS v6.1 schema from the backup taken prior to the migration in [section 3.2.8.1](#pecs-database-backup), follow the procedures outlined in the Data Import Guide for platform specific instructions (Unix, Windows).
 
 Procedures for restoring/loading production data include the following steps regardless of platform:
 
-Prepare database for restoring production data
+- Prepare database for restoring production data
+  - Drop existing schema objects (tables, sequences) for each schema using the Build_Script_to_Drop_CTSTAGING_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build_Script_to_Drop_CTSTAGING_objects.sql script using the SYSTEM id and password.
+- Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+  - impdp DUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING LOGFILE=\<logfilename.log\> CONTENT=ALL TABLE_EXISTS_ACTION=REPLACE
 
-- Drop existing schema objects (tables, sequences) for each schema using the Build\_Script\_to\_Drop\_CTSTAGING\_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build\_Script\_to\_Drop\_CTSTAGING\_objects.sql script using the SYSTEM id and password.
+> *When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*Note: The migration and rollback process for the PECS database does not impact the FDB_DIF schema.
 
-Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+# Users
 
-- **impdp DUMPFILE** =&lt;dumpfilename.dmp&gt; **SCHEMAS** =CTSTAGING **LOGFILE** =&lt;logfilename.log&gt; **CONTENT** =ALL **TABLE\_EXISTS\_ACTION** =REPLACE
-
-*When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*
-
-**Note:** The migration and rollback process for the PECS database does not impact the FDB\_DIF schema.
-
-## Users
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 PECS uses the IAM SSOi service for user authorization. IAM SSOi authenticates users against Active Directory. PECS can be accessed by all VA users authenticated using the PIV. The user roles are managed with the PECS application. Access to user is initially limited to read-only or Requestor role in the PECS Database. If the users need additional privileges, they need to contact the PBM NDF managers to get roles with higher access privileges.
 
-## WebLogic Application Server Configuration
+# WebLogic Application Server Configuration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The WebLogic server configuration assumes that there is an existing WebLogic server installed and domain configured for use by the PECS application. Configuration steps to set up data sources will depend on the version of the WebLogic server. Furthermore, it is assumed that the installation of the WebLogic server and domain follows existing standards for a production environment installation. The configuration steps detailed below include the configuration of two data sources and the deployment of the PECS EAR archive.
 
-### Dependency Installation
+## Dependency Installation
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 VistALink Version 1.6.0.028 and KAAJEE Version 1.1.0.007 software packages must be installed prior to deployment of PECS on the WebLogic server. Follow the respective installation guides supplied by the VA for this software prior to continuing with this installation.
 
 Please read Appendix C and ensure the administrative KAAJEE user is installed prior to installing the PECS EAR file.
 
-**Note:** Prior to the PECS EAR file deployment, the KAAJEE station ID configuration information must be updated to refer to the target VistA server. This information is updated in the &lt;station-number&gt; section of the WEB-INF\kaajeeConfig.xml file that is in the EAR deployment archive. Example steps to perform this process are outlined below (*NIX based):
+> **NOTE:** Prior to the PECS EAR file deployment, the KAAJEE station ID configuration information must be updated to refer to the target VistA server. This information is updated in the \<station-number\> section of the WEB-INF\kaajeeConfig.xml file that is in the EAR deployment archive. Example steps to perform this process are outlined below (\*NIX based):
 
-Explode the CT\_EAR.ear file, explode CT\_WEB.war inside the exploded CT\_EAR.file, then edit CT\_EAR.ear/CT\_WEB.war/WEB-INF/ kaajeeConfig.xml to set the institution IDs.
+Explode the CT_EAR.ear file, explode CT_WEB.war inside the exploded CT_EAR.file, then edit CT_EAR.ear/CT_WEB.war/WEB-INF/ kaajeeConfig.xml to set the institution IDs.
 
 The steps described above would literally translate to the following Linux commands:
 
-Edit the file:
+> Edit the file:
 
-cp CT\_EAR.ear /tmp
+> cp CT_EAR.ear /tmp
 
-cd /tmp
+> cd /tmp
 
-mkdir CT\_EAR
+> mkdir CT_EAR
 
-cd CT\_EAR
+> cd CT_EAR
 
-jar -xvf ../CT\_EAR.ear
+> jar -xvf ../CT_EAR.ear
 
-jar -xvf CT\_WEB.war WEB-INF/kaajeeConfig.xml
+> jar -xvf CT_WEB.war WEB-INF/kaajeeConfig.xml
 
-vi WEB-INF/kaajeeConfig.xml
+> vi WEB-INF/kaajeeConfig.xml
 
-Save and restore the modified EAR file:
+> Save and restore the modified EAR file:
 
-jar -uvf CT\_WEB.war WEB-INF/kaajeeConfig.xml
+> jar -uvf CT_WEB.war WEB-INF/kaajeeConfig.xml
 
-rm -rf WEB-INF/
+> rm -rf WEB-INF/
 
-mv ../CT\_EAR.ear ../CT\_EAR.ear.orig
+> mv ../CT_EAR.ear ../CT_EAR.ear.orig
 
-jar -cvf ../CT\_EAR.ear *
+> jar -cvf ../CT_EAR.ear \*
 
-cd ..
+> cd ..
 
-rm -rf CT\_EAR
+> rm -rf CT_EAR
 
-### Configure WebLogic Data Sources
+## Configure WebLogic Data Sources
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 There are two data sources that need to be configured on the WebLogic administration server for the PECS application. Configuration values for the URL, Username, and Password will be dependent on where the FDB and STAGING databases have been installed. The configuration for each data source is summarized below:
 
-**Note:** Contact the DBA for the HOST\_SERVER, DATABASE\_SID and passwords used below. These items are bolded surrounded by percent signs below. When entering the information, do not enter the percent signs.
+> **NOTE:** Contact the DBA for the HOST_SERVER, DATABASE_SID and passwords used below. These items are bolded surrounded by percent signs below. When entering the information, do not enter the percent signs.
 
-Name: CTFdbData source
+> Name: CTFdbData source
 
-JNDI Name: jdbc/CTFdbData source
+> JNDI Name: jdbc/CTFdbData source
 
-URL: jdbc:oracle:thin:@ **%HOST\_SERVER%** :%port%: **%DATABASE\_SID%**
+> URL: jdbc:oracle:thin:@%HOST_SERVER%:%port%:%DATABASE_SID%
 
-Driver: oracle.jdbc.xa.client.OracleXAData source
+> Driver: oracle.jdbc.xa.client.OracleXAData source
 
-Username: FDB\_DIF\_APP\_USER
+> Username: FDB_DIF_APP_USER
 
-Password: **%FDB\_DIF\_APP\_USER\_PASSWORD%**
+> Password: %FDB_DIF_APP_USER_PASSWORD%
 
-Name: CTStagingData source
+> Name: CTStagingData source
 
-JNDI Name: jdbc/CTStagingData source
+> JNDI Name: jdbc/CTStagingData source
 
-URL: jdbc:oracle:thin:@ **%HOST\_SERVER%** :%port%: **%DATABASE\_SID%**
+> URL: jdbc:oracle:thin:@%HOST_SERVER%:%port%:%DATABASE_SID%
 
-Driver: oracle.jdbc.xa.client.OracleXAData source
+> Driver: oracle.jdbc.xa.client.OracleXAData source
 
-Username: CTSTAGING\_UPDATE\_USER
+> Username: CTSTAGING_UPDATE_USER
 
-Password: **%CTSTAGING\_UPDATE\_USER\_PASSWORD%**
+> Password: %CTSTAGING_UPDATE_USER_PASSWORD%
 
-### WebLogic Server Startup Configuration
+## WebLogic Server Startup Configuration
 
-PECS requires additional arguments added to the WebLogic Server’s Server Start properties. This section details the steps to add the arguments to the server.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-1. Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at: http://&lt;Deployment Machine&gt;:7001/console.
+PECS requires additional arguments added to the WebLogic Server's Server Start properties. This section details the steps to add the arguments to the server.
 
-Click on **Environment** and then **Servers** on the panel found in the right column of the WebLogic console. Click on the server name corresponding to the deployment server in the **Summary of Servers** panel found in the right column of the WebLogic console. **For reference only** , see the figure below.
+1.  Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at: http://\<Deployment Machine\>:7001/console.
+19. Click on Environment and then Servers on the panel found in the right column of the WebLogic console. Click on the server name corresponding to the deployment server in the Summary of Servers panel found in the right column of the WebLogic console. For reference only, see the figure below.
 
 Figure 2: Summary of Servers
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/003.png)
 
-WebLogic will now display the panel **Settings for Deployment Server** in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
+20. WebLogic will now display the panel Settings for Deployment Server in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
 
 Figure 3: Settings for Deployment Server
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/004.png)
 
-Click on the **Server Start** tab.
-
-WebLogic will now display the panel Server Start tab in the **Settings for Deployment Server** in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
+21. Click on the Server Start tab.
+22. WebLogic will now display the panel Server Start tab in the Settings for Deployment Server in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
 
 Figure 4: Server Start Tab
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/005.png)
 
-Insert the following text in the **Arguments** box:
+23. Insert the following text in the Arguments box:
 
-**-d64 -server -Xms768m -Xmx4096m -XX:PermSize=256m -XX:MaxPermSize=512m -Djava.awt.headless=true**
+    -d64 -server -Xms768m -Xmx4096m -XX:PermSize=256m -XX:MaxPermSize=512m -Djava.awt.headless=true
+24. Click Save.
 
-Also add an argument for Log4j2 file. (See example below. Modify path per the server configuration.)
+## Configure WebLogic JTA
 
-**-Dlog4j.configuration=file:/u01/app/user\_projects/domains/sqa\_PECS/log4j2.xml**
-
-Click **Save** .
-
-### Configure WebLogic JTA
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The application requires the Setting the JTA Transaction Timeout for processing of reports.
 
-1. In the WebLogic Administration Console, expand **Services** .
-
-Click on **JTA** .
-
-On the Configuration tab, for “Timeout Seconds”, change the value to **600** (see below Console screen).
-
-Click the **Save** button.
+1.  In the WebLogic Administration Console, expand Services.
+25. Click on JTA.
+26. On the Configuration tab, for "Timeout Seconds", change the value to 600 (see below Console screen).
+27. Click the Save button.
 
 The WebLogic Administration Console screen should look like the following:
 
 Figure 5: WebLogic Console Screen -- Completion
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/006.png)
 
-### Configure exportfile.properties
+## Configure exportfile.properties
 
-One functional piece of PECS allows a Release Manager to export data from the Oracle database so that it can be imported at various sites to support the Order Check process. The export file can be downloaded to the user’s desktop, but a copy needs to be sent to a File Transfer Protocol (FTP) server so that it can be utilized in other server processes. To know where to place the file, a property file named exportfile.properties needs to be created. This file should reside in the DOMAIN\_HOME/user\_staged\_config directory and be readable by the user who runs the WebLogic application server.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+One functional piece of PECS allows a Release Manager to export data from the Oracle database so that it can be imported at various sites to support the Order Check process. The export file can be downloaded to the user's desktop, but a copy needs to be sent to a File Transfer Protocol (FTP) server so that it can be utilized in other server processes. To know where to place the file, a property file named exportfile.properties needs to be created. This file should reside in the DOMAIN_HOME/user_staged_config directory and be readable by the user who runs the WebLogic application server.
 
 Configure the parameters in this file to match the settings of the particular environment where the installation is to be held. The export.file.server, export.file.dir, export.user.name, and export.user.pw much match the configuration of the sftp server.
 
@@ -702,576 +1026,162 @@ The fdb.flag.provider.url value should be configured with the servername and por
 
 This sample exportfile.properties file is provided as an example. All parameter values should be configured for the environment where PECS is installed.
 
-# Configure the following 4 sftp connection parameters to match
+> \# Configure the following 4 sftp connection parameters to match
 
-# the sftp server properties
+> \# the sftp server properties
 
-export.file.server=vaauspresftp02.aac.REDACTED
+> export.file.server=vaauspresftp02.aac.<span class="mark">REDACTED</span>
 
-export.file.dir=/home/presftp/pecs\_ioc/fdb\_dif
+> export.file.dir=/home/presftp/pecs_ioc/fdb_dif
 
-export.user.name=presftp
+> export.user.name=presftp
 
-export.user.pw=password
+> export.user.pw=password
 
-# Cron hour 0-23
+> \# Cron hour 0-23
 
-scheduled.time.hour=06
+> scheduled.time.hour=06
 
-# Cron minute 0-59
+> \# Cron minute 0-59
 
-scheduled.time.minute=00
+> scheduled.time.minute=00
 
-#Production Value File Name
+> \#Production Value File Name
 
-#export.file.name.fragment=UPD
+> \#export.file.name.fragment=UPD
 
-#Production Values Search type
+> \#Production Values Search type
 
-#export.file.search.type=contains
+> \#export.file.search.type=contains
 
-#Non-production Value File Name
+> \#Non-production Value File Name
 
-export.file.name.fragment=I
+> export.file.name.fragment=I
 
-#Non-production Values Search type
+> \#Non-production Values Search type
 
-export.file.search.type=starts\_with
+> export.file.search.type=starts_with
 
-fdb.flag.provider.url=t3://vaauspecapp60.aac.REDACTED:8007
+> fdb.flag.provider.url=t3://vaauspecapp60.aac.<span class="mark">REDACTED</span>:8007
 
-### Application Deployment
+## Application Deployment
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 The following sections explain how to deploy the PECS Application and the PECS Help Application.
 
-#### PECS Application Deployment
+### PECS Application Deployment
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Specific deployment steps will vary depending on the version of the WebLogic server the PECS application will be deployed on. The PECS application is a J2EE application packaged in a standard EAR file format. The application should be deployed following the recommended process for deploying EAR files for the WebLogic server version platform. Use default values to deploy the Ear file and associate it with domain/server as per WebLogic install for PECS.
 
 See Appendix G for recommended steps when upgrading from a previous release of PECS.
 
-**Note:** Associate the application with the target server, and activate the application after deployment, before it can service any requests.
+> **NOTE:** Associate the application with the target server, and activate the application after deployment, before it can service any requests.
 
-#### PECS Help Application Deployment
+### PECS Help Application Deployment
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Specific deployment steps will vary depending on the version of the WebLogic server the PECS Help application will be deployed on. The PECS Help application is a RoboHelp application packaged in a standard EAR file format. The Help application should be deployed following the recommended process for deploying EAR files for the WebLogic server version platform. Use default values to deploy the Ear file and associate it with domain/server as per WebLogic install for PECS. Some recommended pointers for install of pecs-hlp.xxx.ear file:
 
-Install the deployment as an application (PECS Help application is accessible at the context root “pecsHelp”).
+- Install the deployment as an application (PECS Help application is accessible at the context root "pecsHelp").
+- On deployment targets page, select the PECS managed server.
+- On Optional Settings page, name the deployment – "pecs-Help".
 
-On deployment targets page, select the PECS managed server.
+> **NOTE:** Associate the Help application with the target server, and activate the application after deployment, before it can service any requests.
 
-On Optional Settings page, name the deployment – “pecs-Help”.
+## Configure log4j2.xml
 
-**Note:** Associate the Help application with the target server, and activate the application after deployment, before it can service any requests.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-### Configure log4j2.xml
-
-1. Copy log4j-1.2.17.jar and slf4j-api-1.7.10.jar to server/lib folder where WebLogic is installed - /u01/app/Oracle\_Home/wlserver/server/lib, for example.
-
-Follow the steps in Section 5.3 to add the path to the log4j-1.2.17.jar, slf4j-api-1.7.10.jar and wllog4j.jar on the Server Start tab of the PECS managed server.
-
-Example: /u01/app/Oracle\_Home/wlserver/server/lib/ log4j-api-2.10.0.jar:/u01/app/Oracle\_Home/wlserver/server/lib/wllog4j.jar
-
-Follow the steps in Section 5.3 to add the follow argument on the Server Start tab of the PECS managed server: -Dweblogic.log.Log4jLoggingEnabled=true.
-
-Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at: http://&lt;Deployment Machine&gt;:7001/console.
-
-Click on Environment and then Servers on the panel found in the right column of the WebLogic console. Click on the server name corresponding to the deployment server in the Summary of Servers panel found in the right column of the WebLogic console. For reference only, see the figure below.
+1.  Follow the steps in Section 5.3 to add the path to the log4j-api-2.17.1.jar and log4j-core-2.17.1.jar, slf4j-api-1.7.10.jar and wllog4j.jar on the Server Start tab of the PECS managed server.
+    1.  /u01/app/Oracle_Home/wlserver/server/lib/log4j-api-2.17.1.jar
+    2.  /u01/app/Oracle_Home/wlserver/server/lib/log4j-core-2.17.1.jar
+    3.  /u01/app/Oracle_Home/wlserver/server/lib/slf4j-api-1.7.10.jar
+    4.  /u01/app/Oracle_Home/wlserver/server/lib/wllog4j.jar
+1.  Follow the steps in Section 5.3 to add the follow argument on the Server Start tab of the PECS managed server:
+    1.  -Dweblogic.log.Log4jLoggingEnabled=true.
+2.  Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at:
+    1.  http://\<Deployment Machine\>:7001/console.
+28. Click on Environment and then Servers on the panel found in the right column of the WebLogic console. Click on the server name corresponding to the deployment server in the Summary of Servers panel found in the right column of the WebLogic console. For reference only, see the figure below.
 
 Figure 6: Summary of Servers
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/007.png)
 
-WebLogic will now display the panel **Settings for Deployment Server** in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
+29. WebLogic will now display the panel Settings for Deployment Server in the right column of the console, where configuration of the Deployment Server is set. For reference, see the figure below.
 
 Figure 7: Settings for Deployment Server
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/008.png)
 
-Click on the **Logging** tab.
-
-Click Advanced to expand the advanced settings.
-
-Select Log4J as the Logging Implementation.
+30. Click on the Logging tab.
+31. Click Advanced to expand the advanced settings.
+32. Select Log4J as the Logging Implementation.
 
 Figure 8: Advanced Logging Settings
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/009.png)
 
-Click Save.
+33. Click Save.
 
 The PECS application uses log4j loggers to create and write log information to application event logs. The logging properties for the PECS application are included in Appendix A. Logger and appender configuration is included for the PECS application, and optionally the Hibernate API. Update logging properties as appropriate to the host server:
 
-Set logging level to “info” for production mode.
-
-Set “File” properties to the identified log directory on the server.
-
-Set “ConversionPattern” to the standard VA pattern.
+- Set logging level to "info" for production mode.
+- Set "File" properties to the identified log directory on the server.
+- Set "ConversionPattern" to the standard VA pattern.
 
 The properties in Appendix A should be inserted into the existing log4j properties file that exists at the beginning of the WebLogic server class path (please use log4j.xml for reference from Appendix A).
 
-## Post-Installation Notes
+# Post-Installation Notes
 
-**Note:** Due to policy constraints, active links cannot be included in this document. Please copy and paste the URLs into the browser.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+> **NOTE:** Due to policy constraints, active links cannot be included in this document. Please copy and paste the URLs into the browser.
 
 The entrance URL for the application is: http://%SERVER%:%PORT%/ct/public/Welcome.html.
 
 This is a generic URL for PECS. Replace the %SERVER% and %PORT% with the server name and port number assigned to the deployment.
 
-For example, the entrance URL for the AITC SQA server is as follows: *http://vaww.oed.portal. REDACTED/projects/pre/PRE\_IPT\_Rev/PRE\_IPT\_Rev\_PECS2-1/default.aspx*
+For example, the entrance URL for the AITC SQA server is as follows: *http://vaww.oed.portal.<span class="mark">REDACTED</span>/projects/pre/PRE_IPT_Rev/PRE_IPT_Rev_PECS2-1/default.aspx*
 
-## Properties of log4j2
+# Properties of log4j2
 
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-&lt;!-- Configuration has an attribute named status that you can set to trace or debug to get configuration messages from Log4J2. --&gt;
+\<?xml version="1.0" encoding="UTF-8"?\>
 
-&lt;!-- monitorInterval: Configure log4j to refresh the configuration periodically. --&gt;
+\
 
-&lt;Configuration monitorInterval="30"&gt;
-
-&lt;Properties&gt;
-
-&lt;Property name="logDir"&gt;PECSLogs&lt;/Property&gt;
-
-&lt;Property name="maxFileSize"&gt;10 MB&lt;/Property&gt;
-
-&lt;Property name="maxRolloverFiles"&gt;10&lt;/Property&gt;
-
-&lt;Property name="logPattern"&gt;%d{DEFAULT} %-5p [%t] [%c:%M] %m%n&lt;/Property&gt;
-
-&lt;/Properties&gt;
-
-&lt;Appenders&gt;
-
-&lt;RollingFile name="Server" filename="${logDir}/server.log" filePattern="${logDir}/server-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="Hibernate" fileName="${logDir}/hibernate.log" filePattern="${logDir}/hibernate-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="Peps" fileName="${logDir}/peps.log" filePattern="${logDir}/peps-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="Spring" fileName="${logDir}/spring.log" filePattern="${logDir}/spring-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="Struts" fileName="${logDir}/struts.log" filePattern="${logDir}/struts-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="CT"  fileName="${logDir}/ct\_prod.log" filePattern="${logDir}/ct\_prod-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;RollingFile name="PECS"  fileName="${logDir}/pecs\_prod.log" filePattern="${logDir}/pecs\_prod-%i.log"&gt;
-
-&lt;PatternLayout&gt;
-
-&lt;Pattern&gt;${logPattern}&lt;/Pattern&gt;
-
-&lt;/PatternLayout&gt;
-
-&lt;Policies&gt;
-
-&lt;OnStartupTriggeringPolicy /&gt;
-
-&lt;SizeBasedTriggeringPolicy size="${maxFileSize}" /&gt;
-
-&lt;/Policies&gt;
-
-&lt;DefaultRolloverStrategy max="${maxRolloverFiles}"/&gt;
-
-&lt;/RollingFile&gt;
-
-&lt;/Appenders&gt;
-
-&lt;Loggers&gt;
-
-&lt;Logger name="REDACTED.pharmacy.ct" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="CT" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.pharmacy.ct.web" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="CT" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.monitor.time.AuditTimer" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="Server" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.beehive.netui.pageflow.internal.AdapterManager" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Server" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.logging.log4j" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Server" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.commons" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Server" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.engine.jdbc" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.jdbc" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.SQL" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.hql" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.type" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.loader" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.hibernate.impl" level="warn" additivity="false"&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.springframework" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Spring" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.struts2" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="com.opensymphony.xwork2" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.commons.digester" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="freemarker.cache" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.apache.tiles" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="net.sf.navigator" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="org.displaytag" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED pharmacy.peps" level="error" additivity="false"&gt;
-
-&lt;AppenderRef ref="Peps" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;!-- ================================================== --&gt;
-
-&lt;!-- Loggers for PECS --&gt;
-
-&lt;!-- ================================================== --&gt;
-
-&lt;Logger name="REDACTED.pharmacy.pecs" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="PECS" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.pharmacy.pecs" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="PECS" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.pharmacy.pecs.web" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="PECS" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.pharmacy.pecs.web" level="debug" additivity="false"&gt;
-
-&lt;AppenderRef ref="PECS" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;!-- ================================================== --&gt;
-
-&lt;!-- Loggers for CT --&gt;
-
-&lt;!-- ================================================== --&gt;
-
-&lt;Logger name="REDACTED.pharmacy.ct" level="info" additivity="false"&gt;
-
-&lt;AppenderRef ref="CT" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Logger name="REDACTED.pharmacy.ct.web" level="info"
-
-additivity="false"&gt;
-
-&lt;AppenderRef ref="CT" /&gt;
-
-&lt;/Logger&gt;
-
-&lt;Root level="Info"&gt;
-
-&lt;AppenderRef ref="Server" /&gt;
-
-&lt;AppenderRef ref="Hibernate" /&gt;
-
-&lt;AppenderRef ref="Spring" /&gt;
-
-&lt;AppenderRef ref="Struts" /&gt;
-
-&lt;AppenderRef ref="CT" /&gt;
-
-&lt;AppenderRef ref="PECS" /&gt;
-
-&lt;/Root&gt;
-
-&lt;/Loggers&gt;
-
-&lt;/log4j:configuration&gt;
-
-## Custom Update File Installation
-
-Introduction
-
-This appendix describes the process to load the FDB-DIF and PECS update files into an existing FDB-DIF Oracle database using the FDB Updater Tool. The FDB-DIF update file is received on a schedule from FDB every two weeks and must be loaded in sequence. The PECS update file can be generated from the PECS application interface at any time by a user in the Release Manager role and loaded with the FDB Update Tool.
-
-Scope
-
-This appendix will include the process to update the FDB-DIF Oracle database with the FDB and PECS Update files using the FDB Update Tool.
-
-Processes in scope will include:
-
-The process to load the FDB-DIF file using the FDB Update Tool.
-
-The process to load the PECS update file using the FDB Update Tool.
-
-The process to recover the FDB-DIF FDB\_CUSTOM\_* tables if a Custom Tables update file load failure should occur.
-
-Processes out of scope will *include* :
-
-The process to receive the FDB-DIF update file from FDB.
-
-The process to generate the PECS update file from the Custom Tables application.
-
-The process to recover the FDB-DIF database if a FDB-DIF update file load failure should occur.
-
-Update Process Prerequisites
-
-The FDB Updater Tool is installed on the machine performing the update process.
-
-The FDB and PECS update files are available and/or have been generated.
-
-The FDB-DIF update file must be loaded in sequence. The version number of the new file must be the next in sequence.
-
-The user performing Oracle operations must have sufficient rights to delete data, drop, and create tables.
-
-The PECS preparation and recovery SQL scripts are available.
-
-An Oracle tool such as SQLPlus, must be installed on the machine executing the FDB Updater tool.
-
-Apply FDB-DIF Update File
-
-Here are the steps required to execute the FDB update tool:
-
-1. Obtain the FDB-DIF Update File
-    - Either download the update file from the FTP directory or insert the update CD into drive.
-
-Start FDB Update Tool GUI
-
-- Navigate to where the FDB Update Tool has been installed and click on the GUI.bat file.
-
-Configure Connection
-
-- Select the View  Setting menu option on the GUI and input the connection data relevant to your location and select the “Save” button. A sample screen is shown.
+34. Start FDB Update Tool GUI
+    - Navigate to where the FDB Update Tool has been installed and click on the GUI.bat file.
+35. Configure Connection
+    - Select the View Setting menu option on the GUI and input the connection data relevant to your location and select the "Save" button. A sample screen is shown.
 
 Figure 6: Update Settings - Configure Connection
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/010.png)
 
-Provide File Paths
-
-- Enter the path to the update and log files relevant your location. Select whether the update is incremental or complete, then the Start button. A sample screen is shown:
+36. Provide File Paths
+    - Enter the path to the update and log files relevant your location. Select whether the update is incremental or complete, then the Start button. A sample screen is shown:
 
 Figure 7: Add Paths to FDB Data Updater
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/011.png)
 
-Apply Custom Tables Update File
+# Apply Custom Tables Update File
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 This section describes the two major steps necessary to apply the Custom Tables Update File.
 
-1. Verify CT\_VERSION Table:
+1.  Verify CT_VERSION Table:
 
-The CT\_VERSION table is an additional table added to the FDB schema (as recommended by FDB) to track the PECS update file version. If the table does not exist, execute the following DDL:
+The CT_VERSION table is an additional table added to the FDB schema (as recommended by FDB) to track the PECS update file version. If the table does not exist, execute the following DDL:
 
-CREATE TABLE FDB.CT\_VERSION
+CREATE TABLE FDB.CT_VERSION
 
 (
 
@@ -1291,96 +1201,462 @@ DBTYPE VARCHAR2(10) NULL
 
 )
 
-CREATE UNIQUE INDEX PKCTVERSION ON FDB.CT\_VERSION(VERSIONKEY)
+CREATE UNIQUE INDEX PKCTVERSION ON FDB.CT_VERSION(VERSIONKEY)
 
-Execute FDB Update Tool:
+37. Execute FDB Update Tool:
 
-The steps to apply the Custom Tables Update file are the same steps as outlined in Apply FDBDIF Update File. Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the Start button.
+The steps to apply the Custom Tables Update file are the same steps as outlined in [Apply FDBDIF Update File](#apply-fdb-dif-update-file). Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the Start button.
 
-Recover FDB-DIF Custom Tables from Load Failure
+# Recover FDB-DIF Custom Tables from Load Failure
 
-The recover process may be necessary if a failure has occurred during the application of the PECS Update file (see Apply Custom Tables Update File step). The recovery process involves the execution of a SQL script, and verification that the data has been recovered.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Execute Recovery
+The recover process may be necessary if a failure has occurred during the application of the PECS Update file (see [Apply Custom Tables Update File](#apply-custom-tables-update-file) step). The recovery process involves the execution of a SQL script, and verification that the data has been recovered.
 
-- The recovery entails the deletion of any data that may have been loaded to the FDB\_CUSTOM\_* tables during the execution of the update process.
+- Execute Recovery
+  - The recovery entails the deletion of any data that may have been loaded to the FDB_CUSTOM\_\* tables during the execution of the update process.
+- Verify Data Recovery
+  - Verify that the data in the FDB_CUSTOM\_\* tables has been deleted.
+- Generate Full PECS Update File
+  - After logging into the PECS application, a user in the Release Manager role will navigate to the Custom Update tab and click the Download New Full Update button. This will generate a PECS update file with all currently approved order check customizations.
 
-Verify Data Recovery
+# PECS Logical Deployment Architecture
 
-- Verify that the data in the FDB\_CUSTOM\_* tables has been deleted.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Generate Full PECS Update File
+# Logical Deployment Design – PECS
 
-- After logging into the PECS application, a user in the Release Manager role will navigate to the Custom Update tab and click the Download New Full Update button. This will generate a PECS update file with all currently approved order check customizations.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## PECS Logical Deployment Architecture
+Application Server:
 
-Logical Deployment Design – PECS
+The WebLogic Application Server 12.2.1.4 will host PECS and its business services.
 
-**Application Server:**
-
-The WebLogic Application Server 12.1.3 will host PECS and its business services.
-
-**Database Server:**
+Database Server:
 
 The Database Server- Oracle 11g will have Red Hat Linux Enterprise version RHEL5 as its OS. It will host the Custom Table Staging database and FDB-DIF database.
 
-**Failover Server:**
+Failover Server:
 
 There will be a Failover server. It will host both Oracle WebLogic Application Server and Oracle Database Server to provide redundancy. The figure below shows the overview of Logical Deployment Design for the PRE PECS Application.
 
 Figure 8: PECS Deployment
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/012.png)
 
-SiteMinder Web Agent on Apache Web Server – PECS
+# SiteMinder Web Agent on Apache Web Server – PECS
 
-Figure : Web Agent High-Level Diagram
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-<!-- image -->
+Figure 9: Web Agent High-Level Diagram
 
-## PECS Database Installation Process
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/013.png)
 
-Database Installation Process Flow – PECS
+# PECS Database Installation Process 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+# Database Installation Process Flow – PECS
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 Figure 10: Database Installation Process
 
-<!-- image -->
+![](pecs-version-6-2-installation-guide-updated-prec-6-2-3/014.png)
 
-## Rollback Process
+# Rollback Process 
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 If the installation process must be stopped when updating an environment from a previous version of PECS, use the following to determine and follow the steps outlined in order to roll back the application.
 
 If both the database and the application have been deployed:
 
-1. Shutdown the WebLogic domain.
-
-Follow the instructions in section 3.2.8.3 PECS v6.2 Database Migration Rollback in this document.
-
-Start the WebLogic domain.
-
-Deploy the prior version of PECS using the instructions in section 5.6 Application Deployment in this document.
+1.  Shutdown the WebLogic domain.
+38. Follow the instructions in section 3.2.8.3 PECS v6.2 Database Migration Rollback in this document.
+39. Start the WebLogic domain.
+40. Deploy the prior version of PECS using the instructions in section 5.6 Application Deployment in this document.
 
 If only the database has been deployed
 
-1. Shutdown the WebLogic domain.
+1.  Shutdown the WebLogic domain.
+41. Follow the instructions in section 3.2.8.3 PECS v6.2 Database Migration Rollback in this document.
+42. Start the WebLogic domain.
 
-Follow the instructions in section 3.2.8.3 PECS v6.2 Database Migration Rollback in this document.
+# PECS Upgrade Installation Instructions
 
-Start the WebLogic domain.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-## PECS Upgrade Installation Instructions
+1.  Stop the WebLogic managed server.
+43. Delete the previous PECS deployment.
+44. From the Linux server, navigate to the managed server directory that contains the tmp and stage folders. For example: /u01/app/user_projects/domains/DEVPHARMACYPECS/servers/PECS_MS1
+45. Remove the tmp and stage folders and their contents from this directory.
+46. Start the managed server.
+47. Stop the managed server.
+48. Proceed with the deployment of the new PECS ear file.
 
-1. Stop the WebLogic managed server.
+---
 
-Delete the previous PECS deployment.
+## Appendix: Unique Sections from Prior Versions
 
-From the Linux server, navigate to the managed server directory that contains the tmp and stage folders. For example: /u01/app/user\_projects/domains/DEVPHARMACYPECS/servers/PECS\_MS1
+_These sections appeared in earlier versions of this document but are not present in the current master. They may describe features, procedures, or configurations that were removed, superseded, or restructured._
 
-Remove the tmp and stage folders and their contents from this directory.
+### From: PREC*7*1 PECS Installation Guide
 
-Start the managed server.
+### FDB Updater Tool Procedure on Oracle Database
 
-Stop the managed server.
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Proceed with the deployment of the new PECS ear file.
+First Databank (FDB) is a major provider of drug and medical device databases that help inform healthcare professionals to make decisions. FDB partners with information system developers to deliver useful medication and medical device-related information to clinicians, business associates, and patients. FDB provides its customers a Data Updater Java application that can be used to bulk load full and incremental data supplied by FDB. It can be invoked via command line interface (CLI) or graphical interface (this document assumes invoking it via CLI). Department of Veterans Affairs clinical applications (e.g., Pharmacy Product System (PPS), Pharmacy Enterprise Customization System (PECS)) make use of the data that is maintained and provided by FDB to help personnel choose, dose, prescribe, and use medications properly and ensure the best possible health outcomes for VA patients.
+
+| Relational Database Management System (RDBMS) | Oracle                                                              |
+|-----------------------------------------------|---------------------------------------------------------------------|
+| Version                                       | 11.2.0.4 / 19c                                                      |
+| Utility                                       | Oracle RDBMS                                                        |
+| Activity                                      | First Databank Updater Tool (FDB Vendor: https://www.fdbhealth.com) |
+| Java                                          | Java 8, 11                                                          |
+| OJDBC driver                                  | Ojdbc8.jar                                                          |
+
+<span id="_Toc391381524" class="anchor"></span>Table 4: FDB45_DIF Database Users and Roles
+
+- Hostname:
+- vaausdbspec900.aac.va.gov,
+- vaausdbspec901.aac.va.gov
+- Database Name:
+- PECDEV
+- PECSQA
+
+Pre-requisite Checks to Run FDB Updater Tool
+
+Make sure the server is installed with has Java JDK installed (version – 8 (is preferred).
+
+Check and confirm the Oracle home has the OJDBC jar file. If not, OJDBC jar file is required to run the updater tool. (ojdbc8.jar preferred).
+
+The updater tool jar files along with full and incremental load files can be found on File Transfer Protocol (FTP) server:
+
+- vaauspresftp01.aac.va.gov
+
+Installation Procedure
+
+Contact sys admin if the required version of Java is not installed on the DB server.
+
+Command below should show if java is installed along with the version.
+
+- which java
+
+Once Java is installed, copy the FDB files from FTP server to local government furnished equipment (GFE) computer and over to the DB server where the Data load is required.
+
+The following tools can be used to copy and transfer the files between the servers and server-local GFE
+
+- WINSCP
+- FTP client
+- File-transfer-user
+
+Create the user for transferring the files on the DB server if it doesn't exist. Files can only be copied to /tmp location.
+
+Once the files are copied to the server, check to make sure the file permissions are intact and make sure all the files are owned by "Oracle".
+
+- User – Oracle
+- Group – oracle:dba
+
+Below are the set of environmental variables to set on the server before running the tool:
+
+<u>Example</u>:
+
+Java is installed in below location:
+
+- /u01/java/latest/
+
+FDB Updater tool jar files are installed in below location:
+
+- /home/oracle/updater_tool/Current/Java/
+
+Below are the set of env variables that should be set:
+
+export CLASSPATH=.
+
+> export PATH=/u01/java/latest/bin:\$PATH
+
+> export CLASSPATH=\$CLASSPATH:/home/oracle/updater_tool/Current/Java/FDBDataUpdater.jar
+
+> export CLASSPATH=\$CLASSPATH:/u01/oracle/190/jdbc/lib
+
+> export CLASSPATH=\$CLASSPATH:/u01/oracle/190/jdbc/lib/ojdbc10.jar
+
+> export CLASSPATH=\$CLASSPATH:/home/oracle/updater_tool/Current/Java/FDBDataUpdaterGUI.jar
+
+Attached below are the contents of DataSettings.txt. This file is important for the updater tool to run. Updater tool parses the file to invoke a full or incremental data load.
+
+Specified below is an example of the data settings file (note: server hostnames, ports, and user IDs, and passwords are dummy data):
+
+Driver=oracle.jdbc.pool.OracleDataSource
+
+> URL=jdbc:oracle:thin:@vaausdbspps800.aac.va.gov:1651:PPSDEV91
+
+> UID=FDBxx_xxx
+
+> PWD=\*\*\*\*\*\*\*\*\*
+
+> CommitMode=0
+
+> DatabaseConnections=10
+
+> LoadType=1
+
+> Location=/home/oracle/updater_tool/Current/MKF45_DB/MKF45_DB.zip
+
+> LogFile=/home/oracle/updater_tool/Current/MKF45_DB/full_load.log
+
+> UsePreparedStatements=1
+
+Below are additional necessary changes to be made along with the path names before running the data updater utility on the DB server where the full or incremental load along with custom tables will be processed.
+
+Below are the options for:
+
+Full load
+
+- LoadType=1
+
+Incremental Load
+
+- LoadType=0
+
+<u>Command to invoke the FDB Updater tool</u>
+
+Below are the available set of command line arguments that can be used to invoke the FDB updater tool to run incremental or full loads:
+
+> java firstdatabank.fdbdataupdater.CLI Dataupdatersettings.txt
+
+> java -classpath "FDBDataUpdater.jar;FDBDataUpdaterGUI.jar;/u01/oracle/190/jdbc/lib/ojdbc10.jar" firstdatabank.fdbdataupdater.CLI "DataUpdaterSettings.txt"
+
+Once the updater tool is invoked and is running, the log of the updater tool can be found in the log location specified in the datasetttings file.
+
+The log file should provide complete details about the table names and amount of records inserted during the process.
+
+Below is an example screenshot of the log file showing the tables and amount of records inserted:
+
+![](prec-7-1-pecs-installation-guide/002.png)
+
+The log file will also show if the load completed successfully with the timestamp of completion as shown in the example screenshot below:
+
+![](prec-7-1-pecs-installation-guide/003.png)
+
+> **NOTE:** If any table or data load errors are encountered, contact database administrator (DBA).
+
+## Installation Scripts
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Installation scripts needed for the software and database installation, as well as the procedure on how to set up FDB Fwk v4.5, are provided in VA GitHub EC, located in the [pecs-code](https://github.ec.va.gov/EPMO/pecs-code/tree/master/) repository docs folder.
+
+<span id="_Toc196296885" class="anchor"></span>Figure 1: PECS Installation Scripts
+
+![](prec-7-1-pecs-installation-guide/004.png)
+
+### CTSTAGING Installation Instructions
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+This section describes the database scripts necessary for the installation of the PECS CTSTAGING database, and the order in which they should be executed. It is highly recommended that the PECS staging database user be configured as "CTSTAGING" and the FDB45_DIF database user be configured as "FDB45_DIF" as that is the usernames that are used throughout the remainder of the PECS installation documentation. Executing steps 3.2.1 – 3.2.5 in this section will result in the creation of a PECS 7.0 database. Executing step 3.2.6 will migrate an existing PECS v6.2 database to PECS v7.0 compatibility. If migrating from an existing PECS 6.2 schema with production data, then skip to 3.2.6 to migrate to PECS 7.0 compatibility. The complete PECS Database Installation Process is graphically depicted below.
+
+<span id="_Ref75527382" class="anchor"></span>Figure 2: PECS 7.0 Database Installation Process
+
+![](prec-7-1-pecs-installation-guide/005.png)
+
+To migrate an existing PECS 6.2 database schema, skip to Section 3.2.7 PECS 7.0 Database Migration.
+
+Prior to executing the following sections, the Oracle 19c database needs to be installed and a Database Administrator (DBA) login generated with sys_dba privileges. The DBA login is necessary to run the first database script to create the tablespaces and user accounts for the remainder of the installation.
+
+### Create the Users
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Prior to creation of the schemas, logical and physical environment structures must be setup for storage of the schemas database objects: tablespaces and data files. For the PECS Database configuration data and index storage are separated for each schema. For the CTSTAGING schema two tablespaces must be created:
+
+- CTSTAGING_DATA
+- CTSTAGING_INDEX
+- LOB_DATA
+- LOB_INDEX
+
+In addition, user profiles are used to standardize resource limits for PECS schemas. There are two user profiles that must be created:
+
+- SERVICE_ACCOUNT
+- USER_ACCOUNT
+
+Before the user profiles can be created the script utlpwdmg.sql has to be executed. The script is in the RDBMS\ADMIN directory within the installation home. Consult the Oracle installation manual for the full directory path for the proposed environment.
+
+To create the users in the database for the PECS application, the DBA will need to execute the pecs_creation_pkg1.sql script as SYSTEM. This script will execute other scripts that will create the tablespaces, user profiles and create the CT Staging User:
+
+- PECS_Create_CTSTAGING_Tablespaces.sql
+- pecs_create_user_profiles_ddl.sql
+- pecs_create_user_modified.sql
+
+Modifications should be made tailored for the current installation environment prior to running the scripts. The following steps should be followed:
+
+1.  Open a text editor and open the PECS_Create_CTSTAGING_Tablespaces.sql script. Replace %DATAFILE_LOCATION% with the data file directory the directory entered should already exist on the database server.
+    1.  Note: If creating a development environment, then use: PECS_Create_CTSTAGING_Tablespaces_Dev.sql instead.
+2.  Login to the SQL client using a database account that has sys_dba privileges.
+3.  Execute the "pecs_creation_pkg1.sql" script.
+4.  Open the "pecs_creation_pkg1.log" file and search the log file for any errors.
+5.  This process creates the temporary file dif5ctstaging.sql. Open this file and scroll to the bottom and verify the following entry at the bottom of the file 'GRANT SELECT ON FDB_DIF.FDB_VERSION TO CTSTAGING'. This will ensure that all necessary privileges were granted to the FDB tables that the CTSTAGING user needs to access.
+
+### Create Staging Tables and Database Objects
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To create the CTSTAGING database for the PECS application, the administrator will need to execute the pecs_creation_pkg2.sql script. This script will execute 39 other scripts that create the CTSTAGING tables and populate those tables with some initial data values. The following steps should be followed:
+
+1.  Login to the SQL client using the CTSTAGING user account.
+6.  Execute the "pecs_creation_pkg2.sql" script.
+7.  Open the pecs_creation_pkg2.log file and search the log file for any errors.
+
+### Modification of the FDB45_DIF Database
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+To modify the FDB45_DIF data repository to work with the PECS application, the administrator will need to execute the fdb_modification_pkg3.sql script. This script will create a new table in the FDB45_DIF data repository and modify one of the existing tables to change the constraints add an index.
+
+1.  Login to the SQL client using the FDB45_DIF user account.
+8.  Execute the "fdb_modification_pkg3.sql" script.
+9.  Open the fdb_modification_pkg3.log file and search the log file for any errors.
+
+### Create Public Synonyms
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The PECS application access spans both FDB45_DIF and CTSTAGING schema objects. Public synonyms are utilized to provide seamless application access across PECS application components. To create the public synonyms, the administrator will need to execute the PECS6_Create_Public_Synonyms.sql script. This script executes two scripts: <span class="mark">PECS6_Create_FDB_Synonyms</span>.<span class="mark">sql</span>, <span class="mark">PECS6_Create_CTSTAGING_Synonyms</span>.<span class="mark">sql.</span> The following steps should be followed:
+
+1.  Login to the SQL client using the SYSTEM account.
+10. Execute the "PECS5_Create_Public_Synonyms.sql" script.
+11. Open the PECS5_Create_Public_Synonyms_create\_ public_synonyms.log file and search the log file for any errors.
+
+### PECS Application Users
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+The PECS database schemas have been devised to provide separation of ownership and CRUD data access levels with user/schemas and access roles assigned. Schemas/Roles that are required by the application are depicted in the cross-reference table listed below:
+
+| User                  | Schema    | Schema Owner   | Assigned Role              |
+|-----------------------|-----------|----------------|----------------------------|
+| FDB45_DIF_APP_USER    | FDB45_DIF | Read Only user | FDB45_DIF_READ_ONLY_ROLE   |
+| FDB45_DIF_UPDATE_USER | FDB45_DIF | CRUD user      | FDB45_DIF_UPDATE_USER_ROLE |
+
+<span id="_Toc965306" class="anchor"></span>Table 5: CTSTAGING Database Users and Roles
+
+| User                  | Schema    | Schema Owner   | Assigned Role                                      |
+|-----------------------|-----------|----------------|----------------------------------------------------|
+| CTSTAGING_READ_ONLY   | CTSTAGING | Read Only user | CTSTAGING_READ_ONLY_ROLE                           |
+| CTSTAGING_UPDATE_USER | CTSTAGING | CRUD user      | CTSTAGING_UPDATE_USER_ROLEFDB45_DIF_READ_ONLY_ROLE |
+
+<span id="_Toc965307" class="anchor"></span>Table 6: PECSJMS Database Users and Roles
+
+| User             | Schema  | Schema Owner | Assigned Role         |
+|------------------|---------|--------------|-----------------------|
+| PECSJMS_APP_USER | PECSJMS | CRUD user    | PECSJMS_APP_USER_ROLE |
+
+<span id="_Toc391381525" class="anchor"></span>Table 7: List of PECS Schema Creation SQL Scripts
+
+Both FDB45_DIF and CTSTAGING schema owners have been created prior to this step, however, additional users are required by the application. To create the PECS application user roles and users, the administrator will need to execute the PECS6_Create_Application_Roles_Users.sql script. This script will execute scripts that create the required PECS user roles and application users. Additionally, the script will create the PECSJMS schema objects that are required by the PECS application by executing pecs_create_jms_process.sql script.
+
+Prior to running the driver script, PECS6_Create_Application_Roles_Users.sql, modifications should be made to CreateTablespacePECSJMS.sql to tailor for the current installation environment.
+
+The following steps should be followed:
+
+1.  Open a text editor and open the CreateTablespacePECSJMS.sql script. Replace %DATAFILE_LOCATION% with the data file directory for the current installation environment. The directory entered should already exist on the database server.
+12. Login to the SQL client using the SYSTEM account.
+13. Execute the "<span class="mark">PECS6_Create_Application_Roles_Users</span>\_create_application_roles_users.sql" script.
+14. Open the "<span class="mark">PECS5_Create_Application_Roles_User.log</span>" file and search the log file for any errors.
+
+A complete listing of the PECS Schema Creation SQL Scripts invoked from the driver scripts are listed below.
+
+| Script Description                                                                 | File Name                 |
+|------------------------------------------------------------------------------------|---------------------------|
+| A Master script to create the tablespace and user package script.                  | pecs5_creation_pkg1.sql   |
+| Master script to create the CT staging tables and database objects package script. | pecs5_creation_pkg2.sql   |
+| Master script to modify the FDB schema package script.                             | fdb_modification_pkg3.sql |
+
+<span id="_Toc391381526" class="anchor"></span>Table 8: List of PECS 7.0 Driver SQL Script
+
+### PECS v7.0.1 Database Migration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Prior to migrating PECS v6.2 database schema to PECS v7.0 compatibility, a backup of the database should be performed either using RMAN or Oracle 19c DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.2 consists of two database schemas: CTSTAGING, FDB45_DIF. To back up the PECS v6.2 database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
+
+- expdpDUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING,FDB45_DIF CONTENT=ALL LOGFILE=\<logfilename.log\>
+
+> *When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
+
+Prior to performing the steps needed to migrate a PECS v6.2 database to PECS v7.0 compatibility, the Oracle listener for the PECS database instance should be brought down to ensure consistency and limit access during the conversion efforts. For Oracle Administrator's, the following command can be issued from the LINUX command prompt to stop the listener for the current instance:.
+
+To migrate PECS v6.2 database schema to PECS v7.0 compatibility, the database administrator will need to execute the following database scripts as the USER specified below. Each of these scripts acts as a driver script to initiate and log migration activities. At the completion of each of the steps. Check the log file for any errors or anomalies in processing the required transactions.
+
+| Script Description | File Name | User | Log File |
+|--------------------|-----------|------|----------|
+
+<span id="_Toc391381527" class="anchor"></span>Table 9: List of PECS 7.0 SQL Scripts
+
+| PECS Migration Driver script | PECS6_migration.sql | CTSTAGING | PECS_migration.log |
+|------------------------------|---------------------|-----------|--------------------|
+
+Shows the PECS v6.1 driver SQL script.
+
+Step by Step procedure to accomplish the migration is as follows:
+
+1.  Login to the SQL client using the CTSTAGING user account.
+15. Execute the "PECS6_migration.sql" script.
+16. Open the "PECS6_migration.log" file and search the log file for any errors.
+
+After all the migration steps have been completed without error, the Oracle listener for the PECS database instance should be restarted. For Oracle Administrator's, the following command can be issued from the LINUX command prompt to start the listener for the current instance: lsnrctl start.
+
+A complete listing of the scripts invoked from the driver scripts are listed below.
+
+| PECS 7. Driver Scripts | Description                                               | Purpose                           |
+|------------------------|-----------------------------------------------------------|-----------------------------------|
+| PECS_migration.sql     | Driver Script to migrate from PECS 6.2 to PECS 7.0 schema | Database Migration Driver Scripts |
+
+Shows the PECS v6.2 SQL script
+
+### PECS v7.0.1 Database Migration Rollback
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+Prior to migrating PECS v6.2 database schema to PECS v7.0 compatibility, a backup of the database was performed to ensure rollback capability. This section addresses the steps needed to rollback to PECS v6.2 using the secured backup.
+
+To restore the PECS v6.2 schema from the backup taken prior to the migration, follow the procedures outlined in the Data Import Guide for platform specific instructions (Linux, Windows).
+
+Procedures for restoring/loading production data include the following steps regardless of platform:
+
+- Prepare database for restoring production data
+  - Drop existing schema objects (tables, sequences) for each schema using the Build_Script_to_Drop_CTSTAGING_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build_Script_to_Drop_CTSTAGING_objects.sql script using the SYSTEM id and password.
+- Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+  - impdp DUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING LOGFILE=\<logfilename.log\> CONTENT=ALL TABLE_EXISTS_ACTION=REPLACE
+
+> *When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*Note: The migration and rollback process for the PECS database does not impact the FDB45_DIF schema.
+
+### PECS v7.0.1 Database Migration
+
+<!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
+
+PECS v7.0 is integrated with IAM SSOi through the SiteMinder Web Agent for PIV authentication. PECS no longer uses KAAJEE and VistA for user authentication. The user name and VAUID from Active Directory are stored in the PECS database and the user roles are managed within the PECS application.
+
+#### PECS Database Backup
+
+Prior to migrating PECS v6.2 database schema to PECS v7.0 compatibility, a backup of the database should be performed either using RMAN or Oracle 19c DataPump export utility. Securing a backup of the database is integral to the database rollback procedures in the event that the upgrade/migration needs to revert back to the prior version. Oracle DataPump utilities provide more granularity to backup specific schemas. PECS v6.2 consists of two database schemas: CTSTAGING, FDB45_DIF. To back up the PECS v6.2 database using Oracle DataPump utility, issue the following command logged in as a USER with DBA privileges:
+
+- expdpDUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING,FDB45_DIF CONTENT=ALL LOGFILE=\<logfilename.log\>
+
+> *When prompted, enter the SYSTEM user id and password to complete the export and note the dump and log files for future use.*
+
+#### PECS v7.0 Database Migration Rollback
+
+To restore the PECS v6.2 schema from the backup taken prior to the migration in [section 3.2.8.1](#pecs-database-backup), follow the procedures outlined in the Data Import Guide for platform specific instructions (Unix, Windows).
+
+Procedures for restoring/loading production data include the following steps regardless of platform:
+
+- Prepare database for restoring production data
+  - Drop existing schema objects (tables, sequences) for each schema using the Build_Script_to_Drop_CTSTAGING_objects.sql to drop all the database objects in the CTSTAGING schema. Execute the Build_Script_to_Drop_CTSTAGING_objects.sql script using the SYSTEM id and password.
+- Import the CTSTAGING schema by issuing the following commands logged in as a USER with DBA privileges preferably SYSTEM:
+  - impdp DUMPFILE=\<dumpfilename.dmp\> SCHEMAS=CTSTAGING LOGFILE=\<logfilename.log\> CONTENT=ALL TABLE_EXISTS_ACTION=REPLACE
+
+> *When prompted, enter the SYSTEM user id and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*Note: The migration and rollback process for the PECS database does not impact the FDB45_DIF schema.

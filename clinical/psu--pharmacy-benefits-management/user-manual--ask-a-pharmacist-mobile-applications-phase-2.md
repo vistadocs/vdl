@@ -3,55 +3,38 @@ title: Ask A Pharmacist User Manual (Mobile Applications Phase 2)
 doc_type: UM
 doc_label: User Manual
 doc_layer: plain
-doc_subject: Ask A Pharmacist  (Mobile Applications Phase 2)
+doc_subject: Ask A Pharmacist (Mobile Applications Phase 2)
 app_code: PSU
-app_name: "Pharmacy: Benefits Management"
+app_name: 'Pharmacy: Benefits Management'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: PSU
+patch_ver: null
+patch_id: null
+group_key: null
+description: The purpose of this AAP User Manual is to provide an overview, access procedures, and functionality usage procedures for the software. Also included in this manual is a general overview of the AAP application.
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: The purpose of this AAP User Manual is to provide an overview, access procedures, and functionality usage procedures for the software. Also included in this manual is a general overview of the AAP application.
-audience: 
-keywords: 
-  - table
-  - contents
-  - span
-  - pharmacist
-  - mobile
-  - figure
-  - manual
-  - applications
-  - phase
-  - view
 page_count: 0
-word_count: 6329
+word_count: 6318
 section_count: 22
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: February 2016
 revision_count: 2
 revision_newest: 3/4/2016
 revision_oldest: 04/29/2015
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=91"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Benefits_Mgmnt_(PBM)/aap_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=91
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>
-
-  Department of Veterans Affairs
----
-
 Mobile Applications (Apps) Phase Two (MAP2)
 
 Ask A Pharmacist (AAP)

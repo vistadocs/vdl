@@ -3,7 +3,7 @@ title: ASISTS GUI Version 2 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: OOPS
 app_name: Automated Safety Incident Surveillance Tracking System
 section: FIN
@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: OOPS
 patch_ver: 2
 patch_id: OOPS*2
-group_key: "OOPS:OOPS:2"
-file_numbers: []
-security_keys: []
-menu_options: 2
+group_key: OOPS:OOPS:2
 description: This manual provides information about the structure of the Veterans Health Information Systems and Technology Architecture (VistA) software known as the Graphical User Interface for the Automated Safety Incident Surveillance Tracking System (also referred to as the ASISTS GUI program). This manual
-audience: 
-keywords: 
-  - asists
-  - table
-  - contents
-  - oops
-  - employee
-  - incident
-  - mail
-  - injury
-  - codes
-  - reporting
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '19'
+- '2260'
+- '8994'
+security_keys:
+- PROVIDER
+- XUPROGMODE
+menu_options: 2
 page_count: 0
 word_count: 5598
 section_count: 33
 table_count: 13
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2018
 revision_count: 3
 revision_newest: 12/13/2018
 revision_oldest: 11/15/04
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=56"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/ASISTS/oops2_0tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=56
+audit_applied: '2026-05-31'
 ---
 
 ![](asists-gui-version-2-technical-manual/001.png)

@@ -1,25 +1,46 @@
 ---
-consolidated_title: "inbound eprescribing installation guide"
-app_code: PSO
+title: Inbound ePrescribing Installation Guide (PSO*7*617)
 doc_type: IG
-master_source: "Inbound ePrescribing Installation Guide (PSO*7*617)"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: Inbound ePrescribing (PSO*7*617)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7.0
+patch_id: PSO*7.0*617
+group_key: PSO:PSO:7.0
+file_numbers:
+- '52.45'
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |---------|---------|------------------|----------| | 10/2021 | 2.0 | Document Updates | REDACTED | | 09/2021 | 1.0 | Initial Document | REDACTED'
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 3023
+section_count: 28
+table_count: 5
+figure_count: 1
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: November 2021
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_p617_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: Inbound ePrescribing Installation Guide (PSO*7*617)
 master_pub_date: November 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "PSO*7*589 Inbound ePrescribing Installation Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Outpatient Pharmacy
-
-  Inbound ePrescribing Version 5.0
-
-  Controlled Substance eRx
-
-  VistA Patch \# PSO\*7.0\*617
-
-  Installation Guide
+- PSO*7*589 Inbound ePrescribing Installation Guide
+consolidated_title: inbound eprescribing installation guide
 ---
 
 ![](inbound-eprescribing-installation-guide-pso-7-617/001.png)
@@ -120,7 +141,7 @@ Table 1: Deployment, Installation, Back-out, and Rollback Roles and Responsibili
 | 4                            | FO or EO                                                                                                                             | Deployment                             | Execute deployment                                                                                                  | Design/Build                                           |
 | 5                            | FO or EO                                                                                                                             | Installation                           | Plan and schedule installation                                                                                      | Deployment                                             |
 | 6                            | Regional Project Manager (PM)/ Field Implementation Services (FIS)/ Office of Policy and Planning (OPP) PM                           | Installation                           | Ensure authority to operate and that certificate authority security documentation is in place                       | Design/Build                                           |
-| 7                            | Regional PM/FIS/OPP PM/ Nat’l Education & Training                                                                                   | Installations                          | Coordinate training                                                                                                 | Deployment                                             |
+| 7                            | Regional PM/FIS/OPP PM/ Nat'l Education & Training                                                                                   | Installations                          | Coordinate training                                                                                                 | Deployment                                             |
 | 8                            | FO, EO, or Product Development (depending upon project ownership)                                                                    | Back-out                               | Confirm availability of back-out instructions and back-out strategy (what are the criteria that trigger a back-out) | Deployment                                             |
 | 9                            | FO, EO, or Product Development (depending upon project ownership)                                                                    | Post Deployment                        | Hardware, Software and System Support                                                                               | Maintenance                                            |
 
@@ -194,7 +215,7 @@ There are no facility-specific deployment or installation features of patch PSO\
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Patch PSO\*7.0\*617 is being released to enhance VistA’s Pharmacy Outpatient Pharmacy package. The patch allows the VA to receive prescriptions from external providers and allows the pharmacist to validate the prescription for final processing and dispensing in existing VistA functionality. It will be deployed to all VA pharmacy VistA sites nationwide.
+Patch PSO\*7.0\*617 is being released to enhance VistA's Pharmacy Outpatient Pharmacy package. The patch allows the VA to receive prescriptions from external providers and allows the pharmacist to validate the prescription for final processing and dispensing in existing VistA functionality. It will be deployed to all VA pharmacy VistA sites nationwide.
 
 It does not require additional hardware capabilities other than what is currently used by a VistA installation at the sites.
 
@@ -368,9 +389,9 @@ This patch may be installed with users on the system although it is recommended 
 
 1.  Backup a Transport Global - This option will create a backup build of patch
 
-    components. Respond “BUILD” at the “Select one of the following: B
+    components. Respond "BUILD" at the "Select one of the following: B
 
-> Build or R Routines” prompt. \*\*THIS IS CRITICAL TO ACCURATE PATCH
+> Build or R Routines" prompt. \*\*THIS IS CRITICAL TO ACCURATE PATCH
 
 > BACKUP ON YOUR SYSTEM. \*\*
 
@@ -618,11 +639,11 @@ No database tuning is required before or after deployment of PSO\*7.0\*617.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> **NOTE:** Due to the complexity of this patch (because of the data dictionary changes), it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the NSD at 855-NSD-HELP (673-4357) and reference “Inbound eRx” to submit a YourIT ServiceNow ticket; the development team will assist with the process.
+> **NOTE:** Due to the complexity of this patch (because of the data dictionary changes), it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the NSD at 855-NSD-HELP (673-4357) and reference "Inbound eRx" to submit a YourIT ServiceNow ticket; the development team will assist with the process.
 
 The Back-out Procedure consists of restoring the routines and removing the Data Dictionaries (DD) introduced by the Patch PSO\*7.0\*617.
 
-The rollback/backout procedure for these patches should only occur when there is concurrence from the Enterprise Product Support and Inbound ePrescribing development teams, because of the complexity and risk involved in a rollback/backout. Normal installation back-ups using KIDS will back up only Mumps routines. For all non-routine components of these builds, Enterprise Product Support will have a build available if needed. Make sure the ‘Backup a Transport Global’ step in section 4.8 of this document is followed, so you do have a backup of all the routines if needed.
+The rollback/backout procedure for these patches should only occur when there is concurrence from the Enterprise Product Support and Inbound ePrescribing development teams, because of the complexity and risk involved in a rollback/backout. Normal installation back-ups using KIDS will back up only Mumps routines. For all non-routine components of these builds, Enterprise Product Support will have a build available if needed. Make sure the 'Backup a Transport Global' step in section 4.8 of this document is followed, so you do have a backup of all the routines if needed.
 
 The back-out is to be performed by persons with programmer-level access.
 
@@ -632,7 +653,7 @@ The back-out is to be performed by persons with programmer-level access.
 
 The Back-out Strategy is to manually delete the new Data Definitions (DDs) introduced with this patch.
 
-The Back-out and Rollback plan for VistA applications is complex and not able to be a “one size fits all.” The general strategy for VistA back-out and rollback is to repair the code with a follow-on patch. However, the backup of the transport global when created as part of the install will allow the routines to be converted to the prior patch state. For IEP, this is sufficient to restore the code to prior functionality.
+The Back-out and Rollback plan for VistA applications is complex and not able to be a "one size fits all." The general strategy for VistA back-out and rollback is to repair the code with a follow-on patch. However, the backup of the transport global when created as part of the install will allow the routines to be converted to the prior patch state. For IEP, this is sufficient to restore the code to prior functionality.
 
 The development team recommends that sites log a help desk ticket if it is a nationally released patch; otherwise, the site should contact the product development team directly for specific solutions to their unique problems.
 
@@ -676,7 +697,7 @@ Local Facility Management has the authority to back-out patch PSO\*7.0\*617.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Due to the complexity of this patch, it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference “Inbound eR<sub>X</sub>” to submit a YourIT ServiceNow ticket; the development team will assist with the process.
+Due to the complexity of this patch, it is not recommended for back-out. However, in the event that a site decides to back-out this patch, the site should contact the National Service Desk (NSD) at 855-NSD-HELP (673-4357) and reference "Inbound eR<sub>X</sub>" to submit a YourIT ServiceNow ticket; the development team will assist with the process.
 
 # Rollback Procedure
 

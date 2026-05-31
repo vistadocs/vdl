@@ -3,7 +3,7 @@ title: DVB Version 4 Technical Manual
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: HINQ
 app_name: Hospital Inquiry
 section: FIN
@@ -11,38 +11,38 @@ app_status: active
 pkg_ns: HINQ
 patch_ver: 4
 patch_id: HINQ*4
-group_key: "HINQ:HINQ:4"
-file_numbers: []
-security_keys: []
+group_key: HINQ:HINQ:4
+description: '- # Revision History - # Introduction - HINQ Replacement Diagram - HINQ User Interface - HINQ Processing - Pending - New Mail - Error - [IDCU...'
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '300.11'
+- '300.119'
+- '395.1'
+- '395.4'
+- '395.5'
+- '743085'
+security_keys:
+- DG ELIGIBILITY
+- DVBHINQ A
+- HINQ
 menu_options: 1
-description: - [# Revision History](#revision-history) - [# Introduction](#introduction) - [HINQ Replacement Diagram](#hinq-replacement-diagram) - [HINQ User Interface](#hinq-user-interface) - [HINQ Processing](#hinq-processing) - [Pending](#pending) - [New Mail](#new-mail) - [Error](#error) - [IDCU Error](#idcu
-audience: 
-keywords: 
-  - mark
-  - class
-  - blank
-  - hinq
-  - even
-  - table
-  - contents
-  - span
-  - suspense
-  - code
 page_count: 0
 word_count: 14725
 section_count: 48
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: March 1992
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=41"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Hosp_Inquiry_(HINQ)/dvb_4_62_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=41
+audit_applied: '2026-05-31'
 ---
 
 ![](dvb-version-4-technical-manual/001.png)

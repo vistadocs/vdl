@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: YS
 patch_ver: 5.01
 patch_id: YS*5.01*158
-group_key: "YS:YS:5.01"
+group_key: YS:YS:5.01
+description: Table used for formatting, only.Revision History, including date of changes, version number, description of change, and author of
+audience: Technical staff, IRM, system administrators
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - application
-  - software
-  - requirements
-  - security
-  - patient
-  - vista
-  - assignment
-  - health
 page_count: 0
 word_count: 1972
 section_count: 19
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004av_tm_ys_501_158.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004av_tm_ys_501_158.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004av_tm_ys_501_158.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/clin_0004av_tm_ys_501_158.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
 
 Mental Health – Suicide Prevention

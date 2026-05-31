@@ -3,47 +3,122 @@ title: LA*5.2*80/LR*5.2*427 LDSI/LEDI IV Update HL7 Interface Specification
 doc_type: INT
 doc_label: Interface Specification
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: LEDI
-app_name: "Laboratory: Electronic Data Interchange"
+app_name: 'Laboratory: Electronic Data Interchange'
 section: CLI
 app_status: active
 pkg_ns: LA
 patch_ver: 5.2
 patch_id: LA*5.2*80
-group_key: "LEDI:LA:5.2"
-file_numbers: 
-  - 62
-security_keys: []
+group_key: LEDI:LA:5.2
+description: 01/19/05 1.1 Incorporated microbiology comments in HL7 table 0356 per HDR-IMS request NTE message segment
+audience: ''
+keywords: []
+file_numbers:
+- '1'
+- '1.1'
+- '1.2'
+- '1.3'
+- '1.4'
+- '1.5'
+- '2'
+- '2.1'
+- '2.11'
+- '2.13'
+- '2.2'
+- '2.21'
+- '3'
+- '4'
+- '5'
+- '5.3'
+- '5.4'
+- '5.6'
+- '5.7'
+- '5.8'
+- '5.9'
+- '6.5'
+- '8'
+- '9'
+- '10'
+- '11'
+- '11.52'
+- '11.55'
+- '11.57'
+- '11.58'
+- '11.6'
+- '11.7'
+- '12'
+- '13'
+- '14'
+- '15.5'
+- '15.51'
+- '16'
+- '16.3'
+- '16.4'
+- '16.5'
+- '17'
+- '18'
+- '19.5'
+- '19.6'
+- '20'
+- '20.4'
+- '20.5'
+- '21'
+- '22'
+- '24'
+- '25'
+- '25.5'
+- '26'
+- '26.4'
+- '26.5'
+- '27'
+- '30'
+- '33'
+- '35'
+- '36'
+- '36.4'
+- '36.5'
+- '37'
+- '50'
+- '60'
+- '61'
+- '62'
+- '62.06'
+- '62.48'
+- '62.8'
+- '62.9'
+- '63'
+- '63.04'
+- '64'
+- '64.061'
+- '64.2'
+- '67'
+- '68'
+- '99'
+- '100'
+- '200'
+- '217'
+security_keys:
+- LRLAB
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - code
-  - vista
-  - identifier
-  - contains
-  - specimen
-  - message
-  - mark
-  - span
-  - number
 page_count: 0
 word_count: 27177
 section_count: 22
 table_count: 56
 figure_count: 9
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2013
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/la_52_74_la_52_80_hl7_interface_spec.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/la_52_74_la_52_80_hl7_interface_spec.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=75"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/la_52_74_la_52_80_hl7_interface_spec.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Electr_Data_Intrchg_(LEDI)/la_52_74_la_52_80_hl7_interface_spec.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=75
+audit_applied: '2026-05-31'
 ---
 
 ![](la-5-2-80-lr-5-2-427-ldsi-ledi-iv-update-hl7-interface-specification/001.png)

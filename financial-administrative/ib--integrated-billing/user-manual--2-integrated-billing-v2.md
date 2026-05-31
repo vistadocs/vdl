@@ -3,7 +3,7 @@ title: IB*2 Integrated Billing Version 2 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IB
 app_name: Integrated Billing
 section: FIN
@@ -11,49 +11,54 @@ app_status: archive
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2
+description: '''Removed some reports from the Insurance Reports menu: List Group Plans with No Annual Benefits, Veterans w/Insurance and Inpatient Admissions, and Veterans w/Insurance and Opt. Visits (section'''
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '36'
+- '52'
+- '350'
+- '350.3'
+- '350.4'
+- '350.41'
+- '350.6'
+- '350.9'
+- '351'
+- '351.2'
+- '351.52'
+- '354.1'
+- '363.10'
+- '399'
+- '405'
+security_keys:
+- COMPANY ADD
+- GROUP PLAN EDIT
+- IB AUTHORIZE
+- IB EDIT
+- IB INSURANCE SUPERVISOR
+- IB SUPERVISOR
+- PROVIDER
+- XUMGR
 menu_options: 7
-description: 
-audience: 
-keywords: 
-  - physician
-  - date
-  - bill
-  - insurance
-  - patient
-  - billing
-  - table
-  - charges
-  - report
-  - contents
 page_count: 0
-word_count: 91402
+word_count: 91390
 section_count: 65
 table_count: 45
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=266"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)_Archive/ib_2_0_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=266
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Integrated Billing
-
-  Version 2.0
-
-  User Guide
----
-
 ![](ib-2-integrated-billing-version-2-user-manual/001.png)
 
 September 2023

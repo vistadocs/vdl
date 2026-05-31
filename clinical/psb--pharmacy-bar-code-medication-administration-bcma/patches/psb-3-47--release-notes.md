@@ -3,46 +3,42 @@ title: PSB*3*47 PSS*1*141 BCMA Version 3 Release Notes - Immunizations
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: PSS*1*141 BCMA Version 3  - Immunizations
+doc_subject: PSS*1*141 BCMA Version 3 - Immunizations
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3
 patch_id: PSB*3*47
-group_key: "PSB:PSB:3"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3
+description: IMMUNIZATIONS DOCUMENTATION BY BAR CODE MEDICATION ADMINISTRATION
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '9'
+- '50.7'
+- '900001'
+- '999999'
+security_keys:
+- PSB MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - code
-  - medication
-  - administration
-  - introduction
-  - features
-  - example
-  - manager
-  - modifications
 page_count: 0
 word_count: 101
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p47_pss_1_p141_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p47_pss_1_p141_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p47_pss_1_p141_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/psb_3_p47_pss_1_p141_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 > ![](psb-3-47-pss-1-141-bcma-version-3-release-notes-immunizations/001.png)

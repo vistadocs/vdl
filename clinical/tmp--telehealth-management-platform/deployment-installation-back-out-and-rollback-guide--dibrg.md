@@ -1,19 +1,52 @@
 ---
-consolidated_title: "tmp dibrg"
-app_code: TMP
+title: TMP Version 2.0 Release 4.8 DIBRG
 doc_type: DIBR
-master_source: "TMP Version 2.0 Release 4.8 DIBRG"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: anchor
+doc_subject: Release 4.8 DIBRG
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 2.0
+patch_id: TMP*2.0
+group_key: TMP:TMP:2.0
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: '| Date | Version | Description | Author | |--------------------|---------|----------------------------------------------------------------------------------|---------------------------------| | June 19, 2020 | 4.0 | Added URL to CRM code and deployment instructions for TMP 4.8.0. | Redacted | |...'
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 4359
+section_count: 23
+table_count: 11
+figure_count: 0
+appendix_count: 2
+has_toc: false
+is_stub: false
+pub_date: June 2020
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/tmp_4-8_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 2.0 Release 4.8 DIBRG
 master_pub_date: June 2020
 consolidated_from: 9 versions
 prior_versions:
-  - "TMP Release 5.0.4 DIBRG"
-  - "TMP Release 5.1 DIBRG"
-  - "TMP Version 3.0 Release 4.9.0.6 DIBRG"
-  - "TMP Version 4.0 Release 4.9.0.8 DIBRG"
-  - "TMP Version 6.0 Release 4.9.0.9 DIBRG"
-  - "TMP Version 9.1 Release 4.9.0.13 DIBRG"
-  - "TMP Version 9.2 Release 4.9.0.14 DIBRG"
-  - "TMP Version 9.3 Release 4.9.0.15 DIBRG"
+- TMP Release 5.0.4 DIBRG
+- TMP Release 5.1 DIBRG
+- TMP Version 3.0 Release 4.9.0.6 DIBRG
+- TMP Version 4.0 Release 4.9.0.8 DIBRG
+- TMP Version 6.0 Release 4.9.0.9 DIBRG
+- TMP Version 9.1 Release 4.9.0.13 DIBRG
+- TMP Version 9.2 Release 4.9.0.14 DIBRG
+- TMP Version 9.3 Release 4.9.0.15 DIBRG
+consolidated_title: tmp dibrg
 ---
 
 Telehealth Management Platform Phase 3
@@ -716,14 +749,14 @@ Post Deployment Steps 
 
 Trigger Facility Approval Review Process 
 
-There is a workflow One Time: Trigger Facility Approval Yearly Review Process, which helps trigger the recursive workflow “Email Automation: Facility Approval Yearly Review". 
+There is a workflow One Time: Trigger Facility Approval Yearly Review Process, which helps trigger the recursive workflow "Email Automation: Facility Approval Yearly Review". 
 
   
 
 The following steps must be performed: 
 
 - Navigate to Settings \>\> Processes 
-- Deactivate the workflow “One Time: Trigger Facility Approval Yearly Review Process”, if already Activated 
+- Deactivate the workflow "One Time: Trigger Facility Approval Yearly Review Process", if already Activated 
 - Set the Timeout until to<u>9:30 AM EST</u> for the next day (*the day following the deployment*) 
 
 ![](tmp-version-2-0-release-4-8-dibrg/005.png) 
@@ -731,23 +764,23 @@ The following steps must be performed: 
 > **NOTE:** The time zone of the user in TMP, making the change to the workflow must be EST, so that the time set by the user is considered 9:30 AM EST. 
 
 - Save and Activate the Workflow 
-- Run the workflow “One Time: Trigger Facility Approval Yearly Review Process” against any Email Automation record (*navigate via Settings \>\> Email Automation*). 
+- Run the workflow "One Time: Trigger Facility Approval Yearly Review Process" against any Email Automation record (*navigate via Settings \>\> Email Automation*). 
 
  
 
-To confirm that the “One Time: Trigger Facility Approval Yearly Review Process” did trigger,   
+To confirm that the "One Time: Trigger Facility Approval Yearly Review Process" did trigger,   
 
-navigate to Settings \>\> System Jobs and check that the “One Time: Trigger Facility Approval Yearly Review Process" system job shows with the Status Reason of “Waiting for timer”. 
+navigate to Settings \>\> System Jobs and check that the "One Time: Trigger Facility Approval Yearly Review Process" system job shows with the Status Reason of "Waiting for timer". 
 
  
 
 Workflow Ownership 
 
-Navigate to Settings \>\> Processes and switch to All Processes view. Search for the workflow “Approval Process - Get Owner” and perform the following steps: 
+Navigate to Settings \>\> Processes and switch to All Processes view. Search for the workflow "Approval Process - Get Owner" and perform the following steps: 
 
-- Check the Owner of the workflow. If the Owner is “VHA, TMP Scheduling”, then skip the following steps 
-- If the Owner is not “VHA, TMP Scheduling”, and the workflow is activated, deactivate the workflow 
-- Change the Owner to “VHA, TMP Scheduling” 
+- Check the Owner of the workflow. If the Owner is "VHA, TMP Scheduling", then skip the following steps 
+- If the Owner is not "VHA, TMP Scheduling", and the workflow is activated, deactivate the workflow 
+- Change the Owner to "VHA, TMP Scheduling" 
 - Save and Activate the Workflow  
 
  
@@ -762,7 +795,7 @@ After the Dynamics solution deployment, the Technology Type option set will 
 
 <u>Update Technology Type for existing Patients</u> 
 
-1.  Create an Advanced Find to search Patients with the Technology Type of either “COTS Tablet” or “CVT Tablet”, as shown below: 
+1.  Create an Advanced Find to search Patients with the Technology Type of either "COTS Tablet" or "CVT Tablet", as shown below: 
 
 ![](tmp-version-2-0-release-4-8-dibrg/007.png) 
 
@@ -832,7 +865,7 @@ After the Dynamics solution deployment, the Review Due Date must be set for
 
 <u>Export existing TSAs </u> 
 
-1.   Open Advanced Find and create a query to retrieve TSAs where Review Due Date is set to “Does Not Contain Data”. 
+1.   Open Advanced Find and create a query to retrieve TSAs where Review Due Date is set to "Does Not Contain Data". 
 
 ![](tmp-version-2-0-release-4-8-dibrg/013.png) 
 
@@ -910,7 +943,7 @@ Internet Explorer (version 11) is the currently supported and tested browser 
 
 Pre-Requisites 
 
-“ihs-lob-prod-tmp.zip” file is required for deployment. It is included in the “Release 4.8.0” folder located on SharePoint ([here](https://dvagov.sharepoint.com/sites/OITEPMOTMP3/Shared%20Documents/Forms/AllItems.aspx?viewid=da348dfd%2Def61%2D4274%2Daede%2D309dab097636&id=%2Fsites%2FOITEPMOTMP3%2FShared%20Documents%2FDeployment%20Code%20Files%2FRelease%204%2E8%2E0)). 
+"ihs-lob-prod-tmp.zip" file is required for deployment. It is included in the "Release 4.8.0" folder located on SharePoint ([here](https://dvagov.sharepoint.com/sites/OITEPMOTMP3/Shared%20Documents/Forms/AllItems.aspx?viewid=da348dfd%2Def61%2D4274%2Daede%2D309dab097636&id=%2Fsites%2FOITEPMOTMP3%2FShared%20Documents%2FDeployment%20Code%20Files%2FRelease%204%2E8%2E0)). 
 
  
 
@@ -922,13 +955,13 @@ IHS-LOB-PROD-TMP-EAST 
 
 <u>https://ihs-lob-prod-tmp-east.scm.prod.vaec.va.gov/DebugConsole</u> 
 
-￼IHS-LOB-PROD-TMP-SOUTH 
+IHS-LOB-PROD-TMP-SOUTH 
 
  
 
 <u>https://ihs-lob-prod-tmp-south.scm.prod.vaec.va.gov/DebugConsole</u> 
 
-￼Page Break 
+Page Break 
 
 Deployment Steps 
 
@@ -936,12 +969,12 @@ This section provides how to deploy the VEIS Component Web App code (.zip file
 
 Note*: These steps are how to deploy *<u>one</u>* Azure Web App. There is a total of *<u>two</u>* Azure Web Apps. These steps must be implemented *<u>twice</u>* in total. *
 
-1.  Open Internet Explorer and navigate to the named Production Azure Web App resource via the Azure Portal (see <u>“Links to Kudu for both Load-Balanced Production Web Apps”</u> for resource names). 
+1.  Open Internet Explorer and navigate to the named Production Azure Web App resource via the Azure Portal (see <u>"Links to Kudu for both Load-Balanced Production Web Apps"</u> for resource names). 
 2.  Stop the Service. 
-3.  Navigate to the Azure Web App’s Kudu Console using the provided URL (see <u>“Links to Kudu for both Load-Balanced Production Web Apps”</u>). 
+3.  Navigate to the Azure Web App's Kudu Console using the provided URL (see <u>"Links to Kudu for both Load-Balanced Production Web Apps"</u>). 
 4.  Once in Kudu, navigate to /wwwroot. 
-5.  On the computer, open File Explorer and navigate to the location of the “ihs-lob-prod-tmp.zip” file. 
-6.  Drag the zip file from File Explorer over to the right-hand side of the table displayed in the Kudu Console. A logo “Drag here to upload and unzip” will display. Drop the zip file on top of this logo. 
+5.  On the computer, open File Explorer and navigate to the location of the "ihs-lob-prod-tmp.zip" file. 
+6.  Drag the zip file from File Explorer over to the right-hand side of the table displayed in the Kudu Console. A logo "Drag here to upload and unzip" will display. Drop the zip file on top of this logo. 
 
 ![](tmp-version-2-0-release-4-8-dibrg/024.png) 
 
@@ -1101,7 +1134,7 @@ To deploy the bug fix:
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Navigate to the
-2.  Select the production environment “VA TMP Prod”.
+2.  Select the production environment "VA TMP Prod".
 3.  Create a manual backup as shown below.
 
 ![](tmp-release-5-1-dibrg/014.png)
@@ -1115,8 +1148,8 @@ To deploy the bug fix:
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
 1.  Navigate to the
-2.  Select the production environment “VA TMP Prod”.
-3.  Select Restore or manage under “Backups” link.
+2.  Select the production environment "VA TMP Prod".
+3.  Select Restore or manage under "Backups" link.
 
 ![](tmp-release-5-1-dibrg/016.png)
 
@@ -1179,7 +1212,7 @@ N/A
 2.  Select the Backup a Transport Global option to create a backup message. You must use this option and specify what to backup, the entire Build or just Routines. The backup message can be used to restore the routines and components of the build to the pre-patch condition.
 1.  At the Installation option menu, select Backup a Transport Global.
 2.  At the Select INSTALL NAME prompt, enter your build SD\*5.3\*780.
-3.  When prompted for the following, enter “R” for Routines or “B” for Build.
+3.  When prompted for the following, enter "R" for Routines or "B" for Build.
 
 > Select one of the following:
 
@@ -1189,9 +1222,9 @@ N/A
 
 > Enter response: Build
 
-4.  When prompted “Do you wish to secure your build? NO//”, press \<enter\> and take the default response of “NO”.
-5.  When prompted with, “Send mail to: Last Name, First Name”, press \<enter\> to take the default recipient. Add any additional recipients.
-6.  When prompted with “Select basket to send to: IN//”, press \<enter\> and take the default IN mailbox or select a different mailbox.
+4.  When prompted "Do you wish to secure your build? NO//", press \<enter\> and take the default response of "NO".
+5.  When prompted with, "Send mail to: Last Name, First Name", press \<enter\> to take the default recipient. Add any additional recipients.
+6.  When prompted with "Select basket to send to: IN//", press \<enter\> and take the default IN mailbox or select a different mailbox.
 3.  You may also elect to use the following options:
 1.  Print Transport Global - This option will allow you to view the components of the KIDS build.
 2.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all of the components of this patch, such as routines, DDs, templates, etc.

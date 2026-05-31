@@ -11,39 +11,47 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: 
-  - 446
-security_keys: []
+group_key: PRC:PRC:5.1
+description: You have been selected as an Integrated Funds Distribution, Control Point Activity, Accounting, and Procurement (IFCAP) Application Coordinator. The IFCAP Application Coordinator User's Guide will provide you with guidance and training for your new responsibilities.
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '2'
+- '5'
+- '49'
+- '200'
+- '411'
+- '411.2'
+- '417'
+- '417.1'
+- '420.5'
+- '440'
+- '440.2'
+- '441'
+- '442'
+- '446.7'
+security_keys:
+- PRCHVEN
+- PRCPODI
+- PRCSCPO
+- XUPROG
 menu_options: 1
-description: You have been selected as an Integrated Funds Distribution, Control Point Activity, Accounting, and Procurement (IFCAP) Application Coordinator. The IFCAP Application Coordinator User’s Guide will provide you with guidance and training for your new responsibilities.
-audience: 
-keywords: 
-  - class
-  - ifcap
-  - strong
-  - table
-  - point
-  - control
-  - report
-  - span
-  - your
-  - fiscal
 page_count: 0
 word_count: 26827
 section_count: 11
 table_count: 18
 figure_count: 39
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1application_coord.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1application_coord.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1application_coord.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1application_coord.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

@@ -3,46 +3,42 @@ title: Electronic Health Modernization IFC (GMRC*3.0*189) Deployment, Installati
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
 pkg_ns: GMRC
 patch_ver: 3.0
 patch_id: GMRC*3.0*189
-group_key: "GMRC:GMRC:3.0"
-file_numbers: []
-security_keys: []
+group_key: GMRC:GMRC:3.0
+description: '| Date | Version | Description | Author | |---------|---------|---------------|---------| | 11/2024 | 1.0 | Initial draft | EHRM-IO'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '123'
+- '1609'
+security_keys:
+- XUPROG
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - installation
-  - back
-  - patch
-  - deployment
-  - rollback
-  - vista
-  - procedure
-  - build
 page_count: 0
 word_count: 2819
 section_count: 32
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_189_dibr.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_189_dibr.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_189_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/gmrc_3_189_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
 
 Electronic Health Modernization

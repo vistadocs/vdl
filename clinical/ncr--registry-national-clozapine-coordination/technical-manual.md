@@ -3,59 +3,51 @@ title: National Clozapine Registry Technical Manual (YS*5.01*227)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: NCR
-app_name: "Registry: National Clozapine Coordination"
+app_name: 'Registry: National Clozapine Coordination'
 section: CLI
 app_status: active
 pkg_ns: NCR
 patch_ver: 5.01
 patch_id: NCR*5.01
-group_key: "NCR:NCR:5.01"
-file_numbers: []
-security_keys: []
+group_key: NCR:NCR:5.01
+description: '''> **NOTE:** The revision history cycle begins once changes or enhancements are requested after the document has been'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '50'
+- '52'
+- '55'
+- '60'
+- '200'
+- '603.01'
+- '603.03'
+security_keys:
+- ORES
+- PROVIDER
+- PSORPH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - clozapine
-  - supported
-  - reference
-  - vista
-  - software
-  - patient
-  - class
-  - span
 page_count: 0
-word_count: 4210
+word_count: 4192
 section_count: 22
 table_count: 4
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=236"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Registries_National_Clozapine_Coordination/ys_5_01_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=236
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>National Clozapine Registry
-
-  VistA Mental Health Package
-
-  Patch YS\*5.01\*227
-
-  Technical Manual
----
-
 ![](national-clozapine-registry-technical-manual-ys-5-01-227/001.png)
 
 April 2024

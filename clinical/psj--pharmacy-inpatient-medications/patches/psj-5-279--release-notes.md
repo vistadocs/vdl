@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: IV Bag Logic/Infusion Rate T@0
 app_code: PSJ
-app_name: "Pharmacy: Inpatient Medications"
+app_name: 'Pharmacy: Inpatient Medications'
 section: CLI
 app_status: active
 pkg_ns: PSJ
 patch_ver: 5
 patch_id: PSJ*5*279
-group_key: "PSJ:PSJ:5"
-file_numbers: []
+group_key: PSJ:PSJ:5
+description: '> This document provides a brief description of new features of the IV Bag Logic/Infusion Rate T@0 for Inpatient Medications V.5.0 project for patch PSJ\5\279.'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '5'
+- '53.1'
+- '53.46'
 security_keys: []
 menu_options: 0
-description: > This document provides a brief description of new features of the IV Bag Logic/Infusion Rate T@0 for Inpatient Medications V.5.0 project for patch PSJ\5\279.
-audience: 
-keywords: 
-  - table
-  - contents
-  - order
-  - labels
-  - associated
-  - orders
-  - inpatient
-  - resolved
-  - manual
-  - rate
 page_count: 0
 word_count: 810
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p279_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p279_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=88"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p279_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Inpatient_Med/psj_5_p279_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=88
+audit_applied: '2026-05-31'
 ---
 
 ![](psj-5-279-release-notes-iv-bag-logic-infusion-rate-t-0/001.png)

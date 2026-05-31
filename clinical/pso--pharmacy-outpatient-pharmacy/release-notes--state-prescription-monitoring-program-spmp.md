@@ -1,12 +1,87 @@
 ---
-consolidated_title: "state prescription monitoring program (spmp) release notes"
-app_code: PSO
+title: PSO*7*408 State Prescription Monitoring Program (SPMP) Release Notes
 doc_type: RN
-master_source: "PSO*7*408 State Prescription Monitoring Program (SPMP) Release Notes"
+doc_label: Release Notes
+doc_layer: patch
+doc_subject: State Prescription Monitoring Program (SPMP)
+app_code: PSO
+app_name: 'Pharmacy: Outpatient Pharmacy'
+section: CLI
+app_status: active
+pkg_ns: PSO
+patch_ver: 7
+patch_id: PSO*7*408
+group_key: PSO:PSO:7
+file_numbers:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '17'
+- '18'
+- '19'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '26'
+- '27'
+- '28'
+- '29'
+- '30'
+- '31'
+- '32'
+- '52'
+- '52.07'
+- '52.1'
+- '58.4'
+- '58.41'
+- '58.42'
+- '70'
+- '100'
+- '200'
+security_keys:
+- PROVIDER
+menu_options: 9
+description: State Prescription Monitoring Program (SPMP)Patch PSO\*7\*408Release
+audience: System administrators, end users reviewing changes
+keywords: []
+page_count: 0
+word_count: 1842
+section_count: 11
+table_count: 10
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: August 2014
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p408_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p408_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
+master_source: PSO*7*408 State Prescription Monitoring Program (SPMP) Release Notes
 master_pub_date: August 2014
 consolidated_from: 2 versions
 prior_versions:
-  - "PSO*7*451 State Prescription Monitoring Program (SPMP) Release Notes"
+- PSO*7*451 State Prescription Monitoring Program (SPMP) Release Notes
+consolidated_title: state prescription monitoring program (spmp) release notes
 ---
 
 > ![](pso-7-408-state-prescription-monitoring-program-spmp-release-notes/001.png)
@@ -167,7 +242,7 @@ The following options are under *Supervisor Functions* \[PSO SPMP MENU\]:
 8.  FILE NAME PREFIX  
     This is the prefix that will be appended to the name of the export file transmitted to the state
 
-    (e.g., for New Jersey, station 561 “NJ_561\_”).
+    (e.g., for New Jersey, station 561 "NJ_561\_").
 9.  FILE EXTENSION  
     This is the extension of the export file transmitted to the state.
 - .TXT .TXT
@@ -453,7 +528,7 @@ All ASAP standard Segments and Data Elements have been catalogued into VistA for
 
 - Rename file after upload now a parameter
 
-The current transmission creates and sends the data file with the ".UP" file extension (for "upload"); once the file is transmitted a command within Secure File Transfer Protocol (sFTP) is issued to rename the file to the designated file extension set within the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option. This functionality was modified to allow the end-user to choose between creating and transmitting the file with the selected file extension, such as .DAT, or to create the file with a “.UP” extension, transmit it and then rename it. This new parameter is called RENAME FILE AFTER UPLOAD and can be updated through the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option.
+The current transmission creates and sends the data file with the ".UP" file extension (for "upload"); once the file is transmitted a command within Secure File Transfer Protocol (sFTP) is issued to rename the file to the designated file extension set within the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option. This functionality was modified to allow the end-user to choose between creating and transmitting the file with the selected file extension, such as .DAT, or to create the file with a ".UP" extension, transmit it and then rename it. This new parameter is called RENAME FILE AFTER UPLOAD and can be updated through the View/Edit SPMP State Parameters \[PSO SPMP STATE PARAMETERS\] option.
 
 - DSP17 (Date Sold) will now be reported
 
@@ -469,9 +544,9 @@ When a VOID record is sent to the state the functionality will retrieve the actu
 
 - Mail Group PSO SPMP NOTIFICATIONS set to PUBLIC
 
-> The mail group PSO SPMP NOTIFICATIONS was previously exported by patch PSO\*7.0\*408 as ‘Private’ and is now being modified to type ‘Public’.
+> The mail group PSO SPMP NOTIFICATIONS was previously exported by patch PSO\*7.0\*408 as 'Private' and is now being modified to type 'Public'.
 
-- Misleading “File Successfully Transmitted” message for Linux OS now fixed
+- Misleading "File Successfully Transmitted" message for Linux OS now fixed
 
 The previous algorithm used to identify whether the SPMP sFTP data transmission was successful was not 100% accurate for Linux Operating Systems. A new algorithm has been created and it will reflect the transmission status accurately.
 
@@ -479,9 +554,9 @@ The previous algorithm used to identify whether the SPMP sFTP data transmission 
 
 When exporting an existing batch through the View/Export Batch \[PSO SPMP BATCH VIEW/EXPORT\] option the user will have the option to run the transmission on the Foreground or the Background. Previously manual transmissions always executed in the foreground. Adding the background option will help sites troubleshoot problems with the scheduled transmission which always runs on the background.
 
-- “Hand-shaking” on non-Default Port \# issue resolved
+- "Hand-shaking" on non-Default Port \# issue resolved
 
-When a transmission is first attempted it needs to “shake hands” with the new server before data can be exchanged between VistA and the new server. The previous patch PSO\*7.0\*408 did not take into account an alternate port \# (non-default 22) and failed to do the “hand-shaking” automatically. This patch addresses the problem.
+When a transmission is first attempted it needs to "shake hands" with the new server before data can be exchanged between VistA and the new server. The previous patch PSO\*7.0\*408 did not take into account an alternate port \# (non-default 22) and failed to do the "hand-shaking" automatically. This patch addresses the problem.
 
 - Field Lengths
 

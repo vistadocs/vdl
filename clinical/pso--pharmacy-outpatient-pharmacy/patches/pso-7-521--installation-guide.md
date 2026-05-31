@@ -5,57 +5,38 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Java-FDA Medication Guides Automatic Printing Project
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*521
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: This Installation Guide provides a description of the installation and deployment procedures for the Department of Veterans Affairs (VA) Food and Drug Administration (FDA) Medication Guides Increment 3 project. This section focuses on the project's Java FDA Med Guides Printer Tool. The FDA Med Guide
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
+- '75'
 security_keys: []
 menu_options: 0
-description: This Installation Guide provides a description of the installation and deployment procedures for the Department of Veterans Affairs (VA) Food and Drug Administration (FDA) Medication Guides Increment 3 project. This section focuses on the project’s Java FDA Med Guides Printer Tool. The FDA Med Guide
-audience: 
-keywords: 
-  - guides
-  - installation
-  - java
-  - table
-  - contents
-  - figure
-  - task
-  - printing
-  - automatic
-  - account
 page_count: 0
-word_count: 7685
+word_count: 7662
 section_count: 26
 table_count: 11
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2018
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PHAR_FDA_MED_GUIDE_AUTO_PSO_7_521_IG.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PHAR_FDA_MED_GUIDE_AUTO_PSO_7_521_IG.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PHAR_FDA_MED_GUIDE_AUTO_PSO_7_521_IG.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/PHAR_FDA_MED_GUIDE_AUTO_PSO_7_521_IG.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>FDA Medication Guides Project
-
-  Automatic Printing
-
-  Java Component
-
-  <span id="_Toc78348893" class="anchor"></span>INSTALLATION GUIDE
----
-
 ![](pso-7-521-java-fda-medication-guides-automatic-printing-project-installation-gui/001.png)
 
 XU\*8\*566

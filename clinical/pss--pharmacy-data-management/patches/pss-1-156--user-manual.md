@@ -3,46 +3,53 @@ title: PSS*1*156 Outpatient Pharmacy Automation Interface Expansion (OPAI) User 
 doc_type: UM
 doc_label: User Manual
 doc_layer: patch
-doc_subject: Outpatient Pharmacy Automation Interface Expansion (OPAI)  Change pages
+doc_subject: Outpatient Pharmacy Automation Interface Expansion (OPAI) Change pages
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*156
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: '>'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '3'
+- '19'
+- '28'
+- '50'
+- '50.0906'
+- '50.6'
+- '50.68'
+- '50.7'
+- '51.24'
+- '51.7'
+- '52.53'
+- '59'
+- '105'
+- '105.2'
+- '200'
+- '2006'
 security_keys: []
 menu_options: 6
-description: > ![](pss-1-156-outpatient-pharmacy-automation-interface-expansion-opai-user-manual-ch/001.png)
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - mark
-  - class
-  - added
-  - route
-  - table
-  - report
-  - drug
-  - medication
 page_count: 0
 word_count: 2464
 section_count: 3
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p156_um_cp.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p156_um_cp.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p156_um_cp.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/pss_1_p156_um_cp.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 > ![](pss-1-156-outpatient-pharmacy-automation-interface-expansion-opai-user-manual-ch/001.png)

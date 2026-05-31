@@ -1,19 +1,46 @@
 ---
-consolidated_title: "deployment, installation, back-out, and rollback guide word doc"
-app_code: CDSP
+title: OR*3*614 Deployment, Installation, Back-out, and Rollback Guide Word Doc
 doc_type: DIBR
-master_source: "OR*3*614 Deployment, Installation, Back-out, and Rollback Guide Word Doc"
-master_pub_date: revision_count: 0
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: Word Doc
+app_code: CDSP
+app_name: Clinical Decision Support Platform
+section: GUI
+app_status: active
+pkg_ns: OR
+patch_ver: 3
+patch_id: OR*3*614
+group_key: CDSP:OR:3
+file_numbers: []
+security_keys:
+- XUPROG
+- XUPROGMODE
+menu_options: 0
+description: February 2024OR\*3\*614Department of Veterans AffairsOffice of Information and Technology (OIT)Revision
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 2582
+section_count: 33
+table_count: 7
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: null
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Clinical_Decision_Support_Platform_(CDSP)/or_3_0_614_dibr_word_doc.docx
+app_url: https://www.va.gov/vdl/application.asp?appid=435
+audit_applied: '2026-05-31'
+master_source: OR*3*614 Deployment, Installation, Back-out, and Rollback Guide Word Doc
+master_pub_date: 'null'
 consolidated_from: 2 versions
 prior_versions:
-  - "CDSP*1*0 Deployment, Installation, Back-out, and Rollback Guide Word Doc"
----
-
----
-title: |
-  <span id="_heading=h.gjdgxs" class="anchor"></span>OR\*3.0\*614 Vista Patch
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBORG)
+- CDSP*1*0 Deployment, Installation, Back-out, and Rollback Guide Word Doc
+consolidated_title: deployment, installation, back-out, and rollback guide word doc
 ---
 
 ![](or-3-614-deployment-installation-back-out-and-rollback-guide-word-doc/001.png)
@@ -52,7 +79,7 @@ Artifact Rationale
 
 This document describes the Deployment, Installation, Back-out, and Rollback Plan for new products going into the VA Enterprise. The plan includes information about system support, issue tracking, escalation processes, and roles and responsibilities involved in all those activities. Its purpose is to provide clients, stakeholders, and support personnel with a smooth transition to the new product or software, and should be structured appropriately, to reflect particulars of these procedures at a single or at multiple locations.
 
-Per the Veteran-focused Integration Process (VIP) Guide, the “Deployment, Installation, Back-out, and Rollback Plan” is required to be completed prior to Critical Decision Point \#2 (CD \#2), with the expectation that it will be updated throughout the lifecycle of the project for each build, as needed.
+Per the Veteran-focused Integration Process (VIP) Guide, the "Deployment, Installation, Back-out, and Rollback Plan" is required to be completed prior to Critical Decision Point \#2 (CD \#2), with the expectation that it will be updated throughout the lifecycle of the project for each build, as needed.
 
 Table of Contents
 
@@ -307,13 +334,13 @@ No Cron scripts are needed for the OR\*3\*614 installation.
 
 To install the VistA patches in the host file, the patch installer must be an active user on the
 
-VistA system and have access to the VistA menu option “Kernel Installation & Distribution
+VistA system and have access to the VistA menu option "Kernel Installation & Distribution
 
-System” \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE.
+System" \[XPD MAIN\] and have VistA security keys XUPROG and XUPROGMODE.
 
 Knowledge on how to install VistA patches using the items on this menu option is also a
 
-required skill. The patch installer will need access to the PackMan message containing the OR\*3\*614 patch or to FORUM’s NPM for downloading the patch.
+required skill. The patch installer will need access to the PackMan message containing the OR\*3\*614 patch or to FORUM's NPM for downloading the patch.
 
 ## Installation Procedure
 
@@ -338,9 +365,9 @@ required skill. The patch installer will need access to the PackMan message cont
 
 > Enter response: Build
 
-4.  When prompted “Do you wish to secure your build? NO//”, press \<enter\> and take the default response of NO.
-5.  When prompted with, “Send mail to: Last name, First Name”, press \<enter\> to take default recipient. Add any additional recipients.
-6.  When prompted with “Select basket to send to: IN//”, press \<enter\> and take the default IN mailbox or select a different mailbox.
+4.  When prompted "Do you wish to secure your build? NO//", press \<enter\> and take the default response of NO.
+5.  When prompted with, "Send mail to: Last name, First Name", press \<enter\> to take default recipient. Add any additional recipients.
+6.  When prompted with "Select basket to send to: IN//", press \<enter\> and take the default IN mailbox or select a different mailbox.
 2.  You may also elect to use the following options:
     1.  Print Transport Global – This option will allow you to view the components of the KIDS build.
     2.  Compare Transport Global to Current System - This option will allow you to view all changes that will be made when this patch is installed. It compares all the components of this patch, such as routines, DDs, templates, etc.
@@ -389,7 +416,7 @@ to other considerations could occur.
 
 If the back-out is post-release of patch OR\*3\*614, this patch should be assigned the status of
 
-“Entered in Error” in Forum’s NPM.
+"Entered in Error" in Forum's NPM.
 
 ### Load Testing
 
@@ -411,7 +438,7 @@ N/A
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Criteria for back-out includes, but is not limited to, the project’s cancelation or OR\*3\*614 produces catastrophic problems.
+Criteria for back-out includes, but is not limited to, the project's cancelation or OR\*3\*614 produces catastrophic problems.
 
 ## Back-Out Risks
 

@@ -3,7 +3,7 @@ title: Accounts Receivable Version 4.5 ePayments User Manual (EDI Lockbox)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: ePayments  (EDI Lockbox)
+doc_subject: ePayments (EDI Lockbox)
 app_code: PRCA
 app_name: Accounts Receivable (AR)
 section: FIN
@@ -11,49 +11,48 @@ app_status: active
 pkg_ns: PRCA
 patch_ver: 4.5
 patch_id: PRCA*4.5
-group_key: "PRCA:PRCA:4.5"
-file_numbers: []
-security_keys: []
+group_key: PRCA:PRCA:4.5
+description: '| Date | Revision | Description | Project Manager | Technical Writer | |----------------|----------|---------------------------------------------------------------------------------------|--------------------------------------------|--------------------------------------------| | December 2025 |...'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '1'
+- '341.1'
+- '344'
+- '344.31'
+- '344.4'
+- '344.41'
+security_keys:
+- PRCADJ
+- PRCFA SUPERVISOR
+- PROVIDER
+- RCDPE AGED PMT
+- RCDPE AUTO DEC
+- RCDPE ERA EXCEPT
+- RCDPE MARK ERA
+- RCDPE PAYER IDENTIFY
+- RCDPE REMOVE DUPLICATES
+- RCDPE REMOVE EEOB
+- RCDPEAR
+- RCDPEPP
 menu_options: 12
-description: 
-audience: 
-keywords: 
-  - report
-  - auto
-  - total
-  - table
-  - number
-  - contents
-  - amount
-  - date
-  - receipt
-  - payment
 page_count: 0
-word_count: 59685
+word_count: 59664
 section_count: 75
 table_count: 11
 figure_count: 1
 appendix_count: 5
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: December 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ePayments_edi_lockbox_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ePayments_edi_lockbox_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=29"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ePayments_edi_lockbox_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Accounts_Receivable_(AR)/ePayments_edi_lockbox_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=29
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>ePayments
-
-  (Electronic Data Interchange \[EDI\] Lockbox)
-
-  <span id="_Toc311740987" class="anchor"></span>User Manual
----
-
 ![](accounts-receivable-version-4-5-epayments-user-manual-edi-lockbox/001.png)
 
 December 2025

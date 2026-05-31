@@ -3,7 +3,7 @@ title: HBH*1*32 HBPC Release Notes
 doc_type: RN
 doc_label: Release Notes
 doc_layer: patch
-doc_subject: 
+doc_subject: null
 app_code: HBPC
 app_name: Home Based Primary Care
 section: CLI
@@ -11,38 +11,30 @@ app_status: active
 pkg_ns: HBH
 patch_ver: 1
 patch_id: HBH*1*32
-group_key: "HBPC:HBH:1"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: HBPC:HBH:1
 description: These release notes cover the changes to Home Base Primary Care for the HBH\1.0\32 release.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - hbpcare
-  - provider
-  - number
-  - hbpc
-  - table
-  - contents
-  - release
-  - site
-  - hbhc
-  - update
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers: []
+security_keys:
+- PROVIDER
+menu_options: 0
 page_count: 0
 word_count: 1083
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=68"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Home_Based_Pri_Care_(HBPC)/hbh_1_0_p32_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=68
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

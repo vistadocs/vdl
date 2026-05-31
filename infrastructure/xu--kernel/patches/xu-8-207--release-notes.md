@@ -5,44 +5,36 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: KDC Readme
 app_code: XU
-app_name: Kernel Delphi Components (KDC)
+app_name: Kernel
 section: INF
 app_status: active
 pkg_ns: XU
 patch_ver: 8
 patch_id: XU*8*207
-group_key: "XU:XU:8"
+group_key: XU:XU:8
+description: '''\\ Kernel Delphi Components (KDC) V. 1.0 Readme: Patch XU\\8.0\\*207 initial release'''
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- XQAL DELETE
 menu_options: 0
-description: "\ Kernel Delphi Components (KDC) V. 1.0 Readme: Patch XU\8.0\*207 initial release"
-audience: 
-keywords: 
-  - delphi
-  - components
-  - kernel
-  - component
-  - provides
-  - installation
-  - help
-  - date
-  - alerts
-  - readme
 page_count: 0
 word_count: 474
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0rm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0rm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=127"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0rm.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel_Delphi_Components/kdc1_0rm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=127
+audit_applied: '2026-05-31'
 ---
 
 Readme File

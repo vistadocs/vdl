@@ -3,7 +3,7 @@ title: Emergency Department Integration Software Server Installation Guide with 
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: Emergency Department Integration Software Server  with Client Configuration
+doc_subject: Emergency Department Integration Software Server with Client Configuration
 app_code: EDIS
 app_name: Emergency Department Integration Software
 section: CLI
@@ -11,47 +11,35 @@ app_status: active
 pkg_ns: EDIS
 patch_ver: 2.2
 patch_id: EDIS*2.2
-group_key: "EDIS:EDIS:2.2"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - edis
-  - table
-  - contents
-  - prompt
-  - press
-  - edpf
-  - site
-  - board
-  - department
-  - application
+group_key: EDIS:EDIS:2.2
+description: Added section Creating a Desktop Shortcut Added the VA Folder Shortcut Note in section 4.1.1 Added section Create/Update EDIS Link on CPRS Tools Menu Patch specific installation sections and procedures have been altered or removed within this document and integrated into the accompanying...
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '200'
+- '210'
+security_keys:
+- ORELSE
+- PROVIDER
+- PSJ RNURSE
+menu_options: 1
 page_count: 0
-word_count: 3934
+word_count: 3916
 section_count: 16
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_ig_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_ig_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=179"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_ig_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Emergency_Dept_Integration_Software/edis_2_2_ig_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=179
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Emergency Department Integration Software (EDIS)
-
-  Server Installation Guide with Client Configuration
----
-
 ![](emergency-department-integration-software-server-installation-guide-with-client-/001.png)
 
 Department of Veterans Affairs (VA)

@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: IB
 patch_ver: 2
 patch_id: IB*2*432
-group_key: "IB:IB:2"
-file_numbers: []
-security_keys: []
+group_key: IB:IB:2
+description: '- Introduction - Hardware Compatibility - System Specifications - Installation and Configuration Notes - Supported Functionality - [Release Changes and...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '4'
+- '36'
+- '200'
+- '364.7'
+- '399'
+security_keys:
+- PROVIDER
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - span
-  - billing
-  - table
-  - provider
-  - secondary
-  - contents
-  - claims
-  - class
-  - edit
-  - insurance
 page_count: 0
 word_count: 5957
 section_count: 14
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2011
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p432_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p432_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=45"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p432_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Integrated_Billing_(IB)/ib_2_p432_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=45
+audit_applied: '2026-05-31'
 ---
 
 eClaims Iteration 4

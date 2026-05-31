@@ -11,38 +11,35 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: []
-security_keys: []
+group_key: PRC:PRC:5.1
+description: Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP)Version 5.1Accounting TechnicianUser's
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '411'
+- '414.06'
+- '420'
+- '500'
+- '2100.1'
+security_keys:
+- PRCHVEN
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - class
-  - table
-  - contents
-  - number
-  - vendor
-  - order
-  - document
-  - purchase
-  - date
-  - even
 page_count: 0
 word_count: 32222
 section_count: 56
 table_count: 17
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1accounting_tech.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1accounting_tech.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1accounting_tech.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1accounting_tech.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP)Version 5.1Accounting TechnicianUser’s Guide

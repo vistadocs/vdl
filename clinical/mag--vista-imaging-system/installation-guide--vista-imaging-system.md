@@ -8,41 +8,62 @@ app_code: MAG
 app_name: VistA Imaging System
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: MAG
+patch_ver: null
+patch_id: null
+group_key: null
+description: VistA Imaging Installation GuideJune 2019 - Revision 30MAG\*3.0\*229Department of Veterans AffairsProduct DevelopmentHealth Provider
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.2'
+- '3.5'
+- '13'
+- '72'
+- '75.1'
+- '101'
+- '113'
+- '202'
+- '203'
+- '771'
+- '2005'
+- '2005.2'
+- '2005.86'
+- '2006.1'
+- '2006.1201'
+- '2006.65'
+- '2006.68'
+- '2006.69'
+- '2006.8'
+- '2006.95'
+security_keys:
+- CTRL
+- MAG ANNOTATE MGR
+- MAG EDIT
+- MAG QA REVIEW
+- MAG SYSTEM
+- MAGJ STORE IMAGES
+- MAGJ SYSTEM MANAGER
+- ORMGR
+- PAT PHOTO ONLY
+- REMOTE ACCESS CONTROL
 menu_options: 2
-description: 
-audience: 
-keywords: 
-  - imaging
-  - vista
-  - vistarad
-  - table
-  - image
-  - contents
-  - workstation
-  - installation
-  - capture
-  - software
 page_count: 0
 word_count: 44104
 section_count: 35
 table_count: 8
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGinstallgd.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGinstallgd.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=105"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGinstallgd.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vista_Imaging_Sys/IMGinstallgd.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=105
+audit_applied: '2026-05-31'
 ---
 
 ![](vista-imaging-system-installation-guide/001.png)

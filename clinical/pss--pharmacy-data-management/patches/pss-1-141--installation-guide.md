@@ -5,50 +5,44 @@ doc_label: Installation Guide
 doc_layer: patch
 doc_subject: Immunizations
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*141
-group_key: "PSS:PSS:1"
-file_numbers: []
-security_keys: []
+group_key: PSS:PSS:1
+description: IMMUNIZATIONS DOCUMENTATION BY BAR CODE MEDICATION ADMINISTRATION
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '4.0'
+- '9'
+- '50.7'
+- '8932.1'
+- '900001'
+- '999999'
+security_keys:
+- PSB MANAGER
+- PSB MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - bcma
-  - orderable
-  - task
-  - immunizations
-  - table
-  - contents
-  - immunization
-  - installation
-  - application
-  - install
 page_count: 0
-word_count: 2928
+word_count: 2922
 section_count: 8
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psb_3_p47_pss_1_p141_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psb_3_p47_pss_1_p141_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psb_3_p47_pss_1_p141_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psb_3_p47_pss_1_p141_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
-
----
-date: "![](pss-1-141-installation-guide-immunizations/001.png)"
----
-
 IMMUNIZATIONS DOCUMENTATION BY BAR CODE MEDICATION ADMINISTRATION (BCMA)
 
 INSTALLATIONGUIDE

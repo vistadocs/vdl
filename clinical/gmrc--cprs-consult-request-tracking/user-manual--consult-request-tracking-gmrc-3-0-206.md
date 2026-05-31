@@ -3,55 +3,44 @@ title: Consult/Request Tracking User Manual (GMRC*3.0*206)
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: GMRC
-app_name: "CPRS: Consult/Request Tracking"
+app_name: 'CPRS: Consult/Request Tracking'
 section: CLI
 app_status: active
 pkg_ns: GMRC
 patch_ver: 3.0
 patch_id: GMRC*3.0
-group_key: "GMRC:GMRC:3.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - consult
-  - request
-  - consults
-  - action
-  - service
-  - tracking
-  - patient
-  - contents
-  - table
-  - results
+group_key: GMRC:GMRC:3.0
+description: Redaction of screen captures to remove IP addresses and then remove arrows and call outs. Various places throughout
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '101.43'
+- '123.5'
+security_keys:
+- ADMIN
+- ORMGR
+- PROVIDER
+- RBP TO CC
+menu_options: 1
 page_count: 0
-word_count: 28312
+word_count: 28294
 section_count: 18
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=62"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Consult_Request_Tracking/consum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=62
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc497992714" class="anchor"></span>Consult/Request Tracking
-
-  <span id="_Toc497992715" class="anchor"></span>User Manual
----
-
 ![](consult-request-tracking-user-manual-gmrc-3-0-206/001.png)
 
 August 2024

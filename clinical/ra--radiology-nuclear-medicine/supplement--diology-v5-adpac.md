@@ -11,47 +11,37 @@ app_status: archive
 pkg_ns: RA
 patch_ver: 5
 patch_id: RA*5
-group_key: "RA:RA:5"
-file_numbers: []
-security_keys: []
+group_key: RA:RA:5
+description: '| Date | Revision | Description | Author | |-----------|----------|------------------------------------------------------------------------------------------|------------------------------------| | 4/4/2017 | 1.0 | Delivery to VA | REDACTED | | 4/4/2017 | 0.7 | Technical Writer review | REDACTED |...'
+audience: ''
+keywords: []
+file_numbers:
+- '71'
+- '71.11'
+- '71.5'
+- '71.98'
+- '71.99'
+security_keys:
+- DIEXTRACT
+- PF1
 menu_options: 0
-description: - [Documentation Conventions](#documentation-conventions) - [Assumptions](#assumptions) - [Radiology/Nuclear Medicine VAMC Annual Code Changes](#radiologynuclear-medicine-vamc-annual-code-changes) - [Radiology/Nuclear Medicine Code Change Process](#radiologynuclear-medicine-code-change-process) - [R
-audience: 
-keywords: 
-  - span
-  - procedure
-  - class
-  - radiology
-  - mark
-  - conscious
-  - adpac
-  - procedures
-  - sedation
-  - code
 page_count: 0
-word_count: 2929
+word_count: 2917
 section_count: 4
 table_count: 1
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2017
 revision_count: 8
 revision_newest: 4/4/2017
 revision_oldest: 3/15/2017
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_s_1.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_s_1.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=384"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_s_1.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Radiology_Nuclear_Med_Archive/ra_5_aa_s_1.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=384
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  Collaborative Terminology Tooling & Data Management (CTT & DM)
-
-  Native Domain Standardization (NDS)
----
-
 Radiology Reports
 
 Automated Data Processing Application Coordinator

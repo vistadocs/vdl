@@ -1,19 +1,46 @@
 ---
-consolidated_title: "pce standardization deployment, installation, back-out and rollback guide"
-app_code: PX
+title: PX*1*211 PCE Standardization Deployment, Installation, Back-Out and Rollback Guide
 doc_type: DIBR
-master_source: "PX*1*211 PCE Standardization Deployment, Installation, Back-Out and Rollback Guide"
+doc_label: Deployment, Installation, Back-Out, and Rollback Guide
+doc_layer: patch
+doc_subject: PCE Standardization
+app_code: PX
+app_name: Patient Care Encounter (PCE)
+section: CLI
+app_status: active
+pkg_ns: PX
+patch_ver: 1
+patch_id: PX*1*211
+group_key: PX:PX:1
+file_numbers: []
+security_keys:
+- PROVIDER
+menu_options: 1
+description: Patient Care Encounter (PCE), Clinical Reminders (PXRM),
+audience: System administrators, deployment engineers
+keywords: []
+page_count: 0
+word_count: 9335
+section_count: 31
+table_count: 3
+figure_count: 0
+appendix_count: 4
+has_toc: false
+is_stub: false
+pub_date: May 2021
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_0_211_dibr.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Patient_Care_Encounter_(PCE)/px_1_0_211_dibr.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=82
+audit_applied: '2026-05-31'
+master_source: PX*1*211 PCE Standardization Deployment, Installation, Back-Out and Rollback Guide
 master_pub_date: May 2021
 consolidated_from: 2 versions
 prior_versions:
-  - "PX*1*234 PCE Standardization Deployment, Installation, Back-Out and Rollback Guide"
----
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>PCE Standardization 1.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide
+- PX*1*234 PCE Standardization Deployment, Installation, Back-Out and Rollback Guide
+consolidated_title: pce standardization deployment, installation, back-out and rollback guide
 ---
 
 Patient Care Encounter (PCE), Clinical Reminders (PXRM), and
@@ -87,7 +114,7 @@ Revision History
 <td>1.2</td>
 <td><ul>
 <li><p>Reduced Intro Content</p></li>
-<li><p>Added sub-section titled “Constraints” (required per VIP DIBOR template)</p></li>
+<li><p>Added sub-section titled "Constraints" (required per VIP DIBOR template)</p></li>
 </ul></td>
 <td></td>
 </tr>
@@ -367,7 +394,7 @@ Table 3: Documentation
 <p>pxrm_index_tm.pdf</p></td>
 </tr>
 <tr class="odd">
-<td>Clinical Reminders Manager’s Manual</td>
+<td>Clinical Reminders Manager's Manual</td>
 <td><p>pxrm_mm.docx</p>
 <p>pxrm_mm.pdf</p></td>
 </tr>
@@ -503,7 +530,7 @@ Installing in a non-production environment will give you time to get familiar wi
 
 These steps are taken in case the patch needs to be backed out.
 
-- Backup files ^AUTTEDT, ^AUTTEXAM, and ^AUTTHF using your site’s policy for backing up data.
+- Backup files ^AUTTEDT, ^AUTTEXAM, and ^AUTTHF using your site's policy for backing up data.
 - If the steps are unknown, here is a way it can be done, using ^AUTTEDT as an example:
   - Go to the Cache programmer mode command prompt.
   - At the prompt, enter D GOGEN^%ZSPECIAL.
@@ -3223,9 +3250,9 @@ ii\. At the Select INSTALL NAME prompt, enter your
 
 build PX\*1.0\*234
 
-iii\. When prompted for the following, enter “R” for
+iii\. When prompted for the following, enter "R" for
 
-Routines or “B” for Build.
+Routines or "B" for Build.
 
 Select one of the following:
 
@@ -3235,17 +3262,17 @@ R Routines
 
 Enter response: Build
 
-iv\. When prompted “Do you wish to secure this message? NO//”,
+iv\. When prompted "Do you wish to secure this message? NO//",
 
-press \<enter\> and take the default response of “NO”.
+press \<enter\> and take the default response of "NO".
 
-v\. When prompted with, “Send mail to: Last name, First
+v\. When prompted with, "Send mail to: Last name, First
 
-Name”, press \<enter\> to take default recipient. Add
+Name", press \<enter\> to take default recipient. Add
 
 any additional recipients.
 
-vi\. When prompted with “Select basket to send to: IN//”,
+vi\. When prompted with "Select basket to send to: IN//",
 
 press \<enter\> and take the default IN mailbox or select
 

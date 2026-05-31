@@ -3,46 +3,47 @@ title: BCMA V.3.0 Backup System (BCBU) Version 3 Installation Guide (updated PSB
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: patch
-doc_subject: Backup System (BCBU) Version 3  (updated PSB*3*108)
+doc_subject: Backup System (BCBU) Version 3 (updated PSB*3*108)
 app_code: PSB
-app_name: "Pharmacy: Bar Code Medication Administration (BCMA)"
+app_name: 'Pharmacy: Bar Code Medication Administration (BCMA)'
 section: CLI
 app_status: active
 pkg_ns: PSB
 patch_ver: 3.0
 patch_id: PSB*3.0*108
-group_key: "PSB:PSB:3.0"
-file_numbers: []
-security_keys: []
+group_key: PSB:PSB:3.0
+description: The Bar Code Administration - Enterprise Tactical Support Team (National VistA Support Team) would like to extend the following acknowledgements
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '3.5'
+- '4'
+- '5'
+- '6'
+- '9'
+- '10'
+- '14'
+- '15'
+- '53.7'
+security_keys:
+- PROVIDER
 menu_options: 17
-description: ![](bcma-v-3-0-backup-system-bcbu-version-3-installation-guide-updated-psb-3-108/001.png)
-audience: 
-keywords: 
-  - bcma
-  - class
-  - table
-  - backup
-  - workstation
-  - bcbu
-  - contents
-  - orders
-  - medication
-  - vista
 page_count: 0
 word_count: 16922
 section_count: 20
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P108_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P108_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=84"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P108_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_0_P108_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=84
+audit_applied: '2026-05-31'
 ---
 
 ![](bcma-v-3-0-backup-system-bcbu-version-3-installation-guide-updated-psb-3-108/001.png)

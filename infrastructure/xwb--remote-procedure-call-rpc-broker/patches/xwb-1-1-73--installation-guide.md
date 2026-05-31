@@ -11,47 +11,36 @@ app_status: active
 pkg_ns: XWB
 patch_ver: 1.1
 patch_id: XWB*1.1*73
-group_key: "XWB:XWB:1.1"
-file_numbers: []
-security_keys: []
+group_key: XWB:XWB:1.1
+description: 09/14/2021 1.0 Initial RPC Broker Version 1.1 Patch XWB*1.1*73 Deployment, Installation, Back-Out, and Rollback Guide. RPC Broker 1.1 RPC Broker Development
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '1'
+- '7'
+- '14.7'
+- '8994.1'
+security_keys:
+- PF1
+- XUPROGMODE
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - broker
-  - table
-  - installation
-  - strong
-  - client
-  - back
-  - software
-  - deployment
-  - contents
-  - class
 page_count: 0
-word_count: 12772
+word_count: 12758
 section_count: 31
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2021
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_dibrg_r.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_dibrg_r.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=23"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_dibrg_r.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Remote_Proc_Call_Broker_(RPC)/xwb_1_1_73_dibrg_r.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=23
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  RPC Broker 1.1; Patch XWB\*1.1\*73
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBRG) (REDACTED)
----
-
 ![](xwb-1-1-73-deployment-installation-back-out-and-rollback-guide-dibrg/001.png)
 
 September 2021

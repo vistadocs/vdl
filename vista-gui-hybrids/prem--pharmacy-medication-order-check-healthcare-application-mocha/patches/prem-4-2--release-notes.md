@@ -5,44 +5,35 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: MOCHA Server Version
 app_code: PREM
-app_name: "Pharmacy: Medication Order Check Healthcare Application (MOCHA)"
+app_name: 'Pharmacy: Medication Order Check Healthcare Application (MOCHA)'
 section: GUI
 app_status: active
 pkg_ns: PREM
 patch_ver: 4
 patch_id: PREM*4*2
-group_key: "PREM:PREM:4"
+group_key: PREM:PREM:4
+description: These release notes cover the changes to MOCHA version (v) 4.0.2 First Databank (FDB) Framework (Fwk) Upgrade v4.5 for this release.
+audience: System administrators, end users reviewing changes
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: These release notes cover the changes to MOCHA version (v) 4.0.2 First Databank (FDB) Framework (Fwk) Upgrade v4.5 for this release.
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - mocha
-  - table
-  - contents
-  - prem
-  - release
-  - upgrade
-  - version
-  - application
-  - documentation
-  - order
 page_count: 0
 word_count: 1034
 section_count: 7
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_RN.docx"
-pdf_url: "https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_RN.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=201"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_RN.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Medication_Order_Check_HC_Applic/PREM_4_0_P2_RN.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=201
+audit_applied: '2026-05-31'
 ---
 
 ## Table of Contents

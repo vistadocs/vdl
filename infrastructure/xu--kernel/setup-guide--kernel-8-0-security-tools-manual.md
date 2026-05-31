@@ -11,38 +11,46 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - access
-  - audit
-  - options
-  - security
-  - kernel
-  - span
-  - class
-  - device
-  - code
-  - verify
+group_key: XU:XU:8.0
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: ISSOs, security officers, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '3.07'
+- '3.5'
+- '3.54'
+- '9.6'
+- '19'
+- '19.081'
+- '23'
+- '101'
+- '200'
+- '8989.3'
+security_keys:
+- PF1
+- XUARCHIVE
+- XUAUDITING
+- XUDEV
+- XUMGR
+- XUPROGMODE
+menu_options: 1
 page_count: 0
 word_count: 20712
 section_count: 7
 table_count: 51
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0st.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0st.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0st.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0st.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ![](kernel-8-0-security-tools-manual/001.png)

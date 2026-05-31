@@ -11,39 +11,36 @@ app_status: active
 pkg_ns: PRC
 patch_ver: 5.1
 patch_id: PRC*5.1
-group_key: "PRC:PRC:5.1"
-file_numbers: 
-  - 440
+group_key: PRC:PRC:5.1
+description: Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP) Version
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '20'
+- '410'
+- '411'
+- '440'
+- '440.5'
+- '440.6'
+- '442'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - card
-  - purchase
-  - table
-  - order
-  - contents
-  - report
-  - date
-  - colgroup
-  - tbody
 page_count: 0
 word_count: 44181
 section_count: 70
 table_count: 13
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2025
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchase_card.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchase_card.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=42"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchase_card.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/IFCAP/ifcp5_1purchase_card.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=42
+audit_applied: '2026-05-31'
 ---
 
 Integrated Funds Distribution, Control Point Activity, Accounting and Procurement  

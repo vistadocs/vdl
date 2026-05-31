@@ -11,57 +11,136 @@ app_status: active
 pkg_ns: TMP
 patch_ver: 8.0
 patch_id: TMP*8.0
-group_key: "TMP:TMP:8.0"
-file_numbers: 
-  - 44
-  - 47
-  - 409
-security_keys: 
-  - ORES
-  - PSORPH
-  - SDECZ REQUEST
-  - SDMOB
-  - SDOB
-menu_options: 9
+group_key: TMP:TMP:8.0
 description: This section defines the HL7 message transactions that are necessary to support the outpatient database interface for the Austin Information Technology Center (AITC), (formerly the Austin Automation Center \[AAC\]).
-audience: 
-keywords: 
-  - strong
-  - table
-  - class
-  - patient
-  - contents
-  - patch
-  - span
-  - routines
-  - even
-  - appointment
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '1'
+- '2'
+- '2.025'
+- '2.191'
+- '2.3215'
+- '2.98'
+- '3'
+- '3.2'
+- '3.2055'
+- '3.5'
+- '4'
+- '4.2'
+- '5'
+- '6'
+- '8'
+- '8.1'
+- '9.5'
+- '10'
+- '10.99'
+- '11'
+- '11.99'
+- '12.11'
+- '13'
+- '13.99'
+- '16'
+- '17'
+- '19'
+- '21'
+- '23'
+- '26.11'
+- '26.14'
+- '26.15'
+- '26.22'
+- '27.11'
+- '38.6'
+- '39.6'
+- '40.6'
+- '40.7'
+- '41.41'
+- '41.9'
+- '42'
+- '42.4'
+- '43'
+- '44'
+- '44.003'
+- '45'
+- '47.77'
+- '47.78'
+- '55'
+- '80'
+- '81'
+- '81.3'
+- '90'
+- '99'
+- '99.97'
+- '99.98'
+- '99.99'
+- '99.991'
+- '100.21'
+- '101'
+- '113'
+- '200'
+- '216'
+- '301.92'
+- '355.33'
+- '361'
+- '389.9'
+- '390'
+- '391.71'
+- '404.01'
+- '404.02'
+- '404.91'
+- '405'
+- '405.2'
+- '408.32'
+- '408.43'
+- '409.43'
+- '409.68'
+- '409.831'
+- '409.84'
+- '409.85'
+- '409.86'
+- '409.88'
+- '409.89'
+- '409.98'
+- '771'
+- '801'
+- '802'
+- '803'
+- '870'
+- '991.11'
+- '999.2'
+- '1100.07'
+- '2600'
+- '4903'
+- '8925'
+- '8925.1'
+- '8930.3'
+- '8989.5'
+- '8989.51'
+- '8994'
+security_keys:
+- ORES
+- PROVIDER
+- PSORPH
+- SDSUP
+- XUPROGMODE
+menu_options: 9
 page_count: 0
-word_count: 88727
+word_count: 88703
 section_count: 123
 table_count: 133
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2022
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_812.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_812.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=231"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_812.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/pims_tm_812.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Hlk54771572" class="anchor"></span>Patient Information Management System (PIMS) Software Version 5.3
-
-  Patient Registration, Admission, Discharge, Transfer, and Appointment Scheduling
-
-  Technical Manual
----
-
 ![](tmp-version-8-0-vista-patch-812-pims-technical-manual/001.png)
 
 June 2022

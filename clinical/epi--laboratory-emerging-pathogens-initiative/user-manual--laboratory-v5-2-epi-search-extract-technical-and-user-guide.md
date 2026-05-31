@@ -5,55 +5,66 @@ doc_label: User Guide
 doc_layer: anchor
 doc_subject: EPI Search/Extract Technical and
 app_code: EPI
-app_name: "Laboratory: Emerging Pathogens Initiative"
+app_name: 'Laboratory: Emerging Pathogens Initiative'
 section: CLI
 app_status: active
 pkg_ns: EPI
 patch_ver: 5.2
 patch_id: EPI*5.2
-group_key: "EPI:EPI:5.2"
-file_numbers: []
+group_key: EPI:EPI:5.2
+description: '''The VISTA Laboratory Search/Extract Patch LR\\5.2\\175 is an enhancement to the VISTA Laboratory Emerging Pathogens Initiative Patch LR\\5.2\\132 software application. The Laboratory Search/Extract enhancement software supports the following two national initiatives:'''
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '0'
+- '1'
+- '2'
+- '3'
+- '3.8'
+- '4'
+- '5'
+- '06'
+- 08
+- '8'
+- '12'
+- '14'
+- '16'
+- '17'
+- '18'
+- '45'
+- '60'
+- '61'
+- '61.2'
+- '62.06'
+- '62.6'
+- '63'
+- '64'
+- '69.4'
+- '69.5'
+- '80'
+- '80.4'
+- '101'
+- '771'
+- '771.6'
 security_keys: []
 menu_options: 0
-description: "The VISTA Laboratory Search/Extract Patch LR\5.2\175 is an enhancement to the VISTA Laboratory Emerging Pathogens Initiative Patch LR\5.2\132 software application. The Laboratory Search/Extract enhancement software supports the following two national initiatives:"
-audience: 
-keywords: 
-  - blockquote
-  - search
-  - extract
-  - table
-  - class
-  - mail
-  - contents
-  - laboratory
-  - message
-  - report
 page_count: 0
-word_count: 33815
+word_count: 33794
 section_count: 46
 table_count: 9
 figure_count: 0
 appendix_count: 3
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: September 2015
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_searchextract_tm_ug.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_searchextract_tm_ug.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=118"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_searchextract_tm_ug.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Lab-Emerging_Pathogens_Initiative/lab_epi_searchextract_tm_ug.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=118
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc385323587" class="anchor"></span>Laboratory
-
-  Version 5.2
-
-  <span id="_Toc385323589" class="anchor"></span>Search/Extract Technical and User Guide
----
-
 ![](laboratory-version-5-2-epi-search-extract-technical-and-user-guide/001.png)
 
 September 2015

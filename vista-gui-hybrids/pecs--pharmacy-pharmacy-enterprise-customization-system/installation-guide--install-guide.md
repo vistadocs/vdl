@@ -1,14 +1,47 @@
 ---
-consolidated_title: "install guide"
-app_code: PECS
+title: PREC*3*714 INSTALL GUIDE
 doc_type: IG
-master_source: "PREC*3*714 INSTALL GUIDE"
+doc_label: Installation Guide
+doc_layer: patch
+doc_subject: INSTALL GUIDE
+app_code: PECS
+app_name: 'Pharmacy: Pharmacy Enterprise Customization System'
+section: GUI
+app_status: active
+pkg_ns: PREC
+patch_ver: 3
+patch_id: PREC*3*714
+group_key: PECS:PREC:3
+file_numbers: []
+security_keys: []
+menu_options: 0
+description: Each time this manual is updated, the Title Page lists the new revised date and this page describes the changes. No Change Pages document is created for this manual. Replace any previous copy with this updated
+audience: System administrators performing installation
+keywords: []
+page_count: 0
+word_count: 9534
+section_count: 25
+table_count: 14
+figure_count: 0
+appendix_count: 6
+has_toc: false
+is_stub: false
+pub_date: July 2014
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_3_0_ig_r0714.docx
+pdf_url: https://www.va.gov/vdl/documents/VistA_GUI_Hybrids/Pharm_Enterprise_Custom_Sys/prec_3_0_ig_r0714.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=204
+audit_applied: '2026-05-31'
+master_source: PREC*3*714 INSTALL GUIDE
 master_pub_date: July 2014
 consolidated_from: 4 versions
 prior_versions:
-  - "PREC*5*1114 INSTALL GUIDE"
-  - "PREC*6.1*717 INSTALL GUIDE"
-  - "PREC*6*516 INSTALL GUIDE"
+- PREC*5*1114 INSTALL GUIDE
+- PREC*6.1*717 INSTALL GUIDE
+- PREC*6*516 INSTALL GUIDE
+consolidated_title: install guide
 ---
 
 Pharmacy Reengineering
@@ -367,7 +400,7 @@ Each time this manual is updated, the Title Page lists the new revised date and 
 <td>N/A (First Release)</td>
 <td><p>Removed jdbc.properties reference, as this file will be accessed on the server.</p>
 <p>Removed Post-Installation section, as no longer needed.</p>
-<p>Added section “4.5 Add CT_VERSION table to FDB schema”.</p>
+<p>Added section "4.5 Add CT_VERSION table to FDB schema".</p>
 <p>PECS Team</p></td>
 </tr>
 <tr class="odd">
@@ -474,7 +507,7 @@ List of Figures
 - [Appendix E: PECS Database Installation Process](#appendix-e-pecs-database-installation-process)
   - [E.1 Database Installation Process Flow – PECS](#e1-database-installation-process-flow-pecs)
 - [Appendix F: Rollback Process](#appendix-f-rollback-process)
-This document describes the process used to install the Department of Veterans Affairs (VA) Pharmacy Enterprise Customization System (PECS) application on an instance of a WebLogic server. The PECS software is a Web-based application, packaged as a J2EE standardized Enterprise Application Archive (EAR) file, which is then deployed on the WebLogic server using the server’s standard deployment process. The installation described in this document also outlines the steps necessary to install and configure the application’s database. This includes the installation of the database schema on an Oracle server, and loading data into configuration tables. The document outlines the configuration of two data sources, and the deployment of the EAR file on the WebLogic server. The installation of the PECS application assumes that the servers necessary to execute the software are configured and running as per any applicable VA standards.
+This document describes the process used to install the Department of Veterans Affairs (VA) Pharmacy Enterprise Customization System (PECS) application on an instance of a WebLogic server. The PECS software is a Web-based application, packaged as a J2EE standardized Enterprise Application Archive (EAR) file, which is then deployed on the WebLogic server using the server's standard deployment process. The installation described in this document also outlines the steps necessary to install and configure the application's database. This includes the installation of the database schema on an Oracle server, and loading data into configuration tables. The document outlines the configuration of two data sources, and the deployment of the EAR file on the WebLogic server. The installation of the PECS application assumes that the servers necessary to execute the software are configured and running as per any applicable VA standards.
 In order to understand the installation and verification process, the installer should be familiar with the WebLogic 10.3 console administration and Oracle 11g Database configuration.
 
 ## Assumptions
@@ -488,7 +521,7 @@ For successful deployment of the Pharmacy Reengineering (PRE) PECS software at a
 - Access to the WebLogic console is by means of a valid administrative user name and password.
 - Oracle 11g Database Server is configured and running.
 - Java JDK version used is 1.6.0_14.
-- FDB (First Databank) MedKnowledge[^1] v3.3 database is installed. Installation instructions are provided in the FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
+- FDB (First Databank) MedKnowledge[^1] v3.3 database is installed. Installation instructions are provided in the FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
 - Kernel Authentication & Authorization for J2EE (KAAJEE) security Application Program Interface (API) setup and configured on the WebLogic Server.
 - The KAAJEE(v1.1.0.007) installation documents can be reference at KAAJEE website: <span class="mark">REDACTED</span>
 - The KAAJEE(v1.1.0.007) Software/API can be downloaded from KAAJEE website : <span class="mark">REDACTED</span>
@@ -586,7 +619,7 @@ The steps necessary to install and configure the components required by the PECS
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes the operating system and software for the PRE PECS V.3.0 Database Tier installation and configuration. Initially, install and configure the operating system and software according to the manufacturer’s specifications.
+This section describes the operating system and software for the PRE PECS V.3.0 Database Tier installation and configuration. Initially, install and configure the operating system and software according to the manufacturer's specifications.
 
 ## Oracle Database 
 
@@ -594,7 +627,7 @@ This section describes the operating system and software for the PRE PECS V.3.0 
 
 The Custom Table (CT) staging schema or PECS Database is designed to be operating system independent. The only constraint is that Oracle 11g Database Enterprise Edition Release 11.2.0.2.0 – Production must be properly installed and configured. The following sections describe the installation, features, user creation, and configuration for the Oracle database.
 
-| Note:                                         | Please note that the PECS staging database user should be configured as “CTSTAGING” (CTSTAGING schema) and the FDB-DIF database user should be configured as “FDB_DIF” (FDB_DIF schema). |
+| Note:                                         | Please note that the PECS staging database user should be configured as "CTSTAGING" (CTSTAGING schema) and the FDB-DIF database user should be configured as "FDB_DIF" (FDB_DIF schema). |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](prec-3-714-install-guide/002.png) |                                                                                                                                                                                          |
 
@@ -614,7 +647,7 @@ The CT staging schema or PECS Database is the primary data repository for the PE
 
 Two schemas must be created for the PECS Environment within the same database instance: FDB_DIF and CTSTAGING. Prior to creation of the schemas, logical and physical environment structures must be set up for storage of the schemas database objects: tablespaces and data files. For the PECS database configuration, data and index storage are separated for each schema. Separating indexes and table data is considered an Oracle best practice and provides improved run-time performance, reporting/monitoring, and manageability.
 
-There are two components to PECS 3.0 National database installation process. The first component involves the installation of the FDB_DIF v3.3. The second component installation of the PECS 3.0 schema. The first component, installation of FDB_DIF v3.3, must be completed prior to moving forward with the PECS 3.0 installation component. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project’s Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
+There are two components to PECS 3.0 National database installation process. The first component involves the installation of the FDB_DIF v3.3. The second component installation of the PECS 3.0 schema. The first component, installation of FDB_DIF v3.3, must be completed prior to moving forward with the PECS 3.0 installation component. Installation instructions are provided in FDB-DIF Installation/Migration guide. Contact the PRE Configuration Manager who should be identified on the project's Technical Services Project Repository (TSPR) site for a copy of the guide and installations/migration scripts.
 
 Below are the procedures to accomplish the installation of the PECS 3.0 component.
 
@@ -622,7 +655,7 @@ Below are the procedures to accomplish the installation of the PECS 3.0 componen
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-This section describes the database scripts necessary for the installation of the PECS CTSTAGING database, and the order in which they should be executed. It is highly recommended that the PECS staging database user be configured as “CTSTAGING” and the FDB-DIF database user be configured as “FDB_DIF” as that is the usernames that are used throughout the remainder of the PECS installation documentation. Executing steps 3.2.1 – 3.2.6 in this section will result in the creation of a PECS 3.0 database. Executing step 3.2.7 will migrate an existing PECS v2.2 database to PECS 3.0 compatibility. If you are migrating from an existing PECS 2.2 schema with production data, skip to 3.2.7 to migrate to PECS 3.0 compatibility. The complete PECS Database Installation Process is graphically depicted below and in Appendix E – The PECS Database Installation Process.
+This section describes the database scripts necessary for the installation of the PECS CTSTAGING database, and the order in which they should be executed. It is highly recommended that the PECS staging database user be configured as "CTSTAGING" and the FDB-DIF database user be configured as "FDB_DIF" as that is the usernames that are used throughout the remainder of the PECS installation documentation. Executing steps 3.2.1 – 3.2.6 in this section will result in the creation of a PECS 3.0 database. Executing step 3.2.7 will migrate an existing PECS v2.2 database to PECS 3.0 compatibility. If you are migrating from an existing PECS 2.2 schema with production data, skip to 3.2.7 to migrate to PECS 3.0 compatibility. The complete PECS Database Installation Process is graphically depicted below and in Appendix E – The PECS Database Installation Process.
 
 ![](prec-3-714-install-guide/003.png)
 
@@ -636,7 +669,7 @@ This section describes the database scripts necessary for the installation of th
 
 Prior to executing the following sections, the Oracle 11g database needs to be installed and a Database Administrator login generated with sys_dba privileges is generated. The DBA login is necessary to run the first database script to create the tablespaces and user accounts for the remainder of the installation.
 
-| Note:                                         | To get Install Scripts, please contact the PRE Configuration Manager, who should be identified on the project’s TSPR site. |
+| Note:                                         | To get Install Scripts, please contact the PRE Configuration Manager, who should be identified on the project's TSPR site. |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | ![](prec-3-714-install-guide/005.png) |                                                                                                                            |
 
@@ -675,9 +708,9 @@ Prior to running the scripts, modifications should be made to tailor for the cur
 | ![](prec-3-714-install-guide/006.png) |                                                                                                               |
 
 1.  Login to the SQL client using a database account that has sys_dba privileges
-2.  Execute the “pecs3_creation_pkg1.sql” script.
-3.  Open the “pecs3_creation_pkg1.log” file and search the log file for any errors.
-4.  This process creates the temporary file fdb_dif2ctstaging.sql. Open this file and scroll to the bottom and verify the following entry at the bottom of the file ‘GRANT SELECT ON FDB_DIF.FDB_VERSION TO CTSTAGING’. This will ensure that all necessary privileges were granted to the FDB tables that the CTSTAGING user needs to access.
+2.  Execute the "pecs3_creation_pkg1.sql" script.
+3.  Open the "pecs3_creation_pkg1.log" file and search the log file for any errors.
+4.  This process creates the temporary file fdb_dif2ctstaging.sql. Open this file and scroll to the bottom and verify the following entry at the bottom of the file 'GRANT SELECT ON FDB_DIF.FDB_VERSION TO CTSTAGING'. This will ensure that all necessary privileges were granted to the FDB tables that the CTSTAGING user needs to access.
 
 ### Create Staging Tables and Database Objects
 
@@ -686,7 +719,7 @@ Prior to running the scripts, modifications should be made to tailor for the cur
 To create the CTSTAGING database for the PECS application, the administrator will need to execute the pecs3_creation_pkg2.sql script. This script will execute thirteen other scripts that create the CTSTAGING tables and populate those tables with some initial data values. The following steps should be followed:
 
 1.  Login to the SQL client using the CTSTAGING user account.
-5.  Execute the “pecs3_creation_pkg2.sql” script.
+5.  Execute the "pecs3_creation_pkg2.sql" script.
 6.  Open the pecs3_creation_pkg2.log file and search the log file for any errors.
 
 ### Modification of the FDB_DIF Database
@@ -696,7 +729,7 @@ To create the CTSTAGING database for the PECS application, the administrator wil
 To modify the FDB-DIF data repository to work with the PECS application, the administrator will need to execute the fdb_modification_pkg3.sql script. This script will create a new table in the FDB-DIF data repository and modify one of the existing tables to change the constraints add an index.
 
 1.  Login to the sql client using the FDB_DIF user account.
-7.  Execute the “fdb_modification_pkg3.sql” script.
+7.  Execute the "fdb_modification_pkg3.sql" script.
 8.  Open the fdb_modification_pkg3.log file and search the log file for any errors.
 
 ### Create Public Synonyms
@@ -706,7 +739,7 @@ To modify the FDB-DIF data repository to work with the PECS application, the adm
 The PECS application access spans both FDB_DIF and CTSTAGING schema objects. Public synonyms are utilized to provide seamless application access across PECS application components. To create the public synonyms, the administrator will need to execute the pecs3_create_public_synonyms.sql script. This scripts executes two scripts: pecs3_create_FDB_synonyms.sql, pecs3_create_CTSTAGING_synonyms.sql. The following steps should be followed:
 
 1.  Login to the SQL client using the SYSTEM account.
-2.  Execute the “pecs3_create_public_synonyms.sql” script.
+2.  Execute the "pecs3_create_public_synonyms.sql" script.
 3.  Open the pecs3_create\_ public_synonyms.log file and search the log file for any errors.
 
 ### PECS Application Users
@@ -791,8 +824,8 @@ The following steps should be followed:
 
 1.  Open a text editor and open the CreateTablespacePECSJMS.sql script. Replace %DATAFILE_LOCATION% with the data file directory for the current installation environment. The directory entered should already exist on the database server.
 2.  Login to the SQL client using the SYSTEM account.
-3.  Execute the “pecs3_create_application_roles_users.sql” script.
-4.  Open the “pecs3_create_application_roles_users.log” file and search the log file for any errors.
+3.  Execute the "pecs3_create_application_roles_users.sql" script.
+4.  Open the "pecs3_create_application_roles_users.log" file and search the log file for any errors.
 
 VA Standard Data Services (SDS) has created and maintains standardized tables in an Oracle database (e.g., VA Institutions). These tables must be accessible to PECS as a Web-based application. Please refer to the SDS Database Installation Guide for the information necessary to install the SDS Data Service database tables, indexes and data.
 
@@ -823,7 +856,7 @@ To load Production Data from a PECS 2.2 database:
 7.  Create new PECS 3.0 reference table entries and modified Dose_Route label running the command file, Add_Reference_Tables_Entries_After_Load.sql. Run as CTSTAGING user.
 8.  Run script to compile all schema objects and gather fresh statistics as SYSTEM, Recompile_Schema.sql.
 
-| Note:                                         | To get the Data Import Guide and access to an export file, please contact the PRE Configuration Manager, who should be identified on the project’s TSPR site. |
+| Note:                                         | To get the Data Import Guide and access to an export file, please contact the PRE Configuration Manager, who should be identified on the project's TSPR site. |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](prec-3-714-install-guide/007.png) |                                                                                                                                                               |
 
@@ -849,8 +882,8 @@ To migrate PECS v2.2 database schema to PECS v3.0 compatibility, the database ad
 Step by Step procedure to accomplish the migration is as follows:
 
 1.  Login to the sql client using the CTSTAGING user account.
-9.  Execute the “PECS3_migration.sql” script.
-10. Open the “PECS3_migration.log” file and search the log file for any errors.
+9.  Execute the "PECS3_migration.sql" script.
+10. Open the "PECS3_migration.log" file and search the log file for any errors.
 
 After all the migration steps have been completed without error, the Oracle listener for the PECS database instance should be restarted. As an Oracle Administrator, the following command can be issued from the LINUX command prompt to start the listener for the current instance: lsnrctl start.
 
@@ -889,7 +922,7 @@ Procedures for restoring/loading production data include the following steps reg
 
 > *When prompted, enter the SYSTEM userid and password to complete the import. Review log files for each import to verify the successful completion of the rollback.*
 
-| Note:                                         | To get the Data Import Guide, please contact the PRE Configuration Manager, who should be identified on the project’s TSPR site. |
+| Note:                                         | To get the Data Import Guide, please contact the PRE Configuration Manager, who should be identified on the project's TSPR site. |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | ![](prec-3-714-install-guide/008.png) |                                                                                                                                  |
 
@@ -1014,7 +1047,7 @@ Password: %PECSJMS_APP_USER_PASSWORD
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-PECS requires additional arguments added to the WebLogic Server’s Server Start properties. This section details the steps to add the arguments to the server .
+PECS requires additional arguments added to the WebLogic Server's Server Start properties. This section details the steps to add the arguments to the server .
 
 1.  Open and log into the WebLogic console, using an administrative user name and password. The WebLogic console is located at: http://\<Deployment Machine\>:7001/console.
 2.  Click on Environment and then Servers on the panel found in the right column of the WebLogic console. Click on the server name corresponding to the deployment server in the Summary of Servers panel found in the right column of the WebLogic console. For reference only, see the figure below.
@@ -1055,7 +1088,7 @@ Step 1: Configure JTA
 
 1.  In the WebLogic Administration Console, expand Services.
 2.  Click on JTA.
-3.  On the Configuration tab, for “Timeout Seconds”, change the value to 600.(see below Console screen)
+3.  On the Configuration tab, for "Timeout Seconds", change the value to 600.(see below Console screen)
 4.  Click the Save button.
 
 The WebLogic Administration Console screen should look similar to the following:
@@ -1070,7 +1103,7 @@ WebLogic JTA Configuration is complete.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-One functional piece of PECS allows a Release Manager to export data from the Oracle database so that it can be imported at various sites to support the Order Check process. The export file can be downloaded to the user’s desktop, but a copy needs to be sent to an File Transfer Protocol (FTP) server so that it can be utilized in other server processes. To know where to place the file, a property file named exportfile.properties needs to be created. This file should reside in the DOMAIN_HOME/user_staged_config directory. The properties that need to be entered in to this file are(see below for reference. Also please configure with or without leading “/” depending on relative or absolute path):
+One functional piece of PECS allows a Release Manager to export data from the Oracle database so that it can be imported at various sites to support the Order Check process. The export file can be downloaded to the user's desktop, but a copy needs to be sent to an File Transfer Protocol (FTP) server so that it can be utilized in other server processes. To know where to place the file, a property file named exportfile.properties needs to be created. This file should reside in the DOMAIN_HOME/user_staged_config directory. The properties that need to be entered in to this file are(see below for reference. Also please configure with or without leading "/" depending on relative or absolute path):
 
 > export.file.server= <span class="mark">REDACTED</span>
 
@@ -1105,9 +1138,9 @@ Specific deployment steps will vary depending on the version of the WebLogic ser
 
 Specific deployment steps will vary depending on the version of the WebLogic server the PECS Help application will be deployed on. The PECS Help application is a RoboHelp application packaged in a standard EAR file format. The Help application should be deployed following the recommended process for deploying EAR files for the WebLogic server version platform. Use default values to deploy the Ear file and associate it with domain/server as per WebLogic install for PECS. Some recommended pointers for install of pecs-hlp.xxx.ear file:
 
-- Install the deployment as an application. (PECS Help application is accessible at the context root “pecsHelp”)
+- Install the deployment as an application. (PECS Help application is accessible at the context root "pecsHelp")
 - On deployment targets page, select the PECS managed server.
-- On Optional Settings page, name the deployment – “pecs-Help”
+- On Optional Settings page, name the deployment – "pecs-Help"
 
 | Note:                                         | Please note that you must associate the Help application with the target server, and activate the application after deployment, before it can service any requests. |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1119,9 +1152,9 @@ Specific deployment steps will vary depending on the version of the WebLogic ser
 
 The PECS application uses log4j loggers to create and write log information to application event logs. The logging properties for the PECS application are included in Appendix A. Logger and appender configuration is included for the PECS application, and optionally the Hibernate API. Update logging properties as appropriate to the host server:
 
-- Set logging level to “info” for production mode
-- Set “File” properties to the identified log directory on the server.
-- Set “ConversionPattern” to the standard VA pattern.
+- Set logging level to "info" for production mode
+- Set "File" properties to the identified log directory on the server.
+- Set "ConversionPattern" to the standard VA pattern.
 
 The properties in Appendix A should be inserted into the existing log4j properties file that exists at the beginning of the WebLogic server classpath. (please use log4j.xml for reference from Appendix A).
 
@@ -1510,13 +1543,13 @@ Navigate to where the FDB Update Tool has been installed, and click on the GUI.b
 
 Configure Connection
 
-Select the View -\> Setting menu option on the GUI and input the connection data relevant to your location and click the “Save” button. A sample screen is shown.
+Select the View -\> Setting menu option on the GUI and input the connection data relevant to your location and click the "Save" button. A sample screen is shown.
 
 ![](prec-3-714-install-guide/016.png)
 
 Provide File Paths
 
-Enter the path to the update and log files relevant to your location. Select whether the update is incremental or complete. Click the “Start” button. A sample screen is shown:
+Enter the path to the update and log files relevant to your location. Select whether the update is incremental or complete. Click the "Start" button. A sample screen is shown:
 
 ![](prec-3-714-install-guide/017.png)
 
@@ -1558,7 +1591,7 @@ CREATE UNIQUE INDEX PKCTVERSION ON FDB.CT_VERSION(VERSIONKEY)
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The steps to apply the Custom Tables Update file are the same steps as outlined in [Apply FDB DIF Update File](#b.4-apply-fdb-dif-update-file). Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the “Start” button.
+The steps to apply the Custom Tables Update file are the same steps as outlined in [Apply FDB DIF Update File](#b.4-apply-fdb-dif-update-file). Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the "Start" button.
 
 ## B.6 Recover FDB-DIF Custom Tables from Load Failure
 
@@ -1582,7 +1615,7 @@ Verify that the data in the FDB_CUSTOM\_\* tables has been deleted.
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-After logging into the PECS application, a user in the Release Manager role will navigate to the “Custom Update” tab, and click the “Download New Full Update” button. This will generate a PECS update file with all currently approved order check customizations.
+After logging into the PECS application, a user in the Release Manager role will navigate to the "Custom Update" tab, and click the "Download New Full Update" button. This will generate a PECS update file with all currently approved order check customizations.
 
 # Appendix C: KAAJEE 
 
@@ -2264,7 +2297,7 @@ Table 3 - Database Users and Roles
 <p>Removed jdbc.properties reference, as this file will be accessed on the server.</p>
 </blockquote>
 <p>Removed Post-Installation section, as no longer needed.</p>
-<p>Added section “4.5 Add CT_VERSION table to FDB schema”.</p></td>
+<p>Added section "4.5 Add CT_VERSION table to FDB schema".</p></td>
 <td><blockquote>
 <p>PECS Team</p>
 </blockquote></td>
@@ -2425,13 +2458,13 @@ Table 3 - Database Users and Roles
 
 #### Configure Connection
 
-> ![](prec-5-1114-install-guide/015.png)Select the View -\> Setting menu option on the GUI and input the connection data relevant to your location and click the “Save” button. A sample screen is shown.
+> ![](prec-5-1114-install-guide/015.png)Select the View -\> Setting menu option on the GUI and input the connection data relevant to your location and click the "Save" button. A sample screen is shown.
 
 > <span id="_bookmark51" class="anchor"></span>Figure 6: Update Settings - Configure Connection
 
 #### Provide File Paths
 
-> ![](prec-5-1114-install-guide/016.png)Enter the path to the update and log files relevant to your location. Select whether the update is incremental or complete. Click the “Start” button. A sample screen is shown:
+> ![](prec-5-1114-install-guide/016.png)Enter the path to the update and log files relevant to your location. Select whether the update is incremental or complete. Click the "Start" button. A sample screen is shown:
 
 > <span id="_bookmark52" class="anchor"></span>Figure 7: Add Paths to FirstDatabank Data Updater
 
@@ -2461,7 +2494,7 @@ Table 3 - Database Users and Roles
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> The steps to apply the Custom Tables Update file are the same steps as outlined in [Apply FDB DIF](#apply-fdb-dif-update-file) [Update File.](#apply-fdb-dif-update-file) Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the “Start” button.
+> The steps to apply the Custom Tables Update file are the same steps as outlined in [Apply FDB DIF](#apply-fdb-dif-update-file) [Update File.](#apply-fdb-dif-update-file) Instead of entering the path to the FDB-DIF update file, enter the path to the Custom Tables Update file, relevant to your location. Select whether the update is incremental or complete. Click the "Start" button.
 
 ## Recover FDB-DIF Custom Tables from Load Failure
 
@@ -2485,7 +2518,7 @@ Table 3 - Database Users and Roles
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-> After logging into the PECS application, a user in the Release Manager role will navigate to the “Custom Update” tab, and click the “Download New Full Update” button. This will generate a PECS update file with all currently approved order check customizations.
+> After logging into the PECS application, a user in the Release Manager role will navigate to the "Custom Update" tab, and click the "Download New Full Update" button. This will generate a PECS update file with all currently approved order check customizations.
 
 ## Security Keys
 

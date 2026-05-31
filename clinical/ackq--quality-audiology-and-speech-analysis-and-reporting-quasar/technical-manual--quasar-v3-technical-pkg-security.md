@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3
-group_key: "ACKQ:ACKQ:3"
-file_numbers: []
+group_key: ACKQ:ACKQ:3
+description: '''QUASAR (Quality: Audiology and Speech Analysis and Reporting) is a VistA software package written for the Audiology and Speech Pathology Service (ASPS). QUASAR is used to enter, edit, and retrieve data for each audiometric exam of a patient and provides for the transmission of this data to various p'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '9'
+- '44'
+- '200'
+- '509805.9'
+- '509850.9'
 security_keys: []
 menu_options: 4
-description: "QUASAR (Quality: Audiology and Speech Analysis and Reporting) is a VistA software package written for the Audiology and Speech Pathology Service (ASPS). QUASAR is used to enter, edit, and retrieve data for each audiometric exam of a patient and provides for the transmission of this data to various p"
-audience: 
-keywords: 
-  - threshold
-  - initial
-  - table
-  - level
-  - contents
-  - final
-  - mask
-  - thresh
-  - audiogram
-  - class
 page_count: 0
 word_count: 7715
 section_count: 20
 table_count: 7
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0p13_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
 
 ![](quasar-version-3-technical-pkg-security-updated-ackq-3-13/001.png)

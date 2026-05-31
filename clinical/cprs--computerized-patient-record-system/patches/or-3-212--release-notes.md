@@ -11,38 +11,32 @@ app_status: archive
 pkg_ns: OR
 patch_ver: 3
 patch_id: OR*3*212
-group_key: "CPRS:OR:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
+group_key: CPRS:OR:3
 description: The most recent entries in this list are linked to the location in the manual they describe. Click on a link or page number to go to that section.
-audience: 
-keywords: 
-  - vbecs
-  - blood
-  - order
-  - orders
-  - bank
-  - span
-  - class
-  - cprs
-  - test
-  - laboratory
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '60'
+- '69.9'
+security_keys:
+- ORELSE
+menu_options: 0
 page_count: 0
 word_count: 4368
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2009
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_212rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_212rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=338"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_212rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Comp_Patient_Recrd_Sys_(CPRS)_Archive/or_3_212rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=338
+audit_applied: '2026-05-31'
 ---
 
 ![](or-3-212-release-notes-vbecs-interface/001.png)

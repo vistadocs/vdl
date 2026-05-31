@@ -3,7 +3,7 @@ title: MailMan Version 8 User Guide
 doc_type: UG
 doc_label: User Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XM
 app_name: MailMan
 section: INF
@@ -11,38 +11,49 @@ app_status: active
 pkg_ns: XM
 patch_ver: 8
 patch_id: XM*8
-group_key: "XM:XM:8"
-file_numbers: []
-security_keys: []
-menu_options: 1
+group_key: XM:XM:8
 description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the field.
-audience: 
-keywords: 
-  - message
-  - messages
-  - mailman
-  - mail
-  - basket
-  - action
-  - xmuser
-  - group
-  - prompt
-  - read
+audience: End users and package coordinators (ADPAC)
+keywords: []
+file_numbers:
+- '1'
+- '3.9'
+- '4.2'
+- '4.2997'
+- '4.3'
+- '7.2'
+- '7.3'
+- '12'
+- '22'
+- '31'
+- '31.1'
+- '31.2'
+- '200'
+security_keys:
+- AUTO-FORWARD WAIVER
+- PF1
+- XMMGR
+- XMNET
+- XMSTAR
+- XMSTAR LIMITED
+- XUPROGMODE
+menu_options: 1
 page_count: 0
 word_count: 93822
 section_count: 7
 table_count: 556
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2002
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_userguide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_userguide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=15"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_userguide.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Mailman/xm_8_0_userguide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=15
+audit_applied: '2026-05-31'
 ---
 
 ![](mailman-version-8-user-guide/001.png)

@@ -3,46 +3,54 @@ title: CMOP Version 2 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSX
-app_name: "Pharmacy: Consolidated Mail Outpatient Pharmacy"
+app_name: 'Pharmacy: Consolidated Mail Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSX
 patch_ver: 2
 patch_id: PSX*2
-group_key: "PSX:PSX:2"
-file_numbers: []
-security_keys: []
+group_key: PSX:PSX:2
+description: '> The Consolidated Mail Outpatient Pharmacy (CMOP) software package establishes an interface for the electronic transfer of information between Veterans Affairs Medical Centers and the Consolidated Mail Outpatient Pharmacy host system for an integrated and highly automated outpatient prescription di'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '3.2'
+- '3.5'
+- '3.6'
+- '14'
+- '19'
+- '50'
+- '50.6'
+- '52'
+- '54'
+- '200'
+- '552.1'
+- '552.2'
+- '552.3'
+- '554'
+security_keys:
+- PSXMAIL
+- PSXRPH
 menu_options: 0
-description: > The Consolidated Mail Outpatient Pharmacy (CMOP) software package establishes an interface for the electronic transfer of information between Veterans Affairs Medical Centers and the Consolidated Mail Outpatient Pharmacy host system for an integrated and highly automated outpatient prescription di
-audience: 
-keywords: 
-  - cmop
-  - table
-  - contents
-  - install
-  - setup
-  - installation
-  - mail
-  - device
-  - host
-  - server
 page_count: 0
 word_count: 4052
 section_count: 34
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=85"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Consol_Mail_Outpat_Pharm_(CMOP)/cmop_2_ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=85
+audit_applied: '2026-05-31'
 ---
 
 ![](cmop-version-2-installation-guide/001.png)

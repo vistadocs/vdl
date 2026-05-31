@@ -11,38 +11,31 @@ app_status: active
 pkg_ns: PRS
 patch_ver: 4
 patch_id: PRS*4*132
-group_key: "PRS:PRS:4"
-file_numbers: []
+group_key: PRS:PRS:4
+description: 1/15/2012 1.0 This first draft is based on the FORUM patch description and information from the ESE Testing Service Analysis Report for Increment 1. This covers Patch PRS*4.0*133. REDACTED REDACTED
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '450'
+- '454'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - telework
-  - table
-  - hours
-  - contents
-  - changes
-  - timekeepers
-  - paid
-  - employee
-  - scheduled
-  - patch
 page_count: 0
 word_count: 1996
 section_count: 13
 table_count: 3
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: May 2012
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=51"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Pers_Acctg_Integ_Data_(PAID)/paid_4_p132_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=51
+audit_applied: '2026-05-31'
 ---
 
 Upgrade ETA For Telework

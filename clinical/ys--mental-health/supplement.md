@@ -11,44 +11,30 @@ app_status: active
 pkg_ns: YS
 patch_ver: 1
 patch_id: YS*1
-group_key: "YS:YS:1"
+group_key: YS:YS:1
+description: '''Verify that the user has been setup as either "Admin" or "Super Admin" in the application; otherwise they will not be able see the Reports. Note: Granting users the admin level privilege to a user is a decision handled by the Business Owners, such as Nelson Peck or Dr.'''
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: "<table> <colgroup> <col style=\\"width: 5%\\" /> <col style=\\"width: 25%\\" /> <col style=\\"width: 69%\\" /> </colgroup> <thead> <tr class=\\"header\\"> <th></th> <th><blockquote> <p><strong>Problem Description</strong></p> </blockquote></th> <th><blockquote> <p><strong>Resolution</strong></p> </blockquote></th> "
-audience: 
-keywords: 
-  - blockquote
-  - strong
-  - style
-  - width
-  - table
-  - colgroup
-  - thead
-  - class
-  - tbody
-  - reports
 page_count: 0
-word_count: 710
+word_count: 703
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_troubleshooting_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_troubleshooting_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=78"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_troubleshooting_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Mental_Health/vcl_troubleshooting_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=78
+audit_applied: '2026-05-31'
 ---
-
----
-title: Common VCL Problems and their Resolution
----
-
 > Application-side:
 
 <table>

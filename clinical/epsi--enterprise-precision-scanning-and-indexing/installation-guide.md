@@ -3,7 +3,7 @@ title: Enterprise Precision Scanning and Indexing (EPSI) Deployment, Installatio
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: EPSI
 app_name: Enterprise Precision Scanning and Indexing
 section: CLI
@@ -11,49 +11,30 @@ app_status: active
 pkg_ns: EPSI
 patch_ver: 1.3.0
 patch_id: EPSI*1.3.0
-group_key: "EPSI:EPSI:1.3.0"
+group_key: EPSI:EPSI:1.3.0
+description: '| Date | Version | Description | Author | |-----------|-------------|-------------------------------------------------------------------------------------------------------------------|------------| | 4/7/2023 | 1.2 | Added Hyperscience. Updated TRM Status Information. Removed VIX/CVIX and replaced...'
+audience: System administrators, deployment engineers
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - epsi
-  - installation
-  - back
-  - deployment
-  - rollback
-  - span
-  - procedure
-  - site
 page_count: 0
-word_count: 2438
+word_count: 2415
 section_count: 24
 table_count: 10
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2023
 revision_count: 3
 revision_newest: 4/7/2023
 revision_oldest: 8/10/2022
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_dibrg_1_3_0.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_dibrg_1_3_0.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=431"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_dibrg_1_3_0.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Enterprise_Precision_Scanning_and_Indexing_(EPSI)/epsi_dibrg_1_3_0.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=431
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Enterprise Precision Scanning and Indexing (EPSI)
-
-  Software Version 1.3.0
-
-  Deployment, Installation, Back-Out, and Rollback Guide (DIBRG)
----
-
 ![](enterprise-precision-scanning-and-indexing-epsi-deployment-installation-back-out/001.png)
 
 April 2023

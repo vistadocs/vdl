@@ -1,48 +1,50 @@
 ---
 title: ASU Clinical Coordinator Manual
 doc_type: UM
-doc_label: Clinical Coordinator Manual
+doc_label: User Manual
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: ASU
-app_name: "CPRS: Authorization Subscription Utility"
+app_name: 'CPRS: Authorization Subscription Utility'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: USR
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> This manual provides descriptions of menus, options, and other information required for Clinical Coordinators, IRM staff, ADPACs, or other managers to effectively set up and use the Authorization/ Subscription Utility.'
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '60'
+- '64'
+- '200'
+- '8925'
+- '8930'
+- '8930.1'
+- '8930.6'
+- '8930.8'
+- '8932.1'
+security_keys:
+- PROVIDER
 menu_options: 2
-description: "<table> <colgroup> <col style=\\"width: 27%\\" /> <col style=\\"width: 22%\\" /> <col style=\\"width: 20%\\" /> <col style=\\"width: 29%\\" /> </colgroup> <tbody> <tr class=\\"odd\\"> <td><p>USR138 –</p> <p>Updated Notes on User Class and User Role SURROGATE</p></td> <td>Page <a href=\\"#notes-on-user-class-and-user-role"
-audience: 
-keywords: 
-  - class
-  - table
-  - clinical
-  - document
-  - contents
-  - classes
-  - chief
-  - rules
-  - business
-  - unsigned
 page_count: 0
 word_count: 6372
 section_count: 12
 table_count: 13
 figure_count: 0
 appendix_count: 2
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asuum.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asuum.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=58"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asuum.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/CPRS-Auth_Subscr_Util_(ASU)/asuum.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=58
+audit_applied: '2026-05-31'
 ---
 
 ![](asu-clinical-coordinator-manual/001.png)

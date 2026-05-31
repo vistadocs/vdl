@@ -5,44 +5,41 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Laser Printed Rx Labels with PMI Sheets Phase I Release Note
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*120
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '- Introduction - Enhancements - Phase I - Phase II - VA Laser Prescription Document - Laser Printer Requirements - [New or Revised Features and...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3.2'
+- '4'
+- '10.6'
+- '52'
+- '55'
+- '59'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - label
-  - prescription
-  - table
-  - contents
-  - laser
-  - phase
-  - labels
-  - print
-  - printer
-  - features
 page_count: 0
 word_count: 972
 section_count: 5
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 2003
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p120_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p120_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p120_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_0_p120_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-120-laser-printed-rx-labels-with-pmi-sheets-phase-i-release-note/001.png)

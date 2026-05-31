@@ -3,43 +3,37 @@ title: NPM Patch Module Enhancments
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: NPM
 app_name: National Patch Module
 section: INF
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
+pkg_ns: NPM
+patch_ver: null
+patch_id: null
+group_key: null
+description: '> Patch summary option—These changes are fairly easy in the template. The pre-view window is the most involved.'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: > Patch summary option—These changes are fairly easy in the template. The pre-view window is the most involved.
-audience: 
-keywords: 
-  - enhancements
-  - changes
-  - patch
-  - moduleoutputs
-  - operation
-  - outstanding
-  - problems
 page_count: 0
 word_count: 11
 section_count: 0
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: True
-pub_date: 
+has_toc: false
+is_stub: true
+pub_date: ''
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/patch_module_enhancements.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/patch_module_enhancements.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=20"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/patch_module_enhancements.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/National_Patch_Module_(NPM)/patch_module_enhancements.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=20
+audit_applied: '2026-05-31'
 ---
 
 List of Enhancements/Changes for the Patch ModuleOutputs

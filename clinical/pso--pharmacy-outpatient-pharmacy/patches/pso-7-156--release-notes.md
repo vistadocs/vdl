@@ -5,44 +5,57 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Automation Interface
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*156
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: The Outpatient Pharmacy Automation Interface project provides an enhancement to the VISTA Outpatient Pharmacy package interface used to send data to non-VISTA pharmacy automation systems. Currently, the VISTA Health Level 7 (HL7) interface used in the Outpatient Pharmacy V. 7.0 package is written to
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '10'
+- '11'
+- '12'
+- '13'
+- '19'
+- '20'
+- '29'
+- '38.1'
+- '38.2'
+- '50'
+- '52'
+- '52.1'
+- '52.2'
+- '59'
+- '105'
+- '105.1'
+- '105.2'
+- '771'
+- '870'
+- '2006'
+- '2007'
+- '2008'
 security_keys: []
 menu_options: 0
-description: The Outpatient Pharmacy Automation Interface project provides an enhancement to the VISTA Outpatient Pharmacy package interface used to send data to non-VISTA pharmacy automation systems. Currently, the VISTA Health Level 7 (HL7) interface used in the Outpatient Pharmacy V. 7.0 package is written to
-audience: 
-keywords: 
-  - pharmacy
-  - outpatient
-  - table
-  - contents
-  - parameters
-  - protocol
-  - interface
-  - application
-  - server
-  - client
 page_count: 0
 word_count: 1435
 section_count: 5
 table_count: 4
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: October 2004
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p156_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p156_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p156_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/pso_7_p156_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 > ![](pso-7-156-automation-interface-release-notes/001.png)

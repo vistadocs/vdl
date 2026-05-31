@@ -3,7 +3,7 @@ title: Clinical Procedures Version 1 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: MD
 app_name: Clinical Procedures
 section: CLI
@@ -11,38 +11,33 @@ app_status: active
 pkg_ns: MD
 patch_ver: 1
 patch_id: MD*1
-group_key: "MD:MD:1"
+group_key: MD:MD:1
+description: Version 1.0May 2008Revised August 2014Department of Veterans AffairsOffice of Information and Technology (OI&T)Product
+audience: End users (clinical / administrative, per package)
+keywords: []
 file_numbers: []
-security_keys: []
+security_keys:
+- CTRL
+- ORELSE
+- OREMAS
+- ORES
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - table
-  - contents
-  - figure
-  - treatment
-  - procedures
-  - study
-  - clinical
-  - version
-  - manual
-  - patient
 page_count: 0
 word_count: 25295
 section_count: 68
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2014
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=139"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_um.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/ClinProc/md_1_um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=139
+audit_applied: '2026-05-31'
 ---
 
 Clinical Procedures (CP)User Manual

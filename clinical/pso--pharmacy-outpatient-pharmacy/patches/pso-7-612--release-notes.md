@@ -5,63 +5,41 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: Clozapine NCCC Override
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*612
-group_key: "PSO:PSO:7"
-file_numbers: []
+group_key: PSO:PSO:7
+description: '- Introduction - Purpose - Audience - This Release - New Features and Functions Added - [Enhancements and Modifications to Existing...'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '3'
+- '53'
+- '54'
+- '55'
+- '603.01'
 security_keys: []
 menu_options: 0
-description: 
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - clozapine
-  - patient
-  - override
-  - nccc
-  - table
-  - contents
-  - pharmacy
-  - number
-  - release
-  - authorization
 page_count: 0
-word_count: 1145
+word_count: 1107
 section_count: 4
 table_count: 1
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2020
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p612_ys_501_p166_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p612_ys_501_p166_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p612_ys_501_p166_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_p612_ys_501_p166_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Health Integration & Modernization (HI&M)
-
-  Clozapine National Clozapine Coordinating Center (NCCC) Override Covid-19
-
-  Release Notes
-
-  Outpatient Pharmacy - PSO\*7.0\*612
-
-  Mental Health - YS\*5.01\*166
-
-  Inpatient Medications - PSJ\*5\*403
-
-  ![](pso-7-612-clozapine-nccc-override-release-notes/001.png)
----
-
 August 2020
 
 Office of Information and Technology (OI&T)

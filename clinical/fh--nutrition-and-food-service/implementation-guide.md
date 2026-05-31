@@ -11,38 +11,36 @@ app_status: active
 pkg_ns: FH
 patch_ver: 5.5
 patch_id: FH*5.5
-group_key: "FH:FH:5.5"
-file_numbers: []
-security_keys: []
+group_key: FH:FH:5.5
+description: '*Nutrition and Food ServiceOutpatient MealsInstallation/Implementation'
+audience: ''
+keywords: []
+file_numbers:
+- '2'
+- '111'
+- '115'
+- '119.6'
+- '200'
+security_keys:
+- CLINICIAN
+- ORMGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - nutrition
-  - outpatient
-  - service
-  - installation
-  - meals
-  - food
-  - software
-  - locations
 page_count: 0
 word_count: 2708
 section_count: 20
 table_count: 13
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 1
 revision_newest: 02/25/2005
 revision_oldest: 02/25/2005
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=67"
+docx_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Nutrition_Food_Service_(NFS)/fh5_5ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=67
+audit_applied: '2026-05-31'
 ---
 
 ![](nutrition-food-services-version-5-5-installation-implementation-guide/001.png)

@@ -3,63 +3,45 @@ title: Pharmacy Operational Updates Multi - DEA Pharmacy Enhancements PSO*7.0*54
 doc_type: DIBR
 doc_label: Deployment, Installation, Back-Out, and Rollback Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: active
 pkg_ns: PSO
 patch_ver: 7.0
 patch_id: PSO*7.0
-group_key: "PSO:PSO:7.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - table
-  - contents
-  - blockquote
-  - patch
-  - installation
-  - back
-  - vista
-  - procedure
-  - migration
-  - release
+group_key: PSO:PSO:7.0
+description: '| Date | Version | Description | Author | |-----------|-------------|-----------------|------------| | June 2023 | 1.0 | Initial Version | REDACTED | | | | |'
+audience: System administrators, deployment engineers
+keywords: []
+file_numbers:
+- '19'
+- '53.21'
+- '200'
+- '8991.9'
+security_keys:
+- ORES
+- XUPROG
+- XUPROGMODE
+menu_options: 1
 page_count: 0
-word_count: 4758
+word_count: 4734
 section_count: 31
 table_count: 16
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2023
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_dibrg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_dibrg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=90"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_dibrg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy/pso_7_0_dibrg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=90
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Pharmacy Operational Updates
-
-  Multi - DEA Pharmacy Enhancements
-
-  PSO\*7.0\*545
-
-  PSJ\*5.0\*372
-
-  OR\*3.0\*499
-
-  Deployment, Installation, Back-out, and Rollback Guide
----
-
 ![](pharmacy-operational-updates-multi-dea-pharmacy-enhancements-pso-7-0-545-psj-5-0/001.png)
 
 June 2023

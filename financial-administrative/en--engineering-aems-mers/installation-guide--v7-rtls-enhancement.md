@@ -11,38 +11,34 @@ app_status: active
 pkg_ns: EN
 patch_ver: 7
 patch_id: EN*7
-group_key: "EN:EN:7"
-file_numbers: []
+group_key: EN:EN:7
+description: '> The Installation, Back-Out, Rollback Guide defines the ordered, technical steps required to install the product, and if necessary, to back-out the installation, and to roll back to the previously installed version of the product. It provides installation instructions for the Asset Tracking interfa'
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '12'
+- '16'
+- '6914'
+- '6928'
+- '6930'
 security_keys: []
 menu_options: 0
-description: > The Installation, Back-Out, Rollback Guide defines the ordered, technical steps required to install the product, and if necessary, to back-out the installation, and to roll back to the previously installed version of the product. It provides installation instructions for the Asset Tracking interfa
-audience: 
-keywords: 
-  - table
-  - contents
-  - rtls
-  - installation
-  - application
-  - back
-  - class
-  - mule
-  - vista
-  - configuration
 page_count: 0
 word_count: 5653
 section_count: 32
 table_count: 9
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2017
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_at_patch_installation_guide.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_at_patch_installation_guide.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=37"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_at_patch_installation_guide.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Engineering/rtls_at_patch_installation_guide.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=37
+audit_applied: '2026-05-31'
 ---
 
 > Real Time Location System (RTLS) Enterprise Systems Engineering (ESE) Asset Tracking Interface

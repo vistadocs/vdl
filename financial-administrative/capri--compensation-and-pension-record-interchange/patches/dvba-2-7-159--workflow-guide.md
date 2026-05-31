@@ -11,38 +11,29 @@ app_status: active
 pkg_ns: DVBA
 patch_ver: 2.7
 patch_id: DVBA*2.7*159
-group_key: "CAPRI:DVBA:2.7"
+group_key: CAPRI:DVBA:2.7
+description: '| | | | | |------------|----------------------------------------------------|----------|------------------| | Date | Description (Patch \# if applicable) | Author | Technical Writer | | 08/02/2010 | Document created for patch 154. | REDACTED | REDACTED | | 10/12/2010 | Changes to support Urinary...'
+audience: ''
+keywords: []
 file_numbers: []
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - strong
-  - class
-  - parkinson
-  - disease
-  - table
-  - span
-  - enabled
-  - treatment
-  - style
-  - width
 page_count: 0
 word_count: 5091
 section_count: 12
 table_count: 11
 figure_count: 2
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2010
 revision_count: 3
 revision_newest: 11/1/2010
 revision_oldest: 08/02/2010
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_parkinsons_wf.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_parkinsons_wf.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=133"
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_parkinsons_wf.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/CAPRI/dvba_27_p159_dbq_parkinsons_wf.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=133
+audit_applied: '2026-05-31'
 ---
 
 ![](dvba-2-7-159-workflow-parkinson-s-disease/001.png)

@@ -3,7 +3,7 @@ title: AICS Version 3 User Manual
 doc_type: UM
 doc_label: User Manual
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: IBD
 app_name: Automated Information Collection System (AICS)
 section: FIN
@@ -11,38 +11,47 @@ app_status: active
 pkg_ns: IBD
 patch_ver: 3
 patch_id: IBD*3
-group_key: "IBD:IBD:3"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - form
-  - forms
-  - encounter
-  - print
-  - table
-  - contents
-  - edit
-  - clinic
-  - code
-  - class
+group_key: IBD:IBD:3
+description: April 2014 IBD*3.0*63 Title page Table of Contents p. 1 pp. 2, 75 pp. 7, 84 p. 7 pp. 35, 38 p. 75 p.76 pp.83-84 pp.85-89 p. 93 pp. 97-98 Updates for ICD-10 remediation. Revised per ProPath template Updated TOC Updated information in Introduction Problem List made Unavailable. Note about Lexicon...
+audience: End users (clinical / administrative, per package)
+keywords: []
+file_numbers:
+- '2'
+- '3.2'
+- '3.5'
+- '9.4'
+- '44'
+- '60'
+- '61'
+- '80'
+- '200'
+- '357.6'
+- '357.94'
+- '357.95'
+- '357.96'
+- '357.99'
+- '359.2'
+security_keys:
+- IBD MANAGER
+- IBDF IRM
+- PROVIDER
+menu_options: 4
 page_count: 0
 word_count: 25747
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 4
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: April 1997
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0um.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0um.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=30"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0um.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Auto_Info_Collection_Sys_(AICS)/aics_3_0um.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=30
+audit_applied: '2026-05-31'
 ---
 
 aUTOMATED iNFORMATIONCOLLECTION SYSTEMAICSUSERManual

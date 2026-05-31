@@ -5,44 +5,38 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: CPRS V27 Project
 app_code: PSO
-app_name: "Pharmacy: Outpatient Pharmacy"
+app_name: 'Pharmacy: Outpatient Pharmacy'
 section: CLI
 app_status: archive
 pkg_ns: PSO
 patch_ver: 7
 patch_id: PSO*7*225
-group_key: "PSO:PSO:7"
-file_numbers: []
-security_keys: []
+group_key: PSO:PSO:7
+description: Pharmacy Changes to Support Computerized Patient Record System (CPRS) GUI Version
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50.7'
+- '51.1'
+security_keys:
+- PSORPH
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - cprs
-  - pharmacy
-  - changes
-  - order
-  - medications
-  - schedule
-  - inpatient
-  - patient
-  - outpatient
-  - orders
 page_count: 0
 word_count: 1303
 section_count: 1
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2008
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_pss_1_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_pss_1_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=394"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_pss_1_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Outpatient_Pharmacy_Archive/psj_5_pso_7_pss_1_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=394
+audit_applied: '2026-05-31'
 ---
 
 ![](pso-7-225-release-notes-cprs-v27-project/001.png)

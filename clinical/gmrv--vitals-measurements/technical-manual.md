@@ -1,12 +1,65 @@
 ---
-consolidated_title: "technical manual change pages"
-app_code: GMRV
+title: GMRV*5*23 Technical Manual change pages
 doc_type: TM
-master_source: "GMRV*5*23 Technical Manual change pages"
+doc_label: Technical Manual
+doc_layer: patch
+doc_subject: change pages
+app_code: GMRV
+app_name: Vitals/Measurements
+section: CLI
+app_status: active
+pkg_ns: GMRV
+patch_ver: 5
+patch_id: GMRV*5*23
+group_key: GMRV:GMRV:5
+file_numbers:
+- '2'
+- '3.5'
+- '4'
+- '4.2'
+- '42'
+- '44'
+- '100.21'
+- '120.5'
+- '120.51'
+- '120.52'
+- '120.53'
+- '120.57'
+- '200'
+- '211.4'
+- '405'
+- '405.1'
+- '405.4'
+- '8989.5'
+- '8989.51'
+- '8989.518'
+security_keys: []
+menu_options: 0
+description: '> The Vitals/Measurements application is designed to store in the patient''s electronic medical record all vital signs and various measurements associated with a patient''s hospital stay or outpatient clinic visit. Data can be accessed by several VISTA (Veterans Health Information Systems and Technolo'
+audience: Technical staff, IRM, system administrators
+keywords: []
+page_count: 0
+word_count: 6344
+section_count: 10
+table_count: 0
+figure_count: 0
+appendix_count: 1
+has_toc: false
+is_stub: false
+pub_date: September 2009
+revision_count: 0
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl_5_p23_tm_change_pages.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Vitals_Measurements/vitl_5_p23_tm_change_pages.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=107
+audit_applied: '2026-05-31'
+master_source: GMRV*5*23 Technical Manual change pages
 master_pub_date: September 2009
 consolidated_from: 2 versions
 prior_versions:
-  - "GMRV*5*22 Technical Manual change pages"
+- GMRV*5*22 Technical Manual change pages
+consolidated_title: technical manual change pages
 ---
 
 ### September 2009
@@ -381,7 +434,7 @@ Introduction
 
 > The Vitals application, i.e., the Vitals and Vitals Manager modules are accessed separately
 
-> through the GUI executable icons on the user’s desktop. The Vitals module is assigned to the clinical staff so they can use the Vitals application, and the Vitals Manager module is assigned to the Clinical Application Coordinator, package coordinator, and Information Resource Management Service (IRMS) staff so they can use the Vitals Manager application to manage the Vitals templates and abnormal values.
+> through the GUI executable icons on the user's desktop. The Vitals module is assigned to the clinical staff so they can use the Vitals application, and the Vitals Manager module is assigned to the Clinical Application Coordinator, package coordinator, and Information Resource Management Service (IRMS) staff so they can use the Vitals Manager application to manage the Vitals templates and abnormal values.
 
 6.  Assigning modules.
 
@@ -391,7 +444,7 @@ Introduction
 
 7.  Security keys.
 
-> There is one security key in this application, it is GMV MANAGER. This new key allows a user to view/create/edit all other user’s templates in the Vitals Manager module, without this key the user can only view/create/edit his/her own user templates. This key also allows a user to use (run) other user’s templates in the Vitals application. This key should be assigned to the package coordinator.
+> There is one security key in this application, it is GMV MANAGER. This new key allows a user to view/create/edit all other user's templates in the Vitals Manager module, without this key the user can only view/create/edit his/her own user templates. This key also allows a user to use (run) other user's templates in the Vitals application. This key should be assigned to the package coordinator.
 
 8.  Printer issues.
 
@@ -3677,7 +3730,7 @@ Appendix A – Parameter Settings
 <p>1<sup>st</sup> value (e.g., 15) - Color of the background. Same as ABNORMALBGCOLOR.</p>
 <p>2<sup>nd</sup> value (e.g., 9) - Color of the text. Same as ABNORMALTEXTCOLOR.</p>
 <p>3<sup>rd</sup> value (e.g., 0) - Show text in bold font. Same as ABNORMALBOLD. 4<sup>th</sup> value (e.g., 1) - Show qualifiers. Same as ABNORMAL QUALIFIERS.</p>
-<p>5<sup>th</sup> value (e.g. 15) - Background color for today’s values. Not currently used.</p>
+<p>5<sup>th</sup> value (e.g. 15) - Background color for today's values. Not currently used.</p>
 <p>User cannot set this value.</p></td>
 </tr>
 <tr class="odd">
@@ -3691,7 +3744,7 @@ Appendix A – Parameter Settings
 <p>2<sup>nd</sup> value (e.g., 0) - Color of the text. Same as NORMALTEXTCOLOR.</p>
 <p>3<sup>rd</sup> value (e.g., 0) - Show text in bold font. Same as NORMALBOLD.</p>
 <p>4<sup>th</sup> value (e.g., 1) - Show qualifiers. Same as NORMALQUALIFIERS.</p>
-<p>5<sup>th</sup> value (e.g., 15) - Background color for today’s values. Not currently used. User cannot set this value.</p>
+<p>5<sup>th</sup> value (e.g., 15) - Background color for today's values. Not currently used. User cannot set this value.</p>
 <p>The following values are set by the software. The user cannot change them. These values control the File |</p></td>
 </tr>
 </tbody>
@@ -3861,7 +3914,7 @@ Appendix A – Parameter Settings
 </blockquote></td>
 <td>130</td>
 <td><p>Height in pixels of the ―Latest vitals on file for this patient‖ portion of the</p>
-<p>―Enter Vitals’ window.</p></td>
+<p>―Enter Vitals' window.</p></td>
 </tr>
 <tr class="even">
 <td><blockquote>
@@ -3990,7 +4043,7 @@ Appendix A – Parameter Settings
 </blockquote></td>
 <td>800;600;-4;-4;808;574;0</td>
 <td><p>Parameters of the Vitals Standalone (EXE) window.</p>
-<p>1<sup>st</sup> value (e.g., 800) – User’s Windows screen resolution (width) 2<sup>nd</sup> value (e.g., 600) – User’s Windows screen resolution (height) 3<sup>rd</sup> value (e.g., -4) – Position of the left side of the window</p>
+<p>1<sup>st</sup> value (e.g., 800) – User's Windows screen resolution (width) 2<sup>nd</sup> value (e.g., 600) – User's Windows screen resolution (height) 3<sup>rd</sup> value (e.g., -4) – Position of the left side of the window</p>
 <p>4<sup>th</sup> value (e.g., -4) – Position of the top side of the window</p>
 <p>5<sup>th</sup> value (e.g., 808) – Width in pixels</p></td>
 </tr>
@@ -4070,7 +4123,7 @@ Appendix A – Parameter Settings
 </blockquote></td>
 <td>800;600;0;0;800;566;0</td>
 <td><p>Parameters of the Vitals Lite (DLL) window.</p>
-<p>1<sup>st</sup> value (e.g., 800) – User’s Windows screen resolution (width) 2<sup>nd</sup> value (e.g., 600) – User’s Windows screen resolution (height) 3<sup>rd</sup> value (e.g., 0) – Position of the left side of the window</p>
+<p>1<sup>st</sup> value (e.g., 800) – User's Windows screen resolution (width) 2<sup>nd</sup> value (e.g., 600) – User's Windows screen resolution (height) 3<sup>rd</sup> value (e.g., 0) – Position of the left side of the window</p>
 <p>4<sup>th</sup> value (e.g., 0) – Position of the top side of the window</p>
 <p>5<sup>th</sup> value (e.g., 800) – Width in pixels of the window</p>
 <p>6<sup>th</sup> value (e.g., 566) – Height in pixels of the window</p>

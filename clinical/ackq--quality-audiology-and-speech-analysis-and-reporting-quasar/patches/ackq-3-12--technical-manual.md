@@ -11,38 +11,37 @@ app_status: active
 pkg_ns: ACKQ
 patch_ver: 3
 patch_id: ACKQ*3*12
-group_key: "ACKQ:ACKQ:3"
-file_numbers: []
+group_key: ACKQ:ACKQ:3
+description: '''The Audiometric Exam Module (ACKQ\\\\3.0\\\\3) was developed for Audiology and Speech Pathology Service (ASPS) to simplify and enhance the entry, display and use of information obtained during the Audiometric exam of a patient. This module is comprised of two distinct application functionalities: the Audi'''
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '19'
+- '44'
+- '200'
+- '209850.9'
+- '509805.9'
+- '509850.9'
 security_keys: []
 menu_options: 4
-description: "The Audiometric Exam Module (ACKQ\3.0\3) was developed for Audiology and Speech Pathology Service (ASPS) to simplify and enhance the entry, display and use of information obtained during the Audiometric exam of a patient. This module is comprised of two distinct application functionalities: the Audi"
-audience: <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
-keywords: 
-  - threshold
-  - table
-  - initial
-  - contents
-  - level
-  - mask
-  - final
-  - thresh
-  - ackqag
-  - audiogram
 page_count: 0
 word_count: 6856
 section_count: 30
 table_count: 9
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: November 2005
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0_p12tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0_p12tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=97"
+revision_newest: ''
+revision_oldest: ''
+docx_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0_p12tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Qual_Audio_Speech_Anal_(QUASAR)/ackq3_0_p12tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=97
+audit_applied: '2026-05-31'
 ---
 
 ![](ackq-3-12-audiometric-exam-module-technical-manual/001.png)

@@ -3,7 +3,7 @@ title: Event Capture Version 2.0 GUI Technical Manual (Updated EC*2*170)
 doc_type: TM
 doc_label: Technical Manual
 doc_layer: anchor
-doc_subject: GUI  (Updated EC*2*170)
+doc_subject: GUI (Updated EC*2*170)
 app_code: EC
 app_name: Event Capture System (ECS)
 section: FIN
@@ -11,49 +11,50 @@ app_status: active
 pkg_ns: EC
 patch_ver: 2.0
 patch_id: EC*2.0
-group_key: "EC:EC:2.0"
-file_numbers: []
-security_keys: []
+group_key: EC:EC:2.0
+description: 8/2024 2.7 Updated for Patch EC*2.0*169 Updated patch number and release date throughout document Booz Allen
+audience: Technical staff, IRM, system administrators
+keywords: []
+file_numbers:
+- '2'
+- '4'
+- '9.2'
+- '42'
+- '81'
+- '81.3'
+- '200'
+- '536.3'
+- '720.3'
+- '721'
+- '722'
+- '723'
+- '724'
+- '725'
+- '726'
+- '772'
+- '900001'
+security_keys:
+- ECMGR
+- ECSPSH
+- PROVIDER
 menu_options: 50
-description: 
-audience: 
-keywords: 
-  - description
-  - parameter
-  - span
-  - table
-  - event
-  - routine
-  - return
-  - contents
-  - class
-  - capture
 page_count: 0
-word_count: 9532
+word_count: 9517
 section_count: 29
 table_count: 8
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: August 2024
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_tm.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_tm.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=39"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_tm.docx
+pdf_url: https://www.va.gov/vdl/documents/Financial_Admin/Event_Capture/ec_2_tm.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=39
+audit_applied: '2026-05-31'
 ---
-
----
-title: |
-  <span id="_Toc205632711" class="anchor"></span>Event Capture System 2.0
-
-  Graphical User Interface
-
-  Technical Manual
----
-
 ![](event-capture-version-2-0-gui-technical-manual-updated-ec-2-170/001.png)
 
 August 2024

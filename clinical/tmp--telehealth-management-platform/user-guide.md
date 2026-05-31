@@ -1,15 +1,52 @@
 ---
-consolidated_title: "tmp user guide"
-app_code: TMP
+title: TMP Version 4.0 Release 4.9.0.8 User Guide
 doc_type: UG
-master_source: "TMP Version 4.0 Release 4.9.0.8 User Guide"
+doc_label: User Guide
+doc_layer: anchor
+doc_subject: Release 4.9.0.8
+app_code: TMP
+app_name: Telehealth Management Platform
+section: CLI
+app_status: active
+pkg_ns: TMP
+patch_ver: 4.0
+patch_id: TMP*4.0
+group_key: TMP:TMP:4.0
+file_numbers:
+- '40.6'
+- '44'
+security_keys:
+- PROVIDER
+- SDTOOL
+menu_options: 0
+description: The Telehealth Management Program (TMP) integrates with Veterans Health Information Systems and Technology Architecture (VistA) to schedule, cancel or update appointments in support of Telehealth services provided by the VHA. When an appointment is made or canceled on TMP, a message is sent to VistA
+audience: End users and package coordinators (ADPAC)
+keywords: []
+page_count: 0
+word_count: 3498
+section_count: 1
+table_count: 2
+figure_count: 0
+appendix_count: 0
+has_toc: false
+is_stub: false
+pub_date: October 2021
+revision_count: 0
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/TMP_VistA_UM_Manual_SD_53_780.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Telehealth_Management_Platform/TMP_VistA_UM_Manual_SD_53_780.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=231
+audit_applied: '2026-05-31'
+master_source: TMP Version 4.0 Release 4.9.0.8 User Guide
 master_pub_date: October 2021
 consolidated_from: 5 versions
 prior_versions:
-  - "TMP Version 1.5 Release 4.6 User Guide"
-  - "TMP Version 2.0 Release 4.8 User Guide"
-  - "TMP Version 3.0 Release 4.9.0.6 User Guide"
-  - "TMP Version 6.0 Release 4.9.0.9 User Guide"
+- TMP Version 1.5 Release 4.6 User Guide
+- TMP Version 2.0 Release 4.8 User Guide
+- TMP Version 3.0 Release 4.9.0.6 User Guide
+- TMP Version 6.0 Release 4.9.0.9 User Guide
+consolidated_title: tmp user guide
 ---
 
 Department of Veterans AffairsScheduling PackageTelehealth Management Platform (TMP) VistA
@@ -53,9 +90,9 @@ The Telehealth Management Program (TMP) integrates with Veterans Health Informat
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Telehealth Management Toolbox menu is a utility that pulls together several different tasks in VistA into one location for the Telehealth user to execute the following menu options. The Telehealth Management Toolbox menu can be found under the *Scheduling Manager’s Menu* \[SDMGR\]:
+The Telehealth Management Toolbox menu is a utility that pulls together several different tasks in VistA into one location for the Telehealth user to execute the following menu options. The Telehealth Management Toolbox menu can be found under the *Scheduling Manager's Menu* \[SDMGR\]:
 
-Example: Scheduling Manager’s Menu and Telehealth Management Toolbox menu
+Example: Scheduling Manager's Menu and Telehealth Management Toolbox menu
 
 <table>
 <colgroup>
@@ -723,13 +760,13 @@ Useful features provided by the Telehealth Management Platform include the follo
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-To use the Telehealth Management Platform, a user account is required. Any user can request the level of access/security role of TMP user. However, only a Facility Telehealth Coordinator (FTC) and/or designee can request an account for a level of access/security role other than “TMP User”. To request a new user account, go to the [*<span class="mark">REDACTED</span>*](http://vaww.telehealth.va.gov/quality/tmp/index.asp) and select “New User Request” from the Resources sidebar. As part of this request, an appropriate level of access/security role must be selected. See Appendix A: Levels of Access/Security Roles for more information about the different levels of access/security roles and their associated abilities.
+To use the Telehealth Management Platform, a user account is required. Any user can request the level of access/security role of TMP user. However, only a Facility Telehealth Coordinator (FTC) and/or designee can request an account for a level of access/security role other than "TMP User". To request a new user account, go to the [*<span class="mark">REDACTED</span>*](http://vaww.telehealth.va.gov/quality/tmp/index.asp) and select "New User Request" from the Resources sidebar. As part of this request, an appropriate level of access/security role must be selected. See Appendix A: Levels of Access/Security Roles for more information about the different levels of access/security roles and their associated abilities.
 
 ### Understanding the layout of the Telehealth Management Platform
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Once an account has been created, a user can access the [Telehealth Management Platform](https://internalcrm.crm15.xrm.va.gov/TMP). The Telehealth Management Platform is organized by functions, with each function having a set of features. For example, “Create Technology Resource” is a feature of the “Resources” function.
+Once an account has been created, a user can access the [Telehealth Management Platform](https://internalcrm.crm15.xrm.va.gov/TMP). The Telehealth Management Platform is organized by functions, with each function having a set of features. For example, "Create Technology Resource" is a feature of the "Resources" function.
 
 The three primary functions and their main uses are:
 
@@ -752,7 +789,7 @@ Examples of when teams will be used include:
 - To establish approval teams for Telehealth Service Agreements (TSAs).
 - To share privileges across facilities.
 - To send out scheduling notifications for appointments.
-- To notify facility staff about a provider’s credentials and privileges.
+- To notify facility staff about a provider's credentials and privileges.
 
 Creating teams is handled by the National Telehealth Technology Helpdesk (NTTHD). To create a team, [*<span class="mark">REDACTED</span>*](http://vaww.telehealth.va.gov/quality/tmp/index.asp) with the type of team you want to create, including a list of members to be added to the team.
 
@@ -781,7 +818,7 @@ Managing Resources is an important process as scheduling through the Telehealth 
 
 The types of resources include Facilities & Sites, Users, Resource Groups, and Single Resources. Once resources are set up, they can be pulled into an appointment and managed through the Telehealth Management Platform.
 
-Managing Resources requires the “Resource Manager” level of access/security role. Staff that will typically need this role include Telehealth Clinical Technicians and Facility Telehealth Coordinators.
+Managing Resources requires the "Resource Manager" level of access/security role. Staff that will typically need this role include Telehealth Clinical Technicians and Facility Telehealth Coordinators.
 
 ### Facilities & Sites
 
@@ -795,13 +832,13 @@ Veterans Integrated Service Networks, facilities, and sites are pre-loaded into 
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Staff can access the Telehealth Management Platform through user accounts. In turn, the Telehealth Management Platform allows staff to be managed through the user accounts. See Appendix A: Levels of Access/Security Roles for a review of the different user types. A user’s security role can be viewed on the User Record.
+Staff can access the Telehealth Management Platform through user accounts. In turn, the Telehealth Management Platform allows staff to be managed through the user accounts. See Appendix A: Levels of Access/Security Roles for a review of the different user types. A user's security role can be viewed on the User Record.
 
 ### Single Resources
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Single Resources are classified as either “Infrastructure” or “Users”. Infrastructure resources include Rooms, Technology, and VistA Clinics. User Resources include Providers, Telepresenters, and Imagers. Note that “Components” (i.e. peripherals) can be created and associated with Technology Resources. Resources are pre-loaded into the Telehealth Management Platform. Each Single Resource has a calendar that shows availability. This results in a global inventory management system which assists with tracking and filtering available resources.
+Single Resources are classified as either "Infrastructure" or "Users". Infrastructure resources include Rooms, Technology, and VistA Clinics. User Resources include Providers, Telepresenters, and Imagers. Note that "Components" (i.e. peripherals) can be created and associated with Technology Resources. Resources are pre-loaded into the Telehealth Management Platform. Each Single Resource has a calendar that shows availability. This results in a global inventory management system which assists with tracking and filtering available resources.
 
 Once a resource is added to the Telehealth Management Platform, it is associated with the site and does not need to be added again. The resource can then by reserved when scheduling a telehealth appointment.
 
@@ -809,11 +846,11 @@ Once a resource is added to the Telehealth Management Platform, it is associated
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-A Resource Group is a collection of two or more resources that can be scheduled together. Once a Single Resource is created, it can be added to a “Resource Group”. A Resource Group reduces the number of resources that need to be added to a Scheduling Package and increases efficiency in scheduling.
+A Resource Group is a collection of two or more resources that can be scheduled together. Once a Single Resource is created, it can be added to a "Resource Group". A Resource Group reduces the number of resources that need to be added to a Scheduling Package and increases efficiency in scheduling.
 
-“Paired Resource Groups” are Resource Groups made from different types of Single Resources to facilitate the creation of the Scheduling Package. The most common Resource Group, which includes a Provider and a VistA Clinic, is an example of a Paired Resource Group.
+"Paired Resource Groups" are Resource Groups made from different types of Single Resources to facilitate the creation of the Scheduling Package. The most common Resource Group, which includes a Provider and a VistA Clinic, is an example of a Paired Resource Group.
 
-“Like Resource Groups” are Resource Groups that are made from the same type of Single Resource. A Resource Group that includes only Providers is considered a Like Resource Group, and would be used when multiple Providers use the same VistA Clinic.
+"Like Resource Groups" are Resource Groups that are made from the same type of Single Resource. A Resource Group that includes only Providers is considered a Like Resource Group, and would be used when multiple Providers use the same VistA Clinic.
 
 ### Managing Resources
 
@@ -825,7 +862,7 @@ Deactivated Resources are not deleted; they remain in the Telehealth Management 
 
 If replacing, updating, or deactivating a resource that is associated with an appointment, the appointment must first be canceled. After canceling the appointment, the appropriate change can be made, and the appointment can then be rescheduled.
 
-If a Resource which is scheduled for an appointment is modified without canceling and recreating the associated appointment, there is a risk that unavailable Resources will be scheduled for an appointment and result in a negative impact to the Veteran’s access of care.
+If a Resource which is scheduled for an appointment is modified without canceling and recreating the associated appointment, there is a risk that unavailable Resources will be scheduled for an appointment and result in a negative impact to the Veteran's access of care.
 
 A Resource can be managed by any user who from the same Site where the Resource is located.
 
@@ -851,7 +888,7 @@ Staging for Technology is tracked through the Telehealth Management Platform. In
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Provider virtual medical rooms are for providers who use webcams to connect to clinic-based appointments. A provider virtual medical room is a static link saved to the provider’s TMP User Record. Provider virtual medical rooms must be requested from the National Telehealth Technology Help Desk (NTTHD).
+Provider virtual medical rooms are for providers who use webcams to connect to clinic-based appointments. A provider virtual medical room is a static link saved to the provider's TMP User Record. Provider virtual medical rooms must be requested from the National Telehealth Technology Help Desk (NTTHD).
 
 ## Scheduling Packages, TSAs and Additional Features
 
@@ -875,7 +912,7 @@ Managing Provider Performance Evaluations (PPE) requires the TMP PPE Feedback ac
 
 Scheduling Packages are templates used to display information for the Provider Site and Patient Sites. There are two types of Scheduling Package options in TMP.
 
-The first type of Scheduling Package option is called “Scheduling Packages” and is used for scheduling between a Provider site and Patient Sites. The second type of Scheduling Package option is called “TSAs” and is used to manage TSAs and Approvals for Interfacility service.
+The first type of Scheduling Package option is called "Scheduling Packages" and is used for scheduling between a Provider site and Patient Sites. The second type of Scheduling Package option is called "TSAs" and is used to manage TSAs and Approvals for Interfacility service.
 
 Provider information for a particular service and site only needs to be completed once on the Scheduling Package. Patient Site information, when needed, is completed when adding the Patient Site to the Scheduling Package. For example, a clinical cart might be added as a technology for the Patient Site.
 
@@ -905,13 +942,13 @@ Reminder Emails allows the TSA Manager to send a reminder email to staff whose s
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-All providers must be credentialed and privileged to practice at a VA facility. Telehealth enables the provision of clinical care across VA facility boundaries; the Telehealth Management Platform supports this by allowing receiving facilities to accept the provider’s privilege at their home facility.
+All providers must be credentialed and privileged to practice at a VA facility. Telehealth enables the provision of clinical care across VA facility boundaries; the Telehealth Management Platform supports this by allowing receiving facilities to accept the provider's privilege at their home facility.
 
 The Home/Parent Privileging Record is the facility where the provider has full privileges. There can only be one Home/Parent Privileging Record for a telemedicine provider in the Telehealth Management Platform. If a provider holds full privileges at more than one facility, one of those facilities must be selected as the home location for the Home/Parent Privileging Record.
 
 The Proxy/Secondary Privileging Record is for non-home facilities where the provider is privileged. A provider can only have one Proxy/Secondary Privileging Record per facility in the Telehealth Management Platform. A provider must have a Proxy/Secondary Privileging Record for a non-home facility to be scheduled for appointments at that facility.
 
-When a provider is added to an Interfacility Scheduling Package in TMP, the FTC will notify the Credentialing and Privileging (C&P) office for the provider’s facility. The provider facility C&P office will then create a TMP Home/Parent privileging record.
+When a provider is added to an Interfacility Scheduling Package in TMP, the FTC will notify the Credentialing and Privileging (C&P) office for the provider's facility. The provider facility C&P office will then create a TMP Home/Parent privileging record.
 
 When the Home/Parent record has been created, the FTC notifies the patient facility C&P office to create the Proxy/Secondary privileging record.
 
@@ -921,7 +958,7 @@ If there is a change of providers on a Scheduling Package, the appropriate staff
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The PPE Process is initiated to provide a feedback-based evaluation of a provider’s process. This process includes generating requests, to Facilities receiving telehealth Services from a provider, for feedback related to the provider’s practice.
+The PPE Process is initiated to provide a feedback-based evaluation of a provider's process. This process includes generating requests, to Facilities receiving telehealth Services from a provider, for feedback related to the provider's practice.
 
 The Telehealth Management Platform automatically acknowledges and logs such requests, and triggers a notification to the requesting Service Chief when all requests for feedback have been responded to.
 
@@ -929,7 +966,7 @@ The Telehealth Management Platform automatically acknowledges and logs such requ
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-Scheduling through the Telehealth Management Platform is simplified by allowing resources and service agreements to be pulled into appointments. As the Telehealth Management Platform is integrated with VistA, scheduling through the Telehealth Management Platform automatically updates VistA. Scheduling is also facilitated through the use of calendars, which automatically verify that the required resources are available for a requested date. The most commonly used features under the Scheduling function are Clinic-Based Scheduling, VA Video Connect Scheduling, Completing Appointments, and Canceling Appointments. Clinic-Based scheduling is used to coordinate resources for an appointment between two VA Facilities. VA Video Connect scheduling is used to coordinate resources for an appointment between a VA Facility and a Veteran’s home. Both types of scheduling support individual and group appointments. Appointments can then be completed or canceled, as appropriate, after being scheduled through the Telehealth Management Platform.
+Scheduling through the Telehealth Management Platform is simplified by allowing resources and service agreements to be pulled into appointments. As the Telehealth Management Platform is integrated with VistA, scheduling through the Telehealth Management Platform automatically updates VistA. Scheduling is also facilitated through the use of calendars, which automatically verify that the required resources are available for a requested date. The most commonly used features under the Scheduling function are Clinic-Based Scheduling, VA Video Connect Scheduling, Completing Appointments, and Canceling Appointments. Clinic-Based scheduling is used to coordinate resources for an appointment between two VA Facilities. VA Video Connect scheduling is used to coordinate resources for an appointment between a VA Facility and a Veteran's home. Both types of scheduling support individual and group appointments. Appointments can then be completed or canceled, as appropriate, after being scheduled through the Telehealth Management Platform.
 
 Managing Scheduling, including Completing and Canceling Appointments, requires the TMP Scheduler and TMP Scheduling Team level of access/security role. Staff that will typically need these levels of access/security roles include Telehealth Clinical Technicians and Facility Telehealth Coordinators. Staff must take the VHA Scheduling Training before scheduling in the Telehealth Management Platform.
 
@@ -937,7 +974,7 @@ Managing Scheduling, including Completing and Canceling Appointments, requires t
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The Telehealth Management Platform makes scheduling information available across Facilities, assisting with the scheduling process. Additionally, consults, workload, and documentation of clinical visits (for continuity of care) can be captured through the Telehealth Management Platform. This helps address scheduling challenges which require finding a day, time, and room with technology that fits the Veteran’s schedule, provider site’s schedule, and patient site’s schedule. The Telehealth Management Platform supports the following clinic-based appointments:
+The Telehealth Management Platform makes scheduling information available across Facilities, assisting with the scheduling process. Additionally, consults, workload, and documentation of clinical visits (for continuity of care) can be captured through the Telehealth Management Platform. This helps address scheduling challenges which require finding a day, time, and room with technology that fits the Veteran's schedule, provider site's schedule, and patient site's schedule. The Telehealth Management Platform supports the following clinic-based appointments:
 
 - Clinical Video Telehealth – Individual – Intrafacility
 - Clinical Video Telehealth – Individual – Interfacility
@@ -980,7 +1017,7 @@ The Telehealth Management Platforms supports pulling and displaying data from se
 
 All levels of access/security roles can access the Workplace. However, views and options may be limited for different levels of access/security roles. Staff that will typically need to utilize the Workplace include VISN Leads, Facility Telehealth Coordinators, Telehealth Clinical Technicians, Schedulers, and non-telehealth staff (e.g. executive leadership and supervisors of telehealth staff).
 
-Views, charts, and dashboards can be created through the Telehealth Management Platform. Views allow staff to adjust filter searches, for example limiting a search to show completed appointments or resources for a single facility. The information for each view is displayed through an associated chart. There are two types of views. “System Views” are generated by the Telehealth Management Platform while “My Views” are custom views created by the user. The settings option allows the views to be changed, for example to display more information.
+Views, charts, and dashboards can be created through the Telehealth Management Platform. Views allow staff to adjust filter searches, for example limiting a search to show completed appointments or resources for a single facility. The information for each view is displayed through an associated chart. There are two types of views. "System Views" are generated by the Telehealth Management Platform while "My Views" are custom views created by the user. The settings option allows the views to be changed, for example to display more information.
 
 Dashboards are used to display specific views and charts on a single page; this is helpful for staff that need to monitor specific data daily and would otherwise need to navigate to multiple places in the Telehealth Management Platform to access information that can be displayed on the dashboard.
 
@@ -999,7 +1036,7 @@ Phonebook is a useful tool in multiple situations. Examples of when it would be 
 - Access contact information for a site
 - Connect to a site using an assigned virtual medical room
 - View emergency procedures and emergency contact numbers for a specific site
-- Determinate a site’s capabilities
+- Determinate a site's capabilities
 
 ## Settings
 
@@ -1097,7 +1134,7 @@ The basic functions for this team are:
 
 <!-- back-to-toc -->[↑ Table of Contents](#table-of-contents)
 
-The TMP Scheduler Team schedules Veterans’ appointments via TSAs.
+The TMP Scheduler Team schedules Veterans' appointments via TSAs.
 
 Staff who are added to the TMP Scheduler Team will inherit the TMP User and Scheduler levels of access/security roles.
 

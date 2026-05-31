@@ -3,46 +3,47 @@ title: Pharmacy Interface Automation (PIA) Startup and Troubleshooting Guide
 doc_type: SUP
 doc_label: Supplement
 doc_layer: plain
-doc_subject: 
+doc_subject: null
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
-pkg_ns: 
-patch_ver: 
-patch_id: 
-group_key: 
-file_numbers: []
-security_keys: []
+pkg_ns: PSS
+patch_ver: null
+patch_id: null
+group_key: null
+description: Pharmacy Interface Automation (PIA)Startup and Troubleshooting
+audience: ''
+keywords: []
+file_numbers:
+- '3'
+- '50'
+- '57.8'
+- '58.6'
+- '58.601'
+- '58.63'
+- '58.7'
+security_keys:
+- MGR
+- PSJ PADE ADV
+- PSJ PADE MGR
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - pade
-  - send
-  - setup
-  - clinic
-  - group
-  - messages
-  - inventory
-  - device
-  - class
-  - dispensing
 page_count: 0
 word_count: 9083
 section_count: 16
 table_count: 0
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
-pub_date: 
+has_toc: false
+is_stub: false
+pub_date: null
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_r1016_tg.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_r1016_tg.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_r1016_tg.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psj_5_r1016_tg.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 Pharmacy Interface Automation (PIA)Startup and Troubleshooting Guide

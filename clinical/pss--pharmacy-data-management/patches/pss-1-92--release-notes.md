@@ -5,44 +5,39 @@ doc_label: Release Notes
 doc_layer: patch
 doc_subject: PSN*4*103 Patient Financial Services System (PFSS)
 app_code: PSS
-app_name: "Pharmacy: Data Management"
+app_name: 'Pharmacy: Data Management'
 section: CLI
 app_status: active
 pkg_ns: PSS
 patch_ver: 1
 patch_id: PSS*1*92
-group_key: "PSS:PSS:1"
-file_numbers: []
+group_key: PSS:PSS:1
+description: '*(This page intentionally left blank for two-sided'
+audience: System administrators, end users reviewing changes
+keywords: []
+file_numbers:
+- '50'
+- '50.68'
+- '400'
+- '2000'
 security_keys: []
 menu_options: 0
-description: 
-audience: 
-keywords: 
-  - code
-  - table
-  - contents
-  - service
-  - drug
-  - pfss
-  - functionality
-  - billing
-  - patch
-  - product
 page_count: 0
 word_count: 1129
 section_count: 8
 table_count: 2
 figure_count: 0
 appendix_count: 0
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: June 2006
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psn_4_103_pss_1_92_rn.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psn_4_103_pss_1_92_rn.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=93"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psn_4_103_pss_1_92_rn.docx
+pdf_url: https://www.va.gov/vdl/documents/Clinical/Pharm-Data_Mgmnt_(PDM)/psn_4_103_pss_1_92_rn.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=93
+audit_applied: '2026-05-31'
 ---
 
 ![](pss-1-92-psn-4-103-patient-financial-services-system-pfss-release-notes/001.png)

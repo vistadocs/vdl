@@ -3,7 +3,7 @@ title: Kernel 8.0 Installation Guide
 doc_type: IG
 doc_label: Installation Guide
 doc_layer: anchor
-doc_subject: 
+doc_subject: null
 app_code: XU
 app_name: Kernel
 section: INF
@@ -11,38 +11,51 @@ app_status: active
 pkg_ns: XU
 patch_ver: 8.0
 patch_id: XU*8.0
-group_key: "XU:XU:8.0"
-file_numbers: []
-security_keys: []
-menu_options: 0
-description: 
-audience: 
-keywords: 
-  - kernel
-  - strong
-  - installation
-  - class
-  - table
-  - span
-  - routines
-  - install
-  - colgroup
-  - tbody
+group_key: XU:XU:8.0
+description: The following table displays the revision history for this document. Revisions to the documentation are based on patches and new versions released to the
+audience: System administrators performing installation
+keywords: []
+file_numbers:
+- '1'
+- '1.2'
+- '3.05'
+- '3.07'
+- '3.5'
+- '4.2'
+- '4.3'
+- '8.0'
+- '9.6'
+- '9.7'
+- '14.5'
+- '14.6'
+- '14.7'
+- '19'
+- '19.2'
+- '200'
+- '8989.2'
+- '8989.3'
+- '8992'
+security_keys:
+- PF1
+- PROVIDER
+- XUPROGMODE
+menu_options: 1
 page_count: 0
 word_count: 8158
 section_count: 5
 table_count: 44
 figure_count: 0
 appendix_count: 1
-has_toc: False
-is_stub: False
+has_toc: false
+is_stub: false
 pub_date: July 1995
 revision_count: 0
-revision_newest: 
-revision_oldest: 
-docx_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0ig.docx"
-pdf_url: "https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0ig.pdf"
-app_url: "https://www.va.gov/vdl/application.asp?appid=10"
+revision_newest: null
+revision_oldest: null
+docx_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0ig.docx
+pdf_url: https://www.va.gov/vdl/documents/Infrastructure/Kernel/krn8_0ig.pdf
+app_url: https://www.va.gov/vdl/application.asp?appid=10
+audit_applied: '2026-05-31'
 ---
 
 ![](kernel-8-0-installation-guide/001.png)
